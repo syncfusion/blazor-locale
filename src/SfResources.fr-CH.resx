@@ -669,11 +669,35 @@
   <data name="FileManager_KB" xml:space="preserve">
     <value>Ko</value>
   </data>
+  <data name="FileManager_AccessMessage" xml:space="preserve">
+    <value>{0} n'est pas accessible. vous avez besoin d'une autorisation pour effectuer l'action {1}.</value>
+  </data>
+  <data name="FileManager_NetworkError" xml:space="preserve">
+    <value>NetworkError: échec d'envoi sur XMLHTTPRequest: échec de chargement</value>
+  </data>
+  <data name="FileManager_ServerError" xml:space="preserve">
+    <value>ServerError: réponse non valide de</value>
+  </data>
   <data name="Slider_DecrementTitle" xml:space="preserve">
     <value>diminuer</value>
   </data>
   <data name="Slider_IncrementTitle" xml:space="preserve">
     <value>augmenter</value>
+  </data>
+  <data name="Maps_Zoom" xml:space="preserve">
+    <value>Zoom</value>
+  </data>
+  <data name="Maps_ZoomIn" xml:space="preserve">
+      <value>Agrandir</value>
+  </data>
+  <data name="Maps_ZoomOut" xml:space="preserve">
+      <value>Dézoomer</value>
+  </data>
+  <data name="Maps_Reset" xml:space="preserve">
+      <value>Réinitialiser</value>
+  </data>
+  <data name="Maps_Pan" xml:space="preserve">
+      <value>La poêle</value>
   </data>
   <data name="Gantt_EmptyRecord" xml:space="preserve">
     <value>Aucun enregistrement à afficher</value>
@@ -1350,6 +1374,9 @@
   <data name="PivotFieldList_CalculatedField_ClearTooltipMessage" xml:space="preserve">
     <value>Effacer les informations des champs modifiés</value>
   </data>
+  <data name="PivotFieldList_Format" xml:space="preserve">
+    <value>Format</value>
+  </data>
   <data name="PivotView_AddCondition" xml:space="preserve">
     <value>Ajouter une condition</value>
   </data>
@@ -1380,7 +1407,7 @@
   <data name="PivotView_All" xml:space="preserve">
     <value>Tout</value>
   </data>
-  <data name="PivotView_All Fields" xml:space="preserve">
+  <data name="PivotView_AllFields" xml:space="preserve">
     <value>Tous les champs</value>
   </data>
   <data name="PivotView_AllValues" xml:space="preserve">
@@ -2088,6 +2115,12 @@
   <data name="PivotView_Radar" xml:space="preserve">
     <value>Radar</value>
   </data>
+  <data name="PivotView_CalculatedField_EditTooltipMessage" xml:space="preserve">
+    <value>Modifier le champ calculé</value>
+  </data>
+  <data name="PivotView_CalculatedField_ClearTooltipMessage" xml:space="preserve">
+    <value>Effacer les informations des champs modifiés</value>
+  </data>
   <data name="Diagram_BringToFront" xml:space="preserve">
     <value>Mettre au premier plan</value>
   </data>
@@ -2747,5 +2780,872 @@
   </data>
   <data name="Tab_CloseButtonTitle" xml:space="preserve">
     <value>Fermer</value>
+  </data>
+  <data name="Dialog_Close" xml:space="preserve">
+    <value>Fermer</value>
+  </data>
+  <data name="Toast_Close" xml:space="preserve">
+    <value>Fermer</value>
+  </data>
+  <data name="InPlaceEditor_Save" xml:space="preserve">
+    <value>sauvegarder</value>
+  </data>
+  <data name="InPlaceEditor_Cancel" xml:space="preserve">
+    <value>Annuler</value>
+  </data>
+  <data name="InPlaceEditor_LoadingText" xml:space="preserve">
+    <value>Chargement...</value>
+  </data>
+  <data name="InPlaceEditor_EditIcon" xml:space="preserve">
+    <value>Cliquez pour modifier</value>
+  </data>
+  <data name="InPlaceEditor_EditAreaClick" xml:space="preserve">
+    <value>Cliquez pour modifier</value>
+  </data>
+  <data name="InPlaceEditor_EditAreaDoubleClick" xml:space="preserve">
+    <value>Double-cliquez pour modifier</value>
+  </data>
+  <data name="Kanban_Items" xml:space="preserve">
+    <value>articles</value>
+  </data>
+  <data name="Kanban_Min" xml:space="preserve">
+    <value>Min</value>
+  </data>
+  <data name="Kanban_Max" xml:space="preserve">
+    <value>Max</value>
+  </data>
+  <data name="Kanban_CardsSelected" xml:space="preserve">
+    <value>Cartes sélectionnées</value>
+  </data>
+  <data name="Kanban_AddTitle" xml:space="preserve">
+    <value>Ajouter une nouvelle carte</value>
+  </data>
+  <data name="Kanban_EditTitle" xml:space="preserve">
+    <value>Modifier les détails de la carte</value>
+  </data>
+  <data name="Kanban_DeleteTitle" xml:space="preserve">
+    <value>Supprimer la carte</value>
+  </data>
+  <data name="Kanban_DeleteContent" xml:space="preserve">
+    <value>Voulez-vous vraiment supprimer cette carte?</value>
+  </data>
+  <data name="Kanban_Save" xml:space="preserve">
+    <value>sauver</value>
+  </data>
+  <data name="Kanban_Delete" xml:space="preserve">
+    <value>Effacer</value>
+  </data>
+  <data name="Kanban_Cancel" xml:space="preserve">
+    <value>Annuler</value>
+  </data>
+  <data name="Kanban_Yes" xml:space="preserve">
+    <value>Oui</value>
+  </data>
+  <data name="Kanban_No" xml:space="preserve">
+    <value>Non</value>
+  </data>
+  <data name="RichTextEditor_Alignments" xml:space="preserve">
+    <value>Alignments</value>
+  </data>
+  <data name="RichTextEditor_JustifyLeft" xml:space="preserve">
+    <value>Alignez à gauche</value>
+  </data>
+  <data name="RichTextEditor_JustifyCenter" xml:space="preserve">
+    <value>Aligner le centre</value>
+  </data>
+  <data name="RichTextEditor_JustifyRight" xml:space="preserve">
+    <value>Aligner à droite</value>
+  </data>
+  <data name="RichTextEditor_JustifyFull" xml:space="preserve">
+    <value>Aligner Justifier</value>
+  </data>
+  <data name="RichTextEditor_FontName" xml:space="preserve">
+    <value>Nom de police</value>
+  </data>
+  <data name="RichTextEditor_FontSize" xml:space="preserve">
+    <value>Taille de police</value>
+  </data>
+  <data name="RichTextEditor_FontColor" xml:space="preserve">
+    <value>Couleur de la police</value>
+  </data>
+  <data name="RichTextEditor_BackgroundColor" xml:space="preserve">
+    <value>Couleur de l'arrière plan</value>
+  </data>
+  <data name="RichTextEditor_Bold" xml:space="preserve">
+    <value>Audacieux</value>
+  </data>
+  <data name="RichTextEditor_Italic" xml:space="preserve">
+    <value>Italique</value>
+  </data>
+  <data name="RichTextEditor_Underline" xml:space="preserve">
+    <value>Souligner</value>
+  </data>
+  <data name="RichTextEditor_Strikethrough" xml:space="preserve">
+    <value>Barré</value>
+  </data>
+  <data name="RichTextEditor_ClearFormat" xml:space="preserve">
+    <value>Format clair</value>
+  </data>
+  <data name="RichTextEditor_ClearAll" xml:space="preserve">
+    <value>Tout effacer</value>
+  </data>
+  <data name="RichTextEditor_Cut" xml:space="preserve">
+    <value>Couper</value>
+  </data>
+  <data name="RichTextEditor_Copy" xml:space="preserve">
+    <value>Copie</value>
+  </data>
+  <data name="RichTextEditor_Paste" xml:space="preserve">
+    <value>Pâte</value>
+  </data>
+  <data name="RichTextEditor_UnorderedList" xml:space="preserve">
+    <value>Liste à puces</value>
+  </data>
+  <data name="RichTextEditor_OrderedList" xml:space="preserve">
+    <value>Liste numérotée</value>
+  </data>
+  <data name="RichTextEditor_Indent" xml:space="preserve">
+    <value>Augmenter le retrait</value>
+  </data>
+  <data name="RichTextEditor_Outdent" xml:space="preserve">
+    <value>Diminuer le retrait</value>
+  </data>
+  <data name="RichTextEditor_Undo" xml:space="preserve">
+    <value>annuler</value>
+  </data>
+  <data name="RichTextEditor_Redo" xml:space="preserve">
+    <value>Refaire</value>
+  </data>
+  <data name="RichTextEditor_Superscript" xml:space="preserve">
+    <value>Exposant</value>
+  </data>
+  <data name="RichTextEditor_Subscript" xml:space="preserve">
+    <value>Indice</value>
+  </data>
+  <data name="RichTextEditor_CreateLink" xml:space="preserve">
+    <value>Insérer un lien hypertexte</value>
+  </data>
+  <data name="RichTextEditor_OpenLink" xml:space="preserve">
+    <value>Ouvrir le lien</value>
+  </data>
+  <data name="RichTextEditor_EditLink" xml:space="preserve">
+    <value>Modifier le lien</value>
+  </data>
+  <data name="RichTextEditor_RemoveLink" xml:space="preserve">
+    <value>Supprimer le lien</value>
+  </data>
+  <data name="RichTextEditor_Image" xml:space="preserve">
+    <value>Insérer une image</value>
+  </data>
+  <data name="RichTextEditor_Replace" xml:space="preserve">
+    <value>Remplacer</value>
+  </data>
+  <data name="RichTextEditor_Align" xml:space="preserve">
+    <value>Aligner</value>
+  </data>
+  <data name="RichTextEditor_Caption" xml:space="preserve">
+    <value>Légende</value>
+  </data>
+  <data name="RichTextEditor_Remove" xml:space="preserve">
+    <value>Retirer</value>
+  </data>
+  <data name="RichTextEditor_InsertLink" xml:space="preserve">
+    <value>Insérer un lien</value>
+  </data>
+  <data name="RichTextEditor_Display" xml:space="preserve">
+    <value>Afficher</value>
+  </data>
+  <data name="RichTextEditor_AltText" xml:space="preserve">
+    <value>Texte alternatif</value>
+  </data>
+  <data name="RichTextEditor_Dimension" xml:space="preserve">
+    <value>Changer la taille</value>
+  </data>
+  <data name="RichTextEditor_Fullscreen" xml:space="preserve">
+    <value>Maximiser</value>
+  </data>
+  <data name="RichTextEditor_Maximize" xml:space="preserve">
+    <value>Maximiser</value>
+  </data>
+  <data name="RichTextEditor_Minimize" xml:space="preserve">
+    <value>Minimiser</value>
+  </data>
+  <data name="RichTextEditor_LowerCase" xml:space="preserve">
+    <value>Minuscules</value>
+  </data>
+  <data name="RichTextEditor_UpperCase" xml:space="preserve">
+    <value>Majuscules</value>
+  </data>
+  <data name="RichTextEditor_Print" xml:space="preserve">
+    <value>Impression</value>
+  </data>
+  <data name="RichTextEditor_Formats" xml:space="preserve">
+    <value>Les formats</value>
+  </data>
+  <data name="RichTextEditor_Sourcecode" xml:space="preserve">
+    <value>Affichage du code</value>
+  </data>
+  <data name="RichTextEditor_Preview" xml:space="preserve">
+    <value>Aperçu</value>
+  </data>
+  <data name="RichTextEditor_Viewside" xml:space="preserve">
+    <value>Vue latérale</value>
+  </data>
+  <data name="RichTextEditor_InsertCode" xml:space="preserve">
+    <value>Insérer le code</value>
+  </data>
+  <data name="RichTextEditor_LinkText" xml:space="preserve">
+    <value>Afficher le texte</value>
+  </data>
+  <data name="RichTextEditor_LinkTooltipLabel" xml:space="preserve">
+    <value>Titre</value>
+  </data>
+  <data name="RichTextEditor_LinkWebUrl" xml:space="preserve">
+    <value>Adresse web</value>
+  </data>
+  <data name="RichTextEditor_LinkTitle" xml:space="preserve">
+    <value>Entrez un titre</value>
+  </data>
+  <data name="RichTextEditor_LinkUrl" xml:space="preserve">
+    <value>http://example.com</value>
+  </data>
+  <data name="RichTextEditor_LinkOpenInNewWindow" xml:space="preserve">
+    <value>Ouvre le lien dans une nouvelle fenêtre</value>
+  </data>
+  <data name="RichTextEditor_LinkHeader" xml:space="preserve">
+    <value>Insérer un lien</value>
+  </data>
+  <data name="RichTextEditor_DialogInsert" xml:space="preserve">
+    <value>Insérer</value>
+  </data>
+  <data name="RichTextEditor_DialogCancel" xml:space="preserve">
+    <value>Annuler</value>
+  </data>
+  <data name="RichTextEditor_DialogUpdate" xml:space="preserve">
+    <value>Mise à jour</value>
+  </data>
+  <data name="RichTextEditor_ImageHeader" xml:space="preserve">
+    <value>Insérer une image</value>
+  </data>
+  <data name="RichTextEditor_ImageLinkHeader" xml:space="preserve">
+    <value>Vous pouvez également fournir un lien à partir du Web</value>
+  </data>
+  <data name="RichTextEditor_MdImageLink" xml:space="preserve">
+    <value>Veuillez fournir une URL pour votre image</value>
+  </data>
+  <data name="RichTextEditor_ImageUploadMessage" xml:space="preserve">
+    <value>Déposer l'image ici ou parcourir pour télécharger</value>
+  </data>
+  <data name="RichTextEditor_ImageDeviceUploadMessage" xml:space="preserve">
+    <value>Cliquez ici pour télécharger</value>
+  </data>
+  <data name="RichTextEditor_ImageAlternateText" xml:space="preserve">
+    <value>Texte alternatif</value>
+  </data>
+  <data name="RichTextEditor_AlternateHeader" xml:space="preserve">
+    <value>Texte alternatif</value>
+  </data>
+  <data name="RichTextEditor_Browse" xml:space="preserve">
+    <value>Feuilleter</value>
+  </data>
+  <data name="RichTextEditor_ImageUrl" xml:space="preserve">
+    <value>http://example.com/image.png</value>
+  </data>
+  <data name="RichTextEditor_ImageCaption" xml:space="preserve">
+    <value>Légende</value>
+  </data>
+  <data name="RichTextEditor_ImageSizeHeader" xml:space="preserve">
+    <value>Taille de l'image</value>
+  </data>
+  <data name="RichTextEditor_ImageHeight" xml:space="preserve">
+    <value>la taille</value>
+  </data>
+  <data name="RichTextEditor_ImageWidth" xml:space="preserve">
+    <value>Largeur</value>
+  </data>
+  <data name="RichTextEditor_TextPlaceholder" xml:space="preserve">
+    <value>Entrez du texte</value>
+  </data>
+  <data name="RichTextEditor_InsertTableBtn" xml:space="preserve">
+    <value>Insérer un tableau</value>
+  </data>
+  <data name="RichTextEditor_TableDialogHeader" xml:space="preserve">
+    <value>Insérer un tableau</value>
+  </data>
+  <data name="RichTextEditor_TableWidth" xml:space="preserve">
+    <value>Largeur</value>
+  </data>
+  <data name="RichTextEditor_Cellpadding" xml:space="preserve">
+    <value>Rembourrage cellulaire</value>
+  </data>
+  <data name="RichTextEditor_Cellspacing" xml:space="preserve">
+    <value>Espacement des cellules</value>
+  </data>
+  <data name="RichTextEditor_Columns" xml:space="preserve">
+    <value>Le nombre de colonnes</value>
+  </data>
+  <data name="RichTextEditor_Rows" xml:space="preserve">
+    <value>Nombre de rangées</value>
+  </data>
+  <data name="RichTextEditor_TableRows" xml:space="preserve">
+    <value>Lignes de table</value>
+  </data>
+  <data name="RichTextEditor_TableColumns" xml:space="preserve">
+    <value>Colonnes de table</value>
+  </data>
+  <data name="RichTextEditor_TableCellHorizontalAlign" xml:space="preserve">
+    <value>Alignement horizontal des cellules du tableau</value>
+  </data>
+  <data name="RichTextEditor_TableCellVerticalAlign" xml:space="preserve">
+    <value>Alignement vertical des cellules du tableau</value>
+  </data>
+  <data name="RichTextEditor_CreateTable" xml:space="preserve">
+    <value>Créer une table</value>
+  </data>
+  <data name="RichTextEditor_RemoveTable" xml:space="preserve">
+    <value>Supprimer le tableau</value>
+  </data>
+  <data name="RichTextEditor_TableHeader" xml:space="preserve">
+    <value>En-tête de tableau</value>
+  </data>
+  <data name="RichTextEditor_TableRemove" xml:space="preserve">
+    <value>Tableau Supprimer</value>
+  </data>
+  <data name="RichTextEditor_TableCellBackground" xml:space="preserve">
+    <value>Fond de cellule de tableau</value>
+  </data>
+  <data name="RichTextEditor_TableEditProperties" xml:space="preserve">
+    <value>Propriétés de modification du tableau</value>
+  </data>
+  <data name="RichTextEditor_Styles" xml:space="preserve">
+    <value>modes</value>
+  </data>
+  <data name="RichTextEditor_InsertColumnLeft" xml:space="preserve">
+    <value>Insérer une colonne à gauche</value>
+  </data>
+  <data name="RichTextEditor_InsertColumnRight" xml:space="preserve">
+    <value>Insérer une colonne à droite</value>
+  </data>
+  <data name="RichTextEditor_DeleteColumn" xml:space="preserve">
+    <value>Supprimer la colonne</value>
+  </data>
+  <data name="RichTextEditor_InsertRowBefore" xml:space="preserve">
+    <value>Insérer une ligne avant</value>
+  </data>
+  <data name="RichTextEditor_InsertRowAfter" xml:space="preserve">
+    <value>Insérer une ligne après</value>
+  </data>
+  <data name="RichTextEditor_DeleteRow" xml:space="preserve">
+    <value>Supprimer la ligne</value>
+  </data>
+  <data name="RichTextEditor_TableEditHeader" xml:space="preserve">
+    <value>Modifier le tableau</value>
+  </data>
+  <data name="RichTextEditor_TableHeadingText" xml:space="preserve">
+    <value>Titre</value>
+  </data>
+  <data name="RichTextEditor_TableColText" xml:space="preserve">
+    <value>Col</value>
+  </data>
+  <data name="RichTextEditor_ImageInsertLinkHeader" xml:space="preserve">
+    <value>Insérer un lien</value>
+  </data>
+  <data name="RichTextEditor_EditImageHeader" xml:space="preserve">
+    <value>Éditer l'image</value>
+  </data>
+  <data name="RichTextEditor_AlignmentsDropDownLeft" xml:space="preserve">
+    <value>Alignez à gauche</value>
+  </data>
+  <data name="RichTextEditor_AlignmentsDropDownCenter" xml:space="preserve">
+    <value>Aligner le centre</value>
+  </data>
+  <data name="RichTextEditor_AlignmentsDropDownRight" xml:space="preserve">
+    <value>Aligner à droite</value>
+  </data>
+  <data name="RichTextEditor_AlignmentsDropDownJustify" xml:space="preserve">
+    <value>Aligner Justifier</value>
+  </data>
+  <data name="RichTextEditor_ImageDisplayDropDownInline" xml:space="preserve">
+    <value>En ligne</value>
+  </data>
+  <data name="RichTextEditor_ImageDisplayDropDownBreak" xml:space="preserve">
+    <value>Pause</value>
+  </data>
+  <data name="RichTextEditor_TableInsertRowDropDownBefore" xml:space="preserve">
+    <value>Insérer une ligne avant</value>
+  </data>
+  <data name="RichTextEditor_TableInsertRowDropDownAfter" xml:space="preserve">
+    <value>Insérer une ligne après</value>
+  </data>
+  <data name="RichTextEditor_TableInsertRowDropDownDelete" xml:space="preserve">
+    <value>Supprimer la ligne</value>
+  </data>
+  <data name="RichTextEditor_TableInsertColumnDropDownLeft" xml:space="preserve">
+    <value>Insérer la colonne à gauche</value>
+  </data>
+  <data name="RichTextEditor_TableInsertColumnDropDownRight" xml:space="preserve">
+    <value>Insérer une colonne à droite</value>
+  </data>
+  <data name="RichTextEditor_TableInsertColumnDropDownDelete" xml:space="preserve">
+    <value>Supprimer la colonne</value>
+  </data>
+  <data name="RichTextEditor_TableVerticalAlignDropDownTop" xml:space="preserve">
+    <value>Aligner en haut</value>
+  </data>
+  <data name="RichTextEditor_TableVerticalAlignDropDownMiddle" xml:space="preserve">
+    <value>Aligner au milieu</value>
+  </data>
+  <data name="RichTextEditor_TableVerticalAlignDropDownBottom" xml:space="preserve">
+    <value>Aligner en bas</value>
+  </data>
+  <data name="RichTextEditor_TableStylesDropDownDashedBorder" xml:space="preserve">
+    <value>Bordures pointillées</value>
+  </data>
+  <data name="RichTextEditor_TableStylesDropDownAlternateRows" xml:space="preserve">
+    <value>Lignes alternatives</value>
+  </data>
+  <data name="RichTextEditor_PasteFormat" xml:space="preserve">
+    <value>Coller le format</value>
+  </data>
+  <data name="RichTextEditor_PasteFormatContent" xml:space="preserve">
+    <value>Choisissez l'action de formatage</value>
+  </data>
+  <data name="RichTextEditor_PlainText" xml:space="preserve">
+    <value>Texte brut</value>
+  </data>
+  <data name="RichTextEditor_CleanFormat" xml:space="preserve">
+    <value>Nettoyer</value>
+  </data>
+  <data name="RichTextEditor_KeepFormat" xml:space="preserve">
+    <value>Garder</value>
+  </data>
+  <data name="RichTextEditor_PasteDialogOk" xml:space="preserve">
+    <value>D'accord</value>
+  </data>
+  <data name="RichTextEditor_PasteDialogCancel" xml:space="preserve">
+    <value>Annuler</value>
+  </data>
+<data name="PdfViewer" xml:space="preserve">
+    <value> Visionneuse PDF </value>
+  </data>
+  <data name="PdfViewer_Cancel" xml:space="preserve">
+    <value> Annuler </value>
+  </data>
+  <data name="PdfViewer_DownloadFile" xml:space="preserve">
+    <value> Télécharger un fichier </value>
+  </data>
+  <data name="PdfViewer_Download" xml:space="preserve">
+    <value> Télécharger </value>
+  </data>
+  <data name="PdfViewer_EnterPassword" xml:space="preserve">
+    <value> Ce document est protégé par mot de passe. Veuillez entrer un mot de passe.</value>
+  </data>
+  <data name="PdfViewer_FileCorrupted" xml:space="preserve">
+    <value> Fichier corrompu </value>
+  </data>
+  <data name="PdfViewer_FileCorruptedContent" xml:space="preserve">
+    <value> Le fichier est corrompu et ne peut pas être ouvert.</value>
+  </data>
+  <data name="PdfViewer_FitPage" xml:space="preserve">
+    <value> Ajuster la page </value>
+  </data>
+  <data name="PdfViewer_FitWidth" xml:space="preserve">
+    <value> Largeur de coupe </value>
+  </data>
+  <data name="PdfViewer_Automatic" xml:space="preserve">
+    <value> Automatique </value>
+  </data>
+  <data name="PdfViewer_GoToFirstPage" xml:space="preserve">
+    <value> Afficher la première page </value>
+  </data>
+  <data name="PdfViewer_InvalidPassword" xml:space="preserve">
+    <value> Mot de passe incorrect. Veuillez réessayer.</value>
+  </data>
+  <data name="PdfViewer_NextPage" xml:space="preserve">
+    <value> Afficher la page suivante </value>
+  </data>
+  <data name="PdfViewer_PreviousPage" xml:space="preserve">
+    <value> Afficher la page précédente </value>
+  </data>
+  <data name="PdfViewer_OK" xml:space="preserve">
+    <value> D'accord </value>
+  </data>
+  <data name="PdfViewer_Open" xml:space="preserve">
+    <value> Fichier ouvert </value>
+  </data>
+  <data name="PdfViewer_PageNumber" xml:space="preserve">
+    <value> Numéro de page actuel </value>
+  </data>
+  <data name="PdfViewer_GoToLastPage" xml:space="preserve">
+    <value> Afficher la dernière page </value>
+  </data>
+  <data name="PdfViewer_Zoom" xml:space="preserve">
+    <value> Zoom </value>
+  </data>
+  <data name="PdfViewer_ZoomIn" xml:space="preserve">
+    <value> Agrandir </value>
+  </data>
+  <data name="PdfViewer_ZoomOut" xml:space="preserve">
+    <value> Dézoomer </value>
+  </data>
+  <data name="PdfViewer_PageThumbnails" xml:space="preserve">
+    <value> Vignettes de page </value>
+  </data>
+  <data name="PdfViewer_Bookmarks" xml:space="preserve">
+    <value> Signets </value>
+  </data>
+  <data name="PdfViewer_Print" xml:space="preserve">
+    <value> Imprimer le fichier </value>
+  </data>
+  <data name="PdfViewer_PasswordProtected" xml:space="preserve">
+    <value> Mot de passe requis </value>
+  </data>
+  <data name="PdfViewer_Copy" xml:space="preserve">
+    <value> Copie </value>
+  </data>
+  <data name="PdfViewer_TextSelection" xml:space="preserve">
+    <value> Outil de sélection de texte </value>
+  </data>
+  <data name="PdfViewer_Panning" xml:space="preserve">
+    <value> Mode panoramique </value>
+  </data>
+  <data name="PdfViewer_TextSearch" xml:space="preserve">
+    <value> Rechercher du texte </value>
+  </data>
+  <data name="PdfViewer_Findindocument" xml:space="preserve">
+    <value> Rechercher dans le document </value>
+  </data>
+  <data name="PdfViewer_Matchcase" xml:space="preserve">
+    <value> Cas de correspondance </value>
+  </data>
+  <data name="PdfViewer_Apply" xml:space="preserve">
+    <value> Appliquer </value>
+  </data>
+  <data name="PdfViewer_GoToPage" xml:space="preserve">
+    <value> Aller à la page </value>
+  </data>
+  <data name="PdfViewer_Nomatches" xml:space="preserve">
+    <value> La visionneuse a terminé la recherche du document. Aucune autre correspondance n'a été trouvée </value>
+  </data>
+  <data name="PdfViewer_NoTextFound" xml:space="preserve">
+    <value> Aucun texte trouvé </value>
+  </data>
+  <data name="PdfViewer_Undo" xml:space="preserve">
+    <value> annuler </value>
+  </data>
+  <data name="PdfViewer_Redo" xml:space="preserve">
+    <value> Refaire </value>
+  </data>
+  <data name="PdfViewer_Annotation" xml:space="preserve">
+    <value> Ajouter ou modifier des annotations </value>
+  </data>
+  <data name="PdfViewer_Highlight" xml:space="preserve">
+    <value> Texte surligné </value>
+  </data>
+  <data name="PdfViewer_Underline" xml:space="preserve">
+    <value> Souligner le texte </value>
+  </data>
+  <data name="PdfViewer_Strikethrough" xml:space="preserve">
+    <value> Texte barré </value>
+  </data>
+  <data name="PdfViewer_Delete" xml:space="preserve">
+    <value> Supprimer l'annotation </value>
+  </data>
+  <data name="PdfViewer_Opacity" xml:space="preserve">
+    <value> Opacité </value>
+  </data>
+  <data name="PdfViewer_ColorEdit" xml:space="preserve">
+    <value> Changer de couleur </value>
+  </data>
+  <data name="PdfViewer_OpacityEdit" xml:space="preserve">
+    <value> Changer l'opacité </value>
+  </data>
+  <data name="PdfViewer_HighlightContext" xml:space="preserve">
+    <value> Surligner </value>
+  </data>
+  <data name="PdfViewer_UnderlineContext" xml:space="preserve">
+    <value>Souligner</value>
+  </data>
+  <data name="PdfViewer_StrikethroughContext" xml:space="preserve">
+    <value> Grève </value>
+  </data>
+  <data name="PdfViewer_Servererror" xml:space="preserve">
+    <value> Le service Web n'écoute pas. PDF Viewer dépend du service Web pour toutes ses fonctionnalités. Veuillez démarrer le service Web pour continuer.</value>
+  </data>
+  <data name="PdfViewer_Clienterror" xml:space="preserve">
+    <value> Une erreur côté client a été trouvée. Veuillez vérifier les en-têtes personnalisés fournis dans la propriété AjaxRequestSettings et les méthodes d'action Web dans la propriété ServerActionSettings.</value>
+  </data>
+  <data name="PdfViewer_OpenText" xml:space="preserve">
+    <value> Ouverte </value>
+  </data>
+  <data name="PdfViewer_FirstText" xml:space="preserve">
+    <value>Première page</value>
+  </data>
+  <data name="PdfViewer_PreviousText" xml:space="preserve">
+    <value>Page précédente</value>
+  </data>
+  <data name="PdfViewer_NextText" xml:space="preserve">
+    <value> Page suivante </value>
+  </data>
+  <data name="PdfViewer_LastText" xml:space="preserve">
+    <value> Dernière page </value>
+  </data>
+  <data name="PdfViewer_ZoomInText" xml:space="preserve">
+    <value> Agrandir </value>
+  </data>
+  <data name="PdfViewer_ZoomOutText" xml:space="preserve">
+    <value> Dézoomer </value>
+  </data>
+  <data name="PdfViewer_SelectionText" xml:space="preserve">
+    <value> Sélection </value>
+  </data>
+  <data name="PdfViewer_PanText" xml:space="preserve">
+    <value> La poêle </value>
+  </data>
+  <data name="PdfViewer_PrintText" xml:space="preserve">
+    <value> Impression </value>
+  </data>
+  <data name="PdfViewer_SearchText" xml:space="preserve">
+    <value> Chercher </value>
+  </data>
+  <data name="PdfViewer_AnnotationEditText" xml:space="preserve">
+    <value> Modifier l'annotation </value>
+  </data>
+  <data name="PdfViewer_LineThickness" xml:space="preserve">
+    <value> Épaisseur de ligne </value>
+  </data>
+  <data name="PdfViewer_LineProperties" xml:space="preserve">
+    <value> Propriétés de ligne </value>
+  </data>
+  <data name="PdfViewer_StartArrow" xml:space="preserve">
+    <value> Flèche de départ </value>
+  </data>
+  <data name="PdfViewer_EndArrow" xml:space="preserve">
+    <value> Flèche de fin </value>
+  </data>
+  <data name="PdfViewer_LineStyle" xml:space="preserve">
+    <value> Style de ligne </value>
+  </data>
+  <data name="PdfViewer_FillColor" xml:space="preserve">
+    <value> La couleur de remplissage </value>
+  </data>
+  <data name="PdfViewer_LineColor" xml:space="preserve">
+    <value> Couleur de la ligne </value>
+  </data>
+  <data name="PdfViewer_None" xml:space="preserve">
+    <value> Aucune </value>
+  </data>
+  <data name="PdfViewer_OpenArrow" xml:space="preserve">
+    <value> Flèche ouverte </value>
+  </data>
+  <data name="PdfViewer_ClosedArrow" xml:space="preserve">
+    <value> Flèche fermée </value>
+  </data>
+  <data name="PdfViewer_RoundArrow" xml:space="preserve">
+    <value> Flèche ronde </value>
+  </data>
+  <data name="PdfViewer_SquareArrow" xml:space="preserve">
+    <value> Flèche carrée </value>
+  </data>
+  <data name="PdfViewer_DiamondArrow" xml:space="preserve">
+    <value> Flèche de diamant </value>
+  </data>
+  <data name="PdfViewer_Cut" xml:space="preserve">
+    <value> Couper </value>
+  </data>
+  <data name="PdfViewer_Paste" xml:space="preserve">
+    <value> Pâte </value>
+  </data>
+  <data name="PdfViewer_DeleteContext" xml:space="preserve">
+    <value> Effacer </value>
+  </data>
+  <data name="PdfViewer_Properties" xml:space="preserve">
+    <value> Propriétés </value>
+  </data>
+  <data name="PdfViewer_AddStamp" xml:space="preserve">
+    <value> Ajouter un tampon </value>
+  </data>
+  <data name="PdfViewer_AddShapes" xml:space="preserve">
+    <value> Ajouter des formes </value>
+  </data>
+  <data name="PdfViewer_StrokeEdit" xml:space="preserve">
+    <value> Changer la couleur du trait </value>
+  </data>
+  <data name="PdfViewer_ChangeThickness" xml:space="preserve">
+    <value> Modifier l'épaisseur de la bordure </value>
+  </data>
+  <data name="PdfViewer_Addline" xml:space="preserve">
+    <value> Ajouter une ligne </value>
+  </data>
+  <data name="PdfViewer_AddArrow" xml:space="preserve">
+    <value> Ajouter une flèche </value>
+  </data>
+  <data name="PdfViewer_AddRectangle" xml:space="preserve">
+    <value> Ajouter un rectangle </value>
+  </data>
+  <data name="PdfViewer_AddCircle" xml:space="preserve">
+    <value> Ajouter un cercle </value>
+  </data>
+  <data name="PdfViewer_AddPolygon" xml:space="preserve">
+    <value> Ajouter un polygone </value>
+  </data>
+  <data name="PdfViewer_AddComments" xml:space="preserve">
+    <value> Ajoutez des commentaires </value>
+  </data>
+  <data name="PdfViewer_Comments" xml:space="preserve">
+    <value> commentaires </value>
+  </data>
+  <data name="PdfViewer_NoCommentsYet" xml:space="preserve">
+    <value> Aucun commentaire pour l'instant </value>
+  </data>
+  <data name="PdfViewer_Accepted" xml:space="preserve">
+    <value> Accepté </value>
+  </data>
+  <data name="PdfViewer_Completed" xml:space="preserve">
+    <value> Terminé </value>
+  </data>
+  <data name="PdfViewer_Cancelled" xml:space="preserve">
+    <value> Annulé </value>
+  </data>
+  <data name="PdfViewer_Rejected" xml:space="preserve">
+    <value> Rejetée </value>
+  </data>
+  <data name="PdfViewer_LeaderLength" xml:space="preserve">
+    <value> Longueur de ligne de repère </value>
+  </data>
+  <data name="PdfViewer_ScaleRatio" xml:space="preserve">
+    <value> Rapport d'échelle </value>
+  </data>
+  <data name="PdfViewer_Calibrate" xml:space="preserve">
+    <value> Étalonner </value>
+  </data>
+  <data name="PdfViewer_CalibrateDistance" xml:space="preserve">
+    <value> Calibrer la distance </value>
+  </data>
+  <data name="PdfViewer_CalibratePerimeter" xml:space="preserve">
+    <value> Calibrer le périmètre </value>
+  </data>
+  <data name="PdfViewer_CalibrateArea" xml:space="preserve">
+    <value> Étalonner la zone </value>
+  </data>
+  <data name="PdfViewer_CalibrateRadius" xml:space="preserve">
+    <value> Calibrer le rayon </value>
+  </data>
+  <data name="PdfViewer_CalibrateVolume" xml:space="preserve">
+    <value> Calibrer le volume </value>
+  </data>
+  <data name="PdfViewer_Depth" xml:space="preserve">
+    <value> Profondeur </value>
+  </data>
+  <data name="PdfViewer_Closed" xml:space="preserve">
+    <value> Fermée </value>
+  </data>
+  <data name="PdfViewer_Round" xml:space="preserve">
+    <value> Ronde </value>
+  </data>
+  <data name="PdfViewer_Square" xml:space="preserve">
+    <value> Carrée </value>
+  </data>
+  <data name="PdfViewer_Diamond" xml:space="preserve">
+    <value> diamant </value>
+  </data>
+  <data name="PdfViewer_Edit" xml:space="preserve">
+    <value> Éditer </value>
+  </data>
+  <data name="PdfViewer_Comment" xml:space="preserve">
+    <value> Commentaire </value>
+  </data>
+  <data name="PdfViewer_CommentPanel" xml:space="preserve">
+    <value> Panneau de commentaires </value>
+  </data>
+  <data name="PdfViewer_SetStatus" xml:space="preserve">
+    <value> Définir le statut </value>
+  </data>
+  <data name="PdfViewer_Post" xml:space="preserve">
+    <value> Publier </value>
+  </data>
+  <data name="PdfViewer_Page" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="PdfViewer_AddComment" xml:space="preserve">
+    <value> Ajouter un commentaire </value>
+  </data>
+  <data name="PdfViewer_AddReply" xml:space="preserve">
+    <value> Ajouter une réponse </value>
+  </data>
+  <data name="PdfViewer_ImportAnnotations" xml:space="preserve">
+    <value> Importer des annotations </value>
+  </data>
+  <data name="PdfViewer_ExportAnnotations" xml:space="preserve">
+    <value> Exporter les annotations </value>
+  </data>
+  <data name="PdfViewer_Add" xml:space="preserve">
+    <value> Ajouter </value>
+  </data>
+  <data name="PdfViewer_Clear" xml:space="preserve">
+    <value> Claire </value>
+  </data>
+  <data name="PdfViewer_Bold" xml:space="preserve">
+    <value> Audacieuse </value>
+  </data>
+  <data name="PdfViewer_Italic" xml:space="preserve">
+    <value> Italique </value>
+  </data>
+  <data name="PdfViewer_Strikethroughs" xml:space="preserve">
+    <value> Barrés </value>
+  </data>
+  <data name="PdfViewer_Underlines" xml:space="preserve">
+    <value> Souligne </value>
+  </data>
+  <data name="PdfViewer_Superscript" xml:space="preserve">
+    <value> Exposante </value>
+  </data>
+  <data name="PdfViewer_Subscript" xml:space="preserve">
+    <value> Indice </value>
+  </data>
+  <data name="PdfViewer_AlignLeft" xml:space="preserve">
+    <value> Alignez à gauche </value>
+  </data>
+  <data name="PdfViewer_AlignRight" xml:space="preserve">
+    <value> Aligner à droite </value>
+  </data>
+  <data name="PdfViewer_Center" xml:space="preserve">
+    <value> Centre </value>
+  </data>
+  <data name="PdfViewer_Justify" xml:space="preserve">
+    <value> Justifier </value>
+  </data>
+  <data name="PdfViewer_FontColor" xml:space="preserve">
+    <value> Couleur de la police </value>
+  </data>
+  <data name="PdfViewer_TextAlign" xml:space="preserve">
+    <value> Aligner le texte </value>
+  </data>
+  <data name="PdfViewer_TextProperties" xml:space="preserve">
+    <value> Le style de police </value>
+  </data>
+  <data name="PdfViewer_DrawSignature" xml:space="preserve">
+    <value> Dessiner la signature </value>
+  </data>
+  <data name="PdfViewer_Create" xml:space="preserve">
+    <value> Créer </value>
+  </data>
+  <data name="PdfViewer_FontFamily" xml:space="preserve">
+    <value> Famille de polices </value>
+  </data>
+  <data name="PdfViewer_FontSize" xml:space="preserve">
+    <value> Taille de police </value>
+  </data>
+  <data name="PdfViewer_FreeText" xml:space="preserve">
+    <value> Texte libre </value>
+  </data>
+  <data name="PdfViewer_ImportFailed" xml:space="preserve">
+    <value> Type ou nom de fichier JSON non valide; veuillez sélectionner un fichier JSON valide </value>
+  </data>
+  <data name="PdfViewer_FileNotFound" xml:space="preserve">
+    <value> Le fichier JSON importé est introuvable à l'emplacement souhaité </value>
+  </data>
+  <data name="PdfViewer_ExportFailed" xml:space="preserve">
+    <value> L'action d'exportation des annotations a échoué; veuillez vous assurer que les annotations sont ajoutées correctement </value>
   </data>
 </root>
