@@ -651,11 +651,35 @@
   <data name="FileManager_KB" xml:space="preserve">
     <value>KB</value>
   </data>
+  <data name="FileManager_AccessMessage" xml:space="preserve">
+    <value>{0}无法访问。 您需要获得执行{1}操作的许可。</value>
+  </data>
+  <data name="FileManager_NetworkError" xml:space="preserve">
+    <value>NetworkError：无法在XMLHTTP上发送请求：无法加载</value>
+  </data>
+  <data name="FileManager_ServerError" xml:space="preserve">
+    <value>ServerError：来自的无效响应</value>
+  </data>
   <data name="Slider_DecrementTitle" xml:space="preserve">
     <value>减少</value>
   </data>
   <data name="Slider_IncrementTitle" xml:space="preserve">
     <value>增加</value>
+  </data>
+  <data name="Maps_Zoom" xml:space="preserve">
+    <value>放大</value>
+  </data>
+  <data name="Maps_ZoomIn" xml:space="preserve">
+      <value>放大</value>
+  </data>
+  <data name="Maps_ZoomOut" xml:space="preserve">
+      <value>縮小</value>
+  </data>
+  <data name="Maps_Reset" xml:space="preserve">
+      <value>重啟</value>
+  </data>
+  <data name="Maps_Pan" xml:space="preserve">
+      <value>泛</value>
   </data>
   <data name="Gantt_EmptyRecord" xml:space="preserve">
     <value>無記錄可顯示</value>
@@ -1992,6 +2016,9 @@
   <data name="PivotFieldList_CalculatedField_ClearTooltipMessage" xml:space="preserve">
     <value>清除编辑的字段信息</value>
   </data>
+  <data name="PivotFieldList_Format" xml:space="preserve">
+    <value>格式</value>
+  </data>
   <data name="PivotView_AddCondition" xml:space="preserve">
     <value>添加条件</value>
   </data>
@@ -2022,7 +2049,7 @@
   <data name="PivotView_All" xml:space="preserve">
     <value>所有</value>
   </data>
-  <data name="PivotView_All Fields" xml:space="preserve">
+  <data name="PivotView_AllFields" xml:space="preserve">
     <value>所有领域</value>
   </data>
   <data name="PivotView_AllValues" xml:space="preserve">
@@ -2729,5 +2756,878 @@
   </data>
   <data name="PivotView_Radar" xml:space="preserve">
     <value>雷达</value>
+  </data>
+  <data name="PivotView_CalculatedField_EditTooltipMessage" xml:space="preserve">
+    <value>编辑计算字段</value>
+  </data>
+  <data name="PivotView_CalculatedField_ClearTooltipMessage" xml:space="preserve">
+    <value>清除编辑的字段信息</value>
+  </data>
+  <data name="Dialog_Close" xml:space="preserve">
+    <value>關</value>
+  </data>
+  <data name="Toast_Close" xml:space="preserve">
+    <value>關</value>
+  </data>
+  <data name="InPlaceEditor_Save" xml:space="preserve">
+    <value>保存</value>
+  </data>
+  <data name="InPlaceEditor_Cancel" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="InPlaceEditor_LoadingText" xml:space="preserve">
+    <value>載入中...</value>
+  </data>
+  <data name="InPlaceEditor_EditIcon" xml:space="preserve">
+    <value>點擊編輯</value>
+  </data>
+  <data name="InPlaceEditor_EditAreaClick" xml:space="preserve">
+    <value>點擊編輯</value>
+  </data>
+  <data name="InPlaceEditor_EditAreaDoubleClick" xml:space="preserve">
+    <value>雙擊編輯</value>
+  </data>
+  <data name="Kanban_Items" xml:space="preserve">
+    <value>項目</value>
+  </data>
+  <data name="Kanban_Min" xml:space="preserve">
+    <value>敏</value>
+  </data>
+  <data name="Kanban_Max" xml:space="preserve">
+    <value>最高</value>
+  </data>
+  <data name="Kanban_CardsSelected" xml:space="preserve">
+    <value>选择的卡</value>
+  </data>
+  <data name="Kanban_AddTitle" xml:space="preserve">
+    <value>新增卡</value>
+  </data>
+  <data name="Kanban_EditTitle" xml:space="preserve">
+    <value>编辑卡详细信息</value>
+  </data>
+  <data name="Kanban_DeleteTitle" xml:space="preserve">
+    <value>删除卡</value>
+  </data>
+  <data name="Kanban_DeleteContent" xml:space="preserve">
+    <value>您确定要删除此卡吗？</value>
+  </data>
+  <data name="Kanban_Save" xml:space="preserve">
+    <value>保存</value>
+  </data>
+  <data name="Kanban_Delete" xml:space="preserve">
+    <value>删除</value>
+  </data>
+  <data name="Kanban_Cancel" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="Kanban_Yes" xml:space="preserve">
+    <value>是</value>
+  </data>
+  <data name="Kanban_No" xml:space="preserve">
+    <value>没有</value>
+  </data>
+  <data name="RichTextEditor_Alignments" xml:space="preserve">
+    <value>對齊方式</value>
+  </data>
+  <data name="RichTextEditor_JustifyLeft" xml:space="preserve">
+    <value>左對齊</value>
+  </data>
+  <data name="RichTextEditor_JustifyCenter" xml:space="preserve">
+    <value>居中對齊</value>
+  </data>
+  <data name="RichTextEditor_JustifyRight" xml:space="preserve">
+    <value>右對齊</value>
+  </data>
+  <data name="RichTextEditor_JustifyFull" xml:space="preserve">
+    <value>對齊對齊</value>
+  </data>
+  <data name="RichTextEditor_FontName" xml:space="preserve">
+    <value>字體名稱</value>
+  </data>
+  <data name="RichTextEditor_FontSize" xml:space="preserve">
+    <value>字體大小</value>
+  </data>
+  <data name="RichTextEditor_FontColor" xml:space="preserve">
+    <value>字體顏色</value>
+  </data>
+  <data name="RichTextEditor_BackgroundColor" xml:space="preserve">
+    <value>背景顏色</value>
+  </data>
+  <data name="RichTextEditor_Bold" xml:space="preserve">
+    <value>膽大</value>
+  </data>
+  <data name="RichTextEditor_Italic" xml:space="preserve">
+    <value>斜體</value>
+  </data>
+  <data name="RichTextEditor_Underline" xml:space="preserve">
+    <value>強調</value>
+  </data>
+  <data name="RichTextEditor_Strikethrough" xml:space="preserve">
+    <value>刪除線</value>
+  </data>
+  <data name="RichTextEditor_ClearFormat" xml:space="preserve">
+    <value>清除格式</value>
+  </data>
+  <data name="RichTextEditor_ClearAll" xml:space="preserve">
+    <value>全部清除</value>
+  </data>
+  <data name="RichTextEditor_Cut" xml:space="preserve">
+    <value>切</value>
+  </data>
+  <data name="RichTextEditor_Copy" xml:space="preserve">
+    <value>複製</value>
+  </data>
+  <data name="RichTextEditor_Paste" xml:space="preserve">
+    <value>糊</value>
+  </data>
+  <data name="RichTextEditor_UnorderedList" xml:space="preserve">
+    <value>項目符號列表</value>
+  </data>
+  <data name="RichTextEditor_OrderedList" xml:space="preserve">
+    <value>編號清單</value>
+  </data>
+  <data name="RichTextEditor_Indent" xml:space="preserve">
+    <value>增加縮進</value>
+  </data>
+  <data name="RichTextEditor_Outdent" xml:space="preserve">
+    <value>減少縮進</value>
+  </data>
+  <data name="RichTextEditor_Undo" xml:space="preserve">
+    <value>撤消</value>
+  </data>
+  <data name="RichTextEditor_Redo" xml:space="preserve">
+    <value>重做</value>
+  </data>
+  <data name="RichTextEditor_Superscript" xml:space="preserve">
+    <value>上標</value>
+  </data>
+  <data name="RichTextEditor_Subscript" xml:space="preserve">
+    <value>下標</value>
+  </data>
+  <data name="RichTextEditor_CreateLink" xml:space="preserve">
+    <value>插入超鏈接</value>
+  </data>
+  <data name="RichTextEditor_OpenLink" xml:space="preserve">
+    <value>打開鏈接</value>
+  </data>
+  <data name="RichTextEditor_EditLink" xml:space="preserve">
+    <value>編輯連結</value>
+  </data>
+  <data name="RichTextEditor_RemoveLink" xml:space="preserve">
+    <value>刪除鏈接</value>
+  </data>
+  <data name="RichTextEditor_Image" xml:space="preserve">
+    <value>插入圖片</value>
+  </data>
+  <data name="RichTextEditor_Replace" xml:space="preserve">
+    <value>更換</value>
+  </data>
+  <data name="RichTextEditor_Align" xml:space="preserve">
+    <value>對齊</value>
+  </data>
+  <data name="RichTextEditor_Caption" xml:space="preserve">
+    <value>圖片說明</value>
+  </data>
+  <data name="RichTextEditor_Remove" xml:space="preserve">
+    <value>去掉</value>
+  </data>
+  <data name="RichTextEditor_InsertLink" xml:space="preserve">
+    <value>插入連結</value>
+  </data>
+  <data name="RichTextEditor_Display" xml:space="preserve">
+    <value>顯示</value>
+  </data>
+  <data name="RichTextEditor_AltText" xml:space="preserve">
+    <value>替代文字</value>
+  </data>
+  <data name="RichTextEditor_Dimension" xml:space="preserve">
+    <value>變更尺寸</value>
+  </data>
+  <data name="RichTextEditor_Fullscreen" xml:space="preserve">
+    <value>最大化</value>
+  </data>
+  <data name="RichTextEditor_Maximize" xml:space="preserve">
+    <value>最大化</value>
+  </data>
+  <data name="RichTextEditor_Minimize" xml:space="preserve">
+    <value>最小化</value>
+  </data>
+  <data name="RichTextEditor_LowerCase" xml:space="preserve">
+    <value>小寫</value>
+  </data>
+  <data name="RichTextEditor_UpperCase" xml:space="preserve">
+    <value>大寫</value>
+  </data>
+  <data name="RichTextEditor_Print" xml:space="preserve">
+    <value>打印</value>
+  </data>
+  <data name="RichTextEditor_Formats" xml:space="preserve">
+    <value>格式</value>
+  </data>
+  <data name="RichTextEditor_Sourcecode" xml:space="preserve">
+    <value>代碼查看</value>
+  </data>
+  <data name="RichTextEditor_Preview" xml:space="preserve">
+    <value>預習</value>
+  </data>
+  <data name="RichTextEditor_Viewside" xml:space="preserve">
+    <value>查看侧</value>
+  </data>
+  <data name="RichTextEditor_InsertCode" xml:space="preserve">
+    <value>插入代碼</value>
+  </data>
+  <data name="RichTextEditor_LinkText" xml:space="preserve">
+    <value>顯示文字</value>
+  </data>
+  <data name="RichTextEditor_LinkTooltipLabel" xml:space="preserve">
+    <value>標題</value>
+  </data>
+  <data name="RichTextEditor_LinkWebUrl" xml:space="preserve">
+    <value>網址</value>
+  </data>
+  <data name="RichTextEditor_LinkTitle" xml:space="preserve">
+    <value>輸入標題</value>
+  </data>
+  <data name="RichTextEditor_LinkUrl" xml:space="preserve">
+    <value>http://example.com</value>
+  </data>
+  <data name="RichTextEditor_LinkOpenInNewWindow" xml:space="preserve">
+    <value>在新窗口中打開鏈接</value>
+  </data>
+  <data name="RichTextEditor_LinkHeader" xml:space="preserve">
+    <value>插入連結</value>
+  </data>
+  <data name="RichTextEditor_DialogInsert" xml:space="preserve">
+    <value>插入</value>
+  </data>
+  <data name="RichTextEditor_DialogCancel" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="RichTextEditor_DialogUpdate" xml:space="preserve">
+    <value>更新資料</value>
+  </data>
+  <data name="RichTextEditor_ImageHeader" xml:space="preserve">
+    <value>插入圖片</value>
+  </data>
+  <data name="RichTextEditor_ImageLinkHeader" xml:space="preserve">
+    <value>您也可以提供網絡鏈接</value>
+  </data>
+  <data name="RichTextEditor_MdImageLink" xml:space="preserve">
+    <value>請提供您圖片的網址</value>
+  </data>
+  <data name="RichTextEditor_ImageUploadMessage" xml:space="preserve">
+    <value>將圖片放在此處或瀏覽以上傳</value>
+  </data>
+  <data name="RichTextEditor_ImageDeviceUploadMessage" xml:space="preserve">
+    <value>點擊這裡上傳</value>
+  </data>
+  <data name="RichTextEditor_ImageAlternateText" xml:space="preserve">
+    <value>替代文字</value>
+  </data>
+  <data name="RichTextEditor_AlternateHeader" xml:space="preserve">
+    <value>替代文字</value>
+  </data>
+  <data name="RichTextEditor_Browse" xml:space="preserve">
+    <value>瀏覽</value>
+  </data>
+  <data name="RichTextEditor_ImageUrl" xml:space="preserve">
+    <value>http://example.com/image.png</value>
+  </data>
+  <data name="RichTextEditor_ImageCaption" xml:space="preserve">
+    <value>字幕</value>
+  </data>
+  <data name="RichTextEditor_ImageSizeHeader" xml:space="preserve">
+    <value>圖片尺寸</value>
+  </data>
+  <data name="RichTextEditor_ImageHeight" xml:space="preserve">
+    <value>高度</value>
+  </data>
+  <data name="RichTextEditor_ImageWidth" xml:space="preserve">
+    <value>寬度</value>
+  </data>
+  <data name="RichTextEditor_TextPlaceholder" xml:space="preserve">
+    <value>輸入文字</value>
+  </data>
+  <data name="RichTextEditor_InsertTableBtn" xml:space="preserve">
+    <value>插入表格</value>
+  </data>
+  <data name="RichTextEditor_TableDialogHeader" xml:space="preserve">
+    <value>插入表格</value>
+  </data>
+  <data name="RichTextEditor_TableWidth" xml:space="preserve">
+    <value>寬度</value>
+  </data>
+  <data name="RichTextEditor_Cellpadding" xml:space="preserve">
+    <value>單元填充</value>
+  </data>
+  <data name="RichTextEditor_Cellspacing" xml:space="preserve">
+    <value>單元間距</value>
+  </data>
+  <data name="RichTextEditor_Columns" xml:space="preserve">
+    <value>列數</value>
+  </data>
+  <data name="RichTextEditor_Rows" xml:space="preserve">
+    <value>行數</value>
+  </data>
+  <data name="RichTextEditor_TableRows" xml:space="preserve">
+    <value>表格行</value>
+  </data>
+  <data name="RichTextEditor_TableColumns" xml:space="preserve">
+    <value>表格欄</value>
+  </data>
+  <data name="RichTextEditor_TableCellHorizontalAlign" xml:space="preserve">
+    <value>表格單元格水平對齊</value>
+  </data>
+  <data name="RichTextEditor_TableCellVerticalAlign" xml:space="preserve">
+    <value>表格單元格垂直對齊</value>
+  </data>
+  <data name="RichTextEditor_CreateTable" xml:space="preserve">
+    <value>建立表格</value>
+  </data>
+  <data name="RichTextEditor_RemoveTable" xml:space="preserve">
+    <value>刪除表</value>
+  </data>
+  <data name="RichTextEditor_TableHeader" xml:space="preserve">
+    <value>表頭</value>
+  </data>
+  <data name="RichTextEditor_TableRemove" xml:space="preserve">
+    <value>表刪除</value>
+  </data>
+  <data name="RichTextEditor_TableCellBackground" xml:space="preserve">
+    <value>表單元格背景</value>
+  </data>
+  <data name="RichTextEditor_TableEditProperties" xml:space="preserve">
+    <value>表格編輯屬性</value>
+  </data>
+  <data name="RichTextEditor_Styles" xml:space="preserve">
+    <value>款式</value>
+  </data>
+  <data name="RichTextEditor_InsertColumnLeft" xml:space="preserve">
+    <value>向左插入列</value>
+  </data>
+  <data name="RichTextEditor_InsertColumnRight" xml:space="preserve">
+    <value>向右插入列</value>
+  </data>
+  <data name="RichTextEditor_DeleteColumn" xml:space="preserve">
+    <value>刪除欄</value>
+  </data>
+  <data name="RichTextEditor_InsertRowBefore" xml:space="preserve">
+    <value>在之前插入行</value>
+  </data>
+  <data name="RichTextEditor_InsertRowAfter" xml:space="preserve">
+    <value>在之後插入行</value>
+  </data>
+  <data name="RichTextEditor_DeleteRow" xml:space="preserve">
+    <value>刪除行</value>
+  </data>
+  <data name="RichTextEditor_TableEditHeader" xml:space="preserve">
+    <value>編輯表格</value>
+  </data>
+  <data name="RichTextEditor_TableHeadingText" xml:space="preserve">
+    <value>標題</value>
+  </data>
+  <data name="RichTextEditor_TableColText" xml:space="preserve">
+    <value>上校</value>
+  </data>
+  <data name="RichTextEditor_ImageInsertLinkHeader" xml:space="preserve">
+    <value>插入連結</value>
+  </data>
+  <data name="RichTextEditor_EditImageHeader" xml:space="preserve">
+    <value>編輯影像</value>
+  </data>
+  <data name="RichTextEditor_AlignmentsDropDownLeft" xml:space="preserve">
+    <value>左對齊</value>
+  </data>
+  <data name="RichTextEditor_AlignmentsDropDownCenter" xml:space="preserve">
+    <value>居中對齊</value>
+  </data>
+  <data name="RichTextEditor_AlignmentsDropDownRight" xml:space="preserve">
+    <value>右對齊</value>
+  </data>
+  <data name="RichTextEditor_AlignmentsDropDownJustify" xml:space="preserve">
+    <value>對齊對齊</value>
+  </data>
+  <data name="RichTextEditor_ImageDisplayDropDownInline" xml:space="preserve">
+    <value>排隊</value>
+  </data>
+  <data name="RichTextEditor_ImageDisplayDropDownBreak" xml:space="preserve">
+    <value>打破</value>
+  </data>
+  <data name="RichTextEditor_TableInsertRowDropDownBefore" xml:space="preserve">
+    <value>在之前插入行</value>
+  </data>
+  <data name="RichTextEditor_TableInsertRowDropDownAfter" xml:space="preserve">
+    <value>在之後插入行</value>
+  </data>
+  <data name="RichTextEditor_TableInsertRowDropDownDelete" xml:space="preserve">
+    <value>刪除行</value>
+  </data>
+  <data name="RichTextEditor_TableInsertColumnDropDownLeft" xml:space="preserve">
+    <value>向左插入列</value>
+  </data>
+  <data name="RichTextEditor_TableInsertColumnDropDownRight" xml:space="preserve">
+    <value>向右插入列</value>
+  </data>
+  <data name="RichTextEditor_TableInsertColumnDropDownDelete" xml:space="preserve">
+    <value>刪除欄</value>
+  </data>
+  <data name="RichTextEditor_TableVerticalAlignDropDownTop" xml:space="preserve">
+    <value>對齊頂部</value>
+  </data>
+  <data name="RichTextEditor_TableVerticalAlignDropDownMiddle" xml:space="preserve">
+    <value>中間對齊</value>
+  </data>
+  <data name="RichTextEditor_TableVerticalAlignDropDownBottom" xml:space="preserve">
+    <value>底部對齊</value>
+  </data>
+  <data name="RichTextEditor_TableStylesDropDownDashedBorder" xml:space="preserve">
+    <value>虛線邊框</value>
+  </data>
+  <data name="RichTextEditor_TableStylesDropDownAlternateRows" xml:space="preserve">
+    <value>交替行</value>
+  </data>
+  <data name="RichTextEditor_PasteFormat" xml:space="preserve">
+    <value>貼上格式</value>
+  </data>
+  <data name="RichTextEditor_PasteFormatContent" xml:space="preserve">
+    <value>選擇格式化動作</value>
+  </data>
+  <data name="RichTextEditor_PlainText" xml:space="preserve">
+    <value>純文本</value>
+  </data>
+  <data name="RichTextEditor_CleanFormat" xml:space="preserve">
+    <value>清潔</value>
+  </data>
+  <data name="RichTextEditor_KeepFormat" xml:space="preserve">
+    <value>保持</value>
+  </data>
+  <data name="RichTextEditor_PasteDialogOk" xml:space="preserve">
+    <value>好</value>
+  </data>
+  <data name="RichTextEditor_PasteDialogCancel" xml:space="preserve">
+    <value>取消</value>
+  </data>
+<data name="PdfViewer" xml:space="preserve">
+    <value> PDF查看器</value>
+  </data>
+  <data name="PdfViewer_Cancel" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="PdfViewer_DownloadFile" xml:space="preserve">
+    <value>下载文件</value>
+  </data>
+  <data name="PdfViewer_Download" xml:space="preserve">
+    <value>下载</value>
+  </data>
+  <data name="PdfViewer_EnterPassword" xml:space="preserve">
+    <value>本文档受密码保护。请输入密码.</value>
+  </data>
+  <data name="PdfViewer_FileCorrupted" xml:space="preserve">
+    <value> 文件损坏</value>
+  </data>
+  <data name="PdfViewer_FileCorruptedContent" xml:space="preserve">
+    <value>该文件已损坏，无法打开。</value>
+  </data>
+  <data name="PdfViewer_FitPage" xml:space="preserve">
+    <value>适合页面</value>
+  </data>
+  <data name="PdfViewer_FitWidth" xml:space="preserve">
+    <value>适合宽度</value>
+  </data>
+  <data name="PdfViewer_Automatic" xml:space="preserve">
+    <value>自动</value>
+  </data>
+  <data name="PdfViewer_GoToFirstPage" xml:space="preserve">
+    <value>显示第一页</value>
+  </data>
+  <data name="PdfViewer_InvalidPassword" xml:space="preserve">
+    <value>密码错误。请再试一遍。</value>
+  </data>
+  <data name="PdfViewer_NextPage" xml:space="preserve">
+    <value>显示下一页</value>
+  </data>
+  <data name="PdfViewer_PreviousPage" xml:space="preserve">
+    <value>显示上一页</value>
+  </data>
+  <data name="PdfViewer_OK" xml:space="preserve">
+    <value>好</value>
+  </data>
+  <data name="PdfViewer_Open" xml:space="preserve">
+    <value>打开文件</value>
+  </data>
+  <data name="PdfViewer_PageNumber" xml:space="preserve">
+    <value>当前页码</value>
+  </data>
+  <data name="PdfViewer_GoToLastPage" xml:space="preserve">
+    <value>显示最后一页</value>
+  </data>
+  <data name="PdfViewer_Zoom" xml:space="preserve">
+    <value>放大</value>
+  </data>
+  <data name="PdfViewer_ZoomIn" xml:space="preserve">
+    <value>放大</value>
+  </data>
+  <data name="PdfViewer_ZoomOut" xml:space="preserve">
+    <value>缩小</value>
+  </data>
+  <data name="PdfViewer_PageThumbnails" xml:space="preserve">
+    <value>页面缩略图</value>
+  </data>
+  <data name="PdfViewer_Bookmarks" xml:space="preserve">
+    <value>书签</value>
+  </data>
+  <data name="PdfViewer_Print" xml:space="preserve">
+    <value>打印文件</value>
+  </data>
+  <data name="PdfViewer_PasswordProtected" xml:space="preserve">
+    <value>需要密码</value>
+  </data>
+  <data name="PdfViewer_Copy" xml:space="preserve">
+    <value>复制</value>
+  </data>
+  <data name="PdfViewer_TextSelection" xml:space="preserve">
+    <value>文字选择工具</value>
+  </data>
+  <data name="PdfViewer_Panning" xml:space="preserve">
+    <value>平移模式</value>
+  </data>
+  <data name="PdfViewer_TextSearch" xml:space="preserve">
+    <value>查找文字</value>
+  </data>
+  <data name="PdfViewer_Findindocument" xml:space="preserve">
+    <value>在文件中寻找</value>
+  </data>
+  <data name="PdfViewer_Matchcase" xml:space="preserve">
+    <value>相符</value>
+  </data>
+  <data name="PdfViewer_Apply" xml:space="preserve">
+    <value>应用</value>
+  </data>
+  <data name="PdfViewer_GoToPage" xml:space="preserve">
+    <value>转到页面</value>
+  </data>
+  <data name="PdfViewer_Nomatches" xml:space="preserve">
+    <value>查看器已完成文档搜索。找不到更多匹配项</value>
+  </data>
+  <data name="PdfViewer_NoTextFound" xml:space="preserve">
+    <value>找不到文字</value>
+  </data>
+  <data name="PdfViewer_Undo" xml:space="preserve">
+    <value>撤消</value>
+  </data>
+  <data name="PdfViewer_Redo" xml:space="preserve">
+    <value>重做</value>
+  </data>
+  <data name="PdfViewer_Annotation" xml:space="preserve">
+    <value>添加或编辑注释</value>
+  </data>
+  <data name="PdfViewer_Highlight" xml:space="preserve">
+    <value>突出显示文字</value>
+  </data>
+  <data name="PdfViewer_Underline" xml:space="preserve">
+    <value>下划线文字</value>
+  </data>
+  <data name="PdfViewer_Strikethrough" xml:space="preserve">
+    <value>删除线文字</value>
+  </data>
+  <data name="PdfViewer_Delete" xml:space="preserve">
+    <value>删除注释</value>
+  </data>
+  <data name="PdfViewer_Opacity" xml:space="preserve">
+    <value>不透明度</value>
+  </data>
+  <data name="PdfViewer_ColorEdit" xml:space="preserve">
+    <value>换颜色</value>
+  </data>
+  <data name="PdfViewer_OpacityEdit" xml:space="preserve">
+    <value>更改不透明度</value>
+  </data>
+  <data name="PdfViewer_HighlightContext" xml:space="preserve">
+    <value>突出</value>
+  </data>
+  <data name="PdfViewer_UnderlineContext" xml:space="preserve">
+    <value>强调</value>
+  </data>
+  <data name="PdfViewer_StrikethroughContext" xml:space="preserve">
+    <value>罢工</value>
+  </data>
+  <data name="PdfViewer_Servererror" xml:space="preserve">
+    <value> Web服务未监听。 PDF Viewer的所有功能都依赖于Web服务。请启动网络服务以继续.</value>
+  </data>
+  <data name="PdfViewer_Clienterror" xml:space="preserve">
+    <value>找到客户端错误。请检查AjaxRequestSettings属性中提供的自定义标头以及ServerActionSettings属性中的Web操作方法。</value>
+  </data>
+  <data name="PdfViewer_OpenText" xml:space="preserve">
+    <value>打开</value>
+  </data>
+  <data name="PdfViewer_FirstText" xml:space="preserve">
+    <value>第一页</value>
+  </data>
+  <data name="PdfViewer_PreviousText" xml:space="preserve">
+    <value>上一页</value>
+  </data>
+  <data name="PdfViewer_NextText" xml:space="preserve">
+    <value>下一页</value>
+  </data>
+  <data name="PdfViewer_LastText" xml:space="preserve">
+    <value>最后一页</value>
+  </data>
+  <data name="PdfViewer_ZoomInText" xml:space="preserve">
+    <value>放大</value>
+  </data>
+  <data name="PdfViewer_ZoomOutText" xml:space="preserve">
+    <value>缩小</value>
+  </data>
+  <data name="PdfViewer_SelectionText" xml:space="preserve">
+    <value>选拔</value>
+  </data>
+  <data name="PdfViewer_PanText" xml:space="preserve">
+    <value>泛</value>
+  </data>
+  <data name="PdfViewer_PrintText" xml:space="preserve">
+    <value>打印</value>
+  </data>
+  <data name="PdfViewer_SearchText" xml:space="preserve">
+    <value>搜索</value>
+  </data>
+  <data name="PdfViewer_AnnotationEditText" xml:space="preserve">
+    <value>编辑注释</value>
+  </data>
+  <data name="PdfViewer_LineThickness" xml:space="preserve">
+    <value>线的粗细</value>
+  </data>
+  <data name="PdfViewer_LineProperties" xml:space="preserve">
+    <value>线属性</value>
+  </data>
+  <data name="PdfViewer_StartArrow" xml:space="preserve">
+    <value>开始箭头</value>
+  </data>
+  <data name="PdfViewer_EndArrow" xml:space="preserve">
+    <value>结束箭头</value>
+  </data>
+  <data name="PdfViewer_LineStyle" xml:space="preserve">
+    <value>线型</value>
+  </data>
+  <data name="PdfViewer_FillColor" xml:space="preserve">
+    <value>填色</value>
+  </data>
+  <data name="PdfViewer_LineColor" xml:space="preserve">
+    <value>线色</value>
+  </data>
+  <data name="PdfViewer_None" xml:space="preserve">
+    <value>没有</value>
+  </data>
+  <data name="PdfViewer_OpenArrow" xml:space="preserve">
+    <value>打开箭头</value>
+  </data>
+  <data name="PdfViewer_ClosedArrow" xml:space="preserve">
+    <value>闭合箭头</value>
+  </data>
+  <data name="PdfViewer_RoundArrow" xml:space="preserve">
+    <value>圆形箭头</value>
+  </data>
+  <data name="PdfViewer_SquareArrow" xml:space="preserve">
+    <value>方形箭头</value>
+  </data>
+  <data name="PdfViewer_DiamondArrow" xml:space="preserve">
+    <value>钻石箭</value>
+  </data>
+  <data name="PdfViewer_Cut" xml:space="preserve">
+    <value>切</value>
+  </data>
+  <data name="PdfViewer_Paste" xml:space="preserve">
+    <value>糊</value>
+  </data>
+  <data name="PdfViewer_DeleteContext" xml:space="preserve">
+    <value> 删除 </value>
+  </data>
+  <data name="PdfViewer_Properties" xml:space="preserve">
+    <value>物产</value>
+  </data>
+  <data name="PdfViewer_AddStamp" xml:space="preserve">
+    <value>加盖邮票</value>
+  </data>
+  <data name="PdfViewer_AddShapes" xml:space="preserve">
+    <value>添加形状</value>
+  </data>
+  <data name="PdfViewer_StrokeEdit" xml:space="preserve">
+    <value>更改笔触颜色</value>
+  </data>
+  <data name="PdfViewer_ChangeThickness" xml:space="preserve">
+    <value>更改边框厚度</value>
+  </data>
+  <data name="PdfViewer_Addline" xml:space="preserve">
+    <value>加线</value>
+  </data>
+  <data name="PdfViewer_AddArrow" xml:space="preserve">
+    <value>添加箭头</value>
+  </data>
+  <data name="PdfViewer_AddRectangle" xml:space="preserve">
+    <value>添加矩形</value>
+  </data>
+  <data name="PdfViewer_AddCircle" xml:space="preserve">
+    <value>添加圈子</value>
+  </data>
+  <data name="PdfViewer_AddPolygon" xml:space="preserve">
+    <value>添加多边形</value>
+  </data>
+  <data name="PdfViewer_AddComments" xml:space="preserve">
+    <value>添加评论</value>
+  </data>
+  <data name="PdfViewer_Comments" xml:space="preserve">
+    <value>注释</value>
+  </data>
+  <data name="PdfViewer_NoCommentsYet" xml:space="preserve">
+    <value>暂时没有评论</value>
+  </data>
+  <data name="PdfViewer_Accepted" xml:space="preserve">
+    <value>公认</value>
+  </data>
+  <data name="PdfViewer_Completed" xml:space="preserve">
+    <value>已完成</value>
+  </data>
+  <data name="PdfViewer_Cancelled" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="PdfViewer_Rejected" xml:space="preserve">
+    <value>被拒绝</value>
+  </data>
+  <data name="PdfViewer_LeaderLength" xml:space="preserve">
+    <value>引线长度</value>
+  </data>
+  <data name="PdfViewer_ScaleRatio" xml:space="preserve">
+    <value>比例比</value>
+  </data>
+  <data name="PdfViewer_Calibrate" xml:space="preserve">
+    <value>校准</value>
+  </data>
+  <data name="PdfViewer_CalibrateDistance" xml:space="preserve">
+    <value>校准距离</value>
+  </data>
+  <data name="PdfViewer_CalibratePerimeter" xml:space="preserve">
+    <value>校准周长</value>
+  </data>
+  <data name="PdfViewer_CalibrateArea" xml:space="preserve">
+    <value>校准区域</value>
+  </data>
+  <data name="PdfViewer_CalibrateRadius" xml:space="preserve">
+    <value>校准半径</value>
+  </data>
+  <data name="PdfViewer_CalibrateVolume" xml:space="preserve">
+    <value>校准体积</value>
+  </data>
+  <data name="PdfViewer_Depth" xml:space="preserve">
+    <value>深度</value>
+  </data>
+  <data name="PdfViewer_Closed" xml:space="preserve">
+    <value>关闭</value>
+  </data>
+  <data name="PdfViewer_Round" xml:space="preserve">
+    <value>回合</value>
+  </data>
+  <data name="PdfViewer_Square" xml:space="preserve">
+    <value>广场</value>
+  </data>
+  <data name="PdfViewer_Diamond" xml:space="preserve">
+    <value>钻石</value>
+  </data>
+  <data name="PdfViewer_Edit" xml:space="preserve">
+    <value>编辑</value>
+  </data>
+  <data name="PdfViewer_Comment" xml:space="preserve">
+    <value>评论</value>
+  </data>
+  <data name="PdfViewer_CommentPanel" xml:space="preserve">
+    <value>评论面板</value>
+  </data>
+  <data name="PdfViewer_SetStatus" xml:space="preserve">
+    <value>设定状态</value>
+  </data>
+  <data name="PdfViewer_Post" xml:space="preserve">
+    <value>发布</value>
+  </data>
+  <data name="PdfViewer_Page" xml:space="preserve">
+    <value>页</value>
+  </data>
+  <data name="PdfViewer_AddComment" xml:space="preserve">
+    <value>添加评论</value>
+  </data>
+  <data name="PdfViewer_AddReply" xml:space="preserve">
+    <value>添加回复</value>
+  </data>
+  <data name="PdfViewer_ImportAnnotations" xml:space="preserve">
+    <value>导入注释</value>
+  </data>
+  <data name="PdfViewer_ExportAnnotations" xml:space="preserve">
+    <value>导出注释</value>
+  </data>
+  <data name="PdfViewer_Add" xml:space="preserve">
+    <value>加</value>
+  </data>
+  <data name="PdfViewer_Clear" xml:space="preserve">
+    <value>明确</value>
+  </data>
+  <data name="PdfViewer_Bold" xml:space="preserve">
+    <value>胆大</value>
+  </data>
+  <data name="PdfViewer_Italic" xml:space="preserve">
+    <value>斜体</value>
+  </data>
+  <data name="PdfViewer_Strikethroughs" xml:space="preserve">
+    <value>删除线</value>
+  </data>
+  <data name="PdfViewer_Underlines" xml:space="preserve">
+    <value>下划线</value>
+  </data>
+  <data name="PdfViewer_Superscript" xml:space="preserve">
+    <value>上标t</value>
+  </data>
+  <data name="PdfViewer_Subscript" xml:space="preserve">
+    <value>下标</value>
+  </data>
+  <data name="PdfViewer_AlignLeft" xml:space="preserve">
+    <value>左对齐</value>
+  </data>
+  <data name="PdfViewer_AlignRight" xml:space="preserve">
+    <value>右对齐</value>
+  </data>
+  <data name="PdfViewer_Center" xml:space="preserve">
+    <value>中央</value>
+  </data>
+  <data name="PdfViewer_Justify" xml:space="preserve">
+    <value>证明</value>
+  </data>
+  <data name="PdfViewer_FontColor" xml:space="preserve">
+    <value>字体颜色</value>
+  </data>
+  <data name="PdfViewer_TextAlign" xml:space="preserve">
+    <value>文字对齐</value>
+  </data>
+  <data name="PdfViewer_TextProperties" xml:space="preserve">
+    <value>字体样式</value>
+  </data>
+  <data name="PdfViewer_DrawSignature" xml:space="preserve">
+    <value>画签名</value>
+  </data>
+  <data name="PdfViewer_Create" xml:space="preserve">
+    <value>创建</value>
+  </data>
+  <data name="PdfViewer_FontFamily" xml:space="preserve">
+    <value>字体系列</value>
+  </data>
+  <data name="PdfViewer_FontSize" xml:space="preserve">
+    <value>字体大小</value>
+  </data>
+  <data name="PdfViewer_FreeText" xml:space="preserve">
+    <value>自由文字</value>
+  </data>
+  <data name="PdfViewer_ImportFailed" xml:space="preserve">
+    <value>无效的JSON文件类型或文件名；请选择一个有效的JSON文件</value>
+  </data>
+  <data name="PdfViewer_FileNotFound" xml:space="preserve">
+    <value>在所需位置找不到导入的JSON文件</value>
+  </data>
+  <data name="PdfViewer_ExportFailed" xml:space="preserve">
+    <value>导出注释操作失败；请确保正确添加注释</value>
   </data>
 </root>
