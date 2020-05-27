@@ -127,7 +127,7 @@ The culture can be set using one of the following approaches:
 
 3. Add the resource files in the `~/Resources` folder. The locale resource files for different cultures are available in this [GitHub](https://github.com/syncfusion/blazor-locale) repository. You can get any culture resource file from there and utilize it in your application.
 
-    ![Syncfusion Blazor resource files](./images/resource.png) 
+    ![Syncfusion Blazor resource files](https://blazor.syncfusion.com/documentation/common/images/resource.png) 
 
     After adding the resource file in the application we need to generate the designer class for the resources. To generate the designer class, open the default `resx` file in Visual Studio, and set its `Access Modifier` to `Public`. This will create an entry in your `.csproj` file similar to the following.
 
@@ -234,7 +234,7 @@ The culture can be set using one of the following approaches:
 
 8. Add Syncfusion Blazor UI components in `~/Pages/*.razor` and run the application. The following screenshot illustrates the output of the German `de-DE` culture.
 
-    ![Syncfusion Blazor UI Component's Localization in German culture](./images/de-culture.png)
+    ![Syncfusion Blazor UI Component's Localization in German culture](https://blazor.syncfusion.com/documentation/common/images/de-culture.png)
 
  > **Note**: The runnable Blazor Server app with Localization is available in this [Github](https://github.com/SyncfusionExamples/blazor-localization/tree/master/blazor-server-app) repository.
 
@@ -408,7 +408,7 @@ The culture can be set using one of the following approaches:
 
 7. Add Syncfusion Blazor UI components in `~/Pages/*.razor` and run the application. The following screenshot illustrates the output of the German `de-DE` culture.
 
-    ![Syncfusion Blazor UI Component's Localization in German culture](./images/de-culture.png)
+    ![Syncfusion Blazor UI Component's Localization in German culture](https://blazor.syncfusion.com/documentation/common/images/de-culture.png)
 
  > **Note**: The runnable Blazor WebAssembly app with Localization is available in this [Github](https://github.com/SyncfusionExamples/blazor-localization/tree/master/blazor-webassembly-app) repository.
 
