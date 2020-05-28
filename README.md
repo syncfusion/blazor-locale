@@ -315,7 +315,7 @@ The culture can be set using one of the following approaches:
 
 3. Add the resource files in the `~/Resources` folder. The locale resource files for different cultures are available in this [GitHub](https://github.com/syncfusion/blazor-locale) repository. You can get any culture resource file from there and utilize it in your application.
 
-    ![Syncfusion Blazor resource files](./images/resource.png) 
+    ![Syncfusion Blazor resource files](https://blazor.syncfusion.com/documentation/common/images/resource.png) 
 
     After adding the resource file in the application we need to generate the designer class for the resources. To generate the designer class, open the default `resx` file in Visual Studio, and set its `Access Modifier` to `Public`. This will create an entry in your `.csproj` file similar to the following.
 
