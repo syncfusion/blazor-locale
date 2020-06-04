@@ -742,7 +742,7 @@
     <value>Pomaknuli ste '{0}' do kraja nakon završetka '{1}' i dva su zadatka povezana. Kao rezultat, veze se ne mogu poštivati. Odaberite jednu radnju u nastavku da biste izvršili</value>
   </data>
   <data name="Gantt_TaskAfterPredecessor_FS" xml:space="preserve">
-    <value>Pomakli ste se \"{0}\" dalje od \"{1}\" i dva su zadatka povezana. Kao rezultat, veze se ne mogu poštivati. Odaberite jednu radnju u nastavku da biste izvršili</value>
+    <value>Pomakli ste se '{0}' dalje od '{1}' i dva su zadatka povezana. Kao rezultat, veze se ne mogu poštivati. Odaberite jednu radnju u nastavku da biste izvršili</value>
   </data>
   <data name="Gantt_TaskAfterPredecessor_SF" xml:space="preserve">
     <value>Pomaknuli ste '{0}' do kraja nakon pokretanja '{1}' i dva su zadatka povezana. Kao rezultat, veze se ne mogu poštivati. Odaberite jednu radnju u nastavku da biste izvršili</value>
@@ -3647,5 +3647,1307 @@
   </data>
   <data name="PdfViewer_ExportFailed" xml:space="preserve">
     <value> Nije uspio akcija izvoznih napomena; provjerite jesu li primjedbe pravilno dodane </value>
+  </data>
+  <data name="DocumentEditor_Table" xml:space="preserve">
+    <value>Stol</value>
+  </data>
+  <data name="DocumentEditor_Row" xml:space="preserve">
+    <value>Red</value>
+  </data>
+  <data name="DocumentEditor_Cell" xml:space="preserve">
+    <value>ćelija</value>
+  </data>
+  <data name="DocumentEditor_Ok" xml:space="preserve">
+    <value>U redu</value>
+  </data>
+  <data name="DocumentEditor_Cancel" xml:space="preserve">
+    <value>Otkazati</value>
+  </data>
+  <data name="DocumentEditor_Size" xml:space="preserve">
+    <value>Veličina</value>
+  </data>
+  <data name="DocumentEditor_PreferredWidth" xml:space="preserve">
+    <value>Preferirana širina</value>
+  </data>
+  <data name="DocumentEditor_Points" xml:space="preserve">
+    <value>točke</value>
+  </data>
+  <data name="DocumentEditor_Percent" xml:space="preserve">
+    <value>posto</value>
+  </data>
+  <data name="DocumentEditor_MeasureIn" xml:space="preserve">
+    <value>Izmjerite unutra</value>
+  </data>
+  <data name="DocumentEditor_Alignment" xml:space="preserve">
+    <value>Poravnanje</value>
+  </data>
+  <data name="DocumentEditor_Left" xml:space="preserve">
+    <value>Lijevo</value>
+  </data>
+  <data name="DocumentEditor_Center" xml:space="preserve">
+    <value>Centar</value>
+  </data>
+  <data name="DocumentEditor_Right" xml:space="preserve">
+    <value>Pravo</value>
+  </data>
+  <data name="DocumentEditor_Justify" xml:space="preserve">
+    <value>Opravdati</value>
+  </data>
+  <data name="DocumentEditor_IndentFromLeft" xml:space="preserve">
+    <value>Uvlaka s lijeve strane</value>
+  </data>
+  <data name="DocumentEditor_BordersAndShading" xml:space="preserve">
+    <value>Granice i zasjenjenje</value>
+  </data>
+  <data name="DocumentEditor_Options" xml:space="preserve">
+    <value>Opcije</value>
+  </data>
+  <data name="DocumentEditor_SpecifyHeight" xml:space="preserve">
+    <value>Navedite visinu</value>
+  </data>
+  <data name="DocumentEditor_AtLeast" xml:space="preserve">
+    <value>Barem</value>
+  </data>
+  <data name="DocumentEditor_Exactly" xml:space="preserve">
+    <value>Točno</value>
+  </data>
+  <data name="DocumentEditor_RowHeightIs" xml:space="preserve">
+    <value>Visina reda je</value>
+  </data>
+  <data name="DocumentEditor_AllowRowToBreakAcrossPages" xml:space="preserve">
+    <value>Dopusti da se redak prebaci na stranice</value>
+  </data>
+  <data name="DocumentEditor_RepeatAsHeaderRowAtTheTopOfEachPage" xml:space="preserve">
+    <value>Ponovite kao redak zaglavlja na vrhu svake stranice</value>
+  </data>
+  <data name="DocumentEditor_VerticalAlignment" xml:space="preserve">
+    <value>Okomito poravnavanje</value>
+  </data>
+  <data name="DocumentEditor_Top" xml:space="preserve">
+    <value>Vrh</value>
+  </data>
+  <data name="DocumentEditor_Bottom" xml:space="preserve">
+    <value>Dno</value>
+  </data>
+  <data name="DocumentEditor_DefaultCellMargins" xml:space="preserve">
+    <value>Zadane marže ćelije</value>
+  </data>
+  <data name="DocumentEditor_DefaultCellSpacing" xml:space="preserve">
+    <value>Zadani razmak stanica</value>
+  </data>
+  <data name="DocumentEditor_AllowSpacingBetweenCells" xml:space="preserve">
+    <value>Dopustite razmak između stanica</value>
+  </data>
+  <data name="DocumentEditor_CellMargins" xml:space="preserve">
+    <value>Stanice marže</value>
+  </data>
+  <data name="DocumentEditor_SameAsTheWholeTable" xml:space="preserve">
+    <value>Isto kao i cijeli stol</value>
+  </data>
+  <data name="DocumentEditor_Borders" xml:space="preserve">
+    <value>granice</value>
+  </data>
+  <data name="DocumentEditor_None" xml:space="preserve">
+    <value>nijedan</value>
+  </data>
+  <data name="DocumentEditor_Style" xml:space="preserve">
+    <value>Stil</value>
+  </data>
+  <data name="DocumentEditor_Width" xml:space="preserve">
+    <value>Širina</value>
+  </data>
+  <data name="DocumentEditor_Height" xml:space="preserve">
+    <value>Visina</value>
+  </data>
+  <data name="DocumentEditor_Letter" xml:space="preserve">
+    <value>Pismo</value>
+  </data>
+  <data name="DocumentEditor_Tabloid" xml:space="preserve">
+    <value>u zbijenom obliku</value>
+  </data>
+  <data name="DocumentEditor_Legal" xml:space="preserve">
+    <value>pravni</value>
+  </data>
+  <data name="DocumentEditor_Statement" xml:space="preserve">
+    <value>izjava</value>
+  </data>
+  <data name="DocumentEditor_Executive" xml:space="preserve">
+    <value>Izvršni</value>
+  </data>
+  <data name="DocumentEditor_A3" xml:space="preserve">
+    <value>A3</value>
+  </data>
+  <data name="DocumentEditor_A4" xml:space="preserve">
+    <value>A4</value>
+  </data>
+  <data name="DocumentEditor_A5" xml:space="preserve">
+    <value>A5</value>
+  </data>
+  <data name="DocumentEditor_B4" xml:space="preserve">
+    <value>B4</value>
+  </data>
+  <data name="DocumentEditor_B5" xml:space="preserve">
+    <value>B5</value>
+  </data>
+  <data name="DocumentEditor_CustomSize" xml:space="preserve">
+    <value>Veličina po izboru</value>
+  </data>
+  <data name="DocumentEditor_DifferentOddAndEven" xml:space="preserve">
+    <value>Različito neparno i jednoliko</value>
+  </data>
+  <data name="DocumentEditor_DifferentFirstPage" xml:space="preserve">
+    <value>Različita prva stranica</value>
+  </data>
+  <data name="DocumentEditor_FromEdge" xml:space="preserve">
+    <value>Od ruba</value>
+  </data>
+  <data name="DocumentEditor_Header" xml:space="preserve">
+    <value>Zaglavlje</value>
+  </data>
+  <data name="DocumentEditor_Footer" xml:space="preserve">
+    <value>Podnožje</value>
+  </data>
+  <data name="DocumentEditor_Margin" xml:space="preserve">
+    <value>margine</value>
+  </data>
+  <data name="DocumentEditor_Paper" xml:space="preserve">
+    <value>Papir</value>
+  </data>
+  <data name="DocumentEditor_Layout" xml:space="preserve">
+    <value>raspored</value>
+  </data>
+  <data name="DocumentEditor_Orientation" xml:space="preserve">
+    <value>Orijentacija</value>
+  </data>
+  <data name="DocumentEditor_Landscape" xml:space="preserve">
+    <value>pejzaž</value>
+  </data>
+  <data name="DocumentEditor_Portrait" xml:space="preserve">
+    <value>Portret</value>
+  </data>
+  <data name="DocumentEditor_ShowPageNumbers" xml:space="preserve">
+    <value>Pokažite brojeve stranica</value>
+  </data>
+  <data name="DocumentEditor_RightAlignPageNumbers" xml:space="preserve">
+    <value>Desno poravnajte brojeve stranica</value>
+  </data>
+  <data name="DocumentEditor_Nothing" xml:space="preserve">
+    <value>Ništa</value>
+  </data>
+  <data name="DocumentEditor_TabLeader" xml:space="preserve">
+    <value>Vođa kartica</value>
+  </data>
+  <data name="DocumentEditor_ShowLevels" xml:space="preserve">
+    <value>Prikaži razinu</value>
+  </data>
+  <data name="DocumentEditor_UseHyperlinksInsteadOfPageNumbers" xml:space="preserve">
+    <value>Koristite hiperveze umjesto brojeva stranica</value>
+  </data>
+  <data name="DocumentEditor_BuildTableOfContentsFrom" xml:space="preserve">
+    <value>Izradite sadržaj iz</value>
+  </data>
+  <data name="DocumentEditor_Styles" xml:space="preserve">
+    <value>Stilovi</value>
+  </data>
+  <data name="DocumentEditor_AvailableStyles" xml:space="preserve">
+    <value>Dostupni stilovi</value>
+  </data>
+  <data name="DocumentEditor_TOCLevel" xml:space="preserve">
+    <value>Razina TOC-a</value>
+  </data>
+  <data name="DocumentEditor_Heading" xml:space="preserve">
+    <value>Naslov</value>
+  </data>
+  <data name="DocumentEditor_Heading1" xml:space="preserve">
+    <value>Naslov 1</value>
+  </data>
+  <data name="DocumentEditor_Heading2" xml:space="preserve">
+    <value>Naslov 2</value>
+  </data>
+  <data name="DocumentEditor_Heading3" xml:space="preserve">
+    <value>Naslov 3</value>
+  </data>
+  <data name="DocumentEditor_Heading4" xml:space="preserve">
+    <value>Naslov 4</value>
+  </data>
+  <data name="DocumentEditor_Heading5" xml:space="preserve">
+    <value>Naslov 5</value>
+  </data>
+  <data name="DocumentEditor_Heading6" xml:space="preserve">
+    <value>Naslov 6</value>
+  </data>
+  <data name="DocumentEditor_ListParagraph" xml:space="preserve">
+    <value>Popis stavak</value>
+  </data>
+  <data name="DocumentEditor_Normal" xml:space="preserve">
+    <value>normalan</value>
+  </data>
+  <data name="DocumentEditor_OutlineLevels" xml:space="preserve">
+    <value>Okvirne razine</value>
+  </data>
+  <data name="DocumentEditor_TableEntryFields" xml:space="preserve">
+    <value>Polja za unos u tablicu</value>
+  </data>
+  <data name="DocumentEditor_Modify" xml:space="preserve">
+    <value>Izmjena</value>
+  </data>
+  <data name="DocumentEditor_Color" xml:space="preserve">
+    <value>Boja</value>
+  </data>
+  <data name="DocumentEditor_Setting" xml:space="preserve">
+    <value>postavljanje</value>
+  </data>
+  <data name="DocumentEditor_Box" xml:space="preserve">
+    <value>kutija</value>
+  </data>
+  <data name="DocumentEditor_All" xml:space="preserve">
+    <value>svi</value>
+  </data>
+  <data name="DocumentEditor_Custom" xml:space="preserve">
+    <value>Prilagođen</value>
+  </data>
+  <data name="DocumentEditor_Preview" xml:space="preserve">
+    <value>pregled</value>
+  </data>
+  <data name="DocumentEditor_Shading" xml:space="preserve">
+    <value>Sjenčanje</value>
+  </data>
+  <data name="DocumentEditor_Fill" xml:space="preserve">
+    <value>Napunite</value>
+  </data>
+  <data name="DocumentEditor_ApplyTo" xml:space="preserve">
+    <value>Prijaviti se</value>
+  </data>
+  <data name="DocumentEditor_TableProperties" xml:space="preserve">
+    <value>Svojstva tablice</value>
+  </data>
+  <data name="DocumentEditor_CellOptions" xml:space="preserve">
+    <value>Opcije ćelije</value>
+  </data>
+  <data name="DocumentEditor_TableOptions" xml:space="preserve">
+    <value>Opcije tablice</value>
+  </data>
+  <data name="DocumentEditor_InsertTable" xml:space="preserve">
+    <value>Umetni tablicu</value>
+  </data>
+  <data name="DocumentEditor_NumberOfColumns" xml:space="preserve">
+    <value>Broj stupaca</value>
+  </data>
+  <data name="DocumentEditor_NumberOfRows" xml:space="preserve">
+    <value>Broj redaka</value>
+  </data>
+  <data name="DocumentEditor_TextToDisplay" xml:space="preserve">
+    <value>Tekst za prikaz</value>
+  </data>
+  <data name="DocumentEditor_Address" xml:space="preserve">
+    <value>Adresa</value>
+  </data>
+  <data name="DocumentEditor_InsertHyperlink" xml:space="preserve">
+    <value>Umetnite hipervezu</value>
+  </data>
+  <data name="DocumentEditor_EditHyperlink" xml:space="preserve">
+    <value>Uredi hipervezu</value>
+  </data>
+  <data name="DocumentEditor_Insert" xml:space="preserve">
+    <value>Umetnuti</value>
+  </data>
+  <data name="DocumentEditor_General" xml:space="preserve">
+    <value>Općenito</value>
+  </data>
+  <data name="DocumentEditor_Indentation" xml:space="preserve">
+    <value>uvlačenje</value>
+  </data>
+  <data name="DocumentEditor_BeforeText" xml:space="preserve">
+    <value>Prije teksta</value>
+  </data>
+  <data name="DocumentEditor_Special" xml:space="preserve">
+    <value>poseban</value>
+  </data>
+  <data name="DocumentEditor_FirstLine" xml:space="preserve">
+    <value>Prvi red</value>
+  </data>
+  <data name="DocumentEditor_Hanging" xml:space="preserve">
+    <value>Vješanje</value>
+  </data>
+  <data name="DocumentEditor_AfterText" xml:space="preserve">
+    <value>Nakon teksta</value>
+  </data>
+  <data name="DocumentEditor_By" xml:space="preserve">
+    <value>Po</value>
+  </data>
+  <data name="DocumentEditor_Before" xml:space="preserve">
+    <value>Prije</value>
+  </data>
+  <data name="DocumentEditor_LineSpacing" xml:space="preserve">
+    <value>Razmak između redova</value>
+  </data>
+  <data name="DocumentEditor_After" xml:space="preserve">
+    <value>Nakon</value>
+  </data>
+  <data name="DocumentEditor_At" xml:space="preserve">
+    <value>Na</value>
+  </data>
+  <data name="DocumentEditor_Multiple" xml:space="preserve">
+    <value>višekratnik</value>
+  </data>
+  <data name="DocumentEditor_Spacing" xml:space="preserve">
+    <value>razmak</value>
+  </data>
+  <data name="DocumentEditor_DefineNewMultilevelList" xml:space="preserve">
+    <value>Definirajte novi višerazinski popis</value>
+  </data>
+  <data name="DocumentEditor_ListLevel" xml:space="preserve">
+    <value>Razina popisa</value>
+  </data>
+  <data name="DocumentEditor_ChooseLevelToModify" xml:space="preserve">
+    <value>Odaberite razinu za izmjenu</value>
+  </data>
+  <data name="DocumentEditor_Level" xml:space="preserve">
+    <value>nivo</value>
+  </data>
+  <data name="DocumentEditor_NumberFormat" xml:space="preserve">
+    <value>Format broja</value>
+  </data>
+  <data name="DocumentEditor_NumberStyleForThisLevel" xml:space="preserve">
+    <value>Stil broja za ovu razinu</value>
+  </data>
+  <data name="DocumentEditor_EnterFormattingForNumber" xml:space="preserve">
+    <value>Unesite oblikovanje za broj</value>
+  </data>
+  <data name="DocumentEditor_StartAt" xml:space="preserve">
+    <value>Počnite od</value>
+  </data>
+  <data name="DocumentEditor_RestartListAfter" xml:space="preserve">
+    <value>Ponovno pokrenite popis nakon</value>
+  </data>
+  <data name="DocumentEditor_Position" xml:space="preserve">
+    <value>Položaj</value>
+  </data>
+  <data name="DocumentEditor_TextIndentAt" xml:space="preserve">
+    <value>Uvodna stavka u</value>
+  </data>
+  <data name="DocumentEditor_AlignedAt" xml:space="preserve">
+    <value>Poravnato u</value>
+  </data>
+  <data name="DocumentEditor_FollowNumberWith" xml:space="preserve">
+    <value>Slijedite broj sa</value>
+  </data>
+  <data name="DocumentEditor_TabCharacter" xml:space="preserve">
+    <value>Znak kartice</value>
+  </data>
+  <data name="DocumentEditor_Space" xml:space="preserve">
+    <value>Prostor</value>
+  </data>
+  <data name="DocumentEditor_Arabic" xml:space="preserve">
+    <value>arapski</value>
+  </data>
+  <data name="DocumentEditor_UpRoman" xml:space="preserve">
+    <value>UpRoman</value>
+  </data>
+  <data name="DocumentEditor_LowRoman" xml:space="preserve">
+    <value>LowRoman</value>
+  </data>
+  <data name="DocumentEditor_UpLetter" xml:space="preserve">
+    <value>UpLetter</value>
+  </data>
+  <data name="DocumentEditor_LowLetter" xml:space="preserve">
+    <value>LowLetter</value>
+  </data>
+  <data name="DocumentEditor_Number" xml:space="preserve">
+    <value>Broj</value>
+  </data>
+  <data name="DocumentEditor_LeadingZero" xml:space="preserve">
+    <value>Vodeća nula</value>
+  </data>
+  <data name="DocumentEditor_Bullet" xml:space="preserve">
+    <value>Metak</value>
+  </data>
+  <data name="DocumentEditor_Ordinal" xml:space="preserve">
+    <value>Redni</value>
+  </data>
+  <data name="DocumentEditor_OrdinalText" xml:space="preserve">
+    <value>Redni tekst</value>
+  </data>
+  <data name="DocumentEditor_ForEast" xml:space="preserve">
+    <value>Za Istok</value>
+  </data>
+  <data name="DocumentEditor_NoRestart" xml:space="preserve">
+    <value>Nema ponovnog pokretanja</value>
+  </data>
+  <data name="DocumentEditor_Font" xml:space="preserve">
+    <value>krstionica</value>
+  </data>
+  <data name="DocumentEditor_FontStyle" xml:space="preserve">
+    <value>Stil fonta</value>
+  </data>
+  <data name="DocumentEditor_UnderlineStyle" xml:space="preserve">
+    <value>Podvlači stil</value>
+  </data>
+  <data name="DocumentEditor_FontColor" xml:space="preserve">
+    <value>Boja fonta</value>
+  </data>
+  <data name="DocumentEditor_Effects" xml:space="preserve">
+    <value>efekti</value>
+  </data>
+  <data name="DocumentEditor_Strikethrough" xml:space="preserve">
+    <value>precrtano</value>
+  </data>
+  <data name="DocumentEditor_Superscript" xml:space="preserve">
+    <value>natpis</value>
+  </data>
+  <data name="DocumentEditor_Subscript" xml:space="preserve">
+    <value>potpisan</value>
+  </data>
+  <data name="DocumentEditor_DoubleStrikethrough" xml:space="preserve">
+    <value>Dvostruki precrtavanje</value>
+  </data>
+  <data name="DocumentEditor_Regular" xml:space="preserve">
+    <value>redovan</value>
+  </data>
+  <data name="DocumentEditor_Bold" xml:space="preserve">
+    <value>odvažan</value>
+  </data>
+  <data name="DocumentEditor_Italic" xml:space="preserve">
+    <value>kurzivan</value>
+  </data>
+  <data name="DocumentEditor_Cut" xml:space="preserve">
+    <value>Izrezati</value>
+  </data>
+  <data name="DocumentEditor_Copy" xml:space="preserve">
+    <value>Kopirati</value>
+  </data>
+  <data name="DocumentEditor_Paste" xml:space="preserve">
+    <value>Zalijepiti</value>
+  </data>
+  <data name="DocumentEditor_Hyperlink" xml:space="preserve">
+    <value>hiperlink</value>
+  </data>
+  <data name="DocumentEditor_OpenHyperlink" xml:space="preserve">
+    <value>Otvorite hipervezu</value>
+  </data>
+  <data name="DocumentEditor_CopyHyperlink" xml:space="preserve">
+    <value>Kopirajte hipervezu</value>
+  </data>
+  <data name="DocumentEditor_RemoveHyperlink" xml:space="preserve">
+    <value>Uklonite hipervezu</value>
+  </data>
+  <data name="DocumentEditor_Paragraph" xml:space="preserve">
+    <value>stav</value>
+  </data>
+  <data name="DocumentEditor_LinkedStyle" xml:space="preserve">
+    <value>Povezano (odlomak i znak)</value>
+  </data>
+  <data name="DocumentEditor_Character" xml:space="preserve">
+    <value>Lik</value>
+  </data>
+  <data name="DocumentEditor_MergeCells" xml:space="preserve">
+    <value>Spajanje ćelija</value>
+  </data>
+  <data name="DocumentEditor_InsertAbove" xml:space="preserve">
+    <value>Umetnite iznad</value>
+  </data>
+  <data name="DocumentEditor_InsertBelow" xml:space="preserve">
+    <value>Umetni dolje</value>
+  </data>
+  <data name="DocumentEditor_InsertLeft" xml:space="preserve">
+    <value>Umetnite lijevo</value>
+  </data>
+  <data name="DocumentEditor_InsertRight" xml:space="preserve">
+    <value>Umetnite desno</value>
+  </data>
+  <data name="DocumentEditor_Delete" xml:space="preserve">
+    <value>Izbrisati</value>
+  </data>
+  <data name="DocumentEditor_DeleteTable" xml:space="preserve">
+    <value>Izbriši tablicu</value>
+  </data>
+  <data name="DocumentEditor_DeleteRow" xml:space="preserve">
+    <value>Izbriši red</value>
+  </data>
+  <data name="DocumentEditor_DeleteColumn" xml:space="preserve">
+    <value>Izbriši stupac</value>
+  </data>
+  <data name="DocumentEditor_FileName" xml:space="preserve">
+    <value>Naziv datoteke</value>
+  </data>
+  <data name="DocumentEditor_FormatType" xml:space="preserve">
+    <value>Vrsta formata</value>
+  </data>
+  <data name="DocumentEditor_Save" xml:space="preserve">
+    <value>Uštedjeti</value>
+  </data>
+  <data name="DocumentEditor_Navigation" xml:space="preserve">
+    <value>navigacija</value>
+  </data>
+  <data name="DocumentEditor_Results" xml:space="preserve">
+    <value>Rezultati</value>
+  </data>
+  <data name="DocumentEditor_Replace" xml:space="preserve">
+    <value>Zamijeniti</value>
+  </data>
+  <data name="DocumentEditor_ReplaceAll" xml:space="preserve">
+    <value>Zamjeni sve</value>
+  </data>
+  <data name="DocumentEditor_WeReplacedAll" xml:space="preserve">
+    <value>Sve smo zamijenili</value>
+  </data>
+  <data name="DocumentEditor_Find" xml:space="preserve">
+    <value>Pronaći</value>
+  </data>
+  <data name="DocumentEditor_NoMatches" xml:space="preserve">
+    <value>Nema utakmica</value>
+  </data>
+  <data name="DocumentEditor_AllDone" xml:space="preserve">
+    <value>Gotovo</value>
+  </data>
+  <data name="DocumentEditor_Result" xml:space="preserve">
+    <value>Proizlaziti</value>
+  </data>
+  <data name="DocumentEditor_Of" xml:space="preserve">
+    <value>od</value>
+  </data>
+  <data name="DocumentEditor_Instances" xml:space="preserve">
+    <value>slučajevi</value>
+  </data>
+  <data name="DocumentEditor_With" xml:space="preserve">
+    <value>s</value>
+  </data>
+  <data name="DocumentEditor_ClickToFollowLink" xml:space="preserve">
+    <value>Kliknite za slijeđenje veze</value>
+  </data>
+  <data name="DocumentEditor_ContinueNumbering" xml:space="preserve">
+    <value>Nastavite brojanje</value>
+  </data>
+  <data name="DocumentEditor_BookmarkName" xml:space="preserve">
+    <value>Naziv oznake</value>
+  </data>
+  <data name="DocumentEditor_Close" xml:space="preserve">
+    <value>Zatvoriti</value>
+  </data>
+  <data name="DocumentEditor_RestartAt" xml:space="preserve">
+    <value>Ponovo pokreni At</value>
+  </data>
+  <data name="DocumentEditor_Properties" xml:space="preserve">
+    <value>Svojstva</value>
+  </data>
+  <data name="DocumentEditor_Name" xml:space="preserve">
+    <value>Ime</value>
+  </data>
+  <data name="DocumentEditor_StyleType" xml:space="preserve">
+    <value>Vrsta stila</value>
+  </data>
+  <data name="DocumentEditor_StyleBasedOn" xml:space="preserve">
+    <value>Stil temeljen na</value>
+  </data>
+  <data name="DocumentEditor_StyleForFollowingParagraph" xml:space="preserve">
+    <value>Stil za sljedeći odlomak</value>
+  </data>
+  <data name="DocumentEditor_Formatting" xml:space="preserve">
+    <value>oblikovanje</value>
+  </data>
+  <data name="DocumentEditor_NumberingAndBullets" xml:space="preserve">
+    <value>Brojanje i oznake</value>
+  </data>
+  <data name="DocumentEditor_Numbering" xml:space="preserve">
+    <value>numeracija</value>
+  </data>
+  <data name="DocumentEditor_UpdateField" xml:space="preserve">
+    <value>Ažuriranje polja</value>
+  </data>
+  <data name="DocumentEditor_EditField" xml:space="preserve">
+    <value>Uređivanje polja</value>
+  </data>
+  <data name="DocumentEditor_Bookmark" xml:space="preserve">
+    <value>Označite</value>
+  </data>
+  <data name="DocumentEditor_PageSetup" xml:space="preserve">
+    <value>Podešavanje stranice</value>
+  </data>
+  <data name="DocumentEditor_NoBookmarksFound" xml:space="preserve">
+    <value>Oznake nisu pronađene</value>
+  </data>
+  <data name="DocumentEditor_Format" xml:space="preserve">
+    <value>Format</value>
+  </data>
+  <data name="DocumentEditor_CreateNewStyle" xml:space="preserve">
+    <value>Stvorite novi stil</value>
+  </data>
+  <data name="DocumentEditor_ModifyStyle" xml:space="preserve">
+    <value>Izmijenite stil</value>
+  </data>
+  <data name="DocumentEditor_New" xml:space="preserve">
+    <value>Novi</value>
+  </data>
+  <data name="DocumentEditor_Bullets" xml:space="preserve">
+    <value>Grafičke oznake</value>
+  </data>
+  <data name="DocumentEditor_UseBookmarks" xml:space="preserve">
+    <value>Koristite oznake</value>
+  </data>
+  <data name="DocumentEditor_TableOfContents" xml:space="preserve">
+    <value>Sadržaj</value>
+  </data>
+  <data name="DocumentEditor_AutoFit" xml:space="preserve">
+    <value>automatsko podešavanje širine</value>
+  </data>
+  <data name="DocumentEditor_AutoFitToContents" xml:space="preserve">
+    <value>Automatsko prilagođavanje sadržaju</value>
+  </data>
+  <data name="DocumentEditor_AutoFitToWindow" xml:space="preserve">
+    <value>Automatsko uklapanje u prozor</value>
+  </data>
+  <data name="DocumentEditor_FixedColumnWidth" xml:space="preserve">
+    <value>Fiksna širina stupca</value>
+  </data>
+  <data name="DocumentEditor_Reset" xml:space="preserve">
+    <value>Reset</value>
+  </data>
+  <data name="DocumentEditor_MatchCase" xml:space="preserve">
+    <value>Kutija šibica</value>
+  </data>
+  <data name="DocumentEditor_WholeWords" xml:space="preserve">
+    <value>Cijele riječi</value>
+  </data>
+  <data name="DocumentEditor_Add" xml:space="preserve">
+    <value>Dodati</value>
+  </data>
+  <data name="DocumentEditor_GoTo" xml:space="preserve">
+    <value>Ići</value>
+  </data>
+  <data name="DocumentEditor_SearchFor" xml:space="preserve">
+    <value>Traziti</value>
+  </data>
+  <data name="DocumentEditor_ReplaceWith" xml:space="preserve">
+    <value>Zamijeniti s</value>
+  </data>
+  <data name="DocumentEditor_TOC1" xml:space="preserve">
+    <value>TOC 1</value>
+  </data>
+  <data name="DocumentEditor_TOC2" xml:space="preserve">
+    <value>TOC 2</value>
+  </data>
+  <data name="DocumentEditor_TOC3" xml:space="preserve">
+    <value>TOC 3</value>
+  </data>
+  <data name="DocumentEditor_TOC4" xml:space="preserve">
+    <value>TOC 4</value>
+  </data>
+  <data name="DocumentEditor_TOC5" xml:space="preserve">
+    <value>TOC 5</value>
+  </data>
+  <data name="DocumentEditor_TOC6" xml:space="preserve">
+    <value>TOC 6</value>
+  </data>
+  <data name="DocumentEditor_TOC7" xml:space="preserve">
+    <value>TOC 7</value>
+  </data>
+  <data name="DocumentEditor_TOC8" xml:space="preserve">
+    <value>TOC 8</value>
+  </data>
+  <data name="DocumentEditor_TOC9" xml:space="preserve">
+    <value>TOC 9</value>
+  </data>
+  <data name="DocumentEditor_RightToLeft" xml:space="preserve">
+    <value>S desna na lijevo</value>
+  </data>
+  <data name="DocumentEditor_LeftToRight" xml:space="preserve">
+    <value>S lijeva nadesno</value>
+  </data>
+  <data name="DocumentEditor_Direction" xml:space="preserve">
+    <value>Smjer</value>
+  </data>
+  <data name="DocumentEditor_TableDirection" xml:space="preserve">
+    <value>Smjer tablice</value>
+  </data>
+  <data name="DocumentEditor_IndentFromRight" xml:space="preserve">
+    <value>Uvlaka s desne strane</value>
+  </data>
+  <data name="DocumentEditor_ContextualSpacing" xml:space="preserve">
+    <value>Ne dodajte razmak između odlomaka istih stilova</value>
+  </data>
+  <data name="DocumentEditor_PasswordMismatch" xml:space="preserve">
+    <value>Lozinka se ne podudara</value>
+  </data>
+  <data name="DocumentEditor_RestrictEditing" xml:space="preserve">
+    <value>Ograniči uređivanje</value>
+  </data>
+  <data name="DocumentEditor_FormattingRestrictions" xml:space="preserve">
+    <value>Ograničenja oblikovanja</value>
+  </data>
+  <data name="DocumentEditor_AllowFormatting" xml:space="preserve">
+    <value>Dopusti oblikovanje</value>
+  </data>
+  <data name="DocumentEditor_EditingRestrictions" xml:space="preserve">
+    <value>Ograničenja za uređivanje</value>
+  </data>
+  <data name="DocumentEditor_ReadOnly" xml:space="preserve">
+    <value>Samo za čitanje</value>
+  </data>
+  <data name="DocumentEditor_ExceptionsOptional" xml:space="preserve">
+    <value>Izuzeci (izborno)</value>
+  </data>
+  <data name="DocumentEditor_SelectPartOfDocumentAndUser" xml:space="preserve">
+    <value>Odaberite dijelove dokumenta i odaberite korisnike kojima je dopušteno da ih slobodno uređuju.</value>
+  </data>
+  <data name="DocumentEditor_Everyone" xml:space="preserve">
+    <value>Svatko</value>
+  </data>
+  <data name="DocumentEditor_MoreUsers" xml:space="preserve">
+    <value>Više korisnika</value>
+  </data>
+  <data name="DocumentEditor_AddUsers" xml:space="preserve">
+    <value>Dodavanje korisnika</value>
+  </data>
+  <data name="DocumentEditor_EnforcingProtection" xml:space="preserve">
+    <value>Da, počnite pojačavati zaštitu</value>
+  </data>
+  <data name="DocumentEditor_StartEnforcingProtection" xml:space="preserve">
+    <value>Započnite s pojačavanjem zaštite</value>
+  </data>
+  <data name="DocumentEditor_EnterUser" xml:space="preserve">
+    <value>Unesite korisnika</value>
+  </data>
+  <data name="DocumentEditor_Users" xml:space="preserve">
+    <value>Korisnici</value>
+  </data>
+  <data name="DocumentEditor_EnterNewPassword" xml:space="preserve">
+    <value>Unesite novu lozinku</value>
+  </data>
+  <data name="DocumentEditor_ReenterNewPasswordToConfirm" xml:space="preserve">
+    <value>Ponovno unesite novu lozinku za potvrdu</value>
+  </data>
+  <data name="DocumentEditor_YourPermissions" xml:space="preserve">
+    <value>Vaša dopuštenja</value>
+  </data>
+  <data name="DocumentEditor_ProtectedDocument" xml:space="preserve">
+    <value>Ovaj je dokument zaštićen od nenamjernog uređivanja. Možete uređivati ​​u ovoj regiji.</value>
+  </data>
+  <data name="DocumentEditor_YouMayFormatTextOnlyWithCertainStyles" xml:space="preserve">
+    <value>Tekst možete oblikovati samo s određenim stilovima.</value>
+  </data>
+  <data name="DocumentEditor_StopProtection" xml:space="preserve">
+    <value>Zaustavljanje zaštite</value>
+  </data>
+  <data name="DocumentEditor_Password" xml:space="preserve">
+    <value>Zaporka</value>
+  </data>
+  <data name="DocumentEditor_SpellingEditor" xml:space="preserve">
+    <value>Pravopisni urednik</value>
+  </data>
+  <data name="DocumentEditor_Spelling" xml:space="preserve">
+    <value>Pravopis</value>
+  </data>
+  <data name="DocumentEditor_SpellCheck" xml:space="preserve">
+    <value>Provjera pravopisa</value>
+  </data>
+  <data name="DocumentEditor_UnderlineErrors" xml:space="preserve">
+    <value>Podcrtajte pogreške</value>
+  </data>
+  <data name="DocumentEditor_Ignore" xml:space="preserve">
+    <value>Zanemariti</value>
+  </data>
+  <data name="DocumentEditor_IgnoreAll" xml:space="preserve">
+    <value>Zanemari sve</value>
+  </data>
+  <data name="DocumentEditor_AddToDictionary" xml:space="preserve">
+    <value>Dodaj u rječnik</value>
+  </data>
+  <data name="DocumentEditor_Change" xml:space="preserve">
+    <value>Promijeniti</value>
+  </data>
+  <data name="DocumentEditor_ChangeAll" xml:space="preserve">
+    <value>Promijeni sve</value>
+  </data>
+  <data name="DocumentEditor_Suggestions" xml:space="preserve">
+    <value>prijedlozi</value>
+  </data>
+  <data name="DocumentEditor_ThePasswordIsIncorrect" xml:space="preserve">
+    <value>Lozinka je netočna</value>
+  </data>
+  <data name="DocumentEditor_ErrorInEstablishingConnectionWithWebServer" xml:space="preserve">
+    <value>Pogreška u uspostavljanju veze s web serverom</value>
+  </data>
+  <data name="DocumentEditor_HighlightTheRegionsICanEdit" xml:space="preserve">
+    <value>Označite regije koje mogu uređivati</value>
+  </data>
+  <data name="DocumentEditor_ShowAllRegionsICanEdit" xml:space="preserve">
+    <value>Prikaži sve regije koje mogu uređivati</value>
+  </data>
+  <data name="DocumentEditor_FindNextRegionICanEdit" xml:space="preserve">
+    <value>Pronađite sljedeću regiju koju mogu urediti</value>
+  </data>
+  <data name="DocumentEditor_KeepSourceFormatting" xml:space="preserve">
+    <value>Zadržite oblikovanje izvora</value>
+  </data>
+  <data name="DocumentEditor_MatchDestinationFormatting" xml:space="preserve">
+    <value>Odgovaraju odredišnom oblikovanju</value>
+  </data>
+  <data name="DocumentEditor_TextOnly" xml:space="preserve">
+    <value>Samo tekst</value>
+  </data>
+  <data name="DocumentEditor_Comments" xml:space="preserve">
+    <value>komentari</value>
+  </data>
+  <data name="DocumentEditor_TypeYourComment" xml:space="preserve">
+    <value>Upišite svoj komentar</value>
+  </data>
+  <data name="DocumentEditor_Post" xml:space="preserve">
+    <value>pošta</value>
+  </data>
+  <data name="DocumentEditor_Reply" xml:space="preserve">
+    <value>Odgovor</value>
+  </data>
+  <data name="DocumentEditor_NewComment" xml:space="preserve">
+    <value>Novi komentar</value>
+  </data>
+  <data name="DocumentEditor_Edit" xml:space="preserve">
+    <value>Uredi</value>
+  </data>
+  <data name="DocumentEditor_Resolve" xml:space="preserve">
+    <value>Odlučnost</value>
+  </data>
+  <data name="DocumentEditor_Reopen" xml:space="preserve">
+    <value>Ponovo otvoriti</value>
+  </data>
+  <data name="DocumentEditor_NoCommentsInThisDocument" xml:space="preserve">
+    <value>U ovom dokumentu nema komentara</value>
+  </data>
+  <data name="DocumentEditor_More" xml:space="preserve">
+    <value>više</value>
+  </data>
+  <data name="DocumentEditor_TypeYourCommentHere" xml:space="preserve">
+    <value>Ovdje upišite svoj komentar</value>
+  </data>
+  <data name="DocumentEditor_NextComment" xml:space="preserve">
+    <value>Sljedeći komentar</value>
+  </data>
+  <data name="DocumentEditor_PreviousComment" xml:space="preserve">
+    <value>Prethodni komentar</value>
+  </data>
+  <data name="DocumentEditor_UnPostedComments" xml:space="preserve">
+    <value>Neobjavljeni komentari</value>
+  </data>
+  <data name="DocumentEditor_DiscardComment" xml:space="preserve">
+    <value>Dodani komentari nisu objavljeni. Ako nastavite, taj će se komentar odbaciti.</value>
+  </data>
+  <data name="DocumentEditor_NoHeadings" xml:space="preserve">
+    <value>Nije pronađen naslov!</value>
+  </data>
+  <data name="DocumentEditor_AddHeadings" xml:space="preserve">
+    <value>Ovaj dokument nema naslova. Dodajte naslove i pokušajte ponovo.</value>
+  </data>
+  <data name="DocumentEditorContainer_New" xml:space="preserve">
+    <value>Novi</value>
+  </data>
+  <data name="DocumentEditorContainer_Open" xml:space="preserve">
+    <value>Otvoren</value>
+  </data>
+  <data name="DocumentEditorContainer_Undo" xml:space="preserve">
+    <value>Poništi</value>
+  </data>
+  <data name="DocumentEditorContainer_Redo" xml:space="preserve">
+    <value>Ponovi</value>
+  </data>
+  <data name="DocumentEditorContainer_Image" xml:space="preserve">
+    <value>Slika</value>
+  </data>
+  <data name="DocumentEditorContainer_Table" xml:space="preserve">
+    <value>Stol</value>
+  </data>
+  <data name="DocumentEditorContainer_Link" xml:space="preserve">
+    <value>Veza</value>
+  </data>
+  <data name="DocumentEditorContainer_Bookmark" xml:space="preserve">
+    <value>Označite</value>
+  </data>
+  <data name="DocumentEditorContainer_TableOfContents" xml:space="preserve">
+    <value>Sadržaj</value>
+  </data>
+  <data name="DocumentEditorContainer_HEADING1" xml:space="preserve">
+    <value>GLAVA - - - - 1</value>
+  </data>
+  <data name="DocumentEditorContainer_HEADING2" xml:space="preserve">
+    <value>GLAVA - - - - 2</value>
+  </data>
+  <data name="DocumentEditorContainer_HEADING3" xml:space="preserve">
+    <value>GLAVA - - - - 3</value>
+  </data>
+  <data name="DocumentEditorContainer_Header" xml:space="preserve">
+    <value>Zaglavlje</value>
+  </data>
+  <data name="DocumentEditorContainer_Footer" xml:space="preserve">
+    <value>Podnožje</value>
+  </data>
+  <data name="DocumentEditorContainer_PageSetup" xml:space="preserve">
+    <value>Podešavanje stranice</value>
+  </data>
+  <data name="DocumentEditorContainer_PageNumber" xml:space="preserve">
+    <value>Broj stranice</value>
+  </data>
+  <data name="DocumentEditorContainer_Break" xml:space="preserve">
+    <value>Pauza</value>
+  </data>
+  <data name="DocumentEditorContainer_Find" xml:space="preserve">
+    <value>Pronaći</value>
+  </data>
+  <data name="DocumentEditorContainer_LocalClipboard" xml:space="preserve">
+    <value>Lokalni međuspremnik</value>
+  </data>
+  <data name="DocumentEditorContainer_RestrictEditing" xml:space="preserve">
+    <value>Ograniči uređivanje</value>
+  </data>
+  <data name="DocumentEditorContainer_UploadFromComputer" xml:space="preserve">
+    <value>Prijenos s računala</value>
+  </data>
+  <data name="DocumentEditorContainer_ByURL" xml:space="preserve">
+    <value>Prema URL-u</value>
+  </data>
+  <data name="DocumentEditorContainer_PageBreak" xml:space="preserve">
+    <value>Prijelom stranice</value>
+  </data>
+  <data name="DocumentEditorContainer_SectionBreak" xml:space="preserve">
+    <value>Odlomak odjeljka</value>
+  </data>
+  <data name="DocumentEditorContainer_HeaderAndFooter" xml:space="preserve">
+    <value>Zaglavlje podnožje</value>
+  </data>
+  <data name="DocumentEditorContainer_Options" xml:space="preserve">
+    <value>Opcije</value>
+  </data>
+  <data name="DocumentEditorContainer_Levels" xml:space="preserve">
+    <value>razine</value>
+  </data>
+  <data name="DocumentEditorContainer_DifferentFirstPage" xml:space="preserve">
+    <value>Različita prva stranica</value>
+  </data>
+  <data name="DocumentEditorContainer_DifferentHeaderAndFooterForOddAndEvenPages" xml:space="preserve">
+    <value>Različita zaglavlja i podnožja za neparne i parne stranice.</value>
+  </data>
+  <data name="DocumentEditorContainer_DifferentOddAndEvenPages" xml:space="preserve">
+    <value>Različite parne i neparne stranice</value>
+  </data>
+  <data name="DocumentEditorContainer_DifferentHeaderAndFooterForFirstPage" xml:space="preserve">
+    <value>Različita zaglavlja i podnožja za prvu stranicu.</value>
+  </data>
+  <data name="DocumentEditorContainer_Position" xml:space="preserve">
+    <value>Položaj</value>
+  </data>
+  <data name="DocumentEditorContainer_HeaderFromTop" xml:space="preserve">
+    <value>Zaglavlje s vrha</value>
+  </data>
+  <data name="DocumentEditorContainer_FooterFromBottom" xml:space="preserve">
+    <value>Podnožje s dna</value>
+  </data>
+  <data name="DocumentEditorContainer_DistanceFromTopOfThePageToTopOfTheHeader" xml:space="preserve">
+    <value>Udaljenost od vrha stranice do vrha zaglavlja.</value>
+  </data>
+  <data name="DocumentEditorContainer_DistanceFromBottomOfThePageToBottomOfTheFooter" xml:space="preserve">
+    <value>Udaljenost od dna stranice do dna podnožja.</value>
+  </data>
+  <data name="DocumentEditorContainer_AspectRatio" xml:space="preserve">
+    <value>Omjer slike</value>
+  </data>
+  <data name="DocumentEditorContainer_W" xml:space="preserve">
+    <value>W</value>
+  </data>
+  <data name="DocumentEditorContainer_H" xml:space="preserve">
+    <value>H</value>
+  </data>
+  <data name="DocumentEditorContainer_Width" xml:space="preserve">
+    <value>Širina</value>
+  </data>
+  <data name="DocumentEditorContainer_Height" xml:space="preserve">
+    <value>Visina</value>
+  </data>
+  <data name="DocumentEditorContainer_Text" xml:space="preserve">
+    <value>Tekst</value>
+  </data>
+  <data name="DocumentEditorContainer_Paragraph" xml:space="preserve">
+    <value>stav</value>
+  </data>
+  <data name="DocumentEditorContainer_Fill" xml:space="preserve">
+    <value>Napunite</value>
+  </data>
+  <data name="DocumentEditorContainer_FillColor" xml:space="preserve">
+    <value>Ispunite boju</value>
+  </data>
+  <data name="DocumentEditorContainer_BorderStyle" xml:space="preserve">
+    <value>Stil obruba</value>
+  </data>
+  <data name="DocumentEditorContainer_OutsideBorders" xml:space="preserve">
+    <value>Izvan granica</value>
+  </data>
+  <data name="DocumentEditorContainer_AllBorders" xml:space="preserve">
+    <value>Sve granice</value>
+  </data>
+  <data name="DocumentEditorContainer_InsideBorders" xml:space="preserve">
+    <value>Unutar granica</value>
+  </data>
+  <data name="DocumentEditorContainer_LeftBorder" xml:space="preserve">
+    <value>Lijeva granica</value>
+  </data>
+  <data name="DocumentEditorContainer_InsideVerticalBorder" xml:space="preserve">
+    <value>Unutar okomite granice</value>
+  </data>
+  <data name="DocumentEditorContainer_RightBorder" xml:space="preserve">
+    <value>Desna granica</value>
+  </data>
+  <data name="DocumentEditorContainer_TopBorder" xml:space="preserve">
+    <value>Gornja granica</value>
+  </data>
+  <data name="DocumentEditorContainer_InsideHorizontalBorder" xml:space="preserve">
+    <value>Unutar vodoravne granice</value>
+  </data>
+  <data name="DocumentEditorContainer_BottomBorder" xml:space="preserve">
+    <value>Donja granica</value>
+  </data>
+  <data name="DocumentEditorContainer_BorderColor" xml:space="preserve">
+    <value>Boja obruba</value>
+  </data>
+  <data name="DocumentEditorContainer_BorderWidth" xml:space="preserve">
+    <value>Širina obruba</value>
+  </data>
+  <data name="DocumentEditorContainer_Cell" xml:space="preserve">
+    <value>ćelija</value>
+  </data>
+  <data name="DocumentEditorContainer_MergeCells" xml:space="preserve">
+    <value>Spajanje ćelija</value>
+  </data>
+  <data name="DocumentEditorContainer_InsertOrDelete" xml:space="preserve">
+    <value>Umetanje / brisanje</value>
+  </data>
+  <data name="DocumentEditorContainer_InsertColumnsToTheLeft" xml:space="preserve">
+    <value>Umetnite stupce s lijeve strane</value>
+  </data>
+  <data name="DocumentEditorContainer_InsertColumnsToTheRight" xml:space="preserve">
+    <value>Umetnite stupce s desne strane</value>
+  </data>
+  <data name="DocumentEditorContainer_InsertRowsAbove" xml:space="preserve">
+    <value>Umetnite redove iznad</value>
+  </data>
+  <data name="DocumentEditorContainer_InsertRowsBelow" xml:space="preserve">
+    <value>Umetnite retke ispod</value>
+  </data>
+  <data name="DocumentEditorContainer_DeleteRows" xml:space="preserve">
+    <value>Izbrišite redove</value>
+  </data>
+  <data name="DocumentEditorContainer_DeleteColumns" xml:space="preserve">
+    <value>Izbriši stupce</value>
+  </data>
+  <data name="DocumentEditorContainer_CellMargin" xml:space="preserve">
+    <value>Stanična marža</value>
+  </data>
+  <data name="DocumentEditorContainer_Top" xml:space="preserve">
+    <value>Vrh</value>
+  </data>
+  <data name="DocumentEditorContainer_Bottom" xml:space="preserve">
+    <value>Dno</value>
+  </data>
+  <data name="DocumentEditorContainer_Left" xml:space="preserve">
+    <value>Lijevo</value>
+  </data>
+  <data name="DocumentEditorContainer_Right" xml:space="preserve">
+    <value>Pravo</value>
+  </data>
+  <data name="DocumentEditorContainer_AlignText" xml:space="preserve">
+    <value>Poravnaj tekst</value>
+  </data>
+  <data name="DocumentEditorContainer_Aligntop" xml:space="preserve">
+    <value>Poravnajte vrh</value>
+  </data>
+  <data name="DocumentEditorContainer_AlignBottom" xml:space="preserve">
+    <value>Poravnajte dno</value>
+  </data>
+  <data name="DocumentEditorContainer_AlignCenter" xml:space="preserve">
+    <value>Poravnajte središte</value>
+  </data>
+  <data name="DocumentEditorContainer_NumberOfHeadingOrOutlineLevelsToBeShownInTableOfContents" xml:space="preserve">
+    <value>Broj razina naslova ili obrisa koji će biti prikazani u sadržaju.</value>
+  </data>
+  <data name="DocumentEditorContainer_ShowPageNumbers" xml:space="preserve">
+    <value>Pokažite brojeve stranica</value>
+  </data>
+  <data name="DocumentEditorContainer_ShowPageNumbersInTableOfContents" xml:space="preserve">
+    <value>Prikažite brojeve stranica u sadržaju.</value>
+  </data>
+  <data name="DocumentEditorContainer_RightAlignPageNumbers" xml:space="preserve">
+    <value>Desno poravnajte brojeve stranica</value>
+  </data>
+  <data name="DocumentEditorContainer_RightAlignPageNumbersInTableOfContents" xml:space="preserve">
+    <value>Ispravno poravnajte brojeve stranica u sadržaju.</value>
+  </data>
+  <data name="DocumentEditorContainer_UseHyperlinks" xml:space="preserve">
+    <value>Upotrijebite hiperveze</value>
+  </data>
+  <data name="DocumentEditorContainer_UseHyperlinksInsteadOfPageNumbers" xml:space="preserve">
+    <value>Koristite hiperveze umjesto brojeva stranica.</value>
+  </data>
+  <data name="DocumentEditorContainer_Font" xml:space="preserve">
+    <value>krstionica</value>
+  </data>
+  <data name="DocumentEditorContainer_FontSize" xml:space="preserve">
+    <value>Veličina fonta</value>
+  </data>
+  <data name="DocumentEditorContainer_FontColor" xml:space="preserve">
+    <value>Boja fonta</value>
+  </data>
+  <data name="DocumentEditorContainer_TextHighlightColor" xml:space="preserve">
+    <value>Boja isticanja teksta</value>
+  </data>
+  <data name="DocumentEditorContainer_ClearAllFormatting" xml:space="preserve">
+    <value>Izbriši sve oblikovanje</value>
+  </data>
+  <data name="DocumentEditorContainer_BoldTooltip" xml:space="preserve">
+    <value>Podebljano (Ctrl + B)</value>
+  </data>
+  <data name="DocumentEditorContainer_ItalicTooltip" xml:space="preserve">
+    <value>Ležeći jezik (Ctrl + I)</value>
+  </data>
+  <data name="DocumentEditorContainer_UnderlineTooltip" xml:space="preserve">
+    <value>Podcrtaj (Ctrl + U)</value>
+  </data>
+  <data name="DocumentEditorContainer_Strikethrough" xml:space="preserve">
+    <value>precrtano</value>
+  </data>
+  <data name="DocumentEditorContainer_SuperscriptTooltip" xml:space="preserve">
+    <value>Superscript (Ctrl + Shift ++)</value>
+  </data>
+  <data name="DocumentEditorContainer_SubscriptTooltip" xml:space="preserve">
+    <value>Pretplata (Ctrl + =)</value>
+  </data>
+  <data name="DocumentEditorContainer_AlignLeftTooltip" xml:space="preserve">
+    <value>Poravnaj ulijevo (Ctrl + L)</value>
+  </data>
+  <data name="DocumentEditorContainer_CenterTooltip" xml:space="preserve">
+    <value>Centar (Ctrl + E)</value>
+  </data>
+  <data name="DocumentEditorContainer_AlignRightTooltip" xml:space="preserve">
+    <value>Poravnaj udesno (Ctrl + R)</value>
+  </data>
+  <data name="DocumentEditorContainer_JustifyTooltip" xml:space="preserve">
+    <value>Opravdi (Ctrl + J)</value>
+  </data>
+  <data name="DocumentEditorContainer_DecreaseIndent" xml:space="preserve">
+    <value>Smanji uvlačenje</value>
+  </data>
+  <data name="DocumentEditorContainer_IncreaseIndent" xml:space="preserve">
+    <value>Povećajte uvlačenje</value>
+  </data>
+  <data name="DocumentEditorContainer_LineSpacing" xml:space="preserve">
+    <value>Razmak između redova</value>
+  </data>
+  <data name="DocumentEditorContainer_Bullets" xml:space="preserve">
+    <value>Grafičke oznake</value>
+  </data>
+  <data name="DocumentEditorContainer_Numbering" xml:space="preserve">
+    <value>numeracija</value>
+  </data>
+  <data name="DocumentEditorContainer_Styles" xml:space="preserve">
+    <value>Stilovi</value>
+  </data>
+  <data name="DocumentEditorContainer_ManageStyles" xml:space="preserve">
+    <value>Upravljanje stilovima</value>
+  </data>
+  <data name="DocumentEditorContainer_Page" xml:space="preserve">
+    <value>Stranica</value>
+  </data>
+  <data name="DocumentEditorContainer_Of" xml:space="preserve">
+    <value>od</value>
+  </data>
+  <data name="DocumentEditorContainer_FitOnePage" xml:space="preserve">
+    <value>Podesite jednu stranicu</value>
+  </data>
+  <data name="DocumentEditorContainer_SpellCheck" xml:space="preserve">
+    <value>Provjera pravopisa</value>
+  </data>
+  <data name="DocumentEditorContainer_UnderlineErrors" xml:space="preserve">
+    <value>Podcrtajte pogreške</value>
+  </data>
+  <data name="DocumentEditorContainer_FitPageWidth" xml:space="preserve">
+    <value>Podesite širinu stranice</value>
+  </data>
+  <data name="DocumentEditorContainer_Update" xml:space="preserve">
+    <value>Ažuriraj</value>
+  </data>
+  <data name="DocumentEditorContainer_Cancel" xml:space="preserve">
+    <value>Otkazati</value>
+  </data>
+  <data name="DocumentEditorContainer_Insert" xml:space="preserve">
+    <value>Umetnuti</value>
+  </data>
+  <data name="DocumentEditorContainer_NoBorder" xml:space="preserve">
+    <value>Nema granice</value>
+  </data>
+  <data name="DocumentEditorContainer_CreateANewDocument" xml:space="preserve">
+    <value>Izradite novi dokument.</value>
+  </data>
+  <data name="DocumentEditorContainer_OpenADocument" xml:space="preserve">
+    <value>Otvorite dokument.</value>
+  </data>
+  <data name="DocumentEditorContainer_UndoTooltip" xml:space="preserve">
+    <value>Otkažite posljednju operaciju (Ctrl + Z).</value>
+  </data>
+  <data name="DocumentEditorContainer_RedoTooltip" xml:space="preserve">
+    <value>Ponovite posljednju operaciju (Ctrl + Y).</value>
+  </data>
+  <data name="DocumentEditorContainer_InsertInlinePictureFromAFile" xml:space="preserve">
+    <value>Umetnite linijsku sliku iz datoteke.</value>
+  </data>
+  <data name="DocumentEditorContainer_InsertATableIntoTheDocument" xml:space="preserve">
+    <value>Umetnite tablicu u dokument</value>
+  </data>
+  <data name="DocumentEditorContainer_CreateHyperlink" xml:space="preserve">
+    <value>Stvorite vezu u svom dokumentu za brzi pristup web stranicama i datotekama (Ctrl + K).</value>
+  </data>
+  <data name="DocumentEditorContainer_InsertABookmarkInASpecificPlaceInThisDocument" xml:space="preserve">
+    <value>Umetnite oznaku na određeno mjesto u ovom dokumentu.</value>
+  </data>
+  <data name="DocumentEditorContainer_ProvideAnOverviewOfYourDocumentByAddingATableOfContents" xml:space="preserve">
+    <value>Dodajte pregled svog dokumenta dodavanjem sadržaja.</value>
+  </data>
+  <data name="DocumentEditorContainer_AddOrEditTheHeader" xml:space="preserve">
+    <value>Dodajte ili uredite zaglavlje.</value>
+  </data>
+  <data name="DocumentEditorContainer_AddOrEditTheFooter" xml:space="preserve">
+    <value>Dodajte ili uredite podnožje.</value>
+  </data>
+  <data name="DocumentEditorContainer_OpenThePageSetupDialog" xml:space="preserve">
+    <value>Otvorite dijaloški okvir za postavljanje stranice.</value>
+  </data>
+  <data name="DocumentEditorContainer_AddPageNumbers" xml:space="preserve">
+    <value>Dodajte brojeve stranica.</value>
+  </data>
+  <data name="DocumentEditorContainer_FindText" xml:space="preserve">
+    <value>Pronađite tekst u dokumentu (Ctrl + F).</value>
+  </data>
+  <data name="DocumentEditorContainer_CurrentPageNumber" xml:space="preserve">
+    <value>Trenutačni broj stranice u dokumentu. Kliknite ili dodirnite za kretanje po određenoj stranici.</value>
+  </data>
+  <data name="DocumentEditorContainer_ReadOnly" xml:space="preserve">
+    <value>Samo za čitanje</value>
+  </data>
+  <data name="DocumentEditorContainer_Protections" xml:space="preserve">
+    <value>zaštita</value>
+  </data>
+  <data name="DocumentEditorContainer_ErrorInEstablishingConnectionWithWebServer" xml:space="preserve">
+    <value>Pogreška u uspostavljanju veze s web serverom</value>
+  </data>
+  <data name="DocumentEditorContainer_Single" xml:space="preserve">
+    <value>Singl</value>
+  </data>
+  <data name="DocumentEditorContainer_Double" xml:space="preserve">
+    <value>Dvostruko</value>
+  </data>
+  <data name="DocumentEditorContainer_NewComment" xml:space="preserve">
+    <value>Novi komentar</value>
+  </data>
+  <data name="DocumentEditorContainer_Comments" xml:space="preserve">
+    <value>komentari</value>
+  </data>
+  <data name="DocumentEditorContainer_PrintLayout" xml:space="preserve">
+    <value>Izgled ispisa</value>
+  </data>
+  <data name="DocumentEditorContainer_WebLayout" xml:space="preserve">
+    <value>Web izgled</value>
   </data>
 </root>
