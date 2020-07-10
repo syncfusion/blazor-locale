@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AutoComplete_ActionFailureTemplate" xml:space="preserve">
-    <value>فشل الطلب</value>
+    <value>الطلب فشل</value>
   </data>
   <data name="AutoComplete_NoRecordsTemplate" xml:space="preserve">
     <value>لا توجد سجلات</value>
@@ -127,7 +127,7 @@
     <value>اليوم</value>
   </data>
   <data name="ComboBox_ActionFailureTemplate" xml:space="preserve">
-    <value>فشل الطلب</value>
+    <value>الطلب فشل</value>
   </data>
   <data name="ComboBox_NoRecordsTemplate" xml:space="preserve">
     <value>لا توجد سجلات</value>
@@ -169,13 +169,13 @@
     <value>اليوم</value>
   </data>
   <data name="DropDownList_ActionFailureTemplate" xml:space="preserve">
-    <value>فشل الطلب</value>
+    <value>الطلب فشل</value>
   </data>
   <data name="DropDownList_NoRecordsTemplate" xml:space="preserve">
     <value>لا توجد سجلات</value>
   </data>
   <data name="MultiSelect_ActionFailureTemplate" xml:space="preserve">
-    <value>فشل الطلب</value>
+    <value>الطلب فشل</value>
   </data>
   <data name="MultiSelect_NoRecordsTemplate" xml:space="preserve">
     <value>لا توجد سجلات</value>
@@ -392,6 +392,9 @@
   </data>
   <data name="FileManager_Descending" xml:space="preserve">
     <value>تنازلي</value>
+  </data>
+   <data name="FileManager_None" xml:space="preserve">
+    <value>لا شيء</value>
   </data>
   <data name="FileManager_ViewLargeIcons" xml:space="preserve">
     <value>أيقونات كبيرة</value>
@@ -811,7 +814,7 @@
     <value>تغيير النظام</value>
   </data>
   <data name="ListBox_ActionFailureTemplate" xml:space="preserve">
-    <value>فشل الطلب</value>
+    <value>الطلب فشل</value>
   </data>
   <data name="ListBox_MoveAllFrom" xml:space="preserve">
     <value>نقل الكل من</value>
@@ -4536,6 +4539,125 @@
   <data name="DocumentEditor_AddHeadings" xml:space="preserve">
     <value>لا تحتوي هذه الوثيقة على عناوين. الرجاء إضافة العناوين والمحاولة مرة أخرى.</value>
   </data>
+   <data name="DocumentEditor_DropDownFormField" xml:space="preserve">
+    <value>حقل نموذج منسدل</value>
+  </data>
+  <data name="DocumentEditor_Dropdownitems" xml:space="preserve">
+    <value>عناصر منسدلة</value>
+  </data>
+  <data name="DocumentEditor_Itemsindropdownlist" xml:space="preserve">
+    <value>العناصر في القائمة المنسدلة</value>
+  </data>
+  <data name="DocumentEditor_ADDButton" xml:space="preserve">
+    <value>أضف</value>
+  </data>
+  <data name="DocumentEditor_REMOVE" xml:space="preserve">
+    <value>أضف</value>
+  </data>
+  <data name="DocumentEditor_FieldSettings" xml:space="preserve">
+    <value>الإعدادات الميدانيةs</value>
+  </data>
+   <data name="DocumentEditor_Tooltip" xml:space="preserve">
+    <value>تلميح</value>
+  </data>
+   <data name="DocumentEditor_DropDownEnabled" xml:space="preserve">
+    <value>تم تمكين القائمة المنسدلة</value>
+  </data>
+   <data name="DocumentEditor_CheckBoxFormField" xml:space="preserve">
+    <value>حقل نموذج خانة الاختيار</value>
+  </data>
+   <data name="DocumentEditor_CheckBoxSize" xml:space="preserve">
+    <value>حجم خانة الاختيار</value>
+  </data>
+  <data name="DocumentEditor_Auto" xml:space="preserve">
+    <value>تلقاءي</value>
+  </data>
+  <data name="DocumentEditor_DefaultValue" xml:space="preserve">
+    <value>القيمة الافتراضية</value>
+  </data>
+   <data name="DocumentEditor_NotChecked" xml:space="preserve">
+    <value>غير مدقق</value>
+  </data>
+  <data name="DocumentEditor_Checked" xml:space="preserve">
+    <value>التحقق</value>
+  </data>
+  <data name="DocumentEditor_Checkboxenabled" xml:space="preserve">
+    <value>م تمكين خانة الاختيار</value>
+  </data>
+  <data name="DocumentEditor_TextFormField" xml:space="preserve">
+    <value>حقل نموذج نصي</value>
+  </data>
+  <data name="DocumentEditor_Type" xml:space="preserve">
+    <value>نوع</value>
+  </data>
+  <data name="DocumentEditor_DefaultText" xml:space="preserve">
+    <value>النص الافتراضي</value>
+  </data>
+   <data name="DocumentEditor_MaximumLength" xml:space="preserve">
+    <value>لحد الأقصى لطول</value>
+  </data>
+   <data name="DocumentEditor_TextFormat" xml:space="preserve">
+    <value>تنسيق النص</value>
+  </data>
+   <data name="DocumentEditor_FillInEnabled" xml:space="preserve">
+    <value>تم تمكين التعبئة</value>
+  </data>
+  <data name="DocumentEditor_DefaultNumber" xml:space="preserve">
+    <value>الرقم الافتراضي</value>
+  </data>
+   <data name="DocumentEditor_DefaultDate" xml:space="preserve">
+    <value>التاريخ الافتراضي</value>
+  </data>
+   <data name="DocumentEditor_DateFormat" xml:space="preserve">
+    <value>صيغة التاريخ</value>
+  </data>
+ <data name="DocumentEditor_MergeTrack" xml:space="preserve">
+    <value>لن يتم وضع علامة على هذا الإجراء كتغيير. هل تريد الاستمرار?</value>
+  </data>
+<data name="DocumentEditor_UnTrack" xml:space="preserve">
+    <value>لا يمكن تعقبها</value>
+  </data>
+    <data name="DocumentEditor_Accept" xml:space="preserve">
+    <value>قبول</value>
+  </data>
+ <data name="DocumentEditor_Reject" xml:space="preserve">
+    <value>رفض</value>
+  </data>
+  <data name="DocumentEditor_PreviousChanges" xml:space="preserve">
+    <value>التغييرات السابقة</value>
+  </data>
+  <data name="DocumentEditor_NextChanges" xml:space="preserve">
+    <value>التغييرات القادمة</value>
+  </data>
+  <data name="DocumentEditor_Inserted" xml:space="preserve">
+    <value>تم إدراجها</value>
+  </data> <data name="DocumentEditor_Deleted" xml:space="preserve">
+    <value>تم الحذف</value>
+  </data>
+  <data name="DocumentEditor_Changes" xml:space="preserve">
+    <value>التغييرات</value>
+  </data>   
+   <data name="DocumentEditor_AcceptAll" xml:space="preserve">
+    <value>قبول الكل</value>
+  </data>
+  <data name="DocumentEditor_RejectAll" xml:space="preserve">
+    <value>رفض الكل</value>
+  </data>
+<data name="DocumentEditor_NoChanges" xml:space="preserve">
+    <value>لا تغييرات</value>
+  </data>
+  <data name="DocumentEditor_AcceptChanges" xml:space="preserve">
+    <value>قبول التغييرات</value>
+  </data>
+   <data name="DocumentEditor_RejectChanges" xml:space="preserve">
+    <value>رفض التغييرات</value>
+  </data>
+  <data name="DocumentEditor_User" xml:space="preserve">
+    <value>المستعمل</value>
+  </data>
+  <data name="DocumentEditor_View" xml:space="preserve">
+    <value>رأي</value>
+  </data>
   <data name="DocumentEditorContainer_New" xml:space="preserve">
     <value>جديد</value>
   </data>
@@ -4943,5 +5065,32 @@
   </data>
   <data name="DocumentEditorContainer_Comments" xml:space="preserve">
     <value>تعليقات</value>
+  </data>
+   <data name="DocumentEditorContainer_PrintLayout" xml:space="preserve">
+    <value>تخطيط الطباعة</value>
+  </data>
+  <data name="DocumentEditorContainer_WebLayout" xml:space="preserve">
+    <value>تخطيط ويب</value>
+  </data>
+  <data name="DocumentEditorContainer_TextForm" xml:space="preserve">
+    <value>شكل نصي</value>
+  </data>
+  <data name="DocumentEditorContainer_CheckBox" xml:space="preserve">
+    <value>خانة اختيار</value>
+  </data>
+  <data name="DocumentEditorContainer_DropDown" xml:space="preserve">
+    <value>اسقاط</value>
+  </data>
+  <data name="DocumentEditorContainer_UpdateFields" xml:space="preserve">
+    <value>تحديث الحقول</value>
+  </data>
+  <data name="DocumentEditorContainer_UpdateCrossReferenceFields" xml:space="preserve">
+    <value>تحديث حقول الإسناد الترافقي</value>
+  </data>
+  <data name="DocumentEditorContainer_Track_changes" xml:space="preserve">
+    <value>تتبع التغييرات التي تم إجراؤها في المستند</value>
+  </data>
+  <data name="DocumentEditorContainer_TrackChanges" xml:space="preserve">
+    <value>تعقب التغيرات</value>
   </data>
 </root>
