@@ -447,11 +447,17 @@
   <data name="FileManager_ContentDelete" xml:space="preserve">
     <value>Är du säker på att du vill ta bort den här filen?</value>
   </data>
+  <data name="FileManager_HeaderFolderDelete" xml:space="preserve">
+    <value>Radera mapp</value>
+  </data>
+  <data name="FileManager_ContentFolderDelete" xml:space="preserve">
+    <value>Är du säker på att du vill ta bort den här mappen?</value>
+  </data>
   <data name="FileManager_HeaderMultipleDelete" xml:space="preserve">
-    <value>Radera flera filer</value>
+    <value>Radera flera objekt</value>
   </data>
   <data name="FileManager_ContentMultipleDelete" xml:space="preserve">
-    <value>Är du säker på att du vill ta bort dessa {0} filer?</value>
+    <value>Är du säker på att du vill ta bort dessa {0} objekt?</value>
   </data>
   <data name="FileManager_HeaderDuplicate" xml:space="preserve">
     <value>Fil / mapp finns</value>
@@ -605,6 +611,12 @@
   </data>
   <data name="Gantt_ConfirmPredecessorDelete" xml:space="preserve">
     <value>Är du säker på att du vill ta bort beroende-länk?</value>
+  </data>
+  <data name="Gantt_Indent" xml:space="preserve">
+    <value>Indrag</value>
+  </data>
+  <data name="Gantt_Outdent" xml:space="preserve">
+    <value>Minska indrag</value>
   </data>
   <data name="Gantt_Convert" xml:space="preserve">
     <value>Konvertera</value>
@@ -843,452 +855,50 @@
   <data name="ListBox_UnSelectAllText" xml:space="preserve">
     <value>Avmarkera alla</value>
   </data>
-  <data name="PivotFieldList_Add" xml:space="preserve">
-    <value>Lägg till</value>
+  <data name="PivotView_NumberFormat_ExampleWatermark" xml:space="preserve">
+    <value>Exempel: C, P, 0000%, ### 0. ## 0 #, etc.</value>
   </data>
-  <data name="PivotFieldList_AddFieldMessage" xml:space="preserve">
-    <value>Lägg till fält här</value>
+  <data name="PivotView_SortNone_TooltipMessage" xml:space="preserve">
+    <value>Sortera dataföljd</value>
   </data>
-  <data name="PivotFieldList_After" xml:space="preserve">
-    <value>Efter</value>
-  </data>
-  <data name="PivotFieldList_AfterOrEqualTo" xml:space="preserve">
-    <value>Efter eller lika med</value>
-  </data>
-  <data name="PivotFieldList_Alert" xml:space="preserve">
-    <value>Varna</value>
-  </data>
-  <data name="PivotFieldList_All" xml:space="preserve">
-    <value>Allt</value>
-  </data>
-  <data name="PivotFieldList_AllFields" xml:space="preserve">
-    <value>Alla områden</value>
-  </data>
-  <data name="PivotFieldList_And" xml:space="preserve">
-    <value>och</value>
-  </data>
-  <data name="PivotFieldList_Apply" xml:space="preserve">
-    <value>TILLÄMPA</value>
-  </data>
-  <data name="PivotFieldList_Avg" xml:space="preserve">
-    <value>Avg</value>
-  </data>
-  <data name="PivotFieldList_BaseField" xml:space="preserve">
-    <value>Basfält</value>
-  </data>
-  <data name="PivotFieldList_BaseItem" xml:space="preserve">
-    <value>Basartikel</value>
-  </data>
-  <data name="PivotFieldList_Before" xml:space="preserve">
-    <value>Innan</value>
-  </data>
-  <data name="PivotFieldList_BeforeOrEqualTo" xml:space="preserve">
-    <value>Före eller lika med</value>
-  </data>
-  <data name="PivotFieldList_BeginWith" xml:space="preserve">
-    <value>Börjar med</value>
-  </data>
-  <data name="PivotFieldList_Between" xml:space="preserve">
-    <value>Mellan</value>
-  </data>
-  <data name="PivotFieldList_Blank" xml:space="preserve">
-    <value>(Tom)</value>
-  </data>
-  <data name="PivotFieldList_By" xml:space="preserve">
-    <value>förbi</value>
-  </data>
-  <data name="PivotFieldList_CalculatedField" xml:space="preserve">
-    <value>Beräknat fält</value>
-  </data>
-  <data name="PivotFieldList_CalculatedField_ConfirmMessage" xml:space="preserve">
-    <value>Ett beräkningsfält finns redan i det här namnet. Vill du byta ut det?</value>
-  </data>
-  <data name="PivotFieldList_CalculatedField_DragDropMessage" xml:space="preserve">
-    <value>Dra och släpp fält till formel</value>
-  </data>
-  <data name="PivotFieldList_CalculatedField_DragMessage" xml:space="preserve">
-    <value>Dra fältet till formeln</value>
-  </data>
-  <data name="PivotFieldList_CalculatedField_DropMessage" xml:space="preserve">
-    <value>Beräknat fält kan inte placeras i någon annan region utom värdaxel.</value>
-  </data>
-  <data name="PivotFieldList_CalculatedField_ExampleWatermark" xml:space="preserve">
-    <value>Exempel: ('Sum(Order_Count)' + 'Sum(In_Stock)'') * 250</value>
-  </data>
-  <data name="PivotFieldList_CalculatedField_ExistMessage" xml:space="preserve">
-    <value>Ett fält finns redan i det här namnet. Ange ett annat namn.</value>
-  </data>
-  <data name="PivotFieldList_CalculatedField_MobileWatermark" xml:space="preserve">
-    <value>Lägg till fält och redigera formel här.</value>
-  </data>
-  <data name="PivotFieldList_CalculatedField_NameWatermark" xml:space="preserve">
-    <value>Ange fältnamnet</value>
-  </data>
-  <data name="PivotFieldList_CalculatedField_OLAPExampleWatermark" xml:space="preserve">
-    <value>Exempel: [Measures].[Order Quantity] + ([Measures].[Order Quantity] * 0.10)</value>
-  </data>
-  <data name="PivotFieldList_CalculatedField_Tooltip" xml:space="preserve">
-    <value>Dra och släpp fält för att skapa ett uttryck. Och om du vill redigera de befintliga beräknade fälten! Du kan uppnå det genom att helt enkelt välja fältet under 'Beräknade medlemmar'.</value>
-  </data>
-  <data name="PivotFieldList_Cancel" xml:space="preserve">
-    <value>Avbryt</value>
-  </data>
-  <data name="PivotFieldList_ChooseFieldMessage" xml:space="preserve">
-    <value>Välj fält</value>
-  </data>
-  <data name="PivotFieldList_Clear" xml:space="preserve">
-    <value>Klar</value>
-  </data>
-  <data name="PivotFieldList_ClearFilter" xml:space="preserve">
-    <value>Klar</value>
-  </data>
-  <data name="PivotFieldList_Close" xml:space="preserve">
-    <value>Stänga</value>
-  </data>
-  <data name="PivotFieldList_ColumnAxisWatermark" xml:space="preserve">
-    <value>Släpp kolumnen här</value>
-  </data>
-  <data name="PivotFieldList_Columns" xml:space="preserve">
-    <value>kolumner</value>
-  </data>
-  <data name="PivotFieldList_Contains" xml:space="preserve">
-    <value>innehåller</value>
-  </data>
-  <data name="PivotFieldList_Copy" xml:space="preserve">
-    <value>Kopia</value>
-  </data>
-  <data name="PivotFieldList_Count" xml:space="preserve">
-    <value>Räkna</value>
-  </data>
-  <data name="PivotFieldList_CreateCalculatedField" xml:space="preserve">
-    <value>Skapa beräknat fält</value>
-  </data>
-  <data name="PivotFieldList_Currency" xml:space="preserve">
-    <value>Valuta</value>
-  </data>
-  <data name="PivotFieldList_Custom" xml:space="preserve">
-    <value>Beställnings</value>
-  </data>
-  <data name="PivotFieldList_CustomFormat" xml:space="preserve">
-    <value>Ange anpassad formatsträng</value>
-  </data>
-  <data name="PivotFieldList_Date" xml:space="preserve">
-    <value>Datum</value>
-  </data>
-  <data name="PivotFieldList_DateTextMessage" xml:space="preserve">
-    <value>Visa de artiklar för vilka datumet</value>
-  </data>
-  <data name="PivotFieldList_Days" xml:space="preserve">
-    <value>dagar</value>
-  </data>
-  <data name="PivotFieldList_DeferLayoutUpdate" xml:space="preserve">
-    <value>Uppdatering av uppskjutning</value>
-  </data>
-  <data name="PivotFieldList_Delete" xml:space="preserve">
-    <value>Radera</value>
-  </data>
-  <data name="PivotFieldList_DifferenceFrom" xml:space="preserve">
-    <value>Skillnad från</value>
-  </data>
-  <data name="PivotFieldList_Dimension" xml:space="preserve">
-    <value>Dimensionera</value>
-  </data>
-  <data name="PivotFieldList_DistinctCount" xml:space="preserve">
-    <value>Distinct Count</value>
-  </data>
-  <data name="PivotFieldList_DoesNotBeginWith" xml:space="preserve">
-    <value>Börjar inte med</value>
-  </data>
-  <data name="PivotFieldList_DoesNotContains" xml:space="preserve">
-    <value>Innehåller inte</value>
-  </data>
-  <data name="PivotFieldList_DoesNotEndsWith" xml:space="preserve">
-    <value>Slutar inte med</value>
-  </data>
-  <data name="PivotFieldList_DoesNotEquals" xml:space="preserve">
-    <value>Är inte lika med</value>
-  </data>
-  <data name="PivotFieldList_Drag" xml:space="preserve">
-    <value>Drag</value>
-  </data>
-  <data name="PivotFieldList_DragFieldsMessage" xml:space="preserve">
-    <value>Dra fält mellan axlarna nedan:</value>
-  </data>
-  <data name="PivotFieldList_Edit" xml:space="preserve">
-    <value>Redigera</value>
-  </data>
-  <data name="PivotFieldList_EndsWith" xml:space="preserve">
-    <value>Slutar med</value>
-  </data>
-  <data name="PivotFieldList_EnterDate" xml:space="preserve">
-    <value>Ange datum</value>
-  </data>
-  <data name="PivotFieldList_EnterValue" xml:space="preserve">
-    <value>Ange värde</value>
-  </data>
-  <data name="PivotFieldList_Equals" xml:space="preserve">
-    <value>jämlikar</value>
-  </data>
-  <data name="PivotFieldList_Error" xml:space="preserve">
-    <value>Fel</value>
-  </data>
-  <data name="PivotFieldList_Example" xml:space="preserve">
-    <value>t.ex:</value>
-  </data>
-  <data name="PivotFieldList_Expression" xml:space="preserve">
-    <value>Uttryck</value>
-  </data>
-  <data name="PivotFieldList_FieldCaption" xml:space="preserve">
-    <value>Fälttexten</value>
-  </data>
-  <data name="PivotFieldList_FieldCaptionMessage" xml:space="preserve">
-    <value>Fälttexten</value>
-  </data>
-  <data name="PivotFieldList_FieldDropErrorMessage" xml:space="preserve">
-    <value>Fältet du flyttar kan inte placeras i det området i rapporten</value>
-  </data>
-  <data name="PivotFieldList_FieldList" xml:space="preserve">
-    <value>Fältlista</value>
-  </data>
-  <data name="PivotFieldList_FieldName" xml:space="preserve">
-    <value>Fält namn</value>
-  </data>
-  <data name="PivotFieldList_FieldNameMessage" xml:space="preserve">
-    <value>Fält namn :</value>
-  </data>
-  <data name="PivotFieldList_FieldType" xml:space="preserve">
-    <value>Fälttyp</value>
-  </data>
-  <data name="PivotFieldList_Filter" xml:space="preserve">
-    <value>Filtrera</value>
-  </data>
-  <data name="PivotFieldList_FilterAxisWatermark" xml:space="preserve">
-    <value>Släpp filter här</value>
-  </data>
-  <data name="PivotFieldList_Filtered" xml:space="preserve">
-    <value>filtreras</value>
-  </data>
-  <data name="PivotFieldList_Filters" xml:space="preserve">
-    <value>filter</value>
-  </data>
-  <data name="PivotFieldList_FormatString" xml:space="preserve">
-    <value>Formatsträng</value>
-  </data>
-  <data name="PivotFieldList_Formula" xml:space="preserve">
-    <value>Formel</value>
-  </data>
-  <data name="PivotFieldList_GreaterThan" xml:space="preserve">
-    <value>Större än</value>
-  </data>
-  <data name="PivotFieldList_GreaterThanOrEqualTo" xml:space="preserve">
-    <value>Större än eller lika med</value>
-  </data>
-  <data name="PivotFieldList_Group" xml:space="preserve">
-    <value>Grupp</value>
-  </data>
-  <data name="PivotFieldList_Hours" xml:space="preserve">
-    <value>timmar</value>
-  </data>
-  <data name="PivotFieldList_Index" xml:space="preserve">
-    <value>Index</value>
-  </data>
-  <data name="PivotFieldList_InvalidFormula" xml:space="preserve">
-    <value>Ogiltig formel.</value>
-  </data>
-  <data name="PivotFieldList_Label" xml:space="preserve">
-    <value>Märka</value>
-  </data>
-  <data name="PivotFieldList_LabelTextMessage" xml:space="preserve">
-    <value>Visa de artiklar som etiketten för</value>
-  </data>
-  <data name="PivotFieldList_LessThan" xml:space="preserve">
-    <value>Mindre än</value>
-  </data>
-  <data name="PivotFieldList_LessThanOrEqualTo" xml:space="preserve">
-    <value>Mindre än eller lika med</value>
-  </data>
-  <data name="PivotFieldList_Max" xml:space="preserve">
-    <value>Max</value>
-  </data>
-  <data name="PivotFieldList_Measure" xml:space="preserve">
-    <value>Mäta</value>
-  </data>
-  <data name="PivotFieldList_Member" xml:space="preserve">
-    <value>Medlem</value>
-  </data>
-  <data name="PivotFieldList_MemberLimitMessage" xml:space="preserve">
-    <value>fler artiklar. Sök för att förfina ytterligare.</value>
-  </data>
-  <data name="PivotFieldList_Min" xml:space="preserve">
-    <value>min</value>
-  </data>
-  <data name="PivotFieldList_Minutes" xml:space="preserve">
-    <value>Minuter</value>
-  </data>
-  <data name="PivotFieldList_Months" xml:space="preserve">
-    <value>månader</value>
-  </data>
-  <data name="PivotFieldList_MoreOption" xml:space="preserve">
-    <value>Mer...</value>
-  </data>
-  <data name="PivotFieldList_MultipleItems" xml:space="preserve">
-    <value>Flera artiklar</value>
-  </data>
-  <data name="PivotFieldList_NoMatchesMessage" xml:space="preserve">
-    <value>Inga träffar</value>
-  </data>
-  <data name="PivotFieldList_NotBetween" xml:space="preserve">
-    <value>Inte mellan</value>
-  </data>
-  <data name="PivotFieldList_Null" xml:space="preserve">
-    <value>null</value>
-  </data>
-  <data name="PivotFieldList_OK" xml:space="preserve">
-    <value>OK</value>
-  </data>
-  <data name="PivotFieldList_OutOfRange" xml:space="preserve">
-    <value>Utom räckhåll</value>
-  </data>
-  <data name="PivotFieldList_ParentHierarchy" xml:space="preserve">
-    <value>Förälderhierarki</value>
-  </data>
-  <data name="PivotFieldList_Percent" xml:space="preserve">
-    <value>Procent</value>
-  </data>
-  <data name="PivotFieldList_PercentageOfColumnTotal" xml:space="preserve">
-    <value>% av kolumnen totalt</value>
-  </data>
-  <data name="PivotFieldList_PercentageOfDifferenceFrom" xml:space="preserve">
-    <value>% av skillnaden från</value>
-  </data>
-  <data name="PivotFieldList_PercentageOfGrandTotal" xml:space="preserve">
-    <value>% av Grand Total</value>
-  </data>
-  <data name="PivotFieldList_PercentageOfParentColumnTotal" xml:space="preserve">
-    <value>% av föräldrakolumnen totalt</value>
-  </data>
-  <data name="PivotFieldList_PercentageOfParentRowTotal" xml:space="preserve">
-    <value>% av föräldraraden totalt</value>
-  </data>
-  <data name="PivotFieldList_PercentageOfParentTotal" xml:space="preserve">
-    <value>% av moderbolaget totalt</value>
-  </data>
-  <data name="PivotFieldList_PercentageOfRowTotal" xml:space="preserve">
-    <value>% av raden totalt</value>
-  </data>
-  <data name="PivotFieldList_PopulationStDev" xml:space="preserve">
-    <value>Befolkning StDev</value>
-  </data>
-  <data name="PivotFieldList_PopulationVar" xml:space="preserve">
-    <value>Befolkning Var</value>
-  </data>
-  <data name="PivotFieldList_Product" xml:space="preserve">
-    <value>Produkt</value>
-  </data>
-  <data name="PivotFieldList_Quarters" xml:space="preserve">
-    <value>Kvartal</value>
-  </data>
-  <data name="PivotFieldList_QuarterYear" xml:space="preserve">
-    <value>Kvartår</value>
-  </data>
-  <data name="PivotFieldList_Remove" xml:space="preserve">
-    <value>Avlägsna</value>
-  </data>
-  <data name="PivotFieldList_RowAxisWatermark" xml:space="preserve">
-    <value>Släpp raden här</value>
-  </data>
-  <data name="PivotFieldList_Rows" xml:space="preserve">
-    <value>rader</value>
-  </data>
-  <data name="PivotFieldList_RunningTotals" xml:space="preserve">
-    <value>Kör total</value>
-  </data>
-  <data name="PivotFieldList_SampleStDev" xml:space="preserve">
-    <value>Prov StDev</value>
-  </data>
-  <data name="PivotFieldList_SampleVar" xml:space="preserve">
-    <value>Prov Var</value>
-  </data>
-  <data name="PivotFieldList_Search" xml:space="preserve">
-    <value>Sök</value>
-  </data>
-  <data name="PivotFieldList_Seconds" xml:space="preserve">
-    <value>sekunder</value>
-  </data>
-  <data name="PivotFieldList_Sort" xml:space="preserve">
-    <value>Sortera</value>
-  </data>
-  <data name="PivotFieldList_Standard" xml:space="preserve">
-    <value>Standard</value>
-  </data>
-  <data name="PivotFieldList_StaticFieldList" xml:space="preserve">
-    <value>Pivot Field List</value>
-  </data>
-  <data name="PivotFieldList_Sum" xml:space="preserve">
-    <value>Summa</value>
-  </data>
-  <data name="PivotFieldList_Summaries" xml:space="preserve">
-    <value>Sammanfattar värden med</value>
-  </data>
-  <data name="PivotFieldList_SummarizeValuesBy" xml:space="preserve">
-    <value>Sammanfatta värden med</value>
-  </data>
-  <data name="PivotFieldList_Undefined" xml:space="preserve">
-    <value>odefinierad</value>
-  </data>
-  <data name="PivotFieldList_Value" xml:space="preserve">
-    <value>Värde</value>
-  </data>
-  <data name="PivotFieldList_ValueAxisWatermark" xml:space="preserve">
-    <value>Släpp värde här</value>
-  </data>
-  <data name="PivotFieldList_ValueFieldSettings" xml:space="preserve">
-    <value>Inställningar för värdefält</value>
-  </data>
-  <data name="PivotFieldList_Values" xml:space="preserve">
-    <value>värden</value>
-  </data>
-  <data name="PivotFieldList_ValueTextMessage" xml:space="preserve">
-    <value>Visa artiklarna för vilka</value>
-  </data>
-  <data name="PivotFieldList_Warning" xml:space="preserve">
-    <value>Varning</value>
-  </data>
-  <data name="PivotFieldList_Years" xml:space="preserve">
-    <value>år</value>
-  </data>
-  <data name="PivotFieldList_CalculatedField_RemoveMessage" xml:space="preserve">
-    <value>Är du säker på att du vill ta bort det beräknade fältet?</value>
-  </data>
-  <data name="PivotFieldList_Yes" xml:space="preserve">
-    <value>Ja</value>
-  </data>
-  <data name="PivotFieldList_No" xml:space="preserve">
-    <value>Nej</value>
-  </data>
-  <data name="PivotFieldList_Of" xml:space="preserve">
-    <value>av</value>
-  </data>
-  <data name="PivotFieldList_NumberFormat_ExampleWatermark" xml:space="preserve">
-    <value>Exempel: C, P, 0000 %, ###0.##0#, etc.</value>
-  </data>
-  <data name="PivotFieldList_SortNone_TooltipMessage" xml:space="preserve">
-    <value>Sortera dataordning</value>
-  </data>
-  <data name="PivotFieldList_SortAscending_TooltipMessage" xml:space="preserve">
-    <value>Sortera stigande ordning</value>
-  </data>
-  <data name="PivotFieldList_SortDescending_TooltipMessage" xml:space="preserve">
+  <data name="PivotView_SortDescending_TooltipMessage" xml:space="preserve">
     <value>Sortera fallande ordning</value>
   </data>
-  <data name="PivotFieldList_CalculatedField_EditTooltipMessage" xml:space="preserve">
-    <value>Redigera beräknat fält</value>
+  <data name="PivotView_StaticFieldList" xml:space="preserve">
+    <value>Pivotfältlista</value>
   </data>
-  <data name="PivotFieldList_CalculatedField_ClearTooltipMessage" xml:space="preserve">
-    <value>Rensa redigerad fältinfo</value>
+  <data name="PivotView_FieldList" xml:space="preserve">
+    <value>Fältlista</value>
   </data>
-  <data name="PivotFieldList_Format" xml:space="preserve">
-    <value>Formatera</value>
+  <data name="PivotView_AddFieldMessage" xml:space="preserve">
+    <value>Lägg till fält här</value>
+  </data>
+  <data name="PivotView_ChooseFieldMessage" xml:space="preserve">
+    <value>Välj fält</value>
+  </data>
+  <data name="PivotView_DragFieldsMessage" xml:space="preserve">
+    <value>Dra fält mellan axlarna nedan:</value>
+  </data>
+  <data name="PivotView_Add" xml:space="preserve">
+    <value>Lägg till</value>
+  </data>
+  <data name="PivotView_DeferLayoutUpdate" xml:space="preserve">
+    <value>Uppskjuta uppdatering av layout</value>
+  </data>
+  <data name="PivotView_ShowLegend" xml:space="preserve">
+    <value>Visa legend</value>
+  </data>  
+  <data name="PivotView_FieldCaptionWatermark" xml:space="preserve">
+    <value>Ange fälttexten</value>
+  </data>  
+   <data name="PivotView_SortAscending_TooltipMessage" xml:space="preserve">
+    <value>Sortera stigande ordning</value>
+  </data> 
+  <data name="PivotView_ReplaceReport_BeforeMessage" xml:space="preserve">
+    <value>En rapport som heter</value>
+  </data>  
+  <data name="PivotView_ReplaceReport_AfterMessage" xml:space="preserve">
+    <value>already exists. Do you want to replace it?</value>
   </data>
   <data name="PivotView_AddCondition" xml:space="preserve">
     <value>Lägg till villkor</value>
@@ -1330,7 +940,7 @@
     <value>och</value>
   </data>
   <data name="PivotView_Apply" xml:space="preserve">
-    <value>TILLÄMPA</value>
+    <value>Tillämpa</value>
   </data>
   <data name="PivotView_Area" xml:space="preserve">
     <value>Område</value>
@@ -1631,9 +1241,6 @@
   </data>
   <data name="PivotView_GroupCaptionMessage" xml:space="preserve">
     <value>Ange bildtexten som ska visas i rubriken</value>
-  </data>
-  <data name="PivotView_GroupFieldCaption" xml:space="preserve">
-    <value>Fälttexten</value>
   </data>
   <data name="PivotView_GroupFieldCaptionMessage" xml:space="preserve">
     <value>Ange bildtexten för gruppfält</value>
@@ -2034,6 +1641,30 @@
   <data name="PivotView_CalculatedField_ClearTooltipMessage" xml:space="preserve">
     <value>Rensa redigerad fältinfo</value>
   </data>
+  <data name="PivotView_Pie" xml:space="preserve">
+    <value>Paj</value>
+  </data>
+  <data name="PivotView_Pyramid" xml:space="preserve">
+    <value>Pyramid</value>
+  </data>
+  <data name="PivotView_Doughnut" xml:space="preserve">
+    <value>Munk</value>
+  </data>
+  <data name="PivotView_Funnel" xml:space="preserve">
+    <value>Tratt</value>
+  </data>
+  <data name="PivotView_Stacked" xml:space="preserve">
+    <value>Staplade</value>
+  </data>
+  <data name="PivotView_Grouped" xml:space="preserve">
+    <value>Grupperad</value>
+  </data>
+  <data name="PivotView_MultipleAxisMode" xml:space="preserve">
+    <value>Läge för flera axlar</value>
+  </data>
+  <data name="PivotView_Median" xml:space="preserve">
+    <value>Median</value>
+  </data>
   <data name="QueryBuilder_AddCondition" xml:space="preserve">
     <value>Lägg till villkor</value>
   </data>
@@ -2186,6 +1817,87 @@
   </data>
   <data name="Kanban_No" xml:space="preserve">
     <value>Nej</value>
+  </data>
+  <data name="RichTextEditor_NumberFormatListNone" xml:space="preserve">
+    <value> Ingen </value>
+  </data>
+  <data name="RichTextEditor_NumberFormatListNumber" xml:space="preserve">
+    <value> siffra </value>
+  </data>
+  <data name="RichTextEditor_NumberFormatListUpperAlpha" xml:space="preserve">
+    <value> Övre alfa </value>
+  </data>
+  <data name="RichTextEditor_NumberFormatListLowerAlpha" xml:space="preserve">
+    <value> Lägre alfa </value>
+  </data>
+  <data name="RichTextEditor_NumberFormatListUpperRoman" xml:space="preserve">
+    <value> Övre romerska </value>
+  </data>
+  <data name="RichTextEditor_NumberFormatListLowerRoman" xml:space="preserve">
+    <value> Nedre romerska </value>
+  </data>
+  <data name="RichTextEditor_NumberFormatListLowerGreek" xml:space="preserve">
+    <value> Lägre grekiska </value>
+  </data>
+  <data name="RichTextEditor_BulletFormatListNone" xml:space="preserve">
+    <value> Ingen </value>
+  </data>
+  <data name="RichTextEditor_BulletFormatListCircle" xml:space="preserve">
+    <value> Cirkel </value>
+  </data>
+  <data name="RichTextEditor_BulletFormatListSquare" xml:space="preserve">
+    <value> Fyrkant </value>
+  </data>
+  <data name="RichTextEditor_BulletFormatListDisc" xml:space="preserve">
+    <value> Skiva </value>
+  </data>
+  <data name="RichTextEditor_FormatsDropDownParagraph" xml:space="preserve">
+    <value> Paragraf </value>
+  </data>
+  <data name="RichTextEditor_FormatsDropDownCode" xml:space="preserve">
+    <value> Koda </value>
+  </data>
+  <data name="RichTextEditor_FormatsDropDownQuotation" xml:space="preserve">
+    <value> Citat </value>
+  </data>
+  <data name="RichTextEditor_FormatsDropDownHeading1" xml:space="preserve">
+    <value> Rubrik 1 </value>
+  </data>
+  <data name="RichTextEditor_FormatsDropDownHeading2" xml:space="preserve">
+    <value> Rubrik 2 </value>
+  </data>
+  <data name="RichTextEditor_FormatsDropDownHeading3" xml:space="preserve">
+    <value> Rubrik 3 </value>
+  </data>
+  <data name="RichTextEditor_FormatsDropDownHeading4" xml:space="preserve">
+    <value> Rubrik  4 </value>
+  </data>
+  <data name="RichTextEditor_FormatsDropDownHeading5" xml:space="preserve">
+    <value> Rubrik  5 </value>
+  </data>
+  <data name="RichTextEditor_FormatsDropDownHeading6" xml:space="preserve">
+    <value> Rubrik   6 </value>
+  </data>
+  <data name="RichTextEditor_FontNameSegoeUI" xml:space="preserve">
+    <value> Användargränssnitt för Segoe </value>
+  </data>
+  <data name="RichTextEditor_FontNameArial" xml:space="preserve">
+    <value> Arial </value>
+  </data>
+  <data name="RichTextEditor_FontNameGeorgia" xml:space="preserve">
+    <value> Georgien </value>
+  </data>
+  <data name="RichTextEditor_FontNameImpact" xml:space="preserve">
+    <value> Påverkan </value>
+  </data>
+  <data name="RichTextEditor_FontNameTahoma" xml:space="preserve">
+    <value> Tahoma </value>
+  </data>
+  <data name="RichTextEditor_FontNameTimesNewRoman" xml:space="preserve">
+    <value> Nya tider romersk </value>
+  </data>
+  <data name="RichTextEditor_FontNameVerdana" xml:space="preserve">
+    <value> Verdana </value>
   </data>
   <data name="RichTextEditor_Alignments" xml:space="preserve">
     <value>anpassningar</value>
@@ -3650,6 +3362,24 @@
   </data>
   <data name="PdfViewer_ExportFailed" xml:space="preserve">
     <value> Åtgärden för exportanteckningar misslyckades; se till att kommentarer läggs till korrekt </value>
+  </data>
+  <data name="PdfViewer_Draw_hand_Signature" xml:space="preserve">
+    <value>DRA</value>
+  </data>
+  <data name="PdfViewer_Type_Signature" xml:space="preserve">
+    <value>TYP</value>
+  </data>
+  <data name="PdfViewer_Upload_Signature" xml:space="preserve">
+    <value>LADDA UPP</value>
+  </data>
+  <data name="PdfViewer_Browse_Signature_Image" xml:space="preserve">
+    <value>BLÄDDRA</value>
+  </data>
+  <data name="PdfViewer_Save_Signature" xml:space="preserve">
+    <value>Spara signatur</value>
+  </data>
+   <data name="PdfViewer_Enter_Signature_as_Name" xml:space="preserve">
+    <value>Ange ditt namn</value>
   </data>
   <data name="DocumentEditor_Table" xml:space="preserve">
     <value>Tabell</value>

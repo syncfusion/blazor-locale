@@ -447,11 +447,17 @@
   <data name="FileManager_ContentDelete" xml:space="preserve">
     <value>האם אתה בטוח שברצונך למחוק קובץ זה?</value>
   </data>
+  <data name="FileManager_HeaderFolderDelete" xml:space="preserve">
+    <value>מחק תיקיה</value>
+  </data>
+  <data name="FileManager_ContentFolderDelete" xml:space="preserve">
+    <value>האם אתה בטוח שברצונך למחוק תיקיה זו?</value>
+  </data>
   <data name="FileManager_HeaderMultipleDelete" xml:space="preserve">
-    <value>מחק קבצים מרובים</value>
+    <value>מחק פריטים מרובים</value>
   </data>
   <data name="FileManager_ContentMultipleDelete" xml:space="preserve">
-    <value>האם אתה בטוח שברצונך למחוק את {0} הקבצים האלה?</value>
+    <value>האם אתה בטוח שברצונך למחוק את הפריטים {0} האלה?</value>
   </data>
   <data name="FileManager_HeaderDuplicate" xml:space="preserve">
     <value>קיים קובץ / תיקיה</value>
@@ -605,6 +611,12 @@
   </data>
   <data name="Gantt_ConfirmPredecessorDelete" xml:space="preserve">
     <value>האם אתה בטוח שברצונך להסיר את קישור התלות?</value>
+  </data>
+  <data name="Gantt_Indent" xml:space="preserve">
+    <value>לְשַׁנֵן</value>
+  </data>
+  <data name="Gantt_Outdent" xml:space="preserve">
+    <value>נלהב</value>
   </data>
   <data name="Gantt_Convert" xml:space="preserve">
     <value>להמיר</value>
@@ -843,452 +855,50 @@
   <data name="ListBox_UnSelectAllText" xml:space="preserve">
     <value>בטל את הבחירה בכולם</value>
   </data>
-  <data name="PivotFieldList_Add" xml:space="preserve">
-    <value>להוסיף</value>
+  <data name="PivotView_NumberFormat_ExampleWatermark" xml:space="preserve">
+    <value>דוגמה: C, P, 0000%, ### 0. ## 0 # וכו '.</value>
   </data>
-  <data name="PivotFieldList_AddFieldMessage" xml:space="preserve">
-    <value>הוסף שדה כאן</value>
-  </data>
-  <data name="PivotFieldList_After" xml:space="preserve">
-    <value>לאחר</value>
-  </data>
-  <data name="PivotFieldList_AfterOrEqualTo" xml:space="preserve">
-    <value>אחרי או שווה ל</value>
-  </data>
-  <data name="PivotFieldList_Alert" xml:space="preserve">
-    <value>התראה</value>
-  </data>
-  <data name="PivotFieldList_All" xml:space="preserve">
-    <value>את כל</value>
-  </data>
-  <data name="PivotFieldList_AllFields" xml:space="preserve">
-    <value>כל השדות</value>
-  </data>
-  <data name="PivotFieldList_And" xml:space="preserve">
-    <value>ו</value>
-  </data>
-  <data name="PivotFieldList_Apply" xml:space="preserve">
-    <value>להגיש מועמדות</value>
-  </data>
-  <data name="PivotFieldList_Avg" xml:space="preserve">
-    <value>ממוצע</value>
-  </data>
-  <data name="PivotFieldList_BaseField" xml:space="preserve">
-    <value>שדה בסיס:</value>
-  </data>
-  <data name="PivotFieldList_BaseItem" xml:space="preserve">
-    <value>פריט בסיס:</value>
-  </data>
-  <data name="PivotFieldList_Before" xml:space="preserve">
-    <value>לפני</value>
-  </data>
-  <data name="PivotFieldList_BeforeOrEqualTo" xml:space="preserve">
-    <value>לפני או שווה ל</value>
-  </data>
-  <data name="PivotFieldList_BeginWith" xml:space="preserve">
-    <value>מתחיל עם</value>
-  </data>
-  <data name="PivotFieldList_Between" xml:space="preserve">
-    <value>בין</value>
-  </data>
-  <data name="PivotFieldList_Blank" xml:space="preserve">
-    <value>(ריק)</value>
-  </data>
-  <data name="PivotFieldList_By" xml:space="preserve">
-    <value>על ידי</value>
-  </data>
-  <data name="PivotFieldList_CalculatedField" xml:space="preserve">
-    <value>שדה מחושב</value>
-  </data>
-  <data name="PivotFieldList_CalculatedField_ConfirmMessage" xml:space="preserve">
-    <value>שדה חישוב כבר קיים בשם זה. אתה רוצה להחליף את זה?</value>
-  </data>
-  <data name="PivotFieldList_CalculatedField_DragDropMessage" xml:space="preserve">
-    <value>גרור ושחרר שדות לנוסחה</value>
-  </data>
-  <data name="PivotFieldList_CalculatedField_DragMessage" xml:space="preserve">
-    <value>גרור שדה לנוסחה</value>
-  </data>
-  <data name="PivotFieldList_CalculatedField_DropMessage" xml:space="preserve">
-    <value>שדה מחושב לא יכול להיות במקום בשום אזור אחר פרט לציר ערך.</value>
-  </data>
-  <data name="PivotFieldList_CalculatedField_ExampleWatermark" xml:space="preserve">
-    <value>דוגמא: ('Sum(Order_Count)' + 'Sum(In_Stock)'') * 250</value>
-  </data>
-  <data name="PivotFieldList_CalculatedField_ExistMessage" xml:space="preserve">
-    <value>שדה כבר קיים בשם זה. אנא הזן שם אחר.</value>
-  </data>
-  <data name="PivotFieldList_CalculatedField_MobileWatermark" xml:space="preserve">
-    <value>הוסף שדות וערוך נוסחה כאן.</value>
-  </data>
-  <data name="PivotFieldList_CalculatedField_NameWatermark" xml:space="preserve">
-    <value>הזן את שם השדה</value>
-  </data>
-  <data name="PivotFieldList_CalculatedField_OLAPExampleWatermark" xml:space="preserve">
-    <value>דוגמא: [Measures].[Order Quantity] + ([Measures].[Order Quantity] * 0.10)</value>
-  </data>
-  <data name="PivotFieldList_CalculatedField_Tooltip" xml:space="preserve">
-    <value>גרור ושחרר שדות כדי ליצור ביטוי. וכן, אם ברצונך לערוך את השדות המחושבים! אתה יכול להשיג זאת על ידי בחירת השדה תחת 'חברים מחושבים'.</value>
-  </data>
-  <data name="PivotFieldList_Cancel" xml:space="preserve">
-    <value>בטל</value>
-  </data>
-  <data name="PivotFieldList_ChooseFieldMessage" xml:space="preserve">
-    <value>בחר שדה</value>
-  </data>
-  <data name="PivotFieldList_Clear" xml:space="preserve">
-    <value>ברור</value>
-  </data>
-  <data name="PivotFieldList_ClearFilter" xml:space="preserve">
-    <value>ברור</value>
-  </data>
-  <data name="PivotFieldList_Close" xml:space="preserve">
-    <value>Close</value>
-  </data>
-  <data name="PivotFieldList_ColumnAxisWatermark" xml:space="preserve">
-    <value>שחרר טור כאן</value>
-  </data>
-  <data name="PivotFieldList_Columns" xml:space="preserve">
-    <value>עמודים</value>
-  </data>
-  <data name="PivotFieldList_Contains" xml:space="preserve">
-    <value>מכיל</value>
-  </data>
-  <data name="PivotFieldList_Copy" xml:space="preserve">
-    <value>עותק</value>
-  </data>
-  <data name="PivotFieldList_Count" xml:space="preserve">
-    <value>לספור</value>
-  </data>
-  <data name="PivotFieldList_CreateCalculatedField" xml:space="preserve">
-    <value>צור שדה מחושב</value>
-  </data>
-  <data name="PivotFieldList_Currency" xml:space="preserve">
-    <value>מטבע</value>
-  </data>
-  <data name="PivotFieldList_Custom" xml:space="preserve">
-    <value>המותאם אישית</value>
-  </data>
-  <data name="PivotFieldList_CustomFormat" xml:space="preserve">
-    <value>הזן מחרוזת בפורמט מותאם אישית</value>
-  </data>
-  <data name="PivotFieldList_Date" xml:space="preserve">
-    <value>תאריך</value>
-  </data>
-  <data name="PivotFieldList_DateTextMessage" xml:space="preserve">
-    <value>הצג את הפריטים שעבורם התאריך</value>
-  </data>
-  <data name="PivotFieldList_Days" xml:space="preserve">
-    <value>ימים</value>
-  </data>
-  <data name="PivotFieldList_DeferLayoutUpdate" xml:space="preserve">
-    <value>עדכון פריסת דחייה</value>
-  </data>
-  <data name="PivotFieldList_Delete" xml:space="preserve">
-    <value>מחק</value>
-  </data>
-  <data name="PivotFieldList_DifferenceFrom" xml:space="preserve">
-    <value>ההבדל מ</value>
-  </data>
-  <data name="PivotFieldList_Dimension" xml:space="preserve">
-    <value>ממד</value>
-  </data>
-  <data name="PivotFieldList_DistinctCount" xml:space="preserve">
-    <value>ספירה מובחנת</value>
-  </data>
-  <data name="PivotFieldList_DoesNotBeginWith" xml:space="preserve">
-    <value>לא מתחיל עם</value>
-  </data>
-  <data name="PivotFieldList_DoesNotContains" xml:space="preserve">
-    <value>לא מכיל</value>
-  </data>
-  <data name="PivotFieldList_DoesNotEndsWith" xml:space="preserve">
-    <value>לא מסתיים</value>
-  </data>
-  <data name="PivotFieldList_DoesNotEquals" xml:space="preserve">
-    <value>לא שווה</value>
-  </data>
-  <data name="PivotFieldList_Drag" xml:space="preserve">
-    <value>גרור</value>
-  </data>
-  <data name="PivotFieldList_DragFieldsMessage" xml:space="preserve">
-    <value>גרור שדות בין הצירים למטה:</value>
-  </data>
-  <data name="PivotFieldList_Edit" xml:space="preserve">
-    <value>ערוך</value>
-  </data>
-  <data name="PivotFieldList_EndsWith" xml:space="preserve">
-    <value>נגמר עם</value>
-  </data>
-  <data name="PivotFieldList_EnterDate" xml:space="preserve">
-    <value>הזן תאריך</value>
-  </data>
-  <data name="PivotFieldList_EnterValue" xml:space="preserve">
-    <value>הזן ערך</value>
-  </data>
-  <data name="PivotFieldList_Equals" xml:space="preserve">
-    <value>שווים</value>
-  </data>
-  <data name="PivotFieldList_Error" xml:space="preserve">
-    <value>שגיאה</value>
-  </data>
-  <data name="PivotFieldList_Example" xml:space="preserve">
-    <value>למשל:</value>
-  </data>
-  <data name="PivotFieldList_Expression" xml:space="preserve">
-    <value>ביטוי</value>
-  </data>
-  <data name="PivotFieldList_FieldCaption" xml:space="preserve">
-    <value>כיתוב שדה</value>
-  </data>
-  <data name="PivotFieldList_FieldCaptionMessage" xml:space="preserve">
-    <value>כיתוב שדה</value>
-  </data>
-  <data name="PivotFieldList_FieldDropErrorMessage" xml:space="preserve">
-    <value>לא ניתן להציב את השדה שאתה מעביר באזור זה של הדוח</value>
-  </data>
-  <data name="PivotFieldList_FieldList" xml:space="preserve">
-    <value>רשימת שדה</value>
-  </data>
-  <data name="PivotFieldList_FieldName" xml:space="preserve">
-    <value>שם שדה</value>
-  </data>
-  <data name="PivotFieldList_FieldNameMessage" xml:space="preserve">
-    <value>שם שדה:</value>
-  </data>
-  <data name="PivotFieldList_FieldType" xml:space="preserve">
-    <value>סוג שדה</value>
-  </data>
-  <data name="PivotFieldList_Filter" xml:space="preserve">
-    <value>סנן</value>
-  </data>
-  <data name="PivotFieldList_FilterAxisWatermark" xml:space="preserve">
-    <value>זרוק את המסנן כאן</value>
-  </data>
-  <data name="PivotFieldList_Filtered" xml:space="preserve">
-    <value>סונן</value>
-  </data>
-  <data name="PivotFieldList_Filters" xml:space="preserve">
-    <value>מסננים</value>
-  </data>
-  <data name="PivotFieldList_FormatString" xml:space="preserve">
-    <value>מחרוזת פורמט</value>
-  </data>
-  <data name="PivotFieldList_Formula" xml:space="preserve">
-    <value>פורמולה</value>
-  </data>
-  <data name="PivotFieldList_GreaterThan" xml:space="preserve">
-    <value>גדול מ</value>
-  </data>
-  <data name="PivotFieldList_GreaterThanOrEqualTo" xml:space="preserve">
-    <value>גדול מ או שווה ל</value>
-  </data>
-  <data name="PivotFieldList_Group" xml:space="preserve">
-    <value>קבוצה</value>
-  </data>
-  <data name="PivotFieldList_Hours" xml:space="preserve">
-    <value>שעה (ות</value>
-  </data>
-  <data name="PivotFieldList_Index" xml:space="preserve">
-    <value>אינדקס</value>
-  </data>
-  <data name="PivotFieldList_InvalidFormula" xml:space="preserve">
-    <value>נוסחה לא חוקית.</value>
-  </data>
-  <data name="PivotFieldList_Label" xml:space="preserve">
-    <value>תווית</value>
-  </data>
-  <data name="PivotFieldList_LabelTextMessage" xml:space="preserve">
-    <value>הצג את הפריטים שעבורם התווית</value>
-  </data>
-  <data name="PivotFieldList_LessThan" xml:space="preserve">
-    <value>פחות מ</value>
-  </data>
-  <data name="PivotFieldList_LessThanOrEqualTo" xml:space="preserve">
-    <value>פחות מ או שווה</value>
-  </data>
-  <data name="PivotFieldList_Max" xml:space="preserve">
-    <value>מקסימום</value>
-  </data>
-  <data name="PivotFieldList_Measure" xml:space="preserve">
-    <value>מידה</value>
-  </data>
-  <data name="PivotFieldList_Member" xml:space="preserve">
-    <value>חבר</value>
-  </data>
-  <data name="PivotFieldList_MemberLimitMessage" xml:space="preserve">
-    <value>עוד פריטים. חפש כדי לצמצם עוד יותר.</value>
-  </data>
-  <data name="PivotFieldList_Min" xml:space="preserve">
-    <value>מינימום</value>
-  </data>
-  <data name="PivotFieldList_Minutes" xml:space="preserve">
-    <value>דקה</value>
-  </data>
-  <data name="PivotFieldList_Months" xml:space="preserve">
-    <value>חודשים</value>
-  </data>
-  <data name="PivotFieldList_MoreOption" xml:space="preserve">
-    <value>יותר...</value>
-  </data>
-  <data name="PivotFieldList_MultipleItems" xml:space="preserve">
-    <value>פריטים מרובים</value>
-  </data>
-  <data name="PivotFieldList_NoMatchesMessage" xml:space="preserve">
-    <value>אין התאמה</value>
-  </data>
-  <data name="PivotFieldList_NotBetween" xml:space="preserve">
-    <value>לא בין</value>
-  </data>
-  <data name="PivotFieldList_Null" xml:space="preserve">
-    <value>ריק</value>
-  </data>
-  <data name="PivotFieldList_OK" xml:space="preserve">
-    <value>בסדר</value>
-  </data>
-  <data name="PivotFieldList_OutOfRange" xml:space="preserve">
-    <value>מחוץ לטווח</value>
-  </data>
-  <data name="PivotFieldList_ParentHierarchy" xml:space="preserve">
-    <value>היררכיית אב</value>
-  </data>
-  <data name="PivotFieldList_Percent" xml:space="preserve">
-    <value>אחוז</value>
-  </data>
-  <data name="PivotFieldList_PercentageOfColumnTotal" xml:space="preserve">
-    <value>% מסך העמודה</value>
-  </data>
-  <data name="PivotFieldList_PercentageOfDifferenceFrom" xml:space="preserve">
-    <value>% מההבדל מ</value>
-  </data>
-  <data name="PivotFieldList_PercentageOfGrandTotal" xml:space="preserve">
-    <value>% מסך סך הכל</value>
-  </data>
-  <data name="PivotFieldList_PercentageOfParentColumnTotal" xml:space="preserve">
-    <value>% מסך טור ההורה</value>
-  </data>
-  <data name="PivotFieldList_PercentageOfParentRowTotal" xml:space="preserve">
-    <value>אחוז מסך ההורים</value>
-  </data>
-  <data name="PivotFieldList_PercentageOfParentTotal" xml:space="preserve">
-    <value>אחוז מסך ההורה</value>
-  </data>
-  <data name="PivotFieldList_PercentageOfRowTotal" xml:space="preserve">
-    <value>% מסך השורה</value>
-  </data>
-  <data name="PivotFieldList_PopulationStDev" xml:space="preserve">
-    <value>אוכלוסייה StDev</value>
-  </data>
-  <data name="PivotFieldList_PopulationVar" xml:space="preserve">
-    <value>אוכלוסייה Var</value>
-  </data>
-  <data name="PivotFieldList_Product" xml:space="preserve">
-    <value>מוצר</value>
-  </data>
-  <data name="PivotFieldList_Quarters" xml:space="preserve">
-    <value>רבעים</value>
-  </data>
-  <data name="PivotFieldList_QuarterYear" xml:space="preserve">
-    <value>שנה רבעונית</value>
-  </data>
-  <data name="PivotFieldList_Remove" xml:space="preserve">
-    <value>הסר</value>
-  </data>
-  <data name="PivotFieldList_RowAxisWatermark" xml:space="preserve">
-    <value>זרוק שורה כאן</value>
-  </data>
-  <data name="PivotFieldList_Rows" xml:space="preserve">
-    <value>שורות</value>
-  </data>
-  <data name="PivotFieldList_RunningTotals" xml:space="preserve">
-    <value>ריצת סך הכל</value>
-  </data>
-  <data name="PivotFieldList_SampleStDev" xml:space="preserve">
-    <value>מדגם StDev</value>
-  </data>
-  <data name="PivotFieldList_SampleVar" xml:space="preserve">
-    <value>מדגם Var</value>
-  </data>
-  <data name="PivotFieldList_Search" xml:space="preserve">
-    <value>לחפש</value>
-  </data>
-  <data name="PivotFieldList_Seconds" xml:space="preserve">
-    <value>שניות</value>
-  </data>
-  <data name="PivotFieldList_Sort" xml:space="preserve">
-    <value>סוג</value>
-  </data>
-  <data name="PivotFieldList_Standard" xml:space="preserve">
-    <value>סטנדרט</value>
-  </data>
-  <data name="PivotFieldList_StaticFieldList" xml:space="preserve">
-    <value>רשימת שדות ציר</value>
-  </data>
-  <data name="PivotFieldList_Sum" xml:space="preserve">
-    <value>סכום</value>
-  </data>
-  <data name="PivotFieldList_Summaries" xml:space="preserve">
-    <value>סיכמו ערכים לפי</value>
-  </data>
-  <data name="PivotFieldList_SummarizeValuesBy" xml:space="preserve">
-    <value>סיכמו ערכים לפי</value>
-  </data>
-  <data name="PivotFieldList_Undefined" xml:space="preserve">
-    <value>לא מוגדר</value>
-  </data>
-  <data name="PivotFieldList_Value" xml:space="preserve">
-    <value>ערך</value>
-  </data>
-  <data name="PivotFieldList_ValueAxisWatermark" xml:space="preserve">
-    <value>ירידת ערך כאן</value>
-  </data>
-  <data name="PivotFieldList_ValueFieldSettings" xml:space="preserve">
-    <value>הגדרות שדה ערך</value>
-  </data>
-  <data name="PivotFieldList_Values" xml:space="preserve">
-    <value>ערכים</value>
-  </data>
-  <data name="PivotFieldList_ValueTextMessage" xml:space="preserve">
-    <value>הצג את הפריטים שעבורם</value>
-  </data>
-  <data name="PivotFieldList_Warning" xml:space="preserve">
-    <value>אזהרה</value>
-  </data>
-  <data name="PivotFieldList_Years" xml:space="preserve">
-    <value>שנים</value>
-  </data>
-  <data name="PivotFieldList_CalculatedField_RemoveMessage" xml:space="preserve">
-    <value>האם אתה בטוח שברצונך למחוק שדה מחושב זה?</value>
-  </data>
-  <data name="PivotFieldList_Yes" xml:space="preserve">
-    <value>כן</value>
-  </data>
-  <data name="PivotFieldList_No" xml:space="preserve">
-    <value>לא</value>
-  </data>
-  <data name="PivotFieldList_Of" xml:space="preserve">
-    <value>של</value>
-  </data>
-  <data name="PivotFieldList_NumberFormat_ExampleWatermark" xml:space="preserve">
-    <value>דוגמא:C, P, 0000 %, ###0.##0#, etc.</value>
-  </data>
-  <data name="PivotFieldList_SortNone_TooltipMessage" xml:space="preserve">
+  <data name="PivotView_SortNone_TooltipMessage" xml:space="preserve">
     <value>מיין סדר נתונים</value>
   </data>
-  <data name="PivotFieldList_SortAscending_TooltipMessage" xml:space="preserve">
-    <value>מיין סדר עולה</value>
-  </data>
-  <data name="PivotFieldList_SortDescending_TooltipMessage" xml:space="preserve">
+  <data name="PivotView_SortDescending_TooltipMessage" xml:space="preserve">
     <value>מיין סדר יורד</value>
   </data>
-  <data name="PivotFieldList_CalculatedField_EditTooltipMessage" xml:space="preserve">
-    <value>ערוך שדה מחושב</value>
+  <data name="PivotView_StaticFieldList" xml:space="preserve">
+    <value>רשימת שדות ציר</value>
   </data>
-  <data name="PivotFieldList_CalculatedField_ClearTooltipMessage" xml:space="preserve">
-    <value>נקה את פרטי השדה הערוכים</value>
+  <data name="PivotView_FieldList" xml:space="preserve">
+    <value>רשימת שדה</value>
   </data>
-  <data name="PivotFieldList_Format" xml:space="preserve">
-    <value>פורמט</value>
+  <data name="PivotView_AddFieldMessage" xml:space="preserve">
+    <value>הוסף שדה כאן</value>
+  </data>
+  <data name="PivotView_ChooseFieldMessage" xml:space="preserve">
+    <value>בחר שדה</value>
+  </data>
+  <data name="PivotView_DragFieldsMessage" xml:space="preserve">
+    <value>גרור שדות בין הצירים למטה:</value>
+  </data>
+  <data name="PivotView_Add" xml:space="preserve">
+    <value>לְהוֹסִיף</value>
+  </data>
+  <data name="PivotView_DeferLayoutUpdate" xml:space="preserve">
+    <value>דחה את עדכון הפריסה</value>
+  </data>
+  <data name="PivotView_ShowLegend" xml:space="preserve">
+    <value>הצג אגדה</value>
+  </data>  
+  <data name="PivotView_FieldCaptionWatermark" xml:space="preserve">
+    <value>Enter the field caption</value>
+  </data>  
+   <data name="PivotView_SortAscending_TooltipMessage" xml:space="preserve">
+    <value>מיין סדר עולה</value>
+  </data> 
+  <data name="PivotView_ReplaceReport_BeforeMessage" xml:space="preserve">
+    <value>דוח בשם</value>
+  </data>  
+  <data name="PivotView_ReplaceReport_AfterMessage" xml:space="preserve">
+    <value>כבר קיים. אתה רוצה להחליף את זה?</value>
   </data>
   <data name="PivotView_AddCondition" xml:space="preserve">
     <value>הוסף תנאי</value>
@@ -1632,9 +1242,6 @@
   <data name="PivotView_GroupCaptionMessage" xml:space="preserve">
     <value>הזן את הכיתוב שיוצג בכותרת העליונה</value>
   </data>
-  <data name="PivotView_GroupFieldCaption" xml:space="preserve">
-    <value>כיתוב שדה</value>
-  </data>
   <data name="PivotView_GroupFieldCaptionMessage" xml:space="preserve">
     <value>הזן את הכיתוב לשדה הקבוצה</value>
   </data>
@@ -1966,7 +1573,7 @@
     <value>שנים</value>
   </data>
   <data name="PivotView_MultipleAxes" xml:space="preserve">
-    <value>צירים מרובים</value>
+    <value>ציר מרובה</value>
   </data>
   <data name="PivotView_ChartTypeSettings" xml:space="preserve">
     <value>הגדרות סוג תרשים</value>
@@ -2033,6 +1640,30 @@
   </data>
   <data name="PivotView_CalculatedField_ClearTooltipMessage" xml:space="preserve">
     <value>נקה את פרטי השדה הערוכים</value>
+  </data>
+  <data name="PivotView_Pie" xml:space="preserve">
+    <value>פַּאִי</value>
+  </data>
+  <data name="PivotView_Pyramid" xml:space="preserve">
+    <value>פִּירָמִידָה</value>
+  </data>
+  <data name="PivotView_Doughnut" xml:space="preserve">
+    <value>סופגניה</value>
+  </data>
+  <data name="PivotView_Funnel" xml:space="preserve">
+    <value>מַשׁפֵּך</value>
+  </data>
+  <data name="PivotView_Stacked" xml:space="preserve">
+    <value>מְגוּבָּב</value>
+  </data>
+  <data name="PivotView_Grouped" xml:space="preserve">
+    <value>מקובץ</value>
+  </data>
+  <data name="PivotView_MultipleAxisMode" xml:space="preserve">
+    <value>מצב ציר מרובה</value>
+  </data>
+  <data name="PivotView_Median" xml:space="preserve">
+    <value>מעדיאַן</value>
   </data>
   <data name="QueryBuilder_AddCondition" xml:space="preserve">
     <value>הוסף תנאי</value>
@@ -2186,6 +1817,87 @@
   </data>
   <data name="Kanban_No" xml:space="preserve">
     <value>לא</value>
+  </data>
+  <data name="RichTextEditor_NumberFormatListNone" xml:space="preserve">
+    <value> אף אחד </value>
+  </data>
+  <data name="RichTextEditor_NumberFormatListNumber" xml:space="preserve">
+    <value> מספר </value>
+  </data>
+  <data name="RichTextEditor_NumberFormatListUpperAlpha" xml:space="preserve">
+    <value> אלפא עליון </value>
+  </data>
+  <data name="RichTextEditor_NumberFormatListLowerAlpha" xml:space="preserve">
+    <value> אלפא תחתון </value>
+  </data>
+  <data name="RichTextEditor_NumberFormatListUpperRoman" xml:space="preserve">
+    <value> רומא עליון </value>
+  </data>
+  <data name="RichTextEditor_NumberFormatListLowerRoman" xml:space="preserve">
+    <value> רומא תחתון </value>
+  </data>
+  <data name="RichTextEditor_NumberFormatListLowerGreek" xml:space="preserve">
+    <value> יוונית תחתונה </value>
+  </data>
+  <data name="RichTextEditor_BulletFormatListNone" xml:space="preserve">
+    <value> אף אחד </value>
+  </data>
+  <data name="RichTextEditor_BulletFormatListCircle" xml:space="preserve">
+    <value> מעגל </value>
+  </data>
+  <data name="RichTextEditor_BulletFormatListSquare" xml:space="preserve">
+    <value> כיכר </value>
+  </data>
+  <data name="RichTextEditor_BulletFormatListDisc" xml:space="preserve">
+    <value> דיסק </value>
+  </data>
+  <data name="RichTextEditor_FormatsDropDownParagraph" xml:space="preserve">
+    <value> פסקה </value>
+  </data>
+  <data name="RichTextEditor_FormatsDropDownCode" xml:space="preserve">
+    <value> קוד </value>
+  </data>
+  <data name="RichTextEditor_FormatsDropDownQuotation" xml:space="preserve">
+    <value> ציטוט </value>
+  </data>
+  <data name="RichTextEditor_FormatsDropDownHeading1" xml:space="preserve">
+    <value> מכוון ל 1 </value>
+  </data>
+  <data name="RichTextEditor_FormatsDropDownHeading2" xml:space="preserve">
+    <value> מכוון ל 2 </value>
+  </data>
+  <data name="RichTextEditor_FormatsDropDownHeading3" xml:space="preserve">
+    <value> מכוון ל 3 </value>
+  </data>
+  <data name="RichTextEditor_FormatsDropDownHeading4" xml:space="preserve">
+    <value> מכוון ל 4 </value>
+  </data>
+  <data name="RichTextEditor_FormatsDropDownHeading5" xml:space="preserve">
+    <value> מכוון ל 5 </value>
+  </data>
+  <data name="RichTextEditor_FormatsDropDownHeading6" xml:space="preserve">
+    <value> מכוון ל 6 </value>
+  </data>
+  <data name="RichTextEditor_FontNameSegoeUI" xml:space="preserve">
+    <value>  ממשק משתמש Segoe </value>
+  </data>
+  <data name="RichTextEditor_FontNameArial" xml:space="preserve">
+    <value> אריאל </value>
+  </data>
+  <data name="RichTextEditor_FontNameGeorgia" xml:space="preserve">
+    <value> ג'ורג'יה </value>
+  </data>
+  <data name="RichTextEditor_FontNameImpact" xml:space="preserve">
+    <value> פְּגִיעָה </value>
+  </data>
+  <data name="RichTextEditor_FontNameTahoma" xml:space="preserve">
+    <value> טהומה </value>
+  </data>
+  <data name="RichTextEditor_FontNameTimesNewRoman" xml:space="preserve">
+    <value> זמנים חדשים רוֹמִי </value>
+  </data>
+  <data name="RichTextEditor_FontNameVerdana" xml:space="preserve">
+    <value> ורדנה </value>
   </data>
   <data name="RichTextEditor_Alignments" xml:space="preserve">
     <value>יישור קו</value>
@@ -3650,6 +3362,24 @@
   </data>
   <data name="PdfViewer_ExportFailed" xml:space="preserve">
     <value> פעולת ההערות לייצוא נכשלה; אנא וודא שהערות יתווספו כראויs </value>
+  </data>
+  <data name="PdfViewer_Draw_hand_Signature" xml:space="preserve">
+    <value>לצייר</value>
+  </data>
+  <data name="PdfViewer_Type_Signature" xml:space="preserve">
+    <value>סוּג</value>
+  </data>
+  <data name="PdfViewer_Upload_Signature" xml:space="preserve">
+    <value>העלאה</value>
+  </data>
+  <data name="PdfViewer_Browse_Signature_Image" xml:space="preserve">
+    <value>לְדַפדֵף</value>
+  </data>
+  <data name="PdfViewer_Save_Signature" xml:space="preserve">
+    <value>שמור חתימה</value>
+  </data>
+   <data name="PdfViewer_Enter_Signature_as_Name" xml:space="preserve">
+    <value>הזן את שמך</value>
   </data>
   <data name="DocumentEditor_Table" xml:space="preserve">
     <value>שולחן</value>

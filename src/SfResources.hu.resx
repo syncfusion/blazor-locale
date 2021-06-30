@@ -447,11 +447,17 @@
   <data name="FileManager_ContentDelete" xml:space="preserve">
     <value>Biztosan törli ezt a fájlt?</value>
   </data>
+  <data name="FileManager_HeaderFolderDelete" xml:space="preserve">
+    <value>Mappa törlése</value>
+  </data>
+  <data name="FileManager_ContentFolderDelete" xml:space="preserve">
+    <value>Biztosan törli ezt a mappát?</value>
+  </data>
   <data name="FileManager_HeaderMultipleDelete" xml:space="preserve">
-    <value>Több fájl törlése</value>
+    <value>Több elem törlése</value>
   </data>
   <data name="FileManager_ContentMultipleDelete" xml:space="preserve">
-    <value>Biztosan törli ezeket a (z) {0} fájlokat?</value>
+    <value>Biztosan törli ezeket a (z) {0} elemeket?</value>
   </data>
   <data name="FileManager_HeaderDuplicate" xml:space="preserve">
     <value>A fájl / mappa létezik</value>
@@ -605,6 +611,12 @@
   </data>
   <data name="Gantt_ConfirmPredecessorDelete" xml:space="preserve">
     <value>Biztosan eltávolítja a függőségi linket?</value>
+  </data>
+  <data name="Gantt_Indent" xml:space="preserve">
+    <value>bekezdés</value>
+  </data>
+  <data name="Gantt_Outdent" xml:space="preserve">
+    <value>Outdent</value>
   </data>
   <data name="Gantt_Convert" xml:space="preserve">
     <value>Alakítani</value>
@@ -843,452 +855,50 @@
   <data name="ListBox_UnSelectAllText" xml:space="preserve">
     <value>Minden kijelölés megszüntetése</value>
   </data>
-  <data name="PivotFieldList_Add" xml:space="preserve">
-    <value>hozzáad</value>
+  <data name="PivotView_NumberFormat_ExampleWatermark" xml:space="preserve">
+    <value>Példa: C, P, 0000%, ### 0. ## 0 # stb.</value>
   </data>
-  <data name="PivotFieldList_AddFieldMessage" xml:space="preserve">
-    <value>Itt adjon meg egy mezőt</value>
+  <data name="PivotView_SortNone_TooltipMessage" xml:space="preserve">
+    <value>Rendezés az adatok sorrendjében</value>
   </data>
-  <data name="PivotFieldList_After" xml:space="preserve">
-    <value>Után</value>
+  <data name="PivotView_SortDescending_TooltipMessage" xml:space="preserve">
+    <value>Rendezés csökkenő sorrendben</value>
   </data>
-  <data name="PivotFieldList_AfterOrEqualTo" xml:space="preserve">
-    <value>Után vagy azzal egyenlő</value>
+  <data name="PivotView_StaticFieldList" xml:space="preserve">
+    <value>Kimutatható mezőlista</value>
   </data>
-  <data name="PivotFieldList_Alert" xml:space="preserve">
-    <value>Éber</value>
-  </data>
-  <data name="PivotFieldList_All" xml:space="preserve">
-    <value>Minden</value>
-  </data>
-  <data name="PivotFieldList_AllFields" xml:space="preserve">
-    <value>Minden mező</value>
-  </data>
-  <data name="PivotFieldList_And" xml:space="preserve">
-    <value>és</value>
-  </data>
-  <data name="PivotFieldList_Apply" xml:space="preserve">
-    <value>ALKALMAZ</value>
-  </data>
-  <data name="PivotFieldList_Avg" xml:space="preserve">
-    <value>Átlagos</value>
-  </data>
-  <data name="PivotFieldList_BaseField" xml:space="preserve">
-    <value>Alap mező</value>
-  </data>
-  <data name="PivotFieldList_BaseItem" xml:space="preserve">
-    <value>Alapelem</value>
-  </data>
-  <data name="PivotFieldList_Before" xml:space="preserve">
-    <value>Előtt</value>
-  </data>
-  <data name="PivotFieldList_BeforeOrEqualTo" xml:space="preserve">
-    <value>Előtt vagy azzal egyenlő</value>
-  </data>
-  <data name="PivotFieldList_BeginWith" xml:space="preserve">
-    <value>Kezdődik</value>
-  </data>
-  <data name="PivotFieldList_Between" xml:space="preserve">
-    <value>Között</value>
-  </data>
-  <data name="PivotFieldList_Blank" xml:space="preserve">
-    <value>(Üres)</value>
-  </data>
-  <data name="PivotFieldList_By" xml:space="preserve">
-    <value>által</value>
-  </data>
-  <data name="PivotFieldList_CalculatedField" xml:space="preserve">
-    <value>Számított mező</value>
-  </data>
-  <data name="PivotFieldList_CalculatedField_ConfirmMessage" xml:space="preserve">
-    <value>A számítási mező már létezik ebben a névben. Szeretnéd kicserélni?</value>
-  </data>
-  <data name="PivotFieldList_CalculatedField_DragDropMessage" xml:space="preserve">
-    <value>Húzza a mezőket a képletbe</value>
-  </data>
-  <data name="PivotFieldList_CalculatedField_DragMessage" xml:space="preserve">
-    <value>Húzza a mezőt a képletbe</value>
-  </data>
-  <data name="PivotFieldList_CalculatedField_DropMessage" xml:space="preserve">
-    <value>A kiszámított mező nem helyezhető el egyetlen régióban sem, az értéktengely kivételével.</value>
-  </data>
-  <data name="PivotFieldList_CalculatedField_ExampleWatermark" xml:space="preserve">
-    <value>Példa: ('Sum(Order_Count)' + 'Sum(In_Stock)'') * 250</value>
-  </data>
-  <data name="PivotFieldList_CalculatedField_ExistMessage" xml:space="preserve">
-    <value>A mező már létezik ebben a névben. Adjon meg egy másik nevet.</value>
-  </data>
-  <data name="PivotFieldList_CalculatedField_MobileWatermark" xml:space="preserve">
-    <value>Adjon meg mezőket és módosítsa a képletet itt.</value>
-  </data>
-  <data name="PivotFieldList_CalculatedField_NameWatermark" xml:space="preserve">
-    <value>Írja be a mező nevét</value>
-  </data>
-  <data name="PivotFieldList_CalculatedField_OLAPExampleWatermark" xml:space="preserve">
-    <value>Példa: [Measures].[Order Quantity] + ([Measures].[Order Quantity] * 0.10)</value>
-  </data>
-  <data name="PivotFieldList_CalculatedField_Tooltip" xml:space="preserve">
-    <value>Húzza a mezőket egy kifejezés létrehozásához. És ha meg akarja szerkeszteni a meglévő számított mezőket! Ezt úgy érheti el, ha egyszerűen kiválasztja a 'Számított tagok' mezőt.</value>
-  </data>
-  <data name="PivotFieldList_Cancel" xml:space="preserve">
-    <value>Megszünteti</value>
-  </data>
-  <data name="PivotFieldList_ChooseFieldMessage" xml:space="preserve">
-    <value>Válassza a mezőt</value>
-  </data>
-  <data name="PivotFieldList_Clear" xml:space="preserve">
-    <value>Egyértelmű</value>
-  </data>
-  <data name="PivotFieldList_ClearFilter" xml:space="preserve">
-    <value>Egyértelmű</value>
-  </data>
-  <data name="PivotFieldList_Close" xml:space="preserve">
-    <value>Bezárás</value>
-  </data>
-  <data name="PivotFieldList_ColumnAxisWatermark" xml:space="preserve">
-    <value>Ide dobja az oszlopot</value>
-  </data>
-  <data name="PivotFieldList_Columns" xml:space="preserve">
-    <value>Oszlopok</value>
-  </data>
-  <data name="PivotFieldList_Contains" xml:space="preserve">
-    <value>tartalmazza</value>
-  </data>
-  <data name="PivotFieldList_Copy" xml:space="preserve">
-    <value>Másolat</value>
-  </data>
-  <data name="PivotFieldList_Count" xml:space="preserve">
-    <value>Számol</value>
-  </data>
-  <data name="PivotFieldList_CreateCalculatedField" xml:space="preserve">
-    <value>Készítsen kiszámított mezőt</value>
-  </data>
-  <data name="PivotFieldList_Currency" xml:space="preserve">
-    <value>Valuta</value>
-  </data>
-  <data name="PivotFieldList_Custom" xml:space="preserve">
-    <value>Egyedi</value>
-  </data>
-  <data name="PivotFieldList_CustomFormat" xml:space="preserve">
-    <value>Adja meg az egyedi formátumú karakterláncot</value>
-  </data>
-  <data name="PivotFieldList_Date" xml:space="preserve">
-    <value>Dátum</value>
-  </data>
-  <data name="PivotFieldList_DateTextMessage" xml:space="preserve">
-    <value>Mutassa meg azokat az elemeket, amelyek dátuma</value>
-  </data>
-  <data name="PivotFieldList_Days" xml:space="preserve">
-    <value>Napok</value>
-  </data>
-  <data name="PivotFieldList_DeferLayoutUpdate" xml:space="preserve">
-    <value>Halasztja az Elrendezés frissítését</value>
-  </data>
-  <data name="PivotFieldList_Delete" xml:space="preserve">
-    <value>Töröl</value>
-  </data>
-  <data name="PivotFieldList_DifferenceFrom" xml:space="preserve">
-    <value>Különbség a</value>
-  </data>
-  <data name="PivotFieldList_Dimension" xml:space="preserve">
-    <value>Dimenzió</value>
-  </data>
-  <data name="PivotFieldList_DistinctCount" xml:space="preserve">
-    <value>Megkülönböztető gróf</value>
-  </data>
-  <data name="PivotFieldList_DoesNotBeginWith" xml:space="preserve">
-    <value>Nem kezdődik</value>
-  </data>
-  <data name="PivotFieldList_DoesNotContains" xml:space="preserve">
-    <value>Nem tartalmaz</value>
-  </data>
-  <data name="PivotFieldList_DoesNotEndsWith" xml:space="preserve">
-    <value>Nem ér véget</value>
-  </data>
-  <data name="PivotFieldList_DoesNotEquals" xml:space="preserve">
-    <value>Nem egyenlő</value>
-  </data>
-  <data name="PivotFieldList_Drag" xml:space="preserve">
-    <value>ellenállás</value>
-  </data>
-  <data name="PivotFieldList_DragFieldsMessage" xml:space="preserve">
-    <value>Húzza a mezőket az alábbi tengelyek között:</value>
-  </data>
-  <data name="PivotFieldList_Edit" xml:space="preserve">
-    <value>szerkesztése</value>
-  </data>
-  <data name="PivotFieldList_EndsWith" xml:space="preserve">
-    <value>Végződik</value>
-  </data>
-  <data name="PivotFieldList_EnterDate" xml:space="preserve">
-    <value>Írja be a dátumot</value>
-  </data>
-  <data name="PivotFieldList_EnterValue" xml:space="preserve">
-    <value>Írja be az értéket</value>
-  </data>
-  <data name="PivotFieldList_Equals" xml:space="preserve">
-    <value>Equals</value>
-  </data>
-  <data name="PivotFieldList_Error" xml:space="preserve">
-    <value>Hiba</value>
-  </data>
-  <data name="PivotFieldList_Example" xml:space="preserve">
-    <value>például:</value>
-  </data>
-  <data name="PivotFieldList_Expression" xml:space="preserve">
-    <value>Kifejezés</value>
-  </data>
-  <data name="PivotFieldList_FieldCaption" xml:space="preserve">
-    <value>Field Caption</value>
-  </data>
-  <data name="PivotFieldList_FieldCaptionMessage" xml:space="preserve">
-    <value>Field caption</value>
-  </data>
-  <data name="PivotFieldList_FieldDropErrorMessage" xml:space="preserve">
-    <value>Az áthelyezett mezőt nem lehet a jelentés arra a területére helyezni</value>
-  </data>
-  <data name="PivotFieldList_FieldList" xml:space="preserve">
+  <data name="PivotView_FieldList" xml:space="preserve">
     <value>Mezőlista</value>
   </data>
-  <data name="PivotFieldList_FieldName" xml:space="preserve">
-    <value>Mező neve</value>
-  </data>
-  <data name="PivotFieldList_FieldNameMessage" xml:space="preserve">
-    <value>Mező neve :</value>
-  </data>
-  <data name="PivotFieldList_FieldType" xml:space="preserve">
-    <value>Mező típusa</value>
-  </data>
-  <data name="PivotFieldList_Filter" xml:space="preserve">
-    <value>Szűrő</value>
-  </data>
-  <data name="PivotFieldList_FilterAxisWatermark" xml:space="preserve">
-    <value>Ide dobja a szűrőt</value>
-  </data>
-  <data name="PivotFieldList_Filtered" xml:space="preserve">
-    <value>Szűrt</value>
-  </data>
-  <data name="PivotFieldList_Filters" xml:space="preserve">
-    <value>Szűrők</value>
-  </data>
-  <data name="PivotFieldList_FormatString" xml:space="preserve">
-    <value>Formátum karakterlánc</value>
-  </data>
-  <data name="PivotFieldList_Formula" xml:space="preserve">
-    <value>Képlet</value>
-  </data>
-  <data name="PivotFieldList_GreaterThan" xml:space="preserve">
-    <value>Nagyobb, mint</value>
-  </data>
-  <data name="PivotFieldList_GreaterThanOrEqualTo" xml:space="preserve">
-    <value>Nagyobb, vagy azzal egyenlő</value>
-  </data>
-  <data name="PivotFieldList_Group" xml:space="preserve">
-    <value>Csoport</value>
-  </data>
-  <data name="PivotFieldList_Hours" xml:space="preserve">
-    <value>Órák</value>
-  </data>
-  <data name="PivotFieldList_Index" xml:space="preserve">
-    <value>Index</value>
-  </data>
-  <data name="PivotFieldList_InvalidFormula" xml:space="preserve">
-    <value>Érvénytelen képlet.</value>
-  </data>
-  <data name="PivotFieldList_Label" xml:space="preserve">
-    <value>Címke</value>
-  </data>
-  <data name="PivotFieldList_LabelTextMessage" xml:space="preserve">
-    <value>Mutassa meg azokat az elemeket, amelyek címkéje</value>
-  </data>
-  <data name="PivotFieldList_LessThan" xml:space="preserve">
-    <value>Kevesebb, mint</value>
-  </data>
-  <data name="PivotFieldList_LessThanOrEqualTo" xml:space="preserve">
-    <value>Kevesebb, vagy azzal egyenlő</value>
-  </data>
-  <data name="PivotFieldList_Max" xml:space="preserve">
-    <value>Max</value>
-  </data>
-  <data name="PivotFieldList_Measure" xml:space="preserve">
-    <value>Intézkedés</value>
-  </data>
-  <data name="PivotFieldList_Member" xml:space="preserve">
-    <value>Tag</value>
-  </data>
-  <data name="PivotFieldList_MemberLimitMessage" xml:space="preserve">
-    <value>további elemek. Keressen további finomításra.</value>
-  </data>
-  <data name="PivotFieldList_Min" xml:space="preserve">
-    <value>Min</value>
-  </data>
-  <data name="PivotFieldList_Minutes" xml:space="preserve">
-    <value>Percek</value>
-  </data>
-  <data name="PivotFieldList_Months" xml:space="preserve">
-    <value>Hónapok</value>
-  </data>
-  <data name="PivotFieldList_MoreOption" xml:space="preserve">
-    <value>Több...</value>
-  </data>
-  <data name="PivotFieldList_MultipleItems" xml:space="preserve">
-    <value>Több elem</value>
-  </data>
-  <data name="PivotFieldList_NoMatchesMessage" xml:space="preserve">
-    <value>Nincs egyezés</value>
-  </data>
-  <data name="PivotFieldList_NotBetween" xml:space="preserve">
-    <value>Nem között</value>
-  </data>
-  <data name="PivotFieldList_Null" xml:space="preserve">
-    <value>nulla</value>
-  </data>
-  <data name="PivotFieldList_OK" xml:space="preserve">
-    <value>rendben</value>
-  </data>
-  <data name="PivotFieldList_OutOfRange" xml:space="preserve">
-    <value>Hatótávolságon kívül</value>
-  </data>
-  <data name="PivotFieldList_ParentHierarchy" xml:space="preserve">
-    <value>Szülői hierarchia</value>
-  </data>
-  <data name="PivotFieldList_Percent" xml:space="preserve">
-    <value>Százalék</value>
-  </data>
-  <data name="PivotFieldList_PercentageOfColumnTotal" xml:space="preserve">
-    <value>Az oszlop összesen% -a</value>
-  </data>
-  <data name="PivotFieldList_PercentageOfDifferenceFrom" xml:space="preserve">
-    <value>A különbség% -a</value>
-  </data>
-  <data name="PivotFieldList_PercentageOfGrandTotal" xml:space="preserve">
-    <value>A teljes összeg% -a</value>
-  </data>
-  <data name="PivotFieldList_PercentageOfParentColumnTotal" xml:space="preserve">
-    <value>A szülő oszlop% -a</value>
-  </data>
-  <data name="PivotFieldList_PercentageOfParentRowTotal" xml:space="preserve">
-    <value>A szülői sor% -a</value>
-  </data>
-  <data name="PivotFieldList_PercentageOfParentTotal" xml:space="preserve">
-    <value>Az összes szülő% -a</value>
-  </data>
-  <data name="PivotFieldList_PercentageOfRowTotal" xml:space="preserve">
-    <value>Az összes sor% -a</value>
-  </data>
-  <data name="PivotFieldList_PopulationStDev" xml:space="preserve">
-    <value>Népesség StDev</value>
-  </data>
-  <data name="PivotFieldList_PopulationVar" xml:space="preserve">
-    <value>Népesség Var</value>
-  </data>
-  <data name="PivotFieldList_Product" xml:space="preserve">
-    <value>Termék</value>
-  </data>
-  <data name="PivotFieldList_Quarters" xml:space="preserve">
-    <value>Szállás</value>
-  </data>
-  <data name="PivotFieldList_QuarterYear" xml:space="preserve">
-    <value>Negyedév</value>
-  </data>
-  <data name="PivotFieldList_Remove" xml:space="preserve">
-    <value>Vegye ki</value>
-  </data>
-  <data name="PivotFieldList_RowAxisWatermark" xml:space="preserve">
-    <value>Eladás sor itt</value>
-  </data>
-  <data name="PivotFieldList_Rows" xml:space="preserve">
-    <value>sorok</value>
-  </data>
-  <data name="PivotFieldList_RunningTotals" xml:space="preserve">
-    <value>Futó összegek</value>
-  </data>
-  <data name="PivotFieldList_SampleStDev" xml:space="preserve">
-    <value>Minta StDev</value>
-  </data>
-  <data name="PivotFieldList_SampleVar" xml:space="preserve">
-    <value>Minta Var</value>
-  </data>
-  <data name="PivotFieldList_Search" xml:space="preserve">
-    <value>Keresés</value>
-  </data>
-  <data name="PivotFieldList_Seconds" xml:space="preserve">
-    <value>másodperc</value>
-  </data>
-  <data name="PivotFieldList_Sort" xml:space="preserve">
-    <value>Fajta</value>
-  </data>
-  <data name="PivotFieldList_Standard" xml:space="preserve">
-    <value>Alapértelmezett</value>
-  </data>
-  <data name="PivotFieldList_StaticFieldList" xml:space="preserve">
-    <value>Pivot mezőlista</value>
-  </data>
-  <data name="PivotFieldList_Sum" xml:space="preserve">
-    <value>Összeg</value>
-  </data>
-  <data name="PivotFieldList_Summaries" xml:space="preserve">
-    <value>Összegezze az értékeket:</value>
-  </data>
-  <data name="PivotFieldList_SummarizeValuesBy" xml:space="preserve">
-    <value>Összegezze az értékeket:</value>
-  </data>
-  <data name="PivotFieldList_Undefined" xml:space="preserve">
-    <value>meghatározatlan</value>
-  </data>
-  <data name="PivotFieldList_Value" xml:space="preserve">
-    <value>Érték</value>
-  </data>
-  <data name="PivotFieldList_ValueAxisWatermark" xml:space="preserve">
-    <value>Érték csökkentése ide</value>
-  </data>
-  <data name="PivotFieldList_ValueFieldSettings" xml:space="preserve">
-    <value>Érték mező beállításai</value>
-  </data>
-  <data name="PivotFieldList_Values" xml:space="preserve">
-    <value>értékek</value>
-  </data>
-  <data name="PivotFieldList_ValueTextMessage" xml:space="preserve">
-    <value>Mutassa meg azokat az elemeket, amelyekhez</value>
-  </data>
-  <data name="PivotFieldList_Warning" xml:space="preserve">
-    <value>Figyelem</value>
-  </data>
-  <data name="PivotFieldList_Years" xml:space="preserve">
-    <value>Évek</value>
-  </data>
-  <data name="PivotFieldList_CalculatedField_RemoveMessage" xml:space="preserve">
-    <value>Biztosan törli ezt a kiszámított mezőt?</value>
-  </data>
-  <data name="PivotFieldList_Yes" xml:space="preserve">
-    <value>Igen</value>
-  </data>
-  <data name="PivotFieldList_No" xml:space="preserve">
-    <value>No</value>
-  </data>
-  <data name="PivotFieldList_Of" xml:space="preserve">
-    <value>közül</value>
-  </data>
-  <data name="PivotFieldList_NumberFormat_ExampleWatermark" xml:space="preserve">
-    <value>Példa: C, P, 0000 %, ###0.##0#, etc.</value>
-  </data>
-  <data name="PivotFieldList_SortNone_TooltipMessage" xml:space="preserve">
-    <value>Rendezési adatok sorrendje</value>
-  </data>
-  <data name="PivotFieldList_SortAscending_TooltipMessage" xml:space="preserve">
+  <data name="PivotView_AddFieldMessage" xml:space="preserve">
+    <value>Add mezőt ide</value>
+  </data>
+  <data name="PivotView_ChooseFieldMessage" xml:space="preserve">
+    <value>Válasszon mezőt</value>
+  </data>
+  <data name="PivotView_DragFieldsMessage" xml:space="preserve">
+    <value>Mezetek húzása az alábbi tengelyek között:</value>
+  </data>
+  <data name="PivotView_Add" xml:space="preserve">
+    <value>Hozzáadás</value>
+  </data>
+  <data name="PivotView_DeferLayoutUpdate" xml:space="preserve">
+    <value>Layout Layout Update</value>
+  </data>
+  <data name="PivotView_ShowLegend" xml:space="preserve">
+    <value>Show Legend</value>
+  </data>  
+  <data name="PivotView_FieldCaptionWatermark" xml:space="preserve">
+    <value>Írja be a mező feliratot</value>
+  </data>  
+   <data name="PivotView_SortAscending_TooltipMessage" xml:space="preserve">
     <value>Rendezés növekvő sorrendben</value>
-  </data>
-  <data name="PivotFieldList_SortDescending_TooltipMessage" xml:space="preserve">
-    <value>Rendezés csökkenő sorrendbe</value>
-  </data>
-  <data name="PivotFieldList_CalculatedField_EditTooltipMessage" xml:space="preserve">
-    <value>Szerkessze a kiszámított mezőt</value>
-  </data>
-  <data name="PivotFieldList_CalculatedField_ClearTooltipMessage" xml:space="preserve">
-    <value>Törölje a szerkesztett mezőinformációkat</value>
-  </data>
-  <data name="PivotFieldList_Format" xml:space="preserve">
-    <value>Formátum</value>
+  </data> 
+  <data name="PivotView_ReplaceReport_BeforeMessage" xml:space="preserve">
+    <value>Nevű jelentés</value>
+  </data>  
+  <data name="PivotView_ReplaceReport_AfterMessage" xml:space="preserve">
+    <value>már létezik. Ki akarod cserélni?</value>
   </data>
   <data name="PivotView_AddCondition" xml:space="preserve">
     <value>Add Condition</value>
@@ -1330,7 +940,7 @@
     <value>és</value>
   </data>
   <data name="PivotView_Apply" xml:space="preserve">
-    <value>ALKALMAZ</value>
+    <value>Alkalmaz</value>
   </data>
   <data name="PivotView_Area" xml:space="preserve">
     <value>Terület</value>
@@ -1631,9 +1241,6 @@
   </data>
   <data name="PivotView_GroupCaptionMessage" xml:space="preserve">
     <value>Írja be a fejlécben megjelenő feliratot</value>
-  </data>
-  <data name="PivotView_GroupFieldCaption" xml:space="preserve">
-    <value>Felirat</value>
   </data>
   <data name="PivotView_GroupFieldCaptionMessage" xml:space="preserve">
     <value>Írja be a csoport feliratát</value>
@@ -2034,6 +1641,30 @@
   <data name="PivotView_CalculatedField_ClearTooltipMessage" xml:space="preserve">
     <value>Törölje a szerkesztett mezőinformációkat</value>
   </data>
+  <data name="PivotView_Pie" xml:space="preserve">
+    <value>Pite</value>
+  </data>
+  <data name="PivotView_Pyramid" xml:space="preserve">
+    <value>Piramis</value>
+  </data>
+  <data name="PivotView_Doughnut" xml:space="preserve">
+    <value>Fánk</value>
+  </data>
+  <data name="PivotView_Funnel" xml:space="preserve">
+    <value>Tölcsér</value>
+  </data>
+  <data name="PivotView_Stacked" xml:space="preserve">
+    <value>Halmozott</value>
+  </data>
+  <data name="PivotView_Grouped" xml:space="preserve">
+    <value>Csoportosítva</value>
+  </data>
+  <data name="PivotView_MultipleAxisMode" xml:space="preserve">
+    <value>Többtengelyes mód</value>
+  </data>
+  <data name="PivotView_Median" xml:space="preserve">
+    <value>Középső</value>
+  </data>
   <data name="QueryBuilder_AddCondition" xml:space="preserve">
     <value>Add Condition</value>
   </data>
@@ -2186,6 +1817,87 @@
   </data>
   <data name="Kanban_No" xml:space="preserve">
     <value>Nem</value>
+  </data>
+  <data name="RichTextEditor_NumberFormatListNone" xml:space="preserve">
+    <value> Egyik sem </value>
+  </data>
+  <data name="RichTextEditor_NumberFormatListNumber" xml:space="preserve">
+    <value> Szám </value>
+  </data>
+  <data name="RichTextEditor_NumberFormatListUpperAlpha" xml:space="preserve">
+    <value> Felső-Alfa </value>
+  </data>
+  <data name="RichTextEditor_NumberFormatListLowerAlpha" xml:space="preserve">
+    <value> Alsó-Alfa </value>
+  </data>
+  <data name="RichTextEditor_NumberFormatListUpperRoman" xml:space="preserve">
+    <value> Felső római </value>
+  </data>
+  <data name="RichTextEditor_NumberFormatListLowerRoman" xml:space="preserve">
+    <value> Alsó római </value>
+  </data>
+  <data name="RichTextEditor_NumberFormatListLowerGreek" xml:space="preserve">
+    <value> Alsó görög </value>
+  </data>
+  <data name="RichTextEditor_BulletFormatListNone" xml:space="preserve">
+    <value> Egyik sem </value>
+  </data>
+  <data name="RichTextEditor_BulletFormatListCircle" xml:space="preserve">
+    <value> Kör </value>
+  </data>
+  <data name="RichTextEditor_BulletFormatListSquare" xml:space="preserve">
+    <value> Négyzet </value>
+  </data>
+  <data name="RichTextEditor_BulletFormatListDisc" xml:space="preserve">
+    <value> Lemez </value>
+  </data>
+  <data name="RichTextEditor_FormatsDropDownParagraph" xml:space="preserve">
+    <value> Bekezdés </value>
+  </data>
+  <data name="RichTextEditor_FormatsDropDownCode" xml:space="preserve">
+    <value> Kód </value>
+  </data>
+  <data name="RichTextEditor_FormatsDropDownQuotation" xml:space="preserve">
+    <value> Idézet </value>
+  </data>
+  <data name="RichTextEditor_FormatsDropDownHeading1" xml:space="preserve">
+    <value> Cím 1 </value>
+  </data>
+  <data name="RichTextEditor_FormatsDropDownHeading2" xml:space="preserve">
+    <value> Cím 2 </value>
+  </data>
+  <data name="RichTextEditor_FormatsDropDownHeading3" xml:space="preserve">
+    <value> Cím 3 </value>
+  </data>
+  <data name="RichTextEditor_FormatsDropDownHeading4" xml:space="preserve">
+    <value> Cím  4 </value>
+  </data>
+  <data name="RichTextEditor_FormatsDropDownHeading5" xml:space="preserve">
+    <value> Cím  5 </value>
+  </data>
+  <data name="RichTextEditor_FormatsDropDownHeading6" xml:space="preserve">
+    <value> Cím   6 </value>
+  </data>
+  <data name="RichTextEditor_FontNameSegoeUI" xml:space="preserve">
+    <value>  Segoe felhasználói felület </value>
+  </data>
+  <data name="RichTextEditor_FontNameArial" xml:space="preserve">
+    <value> Arial </value>
+  </data>
+  <data name="RichTextEditor_FontNameGeorgia" xml:space="preserve">
+    <value> Grúzia </value>
+  </data>
+  <data name="RichTextEditor_FontNameImpact" xml:space="preserve">
+    <value> Hatás </value>
+  </data>
+  <data name="RichTextEditor_FontNameTahoma" xml:space="preserve">
+    <value> Tahoma </value>
+  </data>
+  <data name="RichTextEditor_FontNameTimesNewRoman" xml:space="preserve">
+    <value> Times új római </value>
+  </data>
+  <data name="RichTextEditor_FontNameVerdana" xml:space="preserve">
+    <value> Verdana </value>
   </data>
   <data name="RichTextEditor_Alignments" xml:space="preserve">
     <value>együttállása</value>
@@ -3650,6 +3362,24 @@
   </data>
   <data name="PdfViewer_ExportFailed" xml:space="preserve">
     <value>A kommentárok exportálása művelet sikertelen; kérjük, ellenőrizze, hogy a kommentárok megfelelően lettek-e hozzáadva</value>
+  </data>
+  <data name="PdfViewer_Draw_hand_Signature" xml:space="preserve">
+    <value>HÚZ</value>
+  </data>
+  <data name="PdfViewer_Type_Signature" xml:space="preserve">
+    <value>TÍPUS</value>
+  </data>
+  <data name="PdfViewer_Upload_Signature" xml:space="preserve">
+    <value>FELTÖLTÉS</value>
+  </data>
+  <data name="PdfViewer_Browse_Signature_Image" xml:space="preserve">
+    <value>Böngészés</value>
+  </data>
+  <data name="PdfViewer_Save_Signature" xml:space="preserve">
+    <value>Aláírás mentése</value>
+  </data>
+   <data name="PdfViewer_Enter_Signature_as_Name" xml:space="preserve">
+    <value>Adja meg nevét</value>
   </data>
   <data name="DocumentEditor_Table" xml:space="preserve">
     <value>asztal</value>

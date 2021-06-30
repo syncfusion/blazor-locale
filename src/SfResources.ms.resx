@@ -447,11 +447,17 @@
   <data name="FileManager_ContentDelete" xml:space="preserve">
     <value>이 파일을 삭제 하시겠습니까?</value>
   </data>
+  <data name="FileManager_HeaderFolderDelete" xml:space="preserve">
+    <value>폴더 삭제</value>
+  </data>
+  <data name="FileManager_ContentFolderDelete" xml:space="preserve">
+    <value>이 폴더를 삭제 하시겠습니까?</value>
+  </data>
   <data name="FileManager_HeaderMultipleDelete" xml:space="preserve">
-    <value>여러 파일 삭제</value>
+    <value>여러 항목 삭제</value>
   </data>
   <data name="FileManager_ContentMultipleDelete" xml:space="preserve">
-    <value>이 {0} 파일을 삭제 하시겠습니까?</value>
+    <value>이 {0} 항목을 삭제 하시겠습니까?</value>
   </data>
   <data name="FileManager_HeaderDuplicate" xml:space="preserve">
     <value>파일 / 폴더가 존재합니다</value>
@@ -605,6 +611,12 @@
   </data>
   <data name="Gantt_ConfirmPredecessorDelete" xml:space="preserve">
     <value>종속성 링크를 제거 하시겠습니까?</value>
+  </data>
+  <data name="Gantt_Indent" xml:space="preserve">
+    <value>톱니 모양</value>
+  </data>
+  <data name="Gantt_Outdent" xml:space="preserve">
+    <value>내어 쓰기</value>
   </data>
   <data name="Gantt_Convert" xml:space="preserve">
     <value>변하게 하다</value>
@@ -843,452 +855,50 @@
   <data name="ListBox_UnSelectAllText" xml:space="preserve">
     <value>모두 선택 해제</value>
   </data>
-  <data name="PivotFieldList_Add" xml:space="preserve">
-    <value>Tambah</value>
+  <data name="PivotView_NumberFormat_ExampleWatermark" xml:space="preserve">
+    <value>Contoh: C, P, 0000%, ### 0. ## 0 #, dll.</value>
   </data>
-  <data name="PivotFieldList_AddFieldMessage" xml:space="preserve">
-    <value>Tambah medan di sini</value>
-  </data>
-  <data name="PivotFieldList_After" xml:space="preserve">
-    <value>Selepas</value>
-  </data>
-  <data name="PivotFieldList_AfterOrEqualTo" xml:space="preserve">
-    <value>Selepas Atau Sama dengan</value>
-  </data>
-  <data name="PivotFieldList_Alert" xml:space="preserve">
-    <value>Amaran</value>
-  </data>
-  <data name="PivotFieldList_All" xml:space="preserve">
-    <value>Semua</value>
-  </data>
-  <data name="PivotFieldList_AllFields" xml:space="preserve">
-    <value>Semua Bidang</value>
-  </data>
-  <data name="PivotFieldList_And" xml:space="preserve">
-    <value>and</value>
-  </data>
-  <data name="PivotFieldList_Apply" xml:space="preserve">
-    <value>MEMOHON</value>
-  </data>
-  <data name="PivotFieldList_Avg" xml:space="preserve">
-    <value>Purata</value>
-  </data>
-  <data name="PivotFieldList_BaseField" xml:space="preserve">
-    <value>Medan pangkalan</value>
-  </data>
-  <data name="PivotFieldList_BaseItem" xml:space="preserve">
-    <value>Item asas</value>
-  </data>
-  <data name="PivotFieldList_Before" xml:space="preserve">
-    <value>Sebelum</value>
-  </data>
-  <data name="PivotFieldList_BeforeOrEqualTo" xml:space="preserve">
-    <value>Sebelum Atau Sama dengan</value>
-  </data>
-  <data name="PivotFieldList_BeginWith" xml:space="preserve">
-    <value>Bermula dengan</value>
-  </data>
-  <data name="PivotFieldList_Between" xml:space="preserve">
-    <value>Antara</value>
-  </data>
-  <data name="PivotFieldList_Blank" xml:space="preserve">
-    <value>(Kosong)</value>
-  </data>
-  <data name="PivotFieldList_By" xml:space="preserve">
-    <value>oleh</value>
-  </data>
-  <data name="PivotFieldList_CalculatedField" xml:space="preserve">
-    <value>Medan yang dikira</value>
-  </data>
-  <data name="PivotFieldList_CalculatedField_ConfirmMessage" xml:space="preserve">
-    <value>Medan pengiraan sudah ada dalam nama ini. Adakah anda ingin menggantikannya?</value>
-  </data>
-  <data name="PivotFieldList_CalculatedField_DragDropMessage" xml:space="preserve">
-    <value>Seret dan lepas medan ke formula</value>
-  </data>
-  <data name="PivotFieldList_CalculatedField_DragMessage" xml:space="preserve">
-    <value>Seret medan ke formula</value>
-  </data>
-  <data name="PivotFieldList_CalculatedField_DropMessage" xml:space="preserve">
-    <value>Medan yang dikira tidak boleh diletakkan di kawasan lain kecuali paksi nilai.</value>
-  </data>
-  <data name="PivotFieldList_CalculatedField_ExampleWatermark" xml:space="preserve">
-    <value>Contoh: ('Sum(Order_Count)' + 'Sum(In_Stock)'') * 250</value>
-  </data>
-  <data name="PivotFieldList_CalculatedField_ExistMessage" xml:space="preserve">
-    <value>Medan sudah ada dalam nama ini. Sila masukkan nama lain.</value>
-  </data>
-  <data name="PivotFieldList_CalculatedField_MobileWatermark" xml:space="preserve">
-    <value>Tambahkan medan dan edit formula di sini.</value>
-  </data>
-  <data name="PivotFieldList_CalculatedField_NameWatermark" xml:space="preserve">
-    <value>Masukkan nama medan</value>
-  </data>
-  <data name="PivotFieldList_CalculatedField_OLAPExampleWatermark" xml:space="preserve">
-    <value>Contoh: [Measures].[Order Quantity] + ([Measures].[Order Quantity] * 0.10)</value>
-  </data>
-  <data name="PivotFieldList_CalculatedField_Tooltip" xml:space="preserve">
-    <value>Seret dan lepas medan untuk membuat ungkapan. Dan, jika anda ingin mengedit bidang yang sudah dikira! Anda boleh mencapainya dengan hanya memilih bidang di bawah 'Ahli yang Dikira'.</value>
-  </data>
-  <data name="PivotFieldList_Cancel" xml:space="preserve">
-    <value>Batal</value>
-  </data>
-  <data name="PivotFieldList_ChooseFieldMessage" xml:space="preserve">
-    <value>Pilih bidang</value>
-  </data>
-  <data name="PivotFieldList_Clear" xml:space="preserve">
-    <value>Jelas</value>
-  </data>
-  <data name="PivotFieldList_ClearFilter" xml:space="preserve">
-    <value>Jelas</value>
-  </data>
-  <data name="PivotFieldList_Close" xml:space="preserve">
-    <value>Tutup</value>
-  </data>
-  <data name="PivotFieldList_ColumnAxisWatermark" xml:space="preserve">
-    <value>Jatuhkan lajur di sini</value>
-  </data>
-  <data name="PivotFieldList_Columns" xml:space="preserve">
-    <value>Lajur</value>
-  </data>
-  <data name="PivotFieldList_Contains" xml:space="preserve">
-    <value>Mengandungi</value>
-  </data>
-  <data name="PivotFieldList_Copy" xml:space="preserve">
-    <value>Salinan</value>
-  </data>
-  <data name="PivotFieldList_Count" xml:space="preserve">
-    <value>Kira</value>
-  </data>
-  <data name="PivotFieldList_CreateCalculatedField" xml:space="preserve">
-    <value>Buat Medan yang Dikira</value>
-  </data>
-  <data name="PivotFieldList_Currency" xml:space="preserve">
-    <value>Mata Wang</value>
-  </data>
-  <data name="PivotFieldList_Custom" xml:space="preserve">
-    <value>Adat</value>
-  </data>
-  <data name="PivotFieldList_CustomFormat" xml:space="preserve">
-    <value>Masukkan rentetan format tersuai</value>
-  </data>
-  <data name="PivotFieldList_Date" xml:space="preserve">
-    <value>Tarikh</value>
-  </data>
-  <data name="PivotFieldList_DateTextMessage" xml:space="preserve">
-    <value>Tunjukkan item yang tarikhnya</value>
-  </data>
-  <data name="PivotFieldList_Days" xml:space="preserve">
-    <value>hari</value>
-  </data>
-  <data name="PivotFieldList_DeferLayoutUpdate" xml:space="preserve">
-    <value>Tunda Kemas kini Tata Letak</value>
-  </data>
-  <data name="PivotFieldList_Delete" xml:space="preserve">
-    <value>Padam</value>
-  </data>
-  <data name="PivotFieldList_DifferenceFrom" xml:space="preserve">
-    <value>Perbezaan Dari</value>
-  </data>
-  <data name="PivotFieldList_Dimension" xml:space="preserve">
-    <value>Dimensi</value>
-  </data>
-  <data name="PivotFieldList_DistinctCount" xml:space="preserve">
-    <value>Kiraan yang berbeza</value>
-  </data>
-  <data name="PivotFieldList_DoesNotBeginWith" xml:space="preserve">
-    <value>Tidak Bermula Dengan</value>
-  </data>
-  <data name="PivotFieldList_DoesNotContains" xml:space="preserve">
-    <value>Tidak mengandungi</value>
-  </data>
-  <data name="PivotFieldList_DoesNotEndsWith" xml:space="preserve">
-    <value>Tidak Berakhir Dengan</value>
-  </data>
-  <data name="PivotFieldList_DoesNotEquals" xml:space="preserve">
-    <value>Tidak Sama</value>
-  </data>
-  <data name="PivotFieldList_Drag" xml:space="preserve">
-    <value>Seret</value>
-  </data>
-  <data name="PivotFieldList_DragFieldsMessage" xml:space="preserve">
-    <value>Seret medan antara paksi di bawah:</value>
-  </data>
-  <data name="PivotFieldList_Edit" xml:space="preserve">
-    <value>Edit</value>
-  </data>
-  <data name="PivotFieldList_EndsWith" xml:space="preserve">
-    <value>Berakhir Dengan</value>
-  </data>
-  <data name="PivotFieldList_EnterDate" xml:space="preserve">
-    <value>Masukkan tarikh</value>
-  </data>
-  <data name="PivotFieldList_EnterValue" xml:space="preserve">
-    <value>Masukkan nilai</value>
-  </data>
-  <data name="PivotFieldList_Equals" xml:space="preserve">
-    <value>Sama</value>
-  </data>
-  <data name="PivotFieldList_Error" xml:space="preserve">
-    <value>Ralat</value>
-  </data>
-  <data name="PivotFieldList_Example" xml:space="preserve">
-    <value>cth:</value>
-  </data>
-  <data name="PivotFieldList_Expression" xml:space="preserve">
-    <value>Ungkapan</value>
-  </data>
-  <data name="PivotFieldList_FieldCaption" xml:space="preserve">
-    <value>Kapsyen Medan</value>
-  </data>
-  <data name="PivotFieldList_FieldCaptionMessage" xml:space="preserve">
-    <value>Kapsyen medan</value>
-  </data>
-  <data name="PivotFieldList_FieldDropErrorMessage" xml:space="preserve">
-    <value>Medan yang anda bergerak tidak boleh diletakkan di kawasan laporan</value>
-  </data>
-  <data name="PivotFieldList_FieldList" xml:space="preserve">
-    <value>Senarai Medan</value>
-  </data>
-  <data name="PivotFieldList_FieldName" xml:space="preserve">
-    <value>Nama Medan</value>
-  </data>
-  <data name="PivotFieldList_FieldNameMessage" xml:space="preserve">
-    <value>Nama bidang:</value>
-  </data>
-  <data name="PivotFieldList_FieldType" xml:space="preserve">
-    <value>Jenis Medan</value>
-  </data>
-  <data name="PivotFieldList_Filter" xml:space="preserve">
-    <value>Tapis</value>
-  </data>
-  <data name="PivotFieldList_FilterAxisWatermark" xml:space="preserve">
-    <value>Jatuhkan penapis di sini</value>
-  </data>
-  <data name="PivotFieldList_Filtered" xml:space="preserve">
-    <value>Disaring</value>
-  </data>
-  <data name="PivotFieldList_Filters" xml:space="preserve">
-    <value>Penapis</value>
-  </data>
-  <data name="PivotFieldList_FormatString" xml:space="preserve">
-    <value>Rentetan Format</value>
-  </data>
-  <data name="PivotFieldList_Formula" xml:space="preserve">
-    <value>Formula</value>
-  </data>
-  <data name="PivotFieldList_GreaterThan" xml:space="preserve">
-    <value>Lebih besar daripada</value>
-  </data>
-  <data name="PivotFieldList_GreaterThanOrEqualTo" xml:space="preserve">
-    <value>Lebih Besar Dari Atau Sama Dengan</value>
-  </data>
-  <data name="PivotFieldList_Group" xml:space="preserve">
-    <value>Kumpulan</value>
-  </data>
-  <data name="PivotFieldList_Hours" xml:space="preserve">
-    <value>Jam</value>
-  </data>
-  <data name="PivotFieldList_Index" xml:space="preserve">
-    <value>Indeks</value>
-  </data>
-  <data name="PivotFieldList_InvalidFormula" xml:space="preserve">
-    <value>Formula tidak sah.</value>
-  </data>
-  <data name="PivotFieldList_Label" xml:space="preserve">
-    <value>Label</value>
-  </data>
-  <data name="PivotFieldList_LabelTextMessage" xml:space="preserve">
-    <value>Tunjukkan item yang labelnya</value>
-  </data>
-  <data name="PivotFieldList_LessThan" xml:space="preserve">
-    <value>Kurang daripada</value>
-  </data>
-  <data name="PivotFieldList_LessThanOrEqualTo" xml:space="preserve">
-    <value>Kurang Dari Atau Sama Dengan</value>
-  </data>
-  <data name="PivotFieldList_Max" xml:space="preserve">
-    <value>Maks</value>
-  </data>
-  <data name="PivotFieldList_Measure" xml:space="preserve">
-    <value>Mengukur</value>
-  </data>
-  <data name="PivotFieldList_Member" xml:space="preserve">
-    <value>Ahli</value>
-  </data>
-  <data name="PivotFieldList_MemberLimitMessage" xml:space="preserve">
-    <value>lebih banyak barang. Cari untuk memperbaiki lebih jauh.</value>
-  </data>
-  <data name="PivotFieldList_Min" xml:space="preserve">
-    <value>Min</value>
-  </data>
-  <data name="PivotFieldList_Minutes" xml:space="preserve">
-    <value>Minit</value>
-  </data>
-  <data name="PivotFieldList_Months" xml:space="preserve">
-    <value>Sebulan</value>
-  </data>
-  <data name="PivotFieldList_MoreOption" xml:space="preserve">
-    <value>Lebih banyak ...</value>
-  </data>
-  <data name="PivotFieldList_MultipleItems" xml:space="preserve">
-    <value>Pelbagai item</value>
-  </data>
-  <data name="PivotFieldList_NoMatchesMessage" xml:space="preserve">
-    <value>Tiada padanan</value>
-  </data>
-  <data name="PivotFieldList_NotBetween" xml:space="preserve">
-    <value>Bukan Antara</value>
-  </data>
-  <data name="PivotFieldList_Null" xml:space="preserve">
-    <value>batal</value>
-  </data>
-  <data name="PivotFieldList_OK" xml:space="preserve">
-    <value>okey</value>
-  </data>
-  <data name="PivotFieldList_OutOfRange" xml:space="preserve">
-    <value>Luar kawasan</value>
-  </data>
-  <data name="PivotFieldList_ParentHierarchy" xml:space="preserve">
-    <value>Hierarki Ibu Bapa</value>
-  </data>
-  <data name="PivotFieldList_Percent" xml:space="preserve">
-    <value>Peratus</value>
-  </data>
-  <data name="PivotFieldList_PercentageOfColumnTotal" xml:space="preserve">
-    <value>% daripada Jumlah Lajur</value>
-  </data>
-  <data name="PivotFieldList_PercentageOfDifferenceFrom" xml:space="preserve">
-    <value>% Perbezaan Dari</value>
-  </data>
-  <data name="PivotFieldList_PercentageOfGrandTotal" xml:space="preserve">
-    <value>% daripada Jumlah Besar</value>
-  </data>
-  <data name="PivotFieldList_PercentageOfParentColumnTotal" xml:space="preserve">
-    <value>% daripada Jumlah Lajur Ibu Bapa</value>
-  </data>
-  <data name="PivotFieldList_PercentageOfParentRowTotal" xml:space="preserve">
-    <value>% Jumlah Bilangan Ibu Bapa</value>
-  </data>
-  <data name="PivotFieldList_PercentageOfParentTotal" xml:space="preserve">
-    <value>% daripada Jumlah Ibu Bapa</value>
-  </data>
-  <data name="PivotFieldList_PercentageOfRowTotal" xml:space="preserve">
-    <value>% daripada Jumlah Baris</value>
-  </data>
-  <data name="PivotFieldList_PopulationStDev" xml:space="preserve">
-    <value>jumlah penduduk StDev</value>
-  </data>
-  <data name="PivotFieldList_PopulationVar" xml:space="preserve">
-    <value>jumlah penduduk Var</value>
-  </data>
-  <data name="PivotFieldList_Product" xml:space="preserve">
-    <value>Produk</value>
-  </data>
-  <data name="PivotFieldList_Quarters" xml:space="preserve">
-    <value>Kuarters</value>
-  </data>
-  <data name="PivotFieldList_QuarterYear" xml:space="preserve">
-    <value>Suku Tahun</value>
-  </data>
-  <data name="PivotFieldList_Remove" xml:space="preserve">
-    <value>Keluarkan</value>
-  </data>
-  <data name="PivotFieldList_RowAxisWatermark" xml:space="preserve">
-    <value>Jatuhkan baris di sini</value>
-  </data>
-  <data name="PivotFieldList_Rows" xml:space="preserve">
-    <value>Baris</value>
-  </data>
-  <data name="PivotFieldList_RunningTotals" xml:space="preserve">
-    <value>Jumlah Berjalan</value>
-  </data>
-  <data name="PivotFieldList_SampleStDev" xml:space="preserve">
-    <value>Contoh StDev</value>
-  </data>
-  <data name="PivotFieldList_SampleVar" xml:space="preserve">
-    <value>Contoh Var</value>
-  </data>
-  <data name="PivotFieldList_Search" xml:space="preserve">
-    <value>Cari</value>
-  </data>
-  <data name="PivotFieldList_Seconds" xml:space="preserve">
-    <value>Detik</value>
-  </data>
-  <data name="PivotFieldList_Sort" xml:space="preserve">
-    <value>Susun</value>
-  </data>
-  <data name="PivotFieldList_Standard" xml:space="preserve">
-    <value>Piawai</value>
-  </data>
-  <data name="PivotFieldList_StaticFieldList" xml:space="preserve">
-    <value>Senarai Medan Pangsi</value>
-  </data>
-  <data name="PivotFieldList_Sum" xml:space="preserve">
-    <value>Tambah</value>
-  </data>
-  <data name="PivotFieldList_Summaries" xml:space="preserve">
-    <value>Nilai ringkasan oleh</value>
-  </data>
-  <data name="PivotFieldList_SummarizeValuesBy" xml:space="preserve">
-    <value>Ringkaskan nilai dengan</value>
-  </data>
-  <data name="PivotFieldList_Undefined" xml:space="preserve">
-    <value>tidak ditentukan</value>
-  </data>
-  <data name="PivotFieldList_Value" xml:space="preserve">
-    <value>Nilai</value>
-  </data>
-  <data name="PivotFieldList_ValueAxisWatermark" xml:space="preserve">
-    <value>Turunkan nilai di sini</value>
-  </data>
-  <data name="PivotFieldList_ValueFieldSettings" xml:space="preserve">
-    <value>Tetapan medan nilai</value>
-  </data>
-  <data name="PivotFieldList_Values" xml:space="preserve">
-    <value>Nilai</value>
-  </data>
-  <data name="PivotFieldList_ValueTextMessage" xml:space="preserve">
-    <value>Tunjukkan barang yang</value>
-  </data>
-  <data name="PivotFieldList_Warning" xml:space="preserve">
-    <value>Amaran</value>
-  </data>
-  <data name="PivotFieldList_Years" xml:space="preserve">
-    <value>Tahun</value>
-  </data>
-  <data name="PivotFieldList_CalculatedField_RemoveMessage" xml:space="preserve">
-    <value>Adakah anda pasti mahu memadamkan medan yang dikira ini?</value>
-  </data>
-  <data name="PivotFieldList_Yes" xml:space="preserve">
-    <value>Ya</value>
-  </data>
-  <data name="PivotFieldList_No" xml:space="preserve">
-    <value>Tidak</value>
-  </data>
-  <data name="PivotFieldList_Of" xml:space="preserve">
-    <value>daripada</value>
-  </data>
-  <data name="PivotFieldList_NumberFormat_ExampleWatermark" xml:space="preserve">
-    <value>Contoh: C, P, 0000 %, ###0.##0#, etc.</value>
-  </data>
-  <data name="PivotFieldList_SortNone_TooltipMessage" xml:space="preserve">
+  <data name="PivotView_SortNone_TooltipMessage" xml:space="preserve">
     <value>Susun urutan data</value>
   </data>
-  <data name="PivotFieldList_SortAscending_TooltipMessage" xml:space="preserve">
-    <value>Susun urutan menaik</value>
-  </data>
-  <data name="PivotFieldList_SortDescending_TooltipMessage" xml:space="preserve">
+  <data name="PivotView_SortDescending_TooltipMessage" xml:space="preserve">
     <value>Susun urutan menurun</value>
   </data>
-  <data name="PivotFieldList_CalculatedField_EditTooltipMessage" xml:space="preserve">
-    <value>Edit medan yang dikira</value>
+  <data name="PivotView_StaticFieldList" xml:space="preserve">
+    <value>Senarai Medan Pangsi</value>
   </data>
-  <data name="PivotFieldList_CalculatedField_ClearTooltipMessage" xml:space="preserve">
-    <value>Kosongkan maklumat medan yang diedit</value>
+  <data name="PivotView_FieldList" xml:space="preserve">
+    <value>Field List</value>
   </data>
-  <data name="PivotFieldList_Format" xml:space="preserve">
-    <value>Format</value>
+  <data name="PivotView_AddFieldMessage" xml:space="preserve">
+    <value>Tambah medan di sini</value>
+  </data>
+  <data name="PivotView_ChooseFieldMessage" xml:space="preserve">
+    <value>Pilih bidang</value>
+  </data>
+  <data name="PivotView_DragFieldsMessage" xml:space="preserve">
+    <value>Seret medan antara paksi di bawah:</value>
+  </data>
+  <data name="PivotView_Add" xml:space="preserve">
+    <value>Tambah</value>
+  </data>
+  <data name="PivotView_DeferLayoutUpdate" xml:space="preserve">
+    <value>Tunda Kemas kini Tata Letak</value>
+  </data>
+  <data name="PivotView_ShowLegend" xml:space="preserve">
+    <value>Tunjukkan Legenda</value>
+  </data>  
+  <data name="PivotView_FieldCaptionWatermark" xml:space="preserve">
+    <value>Masukkan kapsyen medan</value>
+  </data>  
+   <data name="PivotView_SortAscending_TooltipMessage" xml:space="preserve">
+    <value>Susun urutan menaik</value>
+  </data> 
+  <data name="PivotView_ReplaceReport_BeforeMessage" xml:space="preserve">
+    <value>Laporan yang dinamakan</value>
+  </data>  
+  <data name="PivotView_ReplaceReport_AfterMessage" xml:space="preserve">
+    <value>sudah wujud. Adakah anda ingin menggantikannya?</value>
   </data>
   <data name="PivotView_AddCondition" xml:space="preserve">
     <value>Tambah Keadaan</value>
@@ -1330,7 +940,7 @@
     <value>dan</value>
   </data>
   <data name="PivotView_Apply" xml:space="preserve">
-    <value>MEMOHON</value>
+    <value>Memohon</value>
   </data>
   <data name="PivotView_Area" xml:space="preserve">
     <value>Kawasan</value>
@@ -1631,9 +1241,6 @@
   </data>
   <data name="PivotView_GroupCaptionMessage" xml:space="preserve">
     <value>Masukkan kapsyen untuk dipaparkan di tajuk</value>
-  </data>
-  <data name="PivotView_GroupFieldCaption" xml:space="preserve">
-    <value>Kapsyen medan</value>
   </data>
   <data name="PivotView_GroupFieldCaptionMessage" xml:space="preserve">
     <value>Masukkan kapsyen untuk medan kumpulan</value>
@@ -1966,7 +1573,7 @@
     <value>Tahun</value>
   </data>
   <data name="PivotView_MultipleAxes" xml:space="preserve">
-    <value>Pelbagai paksi</value>
+    <value>Gandar Berganda</value>
   </data>
   <data name="PivotView_ChartTypeSettings" xml:space="preserve">
     <value>Tetapan Jenis Carta</value>
@@ -2033,6 +1640,30 @@
   </data>
   <data name="PivotView_CalculatedField_ClearTooltipMessage" xml:space="preserve">
     <value>Kosongkan maklumat medan yang diedit</value>
+  </data>
+  <data name="PivotView_Pie" xml:space="preserve">
+    <value>Pai</value>
+  </data>
+  <data name="PivotView_Pyramid" xml:space="preserve">
+    <value>Piramid</value>
+  </data>
+  <data name="PivotView_Doughnut" xml:space="preserve">
+    <value>Donut</value>
+  </data>
+  <data name="PivotView_Funnel" xml:space="preserve">
+    <value>Corong</value>
+  </data>
+  <data name="PivotView_Stacked" xml:space="preserve">
+    <value>Bersusun</value>
+  </data>
+  <data name="PivotView_Grouped" xml:space="preserve">
+    <value>Berkumpulan</value>
+  </data>
+  <data name="PivotView_MultipleAxisMode" xml:space="preserve">
+    <value>Mod pelbagai paksi</value>
+  </data>
+  <data name="PivotView_Median" xml:space="preserve">
+    <value>Median</value>
   </data>
   <data name="QueryBuilder_AddCondition" xml:space="preserve">
     <value>조건 추가</value>
@@ -2186,6 +1817,87 @@
   </data>
   <data name="Kanban_No" xml:space="preserve">
     <value>아니</value>
+  </data>
+  <data name="RichTextEditor_NumberFormatListNone" xml:space="preserve">
+    <value> Tiada </value>
+  </data>
+  <data name="RichTextEditor_NumberFormatListNumber" xml:space="preserve">
+    <value> Nombor </value>
+  </data>
+  <data name="RichTextEditor_NumberFormatListUpperAlpha" xml:space="preserve">
+    <value> Alpha Atas </value>
+  </data>
+  <data name="RichTextEditor_NumberFormatListLowerAlpha" xml:space="preserve">
+    <value> Bawah Alpha </value>
+  </data>
+  <data name="RichTextEditor_NumberFormatListUpperRoman" xml:space="preserve">
+    <value> Rom Atas </value>
+  </data>
+  <data name="RichTextEditor_NumberFormatListLowerRoman" xml:space="preserve">
+    <value> Bawah Rom </value>
+  </data>
+  <data name="RichTextEditor_NumberFormatListLowerGreek" xml:space="preserve">
+    <value> Bahasa Yunani Bawah </value>
+  </data>
+  <data name="RichTextEditor_BulletFormatListNone" xml:space="preserve">
+    <value> Tiada </value>
+  </data>
+  <data name="RichTextEditor_BulletFormatListCircle" xml:space="preserve">
+    <value> Bulatan </value>
+  </data>
+  <data name="RichTextEditor_BulletFormatListSquare" xml:space="preserve">
+    <value> Petak </value>
+  </data>
+  <data name="RichTextEditor_BulletFormatListDisc" xml:space="preserve">
+    <value> Cakera </value>
+  </data>
+  <data name="RichTextEditor_FormatsDropDownParagraph" xml:space="preserve">
+    <value> Ayat </value>
+  </data>
+  <data name="RichTextEditor_FormatsDropDownCode" xml:space="preserve">
+    <value> Kod </value>
+  </data>
+  <data name="RichTextEditor_FormatsDropDownQuotation" xml:space="preserve">
+    <value> Sebutharga </value>
+  </data>
+  <data name="RichTextEditor_FormatsDropDownHeading1" xml:space="preserve">
+    <value> Tajuk 1 </value>
+  </data>
+  <data name="RichTextEditor_FormatsDropDownHeading2" xml:space="preserve">
+    <value> Tajuk 2 </value>
+  </data>
+  <data name="RichTextEditor_FormatsDropDownHeading3" xml:space="preserve">
+    <value> Tajuk 3 </value>
+  </data>
+  <data name="RichTextEditor_FormatsDropDownHeading4" xml:space="preserve">
+    <value> Tajuk  4 </value>
+  </data>
+  <data name="RichTextEditor_FormatsDropDownHeading5" xml:space="preserve">
+    <value> Tajuk  5 </value>
+  </data>
+  <data name="RichTextEditor_FormatsDropDownHeading6" xml:space="preserve">
+    <value> Tajuk   6 </value>
+  </data>
+  <data name="RichTextEditor_FontNameSegoeUI" xml:space="preserve">
+    <value> Segoe UI </value>
+  </data>
+  <data name="RichTextEditor_FontNameArial" xml:space="preserve">
+    <value> Arial </value>
+  </data>
+  <data name="RichTextEditor_FontNameGeorgia" xml:space="preserve">
+    <value> Georgia </value>
+  </data>
+  <data name="RichTextEditor_FontNameImpact" xml:space="preserve">
+    <value> Kesan </value>
+  </data>
+  <data name="RichTextEditor_FontNameTahoma" xml:space="preserve">
+    <value> Tahoma </value>
+  </data>
+  <data name="RichTextEditor_FontNameTimesNewRoman" xml:space="preserve">
+    <value> Kali baru rumi </value>
+  </data>
+  <data name="RichTextEditor_FontNameVerdana" xml:space="preserve">
+    <value> Verdana </value>
   </data>
   <data name="RichTextEditor_Alignments" xml:space="preserve">
     <value>정렬</value>
@@ -3650,6 +3362,24 @@
   </data>
   <data name="PdfViewer_ExportFailed" xml:space="preserve">
     <value> Tindakan anotasi eksport telah gagal; sila pastikan penjelasan ditambahkan dengan betul </value>
+  </data>
+  <data name="PdfViewer_Draw_hand_Signature" xml:space="preserve">
+    <value>LUKISAN</value>
+  </data>
+  <data name="PdfViewer_Type_Signature" xml:space="preserve">
+    <value>JENIS</value>
+  </data>
+  <data name="PdfViewer_Upload_Signature" xml:space="preserve">
+    <value>TINGKATKAN</value>
+  </data>
+  <data name="PdfViewer_Browse_Signature_Image" xml:space="preserve">
+    <value>BROWSE</value>
+  </data>
+  <data name="PdfViewer_Save_Signature" xml:space="preserve">
+    <value>Simpan Tandatangan</value>
+  </data>
+   <data name="PdfViewer_Enter_Signature_as_Name" xml:space="preserve">
+    <value>Masukkan nama anda</value>
   </data>
   <data name="DocumentEditor_Table" xml:space="preserve">
     <value>Jadual</value>

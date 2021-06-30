@@ -447,11 +447,17 @@
   <data name="FileManager_ContentDelete" xml:space="preserve">
     <value>Bu dosyayı silmek istediğinizden emin misiniz?</value>
   </data>
+  <data name="FileManager_HeaderFolderDelete" xml:space="preserve">
+    <value>Klasörü Sil</value>
+  </data>
+  <data name="FileManager_ContentFolderDelete" xml:space="preserve">
+    <value>Bu klasörü silmek istediğinizden emin misiniz?</value>
+  </data>
   <data name="FileManager_HeaderMultipleDelete" xml:space="preserve">
-    <value>Birden Fazla Dosyayı Sil</value>
+    <value>Birden Fazla Öğeyi Sil</value>
   </data>
   <data name="FileManager_ContentMultipleDelete" xml:space="preserve">
-    <value>Bu {0} dosyaları silmek istediğinizden emin misiniz?</value>
+    <value>Bu {0} öğeyi silmek istediğinizden emin misiniz?</value>
   </data>
   <data name="FileManager_HeaderDuplicate" xml:space="preserve">
     <value>Dosya / Klasör var</value>
@@ -605,6 +611,12 @@
   </data>
   <data name="Gantt_ConfirmPredecessorDelete" xml:space="preserve">
     <value>Bağımlılık bağlantısını kaldırmak istediğinizden emin misiniz?</value>
+  </data>
+  <data name="Gantt_Indent" xml:space="preserve">
+    <value>çentik</value>
+  </data>
+  <data name="Gantt_Outdent" xml:space="preserve">
+    <value>Çıkıntı</value>
   </data>
   <data name="Gantt_Convert" xml:space="preserve">
     <value>Dönüştürmek</value>
@@ -843,452 +855,50 @@
   <data name="ListBox_UnSelectAllText" xml:space="preserve">
     <value>Tümünün Seçimini Kaldır</value>
   </data>
-  <data name="PivotFieldList_Add" xml:space="preserve">
-    <value>Ekle</value>
+  <data name="PivotView_NumberFormat_ExampleWatermark" xml:space="preserve">
+    <value>Örnek: C, P, 0000%, ### 0. ## 0 #, vb.</value>
   </data>
-  <data name="PivotFieldList_AddFieldMessage" xml:space="preserve">
-    <value>Buraya alan ekle</value>
-  </data>
-  <data name="PivotFieldList_After" xml:space="preserve">
-    <value>Sonra</value>
-  </data>
-  <data name="PivotFieldList_AfterOrEqualTo" xml:space="preserve">
-    <value>Sonra veya Eşit</value>
-  </data>
-  <data name="PivotFieldList_Alert" xml:space="preserve">
-    <value>Uyarmak</value>
-  </data>
-  <data name="PivotFieldList_All" xml:space="preserve">
-    <value>Herşey</value>
-  </data>
-  <data name="PivotFieldList_AllFields" xml:space="preserve">
-    <value>Tüm alanlar</value>
-  </data>
-  <data name="PivotFieldList_And" xml:space="preserve">
-    <value>ve</value>
-  </data>
-  <data name="PivotFieldList_Apply" xml:space="preserve">
-    <value>UYGULAMAK</value>
-  </data>
-  <data name="PivotFieldList_Avg" xml:space="preserve">
-    <value>Ort</value>
-  </data>
-  <data name="PivotFieldList_BaseField" xml:space="preserve">
-    <value>Temel alan</value>
-  </data>
-  <data name="PivotFieldList_BaseItem" xml:space="preserve">
-    <value>Temel öğe</value>
-  </data>
-  <data name="PivotFieldList_Before" xml:space="preserve">
-    <value>Önce</value>
-  </data>
-  <data name="PivotFieldList_BeforeOrEqualTo" xml:space="preserve">
-    <value>Önce veya Eşi</value>
-  </data>
-  <data name="PivotFieldList_BeginWith" xml:space="preserve">
-    <value>İle başlar</value>
-  </data>
-  <data name="PivotFieldList_Between" xml:space="preserve">
-    <value>Arasında</value>
-  </data>
-  <data name="PivotFieldList_Blank" xml:space="preserve">
-    <value>(Boş)</value>
-  </data>
-  <data name="PivotFieldList_By" xml:space="preserve">
-    <value>tarafından</value>
-  </data>
-  <data name="PivotFieldList_CalculatedField" xml:space="preserve">
-    <value>Hesaplanan Alan</value>
-  </data>
-  <data name="PivotFieldList_CalculatedField_ConfirmMessage" xml:space="preserve">
-    <value>Bu adda zaten bir hesaplama alanı var. Değiştirmek istiyor musun?</value>
-  </data>
-  <data name="PivotFieldList_CalculatedField_DragDropMessage" xml:space="preserve">
-    <value>Formül oluşturmak için alanları sürükleyip bırakın</value>
-  </data>
-  <data name="PivotFieldList_CalculatedField_DragMessage" xml:space="preserve">
-    <value>Alanı formüle sürükleyin</value>
-  </data>
-  <data name="PivotFieldList_CalculatedField_DropMessage" xml:space="preserve">
-    <value>Hesaplanan alan, değer ekseni dışında başka bir bölgeye yerleştirilemez.</value>
-  </data>
-  <data name="PivotFieldList_CalculatedField_ExampleWatermark" xml:space="preserve">
-    <value>Örneğin: ('Sum(Order_Count)' + 'Sum(In_Stock)'') * 250</value>
-  </data>
-  <data name="PivotFieldList_CalculatedField_ExistMessage" xml:space="preserve">
-    <value>Bu adda zaten bir alan var. Lütfen farklı bir ad girin.</value>
-  </data>
-  <data name="PivotFieldList_CalculatedField_MobileWatermark" xml:space="preserve">
-    <value>Burada alanlar ekleyin ve formülü düzenleyin.</value>
-  </data>
-  <data name="PivotFieldList_CalculatedField_NameWatermark" xml:space="preserve">
-    <value>Alan adını girin</value>
-  </data>
-  <data name="PivotFieldList_CalculatedField_OLAPExampleWatermark" xml:space="preserve">
-    <value>Örneğin: [Measures].[Order Quantity] + ([Measures].[Order Quantity] * 0.10)</value>
-  </data>
-  <data name="PivotFieldList_CalculatedField_Tooltip" xml:space="preserve">
-    <value>İfade oluşturmak için alanları sürükleyip bırakın. Ve, mevcut hesaplanan alanları düzenlemek istiyorsanız! Bunu sadece 'Hesaplanan Üyeler' altındaki alanı seçerek başarabilirsiniz.</value>
-  </data>
-  <data name="PivotFieldList_Cancel" xml:space="preserve">
-    <value>İptal etmek</value>
-  </data>
-  <data name="PivotFieldList_ChooseFieldMessage" xml:space="preserve">
-    <value>Alan seçin</value>
-  </data>
-  <data name="PivotFieldList_Clear" xml:space="preserve">
-    <value>Açık</value>
-  </data>
-  <data name="PivotFieldList_ClearFilter" xml:space="preserve">
-    <value>Açık</value>
-  </data>
-  <data name="PivotFieldList_Close" xml:space="preserve">
-    <value>Kapat</value>
-  </data>
-  <data name="PivotFieldList_ColumnAxisWatermark" xml:space="preserve">
-    <value>Sütunu buraya bırak</value>
-  </data>
-  <data name="PivotFieldList_Columns" xml:space="preserve">
-    <value>Sütunlar</value>
-  </data>
-  <data name="PivotFieldList_Contains" xml:space="preserve">
-    <value>İçeren</value>
-  </data>
-  <data name="PivotFieldList_Copy" xml:space="preserve">
-    <value>kopya</value>
-  </data>
-  <data name="PivotFieldList_Count" xml:space="preserve">
-    <value>Miktar</value>
-  </data>
-  <data name="PivotFieldList_CreateCalculatedField" xml:space="preserve">
-    <value>Hesaplanan Alan Oluştur</value>
-  </data>
-  <data name="PivotFieldList_Currency" xml:space="preserve">
-    <value>Para birimi</value>
-  </data>
-  <data name="PivotFieldList_Custom" xml:space="preserve">
-    <value>görenek</value>
-  </data>
-  <data name="PivotFieldList_CustomFormat" xml:space="preserve">
-    <value>Özel biçim dizesi girin</value>
-  </data>
-  <data name="PivotFieldList_Date" xml:space="preserve">
-    <value>tarih</value>
-  </data>
-  <data name="PivotFieldList_DateTextMessage" xml:space="preserve">
-    <value>Tarihin gösterildiği öğeleri göster</value>
-  </data>
-  <data name="PivotFieldList_Days" xml:space="preserve">
-    <value>günler</value>
-  </data>
-  <data name="PivotFieldList_DeferLayoutUpdate" xml:space="preserve">
-    <value>Erteleme Düzeni Güncellemesi</value>
-  </data>
-  <data name="PivotFieldList_Delete" xml:space="preserve">
-    <value>Sil</value>
-  </data>
-  <data name="PivotFieldList_DifferenceFrom" xml:space="preserve">
-    <value>Farkı</value>
-  </data>
-  <data name="PivotFieldList_Dimension" xml:space="preserve">
-    <value>boyut</value>
-  </data>
-  <data name="PivotFieldList_DistinctCount" xml:space="preserve">
-    <value>Farklı Sayım</value>
-  </data>
-  <data name="PivotFieldList_DoesNotBeginWith" xml:space="preserve">
-    <value>İle Başlamıyor</value>
-  </data>
-  <data name="PivotFieldList_DoesNotContains" xml:space="preserve">
-    <value>İçermiyor</value>
-  </data>
-  <data name="PivotFieldList_DoesNotEndsWith" xml:space="preserve">
-    <value>İle Bitmez</value>
-  </data>
-  <data name="PivotFieldList_DoesNotEquals" xml:space="preserve">
-    <value>Eşit değil</value>
-  </data>
-  <data name="PivotFieldList_Drag" xml:space="preserve">
-    <value>Sürüklemek</value>
-  </data>
-  <data name="PivotFieldList_DragFieldsMessage" xml:space="preserve">
-    <value>Alanları aşağıdaki eksenler arasında sürükleyin:</value>
-  </data>
-  <data name="PivotFieldList_Edit" xml:space="preserve">
-    <value>Düzenle</value>
-  </data>
-  <data name="PivotFieldList_EndsWith" xml:space="preserve">
-    <value>Şununla Bitiyor:</value>
-  </data>
-  <data name="PivotFieldList_EnterDate" xml:space="preserve">
-    <value>Tarihi girin</value>
-  </data>
-  <data name="PivotFieldList_EnterValue" xml:space="preserve">
-    <value>Değer girin</value>
-  </data>
-  <data name="PivotFieldList_Equals" xml:space="preserve">
-    <value>Eşittir</value>
-  </data>
-  <data name="PivotFieldList_Error" xml:space="preserve">
-    <value>Hata</value>
-  </data>
-  <data name="PivotFieldList_Example" xml:space="preserve">
-    <value>Örneğin:</value>
-  </data>
-  <data name="PivotFieldList_Expression" xml:space="preserve">
-    <value>ifade</value>
-  </data>
-  <data name="PivotFieldList_FieldCaption" xml:space="preserve">
-    <value>Alan Başlığı</value>
-  </data>
-  <data name="PivotFieldList_FieldCaptionMessage" xml:space="preserve">
-    <value>Alan başlığı</value>
-  </data>
-  <data name="PivotFieldList_FieldDropErrorMessage" xml:space="preserve">
-    <value>Taşıdığınız alan raporun bu alanına yerleştirilemez</value>
-  </data>
-  <data name="PivotFieldList_FieldList" xml:space="preserve">
-    <value>Alan Listesi</value>
-  </data>
-  <data name="PivotFieldList_FieldName" xml:space="preserve">
-    <value>Alan adı</value>
-  </data>
-  <data name="PivotFieldList_FieldNameMessage" xml:space="preserve">
-    <value>Alan adı :</value>
-  </data>
-  <data name="PivotFieldList_FieldType" xml:space="preserve">
-    <value>Alan türü</value>
-  </data>
-  <data name="PivotFieldList_Filter" xml:space="preserve">
-    <value>filtre</value>
-  </data>
-  <data name="PivotFieldList_FilterAxisWatermark" xml:space="preserve">
-    <value>Filtreyi buraya bırakın</value>
-  </data>
-  <data name="PivotFieldList_Filtered" xml:space="preserve">
-    <value>süzülmüş</value>
-  </data>
-  <data name="PivotFieldList_Filters" xml:space="preserve">
-    <value>Filtreler</value>
-  </data>
-  <data name="PivotFieldList_FormatString" xml:space="preserve">
-    <value>Dizeyi Biçimlendir</value>
-  </data>
-  <data name="PivotFieldList_Formula" xml:space="preserve">
-    <value>formül</value>
-  </data>
-  <data name="PivotFieldList_GreaterThan" xml:space="preserve">
-    <value>Büyüktür</value>
-  </data>
-  <data name="PivotFieldList_GreaterThanOrEqualTo" xml:space="preserve">
-    <value>Büyük veya Eşit</value>
-  </data>
-  <data name="PivotFieldList_Group" xml:space="preserve">
-    <value>grup</value>
-  </data>
-  <data name="PivotFieldList_Hours" xml:space="preserve">
-    <value>Saatler</value>
-  </data>
-  <data name="PivotFieldList_Index" xml:space="preserve">
-    <value>indeks</value>
-  </data>
-  <data name="PivotFieldList_InvalidFormula" xml:space="preserve">
-    <value>Geçersiz formül.</value>
-  </data>
-  <data name="PivotFieldList_Label" xml:space="preserve">
-    <value>Etiket</value>
-  </data>
-  <data name="PivotFieldList_LabelTextMessage" xml:space="preserve">
-    <value>Etiketin bulunduğu öğeleri göster</value>
-  </data>
-  <data name="PivotFieldList_LessThan" xml:space="preserve">
-    <value>Daha az</value>
-  </data>
-  <data name="PivotFieldList_LessThanOrEqualTo" xml:space="preserve">
-    <value>Küçük veya Eşit</value>
-  </data>
-  <data name="PivotFieldList_Max" xml:space="preserve">
-    <value>maksimum</value>
-  </data>
-  <data name="PivotFieldList_Measure" xml:space="preserve">
-    <value>Tedbir</value>
-  </data>
-  <data name="PivotFieldList_Member" xml:space="preserve">
-    <value>üye</value>
-  </data>
-  <data name="PivotFieldList_MemberLimitMessage" xml:space="preserve">
-    <value>daha fazla öğe. Daha da hassaslaştırmak için arama yapın.</value>
-  </data>
-  <data name="PivotFieldList_Min" xml:space="preserve">
-    <value>Min</value>
-  </data>
-  <data name="PivotFieldList_Minutes" xml:space="preserve">
-    <value>Dakika</value>
-  </data>
-  <data name="PivotFieldList_Months" xml:space="preserve">
-    <value>aylar</value>
-  </data>
-  <data name="PivotFieldList_MoreOption" xml:space="preserve">
-    <value>Daha...</value>
-  </data>
-  <data name="PivotFieldList_MultipleItems" xml:space="preserve">
-    <value>Birden çok öğe</value>
-  </data>
-  <data name="PivotFieldList_NoMatchesMessage" xml:space="preserve">
-    <value>Eşleşme yok</value>
-  </data>
-  <data name="PivotFieldList_NotBetween" xml:space="preserve">
-    <value>Arasında değil</value>
-  </data>
-  <data name="PivotFieldList_Null" xml:space="preserve">
-    <value>boş</value>
-  </data>
-  <data name="PivotFieldList_OK" xml:space="preserve">
-    <value>tamam</value>
-  </data>
-  <data name="PivotFieldList_OutOfRange" xml:space="preserve">
-    <value>Kapsama Alanı Dışı</value>
-  </data>
-  <data name="PivotFieldList_ParentHierarchy" xml:space="preserve">
-    <value>Üst Hiyerarşi</value>
-  </data>
-  <data name="PivotFieldList_Percent" xml:space="preserve">
-    <value>Yüzde</value>
-  </data>
-  <data name="PivotFieldList_PercentageOfColumnTotal" xml:space="preserve">
-    <value>Sütun Toplamının Yüzdesi</value>
-  </data>
-  <data name="PivotFieldList_PercentageOfGrandTotal" xml:space="preserve">
-    <value>Genel Toplamın% 'si</value>
-  </data>
-  <data name="PivotFieldList_PercentageOfParentColumnTotal" xml:space="preserve">
-    <value>Üst Sütun Toplamının Yüzdesi</value>
-  </data>
-  <data name="PivotFieldList_PercentageOfParentRowTotal" xml:space="preserve">
-    <value>Üst Satır Toplamının Yüzdesi</value>
-  </data>
-  <data name="PivotFieldList_PercentageOfParentTotal" xml:space="preserve">
-    <value>Ebeveyn Toplamının Yüzdesi</value>
-  </data>
-  <data name="PivotFieldList_PercentageOfRowTotal" xml:space="preserve">
-    <value>Satır Toplamının Yüzdesi</value>
-  </data>
-  <data name="PivotFieldList_PercentageOfDifferenceFrom" xml:space="preserve">
-    <value>Farkı%</value>
-  </data>
-  <data name="PivotFieldList_PopulationStDev" xml:space="preserve">
-    <value>Nüfus StDev</value>
-  </data>
-  <data name="PivotFieldList_PopulationVar" xml:space="preserve">
-    <value>Nüfus Var</value>
-  </data>
-  <data name="PivotFieldList_Product" xml:space="preserve">
-    <value>Ürün</value>
-  </data>
-  <data name="PivotFieldList_Quarters" xml:space="preserve">
-    <value>kışla</value>
-  </data>
-  <data name="PivotFieldList_QuarterYear" xml:space="preserve">
-    <value>Çeyrek Yıl</value>
-  </data>
-  <data name="PivotFieldList_Remove" xml:space="preserve">
-    <value>Kaldırmak</value>
-  </data>
-  <data name="PivotFieldList_RowAxisWatermark" xml:space="preserve">
-    <value>Buraya satır bırakın</value>
-  </data>
-  <data name="PivotFieldList_Rows" xml:space="preserve">
-    <value>Satırlar</value>
-  </data>
-  <data name="PivotFieldList_RunningTotals" xml:space="preserve">
-    <value>Koşu Toplamları</value>
-  </data>
-  <data name="PivotFieldList_SampleStDev" xml:space="preserve">
-    <value>Örnek StDev</value>
-  </data>
-  <data name="PivotFieldList_SampleVar" xml:space="preserve">
-    <value>Örnek Var</value>
-  </data>
-  <data name="PivotFieldList_Search" xml:space="preserve">
-    <value>Arama</value>
-  </data>
-  <data name="PivotFieldList_Seconds" xml:space="preserve">
-    <value>Saniye</value>
-  </data>
-  <data name="PivotFieldList_Sort" xml:space="preserve">
-    <value>Çeşit</value>
-  </data>
-  <data name="PivotFieldList_Standard" xml:space="preserve">
-    <value>Standart</value>
-  </data>
-  <data name="PivotFieldList_StaticFieldList" xml:space="preserve">
-    <value>Pivot Alan Listesi</value>
-  </data>
-  <data name="PivotFieldList_Sum" xml:space="preserve">
-    <value>toplam</value>
-  </data>
-  <data name="PivotFieldList_Summaries" xml:space="preserve">
-    <value>Değerleri şuna göre özetler</value>
-  </data>
-  <data name="PivotFieldList_SummarizeValuesBy" xml:space="preserve">
-    <value>Değerleri şu şekilde özetleyin:</value>
-  </data>
-  <data name="PivotFieldList_Undefined" xml:space="preserve">
-    <value>Tanımsız</value>
-  </data>
-  <data name="PivotFieldList_Value" xml:space="preserve">
-    <value>değer</value>
-  </data>
-  <data name="PivotFieldList_ValueAxisWatermark" xml:space="preserve">
-    <value>Değeri buraya bırakın</value>
-  </data>
-  <data name="PivotFieldList_ValueFieldSettings" xml:space="preserve">
-    <value>Değer alanı ayarları</value>
-  </data>
-  <data name="PivotFieldList_Values" xml:space="preserve">
-    <value>Değerler</value>
-  </data>
-  <data name="PivotFieldList_ValueTextMessage" xml:space="preserve">
-    <value>Hangi öğeleri göster</value>
-  </data>
-  <data name="PivotFieldList_Warning" xml:space="preserve">
-    <value>Uyarı</value>
-  </data>
-  <data name="PivotFieldList_Years" xml:space="preserve">
-    <value>yıl</value>
-  </data>
-  <data name="PivotFieldList_CalculatedField_RemoveMessage" xml:space="preserve">
-    <value>Bu hesaplanan alanı silmek istediğinizden emin misiniz?</value>
-  </data>
-  <data name="PivotFieldList_Yes" xml:space="preserve">
-    <value>Evet</value>
-  </data>
-  <data name="PivotFieldList_No" xml:space="preserve">
-    <value>Hayır</value>
-  </data>
-  <data name="PivotFieldList_Of" xml:space="preserve">
-    <value>-ın</value>
-  </data>
-  <data name="PivotFieldList_NumberFormat_ExampleWatermark" xml:space="preserve">
-    <value>Örneğin C, P, 0000 %, ###0.##0#, etc.</value>
-  </data>
-  <data name="PivotFieldList_SortNone_TooltipMessage" xml:space="preserve">
+  <data name="PivotView_SortNone_TooltipMessage" xml:space="preserve">
     <value>Veri sırasını sırala</value>
   </data>
-  <data name="PivotFieldList_SortAscending_TooltipMessage" xml:space="preserve">
+  <data name="PivotView_SortDescending_TooltipMessage" xml:space="preserve">
+    <value>Azalan düzende sırala</value>
+  </data>
+  <data name="PivotView_StaticFieldList" xml:space="preserve">
+    <value>Pivot Alan Listesi</value>
+  </data>
+  <data name="PivotView_FieldList" xml:space="preserve">
+    <value>Alan Listesi</value>
+  </data>
+  <data name="PivotView_AddFieldMessage" xml:space="preserve">
+    <value>Buraya alan ekleyin</value>
+  </data>
+  <data name="PivotView_ChooseFieldMessage" xml:space="preserve">
+    <value>Alan seçin</value>
+  </data>
+  <data name="PivotView_DragFieldsMessage" xml:space="preserve">
+    <value>Alanları aşağıdaki eksenler arasında sürükleyin:</value>
+  </data>
+  <data name="PivotView_Add" xml:space="preserve">
+    <value>Ekle</value>
+  </data>
+  <data name="PivotView_DeferLayoutUpdate" xml:space="preserve">
+    <value>Düzen Güncellemesini Ertele</value>
+  </data>
+  <data name="PivotView_ShowLegend" xml:space="preserve">
+    <value>Açıklamayı Göster</value>
+  </data>  
+  <data name="PivotView_FieldCaptionWatermark" xml:space="preserve">
+    <value>Alan başlığını girin</value>
+  </data>  
+   <data name="PivotView_SortAscending_TooltipMessage" xml:space="preserve">
     <value>Artan düzende sırala</value>
-  </data>
-  <data name="PivotFieldList_SortDescending_TooltipMessage" xml:space="preserve">
-    <value>Azalan düzeni sırala</value>
-  </data>
-  <data name="PivotFieldList_CalculatedField_EditTooltipMessage" xml:space="preserve">
-    <value>Hesaplanan alanı düzenle</value>
-  </data>
-  <data name="PivotFieldList_CalculatedField_ClearTooltipMessage" xml:space="preserve">
-    <value>Düzenlenmiş alan bilgilerini temizle</value>
-  </data>
-  <data name="PivotFieldList_Format" xml:space="preserve">
-    <value>Biçim</value>
+  </data> 
+  <data name="PivotView_ReplaceReport_BeforeMessage" xml:space="preserve">
+    <value>Adlı bir rapor</value>
+  </data>  
+  <data name="PivotView_ReplaceReport_AfterMessage" xml:space="preserve">
+    <value>zaten var. Onu değiştirmek ister misin?</value>
   </data>
   <data name="PivotView_AddCondition" xml:space="preserve">
     <value>Koşul Ekle</value>
@@ -1330,7 +940,7 @@
     <value>ve</value>
   </data>
   <data name="PivotView_Apply" xml:space="preserve">
-    <value>UYGULAMAK</value>
+    <value>Uygulamak</value>
   </data>
   <data name="PivotView_Area" xml:space="preserve">
     <value>alan</value>
@@ -1631,9 +1241,6 @@
   </data>
   <data name="PivotView_GroupCaptionMessage" xml:space="preserve">
     <value>Başlıkta görüntülenecek resim yazısını girin</value>
-  </data>
-  <data name="PivotView_GroupFieldCaption" xml:space="preserve">
-    <value>Alan başlığı</value>
   </data>
   <data name="PivotView_GroupFieldCaptionMessage" xml:space="preserve">
     <value>Grup alanı için başlık girin</value>
@@ -1966,7 +1573,7 @@
     <value>yıl</value>
   </data>
   <data name="PivotView_MultipleAxes" xml:space="preserve">
-    <value>Birden Fazla Eksen</value>
+    <value>Çoklu Eksen</value>
   </data>
   <data name="PivotView_ChartTypeSettings" xml:space="preserve">
     <value>Grafik Türü Ayarları</value>
@@ -2033,6 +1640,30 @@
   </data>
   <data name="PivotView_CalculatedField_ClearTooltipMessage" xml:space="preserve">
     <value>Düzenlenmiş alan bilgilerini temizle</value>
+  </data>
+  <data name="PivotView_Pie" xml:space="preserve">
+    <value>Turta</value>
+  </data>
+  <data name="PivotView_Pyramid" xml:space="preserve">
+    <value>Piramit</value>
+  </data>
+  <data name="PivotView_Doughnut" xml:space="preserve">
+    <value>Tatlı çörek</value>
+  </data>
+  <data name="PivotView_Funnel" xml:space="preserve">
+    <value>Huni</value>
+  </data>
+  <data name="PivotView_Stacked" xml:space="preserve">
+    <value>Yığılmış</value>
+  </data>
+  <data name="PivotView_Grouped" xml:space="preserve">
+    <value>gruplandırılmış</value>
+  </data>
+  <data name="PivotView_MultipleAxisMode" xml:space="preserve">
+    <value>Çoklu eksen modu</value>
+  </data>
+  <data name="PivotView_Median" xml:space="preserve">
+    <value>Medyan</value>
   </data>
   <data name="QueryBuilder_AddCondition" xml:space="preserve">
     <value>Koşul Ekle</value>
@@ -2186,6 +1817,87 @@
   </data>
   <data name="Kanban_No" xml:space="preserve">
     <value>Hayır</value>
+  </data>
+   <data name="RichTextEditor_NumberFormatListNone" xml:space="preserve">
+    <value> Yok </value>
+  </data>
+  <data name="RichTextEditor_NumberFormatListNumber" xml:space="preserve">
+    <value> Numara </value>
+  </data>
+  <data name="RichTextEditor_NumberFormatListUpperAlpha" xml:space="preserve">
+    <value> Üst Alfa </value>
+  </data>
+  <data name="RichTextEditor_NumberFormatListLowerAlpha" xml:space="preserve">
+    <value> Alt Alfa </value>
+  </data>
+  <data name="RichTextEditor_NumberFormatListUpperRoman" xml:space="preserve">
+    <value> Yukarı Roma </value>
+  </data>
+  <data name="RichTextEditor_NumberFormatListLowerRoman" xml:space="preserve">
+    <value> Aşağı Roma </value>
+  </data>
+  <data name="RichTextEditor_NumberFormatListLowerGreek" xml:space="preserve">
+    <value> Aşağı Yunanca </value>
+  </data>
+  <data name="RichTextEditor_BulletFormatListNone" xml:space="preserve">
+    <value> Yok </value>
+  </data>
+  <data name="RichTextEditor_BulletFormatListCircle" xml:space="preserve">
+    <value> Daire </value>
+  </data>
+  <data name="RichTextEditor_BulletFormatListSquare" xml:space="preserve">
+    <value> Meydan </value>
+  </data>
+  <data name="RichTextEditor_BulletFormatListDisc" xml:space="preserve">
+    <value> Disk </value>
+  </data>
+  <data name="RichTextEditor_FormatsDropDownParagraph" xml:space="preserve">
+    <value> Paragraf </value>
+  </data>
+  <data name="RichTextEditor_FormatsDropDownCode" xml:space="preserve">
+    <value> Kodu </value>
+  </data>
+  <data name="RichTextEditor_FormatsDropDownQuotation" xml:space="preserve">
+    <value> Teklif </value>
+  </data>
+  <data name="RichTextEditor_FormatsDropDownHeading1" xml:space="preserve">
+    <value> Başlık 1 </value>
+  </data>
+  <data name="RichTextEditor_FormatsDropDownHeading2" xml:space="preserve">
+    <value> Başlık 2 </value>
+  </data>
+  <data name="RichTextEditor_FormatsDropDownHeading3" xml:space="preserve">
+    <value> Başlık 3 </value>
+  </data>
+  <data name="RichTextEditor_FormatsDropDownHeading4" xml:space="preserve">
+    <value> Başlık  4 </value>
+  </data>
+  <data name="RichTextEditor_FormatsDropDownHeading5" xml:space="preserve">
+    <value> Başlık  5 </value>
+  </data>
+  <data name="RichTextEditor_FormatsDropDownHeading6" xml:space="preserve">
+    <value> Başlık   6 </value>
+  </data>
+  <data name="RichTextEditor_FontNameSegoeUI" xml:space="preserve">
+    <value> Segoe kullanıcı arayüzü </value>
+  </data>
+  <data name="RichTextEditor_FontNameArial" xml:space="preserve">
+    <value> Arial </value>
+  </data>
+  <data name="RichTextEditor_FontNameGeorgia" xml:space="preserve">
+    <value> Gürcistan </value>
+  </data>
+  <data name="RichTextEditor_FontNameImpact" xml:space="preserve">
+    <value> Etki </value>
+  </data>
+  <data name="RichTextEditor_FontNameTahoma" xml:space="preserve">
+    <value> Tahoma </value>
+  </data>
+  <data name="RichTextEditor_FontNameTimesNewRoman" xml:space="preserve">
+    <value> Yeni zamanlar Roma </value>
+  </data>
+  <data name="RichTextEditor_FontNameVerdana" xml:space="preserve">
+    <value> Verdana </value>
   </data>
   <data name="RichTextEditor_Alignments" xml:space="preserve">
     <value>hizalamalar</value>
@@ -3650,6 +3362,24 @@
   </data>
   <data name="PdfViewer_ExportFailed" xml:space="preserve">
     <value> Ek açıklamaları dışa aktarma işlemi başarısız oldu; lütfen ek açıklamaların doğru bir şekilde eklendiğinden emin olun </value>
+  </data>
+  <data name="PdfViewer_Draw_hand_Signature" xml:space="preserve">
+    <value>ÇİZMEK</value>
+  </data>
+  <data name="PdfViewer_Type_Signature" xml:space="preserve">
+    <value>TÜR</value>
+  </data>
+  <data name="PdfViewer_Upload_Signature" xml:space="preserve">
+    <value>YÜKLE</value>
+  </data>
+  <data name="PdfViewer_Browse_Signature_Image" xml:space="preserve">
+    <value>ARAŞTIR</value>
+  </data>
+  <data name="PdfViewer_Save_Signature" xml:space="preserve">
+    <value>İmzayı Kaydet</value>
+  </data>
+   <data name="PdfViewer_Enter_Signature_as_Name" xml:space="preserve">
+    <value>Adınızı giriniz</value>
   </data>
   <data name="DocumentEditor_Table" xml:space="preserve">
     <value>tablo</value>

@@ -447,11 +447,17 @@
   <data name="FileManager_ContentDelete" xml:space="preserve">
     <value>このファイルを削除してもよろしいですか？</value>
   </data>
+  <data name="FileManager_HeaderFolderDelete" xml:space="preserve">
+    <value>フォルダを削除</value>
+  </data>
+  <data name="FileManager_ContentFolderDelete" xml:space="preserve">
+    <value>このフォルダを削除してもよろしいですか？</value>
+  </data>
   <data name="FileManager_HeaderMultipleDelete" xml:space="preserve">
-    <value>複数のファイルを削除する</value>
+    <value>複数のアイテムを削除する</value>
   </data>
   <data name="FileManager_ContentMultipleDelete" xml:space="preserve">
-    <value>これらの{0}ファイルを削除してもよろしいですか？</value>
+    <value>これらの{0}アイテムを削除してもよろしいですか？</value>
   </data>
   <data name="FileManager_HeaderDuplicate" xml:space="preserve">
     <value>ファイル/フォルダーが存在します</value>
@@ -605,6 +611,12 @@
   </data>
   <data name="Gantt_ConfirmPredecessorDelete" xml:space="preserve">
     <value>依存関係リンクを削除してもよろしいですか？</value>
+  </data>
+  <data name="Gantt_Indent" xml:space="preserve">
+    <value>インデント</value>
+  </data>
+  <data name="Gantt_Outdent" xml:space="preserve">
+    <value>アウトデント</value>
   </data>
   <data name="Gantt_Convert" xml:space="preserve">
     <value>変換する</value>
@@ -843,452 +855,50 @@
   <data name="ListBox_UnSelectAllText" xml:space="preserve">
     <value>すべて選択解除</value>
   </data>
-  <data name="PivotFieldList_Add" xml:space="preserve">
-    <value>追加</value>
+  <data name="PivotView_NumberFormat_ExampleWatermark" xml:space="preserve">
+    <value>例：C、P、0000％、### 0。## 0＃など。</value>
   </data>
-  <data name="PivotFieldList_AddFieldMessage" xml:space="preserve">
-    <value>ここにフィールドを追加</value>
+  <data name="PivotView_SortNone_TooltipMessage" xml:space="preserve">
+    <value>データの順序を並べ替える</value>
   </data>
-  <data name="PivotFieldList_After" xml:space="preserve">
-    <value>後</value>
+  <data name="PivotView_SortDescending_TooltipMessage" xml:space="preserve">
+    <value>降順で並べ替える</value>
   </data>
-  <data name="PivotFieldList_AfterOrEqualTo" xml:space="preserve">
-    <value>後または等しい</value>
-  </data>
-  <data name="PivotFieldList_Alert" xml:space="preserve">
-    <value>アラート</value>
-  </data>
-  <data name="PivotFieldList_All" xml:space="preserve">
-    <value>すべて</value>
-  </data>
-  <data name="PivotFieldList_AllFields" xml:space="preserve">
-    <value>すべてのフィールド</value>
-  </data>
-  <data name="PivotFieldList_And" xml:space="preserve">
-    <value>そして</value>
-  </data>
-  <data name="PivotFieldList_Apply" xml:space="preserve">
-    <value>適用する</value>
-  </data>
-  <data name="PivotFieldList_Avg" xml:space="preserve">
-    <value>平均</value>
-  </data>
-  <data name="PivotFieldList_BaseField" xml:space="preserve">
-    <value>ベースフィールド</value>
-  </data>
-  <data name="PivotFieldList_BaseItem" xml:space="preserve">
-    <value>ベースアイテム</value>
-  </data>
-  <data name="PivotFieldList_Before" xml:space="preserve">
-    <value>前</value>
-  </data>
-  <data name="PivotFieldList_BeforeOrEqualTo" xml:space="preserve">
-    <value>前か等しい</value>
-  </data>
-  <data name="PivotFieldList_BeginWith" xml:space="preserve">
-    <value>で始まる</value>
-  </data>
-  <data name="PivotFieldList_Between" xml:space="preserve">
-    <value>の間に</value>
-  </data>
-  <data name="PivotFieldList_Blank" xml:space="preserve">
-    <value>（ブランク）</value>
-  </data>
-  <data name="PivotFieldList_By" xml:space="preserve">
-    <value>沿って</value>
-  </data>
-  <data name="PivotFieldList_CalculatedField" xml:space="preserve">
-    <value>計算フィールド</value>
-  </data>
-  <data name="PivotFieldList_CalculatedField_ConfirmMessage" xml:space="preserve">
-    <value>この名前の計算フィールドは既に存在します。 取り替えたいですか？</value>
-  </data>
-  <data name="PivotFieldList_CalculatedField_DragDropMessage" xml:space="preserve">
-    <value>フィールドを数式にドラッグアンドドロップする</value>
-  </data>
-  <data name="PivotFieldList_CalculatedField_DragMessage" xml:space="preserve">
-    <value>フィールドを数式にドラッグ</value>
-  </data>
-  <data name="PivotFieldList_CalculatedField_DropMessage" xml:space="preserve">
-    <value>計算フィールドは、数値軸以外の領域には配置できません。</value>
-  </data>
-  <data name="PivotFieldList_CalculatedField_ExampleWatermark" xml:space="preserve">
-    <value>例： ('Sum(Order_Count)' + 'Sum(In_Stock)'') * 250</value>
-  </data>
-  <data name="PivotFieldList_CalculatedField_ExistMessage" xml:space="preserve">
-    <value>この名前のフィールドは既に存在します。 別の名前を入力してください。</value>
-  </data>
-  <data name="PivotFieldList_CalculatedField_MobileWatermark" xml:space="preserve">
-    <value>ここにフィールドを追加し、数式を編集します。</value>
-  </data>
-  <data name="PivotFieldList_CalculatedField_NameWatermark" xml:space="preserve">
-    <value>フィールド名を入力してください</value>
-  </data>
-  <data name="PivotFieldList_CalculatedField_OLAPExampleWatermark" xml:space="preserve">
-    <value>例： [Measures].[Order Quantity] + ([Measures].[Order Quantity] * 0.10)</value>
-  </data>
-  <data name="PivotFieldList_CalculatedField_Tooltip" xml:space="preserve">
-    <value>フィールドをドラッグアンドドロップして式を作成します。 そして、既存の計算フィールドを編集したい場合！ 「計算されるメンバー」の下のフィールドを選択するだけでそれを達成できます。</value>
-  </data>
-  <data name="PivotFieldList_Cancel" xml:space="preserve">
-    <value>キャンセル</value>
-  </data>
-  <data name="PivotFieldList_ChooseFieldMessage" xml:space="preserve">
-    <value>フィールドを選択</value>
-  </data>
-  <data name="PivotFieldList_Clear" xml:space="preserve">
-    <value>晴れ</value>
-  </data>
-  <data name="PivotFieldList_ClearFilter" xml:space="preserve">
-    <value>晴れ</value>
-  </data>
-  <data name="PivotFieldList_Close" xml:space="preserve">
-    <value>閉じる</value>
-  </data>
-  <data name="PivotFieldList_ColumnAxisWatermark" xml:space="preserve">
-    <value>ここに列をドロップ</value>
-  </data>
-  <data name="PivotFieldList_Columns" xml:space="preserve">
-    <value>カラム</value>
-  </data>
-  <data name="PivotFieldList_Contains" xml:space="preserve">
-    <value>含む</value>
-  </data>
-  <data name="PivotFieldList_Copy" xml:space="preserve">
-    <value>コピーする</value>
-  </data>
-  <data name="PivotFieldList_Count" xml:space="preserve">
-    <value>カウント</value>
-  </data>
-  <data name="PivotFieldList_CreateCalculatedField" xml:space="preserve">
-    <value>計算フィールドを作成する</value>
-  </data>
-  <data name="PivotFieldList_Currency" xml:space="preserve">
-    <value>通貨</value>
-  </data>
-  <data name="PivotFieldList_Custom" xml:space="preserve">
-    <value>カスタム</value>
-  </data>
-  <data name="PivotFieldList_CustomFormat" xml:space="preserve">
-    <value>カスタムフォーマット文字列を入力してください</value>
-  </data>
-  <data name="PivotFieldList_Date" xml:space="preserve">
-    <value>日付</value>
-  </data>
-  <data name="PivotFieldList_DateTextMessage" xml:space="preserve">
-    <value>日付のあるアイテムを表示します</value>
-  </data>
-  <data name="PivotFieldList_Days" xml:space="preserve">
-    <value>日々</value>
-  </data>
-  <data name="PivotFieldList_DeferLayoutUpdate" xml:space="preserve">
-    <value>レイアウト更新の延期</value>
-  </data>
-  <data name="PivotFieldList_Delete" xml:space="preserve">
-    <value>削除する</value>
-  </data>
-  <data name="PivotFieldList_DifferenceFrom" xml:space="preserve">
-    <value>との違い</value>
-  </data>
-  <data name="PivotFieldList_Dimension" xml:space="preserve">
-    <value>寸法</value>
-  </data>
-  <data name="PivotFieldList_DistinctCount" xml:space="preserve">
-    <value>個別のカウント</value>
-  </data>
-  <data name="PivotFieldList_DoesNotBeginWith" xml:space="preserve">
-    <value>次で始まらない</value>
-  </data>
-  <data name="PivotFieldList_DoesNotContains" xml:space="preserve">
-    <value>含まない</value>
-  </data>
-  <data name="PivotFieldList_DoesNotEndsWith" xml:space="preserve">
-    <value>次で終わらない</value>
-  </data>
-  <data name="PivotFieldList_DoesNotEquals" xml:space="preserve">
-    <value>等しくない</value>
-  </data>
-  <data name="PivotFieldList_Drag" xml:space="preserve">
-    <value>引っ張る</value>
-  </data>
-  <data name="PivotFieldList_DragFieldsMessage" xml:space="preserve">
-    <value>下の軸間でフィールドをドラッグします。</value>
-  </data>
-  <data name="PivotFieldList_Edit" xml:space="preserve">
-    <value>編集する</value>
-  </data>
-  <data name="PivotFieldList_EndsWith" xml:space="preserve">
-    <value>次で終わる</value>
-  </data>
-  <data name="PivotFieldList_EnterDate" xml:space="preserve">
-    <value>日付を入力してください</value>
-  </data>
-  <data name="PivotFieldList_EnterValue" xml:space="preserve">
-    <value>値を入力してください</value>
-  </data>
-  <data name="PivotFieldList_Equals" xml:space="preserve">
-    <value>等しい</value>
-  </data>
-  <data name="PivotFieldList_Error" xml:space="preserve">
-    <value>エラー</value>
-  </data>
-  <data name="PivotFieldList_Example" xml:space="preserve">
-    <value>例えば：</value>
-  </data>
-  <data name="PivotFieldList_Expression" xml:space="preserve">
-    <value>表情</value>
-  </data>
-  <data name="PivotFieldList_FieldCaption" xml:space="preserve">
-    <value>フィールドのキャプション</value>
-  </data>
-  <data name="PivotFieldList_FieldCaptionMessage" xml:space="preserve">
-    <value>フィールドのキャプション</value>
-  </data>
-  <data name="PivotFieldList_FieldDropErrorMessage" xml:space="preserve">
-    <value>移動するフィールドをレポートのその領域に配置することはできません</value>
-  </data>
-  <data name="PivotFieldList_FieldList" xml:space="preserve">
-    <value>フィールドリスト</value>
-  </data>
-  <data name="PivotFieldList_FieldName" xml:space="preserve">
-    <value>フィールド名</value>
-  </data>
-  <data name="PivotFieldList_FieldNameMessage" xml:space="preserve">
-    <value>フィールド名 ：</value>
-  </data>
-  <data name="PivotFieldList_FieldType" xml:space="preserve">
-    <value>フィールドタイプ</value>
-  </data>
-  <data name="PivotFieldList_Filter" xml:space="preserve">
-    <value>フィルタ</value>
-  </data>
-  <data name="PivotFieldList_FilterAxisWatermark" xml:space="preserve">
-    <value>ここにフィルターをドロップ</value>
-  </data>
-  <data name="PivotFieldList_Filtered" xml:space="preserve">
-    <value>フィルター済み</value>
-  </data>
-  <data name="PivotFieldList_Filters" xml:space="preserve">
-    <value>フィルター</value>
-  </data>
-  <data name="PivotFieldList_FormatString" xml:space="preserve">
-    <value>フォーマット文字列</value>
-  </data>
-  <data name="PivotFieldList_Formula" xml:space="preserve">
-    <value>式</value>
-  </data>
-  <data name="PivotFieldList_GreaterThan" xml:space="preserve">
-    <value>より大きい</value>
-  </data>
-  <data name="PivotFieldList_GreaterThanOrEqualTo" xml:space="preserve">
-    <value>以上</value>
-  </data>
-  <data name="PivotFieldList_Group" xml:space="preserve">
-    <value>グループ</value>
-  </data>
-  <data name="PivotFieldList_Hours" xml:space="preserve">
-    <value>時間</value>
-  </data>
-  <data name="PivotFieldList_Index" xml:space="preserve">
-    <value>インデックス</value>
-  </data>
-  <data name="PivotFieldList_InvalidFormula" xml:space="preserve">
-    <value>無効な数式です。</value>
-  </data>
-  <data name="PivotFieldList_Label" xml:space="preserve">
-    <value>ラベル</value>
-  </data>
-  <data name="PivotFieldList_LabelTextMessage" xml:space="preserve">
-    <value>ラベルが付いているアイテムを表示する</value>
-  </data>
-  <data name="PivotFieldList_LessThan" xml:space="preserve">
-    <value>未満</value>
-  </data>
-  <data name="PivotFieldList_LessThanOrEqualTo" xml:space="preserve">
-    <value>より小さいか等しい</value>
-  </data>
-  <data name="PivotFieldList_Max" xml:space="preserve">
-    <value>マックス</value>
-  </data>
-  <data name="PivotFieldList_Measure" xml:space="preserve">
-    <value>測る</value>
-  </data>
-  <data name="PivotFieldList_Member" xml:space="preserve">
-    <value>メンバー</value>
-  </data>
-  <data name="PivotFieldList_MemberLimitMessage" xml:space="preserve">
-    <value>より多くのアイテム。 検索してさらに絞り込みます。</value>
-  </data>
-  <data name="PivotFieldList_Min" xml:space="preserve">
-    <value>最小</value>
-  </data>
-  <data name="PivotFieldList_Minutes" xml:space="preserve">
-    <value>議事録</value>
-  </data>
-  <data name="PivotFieldList_Months" xml:space="preserve">
-    <value>か月</value>
-  </data>
-  <data name="PivotFieldList_MoreOption" xml:space="preserve">
-    <value>もっと...</value>
-  </data>
-  <data name="PivotFieldList_MultipleItems" xml:space="preserve">
-    <value>複数のアイテム</value>
-  </data>
-  <data name="PivotFieldList_NoMatchesMessage" xml:space="preserve">
-    <value>一致しません</value>
-  </data>
-  <data name="PivotFieldList_NotBetween" xml:space="preserve">
-    <value>間にない</value>
-  </data>
-  <data name="PivotFieldList_Null" xml:space="preserve">
-    <value>ヌル</value>
-  </data>
-  <data name="PivotFieldList_OK" xml:space="preserve">
-    <value>OK</value>
-  </data>
-  <data name="PivotFieldList_OutOfRange" xml:space="preserve">
-    <value>範囲外</value>
-  </data>
-  <data name="PivotFieldList_ParentHierarchy" xml:space="preserve">
-    <value>親階層</value>
-  </data>
-  <data name="PivotFieldList_Percent" xml:space="preserve">
-    <value>パーセント</value>
-  </data>
-  <data name="PivotFieldList_PercentageOfColumnTotal" xml:space="preserve">
-    <value>列合計の％</value>
-  </data>
-  <data name="PivotFieldList_PercentageOfDifferenceFrom" xml:space="preserve">
-    <value>違いの割合</value>
-  </data>
-  <data name="PivotFieldList_PercentageOfGrandTotal" xml:space="preserve">
-    <value>総計に占める割合</value>
-  </data>
-  <data name="PivotFieldList_PercentageOfParentColumnTotal" xml:space="preserve">
-    <value>親列合計の％</value>
-  </data>
-  <data name="PivotFieldList_PercentageOfParentRowTotal" xml:space="preserve">
-    <value>親行合計の％</value>
-  </data>
-  <data name="PivotFieldList_PercentageOfParentTotal" xml:space="preserve">
-    <value>親合計の％</value>
-  </data>
-  <data name="PivotFieldList_PercentageOfRowTotal" xml:space="preserve">
-    <value>行合計の％</value>
-  </data>
-  <data name="PivotFieldList_PopulationStDev" xml:space="preserve">
-    <value>人口StDev</value>
-  </data>
-  <data name="PivotFieldList_PopulationVar" xml:space="preserve">
-    <value>人口変数</value>
-  </data>
-  <data name="PivotFieldList_Product" xml:space="preserve">
-    <value>製品</value>
-  </data>
-  <data name="PivotFieldList_Quarters" xml:space="preserve">
-    <value>四半期</value>
-  </data>
-  <data name="PivotFieldList_QuarterYear" xml:space="preserve">
-    <value>四半期</value>
-  </data>
-  <data name="PivotFieldList_Remove" xml:space="preserve">
-    <value>削除する</value>
-  </data>
-  <data name="PivotFieldList_RowAxisWatermark" xml:space="preserve">
-    <value>ここに行をドロップ</value>
-  </data>
-  <data name="PivotFieldList_Rows" xml:space="preserve">
-    <value>行</value>
-  </data>
-  <data name="PivotFieldList_RunningTotals" xml:space="preserve">
-    <value>累計</value>
-  </data>
-  <data name="PivotFieldList_SampleStDev" xml:space="preserve">
-    <value>StDevのサンプル</value>
-  </data>
-  <data name="PivotFieldList_SampleVar" xml:space="preserve">
-    <value>サンプルVar</value>
-  </data>
-  <data name="PivotFieldList_Search" xml:space="preserve">
-    <value>探す</value>
-  </data>
-  <data name="PivotFieldList_Seconds" xml:space="preserve">
-    <value>秒</value>
-  </data>
-  <data name="PivotFieldList_Sort" xml:space="preserve">
-    <value>ソート</value>
-  </data>
-  <data name="PivotFieldList_Standard" xml:space="preserve">
-    <value>標準</value>
-  </data>
-  <data name="PivotFieldList_StaticFieldList" xml:space="preserve">
+  <data name="PivotView_StaticFieldList" xml:space="preserve">
     <value>ピボットフィールドリスト</value>
   </data>
-  <data name="PivotFieldList_Sum" xml:space="preserve">
-    <value>和</value>
+  <data name="PivotView_FieldList" xml:space="preserve">
+    <value>フィールドリスト</value>
   </data>
-  <data name="PivotFieldList_Summaries" xml:space="preserve">
-    <value>値を要約する</value>
+  <data name="PivotView_AddFieldMessage" xml:space="preserve">
+    <value>ここにフィールドを追加</value>
   </data>
-  <data name="PivotFieldList_SummarizeValuesBy" xml:space="preserve">
-    <value>値を要約する</value>
+  <data name="PivotView_ChooseFieldMessage" xml:space="preserve">
+    <value>フィールドを選択</value>
   </data>
-  <data name="PivotFieldList_Undefined" xml:space="preserve">
-    <value>未定義</value>
+  <data name="PivotView_DragFieldsMessage" xml:space="preserve">
+    <value>下の軸間でフィールドをドラッグします。</value>
   </data>
-  <data name="PivotFieldList_Value" xml:space="preserve">
-    <value>値</value>
+  <data name="PivotView_Add" xml:space="preserve">
+    <value>追加</value>
   </data>
-  <data name="PivotFieldList_ValueAxisWatermark" xml:space="preserve">
-    <value>ここに値をドロップ</value>
+  <data name="PivotView_DeferLayoutUpdate" xml:space="preserve">
+    <value>レイアウトの更新を延期する</value>
   </data>
-  <data name="PivotFieldList_ValueFieldSettings" xml:space="preserve">
-    <value>値フィールドの設定</value>
-  </data>
-  <data name="PivotFieldList_Values" xml:space="preserve">
-    <value>価値観</value>
-  </data>
-  <data name="PivotFieldList_ValueTextMessage" xml:space="preserve">
-    <value>対象のアイテムを表示</value>
-  </data>
-  <data name="PivotFieldList_Warning" xml:space="preserve">
-    <value>警告</value>
-  </data>
-  <data name="PivotFieldList_Years" xml:space="preserve">
-    <value>年</value>
-  </data>
-  <data name="PivotFieldList_CalculatedField_RemoveMessage" xml:space="preserve">
-    <value>この計算フィールドを削除してもよろしいですか？</value>
-  </data>
-  <data name="PivotFieldList_Yes" xml:space="preserve">
-    <value>はい</value>
-  </data>
-  <data name="PivotFieldList_No" xml:space="preserve">
-    <value>番号</value>
-  </data>
-  <data name="PivotFieldList_Of" xml:space="preserve">
-    <value>の</value>
-  </data>
-  <data name="PivotFieldList_NumberFormat_ExampleWatermark" xml:space="preserve">
-    <value>例： C, P, 0000 %, ###0.##0#, etc.</value>
-  </data>
-  <data name="PivotFieldList_SortNone_TooltipMessage" xml:space="preserve">
-    <value>データの並べ替え</value>
-  </data>
-  <data name="PivotFieldList_SortAscending_TooltipMessage" xml:space="preserve">
+  <data name="PivotView_ShowLegend" xml:space="preserve">
+    <value>凡例を表示</value>
+  </data>  
+  <data name="PivotView_FieldCaptionWatermark" xml:space="preserve">
+    <value>フィールドキャプションを入力してください</value>
+  </data>  
+   <data name="PivotView_SortAscending_TooltipMessage" xml:space="preserve">
     <value>昇順で並べ替え</value>
-  </data>
-  <data name="PivotFieldList_SortDescending_TooltipMessage" xml:space="preserve">
-    <value>降順で並べ替え</value>
-  </data>
-  <data name="PivotFieldList_CalculatedField_EditTooltipMessage" xml:space="preserve">
-    <value>計算フィールドを編集する</value>
-  </data>
-  <data name="PivotFieldList_CalculatedField_ClearTooltipMessage" xml:space="preserve">
-    <value>編集したフィールド情報をクリア</value>
-  </data>
-  <data name="PivotFieldList_Format" xml:space="preserve">
-    <value>フォーマット</value>
+  </data> 
+  <data name="PivotView_ReplaceReport_BeforeMessage" xml:space="preserve">
+    <value>名前の付いたレポート</value>
+  </data>  
+  <data name="PivotView_ReplaceReport_AfterMessage" xml:space="preserve">
+    <value>もう存在している。取り替えたいですか？</value>
   </data>
   <data name="PivotView_AddCondition" xml:space="preserve">
     <value>条件を追加</value>
@@ -1632,9 +1242,6 @@
   <data name="PivotView_GroupCaptionMessage" xml:space="preserve">
     <value>ヘッダーに表示するキャプションを入力してください</value>
   </data>
-  <data name="PivotView_GroupFieldCaption" xml:space="preserve">
-    <value>フィールドのキャプション</value>
-  </data>
   <data name="PivotView_GroupFieldCaptionMessage" xml:space="preserve">
     <value>グループフィールドのキャプションを入力してください</value>
   </data>
@@ -1966,7 +1573,7 @@
     <value>年</value>
   </data>
   <data name="PivotView_MultipleAxes" xml:space="preserve">
-    <value>複数の軸</value>
+    <value>多軸</value>
   </data>
   <data name="PivotView_ChartTypeSettings" xml:space="preserve">
     <value>グラフタイプの設定</value>
@@ -2033,6 +1640,30 @@
   </data>
   <data name="PivotView_CalculatedField_ClearTooltipMessage" xml:space="preserve">
     <value>編集したフィールド情報をクリア</value>
+  </data>
+  <data name="PivotView_Pie" xml:space="preserve">
+    <value>パイ</value>
+  </data>
+  <data name="PivotView_Pyramid" xml:space="preserve">
+    <value>ピラミッド</value>
+  </data>
+  <data name="PivotView_Doughnut" xml:space="preserve">
+    <value>ドーナツ</value>
+  </data>
+  <data name="PivotView_Funnel" xml:space="preserve">
+    <value>漏斗</value>
+  </data>
+  <data name="PivotView_Stacked" xml:space="preserve">
+    <value>積み上げ</value>
+  </data>
+  <data name="PivotView_Grouped" xml:space="preserve">
+    <value>グループ化</value>
+  </data>
+  <data name="PivotView_MultipleAxisMode" xml:space="preserve">
+    <value>多軸モード</value>
+  </data>
+  <data name="PivotView_Median" xml:space="preserve">
+    <value>中央値</value>
   </data>
   <data name="QueryBuilder_AddCondition" xml:space="preserve">
     <value>条件を追加</value>
@@ -2186,6 +1817,87 @@
   </data>
   <data name="Kanban_No" xml:space="preserve">
     <value>番号</value>
+  </data>
+  <data name="RichTextEditor_NumberFormatListNone" xml:space="preserve">
+    <value> 無し </value>
+  </data>
+  <data name="RichTextEditor_NumberFormatListNumber" xml:space="preserve">
+    <value> 数 </value>
+  </data>
+  <data name="RichTextEditor_NumberFormatListUpperAlpha" xml:space="preserve">
+    <value> アッパーアルファ </value>
+  </data>
+  <data name="RichTextEditor_NumberFormatListLowerAlpha" xml:space="preserve">
+    <value> ローワーアルファ </value>
+  </data>
+  <data name="RichTextEditor_NumberFormatListUpperRoman" xml:space="preserve">
+    <value> アッパーローマン </value>
+  </data>
+  <data name="RichTextEditor_NumberFormatListLowerRoman" xml:space="preserve">
+    <value> ローワーローマン </value>
+  </data>
+  <data name="RichTextEditor_NumberFormatListLowerGreek" xml:space="preserve">
+    <value> 下ギリシャ語 </value>
+  </data>
+  <data name="RichTextEditor_BulletFormatListNone" xml:space="preserve">
+    <value> 無し </value>
+  </data>
+  <data name="RichTextEditor_BulletFormatListCircle" xml:space="preserve">
+    <value> サークル </value>
+  </data>
+  <data name="RichTextEditor_BulletFormatListSquare" xml:space="preserve">
+    <value> 平方 </value>
+  </data>
+  <data name="RichTextEditor_BulletFormatListDisc" xml:space="preserve">
+    <value> ディスク </value>
+  </data>
+  <data name="RichTextEditor_FormatsDropDownParagraph" xml:space="preserve">
+    <value> 段落 </value>
+  </data>
+  <data name="RichTextEditor_FormatsDropDownCode" xml:space="preserve">
+    <value> コード </value>
+  </data>
+  <data name="RichTextEditor_FormatsDropDownQuotation" xml:space="preserve">
+    <value> 引用 </value>
+  </data>
+  <data name="RichTextEditor_FormatsDropDownHeading1" xml:space="preserve">
+    <value> 見出し 1 </value>
+  </data>
+  <data name="RichTextEditor_FormatsDropDownHeading2" xml:space="preserve">
+    <value> 見出し 2 </value>
+  </data>
+  <data name="RichTextEditor_FormatsDropDownHeading3" xml:space="preserve">
+    <value> 見出し 3 </value>
+  </data>
+  <data name="RichTextEditor_FormatsDropDownHeading4" xml:space="preserve">
+    <value> 見出し  4 </value>
+  </data>
+  <data name="RichTextEditor_FormatsDropDownHeading5" xml:space="preserve">
+    <value> 見出し  5 </value>
+  </data>
+  <data name="RichTextEditor_FormatsDropDownHeading6" xml:space="preserve">
+    <value> 見出し   6 </value>
+  </data>
+  <data name="RichTextEditor_FontNameSegoeUI" xml:space="preserve">
+    <value>  セゴエオトリン </value>
+  </data>
+  <data name="RichTextEditor_FontNameArial" xml:space="preserve">
+    <value> Arial </value>
+  </data>
+  <data name="RichTextEditor_FontNameGeorgia" xml:space="preserve">
+    <value> ジョージア </value>
+  </data>
+  <data name="RichTextEditor_FontNameImpact" xml:space="preserve">
+    <value> 影響 </value>
+  </data>
+  <data name="RichTextEditor_FontNameTahoma" xml:space="preserve">
+    <value> タホマ </value>
+  </data>
+  <data name="RichTextEditor_FontNameTimesNewRoman" xml:space="preserve">
+    <value> 新しい時代 ローマ人 </value>
+  </data>
+  <data name="RichTextEditor_FontNameVerdana" xml:space="preserve">
+    <value> ヴェルダナ </value>
   </data>
   <data name="RichTextEditor_Alignments" xml:space="preserve">
     <value>アライメント</value>
@@ -3650,6 +3362,24 @@
   </data>
   <data name="PdfViewer_ExportFailed" xml:space="preserve">
     <value>注釈のエクスポートアクションが失敗しました。注釈が適切に追加されていることを確認してください</value>
+  </data>
+  <data name="PdfViewer_Draw_hand_Signature" xml:space="preserve">
+    <value>ドロー</value>
+  </data>
+  <data name="PdfViewer_Type_Signature" xml:space="preserve">
+    <value>タイプ</value>
+  </data>
+  <data name="PdfViewer_Upload_Signature" xml:space="preserve">
+    <value>アップロード</value>
+  </data>
+  <data name="PdfViewer_Browse_Signature_Image" xml:space="preserve">
+    <value>ブラウズ</value>
+  </data>
+  <data name="PdfViewer_Save_Signature" xml:space="preserve">
+    <value>署名を保存</value>
+  </data>
+   <data name="PdfViewer_Enter_Signature_as_Name" xml:space="preserve">
+    <value>あなたの名前を入力してください</value>
   </data>
   <data name="DocumentEditor_Table" xml:space="preserve">
     <value>テーブル</value>

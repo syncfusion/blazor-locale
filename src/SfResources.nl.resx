@@ -447,11 +447,17 @@
   <data name="FileManager_ContentDelete" xml:space="preserve">
     <value>Weet je zeker dat je dit bestand wilt verwijderen?</value>
   </data>
+  <data name="FileManager_HeaderFolderDelete" xml:space="preserve">
+    <value>Verwijder map</value>
+  </data>
+  <data name="FileManager_ContentFolderDelete" xml:space="preserve">
+    <value>Weet je zeker dat je deze map wilt verwijderen?</value>
+  </data>
   <data name="FileManager_HeaderMultipleDelete" xml:space="preserve">
-    <value>Verwijder meerdere bestanden</value>
+    <value>Verwijder meerdere items</value>
   </data>
   <data name="FileManager_ContentMultipleDelete" xml:space="preserve">
-    <value>Weet u zeker dat u deze {0} bestanden wilt verwijderen?</value>
+    <value>Weet je zeker dat je deze {0} items wilt verwijderen?</value>
   </data>
   <data name="FileManager_HeaderDuplicate" xml:space="preserve">
     <value>Bestand bestaat al</value>
@@ -605,6 +611,12 @@
   </data>
   <data name="Gantt_ConfirmPredecessorDelete" xml:space="preserve">
     <value>Weet u zeker dat u de afhankelijkheidskoppeling wilt verwijderen?</value>
+  </data>
+  <data name="Gantt_Indent" xml:space="preserve">
+    <value>Inspringen</value>
+  </data>
+  <data name="Gantt_Outdent" xml:space="preserve">
+    <value>Outdent</value>
   </data>
   <data name="Gantt_Convert" xml:space="preserve">
     <value>Converteren</value>
@@ -843,452 +855,50 @@
   <data name="ListBox_UnSelectAllText" xml:space="preserve">
     <value>Deselecteer alles</value>
   </data>
-  <data name="PivotFieldList_Add" xml:space="preserve">
-    <value>toevoegen</value>
+  <data name="PivotView_NumberFormat_ExampleWatermark" xml:space="preserve">
+    <value>Voorbeeld: C, P, 0000%, ### 0. ## 0 #, etc.</value>
   </data>
-  <data name="PivotFieldList_AddFieldMessage" xml:space="preserve">
-    <value>Veld hier toevoegen</value>
+  <data name="PivotView_SortNone_TooltipMessage" xml:space="preserve">
+    <value>Sorteer de gegevensvolgorde</value>
   </data>
-  <data name="PivotFieldList_After" xml:space="preserve">
-    <value>Na</value>
+  <data name="PivotView_SortDescending_TooltipMessage" xml:space="preserve">
+    <value>Sorteer aflopende volgorde</value>
   </data>
-  <data name="PivotFieldList_AfterOrEqualTo" xml:space="preserve">
-    <value>Na of gelijk aan</value>
-  </data>
-  <data name="PivotFieldList_Alert" xml:space="preserve">
-    <value>alarm</value>
-  </data>
-  <data name="PivotFieldList_All" xml:space="preserve">
-    <value>Allemaal</value>
-  </data>
-  <data name="PivotFieldList_AllFields" xml:space="preserve">
-    <value>Alle velden</value>
-  </data>
-  <data name="PivotFieldList_And" xml:space="preserve">
-    <value>en</value>
-  </data>
-  <data name="PivotFieldList_Apply" xml:space="preserve">
-    <value>VAN TOEPASSING ZIJN</value>
-  </data>
-  <data name="PivotFieldList_Avg" xml:space="preserve">
-    <value>Gem</value>
-  </data>
-  <data name="PivotFieldList_BaseField" xml:space="preserve">
-    <value>Basisveld</value>
-  </data>
-  <data name="PivotFieldList_BaseItem" xml:space="preserve">
-    <value>Basisitem</value>
-  </data>
-  <data name="PivotFieldList_Before" xml:space="preserve">
-    <value>Voordat</value>
-  </data>
-  <data name="PivotFieldList_BeforeOrEqualTo" xml:space="preserve">
-    <value>Voor of gelijk aan</value>
-  </data>
-  <data name="PivotFieldList_BeginWith" xml:space="preserve">
-    <value>Begint met</value>
-  </data>
-  <data name="PivotFieldList_Between" xml:space="preserve">
-    <value>Tussen</value>
-  </data>
-  <data name="PivotFieldList_Blank" xml:space="preserve">
-    <value>(Blanco)</value>
-  </data>
-  <data name="PivotFieldList_By" xml:space="preserve">
-    <value>door</value>
-  </data>
-  <data name="PivotFieldList_CalculatedField" xml:space="preserve">
-    <value>Berekend veld</value>
-  </data>
-  <data name="PivotFieldList_CalculatedField_ConfirmMessage" xml:space="preserve">
-    <value>Er bestaat al een berekeningsveld in deze naam. Wil je het vervangen?</value>
-  </data>
-  <data name="PivotFieldList_CalculatedField_DragDropMessage" xml:space="preserve">
-    <value>Sleep velden naar de formule</value>
-  </data>
-  <data name="PivotFieldList_CalculatedField_DragMessage" xml:space="preserve">
-    <value>Sleep veld naar formule</value>
-  </data>
-  <data name="PivotFieldList_CalculatedField_DropMessage" xml:space="preserve">
-    <value>Het berekende veld kan niet in een ander gebied worden geplaatst dan de waardeas.</value>
-  </data>
-  <data name="PivotFieldList_CalculatedField_ExampleWatermark" xml:space="preserve">
-    <value>Voorbeeld: ('Sum(Order_Count)' + 'Sum(In_Stock)'') * 250</value>
-  </data>
-  <data name="PivotFieldList_CalculatedField_ExistMessage" xml:space="preserve">
-    <value>Er bestaat al een veld in deze naam. Voer een andere naam in.</value>
-  </data>
-  <data name="PivotFieldList_CalculatedField_MobileWatermark" xml:space="preserve">
-    <value>Voeg velden toe en bewerk de formule hier.</value>
-  </data>
-  <data name="PivotFieldList_CalculatedField_NameWatermark" xml:space="preserve">
-    <value>Voer de veldnaam in</value>
-  </data>
-  <data name="PivotFieldList_CalculatedField_OLAPExampleWatermark" xml:space="preserve">
-    <value>Voorbeeld: [Measures].[Order Quantity] + ([Measures].[Order Quantity] * 0.10)</value>
-  </data>
-  <data name="PivotFieldList_CalculatedField_Tooltip" xml:space="preserve">
-    <value>Sleep velden om een uitdrukking te creëren. En als u de bestaande berekende velden wilt bewerken! U kunt dit bereiken door simpelweg het veld onder 'Berekende leden' te selecteren.</value>
-  </data>
-  <data name="PivotFieldList_Cancel" xml:space="preserve">
-    <value>annuleren</value>
-  </data>
-  <data name="PivotFieldList_ChooseFieldMessage" xml:space="preserve">
-    <value>Kies veld</value>
-  </data>
-  <data name="PivotFieldList_Clear" xml:space="preserve">
-    <value>Doorzichtig</value>
-  </data>
-  <data name="PivotFieldList_ClearFilter" xml:space="preserve">
-    <value>Doorzichtig</value>
-  </data>
-  <data name="PivotFieldList_Close" xml:space="preserve">
-    <value>Dichtbij</value>
-  </data>
-  <data name="PivotFieldList_ColumnAxisWatermark" xml:space="preserve">
-    <value>Zet de kolom hier neer</value>
-  </data>
-  <data name="PivotFieldList_Columns" xml:space="preserve">
-    <value>kolommen</value>
-  </data>
-  <data name="PivotFieldList_Contains" xml:space="preserve">
-    <value>Bevat</value>
-  </data>
-  <data name="PivotFieldList_Copy" xml:space="preserve">
-    <value>Kopiëren</value>
-  </data>
-  <data name="PivotFieldList_Count" xml:space="preserve">
-    <value>tellen</value>
-  </data>
-  <data name="PivotFieldList_CreateCalculatedField" xml:space="preserve">
-    <value>Maak een berekend veld</value>
-  </data>
-  <data name="PivotFieldList_Currency" xml:space="preserve">
-    <value>Valuta</value>
-  </data>
-  <data name="PivotFieldList_Custom" xml:space="preserve">
-    <value>Op maat</value>
-  </data>
-  <data name="PivotFieldList_CustomFormat" xml:space="preserve">
-    <value>Voer een aangepaste tekenreeks in</value>
-  </data>
-  <data name="PivotFieldList_Date" xml:space="preserve">
-    <value>Datum</value>
-  </data>
-  <data name="PivotFieldList_DateTextMessage" xml:space="preserve">
-    <value>Toon de items waarvoor de datum</value>
-  </data>
-  <data name="PivotFieldList_Days" xml:space="preserve">
-    <value>Dagen</value>
-  </data>
-  <data name="PivotFieldList_DeferLayoutUpdate" xml:space="preserve">
-    <value>Postpone layout update</value>
-  </data>
-  <data name="PivotFieldList_Delete" xml:space="preserve">
-    <value>Verwijderen</value>
-  </data>
-  <data name="PivotFieldList_DifferenceFrom" xml:space="preserve">
-    <value>Verschil met</value>
-  </data>
-  <data name="PivotFieldList_Dimension" xml:space="preserve">
-    <value>Dimensie</value>
-  </data>
-  <data name="PivotFieldList_DistinctCount" xml:space="preserve">
-    <value>Duidelijke telling</value>
-  </data>
-  <data name="PivotFieldList_DoesNotBeginWith" xml:space="preserve">
-    <value>Begint niet met</value>
-  </data>
-  <data name="PivotFieldList_DoesNotContains" xml:space="preserve">
-    <value>Bevat geen</value>
-  </data>
-  <data name="PivotFieldList_DoesNotEndsWith" xml:space="preserve">
-    <value>Eindigt niet met</value>
-  </data>
-  <data name="PivotFieldList_DoesNotEquals" xml:space="preserve">
-    <value>Is niet gelijk aan</value>
-  </data>
-  <data name="PivotFieldList_Drag" xml:space="preserve">
-    <value>Slepen</value>
-  </data>
-  <data name="PivotFieldList_DragFieldsMessage" xml:space="preserve">
-    <value>Sleep velden tussen onderstaande assen:</value>
-  </data>
-  <data name="PivotFieldList_Edit" xml:space="preserve">
-    <value>Bewerk</value>
-  </data>
-  <data name="PivotFieldList_EndsWith" xml:space="preserve">
-    <value>Eindigt met</value>
-  </data>
-  <data name="PivotFieldList_EnterDate" xml:space="preserve">
-    <value>Voer datum in</value>
-  </data>
-  <data name="PivotFieldList_EnterValue" xml:space="preserve">
-    <value>Voer de waarde in</value>
-  </data>
-  <data name="PivotFieldList_Equals" xml:space="preserve">
-    <value>Is gelijk aan</value>
-  </data>
-  <data name="PivotFieldList_Error" xml:space="preserve">
-    <value>Fout</value>
-  </data>
-  <data name="PivotFieldList_Example" xml:space="preserve">
-    <value>bijv:</value>
-  </data>
-  <data name="PivotFieldList_Expression" xml:space="preserve">
-    <value>Uitdrukking</value>
-  </data>
-  <data name="PivotFieldList_FieldCaption" xml:space="preserve">
-    <value>Veldbijschrift</value>
-  </data>
-  <data name="PivotFieldList_FieldCaptionMessage" xml:space="preserve">
-    <value>Veldbijschrift</value>
-  </data>
-  <data name="PivotFieldList_FieldDropErrorMessage" xml:space="preserve">
-    <value>Het veld dat u verplaatst, kan niet in dat gedeelte van het rapport worden geplaatst</value>
-  </data>
-  <data name="PivotFieldList_FieldList" xml:space="preserve">
-    <value>Lijst met velden</value>
-  </data>
-  <data name="PivotFieldList_FieldName" xml:space="preserve">
-    <value>Veldnaam</value>
-  </data>
-  <data name="PivotFieldList_FieldNameMessage" xml:space="preserve">
-    <value>Veldnaam :</value>
-  </data>
-  <data name="PivotFieldList_FieldType" xml:space="preserve">
-    <value>Veld soort</value>
-  </data>
-  <data name="PivotFieldList_Filter" xml:space="preserve">
-    <value>Filter</value>
-  </data>
-  <data name="PivotFieldList_FilterAxisWatermark" xml:space="preserve">
-    <value>Zet hier het filter neer</value>
-  </data>
-  <data name="PivotFieldList_Filtered" xml:space="preserve">
-    <value>Gefilterd</value>
-  </data>
-  <data name="PivotFieldList_Filters" xml:space="preserve">
-    <value>Filters</value>
-  </data>
-  <data name="PivotFieldList_FormatString" xml:space="preserve">
-    <value>Tekenreeks opmaken</value>
-  </data>
-  <data name="PivotFieldList_Formula" xml:space="preserve">
-    <value>Formule</value>
-  </data>
-  <data name="PivotFieldList_GreaterThan" xml:space="preserve">
-    <value>Groter dan</value>
-  </data>
-  <data name="PivotFieldList_GreaterThanOrEqualTo" xml:space="preserve">
-    <value>Groter dan of gelijk aan</value>
-  </data>
-  <data name="PivotFieldList_Group" xml:space="preserve">
-    <value>Groep</value>
-  </data>
-  <data name="PivotFieldList_Hours" xml:space="preserve">
-    <value>Uren</value>
-  </data>
-  <data name="PivotFieldList_Index" xml:space="preserve">
-    <value>Inhoudsopgave</value>
-  </data>
-  <data name="PivotFieldList_InvalidFormula" xml:space="preserve">
-    <value>Ongeldige formule.</value>
-  </data>
-  <data name="PivotFieldList_Label" xml:space="preserve">
-    <value>Etiket</value>
-  </data>
-  <data name="PivotFieldList_LabelTextMessage" xml:space="preserve">
-    <value>Toon de items waarvoor het label</value>
-  </data>
-  <data name="PivotFieldList_LessThan" xml:space="preserve">
-    <value>Minder dan</value>
-  </data>
-  <data name="PivotFieldList_LessThanOrEqualTo" xml:space="preserve">
-    <value>Minder dan of gelijk aan</value>
-  </data>
-  <data name="PivotFieldList_Max" xml:space="preserve">
-    <value>Max</value>
-  </data>
-  <data name="PivotFieldList_Measure" xml:space="preserve">
-    <value>Meten</value>
-  </data>
-  <data name="PivotFieldList_Member" xml:space="preserve">
-    <value>Lid</value>
-  </data>
-  <data name="PivotFieldList_MemberLimitMessage" xml:space="preserve">
-    <value>meer items. Zoeken om verder te verfijnen.</value>
-  </data>
-  <data name="PivotFieldList_Min" xml:space="preserve">
-    <value>Min</value>
-  </data>
-  <data name="PivotFieldList_Minutes" xml:space="preserve">
-    <value>Minuten</value>
-  </data>
-  <data name="PivotFieldList_Months" xml:space="preserve">
-    <value>Maanden</value>
-  </data>
-  <data name="PivotFieldList_MoreOption" xml:space="preserve">
-    <value>Meer...</value>
-  </data>
-  <data name="PivotFieldList_MultipleItems" xml:space="preserve">
-    <value>Meerdere items</value>
-  </data>
-  <data name="PivotFieldList_NoMatchesMessage" xml:space="preserve">
-    <value>Geen overeenkomsten</value>
-  </data>
-  <data name="PivotFieldList_NotBetween" xml:space="preserve">
-    <value>Niet tussen</value>
-  </data>
-  <data name="PivotFieldList_Null" xml:space="preserve">
-    <value>nul</value>
-  </data>
-  <data name="PivotFieldList_OK" xml:space="preserve">
-    <value>OK</value>
-  </data>
-  <data name="PivotFieldList_OutOfRange" xml:space="preserve">
-    <value>Buiten bereik</value>
-  </data>
-  <data name="PivotFieldList_ParentHierarchy" xml:space="preserve">
-    <value>Bovenliggende hiërarchie</value>
-  </data>
-  <data name="PivotFieldList_Percent" xml:space="preserve">
-    <value>Procent</value>
-  </data>
-  <data name="PivotFieldList_PercentageOfColumnTotal" xml:space="preserve">
-    <value>% van kolomtotaal</value>
-  </data>
-  <data name="PivotFieldList_PercentageOfDifferenceFrom" xml:space="preserve">
-    <value>% verschil van</value>
-  </data>
-  <data name="PivotFieldList_PercentageOfGrandTotal" xml:space="preserve">
-    <value>% van eindtotaal</value>
-  </data>
-  <data name="PivotFieldList_PercentageOfParentColumnTotal" xml:space="preserve">
-    <value>% van bovenliggend kolomtotaal</value>
-  </data>
-  <data name="PivotFieldList_PercentageOfParentRowTotal" xml:space="preserve">
-    <value>% van bovenliggende rijtotaal</value>
-  </data>
-  <data name="PivotFieldList_PercentageOfParentTotal" xml:space="preserve">
-    <value>% ouder totaal</value>
-  </data>
-  <data name="PivotFieldList_PercentageOfRowTotal" xml:space="preserve">
-    <value>% van rij totaal</value>
-  </data>
-  <data name="PivotFieldList_PopulationStDev" xml:space="preserve">
-    <value>Bevolking StDev</value>
-  </data>
-  <data name="PivotFieldList_PopulationVar" xml:space="preserve">
-    <value>Bevolking Var</value>
-  </data>
-  <data name="PivotFieldList_Product" xml:space="preserve">
-    <value>Product</value>
-  </data>
-  <data name="PivotFieldList_Quarters" xml:space="preserve">
-    <value>vertrekken</value>
-  </data>
-  <data name="PivotFieldList_QuarterYear" xml:space="preserve">
-    <value>Kwartaaljaar</value>
-  </data>
-  <data name="PivotFieldList_Remove" xml:space="preserve">
-    <value>Verwijderen</value>
-  </data>
-  <data name="PivotFieldList_RowAxisWatermark" xml:space="preserve">
-    <value>Zet hier een rij neer</value>
-  </data>
-  <data name="PivotFieldList_Rows" xml:space="preserve">
-    <value>Rijen</value>
-  </data>
-  <data name="PivotFieldList_RunningTotals" xml:space="preserve">
-    <value>Lopende totalen</value>
-  </data>
-  <data name="PivotFieldList_SampleStDev" xml:space="preserve">
-    <value>Voorbeeld StDev</value>
-  </data>
-  <data name="PivotFieldList_SampleVar" xml:space="preserve">
-    <value>Voorbeeld Var</value>
-  </data>
-  <data name="PivotFieldList_Search" xml:space="preserve">
-    <value>Zoeken</value>
-  </data>
-  <data name="PivotFieldList_Seconds" xml:space="preserve">
-    <value>Seconden</value>
-  </data>
-  <data name="PivotFieldList_Sort" xml:space="preserve">
-    <value>Soort</value>
-  </data>
-  <data name="PivotFieldList_Standard" xml:space="preserve">
-    <value>Standaard</value>
-  </data>
-  <data name="PivotFieldList_StaticFieldList" xml:space="preserve">
+  <data name="PivotView_StaticFieldList" xml:space="preserve">
     <value>Lijst met draaivelden</value>
   </data>
-  <data name="PivotFieldList_Sum" xml:space="preserve">
-    <value>Som</value>
+  <data name="PivotView_FieldList" xml:space="preserve">
+    <value>Lijst met velden</value>
   </data>
-  <data name="PivotFieldList_Summaries" xml:space="preserve">
-    <value>Samenvattingen waarden door</value>
+  <data name="PivotView_AddFieldMessage" xml:space="preserve">
+    <value>Voeg hier een veld toe</value>
   </data>
-  <data name="PivotFieldList_SummarizeValuesBy" xml:space="preserve">
-    <value>Vat waarden samen door</value>
+  <data name="PivotView_ChooseFieldMessage" xml:space="preserve">
+    <value>Kies veld</value>
   </data>
-  <data name="PivotFieldList_Undefined" xml:space="preserve">
-    <value>ongedefinieerd</value>
+  <data name="PivotView_DragFieldsMessage" xml:space="preserve">
+    <value>Sleep velden tussen onderstaande assen:</value>
   </data>
-  <data name="PivotFieldList_Value" xml:space="preserve">
-    <value>Waarde</value>
+  <data name="PivotView_Add" xml:space="preserve">
+    <value>Toevoegen</value>
   </data>
-  <data name="PivotFieldList_ValueAxisWatermark" xml:space="preserve">
-    <value>Zet hier de waarde neer</value>
+  <data name="PivotView_DeferLayoutUpdate" xml:space="preserve">
+    <value>Update lay-out uitstellen</value>
   </data>
-  <data name="PivotFieldList_ValueFieldSettings" xml:space="preserve">
-    <value>Waarde veldinstellingen</value>
-  </data>
-  <data name="PivotFieldList_Values" xml:space="preserve">
-    <value>Waarden</value>
-  </data>
-  <data name="PivotFieldList_ValueTextMessage" xml:space="preserve">
-    <value>Laat de items zien waarvoor</value>
-  </data>
-  <data name="PivotFieldList_Warning" xml:space="preserve">
-    <value>Waarschuwing</value>
-  </data>
-  <data name="PivotFieldList_Years" xml:space="preserve">
-    <value>Jaren</value>
-  </data>
-  <data name="PivotFieldList_CalculatedField_RemoveMessage" xml:space="preserve">
-    <value>Weet u zeker dat u dit berekende veld wilt verwijderen?</value>
-  </data>
-  <data name="PivotFieldList_Yes" xml:space="preserve">
-    <value>Ja</value>
-  </data>
-  <data name="PivotFieldList_No" xml:space="preserve">
-    <value>Nee</value>
-  </data>
-  <data name="PivotFieldList_Of" xml:space="preserve">
-    <value>van</value>
-  </data>
-  <data name="PivotFieldList_NumberFormat_ExampleWatermark" xml:space="preserve">
-    <value>Voorbeeld: C, P, 0000 %, ###0.##0#, etc.</value>
-  </data>
-  <data name="PivotFieldList_SortNone_TooltipMessage" xml:space="preserve">
-    <value>Gegevensvolgorde sorteren</value>
-  </data>
-  <data name="PivotFieldList_SortAscending_TooltipMessage" xml:space="preserve">
-    <value>Sorteer oplopend</value>
-  </data>
-  <data name="PivotFieldList_SortDescending_TooltipMessage" xml:space="preserve">
-    <value>Aflopende volgorde sorteren</value>
-  </data>
-  <data name="PivotFieldList_CalculatedField_EditTooltipMessage" xml:space="preserve">
-    <value>Bewerk berekend veld</value>
-  </data>
-  <data name="PivotFieldList_CalculatedField_ClearTooltipMessage" xml:space="preserve">
-    <value>Wis veldinformatie bewerken</value>
-  </data>
-  <data name="PivotFieldList_Format" xml:space="preserve">
-    <value>Formaat</value>
+  <data name="PivotView_ShowLegend" xml:space="preserve">
+    <value>Legenda weergeven</value>
+  </data>  
+  <data name="PivotView_FieldCaptionWatermark" xml:space="preserve">
+    <value>Voer het bijschrift van het veld in</value>
+  </data>  
+   <data name="PivotView_SortAscending_TooltipMessage" xml:space="preserve">
+    <value>Sorteer oplopende volgorde</value>
+  </data> 
+  <data name="PivotView_ReplaceReport_BeforeMessage" xml:space="preserve">
+    <value>Een rapport met de naam</value>
+  </data>  
+  <data name="PivotView_ReplaceReport_AfterMessage" xml:space="preserve">
+    <value>bestaat al. Wil je het vervangen?</value>
   </data>
   <data name="PivotView_AddCondition" xml:space="preserve">
     <value>Voorwaarde toevoegen</value>
@@ -1330,7 +940,7 @@
     <value>en</value>
   </data>
   <data name="PivotView_Apply" xml:space="preserve">
-    <value>VAN TOEPASSING ZIJN</value>
+    <value>Van toepassing zijn</value>
   </data>
   <data name="PivotView_Area" xml:space="preserve">
     <value>Oppervlakte</value>
@@ -1631,9 +1241,6 @@
   </data>
   <data name="PivotView_GroupCaptionMessage" xml:space="preserve">
     <value>Voer het bijschrift in dat in de koptekst moet worden weergegeven</value>
-  </data>
-  <data name="PivotView_GroupFieldCaption" xml:space="preserve">
-    <value>Veldbijschrift</value>
   </data>
   <data name="PivotView_GroupFieldCaptionMessage" xml:space="preserve">
     <value>Voer het bijschrift voor groepsveld in</value>
@@ -2034,6 +1641,30 @@
   <data name="PivotView_CalculatedField_ClearTooltipMessage" xml:space="preserve">
     <value>Wis veldinformatie bewerken</value>
   </data>
+  <data name="PivotView_Pie" xml:space="preserve">
+    <value>Taart</value>
+  </data>
+  <data name="PivotView_Pyramid" xml:space="preserve">
+    <value>Piramide</value>
+  </data>
+  <data name="PivotView_Doughnut" xml:space="preserve">
+    <value>Donut</value>
+  </data>
+  <data name="PivotView_Funnel" xml:space="preserve">
+    <value>Trechter</value>
+  </data>
+  <data name="PivotView_Stacked" xml:space="preserve">
+    <value>Gestapeld</value>
+  </data>
+  <data name="PivotView_Grouped" xml:space="preserve">
+    <value>gegroepeerd</value>
+  </data>
+  <data name="PivotView_MultipleAxisMode" xml:space="preserve">
+    <value>Meerdere assen</value>
+  </data>
+  <data name="PivotView_Median" xml:space="preserve">
+    <value>Mediaan</value>
+  </data>
   <data name="QueryBuilder_AddCondition" xml:space="preserve">
     <value>Voorwaarde toevoegen</value>
   </data>
@@ -2186,6 +1817,87 @@
   </data>
   <data name="Kanban_No" xml:space="preserve">
     <value>Nee</value>
+  </data>
+  <data name="RichTextEditor_NumberFormatListNone" xml:space="preserve">
+    <value> Geen </value>
+  </data>
+  <data name="RichTextEditor_NumberFormatListNumber" xml:space="preserve">
+    <value> Aantal </value>
+  </data>
+  <data name="RichTextEditor_NumberFormatListUpperAlpha" xml:space="preserve">
+    <value> Hogere Alpha </value>
+  </data>
+  <data name="RichTextEditor_NumberFormatListLowerAlpha" xml:space="preserve">
+    <value> Lagere Alpha </value>
+  </data>
+  <data name="RichTextEditor_NumberFormatListUpperRoman" xml:space="preserve">
+    <value> Boven-Romeins </value>
+  </data>
+  <data name="RichTextEditor_NumberFormatListLowerRoman" xml:space="preserve">
+    <value> Lagere Roman </value>
+  </data>
+  <data name="RichTextEditor_NumberFormatListLowerGreek" xml:space="preserve">
+    <value> Lagere Grieks </value>
+  </data>
+  <data name="RichTextEditor_BulletFormatListNone" xml:space="preserve">
+    <value> Geen </value>
+  </data>
+  <data name="RichTextEditor_BulletFormatListCircle" xml:space="preserve">
+    <value> Cirkel </value>
+  </data>
+  <data name="RichTextEditor_BulletFormatListSquare" xml:space="preserve">
+    <value> Plein </value>
+  </data>
+  <data name="RichTextEditor_BulletFormatListDisc" xml:space="preserve">
+    <value> Schijf </value>
+  </data>
+  <data name="RichTextEditor_FormatsDropDownParagraph" xml:space="preserve">
+    <value> Paragraaf </value>
+  </data>
+  <data name="RichTextEditor_FormatsDropDownCode" xml:space="preserve">
+    <value> Code </value>
+  </data>
+  <data name="RichTextEditor_FormatsDropDownQuotation" xml:space="preserve">
+    <value> Citaat </value>
+  </data>
+  <data name="RichTextEditor_FormatsDropDownHeading1" xml:space="preserve">
+    <value> Rubriek 1 </value>
+  </data>
+  <data name="RichTextEditor_FormatsDropDownHeading2" xml:space="preserve">
+    <value> Rubriek 2 </value>
+  </data>
+  <data name="RichTextEditor_FormatsDropDownHeading3" xml:space="preserve">
+    <value> Rubriek 3 </value>
+  </data>
+  <data name="RichTextEditor_FormatsDropDownHeading4" xml:space="preserve">
+    <value> Rubriek  4 </value>
+  </data>
+  <data name="RichTextEditor_FormatsDropDownHeading5" xml:space="preserve">
+    <value> Rubriek  5 </value>
+  </data>
+  <data name="RichTextEditor_FormatsDropDownHeading6" xml:space="preserve">
+    <value> Rubriek   6 </value>
+  </data>
+  <data name="RichTextEditor_FontNameSegoeUI" xml:space="preserve">
+    <value> Segoe gebruikersinterface </value>
+  </data>
+  <data name="RichTextEditor_FontNameArial" xml:space="preserve">
+    <value> Arial </value>
+  </data>
+  <data name="RichTextEditor_FontNameGeorgia" xml:space="preserve">
+    <value> Georgië </value>
+  </data>
+  <data name="RichTextEditor_FontNameImpact" xml:space="preserve">
+    <value> Gevolg </value>
+  </data>
+  <data name="RichTextEditor_FontNameTahoma" xml:space="preserve">
+    <value> Tahoma </value>
+  </data>
+  <data name="RichTextEditor_FontNameTimesNewRoman" xml:space="preserve">
+    <value> Keer nieuw romeinse </value>
+  </data>
+  <data name="RichTextEditor_FontNameVerdana" xml:space="preserve">
+    <value> Verdana </value>
   </data>
   <data name="RichTextEditor_Alignments" xml:space="preserve">
     <value>alignementen</value>
@@ -3650,6 +3362,24 @@
   </data>
   <data name="PdfViewer_ExportFailed" xml:space="preserve">
     <value> Actie annotaties exporteren is mislukt; zorg ervoor dat annotaties correct zijn toegevoegd </value>
+  </data>
+  <data name="PdfViewer_Draw_hand_Signature" xml:space="preserve">
+    <value>TREK</value>
+  </data>
+  <data name="PdfViewer_Type_Signature" xml:space="preserve">
+    <value>TYPE</value>
+  </data>
+  <data name="PdfViewer_Upload_Signature" xml:space="preserve">
+    <value>UPLOADEN</value>
+  </data>
+  <data name="PdfViewer_Browse_Signature_Image" xml:space="preserve">
+    <value>BLADER</value>
+  </data>
+  <data name="PdfViewer_Save_Signature" xml:space="preserve">
+    <value>Handtekening opslaan</value>
+  </data>
+   <data name="PdfViewer_Enter_Signature_as_Name" xml:space="preserve">
+    <value>Vul uw naam in</value>
   </data>
   <data name="DocumentEditor_Table" xml:space="preserve">
     <value>Tafel</value>

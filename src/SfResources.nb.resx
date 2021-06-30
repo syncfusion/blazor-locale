@@ -447,11 +447,17 @@
   <data name="FileManager_ContentDelete" xml:space="preserve">
     <value>Er du sikker på at du vil slette denne filen?</value>
   </data>
+  <data name="FileManager_HeaderFolderDelete" xml:space="preserve">
+    <value>Slett mappe</value>
+  </data>
+  <data name="FileManager_ContentFolderDelete" xml:space="preserve">
+    <value>Er du sikker på at du vil slette denne mappen?</value>
+  </data>
   <data name="FileManager_HeaderMultipleDelete" xml:space="preserve">
-    <value>Slette flere filer</value>
+    <value>Slett flere elementer</value>
   </data>
   <data name="FileManager_ContentMultipleDelete" xml:space="preserve">
-    <value>Er du sikker på at du vil slette disse {0} filene?</value>
+    <value>Er du sikker på at du vil slette disse {0} elementene?</value>
   </data>
   <data name="FileManager_HeaderDuplicate" xml:space="preserve">
     <value>Fil / mappe finnes</value>
@@ -605,6 +611,12 @@
   </data>
   <data name="Gantt_ConfirmPredecessorDelete" xml:space="preserve">
     <value>Er du sikker på at du vil fjerne avhengighetslinket?</value>
+  </data>
+  <data name="Gantt_Indent" xml:space="preserve">
+    <value>innrykk</value>
+  </data>
+  <data name="Gantt_Outdent" xml:space="preserve">
+    <value>Reduser innrykk</value>
   </data>
   <data name="Gantt_Convert" xml:space="preserve">
     <value>Konvertere</value>
@@ -843,452 +855,50 @@
   <data name="ListBox_UnSelectAllText" xml:space="preserve">
     <value>Avmarker alt</value>
   </data>
-  <data name="PivotFieldList_Add" xml:space="preserve">
-    <value>Legg til</value>
+  <data name="PivotView_NumberFormat_ExampleWatermark" xml:space="preserve">
+    <value>Eksempel: C, P, 0000%, ### 0. ## 0 #, etc.</value>
   </data>
-  <data name="PivotFieldList_AddFieldMessage" xml:space="preserve">
-    <value>Legg til felt her</value>
+  <data name="PivotView_SortNone_TooltipMessage" xml:space="preserve">
+    <value>Sorter datarekkefølgen</value>
   </data>
-  <data name="PivotFieldList_After" xml:space="preserve">
-    <value>Etter</value>
-  </data>
-  <data name="PivotFieldList_AfterOrEqualTo" xml:space="preserve">
-    <value>Etter eller lik</value>
-  </data>
-  <data name="PivotFieldList_Alert" xml:space="preserve">
-    <value>Varsling</value>
-  </data>
-  <data name="PivotFieldList_All" xml:space="preserve">
-    <value>Alle</value>
-  </data>
-  <data name="PivotFieldList_AllFields" xml:space="preserve">
-    <value>Alle felt</value>
-  </data>
-  <data name="PivotFieldList_And" xml:space="preserve">
-    <value>og</value>
-  </data>
-  <data name="PivotFieldList_Apply" xml:space="preserve">
-    <value>SØKE OM</value>
-  </data>
-  <data name="PivotFieldList_Avg" xml:space="preserve">
-    <value>Gjennomsnittlig</value>
-  </data>
-  <data name="PivotFieldList_BaseField" xml:space="preserve">
-    <value>Grunnfelt</value>
-  </data>
-  <data name="PivotFieldList_BaseItem" xml:space="preserve">
-    <value>Grunnvare</value>
-  </data>
-  <data name="PivotFieldList_Before" xml:space="preserve">
-    <value>Før</value>
-  </data>
-  <data name="PivotFieldList_BeforeOrEqualTo" xml:space="preserve">
-    <value>Før eller lik</value>
-  </data>
-  <data name="PivotFieldList_BeginWith" xml:space="preserve">
-    <value>Begynner med</value>
-  </data>
-  <data name="PivotFieldList_Between" xml:space="preserve">
-    <value>Mellom</value>
-  </data>
-  <data name="PivotFieldList_Blank" xml:space="preserve">
-    <value>(Blank)</value>
-  </data>
-  <data name="PivotFieldList_By" xml:space="preserve">
-    <value>av</value>
-  </data>
-  <data name="PivotFieldList_CalculatedField" xml:space="preserve">
-    <value>Beregnet felt</value>
-  </data>
-  <data name="PivotFieldList_CalculatedField_ConfirmMessage" xml:space="preserve">
-    <value>Et beregningsfelt eksisterer allerede i dette navnet. Vil du erstatte det?</value>
-  </data>
-  <data name="PivotFieldList_CalculatedField_DragDropMessage" xml:space="preserve">
-    <value>Dra og slipp felt til formel</value>
-  </data>
-  <data name="PivotFieldList_CalculatedField_DragMessage" xml:space="preserve">
-    <value>Dra felt til formel</value>
-  </data>
-  <data name="PivotFieldList_CalculatedField_DropMessage" xml:space="preserve">
-    <value>Beregnet felt kan ikke være plassert i noe annet område bortsett fra verdiaksen.</value>
-  </data>
-  <data name="PivotFieldList_CalculatedField_ExampleWatermark" xml:space="preserve">
-    <value>Eksempel: ('Sum(Order_Count)' + 'Sum(In_Stock)'') * 250</value>
-  </data>
-  <data name="PivotFieldList_CalculatedField_ExistMessage" xml:space="preserve">
-    <value>Et felt eksisterer allerede i dette navnet. Skriv inn et annet navn.</value>
-  </data>
-  <data name="PivotFieldList_CalculatedField_MobileWatermark" xml:space="preserve">
-    <value>Legg til felt og rediger formel her.</value>
-  </data>
-  <data name="PivotFieldList_CalculatedField_NameWatermark" xml:space="preserve">
-    <value>Skriv inn feltnavnet</value>
-  </data>
-  <data name="PivotFieldList_CalculatedField_OLAPExampleWatermark" xml:space="preserve">
-    <value>Eksempel:[Measures].[Order Quantity] + ([Measures].[Order Quantity] * 0.10)</value>
-  </data>
-  <data name="PivotFieldList_CalculatedField_Tooltip" xml:space="preserve">
-    <value>Dra og slipp felt for å lage et uttrykk. Og hvis du vil redigere de eksisterende kalkulerte feltene! Da kan du oppnå det ved å velge feltet under 'Beregnede medlemmer'.</value>
-  </data>
-  <data name="PivotFieldList_Cancel" xml:space="preserve">
-    <value>Avbryt</value>
-  </data>
-  <data name="PivotFieldList_ChooseFieldMessage" xml:space="preserve">
-    <value>Velg felt</value>
-  </data>
-  <data name="PivotFieldList_Clear" xml:space="preserve">
-    <value>Klar</value>
-  </data>
-  <data name="PivotFieldList_ClearFilter" xml:space="preserve">
-    <value>Klar</value>
-  </data>
-  <data name="PivotFieldList_Close" xml:space="preserve">
-    <value>Lukk</value>
-  </data>
-  <data name="PivotFieldList_ColumnAxisWatermark" xml:space="preserve">
-    <value>Slipp kolonne her</value>
-  </data>
-  <data name="PivotFieldList_Columns" xml:space="preserve">
-    <value>kolonner</value>
-  </data>
-  <data name="PivotFieldList_Contains" xml:space="preserve">
-    <value>inneholder</value>
-  </data>
-  <data name="PivotFieldList_Copy" xml:space="preserve">
-    <value>Kopiere</value>
-  </data>
-  <data name="PivotFieldList_Count" xml:space="preserve">
-    <value>Telle</value>
-  </data>
-  <data name="PivotFieldList_CreateCalculatedField" xml:space="preserve">
-    <value>Lag beregnet felt</value>
-  </data>
-  <data name="PivotFieldList_Currency" xml:space="preserve">
-    <value>Valuta</value>
-  </data>
-  <data name="PivotFieldList_Custom" xml:space="preserve">
-    <value>Tilpasset</value>
-  </data>
-  <data name="PivotFieldList_CustomFormat" xml:space="preserve">
-    <value>Skriv inn tilpasset formatstreng</value>
-  </data>
-  <data name="PivotFieldList_Date" xml:space="preserve">
-    <value>Dato</value>
-  </data>
-  <data name="PivotFieldList_DateTextMessage" xml:space="preserve">
-    <value>Vis elementene som datoen for</value>
-  </data>
-  <data name="PivotFieldList_Days" xml:space="preserve">
-    <value>Dager</value>
-  </data>
-  <data name="PivotFieldList_DeferLayoutUpdate" xml:space="preserve">
-    <value>Utsett oppdatering</value>
-  </data>
-  <data name="PivotFieldList_Delete" xml:space="preserve">
-    <value>Slett</value>
-  </data>
-  <data name="PivotFieldList_DifferenceFrom" xml:space="preserve">
-    <value>Forskjell fra</value>
-  </data>
-  <data name="PivotFieldList_Dimension" xml:space="preserve">
-    <value>Dimensjon</value>
-  </data>
-  <data name="PivotFieldList_DistinctCount" xml:space="preserve">
-    <value>Distinkt greve</value>
-  </data>
-  <data name="PivotFieldList_DoesNotBeginWith" xml:space="preserve">
-    <value>Begynner ikke med</value>
-  </data>
-  <data name="PivotFieldList_DoesNotContains" xml:space="preserve">
-    <value>Inneholder ikke</value>
-  </data>
-  <data name="PivotFieldList_DoesNotEndsWith" xml:space="preserve">
-    <value>Slutter ikke med</value>
-  </data>
-  <data name="PivotFieldList_DoesNotEquals" xml:space="preserve">
-    <value>Er ikke lik</value>
-  </data>
-  <data name="PivotFieldList_Drag" xml:space="preserve">
-    <value>Dra</value>
-  </data>
-  <data name="PivotFieldList_DragFieldsMessage" xml:space="preserve">
-    <value>Dra felt mellom aksene nedenfor:</value>
-  </data>
-  <data name="PivotFieldList_Edit" xml:space="preserve">
-    <value>Redigere</value>
-  </data>
-  <data name="PivotFieldList_EndsWith" xml:space="preserve">
-    <value>Slutter med</value>
-  </data>
-  <data name="PivotFieldList_EnterDate" xml:space="preserve">
-    <value>Angi dato</value>
-  </data>
-  <data name="PivotFieldList_EnterValue" xml:space="preserve">
-    <value>Angi verdi</value>
-  </data>
-  <data name="PivotFieldList_Equals" xml:space="preserve">
-    <value>Er lik</value>
-  </data>
-  <data name="PivotFieldList_Error" xml:space="preserve">
-    <value>Feil</value>
-  </data>
-  <data name="PivotFieldList_Example" xml:space="preserve">
-    <value>f.eks:</value>
-  </data>
-  <data name="PivotFieldList_Expression" xml:space="preserve">
-    <value>Uttrykk</value>
-  </data>
-  <data name="PivotFieldList_FieldCaption" xml:space="preserve">
-    <value>Felttekst</value>
-  </data>
-  <data name="PivotFieldList_FieldCaptionMessage" xml:space="preserve">
-    <value>Felttekst</value>
-  </data>
-  <data name="PivotFieldList_FieldDropErrorMessage" xml:space="preserve">
-    <value>Feltet du flytter kan ikke plasseres i det området av rapporten</value>
-  </data>
-  <data name="PivotFieldList_FieldList" xml:space="preserve">
-    <value>Feltliste</value>
-  </data>
-  <data name="PivotFieldList_FieldName" xml:space="preserve">
-    <value>Feltnavn</value>
-  </data>
-  <data name="PivotFieldList_FieldNameMessage" xml:space="preserve">
-    <value>Feltnavn :</value>
-  </data>
-  <data name="PivotFieldList_FieldType" xml:space="preserve">
-    <value>Feltype</value>
-  </data>
-  <data name="PivotFieldList_Filter" xml:space="preserve">
-    <value>Filter</value>
-  </data>
-  <data name="PivotFieldList_FilterAxisWatermark" xml:space="preserve">
-    <value>Slipp filteret her</value>
-  </data>
-  <data name="PivotFieldList_Filtered" xml:space="preserve">
-    <value>filtrert</value>
-  </data>
-  <data name="PivotFieldList_Filters" xml:space="preserve">
-    <value>filtre</value>
-  </data>
-  <data name="PivotFieldList_FormatString" xml:space="preserve">
-    <value>Formatstreng</value>
-  </data>
-  <data name="PivotFieldList_Formula" xml:space="preserve">
-    <value>Formel</value>
-  </data>
-  <data name="PivotFieldList_GreaterThan" xml:space="preserve">
-    <value>Større enn</value>
-  </data>
-  <data name="PivotFieldList_GreaterThanOrEqualTo" xml:space="preserve">
-    <value>Større enn eller lik</value>
-  </data>
-  <data name="PivotFieldList_Group" xml:space="preserve">
-    <value>Gruppe</value>
-  </data>
-  <data name="PivotFieldList_Hours" xml:space="preserve">
-    <value>timer</value>
-  </data>
-  <data name="PivotFieldList_Index" xml:space="preserve">
-    <value>Hovedsiden</value>
-  </data>
-  <data name="PivotFieldList_InvalidFormula" xml:space="preserve">
-    <value>Ugyldig formel.</value>
-  </data>
-  <data name="PivotFieldList_Label" xml:space="preserve">
-    <value>Merkelapp</value>
-  </data>
-  <data name="PivotFieldList_LabelTextMessage" xml:space="preserve">
-    <value>Vis varene etiketten brukes til</value>
-  </data>
-  <data name="PivotFieldList_LessThan" xml:space="preserve">
-    <value>Mindre enn</value>
-  </data>
-  <data name="PivotFieldList_LessThanOrEqualTo" xml:space="preserve">
-    <value>Mindre enn eller lik</value>
-  </data>
-  <data name="PivotFieldList_Max" xml:space="preserve">
-    <value>Max</value>
-  </data>
-  <data name="PivotFieldList_Measure" xml:space="preserve">
-    <value>Måle</value>
-  </data>
-  <data name="PivotFieldList_Member" xml:space="preserve">
-    <value>Medlem</value>
-  </data>
-  <data name="PivotFieldList_MemberLimitMessage" xml:space="preserve">
-    <value>flere varer. Søk for å avgrense ytterligere.</value>
-  </data>
-  <data name="PivotFieldList_Min" xml:space="preserve">
-    <value>min</value>
-  </data>
-  <data name="PivotFieldList_Minutes" xml:space="preserve">
-    <value>Minutter</value>
-  </data>
-  <data name="PivotFieldList_Months" xml:space="preserve">
-    <value>Måneder</value>
-  </data>
-  <data name="PivotFieldList_MoreOption" xml:space="preserve">
-    <value>Mer...</value>
-  </data>
-  <data name="PivotFieldList_MultipleItems" xml:space="preserve">
-    <value>Flere elementer</value>
-  </data>
-  <data name="PivotFieldList_NoMatchesMessage" xml:space="preserve">
-    <value>Ingen treff</value>
-  </data>
-  <data name="PivotFieldList_NotBetween" xml:space="preserve">
-    <value>Ikke mellom</value>
-  </data>
-  <data name="PivotFieldList_Null" xml:space="preserve">
-    <value>null</value>
-  </data>
-  <data name="PivotFieldList_OK" xml:space="preserve">
-    <value>OK</value>
-  </data>
-  <data name="PivotFieldList_OutOfRange" xml:space="preserve">
-    <value>Ute av rekkevidde</value>
-  </data>
-  <data name="PivotFieldList_ParentHierarchy" xml:space="preserve">
-    <value>Foreldrehierarki</value>
-  </data>
-  <data name="PivotFieldList_Percent" xml:space="preserve">
-    <value>prosent</value>
-  </data>
-  <data name="PivotFieldList_PercentageOfColumnTotal" xml:space="preserve">
-    <value>% av kolonnen totalt</value>
-  </data>
-  <data name="PivotFieldList_PercentageOfDifferenceFrom" xml:space="preserve">
-    <value>% av forskjellen fra</value>
-  </data>
-  <data name="PivotFieldList_PercentageOfGrandTotal" xml:space="preserve">
-    <value>% av Grand Total</value>
-  </data>
-  <data name="PivotFieldList_PercentageOfParentColumnTotal" xml:space="preserve">
-    <value>% av foreldrekolonnen totalt</value>
-  </data>
-  <data name="PivotFieldList_PercentageOfParentRowTotal" xml:space="preserve">
-    <value>% av foreldrerad totalt</value>
-  </data>
-  <data name="PivotFieldList_PercentageOfParentTotal" xml:space="preserve">
-    <value>% av foreldrene totalt</value>
-  </data>
-  <data name="PivotFieldList_PercentageOfRowTotal" xml:space="preserve">
-    <value>% av rad totalt</value>
-  </data>
-  <data name="PivotFieldList_PopulationStDev" xml:space="preserve">
-    <value>Befolkning StDev</value>
-  </data>
-  <data name="PivotFieldList_PopulationVar" xml:space="preserve">
-    <value>Befolkning Var</value>
-  </data>
-  <data name="PivotFieldList_Product" xml:space="preserve">
-    <value>Produkt</value>
-  </data>
-  <data name="PivotFieldList_Quarters" xml:space="preserve">
-    <value>Quarters</value>
-  </data>
-  <data name="PivotFieldList_QuarterYear" xml:space="preserve">
-    <value>Kvart år</value>
-  </data>
-  <data name="PivotFieldList_Remove" xml:space="preserve">
-    <value>Ta bort</value>
-  </data>
-  <data name="PivotFieldList_RowAxisWatermark" xml:space="preserve">
-    <value>Slipp raden her</value>
-  </data>
-  <data name="PivotFieldList_Rows" xml:space="preserve">
-    <value>rader</value>
-  </data>
-  <data name="PivotFieldList_RunningTotals" xml:space="preserve">
-    <value>Løper totaler</value>
-  </data>
-  <data name="PivotFieldList_SampleStDev" xml:space="preserve">
-    <value>Eksempel på StDev</value>
-  </data>
-  <data name="PivotFieldList_SampleVar" xml:space="preserve">
-    <value>Eksempel Var</value>
-  </data>
-  <data name="PivotFieldList_Search" xml:space="preserve">
-    <value>Søk</value>
-  </data>
-  <data name="PivotFieldList_Seconds" xml:space="preserve">
-    <value>sekunder</value>
-  </data>
-  <data name="PivotFieldList_Sort" xml:space="preserve">
-    <value>Sortere</value>
-  </data>
-  <data name="PivotFieldList_Standard" xml:space="preserve">
-    <value>Standard</value>
-  </data>
-  <data name="PivotFieldList_StaticFieldList" xml:space="preserve">
-    <value>Pivot feltliste</value>
-  </data>
-  <data name="PivotFieldList_Sum" xml:space="preserve">
-    <value>Sum</value>
-  </data>
-  <data name="PivotFieldList_Summaries" xml:space="preserve">
-    <value>Oppsummerer verdier etter</value>
-  </data>
-  <data name="PivotFieldList_SummarizeValuesBy" xml:space="preserve">
-    <value>Oppsummer verdier etter</value>
-  </data>
-  <data name="PivotFieldList_Undefined" xml:space="preserve">
-    <value>udefinert</value>
-  </data>
-  <data name="PivotFieldList_Value" xml:space="preserve">
-    <value>Verdi</value>
-  </data>
-  <data name="PivotFieldList_ValueAxisWatermark" xml:space="preserve">
-    <value>Slipp verdi her</value>
-  </data>
-  <data name="PivotFieldList_ValueFieldSettings" xml:space="preserve">
-    <value>Innstillinger for verdi felt</value>
-  </data>
-  <data name="PivotFieldList_Values" xml:space="preserve">
-    <value>verdier</value>
-  </data>
-  <data name="PivotFieldList_ValueTextMessage" xml:space="preserve">
-    <value>Vis varene som</value>
-  </data>
-  <data name="PivotFieldList_Warning" xml:space="preserve">
-    <value>Advarsel</value>
-  </data>
-  <data name="PivotFieldList_Years" xml:space="preserve">
-    <value>år</value>
-  </data>
-  <data name="PivotFieldList_CalculatedField_RemoveMessage" xml:space="preserve">
-    <value>Er du sikker på at du vil slette dette kalkulerte feltet?</value>
-  </data>
-  <data name="PivotFieldList_Yes" xml:space="preserve">
-    <value>Ja</value>
-  </data>
-  <data name="PivotFieldList_No" xml:space="preserve">
-    <value>Nei</value>
-  </data>
-  <data name="PivotFieldList_Of" xml:space="preserve">
-    <value>av</value>
-  </data>
-  <data name="PivotFieldList_NumberFormat_ExampleWatermark" xml:space="preserve">
-    <value>Eksempel: C, P, 0000 %, ###0.##0#, etc.</value>
-  </data>
-  <data name="PivotFieldList_SortNone_TooltipMessage" xml:space="preserve">
-    <value>Sorter datarekkefølge</value>
-  </data>
-  <data name="PivotFieldList_SortAscending_TooltipMessage" xml:space="preserve">
-    <value>Sorter stigende rekkefølge</value>
-  </data>
-  <data name="PivotFieldList_SortDescending_TooltipMessage" xml:space="preserve">
+  <data name="PivotView_SortDescending_TooltipMessage" xml:space="preserve">
     <value>Sorter synkende rekkefølge</value>
   </data>
-  <data name="PivotFieldList_CalculatedField_EditTooltipMessage" xml:space="preserve">
-    <value>Rediger beregnet felt</value>
+  <data name="PivotView_StaticFieldList" xml:space="preserve">
+    <value>Pivot feltliste</value>
   </data>
-  <data name="PivotFieldList_CalculatedField_ClearTooltipMessage" xml:space="preserve">
-    <value>Tøm redigert feltinfo</value>
+  <data name="PivotView_FieldList" xml:space="preserve">
+    <value>Feltliste</value>
   </data>
-  <data name="PivotFieldList_Format" xml:space="preserve">
-    <value>Format</value>
+  <data name="PivotView_AddFieldMessage" xml:space="preserve">
+    <value>Legg til felt her</value>
+  </data>
+  <data name="PivotView_ChooseFieldMessage" xml:space="preserve">
+    <value>Velg felt</value>
+  </data>
+  <data name="PivotView_DragFieldsMessage" xml:space="preserve">
+    <value>Dra felt mellom aksene nedenfor:</value>
+  </data>
+  <data name="PivotView_Add" xml:space="preserve">
+    <value>Legge til</value>
+  </data>
+  <data name="PivotView_DeferLayoutUpdate" xml:space="preserve">
+    <value>Utsett Layoutoppdatering</value>
+  </data>
+  <data name="PivotView_ShowLegend" xml:space="preserve">
+    <value>Vis legende</value>
+  </data>  
+  <data name="PivotView_FieldCaptionWatermark" xml:space="preserve">
+    <value>Skriv inn feltteksten</value>
+  </data>  
+   <data name="PivotView_SortAscending_TooltipMessage" xml:space="preserve">
+    <value>Sorter stigende rekkefølge</value>
+  </data> 
+  <data name="PivotView_ReplaceReport_BeforeMessage" xml:space="preserve">
+    <value>En rapport som heter</value>
+  </data>  
+  <data name="PivotView_ReplaceReport_AfterMessage" xml:space="preserve">
+    <value>eksisterer allerede. Vil du erstatte den?</value>
   </data>
   <data name="PivotView_AddCondition" xml:space="preserve">
     <value>Legg til betingelse</value>
@@ -1330,7 +940,7 @@
     <value>og</value>
   </data>
   <data name="PivotView_Apply" xml:space="preserve">
-    <value>SØKE OM</value>
+    <value>Søke om</value>
   </data>
   <data name="PivotView_Area" xml:space="preserve">
     <value>Område</value>
@@ -1631,9 +1241,6 @@
   </data>
   <data name="PivotView_GroupCaptionMessage" xml:space="preserve">
     <value>Skriv inn bildeteksten som skal vises i overskriften</value>
-  </data>
-  <data name="PivotView_GroupFieldCaption" xml:space="preserve">
-    <value>Felttekst</value>
   </data>
   <data name="PivotView_GroupFieldCaptionMessage" xml:space="preserve">
     <value>Skriv inn bildeteksten for gruppefeltet</value>
@@ -2034,6 +1641,30 @@
   <data name="PivotView_CalculatedField_ClearTooltipMessage" xml:space="preserve">
     <value>Tøm redigert feltinfo</value>
   </data>
+  <data name="PivotView_Pie" xml:space="preserve">
+    <value>Pai</value>
+  </data>
+  <data name="PivotView_Pyramid" xml:space="preserve">
+    <value>Pyramide</value>
+  </data>
+  <data name="PivotView_Doughnut" xml:space="preserve">
+    <value>Smultring</value>
+  </data>
+  <data name="PivotView_Funnel" xml:space="preserve">
+    <value>Trakt</value>
+  </data>
+  <data name="PivotView_Stacked" xml:space="preserve">
+    <value>Stablet</value>
+  </data>
+  <data name="PivotView_Grouped" xml:space="preserve">
+    <value>Gruppert</value>
+  </data>
+  <data name="PivotView_MultipleAxisMode" xml:space="preserve">
+    <value>Flere akse-modus</value>
+  </data>
+  <data name="PivotView_Median" xml:space="preserve">
+    <value>Median</value>
+  </data>
   <data name="QueryBuilder_AddCondition" xml:space="preserve">
     <value>Legg til betingelse</value>
   </data>
@@ -2186,6 +1817,87 @@
   </data>
   <data name="Kanban_No" xml:space="preserve">
     <value>Nei</value>
+  </data>
+  <data name="RichTextEditor_NumberFormatListNone" xml:space="preserve">
+    <value> Ingen </value>
+  </data>
+  <data name="RichTextEditor_NumberFormatListNumber" xml:space="preserve">
+    <value> Nummer </value>
+  </data>
+  <data name="RichTextEditor_NumberFormatListUpperAlpha" xml:space="preserve">
+    <value> Øvre Alpha </value>
+  </data>
+  <data name="RichTextEditor_NumberFormatListLowerAlpha" xml:space="preserve">
+    <value> Lavere Alpha </value>
+  </data>
+  <data name="RichTextEditor_NumberFormatListUpperRoman" xml:space="preserve">
+    <value> Øvre romerske </value>
+  </data>
+  <data name="RichTextEditor_NumberFormatListLowerRoman" xml:space="preserve">
+    <value> Nedre romersk </value>
+  </data>
+  <data name="RichTextEditor_NumberFormatListLowerGreek" xml:space="preserve">
+    <value> Nedre gresk </value>
+  </data>
+  <data name="RichTextEditor_BulletFormatListNone" xml:space="preserve">
+    <value> Ingen </value>
+  </data>
+  <data name="RichTextEditor_BulletFormatListCircle" xml:space="preserve">
+    <value> Sirkel </value>
+  </data>
+  <data name="RichTextEditor_BulletFormatListSquare" xml:space="preserve">
+    <value> Torget </value>
+  </data>
+  <data name="RichTextEditor_BulletFormatListDisc" xml:space="preserve">
+    <value> Plate </value>
+  </data>
+  <data name="RichTextEditor_FormatsDropDownParagraph" xml:space="preserve">
+    <value> Avsnitt </value>
+  </data>
+  <data name="RichTextEditor_FormatsDropDownCode" xml:space="preserve">
+    <value> Kode </value>
+  </data>
+  <data name="RichTextEditor_FormatsDropDownQuotation" xml:space="preserve">
+    <value> Sitat </value>
+  </data>
+  <data name="RichTextEditor_FormatsDropDownHeading1" xml:space="preserve">
+    <value> Overskrift 1 </value>
+  </data>
+  <data name="RichTextEditor_FormatsDropDownHeading2" xml:space="preserve">
+    <value> Overskrift 2 </value>
+  </data>
+  <data name="RichTextEditor_FormatsDropDownHeading3" xml:space="preserve">
+    <value> Overskrift 3 </value>
+  </data>
+  <data name="RichTextEditor_FormatsDropDownHeading4" xml:space="preserve">
+    <value> Overskrift  4 </value>
+  </data>
+  <data name="RichTextEditor_FormatsDropDownHeading5" xml:space="preserve">
+    <value> Overskrift  5 </value>
+  </data>
+  <data name="RichTextEditor_FormatsDropDownHeading6" xml:space="preserve">
+    <value> Overskrift   6 </value>
+  </data>
+  <data name="RichTextEditor_FontNameSegoeUI" xml:space="preserve">
+    <value> Segoe UI </value>
+  </data>
+  <data name="RichTextEditor_FontNameArial" xml:space="preserve">
+    <value> Arial </value>
+  </data>
+  <data name="RichTextEditor_FontNameGeorgia" xml:space="preserve">
+    <value> Georgia </value>
+  </data>
+  <data name="RichTextEditor_FontNameImpact" xml:space="preserve">
+    <value> Innvirkning </value>
+  </data>
+  <data name="RichTextEditor_FontNameTahoma" xml:space="preserve">
+    <value> Tahoma </value>
+  </data>
+  <data name="RichTextEditor_FontNameTimesNewRoman" xml:space="preserve">
+    <value> Ganger nye romersk </value>
+  </data>
+  <data name="RichTextEditor_FontNameVerdana" xml:space="preserve">
+    <value> Verdana </value>
   </data>
   <data name="RichTextEditor_Alignments" xml:space="preserve">
     <value>justeringer</value>
@@ -3650,6 +3362,24 @@
   </data>
   <data name="PdfViewer_ExportFailed" xml:space="preserve">
     <value> Handlingen for eksport-merknader mislyktes; Vennligst sørg for at merknader legges riktig </value>
+  </data>
+  <data name="PdfViewer_Draw_hand_Signature" xml:space="preserve">
+    <value>TEGNE</value>
+  </data>
+  <data name="PdfViewer_Type_Signature" xml:space="preserve">
+    <value>TYPE</value>
+  </data>
+  <data name="PdfViewer_Upload_Signature" xml:space="preserve">
+    <value>LASTE OPP</value>
+  </data>
+  <data name="PdfViewer_Browse_Signature_Image" xml:space="preserve">
+    <value>BLIKK</value>
+  </data>
+  <data name="PdfViewer_Save_Signature" xml:space="preserve">
+    <value>Lagre signatur</value>
+  </data>
+   <data name="PdfViewer_Enter_Signature_as_Name" xml:space="preserve">
+    <value>Skriv inn navnet ditt</value>
   </data>
   <data name="DocumentEditor_Table" xml:space="preserve">
     <value>Bord</value>

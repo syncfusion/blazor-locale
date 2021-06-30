@@ -447,11 +447,17 @@
   <data name="FileManager_ContentDelete" xml:space="preserve">
     <value>Tem certeza de que deseja excluir este arquivo?</value>
   </data>
+  <data name="FileManager_HeaderFolderDelete" xml:space="preserve">
+    <value>Excluir pasta</value>
+  </data>
+  <data name="FileManager_ContentFolderDelete" xml:space="preserve">
+    <value>Tem certeza de que deseja excluir esta pasta?</value>
+  </data>
   <data name="FileManager_HeaderMultipleDelete" xml:space="preserve">
-    <value>Excluir vários arquivos</value>
+    <value>Excluir vários itens</value>
   </data>
   <data name="FileManager_ContentMultipleDelete" xml:space="preserve">
-    <value>Tem certeza de que deseja excluir esses {0} arquivos?</value>
+    <value>Tem certeza de que deseja excluir esses {0} itens?</value>
   </data>
   <data name="FileManager_HeaderDuplicate" xml:space="preserve">
     <value>O arquivo / pasta existe</value>
@@ -605,6 +611,12 @@
   </data>
   <data name="Gantt_ConfirmPredecessorDelete" xml:space="preserve">
     <value>Tem certeza de que deseja remover o link de dependência?</value>
+  </data>
+  <data name="Gantt_Indent" xml:space="preserve">
+    <value>Recuar</value>
+  </data>
+  <data name="Gantt_Outdent" xml:space="preserve">
+    <value>Outdent</value>
   </data>
   <data name="Gantt_Convert" xml:space="preserve">
     <value>Converter</value>
@@ -843,452 +855,50 @@
   <data name="ListBox_UnSelectAllText" xml:space="preserve">
     <value>Desmarque todos</value>
   </data>
-  <data name="PivotFieldList_Add" xml:space="preserve">
-    <value>adicionar</value>
+  <data name="PivotView_NumberFormat_ExampleWatermark" xml:space="preserve">
+    <value>Exemplo: C, P, 0000%, ### 0. ## 0 #, etc.</value>
   </data>
-  <data name="PivotFieldList_AddFieldMessage" xml:space="preserve">
+  <data name="PivotView_SortNone_TooltipMessage" xml:space="preserve">
+    <value>Classificar ordem de dados</value>
+  </data>
+  <data name="PivotView_SortDescending_TooltipMessage" xml:space="preserve">
+    <value>Classificar em ordem decrescente</value>
+  </data>
+  <data name="PivotView_StaticFieldList" xml:space="preserve">
+    <value>Lista de Campos Dinâmicos</value>
+  </data>
+  <data name="PivotView_FieldList" xml:space="preserve">
+    <value>Lista de Campos</value>
+  </data>
+  <data name="PivotView_AddFieldMessage" xml:space="preserve">
     <value>Adicionar campo aqui</value>
   </data>
-  <data name="PivotFieldList_After" xml:space="preserve">
-    <value>Depois de</value>
-  </data>
-  <data name="PivotFieldList_AfterOrEqualTo" xml:space="preserve">
-    <value>Depois ou igual a</value>
-  </data>
-  <data name="PivotFieldList_Alert" xml:space="preserve">
-    <value>Alerta</value>
-  </data>
-  <data name="PivotFieldList_All" xml:space="preserve">
-    <value>Tudos</value>
-  </data>
-  <data name="PivotFieldList_AllFields" xml:space="preserve">
-    <value>Todos os campos</value>
-  </data>
-  <data name="PivotFieldList_And" xml:space="preserve">
-    <value>e</value>
-  </data>
-  <data name="PivotFieldList_Apply" xml:space="preserve">
-    <value>APLIQUE</value>
-  </data>
-  <data name="PivotFieldList_Avg" xml:space="preserve">
-    <value>Média</value>
-  </data>
-  <data name="PivotFieldList_BaseField" xml:space="preserve">
-    <value>Campo base</value>
-  </data>
-  <data name="PivotFieldList_BaseItem" xml:space="preserve">
-    <value>Item base</value>
-  </data>
-  <data name="PivotFieldList_Before" xml:space="preserve">
-    <value>Antes</value>
-  </data>
-  <data name="PivotFieldList_BeforeOrEqualTo" xml:space="preserve">
-    <value>Antes ou igual a</value>
-  </data>
-  <data name="PivotFieldList_BeginWith" xml:space="preserve">
-    <value>Começa com</value>
-  </data>
-  <data name="PivotFieldList_Between" xml:space="preserve">
-    <value>Entre</value>
-  </data>
-  <data name="PivotFieldList_Blank" xml:space="preserve">
-    <value>(Em branco)</value>
-  </data>
-  <data name="PivotFieldList_By" xml:space="preserve">
-    <value>por</value>
-  </data>
-  <data name="PivotFieldList_CalculatedField" xml:space="preserve">
-    <value>Campo calculado</value>
-  </data>
-  <data name="PivotFieldList_CalculatedField_ConfirmMessage" xml:space="preserve">
-    <value>Um campo de cálculo já existe neste nome. Quer substituir?</value>
-  </data>
-  <data name="PivotFieldList_CalculatedField_DragDropMessage" xml:space="preserve">
-    <value>Arraste e solte campos para a fórmula</value>
-  </data>
-  <data name="PivotFieldList_CalculatedField_DragMessage" xml:space="preserve">
-    <value>Drag field to formulaArraste o campo para a fórmula</value>
-  </data>
-  <data name="PivotFieldList_CalculatedField_DropMessage" xml:space="preserve">
-    <value>O campo calculado não pode ser colocado em nenhuma outra região, exceto no eixo do valor.</value>
-  </data>
-  <data name="PivotFieldList_CalculatedField_ExampleWatermark" xml:space="preserve">
-    <value>Exemplo: ('Sum(Order_Count)' + 'Sum(In_Stock)'') * 250</value>
-  </data>
-  <data name="PivotFieldList_CalculatedField_ExistMessage" xml:space="preserve">
-    <value>Um campo já existe neste nome. Digite um nome diferente.</value>
-  </data>
-  <data name="PivotFieldList_CalculatedField_MobileWatermark" xml:space="preserve">
-    <value>Adicione campos e edite a fórmula aqui.</value>
-  </data>
-  <data name="PivotFieldList_CalculatedField_NameWatermark" xml:space="preserve">
-    <value>Digite o nome do campo</value>
-  </data>
-  <data name="PivotFieldList_CalculatedField_OLAPExampleWatermark" xml:space="preserve">
-    <value>Exemplo: [Measures].[Order Quantity] + ([Measures].[Order Quantity] * 0.10)</value>
-  </data>
-  <data name="PivotFieldList_CalculatedField_Tooltip" xml:space="preserve">
-    <value>Arraste e solte campos para criar uma expressão. E, se você deseja editar os campos calculados existentes! Você pode conseguir isso simplesmente selecionando o campo em 'Membros calculados'.</value>
-  </data>
-  <data name="PivotFieldList_Cancel" xml:space="preserve">
-    <value>Cancelar</value>
-  </data>
-  <data name="PivotFieldList_ChooseFieldMessage" xml:space="preserve">
+  <data name="PivotView_ChooseFieldMessage" xml:space="preserve">
     <value>Escolha o campo</value>
   </data>
-  <data name="PivotFieldList_Clear" xml:space="preserve">
-    <value>Claro</value>
-  </data>
-  <data name="PivotFieldList_ClearFilter" xml:space="preserve">
-    <value>Claro</value>
-  </data>
-  <data name="PivotFieldList_Close" xml:space="preserve">
-    <value>Fechar</value>
-  </data>
-  <data name="PivotFieldList_ColumnAxisWatermark" xml:space="preserve">
-    <value>Solte a coluna aqui</value>
-  </data>
-  <data name="PivotFieldList_Columns" xml:space="preserve">
-    <value>Colunas</value>
-  </data>
-  <data name="PivotFieldList_Contains" xml:space="preserve">
-    <value>Contém</value>
-  </data>
-  <data name="PivotFieldList_Copy" xml:space="preserve">
-    <value>cópia de</value>
-  </data>
-  <data name="PivotFieldList_Count" xml:space="preserve">
-    <value>Contagem</value>
-  </data>
-  <data name="PivotFieldList_CreateCalculatedField" xml:space="preserve">
-    <value>Criar campo calculado</value>
-  </data>
-  <data name="PivotFieldList_Currency" xml:space="preserve">
-    <value>Moeda</value>
-  </data>
-  <data name="PivotFieldList_Custom" xml:space="preserve">
-    <value>Personalizados</value>
-  </data>
-  <data name="PivotFieldList_CustomFormat" xml:space="preserve">
-    <value>Digite a string de formato personalizado</value>
-  </data>
-  <data name="PivotFieldList_Date" xml:space="preserve">
-    <value>Encontro</value>
-  </data>
-  <data name="PivotFieldList_DateTextMessage" xml:space="preserve">
-    <value>Mostrar os itens para os quais a data</value>
-  </data>
-  <data name="PivotFieldList_Days" xml:space="preserve">
-    <value>Dias</value>
-  </data>
-  <data name="PivotFieldList_DeferLayoutUpdate" xml:space="preserve">
-    <value>Adiar atualização de layout</value>
-  </data>
-  <data name="PivotFieldList_Delete" xml:space="preserve">
-    <value>Excluir</value>
-  </data>
-  <data name="PivotFieldList_DifferenceFrom" xml:space="preserve">
-    <value>Diferença de</value>
-  </data>
-  <data name="PivotFieldList_Dimension" xml:space="preserve">
-    <value>Dimensão</value>
-  </data>
-  <data name="PivotFieldList_DistinctCount" xml:space="preserve">
-    <value>Contagem Distinta</value>
-  </data>
-  <data name="PivotFieldList_DoesNotBeginWith" xml:space="preserve">
-    <value>Não começa com</value>
-  </data>
-  <data name="PivotFieldList_DoesNotContains" xml:space="preserve">
-    <value>Não contém</value>
-  </data>
-  <data name="PivotFieldList_DoesNotEndsWith" xml:space="preserve">
-    <value>Não termina com</value>
-  </data>
-  <data name="PivotFieldList_DoesNotEquals" xml:space="preserve">
-    <value>Não é igual</value>
-  </data>
-  <data name="PivotFieldList_Drag" xml:space="preserve">
-    <value>Arrasto</value>
-  </data>
-  <data name="PivotFieldList_DragFieldsMessage" xml:space="preserve">
+  <data name="PivotView_DragFieldsMessage" xml:space="preserve">
     <value>Arraste os campos entre os eixos abaixo:</value>
   </data>
-  <data name="PivotFieldList_Edit" xml:space="preserve">
-    <value>Editar</value>
-  </data>
-  <data name="PivotFieldList_EndsWith" xml:space="preserve">
-    <value>Termina com</value>
-  </data>
-  <data name="PivotFieldList_EnterDate" xml:space="preserve">
-    <value>Digite a data</value>
-  </data>
-  <data name="PivotFieldList_EnterValue" xml:space="preserve">
-    <value>Digite o valor</value>
-  </data>
-  <data name="PivotFieldList_Equals" xml:space="preserve">
-    <value>É igual a</value>
-  </data>
-  <data name="PivotFieldList_Error" xml:space="preserve">
-    <value>Erro</value>
-  </data>
-  <data name="PivotFieldList_Example" xml:space="preserve">
-    <value>por exemplo:</value>
-  </data>
-  <data name="PivotFieldList_Expression" xml:space="preserve">
-    <value>Expressão</value>
-  </data>
-  <data name="PivotFieldList_FieldCaption" xml:space="preserve">
-    <value>Legenda do campo</value>
-  </data>
-  <data name="PivotFieldList_FieldCaptionMessage" xml:space="preserve">
-    <value>Legenda do campo</value>
-  </data>
-  <data name="PivotFieldList_FieldDropErrorMessage" xml:space="preserve">
-    <value>O campo que você está movendo não pode ser colocado nessa área do relatório</value>
-  </data>
-  <data name="PivotFieldList_FieldList" xml:space="preserve">
-    <value>Lista de campos</value>
-  </data>
-  <data name="PivotFieldList_FieldName" xml:space="preserve">
-    <value>Nome do campo</value>
-  </data>
-  <data name="PivotFieldList_FieldNameMessage" xml:space="preserve">
-    <value>Nome do campo:</value>
-  </data>
-  <data name="PivotFieldList_FieldType" xml:space="preserve">
-    <value>Tipo de campo</value>
-  </data>
-  <data name="PivotFieldList_Filter" xml:space="preserve">
-    <value>Filtro</value>
-  </data>
-  <data name="PivotFieldList_FilterAxisWatermark" xml:space="preserve">
-    <value>Largue o filtro aqui</value>
-  </data>
-  <data name="PivotFieldList_Filtered" xml:space="preserve">
-    <value>Filtrado</value>
-  </data>
-  <data name="PivotFieldList_Filters" xml:space="preserve">
-    <value>Filtros</value>
-  </data>
-  <data name="PivotFieldList_FormatString" xml:space="preserve">
-    <value>Formatar sequência</value>
-  </data>
-  <data name="PivotFieldList_Formula" xml:space="preserve">
-    <value>Fórmula</value>
-  </data>
-  <data name="PivotFieldList_GreaterThan" xml:space="preserve">
-    <value>Maior que</value>
-  </data>
-  <data name="PivotFieldList_GreaterThanOrEqualTo" xml:space="preserve">
-    <value>Melhor que ou igual a</value>
-  </data>
-  <data name="PivotFieldList_Group" xml:space="preserve">
-    <value>Grupo</value>
-  </data>
-  <data name="PivotFieldList_Hours" xml:space="preserve">
-    <value>Horas</value>
-  </data>
-  <data name="PivotFieldList_Index" xml:space="preserve">
-    <value>Índice</value>
-  </data>
-  <data name="PivotFieldList_InvalidFormula" xml:space="preserve">
-    <value>Fórmula inválida.</value>
-  </data>
-  <data name="PivotFieldList_Label" xml:space="preserve">
-    <value>Rótulo</value>
-  </data>
-  <data name="PivotFieldList_LabelTextMessage" xml:space="preserve">
-    <value>Mostrar os itens para os quais o rótulo</value>
-  </data>
-  <data name="PivotFieldList_LessThan" xml:space="preserve">
-    <value>Menor que</value>
-  </data>
-  <data name="PivotFieldList_LessThanOrEqualTo" xml:space="preserve">
-    <value>Menos que ou igual a</value>
-  </data>
-  <data name="PivotFieldList_Max" xml:space="preserve">
-    <value>Máx.</value>
-  </data>
-  <data name="PivotFieldList_Measure" xml:space="preserve">
-    <value>A medida</value>
-  </data>
-  <data name="PivotFieldList_Member" xml:space="preserve">
-    <value>Membro</value>
-  </data>
-  <data name="PivotFieldList_MemberLimitMessage" xml:space="preserve">
-    <value>mais itens. Procure refinar ainda mais.</value>
-  </data>
-  <data name="PivotFieldList_Min" xml:space="preserve">
-    <value>Mín.</value>
-  </data>
-  <data name="PivotFieldList_Minutes" xml:space="preserve">
-    <value>Minutos</value>
-  </data>
-  <data name="PivotFieldList_Months" xml:space="preserve">
-    <value>Meses</value>
-  </data>
-  <data name="PivotFieldList_MoreOption" xml:space="preserve">
-    <value>Mais...</value>
-  </data>
-  <data name="PivotFieldList_MultipleItems" xml:space="preserve">
-    <value>Vários itens</value>
-  </data>
-  <data name="PivotFieldList_NoMatchesMessage" xml:space="preserve">
-    <value>Sem combinações</value>
-  </data>
-  <data name="PivotFieldList_NotBetween" xml:space="preserve">
-    <value>Não entre</value>
-  </data>
-  <data name="PivotFieldList_Null" xml:space="preserve">
-    <value>nulo</value>
-  </data>
-  <data name="PivotFieldList_OK" xml:space="preserve">
-    <value>Está bem</value>
-  </data>
-  <data name="PivotFieldList_OutOfRange" xml:space="preserve">
-    <value>Fora de alcance</value>
-  </data>
-  <data name="PivotFieldList_ParentHierarchy" xml:space="preserve">
-    <value>Hierarquia pai</value>
-  </data>
-  <data name="PivotFieldList_Percent" xml:space="preserve">
-    <value>Por cento</value>
-  </data>
-  <data name="PivotFieldList_PercentageOfColumnTotal" xml:space="preserve">
-    <value>% do total da coluna</value>
-  </data>
-  <data name="PivotFieldList_PercentageOfDifferenceFrom" xml:space="preserve">
-    <value>% de diferença de</value>
-  </data>
-  <data name="PivotFieldList_PercentageOfGrandTotal" xml:space="preserve">
-    <value>% do total geral</value>
-  </data>
-  <data name="PivotFieldList_PercentageOfParentColumnTotal" xml:space="preserve">
-    <value>% do total da coluna pai</value>
-  </data>
-  <data name="PivotFieldList_PercentageOfParentRowTotal" xml:space="preserve">
-    <value>% do total da linha pai</value>
-  </data>
-  <data name="PivotFieldList_PercentageOfParentTotal" xml:space="preserve">
-    <value>% do total pai</value>
-  </data>
-  <data name="PivotFieldList_PercentageOfRowTotal" xml:space="preserve">
-    <value>% do total da linha</value>
-  </data>
-  <data name="PivotFieldList_PopulationStDev" xml:space="preserve">
-    <value>População StDev</value>
-  </data>
-  <data name="PivotFieldList_PopulationVar" xml:space="preserve">
-    <value>População Var</value>
-  </data>
-  <data name="PivotFieldList_Product" xml:space="preserve">
-    <value>produtos</value>
-  </data>
-  <data name="PivotFieldList_Quarters" xml:space="preserve">
-    <value>Quartos</value>
-  </data>
-  <data name="PivotFieldList_QuarterYear" xml:space="preserve">
-    <value>Trimestre do ano</value>
-  </data>
-  <data name="PivotFieldList_Remove" xml:space="preserve">
-    <value>Remover</value>
-  </data>
-  <data name="PivotFieldList_RowAxisWatermark" xml:space="preserve">
-    <value>Soltar linha aqui</value>
-  </data>
-  <data name="PivotFieldList_Rows" xml:space="preserve">
-    <value>Linhas</value>
-  </data>
-  <data name="PivotFieldList_RunningTotals" xml:space="preserve">
-    <value>Totais em Execução</value>
-  </data>
-  <data name="PivotFieldList_SampleStDev" xml:space="preserve">
-    <value>Amostra StDev</value>
-  </data>
-  <data name="PivotFieldList_SampleVar" xml:space="preserve">
-    <value>Amostra Var</value>
-  </data>
-  <data name="PivotFieldList_Search" xml:space="preserve">
-    <value>Procurar</value>
-  </data>
-  <data name="PivotFieldList_Seconds" xml:space="preserve">
-    <value>Segundos</value>
-  </data>
-  <data name="PivotFieldList_Sort" xml:space="preserve">
-    <value>Ordenar</value>
-  </data>
-  <data name="PivotFieldList_Standard" xml:space="preserve">
-    <value>Padrão</value>
-  </data>
-  <data name="PivotFieldList_StaticFieldList" xml:space="preserve">
-    <value>Lista de campos dinâmicos</value>
-  </data>
-  <data name="PivotFieldList_Sum" xml:space="preserve">
-    <value>Soma</value>
-  </data>
-  <data name="PivotFieldList_Summaries" xml:space="preserve">
-    <value>Resume os valores por</value>
-  </data>
-  <data name="PivotFieldList_SummarizeValuesBy" xml:space="preserve">
-    <value>Resuma valores por</value>
-  </data>
-  <data name="PivotFieldList_Undefined" xml:space="preserve">
-    <value>indefinido</value>
-  </data>
-  <data name="PivotFieldList_Value" xml:space="preserve">
-    <value>Valor</value>
-  </data>
-  <data name="PivotFieldList_ValueAxisWatermark" xml:space="preserve">
-    <value>Solte o valor aqui</value>
-  </data>
-  <data name="PivotFieldList_ValueFieldSettings" xml:space="preserve">
-    <value>Configurações do campo Valor</value>
-  </data>
-  <data name="PivotFieldList_Values" xml:space="preserve">
-    <value>Valores</value>
-  </data>
-  <data name="PivotFieldList_ValueTextMessage" xml:space="preserve">
-    <value>Mostrar os itens para os quais</value>
-  </data>
-  <data name="PivotFieldList_Warning" xml:space="preserve">
-    <value>Atenção</value>
-  </data>
-  <data name="PivotFieldList_Years" xml:space="preserve">
-    <value>Anos</value>
-  </data>
-  <data name="PivotFieldList_CalculatedField_RemoveMessage" xml:space="preserve">
-    <value>Tem certeza de que deseja excluir este campo calculado?</value>
-  </data>
-  <data name="PivotFieldList_Yes" xml:space="preserve">
-    <value>sim</value>
-  </data>
-  <data name="PivotFieldList_No" xml:space="preserve">
-    <value>Não</value>
-  </data>
-  <data name="PivotFieldList_Of" xml:space="preserve">
-    <value>do</value>
-  </data>
-  <data name="PivotFieldList_NumberFormat_ExampleWatermark" xml:space="preserve">
-    <value>Exemplo: C, P, 0000 %, ###0.##0#, etc.</value>
-  </data>
-  <data name="PivotFieldList_SortNone_TooltipMessage" xml:space="preserve">
-    <value>Classificar ordem dos dados</value>
-  </data>
-  <data name="PivotFieldList_SortAscending_TooltipMessage" xml:space="preserve">
-    <value>Classificar ordem crescente</value>
-  </data>
-  <data name="PivotFieldList_SortDescending_TooltipMessage" xml:space="preserve">
-    <value>Classificar ordem decrescente</value>
-  </data>
-  <data name="PivotFieldList_CalculatedField_EditTooltipMessage" xml:space="preserve">
-    <value>Editar campo calculado</value>
-  </data>
-  <data name="PivotFieldList_CalculatedField_ClearTooltipMessage" xml:space="preserve">
-    <value>Limpar informações do campo editado</value>
-  </data>
-  <data name="PivotFieldList_Format" xml:space="preserve">
-    <value>Formato</value>
+  <data name="PivotView_Add" xml:space="preserve">
+    <value>Adicionar</value>
+  </data>
+  <data name="PivotView_DeferLayoutUpdate" xml:space="preserve">
+    <value>Adiar atualização de layout</value>
+  </data>
+  <data name="PivotView_ShowLegend" xml:space="preserve">
+    <value>Mostrar legenda</value>
+  </data>  
+  <data name="PivotView_FieldCaptionWatermark" xml:space="preserve">
+    <value>Insira a legenda do campo</value>
+  </data>  
+   <data name="PivotView_SortAscending_TooltipMessage" xml:space="preserve">
+    <value>Classificar em ordem crescente</value>
+  </data> 
+  <data name="PivotView_ReplaceReport_BeforeMessage" xml:space="preserve">
+    <value>Um relatório chamado</value>
+  </data>  
+  <data name="PivotView_ReplaceReport_AfterMessage" xml:space="preserve">
+    <value>já existe. Quer substituir?</value>
   </data>
   <data name="PivotView_AddCondition" xml:space="preserve">
     <value>Adicionar condição</value>
@@ -1330,7 +940,7 @@
     <value>e</value>
   </data>
   <data name="PivotView_Apply" xml:space="preserve">
-    <value>APLIQUE</value>
+    <value>Aplicar</value>
   </data>
   <data name="PivotView_Area" xml:space="preserve">
     <value>Área</value>
@@ -1631,9 +1241,6 @@
   </data>
   <data name="PivotView_GroupCaptionMessage" xml:space="preserve">
     <value>Digite a legenda para exibir no cabeçalho</value>
-  </data>
-  <data name="PivotView_GroupFieldCaption" xml:space="preserve">
-    <value>Legenda do campo</value>
   </data>
   <data name="PivotView_GroupFieldCaptionMessage" xml:space="preserve">
     <value>Digite a legenda para o campo do grupo</value>
@@ -1966,7 +1573,7 @@
     <value>Anos</value>
   </data>
   <data name="PivotView_MultipleAxes" xml:space="preserve">
-    <value>Múltiplos eixos</value>
+    <value>Eixo Múltiplo</value>
   </data>
   <data name="PivotView_ChartTypeSettings" xml:space="preserve">
     <value>Configurações de tipo de gráfico</value>
@@ -2033,6 +1640,30 @@
   </data>
   <data name="PivotView_CalculatedField_ClearTooltipMessage" xml:space="preserve">
     <value>Limpar informações do campo editado</value>
+  </data>
+  <data name="PivotView_Pie" xml:space="preserve">
+    <value>Torta</value>
+  </data>
+  <data name="PivotView_Pyramid" xml:space="preserve">
+    <value>Pirâmide</value>
+  </data>
+  <data name="PivotView_Doughnut" xml:space="preserve">
+    <value>Rosquinha</value>
+  </data>
+  <data name="PivotView_Funnel" xml:space="preserve">
+    <value>Funil</value>
+  </data>
+  <data name="PivotView_Stacked" xml:space="preserve">
+    <value>Empilhado</value>
+  </data>
+  <data name="PivotView_Grouped" xml:space="preserve">
+    <value>Agrupado</value>
+  </data>
+  <data name="PivotView_MultipleAxisMode" xml:space="preserve">
+    <value>Modo de eixo múltiplo</value>
+  </data>
+  <data name="PivotView_Median" xml:space="preserve">
+    <value>Mediana</value>
   </data>
   <data name="QueryBuilder_AddCondition" xml:space="preserve">
     <value>Adicionar condição</value>
@@ -2186,6 +1817,87 @@
   </data>
   <data name="Kanban_No" xml:space="preserve">
     <value>Não</value>
+  </data>
+  <data name="RichTextEditor_NumberFormatListNone" xml:space="preserve">
+    <value> Nenhum </value>
+  </data>
+  <data name="RichTextEditor_NumberFormatListNumber" xml:space="preserve">
+    <value> Número </value>
+  </data>
+  <data name="RichTextEditor_NumberFormatListUpperAlpha" xml:space="preserve">
+    <value> Alfa Superior </value>
+  </data>
+  <data name="RichTextEditor_NumberFormatListLowerAlpha" xml:space="preserve">
+    <value> Alfa Inferior </value>
+  </data>
+  <data name="RichTextEditor_NumberFormatListUpperRoman" xml:space="preserve">
+    <value> Romano superior </value>
+  </data>
+  <data name="RichTextEditor_NumberFormatListLowerRoman" xml:space="preserve">
+    <value> Romano Inferior </value>
+  </data>
+  <data name="RichTextEditor_NumberFormatListLowerGreek" xml:space="preserve">
+    <value> Grego inferior </value>
+  </data>
+  <data name="RichTextEditor_BulletFormatListNone" xml:space="preserve">
+    <value> Nenhum </value>
+  </data>
+  <data name="RichTextEditor_BulletFormatListCircle" xml:space="preserve">
+    <value> Círculo </value>
+  </data>
+  <data name="RichTextEditor_BulletFormatListSquare" xml:space="preserve">
+    <value> Quadrada </value>
+  </data>
+  <data name="RichTextEditor_BulletFormatListDisc" xml:space="preserve">
+    <value> Disco </value>
+  </data>
+  <data name="RichTextEditor_FormatsDropDownParagraph" xml:space="preserve">
+    <value> Parágrafo </value>
+  </data>
+  <data name="RichTextEditor_FormatsDropDownCode" xml:space="preserve">
+    <value> Código </value>
+  </data>
+  <data name="RichTextEditor_FormatsDropDownQuotation" xml:space="preserve">
+    <value> cotação </value>
+  </data>
+  <data name="RichTextEditor_FormatsDropDownHeading1" xml:space="preserve">
+    <value> Cabeçalho 1 </value>
+  </data>
+  <data name="RichTextEditor_FormatsDropDownHeading2" xml:space="preserve">
+    <value> Cabeçalho 2 </value>
+  </data>
+  <data name="RichTextEditor_FormatsDropDownHeading3" xml:space="preserve">
+    <value> Cabeçalho 3 </value>
+  </data>
+  <data name="RichTextEditor_FormatsDropDownHeading4" xml:space="preserve">
+    <value> Cabeçalho  4 </value>
+  </data>
+  <data name="RichTextEditor_FormatsDropDownHeading5" xml:space="preserve">
+    <value> Cabeçalho  5 </value>
+  </data>
+  <data name="RichTextEditor_FormatsDropDownHeading6" xml:space="preserve">
+    <value> Cabeçalho   6 </value>
+  </data>
+  <data name="RichTextEditor_FontNameSegoeUI" xml:space="preserve">
+    <value> Segoe UI </value>
+  </data>
+  <data name="RichTextEditor_FontNameArial" xml:space="preserve">
+    <value> Arial </value>
+  </data>
+  <data name="RichTextEditor_FontNameGeorgia" xml:space="preserve">
+    <value> Geórgia </value>
+  </data>
+  <data name="RichTextEditor_FontNameImpact" xml:space="preserve">
+    <value> Impacto </value>
+  </data>
+  <data name="RichTextEditor_FontNameTahoma" xml:space="preserve">
+    <value> Tahoma </value>
+  </data>
+  <data name="RichTextEditor_FontNameTimesNewRoman" xml:space="preserve">
+    <value> Tempos novos romana </value>
+  </data>
+  <data name="RichTextEditor_FontNameVerdana" xml:space="preserve">
+    <value> Verdana </value>
   </data>
   <data name="RichTextEditor_Alignments" xml:space="preserve">
     <value>Alinhamentos</value>
@@ -3650,6 +3362,24 @@
   </data>
   <data name="PdfViewer_ExportFailed" xml:space="preserve">
     <value> A ação de anotações de exportação falhou; verifique se as anotações foram adicionadas corretamente </value>
+  </data>
+  <data name="PdfViewer_Draw_hand_Signature" xml:space="preserve">
+    <value>DESENHAR</value>
+  </data>
+  <data name="PdfViewer_Type_Signature" xml:space="preserve">
+    <value>MODELO</value>
+  </data>
+  <data name="PdfViewer_Upload_Signature" xml:space="preserve">
+    <value>ENVIO</value>
+  </data>
+  <data name="PdfViewer_Browse_Signature_Image" xml:space="preserve">
+    <value>SQUEAKY TOY</value>
+  </data>
+  <data name="PdfViewer_Save_Signature" xml:space="preserve">
+    <value>Salvar assinatura</value>
+  </data>
+   <data name="PdfViewer_Enter_Signature_as_Name" xml:space="preserve">
+    <value>Digite seu nome</value>
   </data>
   <data name="DocumentEditor_Table" xml:space="preserve">
     <value>Mesa</value>

@@ -444,11 +444,17 @@
   <data name="FileManager_ContentDelete" xml:space="preserve">
     <value>Sigur doriți să ștergeți acest fișier?</value>
   </data>
+  <data name="FileManager_HeaderFolderDelete" xml:space="preserve">
+    <value>Ștergeți folderul</value>
+  </data>
+  <data name="FileManager_ContentFolderDelete" xml:space="preserve">
+    <value>Sigur doriți să ștergeți acest folder?</value>
+  </data>
   <data name="FileManager_HeaderMultipleDelete" xml:space="preserve">
-    <value>Ștergeți mai multe fișiere</value>
+    <value>Ștergeți mai multe elemente</value>
   </data>
   <data name="FileManager_ContentMultipleDelete" xml:space="preserve">
-    <value>Sigur doriți să ștergeți aceste fișiere {0}?</value>
+    <value>Sigur doriți să ștergeți aceste {0} elemente?</value>
   </data>
   <data name="FileManager_HeaderDuplicate" xml:space="preserve">
     <value>Există fișier / dosar</value>
@@ -602,6 +608,12 @@
   </data>
   <data name="Gantt_ConfirmPredecessorDelete" xml:space="preserve">
     <value>Sigur doriți să eliminați linkul de dependență?</value>
+  </data>
+  <data name="Gantt_Indent" xml:space="preserve">
+    <value>Indentați</value>
+  </data>
+  <data name="Gantt_Outdent" xml:space="preserve">
+    <value>fără indentare</value>
   </data>
   <data name="Gantt_Convert" xml:space="preserve">
     <value>Convertit</value>
@@ -840,452 +852,50 @@
   <data name="ListBox_UnSelectAllText" xml:space="preserve">
     <value>Deselectează tot</value>
   </data>
-  <data name="PivotFieldList_Add" xml:space="preserve">
-    <value>adăuga</value>
+  <data name="PivotView_NumberFormat_ExampleWatermark" xml:space="preserve">
+    <value>Exemplu: C, P, 0000%, ### 0. ## 0 # etc.</value>
   </data>
-  <data name="PivotFieldList_AddFieldMessage" xml:space="preserve">
-    <value>Adaugă câmpul aici</value>
+  <data name="PivotView_SortNone_TooltipMessage" xml:space="preserve">
+    <value>Sortați ordinea datelor</value>
   </data>
-  <data name="PivotFieldList_After" xml:space="preserve">
-    <value>După</value>
+  <data name="PivotView_SortDescending_TooltipMessage" xml:space="preserve">
+    <value>Sortați ordinea descrescătoare</value>
   </data>
-  <data name="PivotFieldList_AfterOrEqualTo" xml:space="preserve">
-    <value>După sau egal cu</value>
-  </data>
-  <data name="PivotFieldList_Alert" xml:space="preserve">
-    <value>Alerta</value>
-  </data>
-  <data name="PivotFieldList_All" xml:space="preserve">
-    <value>Toate</value>
-  </data>
-  <data name="PivotFieldList_AllFields" xml:space="preserve">
-    <value>Toate câmpurile</value>
-  </data>
-  <data name="PivotFieldList_And" xml:space="preserve">
-    <value>și</value>
-  </data>
-  <data name="PivotFieldList_Apply" xml:space="preserve">
-    <value>APLICA</value>
-  </data>
-  <data name="PivotFieldList_Avg" xml:space="preserve">
-    <value>Medie</value>
-  </data>
-  <data name="PivotFieldList_BaseField" xml:space="preserve">
-    <value>Câmp de bază</value>
-  </data>
-  <data name="PivotFieldList_BaseItem" xml:space="preserve">
-    <value>Element de bază</value>
-  </data>
-  <data name="PivotFieldList_Before" xml:space="preserve">
-    <value>Inainte de</value>
-  </data>
-  <data name="PivotFieldList_BeforeOrEqualTo" xml:space="preserve">
-    <value>Înainte sau egal cu</value>
-  </data>
-  <data name="PivotFieldList_BeginWith" xml:space="preserve">
-    <value>Începe cu</value>
-  </data>
-  <data name="PivotFieldList_Between" xml:space="preserve">
-    <value>Între</value>
-  </data>
-  <data name="PivotFieldList_Blank" xml:space="preserve">
-    <value>(Gol)</value>
-  </data>
-  <data name="PivotFieldList_By" xml:space="preserve">
-    <value>de</value>
-  </data>
-  <data name="PivotFieldList_CalculatedField" xml:space="preserve">
-    <value>Câmpul calculat</value>
-  </data>
-  <data name="PivotFieldList_CalculatedField_ConfirmMessage" xml:space="preserve">
-    <value>Un câmp de calcul există deja în acest nume. Vrei sa o inlocuiesti?</value>
-  </data>
-  <data name="PivotFieldList_CalculatedField_DragDropMessage" xml:space="preserve">
-    <value>Trageți și plasați câmpurile în formulă</value>
-  </data>
-  <data name="PivotFieldList_CalculatedField_DragMessage" xml:space="preserve">
-    <value>Trageți câmpul către formulă</value>
-  </data>
-  <data name="PivotFieldList_CalculatedField_DropMessage" xml:space="preserve">
-    <value>Câmpul calculat nu poate fi plasat în nicio altă regiune, cu excepția axei valorice.</value>
-  </data>
-  <data name="PivotFieldList_CalculatedField_ExampleWatermark" xml:space="preserve">
-    <value>Exemplu: ('Sum(Order_Count)' + 'Sum(In_Stock)'') * 250</value>
-  </data>
-  <data name="PivotFieldList_CalculatedField_ExistMessage" xml:space="preserve">
-    <value>Un câmp există deja în acest nume. Vă rugăm să introduceți un alt nume.</value>
-  </data>
-  <data name="PivotFieldList_CalculatedField_MobileWatermark" xml:space="preserve">
-    <value>Adăugați câmpuri și modificați formula aici.</value>
-  </data>
-  <data name="PivotFieldList_CalculatedField_NameWatermark" xml:space="preserve">
-    <value>Introduceți numele câmpului</value>
-  </data>
-  <data name="PivotFieldList_CalculatedField_OLAPExampleWatermark" xml:space="preserve">
-    <value>Exemplu: [Measures].[Order Quantity] + ([Measures].[Order Quantity] * 0.10)</value>
-  </data>
-  <data name="PivotFieldList_CalculatedField_Tooltip" xml:space="preserve">
-    <value>Trageți și plasați câmpurile pentru a crea o expresie. Și, dacă doriți să editați câmpurile existente, calculate! Puteți obține prin simpla selectare a câmpului în 'Membrii calculați'.</value>
-  </data>
-  <data name="PivotFieldList_Cancel" xml:space="preserve">
-    <value>Anulare</value>
-  </data>
-  <data name="PivotFieldList_ChooseFieldMessage" xml:space="preserve">
-    <value>Alegeți câmpul</value>
-  </data>
-  <data name="PivotFieldList_Clear" xml:space="preserve">
-    <value>clar</value>
-  </data>
-  <data name="PivotFieldList_ClearFilter" xml:space="preserve">
-    <value>clar</value>
-  </data>
-  <data name="PivotFieldList_Close" xml:space="preserve">
-    <value>Închide</value>
-  </data>
-  <data name="PivotFieldList_ColumnAxisWatermark" xml:space="preserve">
-    <value>Aruncați coloana aici</value>
-  </data>
-  <data name="PivotFieldList_Columns" xml:space="preserve">
-    <value>coloane</value>
-  </data>
-  <data name="PivotFieldList_Contains" xml:space="preserve">
-    <value>Conține</value>
-  </data>
-  <data name="PivotFieldList_Copy" xml:space="preserve">
-    <value>Copie</value>
-  </data>
-  <data name="PivotFieldList_Count" xml:space="preserve">
-    <value>Numara</value>
-  </data>
-  <data name="PivotFieldList_CreateCalculatedField" xml:space="preserve">
-    <value>Creați câmpul calculat</value>
-  </data>
-  <data name="PivotFieldList_Currency" xml:space="preserve">
-    <value>Valută</value>
-  </data>
-  <data name="PivotFieldList_Custom" xml:space="preserve">
-    <value>Personalizat</value>
-  </data>
-  <data name="PivotFieldList_CustomFormat" xml:space="preserve">
-    <value>Introduceți șirul formatului personalizat</value>
-  </data>
-  <data name="PivotFieldList_Date" xml:space="preserve">
-    <value>Data</value>
-  </data>
-  <data name="PivotFieldList_DateTextMessage" xml:space="preserve">
-    <value>Afișați elementele pentru care data</value>
-  </data>
-  <data name="PivotFieldList_Days" xml:space="preserve">
-    <value>zi</value>
-  </data>
-  <data name="PivotFieldList_DeferLayoutUpdate" xml:space="preserve">
-    <value>Amânarea actualizării aspectului</value>
-  </data>
-  <data name="PivotFieldList_Delete" xml:space="preserve">
-    <value>Șterge</value>
-  </data>
-  <data name="PivotFieldList_DifferenceFrom" xml:space="preserve">
-    <value>Diferență de</value>
-  </data>
-  <data name="PivotFieldList_Dimension" xml:space="preserve">
-    <value>Dimensiune</value>
-  </data>
-  <data name="PivotFieldList_DistinctCount" xml:space="preserve">
-    <value>Contele distins</value>
-  </data>
-  <data name="PivotFieldList_DoesNotBeginWith" xml:space="preserve">
-    <value>Nu începe cu</value>
-  </data>
-  <data name="PivotFieldList_DoesNotContains" xml:space="preserve">
-    <value>Nu contine</value>
-  </data>
-  <data name="PivotFieldList_DoesNotEndsWith" xml:space="preserve">
-    <value>Nu se termină</value>
-  </data>
-  <data name="PivotFieldList_DoesNotEquals" xml:space="preserve">
-    <value>Nu este egal</value>
-  </data>
-  <data name="PivotFieldList_Drag" xml:space="preserve">
-    <value>Trage</value>
-  </data>
-  <data name="PivotFieldList_DragFieldsMessage" xml:space="preserve">
-    <value>Trageți câmpurile între axe de mai jos:</value>
-  </data>
-  <data name="PivotFieldList_Edit" xml:space="preserve">
-    <value>Editați | ×</value>
-  </data>
-  <data name="PivotFieldList_EndsWith" xml:space="preserve">
-    <value>Se termină cu</value>
-  </data>
-  <data name="PivotFieldList_EnterDate" xml:space="preserve">
-    <value>Introduceți data</value>
-  </data>
-  <data name="PivotFieldList_EnterValue" xml:space="preserve">
-    <value>Introduceți valoarea</value>
-  </data>
-  <data name="PivotFieldList_Equals" xml:space="preserve">
-    <value>equals</value>
-  </data>
-  <data name="PivotFieldList_Error" xml:space="preserve">
-    <value>Eroare</value>
-  </data>
-  <data name="PivotFieldList_Example" xml:space="preserve">
-    <value>de exemplu:</value>
-  </data>
-  <data name="PivotFieldList_Expression" xml:space="preserve">
-    <value>Expresie</value>
-  </data>
-  <data name="PivotFieldList_FieldCaption" xml:space="preserve">
-    <value>Subtitrare câmp</value>
-  </data>
-  <data name="PivotFieldList_FieldCaptionMessage" xml:space="preserve">
-    <value>Subtitrare câmp</value>
-  </data>
-  <data name="PivotFieldList_FieldDropErrorMessage" xml:space="preserve">
-    <value>Câmpul pe care îl mutați nu poate fi plasat în acea zonă a raportului</value>
-  </data>
-  <data name="PivotFieldList_FieldList" xml:space="preserve">
-    <value>Lista câmpurilor</value>
-  </data>
-  <data name="PivotFieldList_FieldName" xml:space="preserve">
-    <value>Numele domeniului</value>
-  </data>
-  <data name="PivotFieldList_FieldNameMessage" xml:space="preserve">
-    <value>Numele domeniului :</value>
-  </data>
-  <data name="PivotFieldList_FieldType" xml:space="preserve">
-    <value>Tipul câmpului</value>
-  </data>
-  <data name="PivotFieldList_Filter" xml:space="preserve">
-    <value>Filtru</value>
-  </data>
-  <data name="PivotFieldList_FilterAxisWatermark" xml:space="preserve">
-    <value>Aruncați filtrul aici</value>
-  </data>
-  <data name="PivotFieldList_Filtered" xml:space="preserve">
-    <value>Filtrate</value>
-  </data>
-  <data name="PivotFieldList_Filters" xml:space="preserve">
-    <value>Filtre</value>
-  </data>
-  <data name="PivotFieldList_FormatString" xml:space="preserve">
-    <value>Formatează șirul</value>
-  </data>
-  <data name="PivotFieldList_Formula" xml:space="preserve">
-    <value>Formulă</value>
-  </data>
-  <data name="PivotFieldList_GreaterThan" xml:space="preserve">
-    <value>Mai mare ca</value>
-  </data>
-  <data name="PivotFieldList_GreaterThanOrEqualTo" xml:space="preserve">
-    <value>Mai mare decât sau egală cu</value>
-  </data>
-  <data name="PivotFieldList_Group" xml:space="preserve">
-    <value>grup</value>
-  </data>
-  <data name="PivotFieldList_Hours" xml:space="preserve">
-    <value>ore</value>
-  </data>
-  <data name="PivotFieldList_Index" xml:space="preserve">
-    <value>Index</value>
-  </data>
-  <data name="PivotFieldList_InvalidFormula" xml:space="preserve">
-    <value>Formula nevalidă.</value>
-  </data>
-  <data name="PivotFieldList_Label" xml:space="preserve">
-    <value>Eticheta</value>
-  </data>
-  <data name="PivotFieldList_LabelTextMessage" xml:space="preserve">
-    <value>Afișați elementele pentru care eticheta</value>
-  </data>
-  <data name="PivotFieldList_LessThan" xml:space="preserve">
-    <value>Mai puțin decât</value>
-  </data>
-  <data name="PivotFieldList_LessThanOrEqualTo" xml:space="preserve">
-    <value>Mai mic sau egal cu</value>
-  </data>
-  <data name="PivotFieldList_Max" xml:space="preserve">
-    <value>Max</value>
-  </data>
-  <data name="PivotFieldList_Measure" xml:space="preserve">
-    <value>Măsura</value>
-  </data>
-  <data name="PivotFieldList_Member" xml:space="preserve">
-    <value>Membru</value>
-  </data>
-  <data name="PivotFieldList_MemberLimitMessage" xml:space="preserve">
-    <value>mai multe articole. Căutați să perfecționați în continuare.</value>
-  </data>
-  <data name="PivotFieldList_Min" xml:space="preserve">
-    <value>min</value>
-  </data>
-  <data name="PivotFieldList_Minutes" xml:space="preserve">
-    <value>Minute</value>
-  </data>
-  <data name="PivotFieldList_Months" xml:space="preserve">
-    <value>Luni</value>
-  </data>
-  <data name="PivotFieldList_MoreOption" xml:space="preserve">
-    <value>Mai Mult...</value>
-  </data>
-  <data name="PivotFieldList_MultipleItems" xml:space="preserve">
-    <value>Mai multe articole</value>
-  </data>
-  <data name="PivotFieldList_NoMatchesMessage" xml:space="preserve">
-    <value>Nici-o potrivire</value>
-  </data>
-  <data name="PivotFieldList_NotBetween" xml:space="preserve">
-    <value>Nu între</value>
-  </data>
-  <data name="PivotFieldList_Null" xml:space="preserve">
-    <value>nul</value>
-  </data>
-  <data name="PivotFieldList_OK" xml:space="preserve">
-    <value>O.K</value>
-  </data>
-  <data name="PivotFieldList_OutOfRange" xml:space="preserve">
-    <value>În afara razei de acțiune</value>
-  </data>
-  <data name="PivotFieldList_ParentHierarchy" xml:space="preserve">
-    <value>Ierarhia părinților</value>
-  </data>
-  <data name="PivotFieldList_Percent" xml:space="preserve">
-    <value>La sută</value>
-  </data>
-  <data name="PivotFieldList_PercentageOfColumnTotal" xml:space="preserve">
-    <value>% din totalul coloanei</value>
-  </data>
-  <data name="PivotFieldList_PercentageOfDifferenceFrom" xml:space="preserve">
-    <value>% din diferență de</value>
-  </data>
-  <data name="PivotFieldList_PercentageOfGrandTotal" xml:space="preserve">
-    <value>% din totalul mare</value>
-  </data>
-  <data name="PivotFieldList_PercentageOfParentColumnTotal" xml:space="preserve">
-    <value>% din totalul coloanelor părinte</value>
-  </data>
-  <data name="PivotFieldList_PercentageOfParentRowTotal" xml:space="preserve">
-    <value>% din totalul rândului părinților</value>
-  </data>
-  <data name="PivotFieldList_PercentageOfParentTotal" xml:space="preserve">
-    <value>% din totalul părinților</value>
-  </data>
-  <data name="PivotFieldList_PercentageOfRowTotal" xml:space="preserve">
-    <value>% din rândul total</value>
-  </data>
-  <data name="PivotFieldList_PopulationStDev" xml:space="preserve">
-    <value>Populația StDev</value>
-  </data>
-  <data name="PivotFieldList_PopulationVar" xml:space="preserve">
-    <value>Population Var</value>
-  </data>
-  <data name="PivotFieldList_Product" xml:space="preserve">
-    <value>Produs</value>
-  </data>
-  <data name="PivotFieldList_Quarters" xml:space="preserve">
-    <value>Quarters</value>
-  </data>
-  <data name="PivotFieldList_QuarterYear" xml:space="preserve">
-    <value>Anul trimestrial</value>
-  </data>
-  <data name="PivotFieldList_Remove" xml:space="preserve">
-    <value>Elimina</value>
-  </data>
-  <data name="PivotFieldList_RowAxisWatermark" xml:space="preserve">
-    <value>Aruncați rândul aici</value>
-  </data>
-  <data name="PivotFieldList_Rows" xml:space="preserve">
-    <value>rânduri</value>
-  </data>
-  <data name="PivotFieldList_RunningTotals" xml:space="preserve">
-    <value>Totaluri de rulare</value>
-  </data>
-  <data name="PivotFieldList_SampleStDev" xml:space="preserve">
-    <value>Proba StDev</value>
-  </data>
-  <data name="PivotFieldList_SampleVar" xml:space="preserve">
-    <value>Var. Probă</value>
-  </data>
-  <data name="PivotFieldList_Search" xml:space="preserve">
-    <value>Căutare</value>
-  </data>
-  <data name="PivotFieldList_Seconds" xml:space="preserve">
-    <value>secunde</value>
-  </data>
-  <data name="PivotFieldList_Sort" xml:space="preserve">
-    <value>Fel</value>
-  </data>
-  <data name="PivotFieldList_Standard" xml:space="preserve">
-    <value>Standard</value>
-  </data>
-  <data name="PivotFieldList_StaticFieldList" xml:space="preserve">
+  <data name="PivotView_StaticFieldList" xml:space="preserve">
     <value>Lista câmpurilor pivot</value>
   </data>
-  <data name="PivotFieldList_Sum" xml:space="preserve">
-    <value>Sumă</value>
+  <data name="PivotView_FieldList" xml:space="preserve">
+    <value>Lista câmpurilor</value>
   </data>
-  <data name="PivotFieldList_Summaries" xml:space="preserve">
-    <value>Rezumarea valorilor de</value>
+  <data name="PivotView_AddFieldMessage" xml:space="preserve">
+    <value>Adăugați câmp aici</value>
   </data>
-  <data name="PivotFieldList_SummarizeValuesBy" xml:space="preserve">
-    <value>Rezumați valorile după</value>
+  <data name="PivotView_ChooseFieldMessage" xml:space="preserve">
+    <value>Alegeți câmpul</value>
   </data>
-  <data name="PivotFieldList_Undefined" xml:space="preserve">
-    <value>nedefinit</value>
+  <data name="PivotView_DragFieldsMessage" xml:space="preserve">
+    <value>Trageți câmpurile între axe de mai jos:</value>
   </data>
-  <data name="PivotFieldList_Value" xml:space="preserve">
-    <value>Valoare</value>
+  <data name="PivotView_Add" xml:space="preserve">
+    <value>Adăuga</value>
   </data>
-  <data name="PivotFieldList_ValueAxisWatermark" xml:space="preserve">
-    <value>Scade valoarea aici</value>
+  <data name="PivotView_DeferLayoutUpdate" xml:space="preserve">
+    <value>Amânați actualizarea aspectului</value>
   </data>
-  <data name="PivotFieldList_ValueFieldSettings" xml:space="preserve">
-    <value>Scade valoarea aici...</value>
-  </data>
-  <data name="PivotFieldList_Values" xml:space="preserve">
-    <value>valori</value>
-  </data>
-  <data name="PivotFieldList_ValueTextMessage" xml:space="preserve">
-    <value>Afișați elementele pentru care</value>
-  </data>
-  <data name="PivotFieldList_Warning" xml:space="preserve">
-    <value>Avertizare</value>
-  </data>
-  <data name="PivotFieldList_Years" xml:space="preserve">
-    <value>Ani</value>
-  </data>
-  <data name="PivotFieldList_CalculatedField_RemoveMessage" xml:space="preserve">
-    <value>Sigur doriți să ștergeți acest câmp calculat?</value>
-  </data>
-  <data name="PivotFieldList_Yes" xml:space="preserve">
-    <value>da</value>
-  </data>
-  <data name="PivotFieldList_No" xml:space="preserve">
-    <value>Nu</value>
-  </data>
-  <data name="PivotFieldList_Of" xml:space="preserve">
-    <value>de</value>
-  </data>
-  <data name="PivotFieldList_NumberFormat_ExampleWatermark" xml:space="preserve">
-    <value>Exemplu: C, P, 0000 %, ###0.##0#, etc.</value>
-  </data>
-  <data name="PivotFieldList_SortNone_TooltipMessage" xml:space="preserve">
-    <value>Sortare ordine de date</value>
-  </data>
-  <data name="PivotFieldList_SortAscending_TooltipMessage" xml:space="preserve">
-    <value>Sortează ordinea ascendentă</value>
-  </data>
-  <data name="PivotFieldList_SortDescending_TooltipMessage" xml:space="preserve">
-    <value>Sortează ordinea descendentă</value>
-  </data>
-  <data name="PivotFieldList_CalculatedField_EditTooltipMessage" xml:space="preserve">
-    <value>Editați câmpul calculat</value>
-  </data>
-  <data name="PivotFieldList_CalculatedField_ClearTooltipMessage" xml:space="preserve">
-    <value>Ștergeți informațiile câmpului editate</value>
-  </data>
-  <data name="PivotFieldList_Format" xml:space="preserve">
-    <value>Format</value>
+  <data name="PivotView_ShowLegend" xml:space="preserve">
+    <value>Arată Legendă</value>
+  </data>  
+  <data name="PivotView_FieldCaptionWatermark" xml:space="preserve">
+    <value>Introduceți legenda câmpului</value>
+  </data>  
+   <data name="PivotView_SortAscending_TooltipMessage" xml:space="preserve">
+    <value>Sortați ordinea crescătoare</value>
+  </data> 
+  <data name="PivotView_ReplaceReport_BeforeMessage" xml:space="preserve">
+    <value>Un raport numit</value>
+  </data>  
+  <data name="PivotView_ReplaceReport_AfterMessage" xml:space="preserve">
+    <value>deja exista. Vrei sa o inlocuiesti?</value>
   </data>
   <data name="PivotView_AddCondition" xml:space="preserve">
     <value>Adaugă condiție</value>
@@ -1327,7 +937,7 @@
     <value>și</value>
   </data>
   <data name="PivotView_Apply" xml:space="preserve">
-    <value>APLICA</value>
+    <value>aplica</value>
   </data>
   <data name="PivotView_Area" xml:space="preserve">
     <value>Zonă</value>
@@ -1628,9 +1238,6 @@
   </data>
   <data name="PivotView_GroupCaptionMessage" xml:space="preserve">
     <value>Introduceți legendă pentru a fi afișat în antet</value>
-  </data>
-  <data name="PivotView_GroupFieldCaption" xml:space="preserve">
-    <value>Legenda campului</value>
   </data>
   <data name="PivotView_GroupFieldCaptionMessage" xml:space="preserve">
     <value>Introduceți legenda pentru câmpul de grup</value>
@@ -1963,7 +1570,7 @@
     <value>Ani</value>
   </data>
   <data name="PivotView_MultipleAxes" xml:space="preserve">
-    <value>Axe multiple</value>
+    <value>Axa multiplă</value>
   </data>
   <data name="PivotView_ChartTypeSettings" xml:space="preserve">
     <value>Tipul graficului...</value>
@@ -2030,6 +1637,30 @@
   </data>
   <data name="PivotView_CalculatedField_ClearTooltipMessage" xml:space="preserve">
     <value>Ștergeți informațiile câmpului editate</value>
+  </data>
+  <data name="PivotView_Pie" xml:space="preserve">
+    <value>Plăcintă</value>
+  </data>
+  <data name="PivotView_Pyramid" xml:space="preserve">
+    <value>Piramidă</value>
+  </data>
+  <data name="PivotView_Doughnut" xml:space="preserve">
+    <value>Gogoașă</value>
+  </data>
+  <data name="PivotView_Funnel" xml:space="preserve">
+    <value>Pâlnie</value>
+  </data>
+  <data name="PivotView_Stacked" xml:space="preserve">
+    <value>Stivuite</value>
+  </data>
+  <data name="PivotView_Grouped" xml:space="preserve">
+    <value>Grupate</value>
+  </data>
+  <data name="PivotView_MultipleAxisMode" xml:space="preserve">
+    <value>Mod cu mai multe axe</value>
+  </data>
+  <data name="PivotView_Median" xml:space="preserve">
+    <value>Median</value>
   </data>
   <data name="QueryBuilder_AddCondition" xml:space="preserve">
     <value>Adaugă condiție</value>
@@ -2183,6 +1814,87 @@
   </data>
   <data name="Kanban_No" xml:space="preserve">
     <value>Nu</value>
+  </data>
+  <data name="RichTextEditor_NumberFormatListNone" xml:space="preserve">
+    <value> Nici unul </value>
+  </data>
+  <data name="RichTextEditor_NumberFormatListNumber" xml:space="preserve">
+    <value> Număr </value>
+  </data>
+  <data name="RichTextEditor_NumberFormatListUpperAlpha" xml:space="preserve">
+    <value> Alfa Superioară </value>
+  </data>
+  <data name="RichTextEditor_NumberFormatListLowerAlpha" xml:space="preserve">
+    <value> Alfa inferior </value>
+  </data>
+  <data name="RichTextEditor_NumberFormatListUpperRoman" xml:space="preserve">
+    <value> Roman superior </value>
+  </data>
+  <data name="RichTextEditor_NumberFormatListLowerRoman" xml:space="preserve">
+    <value> Roman inferior </value>
+  </data>
+  <data name="RichTextEditor_NumberFormatListLowerGreek" xml:space="preserve">
+    <value> Grecul inferior </value>
+  </data>
+  <data name="RichTextEditor_BulletFormatListNone" xml:space="preserve">
+    <value> Nici unul </value>
+  </data>
+  <data name="RichTextEditor_BulletFormatListCircle" xml:space="preserve">
+    <value> Cerc </value>
+  </data>
+  <data name="RichTextEditor_BulletFormatListSquare" xml:space="preserve">
+    <value> Pătrat </value>
+  </data>
+  <data name="RichTextEditor_BulletFormatListDisc" xml:space="preserve">
+    <value> Disc </value>
+  </data>
+  <data name="RichTextEditor_FormatsDropDownParagraph" xml:space="preserve">
+    <value> Paragraf </value>
+  </data>
+  <data name="RichTextEditor_FormatsDropDownCode" xml:space="preserve">
+    <value> Cod </value>
+  </data>
+  <data name="RichTextEditor_FormatsDropDownQuotation" xml:space="preserve">
+    <value> Citat </value>
+  </data>
+  <data name="RichTextEditor_FormatsDropDownHeading1" xml:space="preserve">
+    <value> Titlu 1 </value>
+  </data>
+  <data name="RichTextEditor_FormatsDropDownHeading2" xml:space="preserve">
+    <value> Titlu 2 </value>
+  </data>
+  <data name="RichTextEditor_FormatsDropDownHeading3" xml:space="preserve">
+    <value> Titlu 3 </value>
+  </data>
+  <data name="RichTextEditor_FormatsDropDownHeading4" xml:space="preserve">
+    <value> Titlu  4 </value>
+  </data>
+  <data name="RichTextEditor_FormatsDropDownHeading5" xml:space="preserve">
+    <value> Titlu  5 </value>
+  </data>
+  <data name="RichTextEditor_FormatsDropDownHeading6" xml:space="preserve">
+    <value> Titlu   6 </value>
+  </data>
+  <data name="RichTextEditor_FontNameSegoeUI" xml:space="preserve">
+    <value> Segoe UI </value>
+  </data>
+  <data name="RichTextEditor_FontNameArial" xml:space="preserve">
+    <value> Arial </value>
+  </data>
+  <data name="RichTextEditor_FontNameGeorgia" xml:space="preserve">
+    <value> Geórgia </value>
+  </data>
+  <data name="RichTextEditor_FontNameImpact" xml:space="preserve">
+    <value> Impact </value>
+  </data>
+  <data name="RichTextEditor_FontNameTahoma" xml:space="preserve">
+    <value> Tahoma </value>
+  </data>
+  <data name="RichTextEditor_FontNameTimesNewRoman" xml:space="preserve">
+    <value> Vremuri noi român </value>
+  </data>
+  <data name="RichTextEditor_FontNameVerdana" xml:space="preserve">
+    <value> Verdana </value>
   </data>
   <data name="RichTextEditor_Alignments" xml:space="preserve">
     <value>aliniamente</value>
@@ -3647,6 +3359,24 @@
   </data>
   <data name="PdfViewer_ExportFailed" xml:space="preserve">
     <value>Acțiunea de adnotare la export a eșuat; Vă rugăm să vă asigurați că adnotările sunt adăugate corect</value>
+  </data>
+  <data name="PdfViewer_Draw_hand_Signature" xml:space="preserve">
+    <value>A DESENA</value>
+  </data>
+  <data name="PdfViewer_Type_Signature" xml:space="preserve">
+    <value>TIP</value>
+  </data>
+  <data name="PdfViewer_Upload_Signature" xml:space="preserve">
+    <value>ÎNCĂRCAȚI</value>
+  </data>
+  <data name="PdfViewer_Browse_Signature_Image" xml:space="preserve">
+    <value>NAVIGA</value>
+  </data>
+  <data name="PdfViewer_Save_Signature" xml:space="preserve">
+    <value>Salvați semnătura</value>
+  </data>
+   <data name="PdfViewer_Enter_Signature_as_Name" xml:space="preserve">
+    <value>Introdu numele tau</value>
   </data>
   <data name="DocumentEditor_Table" xml:space="preserve">
     <value>Masa</value>
