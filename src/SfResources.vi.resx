@@ -181,13 +181,13 @@
     <value>Không có dữ liệu được tìm thấy</value>
   </data>
   <data name="MultiSelect_OverflowCountTemplate" xml:space="preserve">
-    <value>+${tính} thêm ..</value>
+    <value>+${count} khác ..</value>
   </data>
   <data name="MultiSelect_SelectAllText" xml:space="preserve">
     <value>Chọn tất cả</value>
   </data>
   <data name="MultiSelect_TotalCountTemplate" xml:space="preserve">
-    <value>${tính} đã chọn</value>
+    <value>${count} đã được chọn</value>
   </data>
   <data name="MultiSelect_UnSelectAllText" xml:space="preserve">
     <value>Bỏ chọn tất cả</value>
@@ -1060,7 +1060,7 @@
     <value>Ví dụ: [Measures].[Order Quantity] + ([Measures].[Order Quantity] * 0.10)</value>
   </data>
   <data name="PivotView_CalculatedField_Tooltip" xml:space="preserve">
-    <value>Drag and drop fields to create expressions. And, if you want to edit existing calculated fields! You can then achieve it by selecting the field in 'Counted members'.</value>
+    <value>Kéo và thả các trường để tạo biểu thức. Và, nếu bạn muốn chỉnh sửa các trường được tính toán hiện có! Bạn có thể đạt được nó bằng cách chỉ cần chọn trường trong 'Thành viên được Tính toán'.</value>
   </data>
   <data name="PivotView_Cancel" xml:space="preserve">
     <value>Hủy bỏ</value>
@@ -1381,7 +1381,7 @@
     <value>Tạo một báo cáo mới</value>
   </data>
   <data name="PivotView_NewReportConfirmMessage" xml:space="preserve">
-    <value>Bạn muốn lưu các thay đổi để báo cáo?</value>
+    <value>Bạn có muốn lưu các thay đổi cho báo cáo này không?</value>
   </data>
   <data name="PivotView_NoFormatMessage" xml:space="preserve">
     <value>Không tìm thấy định dạng !!!</value>
@@ -1876,85 +1876,85 @@
     <value>Không</value>
   </data>
   <data name="RichTextEditor_NumberFormatListNone" xml:space="preserve">
-    <value> không ai </value>
+    <value>không ai</value>
   </data>
   <data name="RichTextEditor_NumberFormatListNumber" xml:space="preserve">
-    <value> Con số </value>
+    <value>Con số</value>
   </data>
   <data name="RichTextEditor_NumberFormatListUpperAlpha" xml:space="preserve">
-    <value> Alpha trên </value>
+    <value>Alpha trên</value>
   </data>
   <data name="RichTextEditor_NumberFormatListLowerAlpha" xml:space="preserve">
-    <value> Alpha thấp hơn </value>
+    <value>Alpha thấp hơn</value>
   </data>
   <data name="RichTextEditor_NumberFormatListUpperRoman" xml:space="preserve">
-    <value> Thượng La Mã </value>
+    <value>Thượng La Mã</value>
   </data>
   <data name="RichTextEditor_NumberFormatListLowerRoman" xml:space="preserve">
-    <value> Hạ La Mã </value>
+    <value>Hạ La Mã</value>
   </data>
   <data name="RichTextEditor_NumberFormatListLowerGreek" xml:space="preserve">
-    <value> Hạ Hy Lạp </value>
+    <value>Hạ Hy Lạp</value>
   </data>
   <data name="RichTextEditor_BulletFormatListNone" xml:space="preserve">
-    <value> không ai </value>
+    <value>không ai</value>
   </data>
   <data name="RichTextEditor_BulletFormatListCircle" xml:space="preserve">
-    <value> Vòng tròn </value>
+    <value>Vòng tròn</value>
   </data>
   <data name="RichTextEditor_BulletFormatListSquare" xml:space="preserve">
-    <value> Quảng trường </value>
+    <value>Quảng trường</value>
   </data>
   <data name="RichTextEditor_BulletFormatListDisc" xml:space="preserve">
-    <value> Đĩa </value>
+    <value>Đĩa</value>
   </data>
   <data name="RichTextEditor_FormatsDropDownParagraph" xml:space="preserve">
-    <value> Đoạn văn </value>
+    <value>Đoạn văn</value>
   </data>
   <data name="RichTextEditor_FormatsDropDownCode" xml:space="preserve">
-    <value> Mã </value>
+    <value>Mã</value>
   </data>
   <data name="RichTextEditor_FormatsDropDownQuotation" xml:space="preserve">
-    <value> Bảng báo giá </value>
+    <value>Bảng báo giá</value>
   </data>
   <data name="RichTextEditor_FormatsDropDownHeading1" xml:space="preserve">
-    <value> Tiêu đề 1 </value>
+    <value>Tiêu đề 1</value>
   </data>
   <data name="RichTextEditor_FormatsDropDownHeading2" xml:space="preserve">
-    <value> Tiêu đề 2 </value>
+    <value>Tiêu đề 2</value>
   </data>
   <data name="RichTextEditor_FormatsDropDownHeading3" xml:space="preserve">
-    <value> Tiêu đề 3 </value>
+    <value>Tiêu đề 3</value>
   </data>
   <data name="RichTextEditor_FormatsDropDownHeading4" xml:space="preserve">
-    <value> Tiêu đề  4 </value>
+    <value>Tiêu đề  4</value>
   </data>
   <data name="RichTextEditor_FormatsDropDownHeading5" xml:space="preserve">
-    <value> Tiêu đề  5 </value>
+    <value>Tiêu đề  5</value>
   </data>
   <data name="RichTextEditor_FormatsDropDownHeading6" xml:space="preserve">
-    <value> Tiêu đề   6 </value>
+    <value>Tiêu đề   6</value>
   </data>
   <data name="RichTextEditor_FontNameSegoeUI" xml:space="preserve">
-    <value> Segoe UI </value>
+    <value>Segoe UI</value>
   </data>
   <data name="RichTextEditor_FontNameArial" xml:space="preserve">
-    <value> Arial </value>
+    <value>Arial</value>
   </data>
   <data name="RichTextEditor_FontNameGeorgia" xml:space="preserve">
-    <value> Georgia </value>
+    <value>Georgia</value>
   </data>
   <data name="RichTextEditor_FontNameImpact" xml:space="preserve">
-    <value> Sự va chạm </value>
+    <value>Sự va chạm</value>
   </data>
   <data name="RichTextEditor_FontNameTahoma" xml:space="preserve">
-    <value> Tahoma </value>
+    <value>Tahoma</value>
   </data>
   <data name="RichTextEditor_FontNameTimesNewRoman" xml:space="preserve">
-    <value> Thời gian mới roma </value>
+    <value>Thời gian mới roma</value>
   </data>
   <data name="RichTextEditor_FontNameVerdana" xml:space="preserve">
-    <value> Verdana </value>
+    <value>Verdana</value>
   </data>
   <data name="RichTextEditor_Alignments" xml:space="preserve">
     <value>Sắp xếp</value>
@@ -3070,427 +3070,427 @@
     <value>Trình chiếu</value>
   </data>
   <data name="PdfViewer" xml:space="preserve">
-    <value> Trình xem PDF </value>
+    <value>Trình xem PDF</value>
   </data>
   <data name="PdfViewer_Cancel" xml:space="preserve">
-    <value> Hủy bỏ </value>
+    <value>Hủy bỏ</value>
   </data>
   <data name="PdfViewer_DownloadFile" xml:space="preserve">
-    <value> Tải tập tin </value>
+    <value>Tải tập tin</value>
   </data>
   <data name="PdfViewer_Download" xml:space="preserve">
-    <value> Tải xuống </value>
+    <value>Tải xuống</value>
   </data>
   <data name="PdfViewer_EnterPassword" xml:space="preserve">
-    <value> Tài liệu này được bảo vệ bằng mật khẩu. Vui lòng nhập mật khẩu.</value>
+    <value>Tài liệu này được bảo vệ bằng mật khẩu. Vui lòng nhập mật khẩu.</value>
   </data>
   <data name="PdfViewer_FileCorrupted" xml:space="preserve">
-    <value> Tệp bị hỏng </value>
+    <value>Tệp bị hỏng</value>
   </data>
   <data name="PdfViewer_FileCorruptedContent" xml:space="preserve">
-    <value> Các tập tin bị hỏng và không thể mở.</value>
+    <value>Các tập tin bị hỏng và không thể mở.</value>
   </data>
   <data name="PdfViewer_FitPage" xml:space="preserve">
-    <value> Trang phù hợp </value>
+    <value>Trang phù hợp</value>
   </data>
   <data name="PdfViewer_FitWidth" xml:space="preserve">
-    <value> Vừa chiều rộng </value>
+    <value>Vừa chiều rộng</value>
   </data>
   <data name="PdfViewer_Automatic" xml:space="preserve">
-    <value> Tự động </value>
+    <value>Tự động</value>
   </data>
   <data name="PdfViewer_GoToFirstPage" xml:space="preserve">
-    <value> Hiển thị trang đầu tiên </value>
+    <value>Hiển thị trang đầu tiên</value>
   </data>
   <data name="PdfViewer_InvalidPassword" xml:space="preserve">
-    <value> Mật khẩu không đúng. Vui lòng thử lại.</value>
+    <value>Mật khẩu không đúng. Vui lòng thử lại.</value>
   </data>
   <data name="PdfViewer_NextPage" xml:space="preserve">
-    <value> Hiển thị trang tiếp theo </value>
+    <value>Hiển thị trang tiếp theo</value>
   </data>
   <data name="PdfViewer_PreviousPage" xml:space="preserve">
-    <value> Hiển thị trang trước </value>
+    <value>Hiển thị trang trước</value>
   </data>
   <data name="PdfViewer_OK" xml:space="preserve">
-    <value> đồng ý </value>
+    <value>đồng ý</value>
   </data>
   <data name="PdfViewer_Open" xml:space="preserve">
-    <value> Mở tập tin </value>
+    <value>Mở tập tin</value>
   </data>
   <data name="PdfViewer_PageNumber" xml:space="preserve">
-    <value> Số trang hiện tại </value>
+    <value>Số trang hiện tại</value>
   </data>
   <data name="PdfViewer_GoToLastPage" xml:space="preserve">
-    <value> Hiển thị trang cuối </value>
+    <value>Hiển thị trang cuối</value>
   </data>
   <data name="PdfViewer_Zoom" xml:space="preserve">
-    <value> Thu phóng </value>
+    <value>Thu phóng</value>
   </data>
   <data name="PdfViewer_ZoomIn" xml:space="preserve">
-    <value> phóng to </value>
+    <value>phóng to</value>
   </data>
   <data name="PdfViewer_ZoomOut" xml:space="preserve">
-    <value> Thu nhỏ </value>
+    <value>Thu nhỏ</value>
   </data>
   <data name="PdfViewer_PageThumbnails" xml:space="preserve">
-    <value> Hình thu nhỏ của trang </value>
+    <value>Hình thu nhỏ của trang</value>
   </data>
   <data name="PdfViewer_Bookmarks" xml:space="preserve">
-    <value> Dấu trang </value>
+    <value>Dấu trang</value>
   </data>
   <data name="PdfViewer_Print" xml:space="preserve">
-    <value> In lại file này </value>
+    <value>In lại file này</value>
   </data>
   <data name="PdfViewer_PasswordProtected" xml:space="preserve">
-    <value> Mật khẩu được yêu câu </value>
+    <value>Mật khẩu được yêu câu</value>
   </data>
   <data name="PdfViewer_Copy" xml:space="preserve">
-    <value> Sao chép </value>
+    <value>Sao chép</value>
   </data>
   <data name="PdfViewer_TextSelection" xml:space="preserve">
-    <value> Công cụ chọn văn bản </value>
+    <value>Công cụ chọn văn bản</value>
   </data>
   <data name="PdfViewer_Panning" xml:space="preserve">
-    <value> Chế độ Pan </value>
+    <value>Chế độ Pan</value>
   </data>
   <data name="PdfViewer_TextSearch" xml:space="preserve">
-    <value> Tìm văn bản </value>
+    <value>Tìm văn bản</value>
   </data>
   <data name="PdfViewer_Findindocument" xml:space="preserve">
-    <value> Tìm trong tài liệu </value>
+    <value>Tìm trong tài liệu</value>
   </data>
   <data name="PdfViewer_Matchcase" xml:space="preserve">
-    <value> Trường hợp phù hợp </value>
+    <value>Trường hợp phù hợp</value>
   </data>
   <data name="PdfViewer_Apply" xml:space="preserve">
-    <value> Ứng dụng </value>
+    <value>Ứng dụng</value>
   </data>
   <data name="PdfViewer_GoToPage" xml:space="preserve">
-    <value> Đi tới trang </value>
+    <value>Đi tới trang</value>
   </data>
   <data name="PdfViewer_Nomatches" xml:space="preserve">
-    <value> Người xem đã hoàn thành việc tìm kiếm tài liệu. Không có trận đấu nào được tìm thấy </value>
+    <value>Người xem đã hoàn thành việc tìm kiếm tài liệu. Không có trận đấu nào được tìm thấy</value>
   </data>
   <data name="PdfViewer_NoTextFound" xml:space="preserve">
-    <value> Không tìm thấy văn bản </value>
+    <value>Không tìm thấy văn bản</value>
   </data>
   <data name="PdfViewer_Undo" xml:space="preserve">
-    <value> Hoàn tác </value>
+    <value>Hoàn tác</value>
   </data>
   <data name="PdfViewer_Redo" xml:space="preserve">
-    <value> Làm lại </value>
+    <value>Làm lại</value>
   </data>
   <data name="PdfViewer_Annotation" xml:space="preserve">
-    <value> Thêm hoặc chỉnh sửa chú thích </value>
+    <value>Thêm hoặc chỉnh sửa chú thích</value>
   </data>
   <data name="PdfViewer_Highlight" xml:space="preserve">
     <value>Highlight Text</value>
   </data>
   <data name="PdfViewer_Underline" xml:space="preserve">
-    <value> Văn bản gạch chân </value>
+    <value>Văn bản gạch chân</value>
   </data>
   <data name="PdfViewer_Strikethrough" xml:space="preserve">
-    <value> Văn bản thông qua </value>
+    <value>Văn bản thông qua</value>
   </data>
   <data name="PdfViewer_Delete" xml:space="preserve">
-    <value> Xóa chú thích </value>
+    <value>Xóa chú thích</value>
   </data>
   <data name="PdfViewer_Opacity" xml:space="preserve">
-    <value> Độ mờ đục </value>
+    <value>Độ mờ đục</value>
   </data>
   <data name="PdfViewer_ColorEdit" xml:space="preserve">
-    <value> Thay đổi màu sắc </value>
+    <value>Thay đổi màu sắc</value>
   </data>
   <data name="PdfViewer_OpacityEdit" xml:space="preserve">
-    <value> Thay đổi độ mờ </value>
+    <value>Thay đổi độ mờ</value>
   </data>
   <data name="PdfViewer_HighlightContext" xml:space="preserve">
-    <value> Điểm nổi bật </value>
+    <value>Điểm nổi bật</value>
   </data>
   <data name="PdfViewer_UnderlineContext" xml:space="preserve">
-    <value> Gạch chân </value>
+    <value>Gạch chân</value>
   </data>
   <data name="PdfViewer_StrikethroughContext" xml:space="preserve">
-    <value> Tấn công xuyên qua </value>
+    <value>Tấn công xuyên qua</value>
   </data>
   <data name="PdfViewer_Servererror" xml:space="preserve">
-    <value> Dịch vụ web không lắng nghe. Trình xem PDF phụ thuộc vào dịch vụ web cho tất cả các tính năng của nó. Vui lòng bắt đầu dịch vụ web để tiếp tục.</value>
+    <value>Dịch vụ web không lắng nghe. Trình xem PDF phụ thuộc vào dịch vụ web cho tất cả các tính năng của nó. Vui lòng bắt đầu dịch vụ web để tiếp tục.</value>
   </data>
   <data name="PdfViewer_Clienterror" xml:space="preserve">
-    <value> Lỗi phía khách hàng được tìm thấy. Vui lòng kiểm tra các tiêu đề tùy chỉnh được cung cấp trong thuộc tính AjaxRequestSinstall và các phương thức hành động web trong thuộc tính ServerActionSinstall.</value>
+    <value>Lỗi phía khách hàng được tìm thấy. Vui lòng kiểm tra các tiêu đề tùy chỉnh được cung cấp trong thuộc tính AjaxRequestSinstall và các phương thức hành động web trong thuộc tính ServerActionSinstall.</value>
   </data>
   <data name="PdfViewer_OpenText" xml:space="preserve">
-    <value> Mở </value>
+    <value>Mở</value>
   </data>
   <data name="PdfViewer_FirstText" xml:space="preserve">
-    <value> Trang đầu tiên </value>
+    <value>Trang đầu tiên</value>
   </data>
   <data name="PdfViewer_PreviousText" xml:space="preserve">
-    <value> Trang trước </value>
+    <value>Trang trước</value>
   </data>
   <data name="PdfViewer_NextText" xml:space="preserve">
-    <value> Trang tiếp theo </value>
+    <value>Trang tiếp theo</value>
   </data>
   <data name="PdfViewer_LastText" xml:space="preserve">
-    <value> Trang cuối </value>
+    <value>Trang cuối</value>
   </data>
   <data name="PdfViewer_ZoomInText" xml:space="preserve">
-    <value> phóng to </value>
+    <value>phóng to</value>
   </data>
   <data name="PdfViewer_ZoomOutText" xml:space="preserve">
-    <value> Thu nhỏ </value>
+    <value>Thu nhỏ</value>
   </data>
   <data name="PdfViewer_SelectionText" xml:space="preserve">
-    <value> Lựa chọn </value>
+    <value>Lựa chọn</value>
   </data>
   <data name="PdfViewer_PanText" xml:space="preserve">
-    <value> Pan </value>
+    <value>Pan</value>
   </data>
   <data name="PdfViewer_PrintText" xml:space="preserve">
-    <value> In </value>
+    <value>In</value>
   </data>
   <data name="PdfViewer_SearchText" xml:space="preserve">
-    <value> Tìm kiếm </value>
+    <value>Tìm kiếm</value>
   </data>
   <data name="PdfViewer_AnnotationEditText" xml:space="preserve">
-    <value> Chỉnh sửa chú thích </value>
+    <value>Chỉnh sửa chú thích</value>
   </data>
   <data name="PdfViewer_LineThickness" xml:space="preserve">
-    <value> Độ dày đường </value>
+    <value>Độ dày đường</value>
   </data>
   <data name="PdfViewer_LineProperties" xml:space="preserve">
-    <value> Thuộc tính dòng </value>
+    <value>Thuộc tính dòng</value>
   </data>
   <data name="PdfViewer_StartArrow" xml:space="preserve">
-    <value> Mũi tên bắt đầu </value>
+    <value>Mũi tên bắt đầu</value>
   </data>
   <data name="PdfViewer_EndArrow" xml:space="preserve">
-    <value> Mũi tên kết thúc </value>
+    <value>Mũi tên kết thúc</value>
   </data>
   <data name="PdfViewer_LineStyle" xml:space="preserve">
-    <value> Kiểu đường </value>
+    <value>Kiểu đường</value>
   </data>
   <data name="PdfViewer_FillColor" xml:space="preserve">
-    <value> Tô màu </value>
+    <value>Tô màu</value>
   </data>
   <data name="PdfViewer_LineColor" xml:space="preserve">
-    <value> Màu đường kẻ </value>
+    <value>Màu đường kẻ</value>
   </data>
   <data name="PdfViewer_None" xml:space="preserve">
-    <value> không ai </value>
+    <value>không ai</value>
   </data>
   <data name="PdfViewer_OpenArrow" xml:space="preserve">
-    <value> Mũi tên mở </value>
+    <value>Mũi tên mở</value>
   </data>
   <data name="PdfViewer_ClosedArrow" xml:space="preserve">
-    <value> Mũi tên kín </value>
+    <value>Mũi tên kín</value>
   </data>
   <data name="PdfViewer_RoundArrow" xml:space="preserve">
-    <value> Mũi tên tròn </value>
+    <value>Mũi tên tròn</value>
   </data>
   <data name="PdfViewer_SquareArrow" xml:space="preserve">
-    <value> Mũi tên vuông </value>
+    <value>Mũi tên vuông</value>
   </data>
   <data name="PdfViewer_DiamondArrow" xml:space="preserve">
-    <value> Mũi tên kim cương </value>
+    <value>Mũi tên kim cương</value>
   </data>
   <data name="PdfViewer_Cut" xml:space="preserve">
-    <value> Cắt </value>
+    <value>Cắt</value>
   </data>
   <data name="PdfViewer_Paste" xml:space="preserve">
-    <value> Dán </value>
+    <value>Dán</value>
   </data>
   <data name="PdfViewer_DeleteContext" xml:space="preserve">
-    <value> Xóa bỏ </value>
+    <value>Xóa bỏ</value>
   </data>
   <data name="PdfViewer_Properties" xml:space="preserve">
-    <value> Tính chất </value>
+    <value>Tính chất</value>
   </data>
   <data name="PdfViewer_AddStamp" xml:space="preserve">
-    <value> Thêm tem </value>
+    <value>Thêm tem</value>
   </data>
   <data name="PdfViewer_AddShapes" xml:space="preserve">
-    <value> Thêm hình dạng </value>
+    <value>Thêm hình dạng</value>
   </data>
   <data name="PdfViewer_StrokeEdit" xml:space="preserve">
-    <value> Thay đổi màu đột quỵ </value>
+    <value>Thay đổi màu đột quỵ</value>
   </data>
   <data name="PdfViewer_ChangeThickness" xml:space="preserve">
-    <value> Thay đổi độ dày viền </value>
+    <value>Thay đổi độ dày viền</value>
   </data>
   <data name="PdfViewer_Addline" xml:space="preserve">
-    <value> Thêm dòng </value>
+    <value>Thêm dòng</value>
   </data>
   <data name="PdfViewer_AddArrow" xml:space="preserve">
-    <value> Thêm mũi tên </value>
+    <value>Thêm mũi tên</value>
   </data>
   <data name="PdfViewer_AddRectangle" xml:space="preserve">
-    <value> Thêm hình chữ nhật </value>
+    <value>Thêm hình chữ nhật</value>
   </data>
   <data name="PdfViewer_AddCircle" xml:space="preserve">
-    <value> Thêm vòng tròn </value>
+    <value>Thêm vòng tròn</value>
   </data>
   <data name="PdfViewer_AddPolygon" xml:space="preserve">
-    <value> Thêm đa giác </value>
+    <value>Thêm đa giác</value>
   </data>
   <data name="PdfViewer_AddComments" xml:space="preserve">
-    <value> Thêm bình luận </value>
+    <value>Thêm bình luận</value>
   </data>
   <data name="PdfViewer_Comments" xml:space="preserve">
-    <value> Bình luận </value>
+    <value>Bình luận</value>
   </data>
   <data name="PdfViewer_NoCommentsYet" xml:space="preserve">
-    <value> Chưa có bình luận nào </value>
+    <value>Chưa có bình luận nào</value>
   </data>
   <data name="PdfViewer_Accepted" xml:space="preserve">
-    <value> Đã được chấp nhận </value>
+    <value>Đã được chấp nhận</value>
   </data>
   <data name="PdfViewer_Completed" xml:space="preserve">
-    <value> Đã hoàn thành </value>
+    <value>Đã hoàn thành</value>
   </data>
   <data name="PdfViewer_Cancelled" xml:space="preserve">
-    <value> Đã hủy </value>
+    <value>Đã hủy</value>
   </data>
   <data name="PdfViewer_Rejected" xml:space="preserve">
-    <value> Từ chối </value>
+    <value>Từ chối</value>
   </data>
   <data name="PdfViewer_LeaderLength" xml:space="preserve">
-    <value> Chiều dài lãnh đạo </value>
+    <value>Chiều dài lãnh đạo</value>
   </data>
   <data name="PdfViewer_ScaleRatio" xml:space="preserve">
-    <value> Tỷ lệ </value>
+    <value>Tỷ lệ</value>
   </data>
   <data name="PdfViewer_Calibrate" xml:space="preserve">
-    <value> Hiệu chỉnh </value>
+    <value>Hiệu chỉnh</value>
   </data>
   <data name="PdfViewer_CalibrateDistance" xml:space="preserve">
-    <value> Hiệu chỉnh khoảng cách </value>
+    <value>Hiệu chỉnh khoảng cách</value>
   </data>
   <data name="PdfViewer_CalibratePerimeter" xml:space="preserve">
-    <value> Chu vi hiệu chuẩn </value>
+    <value>Chu vi hiệu chuẩn</value>
   </data>
   <data name="PdfViewer_CalibrateArea" xml:space="preserve">
-    <value> Khu vực hiệu chuẩn </value>
+    <value>Khu vực hiệu chuẩn</value>
   </data>
   <data name="PdfViewer_CalibrateRadius" xml:space="preserve">
-    <value> Hiệu chỉnh bán kính </value>
+    <value>Hiệu chỉnh bán kính</value>
   </data>
   <data name="PdfViewer_CalibrateVolume" xml:space="preserve">
-    <value> Hiệu chỉnh khối lượng </value>
+    <value>Hiệu chỉnh khối lượng</value>
   </data>
   <data name="PdfViewer_Depth" xml:space="preserve">
-    <value> Chiều sâu </value>
+    <value>Chiều sâu</value>
   </data>
   <data name="PdfViewer_Closed" xml:space="preserve">
-    <value> Đã đóng </value>
+    <value>Đã đóng</value>
   </data>
   <data name="PdfViewer_Round" xml:space="preserve">
-    <value> Tròn </value>
+    <value>Tròn</value>
   </data>
   <data name="PdfViewer_Square" xml:space="preserve">
-    <value> Quảng trường </value>
+    <value>Quảng trường</value>
   </data>
   <data name="PdfViewer_Diamond" xml:space="preserve">
-    <value> Kim cương </value>
+    <value>Kim cương</value>
   </data>
   <data name="PdfViewer_Edit" xml:space="preserve">
-    <value> Biên tập </value>
+    <value>Biên tập</value>
   </data>
   <data name="PdfViewer_Comment" xml:space="preserve">
-    <value> Bình luận </value>
+    <value>Bình luận</value>
   </data>
   <data name="PdfViewer_CommentPanel" xml:space="preserve">
-    <value> Ban bình luận </value>
+    <value>Ban bình luận</value>
   </data>
   <data name="PdfViewer_SetStatus" xml:space="preserve">
-    <value> Đặt trạng thái </value>
+    <value>Đặt trạng thái</value>
   </data>
   <data name="PdfViewer_Post" xml:space="preserve">
-    <value> Bài đăng </value>
+    <value>Bài đăng</value>
   </data>
   <data name="PdfViewer_Page" xml:space="preserve">
-    <value> Trang </value>
+    <value>Trang</value>
   </data>
   <data name="PdfViewer_AddComment" xml:space="preserve">
-    <value> Thêm một bình luận </value>
+    <value>Thêm một bình luận</value>
   </data>
   <data name="PdfViewer_AddReply" xml:space="preserve">
-    <value> Thêm một trả lời </value>
+    <value>Thêm một trả lời</value>
   </data>
   <data name="PdfViewer_ImportAnnotations" xml:space="preserve">
-    <value> Nhập chú thích </value>
+    <value>Nhập chú thích</value>
   </data>
   <data name="PdfViewer_ExportAnnotations" xml:space="preserve">
-    <value> Xuất chú thích </value>
+    <value>Xuất chú thích</value>
   </data>
   <data name="PdfViewer_Add" xml:space="preserve">
-    <value> Thêm vào </value>
+    <value>Thêm vào</value>
   </data>
   <data name="PdfViewer_Clear" xml:space="preserve">
-    <value> Thông thoáng </value>
+    <value>Thông thoáng</value>
   </data>
   <data name="PdfViewer_Bold" xml:space="preserve">
-    <value> Dũng cảm </value>
+    <value>Dũng cảm</value>
   </data>
   <data name="PdfViewer_Italic" xml:space="preserve">
-    <value> In nghiêng </value>
+    <value>In nghiêng</value>
   </data>
   <data name="PdfViewer_Strikethroughs" xml:space="preserve">
-    <value> Thông qua </value>
+    <value>Thông qua</value>
   </data>
   <data name="PdfViewer_Underlines" xml:space="preserve">
-    <value> Gạch chân </value>
+    <value>Gạch chân</value>
   </data>
   <data name="PdfViewer_Superscript" xml:space="preserve">
-    <value> Bản thảo </value>
+    <value>Bản thảo</value>
   </data>
   <data name="PdfViewer_Subscript" xml:space="preserve">
-    <value> Đăng ký </value>
+    <value>Đăng ký</value>
   </data>
   <data name="PdfViewer_AlignLeft" xml:space="preserve">
-    <value> Căn trái </value>
+    <value>Căn trái</value>
   </data>
   <data name="PdfViewer_AlignRight" xml:space="preserve">
-    <value> Sắp xếp đúng </value>
+    <value>Sắp xếp đúng</value>
   </data>
   <data name="PdfViewer_Center" xml:space="preserve">
-    <value> Trung tâm </value>
+    <value>Trung tâm</value>
   </data>
   <data name="PdfViewer_Justify" xml:space="preserve">
-    <value> Biện minh </value>
+    <value>Biện minh</value>
   </data>
   <data name="PdfViewer_FontColor" xml:space="preserve">
-    <value> Màu phông chữ </value>
+    <value>Màu phông chữ</value>
   </data>
   <data name="PdfViewer_TextAlign" xml:space="preserve">
-    <value> Căn chỉnh văn bản </value>
+    <value>Căn chỉnh văn bản</value>
   </data>
   <data name="PdfViewer_TextProperties" xml:space="preserve">
-    <value> Kiểu chữ </value>
+    <value>Kiểu chữ</value>
   </data>
   <data name="PdfViewer_DrawSignature" xml:space="preserve">
-    <value> Vẽ chữ ký </value>
+    <value>Vẽ chữ ký</value>
   </data>
   <data name="PdfViewer_Create" xml:space="preserve">
-    <value> Tạo nên </value>
+    <value>Tạo nên</value>
   </data>
   <data name="PdfViewer_FontFamily" xml:space="preserve">
-    <value> Họ phông chữ </value>
+    <value>Họ phông chữ</value>
   </data>
   <data name="PdfViewer_FontSize" xml:space="preserve">
-    <value> Cỡ chữ </value>
+    <value>Cỡ chữ</value>
   </data>
   <data name="PdfViewer_FreeText" xml:space="preserve">
-    <value> Văn bản miễn phí </value>
+    <value>Văn bản miễn phí</value>
   </data>
   <data name="PdfViewer_ImportFailed" xml:space="preserve">
-    <value> Loại tệp JSON hoặc tên tệp không hợp lệ; vui lòng chọn một tệp JSON hợp lệ </value>
+    <value>Loại tệp JSON hoặc tên tệp không hợp lệ; vui lòng chọn một tệp JSON hợp lệ</value>
   </data>
   <data name="PdfViewer_FileNotFound" xml:space="preserve">
-    <value> Không tìm thấy tệp JSON đã nhập ở vị trí mong muốn </value>
+    <value>Không tìm thấy tệp JSON đã nhập ở vị trí mong muốn</value>
   </data>
   <data name="PdfViewer_ExportFailed" xml:space="preserve">
-    <value> Không tìm thấy tệp JSON đã nhập ở vị trí mong muốn </value>
+    <value>Không tìm thấy tệp JSON đã nhập ở vị trí mong muốn</value>
   </data>
   <data name="PdfViewer_Draw_hand_Signature" xml:space="preserve">
     <value>VẼ TRANH</value>
@@ -3574,7 +3574,7 @@
     <value>Gửi biểu mẫu</value>
   </data>
   <data name="PdfViewer_Required_ServiceUrl_Error_Message" xml:space="preserve">
-    <value>Trình xem PDF này yêu cầu xử lý phía Máy chủ để hiển thị các tệp PDF thông qua dịch vụ web. Bạn phải định cấu hình URL dịch vụ để tiếp tục với Trình xem PDF.</value>
+    <value>Trình xem PDF này yêu cầu xử lý phía Máy chủ để hiển thị các tệp PDF thông qua dịch vụ web. Bạn phải định cấu hình URL dịch vụ để tiếp tục với Trình xem PDF</value>
   </data>
   <data name="PdfViewer_Close" xml:space="preserve">
     <value>Đóng</value>
@@ -3766,7 +3766,7 @@
     <value>Hiển thị số trang</value>
   </data>
   <data name="DocumentEditor_RightAlignPageNumbers" xml:space="preserve">
-    <value>Căn chỉnh số trang</value>
+    <value>Căn chỉnh số trang.</value>
   </data>
   <data name="DocumentEditor_Nothing" xml:space="preserve">
     <value>Không có gì</value>
@@ -4626,127 +4626,127 @@
   <data name="DocumentEditor_ScreenTip" xml:space="preserve">
        <value>Văn bản Mẹo màn hình</value>
 </data>
-<data name="DocumentEditor_KeepSource" xml:space="preserve">
+  <data name="DocumentEditor_KeepSource" xml:space="preserve">
        <value>Giữ định dạng nguồn</value>
 </data>
-<data name="DocumentEditor_DestinationFormat" xml:space="preserve">
+  <data name="DocumentEditor_DestinationFormat" xml:space="preserve">
        <value>Khớp định dạng đích</value>
 </data>
-<data name="DocumentEditor_CommentsOnly" xml:space="preserve">
+  <data name="DocumentEditor_CommentsOnly" xml:space="preserve">
        <value>Bạn chỉ có thể chèn nhận xét vào khu vực này.</value>
 </data>
-<data name="DocumentEditor_RowRange" xml:space="preserve">
+  <data name="DocumentEditor_RowRange" xml:space="preserve">
        <value>Số hàng phải từ 1 đến 32767.</value>
 </data>
-<data name="DocumentEditor_ColumnRange" xml:space="preserve">
+  <data name="DocumentEditor_ColumnRange" xml:space="preserve">
        <value>Số cột phải từ 1 đến 63.</value>
 </data>
-<data name="DocumentEditor_Information" xml:space="preserve">
+  <data name="DocumentEditor_Information" xml:space="preserve">
        <value>Thông tin</value>
 </data>
-<data name="DocumentEditor_Dot" xml:space="preserve">
+  <data name="DocumentEditor_Dot" xml:space="preserve">
        <value>Chấm</value>
 </data>
-<data name="DocumentEditor_DashSmallGap" xml:space="preserve">
+  <data name="DocumentEditor_DashSmallGap" xml:space="preserve">
        <value>Khoảng trống nhỏ Dash</value>
 </data>
-<data name="DocumentEditor_DashDot" xml:space="preserve">
+  <data name="DocumentEditor_DashDot" xml:space="preserve">
        <value>Đi thẳng</value>
 </data>
-<data name="DocumentEditor_ThinThickSmallGap" xml:space="preserve">
+  <data name="DocumentEditor_ThinThickSmallGap" xml:space="preserve">
        <value>Khoảng trống nhỏ dày mỏng</value>
 </data>
-<data name="DocumentEditor_ThickThinSmallGap" xml:space="preserve">
+  <data name="DocumentEditor_ThickThinSmallGap" xml:space="preserve">
        <value>Khoảng cách nhỏ dày mỏng</value>
 </data>
-<data name="DocumentEditor_ThickThinMediumGap" xml:space="preserve">
+  <data name="DocumentEditor_ThickThinMediumGap" xml:space="preserve">
        <value>Khoảng cách trung bình mỏng dày</value>
 </data>
-<data name="DocumentEditor_ThickThinLargeGap" xml:space="preserve">
+  <data name="DocumentEditor_ThickThinLargeGap" xml:space="preserve">
        <value>Khoảng cách lớn mỏng dày</value>
 </data>
-<data name="DocumentEditor_SingleWavy" xml:space="preserve">
+  <data name="DocumentEditor_SingleWavy" xml:space="preserve">
        <value>Gợn sóng đơn</value>
 </data>
-<data name="DocumentEditor_DoubleWavy" xml:space="preserve">
+  <data name="DocumentEditor_DoubleWavy" xml:space="preserve">
        <value>Đôi gợn sóng</value>
 </data>
-<data name="DocumentEditor_Inset" xml:space="preserve">
+  <data name="DocumentEditor_Inset" xml:space="preserve">
        <value>Inset</value>
 </data>
-<data name="DocumentEditor_DashLargeGap" xml:space="preserve">
+  <data name="DocumentEditor_DashLargeGap" xml:space="preserve">
        <value>Khoảng cách lớn Dash</value>
 </data>
-<data name="DocumentEditor_DashDotDot" xml:space="preserve">
+  <data name="DocumentEditor_DashDotDot" xml:space="preserve">
        <value>Dấu gạch ngang Dấu chấm</value>
 </data>
-<data name="DocumentEditor_Triple" xml:space="preserve">
+  <data name="DocumentEditor_Triple" xml:space="preserve">
        <value>Gấp ba</value>
 </data>
-<data name="DocumentEditor_ThinThickThinSmallGap" xml:space="preserve">
+  <data name="DocumentEditor_ThinThickThinSmallGap" xml:space="preserve">
        <value>Mỏng dày mỏng khoảng cách nhỏ</value>
 </data>
-<data name="DocumentEditor_ThinThickThinMediumGap" xml:space="preserve">
+  <data name="DocumentEditor_ThinThickThinMediumGap" xml:space="preserve">
        <value>Khoảng cách mỏng dày mỏng vừa</value>
 </data>
-<data name="DocumentEditor_ThinThickThinLargeGap" xml:space="preserve">
+  <data name="DocumentEditor_ThinThickThinLargeGap" xml:space="preserve">
        <value>Mỏng dày mỏng khoảng cách lớn</value>
 </data>
-<data name="DocumentEditor_DashDotStroked" xml:space="preserve">
+  <data name="DocumentEditor_DashDotStroked" xml:space="preserve">
        <value>Dấu gạch ngang đã vuốt ve</value>
 </data>
-<data name="DocumentEditor_Engrave3D" xml:space="preserve">
+  <data name="DocumentEditor_Engrave3D" xml:space="preserve">
        <value>Engrave3D</value>
 </data>
-<data name="DocumentEditor_Thick" xml:space="preserve">
+  <data name="DocumentEditor_Thick" xml:space="preserve">
        <value>Đặc</value>
 </data>
-<data name="DocumentEditor_Outset" xml:space="preserve">
+  <data name="DocumentEditor_Outset" xml:space="preserve">
        <value>Bù đắp</value>
 </data>
-<data name="DocumentEditor_Emboss3D" xml:space="preserve">
+  <data name="DocumentEditor_Emboss3D" xml:space="preserve">
        <value>Emboss3D</value>
 </data>
-<data name="DocumentEditor_ThinThickLargeGap" xml:space="preserve">
+  <data name="DocumentEditor_ThinThickLargeGap" xml:space="preserve">
        <value>Khoảng trống lớn dày mỏng</value>
 </data>
-<data name="DocumentEditor_ThinThickMediumGap" xml:space="preserve">
+  <data name="DocumentEditor_ThinThickMediumGap" xml:space="preserve">
        <value>Khoảng cách trung bình mỏng dày</value>
 </data>
-<data name="DocumentEditor_RegularText" xml:space="preserve">
+  <data name="DocumentEditor_RegularText" xml:space="preserve">
        <value>Văn bản thông thường</value>
 </data>
-<data name="DocumentEditor_Date" xml:space="preserve">
+  <data name="DocumentEditor_Date" xml:space="preserve">
        <value>Ngày tháng</value>
 </data>
-<data name="DocumentEditor_Uppercase" xml:space="preserve">
+  <data name="DocumentEditor_Uppercase" xml:space="preserve">
        <value>Chữ hoa</value>
 </data>
-<data name="DocumentEditor_Lowercase" xml:space="preserve">
+  <data name="DocumentEditor_Lowercase" xml:space="preserve">
        <value>Chữ thường</value>
 </data>
-<data name="DocumentEditor_FirstCapital" xml:space="preserve">
+  <data name="DocumentEditor_FirstCapital" xml:space="preserve">
        <value>FirstCapital</value>
 </data>
-<data name="DocumentEditor_Titlecase" xml:space="preserve">
+  <data name="DocumentEditor_Titlecase" xml:space="preserve">
        <value>Tiêu đề</value>
 </data>
-<data name="DocumentEditor_MoveFrom" xml:space="preserve">
+  <data name="DocumentEditor_MoveFrom" xml:space="preserve">
        <value>Di chuyển từ</value>
 </data>
-<data name="DocumentEditor_MoveTo" xml:space="preserve">
+  <data name="DocumentEditor_MoveTo" xml:space="preserve">
        <value>Chuyển tới</value>
 </data>
-<data name="DocumentEditor_Px" xml:space="preserve">
+  <data name="DocumentEditor_Px" xml:space="preserve">
        <value>px</value>
 </data>
-<data name="DocumentEditor_ReadOnlyProtection" xml:space="preserve">
+  <data name="DocumentEditor_ReadOnlyProtection" xml:space="preserve">
        <value>Bạn có thể chỉnh sửa trong khu vực này.</value>
 </data>
-<data name="DocumentEditorContainer_RegularTooltip" xml:space="preserve">
+  <data name="DocumentEditorContainer_RegularTooltip" xml:space="preserve">
        <value>Thường xuyên</value>
 </data>
-<data name="DocumentEditorContainer_BoldItalicTooltip" xml:space="preserve">
+  <data name="DocumentEditorContainer_BoldItalicTooltip" xml:space="preserve">
        <value>In nghiêng đậm</value>
 </data>
   <data name="DocumentEditorContainer_New" xml:space="preserve">
@@ -4984,7 +4984,7 @@
     <value>Hiển thị số trang trong mục lục.</value>
   </data>
   <data name="DocumentEditorContainer_RightAlignPageNumbers" xml:space="preserve">
-    <value>Căn chỉnh số trang</value>
+    <value>Căn chỉnh số trang.</value>
   </data>
   <data name="DocumentEditorContainer_RightAlignPageNumbersInTableOfContents" xml:space="preserve">
     <value>Căn chỉnh số trang trong bảng nội dung.</value>
@@ -5107,7 +5107,7 @@
     <value>Chèn hình ảnh nội tuyến từ một tập tin.</value>
   </data>
   <data name="DocumentEditorContainer_InsertATableIntoTheDocument" xml:space="preserve">
-    <value>Chèn một bảng vào tài liệu</value>
+    <value>Chèn một bảng vào tài liệu.</value>
   </data>
   <data name="DocumentEditorContainer_CreateHyperlink" xml:space="preserve">
     <value>Tạo một liên kết trong tài liệu của bạn để truy cập nhanh vào các trang web và tệp (Ctrl + K).</value>
@@ -5164,7 +5164,10 @@
     <value>bố trí trang web</value>
   </data>
   <data name="DocumentEditorContainer_ToggleBetweenTheInternalClipboardAndSystemClipboard" xml:space="preserve">
-    <value>Chuyển đổi giữa bảng tạm nội bộ và bảng tạm hệ thống. &#xD; Truy cập vào bảng tạm hệ thống thông qua tập lệnh bị từ chối do chính sách bảo mật của trình duyệt. Thay vào đó, &#xD; 1. Bạn có thể bật bảng tạm bên trong để cắt, sao chép và dán trong thành phần. &#xD; 2. Bạn có thể sử dụng các phím tắt (Ctrl + X, Ctrl + C và Ctrl + V) để cắt , sao chép và dán với hệ thống clipboard.</value>
+    <value>Chuyển đổi giữa bảng tạm nội bộ và bảng tạm hệ thống. 
+ Truy cập vào bảng tạm hệ thống thông qua tập lệnh bị từ chối do chính sách bảo mật của trình duyệt. Thay vào đó, 
+ 1. Bạn có thể bật bảng tạm bên trong để cắt, sao chép và dán trong thành phần. 
+ 2. Bạn có thể sử dụng các phím tắt (Ctrl + X, Ctrl + C và Ctrl + V) để cắt , sao chép và dán với hệ thống clipboard.</value>
   </data>
   <data name="DocumentEditorContainer_TextForm" xml:space="preserve">
     <value>Mẫu văn bản</value>
@@ -5179,10 +5182,10 @@
     <value>Cập nhật các lĩnh vực</value>
   </data>
   <data name="DocumentEditorContainer_UpdateCrossReferenceFields" xml:space="preserve">
-    <value>Cập nhật các trường tham chiếu chéo</value>
+    <value>Cập nhật các trường tham chiếu chéo.</value>
   </data>
   <data name="DocumentEditorContainer_Track_changes" xml:space="preserve">
-    <value>Theo dõi các thay đổi được thực hiện trong tài liệu</value>
+    <value>Theo dõi các thay đổi được thực hiện trong tài liệu.</value>
   </data>
   <data name="DocumentEditorContainer_TrackChanges" xml:space="preserve">
     <value>Theo dõi các thay đổi</value>
@@ -5216,5 +5219,23 @@
   </data>
   <data name="DocumentEditorContainer_FillingInForms" xml:space="preserve">
     <value>Điền vào những mẫu đơn</value>
+  </data>
+  <data name="Gantt_Touch_DialogTextOnClickingConnectorPoint" xml:space="preserve">
+    <value>Chọn một nhiệm vụ khác</value>
+  </data>
+  <data name="Gantt_Touch_DialogTextOnSelectingTaskbar" xml:space="preserve">
+    <value>Chọn vị trí đầu nối</value>
+  </data>
+  <data name="Gantt_Touch_LeftButton" xml:space="preserve">
+    <value>Trái</value>
+  </data>
+  <data name="Gantt_Touch_RightButton" xml:space="preserve">
+    <value>Đúng</value>
+  </data>
+  <data name="PdfViewer_ExportXFDF" xml:space="preserve">
+    <value>Xuất chú thích sang tệp XFDF</value>
+  </data>
+  <data name="PdfViewer_ImportXFDF" xml:space="preserve">
+    <value>Nhập chú thích từ tệp XFDF</value>
   </data>
 </root>

@@ -181,7 +181,7 @@
     <value>ไม่พบบันทึก</value>
   </data>
   <data name="MultiSelect_OverflowCountTemplate" xml:space="preserve">
-    <value>+${จำนวน} อีกมาก ..</value>
+    <value>+${count} เพิ่มเติม..</value>
   </data>
   <data name="MultiSelect_SelectAllText" xml:space="preserve">
     <value>เลือกทั้งหมด</value>
@@ -439,7 +439,7 @@
     <value>เปลี่ยนชื่อการยืนยัน</value>
   </data>
   <data name="FileManager_ContentRenameConfirmation" xml:space="preserve">
-    <value>หากคุณเปลี่ยนนามสกุลไฟล์ไฟล์นั้นอาจไม่เสถียร คุณแน่ใจหรือว่าต้องการเปลี่ยนแปลง</value>
+    <value>หากคุณเปลี่ยนนามสกุลไฟล์ ไฟล์อาจไม่เสถียร คุณแน่ใจหรือว่าต้องการเปลี่ยน?</value>
   </data>
   <data name="FileManager_HeaderDelete" xml:space="preserve">
     <value>ลบไฟล์</value>
@@ -457,7 +457,7 @@
     <value>ลบหลายรายการ</value>
   </data>
   <data name="FileManager_ContentMultipleDelete" xml:space="preserve">
-    <value>แน่ใจหรือไม่ว่าคุณต้องการลบรายการ {0} เหล่านี้</value>
+    <value>แน่ใจหรือไม่ว่าคุณต้องการลบรายการ {0} เหล่านี้?</value>
   </data>
   <data name="FileManager_HeaderDuplicate" xml:space="preserve">
     <value>มีไฟล์ / โฟลเดอร์อยู่</value>
@@ -472,16 +472,16 @@
     <value>ความผิดพลาด</value>
   </data>
   <data name="FileManager_ValidationEmpty" xml:space="preserve">
-    <value>ชื่อไฟล์หรือโฟลเดอร์ต้องไม่ว่างเปล่า</value>
+    <value>ชื่อไฟล์หรือโฟลเดอร์ต้องไม่ว่างเปล่า.</value>
   </data>
   <data name="FileManager_ValidationInvalid" xml:space="preserve">
     <value>ชื่อไฟล์หรือโฟลเดอร์ {0} มีอักขระที่ไม่ถูกต้อง กรุณาใช้ชื่ออื่น ชื่อไฟล์หรือโฟลเดอร์ที่ถูกต้องไม่สามารถลงท้ายด้วยจุดหรือช่องว่าง.</value>
   </data>
   <data name="FileManager_ValidationNewFolderExists" xml:space="preserve">
-    <value>ไฟล์หรือโฟลเดอร์ที่มีชื่อ {0} มีอยู่แล้ว</value>
+    <value>ไฟล์หรือโฟลเดอร์ที่มีชื่อ {0} มีอยู่แล้ว.</value>
   </data>
   <data name="FileManager_ValidationRenameExists" xml:space="preserve">
-    <value>ไม่สามารถเปลี่ยนชื่อ {0} เป็น {1}: มีปลายทางอยู่แล้ว</value>
+    <value>ไม่สามารถเปลี่ยนชื่อ {0} เป็น {1}: มีปลายทางอยู่แล้ว.</value>
   </data>
   <data name="FileManager_FolderEmpty" xml:space="preserve">
     <value>โฟลเดอร์นี้ว่างเปล่า</value>
@@ -502,13 +502,13 @@
     <value>ลองใช้ตัวกรองอื่น</value>
   </data>
   <data name="FileManager_SubFolderError" xml:space="preserve">
-    <value>โฟลเดอร์ปลายทางเป็นโฟลเดอร์ย่อยของโฟลเดอร์ต้นทาง</value>
+    <value>โฟลเดอร์ปลายทางเป็นโฟลเดอร์ย่อยของโฟลเดอร์ต้นทาง.</value>
   </data>
   <data name="FileManager_AccessDenied" xml:space="preserve">
     <value>ปฏิเสธการเข้าใช้</value>
   </data>
   <data name="FileManager_AccessDetails" xml:space="preserve">
-    <value>คุณไม่ได้รับอนุญาตให้เข้าถึงโฟลเดอร์นี้</value>
+    <value>คุณไม่ได้รับอนุญาตให้เข้าถึงโฟลเดอร์นี้.</value>
   </data>
   <data name="FileManager_HeaderRetry" xml:space="preserve">
     <value>ไฟล์มีอยู่แล้ว</value>
@@ -532,7 +532,7 @@
     <value>KB</value>
   </data>
   <data name="FileManager_AccessMessage" xml:space="preserve">
-    <value>{0} ไม่สามารถเข้าถึงได้ คุณต้องได้รับอนุญาตในการดำเนินการ {1}</value>
+    <value>ไม่สามารถเปลี่ยนชื่อ {0} เป็น {1}: มีปลายทางอยู่แล้ว.</value>
   </data>
   <data name="FileManager_NetworkError" xml:space="preserve">
     <value>NetworkError: ล้มเหลวในการส่งใน XMLHTTPRequest: ไม่สามารถโหลดได้</value>
@@ -607,10 +607,10 @@
     <value>ยุบทั้งหมด</value>
   </data>
   <data name="Gantt_ConfirmDelete" xml:space="preserve">
-    <value>คุณแน่ใจหรือว่าต้องการลบบันทึก</value>
+    <value>คุณแน่ใจหรือว่าต้องการลบบันทึก?</value>
   </data>
   <data name="Gantt_ConfirmPredecessorDelete" xml:space="preserve">
-    <value>คุณแน่ใจหรือว่าต้องการลบลิงค์อ้างอิง</value>
+    <value>คุณแน่ใจหรือว่าต้องการลบลิงค์อ้างอิง?</value>
   </data>
   <data name="Gantt_Indent" xml:space="preserve">
     <value>ย่อหน้า</value>
@@ -907,7 +907,7 @@
     <value>ไม่เลือกทั้งหมด</value>
   </data>
   <data name="PivotView_NumberFormat_ExampleWatermark" xml:space="preserve">
-    <value>ตัวอย่าง: C, P, 0000%, ### 0. ## 0 # ฯลฯ</value>
+    <value>ตัวอย่าง: C, P, 0000%, ### 0. ## 0 # ฯลฯ.</value>
   </data>
   <data name="PivotView_SortNone_TooltipMessage" xml:space="preserve">
     <value>เรียงลำดับข้อมูล</value>
@@ -949,7 +949,7 @@
     <value>รายงานชื่อ</value>
   </data>
   <data name="PivotView_ReplaceReport_AfterMessage" xml:space="preserve">
-    <value>มีอยู่แล้ว. คุณต้องการแทนที่หรือไม่</value>
+    <value>มีอยู่แล้ว. คุณต้องการแทนที่หรือไม่?</value>
   </data>
   <data name="PivotView_AddCondition" xml:space="preserve">
     <value>เพิ่มเงื่อนไข</value>
@@ -1033,7 +1033,7 @@
     <value>สนามคำนวณ</value>
   </data>
   <data name="PivotView_CalculatedField_ConfirmMessage" xml:space="preserve">
-    <value>ฟิลด์การคำนวณมีอยู่แล้วในชื่อนี้ คุณต้องการแทนที่หรือไม่</value>
+    <value>มีฟิลด์การคำนวณอยู่แล้วในชื่อนี้ คุณต้องการเปลี่ยนหรือไม่?</value>
   </data>
   <data name="PivotView_CalculatedField_DragDropMessage" xml:space="preserve">
     <value>ลากและวางเขตข้อมูลลงในสูตร</value>
@@ -1042,16 +1042,16 @@
     <value>ลากฟิลด์ไปยังสูตร</value>
   </data>
   <data name="PivotView_CalculatedField_DropMessage" xml:space="preserve">
-    <value>เขตข้อมูลจากการคำนวณไม่สามารถวางในภูมิภาคอื่น ๆ ยกเว้นแกนค่า</value>
+    <value>เขตข้อมูลจากการคำนวณไม่สามารถวางในภูมิภาคอื่น ๆ ยกเว้นแกนค่า.</value>
   </data>
   <data name="PivotView_CalculatedField_ExampleWatermark" xml:space="preserve">
     <value>ตัวอย่าง: ('Sum(Order_Count)' + 'Sum(In_Stock)') * 250</value>
   </data>
   <data name="PivotView_CalculatedField_ExistMessage" xml:space="preserve">
-    <value>มีฟิลด์นี้ในชื่อนี้แล้ว กรุณาใส่ชื่ออื่น</value>
+    <value>มีฟิลด์นี้ในชื่อนี้แล้ว กรุณาใส่ชื่ออื่น.</value>
   </data>
   <data name="PivotView_CalculatedField_MobileWatermark" xml:space="preserve">
-    <value>เพิ่มเขตข้อมูลและแก้ไขสูตรที่นี่</value>
+    <value>เพิ่มเขตข้อมูลและแก้ไขสูตรที่นี่.</value>
   </data>
   <data name="PivotView_CalculatedField_NameWatermark" xml:space="preserve">
     <value>ป้อนชื่อฟิลด์</value>
@@ -1060,7 +1060,7 @@
     <value>ตัวอย่าง: [Measures].[Order Quantity] + ([Measures].[Order Quantity] * 0.10)</value>
   </data>
   <data name="PivotView_CalculatedField_Tooltip" xml:space="preserve">
-    <value>ลากและวางเขตข้อมูลเพื่อสร้างนิพจน์ และถ้าคุณต้องการแก้ไขเขตข้อมูลจากการคำนวณที่มีอยู่! จากนั้นคุณสามารถทำได้โดยเพียงแค่เลือกฟิลด์ภายใต้ 'สมาชิกจากการคำนวณ'</value>
+    <value>ลากและวางฟิลด์เพื่อสร้างนิพจน์ และหากต้องการแก้ไขช่องจากการคำนวณที่มีอยู่! คุณสามารถทำได้โดยเพียงแค่เลือกฟิลด์ภายใต้ 'สมาชิกจากการคำนวณ'.</value>
   </data>
   <data name="PivotView_Cancel" xml:space="preserve">
     <value>ยกเลิก</value>
@@ -1183,7 +1183,7 @@
     <value>เจาะผ่าน</value>
   </data>
   <data name="PivotView_DrillThroughErrorMessage" xml:space="preserve">
-    <value>ไม่สามารถแสดงรายการวัตถุดิบของเขตข้อมูลจากการคำนวณ</value>
+    <value>ไม่สามารถแสดงรายการวัตถุดิบของเขตข้อมูลจากการคำนวณ.</value>
   </data>
   <data name="PivotView_Edit" xml:space="preserve">
     <value>แก้ไข</value>
@@ -1315,10 +1315,10 @@
     <value>รูปแบบไม่ถูกต้อง.</value>
   </data>
   <data name="PivotView_InvalidFormula" xml:space="preserve">
-    <value>สูตรไม่ถูกต้อง</value>
+    <value>สูตรไม่ถูกต้อง.</value>
   </data>
   <data name="PivotView_InvalidGroupSelectionMessage" xml:space="preserve">
-    <value>ไม่สามารถจัดกลุ่มการเลือกนั้น</value>
+    <value>ไม่สามารถจัดกลุ่มการเลือกนั้น.</value>
   </data>
   <data name="PivotView_JPEG" xml:space="preserve">
     <value>JPEG</value>
@@ -1360,7 +1360,7 @@
     <value>สมาชิก</value>
   </data>
   <data name="PivotView_MemberLimitMessage" xml:space="preserve">
-    <value>รายการเพิ่มเติม ค้นหาเพื่อปรับแต่งเพิ่มเติม</value>
+    <value>รายการเพิ่มเติม ค้นหาเพื่อปรับแต่งเพิ่มเติม.</value>
   </data>
   <data name="PivotView_Min" xml:space="preserve">
     <value>นาที</value>
@@ -1381,7 +1381,7 @@
     <value>สร้างรายงานใหม่</value>
   </data>
   <data name="PivotView_NewReportConfirmMessage" xml:space="preserve">
-    <value>ต้องการบันทึกการเปลี่ยนแปลงในรายงานหรือไม่</value>
+    <value>คุณต้องการบันทึกการเปลี่ยนแปลงในรายงานนี้หรือไม่?</value>
   </data>
   <data name="PivotView_NoFormatMessage" xml:space="preserve">
     <value>ไม่พบรูปแบบ !!!</value>
@@ -1480,7 +1480,7 @@
     <value>ลบ</value>
   </data>
   <data name="PivotView_RemoveReportConfirmMessage" xml:space="preserve">
-    <value>คุณต้องการลบรายงานนี้หรือไม่</value>
+    <value>คุณต้องการลบรายงานนี้หรือไม่?</value>
   </data>
   <data name="PivotView_RenameReport" xml:space="preserve">
     <value>เปลี่ยนชื่อรายงานปัจจุบัน</value>
@@ -1507,7 +1507,7 @@
     <value>ผลรวมการทำงาน</value>
   </data>
   <data name="PivotView_SampleReport" xml:space="preserve">
-    <value>รายงานตัวอย่าง</value>
+    <value>ตัวอย่างรายงาน</value>
   </data>
   <data name="PivotView_SampleStDev" xml:space="preserve">
     <value>ตัวอย่าง StDev</value>
@@ -1645,7 +1645,7 @@
     <value>การจัดรูปแบบตามเงื่อนไข...</value>
   </data>
   <data name="PivotView_CalculatedField_RemoveMessage" xml:space="preserve">
-    <value>คุณแน่ใจหรือว่าต้องการลบข้อมูลจากการคำนวณนี้</value>
+    <value>คุณแน่ใจหรือว่าต้องการลบข้อมูลจากการคำนวณนี้?</value>
   </data>
   <data name="PivotView_StackedArea" xml:space="preserve">
     <value>พื้นที่ซ้อน</value>
@@ -1669,13 +1669,13 @@
     <value>Spline</value>
   </data>
   <data name="PivotView_StackedColumn100" xml:space="preserve">
-    <value>คอลัมน์ซ้อน 100%</value>
+    <value>100% คอลัมน์ซ้อน</value>
   </data>
   <data name="PivotView_StackedBar100" xml:space="preserve">
-    <value>บาร์ซ้อน 100%</value>
+    <value>100% บาร์ซ้อน</value>
   </data>
   <data name="PivotView_StackedArea100" xml:space="preserve">
-    <value>พื้นที่ซ้อน 100%</value>
+    <value>100% พื้นที่ซ้อน</value>
   </data>
   <data name="PivotView_Bubble" xml:space="preserve">
     <value>ฟอง</value>
@@ -1876,85 +1876,85 @@
     <value>ไม่</value>
   </data>
   <data name="RichTextEditor_NumberFormatListNone" xml:space="preserve">
-    <value> ไม่มี </value>
+    <value>ไม่มี</value>
   </data>
   <data name="RichTextEditor_NumberFormatListNumber" xml:space="preserve">
-    <value> จำนวน </value>
+    <value>จำนวน</value>
   </data>
   <data name="RichTextEditor_NumberFormatListUpperAlpha" xml:space="preserve">
-    <value> อัลฟ่าตอนบน </value>
+    <value>อัลฟ่าตอนบน</value>
   </data>
   <data name="RichTextEditor_NumberFormatListLowerAlpha" xml:space="preserve">
-    <value> อัลฟ่าที่ต่ำกว่า </value>
+    <value>อัลฟ่าที่ต่ำกว่า</value>
   </data>
   <data name="RichTextEditor_NumberFormatListUpperRoman" xml:space="preserve">
-    <value> โรมันตอนบน </value>
+    <value>โรมันตอนบน</value>
   </data>
   <data name="RichTextEditor_NumberFormatListLowerRoman" xml:space="preserve">
-    <value> โรมันตอนล่าง </value>
+    <value>โรมันตอนล่าง</value>
   </data>
   <data name="RichTextEditor_NumberFormatListLowerGreek" xml:space="preserve">
-    <value> ภาษากรีกตอนล่าง </value>
+    <value>ภาษากรีกตอนล่าง</value>
   </data>
   <data name="RichTextEditor_BulletFormatListNone" xml:space="preserve">
-    <value> ไม่มี </value>
+    <value>ไม่มี</value>
   </data>
   <data name="RichTextEditor_BulletFormatListCircle" xml:space="preserve">
-    <value> วงกลม </value>
+    <value>วงกลม</value>
   </data>
   <data name="RichTextEditor_BulletFormatListSquare" xml:space="preserve">
-    <value> สแควร์ </value>
+    <value>สแควร์</value>
   </data>
   <data name="RichTextEditor_BulletFormatListDisc" xml:space="preserve">
-    <value> ดิสก์ </value>
+    <value>ดิสก์</value>
   </data>
   <data name="RichTextEditor_FormatsDropDownParagraph" xml:space="preserve">
-    <value> ย่อหน้า </value>
+    <value>ย่อหน้า</value>
   </data>
   <data name="RichTextEditor_FormatsDropDownCode" xml:space="preserve">
-    <value> รหัส </value>
+    <value>รหัส</value>
   </data>
   <data name="RichTextEditor_FormatsDropDownQuotation" xml:space="preserve">
-    <value> คำอ้างอิง </value>
+    <value>คำอ้างอิง</value>
   </data>
   <data name="RichTextEditor_FormatsDropDownHeading1" xml:space="preserve">
-    <value> หัวเรื่อง 1 </value>
+    <value>หัวเรื่อง 1</value>
   </data>
   <data name="RichTextEditor_FormatsDropDownHeading2" xml:space="preserve">
-    <value> หัวเรื่อง 2 </value>
+    <value>หัวเรื่อง 2</value>
   </data>
   <data name="RichTextEditor_FormatsDropDownHeading3" xml:space="preserve">
-    <value> หัวเรื่อง 3 </value>
+    <value>หัวเรื่อง 3</value>
   </data>
   <data name="RichTextEditor_FormatsDropDownHeading4" xml:space="preserve">
-    <value> หัวเรื่อง  4 </value>
+    <value>หัวเรื่อง  4</value>
   </data>
   <data name="RichTextEditor_FormatsDropDownHeading5" xml:space="preserve">
-    <value> หัวเรื่อง  5 </value>
+    <value>หัวเรื่อง  5</value>
   </data>
   <data name="RichTextEditor_FormatsDropDownHeading6" xml:space="preserve">
-    <value> หัวเรื่อง   6 </value>
+    <value>หัวเรื่อง   6</value>
   </data>
   <data name="RichTextEditor_FontNameSegoeUI" xml:space="preserve">
-    <value> Segoe UI </value>
+    <value>Segoe UI</value>
   </data>
   <data name="RichTextEditor_FontNameArial" xml:space="preserve">
-    <value> อาเรียล </value>
+    <value>อาเรียล</value>
   </data>
   <data name="RichTextEditor_FontNameGeorgia" xml:space="preserve">
-    <value> จอร์เจีย </value>
+    <value>จอร์เจีย</value>
   </data>
   <data name="RichTextEditor_FontNameImpact" xml:space="preserve">
-    <value> ผลกระทบ </value>
+    <value>ผลกระทบ</value>
   </data>
   <data name="RichTextEditor_FontNameTahoma" xml:space="preserve">
-    <value> ทาโฮมา </value>
+    <value>ทาโฮมา</value>
   </data>
   <data name="RichTextEditor_FontNameTimesNewRoman" xml:space="preserve">
-    <value> ครั้งใหม่โรมัน </value>
+    <value>ครั้งใหม่โรมัน</value>
   </data>
   <data name="RichTextEditor_FontNameVerdana" xml:space="preserve">
-    <value> เวอร์ดานา </value>
+    <value>เวอร์ดานา</value>
   </data>
   <data name="RichTextEditor_Alignments" xml:space="preserve">
     <value>การจัดแนว</value>
@@ -2485,16 +2485,16 @@
     <value>เพิ่มบันทึกใหม่</value>
   </data>
   <data name="Grid_BatchSaveConfirm" xml:space="preserve">
-    <value>คุณแน่ใจหรือว่าต้องการบันทึกการเปลี่ยนแปลง</value>
+    <value>คุณแน่ใจหรือว่าต้องการบันทึกการเปลี่ยนแปลง?</value>
   </data>
   <data name="Grid_BatchSaveLostChanges" xml:space="preserve">
-    <value>การเปลี่ยนแปลงที่ไม่ได้บันทึกจะสูญหายไป คุณแน่ใจหรือว่าต้องการดำเนินการต่อ</value>
+    <value>การเปลี่ยนแปลงที่ไม่ได้บันทึกจะสูญหายไป คุณแน่ใจหรือว่าต้องการดำเนินการต่อ?</value>
   </data>
   <data name="Grid_ConfirmDelete" xml:space="preserve">
-    <value>คุณแน่ใจหรือว่าต้องการลบบันทึก</value>
+    <value>คุณแน่ใจหรือว่าต้องการลบบันทึก?</value>
   </data>
   <data name="Grid_CancelEdit" xml:space="preserve">
-    <value>คุณแน่ใจหรือไม่ว่าต้องการยกเลิกการเปลี่ยนแปลง</value>
+    <value>คุณแน่ใจหรือไม่ว่าต้องการยกเลิกการเปลี่ยนแปลง?</value>
   </data>
   <data name="Grid_ChooseColumns" xml:space="preserve">
     <value>เลือกคอลัมน์</value>
@@ -2821,7 +2821,7 @@
     <value>เริ่มจาก</value>
   </data>
   <data name="Schedule_BlockAlert" xml:space="preserve">
-    <value>ไม่สามารถกำหนดเวลากิจกรรมภายในช่วงเวลาที่ถูกบล็อก</value>
+    <value>ไม่สามารถกำหนดเวลากิจกรรมภายในช่วงเวลาที่ถูกบล็อก.</value>
   </data>
   <data name="Schedule_Cancel" xml:space="preserve">
     <value>ยกเลิก</value>
@@ -2833,7 +2833,7 @@
     <value>ปิด</value>
   </data>
   <data name="Schedule_CreateError" xml:space="preserve">
-    <value>ระยะเวลาของกิจกรรมต้องสั้นกว่าความถี่ที่เกิดขึ้น ย่นระยะเวลาหรือเปลี่ยนรูปแบบการเกิดซ้ำในตัวแก้ไขเหตุการณ์ที่เกิดซ้ำ</value>
+    <value>ระยะเวลาของกิจกรรมต้องสั้นกว่าความถี่ที่เกิดขึ้น ย่นระยะเวลาหรือเปลี่ยนรูปแบบการเกิดซ้ำในตัวแก้ไขเหตุการณ์ที่เกิดซ้ำ.</value>
   </data>
   <data name="Schedule_CreateEvent" xml:space="preserve">
     <value>สร้าง</value>
@@ -2848,13 +2848,13 @@
     <value>ลบ</value>
   </data>
   <data name="Schedule_DeleteContent" xml:space="preserve">
-    <value>คุณแน่ใจหรือว่าต้องการลบกิจกรรมนี้</value>
+    <value>คุณแน่ใจหรือว่าต้องการลบกิจกรรมนี้?</value>
   </data>
   <data name="Schedule_DeleteEvent" xml:space="preserve">
     <value>กิจกรรมนี้</value>
   </data>
   <data name="Schedule_DeleteMultipleContent" xml:space="preserve">
-    <value>คุณแน่ใจหรือว่าต้องการลบกิจกรรมที่เลือก</value>
+    <value>คุณแน่ใจหรือว่าต้องการลบกิจกรรมที่เลือก?</value>
   </data>
   <data name="Schedule_DeleteMultipleEvent" xml:space="preserve">
     <value>ลบหลายเหตุการณ์</value>
@@ -2890,7 +2890,7 @@
     <value>แก้ไขกิจกรรม</value>
   </data>
   <data name="Schedule_EmptyContainer" xml:space="preserve">
-    <value>ไม่มีกิจกรรมที่กำหนดไว้ในวันนี้</value>
+    <value>ไม่มีกิจกรรมที่กำหนดไว้ในวันนี้.</value>
   </data>
   <data name="Schedule_End" xml:space="preserve">
     <value>ปลาย</value>
@@ -2905,7 +2905,7 @@
     <value>สิ้นสุดเขตเวลา</value>
   </data>
   <data name="Schedule_InvalidDateError" xml:space="preserve">
-    <value>ค่าวันที่ที่ป้อนไม่ถูกต้อง</value>
+    <value>ค่าวันที่ที่ป้อนไม่ถูกต้อง.</value>
   </data>
   <data name="Schedule_Location" xml:space="preserve">
     <value>ที่ตั้ง</value>
@@ -2962,7 +2962,7 @@
     <value>ซ้ำ</value>
   </data>
   <data name="Schedule_SameDayAlert" xml:space="preserve">
-    <value>เหตุการณ์เดียวกัน 2 ครั้ง ไม่สามารถเกิดขึ้นได้ในวันเดียวกัน</value>
+    <value>เหตุการณ์เดียวกัน 2 ครั้ง ไม่สามารถเกิดขึ้นได้ในวันเดียวกัน.</value>
   </data>
   <data name="Schedule_Save" xml:space="preserve">
     <value>บันทึก</value>
@@ -2980,7 +2980,7 @@
     <value>ชุด</value>
   </data>
   <data name="Schedule_SeriesChangeAlert" xml:space="preserve">
-    <value>คุณต้องการยกเลิกการเปลี่ยนแปลงที่ทำกับอินสแตนซ์เฉพาะของชุดนี้และจับคู่กับทั้งชุดอีกครั้งหรือไม่</value>
+    <value>คุณต้องการยกเลิกการเปลี่ยนแปลงที่ทำกับอินสแตนซ์เฉพาะของชุดนี้และจับคู่กับทั้งชุดอีกครั้งหรือไม่?</value>
   </data>
   <data name="Schedule_ShowingEventsUntil" xml:space="preserve">
     <value>กำลังแสดงกิจกรรมจนถึง</value>
@@ -2992,7 +2992,7 @@
     <value>เวลาเริ่มต้น</value>
   </data>
   <data name="Schedule_StartEndError" xml:space="preserve">
-    <value>วันที่สิ้นสุดที่เลือกเกิดขึ้นก่อนวันที่เริ่มต้น</value>
+    <value>วันที่สิ้นสุดที่เลือกเกิดขึ้นก่อนวันที่เริ่มต้น.</value>
   </data>
   <data name="Schedule_StartTimezone" xml:space="preserve">
     <value>เริ่มเขตเวลา</value>
@@ -3037,7 +3037,7 @@
     <value>วาระการทำงานประจำสัปดาห์</value>
   </data>
   <data name="Schedule_WrongPattern" xml:space="preserve">
-    <value>รูปแบบการเกิดซ้ำไม่ถูกต้อง</value>
+    <value>รูปแบบการเกิดซ้ำไม่ถูกต้อง.</value>
   </data>
   <data name="Schedule_Yes" xml:space="preserve">
     <value>ใช่</value>
@@ -3070,427 +3070,427 @@
     <value>สไลด์โชว์</value>
   </data>
   <data name="PdfViewer" xml:space="preserve">
-    <value> โปรแกรมดู PDF </value>
+    <value>โปรแกรมดู PDF</value>
   </data>
   <data name="PdfViewer_Cancel" xml:space="preserve">
-    <value> ยกเลิก</value>
+    <value>ยกเลิก</value>
   </data>
   <data name="PdfViewer_DownloadFile" xml:space="preserve">
-    <value> ดาวน์โหลดไฟล์</value>
+    <value>ดาวน์โหลดไฟล์</value>
   </data>
   <data name="PdfViewer_Download" xml:space="preserve">
-    <value> ดาวน์โหลด</value>
+    <value>ดาวน์โหลด</value>
   </data>
   <data name="PdfViewer_EnterPassword" xml:space="preserve">
-    <value> เอกสารนี้ได้รับการป้องกันด้วยรหัสผ่าน กรุณาใส่รหัสผ่าน</value>
+    <value>เอกสารนี้ได้รับการป้องกันด้วยรหัสผ่าน กรุณาใส่รหัสผ่าน.</value>
   </data>
   <data name="PdfViewer_FileCorrupted" xml:space="preserve">
-    <value> ไฟล์เสียหาย</value>
+    <value>ไฟล์เสียหาย</value>
   </data>
   <data name="PdfViewer_FileCorruptedContent" xml:space="preserve">
-    <value> ไฟล์เสียหายและไม่สามารถเปิดได้</value>
+    <value>ไฟล์เสียหายและไม่สามารถเปิดได้.</value>
   </data>
   <data name="PdfViewer_FitPage" xml:space="preserve">
-    <value> พอดีกับหน้า</value>
+    <value>พอดีกับหน้า</value>
   </data>
   <data name="PdfViewer_FitWidth" xml:space="preserve">
-    <value> ความกว้างพอดี</value>
+    <value>ความกว้างพอดี</value>
   </data>
   <data name="PdfViewer_Automatic" xml:space="preserve">
-    <value> อัตโนมัติ</value>
+    <value>อัตโนมัติ</value>
   </data>
   <data name="PdfViewer_GoToFirstPage" xml:space="preserve">
-    <value> แสดงหน้าแรก</value>
+    <value>แสดงหน้าแรก</value>
   </data>
   <data name="PdfViewer_InvalidPassword" xml:space="preserve">
-    <value> รหัสผ่านผิดพลาด. กรุณาลองอีกครั้ง.</value>
+    <value>รหัสผ่านผิดพลาด. กรุณาลองอีกครั้ง.</value>
   </data>
   <data name="PdfViewer_NextPage" xml:space="preserve">
-    <value> แสดงหน้าถัดไป</value>
+    <value>แสดงหน้าถัดไป</value>
   </data>
   <data name="PdfViewer_PreviousPage" xml:space="preserve">
-    <value> แสดงหน้าก่อนหน้า</value>
+    <value>แสดงหน้าก่อนหน้า</value>
   </data>
   <data name="PdfViewer_OK" xml:space="preserve">
-    <value> ตกลง</value>
+    <value>ตกลง</value>
   </data>
   <data name="PdfViewer_Open" xml:space="preserve">
-    <value> เปิดไฟล์</value>
+    <value>เปิดไฟล์</value>
   </data>
   <data name="PdfViewer_PageNumber" xml:space="preserve">
-    <value> หมายเลขหน้าปัจจุบัน</value>
+    <value>หมายเลขหน้าปัจจุบัน</value>
   </data>
   <data name="PdfViewer_GoToLastPage" xml:space="preserve">
-    <value> แสดงหน้าสุดท้าย</value>
+    <value>แสดงหน้าสุดท้าย</value>
   </data>
   <data name="PdfViewer_Zoom" xml:space="preserve">
-    <value> ซูม</value>
+    <value>ซูม</value>
   </data>
   <data name="PdfViewer_ZoomIn" xml:space="preserve">
-    <value> ขยายเข้า</value>
+    <value>ขยายเข้า</value>
   </data>
   <data name="PdfViewer_ZoomOut" xml:space="preserve">
-    <value> ซูมออก</value>
+    <value>ซูมออก</value>
   </data>
   <data name="PdfViewer_PageThumbnails" xml:space="preserve">
-    <value> ภาพขนาดย่อของหน้า</value>
+    <value>ภาพขนาดย่อของหน้า</value>
   </data>
   <data name="PdfViewer_Bookmarks" xml:space="preserve">
-    <value> ที่คั่น</value>
+    <value>ที่คั่น</value>
   </data>
   <data name="PdfViewer_Print" xml:space="preserve">
-    <value> พิมพ์ไฟล์</value>
+    <value>พิมพ์ไฟล์</value>
   </data>
   <data name="PdfViewer_PasswordProtected" xml:space="preserve">
-    <value> ต้องการรหัสผ่าน</value>
+    <value>ต้องการรหัสผ่าน</value>
   </data>
   <data name="PdfViewer_Copy" xml:space="preserve">
-    <value> สำเนา</value>
+    <value>สำเนา</value>
   </data>
   <data name="PdfViewer_TextSelection" xml:space="preserve">
-    <value> เครื่องมือเลือกข้อความ</value>
+    <value>เครื่องมือเลือกข้อความ</value>
   </data>
   <data name="PdfViewer_Panning" xml:space="preserve">
-    <value> โหมดแพน</value>
+    <value>โหมดแพน</value>
   </data>
   <data name="PdfViewer_TextSearch" xml:space="preserve">
-    <value> ค้นหาข้อความ</value>
+    <value>ค้นหาข้อความ</value>
   </data>
   <data name="PdfViewer_Findindocument" xml:space="preserve">
-    <value> ค้นหาในเอกสาร</value>
+    <value>ค้นหาในเอกสาร</value>
   </data>
   <data name="PdfViewer_Matchcase" xml:space="preserve">
-    <value> ตรงกับกรณี</value>
+    <value>ตรงกับกรณี</value>
   </data>
   <data name="PdfViewer_Apply" xml:space="preserve">
-    <value> ใช้</value>
+    <value>ใช้</value>
   </data>
   <data name="PdfViewer_GoToPage" xml:space="preserve">
-    <value> ไปที่หน้า</value>
+    <value>ไปที่หน้า</value>
   </data>
   <data name="PdfViewer_Nomatches" xml:space="preserve">
-    <value> Viewer ได้ค้นหาเอกสารเสร็จแล้ว ไม่พบข้อมูลที่ตรงกันอีก</value>
+    <value>Viewer ได้ค้นหาเอกสารเสร็จแล้ว ไม่พบข้อมูลที่ตรงกันอีก</value>
   </data>
   <data name="PdfViewer_NoTextFound" xml:space="preserve">
-    <value> ไม่พบข้อความ</value>
+    <value>ไม่พบข้อความ</value>
   </data>
   <data name="PdfViewer_Undo" xml:space="preserve">
-    <value> เลิกทำ</value>
+    <value>เลิกทำ</value>
   </data>
   <data name="PdfViewer_Redo" xml:space="preserve">
-    <value> ทำซ้ำ</value>
+    <value>ทำซ้ำ</value>
   </data>
   <data name="PdfViewer_Annotation" xml:space="preserve">
-    <value> เพิ่มหรือแก้ไขคำอธิบายประกอบ</value>
+    <value>เพิ่มหรือแก้ไขคำอธิบายประกอบ</value>
   </data>
   <data name="PdfViewer_Highlight" xml:space="preserve">
-    <value> ไฮไลต์ข้อความ</value>
+    <value>ไฮไลต์ข้อความ</value>
   </data>
   <data name="PdfViewer_Underline" xml:space="preserve">
-    <value> ข้อความขีดเส้นใต้</value>
+    <value>ข้อความขีดเส้นใต้</value>
   </data>
   <data name="PdfViewer_Strikethrough" xml:space="preserve">
-    <value> ข้อความขีดฆ่า</value>
+    <value>ข้อความขีดฆ่า</value>
   </data>
   <data name="PdfViewer_Delete" xml:space="preserve">
-    <value> ลบคำอธิบายประกอบ</value>
+    <value>ลบคำอธิบายประกอบ</value>
   </data>
   <data name="PdfViewer_Opacity" xml:space="preserve">
-    <value> ความทึบแสง</value>
+    <value>ความทึบแสง</value>
   </data>
   <data name="PdfViewer_ColorEdit" xml:space="preserve">
-    <value> เปลี่ยนสี</value>
+    <value>เปลี่ยนสี</value>
   </data>
   <data name="PdfViewer_OpacityEdit" xml:space="preserve">
-    <value> เปลี่ยนความทึบ</value>
+    <value>เปลี่ยนความทึบ</value>
   </data>
   <data name="PdfViewer_HighlightContext" xml:space="preserve">
-    <value> ไฮไลท์</value>
+    <value>ไฮไลท์</value>
   </data>
   <data name="PdfViewer_UnderlineContext" xml:space="preserve">
-    <value> ขีดเส้นใต้</value>
+    <value>ขีดเส้นใต้</value>
   </data>
   <data name="PdfViewer_StrikethroughContext" xml:space="preserve">
-    <value> โจมตีผ่าน</value>
+    <value>โจมตีผ่าน</value>
   </data>
   <data name="PdfViewer_Servererror" xml:space="preserve">
-    <value> บริการเว็บไม่ได้ฟัง โปรแกรมดู PDF ขึ้นอยู่กับบริการบนเว็บสำหรับคุณสมบัติทั้งหมด โปรดเริ่มบริการเว็บเพื่อดำเนินการต่อ</value>
+    <value>บริการเว็บไม่ได้ฟัง โปรแกรมดู PDF ขึ้นอยู่กับบริการบนเว็บสำหรับคุณสมบัติทั้งหมด โปรดเริ่มบริการเว็บเพื่อดำเนินการต่อ.</value>
   </data>
   <data name="PdfViewer_Clienterror" xml:space="preserve">
-    <value> พบข้อผิดพลาดฝั่งไคลเอ็นต์ โปรดตรวจสอบส่วนหัวที่กำหนดเองที่ให้ไว้ในคุณสมบัติ AjaxRequestSettings และวิธีการกระทำบนเว็บในคุณสมบัติ ServerActionSettings</value>
+    <value>พบข้อผิดพลาดฝั่งไคลเอ็นต์ โปรดตรวจสอบส่วนหัวที่กำหนดเองที่ให้ไว้ในคุณสมบัติ AjaxRequestSettings และวิธีการกระทำบนเว็บในคุณสมบัติ ServerActionSettings.</value>
   </data>
   <data name="PdfViewer_OpenText" xml:space="preserve">
-    <value> เปิด</value>
+    <value>เปิด</value>
   </data>
   <data name="PdfViewer_FirstText" xml:space="preserve">
-    <value> หน้าแรก</value>
+    <value>หน้าแรก</value>
   </data>
   <data name="PdfViewer_PreviousText" xml:space="preserve">
-    <value> หน้าก่อนหน้า</value>
+    <value>หน้าก่อนหน้า</value>
   </data>
   <data name="PdfViewer_NextText" xml:space="preserve">
-    <value> หน้าต่อไป</value>
+    <value>หน้าต่อไป</value>
   </data>
   <data name="PdfViewer_LastText" xml:space="preserve">
-    <value> หน้าสุดท้าย</value>
+    <value>หน้าสุดท้าย</value>
   </data>
   <data name="PdfViewer_ZoomInText" xml:space="preserve">
-    <value> ขยายเข้า</value>
+    <value>ขยายเข้า</value>
   </data>
   <data name="PdfViewer_ZoomOutText" xml:space="preserve">
-    <value> ซูมออก</value>
+    <value>ซูมออก</value>
   </data>
   <data name="PdfViewer_SelectionText" xml:space="preserve">
-    <value> การเลือก</value>
+    <value>การเลือก</value>
   </data>
   <data name="PdfViewer_PanText" xml:space="preserve">
-    <value> กระทะ</value>
+    <value>กระทะ</value>
   </data>
   <data name="PdfViewer_PrintText" xml:space="preserve">
-    <value> พิมพ์</value>
+    <value>พิมพ์</value>
   </data>
   <data name="PdfViewer_SearchText" xml:space="preserve">
-    <value> ค้นหา</value>
+    <value>ค้นหา</value>
   </data>
   <data name="PdfViewer_AnnotationEditText" xml:space="preserve">
-    <value> แก้ไขคำอธิบายประกอบ</value>
+    <value>แก้ไขคำอธิบายประกอบ</value>
   </data>
   <data name="PdfViewer_LineThickness" xml:space="preserve">
-    <value> ความหนาของเส้น</value>
+    <value>ความหนาของเส้น</value>
   </data>
   <data name="PdfViewer_LineProperties" xml:space="preserve">
-    <value> คุณสมบัติของเส้น</value>
+    <value>คุณสมบัติของเส้น</value>
   </data>
   <data name="PdfViewer_StartArrow" xml:space="preserve">
-    <value> เริ่มต้นลูกศร</value>
+    <value>เริ่มต้นลูกศร</value>
   </data>
   <data name="PdfViewer_EndArrow" xml:space="preserve">
-    <value> ลูกศรสิ้นสุด</value>
+    <value>ลูกศรสิ้นสุด</value>
   </data>
   <data name="PdfViewer_LineStyle" xml:space="preserve">
-    <value> สไตล์เส้น</value>
+    <value>สไตล์เส้น</value>
   </data>
   <data name="PdfViewer_FillColor" xml:space="preserve">
-    <value> เติมสี</value>
+    <value>เติมสี</value>
   </data>
   <data name="PdfViewer_LineColor" xml:space="preserve">
-    <value> สีของเส้น</value>
+    <value>สีของเส้น</value>
   </data>
   <data name="PdfViewer_None" xml:space="preserve">
-    <value> ไม่มี</value>
+    <value>ไม่มี</value>
   </data>
   <data name="PdfViewer_OpenArrow" xml:space="preserve">
-    <value> เปิด Arrow </value>
+    <value>เปิด Arrow</value>
   </data>
   <data name="PdfViewer_ClosedArrow" xml:space="preserve">
-    <value> ลูกศรปิด</value>
+    <value>ลูกศรปิด</value>
   </data>
   <data name="PdfViewer_RoundArrow" xml:space="preserve">
-    <value> ลูกศรทรงกลม</value>
+    <value>ลูกศรทรงกลม</value>
   </data>
   <data name="PdfViewer_SquareArrow" xml:space="preserve">
-    <value> ลูกศรสแควร์</value>
+    <value>ลูกศรสแควร์</value>
   </data>
   <data name="PdfViewer_DiamondArrow" xml:space="preserve">
-    <value> ลูกศรเพชร</value>
+    <value>ลูกศรเพชร</value>
   </data>
   <data name="PdfViewer_Cut" xml:space="preserve">
-    <value> ตัด</value>
+    <value>ตัด</value>
   </data>
   <data name="PdfViewer_Paste" xml:space="preserve">
-    <value> วาง</value>
+    <value>วาง</value>
   </data>
   <data name="PdfViewer_DeleteContext" xml:space="preserve">
-    <value> ลบ</value>
+    <value>ลบ</value>
   </data>
   <data name="PdfViewer_Properties" xml:space="preserve">
-    <value> คุณสมบัติ</value>
+    <value>คุณสมบัติ</value>
   </data>
   <data name="PdfViewer_AddStamp" xml:space="preserve">
-    <value> เพิ่มแสตมป์</value>
+    <value>เพิ่มแสตมป์</value>
   </data>
   <data name="PdfViewer_AddShapes" xml:space="preserve">
-    <value> เพิ่มรูปร่าง</value>
+    <value>เพิ่มรูปร่าง</value>
   </data>
   <data name="PdfViewer_StrokeEdit" xml:space="preserve">
     <value>เปลี่ยนสีโรคหลอดเลือดสมอง</value>
   </data>
   <data name="PdfViewer_ChangeThickness" xml:space="preserve">
-    <value> เปลี่ยนความหนาชายแดน</value>
+    <value>เปลี่ยนความหนาชายแดน</value>
   </data>
   <data name="PdfViewer_Addline" xml:space="preserve">
-    <value> เพิ่มบรรทัด</value>
+    <value>เพิ่มบรรทัด</value>
 </data>
   <data name="PdfViewer_AddArrow" xml:space="preserve">
-    <value> เพิ่มลูกศร</value>
+    <value>เพิ่มลูกศร</value>
   </data>
   <data name="PdfViewer_AddRectangle" xml:space="preserve">
-    <value> เพิ่มสี่เหลี่ยมผืนผ้า</value>
+    <value>เพิ่มสี่เหลี่ยมผืนผ้า</value>
   </data>
   <data name="PdfViewer_AddCircle" xml:space="preserve">
-    <value> เพิ่มแวดวง</value>
+    <value>เพิ่มแวดวง</value>
   </data>
   <data name="PdfViewer_AddPolygon" xml:space="preserve">
-    <value> เพิ่มรูปหลายเหลี่ยม</value>
+    <value>เพิ่มรูปหลายเหลี่ยม</value>
   </data>
   <data name="PdfViewer_AddComments" xml:space="preserve">
-    <value> เพิ่มความคิดเห็น</value>
+    <value>เพิ่มความคิดเห็น</value>
   </data>
   <data name="PdfViewer_Comments" xml:space="preserve">
-    <value> ความคิดเห็น</value>
+    <value>ความคิดเห็น</value>
   </data>
   <data name="PdfViewer_NoCommentsYet" xml:space="preserve">
-    <value> ยังไม่มีความคิดเห้น</value>
+    <value>ยังไม่มีความคิดเห้น</value>
   </data>
   <data name="PdfViewer_Accepted" xml:space="preserve">
-    <value> ได้รับการยอมรับ</value>
+    <value>ได้รับการยอมรับ</value>
   </data>
   <data name="PdfViewer_Completed" xml:space="preserve">
-    <value> เสร็จ</value>
+    <value>เสร็จ</value>
   </data>
   <data name="PdfViewer_Cancelled" xml:space="preserve">
-    <value> ยกเลิก</value>
+    <value>ยกเลิก</value>
   </data>
   <data name="PdfViewer_Rejected" xml:space="preserve">
-    <value> ปฏิเสธ</value>
+    <value>ปฏิเสธ</value>
   </data>
   <data name="PdfViewer_LeaderLength" xml:space="preserve">
-    <value> ความยาวของผู้นำ</value>
+    <value>ความยาวของผู้นำ</value>
   </data>
   <data name="PdfViewer_ScaleRatio" xml:space="preserve">
-    <value> อัตราส่วนสเกล</value>
+    <value>อัตราส่วนสเกล</value>
   </data>
   <data name="PdfViewer_Calibrate" xml:space="preserve">
-    <value> Calibrate </value>
+    <value>Calibrate</value>
   </data>
   <data name="PdfViewer_CalibrateDistance" xml:space="preserve">
-    <value> ปรับเทียบระยะทาง</value>
+    <value>ปรับเทียบระยะทาง</value>
   </data>
   <data name="PdfViewer_CalibratePerimeter" xml:space="preserve">
-    <value> ปรับเทียบขอบเขต</value>
+    <value>ปรับเทียบขอบเขต</value>
   </data>
   <data name="PdfViewer_CalibrateArea" xml:space="preserve">
-    <value> พื้นที่สอบเทียบ</value>
+    <value>พื้นที่สอบเทียบ</value>
   </data>
   <data name="PdfViewer_CalibrateRadius" xml:space="preserve">
-    <value> ปรับเทียบรัศมี</value>
+    <value>ปรับเทียบรัศมี</value>
   </data>
   <data name="PdfViewer_CalibrateVolume" xml:space="preserve">
-    <value> ปรับเทียบปริมาตร</value>
+    <value>ปรับเทียบปริมาตร</value>
   </data>
   <data name="PdfViewer_Depth" xml:space="preserve">
-    <value> ความลึก</value>
+    <value>ความลึก</value>
   </data>
   <data name="PdfViewer_Closed" xml:space="preserve">
-    <value> ปิด</value>
+    <value>ปิด</value>
   </data>
   <data name="PdfViewer_Round" xml:space="preserve">
-    <value> รอบ</value>
+    <value>รอบ</value>
   </data>
   <data name="PdfViewer_Square" xml:space="preserve">
-    <value> สี่เหลี่ยม</value>
+    <value>สี่เหลี่ยม</value>
   </data>
   <data name="PdfViewer_Diamond" xml:space="preserve">
-    <value> เพชร</value>
+    <value>เพชร</value>
   </data>
   <data name="PdfViewer_Edit" xml:space="preserve">
-    <value> แก้ไข</value>
+    <value>แก้ไข</value>
   </data>
   <data name="PdfViewer_Comment" xml:space="preserve">
-    <value> คิดเห็น</value>
+    <value>คิดเห็น</value>
   </data>
   <data name="PdfViewer_CommentPanel" xml:space="preserve">
-    <value> แผงความคิดเห็น</value>
+    <value>แผงความคิดเห็น</value>
   </data>
   <data name="PdfViewer_SetStatus" xml:space="preserve">
-    <value> กำหนดสถานะ</value>
+    <value>กำหนดสถานะ</value>
   </data>
   <data name="PdfViewer_Post" xml:space="preserve">
-    <value> เสา</value>
+    <value>เสา</value>
   </data>
   <data name="PdfViewer_Page" xml:space="preserve">
-    <value> หน้า</value>
+    <value>หน้า</value>
   </data>
   <data name="PdfViewer_AddComment" xml:space="preserve">
-    <value> เพิ่มความคิดเห็น</value>
+    <value>เพิ่มความคิดเห็น</value>
   </data>
   <data name="PdfViewer_AddReply" xml:space="preserve">
-    <value> เพิ่มการตอบกลับ</value>
+    <value>เพิ่มการตอบกลับ</value>
   </data>
   <data name="PdfViewer_ImportAnnotations" xml:space="preserve">
-    <value> นำเข้าคำอธิบายประกอบ</value>
+    <value>นำเข้าคำอธิบายประกอบ</value>
   </data>
   <data name="PdfViewer_ExportAnnotations" xml:space="preserve">
-    <value> ส่งออกคำอธิบายประกอบ</value>
+    <value>ส่งออกคำอธิบายประกอบ</value>
   </data>
   <data name="PdfViewer_Add" xml:space="preserve">
-    <value> เพิ่ม</value>
+    <value>เพิ่ม</value>
   </data>
   <data name="PdfViewer_Clear" xml:space="preserve">
-    <value> ชัดเจน</value>
+    <value>ชัดเจน</value>
   </data>
   <data name="PdfViewer_Bold" xml:space="preserve">
-    <value> กล้า</value>
+    <value>กล้า</value>
   </data>
   <data name="PdfViewer_Italic" xml:space="preserve">
-    <value> ตัวเอียง</value>
+    <value>ตัวเอียง</value>
   </data>
   <data name="PdfViewer_Strikethroughs" xml:space="preserve">
-    <value> ขีดฆ่า</value>
+    <value>ขีดฆ่า</value>
   </data>
   <data name="PdfViewer_Underlines" xml:space="preserve">
-    <value> ขีดเส้นใต้</value>
+    <value>ขีดเส้นใต้</value>
   </data>
   <data name="PdfViewer_Superscript" xml:space="preserve">
-    <value> ซึ่งเขียน</value>
+    <value>ซึ่งเขียน</value>
   </data>
   <data name="PdfViewer_Subscript" xml:space="preserve">
-    <value> ห้อย</value>
+    <value>ห้อย</value>
   </data>
   <data name="PdfViewer_AlignLeft" xml:space="preserve">
-    <value> จัดชิดซ้าย</value>
+    <value>จัดชิดซ้าย</value>
   </data>
   <data name="PdfViewer_AlignRight" xml:space="preserve">
-    <value> จัดชิดขวา</value>
+    <value>จัดชิดขวา</value>
   </data>
   <data name="PdfViewer_Center" xml:space="preserve">
-    <value> ศูนย์</value>
+    <value>ศูนย์</value>
   </data>
   <data name="PdfViewer_Justify" xml:space="preserve">
-    <value> แสดงให้เห็นถึง</value>
+    <value>แสดงให้เห็นถึง</value>
   </data>
   <data name="PdfViewer_FontColor" xml:space="preserve">
-    <value> สีตัวอักษร</value>
+    <value>สีตัวอักษร</value>
   </data>
   <data name="PdfViewer_TextAlign" xml:space="preserve">
-    <value> จัดข้อความ</value>
+    <value>จัดข้อความ</value>
   </data>
   <data name="PdfViewer_TextProperties" xml:space="preserve">
-    <value> รูปแบบตัวอักษร</value>
+    <value>รูปแบบตัวอักษร</value>
   </data>
   <data name="PdfViewer_DrawSignature" xml:space="preserve">
-    <value> วาดลายเซ็น</value>
+    <value>วาดลายเซ็น</value>
   </data>
   <data name="PdfViewer_Create" xml:space="preserve">
-    <value> สร้าง</value>
+    <value>สร้าง</value>
   </data>
   <data name="PdfViewer_FontFamily" xml:space="preserve">
-    <value> ตระกูลแบบอักษร</value>
+    <value>ตระกูลแบบอักษร</value>
   </data>
   <data name="PdfViewer_FontSize" xml:space="preserve">
-    <value> ขนาดตัวอักษร</value>
+    <value>ขนาดตัวอักษร</value>
   </data>
   <data name="PdfViewer_FreeText" xml:space="preserve">
-    <value> ข้อความฟรี</value>
+    <value>ข้อความฟรี</value>
   </data>
   <data name="PdfViewer_ImportFailed" xml:space="preserve">
-    <value> ประเภทไฟล์ JSON หรือชื่อไฟล์ไม่ถูกต้อง โปรดเลือกไฟล์ JSON ที่ถูกต้อง</value>
+    <value>ประเภทไฟล์ JSON หรือชื่อไฟล์ไม่ถูกต้อง โปรดเลือกไฟล์ JSON ที่ถูกต้อง</value>
   </data>
   <data name="PdfViewer_FileNotFound" xml:space="preserve">
-    <value> ไม่พบไฟล์ JSON ที่นำเข้าในตำแหน่งที่ต้องการ</value>
+    <value>ไม่พบไฟล์ JSON ที่นำเข้าในตำแหน่งที่ต้องการ</value>
   </data>
   <data name="PdfViewer_ExportFailed" xml:space="preserve">
-    <value> การดำเนินการคำอธิบายประกอบในการส่งออกล้มเหลว โปรดตรวจสอบว่ามีการเพิ่มคำอธิบายประกอบอย่างถูกต้อง</value>
+    <value>การดำเนินการคำอธิบายประกอบในการส่งออกล้มเหลว โปรดตรวจสอบว่ามีการเพิ่มคำอธิบายประกอบอย่างถูกต้อง</value>
   </data>
   <data name="PdfViewer_Draw_hand_Signature" xml:space="preserve">
     <value>วาด</value>
@@ -3766,7 +3766,7 @@
     <value>แสดงหมายเลขหน้า</value>
   </data>
   <data name="DocumentEditor_RightAlignPageNumbers" xml:space="preserve">
-    <value>จัดเรียงหมายเลขหน้าขวา</value>
+    <value>จัดเรียงหมายเลขหน้าขวา.</value>
   </data>
   <data name="DocumentEditor_Nothing" xml:space="preserve">
     <value>ไม่มีอะไร</value>
@@ -4324,7 +4324,7 @@
     <value>ข้อยกเว้น (ไม่จำเป็น)</value>
   </data>
   <data name="DocumentEditor_SelectPartOfDocumentAndUser" xml:space="preserve">
-    <value>เลือกส่วนของเอกสารและเลือกผู้ใช้ที่ได้รับอนุญาตให้แก้ไขได้อย่างอิสระ</value>
+    <value>เลือกส่วนของเอกสารและเลือกผู้ใช้ที่ได้รับอนุญาตให้แก้ไขได้อย่างอิสระ.</value>
   </data>
   <data name="DocumentEditor_Everyone" xml:space="preserve">
     <value>ทุกคน</value>
@@ -4357,10 +4357,10 @@
     <value>สิทธิ์ของคุณ</value>
   </data>
   <data name="DocumentEditor_ProtectedDocument" xml:space="preserve">
-    <value>เอกสารนี้ได้รับการคุ้มครองจากการแก้ไขโดยไม่ได้ตั้งใจ</value>
+    <value>เอกสารนี้ได้รับการคุ้มครองจากการแก้ไขโดยไม่ได้ตั้งใจ.</value>
   </data>
   <data name="DocumentEditor_YouMayFormatTextOnlyWithCertainStyles" xml:space="preserve">
-    <value>คุณสามารถจัดรูปแบบข้อความด้วยสไตล์ที่แน่นอนเท่านั้น</value>
+    <value>คุณสามารถจัดรูปแบบข้อความด้วยสไตล์ที่แน่นอนเท่านั้น.</value>
   </data>
   <data name="DocumentEditor_StopProtection" xml:space="preserve">
     <value>หยุดการป้องกัน</value>
@@ -4465,13 +4465,13 @@
     <value>ยกเลิกการโพสต์ความคิดเห็น</value>
   </data>
   <data name="DocumentEditor_DiscardComment" xml:space="preserve">
-    <value>ความคิดเห็นที่เพิ่มไม่ได้โพสต์ หากคุณดำเนินการต่อความคิดเห็นนั้นจะถูกยกเลิก</value>
+    <value>ความคิดเห็นที่เพิ่มไม่ได้โพสต์ หากคุณดำเนินการต่อความคิดเห็นนั้นจะถูกยกเลิก.</value>
   </data>
   <data name="DocumentEditor_NoHeadings" xml:space="preserve">
     <value>ไม่พบหัวเรื่อง!</value>
   </data>
   <data name="DocumentEditor_AddHeadings" xml:space="preserve">
-    <value>เอกสารนี้ไม่มีส่วนหัว โปรดเพิ่มส่วนหัวแล้วลองอีกครั้ง</value>
+    <value>เอกสารนี้ไม่มีหัวข้อ โปรดเพิ่มหัวเรื่องแล้วลองอีกครั้ง.</value>
   </data>
   <data name="DocumentEditor_MoreOptions" xml:space="preserve">
     <value>ตัวเลือกเพิ่มเติม</value>
@@ -4603,7 +4603,7 @@
     <value>ยกเลิกการป้องกันเอกสาร</value>
   </data>
   <data name="DocumentEditor_FormFieldsOnly" xml:space="preserve">
-    <value>คุณสามารถกรอกแบบฟอร์มได้เฉพาะในภูมิภาคนี้เท่านั้น</value>
+    <value>คุณสามารถกรอกแบบฟอร์มได้เฉพาะในภูมิภาคนี้เท่านั้น.</value>
   </data>
   <data name="DocumentEditor_IndentsAndSpacing" xml:space="preserve">
     <value>การควบคุมแม่ม่าย/เด็กกำพร้า</value>
@@ -4626,127 +4626,127 @@
   <data name="DocumentEditor_ScreenTip" xml:space="preserve">
        <value>ข้อความแนะนำหน้าจอ</value>
 </data>
-<data name="DocumentEditor_KeepSource" xml:space="preserve">
+  <data name="DocumentEditor_KeepSource" xml:space="preserve">
        <value>เก็บการจัดรูปแบบต้นฉบับ</value>
 </data>
-<data name="DocumentEditor_DestinationFormat" xml:space="preserve">
+  <data name="DocumentEditor_DestinationFormat" xml:space="preserve">
        <value>จับคู่รูปแบบปลายทาง</value>
 </data>
-<data name="DocumentEditor_CommentsOnly" xml:space="preserve">
-       <value>คุณสามารถแทรกความคิดเห็นในภูมิภาคนี้เท่านั้น</value>
+  <data name="DocumentEditor_CommentsOnly" xml:space="preserve">
+       <value>คุณสามารถแทรกความคิดเห็นในภูมิภาคนี้เท่านั้น.</value>
 </data>
-<data name="DocumentEditor_RowRange" xml:space="preserve">
-       <value>จำนวนแถวต้องอยู่ระหว่าง 1 ถึง 32767</value>
+  <data name="DocumentEditor_RowRange" xml:space="preserve">
+       <value>จำนวนแถวต้องอยู่ระหว่าง 1 ถึง 32767.</value>
 </data>
-<data name="DocumentEditor_ColumnRange" xml:space="preserve">
-       <value>จำนวนคอลัมน์ต้องอยู่ระหว่าง 1 ถึง 63</value>
+  <data name="DocumentEditor_ColumnRange" xml:space="preserve">
+       <value>จำนวนคอลัมน์ต้องอยู่ระหว่าง 1 ถึง 63.</value>
 </data>
-<data name="DocumentEditor_Information" xml:space="preserve">
+  <data name="DocumentEditor_Information" xml:space="preserve">
        <value>ข้อมูล</value>
 </data>
-<data name="DocumentEditor_Dot" xml:space="preserve">
+  <data name="DocumentEditor_Dot" xml:space="preserve">
        <value>ดอทหี</value>
 </data>
-<data name="DocumentEditor_DashSmallGap" xml:space="preserve">
+  <data name="DocumentEditor_DashSmallGap" xml:space="preserve">
        <value>เส้นประเส้นประเส้นโค้งเล็ก</value>
 </data>
-<data name="DocumentEditor_DashDot" xml:space="preserve">
+  <data name="DocumentEditor_DashDot" xml:space="preserve">
        <value>เส้นประจุด</value>
 </data>
-<data name="DocumentEditor_ThinThickSmallGap" xml:space="preserve">
+  <data name="DocumentEditor_ThinThickSmallGap" xml:space="preserve">
        <value>ช่องว่างเล็ก ๆ หนาบาง</value>
 </data>
-<data name="DocumentEditor_ThickThinSmallGap" xml:space="preserve">
+  <data name="DocumentEditor_ThickThinSmallGap" xml:space="preserve">
        <value>ช่องว่างเล็ก ๆ หนาบาง</value>
 </data>
-<data name="DocumentEditor_ThickThinMediumGap" xml:space="preserve">
+  <data name="DocumentEditor_ThickThinMediumGap" xml:space="preserve">
        <value>ช่องว่างปานกลางหนาบาง</value>
 </data>
-<data name="DocumentEditor_ThickThinLargeGap" xml:space="preserve">
+  <data name="DocumentEditor_ThickThinLargeGap" xml:space="preserve">
        <value>ช่องว่างขนาดใหญ่บางหนา</value>
 </data>
-<data name="DocumentEditor_SingleWavy" xml:space="preserve">
+  <data name="DocumentEditor_SingleWavy" xml:space="preserve">
        <value>หยักเดียว</value>
 </data>
-<data name="DocumentEditor_DoubleWavy" xml:space="preserve">
+  <data name="DocumentEditor_DoubleWavy" xml:space="preserve">
        <value>หยักคู่</value>
 </data>
-<data name="DocumentEditor_Inset" xml:space="preserve">
+  <data name="DocumentEditor_Inset" xml:space="preserve">
        <value>สิ่งที่ใส่เข้าไป</value>
 </data>
-<data name="DocumentEditor_DashLargeGap" xml:space="preserve">
+  <data name="DocumentEditor_DashLargeGap" xml:space="preserve">
        <value>เส้นประช่วงกว้าง</value>
 </data>
-<data name="DocumentEditor_DashDotDot" xml:space="preserve">
+  <data name="DocumentEditor_DashDotDot" xml:space="preserve">
        <value>เส้นประจุดจุด</value>
 </data>
-<data name="DocumentEditor_Triple" xml:space="preserve">
+  <data name="DocumentEditor_Triple" xml:space="preserve">
        <value>ทริปเปิ้ล</value>
 </data>
-<data name="DocumentEditor_ThinThickThinSmallGap" xml:space="preserve">
+  <data name="DocumentEditor_ThinThickThinSmallGap" xml:space="preserve">
        <value>บาง หนา บาง ช่องว่างเล็ก</value>
 </data>
-<data name="DocumentEditor_ThinThickThinMediumGap" xml:space="preserve">
+  <data name="DocumentEditor_ThinThickThinMediumGap" xml:space="preserve">
        <value>บาง หนา บาง กลาง ช่องว่าง</value>
 </data>
-<data name="DocumentEditor_ThinThickThinLargeGap" xml:space="preserve">
+  <data name="DocumentEditor_ThinThickThinLargeGap" xml:space="preserve">
        <value>บาง หนา บาง ใหญ่ ช่องว่าง</value>
 </data>
-<data name="DocumentEditor_DashDotStroked" xml:space="preserve">
+  <data name="DocumentEditor_DashDotStroked" xml:space="preserve">
        <value>เส้นประจุดขีด</value>
 </data>
-<data name="DocumentEditor_Engrave3D" xml:space="preserve">
+  <data name="DocumentEditor_Engrave3D" xml:space="preserve">
        <value>แกะสลัก3D</value>
 </data>
-<data name="DocumentEditor_Thick" xml:space="preserve">
+  <data name="DocumentEditor_Thick" xml:space="preserve">
        <value>หนา</value>
 </data>
-<data name="DocumentEditor_Outset" xml:space="preserve">
+  <data name="DocumentEditor_Outset" xml:space="preserve">
        <value>เริ่มแรก</value>
 </data>
-<data name="DocumentEditor_Emboss3D" xml:space="preserve">
+  <data name="DocumentEditor_Emboss3D" xml:space="preserve">
        <value>นูนขึ้น3D</value>
 </data>
-<data name="DocumentEditor_ThinThickLargeGap" xml:space="preserve">
+  <data name="DocumentEditor_ThinThickLargeGap" xml:space="preserve">
        <value>ช่องว่างขนาดใหญ่บางหนา</value>
 </data>
-<data name="DocumentEditor_ThinThickMediumGap" xml:space="preserve">
+  <data name="DocumentEditor_ThinThickMediumGap" xml:space="preserve">
        <value>บาง หนา ปานกลาง ช่องว่าง</value>
 </data>
-<data name="DocumentEditor_RegularText" xml:space="preserve">
+  <data name="DocumentEditor_RegularText" xml:space="preserve">
        <value>ข้อความปกติ</value>
 </data>
-<data name="DocumentEditor_Date" xml:space="preserve">
+  <data name="DocumentEditor_Date" xml:space="preserve">
        <value>วันที่</value>
 </data>
-<data name="DocumentEditor_Uppercase" xml:space="preserve">
+  <data name="DocumentEditor_Uppercase" xml:space="preserve">
        <value>ตัวพิมพ์ใหญ่</value>
 </data>
-<data name="DocumentEditor_Lowercase" xml:space="preserve">
+  <data name="DocumentEditor_Lowercase" xml:space="preserve">
        <value>ตัวพิมพ์เล็ก</value>
 </data>
-<data name="DocumentEditor_FirstCapital" xml:space="preserve">
+  <data name="DocumentEditor_FirstCapital" xml:space="preserve">
        <value>เฟิร์สแคปิตอล</value>
 </data>
-<data name="DocumentEditor_Titlecase" xml:space="preserve">
+  <data name="DocumentEditor_Titlecase" xml:space="preserve">
        <value>ชื่อเรื่อง</value>
 </data>
-<data name="DocumentEditor_MoveFrom" xml:space="preserve">
+  <data name="DocumentEditor_MoveFrom" xml:space="preserve">
        <value>ย้ายจาก</value>
 </data>
-<data name="DocumentEditor_MoveTo" xml:space="preserve">
+  <data name="DocumentEditor_MoveTo" xml:space="preserve">
        <value>ย้ายไป</value>
 </data>
-<data name="DocumentEditor_Px" xml:space="preserve">
+  <data name="DocumentEditor_Px" xml:space="preserve">
        <value>px</value>
 </data>
-<data name="DocumentEditor_ReadOnlyProtection" xml:space="preserve">
-       <value>คุณสามารถแก้ไขได้ในภูมิภาคนี้</value>
+  <data name="DocumentEditor_ReadOnlyProtection" xml:space="preserve">
+       <value>คุณสามารถแก้ไขได้ในภูมิภาคนี้.</value>
 </data>
-<data name="DocumentEditorContainer_RegularTooltip" xml:space="preserve">
+  <data name="DocumentEditorContainer_RegularTooltip" xml:space="preserve">
        <value>ปกติ</value>
 </data>
-<data name="DocumentEditorContainer_BoldItalicTooltip" xml:space="preserve">
+  <data name="DocumentEditorContainer_BoldItalicTooltip" xml:space="preserve">
        <value>ตัวเอียงหนา</value>
 </data>
   <data name="DocumentEditorContainer_New" xml:space="preserve">
@@ -4834,13 +4834,13 @@
     <value>หน้าแรกที่แตกต่างกัน</value>
   </data>
   <data name="DocumentEditorContainer_DifferentHeaderAndFooterForOddAndEvenPages" xml:space="preserve">
-    <value>ส่วนหัวและส่วนท้ายที่แตกต่างกันสำหรับหน้าคี่และคู่</value>
+    <value>ส่วนหัวและส่วนท้ายที่แตกต่างกันสำหรับหน้าคี่และคู่.</value>
   </data>
   <data name="DocumentEditorContainer_DifferentOddAndEvenPages" xml:space="preserve">
     <value>หน้าคี่และคู่ที่แตกต่างกัน</value>
   </data>
   <data name="DocumentEditorContainer_DifferentHeaderAndFooterForFirstPage" xml:space="preserve">
-    <value>ส่วนหัวและส่วนท้ายที่แตกต่างกันสำหรับหน้าแรก</value>
+    <value>ส่วนหัวและส่วนท้ายที่แตกต่างกันสำหรับหน้าแรก.</value>
   </data>
   <data name="DocumentEditorContainer_Position" xml:space="preserve">
     <value>ตำแหน่ง</value>
@@ -4852,10 +4852,10 @@
     <value>ส่วนท้ายจากด้านล่าง</value>
   </data>
   <data name="DocumentEditorContainer_DistanceFromTopOfThePageToTopOfTheHeader" xml:space="preserve">
-    <value>ระยะทางจากด้านบนของหน้าไปยังด้านบนของส่วนหัว</value>
+    <value>ระยะทางจากด้านบนของหน้าไปยังด้านบนของส่วนหัว.</value>
   </data>
   <data name="DocumentEditorContainer_DistanceFromBottomOfThePageToBottomOfTheFooter" xml:space="preserve">
-    <value>ระยะทางจากด้านล่างของหน้าไปยังด้านล่างของส่วนท้าย</value>
+    <value>ระยะทางจากด้านล่างของหน้าไปยังด้านล่างของส่วนท้าย.</value>
   </data>
   <data name="DocumentEditorContainer_AspectRatio" xml:space="preserve">
     <value>อัตราส่วนภาพ</value>
@@ -4975,25 +4975,25 @@
     <value>จัดกึ่งกลาง</value>
   </data>
   <data name="DocumentEditorContainer_NumberOfHeadingOrOutlineLevelsToBeShownInTableOfContents" xml:space="preserve">
-    <value>จำนวนระดับหัวเรื่องหรือเค้าร่างที่จะแสดงในสารบัญ</value>
+    <value>จำนวนระดับหัวเรื่องหรือเค้าร่างที่จะแสดงในสารบัญ.</value>
   </data>
   <data name="DocumentEditorContainer_ShowPageNumbers" xml:space="preserve">
     <value>แสดงหมายเลขหน้า</value>
   </data>
   <data name="DocumentEditorContainer_ShowPageNumbersInTableOfContents" xml:space="preserve">
-    <value>แสดงหมายเลขหน้าในสารบัญ</value>
+    <value>แสดงหมายเลขหน้าในสารบัญ.</value>
   </data>
   <data name="DocumentEditorContainer_RightAlignPageNumbers" xml:space="preserve">
-    <value>จัดเรียงหมายเลขหน้าขวา</value>
+    <value>จัดเรียงหมายเลขหน้าขวา.</value>
   </data>
   <data name="DocumentEditorContainer_RightAlignPageNumbersInTableOfContents" xml:space="preserve">
-    <value>จัดเรียงหมายเลขหน้าขวาในสารบัญ</value>
+    <value>จัดเรียงหมายเลขหน้าขวาในสารบัญ.</value>
   </data>
   <data name="DocumentEditorContainer_UseHyperlinks" xml:space="preserve">
     <value>ใช้การเชื่อมโยงหลายมิติ</value>
   </data>
   <data name="DocumentEditorContainer_UseHyperlinksInsteadOfPageNumbers" xml:space="preserve">
-    <value>ใช้การเชื่อมโยงหลายมิติแทนหมายเลขหน้า</value>
+    <value>ใช้การเชื่อมโยงหลายมิติแทนหมายเลขหน้า.</value>
   </data>
   <data name="DocumentEditorContainer_Font" xml:space="preserve">
     <value>ตัวอักษร</value>
@@ -5092,49 +5092,49 @@
     <value>ไม่มีขอบ</value>
   </data>
   <data name="DocumentEditorContainer_CreateANewDocument" xml:space="preserve">
-    <value>สร้างเอกสารใหม่</value>
+    <value>สร้างเอกสารใหม่.</value>
   </data>
   <data name="DocumentEditorContainer_OpenADocument" xml:space="preserve">
-    <value>เปิดเอกสาร</value>
+    <value>เปิดเอกสาร.</value>
   </data>
   <data name="DocumentEditorContainer_UndoTooltip" xml:space="preserve">
-    <value>เลิกทำการทำงานล่าสุด (Ctrl + Z)</value>
+    <value>เลิกทำการทำงานล่าสุด (Ctrl + Z).</value>
   </data>
   <data name="DocumentEditorContainer_RedoTooltip" xml:space="preserve">
-    <value>ทำซ้ำการทำงานล่าสุด (Ctrl + Y)</value>
+    <value>ทำซ้ำการทำงานล่าสุด (Ctrl + Y).</value>
   </data>
   <data name="DocumentEditorContainer_InsertInlinePictureFromAFile" xml:space="preserve">
-    <value>แทรกรูปภาพอินไลน์จากไฟล์</value>
+    <value>แทรกรูปภาพอินไลน์จากไฟล์.</value>
   </data>
   <data name="DocumentEditorContainer_InsertATableIntoTheDocument" xml:space="preserve">
-    <value>แทรกตารางลงในเอกสาร</value>
+    <value>แทรกตารางลงในเอกสาร.</value>
   </data>
   <data name="DocumentEditorContainer_CreateHyperlink" xml:space="preserve">
-    <value>สร้างลิงค์ในเอกสารของคุณเพื่อเข้าถึงเว็บเพจและไฟล์อย่างรวดเร็ว (Ctrl + K)</value>
+    <value>สร้างลิงค์ในเอกสารของคุณเพื่อเข้าถึงเว็บเพจและไฟล์อย่างรวดเร็ว (Ctrl + K).</value>
   </data>
   <data name="DocumentEditorContainer_InsertABookmarkInASpecificPlaceInThisDocument" xml:space="preserve">
-    <value>แทรกบุ๊กมาร์กในสถานที่เฉพาะในเอกสารนี้</value>
+    <value>แทรกบุ๊กมาร์กในสถานที่เฉพาะในเอกสารนี้.</value>
   </data>
   <data name="DocumentEditorContainer_ProvideAnOverviewOfYourDocumentByAddingATableOfContents" xml:space="preserve">
-    <value>ให้ภาพรวมของเอกสารของคุณโดยการเพิ่มสารบัญ</value>
+    <value>ให้ภาพรวมของเอกสารของคุณโดยการเพิ่มสารบัญ.</value>
   </data>
   <data name="DocumentEditorContainer_AddOrEditTheHeader" xml:space="preserve">
-    <value>เพิ่มหรือแก้ไขส่วนหัว</value>
+    <value>เพิ่มหรือแก้ไขส่วนหัว.</value>
   </data>
   <data name="DocumentEditorContainer_AddOrEditTheFooter" xml:space="preserve">
-    <value>เพิ่มหรือแก้ไขส่วนท้าย</value>
+    <value>เพิ่มหรือแก้ไขส่วนท้าย.</value>
   </data>
   <data name="DocumentEditorContainer_OpenThePageSetupDialog" xml:space="preserve">
-    <value>เปิดกล่องโต้ตอบการตั้งค่าหน้ากระดาษ</value>
+    <value>เปิดกล่องโต้ตอบการตั้งค่าหน้ากระดาษ.</value>
   </data>
   <data name="DocumentEditorContainer_AddPageNumbers" xml:space="preserve">
-    <value>เพิ่มหมายเลขหน้า</value>
+    <value>เพิ่มหมายเลขหน้า.</value>
   </data>
   <data name="DocumentEditorContainer_FindText" xml:space="preserve">
-    <value>ค้นหาข้อความในเอกสาร (Ctrl + F)</value>
+    <value>ค้นหาข้อความในเอกสาร (Ctrl + F).</value>
   </data>
   <data name="DocumentEditorContainer_CurrentPageNumber" xml:space="preserve">
-    <value>หมายเลขหน้าปัจจุบันในเอกสาร คลิกหรือกดเพื่อเลื่อนหน้าเฉพาะ</value>
+    <value>หมายเลขหน้าปัจจุบันในเอกสาร คลิกหรือกดเพื่อเลื่อนหน้าเฉพาะ.</value>
   </data>
   <data name="DocumentEditorContainer_ReadOnly" xml:space="preserve">
     <value>อ่านเท่านั้น</value>
@@ -5164,7 +5164,10 @@
     <value>รูปแบบเว็บ</value>
   </data>
   <data name="DocumentEditorContainer_ToggleBetweenTheInternalClipboardAndSystemClipboard" xml:space="preserve">
-    <value>สลับระหว่างคลิปบอร์ดภายในและคลิปบอร์ดของระบบ &#xD; การเข้าถึงคลิปบอร์ดของระบบผ่านสคริปต์ถูกปฏิเสธเนื่องจากนโยบายความปลอดภัยของเบราว์เซอร์ แต่ทว่า &#xD; 1. คุณสามารถเปิดใช้คลิปบอร์ดภายในเพื่อตัดคัดลอกและวางภายในส่วนประกอบแทนได้ &#xD; 2. คุณสามารถใช้แป้นพิมพ์ลัด (Ctrl + X, Ctrl + C และ Ctrl + V) เพื่อตัด คัดลอกและวางด้วยคลิปบอร์ดของระบบ</value>
+    <value>สลับระหว่างคลิปบอร์ดภายในและคลิปบอร์ดของระบบ 
+ การเข้าถึงคลิปบอร์ดของระบบผ่านสคริปต์ถูกปฏิเสธเนื่องจากนโยบายความปลอดภัยของเบราว์เซอร์ แต่ทว่า 
+ 1. คุณสามารถเปิดใช้คลิปบอร์ดภายในเพื่อตัดคัดลอกและวางภายในส่วนประกอบแทนได้ 
+ 2. คุณสามารถใช้แป้นพิมพ์ลัด (Ctrl + X, Ctrl + C และ Ctrl + V) เพื่อตัด คัดลอกและวางด้วยคลิปบอร์ดของระบบ.</value>
   </data>
   <data name="DocumentEditorContainer_TextForm" xml:space="preserve">
     <value>แบบฟอร์มข้อความ</value>
@@ -5179,10 +5182,10 @@
     <value>อัปเดตฟิลด์</value>
   </data>
   <data name="DocumentEditorContainer_UpdateCrossReferenceFields" xml:space="preserve">
-    <value>อัปเดตฟิลด์อ้างอิงโยง</value>
+    <value>อัปเดตฟิลด์อ้างอิงโยง.</value>
   </data>
   <data name="DocumentEditorContainer_Track_changes" xml:space="preserve">
-    <value>ติดตามการเปลี่ยนแปลงที่เกิดขึ้นในเอกสาร</value>
+    <value>ติดตามการเปลี่ยนแปลงที่เกิดขึ้นในเอกสาร.</value>
   </data>
   <data name="DocumentEditorContainer_TrackChanges" xml:space="preserve">
     <value>ติดตามการเปลี่ยนแปลง</value>
@@ -5191,10 +5194,10 @@
     <value>ระดับการซูม</value>
   </data>
   <data name="DocumentEditorContainer_Footnote_Tooltip" xml:space="preserve">
-    <value>แทรกเชิงอรรถ (Alt + Ctrl + F)</value>
+    <value>แทรกเชิงอรรถ (Alt + Ctrl + F).</value>
   </data>
   <data name="DocumentEditorContainer_Endnote_Tooltip" xml:space="preserve">
-    <value>แทรกอ้างอิงท้ายเรื่อง (Alt + Ctrl + D)</value>
+    <value>แทรกอ้างอิงท้ายเรื่อง (Alt + Ctrl + D).</value>
   </data>
   <data name="DocumentEditorContainer_ShowComments" xml:space="preserve">
     <value>ใส่ความคิดเห็น</value>
@@ -5216,5 +5219,23 @@
   </data>
   <data name="DocumentEditorContainer_FillingInForms" xml:space="preserve">
     <value>กรอกแบบฟอร์ม</value>
+  </data>
+  <data name="Gantt_Touch_DialogTextOnClickingConnectorPoint" xml:space="preserve">
+    <value>เลือกงานอื่น</value>
+  </data>
+  <data name="Gantt_Touch_DialogTextOnSelectingTaskbar" xml:space="preserve">
+    <value>เลือกตำแหน่งตัวเชื่อมต่อ</value>
+  </data>
+  <data name="Gantt_Touch_LeftButton" xml:space="preserve">
+    <value>ซ้าย</value>
+  </data>
+  <data name="Gantt_Touch_RightButton" xml:space="preserve">
+    <value>ถูกต้อง</value>
+  </data>
+  <data name="PdfViewer_ExportXFDF" xml:space="preserve">
+    <value>ส่งออกคำอธิบายประกอบไปยังไฟล์ XFDF</value>
+  </data>
+  <data name="PdfViewer_ImportXFDF" xml:space="preserve">
+    <value>นำเข้าคำอธิบายประกอบจากไฟล์ XFDF</value>
   </data>
 </root>
