@@ -1,0 +1,5277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AutoComplete_ActionFailureTemplate" xml:space="preserve">
+    <value>Anmodningen mislykkedes</value>
+  </data>
+  <data name="AutoComplete_NoRecordsTemplate" xml:space="preserve">
+    <value>Ingen poster fundet</value>
+  </data>
+  <data name="Calendar_Today" xml:space="preserve">
+    <value>I dag</value>
+  </data>
+  <data name="ComboBox_ActionFailureTemplate" xml:space="preserve">
+    <value>Anmodningen mislykkedes</value>
+  </data>
+  <data name="ComboBox_NoRecordsTemplate" xml:space="preserve">
+    <value>Ingen poster fundet</value>
+  </data>
+  <data name="DatePicker_Placeholder" xml:space="preserve">
+    <value>Vælg en dato</value>
+  </data>
+  <data name="DatePicker_Today" xml:space="preserve">
+    <value>I dag</value>
+  </data>
+  <data name="DateRangePicker_ApplyText" xml:space="preserve">
+    <value>ansøge</value>
+  </data>
+  <data name="DateRangePicker_CancelText" xml:space="preserve">
+    <value>Afbestille</value>
+  </data>
+  <data name="DateRangePicker_CustomRange" xml:space="preserve">
+    <value>Tilpasset rækkevidde</value>
+  </data>
+  <data name="DateRangePicker_Days" xml:space="preserve">
+    <value>Dage</value>
+  </data>
+  <data name="DateRangePicker_EndLabel" xml:space="preserve">
+    <value>Slutdato</value>
+  </data>
+  <data name="DateRangePicker_Placeholder" xml:space="preserve">
+    <value>Vælg et datointerval</value>
+  </data>
+  <data name="DateRangePicker_SelectedDays" xml:space="preserve">
+    <value>Udvalgte dage</value>
+  </data>
+  <data name="DateRangePicker_StartLabel" xml:space="preserve">
+    <value>Start dato</value>
+  </data>
+  <data name="DateTimePicker_Placeholder" xml:space="preserve">
+    <value>Vælg en dato og tid</value>
+  </data>
+  <data name="DateTimePicker_Today" xml:space="preserve">
+    <value>I dag</value>
+  </data>
+  <data name="DropDownList_ActionFailureTemplate" xml:space="preserve">
+    <value>Anmodningen mislykkedes</value>
+  </data>
+  <data name="DropDownList_NoRecordsTemplate" xml:space="preserve">
+    <value>Ingen poster fundet</value>
+  </data>
+  <data name="MultiSelect_ActionFailureTemplate" xml:space="preserve">
+    <value>Anmodningen mislykkedes</value>
+  </data>
+  <data name="MultiSelect_NoRecordsTemplate" xml:space="preserve">
+    <value>Ingen poster fundet</value>
+  </data>
+  <data name="MultiSelect_OverflowCountTemplate" xml:space="preserve">
+    <value>+${count} mere ..</value>
+  </data>
+  <data name="MultiSelect_SelectAllText" xml:space="preserve">
+    <value>Vælg alle</value>
+  </data>
+  <data name="MultiSelect_TotalCountTemplate" xml:space="preserve">
+    <value>${count} valgt</value>
+  </data>
+  <data name="MultiSelect_UnSelectAllText" xml:space="preserve">
+    <value>Fjern markering af alle</value>
+  </data>
+  <data name="NumericTextBox_DecrementTitle" xml:space="preserve">
+    <value>Nedsættelsesværdi</value>
+  </data>
+  <data name="NumericTextBox_IncrementTitle" xml:space="preserve">
+    <value>Forøgelsesværdi</value>
+  </data>
+  <data name="TimePicker_Placeholder" xml:space="preserve">
+    <value>Vælg et tidspunkt</value>
+  </data>
+  <data name="Uploader_Abort" xml:space="preserve">
+    <value>Abort</value>
+  </data>
+  <data name="Uploader_Browse" xml:space="preserve">
+    <value>Gennemse ...</value>
+  </data>
+  <data name="Uploader_Cancel" xml:space="preserve">
+    <value>Afbestille</value>
+  </data>
+  <data name="Uploader_Clear" xml:space="preserve">
+    <value>Klar</value>
+  </data>
+  <data name="Uploader_Delete" xml:space="preserve">
+    <value>Slet fil</value>
+  </data>
+  <data name="Uploader_DropFilesHint" xml:space="preserve">
+    <value>Eller slip filer her</value>
+  </data>
+  <data name="Uploader_FileUploadCancel" xml:space="preserve">
+    <value>Upload af fil annulleret</value>
+  </data>
+  <data name="Uploader_InProgress" xml:space="preserve">
+    <value>Upload</value>
+  </data>
+  <data name="Uploader_InvalidFileType" xml:space="preserve">
+    <value>Filtype er ikke tilladt</value>
+  </data>
+  <data name="Uploader_InvalidMaxFileSize" xml:space="preserve">
+    <value>Filstørrelsen er for stor</value>
+  </data>
+  <data name="Uploader_invalidMinFileSize" xml:space="preserve">
+    <value>Filstørrelsen er for lille</value>
+  </data>
+  <data name="Uploader_Pause" xml:space="preserve">
+    <value>Pause</value>
+  </data>
+  <data name="Uploader_PauseUpload" xml:space="preserve">
+    <value>Fil upload blev sat på pause</value>
+  </data>
+  <data name="Uploader_ReadyToUploadMessage" xml:space="preserve">
+    <value>Klar til at uploade</value>
+  </data>
+  <data name="Uploader_Remove" xml:space="preserve">
+    <value>Fjerne</value>
+  </data>
+  <data name="Uploader_RemovedFailedMessage" xml:space="preserve">
+    <value>Filen kunne ikke fjernes</value>
+  </data>
+  <data name="Uploader_RemovedSuccessMessage" xml:space="preserve">
+    <value>Fil blev fjernet</value>
+  </data>
+  <data name="Uploader_Resume" xml:space="preserve">
+    <value>Genoptag</value>
+  </data>
+  <data name="Uploader_Retry" xml:space="preserve">
+    <value>Prøve igen</value>
+  </data>
+  <data name="Uploader_Upload" xml:space="preserve">
+    <value>Upload</value>
+  </data>
+  <data name="Uploader_UploadFailedMessage" xml:space="preserve">
+    <value>Filen kunne ikke uploades</value>
+  </data>
+  <data name="Uploader_UploadSuccessMessage" xml:space="preserve">
+    <value>Fil uploadet med succes</value>
+  </data>
+  <data name="FileManager_NewFolder" xml:space="preserve">
+    <value>Ny mappe</value>
+  </data>
+  <data name="FileManager_Upload" xml:space="preserve">
+    <value>Upload</value>
+  </data>
+  <data name="FileManager_Delete" xml:space="preserve">
+    <value>Slet</value>
+  </data>
+  <data name="FileManager_Rename" xml:space="preserve">
+    <value>Omdøb</value>
+  </data>
+  <data name="FileManager_Download" xml:space="preserve">
+    <value>Hent</value>
+  </data>
+  <data name="FileManager_Cut" xml:space="preserve">
+    <value>Skære</value>
+  </data>
+  <data name="FileManager_Copy" xml:space="preserve">
+    <value>Kopi</value>
+  </data>
+  <data name="FileManager_Paste" xml:space="preserve">
+    <value>sæt ind</value>
+  </data>
+  <data name="FileManager_SortBy" xml:space="preserve">
+    <value>Sorter efter</value>
+  </data>
+  <data name="FileManager_Refresh" xml:space="preserve">
+    <value>Opdater</value>
+  </data>
+  <data name="FileManager_ItemSelection" xml:space="preserve">
+    <value>element valgt</value>
+  </data>
+  <data name="FileManager_ItemsSelection" xml:space="preserve">
+    <value>valgte emner</value>
+  </data>
+  <data name="FileManager_View" xml:space="preserve">
+    <value>Udsigt</value>
+  </data>
+  <data name="FileManager_Details" xml:space="preserve">
+    <value>detaljer</value>
+  </data>
+  <data name="FileManager_SelectAll" xml:space="preserve">
+    <value>Vælg alle</value>
+  </data>
+  <data name="FileManager_Open" xml:space="preserve">
+    <value>Åben</value>
+  </data>
+  <data name="FileManager_TooltipNewFolder" xml:space="preserve">
+    <value>Ny mappe</value>
+  </data>
+  <data name="FileManager_TooltipUpload" xml:space="preserve">
+    <value>Upload</value>
+  </data>
+  <data name="FileManager_TooltipDelete" xml:space="preserve">
+    <value>Slet</value>
+  </data>
+  <data name="FileManager_TooltipRename" xml:space="preserve">
+    <value>Omdøb</value>
+  </data>
+  <data name="FileManager_TooltipDownload" xml:space="preserve">
+    <value>Hent</value>
+  </data>
+  <data name="FileManager_TooltipCut" xml:space="preserve">
+    <value>Skære</value>
+  </data>
+  <data name="FileManager_TooltipCopy" xml:space="preserve">
+    <value>Kopi</value>
+  </data>
+  <data name="FileManager_TooltipPaste" xml:space="preserve">
+    <value>sæt ind</value>
+  </data>
+  <data name="FileManager_TooltipSortBy" xml:space="preserve">
+    <value>Sorter efter</value>
+  </data>
+  <data name="FileManager_TooltipRefresh" xml:space="preserve">
+    <value>Opdater</value>
+  </data>
+  <data name="FileManager_TooltipSelection" xml:space="preserve">
+    <value>Ryd valg</value>
+  </data>
+  <data name="FileManager_TooltipView" xml:space="preserve">
+    <value>Udsigt</value>
+  </data>
+  <data name="FileManager_TooltipDetails" xml:space="preserve">
+    <value>detaljer</value>
+  </data>
+  <data name="FileManager_TooltipSelectAll" xml:space="preserve">
+    <value>Vælg alle</value>
+  </data>
+  <data name="FileManager_Name" xml:space="preserve">
+    <value>Navn</value>
+  </data>
+  <data name="FileManager_Size" xml:space="preserve">
+    <value>Størrelse</value>
+  </data>
+  <data name="FileManager_DateModified" xml:space="preserve">
+    <value>modificeret</value>
+  </data>
+  <data name="FileManager_DateCreated" xml:space="preserve">
+    <value>Dato oprettet</value>
+  </data>
+  <data name="FileManager_Path" xml:space="preserve">
+    <value>Sti</value>
+  </data>
+  <data name="FileManager_Modified" xml:space="preserve">
+    <value>modificeret</value>
+  </data>
+  <data name="FileManager_Created" xml:space="preserve">
+    <value>lavet</value>
+  </data>
+  <data name="FileManager_Location" xml:space="preserve">
+    <value>Beliggenhed</value>
+  </data>
+  <data name="FileManager_Type" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="FileManager_Permission" xml:space="preserve">
+    <value>Tilladelse</value>
+  </data>
+  <data name="FileManager_Ascending" xml:space="preserve">
+    <value>stigende</value>
+  </data>
+  <data name="FileManager_Descending" xml:space="preserve">
+    <value>Aftagende</value>
+  </data>
+  <data name="FileManager_None" xml:space="preserve">
+    <value>Ingen</value>
+  </data>
+  <data name="FileManager_ViewLargeIcons" xml:space="preserve">
+    <value>Store ikoner</value>
+  </data>
+  <data name="FileManager_ViewDetails" xml:space="preserve">
+    <value>detaljer</value>
+  </data>
+  <data name="FileManager_Search" xml:space="preserve">
+    <value>Søg</value>
+  </data>
+  <data name="FileManager_ButtonOk" xml:space="preserve">
+    <value>Okay</value>
+  </data>
+  <data name="FileManager_ButtonCancel" xml:space="preserve">
+    <value>Afbestille</value>
+  </data>
+  <data name="FileManager_ButtonYes" xml:space="preserve">
+    <value>Ja</value>
+  </data>
+  <data name="FileManager_ButtonNo" xml:space="preserve">
+    <value>Ingen</value>
+  </data>
+  <data name="FileManager_ButtonCreate" xml:space="preserve">
+    <value>skab</value>
+  </data>
+  <data name="FileManager_ButtonSave" xml:space="preserve">
+    <value>Gemme</value>
+  </data>
+  <data name="FileManager_HeaderNewFolder" xml:space="preserve">
+    <value>Folder</value>
+  </data>
+  <data name="FileManager_ContentNewFolder" xml:space="preserve">
+    <value>Indtast dit mappenavn</value>
+  </data>
+  <data name="FileManager_HeaderRename" xml:space="preserve">
+    <value>Omdøb</value>
+  </data>
+  <data name="FileManager_ContentRename" xml:space="preserve">
+    <value>Indtast dit nye navn</value>
+  </data>
+  <data name="FileManager_HeaderRenameConfirmation" xml:space="preserve">
+    <value>Omdøb bekræftelse</value>
+  </data>
+  <data name="FileManager_ContentRenameConfirmation" xml:space="preserve">
+    <value>Hvis du ændrer en filnavnetudvidelse, kan filen muligvis blive ustabil. Er du sikker på, at du vil ændre det?</value>
+  </data>
+  <data name="FileManager_HeaderDelete" xml:space="preserve">
+    <value>Slet fil</value>
+  </data>
+  <data name="FileManager_ContentDelete" xml:space="preserve">
+    <value>Er du sikker på, at du vil slette denne fil?</value>
+  </data>
+  <data name="FileManager_HeaderFolderDelete" xml:space="preserve">
+    <value>Slet mappe</value>
+  </data>
+  <data name="FileManager_ContentFolderDelete" xml:space="preserve">
+    <value>Er du sikker på, at du vil slette denne mappe?</value>
+  </data>
+  <data name="FileManager_HeaderMultipleDelete" xml:space="preserve">
+    <value>Slet flere elementer</value>
+  </data>
+  <data name="FileManager_ContentMultipleDelete" xml:space="preserve">
+    <value>Er du sikker på, at du vil slette disse {0} emner?</value>
+  </data>
+  <data name="FileManager_HeaderDuplicate" xml:space="preserve">
+    <value>Fil / mappe findes</value>
+  </data>
+  <data name="FileManager_ContentDuplicate" xml:space="preserve">
+    <value>{0} findes allerede. Vil du omdøbe og indsætte?</value>
+  </data>
+  <data name="FileManager_HeaderUpload" xml:space="preserve">
+    <value>Upload filer</value>
+  </data>
+  <data name="FileManager_Error" xml:space="preserve">
+    <value>Fejl</value>
+  </data>
+  <data name="FileManager_ValidationEmpty" xml:space="preserve">
+    <value>Fil- eller mappenavnet kan ikke være tomt.</value>
+  </data>
+  <data name="FileManager_ValidationInvalid" xml:space="preserve">
+    <value>Fil- eller mappenavnet {0} indeholder ugyldige tegn. Brug et andet navn. Gyldige fil- eller mappenavne kan ikke slutte med et punktum eller mellemrum.</value>
+  </data>
+  <data name="FileManager_ValidationNewFolderExists" xml:space="preserve">
+    <value>En fil eller mappe med navnet {0} findes allerede.</value>
+  </data>
+  <data name="FileManager_ValidationRenameExists" xml:space="preserve">
+    <value>Kan ikke omdøbe {0} til {1}: destinationen findes allerede.</value>
+  </data>
+  <data name="FileManager_FolderEmpty" xml:space="preserve">
+    <value>Denne folder er tom</value>
+  </data>
+  <data name="FileManager_FileUpload" xml:space="preserve">
+    <value>Træk filer hit for at uploade</value>
+  </data>
+  <data name="FileManager_SearchEmpty" xml:space="preserve">
+    <value>Ingen resultater fundet</value>
+  </data>
+  <data name="FileManager_SearchKey" xml:space="preserve">
+    <value>Prøv med forskellige nøgleord</value>
+  </data>
+  <data name="FileManager_FilterEmpty" xml:space="preserve">
+    <value>Ingen resultater fundet</value>
+  </data>
+  <data name="FileManager_FilterKey" xml:space="preserve">
+    <value>Prøv med andet filter</value>
+  </data>
+  <data name="FileManager_SubFolderError" xml:space="preserve">
+    <value>Destinationsmappen er undermappen til kildemappen.</value>
+  </data>
+  <data name="FileManager_AccessDenied" xml:space="preserve">
+    <value>Adgang nægtet</value>
+  </data>
+  <data name="FileManager_AccessDetails" xml:space="preserve">
+    <value>Du har ikke tilladelse til at få adgang til denne mappe.</value>
+  </data>
+  <data name="FileManager_HeaderRetry" xml:space="preserve">
+    <value>Fil findes allerede</value>
+  </data>
+  <data name="FileManager_ContentRetry" xml:space="preserve">
+    <value>En fil med dette navn findes allerede i denne mappe. Hvad vil du gerne lave?</value>
+  </data>
+  <data name="FileManager_ButtonKeepBoth" xml:space="preserve">
+    <value>Behold begge</value>
+  </data>
+  <data name="FileManager_ButtonReplace" xml:space="preserve">
+    <value>Erstatte</value>
+  </data>
+  <data name="FileManager_ButtonSkip" xml:space="preserve">
+    <value>Springe</value>
+  </data>
+  <data name="FileManager_ApplyAllLabel" xml:space="preserve">
+    <value>Gør dette for alle aktuelle poster</value>
+  </data>
+  <data name="FileManager_KB" xml:space="preserve">
+    <value>KB</value>
+  </data>
+  <data name="FileManager_AccessMessage" xml:space="preserve">
+    <value>{0} er ikke tilgængelig. har du brug for tilladelse til at udføre handlingen {1}.</value>
+  </data>
+  <data name="FileManager_NetworkError" xml:space="preserve">
+    <value>NetworkError: Kunne ikke sende XMLHTTPRequest: Kunne ikke indlæses</value>
+  </data>
+  <data name="FileManager_ServerError" xml:space="preserve">
+    <value>ServerError: Ugyldigt svar fra</value>
+  </data>
+  <data name="Chart_Zoom" xml:space="preserve">
+    <value>Zoom</value>
+  </data>
+  <data name="Chart_ZoomIn" xml:space="preserve">
+    <value>Zoom ind</value>
+  </data>
+  <data name="Chart_ZoomOut" xml:space="preserve">
+    <value>Zoom ud</value>
+  </data>
+  <data name="Chart_Reset" xml:space="preserve">
+    <value>Nulstil</value>
+  </data>
+  <data name="Chart_Pan" xml:space="preserve">
+    <value>Pande</value>
+  </data>
+  <data name="Chart_ResetZoom" xml:space="preserve">
+    <value>Nulstil zoom</value>
+  </data>
+  <data name="Slider_DecrementTitle" xml:space="preserve">
+    <value>Formindske</value>
+  </data>
+  <data name="Slider_IncrementTitle" xml:space="preserve">
+    <value>Øge</value>
+  </data>
+  <data name="Maps_Zoom" xml:space="preserve">
+    <value>Zoom</value>
+  </data>
+  <data name="Maps_ZoomIn" xml:space="preserve">
+    <value>Zoom ind</value>
+  </data>
+  <data name="Maps_ZoomOut" xml:space="preserve">
+    <value>Zoome ud</value>
+  </data>
+  <data name="Maps_Reset" xml:space="preserve">
+    <value>Nulstil</value>
+  </data>
+  <data name="Maps_Pan" xml:space="preserve">
+    <value>Pande</value>
+  </data>
+  <data name="Gantt_EmptyRecord" xml:space="preserve">
+    <value>Ingen poster at vise</value>
+  </data>
+  <data name="Gantt_Id" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="Gantt_Name" xml:space="preserve">
+    <value>Navn</value>
+  </data>
+  <data name="Gantt_StartDate" xml:space="preserve">
+    <value>Start dato</value>
+  </data>
+  <data name="Gantt_EndDate" xml:space="preserve">
+    <value>Slutdato</value>
+  </data>
+  <data name="Gantt_Duration" xml:space="preserve">
+    <value>Varighed</value>
+  </data>
+  <data name="Gantt_Progress" xml:space="preserve">
+    <value>Fremskridt</value>
+  </data>
+  <data name="Gantt_Dependency" xml:space="preserve">
+    <value>Afhængighed</value>
+  </data>
+  <data name="Gantt_Notes" xml:space="preserve">
+    <value>Noter</value>
+  </data>
+  <data name="Gantt_BaselineStartDate" xml:space="preserve">
+    <value>Baseline startdato</value>
+  </data>
+  <data name="Gantt_BaselineEndDate" xml:space="preserve">
+    <value>Baseline slutdato</value>
+  </data>
+  <data name="Gantt_Type" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="Gantt_Offset" xml:space="preserve">
+    <value>Offset</value>
+  </data>
+  <data name="Gantt_ResourceName" xml:space="preserve">
+    <value>Ressourcer</value>
+  </data>
+  <data name="Gantt_ResourceID" xml:space="preserve">
+    <value>Ressource-ID</value>
+  </data>
+  <data name="Gantt_Day" xml:space="preserve">
+    <value>dag</value>
+  </data>
+  <data name="Gantt_Hour" xml:space="preserve">
+    <value>time</value>
+  </data>
+  <data name="Gantt_Minute" xml:space="preserve">
+    <value>minut</value>
+  </data>
+  <data name="Gantt_Days" xml:space="preserve">
+    <value>dage</value>
+  </data>
+  <data name="Gantt_Hours" xml:space="preserve">
+    <value>timer</value>
+  </data>
+  <data name="Gantt_Minutes" xml:space="preserve">
+    <value>minutter</value>
+  </data>
+  <data name="Gantt_GeneralTab" xml:space="preserve">
+    <value>Generel</value>
+  </data>
+  <data name="Gantt_CustomTab" xml:space="preserve">
+    <value>Tilpassede kolonner</value>
+  </data>
+  <data name="Gantt_WriteNotes" xml:space="preserve">
+    <value>Skriv noter</value>
+  </data>
+  <data name="Gantt_AddDialogTitle" xml:space="preserve">
+    <value>Ny opgave</value>
+  </data>
+  <data name="Gantt_EditDialogTitle" xml:space="preserve">
+    <value>Opgaveinformation</value>
+  </data>
+  <data name="Gantt_SaveButton" xml:space="preserve">
+    <value>Gemme</value>
+  </data>
+  <data name="Gantt_Add" xml:space="preserve">
+    <value>Tilføje</value>
+  </data>
+  <data name="Gantt_Edit" xml:space="preserve">
+    <value>Redigere</value>
+  </data>
+  <data name="Gantt_Update" xml:space="preserve">
+    <value>Opdatering</value>
+  </data>
+  <data name="Gantt_Delete" xml:space="preserve">
+    <value>Slet</value>
+  </data>
+  <data name="Gantt_Cancel" xml:space="preserve">
+    <value>Afbestille</value>
+  </data>
+  <data name="Gantt_Search" xml:space="preserve">
+    <value>Søg</value>
+  </data>
+  <data name="Gantt_Task" xml:space="preserve">
+    <value>opgave</value>
+  </data>
+  <data name="Gantt_Tasks" xml:space="preserve">
+    <value>opgaver</value>
+  </data>
+  <data name="Gantt_ZoomIn" xml:space="preserve">
+    <value>Zoom ind</value>
+  </data>
+  <data name="Gantt_ZoomOut" xml:space="preserve">
+    <value>Zoome ud</value>
+  </data>
+  <data name="Gantt_ZoomToFit" xml:space="preserve">
+    <value>Zoom til at passe</value>
+  </data>
+  <data name="Gantt_ExcelExport" xml:space="preserve">
+    <value>Excel-eksport</value>
+  </data>
+  <data name="Gantt_CsvExport" xml:space="preserve">
+    <value>CSV-eksport</value>
+  </data>
+  <data name="Gantt_ExpandAll" xml:space="preserve">
+    <value>Udvid alle</value>
+  </data>
+  <data name="Gantt_CollapseAll" xml:space="preserve">
+    <value>Skjul alle</value>
+  </data>
+  <data name="Gantt_NextTimeSpan" xml:space="preserve">
+    <value>Næste tidsperiode</value>
+  </data>
+  <data name="Gantt_PrevTimeSpan" xml:space="preserve">
+    <value>Forrige tidsperiode</value>
+  </data>
+  <data name="Gantt_OkText" xml:space="preserve">
+    <value>Okay</value>
+  </data>
+  <data name="Gantt_ConfirmDelete" xml:space="preserve">
+    <value>Er du sikker på, at du vil slette posten?</value>
+  </data>
+  <data name="Gantt_From" xml:space="preserve">
+    <value>Fra</value>
+  </data>
+  <data name="Gantt_To" xml:space="preserve">
+    <value>Til</value>
+  </data>
+  <data name="Gantt_TaskLink" xml:space="preserve">
+    <value>Opgavelink</value>
+  </data>
+  <data name="Gantt_Lag" xml:space="preserve">
+    <value>lag</value>
+  </data>
+  <data name="Gantt_Start" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="Gantt_Finish" xml:space="preserve">
+    <value>Afslut</value>
+  </data>
+  <data name="Gantt_EnterValue" xml:space="preserve">
+    <value>Indtast værdien</value>
+  </data>
+  <data name="Gantt_TaskBeforePredecessor_FS" xml:space="preserve">
+    <value>Du flyttede '{0}' for at starte, inden '{1}' er færdig, og de to opgaver er knyttet sammen. Som resultat kan linkene ikke overholdes. Vælg en handling nedenfor for at udføre</value>
+  </data>
+  <data name="Gantt_TaskAfterPredecessor_FS" xml:space="preserve">
+    <value>Du flyttede '{0}' væk fra '{1}', og de to opgaver er knyttet sammen. Som resultat kan linkene ikke overholdes. Vælg en handling nedenfor for at udføre</value>
+  </data>
+  <data name="Gantt_TaskBeforePredecessor_SS" xml:space="preserve">
+    <value>Du flyttede '{0}' for at starte, før '{1}' starter, og de to opgaver er knyttet sammen. Som resultat kan linkene ikke overholdes. Vælg en handling nedenfor for at udføre</value>
+  </data>
+  <data name="Gantt_TaskAfterPredecessor_SS" xml:space="preserve">
+    <value>Du flyttede '{0}' for at starte, efter at '{1}' starter, og de to opgaver er knyttet sammen. Som resultat kan linkene ikke overholdes. Vælg en handling nedenfor for at udføre</value>
+  </data>
+  <data name="Gantt_TaskBeforePredecessor_FF" xml:space="preserve">
+    <value>Du flyttede '{0}' for at afslutte, inden '{1}' er færdig, og de to opgaver er knyttet sammen. Som resultat kan linkene ikke overholdes. Vælg en handling nedenfor for at udføre</value>
+  </data>
+  <data name="Gantt_TaskAfterPredecessor_FF" xml:space="preserve">
+    <value>Du flyttede '{0}' for at afslutte efter '{1}' er færdig, og de to opgaver er knyttet sammen. Som resultat kan linkene ikke overholdes. Vælg en handling nedenfor for at udføre</value>
+  </data>
+  <data name="Gantt_TaskBeforePredecessor_SF" xml:space="preserve">
+    <value>Du flyttede '{0}' væk fra '{1}' til start, og de to opgaver er knyttet sammen. Som resultat kan linkene ikke overholdes. Vælg en handling nedenfor for at udføre</value>
+  </data>
+  <data name="Gantt_TaskAfterPredecessor_SF" xml:space="preserve">
+    <value>Du flyttede '{0}' for at afslutte, når '{1}' starter, og de to opgaver er knyttet sammen. Som resultat kan linkene ikke overholdes. Vælg en handling nedenfor for at udføre</value>
+  </data>
+  <data name="Gantt_TaskInformation" xml:space="preserve">
+    <value>Opgaveinformation</value>
+  </data>
+  <data name="Gantt_DeleteTask" xml:space="preserve">
+    <value>Slet opgave</value>
+  </data>
+  <data name="Gantt_DeleteDependency" xml:space="preserve">
+    <value>Slet afhængighed</value>
+  </data>
+  <data name="Gantt_Convert" xml:space="preserve">
+    <value>Konvertere</value>
+  </data>
+  <data name="Gantt_Save" xml:space="preserve">
+    <value>Gemme</value>
+  </data>
+  <data name="Gantt_Above" xml:space="preserve">
+    <value>Over</value>
+  </data>
+  <data name="Gantt_Below" xml:space="preserve">
+    <value>Under</value>
+  </data>
+  <data name="Gantt_Child" xml:space="preserve">
+    <value>Barn</value>
+  </data>
+  <data name="Gantt_Milestone" xml:space="preserve">
+    <value>Milestone</value>
+  </data>
+  <data name="Gantt_ToTask" xml:space="preserve">
+    <value>At opgave</value>
+  </data>
+  <data name="Gantt_ToMilestone" xml:space="preserve">
+    <value>Til milepæl</value>
+  </data>
+  <data name="Gantt_EventMarkers" xml:space="preserve">
+    <value>Begivenhedsmarkører</value>
+  </data>
+  <data name="Gantt_LeftTaskLabel" xml:space="preserve">
+    <value>Venstre opgavemærkning</value>
+  </data>
+  <data name="Gantt_RightTaskLabel" xml:space="preserve">
+    <value>Højre opgavemærkning</value>
+  </data>
+  <data name="Gantt_TimelineCell" xml:space="preserve">
+    <value>Tidslinje celle</value>
+  </data>
+  <data name="Gantt_ConfirmPredecessorDelete" xml:space="preserve">
+    <value>Er du sikker på, at du vil fjerne afhængighedslink?</value>
+  </data>
+  <data name="Gantt_Indent" xml:space="preserve">
+    <value>indrykning</value>
+  </data>
+  <data name="Gantt_Outdent" xml:space="preserve">
+    <value>Ryk</value>
+  </data>
+  <data name="Gantt_AutoFit" xml:space="preserve">
+    <value>Autotilpas kolonne</value>
+  </data>
+  <data name="Gantt_AutoFitAll" xml:space="preserve">
+    <value>Autotilpas alle kolonner</value>
+  </data>
+  <data name="Gantt_SortAscending" xml:space="preserve">
+    <value>Sorter stigende</value>
+  </data>
+  <data name="Gantt_SortDescending" xml:space="preserve">
+    <value>Sorter faldende</value>
+  </data>
+  <data name="Gantt_TaskMode" xml:space="preserve">
+    <value>Opgavetilstand</value>
+  </data>
+  <data name="Gantt_TaskMode_Auto" xml:space="preserve">
+    <value>Auto</value>
+  </data>
+  <data name="Gantt_TaskMode_Manual" xml:space="preserve">
+    <value>brugervejledning</value>
+  </data>
+  <data name="Gantt_SubTaskStartDate" xml:space="preserve">
+    <value>Startdato for underopgaver</value>
+  </data>
+  <data name="Gantt_SubTaskEndDate" xml:space="preserve">
+    <value>Slutdato for underopgaver</value>
+  </data>
+  <data name="Gantt_AutoDuration" xml:space="preserve">
+    <value>Varighed</value>
+  </data>
+  <data name="Gantt_Work" xml:space="preserve">
+    <value>Arbejde</value>
+  </data>
+  <data name="Gantt_H" xml:space="preserve">
+    <value>H</value>
+  </data>
+  <data name="Gantt_D" xml:space="preserve">
+    <value>D</value>
+  </data>
+  <data name="Gantt_M" xml:space="preserve">
+    <value>M</value>
+  </data>
+  <data name="Gantt_Min" xml:space="preserve">
+    <value>Min</value>
+  </data>
+  <data name="Gantt_CustomColumn" xml:space="preserve">
+    <value>Brugerdefinerede kolonner</value>
+  </data>
+  <data name="Gantt_TaskType" xml:space="preserve">
+    <value>Opgavetype</value>
+  </data>
+  <data name="ColorPicker_Apply" xml:space="preserve">
+    <value>ansøge</value>
+  </data>
+  <data name="ColorPicker_Cancel" xml:space="preserve">
+    <value>Afbestille</value>
+  </data>
+  <data name="ColorPicker_ModeSwitcher" xml:space="preserve">
+    <value>Skift tilstand</value>
+  </data>
+  <data name="ListBox_ActionFailureTemplate" xml:space="preserve">
+    <value>Anmodningen mislykkedes</value>
+  </data>
+  <data name="ListBox_MoveAllFrom" xml:space="preserve">
+    <value>Flyt alle fra</value>
+  </data>
+  <data name="ListBox_MoveAllTo" xml:space="preserve">
+    <value>Flyt alle til</value>
+  </data>
+  <data name="ListBox_MoveDown" xml:space="preserve">
+    <value>Flyt ned</value>
+  </data>
+  <data name="ListBox_MoveFrom" xml:space="preserve">
+    <value>Flyt fra</value>
+  </data>
+  <data name="ListBox_MoveTo" xml:space="preserve">
+    <value>Flytte til</value>
+  </data>
+  <data name="ListBox_MoveUp" xml:space="preserve">
+    <value>Gå op</value>
+  </data>
+  <data name="ListBox_NoRecordsTemplate" xml:space="preserve">
+    <value>Ingen poster fundet</value>
+  </data>
+  <data name="ListBox_SelectAllText" xml:space="preserve">
+    <value>Vælg alle</value>
+  </data>
+  <data name="ListBox_UnSelectAllText" xml:space="preserve">
+    <value>Fjern markering af alle</value>
+  </data>
+  <data name="PivotView_NumberFormat_ExampleWatermark" xml:space="preserve">
+    <value>Eksempel: C, P, 0000%, ### 0. ## 0 # osv.</value>
+  </data>
+  <data name="PivotView_SortNone_TooltipMessage" xml:space="preserve">
+    <value>Sorter datarækkefølge</value>
+  </data>
+  <data name="PivotView_SortDescending_TooltipMessage" xml:space="preserve">
+    <value>Sorter faldende rækkefølge</value>
+  </data>
+  <data name="PivotView_StaticFieldList" xml:space="preserve">
+    <value>Pivot-feltliste</value>
+  </data>
+  <data name="PivotView_FieldList" xml:space="preserve">
+    <value>Feltliste</value>
+  </data>
+  <data name="PivotView_AddFieldMessage" xml:space="preserve">
+    <value>Tilføj felt her</value>
+  </data>
+  <data name="PivotView_ChooseFieldMessage" xml:space="preserve">
+    <value>Vælg felt</value>
+  </data>
+  <data name="PivotView_DragFieldsMessage" xml:space="preserve">
+    <value>Træk felter mellem akserne nedenfor:</value>
+  </data>
+  <data name="PivotView_Add" xml:space="preserve">
+    <value>Tilføje</value>
+  </data>
+  <data name="PivotView_DeferLayoutUpdate" xml:space="preserve">
+    <value>Udskyd layoutopdatering</value>
+  </data>
+  <data name="PivotView_ShowLegend" xml:space="preserve">
+    <value>Vis forklaring</value>
+  </data>
+  <data name="PivotView_FieldCaptionWatermark" xml:space="preserve">
+    <value>Indtast feltteksten</value>
+  </data>
+  <data name="PivotView_SortAscending_TooltipMessage" xml:space="preserve">
+    <value>Sorter stigende rækkefølge</value>
+  </data>
+  <data name="PivotView_ReplaceReport_BeforeMessage" xml:space="preserve">
+    <value>En rapport navngivet</value>
+  </data>
+  <data name="PivotView_ReplaceReport_AfterMessage" xml:space="preserve">
+    <value>eksisterer allerede. Vil du erstatte det?</value>
+  </data>
+  <data name="PivotView_AddCondition" xml:space="preserve">
+    <value>Tilføj betingelse</value>
+  </data>
+  <data name="PivotView_AddToColumn" xml:space="preserve">
+    <value>Føj til kolonne</value>
+  </data>
+  <data name="PivotView_AddToFilter" xml:space="preserve">
+    <value>Føj til filter</value>
+  </data>
+  <data name="PivotView_AddToRow" xml:space="preserve">
+    <value>Føj til række</value>
+  </data>
+  <data name="PivotView_AddToValue" xml:space="preserve">
+    <value>Føj til værdi</value>
+  </data>
+  <data name="PivotView_After" xml:space="preserve">
+    <value>Efter</value>
+  </data>
+  <data name="PivotView_AfterOrEqualTo" xml:space="preserve">
+    <value>Efter eller lig med</value>
+  </data>
+  <data name="PivotView_Aggregate" xml:space="preserve">
+    <value>Samlet</value>
+  </data>
+  <data name="PivotView_Alert" xml:space="preserve">
+    <value>Alert</value>
+  </data>
+  <data name="PivotView_All" xml:space="preserve">
+    <value>Alle</value>
+  </data>
+  <data name="PivotView_AllFields" xml:space="preserve">
+    <value>Alle felter</value>
+  </data>
+  <data name="PivotView_AllValues" xml:space="preserve">
+    <value>Alle værdier</value>
+  </data>
+  <data name="PivotView_And" xml:space="preserve">
+    <value>og</value>
+  </data>
+  <data name="PivotView_Apply" xml:space="preserve">
+    <value>ansøge</value>
+  </data>
+  <data name="PivotView_Area" xml:space="preserve">
+    <value>Areal</value>
+  </data>
+  <data name="PivotView_Ascending" xml:space="preserve">
+    <value>stigende</value>
+  </data>
+  <data name="PivotView_Avg" xml:space="preserve">
+    <value>Gennemsnitlig</value>
+  </data>
+  <data name="PivotView_Bar" xml:space="preserve">
+    <value>Bar</value>
+  </data>
+  <data name="PivotView_BaseField" xml:space="preserve">
+    <value>Basisfelt</value>
+  </data>
+  <data name="PivotView_BaseItem" xml:space="preserve">
+    <value>Basiselement</value>
+  </data>
+  <data name="PivotView_Before" xml:space="preserve">
+    <value>Før</value>
+  </data>
+  <data name="PivotView_BeforeOrEqualTo" xml:space="preserve">
+    <value>Før eller lig med</value>
+  </data>
+  <data name="PivotView_BeginWith" xml:space="preserve">
+    <value>Starter med</value>
+  </data>
+  <data name="PivotView_Between" xml:space="preserve">
+    <value>Mellem</value>
+  </data>
+  <data name="PivotView_Blank" xml:space="preserve">
+    <value>(Blank)</value>
+  </data>
+  <data name="PivotView_By" xml:space="preserve">
+    <value>ved</value>
+  </data>
+  <data name="PivotView_CalculatedField" xml:space="preserve">
+    <value>Beregnet felt</value>
+  </data>
+  <data name="PivotView_CalculatedField_ConfirmMessage" xml:space="preserve">
+    <value>Der findes allerede et beregningsfelt i dette navn. Vil du erstatte det?</value>
+  </data>
+  <data name="PivotView_CalculatedField_DragDropMessage" xml:space="preserve">
+    <value>Træk og slip felter til formel</value>
+  </data>
+  <data name="PivotView_CalculatedField_DragMessage" xml:space="preserve">
+    <value>Træk felt til formel</value>
+  </data>
+  <data name="PivotView_CalculatedField_DropMessage" xml:space="preserve">
+    <value>Det beregnede felt kan ikke være placeret i noget andet område undtagen værdiakse.</value>
+  </data>
+  <data name="PivotView_CalculatedField_ExampleWatermark" xml:space="preserve">
+    <value>Eksempel: ('Sum(Order_Count)' + 'Sum(In_Stock)') * 250</value>
+  </data>
+  <data name="PivotView_CalculatedField_ExistMessage" xml:space="preserve">
+    <value>Et felt findes allerede i dette navn. Indtast et andet navn.</value>
+  </data>
+  <data name="PivotView_CalculatedField_MobileWatermark" xml:space="preserve">
+    <value>Tilføj felter og rediger formel her.</value>
+  </data>
+  <data name="PivotView_CalculatedField_NameWatermark" xml:space="preserve">
+    <value>Indtast feltnavnet</value>
+  </data>
+  <data name="PivotView_CalculatedField_OLAPExampleWatermark" xml:space="preserve">
+    <value>Eksempel: [Measures].[Order Quantity] + ([Measures].[Order Quantity] * 0.10)</value>
+  </data>
+  <data name="PivotView_CalculatedField_Tooltip" xml:space="preserve">
+    <value>Træk og slip felter for at skabe et udtryk. Og hvis du vil redigere de eksisterende beregnede felter! Du kan opnå det ved blot at vælge feltet under 'Beregnede medlemmer'.</value>
+  </data>
+  <data name="PivotView_Cancel" xml:space="preserve">
+    <value>Afbestille</value>
+  </data>
+  <data name="PivotView_Chart" xml:space="preserve">
+    <value>Diagram</value>
+  </data>
+  <data name="PivotView_Clear" xml:space="preserve">
+    <value>Klar</value>
+  </data>
+  <data name="PivotView_ClearFilter" xml:space="preserve">
+    <value>Klar</value>
+  </data>
+  <data name="PivotView_Close" xml:space="preserve">
+    <value>Tæt</value>
+  </data>
+  <data name="PivotView_Collapse" xml:space="preserve">
+    <value>Bryder sammen</value>
+  </data>
+  <data name="PivotView_Column" xml:space="preserve">
+    <value>Kolonne</value>
+  </data>
+  <data name="PivotView_ColumnAxisWatermark" xml:space="preserve">
+    <value>Drop kolonne her</value>
+  </data>
+  <data name="PivotView_Columns" xml:space="preserve">
+    <value>Kolonner</value>
+  </data>
+  <data name="PivotView_ConditionalFormating" xml:space="preserve">
+    <value>Betinget formatering</value>
+  </data>
+  <data name="PivotView_ConditionalFormatting" xml:space="preserve">
+    <value>Betinget formatering</value>
+  </data>
+  <data name="PivotView_Contains" xml:space="preserve">
+    <value>Indeholder</value>
+  </data>
+  <data name="PivotView_Copy" xml:space="preserve">
+    <value>Kopi</value>
+  </data>
+  <data name="PivotView_Count" xml:space="preserve">
+    <value>Tælle</value>
+  </data>
+  <data name="PivotView_CreateCalculatedField" xml:space="preserve">
+    <value>Opret beregnet felt</value>
+  </data>
+  <data name="PivotView_CSV" xml:space="preserve">
+    <value>CSV</value>
+  </data>
+  <data name="PivotView_Currency" xml:space="preserve">
+    <value>betalingsmiddel</value>
+  </data>
+  <data name="PivotView_CurrencySymbol" xml:space="preserve">
+    <value>Valutasymbol</value>
+  </data>
+  <data name="PivotView_Custom" xml:space="preserve">
+    <value>Brugerdefinerede</value>
+  </data>
+  <data name="PivotView_CustomFormat" xml:space="preserve">
+    <value>Brugerdefineret format</value>
+  </data>
+  <data name="PivotView_CustomFormatMessage" xml:space="preserve">
+    <value>Indtast tilpasset formatstreng</value>
+  </data>
+  <data name="PivotView_Date" xml:space="preserve">
+    <value>Dato</value>
+  </data>
+  <data name="PivotView_DateTextMessage" xml:space="preserve">
+    <value>Vis de poster, som datoen er for</value>
+  </data>
+  <data name="PivotView_Days" xml:space="preserve">
+    <value>Dage</value>
+  </data>
+  <data name="PivotView_DecimalPlaces" xml:space="preserve">
+    <value>Decimal steder</value>
+  </data>
+  <data name="PivotView_Delete" xml:space="preserve">
+    <value>Slet</value>
+  </data>
+  <data name="PivotView_DeleteReport" xml:space="preserve">
+    <value>Slet en aktuel rapport</value>
+  </data>
+  <data name="PivotView_Descending" xml:space="preserve">
+    <value>Aftagende</value>
+  </data>
+  <data name="PivotView_Details" xml:space="preserve">
+    <value>detaljer</value>
+  </data>
+  <data name="PivotView_DifferenceFrom" xml:space="preserve">
+    <value>Forskel fra</value>
+  </data>
+  <data name="PivotView_Dimension" xml:space="preserve">
+    <value>Dimension</value>
+  </data>
+  <data name="PivotView_DistinctCount" xml:space="preserve">
+    <value>Distinct Count</value>
+  </data>
+  <data name="PivotView_DoesNotBeginWith" xml:space="preserve">
+    <value>Begynder ikke med</value>
+  </data>
+  <data name="PivotView_DoesNotContains" xml:space="preserve">
+    <value>Indeholder ikke</value>
+  </data>
+  <data name="PivotView_DoesNotEndsWith" xml:space="preserve">
+    <value>Slutter ikke med</value>
+  </data>
+  <data name="PivotView_DoesNotEquals" xml:space="preserve">
+    <value>Er ikke lig</value>
+  </data>
+  <data name="PivotView_DoNotShowGrandTotals" xml:space="preserve">
+    <value>Vis ikke totalresultater</value>
+  </data>
+  <data name="PivotView_DoNotShowSubtotals" xml:space="preserve">
+    <value>Vis ikke undersider</value>
+  </data>
+  <data name="PivotView_Drag" xml:space="preserve">
+    <value>Træk</value>
+  </data>
+  <data name="PivotView_DrillThrough" xml:space="preserve">
+    <value>Bor gennem</value>
+  </data>
+  <data name="PivotView_DrillThroughErrorMessage" xml:space="preserve">
+    <value>Der kan ikke vises råemner fra beregnede felter.</value>
+  </data>
+  <data name="PivotView_Edit" xml:space="preserve">
+    <value>Redigere</value>
+  </data>
+  <data name="PivotView_EmptyRecordsMessage" xml:space="preserve">
+    <value>Ingen poster at vise</value>
+  </data>
+  <data name="PivotView_EmptyReportMessage" xml:space="preserve">
+    <value>Ingen rapporter fundet !!</value>
+  </data>
+  <data name="PivotView_EndAt" xml:space="preserve">
+    <value>Slutter kl</value>
+  </data>
+  <data name="PivotView_EndsWith" xml:space="preserve">
+    <value>Ender med</value>
+  </data>
+  <data name="PivotView_EnterDate" xml:space="preserve">
+    <value>Indtast dato</value>
+  </data>
+  <data name="PivotView_EnterReportNameMessage" xml:space="preserve">
+    <value>Indtast et rapportnavn</value>
+  </data>
+  <data name="PivotView_EnterValue" xml:space="preserve">
+    <value>Indtast værdi</value>
+  </data>
+  <data name="PivotView_Equals" xml:space="preserve">
+    <value>Lige med</value>
+  </data>
+  <data name="PivotView_Error" xml:space="preserve">
+    <value>Fejl</value>
+  </data>
+  <data name="PivotView_Example" xml:space="preserve">
+    <value>f.eks:</value>
+  </data>
+  <data name="PivotView_Excel" xml:space="preserve">
+    <value>Excel</value>
+  </data>
+  <data name="PivotView_Expand" xml:space="preserve">
+    <value>Udvide</value>
+  </data>
+  <data name="PivotView_Export" xml:space="preserve">
+    <value>Eksport</value>
+  </data>
+  <data name="PivotView_Expression" xml:space="preserve">
+    <value>Ekspression</value>
+  </data>
+  <data name="PivotView_False" xml:space="preserve">
+    <value>Falsk</value>
+  </data>
+  <data name="PivotView_FieldCaption" xml:space="preserve">
+    <value>Felttekst</value>
+  </data>
+  <data name="PivotView_FieldCaptionMessage" xml:space="preserve">
+    <value>Felttekst</value>
+  </data>
+  <data name="PivotView_FieldDropErrorMessage" xml:space="preserve">
+    <value>Det felt, du flytter, kan ikke placeres i det område af rapporten</value>
+  </data>
+  <data name="PivotView_FieldName" xml:space="preserve">
+    <value>Feltnavn</value>
+  </data>
+  <data name="PivotView_FieldNameMessage" xml:space="preserve">
+    <value>Feltnavn :</value>
+  </data>
+  <data name="PivotView_FieldType" xml:space="preserve">
+    <value>Felttype</value>
+  </data>
+  <data name="PivotView_Filter" xml:space="preserve">
+    <value>Filter</value>
+  </data>
+  <data name="PivotView_FilterAxisWatermark" xml:space="preserve">
+    <value>Drop filter her</value>
+  </data>
+  <data name="PivotView_Filtered" xml:space="preserve">
+    <value>filtreret</value>
+  </data>
+  <data name="PivotView_Filters" xml:space="preserve">
+    <value>filtre</value>
+  </data>
+  <data name="PivotView_Format" xml:space="preserve">
+    <value>Format</value>
+  </data>
+  <data name="PivotView_FormatString" xml:space="preserve">
+    <value>Formater streng</value>
+  </data>
+  <data name="PivotView_FormatType" xml:space="preserve">
+    <value>Formattype</value>
+  </data>
+  <data name="PivotView_Formula" xml:space="preserve">
+    <value>Formel</value>
+  </data>
+  <data name="PivotView_GrandTotal" xml:space="preserve">
+    <value>Grand Total</value>
+  </data>
+  <data name="PivotView_GrandTotals" xml:space="preserve">
+    <value>Stor summa</value>
+  </data>
+  <data name="PivotView_GreaterThan" xml:space="preserve">
+    <value>Bedre end</value>
+  </data>
+  <data name="PivotView_GreaterThanOrEqualTo" xml:space="preserve">
+    <value>Større end eller lig med</value>
+  </data>
+  <data name="PivotView_Group" xml:space="preserve">
+    <value>Gruppe</value>
+  </data>
+  <data name="PivotView_GroupCaptionMessage" xml:space="preserve">
+    <value>Indtast billedteksten, der skal vises i overskriften</value>
+  </data>
+  <data name="PivotView_GroupFieldCaptionMessage" xml:space="preserve">
+    <value>Indtast billedtekst for gruppefelt</value>
+  </data>
+  <data name="PivotView_Grouping" xml:space="preserve">
+    <value>Gruppering</value>
+  </data>
+  <data name="PivotView_GroupName" xml:space="preserve">
+    <value>Gruppe navn</value>
+  </data>
+  <data name="PivotView_Hours" xml:space="preserve">
+    <value>timer</value>
+  </data>
+  <data name="PivotView_Index" xml:space="preserve">
+    <value>Indeks</value>
+  </data>
+  <data name="PivotView_IntervalBy" xml:space="preserve">
+    <value>Interval efter</value>
+  </data>
+  <data name="PivotView_InvalidFormat" xml:space="preserve">
+    <value>Ugyldigt format.</value>
+  </data>
+  <data name="PivotView_InvalidFormula" xml:space="preserve">
+    <value>Ugyldig formel.</value>
+  </data>
+  <data name="PivotView_InvalidGroupSelectionMessage" xml:space="preserve">
+    <value>Dette valg kan ikke grupperes.</value>
+  </data>
+  <data name="PivotView_JPEG" xml:space="preserve">
+    <value>JPEG</value>
+  </data>
+  <data name="PivotView_Label" xml:space="preserve">
+    <value>Etiket</value>
+  </data>
+  <data name="PivotView_LabelTextMessage" xml:space="preserve">
+    <value>Vis de emner, som etiketten har</value>
+  </data>
+  <data name="PivotView_Left" xml:space="preserve">
+    <value>Venstre</value>
+  </data>
+  <data name="PivotView_LessThan" xml:space="preserve">
+    <value>Mindre end</value>
+  </data>
+  <data name="PivotView_LessThanOrEqualTo" xml:space="preserve">
+    <value>Mindre end eller lig med</value>
+  </data>
+  <data name="PivotView_Line" xml:space="preserve">
+    <value>linje</value>
+  </data>
+  <data name="PivotView_LoadReport" xml:space="preserve">
+    <value>belastning</value>
+  </data>
+  <data name="PivotView_ManageRecords" xml:space="preserve">
+    <value>Administrer poster</value>
+  </data>
+  <data name="PivotView_Max" xml:space="preserve">
+    <value>Max</value>
+  </data>
+  <data name="PivotView_MdxQuery" xml:space="preserve">
+    <value>MDX-forespørgsel</value>
+  </data>
+  <data name="PivotView_Measure" xml:space="preserve">
+    <value>Måle</value>
+  </data>
+  <data name="PivotView_Member" xml:space="preserve">
+    <value>Medlem</value>
+  </data>
+  <data name="PivotView_MemberLimitMessage" xml:space="preserve">
+    <value>flere varer. Søg for at forfine yderligere.</value>
+  </data>
+  <data name="PivotView_Min" xml:space="preserve">
+    <value>Min</value>
+  </data>
+  <data name="PivotView_Minutes" xml:space="preserve">
+    <value>minutter</value>
+  </data>
+  <data name="PivotView_Months" xml:space="preserve">
+    <value>måneder</value>
+  </data>
+  <data name="PivotView_MoreOption" xml:space="preserve">
+    <value>Mere...</value>
+  </data>
+  <data name="PivotView_MultipleItems" xml:space="preserve">
+    <value>Flere genstande</value>
+  </data>
+  <data name="PivotView_NewReport" xml:space="preserve">
+    <value>Opret en ny rapport</value>
+  </data>
+  <data name="PivotView_NewReportConfirmMessage" xml:space="preserve">
+    <value>Vil du gemme ændringerne i denne rapport?</value>
+  </data>
+  <data name="PivotView_NoFormatMessage" xml:space="preserve">
+    <value>Intet format fundet !!!</value>
+  </data>
+  <data name="PivotView_NoInputMessage" xml:space="preserve">
+    <value>Indtast en værdi</value>
+  </data>
+  <data name="PivotView_NoMatchesMessage" xml:space="preserve">
+    <value>Ingen kampe</value>
+  </data>
+  <data name="PivotView_NotBetween" xml:space="preserve">
+    <value>Ikke mellem</value>
+  </data>
+  <data name="PivotView_NotEquals" xml:space="preserve">
+    <value>Ikke lig</value>
+  </data>
+  <data name="PivotView_NoValue" xml:space="preserve">
+    <value>Ingen værdi</value>
+  </data>
+  <data name="PivotView_Null" xml:space="preserve">
+    <value>nul</value>
+  </data>
+  <data name="PivotView_Number" xml:space="preserve">
+    <value>Nummer</value>
+  </data>
+  <data name="PivotView_NumberFormatting" xml:space="preserve">
+    <value>Nummerformatering</value>
+  </data>
+  <data name="PivotView_Of" xml:space="preserve">
+    <value>af</value>
+  </data>
+  <data name="PivotView_OK" xml:space="preserve">
+    <value>Okay</value>
+  </data>
+  <data name="PivotView_OutOfRange" xml:space="preserve">
+    <value>Uden for rækkevidde</value>
+  </data>
+  <data name="PivotView_ParentHierarchy" xml:space="preserve">
+    <value>Forældrehierarki</value>
+  </data>
+  <data name="PivotView_PDF" xml:space="preserve">
+    <value>PDF</value>
+  </data>
+  <data name="PivotView_Percent" xml:space="preserve">
+    <value>procent</value>
+  </data>
+  <data name="PivotView_Percentage" xml:space="preserve">
+    <value>Procent</value>
+  </data>
+  <data name="PivotView_PercentageOfColumnTotal" xml:space="preserve">
+    <value>% af kolonnen i alt</value>
+  </data>
+  <data name="PivotView_PercentageOfDifferenceFrom" xml:space="preserve">
+    <value>% af forskellen fra</value>
+  </data>
+  <data name="PivotView_PercentageOfGrandTotal" xml:space="preserve">
+    <value>% af Grand Total</value>
+  </data>
+  <data name="PivotView_PercentageOfParentColumnTotal" xml:space="preserve">
+    <value>% af forældrekolonnen i alt</value>
+  </data>
+  <data name="PivotView_PercentageOfParentRowTotal" xml:space="preserve">
+    <value>% af det samlede antal forældre</value>
+  </data>
+  <data name="PivotView_PercentageOfParentTotal" xml:space="preserve">
+    <value>% af moderselskabets samlede størrelse</value>
+  </data>
+  <data name="PivotView_PercentageOfRowTotal" xml:space="preserve">
+    <value>% af række i alt</value>
+  </data>
+  <data name="PivotView_PNG" xml:space="preserve">
+    <value>PNG</value>
+  </data>
+  <data name="PivotView_Polar" xml:space="preserve">
+    <value>Polar</value>
+  </data>
+  <data name="PivotView_PopulationStDev" xml:space="preserve">
+    <value>Befolkning StDev</value>
+  </data>
+  <data name="PivotView_PopulationVar" xml:space="preserve">
+    <value>Befolkning Var</value>
+  </data>
+  <data name="PivotView_Product" xml:space="preserve">
+    <value>Produkt</value>
+  </data>
+  <data name="PivotView_Quarter" xml:space="preserve">
+    <value>Qtr</value>
+  </data>
+  <data name="PivotView_Quarters" xml:space="preserve">
+    <value>Quarters</value>
+  </data>
+  <data name="PivotView_QuarterYear" xml:space="preserve">
+    <value>Kvartår</value>
+  </data>
+  <data name="PivotView_Remove" xml:space="preserve">
+    <value>Fjerne</value>
+  </data>
+  <data name="PivotView_RemoveReportConfirmMessage" xml:space="preserve">
+    <value>Er du sikker på, at du vil slette denne rapport?</value>
+  </data>
+  <data name="PivotView_RenameReport" xml:space="preserve">
+    <value>Omdøb en aktuel rapport</value>
+  </data>
+  <data name="PivotView_ReportList" xml:space="preserve">
+    <value>Rapportliste</value>
+  </data>
+  <data name="PivotView_ReportNameMessage" xml:space="preserve">
+    <value>Rapportnavn:</value>
+  </data>
+  <data name="PivotView_Right" xml:space="preserve">
+    <value>Ret</value>
+  </data>
+  <data name="PivotView_Row" xml:space="preserve">
+    <value>Række</value>
+  </data>
+  <data name="PivotView_RowAxisWatermark" xml:space="preserve">
+    <value>Slip række her</value>
+  </data>
+  <data name="PivotView_Rows" xml:space="preserve">
+    <value>rækker</value>
+  </data>
+  <data name="PivotView_RunningTotals" xml:space="preserve">
+    <value>Løb Totals</value>
+  </data>
+  <data name="PivotView_SampleReport" xml:space="preserve">
+    <value>Prøverapport</value>
+  </data>
+  <data name="PivotView_SampleStDev" xml:space="preserve">
+    <value>Prøve StDev</value>
+  </data>
+  <data name="PivotView_SampleVar" xml:space="preserve">
+    <value>Prøve Var</value>
+  </data>
+  <data name="PivotView_SaveAsReport" xml:space="preserve">
+    <value>Gem som den aktuelle rapport</value>
+  </data>
+  <data name="PivotView_SaveReport" xml:space="preserve">
+    <value>Gem en rapport</value>
+  </data>
+  <data name="PivotView_Scatter" xml:space="preserve">
+    <value>Sprede</value>
+  </data>
+  <data name="PivotView_Search" xml:space="preserve">
+    <value>Søg</value>
+  </data>
+  <data name="PivotView_Seconds" xml:space="preserve">
+    <value>Sekunder</value>
+  </data>
+  <data name="PivotView_SelectedItems" xml:space="preserve">
+    <value>Valgte emner</value>
+  </data>
+  <data name="PivotView_SelectGroups" xml:space="preserve">
+    <value>Vælg grupper</value>
+  </data>
+  <data name="PivotView_ShowColumnGrandTotalsOnly" xml:space="preserve">
+    <value>Vis kun samlede kolonner</value>
+  </data>
+  <data name="PivotView_ShowColumnSubtotalsOnly" xml:space="preserve">
+    <value>Vis kun kolonners undertotal</value>
+  </data>
+  <data name="PivotView_ShowFieldList" xml:space="preserve">
+    <value>Vis feltliste</value>
+  </data>
+  <data name="PivotView_ShowGrandTotals" xml:space="preserve">
+    <value>Vis store totaler</value>
+  </data>
+  <data name="PivotView_ShowRowGrandTotalsOnly" xml:space="preserve">
+    <value>Vis kun rækker i store tal</value>
+  </data>
+  <data name="PivotView_ShowRowSubtotalsOnly" xml:space="preserve">
+    <value>Vis kun rækker i undertotaler</value>
+  </data>
+  <data name="PivotView_ShowSubtotals" xml:space="preserve">
+    <value>Vis undertotaler</value>
+  </data>
+  <data name="PivotView_ShowTable" xml:space="preserve">
+    <value>Vis tabel</value>
+  </data>
+  <data name="PivotView_Sort" xml:space="preserve">
+    <value>Sortere</value>
+  </data>
+  <data name="PivotView_Standard" xml:space="preserve">
+    <value>Standard</value>
+  </data>
+  <data name="PivotView_StartAt" xml:space="preserve">
+    <value>Starter ved</value>
+  </data>
+  <data name="PivotView_Subtotals" xml:space="preserve">
+    <value>Undertotaler</value>
+  </data>
+  <data name="PivotView_Sum" xml:space="preserve">
+    <value>Sum</value>
+  </data>
+  <data name="PivotView_Summaries" xml:space="preserve">
+    <value>Resumerer værdierne ved</value>
+  </data>
+  <data name="PivotView_SummarizeValuesBy" xml:space="preserve">
+    <value>Resumér værdier med</value>
+  </data>
+  <data name="PivotView_SVG" xml:space="preserve">
+    <value>SVG</value>
+  </data>
+  <data name="PivotView_SymbolPosition" xml:space="preserve">
+    <value>Symbolposition</value>
+  </data>
+  <data name="PivotView_Total" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="PivotView_True" xml:space="preserve">
+    <value>Rigtigt</value>
+  </data>
+  <data name="PivotView_Undefined" xml:space="preserve">
+    <value>undefined</value>
+  </data>
+  <data name="PivotView_Ungroup" xml:space="preserve">
+    <value>Opdel gruppe</value>
+  </data>
+  <data name="PivotView_ValidReportNameMessage" xml:space="preserve">
+    <value>Indtast et gyldigt postnavn !!!</value>
+  </data>
+  <data name="PivotView_Value" xml:space="preserve">
+    <value>Værdi</value>
+  </data>
+  <data name="PivotView_ValueAxisWatermark" xml:space="preserve">
+    <value>Drop værdi her</value>
+  </data>
+  <data name="PivotView_ValueFieldSettings" xml:space="preserve">
+    <value>Indstillinger for værdi felt</value>
+  </data>
+  <data name="PivotView_Values" xml:space="preserve">
+    <value>Værdier</value>
+  </data>
+  <data name="PivotView_ValueTextMessage" xml:space="preserve">
+    <value>Vis de varer, som der er tale om</value>
+  </data>
+  <data name="PivotView_Warning" xml:space="preserve">
+    <value>Advarsel</value>
+  </data>
+  <data name="PivotView_Years" xml:space="preserve">
+    <value>Flere år</value>
+  </data>
+  <data name="PivotView_MultipleAxes" xml:space="preserve">
+    <value>Flere akser</value>
+  </data>
+  <data name="PivotView_ChartTypeSettings" xml:space="preserve">
+    <value>Indstillinger for diagramtype</value>
+  </data>
+  <data name="PivotView_ChartType" xml:space="preserve">
+    <value>Diagramtype</value>
+  </data>
+  <data name="PivotView_Yes" xml:space="preserve">
+    <value>Ja</value>
+  </data>
+  <data name="PivotView_No" xml:space="preserve">
+    <value>Ingen</value>
+  </data>
+  <data name="PivotView_NumberFormatMenu" xml:space="preserve">
+    <value>Nummerformatering ...</value>
+  </data>
+  <data name="PivotView_ConditionalFormatingMenu" xml:space="preserve">
+    <value>Betinget formatering...</value>
+  </data>
+  <data name="PivotView_CalculatedField_RemoveMessage" xml:space="preserve">
+    <value>Er du sikker på, at du vil slette dette beregnede felt?</value>
+  </data>
+  <data name="PivotView_StackedArea" xml:space="preserve">
+    <value>Stakket område</value>
+  </data>
+  <data name="PivotView_StackedColumn" xml:space="preserve">
+    <value>Stakket søjle</value>
+  </data>
+  <data name="PivotView_StackedBar" xml:space="preserve">
+    <value>Stablet bjælke</value>
+  </data>
+  <data name="PivotView_StepLine" xml:space="preserve">
+    <value>Trin linje</value>
+  </data>
+  <data name="PivotView_StepArea" xml:space="preserve">
+    <value>Trin Område</value>
+  </data>
+  <data name="PivotView_SplineArea" xml:space="preserve">
+    <value>Spline Område</value>
+  </data>
+  <data name="PivotView_Spline" xml:space="preserve">
+    <value>spline</value>
+  </data>
+  <data name="PivotView_StackedColumn100" xml:space="preserve">
+    <value>100% stablet kolonne</value>
+  </data>
+  <data name="PivotView_StackedBar100" xml:space="preserve">
+    <value>100% stablet bjælke</value>
+  </data>
+  <data name="PivotView_StackedArea100" xml:space="preserve">
+    <value>100% stablet område</value>
+  </data>
+  <data name="PivotView_Bubble" xml:space="preserve">
+    <value>Boble</value>
+  </data>
+  <data name="PivotView_Pareto" xml:space="preserve">
+    <value>Pareto</value>
+  </data>
+  <data name="PivotView_Radar" xml:space="preserve">
+    <value>Radar</value>
+  </data>
+  <data name="PivotView_CalculatedField_EditTooltipMessage" xml:space="preserve">
+    <value>Rediger beregnet felt</value>
+  </data>
+  <data name="PivotView_CalculatedField_ClearTooltipMessage" xml:space="preserve">
+    <value>Ryd redigerede feltinfo</value>
+  </data>
+  <data name="PivotView_Pie" xml:space="preserve">
+    <value>Pie</value>
+  </data>
+  <data name="PivotView_Pyramid" xml:space="preserve">
+    <value>Pyramide</value>
+  </data>
+  <data name="PivotView_Doughnut" xml:space="preserve">
+    <value>Donut</value>
+  </data>
+  <data name="PivotView_Funnel" xml:space="preserve">
+    <value>Tragt</value>
+  </data>
+  <data name="PivotView_Stacked" xml:space="preserve">
+    <value>Stablet</value>
+  </data>
+  <data name="PivotView_Grouped" xml:space="preserve">
+    <value>Grupperet</value>
+  </data>
+  <data name="PivotView_MultipleAxisMode" xml:space="preserve">
+    <value>Multipaksetilstand</value>
+  </data>
+  <data name="PivotView_Median" xml:space="preserve">
+    <value>Median</value>
+  </data>
+  <data name="PivotView_Bottom" xml:space="preserve">
+    <value>Bund</value>
+  </data>
+  <data name="PivotView_GrandTotalPositions" xml:space="preserve">
+    <value>Grand Total Positioner</value>
+  </data>
+  <data name="PivotView_Top" xml:space="preserve">
+    <value>Top</value>
+  </data>
+  <data name="QueryBuilder_AddCondition" xml:space="preserve">
+    <value>Tilføj betingelse</value>
+  </data>
+  <data name="QueryBuilder_AddGroup" xml:space="preserve">
+    <value>Tilføj gruppe</value>
+  </data>
+  <data name="QueryBuilder_AND" xml:space="preserve">
+    <value>OG</value>
+  </data>
+  <data name="QueryBuilder_Between" xml:space="preserve">
+    <value>Mellem</value>
+  </data>
+  <data name="QueryBuilder_Contains" xml:space="preserve">
+    <value>Indeholder</value>
+  </data>
+  <data name="QueryBuilder_DeleteGroup" xml:space="preserve">
+    <value>Slet gruppe</value>
+  </data>
+  <data name="QueryBuilder_DeleteRule" xml:space="preserve">
+    <value>Fjern denne betingelse</value>
+  </data>
+  <data name="QueryBuilder_Edit" xml:space="preserve">
+    <value>REDIGERE</value>
+  </data>
+  <data name="QueryBuilder_Empty" xml:space="preserve">
+    <value>Tom</value>
+  </data>
+  <data name="QueryBuilder_EndsWith" xml:space="preserve">
+    <value>Ender med</value>
+  </data>
+  <data name="QueryBuilder_Equal" xml:space="preserve">
+    <value>Lige</value>
+  </data>
+  <data name="QueryBuilder_GreaterThan" xml:space="preserve">
+    <value>Bedre end</value>
+  </data>
+  <data name="QueryBuilder_GreaterThanOrEqual" xml:space="preserve">
+    <value>Større end ligeså</value>
+  </data>
+  <data name="QueryBuilder_In" xml:space="preserve">
+    <value>I</value>
+  </data>
+  <data name="QueryBuilder_LessThan" xml:space="preserve">
+    <value>Mindre end</value>
+  </data>
+  <data name="QueryBuilder_LessThanOrEqual" xml:space="preserve">
+    <value>Mindre end eller lige</value>
+  </data>
+  <data name="QueryBuilder_NotBetween" xml:space="preserve">
+    <value>Ikke mellem</value>
+  </data>
+  <data name="QueryBuilder_NotContains" xml:space="preserve">
+    <value>Indeholder ikke</value>
+  </data>
+  <data name="QueryBuilder_NotEmpty" xml:space="preserve">
+    <value>Ikke tom</value>
+  </data>
+  <data name="QueryBuilder_NotEqual" xml:space="preserve">
+    <value>Ikke lige</value>
+  </data>
+  <data name="QueryBuilder_NotIn" xml:space="preserve">
+    <value>Ikke i</value>
+  </data>
+  <data name="QueryBuilder_OR" xml:space="preserve">
+    <value>ELLER</value>
+  </data>
+  <data name="QueryBuilder_OtherFields" xml:space="preserve">
+    <value>Andre felter</value>
+  </data>
+  <data name="QueryBuilder_Remove" xml:space="preserve">
+    <value>FJERNE</value>
+  </data>
+  <data name="QueryBuilder_SelectField" xml:space="preserve">
+    <value>Vælg et felt</value>
+  </data>
+  <data name="QueryBuilder_SelectOperator" xml:space="preserve">
+    <value>Vælg operatør</value>
+  </data>
+  <data name="QueryBuilder_SelectValue" xml:space="preserve">
+    <value>Indtast værdi</value>
+  </data>
+  <data name="QueryBuilder_StartsWith" xml:space="preserve">
+    <value>Begynder med</value>
+  </data>
+  <data name="QueryBuilder_SummaryViewTitle" xml:space="preserve">
+    <value>Resumévisning</value>
+  </data>
+  <data name="QueryBuilder_ValidationMessage" xml:space="preserve">
+    <value>dette felt er påkrævet</value>
+  </data>
+  <data name="Dialog_Close" xml:space="preserve">
+    <value>Tæt</value>
+  </data>
+  <data name="Toast_Close" xml:space="preserve">
+    <value>Tæt</value>
+  </data>
+  <data name="InPlaceEditor_Save" xml:space="preserve">
+    <value>Gemme</value>
+  </data>
+  <data name="InPlaceEditor_Cancel" xml:space="preserve">
+    <value>Afbestille</value>
+  </data>
+  <data name="InPlaceEditor_LoadingText" xml:space="preserve">
+    <value>Indlæser...</value>
+  </data>
+  <data name="InPlaceEditor_EditIcon" xml:space="preserve">
+    <value>Klik for at redigere</value>
+  </data>
+  <data name="InPlaceEditor_EditAreaClick" xml:space="preserve">
+    <value>Klik for at redigere</value>
+  </data>
+  <data name="InPlaceEditor_EditAreaDoubleClick" xml:space="preserve">
+    <value>Dobbeltklik for at redigere</value>
+  </data>
+  <data name="Kanban_Items" xml:space="preserve">
+    <value>elementer</value>
+  </data>
+  <data name="Kanban_Item" xml:space="preserve">
+    <value>vare</value>
+  </data>
+  <data name="Kanban_No_Cards" xml:space="preserve">
+    <value>Ingen kort at vise</value>
+  </data>
+  <data name="Kanban_Min" xml:space="preserve">
+    <value>Min</value>
+  </data>
+  <data name="Kanban_Max" xml:space="preserve">
+    <value>Max</value>
+  </data>
+  <data name="Kanban_CardsSelected" xml:space="preserve">
+    <value>Valgte kort</value>
+  </data>
+  <data name="Kanban_AddTitle" xml:space="preserve">
+    <value>Tilføj nyt kort</value>
+  </data>
+  <data name="Kanban_EditTitle" xml:space="preserve">
+    <value>Rediger kortoplysninger</value>
+  </data>
+  <data name="Kanban_DeleteTitle" xml:space="preserve">
+    <value>Slet kort</value>
+  </data>
+  <data name="Kanban_DeleteContent" xml:space="preserve">
+    <value>Er du sikker på, at du vil slette dette kort?</value>
+  </data>
+  <data name="Kanban_Save" xml:space="preserve">
+    <value>Gemme</value>
+  </data>
+  <data name="Kanban_Delete" xml:space="preserve">
+    <value>Slet</value>
+  </data>
+  <data name="Kanban_Cancel" xml:space="preserve">
+    <value>Afbestille</value>
+  </data>
+  <data name="Kanban_Yes" xml:space="preserve">
+    <value>Ja</value>
+  </data>
+  <data name="Kanban_No" xml:space="preserve">
+    <value>Ingen</value>
+  </data>
+  <data name="RichTextEditor_NumberFormatListNone" xml:space="preserve">
+    <value>Ingen</value>
+  </data>
+  <data name="RichTextEditor_NumberFormatListNumber" xml:space="preserve">
+    <value>Nummer</value>
+  </data>
+  <data name="RichTextEditor_NumberFormatListUpperAlpha" xml:space="preserve">
+    <value>Øvre alfa</value>
+  </data>
+  <data name="RichTextEditor_NumberFormatListLowerAlpha" xml:space="preserve">
+    <value>Lavere Alpha</value>
+  </data>
+  <data name="RichTextEditor_NumberFormatListUpperRoman" xml:space="preserve">
+    <value>Øvre romerske</value>
+  </data>
+  <data name="RichTextEditor_NumberFormatListLowerRoman" xml:space="preserve">
+    <value>Nedre romersk</value>
+  </data>
+  <data name="RichTextEditor_NumberFormatListLowerGreek" xml:space="preserve">
+    <value>Nedre græsk</value>
+  </data>
+  <data name="RichTextEditor_BulletFormatListNone" xml:space="preserve">
+    <value>Ingen</value>
+  </data>
+  <data name="RichTextEditor_BulletFormatListCircle" xml:space="preserve">
+    <value>Cirkel</value>
+  </data>
+  <data name="RichTextEditor_BulletFormatListSquare" xml:space="preserve">
+    <value>Firkant</value>
+  </data>
+  <data name="RichTextEditor_BulletFormatListDisc" xml:space="preserve">
+    <value>Disk</value>
+  </data>
+  <data name="RichTextEditor_FormatsDropDownParagraph" xml:space="preserve">
+    <value>afsnit</value>
+  </data>
+  <data name="RichTextEditor_FormatsDropDownCode" xml:space="preserve">
+    <value>kode</value>
+  </data>
+  <data name="RichTextEditor_FormatsDropDownQuotation" xml:space="preserve">
+    <value>citat</value>
+  </data>
+  <data name="RichTextEditor_FormatsDropDownHeading1" xml:space="preserve">
+    <value>overskrift 1</value>
+  </data>
+  <data name="RichTextEditor_FormatsDropDownHeading2" xml:space="preserve">
+    <value>overskrift 2</value>
+  </data>
+  <data name="RichTextEditor_FormatsDropDownHeading3" xml:space="preserve">
+    <value>overskrift 3</value>
+  </data>
+  <data name="RichTextEditor_FormatsDropDownHeading4" xml:space="preserve">
+    <value>overskrift 4</value>
+  </data>
+  <data name="RichTextEditor_FormatsDropDownHeading5" xml:space="preserve">
+    <value>overskrift 5</value>
+  </data>
+  <data name="RichTextEditor_FormatsDropDownHeading6" xml:space="preserve">
+    <value>overskrift  6</value>
+  </data>
+  <data name="RichTextEditor_FontNameSegoeUI" xml:space="preserve">
+    <value>Segoe UI</value>
+  </data>
+  <data name="RichTextEditor_FontNameArial" xml:space="preserve">
+    <value>Arial</value>
+  </data>
+  <data name="RichTextEditor_FontNameGeorgia" xml:space="preserve">
+    <value>Georgien</value>
+  </data>
+  <data name="RichTextEditor_FontNameImpact" xml:space="preserve">
+    <value>Indvirkning</value>
+  </data>
+  <data name="RichTextEditor_FontNameTahoma" xml:space="preserve">
+    <value>Tahoma</value>
+  </data>
+  <data name="RichTextEditor_FontNameTimesNewRoman" xml:space="preserve">
+    <value>Gange nye romersk</value>
+  </data>
+  <data name="RichTextEditor_FontNameVerdana" xml:space="preserve">
+    <value>Verdana</value>
+  </data>
+  <data name="RichTextEditor_Alignments" xml:space="preserve">
+    <value>Opstillinger</value>
+  </data>
+  <data name="RichTextEditor_JustifyLeft" xml:space="preserve">
+    <value>Juster venstre</value>
+  </data>
+  <data name="RichTextEditor_JustifyCenter" xml:space="preserve">
+    <value>Juster Center</value>
+  </data>
+  <data name="RichTextEditor_JustifyRight" xml:space="preserve">
+    <value>Juster højre</value>
+  </data>
+  <data name="RichTextEditor_JustifyFull" xml:space="preserve">
+    <value>Juster Begrund</value>
+  </data>
+  <data name="RichTextEditor_FontName" xml:space="preserve">
+    <value>Skriftnavn</value>
+  </data>
+  <data name="RichTextEditor_FontSize" xml:space="preserve">
+    <value>Skriftstørrelse</value>
+  </data>
+  <data name="RichTextEditor_FontColor" xml:space="preserve">
+    <value>Skrift farve</value>
+  </data>
+  <data name="RichTextEditor_BackgroundColor" xml:space="preserve">
+    <value>Baggrundsfarve</value>
+  </data>
+  <data name="RichTextEditor_Bold" xml:space="preserve">
+    <value>Fremhævet</value>
+  </data>
+  <data name="RichTextEditor_Italic" xml:space="preserve">
+    <value>Kursiv</value>
+  </data>
+  <data name="RichTextEditor_Underline" xml:space="preserve">
+    <value>Understrege</value>
+  </data>
+  <data name="RichTextEditor_Strikethrough" xml:space="preserve">
+    <value>Gennemstreget</value>
+  </data>
+  <data name="RichTextEditor_ClearFormat" xml:space="preserve">
+    <value>Ryd format</value>
+  </data>
+  <data name="RichTextEditor_ClearAll" xml:space="preserve">
+    <value>Slet alt</value>
+  </data>
+  <data name="RichTextEditor_Cut" xml:space="preserve">
+    <value>Skære</value>
+  </data>
+  <data name="RichTextEditor_Copy" xml:space="preserve">
+    <value>Kopi</value>
+  </data>
+  <data name="RichTextEditor_Paste" xml:space="preserve">
+    <value>sæt ind</value>
+  </data>
+  <data name="RichTextEditor_UnorderedList" xml:space="preserve">
+    <value>Punktliste</value>
+  </data>
+  <data name="RichTextEditor_OrderedList" xml:space="preserve">
+    <value>Nummereret liste</value>
+  </data>
+  <data name="RichTextEditor_Indent" xml:space="preserve">
+    <value>Forøg indrykket</value>
+  </data>
+  <data name="RichTextEditor_Outdent" xml:space="preserve">
+    <value>Reducer indrykket</value>
+  </data>
+  <data name="RichTextEditor_Undo" xml:space="preserve">
+    <value>Fortryd</value>
+  </data>
+  <data name="RichTextEditor_Redo" xml:space="preserve">
+    <value>Redo</value>
+  </data>
+  <data name="RichTextEditor_Superscript" xml:space="preserve">
+    <value>Hævet</value>
+  </data>
+  <data name="RichTextEditor_Subscript" xml:space="preserve">
+    <value>Sænket</value>
+  </data>
+  <data name="RichTextEditor_CreateLink" xml:space="preserve">
+    <value>Indsæt Hyperlink</value>
+  </data>
+  <data name="RichTextEditor_OpenLink" xml:space="preserve">
+    <value>Åben link</value>
+  </data>
+  <data name="RichTextEditor_EditLink" xml:space="preserve">
+    <value>Rediger link</value>
+  </data>
+  <data name="RichTextEditor_RemoveLink" xml:space="preserve">
+    <value>Fjern link</value>
+  </data>
+  <data name="RichTextEditor_Image" xml:space="preserve">
+    <value>Indsæt billede</value>
+  </data>
+  <data name="RichTextEditor_Replace" xml:space="preserve">
+    <value>Erstatte</value>
+  </data>
+  <data name="RichTextEditor_Align" xml:space="preserve">
+    <value>Juster</value>
+  </data>
+  <data name="RichTextEditor_Caption" xml:space="preserve">
+    <value>Billedtekst</value>
+  </data>
+  <data name="RichTextEditor_Remove" xml:space="preserve">
+    <value>Fjerne</value>
+  </data>
+  <data name="RichTextEditor_InsertLink" xml:space="preserve">
+    <value>Indsæt link</value>
+  </data>
+  <data name="RichTextEditor_Display" xml:space="preserve">
+    <value>Skærm</value>
+  </data>
+  <data name="RichTextEditor_AltText" xml:space="preserve">
+    <value>Alternativ tekst</value>
+  </data>
+  <data name="RichTextEditor_Dimension" xml:space="preserve">
+    <value>Skift størrelse</value>
+  </data>
+  <data name="RichTextEditor_Fullscreen" xml:space="preserve">
+    <value>Maksimer</value>
+  </data>
+  <data name="RichTextEditor_Maximize" xml:space="preserve">
+    <value>Maksimer</value>
+  </data>
+  <data name="RichTextEditor_Minimize" xml:space="preserve">
+    <value>Minimer</value>
+  </data>
+  <data name="RichTextEditor_LowerCase" xml:space="preserve">
+    <value>Små bogstaver</value>
+  </data>
+  <data name="RichTextEditor_UpperCase" xml:space="preserve">
+    <value>Store bogstaver</value>
+  </data>
+  <data name="RichTextEditor_Print" xml:space="preserve">
+    <value>Print</value>
+  </data>
+  <data name="RichTextEditor_Formats" xml:space="preserve">
+    <value>Formater</value>
+  </data>
+  <data name="RichTextEditor_Sourcecode" xml:space="preserve">
+    <value>Kodevisning</value>
+  </data>
+  <data name="RichTextEditor_Preview" xml:space="preserve">
+    <value>Eksempel</value>
+  </data>
+  <data name="RichTextEditor_Viewside" xml:space="preserve">
+    <value>Udsigt Side</value>
+  </data>
+  <data name="RichTextEditor_InsertCode" xml:space="preserve">
+    <value>Indsæt kode</value>
+  </data>
+  <data name="RichTextEditor_LinkText" xml:space="preserve">
+    <value>Vis tekst</value>
+  </data>
+  <data name="RichTextEditor_LinkTooltipLabel" xml:space="preserve">
+    <value>Titel</value>
+  </data>
+  <data name="RichTextEditor_LinkWebUrl" xml:space="preserve">
+    <value>Web adresse</value>
+  </data>
+  <data name="RichTextEditor_LinkTitle" xml:space="preserve">
+    <value>Indtast en titel</value>
+  </data>
+  <data name="RichTextEditor_LinkUrl" xml:space="preserve">
+    <value>http://example.com</value>
+  </data>
+  <data name="RichTextEditor_LinkOpenInNewWindow" xml:space="preserve">
+    <value>Åbn link i nyt vindue</value>
+  </data>
+  <data name="RichTextEditor_LinkHeader" xml:space="preserve">
+    <value>Indsæt link</value>
+  </data>
+  <data name="RichTextEditor_DialogInsert" xml:space="preserve">
+    <value>Indsæt</value>
+  </data>
+  <data name="RichTextEditor_DialogCancel" xml:space="preserve">
+    <value>Afbestille</value>
+  </data>
+  <data name="RichTextEditor_DialogUpdate" xml:space="preserve">
+    <value>Opdatering</value>
+  </data>
+  <data name="RichTextEditor_ImageHeader" xml:space="preserve">
+    <value>Indsæt billede</value>
+  </data>
+  <data name="RichTextEditor_ImageLinkHeader" xml:space="preserve">
+    <value>Du kan også give et link fra internettet</value>
+  </data>
+  <data name="RichTextEditor_MdImageLink" xml:space="preserve">
+    <value>Angiv en URL til dit billede</value>
+  </data>
+  <data name="RichTextEditor_ImageUploadMessage" xml:space="preserve">
+    <value>Slip billede her, eller søg for at uploade</value>
+  </data>
+  <data name="RichTextEditor_ImageDeviceUploadMessage" xml:space="preserve">
+    <value>Klik her for at uploade</value>
+  </data>
+  <data name="RichTextEditor_ImageAlternateText" xml:space="preserve">
+    <value>Alternativ tekst</value>
+  </data>
+  <data name="RichTextEditor_AlternateHeader" xml:space="preserve">
+    <value>Alternativ tekst</value>
+  </data>
+  <data name="RichTextEditor_Browse" xml:space="preserve">
+    <value>Gennemse</value>
+  </data>
+  <data name="RichTextEditor_ImageUrl" xml:space="preserve">
+    <value>http://example.com/image.png</value>
+  </data>
+  <data name="RichTextEditor_ImageCaption" xml:space="preserve">
+    <value>Billedtekst</value>
+  </data>
+  <data name="RichTextEditor_ImageSizeHeader" xml:space="preserve">
+    <value>Billedestørrelse</value>
+  </data>
+  <data name="RichTextEditor_ImageHeight" xml:space="preserve">
+    <value>Højde</value>
+  </data>
+  <data name="RichTextEditor_ImageWidth" xml:space="preserve">
+    <value>Bredde</value>
+  </data>
+  <data name="RichTextEditor_TextPlaceholder" xml:space="preserve">
+    <value>Indtast tekst</value>
+  </data>
+  <data name="RichTextEditor_InsertTableBtn" xml:space="preserve">
+    <value>Indsæt tabel</value>
+  </data>
+  <data name="RichTextEditor_TableDialogHeader" xml:space="preserve">
+    <value>Indsæt tabel</value>
+  </data>
+  <data name="RichTextEditor_TableWidth" xml:space="preserve">
+    <value>Bredde</value>
+  </data>
+  <data name="RichTextEditor_Cellpadding" xml:space="preserve">
+    <value>Cell polstring</value>
+  </data>
+  <data name="RichTextEditor_Cellspacing" xml:space="preserve">
+    <value>Celleafstand</value>
+  </data>
+  <data name="RichTextEditor_Columns" xml:space="preserve">
+    <value>Antal kolonner</value>
+  </data>
+  <data name="RichTextEditor_Rows" xml:space="preserve">
+    <value>Antal rækker</value>
+  </data>
+  <data name="RichTextEditor_TableRows" xml:space="preserve">
+    <value>Tabelrader</value>
+  </data>
+  <data name="RichTextEditor_TableColumns" xml:space="preserve">
+    <value>Tabelkolonner</value>
+  </data>
+  <data name="RichTextEditor_TableCellHorizontalAlign" xml:space="preserve">
+    <value>Tabelcelle Vandret justering</value>
+  </data>
+  <data name="RichTextEditor_TableCellVerticalAlign" xml:space="preserve">
+    <value>Tabelcelle Lodret justering</value>
+  </data>
+  <data name="RichTextEditor_CreateTable" xml:space="preserve">
+    <value>Opret tabel</value>
+  </data>
+  <data name="RichTextEditor_RemoveTable" xml:space="preserve">
+    <value>Fjern tabel</value>
+  </data>
+  <data name="RichTextEditor_TableHeader" xml:space="preserve">
+    <value>Tabelhoved</value>
+  </data>
+  <data name="RichTextEditor_TableRemove" xml:space="preserve">
+    <value>Tabel Fjern</value>
+  </data>
+  <data name="RichTextEditor_TableCellBackground" xml:space="preserve">
+    <value>Tabelcellebaggrund</value>
+  </data>
+  <data name="RichTextEditor_TableEditProperties" xml:space="preserve">
+    <value>Tabel Rediger egenskaber</value>
+  </data>
+  <data name="RichTextEditor_Styles" xml:space="preserve">
+    <value>styles</value>
+  </data>
+  <data name="RichTextEditor_InsertColumnLeft" xml:space="preserve">
+    <value>Indsæt kolonne til venstre</value>
+  </data>
+  <data name="RichTextEditor_InsertColumnRight" xml:space="preserve">
+    <value>Indsæt kolonne til højre</value>
+  </data>
+  <data name="RichTextEditor_DeleteColumn" xml:space="preserve">
+    <value>Slet kolonne</value>
+  </data>
+  <data name="RichTextEditor_InsertRowBefore" xml:space="preserve">
+    <value>Indsæt række før</value>
+  </data>
+  <data name="RichTextEditor_InsertRowAfter" xml:space="preserve">
+    <value>Indsæt række efter</value>
+  </data>
+  <data name="RichTextEditor_DeleteRow" xml:space="preserve">
+    <value>Slet række</value>
+  </data>
+  <data name="RichTextEditor_TableEditHeader" xml:space="preserve">
+    <value>Rediger tabel</value>
+  </data>
+  <data name="RichTextEditor_TableHeadingText" xml:space="preserve">
+    <value>Overskrift</value>
+  </data>
+  <data name="RichTextEditor_TableColText" xml:space="preserve">
+    <value>Col</value>
+  </data>
+  <data name="RichTextEditor_ImageInsertLinkHeader" xml:space="preserve">
+    <value>Indsæt link</value>
+  </data>
+  <data name="RichTextEditor_EditImageHeader" xml:space="preserve">
+    <value>Rediger billede</value>
+  </data>
+  <data name="RichTextEditor_AlignmentsDropDownLeft" xml:space="preserve">
+    <value>Juster venstre</value>
+  </data>
+  <data name="RichTextEditor_AlignmentsDropDownCenter" xml:space="preserve">
+    <value>Juster Center</value>
+  </data>
+  <data name="RichTextEditor_AlignmentsDropDownRight" xml:space="preserve">
+    <value>Juster højre</value>
+  </data>
+  <data name="RichTextEditor_AlignmentsDropDownJustify" xml:space="preserve">
+    <value>Juster Begrund</value>
+  </data>
+  <data name="RichTextEditor_ImageDisplayDropDownInline" xml:space="preserve">
+    <value>Inline</value>
+  </data>
+  <data name="RichTextEditor_ImageDisplayDropDownBreak" xml:space="preserve">
+    <value>Pause</value>
+  </data>
+  <data name="RichTextEditor_TableInsertRowDropDownBefore" xml:space="preserve">
+    <value>Indsæt række før</value>
+  </data>
+  <data name="RichTextEditor_TableInsertRowDropDownAfter" xml:space="preserve">
+    <value>Indsæt række efter</value>
+  </data>
+  <data name="RichTextEditor_TableInsertRowDropDownDelete" xml:space="preserve">
+    <value>Slet række</value>
+  </data>
+  <data name="RichTextEditor_TableInsertColumnDropDownLeft" xml:space="preserve">
+    <value>Indsæt kolonne til venstre</value>
+  </data>
+  <data name="RichTextEditor_TableInsertColumnDropDownRight" xml:space="preserve">
+    <value>Indsæt kolonne til højre</value>
+  </data>
+  <data name="RichTextEditor_TableInsertColumnDropDownDelete" xml:space="preserve">
+    <value>Slet kolonne</value>
+  </data>
+  <data name="RichTextEditor_TableVerticalAlignDropDownTop" xml:space="preserve">
+    <value>Juster toppen</value>
+  </data>
+  <data name="RichTextEditor_TableVerticalAlignDropDownMiddle" xml:space="preserve">
+    <value>Juster midten</value>
+  </data>
+  <data name="RichTextEditor_TableVerticalAlignDropDownBottom" xml:space="preserve">
+    <value>Juster bunden</value>
+  </data>
+  <data name="RichTextEditor_TableStylesDropDownDashedBorder" xml:space="preserve">
+    <value>Stiplede grænser</value>
+  </data>
+  <data name="RichTextEditor_TableStylesDropDownAlternateRows" xml:space="preserve">
+    <value>Alternative rækker</value>
+  </data>
+  <data name="RichTextEditor_PasteFormat" xml:space="preserve">
+    <value>Indsæt format</value>
+  </data>
+  <data name="RichTextEditor_PasteFormatContent" xml:space="preserve">
+    <value>Vælg formateringshandlingen</value>
+  </data>
+  <data name="RichTextEditor_PlainText" xml:space="preserve">
+    <value>Simpel tekst</value>
+  </data>
+  <data name="RichTextEditor_CleanFormat" xml:space="preserve">
+    <value>Ren</value>
+  </data>
+  <data name="RichTextEditor_KeepFormat" xml:space="preserve">
+    <value>Holde</value>
+  </data>
+  <data name="RichTextEditor_PasteDialogOk" xml:space="preserve">
+    <value>Okay</value>
+  </data>
+  <data name="RichTextEditor_PasteDialogCancel" xml:space="preserve">
+    <value>Afbestille</value>
+  </data>
+  <data name="DiagramComponent_X" xml:space="preserve">
+    <value>X</value>
+  </data>
+  <data name="DiagramComponent_Y" xml:space="preserve">
+    <value>Y</value>
+  </data>
+  <data name="DiagramComponent_W" xml:space="preserve">
+    <value>W</value>
+  </data>
+  <data name="DiagramComponent_H" xml:space="preserve">
+    <value>H</value>
+  </data>
+  <data name="Diagram_BringToFront" xml:space="preserve">
+    <value>Tage den op foran</value>
+  </data>
+  <data name="Diagram_Copy" xml:space="preserve">
+    <value>Kopi</value>
+  </data>
+  <data name="Diagram_Cut" xml:space="preserve">
+    <value>Skære</value>
+  </data>
+  <data name="Diagram_Group" xml:space="preserve">
+    <value>Gruppe</value>
+  </data>
+  <data name="Diagram_Grouping" xml:space="preserve">
+    <value>Gruppering</value>
+  </data>
+  <data name="Diagram_MoveForward" xml:space="preserve">
+    <value>komme videre</value>
+  </data>
+  <data name="Diagram_Order" xml:space="preserve">
+    <value>Bestille</value>
+  </data>
+  <data name="Diagram_Paste" xml:space="preserve">
+    <value>sæt ind</value>
+  </data>
+  <data name="Diagram_Redo" xml:space="preserve">
+    <value>Fortryd</value>
+  </data>
+  <data name="Diagram_SelectAll" xml:space="preserve">
+    <value>Send baglæns</value>
+  </data>
+  <data name="Diagram_SendBackward" xml:space="preserve">
+    <value>Odeslat zpět</value>
+  </data>
+  <data name="Diagram_SendToBack" xml:space="preserve">
+    <value>Send til tilbage</value>
+  </data>
+  <data name="Diagram_Undo" xml:space="preserve">
+    <value>Fortryd</value>
+  </data>
+  <data name="Diagram_UnGroup" xml:space="preserve">
+    <value>Opdel gruppe</value>
+  </data>
+  <data name="Grid_EmptyRecord" xml:space="preserve">
+    <value>Ingen poster at vise</value>
+  </data>
+  <data name="Grid_True" xml:space="preserve">
+    <value>rigtigt</value>
+  </data>
+  <data name="Grid_False" xml:space="preserve">
+    <value>falsk</value>
+  </data>
+  <data name="Grid_InvalidFilterMessage" xml:space="preserve">
+    <value>Ugyldige filterdata</value>
+  </data>
+  <data name="Grid_GroupDropArea" xml:space="preserve">
+    <value>Træk en kolonneoverskrift her for at gruppere sin kolonne</value>
+  </data>
+  <data name="Grid_UnGroupButton" xml:space="preserve">
+    <value>Klik her for at opgruppe</value>
+  </data>
+  <data name="Grid_GroupDisable" xml:space="preserve">
+    <value>Gruppering er deaktiveret i denne kolonne</value>
+  </data>
+  <data name="Grid_FilterbarTitle" xml:space="preserve">
+    <value>"s filterbjælcelle</value>
+  </data>
+  <data name="Grid_EmptyDataSourceError" xml:space="preserve">
+    <value>DataSource må ikke være tom ved den indledende belastning, da kolonner genereres fra dataSource i AutoGenerate Column Grid</value>
+  </data>
+  <data name="Grid_Add" xml:space="preserve">
+    <value>Tilføje</value>
+  </data>
+  <data name="Grid_Edit" xml:space="preserve">
+    <value>Redigere</value>
+  </data>
+  <data name="Grid_Cancel" xml:space="preserve">
+    <value>Afbestille</value>
+  </data>
+  <data name="Grid_Update" xml:space="preserve">
+    <value>Opdatering</value>
+  </data>
+  <data name="Grid_Delete" xml:space="preserve">
+    <value>Slet</value>
+  </data>
+  <data name="Grid_Print" xml:space="preserve">
+    <value>Print</value>
+  </data>
+  <data name="Grid_Pdfexport" xml:space="preserve">
+    <value>PDF eksport</value>
+  </data>
+  <data name="Grid_Excelexport" xml:space="preserve">
+    <value>Excel-eksport</value>
+  </data>
+  <data name="Grid_Wordexport" xml:space="preserve">
+    <value>Ordeksport</value>
+  </data>
+  <data name="Grid_Csvexport" xml:space="preserve">
+    <value>CSV-eksport</value>
+  </data>
+  <data name="Grid_Search" xml:space="preserve">
+    <value>Søg</value>
+  </data>
+  <data name="Grid_Columnchooser" xml:space="preserve">
+    <value>Kolonner</value>
+  </data>
+  <data name="Grid_Save" xml:space="preserve">
+    <value>Gemme</value>
+  </data>
+  <data name="Grid_Item" xml:space="preserve">
+    <value>vare</value>
+  </data>
+  <data name="Grid_Items" xml:space="preserve">
+    <value>elementer</value>
+  </data>
+  <data name="Grid_EditOperationAlert" xml:space="preserve">
+    <value>Ingen poster valgt til redigeringsoperation</value>
+  </data>
+  <data name="Grid_DeleteOperationAlert" xml:space="preserve">
+    <value>Ingen poster valgt til sletning</value>
+  </data>
+  <data name="Grid_SaveButton" xml:space="preserve">
+    <value>Gemme</value>
+  </data>
+  <data name="Grid_OKButton" xml:space="preserve">
+    <value>Okay</value>
+  </data>
+  <data name="Grid_CancelButton" xml:space="preserve">
+    <value>Afbestille</value>
+  </data>
+  <data name="Grid_EditFormTitle" xml:space="preserve">
+    <value>Detaljer om</value>
+  </data>
+  <data name="Grid_AddFormTitle" xml:space="preserve">
+    <value>Tilføj ny post</value>
+  </data>
+  <data name="Grid_BatchSaveConfirm" xml:space="preserve">
+    <value>Er du sikker på, at du vil gemme ændringer?</value>
+  </data>
+  <data name="Grid_BatchSaveLostChanges" xml:space="preserve">
+    <value>Ikke-gemte ændringer vil gå tabt. Er du sikker på, at du vil fortsætte?</value>
+  </data>
+  <data name="Grid_ConfirmDelete" xml:space="preserve">
+    <value>Er du sikker på, at du vil slette posten?</value>
+  </data>
+  <data name="Grid_CancelEdit" xml:space="preserve">
+    <value>Er du sikker på, at du vil annullere ændringerne?</value>
+  </data>
+  <data name="Grid_ChooseColumns" xml:space="preserve">
+    <value>Vælg kolonne</value>
+  </data>
+  <data name="Grid_SearchColumns" xml:space="preserve">
+    <value>søgekolonner</value>
+  </data>
+  <data name="Grid_Matchs" xml:space="preserve">
+    <value>Ingen match fundet</value>
+  </data>
+  <data name="Grid_FilterButton" xml:space="preserve">
+    <value>Filter</value>
+  </data>
+  <data name="Grid_ClearButton" xml:space="preserve">
+    <value>Klar</value>
+  </data>
+  <data name="Grid_StartsWith" xml:space="preserve">
+    <value>Begynder med</value>
+  </data>
+  <data name="Grid_EndsWith" xml:space="preserve">
+    <value>Ender med</value>
+  </data>
+  <data name="Grid_Contains" xml:space="preserve">
+    <value>Indeholder</value>
+  </data>
+  <data name="Grid_Equal" xml:space="preserve">
+    <value>Lige</value>
+  </data>
+  <data name="Grid_NotEqual" xml:space="preserve">
+    <value>Ikke lige</value>
+  </data>
+  <data name="Grid_LessThan" xml:space="preserve">
+    <value>Mindre end</value>
+  </data>
+  <data name="Grid_LessThanOrEqual" xml:space="preserve">
+    <value>Mindre end eller lige</value>
+  </data>
+  <data name="Grid_GreaterThan" xml:space="preserve">
+    <value>Bedre end</value>
+  </data>
+  <data name="Grid_GreaterThanOrEqual" xml:space="preserve">
+    <value>Større end ligeså</value>
+  </data>
+  <data name="Grid_ChooseDate" xml:space="preserve">
+    <value>Vælg en dato</value>
+  </data>
+  <data name="Grid_EnterValue" xml:space="preserve">
+    <value>Indtast værdien</value>
+  </data>
+  <data name="Grid_Copy" xml:space="preserve">
+    <value>Kopi</value>
+  </data>
+  <data name="Grid_Group" xml:space="preserve">
+    <value>Gruppér efter denne kolonne</value>
+  </data>
+  <data name="Grid_Ungroup" xml:space="preserve">
+    <value>Fjern gruppering efter denne kolonne</value>
+  </data>
+  <data name="Grid_AutoFitAll" xml:space="preserve">
+    <value>Tilpas alle kolonner automatisk</value>
+  </data>
+  <data name="Grid_AutoFit" xml:space="preserve">
+    <value>Tilpas denne kolonne automatisk</value>
+  </data>
+  <data name="Grid_Export" xml:space="preserve">
+    <value>Eksport</value>
+  </data>
+  <data name="Grid_FirstPage" xml:space="preserve">
+    <value>Første side</value>
+  </data>
+  <data name="Grid_LastPage" xml:space="preserve">
+    <value>Sidste side</value>
+  </data>
+  <data name="Grid_PreviousPage" xml:space="preserve">
+    <value>Forrige side</value>
+  </data>
+  <data name="Grid_NextPage" xml:space="preserve">
+    <value>Næste side</value>
+  </data>
+  <data name="Grid_SortAscending" xml:space="preserve">
+    <value>Sorter stigende</value>
+  </data>
+  <data name="Grid_SortDescending" xml:space="preserve">
+    <value>Sorter faldende</value>
+  </data>
+  <data name="Grid_EditRecord" xml:space="preserve">
+    <value>Rediger post</value>
+  </data>
+  <data name="Grid_DeleteRecord" xml:space="preserve">
+    <value>Slet post</value>
+  </data>
+  <data name="Grid_FilterMenu" xml:space="preserve">
+    <value>Filter</value>
+  </data>
+  <data name="Grid_SelectAll" xml:space="preserve">
+    <value>Vælg alle</value>
+  </data>
+  <data name="Grid_Blanks" xml:space="preserve">
+    <value>Blanks</value>
+  </data>
+  <data name="Grid_FilterTrue" xml:space="preserve">
+    <value>Rigtigt</value>
+  </data>
+  <data name="Grid_FilterFalse" xml:space="preserve">
+    <value>Falsk</value>
+  </data>
+  <data name="Grid_NoResult" xml:space="preserve">
+    <value>Ingen match fundet</value>
+  </data>
+  <data name="Grid_ClearFilter" xml:space="preserve">
+    <value>Ryd filter</value>
+  </data>
+  <data name="Grid_NumberFilter" xml:space="preserve">
+    <value>Antal filtre</value>
+  </data>
+  <data name="Grid_TextFilter" xml:space="preserve">
+    <value>Tekstfiltre</value>
+  </data>
+  <data name="Grid_DateFilter" xml:space="preserve">
+    <value>Datofiltre</value>
+  </data>
+  <data name="Grid_DateTimeFilter" xml:space="preserve">
+    <value>DateTime-filtre</value>
+  </data>
+  <data name="Grid_MatchCase" xml:space="preserve">
+    <value>Match sag</value>
+  </data>
+  <data name="Grid_Between" xml:space="preserve">
+    <value>Mellem</value>
+  </data>
+  <data name="Grid_CustomFilter" xml:space="preserve">
+    <value>Brugerdefineret filter</value>
+  </data>
+  <data name="Grid_CustomFilterPlaceHolder" xml:space="preserve">
+    <value>Indtast værdien</value>
+  </data>
+  <data name="Grid_CustomFilterDatePlaceHolder" xml:space="preserve">
+    <value>Vælg en dato</value>
+  </data>
+  <data name="Grid_AND" xml:space="preserve">
+    <value>OG</value>
+  </data>
+  <data name="Grid_OR" xml:space="preserve">
+    <value>ELLER</value>
+  </data>
+  <data name="Grid_ShowRowsWhere" xml:space="preserve">
+    <value>Vis rækker, hvor:</value>
+  </data>
+  <data name="Grid_FilterMenuIconARIA" xml:space="preserve">
+    <value>Filterikon</value>
+  </data>
+  <data name="Grid_ColumnMenuIconARIA" xml:space="preserve">
+    <value>Kolonnemenuikon</value>
+  </data>
+  <data name="Grid_GroupButtonARIA" xml:space="preserve">
+    <value>Gruppe knap</value>
+  </data>
+  <data name="Grid_RowSelectionCheckBoxARIA" xml:space="preserve">
+    <value>Række afkrydsningsfelt</value>
+  </data>
+  <data name="Grid_UnGroupButtonARIA" xml:space="preserve">
+    <value>Ophæv gruppe knap</value>
+  </data>
+  <data name="Grid_ColumnHeaderARIA" xml:space="preserve">
+    <value>Kolonneoverskrift</value>
+  </data>
+  <data name="Grid_FilterCheckboxARIA" xml:space="preserve">
+    <value>Afkrydsningsfeltet Filter</value>
+  </data>
+  <data name="Grid_HeaderSelectionCheckBoxARIA" xml:space="preserve">
+    <value>Afkrydsningsfeltet Header</value>
+  </data>
+  <data name="Pager_GotoPageARIA" xml:space="preserve">
+    <value>Gå til side</value>
+  </data>
+  <data name="Pager_CurrentPageInfo" xml:space="preserve">
+    <value>{0} af {1} sider</value>
+  </data>
+  <data name="Pager_TotalItemsInfo" xml:space="preserve">
+    <value>({0} varer)</value>
+  </data>
+  <data name="Pager_FirstPageTooltip" xml:space="preserve">
+    <value>Gå til første side</value>
+  </data>
+  <data name="Pager_LastPageTooltip" xml:space="preserve">
+    <value>Gå til sidste side</value>
+  </data>
+  <data name="Pager_NextPageTooltip" xml:space="preserve">
+    <value>Gå til næste side</value>
+  </data>
+  <data name="Pager_PreviousPageTooltip" xml:space="preserve">
+    <value>Gå til forrige side</value>
+  </data>
+  <data name="Pager_NextPagerTooltip" xml:space="preserve">
+    <value>Gå til næste personsøger</value>
+  </data>
+  <data name="Pager_PreviousPagerTooltip" xml:space="preserve">
+    <value>Gå til forrige personsøger</value>
+  </data>
+  <data name="Pager_PagerDropDown" xml:space="preserve">
+    <value>Varer pr. Side</value>
+  </data>
+  <data name="Pager_PagerAllDropDown" xml:space="preserve">
+    <value>Elementer</value>
+  </data>
+  <data name="Pager_All" xml:space="preserve">
+    <value>Alle</value>
+  </data>
+  <data name="RecurrenceEditor_Count" xml:space="preserve">
+    <value>Tælle</value>
+  </data>
+  <data name="RecurrenceEditor_Daily" xml:space="preserve">
+    <value>Daglige</value>
+  </data>
+  <data name="RecurrenceEditor_Days" xml:space="preserve">
+    <value>Dage)</value>
+  </data>
+  <data name="RecurrenceEditor_End" xml:space="preserve">
+    <value>Ende</value>
+  </data>
+  <data name="RecurrenceEditor_Every" xml:space="preserve">
+    <value>hver</value>
+  </data>
+  <data name="RecurrenceEditor_First" xml:space="preserve">
+    <value>Først</value>
+  </data>
+  <data name="RecurrenceEditor_Fourth" xml:space="preserve">
+    <value>Fjerde</value>
+  </data>
+  <data name="RecurrenceEditor_Last" xml:space="preserve">
+    <value>Sidst</value>
+  </data>
+  <data name="RecurrenceEditor_Month" xml:space="preserve">
+    <value>Måned</value>
+  </data>
+  <data name="RecurrenceEditor_MonthExpander" xml:space="preserve">
+    <value>Måned Expander</value>
+  </data>
+  <data name="RecurrenceEditor_Monthly" xml:space="preserve">
+    <value>Månedlige</value>
+  </data>
+  <data name="RecurrenceEditor_MonthPosition" xml:space="preserve">
+    <value>Månedsposition</value>
+  </data>
+  <data name="RecurrenceEditor_Months" xml:space="preserve">
+    <value>Måned (er)</value>
+  </data>
+  <data name="RecurrenceEditor_MonthWeek" xml:space="preserve">
+    <value>Måneds uge</value>
+  </data>
+  <data name="RecurrenceEditor_Never" xml:space="preserve">
+    <value>Aldrig</value>
+  </data>
+  <data name="RecurrenceEditor_None" xml:space="preserve">
+    <value>Ingen</value>
+  </data>
+  <data name="RecurrenceEditor_On" xml:space="preserve">
+    <value>Gentag igen</value>
+  </data>
+  <data name="RecurrenceEditor_OnDay" xml:space="preserve">
+    <value>Dag</value>
+  </data>
+  <data name="RecurrenceEditor_Repeat" xml:space="preserve">
+    <value>Gentage</value>
+  </data>
+  <data name="RecurrenceEditor_RepeatEvery" xml:space="preserve">
+    <value>Gentag hver</value>
+  </data>
+  <data name="RecurrenceEditor_RepeatInterval" xml:space="preserve">
+    <value>Gentag intervallet</value>
+  </data>
+  <data name="RecurrenceEditor_Second" xml:space="preserve">
+    <value>Anden</value>
+  </data>
+  <data name="RecurrenceEditor_SummaryDay" xml:space="preserve">
+    <value>dage)</value>
+  </data>
+  <data name="RecurrenceEditor_SummaryMonth" xml:space="preserve">
+    <value>måned (er)</value>
+  </data>
+  <data name="RecurrenceEditor_SummaryOn" xml:space="preserve">
+    <value>på</value>
+  </data>
+  <data name="RecurrenceEditor_SummaryRepeat" xml:space="preserve">
+    <value>gentager</value>
+  </data>
+  <data name="RecurrenceEditor_SummaryTimes" xml:space="preserve">
+    <value>tid (s)</value>
+  </data>
+  <data name="RecurrenceEditor_SummaryUntil" xml:space="preserve">
+    <value>indtil</value>
+  </data>
+  <data name="RecurrenceEditor_SummaryWeek" xml:space="preserve">
+    <value>uge (r)</value>
+  </data>
+  <data name="RecurrenceEditor_SummaryYear" xml:space="preserve">
+    <value>flere år)</value>
+  </data>
+  <data name="RecurrenceEditor_Third" xml:space="preserve">
+    <value>Tredje</value>
+  </data>
+  <data name="RecurrenceEditor_Until" xml:space="preserve">
+    <value>Indtil</value>
+  </data>
+  <data name="RecurrenceEditor_Weekly" xml:space="preserve">
+    <value>Ugentlig</value>
+  </data>
+  <data name="RecurrenceEditor_Weeks" xml:space="preserve">
+    <value>Uge (r)</value>
+  </data>
+  <data name="RecurrenceEditor_YearExpander" xml:space="preserve">
+    <value>Year Expander</value>
+  </data>
+  <data name="RecurrenceEditor_Yearly" xml:space="preserve">
+    <value>årlig</value>
+  </data>
+  <data name="RecurrenceEditor_Years" xml:space="preserve">
+    <value>Flere år)</value>
+  </data>
+  <data name="Schedule_AddTitle" xml:space="preserve">
+    <value>Tilføj titel</value>
+  </data>
+  <data name="Schedule_Agenda" xml:space="preserve">
+    <value>Dagsorden</value>
+  </data>
+  <data name="Schedule_Alert" xml:space="preserve">
+    <value>Alert</value>
+  </data>
+  <data name="Schedule_AllDay" xml:space="preserve">
+    <value>Hele dagen</value>
+  </data>
+  <data name="Schedule_BeginFrom" xml:space="preserve">
+    <value>Begynd fra</value>
+  </data>
+  <data name="Schedule_BlockAlert" xml:space="preserve">
+    <value>Begivenheder kan ikke planlægges inden for det blokerede tidsinterval.</value>
+  </data>
+  <data name="Schedule_Cancel" xml:space="preserve">
+    <value>Afbestille</value>
+  </data>
+  <data name="Schedule_CancelButton" xml:space="preserve">
+    <value>Afbestille</value>
+  </data>
+  <data name="Schedule_Close" xml:space="preserve">
+    <value>Tæt</value>
+  </data>
+  <data name="Schedule_CreateError" xml:space="preserve">
+    <value>Begivenhedens varighed skal være kortere end hvor ofte den forekommer. Forkort varigheden, eller ændre gentagelsesmønsteret i redigeringen af ​​tilbagevendelsesbegivenhed.</value>
+  </data>
+  <data name="Schedule_CreateEvent" xml:space="preserve">
+    <value>skab</value>
+  </data>
+  <data name="Schedule_Day" xml:space="preserve">
+    <value>Dag</value>
+  </data>
+  <data name="Schedule_Delete" xml:space="preserve">
+    <value>Slet</value>
+  </data>
+  <data name="Schedule_DeleteButton" xml:space="preserve">
+    <value>Slet</value>
+  </data>
+  <data name="Schedule_DeleteContent" xml:space="preserve">
+    <value>Er du sikker på, at du vil slette denne begivenhed?</value>
+  </data>
+  <data name="Schedule_DeleteEvent" xml:space="preserve">
+    <value>Denne begivenhed</value>
+  </data>
+  <data name="Schedule_DeleteMultipleContent" xml:space="preserve">
+    <value>Er du sikker på, at du vil slette de valgte begivenheder?</value>
+  </data>
+  <data name="Schedule_DeleteMultipleEvent" xml:space="preserve">
+    <value>Slet flere begivenheder</value>
+  </data>
+  <data name="Schedule_DeleteSeries" xml:space="preserve">
+    <value>Hele serien</value>
+  </data>
+  <data name="Schedule_DeleteTitle" xml:space="preserve">
+    <value>Slet begivenhed</value>
+  </data>
+  <data name="Schedule_Description" xml:space="preserve">
+    <value>Beskrivelse</value>
+  </data>
+  <data name="Schedule_Edit" xml:space="preserve">
+    <value>Redigere</value>
+  </data>
+  <data name="Schedule_EditContent" xml:space="preserve">
+    <value>Hvordan vil du ændre aftalen i serien?</value>
+  </data>
+  <data name="Schedule_EditEvent" xml:space="preserve">
+    <value>Denne begivenhed</value>
+  </data>
+  <data name="Schedule_EditFollowingEvent" xml:space="preserve">
+    <value>Efter begivenheder</value>
+  </data>
+  <data name="Schedule_EditRecurrence" xml:space="preserve">
+    <value>Rediger gentagelse</value>
+  </data>
+  <data name="Schedule_EditSeries" xml:space="preserve">
+    <value>Hele serien</value>
+  </data>
+  <data name="Schedule_EditTitle" xml:space="preserve">
+    <value>Rediger begivenhed</value>
+  </data>
+  <data name="Schedule_EmptyContainer" xml:space="preserve">
+    <value>Der er ingen begivenheder planlagt denne dag.</value>
+  </data>
+  <data name="Schedule_End" xml:space="preserve">
+    <value>Ende</value>
+  </data>
+  <data name="Schedule_EndTime" xml:space="preserve">
+    <value>Sluttid</value>
+  </data>
+  <data name="Schedule_EndAt" xml:space="preserve">
+    <value>Slut kl</value>
+  </data>
+  <data name="Schedule_EndTimezone" xml:space="preserve">
+    <value>Slut tidszone</value>
+  </data>
+  <data name="Schedule_InvalidDateError" xml:space="preserve">
+    <value>Den indtastede datoværdi er ugyldig.</value>
+  </data>
+  <data name="Schedule_Location" xml:space="preserve">
+    <value>Beliggenhed</value>
+  </data>
+  <data name="Schedule_LookForMore" xml:space="preserve">
+    <value>Se efter mere</value>
+  </data>
+  <data name="Schedule_Month" xml:space="preserve">
+    <value>Måned</value>
+  </data>
+  <data name="Schedule_MonthAgenda" xml:space="preserve">
+    <value>Månedens dagsorden</value>
+  </data>
+  <data name="Schedule_More" xml:space="preserve">
+    <value>mere</value>
+  </data>
+  <data name="Schedule_MoreDetails" xml:space="preserve">
+    <value>Flere detaljer</value>
+  </data>
+  <data name="Schedule_NewEvent" xml:space="preserve">
+    <value>Ny begivenhed</value>
+  </data>
+  <data name="Schedule_next" xml:space="preserve">
+    <value>Næste</value>
+  </data>
+  <data name="Schedule_No" xml:space="preserve">
+    <value>Ingen</value>
+  </data>
+  <data name="Schedule_NoEvents" xml:space="preserve">
+    <value>Ingen optegnelser</value>
+  </data>
+  <data name="Schedule_NoRecords" xml:space="preserve">
+    <value>Ingen begivenheder</value>
+  </data>
+  <data name="Schedule_NoTitle" xml:space="preserve">
+    <value>(Ingen titel)</value>
+  </data>
+  <data name="Schedule_Occurrence" xml:space="preserve">
+    <value>Hændelse</value>
+  </data>
+  <data name="Schedule_Ok" xml:space="preserve">
+    <value>Okay</value>
+  </data>
+  <data name="Schedule_Previous" xml:space="preserve">
+    <value>Tidligere</value>
+  </data>
+  <data name="Schedule_Recurrence" xml:space="preserve">
+    <value>Tilbagevenden</value>
+  </data>
+  <data name="Schedule_Repeat" xml:space="preserve">
+    <value>Gentage</value>
+  </data>
+  <data name="Schedule_Repeats" xml:space="preserve">
+    <value>gentager</value>
+  </data>
+  <data name="Schedule_SameDayAlert" xml:space="preserve">
+    <value>To forekomster af den samme begivenhed kan ikke forekomme samme dag.</value>
+  </data>
+  <data name="Schedule_Save" xml:space="preserve">
+    <value>Gemme</value>
+  </data>
+  <data name="Schedule_SaveButton" xml:space="preserve">
+    <value>Gemme</value>
+  </data>
+  <data name="Schedule_SelectedItems" xml:space="preserve">
+    <value>Valgte emner</value>
+  </data>
+  <data name="Schedule_Series" xml:space="preserve">
+    <value>Serie</value>
+  </data>
+  <data name="Schedule_SearchTimezone" xml:space="preserve">
+    <value>søge tidszone</value>
+  </data>
+  <data name="Schedule_SeriesChangeAlert" xml:space="preserve">
+    <value>Vil du annullere ændringerne, der er foretaget i bestemte tilfælde af denne serie, og matche den til hele serien igen?</value>
+  </data>
+  <data name="Schedule_ShowingEventsUntil" xml:space="preserve">
+    <value>Viser begivenheder indtil</value>
+  </data>
+  <data name="Schedule_Start" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="Schedule_StartTime" xml:space="preserve">
+    <value>Starttidspunkt</value>
+  </data>
+  <data name="Schedule_StartEndError" xml:space="preserve">
+    <value>Den valgte slutdato forekommer før startdatoen.</value>
+  </data>
+  <data name="Schedule_StartTimezone" xml:space="preserve">
+    <value>Start tidszone</value>
+  </data>
+  <data name="Schedule_Subject" xml:space="preserve">
+    <value>Emne</value>
+  </data>
+  <data name="Schedule_TimelineDay" xml:space="preserve">
+    <value>Tidslinjedag</value>
+  </data>
+  <data name="Schedule_TimelineMonth" xml:space="preserve">
+    <value>Tidslinjemåned</value>
+  </data>
+  <data name="Schedule_TimelineWeek" xml:space="preserve">
+    <value>Tidslinje uge</value>
+  </data>
+  <data name="Schedule_TimelineWorkWeek" xml:space="preserve">
+    <value>Tidslinje Arbejdsuge</value>
+  </data>
+  <data name="Schedule_TimelineYear" xml:space="preserve">
+    <value>Tidslinje år</value>
+  </data>
+  <data name="Schedule_Timezone" xml:space="preserve">
+    <value>Tidszone</value>
+  </data>
+  <data name="Schedule_WorkWeekAgenda" xml:space="preserve">
+    <value>Arbejdsuge-dagsorden</value>
+  </data>
+  <data name="Schedule_Title" xml:space="preserve">
+    <value>Titel</value>
+  </data>
+  <data name="Schedule_Today" xml:space="preserve">
+    <value>I dag</value>
+  </data>
+  <data name="Schedule_Week" xml:space="preserve">
+    <value>Uge</value>
+  </data>
+  <data name="Schedule_WeekAgenda" xml:space="preserve">
+    <value>Ugens dagsorden</value>
+  </data>
+  <data name="Schedule_WorkWeek" xml:space="preserve">
+    <value>Arbejdsuge</value>
+  </data>
+  <data name="Schedule_WrongPattern" xml:space="preserve">
+    <value>Gentagelsesmønsteret er ikke gyldigt.</value>
+  </data>
+  <data name="Schedule_Yes" xml:space="preserve">
+    <value>Ja</value>
+  </data>
+  <data name="Schedule_Year" xml:space="preserve">
+    <value>År</value>
+  </data>
+  <data name="Tab_CloseButtonTitle" xml:space="preserve">
+    <value>Tæt</value>
+ </data>
+ <data name="Carousel_PreviousSlide" xml:space="preserve">
+   <value>Forrige dias</value>
+ </data>
+ <data name="Carousel_NextSlide" xml:space="preserve">
+   <value>Næste dias</value>
+ </data>
+ <data name="Carousel_Slide" xml:space="preserve">
+   <value>Glide</value>
+ </data>
+ <data name="Carousel_SlideShow" xml:space="preserve">
+   <value>Diasshow</value>
+ </data>
+ <data name="Carousel_Of" xml:space="preserve">
+   <value>af</value>
+ </data>
+ <data name="Carousel_PlaySlide" xml:space="preserve">
+  <value>Stop automatisk animation</value>
+ </data>
+ <data name="Carousel_PauseSlide" xml:space="preserve">
+  <value>Start automatisk animation</value>
+ </data>
+ <data name="PdfViewer" xml:space="preserve">
+    <value>PDF-fremviser</value>
+  </data>
+  <data name="PdfViewer_Cancel" xml:space="preserve">
+    <value>afbestille</value>
+  </data>
+  <data name="PdfViewer_DownloadFile" xml:space="preserve">
+    <value>Download fil</value>
+  </data>
+  <data name="PdfViewer_Download" xml:space="preserve">
+    <value>Hent</value>
+  </data>
+  <data name="PdfViewer_EnterPassword" xml:space="preserve">
+    <value>Dette dokument er adgangskodebeskyttet. Indtast en adgangskode.</value>
+  </data>
+  <data name="PdfViewer_FileCorrupted" xml:space="preserve">
+    <value>Fil ødelagt</value>
+  </data>
+  <data name="PdfViewer_FileCorruptedContent" xml:space="preserve">
+    <value>Filen er beskadiget og kan ikke åbnes.</value>
+  </data>
+  <data name="PdfViewer_FitPage" xml:space="preserve">
+    <value>Tilpas side</value>
+  </data>
+  <data name="PdfViewer_FitWidth" xml:space="preserve">
+    <value>Monter bredde</value>
+  </data>
+  <data name="PdfViewer_Automatic" xml:space="preserve">
+    <value>Automatisk</value>
+  </data>
+  <data name="PdfViewer_GoToFirstPage" xml:space="preserve">
+    <value>Vis første side</value>
+  </data>
+  <data name="PdfViewer_InvalidPassword" xml:space="preserve">
+    <value>Forkert kodeord. Prøv igen.</value>
+  </data>
+  <data name="PdfViewer_NextPage" xml:space="preserve">
+    <value>Vis næste side</value>
+  </data>
+  <data name="PdfViewer_PreviousPage" xml:space="preserve">
+    <value>Vis forrige side</value>
+  </data>
+  <data name="PdfViewer_OK" xml:space="preserve">
+    <value>Okay</value>
+  </data>
+  <data name="PdfViewer_Open" xml:space="preserve">
+    <value>Åben fil</value>
+  </data>
+  <data name="PdfViewer_PageNumber" xml:space="preserve">
+    <value>Aktuelt sidetal</value>
+  </data>
+  <data name="PdfViewer_GoToLastPage" xml:space="preserve">
+    <value>Vis sidste side</value>
+  </data>
+  <data name="PdfViewer_Zoom" xml:space="preserve">
+    <value>Zoom</value>
+  </data>
+  <data name="PdfViewer_ZoomIn" xml:space="preserve">
+    <value>Zoom ind</value>
+  </data>
+  <data name="PdfViewer_ZoomOut" xml:space="preserve">
+    <value>Zoome ud</value>
+  </data>
+  <data name="PdfViewer_PageThumbnails" xml:space="preserve">
+    <value>Sideminiaturer</value>
+  </data>
+  <data name="PdfViewer_Bookmarks" xml:space="preserve">
+    <value>bogmærker</value>
+  </data>
+  <data name="PdfViewer_Print" xml:space="preserve">
+    <value>Udskriv fil</value>
+  </data>
+  <data name="PdfViewer_PasswordProtected" xml:space="preserve">
+    <value>Adgangskode krævet</value>
+  </data>
+  <data name="PdfViewer_Copy" xml:space="preserve">
+    <value>Kopi</value>
+  </data>
+  <data name="PdfViewer_TextSelection" xml:space="preserve">
+    <value>Tekstvalg værktøj</value>
+  </data>
+  <data name="PdfViewer_Panning" xml:space="preserve">
+    <value>Pan-tilstand</value>
+  </data>
+  <data name="PdfViewer_TextSearch" xml:space="preserve">
+    <value>Find tekst</value>
+  </data>
+  <data name="PdfViewer_Findindocument" xml:space="preserve">
+    <value>Find i dokumentet</value>
+  </data>
+  <data name="PdfViewer_Matchcase" xml:space="preserve">
+    <value>Match sag</value>
+  </data>
+  <data name="PdfViewer_Apply" xml:space="preserve">
+    <value>ansøge</value>
+  </data>
+  <data name="PdfViewer_GoToPage" xml:space="preserve">
+    <value>Gå til side</value>
+  </data>
+  <data name="PdfViewer_Nomatches" xml:space="preserve">
+    <value>Viewer er færdig med at søge i dokumentet. Der blev ikke fundet flere kampe</value>
+  </data>
+  <data name="PdfViewer_NoTextFound" xml:space="preserve">
+    <value>Ingen tekst fundet</value>
+  </data>
+  <data name="PdfViewer_Undo" xml:space="preserve">
+    <value>Fortryd</value>
+  </data>
+  <data name="PdfViewer_Redo" xml:space="preserve">
+    <value>Redo</value>
+  </data>
+  <data name="PdfViewer_Annotation" xml:space="preserve">
+    <value>Tilføj eller rediger kommentarer</value>
+  </data>
+  <data name="PdfViewer_Highlight" xml:space="preserve">
+    <value>Fremhæv tekst</value>
+  </data>
+  <data name="PdfViewer_Underline" xml:space="preserve">
+    <value>Understreg tekst</value>
+  </data>
+  <data name="PdfViewer_Strikethrough" xml:space="preserve">
+    <value>Streg gennem tekst</value>
+  </data>
+  <data name="PdfViewer_Delete" xml:space="preserve">
+    <value>Slet annotering</value>
+  </data>
+  <data name="PdfViewer_Opacity" xml:space="preserve">
+    <value>Gennemsigtighed</value>
+  </data>
+  <data name="PdfViewer_ColorEdit" xml:space="preserve">
+    <value>Skift farve</value>
+  </data>
+  <data name="PdfViewer_OpacityEdit" xml:space="preserve">
+    <value>Skift uklarhed</value>
+  </data>
+  <data name="PdfViewer_HighlightContext" xml:space="preserve">
+    <value>Fremhæv</value>
+  </data>
+  <data name="PdfViewer_UnderlineContext" xml:space="preserve">
+    <value>Understrege</value>
+  </data>
+  <data name="PdfViewer_StrikethroughContext" xml:space="preserve">
+    <value>Gennemstreget</value>
+  </data>
+  <data name="PdfViewer_Servererror" xml:space="preserve">
+    <value>Web-service lytter ikke. PDF Viewer afhænger af web-service for alle dens funktioner. Start webtjenesten for at fortsætte.</value>
+  </data>
+  <data name="PdfViewer_Clienterror" xml:space="preserve">
+    <value>Der findes en fejl på klientsiden. Kontroller de brugerdefinerede overskrifter, der findes i egenskaben Ajax Request Settings og webhandlingsmetoder i egenskaben ServerActionSettings.</value>
+  </data>
+  <data name="PdfViewer_OpenText" xml:space="preserve">
+    <value>Åben</value>
+  </data>
+  <data name="PdfViewer_FirstText" xml:space="preserve">
+    <value>Første side</value>
+  </data>
+  <data name="PdfViewer_PreviousText" xml:space="preserve">
+    <value>Forrige side</value>
+  </data>
+  <data name="PdfViewer_NextText" xml:space="preserve">
+    <value>Næste side</value>
+  </data>
+  <data name="PdfViewer_LastText" xml:space="preserve">
+    <value>Sidste side</value>
+  </data>
+  <data name="PdfViewer_ZoomInText" xml:space="preserve">
+    <value>Zoom ind</value>
+  </data>
+  <data name="PdfViewer_ZoomOutText" xml:space="preserve">
+    <value>Zoome ud</value>
+  </data>
+  <data name="PdfViewer_SelectionText" xml:space="preserve">
+    <value>Udvælgelse</value>
+  </data>
+  <data name="PdfViewer_PanText" xml:space="preserve">
+    <value>Pande</value>
+  </data>
+  <data name="PdfViewer_PrintText" xml:space="preserve">
+    <value>Print</value>
+  </data>
+  <data name="PdfViewer_SearchText" xml:space="preserve">
+    <value>Søg</value>
+  </data>
+  <data name="PdfViewer_AnnotationEditText" xml:space="preserve">
+    <value>Rediger annotation</value>
+  </data>
+  <data name="PdfViewer_LineThickness" xml:space="preserve">
+    <value>Linjetykkelse</value>
+  </data>
+  <data name="PdfViewer_LineProperties" xml:space="preserve">
+    <value>Linieegenskaber</value>
+  </data>
+  <data name="PdfViewer_StartArrow" xml:space="preserve">
+    <value>Start pil</value>
+  </data>
+  <data name="PdfViewer_EndArrow" xml:space="preserve">
+    <value>Slutpil</value>
+  </data>
+  <data name="PdfViewer_LineStyle" xml:space="preserve">
+    <value>Linjestil</value>
+  </data>
+  <data name="PdfViewer_FillColor" xml:space="preserve">
+    <value>Fyld farve</value>
+  </data>
+  <data name="PdfViewer_LineColor" xml:space="preserve">
+    <value>Linjefarve</value>
+  </data>
+  <data name="PdfViewer_None" xml:space="preserve">
+    <value>Ingen</value>
+  </data>
+  <data name="PdfViewer_OpenArrow" xml:space="preserve">
+    <value>Åben pil</value>
+  </data>
+  <data name="PdfViewer_ClosedArrow" xml:space="preserve">
+    <value>Lukket pil</value>
+  </data>
+  <data name="PdfViewer_RoundArrow" xml:space="preserve">
+    <value>Rund pil</value>
+  </data>
+  <data name="PdfViewer_SquareArrow" xml:space="preserve">
+    <value>Firkantet pil</value>
+  </data>
+  <data name="PdfViewer_DiamondArrow" xml:space="preserve">
+    <value>Diamond Arrow</value>
+  </data>
+  <data name="PdfViewer_Cut" xml:space="preserve">
+    <value>Skære</value>
+  </data>
+  <data name="PdfViewer_Paste" xml:space="preserve">
+    <value>sæt ind</value>
+  </data>
+  <data name="PdfViewer_DeleteContext" xml:space="preserve">
+    <value>Slet</value>
+  </data>
+  <data name="PdfViewer_Properties" xml:space="preserve">
+    <value>Ejendomme</value>
+  </data>
+  <data name="PdfViewer_AddStamp" xml:space="preserve">
+    <value>Tilføj stempel</value>
+  </data>
+  <data name="PdfViewer_AddShapes" xml:space="preserve">
+    <value>Tilføj figurer</value>
+  </data>
+  <data name="PdfViewer_StrokeEdit" xml:space="preserve">
+    <value>Skift stregfarve</value>
+  </data>
+  <data name="PdfViewer_ChangeThickness" xml:space="preserve">
+    <value>Skift kanttykkelse</value>
+  </data>
+  <data name="PdfViewer_Addline" xml:space="preserve">
+    <value>Tilføj linje</value>
+  </data>
+  <data name="PdfViewer_AddArrow" xml:space="preserve">
+    <value>Tilføj pil</value>
+  </data>
+  <data name="PdfViewer_AddRectangle" xml:space="preserve">
+    <value>Tilføj rektangel</value>
+  </data>
+  <data name="PdfViewer_AddCircle" xml:space="preserve">
+    <value>Tilføj cirkel</value>
+  </data>
+  <data name="PdfViewer_AddPolygon" xml:space="preserve">
+    <value>Tilføj polygon</value>
+  </data>
+  <data name="PdfViewer_AddComments" xml:space="preserve">
+    <value>Tilføj kommentarer</value>
+  </data>
+  <data name="PdfViewer_Comments" xml:space="preserve">
+    <value>Kommentarer</value>
+  </data>
+  <data name="PdfViewer_NoCommentsYet" xml:space="preserve">
+    <value>Ingen kommentarer endnu</value>
+  </data>
+  <data name="PdfViewer_Accepted" xml:space="preserve">
+    <value>Accepteret</value>
+  </data>
+  <data name="PdfViewer_Completed" xml:space="preserve">
+    <value>afsluttet</value>
+  </data>
+  <data name="PdfViewer_Cancelled" xml:space="preserve">
+    <value>Aflyst</value>
+  </data>
+  <data name="PdfViewer_Rejected" xml:space="preserve">
+    <value>afvist</value>
+  </data>
+  <data name="PdfViewer_LeaderLength" xml:space="preserve">
+    <value>Længderlængde</value>
+  </data>
+  <data name="PdfViewer_ScaleRatio" xml:space="preserve">
+    <value>Skalaforhold</value>
+  </data>
+  <data name="PdfViewer_Calibrate" xml:space="preserve">
+    <value>Kalibrer</value>
+  </data>
+  <data name="PdfViewer_CalibrateDistance" xml:space="preserve">
+    <value>Kalibrer afstand</value>
+  </data>
+  <data name="PdfViewer_CalibratePerimeter" xml:space="preserve">
+    <value>Kalibrer omkreds</value>
+  </data>
+  <data name="PdfViewer_CalibrateArea" xml:space="preserve">
+    <value>Kalibrer område</value>
+  </data>
+  <data name="PdfViewer_CalibrateRadius" xml:space="preserve">
+    <value>Kalibrer radius</value>
+  </data>
+  <data name="PdfViewer_CalibrateVolume" xml:space="preserve">
+    <value>Kalibrer lydstyrke</value>
+  </data>
+  <data name="PdfViewer_Depth" xml:space="preserve">
+    <value>Dybde</value>
+  </data>
+  <data name="PdfViewer_Closed" xml:space="preserve">
+    <value>Lukket</value>
+  </data>
+  <data name="PdfViewer_Round" xml:space="preserve">
+    <value>Rund</value>
+  </data>
+  <data name="PdfViewer_Square" xml:space="preserve">
+    <value>Firkant</value>
+  </data>
+  <data name="PdfViewer_Diamond" xml:space="preserve">
+    <value>Diamant</value>
+  </data>
+  <data name="PdfViewer_Edit" xml:space="preserve">
+    <value>Redigere</value>
+  </data>
+  <data name="PdfViewer_Comment" xml:space="preserve">
+    <value>Kommentar</value>
+  </data>
+  <data name="PdfViewer_CommentPanel" xml:space="preserve">
+    <value>Kommentarpanel</value>
+  </data>
+  <data name="PdfViewer_SetStatus" xml:space="preserve">
+    <value>Indstil status</value>
+  </data>
+  <data name="PdfViewer_Post" xml:space="preserve">
+    <value>Stolpe</value>
+  </data>
+  <data name="PdfViewer_Page" xml:space="preserve">
+    <value>Side</value>
+  </data>
+  <data name="PdfViewer_AddComment" xml:space="preserve">
+    <value>Tilføj en kommentar</value>
+  </data>
+  <data name="PdfViewer_AddReply" xml:space="preserve">
+    <value>Tilføj et svar</value>
+  </data>
+  <data name="PdfViewer_ImportAnnotations" xml:space="preserve">
+    <value>Importer kommentarer</value>
+  </data>
+  <data name="PdfViewer_ExportAnnotations" xml:space="preserve">
+    <value>Eksport af kommentarer</value>
+  </data>
+  <data name="PdfViewer_Add" xml:space="preserve">
+    <value>Tilføje</value>
+  </data>
+  <data name="PdfViewer_Clear" xml:space="preserve">
+    <value>Klar</value>
+  </data>
+  <data name="PdfViewer_Bold" xml:space="preserve">
+    <value>Fremhævet</value>
+  </data>
+  <data name="PdfViewer_Italic" xml:space="preserve">
+    <value>Kursiv</value>
+  </data>
+  <data name="PdfViewer_Strikethroughs" xml:space="preserve">
+    <value>Gennemstreget</value>
+  </data>
+  <data name="PdfViewer_Underlines" xml:space="preserve">
+    <value>understreger</value>
+  </data>
+  <data name="PdfViewer_Superscript" xml:space="preserve">
+    <value>Hævet</value>
+  </data>
+  <data name="PdfViewer_Subscript" xml:space="preserve">
+    <value>Sænket</value>
+  </data>
+  <data name="PdfViewer_AlignLeft" xml:space="preserve">
+    <value>Juster venstre</value>
+  </data>
+  <data name="PdfViewer_AlignRight" xml:space="preserve">
+    <value>Juster højre</value>
+  </data>
+  <data name="PdfViewer_Center" xml:space="preserve">
+    <value>Centrum</value>
+  </data>
+  <data name="PdfViewer_Justify" xml:space="preserve">
+    <value>Begrund</value>
+  </data>
+  <data name="PdfViewer_FontColor" xml:space="preserve">
+    <value>Skrift farve</value>
+  </data>
+  <data name="PdfViewer_TextAlign" xml:space="preserve">
+    <value>Tekstjustering</value>
+  </data>
+  <data name="PdfViewer_TextProperties" xml:space="preserve">
+    <value>Skrifttype</value>
+  </data>
+  <data name="PdfViewer_DrawSignature" xml:space="preserve">
+    <value>Tegn underskrift</value>
+  </data>
+  <data name="PdfViewer_Create" xml:space="preserve">
+    <value>skab</value>
+  </data>
+  <data name="PdfViewer_FontFamily" xml:space="preserve">
+    <value>Skrifttype Familie</value>
+  </data>
+  <data name="PdfViewer_FontSize" xml:space="preserve">
+    <value>Skriftstørrelse</value>
+  </data>
+  <data name="PdfViewer_FreeText" xml:space="preserve">
+    <value>Fri tekst</value>
+  </data>
+  <data name="PdfViewer_ImportFailed" xml:space="preserve">
+    <value>Ugyldig JSON-filtype eller filnavn; vælg en gyldig JSON-fil</value>
+  </data>
+  <data name="PdfViewer_FileNotFound" xml:space="preserve">
+    <value>Importeret JSON-fil findes ikke på det ønskede sted</value>
+  </data>
+  <data name="PdfViewer_ExportFailed" xml:space="preserve">
+    <value>Eksport-annotationshandlingen mislykkedes; Sørg for at kommentarer er tilføjet korrekt</value>
+  </data>
+  <data name="PdfViewer_Draw_hand_Signature" xml:space="preserve">
+    <value>TEGNE</value>
+  </data>
+  <data name="PdfViewer_Type_Signature" xml:space="preserve">
+    <value>TYPE</value>
+  </data>
+  <data name="PdfViewer_Upload_Signature" xml:space="preserve">
+    <value>UPLOAD</value>
+  </data>
+  <data name="PdfViewer_Browse_Signature_Image" xml:space="preserve">
+    <value>BROWSE</value>
+  </data>
+  <data name="PdfViewer_Save_Signature" xml:space="preserve">
+    <value>Gem underskrift</value>
+  </data>
+  <data name="PdfViewer_Enter_Signature_as_Name" xml:space="preserve">
+    <value>Indtast dit navn</value>
+  </data>
+  <data name="PdfViewer_Dynamic" xml:space="preserve">
+    <value>Dynamisk</value>
+  </data>
+  <data name="PdfViewer_StandardBusiness" xml:space="preserve">
+    <value>Standard forretning</value>
+  </data>
+  <data name="PdfViewer_CustomStamp" xml:space="preserve">
+    <value>Brugerdefineret stempel</value>
+  </data>
+  <data name="PdfViewer_Revised" xml:space="preserve">
+    <value>Revideret</value>
+  </data>
+  <data name="PdfViewer_Reviewed" xml:space="preserve">
+    <value>Gennemgået</value>
+  </data>
+  <data name="PdfViewer_Received" xml:space="preserve">
+    <value>Modtaget</value>
+  </data>
+  <data name="PdfViewer_Approved" xml:space="preserve">
+    <value>godkendt</value>
+  </data>
+  <data name="PdfViewer_Confidential" xml:space="preserve">
+    <value>Fortrolig</value>
+  </data>
+  <data name="PdfViewer_NotApproved" xml:space="preserve">
+    <value>Ikke godkendt</value>
+  </data>
+  <data name="PdfViewer_Witness" xml:space="preserve">
+    <value>Vidne</value>
+  </data>
+  <data name="PdfViewer_InitialHere" xml:space="preserve">
+    <value>Indledende her</value>
+  </data>
+  <data name="PdfViewer_SignHere" xml:space="preserve">
+    <value>Underskriv her</value>
+  </data>
+  <data name="PdfViewer_Draft" xml:space="preserve">
+    <value>Udkast</value>
+  </data>
+  <data name="PdfViewer_Final" xml:space="preserve">
+    <value>Finale</value>
+  </data>
+  <data name="PdfViewer_ForPublicRelease" xml:space="preserve">
+    <value>Til offentlig udgivelse</value>
+  </data>
+  <data name="PdfViewer_NotForPublicRelease" xml:space="preserve">
+    <value>Ikke til offentlig udgivelse</value>
+  </data>
+  <data name="PdfViewer_ForComment" xml:space="preserve">
+    <value>Til kommentar</value>
+  </data>
+  <data name="PdfViewer_Void" xml:space="preserve">
+    <value>Ugyldig</value>
+  </data>
+  <data name="PdfViewer_PreliminaryResults" xml:space="preserve">
+    <value>Foreløbige resultater</value>
+  </data>
+  <data name="PdfViewer_InformationOnly" xml:space="preserve">
+    <value>Kun information</value>
+  </data>
+  <data name="PdfViewer_SubmitForm" xml:space="preserve">
+    <value>Indsend formular</value>
+  </data>
+  <data name="PdfViewer_Required_ServiceUrl_Error_Message" xml:space="preserve">
+    <value>Denne PDF-fremviser kræver behandling på serversiden for at gengive PDF-filerne gennem webtjenesten. Du skal konfigurere tjenestens URL for at fortsætte med PDF-fremviser</value>
+  </data>
+  <data name="PdfViewer_Close" xml:space="preserve">
+    <value>Tæt</value>
+  </data>
+  <data name="PdfViewer_HandwrittenSignatureDialogHeaderText" xml:space="preserve">
+    <value>Tilføj signatur</value>
+  </data>
+  <data name="PdfViewer_DrawInk" xml:space="preserve">
+    <value>Tegn blæk</value>
+  </data>
+  <data name="DocumentEditor_Table" xml:space="preserve">
+    <value>Bord</value>
+  </data>
+  <data name="DocumentEditor_Row" xml:space="preserve">
+    <value>Række</value>
+  </data>
+  <data name="DocumentEditor_Cell" xml:space="preserve">
+    <value>Celle</value>
+  </data>
+  <data name="DocumentEditor_Ok" xml:space="preserve">
+    <value>Okay</value>
+  </data>
+  <data name="DocumentEditor_Cancel" xml:space="preserve">
+    <value>Afbestille</value>
+  </data>
+  <data name="DocumentEditor_Size" xml:space="preserve">
+    <value>Størrelse</value>
+  </data>
+  <data name="DocumentEditor_PreferredWidth" xml:space="preserve">
+    <value>Foretrukket bredde</value>
+  </data>
+  <data name="DocumentEditor_Points" xml:space="preserve">
+    <value>Points</value>
+  </data>
+  <data name="DocumentEditor_Percent" xml:space="preserve">
+    <value>procent</value>
+  </data>
+  <data name="DocumentEditor_MeasureIn" xml:space="preserve">
+    <value>Mål ind</value>
+  </data>
+  <data name="DocumentEditor_Alignment" xml:space="preserve">
+    <value>Justering</value>
+  </data>
+  <data name="DocumentEditor_Left" xml:space="preserve">
+    <value>Venstre</value>
+  </data>
+  <data name="DocumentEditor_Center" xml:space="preserve">
+    <value>Centrum</value>
+  </data>
+  <data name="DocumentEditor_Right" xml:space="preserve">
+    <value>Ret</value>
+  </data>
+  <data name="DocumentEditor_Justify" xml:space="preserve">
+    <value>Begrund</value>
+  </data>
+  <data name="DocumentEditor_IndentFromLeft" xml:space="preserve">
+    <value>Indrykket fra venstre</value>
+  </data>
+  <data name="DocumentEditor_BordersAndShading" xml:space="preserve">
+    <value>Grænser og skygge</value>
+  </data>
+  <data name="DocumentEditor_Options" xml:space="preserve">
+    <value>Muligheder</value>
+  </data>
+  <data name="DocumentEditor_SpecifyHeight" xml:space="preserve">
+    <value>Angiv højde</value>
+  </data>
+  <data name="DocumentEditor_AtLeast" xml:space="preserve">
+    <value>I det mindste</value>
+  </data>
+  <data name="DocumentEditor_Exactly" xml:space="preserve">
+    <value>Nemlig</value>
+  </data>
+  <data name="DocumentEditor_RowHeightIs" xml:space="preserve">
+    <value>Rækkehøjde er</value>
+  </data>
+  <data name="DocumentEditor_AllowRowToBreakAcrossPages" xml:space="preserve">
+    <value>Lad række bryde på tværs af sider</value>
+  </data>
+  <data name="DocumentEditor_RepeatAsHeaderRowAtTheTopOfEachPage" xml:space="preserve">
+    <value>Gentag som overskriftsrække øverst på hver side</value>
+  </data>
+  <data name="DocumentEditor_VerticalAlignment" xml:space="preserve">
+    <value>Lodret justering</value>
+  </data>
+  <data name="DocumentEditor_Top" xml:space="preserve">
+    <value>Top</value>
+  </data>
+  <data name="DocumentEditor_Bottom" xml:space="preserve">
+    <value>Bund</value>
+  </data>
+  <data name="DocumentEditor_DefaultCellMargins" xml:space="preserve">
+    <value>Standardcellemargener</value>
+  </data>
+  <data name="DocumentEditor_DefaultCellSpacing" xml:space="preserve">
+    <value>Standard celleafstand</value>
+  </data>
+  <data name="DocumentEditor_AllowSpacingBetweenCells" xml:space="preserve">
+    <value>Tillad afstand mellem celler</value>
+  </data>
+  <data name="DocumentEditor_CellMargins" xml:space="preserve">
+    <value>Cellemargener</value>
+  </data>
+  <data name="DocumentEditor_SameAsTheWholeTable" xml:space="preserve">
+    <value>Samme som hele tabellen</value>
+  </data>
+  <data name="DocumentEditor_Borders" xml:space="preserve">
+    <value>Grænser</value>
+  </data>
+  <data name="DocumentEditor_None" xml:space="preserve">
+    <value>Ingen</value>
+  </data>
+  <data name="DocumentEditor_Style" xml:space="preserve">
+    <value>Stil</value>
+  </data>
+  <data name="DocumentEditor_Width" xml:space="preserve">
+    <value>Bredde</value>
+  </data>
+  <data name="DocumentEditor_Height" xml:space="preserve">
+    <value>Højde</value>
+  </data>
+  <data name="DocumentEditor_Letter" xml:space="preserve">
+    <value>Brev</value>
+  </data>
+  <data name="DocumentEditor_Tabloid" xml:space="preserve">
+    <value>tabloid</value>
+  </data>
+  <data name="DocumentEditor_Legal" xml:space="preserve">
+    <value>gyldige</value>
+  </data>
+  <data name="DocumentEditor_Statement" xml:space="preserve">
+    <value>Udmelding</value>
+  </data>
+  <data name="DocumentEditor_Executive" xml:space="preserve">
+    <value>Executive</value>
+  </data>
+  <data name="DocumentEditor_A3" xml:space="preserve">
+    <value>A3</value>
+  </data>
+  <data name="DocumentEditor_A4" xml:space="preserve">
+    <value>A4</value>
+  </data>
+  <data name="DocumentEditor_A5" xml:space="preserve">
+    <value>A5</value>
+  </data>
+  <data name="DocumentEditor_B4" xml:space="preserve">
+    <value>B4</value>
+  </data>
+  <data name="DocumentEditor_B5" xml:space="preserve">
+    <value>B5</value>
+  </data>
+  <data name="DocumentEditor_CustomSize" xml:space="preserve">
+    <value>Brugerdefineret størrelse</value>
+  </data>
+  <data name="DocumentEditor_DifferentOddAndEven" xml:space="preserve">
+    <value>Forskellige ulige og lige</value>
+  </data>
+  <data name="DocumentEditor_DifferentFirstPage" xml:space="preserve">
+    <value>Forskellig første side</value>
+  </data>
+  <data name="DocumentEditor_FromEdge" xml:space="preserve">
+    <value>Fra kanten</value>
+  </data>
+  <data name="DocumentEditor_Header" xml:space="preserve">
+    <value>Header</value>
+  </data>
+  <data name="DocumentEditor_Footer" xml:space="preserve">
+    <value>Sidefod</value>
+  </data>
+  <data name="DocumentEditor_Margin" xml:space="preserve">
+    <value>Margener</value>
+  </data>
+  <data name="DocumentEditor_Paper" xml:space="preserve">
+    <value>Papir</value>
+  </data>
+  <data name="DocumentEditor_Layout" xml:space="preserve">
+    <value>Layout</value>
+  </data>
+  <data name="DocumentEditor_Orientation" xml:space="preserve">
+    <value>Orientering</value>
+  </data>
+  <data name="DocumentEditor_Landscape" xml:space="preserve">
+    <value>Landskab</value>
+  </data>
+  <data name="DocumentEditor_Portrait" xml:space="preserve">
+    <value>Portræt</value>
+  </data>
+  <data name="DocumentEditor_ShowPageNumbers" xml:space="preserve">
+    <value>Vis sidenumre</value>
+  </data>
+  <data name="DocumentEditor_RightAlignPageNumbers" xml:space="preserve">
+    <value>Juster sidetal.</value>
+  </data>
+  <data name="DocumentEditor_Nothing" xml:space="preserve">
+    <value>Ikke noget</value>
+  </data>
+  <data name="DocumentEditor_TabLeader" xml:space="preserve">
+    <value>Fanen leder</value>
+  </data>
+  <data name="DocumentEditor_ShowLevels" xml:space="preserve">
+    <value>Vis niveauer</value>
+  </data>
+  <data name="DocumentEditor_UseHyperlinksInsteadOfPageNumbers" xml:space="preserve">
+    <value>Brug hyperlinks i stedet for sidetal</value>
+  </data>
+  <data name="DocumentEditor_BuildTableOfContentsFrom" xml:space="preserve">
+    <value>Lav indholdsfortegnelse fra</value>
+  </data>
+  <data name="DocumentEditor_Styles" xml:space="preserve">
+    <value>styles</value>
+  </data>
+  <data name="DocumentEditor_AvailableStyles" xml:space="preserve">
+    <value>Tilgængelige stilarter</value>
+  </data>
+  <data name="DocumentEditor_TOCLevel" xml:space="preserve">
+    <value>TOC-niveau</value>
+  </data>
+  <data name="DocumentEditor_Heading" xml:space="preserve">
+    <value>Overskrift</value>
+  </data>
+  <data name="DocumentEditor_Heading1" xml:space="preserve">
+    <value>Udgiftsområde 1</value>
+  </data>
+  <data name="DocumentEditor_Heading2" xml:space="preserve">
+    <value>Udgiftsområde 2</value>
+  </data>
+  <data name="DocumentEditor_Heading3" xml:space="preserve">
+    <value>Udgiftsområde 3</value>
+  </data>
+  <data name="DocumentEditor_Heading4" xml:space="preserve">
+    <value>Udgiftsområde 4</value>
+  </data>
+  <data name="DocumentEditor_Heading5" xml:space="preserve">
+    <value>Udgiftsområde 5</value>
+  </data>
+  <data name="DocumentEditor_Heading6" xml:space="preserve">
+    <value>Udgiftsområde 6</value>
+  </data>
+  <data name="DocumentEditor_ListParagraph" xml:space="preserve">
+    <value>Liste afsnit</value>
+  </data>
+  <data name="DocumentEditor_Normal" xml:space="preserve">
+    <value>Normal</value>
+  </data>
+  <data name="DocumentEditor_OutlineLevels" xml:space="preserve">
+    <value>Oversigt niveauer</value>
+  </data>
+  <data name="DocumentEditor_TableEntryFields" xml:space="preserve">
+    <value>Tabelindtastningsfelter</value>
+  </data>
+  <data name="DocumentEditor_Modify" xml:space="preserve">
+    <value>Modificere</value>
+  </data>
+  <data name="DocumentEditor_Color" xml:space="preserve">
+    <value>Farve</value>
+  </data>
+  <data name="DocumentEditor_Setting" xml:space="preserve">
+    <value>Indstilling</value>
+  </data>
+  <data name="DocumentEditor_Box" xml:space="preserve">
+    <value>Boks</value>
+  </data>
+  <data name="DocumentEditor_All" xml:space="preserve">
+    <value>Alle</value>
+  </data>
+  <data name="DocumentEditor_Custom" xml:space="preserve">
+    <value>Brugerdefinerede</value>
+  </data>
+  <data name="DocumentEditor_Preview" xml:space="preserve">
+    <value>Eksempel</value>
+  </data>
+  <data name="DocumentEditor_Shading" xml:space="preserve">
+    <value>Skygge</value>
+  </data>
+  <data name="DocumentEditor_Fill" xml:space="preserve">
+    <value>Fylde</value>
+  </data>
+  <data name="DocumentEditor_ApplyTo" xml:space="preserve">
+    <value>Ansøg til</value>
+  </data>
+  <data name="DocumentEditor_TableProperties" xml:space="preserve">
+    <value>Tabelegenskaber</value>
+  </data>
+  <data name="DocumentEditor_CellOptions" xml:space="preserve">
+    <value>Celleindstillinger</value>
+  </data>
+  <data name="DocumentEditor_TableOptions" xml:space="preserve">
+    <value>Tabelindstillinger</value>
+  </data>
+  <data name="DocumentEditor_InsertTable" xml:space="preserve">
+    <value>Indsæt tabel</value>
+  </data>
+  <data name="DocumentEditor_NumberOfColumns" xml:space="preserve">
+    <value>Antal kolonner</value>
+  </data>
+  <data name="DocumentEditor_NumberOfRows" xml:space="preserve">
+    <value>Antal rækker</value>
+  </data>
+  <data name="DocumentEditor_TextToDisplay" xml:space="preserve">
+    <value>Tekst der skal vises</value>
+  </data>
+  <data name="DocumentEditor_Address" xml:space="preserve">
+    <value>Adresse</value>
+  </data>
+  <data name="DocumentEditor_InsertHyperlink" xml:space="preserve">
+    <value>Indsæt Hyperlink</value>
+  </data>
+  <data name="DocumentEditor_EditHyperlink" xml:space="preserve">
+    <value>Rediger Hyperlink</value>
+  </data>
+  <data name="DocumentEditor_Insert" xml:space="preserve">
+    <value>Indsæt</value>
+  </data>
+  <data name="DocumentEditor_General" xml:space="preserve">
+    <value>Generel</value>
+  </data>
+  <data name="DocumentEditor_Indentation" xml:space="preserve">
+    <value>Indrykning</value>
+  </data>
+  <data name="DocumentEditor_BeforeText" xml:space="preserve">
+    <value>Før tekst</value>
+  </data>
+  <data name="DocumentEditor_Special" xml:space="preserve">
+    <value>Særlig</value>
+  </data>
+  <data name="DocumentEditor_FirstLine" xml:space="preserve">
+    <value>Første linje</value>
+  </data>
+  <data name="DocumentEditor_Hanging" xml:space="preserve">
+    <value>Hængende</value>
+  </data>
+  <data name="DocumentEditor_AfterText" xml:space="preserve">
+    <value>Efter tekst</value>
+  </data>
+  <data name="DocumentEditor_By" xml:space="preserve">
+    <value>Ved</value>
+  </data>
+  <data name="DocumentEditor_Before" xml:space="preserve">
+    <value>Før</value>
+  </data>
+  <data name="DocumentEditor_LineSpacing" xml:space="preserve">
+    <value>Linjeafstand</value>
+  </data>
+  <data name="DocumentEditor_After" xml:space="preserve">
+    <value>Efter</value>
+  </data>
+  <data name="DocumentEditor_At" xml:space="preserve">
+    <value>På</value>
+  </data>
+  <data name="DocumentEditor_Multiple" xml:space="preserve">
+    <value>Mange</value>
+  </data>
+  <data name="DocumentEditor_Spacing" xml:space="preserve">
+    <value>Mellemrum</value>
+  </data>
+  <data name="DocumentEditor_DefineNewMultilevelList" xml:space="preserve">
+    <value>Definer ny liste over flere niveauer</value>
+  </data>
+  <data name="DocumentEditor_ListLevel" xml:space="preserve">
+    <value>Liste niveau</value>
+  </data>
+  <data name="DocumentEditor_ChooseLevelToModify" xml:space="preserve">
+    <value>Vælg niveau for at ændre</value>
+  </data>
+  <data name="DocumentEditor_Level" xml:space="preserve">
+    <value>Niveau</value>
+  </data>
+  <data name="DocumentEditor_NumberFormat" xml:space="preserve">
+    <value>Nummerformat</value>
+  </data>
+  <data name="DocumentEditor_NumberStyleForThisLevel" xml:space="preserve">
+    <value>Talestil for dette niveau</value>
+  </data>
+  <data name="DocumentEditor_EnterFormattingForNumber" xml:space="preserve">
+    <value>Indtast formatering for nummer</value>
+  </data>
+  <data name="DocumentEditor_StartAt" xml:space="preserve">
+    <value>Start ved</value>
+  </data>
+  <data name="DocumentEditor_RestartListAfter" xml:space="preserve">
+    <value>Genstart liste efter</value>
+  </data>
+  <data name="DocumentEditor_Position" xml:space="preserve">
+    <value>Position</value>
+  </data>
+  <data name="DocumentEditor_TextIndentAt" xml:space="preserve">
+    <value>Tekst indrykket kl</value>
+  </data>
+  <data name="DocumentEditor_AlignedAt" xml:space="preserve">
+    <value>Justeret kl</value>
+  </data>
+  <data name="DocumentEditor_FollowNumberWith" xml:space="preserve">
+    <value>Følg nummeret med</value>
+  </data>
+  <data name="DocumentEditor_TabCharacter" xml:space="preserve">
+    <value>Tab-karakter</value>
+  </data>
+  <data name="DocumentEditor_Space" xml:space="preserve">
+    <value>Plads</value>
+  </data>
+  <data name="DocumentEditor_Arabic" xml:space="preserve">
+    <value>arabisk</value>
+  </data>
+  <data name="DocumentEditor_UpRoman" xml:space="preserve">
+    <value>UpRoman</value>
+  </data>
+  <data name="DocumentEditor_LowRoman" xml:space="preserve">
+    <value>LowRoman</value>
+  </data>
+  <data name="DocumentEditor_UpLetter" xml:space="preserve">
+    <value>UpLetter</value>
+  </data>
+  <data name="DocumentEditor_LowLetter" xml:space="preserve">
+    <value>LowLetter</value>
+  </data>
+  <data name="DocumentEditor_Number" xml:space="preserve">
+    <value>Nummer</value>
+  </data>
+  <data name="DocumentEditor_LeadingZero" xml:space="preserve">
+    <value>Fører nul</value>
+  </data>
+  <data name="DocumentEditor_Bullet" xml:space="preserve">
+    <value>Kugle</value>
+  </data>
+  <data name="DocumentEditor_Ordinal" xml:space="preserve">
+    <value>ordenstal</value>
+  </data>
+  <data name="DocumentEditor_OrdinalText" xml:space="preserve">
+    <value>Ordinær tekst</value>
+  </data>
+  <data name="DocumentEditor_ForEast" xml:space="preserve">
+    <value>For øst</value>
+  </data>
+  <data name="DocumentEditor_NoRestart" xml:space="preserve">
+    <value>Ingen genstart</value>
+  </data>
+  <data name="DocumentEditor_Font" xml:space="preserve">
+    <value>Skrifttype</value>
+  </data>
+  <data name="DocumentEditor_FontStyle" xml:space="preserve">
+    <value>Skrifttype</value>
+  </data>
+  <data name="DocumentEditor_UnderlineStyle" xml:space="preserve">
+    <value>Understreg stil</value>
+  </data>
+  <data name="DocumentEditor_FontColor" xml:space="preserve">
+    <value>Skrift farve</value>
+  </data>
+  <data name="DocumentEditor_Effects" xml:space="preserve">
+    <value>effekter</value>
+  </data>
+  <data name="DocumentEditor_Strikethrough" xml:space="preserve">
+    <value>Gennemstreget</value>
+  </data>
+  <data name="DocumentEditor_Superscript" xml:space="preserve">
+    <value>Hævet</value>
+  </data>
+  <data name="DocumentEditor_Subscript" xml:space="preserve">
+    <value>Sænket</value>
+  </data>
+  <data name="DocumentEditor_DoubleStrikethrough" xml:space="preserve">
+    <value>Dobbelt gennemstrækning</value>
+  </data>
+  <data name="DocumentEditor_Regular" xml:space="preserve">
+    <value>Fast</value>
+  </data>
+  <data name="DocumentEditor_Bold" xml:space="preserve">
+    <value>Fremhævet</value>
+  </data>
+  <data name="DocumentEditor_Italic" xml:space="preserve">
+    <value>Kursiv</value>
+  </data>
+  <data name="DocumentEditor_Cut" xml:space="preserve">
+    <value>Skære</value>
+  </data>
+  <data name="DocumentEditor_Copy" xml:space="preserve">
+    <value>Kopi</value>
+  </data>
+  <data name="DocumentEditor_Paste" xml:space="preserve">
+    <value>sæt ind</value>
+  </data>
+  <data name="DocumentEditor_Hyperlink" xml:space="preserve">
+    <value>hyperlink</value>
+  </data>
+  <data name="DocumentEditor_OpenHyperlink" xml:space="preserve">
+    <value>Åbn Hyperlink</value>
+  </data>
+  <data name="DocumentEditor_CopyHyperlink" xml:space="preserve">
+    <value>Kopier hyperlink</value>
+  </data>
+  <data name="DocumentEditor_RemoveHyperlink" xml:space="preserve">
+    <value>Fjern Hyperlink</value>
+  </data>
+  <data name="DocumentEditor_Paragraph" xml:space="preserve">
+    <value>Afsnit</value>
+  </data>
+  <data name="DocumentEditor_LinkedStyle" xml:space="preserve">
+    <value>Koblet (afsnit og karakter)</value>
+  </data>
+  <data name="DocumentEditor_Character" xml:space="preserve">
+    <value>Karakter</value>
+  </data>
+  <data name="DocumentEditor_MergeCells" xml:space="preserve">
+    <value>Flet celler</value>
+  </data>
+  <data name="DocumentEditor_InsertAbove" xml:space="preserve">
+    <value>Indsæt over</value>
+  </data>
+  <data name="DocumentEditor_InsertBelow" xml:space="preserve">
+    <value>Indsæt nedenfor</value>
+  </data>
+  <data name="DocumentEditor_InsertLeft" xml:space="preserve">
+    <value>Indsæt venstre</value>
+  </data>
+  <data name="DocumentEditor_InsertRight" xml:space="preserve">
+    <value>Indsæt højre</value>
+  </data>
+  <data name="DocumentEditor_Delete" xml:space="preserve">
+    <value>Slet</value>
+  </data>
+  <data name="DocumentEditor_DeleteTable" xml:space="preserve">
+    <value>Slet tabel</value>
+  </data>
+  <data name="DocumentEditor_DeleteRow" xml:space="preserve">
+    <value>Slet række</value>
+  </data>
+  <data name="DocumentEditor_DeleteColumn" xml:space="preserve">
+    <value>Slet kolonne</value>
+  </data>
+  <data name="DocumentEditor_FileName" xml:space="preserve">
+    <value>Filnavn</value>
+  </data>
+  <data name="DocumentEditor_FormatType" xml:space="preserve">
+    <value>Formattype</value>
+  </data>
+  <data name="DocumentEditor_Save" xml:space="preserve">
+    <value>Gemme</value>
+  </data>
+  <data name="DocumentEditor_Navigation" xml:space="preserve">
+    <value>Navigation</value>
+  </data>
+  <data name="DocumentEditor_Results" xml:space="preserve">
+    <value>Resultater</value>
+  </data>
+  <data name="DocumentEditor_Replace" xml:space="preserve">
+    <value>Erstatte</value>
+  </data>
+  <data name="DocumentEditor_ReplaceAll" xml:space="preserve">
+    <value>Udskift alle</value>
+  </data>
+  <data name="DocumentEditor_WeReplacedAll" xml:space="preserve">
+    <value>Vi erstattede alle</value>
+  </data>
+  <data name="DocumentEditor_Find" xml:space="preserve">
+    <value>Find</value>
+  </data>
+  <data name="DocumentEditor_NoMatches" xml:space="preserve">
+    <value>Ingen kampe</value>
+  </data>
+  <data name="DocumentEditor_AllDone" xml:space="preserve">
+    <value>Helt færdig</value>
+  </data>
+  <data name="DocumentEditor_Result" xml:space="preserve">
+    <value>Resultat</value>
+  </data>
+  <data name="DocumentEditor_Of" xml:space="preserve">
+    <value>af</value>
+  </data>
+  <data name="DocumentEditor_Instances" xml:space="preserve">
+    <value>forekomster</value>
+  </data>
+  <data name="DocumentEditor_With" xml:space="preserve">
+    <value>med</value>
+  </data>
+  <data name="DocumentEditor_ClickToFollowLink" xml:space="preserve">
+    <value>Klik for at følge linket</value>
+  </data>
+  <data name="DocumentEditor_ContinueNumbering" xml:space="preserve">
+    <value>Fortsæt nummerering</value>
+  </data>
+  <data name="DocumentEditor_BookmarkName" xml:space="preserve">
+    <value>Bogmærke navn</value>
+  </data>
+  <data name="DocumentEditor_Close" xml:space="preserve">
+    <value>Tæt</value>
+  </data>
+  <data name="DocumentEditor_RestartAt" xml:space="preserve">
+    <value>Genstart kl</value>
+  </data>
+  <data name="DocumentEditor_Properties" xml:space="preserve">
+    <value>Ejendomme</value>
+  </data>
+  <data name="DocumentEditor_Name" xml:space="preserve">
+    <value>Navn</value>
+  </data>
+  <data name="DocumentEditor_StyleType" xml:space="preserve">
+    <value>Style type</value>
+  </data>
+  <data name="DocumentEditor_StyleBasedOn" xml:space="preserve">
+    <value>Style baseret på</value>
+  </data>
+  <data name="DocumentEditor_StyleForFollowingParagraph" xml:space="preserve">
+    <value>Stil til følgende afsnit</value>
+  </data>
+  <data name="DocumentEditor_Formatting" xml:space="preserve">
+    <value>Formatering</value>
+  </data>
+  <data name="DocumentEditor_NumberingAndBullets" xml:space="preserve">
+    <value>Nummerering og kugler</value>
+  </data>
+  <data name="DocumentEditor_Numbering" xml:space="preserve">
+    <value>Nummerering</value>
+  </data>
+  <data name="DocumentEditor_UpdateField" xml:space="preserve">
+    <value>Opdater felt</value>
+  </data>
+  <data name="DocumentEditor_EditField" xml:space="preserve">
+    <value>Rediger felt</value>
+  </data>
+  <data name="DocumentEditor_Bookmark" xml:space="preserve">
+    <value>bogmærke</value>
+  </data>
+  <data name="DocumentEditor_PageSetup" xml:space="preserve">
+    <value>Sideopsætning</value>
+  </data>
+  <data name="DocumentEditor_NoBookmarksFound" xml:space="preserve">
+    <value>Der blev ikke fundet nogen bogmærker</value>
+  </data>
+  <data name="DocumentEditor_Format" xml:space="preserve">
+    <value>Format</value>
+  </data>
+  <data name="DocumentEditor_CreateNewStyle" xml:space="preserve">
+    <value>Opret ny stil</value>
+  </data>
+  <data name="DocumentEditor_ModifyStyle" xml:space="preserve">
+    <value>Rediger stil</value>
+  </data>
+  <data name="DocumentEditor_New" xml:space="preserve">
+    <value>Ny</value>
+  </data>
+  <data name="DocumentEditor_Bullets" xml:space="preserve">
+    <value>Kugler</value>
+  </data>
+  <data name="DocumentEditor_UseBookmarks" xml:space="preserve">
+    <value>Brug bogmærker</value>
+  </data>
+  <data name="DocumentEditor_TableOfContents" xml:space="preserve">
+    <value>Indholdsfortegnelse</value>
+  </data>
+  <data name="DocumentEditor_AutoFit" xml:space="preserve">
+    <value>Autotilpas</value>
+  </data>
+  <data name="DocumentEditor_AutoFitToContents" xml:space="preserve">
+    <value>AutoFit til indhold</value>
+  </data>
+  <data name="DocumentEditor_AutoFitToWindow" xml:space="preserve">
+    <value>AutoFit til Window</value>
+  </data>
+  <data name="DocumentEditor_FixedColumnWidth" xml:space="preserve">
+    <value>Fast søjlebredde</value>
+  </data>
+  <data name="DocumentEditor_Reset" xml:space="preserve">
+    <value>Nulstil</value>
+  </data>
+  <data name="DocumentEditor_MatchCase" xml:space="preserve">
+    <value>Match sag</value>
+  </data>
+  <data name="DocumentEditor_WholeWords" xml:space="preserve">
+    <value>Hele ord</value>
+  </data>
+  <data name="DocumentEditor_Add" xml:space="preserve">
+    <value>Tilføje</value>
+  </data>
+  <data name="DocumentEditor_GoTo" xml:space="preserve">
+    <value>Gå til</value>
+  </data>
+  <data name="DocumentEditor_SearchFor" xml:space="preserve">
+    <value>Søge efter</value>
+  </data>
+  <data name="DocumentEditor_ReplaceWith" xml:space="preserve">
+    <value>Erstat med</value>
+  </data>
+  <data name="DocumentEditor_TOC1" xml:space="preserve">
+    <value>TOC 1</value>
+  </data>
+  <data name="DocumentEditor_TOC2" xml:space="preserve">
+    <value>TOC 2</value>
+  </data>
+  <data name="DocumentEditor_TOC3" xml:space="preserve">
+    <value>TOC 3</value>
+  </data>
+  <data name="DocumentEditor_TOC4" xml:space="preserve">
+    <value>TOC 4</value>
+  </data>
+  <data name="DocumentEditor_TOC5" xml:space="preserve">
+    <value>TOC 5</value>
+  </data>
+  <data name="DocumentEditor_TOC6" xml:space="preserve">
+    <value>TOC 6</value>
+  </data>
+  <data name="DocumentEditor_TOC7" xml:space="preserve">
+    <value>TOC 7</value>
+  </data>
+  <data name="DocumentEditor_TOC8" xml:space="preserve">
+    <value>TOC 8</value>
+  </data>
+  <data name="DocumentEditor_TOC9" xml:space="preserve">
+    <value>TOC 9</value>
+  </data>
+  <data name="DocumentEditor_RightToLeft" xml:space="preserve">
+    <value>Højre mod venstre</value>
+  </data>
+  <data name="DocumentEditor_LeftToRight" xml:space="preserve">
+    <value>Venstre til højre</value>
+  </data>
+  <data name="DocumentEditor_Direction" xml:space="preserve">
+    <value>Retning</value>
+  </data>
+  <data name="DocumentEditor_TableDirection" xml:space="preserve">
+    <value>Tabelretning</value>
+  </data>
+  <data name="DocumentEditor_IndentFromRight" xml:space="preserve">
+    <value>Indrykket fra højre</value>
+  </data>
+  <data name="DocumentEditor_ContextualSpacing" xml:space="preserve">
+    <value>Tilføj ikke mellemrum mellem afsnittene i de samme stilarter</value>
+  </data>
+  <data name="DocumentEditor_PasswordMismatch" xml:space="preserve">
+    <value>Adgangskoden stemmer ikke overens</value>
+  </data>
+  <data name="DocumentEditor_RestrictEditing" xml:space="preserve">
+    <value>Begræns redigering</value>
+  </data>
+  <data name="DocumentEditor_FormattingRestrictions" xml:space="preserve">
+    <value>Formatering af begrænsninger</value>
+  </data>
+  <data name="DocumentEditor_AllowFormatting" xml:space="preserve">
+    <value>Tillad formatering</value>
+  </data>
+  <data name="DocumentEditor_EditingRestrictions" xml:space="preserve">
+    <value>Redigering af begrænsninger</value>
+  </data>
+  <data name="DocumentEditor_ReadOnly" xml:space="preserve">
+    <value>Læs kun</value>
+  </data>
+  <data name="DocumentEditor_ExceptionsOptional" xml:space="preserve">
+    <value>Undtagelser (valgfrit)</value>
+  </data>
+  <data name="DocumentEditor_SelectPartOfDocumentAndUser" xml:space="preserve">
+    <value>Vælg dele af dokumentet, og vælg brugere, der har tilladelse til frit at redigere dem.</value>
+  </data>
+  <data name="DocumentEditor_Everyone" xml:space="preserve">
+    <value>Alle sammen</value>
+  </data>
+  <data name="DocumentEditor_MoreUsers" xml:space="preserve">
+    <value>Flere brugere</value>
+  </data>
+  <data name="DocumentEditor_AddUsers" xml:space="preserve">
+    <value>Tilføj brugere</value>
+  </data>
+  <data name="DocumentEditor_EnforcingProtection" xml:space="preserve">
+    <value>Ja, start håndhævelse af beskyttelse</value>
+  </data>
+  <data name="DocumentEditor_StartEnforcingProtection" xml:space="preserve">
+    <value>Begynd at håndhæve beskyttelsen</value>
+  </data>
+  <data name="DocumentEditor_EnterUser" xml:space="preserve">
+    <value>Indtast bruger</value>
+  </data>
+  <data name="DocumentEditor_Users" xml:space="preserve">
+    <value>Brugere</value>
+  </data>
+  <data name="DocumentEditor_EnterNewPassword" xml:space="preserve">
+    <value>Indtast nyt kodeord</value>
+  </data>
+  <data name="DocumentEditor_ReenterNewPasswordToConfirm" xml:space="preserve">
+    <value>Indtast den nye adgangskode igen for at bekræfte</value>
+  </data>
+  <data name="DocumentEditor_YourPermissions" xml:space="preserve">
+    <value>Dine tilladelser</value>
+  </data>
+  <data name="DocumentEditor_ProtectedDocument" xml:space="preserve">
+    <value>Dette dokument er beskyttet mod utilsigtet redigering.</value>
+  </data>
+  <data name="DocumentEditor_YouMayFormatTextOnlyWithCertainStyles" xml:space="preserve">
+    <value>Du kan kun formatere tekst med bestemte stilarter.</value>
+  </data>
+  <data name="DocumentEditor_StopProtection" xml:space="preserve">
+    <value>Stop beskyttelse</value>
+  </data>
+  <data name="DocumentEditor_Password" xml:space="preserve">
+    <value>Adgangskode</value>
+  </data>
+  <data name="DocumentEditor_SpellingEditor" xml:space="preserve">
+    <value>Staveeditor</value>
+  </data>
+  <data name="DocumentEditor_Spelling" xml:space="preserve">
+    <value>Stavning</value>
+  </data>
+  <data name="DocumentEditor_SpellCheck" xml:space="preserve">
+    <value>Stavekontrol</value>
+  </data>
+  <data name="DocumentEditor_UnderlineErrors" xml:space="preserve">
+    <value>Understreg fejl</value>
+  </data>
+  <data name="DocumentEditor_Ignore" xml:space="preserve">
+    <value>Ignorere</value>
+  </data>
+  <data name="DocumentEditor_IgnoreAll" xml:space="preserve">
+    <value>Ignorer alt</value>
+  </data>
+  <data name="DocumentEditor_AddToDictionary" xml:space="preserve">
+    <value>Føj til ordbog</value>
+  </data>
+  <data name="DocumentEditor_Change" xml:space="preserve">
+    <value>Lave om</value>
+  </data>
+  <data name="DocumentEditor_ChangeAll" xml:space="preserve">
+    <value>Skift alt</value>
+  </data>
+  <data name="DocumentEditor_Suggestions" xml:space="preserve">
+    <value>Forslag</value>
+  </data>
+  <data name="DocumentEditor_ThePasswordIsIncorrect" xml:space="preserve">
+    <value>Adgangskoden er forkert</value>
+  </data>
+  <data name="DocumentEditor_ErrorInEstablishingConnectionWithWebServer" xml:space="preserve">
+    <value>Fejl ved etablering af forbindelse til webserver</value>
+  </data>
+  <data name="DocumentEditor_HighlightTheRegionsICanEdit" xml:space="preserve">
+    <value>Fremhæv de regioner, jeg kan redigere</value>
+  </data>
+  <data name="DocumentEditor_ShowAllRegionsICanEdit" xml:space="preserve">
+    <value>Vis alle regioner, jeg kan redigere</value>
+  </data>
+  <data name="DocumentEditor_FindNextRegionICanEdit" xml:space="preserve">
+    <value>Find næste område, jeg kan redigere</value>
+  </data>
+  <data name="DocumentEditor_KeepSourceFormatting" xml:space="preserve">
+    <value>Behold kildeformatering</value>
+  </data>
+  <data name="DocumentEditor_MatchDestinationFormatting" xml:space="preserve">
+    <value>Match destinationsformatering</value>
+  </data>
+  <data name="DocumentEditor_TextOnly" xml:space="preserve">
+    <value>Kun tekst</value>
+  </data>
+  <data name="DocumentEditor_Comments" xml:space="preserve">
+    <value>Kommentarer</value>
+  </data>
+  <data name="DocumentEditor_TypeYourComment" xml:space="preserve">
+    <value>Skriv din kommentar</value>
+  </data>
+  <data name="DocumentEditor_Post" xml:space="preserve">
+    <value>Stolpe</value>
+  </data>
+  <data name="DocumentEditor_Reply" xml:space="preserve">
+    <value>Svar</value>
+  </data>
+  <data name="DocumentEditor_NewComment" xml:space="preserve">
+    <value>Ny kommentar</value>
+  </data>
+  <data name="DocumentEditor_Edit" xml:space="preserve">
+    <value>Redigere</value>
+  </data>
+  <data name="DocumentEditor_Resolve" xml:space="preserve">
+    <value>Beslutte</value>
+  </data>
+  <data name="DocumentEditor_Reopen" xml:space="preserve">
+    <value>Åbn</value>
+  </data>
+  <data name="DocumentEditor_NoCommentsInThisDocument" xml:space="preserve">
+    <value>Ingen kommentarer i dette dokument</value>
+  </data>
+  <data name="DocumentEditor_More" xml:space="preserve">
+    <value>mere</value>
+  </data>
+  <data name="DocumentEditor_TypeYourCommentHere" xml:space="preserve">
+    <value>Skriv din kommentar her</value>
+  </data>
+  <data name="DocumentEditor_NextComment" xml:space="preserve">
+    <value>Næste kommentar</value>
+  </data>
+  <data name="DocumentEditor_PreviousComment" xml:space="preserve">
+    <value>Forrige kommentar</value>
+  </data>
+  <data name="DocumentEditor_UnPostedComments" xml:space="preserve">
+    <value>Ikke-udsendte kommentarer</value>
+  </data>
+  <data name="DocumentEditor_DiscardComment" xml:space="preserve">
+    <value>Tilføjede kommentarer ikke indsendt. Hvis du fortsætter, bortfalder denne kommentar.</value>
+  </data>
+  <data name="DocumentEditor_NoHeadings" xml:space="preserve">
+    <value>Ingen overskrift fundet!</value>
+  </data>
+  <data name="DocumentEditor_AddHeadings" xml:space="preserve">
+    <value>Dette dokument har ingen overskrifter. Tilføj overskrifter, og prøv igen.</value>
+  </data>
+  <data name="DocumentEditor_MoreOptions" xml:space="preserve">
+    <value>Flere muligheder</value>
+  </data>
+  <data name="DocumentEditor_ClickToSeeThisComment" xml:space="preserve">
+    <value>Klik for at se denne kommentar</value>
+  </data>
+  <data name="DocumentEditor_DropDownFormField" xml:space="preserve">
+    <value>Felt i rullemenuen</value>
+  </data>
+  <data name="DocumentEditor_DropDownItems" xml:space="preserve">
+    <value>Rullelister</value>
+  </data>
+  <data name="DocumentEditor_ItemsInDropDownList" xml:space="preserve">
+    <value>Elementer i rullelisten</value>
+  </data>
+  <data name="DocumentEditor_ADDButton" xml:space="preserve">
+    <value>TILFØJE</value>
+  </data>
+  <data name="DocumentEditor_REMOVE" xml:space="preserve">
+    <value>FJERNE</value>
+  </data>
+  <data name="DocumentEditor_FieldSettings" xml:space="preserve">
+    <value>Feltindstillinger</value>
+  </data>
+  <data name="DocumentEditor_Tooltip" xml:space="preserve">
+    <value>tooltip</value>
+  </data>
+  <data name="DocumentEditor_DropDownEnabled" xml:space="preserve">
+    <value>Drop-down aktiveret</value>
+  </data>
+  <data name="DocumentEditor_CheckBoxFormField" xml:space="preserve">
+    <value>Afkrydsningsfeltformularfelt</value>
+  </data>
+  <data name="DocumentEditor_CheckBoxSize" xml:space="preserve">
+    <value>Afkrydsningsfeltets størrelse</value>
+  </data>
+  <data name="DocumentEditor_Auto" xml:space="preserve">
+    <value>Auto</value>
+  </data>
+  <data name="DocumentEditor_DefaultValue" xml:space="preserve">
+    <value>Standard værdi</value>
+  </data>
+  <data name="DocumentEditor_NotChecked" xml:space="preserve">
+    <value>Ikke kontrolleret</value>
+  </data>
+  <data name="DocumentEditor_Checked" xml:space="preserve">
+    <value>Kontrolleret</value>
+  </data>
+  <data name="DocumentEditor_CheckBoxEnabled" xml:space="preserve">
+    <value>Afkrydsningsfeltet er aktiveret</value>
+  </data>
+  <data name="DocumentEditor_TextFormField" xml:space="preserve">
+    <value>Tekstformularfelt</value>
+  </data>
+  <data name="DocumentEditor_Type" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="DocumentEditor_DefaultText" xml:space="preserve">
+    <value>Standardtekst</value>
+  </data>
+  <data name="DocumentEditor_MaximumLength" xml:space="preserve">
+    <value>Maksimal længde</value>
+  </data>
+  <data name="DocumentEditor_TextFormat" xml:space="preserve">
+    <value>Tekstformat</value>
+  </data>
+  <data name="DocumentEditor_FillInEnabled" xml:space="preserve">
+    <value>Udfyldning aktiveret</value>
+  </data>
+  <data name="DocumentEditor_DefaultNumber" xml:space="preserve">
+    <value>Standardnummer</value>
+  </data>
+  <data name="DocumentEditor_DefaultDate" xml:space="preserve">
+    <value>Standarddato</value>
+  </data>
+  <data name="DocumentEditor_DateFormat" xml:space="preserve">
+    <value>Datoformat</value>
+  </data>
+  <data name="DocumentEditor_MergeTrack" xml:space="preserve">
+    <value>Denne handling markeres ikke som ændring. Vil du fortsætte?</value>
+  </data>
+  <data name="DocumentEditor_UnTrack" xml:space="preserve">
+    <value>Kan ikke spores</value>
+  </data>
+  <data name="DocumentEditor_Accept" xml:space="preserve">
+    <value>Acceptere</value>
+  </data>
+  <data name="DocumentEditor_Reject" xml:space="preserve">
+    <value>Afvise</value>
+  </data>
+  <data name="DocumentEditor_PreviousChanges" xml:space="preserve">
+    <value>Tidligere ændringer</value>
+  </data>
+  <data name="DocumentEditor_NextChanges" xml:space="preserve">
+    <value>Næste ændringer</value>
+  </data>
+  <data name="DocumentEditor_Inserted" xml:space="preserve">
+    <value>indsat</value>
+  </data>
+  <data name="DocumentEditor_Deleted" xml:space="preserve">
+    <value>Slettet</value>
+  </data>
+  <data name="DocumentEditor_Changes" xml:space="preserve">
+    <value>Ændringer</value>
+  </data>
+  <data name="DocumentEditor_AcceptAll" xml:space="preserve">
+    <value>Accepter alle</value>
+  </data>
+  <data name="DocumentEditor_RejectAll" xml:space="preserve">
+    <value>Afvis alle</value>
+  </data>
+  <data name="DocumentEditor_NoChanges" xml:space="preserve">
+    <value>Ingen ændringer</value>
+  </data>
+  <data name="DocumentEditor_AcceptChanges" xml:space="preserve">
+    <value>Accepter ændringer</value>
+  </data>
+  <data name="DocumentEditor_RejectChanges" xml:space="preserve">
+    <value>Afvis ændringer</value>
+  </data>
+  <data name="DocumentEditor_User" xml:space="preserve">
+    <value>Bruger</value>
+  </data>
+  <data name="DocumentEditor_View" xml:space="preserve">
+    <value>Udsigt</value>
+  </data>
+  <data name="DocumentEditor_UnprotectDocument" xml:space="preserve">
+    <value>Fjern beskyttelse af dokument</value>
+  </data>
+  <data name="DocumentEditor_FormFieldsOnly" xml:space="preserve">
+    <value>Du må kun udfylde formularer i denne region.</value>
+  </data>
+  <data name="DocumentEditor_IndentsAndSpacing" xml:space="preserve">
+    <value>Enke/forældreløs kontrol</value>
+  </data>
+  <data name="DocumentEditor_LineAndBreakPage" xml:space="preserve">
+    <value>Indrykninger og mellemrum</value>
+  </data>
+  <data name="DocumentEditor_Pagination" xml:space="preserve">
+    <value>Linje- og sideskift</value>
+  </data>
+  <data name="DocumentEditor_WidowControl" xml:space="preserve">
+    <value>Hold linjer sammen</value>
+  </data>
+  <data name="DocumentEditor_KeepWithNext" xml:space="preserve">
+    <value>Ignorer en gang</value>
+  </data>
+  <data name="DocumentEditor_KeepLinesTogether" xml:space="preserve">
+    <value>Fortsæt med næste</value>
+  </data>
+  <data name="DocumentEditor_ScreenTip" xml:space="preserve">
+       <value>ScreenTip-tekst</value>
+</data>
+<data name="DocumentEditor_KeepSource" xml:space="preserve">
+       <value>Fortsæt med kildeformatering</value>
+</data>
+<data name="DocumentEditor_DestinationFormat" xml:space="preserve">
+       <value>Match destinationsformatering</value>
+</data>
+<data name="DocumentEditor_CommentsOnly" xml:space="preserve">
+       <value>Du må kun indsætte kommentarer i dette område.</value>
+</data>
+<data name="DocumentEditor_RowRange" xml:space="preserve">
+       <value>Antallet af rækker skal være mellem 1 og 32767.</value>
+</data>
+<data name="DocumentEditor_ColumnRange" xml:space="preserve">
+       <value>Antallet af kolonner skal være mellem 1 og 63.</value>
+</data>
+<data name="DocumentEditor_Information" xml:space="preserve">
+       <value>Information</value>
+</data>
+<data name="DocumentEditor_Dot" xml:space="preserve">
+       <value>Prik</value>
+</data>
+<data name="DocumentEditor_DashSmallGap" xml:space="preserve">
+       <value>Dash lille mellemrum</value>
+</data>
+<data name="DocumentEditor_DashDot" xml:space="preserve">
+       <value>Bindestreg prik</value>
+</data>
+<data name="DocumentEditor_ThinThickSmallGap" xml:space="preserve">
+       <value>Tynd tyk Lille hul</value>
+</data>
+<data name="DocumentEditor_ThickThinSmallGap" xml:space="preserve">
+       <value>Tykt tyndt lille hul</value>
+</data>
+<data name="DocumentEditor_ThickThinMediumGap" xml:space="preserve">
+       <value>Tyk Tynd Medium Gap</value>
+</data>
+<data name="DocumentEditor_ThickThinLargeGap" xml:space="preserve">
+       <value>Tyk Tynd Stor Gap</value>
+</data>
+<data name="DocumentEditor_SingleWavy" xml:space="preserve">
+       <value>Enkelt Bølget</value>
+</data>
+<data name="DocumentEditor_DoubleWavy" xml:space="preserve">
+       <value>Dobbelt bølget</value>
+</data>
+<data name="DocumentEditor_Inset" xml:space="preserve">
+       <value>Indsat</value>
+</data>
+<data name="DocumentEditor_DashLargeGap" xml:space="preserve">
+       <value>Dash stort mellemrum</value>
+</data>
+<data name="DocumentEditor_DashDotDot" xml:space="preserve">
+       <value>Binde prik prik</value>
+</data>
+<data name="DocumentEditor_Triple" xml:space="preserve">
+       <value>Tredobbelt</value>
+</data>
+<data name="DocumentEditor_ThinThickThinSmallGap" xml:space="preserve">
+       <value>Tynd Tynd Tynd Lille Gap</value>
+</data>
+<data name="DocumentEditor_ThinThickThinMediumGap" xml:space="preserve">
+       <value>Tynd Tynd Tynd Medium Gap</value>
+</data>
+<data name="DocumentEditor_ThinThickThinLargeGap" xml:space="preserve">
+       <value>Tynd Tynd Tynd Stor Gap</value>
+</data>
+<data name="DocumentEditor_DashDotStroked" xml:space="preserve">
+       <value>Dash Dot Strøget</value>
+</data>
+<data name="DocumentEditor_Engrave3D" xml:space="preserve">
+       <value>Graver 3D</value>
+</data>
+<data name="DocumentEditor_Thick" xml:space="preserve">
+       <value>Tyk</value>
+</data>
+<data name="DocumentEditor_Outset" xml:space="preserve">
+       <value>Begyndelsen</value>
+</data>
+<data name="DocumentEditor_Emboss3D" xml:space="preserve">
+       <value>Præg 3D</value>
+</data>
+<data name="DocumentEditor_ThinThickLargeGap" xml:space="preserve">
+       <value>Tynd Tyk Stor Gap</value>
+</data>
+<data name="DocumentEditor_ThinThickMediumGap" xml:space="preserve">
+       <value>Tynd tyk mellemrum</value>
+</data>
+<data name="DocumentEditor_RegularText" xml:space="preserve">
+       <value>Almindelig tekst</value>
+</data>
+<data name="DocumentEditor_Date" xml:space="preserve">
+       <value>Dato</value>
+</data>
+<data name="DocumentEditor_Uppercase" xml:space="preserve">
+       <value>Store bogstaver</value>
+</data>
+<data name="DocumentEditor_Lowercase" xml:space="preserve">
+       <value>Små bogstaver</value>
+</data>
+<data name="DocumentEditor_FirstCapital" xml:space="preserve">
+       <value>Første hovedstad</value>
+</data>
+<data name="DocumentEditor_Titlecase" xml:space="preserve">
+       <value>Retssag</value>
+</data>
+<data name="DocumentEditor_MoveFrom" xml:space="preserve">
+       <value>Flyt fra</value>
+</data>
+<data name="DocumentEditor_MoveTo" xml:space="preserve">
+       <value>Flytte til</value>
+</data>
+<data name="DocumentEditor_Px" xml:space="preserve">
+       <value>px</value>
+</data>
+<data name="DocumentEditorContainer_RegularTooltip" xml:space="preserve">
+       <value>Fast</value>
+</data>
+<data name="DocumentEditor_ReadOnlyProtection" xml:space="preserve">
+       <value>Du kan redigere i denne region.</value>
+</data>
+<data name="DocumentEditorContainer_BoldItalicTooltip" xml:space="preserve">
+       <value>Fed kursiv</value>
+</data>
+  <data name="DocumentEditorContainer_New" xml:space="preserve">
+    <value>Ny</value>
+  </data>
+  <data name="DocumentEditorContainer_Open" xml:space="preserve">
+    <value>Åben</value>
+  </data>
+  <data name="DocumentEditorContainer_Undo" xml:space="preserve">
+    <value>Fortryd</value>
+  </data>
+  <data name="DocumentEditorContainer_Redo" xml:space="preserve">
+    <value>Redo</value>
+  </data>
+  <data name="DocumentEditorContainer_Image" xml:space="preserve">
+    <value>Billede</value>
+  </data>
+  <data name="DocumentEditorContainer_Table" xml:space="preserve">
+    <value>Bord</value>
+  </data>
+  <data name="DocumentEditorContainer_Link" xml:space="preserve">
+    <value>Link</value>
+  </data>
+  <data name="DocumentEditorContainer_Bookmark" xml:space="preserve">
+    <value>bogmærke</value>
+  </data>
+  <data name="DocumentEditorContainer_TableOfContents" xml:space="preserve">
+    <value>Indholdsfortegnelse</value>
+  </data>
+  <data name="DocumentEditorContainer_HEADING1" xml:space="preserve">
+    <value>Overskrift - - - - 1</value>
+  </data>
+  <data name="DocumentEditorContainer_HEADING2" xml:space="preserve">
+    <value>Overskrift - - - - 2</value>
+  </data>
+  <data name="DocumentEditorContainer_HEADING3" xml:space="preserve">
+    <value>Overskrift - - - - 3</value>
+  </data>
+  <data name="DocumentEditorContainer_Header" xml:space="preserve">
+    <value>Header</value>
+  </data>
+  <data name="DocumentEditorContainer_Footer" xml:space="preserve">
+    <value>Sidefod</value>
+  </data>
+  <data name="DocumentEditorContainer_PageSetup" xml:space="preserve">
+    <value>Sideopsætning</value>
+  </data>
+  <data name="DocumentEditorContainer_PageNumber" xml:space="preserve">
+    <value>Sidenummer</value>
+  </data>
+  <data name="DocumentEditorContainer_Break" xml:space="preserve">
+    <value>Pause</value>
+  </data>
+  <data name="DocumentEditorContainer_Find" xml:space="preserve">
+    <value>Find</value>
+  </data>
+  <data name="DocumentEditorContainer_LocalClipboard" xml:space="preserve">
+    <value>Lokalt udklipsholder</value>
+  </data>
+  <data name="DocumentEditorContainer_RestrictEditing" xml:space="preserve">
+    <value>Begræns redigering</value>
+  </data>
+  <data name="DocumentEditorContainer_UploadFromComputer" xml:space="preserve">
+    <value>Upload fra computeren</value>
+  </data>
+  <data name="DocumentEditorContainer_ByURL" xml:space="preserve">
+    <value>Efter URL</value>
+  </data>
+  <data name="DocumentEditorContainer_PageBreak" xml:space="preserve">
+    <value>Sideskift</value>
+  </data>
+  <data name="DocumentEditorContainer_SectionBreak" xml:space="preserve">
+    <value>Afsnit pause</value>
+  </data>
+  <data name="DocumentEditorContainer_HeaderAndFooter" xml:space="preserve">
+    <value>Header &amp; Footer</value>
+  </data>
+  <data name="DocumentEditorContainer_Options" xml:space="preserve">
+    <value>Muligheder</value>
+  </data>
+  <data name="DocumentEditorContainer_Levels" xml:space="preserve">
+    <value>Niveauer</value>
+  </data>
+  <data name="DocumentEditorContainer_DifferentFirstPage" xml:space="preserve">
+    <value>Forskellig første side</value>
+  </data>
+  <data name="DocumentEditorContainer_DifferentHeaderAndFooterForOddAndEvenPages" xml:space="preserve">
+    <value>Forskellig sidehoved og sidefod til ulige og lige sider.</value>
+  </data>
+  <data name="DocumentEditorContainer_DifferentOddAndEvenPages" xml:space="preserve">
+    <value>Forskellige ulige og lige sider</value>
+  </data>
+  <data name="DocumentEditorContainer_DifferentHeaderAndFooterForFirstPage" xml:space="preserve">
+    <value>Forskellig sidehoved og sidefod til første side.</value>
+  </data>
+  <data name="DocumentEditorContainer_Position" xml:space="preserve">
+    <value>Position</value>
+  </data>
+  <data name="DocumentEditorContainer_HeaderFromTop" xml:space="preserve">
+    <value>Header fra toppen</value>
+  </data>
+  <data name="DocumentEditorContainer_FooterFromBottom" xml:space="preserve">
+    <value>Sidefod fra bunden</value>
+  </data>
+  <data name="DocumentEditorContainer_DistanceFromTopOfThePageToTopOfTheHeader" xml:space="preserve">
+    <value>Afstand fra toppen af ​​siden til toppen af ​​overskriften.</value>
+  </data>
+  <data name="DocumentEditorContainer_DistanceFromBottomOfThePageToBottomOfTheFooter" xml:space="preserve">
+    <value>Afstand fra bunden af ​​siden til bunden af ​​sidefoden.</value>
+  </data>
+  <data name="DocumentEditorContainer_AspectRatio" xml:space="preserve">
+    <value>Billedforhold</value>
+  </data>
+  <data name="DocumentEditorContainer_W" xml:space="preserve">
+    <value>W</value>
+  </data>
+  <data name="DocumentEditorContainer_H" xml:space="preserve">
+    <value>H</value>
+  </data>
+  <data name="DocumentEditorContainer_Width" xml:space="preserve">
+    <value>Bredde</value>
+  </data>
+  <data name="DocumentEditorContainer_Height" xml:space="preserve">
+    <value>Højde</value>
+  </data>
+  <data name="DocumentEditorContainer_Text" xml:space="preserve">
+    <value>Tekst</value>
+  </data>
+  <data name="DocumentEditorContainer_Paragraph" xml:space="preserve">
+    <value>Afsnit</value>
+  </data>
+  <data name="DocumentEditorContainer_Fill" xml:space="preserve">
+    <value>Fylde</value>
+  </data>
+  <data name="DocumentEditorContainer_FillColor" xml:space="preserve">
+    <value>Fyld farve</value>
+  </data>
+  <data name="DocumentEditorContainer_BorderStyle" xml:space="preserve">
+    <value>Border Style</value>
+  </data>
+  <data name="DocumentEditorContainer_OutsideBorders" xml:space="preserve">
+    <value>Ydergrænser</value>
+  </data>
+  <data name="DocumentEditorContainer_AllBorders" xml:space="preserve">
+    <value>Alle grænser</value>
+  </data>
+  <data name="DocumentEditorContainer_InsideBorders" xml:space="preserve">
+    <value>Indvendige grænser</value>
+  </data>
+  <data name="DocumentEditorContainer_LeftBorder" xml:space="preserve">
+    <value>Venstre grænse</value>
+  </data>
+  <data name="DocumentEditorContainer_InsideVerticalBorder" xml:space="preserve">
+    <value>Inde i lodret kant</value>
+  </data>
+  <data name="DocumentEditorContainer_RightBorder" xml:space="preserve">
+    <value>Højre grænse</value>
+  </data>
+  <data name="DocumentEditorContainer_TopBorder" xml:space="preserve">
+    <value>Øverste kant</value>
+  </data>
+  <data name="DocumentEditorContainer_InsideHorizontalBorder" xml:space="preserve">
+    <value>Inde i vandret kant</value>
+  </data>
+  <data name="DocumentEditorContainer_BottomBorder" xml:space="preserve">
+    <value>Nederste kant</value>
+  </data>
+  <data name="DocumentEditorContainer_BorderColor" xml:space="preserve">
+    <value>Kantfarve</value>
+  </data>
+  <data name="DocumentEditorContainer_BorderWidth" xml:space="preserve">
+    <value>Kantbredde</value>
+  </data>
+  <data name="DocumentEditorContainer_Cell" xml:space="preserve">
+    <value>Celle</value>
+  </data>
+  <data name="DocumentEditorContainer_MergeCells" xml:space="preserve">
+    <value>Flet celler</value>
+  </data>
+  <data name="DocumentEditorContainer_InsertOrDelete" xml:space="preserve">
+    <value>Indsæt / slet</value>
+  </data>
+  <data name="DocumentEditorContainer_InsertColumnsToTheLeft" xml:space="preserve">
+    <value>Indsæt kolonner til venstre</value>
+  </data>
+  <data name="DocumentEditorContainer_InsertColumnsToTheRight" xml:space="preserve">
+    <value>Indsæt kolonner til højre</value>
+  </data>
+  <data name="DocumentEditorContainer_InsertRowsAbove" xml:space="preserve">
+    <value>Indsæt rækker ovenfor</value>
+  </data>
+  <data name="DocumentEditorContainer_InsertRowsBelow" xml:space="preserve">
+    <value>Indsæt rækker nedenfor</value>
+  </data>
+  <data name="DocumentEditorContainer_DeleteRows" xml:space="preserve">
+    <value>Slet rækker</value>
+  </data>
+  <data name="DocumentEditorContainer_DeleteColumns" xml:space="preserve">
+    <value>Slet kolonner</value>
+  </data>
+  <data name="DocumentEditorContainer_CellMargin" xml:space="preserve">
+    <value>Cell Margin</value>
+  </data>
+  <data name="DocumentEditorContainer_Top" xml:space="preserve">
+    <value>Top</value>
+  </data>
+  <data name="DocumentEditorContainer_Bottom" xml:space="preserve">
+    <value>Bund</value>
+  </data>
+  <data name="DocumentEditorContainer_Left" xml:space="preserve">
+    <value>Venstre</value>
+  </data>
+  <data name="DocumentEditorContainer_Right" xml:space="preserve">
+    <value>Ret</value>
+  </data>
+  <data name="DocumentEditorContainer_AlignText" xml:space="preserve">
+    <value>Juster tekst</value>
+  </data>
+  <data name="DocumentEditorContainer_Aligntop" xml:space="preserve">
+    <value>Juster toppen</value>
+  </data>
+  <data name="DocumentEditorContainer_AlignBottom" xml:space="preserve">
+    <value>Juster bunden</value>
+  </data>
+  <data name="DocumentEditorContainer_AlignCenter" xml:space="preserve">
+    <value>Juster centrum</value>
+  </data>
+  <data name="DocumentEditorContainer_NumberOfHeadingOrOutlineLevelsToBeShownInTableOfContents" xml:space="preserve">
+    <value>Antal overskrift- eller konturniveauer, der skal vises i indholdsfortegnelsen.</value>
+  </data>
+  <data name="DocumentEditorContainer_ShowPageNumbers" xml:space="preserve">
+    <value>Vis sidenumre</value>
+  </data>
+  <data name="DocumentEditorContainer_ShowPageNumbersInTableOfContents" xml:space="preserve">
+    <value>Vis sidetal i indholdsfortegnelsen.</value>
+  </data>
+  <data name="DocumentEditorContainer_RightAlignPageNumbers" xml:space="preserve">
+    <value>Juster sidetal.</value>
+  </data>
+  <data name="DocumentEditorContainer_RightAlignPageNumbersInTableOfContents" xml:space="preserve">
+    <value>Højre juster sidetal i indholdsfortegnelsen.</value>
+  </data>
+  <data name="DocumentEditorContainer_UseHyperlinks" xml:space="preserve">
+    <value>Brug hyperlinks</value>
+  </data>
+  <data name="DocumentEditorContainer_UseHyperlinksInsteadOfPageNumbers" xml:space="preserve">
+    <value>Brug hyperlinks i stedet for sidetal.</value>
+  </data>
+  <data name="DocumentEditorContainer_Font" xml:space="preserve">
+    <value>Skrifttype</value>
+  </data>
+  <data name="DocumentEditorContainer_FontSize" xml:space="preserve">
+    <value>Skriftstørrelse</value>
+  </data>
+  <data name="DocumentEditorContainer_FontColor" xml:space="preserve">
+    <value>Skrift farve</value>
+  </data>
+  <data name="DocumentEditorContainer_TextHighlightColor" xml:space="preserve">
+    <value>Tekst fremhæv farve</value>
+  </data>
+  <data name="DocumentEditorContainer_ClearAllFormatting" xml:space="preserve">
+    <value>Ryd al formatering</value>
+  </data>
+  <data name="DocumentEditorContainer_BoldTooltip" xml:space="preserve">
+    <value>Fed (Ctrl + B)</value>
+  </data>
+  <data name="DocumentEditorContainer_ItalicTooltip" xml:space="preserve">
+    <value>Kursiv (Ctrl + I)</value>
+  </data>
+  <data name="DocumentEditorContainer_UnderlineTooltip" xml:space="preserve">
+    <value>Understreg (Ctrl + U)</value>
+  </data>
+  <data name="DocumentEditorContainer_Strikethrough" xml:space="preserve">
+    <value>Gennemstreget</value>
+  </data>
+  <data name="DocumentEditorContainer_SuperscriptTooltip" xml:space="preserve">
+    <value>Superscript (Ctrl + Shift ++)</value>
+  </data>
+  <data name="DocumentEditorContainer_SubscriptTooltip" xml:space="preserve">
+    <value>Abonnement (Ctrl + =)</value>
+  </data>
+  <data name="DocumentEditorContainer_AlignLeftTooltip" xml:space="preserve">
+    <value>Juster til venstre (Ctrl + L)</value>
+  </data>
+  <data name="DocumentEditorContainer_CenterTooltip" xml:space="preserve">
+    <value>Center (Ctrl + E)</value>
+  </data>
+  <data name="DocumentEditorContainer_AlignRightTooltip" xml:space="preserve">
+    <value>Juster højre (Ctrl + R)</value>
+  </data>
+  <data name="DocumentEditorContainer_JustifyTooltip" xml:space="preserve">
+    <value>Begrund (Ctrl + J)</value>
+  </data>
+  <data name="DocumentEditorContainer_DecreaseIndent" xml:space="preserve">
+    <value>Reducer indrykket</value>
+  </data>
+  <data name="DocumentEditorContainer_IncreaseIndent" xml:space="preserve">
+    <value>Forøg indrykket</value>
+  </data>
+  <data name="DocumentEditorContainer_LineSpacing" xml:space="preserve">
+    <value>Linjeafstand</value>
+  </data>
+  <data name="DocumentEditorContainer_Bullets" xml:space="preserve">
+    <value>Kugler</value>
+  </data>
+  <data name="DocumentEditorContainer_Numbering" xml:space="preserve">
+    <value>Nummerering</value>
+  </data>
+  <data name="DocumentEditorContainer_Styles" xml:space="preserve">
+    <value>styles</value>
+  </data>
+  <data name="DocumentEditorContainer_ManageStyles" xml:space="preserve">
+    <value>Administrer stilarter</value>
+  </data>
+  <data name="DocumentEditorContainer_Page" xml:space="preserve">
+    <value>Side</value>
+  </data>
+  <data name="DocumentEditorContainer_Of" xml:space="preserve">
+    <value>af</value>
+  </data>
+  <data name="DocumentEditorContainer_FitOnePage" xml:space="preserve">
+    <value>Monter en side</value>
+  </data>
+  <data name="DocumentEditorContainer_SpellCheck" xml:space="preserve">
+    <value>Stavekontrol</value>
+  </data>
+  <data name="DocumentEditorContainer_UnderlineErrors" xml:space="preserve">
+    <value>Understreg fejl</value>
+  </data>
+  <data name="DocumentEditorContainer_FitPageWidth" xml:space="preserve">
+    <value>Tilpas sidebredde</value>
+  </data>
+  <data name="DocumentEditorContainer_Update" xml:space="preserve">
+    <value>Opdatering</value>
+  </data>
+  <data name="DocumentEditorContainer_Cancel" xml:space="preserve">
+    <value>Afbestille</value>
+  </data>
+  <data name="DocumentEditorContainer_Insert" xml:space="preserve">
+    <value>Indsæt</value>
+  </data>
+  <data name="DocumentEditorContainer_NoBorder" xml:space="preserve">
+    <value>Ingen grænse</value>
+  </data>
+  <data name="DocumentEditorContainer_CreateANewDocument" xml:space="preserve">
+    <value>Opret et nyt dokument.</value>
+  </data>
+  <data name="DocumentEditorContainer_OpenADocument" xml:space="preserve">
+    <value>Åbn et dokument.</value>
+  </data>
+  <data name="DocumentEditorContainer_UndoTooltip" xml:space="preserve">
+    <value>Fortryd den sidste handling (Ctrl + Z).</value>
+  </data>
+  <data name="DocumentEditorContainer_RedoTooltip" xml:space="preserve">
+    <value>Gentag den sidste handling (Ctrl + Y).</value>
+  </data>
+  <data name="DocumentEditorContainer_InsertInlinePictureFromAFile" xml:space="preserve">
+    <value>Indsæt et inline billede fra en fil.</value>
+  </data>
+  <data name="DocumentEditorContainer_InsertATableIntoTheDocument" xml:space="preserve">
+    <value>Indsæt en tabel i dokumentet.</value>
+  </data>
+  <data name="DocumentEditorContainer_CreateHyperlink" xml:space="preserve">
+    <value>Opret et link i dit dokument for hurtig adgang til websider og filer (Ctrl + K).</value>
+  </data>
+  <data name="DocumentEditorContainer_InsertABookmarkInASpecificPlaceInThisDocument" xml:space="preserve">
+    <value>Indsæt et bogmærke på et bestemt sted i dette dokument.</value>
+  </data>
+  <data name="DocumentEditorContainer_ProvideAnOverviewOfYourDocumentByAddingATableOfContents" xml:space="preserve">
+    <value>Giv et overblik over dit dokument ved at tilføje en indholdsfortegnelse.</value>
+  </data>
+  <data name="DocumentEditorContainer_AddOrEditTheHeader" xml:space="preserve">
+    <value>Tilføj eller rediger overskriften.</value>
+  </data>
+  <data name="DocumentEditorContainer_AddOrEditTheFooter" xml:space="preserve">
+    <value>Tilføj eller rediger sidefoden.</value>
+  </data>
+  <data name="DocumentEditorContainer_OpenThePageSetupDialog" xml:space="preserve">
+    <value>Åbn sideopsætningsdialogen.</value>
+  </data>
+  <data name="DocumentEditorContainer_AddPageNumbers" xml:space="preserve">
+    <value>Tilføj sidetal.</value>
+  </data>
+  <data name="DocumentEditorContainer_FindText" xml:space="preserve">
+    <value>Find tekst i dokumentet (Ctrl + F).</value>
+  </data>
+  <data name="DocumentEditorContainer_CurrentPageNumber" xml:space="preserve">
+    <value>Det aktuelle sidetal i dokumentet. Klik eller tryk for at navigere på en bestemt side.</value>
+  </data>
+  <data name="DocumentEditorContainer_ReadOnly" xml:space="preserve">
+    <value>Læs kun</value>
+  </data>
+  <data name="DocumentEditorContainer_Protections" xml:space="preserve">
+    <value>beskyttelse</value>
+  </data>
+  <data name="DocumentEditorContainer_ErrorInEstablishingConnectionWithWebServer" xml:space="preserve">
+    <value>Fejl ved etablering af forbindelse til webserver</value>
+  </data>
+  <data name="DocumentEditorContainer_Single" xml:space="preserve">
+    <value>Enkelt</value>
+  </data>
+  <data name="DocumentEditorContainer_Double" xml:space="preserve">
+    <value>Dobbelt</value>
+  </data>
+  <data name="DocumentEditorContainer_NewComment" xml:space="preserve">
+    <value>Ny kommentar</value>
+  </data>
+  <data name="DocumentEditorContainer_Comments" xml:space="preserve">
+    <value>Kommentarer</value>
+  </data>
+  <data name="DocumentEditorContainer_PrintLayout" xml:space="preserve">
+    <value>Print layout</value>
+  </data>
+  <data name="DocumentEditorContainer_WebLayout" xml:space="preserve">
+    <value>Weblayout</value>
+  </data>
+  <data name="DocumentEditorContainer_ToggleBetweenTheInternalClipboardAndSystemClipboard" xml:space="preserve">
+    <value>Skift mellem det interne udklipsholder og systemklippebord. 
+ Adgang til systemklippebord via script nægtes på grund af browsers sikkerhedspolitik. I stedet 
+ 1. Du kan aktivere internt klippebord til at klippe, kopiere og indsætte inden i komponenten. 
+ 2. Du kan bruge tastaturgenveje (Ctrl + X, Ctrl + C og Ctrl + V) til at klippe , kopier og indsæt med systemklippebord.</value>
+  </data>
+  <data name="DocumentEditorContainer_TextForm" xml:space="preserve">
+    <value>Tekstform</value>
+  </data>
+  <data name="DocumentEditorContainer_CheckBox" xml:space="preserve">
+    <value>Afkrydsningsfelt</value>
+  </data>
+  <data name="DocumentEditorContainer_DropDown" xml:space="preserve">
+    <value>Drop-Down</value>
+  </data>
+  <data name="DocumentEditorContainer_UpdateFields" xml:space="preserve">
+    <value>Opdater felter</value>
+  </data>
+  <data name="DocumentEditorContainer_UpdateCrossReferenceFields" xml:space="preserve">
+    <value>Opdater krydsreferencefelter.</value>
+  </data>
+  <data name="DocumentEditorContainer_Track_changes" xml:space="preserve">
+    <value>Hold styr på de ændringer, der er foretaget i dokumentet.</value>
+  </data>
+  <data name="DocumentEditorContainer_TrackChanges" xml:space="preserve">
+    <value>Spor ændringer</value>
+  </data>
+  <data name="DocumentEditorContainer_ZoomLevel" xml:space="preserve">
+    <value>Zoom niveau</value>
+  </data>
+  <data name="DocumentEditorContainer_Footnote_Tooltip" xml:space="preserve">
+    <value>Indsæt fodnote (Alt + Ctrl + F).</value>
+  </data>
+  <data name="DocumentEditorContainer_Endnote_Tooltip" xml:space="preserve">
+    <value>Indsæt slutnote (Alt + Ctrl + D).</value>
+  </data>
+  <data name="DocumentEditorContainer_ShowComments" xml:space="preserve">
+    <value>indsætte kommentarer</value>
+  </data>
+  <data name="DocumentEditorContainer_FormFields" xml:space="preserve">
+    <value>Formularfelter</value>
+  </data>
+  <data name="DocumentEditorContainer_Information" xml:space="preserve">
+    <value>Information</value>
+  </data>
+  <data name="DocumentEditorContainer_AllCaps" xml:space="preserve">
+    <value>Alle kasketter</value>
+  </data>
+  <data name="DocumentEditorContainer_Insert_Footnote" xml:space="preserve">
+    <value>Indsæt</value>
+  </data>
+  <data name="DocumentEditorContainer_Insert_Endnote" xml:space="preserve">
+    <value>Indsæt</value>
+  </data>
+  <data name="DocumentEditorContainer_FillingInForms" xml:space="preserve">
+   <value>Udfyldelse af formularer</value>
+  </data>
+  <data name="DocumentEditorContainer_Trackedchanges" xml:space="preserve">
+    <value>Sporede ændringer</value>
+  </data>
+  <data name="DocumentEditorContainer_RemovedIgnoreExceptions" xml:space="preserve">
+    <value>Hvis du foretager denne ændring i dokumentbeskyttelsen, ignorerer Word alle undtagelserne i dette dokument.</value>
+  </data>
+  <data name="DocumentEditor_RevisionsOnly" xml:space="preserve">
+    <value>Du kan redigere i dette område, men alle ændringer vil blive sporet</value>
+  </data>
+  <data name="DocumentEditorContainer_RemovedIgnore" xml:space="preserve">
+    <value>Vil du fjerne de ignorerede undtagelser?</value>
+  </data>
+  <data name="DocumentEditorContainer_Yes" xml:space="preserve">
+    <value>Ja</value>
+  </data>
+  <data name="DocumentEditorContainer_No" xml:space="preserve">
+    <value>Ingen</value>
+  </data>
+  <data name="Gantt_Touch_DialogTextOnClickingConnectorPoint" xml:space="preserve">
+    <value>Vælg en anden opgave</value>
+  </data>
+  <data name="Gantt_Touch_DialogTextOnSelectingTaskbar" xml:space="preserve">
+    <value>Vyberte polohu konektoru</value>
+  </data>
+  <data name="Gantt_Touch_LeftButton" xml:space="preserve">
+    <value>Venstre</value>
+  </data>
+  <data name="Gantt_Touch_RightButton" xml:space="preserve">
+    <value>Ret</value>
+  </data>
+  <data name="PdfViewer_ExportXFDF" xml:space="preserve">
+    <value>Eksporter anmærkning til XFDF-fil</value>
+  </data>
+  <data name="PdfViewer_ImportXFDF" xml:space="preserve">
+    <value>Importer anmærkninger fra XFDF-fil</value>
+  </data>
+</root>

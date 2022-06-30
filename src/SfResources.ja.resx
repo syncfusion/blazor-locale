@@ -1,0 +1,5274 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AutoComplete_ActionFailureTemplate" xml:space="preserve">
+    <value>リクエストに失敗しました</value>
+  </data>
+  <data name="AutoComplete_NoRecordsTemplate" xml:space="preserve">
+    <value>レコードが見つかりません</value>
+  </data>
+  <data name="Calendar_Today" xml:space="preserve">
+    <value>今日</value>
+  </data>
+  <data name="ComboBox_ActionFailureTemplate" xml:space="preserve">
+    <value>リクエストに失敗しました</value>
+  </data>
+  <data name="ComboBox_NoRecordsTemplate" xml:space="preserve">
+    <value>レコードが見つかりません</value>
+  </data>
+  <data name="DatePicker_Placeholder" xml:space="preserve">
+    <value>日付を選択してください</value>
+  </data>
+  <data name="DatePicker_Today" xml:space="preserve">
+    <value>今日</value>
+  </data>
+  <data name="DateRangePicker_ApplyText" xml:space="preserve">
+    <value>適用する</value>
+  </data>
+  <data name="DateRangePicker_CancelText" xml:space="preserve">
+    <value>キャンセル</value>
+  </data>
+  <data name="DateRangePicker_CustomRange" xml:space="preserve">
+    <value>カスタム範囲</value>
+  </data>
+  <data name="DateRangePicker_Days" xml:space="preserve">
+    <value>日々</value>
+  </data>
+  <data name="DateRangePicker_EndLabel" xml:space="preserve">
+    <value>終了日</value>
+  </data>
+  <data name="DateRangePicker_Placeholder" xml:space="preserve">
+    <value>期間を選択してください</value>
+  </data>
+  <data name="DateRangePicker_SelectedDays" xml:space="preserve">
+    <value>選択された日</value>
+  </data>
+  <data name="DateRangePicker_StartLabel" xml:space="preserve">
+    <value>開始日</value>
+  </data>
+  <data name="DateTimePicker_Placeholder" xml:space="preserve">
+    <value>日付と時刻を選択してください</value>
+  </data>
+  <data name="DateTimePicker_Today" xml:space="preserve">
+    <value>今日</value>
+  </data>
+  <data name="DropDownList_ActionFailureTemplate" xml:space="preserve">
+    <value>リクエストに失敗しました</value>
+  </data>
+  <data name="DropDownList_NoRecordsTemplate" xml:space="preserve">
+    <value>レコードが見つかりません</value>
+  </data>
+  <data name="MultiSelect_ActionFailureTemplate" xml:space="preserve">
+    <value>リクエストに失敗しました</value>
+  </data>
+  <data name="MultiSelect_NoRecordsTemplate" xml:space="preserve">
+    <value>レコードが見つかりません</value>
+  </data>
+  <data name="MultiSelect_OverflowCountTemplate" xml:space="preserve">
+    <value>+${count}以上..</value>
+  </data>
+  <data name="MultiSelect_SelectAllText" xml:space="preserve">
+    <value>すべて選択</value>
+  </data>
+  <data name="MultiSelect_TotalCountTemplate" xml:space="preserve">
+    <value>${count}を選択しました</value>
+  </data>
+  <data name="MultiSelect_UnSelectAllText" xml:space="preserve">
+    <value>すべて選択解除</value>
+  </data>
+  <data name="NumericTextBox_DecrementTitle" xml:space="preserve">
+    <value>デクリメント値</value>
+  </data>
+  <data name="NumericTextBox_IncrementTitle" xml:space="preserve">
+    <value>増分値</value>
+  </data>
+  <data name="TimePicker_Placeholder" xml:space="preserve">
+    <value>時間を選んでください</value>
+  </data>
+  <data name="Uploader_Abort" xml:space="preserve">
+    <value>アボート</value>
+  </data>
+  <data name="Uploader_Browse" xml:space="preserve">
+    <value>ブラウズ...</value>
+  </data>
+  <data name="Uploader_Cancel" xml:space="preserve">
+    <value>キャンセル</value>
+  </data>
+  <data name="Uploader_Clear" xml:space="preserve">
+    <value>晴れ</value>
+  </data>
+  <data name="Uploader_Delete" xml:space="preserve">
+    <value>ファイルを削除する</value>
+  </data>
+  <data name="Uploader_DropFilesHint" xml:space="preserve">
+    <value>またはここにファイルをドロップします</value>
+  </data>
+  <data name="Uploader_FileUploadCancel" xml:space="preserve">
+    <value>ファイルのアップロードがキャンセルされました</value>
+  </data>
+  <data name="Uploader_InProgress" xml:space="preserve">
+    <value>アップロード中</value>
+  </data>
+  <data name="Uploader_InvalidFileType" xml:space="preserve">
+    <value>ファイルタイプは許可されていません</value>
+  </data>
+  <data name="Uploader_InvalidMaxFileSize" xml:space="preserve">
+    <value>ファイルサイズが大きすぎます</value>
+  </data>
+  <data name="Uploader_invalidMinFileSize" xml:space="preserve">
+    <value>ファイルサイズが小さすぎます</value>
+  </data>
+  <data name="Uploader_Pause" xml:space="preserve">
+    <value>一時停止</value>
+  </data>
+  <data name="Uploader_PauseUpload" xml:space="preserve">
+    <value>ファイルのアップロードが一時停止しました</value>
+  </data>
+  <data name="Uploader_ReadyToUploadMessage" xml:space="preserve">
+    <value>アップロードする準備ができました</value>
+  </data>
+  <data name="Uploader_Remove" xml:space="preserve">
+    <value>削除する</value>
+  </data>
+  <data name="Uploader_RemovedFailedMessage" xml:space="preserve">
+    <value>ファイルを削除できません</value>
+  </data>
+  <data name="Uploader_RemovedSuccessMessage" xml:space="preserve">
+    <value>ファイルは正常に削除されました</value>
+  </data>
+  <data name="Uploader_Resume" xml:space="preserve">
+    <value>履歴書</value>
+  </data>
+  <data name="Uploader_Retry" xml:space="preserve">
+    <value>リトライ</value>
+  </data>
+  <data name="Uploader_Upload" xml:space="preserve">
+    <value>アップロードする</value>
+  </data>
+  <data name="Uploader_UploadFailedMessage" xml:space="preserve">
+    <value>ファイルをアップロードできませんでした</value>
+  </data>
+  <data name="Uploader_UploadSuccessMessage" xml:space="preserve">
+    <value>ファイルが正常にアップロードされました</value>
+  </data>
+  <data name="FileManager_NewFolder" xml:space="preserve">
+    <value>新しいフォルダー</value>
+  </data>
+  <data name="FileManager_Upload" xml:space="preserve">
+    <value>アップロードする</value>
+  </data>
+  <data name="FileManager_Delete" xml:space="preserve">
+    <value>削除</value>
+  </data>
+  <data name="FileManager_Rename" xml:space="preserve">
+    <value>リネーム</value>
+  </data>
+  <data name="FileManager_Download" xml:space="preserve">
+    <value>ダウンロード</value>
+  </data>
+  <data name="FileManager_Cut" xml:space="preserve">
+    <value>切る</value>
+  </data>
+  <data name="FileManager_Copy" xml:space="preserve">
+    <value>コピー</value>
+  </data>
+  <data name="FileManager_Paste" xml:space="preserve">
+    <value>ペースト</value>
+  </data>
+  <data name="FileManager_SortBy" xml:space="preserve">
+    <value>並び替え</value>
+  </data>
+  <data name="FileManager_Refresh" xml:space="preserve">
+    <value>リフレッシュ</value>
+  </data>
+  <data name="FileManager_ItemSelection" xml:space="preserve">
+    <value>選択されたアイテム</value>
+  </data>
+  <data name="FileManager_ItemsSelection" xml:space="preserve">
+    <value>選択されたアイテム</value>
+  </data>
+  <data name="FileManager_View" xml:space="preserve">
+    <value>見る</value>
+  </data>
+  <data name="FileManager_Details" xml:space="preserve">
+    <value>詳細</value>
+  </data>
+  <data name="FileManager_SelectAll" xml:space="preserve">
+    <value>すべて選択</value>
+  </data>
+  <data name="FileManager_Open" xml:space="preserve">
+    <value>開いた</value>
+  </data>
+  <data name="FileManager_TooltipNewFolder" xml:space="preserve">
+    <value>新しいフォルダー</value>
+  </data>
+  <data name="FileManager_TooltipUpload" xml:space="preserve">
+    <value>アップロードする</value>
+  </data>
+  <data name="FileManager_TooltipDelete" xml:space="preserve">
+    <value>削除</value>
+  </data>
+  <data name="FileManager_TooltipRename" xml:space="preserve">
+    <value>リネーム</value>
+  </data>
+  <data name="FileManager_TooltipDownload" xml:space="preserve">
+    <value>ダウンロード</value>
+  </data>
+  <data name="FileManager_TooltipCut" xml:space="preserve">
+    <value>切る</value>
+  </data>
+  <data name="FileManager_TooltipCopy" xml:space="preserve">
+    <value>コピー</value>
+  </data>
+  <data name="FileManager_TooltipPaste" xml:space="preserve">
+    <value>ペースト</value>
+  </data>
+  <data name="FileManager_TooltipSortBy" xml:space="preserve">
+    <value>並び替え</value>
+  </data>
+  <data name="FileManager_TooltipRefresh" xml:space="preserve">
+    <value>リフレッシュ</value>
+  </data>
+  <data name="FileManager_TooltipSelection" xml:space="preserve">
+    <value>明確な選択</value>
+  </data>
+  <data name="FileManager_TooltipView" xml:space="preserve">
+    <value>見る</value>
+  </data>
+  <data name="FileManager_TooltipDetails" xml:space="preserve">
+    <value>詳細</value>
+  </data>
+  <data name="FileManager_TooltipSelectAll" xml:space="preserve">
+    <value>すべて選択</value>
+  </data>
+  <data name="FileManager_Name" xml:space="preserve">
+    <value>名前</value>
+  </data>
+  <data name="FileManager_Size" xml:space="preserve">
+    <value>サイズ</value>
+  </data>
+  <data name="FileManager_DateModified" xml:space="preserve">
+    <value>修正済み</value>
+  </data>
+  <data name="FileManager_DateCreated" xml:space="preserve">
+    <value>作成日</value>
+  </data>
+  <data name="FileManager_Path" xml:space="preserve">
+    <value>道</value>
+  </data>
+  <data name="FileManager_Modified" xml:space="preserve">
+    <value>修正済み</value>
+  </data>
+  <data name="FileManager_Created" xml:space="preserve">
+    <value>作成した</value>
+  </data>
+  <data name="FileManager_Location" xml:space="preserve">
+    <value>ロケーション</value>
+  </data>
+  <data name="FileManager_Type" xml:space="preserve">
+    <value>タイプ</value>
+  </data>
+  <data name="FileManager_Permission" xml:space="preserve">
+    <value>許可</value>
+  </data>
+  <data name="FileManager_Ascending" xml:space="preserve">
+    <value>上昇</value>
+  </data>
+  <data name="FileManager_Descending" xml:space="preserve">
+    <value>降順</value>
+  </data>
+  <data name="FileManager_None" xml:space="preserve">
+    <value>なし</value>
+  </data>
+  <data name="FileManager_ViewLargeIcons" xml:space="preserve">
+    <value>大きなアイコン</value>
+  </data>
+  <data name="FileManager_ViewDetails" xml:space="preserve">
+    <value>詳細</value>
+  </data>
+  <data name="FileManager_Search" xml:space="preserve">
+    <value>探す</value>
+  </data>
+  <data name="FileManager_ButtonOk" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="FileManager_ButtonCancel" xml:space="preserve">
+    <value>キャンセル</value>
+  </data>
+  <data name="FileManager_ButtonYes" xml:space="preserve">
+    <value>はい</value>
+  </data>
+  <data name="FileManager_ButtonNo" xml:space="preserve">
+    <value>番号</value>
+  </data>
+  <data name="FileManager_ButtonCreate" xml:space="preserve">
+    <value>作成する</value>
+  </data>
+  <data name="FileManager_ButtonSave" xml:space="preserve">
+    <value>セーブ</value>
+  </data>
+  <data name="FileManager_HeaderNewFolder" xml:space="preserve">
+    <value>フォルダ</value>
+  </data>
+  <data name="FileManager_ContentNewFolder" xml:space="preserve">
+    <value>フォルダー名を入力してください</value>
+  </data>
+  <data name="FileManager_HeaderRename" xml:space="preserve">
+    <value>リネーム</value>
+  </data>
+  <data name="FileManager_ContentRename" xml:space="preserve">
+    <value>新しい名前を入力してください</value>
+  </data>
+  <data name="FileManager_HeaderRenameConfirmation" xml:space="preserve">
+    <value>確認の名前を変更</value>
+  </data>
+  <data name="FileManager_ContentRenameConfirmation" xml:space="preserve">
+    <value>ファイル名拡張子を変更すると、ファイルが不安定になる可能性があります。変更してもよろしいですか？</value>
+  </data>
+  <data name="FileManager_HeaderDelete" xml:space="preserve">
+    <value>ファイルを削除する</value>
+  </data>
+  <data name="FileManager_ContentDelete" xml:space="preserve">
+    <value>このファイルを削除してもよろしいですか？</value>
+  </data>
+  <data name="FileManager_HeaderFolderDelete" xml:space="preserve">
+    <value>フォルダを削除</value>
+  </data>
+  <data name="FileManager_ContentFolderDelete" xml:space="preserve">
+    <value>このフォルダを削除してもよろしいですか？</value>
+  </data>
+  <data name="FileManager_HeaderMultipleDelete" xml:space="preserve">
+    <value>複数のアイテムを削除する</value>
+  </data>
+  <data name="FileManager_ContentMultipleDelete" xml:space="preserve">
+    <value>これらの{0}アイテムを削除してもよろしいですか？</value>
+  </data>
+  <data name="FileManager_HeaderDuplicate" xml:space="preserve">
+    <value>ファイル/フォルダーが存在します</value>
+  </data>
+  <data name="FileManager_ContentDuplicate" xml:space="preserve">
+    <value>{0}はすでに存在します。名前を変更して貼り付けますか？</value>
+  </data>
+  <data name="FileManager_HeaderUpload" xml:space="preserve">
+    <value>ファイルをアップロードする</value>
+  </data>
+  <data name="FileManager_Error" xml:space="preserve">
+    <value>エラー</value>
+  </data>
+  <data name="FileManager_ValidationEmpty" xml:space="preserve">
+    <value>ファイルまたはフォルダー名を空にすることはできません。</value>
+  </data>
+  <data name="FileManager_ValidationInvalid" xml:space="preserve">
+    <value>ファイルまたはフォルダー名{0}に無効な文字が含まれています。別の名前を使用してください。有効なファイル名またはフォルダ名はドットまたはスペースで終了できません.</value>
+  </data>
+  <data name="FileManager_ValidationNewFolderExists" xml:space="preserve">
+    <value>{0}という名前のファイルまたはフォルダーは既に存在します。</value>
+  </data>
+  <data name="FileManager_ValidationRenameExists" xml:space="preserve">
+    <value>{0}を{1}に名前変更できません：宛先は既に存在します。</value>
+  </data>
+  <data name="FileManager_FolderEmpty" xml:space="preserve">
+    <value>このフォルダーは空です</value>
+  </data>
+  <data name="FileManager_FileUpload" xml:space="preserve">
+    <value>ここにファイルをドラッグしてアップロードします</value>
+  </data>
+  <data name="FileManager_SearchEmpty" xml:space="preserve">
+    <value>結果が見つかりません</value>
+  </data>
+  <data name="FileManager_SearchKey" xml:space="preserve">
+    <value>別のキーワードで試してください</value>
+  </data>
+  <data name="FileManager_FilterEmpty" xml:space="preserve">
+    <value>結果が見つかりません</value>
+  </data>
+  <data name="FileManager_FilterKey" xml:space="preserve">
+    <value>別のフィルターで試してください</value>
+  </data>
+  <data name="FileManager_SubFolderError" xml:space="preserve">
+    <value>宛先フォルダーは、ソースフォルダーのサブフォルダーです。</value>
+  </data>
+  <data name="FileManager_AccessDenied" xml:space="preserve">
+    <value>アクセスが拒否されました</value>
+  </data>
+  <data name="FileManager_AccessDetails" xml:space="preserve">
+    <value>このフォルダにアクセスする権限がありません。</value>
+  </data>
+  <data name="FileManager_HeaderRetry" xml:space="preserve">
+    <value>ファイルが既に存在します</value>
+  </data>
+  <data name="FileManager_ContentRetry" xml:space="preserve">
+    <value>この名前のファイルはこのフォルダーに既に存在します。何をしたいですか？</value>
+  </data>
+  <data name="FileManager_ButtonKeepBoth" xml:space="preserve">
+    <value>両方とも</value>
+  </data>
+  <data name="FileManager_ButtonReplace" xml:space="preserve">
+    <value>交換</value>
+  </data>
+  <data name="FileManager_ButtonSkip" xml:space="preserve">
+    <value>スキップ</value>
+  </data>
+  <data name="FileManager_ApplyAllLabel" xml:space="preserve">
+    <value>現在のすべてのアイテムのためにこれを行います</value>
+  </data>
+  <data name="FileManager_KB" xml:space="preserve">
+    <value>KB</value>
+  </data>
+  <data name="FileManager_AccessMessage" xml:space="preserve">
+    <value>{0}にはアクセスできません。 {1}アクションを実行するには権限が必要です。</value>
+  </data>
+  <data name="FileManager_NetworkError" xml:space="preserve">
+    <value>NetworkError：XMLHTTPRequestでの送信に失敗しました：ロードに失敗しました</value>
+  </data>
+  <data name="FileManager_ServerError" xml:space="preserve">
+    <value>ServerError：からの無効な応答</value>
+  </data>
+  <data name="Chart_Zoom" xml:space="preserve">
+    <value>ズーム</value>
+  </data>
+  <data name="Chart_ZoomIn" xml:space="preserve">
+    <value>ズームイン</value>
+  </data>
+  <data name="Chart_ZoomOut" xml:space="preserve">
+    <value>ズームアウトする</value>
+  </data>
+  <data name="Chart_Reset" xml:space="preserve">
+    <value>リセットする</value>
+  </data>
+  <data name="Chart_Pan" xml:space="preserve">
+    <value>パン</value>
+  </data>
+  <data name="Chart_ResetZoom" xml:space="preserve">
+    <value>ズームをリセット</value>
+  </data>
+  <data name="Slider_DecrementTitle" xml:space="preserve">
+    <value>減少</value>
+  </data>
+  <data name="Slider_IncrementTitle" xml:space="preserve">
+    <value>増加する</value>
+  </data>
+  <data name="Maps_Zoom" xml:space="preserve">
+    <value>ズーム</value>
+  </data>
+  <data name="Maps_ZoomIn" xml:space="preserve">
+    <value>ズームイン</value>
+  </data>
+  <data name="Maps_ZoomOut" xml:space="preserve">
+    <value>ズームアウトする</value>
+  </data>
+  <data name="Maps_Reset" xml:space="preserve">
+    <value>リセットする</value>
+  </data>
+  <data name="Maps_Pan" xml:space="preserve">
+    <value>パン</value>
+  </data>
+  <data name="Gantt_Above" xml:space="preserve">
+    <value>上</value>
+  </data>
+  <data name="Gantt_Add" xml:space="preserve">
+    <value>追加</value>
+  </data>
+  <data name="Gantt_AddDialogTitle" xml:space="preserve">
+    <value>新しい仕事</value>
+  </data>
+  <data name="Gantt_BaselineEndDate" xml:space="preserve">
+    <value>ベースライン終了日</value>
+  </data>
+  <data name="Gantt_BaselineStartDate" xml:space="preserve">
+    <value>ベースライン開始日</value>
+  </data>
+  <data name="Gantt_Below" xml:space="preserve">
+    <value>未満</value>
+  </data>
+  <data name="Gantt_Cancel" xml:space="preserve">
+    <value>キャンセル</value>
+  </data>
+  <data name="Gantt_Child" xml:space="preserve">
+    <value>子</value>
+  </data>
+  <data name="Gantt_CollapseAll" xml:space="preserve">
+    <value>すべて折りたたむ</value>
+  </data>
+  <data name="Gantt_ConfirmDelete" xml:space="preserve">
+    <value>レコードを削除してもよろしいですか？</value>
+  </data>
+  <data name="Gantt_ConfirmPredecessorDelete" xml:space="preserve">
+    <value>依存関係リンクを削除してもよろしいですか？</value>
+  </data>
+  <data name="Gantt_Indent" xml:space="preserve">
+    <value>インデント</value>
+  </data>
+  <data name="Gantt_Outdent" xml:space="preserve">
+    <value>アウトデント</value>
+  </data>
+  <data name="Gantt_Convert" xml:space="preserve">
+    <value>変換する</value>
+  </data>
+  <data name="Gantt_CsvExport" xml:space="preserve">
+    <value>CSVエクスポート</value>
+  </data>
+  <data name="Gantt_CustomTab" xml:space="preserve">
+    <value>カスタム列</value>
+  </data>
+  <data name="Gantt_Day" xml:space="preserve">
+    <value>日</value>
+  </data>
+  <data name="Gantt_Days" xml:space="preserve">
+    <value>日々</value>
+  </data>
+  <data name="Gantt_Delete" xml:space="preserve">
+    <value>削除</value>
+  </data>
+  <data name="Gantt_DeleteDependency" xml:space="preserve">
+    <value>依存関係を削除</value>
+  </data>
+  <data name="Gantt_DeleteTask" xml:space="preserve">
+    <value>タスクを削除</value>
+  </data>
+  <data name="Gantt_Dependency" xml:space="preserve">
+    <value>依存</value>
+  </data>
+  <data name="Gantt_Duration" xml:space="preserve">
+    <value>期間</value>
+  </data>
+  <data name="Gantt_Edit" xml:space="preserve">
+    <value>編集</value>
+  </data>
+  <data name="Gantt_EditDialogTitle" xml:space="preserve">
+    <value>タスク情報</value>
+  </data>
+  <data name="Gantt_EmptyRecord" xml:space="preserve">
+    <value>表示するレコードはありません</value>
+  </data>
+  <data name="Gantt_EndDate" xml:space="preserve">
+    <value>終了日</value>
+  </data>
+  <data name="Gantt_EnterValue" xml:space="preserve">
+    <value>値を入力してください</value>
+  </data>
+  <data name="Gantt_EventMarkers" xml:space="preserve">
+    <value>イベントマーカー</value>
+  </data>
+  <data name="Gantt_ExcelExport" xml:space="preserve">
+    <value>Excelエクスポート</value>
+  </data>
+  <data name="Gantt_ExpandAll" xml:space="preserve">
+    <value>すべて展開</value>
+  </data>
+  <data name="Gantt_Finish" xml:space="preserve">
+    <value>終わり</value>
+  </data>
+  <data name="Gantt_From" xml:space="preserve">
+    <value>から</value>
+  </data>
+  <data name="Gantt_GeneralTab" xml:space="preserve">
+    <value>全般</value>
+  </data>
+  <data name="Gantt_Hour" xml:space="preserve">
+    <value>時</value>
+  </data>
+  <data name="Gantt_Hours" xml:space="preserve">
+    <value>時間</value>
+  </data>
+  <data name="Gantt_Id" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="Gantt_Lag" xml:space="preserve">
+    <value>遅れ</value>
+  </data>
+  <data name="Gantt_LeftTaskLabel" xml:space="preserve">
+    <value>左タスクラベル</value>
+  </data>
+  <data name="Gantt_Milestone" xml:space="preserve">
+    <value>マイルストーン</value>
+  </data>
+  <data name="Gantt_Minute" xml:space="preserve">
+    <value>分</value>
+  </data>
+  <data name="Gantt_Minutes" xml:space="preserve">
+    <value>数分</value>
+  </data>
+  <data name="Gantt_Name" xml:space="preserve">
+    <value>名前</value>
+  </data>
+  <data name="Gantt_NextTimeSpan" xml:space="preserve">
+    <value>次のタイムスパン</value>
+  </data>
+  <data name="Gantt_Notes" xml:space="preserve">
+    <value>ノート</value>
+  </data>
+  <data name="Gantt_Offset" xml:space="preserve">
+    <value>オフセット</value>
+  </data>
+  <data name="Gantt_OkText" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="Gantt_PrevTimeSpan" xml:space="preserve">
+    <value>前のタイムスパン</value>
+  </data>
+  <data name="Gantt_Progress" xml:space="preserve">
+    <value>進捗</value>
+  </data>
+  <data name="Gantt_ResourceID" xml:space="preserve">
+    <value>リソースID</value>
+  </data>
+  <data name="Gantt_ResourceName" xml:space="preserve">
+    <value>資源</value>
+  </data>
+  <data name="Gantt_RightTaskLabel" xml:space="preserve">
+    <value>正しいタスクラベル</value>
+  </data>
+  <data name="Gantt_Save" xml:space="preserve">
+    <value>セーブ</value>
+  </data>
+  <data name="Gantt_SaveButton" xml:space="preserve">
+    <value>セーブ</value>
+  </data>
+  <data name="Gantt_Search" xml:space="preserve">
+    <value>探す</value>
+  </data>
+  <data name="Gantt_Start" xml:space="preserve">
+    <value>開始</value>
+  </data>
+  <data name="Gantt_StartDate" xml:space="preserve">
+    <value>開始日</value>
+  </data>
+  <data name="Gantt_Task" xml:space="preserve">
+    <value>仕事</value>
+  </data>
+  <data name="Gantt_TaskAfterPredecessor_FF" xml:space="preserve">
+    <value>「{1}」が終了し、2つのタスクがリンクされた後、「{0}」を移動して終了しました。その結果、リンクは尊重されません。実行するアクションを以下から1つ選択してください</value>
+  </data>
+  <data name="Gantt_TaskAfterPredecessor_FS" xml:space="preserve">
+    <value>「{0}」を「{1}」から遠ざけ、2つのタスクがリンクされました。その結果、リンクは尊重されません。実行するアクションを以下から1つ選択してください</value>
+  </data>
+  <data name="Gantt_TaskAfterPredecessor_SF" xml:space="preserve">
+    <value>「{1}」が開始し、2つのタスクがリンクされた後、「{0}」を移動して終了しました。その結果、リンクは尊重されません。実行するアクションを以下から1つ選択してください</value>
+  </data>
+  <data name="Gantt_TaskAfterPredecessor_SS" xml:space="preserve">
+    <value>'{1}'の開始後に開始するために '{0}'を移動し、2つのタスクがリンクされました。その結果、リンクは尊重されません。以下のアクションを1つ選択して実行します</value>
+  </data>
+  <data name="Gantt_TaskBeforePredecessor_FF" xml:space="preserve">
+    <value>「{1}」が完了する前に「{0}」を移動して終了し、2つのタスクがリンクされました。その結果、リンクは尊重されません。以下のアクションを1つ選択して実行します</value>
+  </data>
+  <data name="Gantt_TaskBeforePredecessor_FS" xml:space="preserve">
+    <value>「{1}」が終了し、2つのタスクがリンクされる前に「{0}」を移動して開始しました。その結果、リンクは尊重されません。実行するアクションを以下から1つ選択してください</value>
+  </data>
+  <data name="Gantt_TaskBeforePredecessor_SF" xml:space="preserve">
+    <value>「{0}」を「{1}」から離れて開始に移動し、2つのタスクがリンクされました。その結果、リンクは尊重されません。実行するアクションを以下から1つ選択してください</value>
+  </data>
+  <data name="Gantt_TaskBeforePredecessor_SS" xml:space="preserve">
+    <value>'{1}'が開始する前に開始するために '{0}'を移動し、2つのタスクがリンクされました。その結果、リンクは尊重されません。実行するアクションを以下から1つ選択してください</value>
+  </data>
+  <data name="Gantt_TaskInformation" xml:space="preserve">
+    <value>タスク情報</value>
+  </data>
+  <data name="Gantt_TaskLink" xml:space="preserve">
+    <value>タスクリンク</value>
+  </data>
+  <data name="Gantt_Tasks" xml:space="preserve">
+    <value>タスク</value>
+  </data>
+  <data name="Gantt_TimelineCell" xml:space="preserve">
+    <value>タイムラインセル</value>
+  </data>
+  <data name="Gantt_To" xml:space="preserve">
+    <value>に</value>
+  </data>
+  <data name="Gantt_ToMilestone" xml:space="preserve">
+    <value>マイルストーンへ</value>
+  </data>
+  <data name="Gantt_ToTask" xml:space="preserve">
+    <value>タスクへ</value>
+  </data>
+  <data name="Gantt_Type" xml:space="preserve">
+    <value>タイプ</value>
+  </data>
+  <data name="Gantt_Update" xml:space="preserve">
+    <value>更新</value>
+  </data>
+  <data name="Gantt_WriteNotes" xml:space="preserve">
+    <value>メモを書く</value>
+  </data>
+  <data name="Gantt_ZoomIn" xml:space="preserve">
+    <value>ズームイン</value>
+  </data>
+  <data name="Gantt_ZoomOut" xml:space="preserve">
+    <value>ズームアウトする</value>
+  </data>
+  <data name="Gantt_ZoomToFit" xml:space="preserve">
+    <value>ズームして合わせる</value>
+  </data>
+  <data name="Gantt_AutoFit" xml:space="preserve">
+    <value>AutoFit列</value>
+  </data>
+  <data name="Gantt_AutoFitAll" xml:space="preserve">
+    <value>すべての列を自動調整</value>
+  </data>
+  <data name="Gantt_SortAscending" xml:space="preserve">
+    <value>ソート昇順</value>
+  </data>
+  <data name="Gantt_SortDescending" xml:space="preserve">
+    <value>降順で並べ替え</value>
+  </data>
+  <data name="Gantt_TaskMode" xml:space="preserve">
+    <value>タスクモード</value>
+  </data>
+  <data name="Gantt_TaskMode_Auto" xml:space="preserve">
+    <value>自動</value>
+  </data>
+  <data name="Gantt_TaskMode_Manual" xml:space="preserve">
+    <value>マニュアル</value>
+  </data>
+  <data name="Gantt_SubTaskStartDate" xml:space="preserve">
+    <value>サブタスク開始日</value>
+  </data>
+  <data name="Gantt_SubTaskEndDate" xml:space="preserve">
+    <value>サブタスク終了日</value>
+  </data>
+  <data name="Gantt_AutoDuration" xml:space="preserve">
+    <value>間隔</value>
+  </data>
+  <data name="Gantt_Work" xml:space="preserve">
+    <value>仕事</value>
+  </data>
+  <data name="Gantt_H" xml:space="preserve">
+    <value>H</value>
+  </data>
+  <data name="Gantt_D" xml:space="preserve">
+    <value>D</value>
+  </data>
+  <data name="Gantt_M" xml:space="preserve">
+    <value>M</value>
+  </data>
+  <data name="Gantt_Min" xml:space="preserve">
+    <value>最小</value>
+  </data>
+  <data name="Gantt_CustomColumn" xml:space="preserve">
+    <value>カスタム列</value>
+  </data>
+  <data name="Gantt_TaskType" xml:space="preserve">
+    <value>タスクタイプ</value>
+  </data>
+  <data name="ColorPicker_Apply" xml:space="preserve">
+    <value>適用する</value>
+  </data>
+  <data name="ColorPicker_Cancel" xml:space="preserve">
+    <value>キャンセル</value>
+  </data>
+  <data name="ColorPicker_ModeSwitcher" xml:space="preserve">
+    <value>スイッチモード</value>
+  </data>
+  <data name="ListBox_ActionFailureTemplate" xml:space="preserve">
+    <value>リクエストに失敗しました</value>
+  </data>
+  <data name="ListBox_MoveAllFrom" xml:space="preserve">
+    <value>すべてから移動</value>
+  </data>
+  <data name="ListBox_MoveAllTo" xml:space="preserve">
+    <value>すべてに移動</value>
+  </data>
+  <data name="ListBox_MoveDown" xml:space="preserve">
+    <value>下に移動</value>
+  </data>
+  <data name="ListBox_MoveFrom" xml:space="preserve">
+    <value>から移動</value>
+  </data>
+  <data name="ListBox_MoveTo" xml:space="preserve">
+    <value>へ引っ越す</value>
+  </data>
+  <data name="ListBox_MoveUp" xml:space="preserve">
+    <value>上に移動</value>
+  </data>
+  <data name="ListBox_NoRecordsTemplate" xml:space="preserve">
+    <value>レコードが見つかりません</value>
+  </data>
+  <data name="ListBox_SelectAllText" xml:space="preserve">
+    <value>すべて選択</value>
+  </data>
+  <data name="ListBox_UnSelectAllText" xml:space="preserve">
+    <value>すべて選択解除</value>
+  </data>
+  <data name="PivotView_NumberFormat_ExampleWatermark" xml:space="preserve">
+    <value>例：C、P、0000％、### 0。## 0＃など。</value>
+  </data>
+  <data name="PivotView_SortNone_TooltipMessage" xml:space="preserve">
+    <value>データの順序を並べ替える</value>
+  </data>
+  <data name="PivotView_SortDescending_TooltipMessage" xml:space="preserve">
+    <value>降順で並べ替える</value>
+  </data>
+  <data name="PivotView_StaticFieldList" xml:space="preserve">
+    <value>ピボットフィールドリスト</value>
+  </data>
+  <data name="PivotView_FieldList" xml:space="preserve">
+    <value>フィールドリスト</value>
+  </data>
+  <data name="PivotView_AddFieldMessage" xml:space="preserve">
+    <value>ここにフィールドを追加</value>
+  </data>
+  <data name="PivotView_ChooseFieldMessage" xml:space="preserve">
+    <value>フィールドを選択</value>
+  </data>
+  <data name="PivotView_DragFieldsMessage" xml:space="preserve">
+    <value>下の軸間でフィールドをドラッグします:</value>
+  </data>
+  <data name="PivotView_Add" xml:space="preserve">
+    <value>追加</value>
+  </data>
+  <data name="PivotView_DeferLayoutUpdate" xml:space="preserve">
+    <value>レイアウトの更新を延期する</value>
+  </data>
+  <data name="PivotView_ShowLegend" xml:space="preserve">
+    <value>凡例を表示</value>
+  </data>
+  <data name="PivotView_FieldCaptionWatermark" xml:space="preserve">
+    <value>フィールドキャプションを入力してください</value>
+  </data>
+  <data name="PivotView_SortAscending_TooltipMessage" xml:space="preserve">
+    <value>昇順で並べ替え</value>
+  </data>
+  <data name="PivotView_ReplaceReport_BeforeMessage" xml:space="preserve">
+    <value>名前の付いたレポート</value>
+  </data>
+  <data name="PivotView_ReplaceReport_AfterMessage" xml:space="preserve">
+    <value>もう存在している。取り替えたいですか？</value>
+  </data>
+  <data name="PivotView_AddCondition" xml:space="preserve">
+    <value>条件を追加</value>
+  </data>
+  <data name="PivotView_AddToColumn" xml:space="preserve">
+    <value>列に追加</value>
+  </data>
+  <data name="PivotView_AddToFilter" xml:space="preserve">
+    <value>フィルターに追加</value>
+  </data>
+  <data name="PivotView_AddToRow" xml:space="preserve">
+    <value>行に追加</value>
+  </data>
+  <data name="PivotView_AddToValue" xml:space="preserve">
+    <value>付加価値</value>
+  </data>
+  <data name="PivotView_After" xml:space="preserve">
+    <value>後</value>
+  </data>
+  <data name="PivotView_AfterOrEqualTo" xml:space="preserve">
+    <value>後または等しい</value>
+  </data>
+  <data name="PivotView_Aggregate" xml:space="preserve">
+    <value>集計</value>
+  </data>
+  <data name="PivotView_Alert" xml:space="preserve">
+    <value>アラート</value>
+  </data>
+  <data name="PivotView_All" xml:space="preserve">
+    <value>すべて</value>
+  </data>
+  <data name="PivotView_AllFields" xml:space="preserve">
+    <value>すべてのフィールド</value>
+  </data>
+  <data name="PivotView_AllValues" xml:space="preserve">
+    <value>すべての値</value>
+  </data>
+  <data name="PivotView_And" xml:space="preserve">
+    <value>そして</value>
+  </data>
+  <data name="PivotView_Apply" xml:space="preserve">
+    <value>適用する</value>
+  </data>
+  <data name="PivotView_Area" xml:space="preserve">
+    <value>範囲</value>
+  </data>
+  <data name="PivotView_Ascending" xml:space="preserve">
+    <value>上昇</value>
+  </data>
+  <data name="PivotView_Avg" xml:space="preserve">
+    <value>平均</value>
+  </data>
+  <data name="PivotView_Bar" xml:space="preserve">
+    <value>バー</value>
+  </data>
+  <data name="PivotView_BaseField" xml:space="preserve">
+    <value>ベースフィールド</value>
+  </data>
+  <data name="PivotView_BaseItem" xml:space="preserve">
+    <value>ベースアイテム</value>
+  </data>
+  <data name="PivotView_Before" xml:space="preserve">
+    <value>前</value>
+  </data>
+  <data name="PivotView_BeforeOrEqualTo" xml:space="preserve">
+    <value>前か等しい</value>
+  </data>
+  <data name="PivotView_BeginWith" xml:space="preserve">
+    <value>で始まる</value>
+  </data>
+  <data name="PivotView_Between" xml:space="preserve">
+    <value>の間に</value>
+  </data>
+  <data name="PivotView_Blank" xml:space="preserve">
+    <value>（ブランク）</value>
+  </data>
+  <data name="PivotView_By" xml:space="preserve">
+    <value>沿って</value>
+  </data>
+  <data name="PivotView_CalculatedField" xml:space="preserve">
+    <value>計算フィールド</value>
+  </data>
+  <data name="PivotView_CalculatedField_ConfirmMessage" xml:space="preserve">
+    <value>この名前の計算フィールドは既に存在します。 取り替えたいですか？</value>
+  </data>
+  <data name="PivotView_CalculatedField_DragDropMessage" xml:space="preserve">
+    <value>フィールドを数式にドラッグアンドドロップする</value>
+  </data>
+  <data name="PivotView_CalculatedField_DragMessage" xml:space="preserve">
+    <value>フィールドを数式にドラッグ</value>
+  </data>
+  <data name="PivotView_CalculatedField_DropMessage" xml:space="preserve">
+    <value>計算フィールドは、数値軸以外の領域には配置できません。</value>
+  </data>
+  <data name="PivotView_CalculatedField_ExampleWatermark" xml:space="preserve">
+    <value>例： ('Sum(Order_Count)' + 'Sum(In_Stock)') * 250</value>
+  </data>
+  <data name="PivotView_CalculatedField_ExistMessage" xml:space="preserve">
+    <value>この名前のフィールドは既に存在します。 別の名前を入力してください。</value>
+  </data>
+  <data name="PivotView_CalculatedField_MobileWatermark" xml:space="preserve">
+    <value>ここにフィールドを追加し、数式を編集します。</value>
+  </data>
+  <data name="PivotView_CalculatedField_NameWatermark" xml:space="preserve">
+    <value>フィールド名を入力してください</value>
+  </data>
+  <data name="PivotView_CalculatedField_OLAPExampleWatermark" xml:space="preserve">
+    <value>例： [Measures].[Order Quantity] + ([Measures].[Order Quantity] * 0.10)</value>
+  </data>
+  <data name="PivotView_CalculatedField_Tooltip" xml:space="preserve">
+    <value>フィールドをドラッグアンドドロップして式を作成します。また、既存の計算フィールドを編集したい場合は！ 「計算されたメンバー」の下のフィールドを選択するだけでそれを達成することができます.</value>
+  </data>
+  <data name="PivotView_Cancel" xml:space="preserve">
+    <value>キャンセル</value>
+  </data>
+  <data name="PivotView_Chart" xml:space="preserve">
+    <value>チャート</value>
+  </data>
+  <data name="PivotView_Clear" xml:space="preserve">
+    <value>晴れ</value>
+  </data>
+  <data name="PivotView_ClearFilter" xml:space="preserve">
+    <value>晴れ</value>
+  </data>
+  <data name="PivotView_Close" xml:space="preserve">
+    <value>閉じる</value>
+  </data>
+  <data name="PivotView_Collapse" xml:space="preserve">
+    <value>崩壊</value>
+  </data>
+  <data name="PivotView_Column" xml:space="preserve">
+    <value>カラム</value>
+  </data>
+  <data name="PivotView_ColumnAxisWatermark" xml:space="preserve">
+    <value>ここに列をドロップ</value>
+  </data>
+  <data name="PivotView_Columns" xml:space="preserve">
+    <value>カラム</value>
+  </data>
+  <data name="PivotView_ConditionalFormating" xml:space="preserve">
+    <value>条件付き書式</value>
+  </data>
+  <data name="PivotView_ConditionalFormatting" xml:space="preserve">
+    <value>条件付き書式</value>
+  </data>
+  <data name="PivotView_Contains" xml:space="preserve">
+    <value>含む</value>
+  </data>
+  <data name="PivotView_Copy" xml:space="preserve">
+    <value>コピーする</value>
+  </data>
+  <data name="PivotView_Count" xml:space="preserve">
+    <value>カウント</value>
+  </data>
+  <data name="PivotView_CreateCalculatedField" xml:space="preserve">
+    <value>計算フィールドを作成する</value>
+  </data>
+  <data name="PivotView_CSV" xml:space="preserve">
+    <value>CSV</value>
+  </data>
+  <data name="PivotView_Currency" xml:space="preserve">
+    <value>通貨</value>
+  </data>
+  <data name="PivotView_CurrencySymbol" xml:space="preserve">
+    <value>通貨記号</value>
+  </data>
+  <data name="PivotView_Custom" xml:space="preserve">
+    <value>カスタム</value>
+  </data>
+  <data name="PivotView_CustomFormat" xml:space="preserve">
+    <value>カスタムフォーマット</value>
+  </data>
+  <data name="PivotView_CustomFormatMessage" xml:space="preserve">
+    <value>カスタムフォーマット文字列を入力してください</value>
+  </data>
+  <data name="PivotView_Date" xml:space="preserve">
+    <value>日付</value>
+  </data>
+  <data name="PivotView_DateTextMessage" xml:space="preserve">
+    <value>日付のあるアイテムを表示します</value>
+  </data>
+  <data name="PivotView_Days" xml:space="preserve">
+    <value>日々</value>
+  </data>
+  <data name="PivotView_DecimalPlaces" xml:space="preserve">
+    <value>小数位</value>
+  </data>
+  <data name="PivotView_Delete" xml:space="preserve">
+    <value>削除する</value>
+  </data>
+  <data name="PivotView_DeleteReport" xml:space="preserve">
+    <value>現在のレポートを削除する</value>
+  </data>
+  <data name="PivotView_Descending" xml:space="preserve">
+    <value>降順</value>
+  </data>
+  <data name="PivotView_Details" xml:space="preserve">
+    <value>細部</value>
+  </data>
+  <data name="PivotView_DifferenceFrom" xml:space="preserve">
+    <value>との違い</value>
+  </data>
+  <data name="PivotView_Dimension" xml:space="preserve">
+    <value>寸法</value>
+  </data>
+  <data name="PivotView_DistinctCount" xml:space="preserve">
+    <value>個別のカウント</value>
+  </data>
+  <data name="PivotView_DoesNotBeginWith" xml:space="preserve">
+    <value>次で始まらない</value>
+  </data>
+  <data name="PivotView_DoesNotContains" xml:space="preserve">
+    <value>含まない</value>
+  </data>
+  <data name="PivotView_DoesNotEndsWith" xml:space="preserve">
+    <value>次で終わらない</value>
+  </data>
+  <data name="PivotView_DoesNotEquals" xml:space="preserve">
+    <value>等しくない</value>
+  </data>
+  <data name="PivotView_DoNotShowGrandTotals" xml:space="preserve">
+    <value>総計を表示しない</value>
+  </data>
+  <data name="PivotView_DoNotShowSubtotals" xml:space="preserve">
+    <value>小計を表示しない</value>
+  </data>
+  <data name="PivotView_Drag" xml:space="preserve">
+    <value>引っ張る</value>
+  </data>
+  <data name="PivotView_DrillThrough" xml:space="preserve">
+    <value>ドリルスルー</value>
+  </data>
+  <data name="PivotView_DrillThroughErrorMessage" xml:space="preserve">
+    <value>計算フィールドの未加工アイテムを表示できません。</value>
+  </data>
+  <data name="PivotView_Edit" xml:space="preserve">
+    <value>編集する</value>
+  </data>
+  <data name="PivotView_EmptyRecordsMessage" xml:space="preserve">
+    <value>表示するレコードがありません</value>
+  </data>
+  <data name="PivotView_EmptyReportMessage" xml:space="preserve">
+    <value>レポートが見つかりません!!</value>
+  </data>
+  <data name="PivotView_EndAt" xml:space="preserve">
+    <value>で終わる</value>
+  </data>
+  <data name="PivotView_EndsWith" xml:space="preserve">
+    <value>次で終わる</value>
+  </data>
+  <data name="PivotView_EnterDate" xml:space="preserve">
+    <value>日付を入力してください</value>
+  </data>
+  <data name="PivotView_EnterReportNameMessage" xml:space="preserve">
+    <value>レポート名を入力してください</value>
+  </data>
+  <data name="PivotView_EnterValue" xml:space="preserve">
+    <value>値を入力してください</value>
+  </data>
+  <data name="PivotView_Equals" xml:space="preserve">
+    <value>等しい</value>
+  </data>
+  <data name="PivotView_Error" xml:space="preserve">
+    <value>エラー</value>
+  </data>
+  <data name="PivotView_Example" xml:space="preserve">
+    <value>例えば：</value>
+  </data>
+  <data name="PivotView_Excel" xml:space="preserve">
+    <value>Excel</value>
+  </data>
+  <data name="PivotView_Expand" xml:space="preserve">
+    <value>拡大する</value>
+  </data>
+  <data name="PivotView_Export" xml:space="preserve">
+    <value>書き出す</value>
+  </data>
+  <data name="PivotView_Expression" xml:space="preserve">
+    <value>表情</value>
+  </data>
+  <data name="PivotView_False" xml:space="preserve">
+    <value>誤り</value>
+  </data>
+  <data name="PivotView_FieldCaption" xml:space="preserve">
+    <value>フィールドのキャプション</value>
+  </data>
+  <data name="PivotView_FieldCaptionMessage" xml:space="preserve">
+    <value>フィールドのキャプション</value>
+  </data>
+  <data name="PivotView_FieldDropErrorMessage" xml:space="preserve">
+    <value>移動するフィールドをレポートのその領域に配置することはできません</value>
+  </data>
+  <data name="PivotView_FieldName" xml:space="preserve">
+    <value>フィールド名</value>
+  </data>
+  <data name="PivotView_FieldNameMessage" xml:space="preserve">
+    <value>フィールド名:</value>
+  </data>
+  <data name="PivotView_FieldType" xml:space="preserve">
+    <value>フィールドタイプ</value>
+  </data>
+  <data name="PivotView_Filter" xml:space="preserve">
+    <value>フィルタ</value>
+  </data>
+  <data name="PivotView_FilterAxisWatermark" xml:space="preserve">
+    <value>ここにフィルターをドロップ</value>
+  </data>
+  <data name="PivotView_Filtered" xml:space="preserve">
+    <value>フィルター済み</value>
+  </data>
+  <data name="PivotView_Filters" xml:space="preserve">
+    <value>フィルター</value>
+  </data>
+  <data name="PivotView_Format" xml:space="preserve">
+    <value>フォーマット</value>
+  </data>
+  <data name="PivotView_FormatString" xml:space="preserve">
+    <value>フォーマット文字列</value>
+  </data>
+  <data name="PivotView_FormatType" xml:space="preserve">
+    <value>フォーマットタイプ</value>
+  </data>
+  <data name="PivotView_Formula" xml:space="preserve">
+    <value>式</value>
+  </data>
+  <data name="PivotView_GrandTotal" xml:space="preserve">
+    <value>総計</value>
+  </data>
+  <data name="PivotView_GrandTotals" xml:space="preserve">
+    <value>総計</value>
+  </data>
+  <data name="PivotView_GreaterThan" xml:space="preserve">
+    <value>より大きい</value>
+  </data>
+  <data name="PivotView_GreaterThanOrEqualTo" xml:space="preserve">
+    <value>以上</value>
+  </data>
+  <data name="PivotView_Group" xml:space="preserve">
+    <value>グループ</value>
+  </data>
+  <data name="PivotView_GroupCaptionMessage" xml:space="preserve">
+    <value>ヘッダーに表示するキャプションを入力してください</value>
+  </data>
+  <data name="PivotView_GroupFieldCaptionMessage" xml:space="preserve">
+    <value>グループフィールドのキャプションを入力してください</value>
+  </data>
+  <data name="PivotView_Grouping" xml:space="preserve">
+    <value>グルーピング</value>
+  </data>
+  <data name="PivotView_GroupName" xml:space="preserve">
+    <value>グループ名</value>
+  </data>
+  <data name="PivotView_Hours" xml:space="preserve">
+    <value>時間</value>
+  </data>
+  <data name="PivotView_Index" xml:space="preserve">
+    <value>インデックス</value>
+  </data>
+  <data name="PivotView_IntervalBy" xml:space="preserve">
+    <value>間隔</value>
+  </data>
+  <data name="PivotView_InvalidFormat" xml:space="preserve">
+    <value>無効な形式。</value>
+  </data>
+  <data name="PivotView_InvalidFormula" xml:space="preserve">
+    <value>無効な数式です。</value>
+  </data>
+  <data name="PivotView_InvalidGroupSelectionMessage" xml:space="preserve">
+    <value>その選択をグループ化することはできません。</value>
+  </data>
+  <data name="PivotView_JPEG" xml:space="preserve">
+    <value>JPEG</value>
+  </data>
+  <data name="PivotView_Label" xml:space="preserve">
+    <value>ラベル</value>
+  </data>
+  <data name="PivotView_LabelTextMessage" xml:space="preserve">
+    <value>ラベルが付いているアイテムを表示する</value>
+  </data>
+  <data name="PivotView_Left" xml:space="preserve">
+    <value>左</value>
+  </data>
+  <data name="PivotView_LessThan" xml:space="preserve">
+    <value>未満</value>
+  </data>
+  <data name="PivotView_LessThanOrEqualTo" xml:space="preserve">
+    <value>より小さいか等しい</value>
+  </data>
+  <data name="PivotView_Line" xml:space="preserve">
+    <value>ライン</value>
+  </data>
+  <data name="PivotView_LoadReport" xml:space="preserve">
+    <value>負荷</value>
+  </data>
+  <data name="PivotView_ManageRecords" xml:space="preserve">
+    <value>レコードを管理する</value>
+  </data>
+  <data name="PivotView_Max" xml:space="preserve">
+    <value>マックス</value>
+  </data>
+  <data name="PivotView_MdxQuery" xml:space="preserve">
+    <value>MDXクエリ</value>
+  </data>
+  <data name="PivotView_Measure" xml:space="preserve">
+    <value>測る</value>
+  </data>
+  <data name="PivotView_Member" xml:space="preserve">
+    <value>メンバー</value>
+  </data>
+  <data name="PivotView_MemberLimitMessage" xml:space="preserve">
+    <value>より多くのアイテム。 検索してさらに絞り込みます。</value>
+  </data>
+  <data name="PivotView_Min" xml:space="preserve">
+    <value>最小</value>
+  </data>
+  <data name="PivotView_Minutes" xml:space="preserve">
+    <value>議事録</value>
+  </data>
+  <data name="PivotView_Months" xml:space="preserve">
+    <value>か月</value>
+  </data>
+  <data name="PivotView_MoreOption" xml:space="preserve">
+    <value>もっと...</value>
+  </data>
+  <data name="PivotView_MultipleItems" xml:space="preserve">
+    <value>複数のアイテム</value>
+  </data>
+  <data name="PivotView_NewReport" xml:space="preserve">
+    <value>新しいレポートを作成する</value>
+  </data>
+  <data name="PivotView_NewReportConfirmMessage" xml:space="preserve">
+    <value>このレポートへの変更を保存しますか？</value>
+  </data>
+  <data name="PivotView_NoFormatMessage" xml:space="preserve">
+    <value>フォーマットが見つかりません!!!</value>
+  </data>
+  <data name="PivotView_NoInputMessage" xml:space="preserve">
+    <value>値を入力してください</value>
+  </data>
+  <data name="PivotView_NoMatchesMessage" xml:space="preserve">
+    <value>一致しません</value>
+  </data>
+  <data name="PivotView_NotBetween" xml:space="preserve">
+    <value>間にない</value>
+  </data>
+  <data name="PivotView_NotEquals" xml:space="preserve">
+    <value>等しくない</value>
+  </data>
+  <data name="PivotView_NoValue" xml:space="preserve">
+    <value>値なし</value>
+  </data>
+  <data name="PivotView_Null" xml:space="preserve">
+    <value>ヌル</value>
+  </data>
+  <data name="PivotView_Number" xml:space="preserve">
+    <value>数</value>
+  </data>
+  <data name="PivotView_NumberFormatting" xml:space="preserve">
+    <value>数値のフォーマット</value>
+  </data>
+  <data name="PivotView_Of" xml:space="preserve">
+    <value>の</value>
+  </data>
+  <data name="PivotView_OK" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="PivotView_OutOfRange" xml:space="preserve">
+    <value>範囲外</value>
+  </data>
+  <data name="PivotView_ParentHierarchy" xml:space="preserve">
+    <value>親階層</value>
+  </data>
+  <data name="PivotView_PDF" xml:space="preserve">
+    <value>PDF</value>
+  </data>
+  <data name="PivotView_Percent" xml:space="preserve">
+    <value>パーセント</value>
+  </data>
+  <data name="PivotView_Percentage" xml:space="preserve">
+    <value>パーセンテージ</value>
+  </data>
+  <data name="PivotView_PercentageOfColumnTotal" xml:space="preserve">
+    <value>%の列合計</value>
+  </data>
+  <data name="PivotView_PercentageOfDifferenceFrom" xml:space="preserve">
+    <value>%の差</value>
+  </data>
+  <data name="PivotView_PercentageOfGrandTotal" xml:space="preserve">
+    <value>%の総計</value>
+  </data>
+  <data name="PivotView_PercentageOfParentColumnTotal" xml:space="preserve">
+    <value>%の親列の合計</value>
+  </data>
+  <data name="PivotView_PercentageOfParentRowTotal" xml:space="preserve">
+    <value>%の親行の合計</value>
+  </data>
+  <data name="PivotView_PercentageOfParentTotal" xml:space="preserve">
+    <value>%の親の合計</value>
+  </data>
+  <data name="PivotView_PercentageOfRowTotal" xml:space="preserve">
+    <value>%の行合計</value>
+  </data>
+  <data name="PivotView_PNG" xml:space="preserve">
+    <value>PNG</value>
+  </data>
+  <data name="PivotView_Polar" xml:space="preserve">
+    <value>極</value>
+  </data>
+  <data name="PivotView_PopulationStDev" xml:space="preserve">
+    <value>人口StDev</value>
+  </data>
+  <data name="PivotView_PopulationVar" xml:space="preserve">
+    <value>母集団変数</value>
+  </data>
+  <data name="PivotView_Product" xml:space="preserve">
+    <value>製品</value>
+  </data>
+  <data name="PivotView_Quarter" xml:space="preserve">
+    <value>Qtr</value>
+  </data>
+  <data name="PivotView_Quarters" xml:space="preserve">
+    <value>四半期</value>
+  </data>
+  <data name="PivotView_QuarterYear" xml:space="preserve">
+    <value>四半期</value>
+  </data>
+  <data name="PivotView_Remove" xml:space="preserve">
+    <value>削除する</value>
+  </data>
+  <data name="PivotView_RemoveReportConfirmMessage" xml:space="preserve">
+    <value>このレポートを削除してもよろしいですか？</value>
+  </data>
+  <data name="PivotView_RenameReport" xml:space="preserve">
+    <value>現在のレポートの名前を変更する</value>
+  </data>
+  <data name="PivotView_ReportList" xml:space="preserve">
+    <value>レポート一覧</value>
+  </data>
+  <data name="PivotView_ReportNameMessage" xml:space="preserve">
+    <value>レポート名：</value>
+  </data>
+  <data name="PivotView_Right" xml:space="preserve">
+    <value>正しい</value>
+  </data>
+  <data name="PivotView_Row" xml:space="preserve">
+    <value>行</value>
+  </data>
+  <data name="PivotView_RowAxisWatermark" xml:space="preserve">
+    <value>ここに行をドロップ</value>
+  </data>
+  <data name="PivotView_Rows" xml:space="preserve">
+    <value>行</value>
+  </data>
+  <data name="PivotView_RunningTotals" xml:space="preserve">
+    <value>累計</value>
+  </data>
+  <data name="PivotView_SampleReport" xml:space="preserve">
+    <value>サンプルレポート</value>
+  </data>
+  <data name="PivotView_SampleStDev" xml:space="preserve">
+    <value>サンプルStDev</value>
+  </data>
+  <data name="PivotView_SampleVar" xml:space="preserve">
+    <value>サンプル変数</value>
+  </data>
+  <data name="PivotView_SaveAsReport" xml:space="preserve">
+    <value>現在のレポートとして保存</value>
+  </data>
+  <data name="PivotView_SaveReport" xml:space="preserve">
+    <value>レポートを保存する</value>
+  </data>
+  <data name="PivotView_Scatter" xml:space="preserve">
+    <value>スキャッター</value>
+  </data>
+  <data name="PivotView_Search" xml:space="preserve">
+    <value>探す</value>
+  </data>
+  <data name="PivotView_Seconds" xml:space="preserve">
+    <value>秒</value>
+  </data>
+  <data name="PivotView_SelectedItems" xml:space="preserve">
+    <value>選択したアイテム</value>
+  </data>
+  <data name="PivotView_SelectGroups" xml:space="preserve">
+    <value>グループを選択</value>
+  </data>
+  <data name="PivotView_ShowColumnGrandTotalsOnly" xml:space="preserve">
+    <value>総計の列のみを表示する</value>
+  </data>
+  <data name="PivotView_ShowColumnSubtotalsOnly" xml:space="preserve">
+    <value>小計の列のみを表示する</value>
+  </data>
+  <data name="PivotView_ShowFieldList" xml:space="preserve">
+    <value>フィールドリストを表示</value>
+  </data>
+  <data name="PivotView_ShowGrandTotals" xml:space="preserve">
+    <value>総計を表示する</value>
+  </data>
+  <data name="PivotView_ShowRowGrandTotalsOnly" xml:space="preserve">
+    <value>総計行のみを表示</value>
+  </data>
+  <data name="PivotView_ShowRowSubtotalsOnly" xml:space="preserve">
+    <value>小計行のみを表示</value>
+  </data>
+  <data name="PivotView_ShowSubtotals" xml:space="preserve">
+    <value>小計を表示</value>
+  </data>
+  <data name="PivotView_ShowTable" xml:space="preserve">
+    <value>テーブルを表示</value>
+  </data>
+  <data name="PivotView_Sort" xml:space="preserve">
+    <value>ソート</value>
+  </data>
+  <data name="PivotView_Standard" xml:space="preserve">
+    <value>標準</value>
+  </data>
+  <data name="PivotView_StartAt" xml:space="preserve">
+    <value>で始まる</value>
+  </data>
+  <data name="PivotView_Subtotals" xml:space="preserve">
+    <value>小計</value>
+  </data>
+  <data name="PivotView_Sum" xml:space="preserve">
+    <value>和</value>
+  </data>
+  <data name="PivotView_Summaries" xml:space="preserve">
+    <value>値を要約する</value>
+  </data>
+  <data name="PivotView_SummarizeValuesBy" xml:space="preserve">
+    <value>値を要約する</value>
+  </data>
+  <data name="PivotView_SVG" xml:space="preserve">
+    <value>SVG</value>
+  </data>
+  <data name="PivotView_SymbolPosition" xml:space="preserve">
+    <value>シンボル位置</value>
+  </data>
+  <data name="PivotView_Total" xml:space="preserve">
+    <value>合計</value>
+  </data>
+  <data name="PivotView_True" xml:space="preserve">
+    <value>本当</value>
+  </data>
+  <data name="PivotView_Undefined" xml:space="preserve">
+    <value>未定義</value>
+  </data>
+  <data name="PivotView_Ungroup" xml:space="preserve">
+    <value>グループ解除</value>
+  </data>
+  <data name="PivotView_ValidReportNameMessage" xml:space="preserve">
+    <value>有効なレコード名を入力してください!!!</value>
+  </data>
+  <data name="PivotView_Value" xml:space="preserve">
+    <value>値</value>
+  </data>
+  <data name="PivotView_ValueAxisWatermark" xml:space="preserve">
+    <value>ここに値をドロップ</value>
+  </data>
+  <data name="PivotView_ValueFieldSettings" xml:space="preserve">
+    <value>値フィールドの設定</value>
+  </data>
+  <data name="PivotView_Values" xml:space="preserve">
+    <value>価値観</value>
+  </data>
+  <data name="PivotView_ValueTextMessage" xml:space="preserve">
+    <value>対象のアイテムを表示</value>
+  </data>
+  <data name="PivotView_Warning" xml:space="preserve">
+    <value>警告</value>
+  </data>
+  <data name="PivotView_Years" xml:space="preserve">
+    <value>年</value>
+  </data>
+  <data name="PivotView_MultipleAxes" xml:space="preserve">
+    <value>多軸</value>
+  </data>
+  <data name="PivotView_ChartTypeSettings" xml:space="preserve">
+    <value>グラフタイプの設定</value>
+  </data>
+  <data name="PivotView_ChartType" xml:space="preserve">
+    <value>チャートタイプ</value>
+  </data>
+  <data name="PivotView_Yes" xml:space="preserve">
+    <value>はい</value>
+  </data>
+  <data name="PivotView_No" xml:space="preserve">
+    <value>番号</value>
+  </data>
+  <data name="PivotView_NumberFormatMenu" xml:space="preserve">
+    <value>数値のフォーマット...</value>
+  </data>
+  <data name="PivotView_ConditionalFormatingMenu" xml:space="preserve">
+    <value>条件付き書式...</value>
+  </data>
+  <data name="PivotView_CalculatedField_RemoveMessage" xml:space="preserve">
+    <value>この計算フィールドを削除してもよろしいですか？</value>
+  </data>
+  <data name="PivotView_StackedArea" xml:space="preserve">
+    <value>積み上げ面</value>
+  </data>
+  <data name="PivotView_StackedColumn" xml:space="preserve">
+    <value>積み上げ縦棒</value>
+  </data>
+  <data name="PivotView_StackedBar" xml:space="preserve">
+    <value>積み上げ棒</value>
+  </data>
+  <data name="PivotView_StepLine" xml:space="preserve">
+    <value>ステップライン</value>
+  </data>
+  <data name="PivotView_StepArea" xml:space="preserve">
+    <value>ステップエリア</value>
+  </data>
+  <data name="PivotView_SplineArea" xml:space="preserve">
+    <value>スプラインエリア</value>
+  </data>
+  <data name="PivotView_Spline" xml:space="preserve">
+    <value>スプライン</value>
+  </data>
+  <data name="PivotView_StackedColumn100" xml:space="preserve">
+    <value>100％積み上げ縦棒</value>
+  </data>
+  <data name="PivotView_StackedBar100" xml:space="preserve">
+    <value>100％積み上げ横棒</value>
+  </data>
+  <data name="PivotView_StackedArea100" xml:space="preserve">
+    <value>100％積み上げ面</value>
+  </data>
+  <data name="PivotView_Bubble" xml:space="preserve">
+    <value>バブル</value>
+  </data>
+  <data name="PivotView_Pareto" xml:space="preserve">
+    <value>パレート</value>
+  </data>
+  <data name="PivotView_Radar" xml:space="preserve">
+    <value>レーダー</value>
+  </data>
+  <data name="PivotView_CalculatedField_EditTooltipMessage" xml:space="preserve">
+    <value>計算フィールドを編集する</value>
+  </data>
+  <data name="PivotView_CalculatedField_ClearTooltipMessage" xml:space="preserve">
+    <value>編集したフィールド情報をクリア</value>
+  </data>
+  <data name="PivotView_Pie" xml:space="preserve">
+    <value>パイ</value>
+  </data>
+  <data name="PivotView_Pyramid" xml:space="preserve">
+    <value>ピラミッド</value>
+  </data>
+  <data name="PivotView_Doughnut" xml:space="preserve">
+    <value>ドーナツ</value>
+  </data>
+  <data name="PivotView_Funnel" xml:space="preserve">
+    <value>漏斗</value>
+  </data>
+  <data name="PivotView_Stacked" xml:space="preserve">
+    <value>積み上げ</value>
+  </data>
+  <data name="PivotView_Grouped" xml:space="preserve">
+    <value>グループ化</value>
+  </data>
+  <data name="PivotView_MultipleAxisMode" xml:space="preserve">
+    <value>多軸モード</value>
+  </data>
+  <data name="PivotView_Median" xml:space="preserve">
+    <value>中央値</value>
+  </data>
+  <data name="PivotView_Bottom" xml:space="preserve">
+    <value>下</value>
+  </data>
+  <data name="PivotView_GrandTotalPositions" xml:space="preserve">
+    <value>総計ポジション</value>
+  </data>
+  <data name="PivotView_Top" xml:space="preserve">
+    <value>上</value>
+  </data>
+  <data name="QueryBuilder_AddCondition" xml:space="preserve">
+    <value>条件を追加</value>
+  </data>
+  <data name="QueryBuilder_AddGroup" xml:space="preserve">
+    <value>グループを追加</value>
+  </data>
+  <data name="QueryBuilder_AND" xml:space="preserve">
+    <value>そして</value>
+  </data>
+  <data name="QueryBuilder_Between" xml:space="preserve">
+    <value>の間に</value>
+  </data>
+  <data name="QueryBuilder_Contains" xml:space="preserve">
+    <value>含む</value>
+  </data>
+  <data name="QueryBuilder_DeleteGroup" xml:space="preserve">
+    <value>グループを削除</value>
+  </data>
+  <data name="QueryBuilder_DeleteRule" xml:space="preserve">
+    <value>この条件を削除</value>
+  </data>
+  <data name="QueryBuilder_Edit" xml:space="preserve">
+    <value>編集</value>
+  </data>
+  <data name="QueryBuilder_Empty" xml:space="preserve">
+    <value>空の</value>
+  </data>
+  <data name="QueryBuilder_EndsWith" xml:space="preserve">
+    <value>次で終わる</value>
+  </data>
+  <data name="QueryBuilder_Equal" xml:space="preserve">
+    <value>等しい</value>
+  </data>
+  <data name="QueryBuilder_GreaterThan" xml:space="preserve">
+    <value>より大きい</value>
+  </data>
+  <data name="QueryBuilder_GreaterThanOrEqual" xml:space="preserve">
+    <value>より大きいか等しい</value>
+  </data>
+  <data name="QueryBuilder_In" xml:space="preserve">
+    <value>に</value>
+  </data>
+  <data name="QueryBuilder_LessThan" xml:space="preserve">
+    <value>未満</value>
+  </data>
+  <data name="QueryBuilder_LessThanOrEqual" xml:space="preserve">
+    <value>より小さいか等しい</value>
+  </data>
+  <data name="QueryBuilder_NotBetween" xml:space="preserve">
+    <value>間にない</value>
+  </data>
+  <data name="QueryBuilder_NotContains" xml:space="preserve">
+    <value>含まない</value>
+  </data>
+  <data name="QueryBuilder_NotEmpty" xml:space="preserve">
+    <value>空ではない</value>
+  </data>
+  <data name="QueryBuilder_NotEqual" xml:space="preserve">
+    <value>等しくない</value>
+  </data>
+  <data name="QueryBuilder_NotIn" xml:space="preserve">
+    <value>ありませんで</value>
+  </data>
+  <data name="QueryBuilder_OR" xml:space="preserve">
+    <value>または</value>
+  </data>
+  <data name="QueryBuilder_OtherFields" xml:space="preserve">
+    <value>その他の分野</value>
+  </data>
+  <data name="QueryBuilder_Remove" xml:space="preserve">
+    <value>削除する</value>
+  </data>
+  <data name="QueryBuilder_SelectField" xml:space="preserve">
+    <value>フィールドを選択してください</value>
+  </data>
+  <data name="QueryBuilder_SelectOperator" xml:space="preserve">
+    <value>選択演算子</value>
+  </data>
+  <data name="QueryBuilder_SelectValue" xml:space="preserve">
+    <value>値を入力</value>
+  </data>
+  <data name="QueryBuilder_StartsWith" xml:space="preserve">
+    <value>で始まる</value>
+  </data>
+  <data name="QueryBuilder_SummaryViewTitle" xml:space="preserve">
+    <value>概要ビュー</value>
+  </data>
+  <data name="QueryBuilder_ValidationMessage" xml:space="preserve">
+    <value>この項目は必須です</value>
+  </data>
+  <data name="Dialog_Close" xml:space="preserve">
+    <value>閉じる</value>
+  </data>
+  <data name="Toast_Close" xml:space="preserve">
+    <value>閉じる</value>
+  </data>
+  <data name="InPlaceEditor_Save" xml:space="preserve">
+    <value>セーブ</value>
+  </data>
+  <data name="InPlaceEditor_Cancel" xml:space="preserve">
+    <value>キャンセル</value>
+  </data>
+  <data name="InPlaceEditor_LoadingText" xml:space="preserve">
+    <value>読み込み中...</value>
+  </data>
+  <data name="InPlaceEditor_EditIcon" xml:space="preserve">
+    <value>クリックして編集する</value>
+  </data>
+  <data name="InPlaceEditor_EditAreaClick" xml:space="preserve">
+    <value>クリックして編集する</value>
+  </data>
+  <data name="InPlaceEditor_EditAreaDoubleClick" xml:space="preserve">
+    <value>編集するにはダブルクリックします</value>
+  </data>
+  <data name="Kanban_Items" xml:space="preserve">
+    <value>アイテム</value>
+  </data>
+  <data name="Kanban_Item" xml:space="preserve">
+    <value>項目</value>
+  </data>
+  <data name="Kanban_No_Cards" xml:space="preserve">
+    <value>表示するカードがありません</value>
+  </data>
+  <data name="Kanban_Min" xml:space="preserve">
+    <value>分</value>
+  </data>
+  <data name="Kanban_Max" xml:space="preserve">
+    <value>マックス</value>
+  </data>
+  <data name="Kanban_CardsSelected" xml:space="preserve">
+    <value>選択したカード</value>
+  </data>
+  <data name="Kanban_AddTitle" xml:space="preserve">
+    <value>新しいカードを追加</value>
+  </data>
+  <data name="Kanban_EditTitle" xml:space="preserve">
+    <value>カードの詳細を編集</value>
+  </data>
+  <data name="Kanban_DeleteTitle" xml:space="preserve">
+    <value>カードを削除</value>
+  </data>
+  <data name="Kanban_DeleteContent" xml:space="preserve">
+    <value>このカードを削除してもよろしいですか？</value>
+  </data>
+  <data name="Kanban_Save" xml:space="preserve">
+    <value>セーブ</value>
+  </data>
+  <data name="Kanban_Delete" xml:space="preserve">
+    <value>削除する</value>
+  </data>
+  <data name="Kanban_Cancel" xml:space="preserve">
+    <value>キャンセル</value>
+  </data>
+  <data name="Kanban_Yes" xml:space="preserve">
+    <value>はい</value>
+  </data>
+  <data name="Kanban_No" xml:space="preserve">
+    <value>番号</value>
+  </data>
+  <data name="RichTextEditor_NumberFormatListNone" xml:space="preserve">
+    <value>無し</value>
+  </data>
+  <data name="RichTextEditor_NumberFormatListNumber" xml:space="preserve">
+    <value>数</value>
+  </data>
+  <data name="RichTextEditor_NumberFormatListUpperAlpha" xml:space="preserve">
+    <value>アッパーアルファ</value>
+  </data>
+  <data name="RichTextEditor_NumberFormatListLowerAlpha" xml:space="preserve">
+    <value>ローワーアルファ</value>
+  </data>
+  <data name="RichTextEditor_NumberFormatListUpperRoman" xml:space="preserve">
+    <value>アッパーローマン</value>
+  </data>
+  <data name="RichTextEditor_NumberFormatListLowerRoman" xml:space="preserve">
+    <value>ローワーローマン</value>
+  </data>
+  <data name="RichTextEditor_NumberFormatListLowerGreek" xml:space="preserve">
+    <value>下ギリシャ語</value>
+  </data>
+  <data name="RichTextEditor_BulletFormatListNone" xml:space="preserve">
+    <value>無し</value>
+  </data>
+  <data name="RichTextEditor_BulletFormatListCircle" xml:space="preserve">
+    <value>サークル</value>
+  </data>
+  <data name="RichTextEditor_BulletFormatListSquare" xml:space="preserve">
+    <value>平方</value>
+  </data>
+  <data name="RichTextEditor_BulletFormatListDisc" xml:space="preserve">
+    <value>ディスク</value>
+  </data>
+  <data name="RichTextEditor_FormatsDropDownParagraph" xml:space="preserve">
+    <value>段落</value>
+  </data>
+  <data name="RichTextEditor_FormatsDropDownCode" xml:space="preserve">
+    <value>コード</value>
+  </data>
+  <data name="RichTextEditor_FormatsDropDownQuotation" xml:space="preserve">
+    <value>引用</value>
+  </data>
+  <data name="RichTextEditor_FormatsDropDownHeading1" xml:space="preserve">
+    <value>見出し 1</value>
+  </data>
+  <data name="RichTextEditor_FormatsDropDownHeading2" xml:space="preserve">
+    <value>見出し 2</value>
+  </data>
+  <data name="RichTextEditor_FormatsDropDownHeading3" xml:space="preserve">
+    <value>見出し 3</value>
+  </data>
+  <data name="RichTextEditor_FormatsDropDownHeading4" xml:space="preserve">
+    <value>見出し  4</value>
+  </data>
+  <data name="RichTextEditor_FormatsDropDownHeading5" xml:space="preserve">
+    <value>見出し  5</value>
+  </data>
+  <data name="RichTextEditor_FormatsDropDownHeading6" xml:space="preserve">
+    <value>見出し   6</value>
+  </data>
+  <data name="RichTextEditor_FontNameSegoeUI" xml:space="preserve">
+    <value>セゴエオトリン</value>
+  </data>
+  <data name="RichTextEditor_FontNameArial" xml:space="preserve">
+    <value>Arial</value>
+  </data>
+  <data name="RichTextEditor_FontNameGeorgia" xml:space="preserve">
+    <value>ジョージア</value>
+  </data>
+  <data name="RichTextEditor_FontNameImpact" xml:space="preserve">
+    <value>影響</value>
+  </data>
+  <data name="RichTextEditor_FontNameTahoma" xml:space="preserve">
+    <value>タホマ</value>
+  </data>
+  <data name="RichTextEditor_FontNameTimesNewRoman" xml:space="preserve">
+    <value>新しい時代 ローマ人</value>
+  </data>
+  <data name="RichTextEditor_FontNameVerdana" xml:space="preserve">
+    <value>ヴェルダナ</value>
+  </data>
+  <data name="RichTextEditor_Alignments" xml:space="preserve">
+    <value>アライメント</value>
+  </data>
+  <data name="RichTextEditor_JustifyLeft" xml:space="preserve">
+    <value>左揃え</value>
+  </data>
+  <data name="RichTextEditor_JustifyCenter" xml:space="preserve">
+    <value>中央揃え</value>
+  </data>
+  <data name="RichTextEditor_JustifyRight" xml:space="preserve">
+    <value>右揃え</value>
+  </data>
+  <data name="RichTextEditor_JustifyFull" xml:space="preserve">
+    <value>両端揃え</value>
+  </data>
+  <data name="RichTextEditor_FontName" xml:space="preserve">
+    <value>フォント名</value>
+  </data>
+  <data name="RichTextEditor_FontSize" xml:space="preserve">
+    <value>フォントサイズ</value>
+  </data>
+  <data name="RichTextEditor_FontColor" xml:space="preserve">
+    <value>フォントの色</value>
+  </data>
+  <data name="RichTextEditor_BackgroundColor" xml:space="preserve">
+    <value>背景色</value>
+  </data>
+  <data name="RichTextEditor_Bold" xml:space="preserve">
+    <value>背景色</value>
+  </data>
+  <data name="RichTextEditor_Italic" xml:space="preserve">
+    <value>イタリック</value>
+  </data>
+  <data name="RichTextEditor_Underline" xml:space="preserve">
+    <value>下線</value>
+  </data>
+  <data name="RichTextEditor_Strikethrough" xml:space="preserve">
+    <value>取り消し線</value>
+  </data>
+  <data name="RichTextEditor_ClearFormat" xml:space="preserve">
+    <value>クリアフォーマット</value>
+  </data>
+  <data name="RichTextEditor_ClearAll" xml:space="preserve">
+    <value>すべてクリア</value>
+  </data>
+  <data name="RichTextEditor_Cut" xml:space="preserve">
+    <value>切る</value>
+  </data>
+  <data name="RichTextEditor_Copy" xml:space="preserve">
+    <value>コピー</value>
+  </data>
+  <data name="RichTextEditor_Paste" xml:space="preserve">
+    <value>ペースト</value>
+  </data>
+  <data name="RichTextEditor_UnorderedList" xml:space="preserve">
+    <value>箇条書き</value>
+  </data>
+  <data name="RichTextEditor_OrderedList" xml:space="preserve">
+    <value>番号付きリスト</value>
+  </data>
+  <data name="RichTextEditor_Indent" xml:space="preserve">
+    <value>インデントを増やします</value>
+  </data>
+  <data name="RichTextEditor_Outdent" xml:space="preserve">
+    <value>インデントを減らす</value>
+  </data>
+  <data name="RichTextEditor_Undo" xml:space="preserve">
+    <value>元に戻す</value>
+  </data>
+  <data name="RichTextEditor_Redo" xml:space="preserve">
+    <value>やり直し</value>
+  </data>
+  <data name="RichTextEditor_Superscript" xml:space="preserve">
+    <value>上付き</value>
+  </data>
+  <data name="RichTextEditor_Subscript" xml:space="preserve">
+    <value>添字</value>
+  </data>
+  <data name="RichTextEditor_CreateLink" xml:space="preserve">
+    <value>ハイパーリンクを挿入</value>
+  </data>
+  <data name="RichTextEditor_OpenLink" xml:space="preserve">
+    <value>リンクを開く</value>
+  </data>
+  <data name="RichTextEditor_EditLink" xml:space="preserve">
+    <value>リンクを編集</value>
+  </data>
+  <data name="RichTextEditor_RemoveLink" xml:space="preserve">
+    <value>リンクを削除</value>
+  </data>
+  <data name="RichTextEditor_Image" xml:space="preserve">
+    <value>画像を挿入</value>
+  </data>
+  <data name="RichTextEditor_Replace" xml:space="preserve">
+    <value>交換</value>
+  </data>
+  <data name="RichTextEditor_Align" xml:space="preserve">
+    <value>整列</value>
+  </data>
+  <data name="RichTextEditor_Caption" xml:space="preserve">
+    <value>画像キャプション</value>
+  </data>
+  <data name="RichTextEditor_Remove" xml:space="preserve">
+    <value>削除する</value>
+  </data>
+  <data name="RichTextEditor_InsertLink" xml:space="preserve">
+    <value>リンクを挿入</value>
+  </data>
+  <data name="RichTextEditor_Display" xml:space="preserve">
+    <value>表示</value>
+  </data>
+  <data name="RichTextEditor_AltText" xml:space="preserve">
+    <value>代替テキスト</value>
+  </data>
+  <data name="RichTextEditor_Dimension" xml:space="preserve">
+    <value>サイズ変更</value>
+  </data>
+  <data name="RichTextEditor_Fullscreen" xml:space="preserve">
+    <value>最大化</value>
+  </data>
+  <data name="RichTextEditor_Maximize" xml:space="preserve">
+    <value>最大化</value>
+  </data>
+  <data name="RichTextEditor_Minimize" xml:space="preserve">
+    <value>最小化</value>
+  </data>
+  <data name="RichTextEditor_LowerCase" xml:space="preserve">
+    <value>小文字</value>
+  </data>
+  <data name="RichTextEditor_UpperCase" xml:space="preserve">
+    <value>大文字</value>
+  </data>
+  <data name="RichTextEditor_Print" xml:space="preserve">
+    <value>印刷する</value>
+  </data>
+  <data name="RichTextEditor_Formats" xml:space="preserve">
+    <value>書式</value>
+  </data>
+  <data name="RichTextEditor_Sourcecode" xml:space="preserve">
+    <value>コードビュー</value>
+  </data>
+  <data name="RichTextEditor_Preview" xml:space="preserve">
+    <value>プレビュー</value>
+  </data>
+  <data name="RichTextEditor_Viewside" xml:space="preserve">
+    <value>サイドを見る</value>
+  </data>
+  <data name="RichTextEditor_InsertCode" xml:space="preserve">
+    <value>コードを挿入</value>
+  </data>
+  <data name="RichTextEditor_LinkText" xml:space="preserve">
+    <value>テキストを表示する</value>
+  </data>
+  <data name="RichTextEditor_LinkTooltipLabel" xml:space="preserve">
+    <value>題名</value>
+  </data>
+  <data name="RichTextEditor_LinkWebUrl" xml:space="preserve">
+    <value>ウェブアドレス</value>
+  </data>
+  <data name="RichTextEditor_LinkTitle" xml:space="preserve">
+    <value>タイトルを入力してください</value>
+  </data>
+  <data name="RichTextEditor_LinkUrl" xml:space="preserve">
+    <value>http://example.com</value>
+  </data>
+  <data name="RichTextEditor_LinkOpenInNewWindow" xml:space="preserve">
+    <value>新しいウィンドウでリンクを開く</value>
+  </data>
+  <data name="RichTextEditor_LinkHeader" xml:space="preserve">
+    <value>リンクを挿入</value>
+  </data>
+  <data name="RichTextEditor_DialogInsert" xml:space="preserve">
+    <value>インサート</value>
+  </data>
+  <data name="RichTextEditor_DialogCancel" xml:space="preserve">
+    <value>キャンセル</value>
+  </data>
+  <data name="RichTextEditor_DialogUpdate" xml:space="preserve">
+    <value>更新</value>
+  </data>
+  <data name="RichTextEditor_ImageHeader" xml:space="preserve">
+    <value>画像を挿入</value>
+  </data>
+  <data name="RichTextEditor_ImageLinkHeader" xml:space="preserve">
+    <value>Webからリンクを提供することもできます</value>
+  </data>
+  <data name="RichTextEditor_MdImageLink" xml:space="preserve">
+    <value>画像のURLを入力してください</value>
+  </data>
+  <data name="RichTextEditor_ImageUploadMessage" xml:space="preserve">
+    <value>ここに画像をドロップするか、参照してアップロードします</value>
+  </data>
+  <data name="RichTextEditor_ImageDeviceUploadMessage" xml:space="preserve">
+    <value>ここをクリックしてアップロード</value>
+  </data>
+  <data name="RichTextEditor_ImageAlternateText" xml:space="preserve">
+    <value>代替テキスト</value>
+  </data>
+  <data name="RichTextEditor_AlternateHeader" xml:space="preserve">
+    <value>代替テキスト</value>
+  </data>
+  <data name="RichTextEditor_Browse" xml:space="preserve">
+    <value>ブラウズ</value>
+  </data>
+  <data name="RichTextEditor_ImageUrl" xml:space="preserve">
+    <value>http://example.com/image.png</value>
+  </data>
+  <data name="RichTextEditor_ImageCaption" xml:space="preserve">
+    <value>キャプション</value>
+  </data>
+  <data name="RichTextEditor_ImageSizeHeader" xml:space="preserve">
+    <value>画像サイズ</value>
+  </data>
+  <data name="RichTextEditor_ImageHeight" xml:space="preserve">
+    <value>高さ</value>
+  </data>
+  <data name="RichTextEditor_ImageWidth" xml:space="preserve">
+    <value>幅</value>
+  </data>
+  <data name="RichTextEditor_TextPlaceholder" xml:space="preserve">
+    <value>テキストを入力してください</value>
+  </data>
+  <data name="RichTextEditor_InsertTableBtn" xml:space="preserve">
+    <value>テーブルを挿入</value>
+  </data>
+  <data name="RichTextEditor_TableDialogHeader" xml:space="preserve">
+    <value>テーブルを挿入</value>
+  </data>
+  <data name="RichTextEditor_TableWidth" xml:space="preserve">
+    <value>幅</value>
+  </data>
+  <data name="RichTextEditor_Cellpadding" xml:space="preserve">
+    <value>セルのパディング</value>
+  </data>
+  <data name="RichTextEditor_Cellspacing" xml:space="preserve">
+    <value>セル間隔</value>
+  </data>
+  <data name="RichTextEditor_Columns" xml:space="preserve">
+    <value>列の数</value>
+  </data>
+  <data name="RichTextEditor_Rows" xml:space="preserve">
+    <value>行の数</value>
+  </data>
+  <data name="RichTextEditor_TableRows" xml:space="preserve">
+    <value>テーブル行</value>
+  </data>
+  <data name="RichTextEditor_TableColumns" xml:space="preserve">
+    <value>テーブル列</value>
+  </data>
+  <data name="RichTextEditor_TableCellHorizontalAlign" xml:space="preserve">
+    <value>テーブルセルの水平方向の整列</value>
+  </data>
+  <data name="RichTextEditor_TableCellVerticalAlign" xml:space="preserve">
+    <value>テーブルセルの垂直方向の整列</value>
+  </data>
+  <data name="RichTextEditor_CreateTable" xml:space="preserve">
+    <value>テーブルを作成</value>
+  </data>
+  <data name="RichTextEditor_RemoveTable" xml:space="preserve">
+    <value>テーブルを削除</value>
+  </data>
+  <data name="RichTextEditor_TableHeader" xml:space="preserve">
+    <value>テーブルヘッダー</value>
+  </data>
+  <data name="RichTextEditor_TableRemove" xml:space="preserve">
+    <value>テーブル削除</value>
+  </data>
+  <data name="RichTextEditor_TableCellBackground" xml:space="preserve">
+    <value>テーブルセルの背景</value>
+  </data>
+  <data name="RichTextEditor_TableEditProperties" xml:space="preserve">
+    <value>テーブル編集プロパティ</value>
+  </data>
+  <data name="RichTextEditor_Styles" xml:space="preserve">
+    <value>スタイル</value>
+  </data>
+  <data name="RichTextEditor_InsertColumnLeft" xml:space="preserve">
+    <value>列を左に挿入</value>
+  </data>
+  <data name="RichTextEditor_InsertColumnRight" xml:space="preserve">
+    <value>列を右に挿入</value>
+  </data>
+  <data name="RichTextEditor_DeleteColumn" xml:space="preserve">
+    <value>列を削除</value>
+  </data>
+  <data name="RichTextEditor_InsertRowBefore" xml:space="preserve">
+    <value>前に行を挿入</value>
+  </data>
+  <data name="RichTextEditor_InsertRowAfter" xml:space="preserve">
+    <value>後に行を挿入</value>
+  </data>
+  <data name="RichTextEditor_DeleteRow" xml:space="preserve">
+    <value>行を削除</value>
+  </data>
+  <data name="RichTextEditor_TableEditHeader" xml:space="preserve">
+    <value>テーブルを編集</value>
+  </data>
+  <data name="RichTextEditor_TableHeadingText" xml:space="preserve">
+    <value>見出し</value>
+  </data>
+  <data name="RichTextEditor_TableColText" xml:space="preserve">
+    <value>コル</value>
+  </data>
+  <data name="RichTextEditor_ImageInsertLinkHeader" xml:space="preserve">
+    <value>リンクを挿入</value>
+  </data>
+  <data name="RichTextEditor_EditImageHeader" xml:space="preserve">
+    <value>画像を編集</value>
+  </data>
+  <data name="RichTextEditor_AlignmentsDropDownLeft" xml:space="preserve">
+    <value>左揃え</value>
+  </data>
+  <data name="RichTextEditor_AlignmentsDropDownCenter" xml:space="preserve">
+    <value>中央揃え</value>
+  </data>
+  <data name="RichTextEditor_AlignmentsDropDownRight" xml:space="preserve">
+    <value>右揃え</value>
+  </data>
+  <data name="RichTextEditor_AlignmentsDropDownJustify" xml:space="preserve">
+    <value>両端揃え</value>
+  </data>
+  <data name="RichTextEditor_ImageDisplayDropDownInline" xml:space="preserve">
+    <value>列をなして</value>
+  </data>
+  <data name="RichTextEditor_ImageDisplayDropDownBreak" xml:space="preserve">
+    <value>ブレーク</value>
+  </data>
+  <data name="RichTextEditor_TableInsertRowDropDownBefore" xml:space="preserve">
+    <value>前に行を挿入</value>
+  </data>
+  <data name="RichTextEditor_TableInsertRowDropDownAfter" xml:space="preserve">
+    <value>後に行を挿入</value>
+  </data>
+  <data name="RichTextEditor_TableInsertRowDropDownDelete" xml:space="preserve">
+    <value>行を削除</value>
+  </data>
+  <data name="RichTextEditor_TableInsertColumnDropDownLeft" xml:space="preserve">
+    <value>列を左に挿入</value>
+  </data>
+  <data name="RichTextEditor_TableInsertColumnDropDownRight" xml:space="preserve">
+    <value>列を右に挿入</value>
+  </data>
+  <data name="RichTextEditor_TableInsertColumnDropDownDelete" xml:space="preserve">
+    <value>列を削除</value>
+  </data>
+  <data name="RichTextEditor_TableVerticalAlignDropDownTop" xml:space="preserve">
+    <value>上揃え</value>
+  </data>
+  <data name="RichTextEditor_TableVerticalAlignDropDownMiddle" xml:space="preserve">
+    <value>中央揃え</value>
+  </data>
+  <data name="RichTextEditor_TableVerticalAlignDropDownBottom" xml:space="preserve">
+    <value>下揃え</value>
+  </data>
+  <data name="RichTextEditor_TableStylesDropDownDashedBorder" xml:space="preserve">
+    <value>破線枠</value>
+  </data>
+  <data name="RichTextEditor_TableStylesDropDownAlternateRows" xml:space="preserve">
+    <value>代替行</value>
+  </data>
+  <data name="RichTextEditor_PasteFormat" xml:space="preserve">
+    <value>形式を貼り付け</value>
+  </data>
+  <data name="RichTextEditor_PasteFormatContent" xml:space="preserve">
+    <value>書式設定アクションを選択します</value>
+  </data>
+  <data name="RichTextEditor_PlainText" xml:space="preserve">
+    <value>プレーンテキスト</value>
+  </data>
+  <data name="RichTextEditor_CleanFormat" xml:space="preserve">
+    <value>掃除</value>
+  </data>
+  <data name="RichTextEditor_KeepFormat" xml:space="preserve">
+    <value>保つ</value>
+  </data>
+  <data name="RichTextEditor_PasteDialogOk" xml:space="preserve">
+    <value>はい</value>
+  </data>
+  <data name="RichTextEditor_PasteDialogCancel" xml:space="preserve">
+    <value>キャンセル</value>
+  </data>
+  <data name="DiagramComponent_X" xml:space="preserve">
+    <value>X</value>
+  </data>
+  <data name="DiagramComponent_Y" xml:space="preserve">
+    <value>Y</value>
+  </data>
+  <data name="DiagramComponent_W" xml:space="preserve">
+    <value>W</value>
+  </data>
+  <data name="DiagramComponent_H" xml:space="preserve">
+    <value>H</value>
+  </data>
+  <data name="Diagram_BringToFront" xml:space="preserve">
+    <value>前に持ってくる</value>
+  </data>
+  <data name="Diagram_Copy" xml:space="preserve">
+    <value>コピーする</value>
+  </data>
+  <data name="Diagram_Cut" xml:space="preserve">
+    <value>切る</value>
+  </data>
+  <data name="Diagram_Group" xml:space="preserve">
+    <value>グループ</value>
+  </data>
+  <data name="Diagram_Grouping" xml:space="preserve">
+    <value>グルーピング</value>
+  </data>
+  <data name="Diagram_MoveForward" xml:space="preserve">
+    <value>前進する</value>
+  </data>
+  <data name="Diagram_Order" xml:space="preserve">
+    <value>注文</value>
+  </data>
+  <data name="Diagram_Paste" xml:space="preserve">
+    <value>ペースト</value>
+  </data>
+  <data name="Diagram_Redo" xml:space="preserve">
+    <value>やり直す</value>
+  </data>
+  <data name="Diagram_SelectAll" xml:space="preserve">
+    <value>すべて選択</value>
+  </data>
+  <data name="Diagram_SendBackward" xml:space="preserve">
+    <value>後方に送ります</value>
+  </data>
+  <data name="Diagram_SendToBack" xml:space="preserve">
+    <value>送る</value>
+  </data>
+  <data name="Diagram_Undo" xml:space="preserve">
+    <value>元に戻す</value>
+  </data>
+  <data name="Diagram_UnGroup" xml:space="preserve">
+    <value>グループ解除</value>
+  </data>
+  <data name="Grid_EmptyRecord" xml:space="preserve">
+    <value>表示するレコードはありません</value>
+  </data>
+  <data name="Grid_True" xml:space="preserve">
+    <value>本当</value>
+  </data>
+  <data name="Grid_False" xml:space="preserve">
+    <value>偽</value>
+  </data>
+  <data name="Grid_InvalidFilterMessage" xml:space="preserve">
+    <value>無効なフィルターデータ</value>
+  </data>
+  <data name="Grid_GroupDropArea" xml:space="preserve">
+    <value>列ヘッダーをここにドラッグして、列をグループ化します</value>
+  </data>
+  <data name="Grid_UnGroupButton" xml:space="preserve">
+    <value>グループ化を解除するにはここをクリック</value>
+  </data>
+  <data name="Grid_GroupDisable" xml:space="preserve">
+    <value>この列ではグループ化が無効になっています</value>
+  </data>
+  <data name="Grid_FilterbarTitle" xml:space="preserve">
+    <value>"sフィルターバーセル</value>
+  </data>
+  <data name="Grid_EmptyDataSourceError" xml:space="preserve">
+    <value>列はAutoGenerate Column GridのdataSourceから生成されるため、DataSourceは初期ロード時に空であってはなりません</value>
+  </data>
+  <data name="Grid_Add" xml:space="preserve">
+    <value>追加</value>
+  </data>
+  <data name="Grid_Edit" xml:space="preserve">
+    <value>編集</value>
+  </data>
+  <data name="Grid_Cancel" xml:space="preserve">
+    <value>キャンセル</value>
+  </data>
+  <data name="Grid_Update" xml:space="preserve">
+    <value>更新</value>
+  </data>
+  <data name="Grid_Delete" xml:space="preserve">
+    <value>削除</value>
+  </data>
+  <data name="Grid_Print" xml:space="preserve">
+    <value>印刷する</value>
+  </data>
+  <data name="Grid_Pdfexport" xml:space="preserve">
+    <value>PDFエクスポート</value>
+  </data>
+  <data name="Grid_Excelexport" xml:space="preserve">
+    <value>Excelエクスポート</value>
+  </data>
+  <data name="Grid_Wordexport" xml:space="preserve">
+    <value>Word Export</value>
+  </data>
+  <data name="Grid_Csvexport" xml:space="preserve">
+    <value>CSVエクスポート</value>
+  </data>
+  <data name="Grid_Search" xml:space="preserve">
+    <value>探す</value>
+  </data>
+  <data name="Grid_Columnchooser" xml:space="preserve">
+    <value>列</value>
+  </data>
+  <data name="Grid_Save" xml:space="preserve">
+    <value>セーブ</value>
+  </data>
+  <data name="Grid_Item" xml:space="preserve">
+    <value>項目</value>
+  </data>
+  <data name="Grid_Items" xml:space="preserve">
+    <value>アイテム</value>
+  </data>
+  <data name="Grid_EditOperationAlert" xml:space="preserve">
+    <value>編集操作のために選択されたレコードがありません</value>
+  </data>
+  <data name="Grid_DeleteOperationAlert" xml:space="preserve">
+    <value>削除操作にレコードが選択されていません</value>
+  </data>
+  <data name="Grid_SaveButton" xml:space="preserve">
+    <value>セーブ</value>
+  </data>
+  <data name="Grid_OKButton" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="Grid_CancelButton" xml:space="preserve">
+    <value>キャンセル</value>
+  </data>
+  <data name="Grid_EditFormTitle" xml:space="preserve">
+    <value>の詳細</value>
+  </data>
+  <data name="Grid_AddFormTitle" xml:space="preserve">
+    <value>新しいレコードを追加</value>
+  </data>
+  <data name="Grid_BatchSaveConfirm" xml:space="preserve">
+    <value>変更を保存してもよろしいですか？</value>
+  </data>
+  <data name="Grid_BatchSaveLostChanges" xml:space="preserve">
+    <value>保存していない変更は失われます。続行しますか？</value>
+  </data>
+  <data name="Grid_ConfirmDelete" xml:space="preserve">
+    <value>レコードを削除してもよろしいですか？</value>
+  </data>
+  <data name="Grid_CancelEdit" xml:space="preserve">
+    <value>変更をキャンセルしてもよろしいですか？</value>
+  </data>
+  <data name="Grid_ChooseColumns" xml:space="preserve">
+    <value>列を選択</value>
+  </data>
+  <data name="Grid_SearchColumns" xml:space="preserve">
+    <value>検索列</value>
+  </data>
+  <data name="Grid_Matchs" xml:space="preserve">
+    <value>一致するものは見つかりませんでした</value>
+  </data>
+  <data name="Grid_FilterButton" xml:space="preserve">
+    <value>フィルタ</value>
+  </data>
+  <data name="Grid_ClearButton" xml:space="preserve">
+    <value>晴れ</value>
+  </data>
+  <data name="Grid_StartsWith" xml:space="preserve">
+    <value>で始まる</value>
+  </data>
+  <data name="Grid_EndsWith" xml:space="preserve">
+    <value>次で終わる</value>
+  </data>
+  <data name="Grid_Contains" xml:space="preserve">
+    <value>含む</value>
+  </data>
+  <data name="Grid_Equal" xml:space="preserve">
+    <value>等しい</value>
+  </data>
+  <data name="Grid_NotEqual" xml:space="preserve">
+    <value>等しくない</value>
+  </data>
+  <data name="Grid_LessThan" xml:space="preserve">
+    <value>未満</value>
+  </data>
+  <data name="Grid_LessThanOrEqual" xml:space="preserve">
+    <value>より小さいか等しい</value>
+  </data>
+  <data name="Grid_GreaterThan" xml:space="preserve">
+    <value>より大きい</value>
+  </data>
+  <data name="Grid_GreaterThanOrEqual" xml:space="preserve">
+    <value>より大きいか等しい</value>
+  </data>
+  <data name="Grid_ChooseDate" xml:space="preserve">
+    <value>日付を選択してください</value>
+  </data>
+  <data name="Grid_EnterValue" xml:space="preserve">
+    <value>値を入力してください</value>
+  </data>
+  <data name="Grid_Copy" xml:space="preserve">
+    <value>コピー</value>
+  </data>
+  <data name="Grid_Group" xml:space="preserve">
+    <value>この列でグループ化</value>
+  </data>
+  <data name="Grid_Ungroup" xml:space="preserve">
+    <value>この列でグループ解除</value>
+  </data>
+  <data name="Grid_AutoFitAll" xml:space="preserve">
+    <value>すべての列を自動調整</value>
+  </data>
+  <data name="Grid_AutoFit" xml:space="preserve">
+    <value>この列を自動調整</value>
+  </data>
+  <data name="Grid_Export" xml:space="preserve">
+    <value>書き出す</value>
+  </data>
+  <data name="Grid_FirstPage" xml:space="preserve">
+    <value>先頭ページ</value>
+  </data>
+  <data name="Grid_LastPage" xml:space="preserve">
+    <value>最後のページ</value>
+  </data>
+  <data name="Grid_PreviousPage" xml:space="preserve">
+    <value>前のページ</value>
+  </data>
+  <data name="Grid_NextPage" xml:space="preserve">
+    <value>次のページ</value>
+  </data>
+  <data name="Grid_SortAscending" xml:space="preserve">
+    <value>ソート昇順</value>
+  </data>
+  <data name="Grid_SortDescending" xml:space="preserve">
+    <value>降順で並べ替え</value>
+  </data>
+  <data name="Grid_EditRecord" xml:space="preserve">
+    <value>レコードを編集</value>
+  </data>
+  <data name="Grid_DeleteRecord" xml:space="preserve">
+    <value>レコードを削除</value>
+  </data>
+  <data name="Grid_FilterMenu" xml:space="preserve">
+    <value>フィルタ</value>
+  </data>
+  <data name="Grid_SelectAll" xml:space="preserve">
+    <value>すべて選択</value>
+  </data>
+  <data name="Grid_Blanks" xml:space="preserve">
+    <value>ブランク</value>
+  </data>
+  <data name="Grid_FilterTrue" xml:space="preserve">
+    <value>本当だ</value>
+  </data>
+  <data name="Grid_FilterFalse" xml:space="preserve">
+    <value>偽</value>
+  </data>
+  <data name="Grid_NoResult" xml:space="preserve">
+    <value>一致するものは見つかりませんでした</value>
+  </data>
+  <data name="Grid_ClearFilter" xml:space="preserve">
+    <value>フィルターをクリア</value>
+  </data>
+  <data name="Grid_NumberFilter" xml:space="preserve">
+    <value>番号フィルター</value>
+  </data>
+  <data name="Grid_TextFilter" xml:space="preserve">
+    <value>テキストフィルター</value>
+  </data>
+  <data name="Grid_DateFilter" xml:space="preserve">
+    <value>日付フィルター</value>
+  </data>
+  <data name="Grid_DateTimeFilter" xml:space="preserve">
+    <value>日時フィルター</value>
+  </data>
+  <data name="Grid_MatchCase" xml:space="preserve">
+    <value>マッチケース</value>
+  </data>
+  <data name="Grid_Between" xml:space="preserve">
+    <value>の間に</value>
+  </data>
+  <data name="Grid_CustomFilter" xml:space="preserve">
+    <value>カスタムフィルター</value>
+  </data>
+  <data name="Grid_CustomFilterPlaceHolder" xml:space="preserve">
+    <value>値を入力してください</value>
+  </data>
+  <data name="Grid_CustomFilterDatePlaceHolder" xml:space="preserve">
+    <value>日付を選択してください</value>
+  </data>
+  <data name="Grid_AND" xml:space="preserve">
+    <value>そして</value>
+  </data>
+  <data name="Grid_OR" xml:space="preserve">
+    <value>または</value>
+  </data>
+  <data name="Grid_ShowRowsWhere" xml:space="preserve">
+    <value>行を表示する場所：</value>
+  </data>
+  <data name="Grid_RowSelectionCheckBoxARIA" xml:space="preserve">
+    <value>行チェックボックス</value>
+  </data>
+  <data name="Grid_FilterMenuIconARIA" xml:space="preserve">
+    <value>フィルタアイコン</value>
+  </data>
+  <data name="Grid_ColumnMenuIconARIA" xml:space="preserve">
+    <value>列メニューアイコン</value>
+  </data>
+  <data name="Grid_GroupButtonARIA" xml:space="preserve">
+    <value>グループボタン</value>
+  </data>
+  <data name="Grid_UnGroupButtonARIA" xml:space="preserve">
+    <value>グループ解除ボタン</value>
+  </data>
+  <data name="Grid_ColumnHeaderARIA" xml:space="preserve">
+    <value>列ヘッダー</value>
+  </data>
+  <data name="Grid_FilterCheckboxARIA" xml:space="preserve">
+    <value>フィルタチェックボックス</value>
+  </data>
+  <data name="Grid_HeaderSelectionCheckBoxARIA" xml:space="preserve">
+    <value>ヘッダーチェックボックス</value>
+  </data>
+  <data name="Pager_GotoPageARIA" xml:space="preserve">
+    <value>ページに移動</value>
+  </data>
+  <data name="Pager_CurrentPageInfo" xml:space="preserve">
+    <value>{0}ページのうち{1}ページ</value>
+  </data>
+  <data name="Pager_TotalItemsInfo" xml:space="preserve">
+    <value>（{0}アイテム）</value>
+  </data>
+  <data name="Pager_FirstPageTooltip" xml:space="preserve">
+    <value>最初のページに移動</value>
+  </data>
+  <data name="Pager_LastPageTooltip" xml:space="preserve">
+    <value>最後のページに移動</value>
+  </data>
+  <data name="Pager_NextPageTooltip" xml:space="preserve">
+    <value>次のページに進む</value>
+  </data>
+  <data name="Pager_PreviousPageTooltip" xml:space="preserve">
+    <value>前のページに移動</value>
+  </data>
+  <data name="Pager_NextPagerTooltip" xml:space="preserve">
+    <value>次のページャーに移動</value>
+  </data>
+  <data name="Pager_PreviousPagerTooltip" xml:space="preserve">
+    <value>前のページャーに移動</value>
+  </data>
+  <data name="Pager_PagerDropDown" xml:space="preserve">
+    <value>ページごとのアイテム</value>
+  </data>
+  <data name="Pager_PagerAllDropDown" xml:space="preserve">
+    <value>アイテム</value>
+  </data>
+  <data name="Pager_All" xml:space="preserve">
+    <value>すべて</value>
+  </data>
+  <data name="RecurrenceEditor_Count" xml:space="preserve">
+    <value>カウント</value>
+  </data>
+  <data name="RecurrenceEditor_Daily" xml:space="preserve">
+    <value>毎日</value>
+  </data>
+  <data name="RecurrenceEditor_Days" xml:space="preserve">
+    <value>日々）</value>
+  </data>
+  <data name="RecurrenceEditor_End" xml:space="preserve">
+    <value>終わり</value>
+  </data>
+  <data name="RecurrenceEditor_Every" xml:space="preserve">
+    <value>毎回</value>
+  </data>
+  <data name="RecurrenceEditor_First" xml:space="preserve">
+    <value>最初</value>
+  </data>
+  <data name="RecurrenceEditor_Fourth" xml:space="preserve">
+    <value>第4</value>
+  </data>
+  <data name="RecurrenceEditor_Last" xml:space="preserve">
+    <value>最終</value>
+  </data>
+  <data name="RecurrenceEditor_Month" xml:space="preserve">
+    <value>月</value>
+  </data>
+  <data name="RecurrenceEditor_MonthExpander" xml:space="preserve">
+    <value>月エキスパンダー"</value>
+  </data>
+  <data name="RecurrenceEditor_Monthly" xml:space="preserve">
+    <value>毎月</value>
+  </data>
+  <data name="RecurrenceEditor_MonthPosition" xml:space="preserve">
+    <value>月の位置</value>
+  </data>
+  <data name="RecurrenceEditor_Months" xml:space="preserve">
+    <value>月</value>
+  </data>
+  <data name="RecurrenceEditor_MonthWeek" xml:space="preserve">
+    <value>月週</value>
+  </data>
+  <data name="RecurrenceEditor_Never" xml:space="preserve">
+    <value>決して</value>
+  </data>
+  <data name="RecurrenceEditor_None" xml:space="preserve">
+    <value>なし</value>
+  </data>
+  <data name="RecurrenceEditor_On" xml:space="preserve">
+    <value>繰り返し</value>
+  </data>
+  <data name="RecurrenceEditor_OnDay" xml:space="preserve">
+    <value>日</value>
+  </data>
+  <data name="RecurrenceEditor_Repeat" xml:space="preserve">
+    <value>繰り返す</value>
+  </data>
+  <data name="RecurrenceEditor_RepeatEvery" xml:space="preserve">
+    <value>繰り返す</value>
+  </data>
+  <data name="RecurrenceEditor_RepeatInterval" xml:space="preserve">
+    <value>繰り返し間隔</value>
+  </data>
+  <data name="RecurrenceEditor_Second" xml:space="preserve">
+    <value>第二</value>
+  </data>
+  <data name="RecurrenceEditor_SummaryDay" xml:space="preserve">
+    <value>日々）</value>
+  </data>
+  <data name="RecurrenceEditor_SummaryMonth" xml:space="preserve">
+    <value>月</value>
+  </data>
+  <data name="RecurrenceEditor_SummaryOn" xml:space="preserve">
+    <value>オン</value>
+  </data>
+  <data name="RecurrenceEditor_SummaryRepeat" xml:space="preserve">
+    <value>繰り返し</value>
+  </data>
+  <data name="RecurrenceEditor_SummaryTimes" xml:space="preserve">
+    <value>時間</value>
+  </data>
+  <data name="RecurrenceEditor_SummaryUntil" xml:space="preserve">
+    <value>まで</value>
+  </data>
+  <data name="RecurrenceEditor_SummaryWeek" xml:space="preserve">
+    <value>週</value>
+  </data>
+  <data name="RecurrenceEditor_SummaryYear" xml:space="preserve">
+    <value>年</value>
+  </data>
+  <data name="RecurrenceEditor_Third" xml:space="preserve">
+    <value>三番</value>
+  </data>
+  <data name="RecurrenceEditor_Until" xml:space="preserve">
+    <value>まで</value>
+  </data>
+  <data name="RecurrenceEditor_Weekly" xml:space="preserve">
+    <value>毎週</value>
+  </data>
+  <data name="RecurrenceEditor_Weeks" xml:space="preserve">
+    <value>週</value>
+  </data>
+  <data name="RecurrenceEditor_YearExpander" xml:space="preserve">
+    <value>年エキスパンダー"</value>
+  </data>
+  <data name="RecurrenceEditor_Yearly" xml:space="preserve">
+    <value>毎年</value>
+  </data>
+  <data name="RecurrenceEditor_Years" xml:space="preserve">
+    <value>年</value>
+  </data>
+  <data name="Schedule_AddTitle" xml:space="preserve">
+    <value>表題を加える</value>
+  </data>
+  <data name="Schedule_Agenda" xml:space="preserve">
+    <value>議題</value>
+  </data>
+  <data name="Schedule_Alert" xml:space="preserve">
+    <value>アラート</value>
+  </data>
+  <data name="Schedule_AllDay" xml:space="preserve">
+    <value>一日中</value>
+  </data>
+  <data name="Schedule_BeginFrom" xml:space="preserve">
+    <value>から始まる</value>
+  </data>
+  <data name="Schedule_BlockAlert" xml:space="preserve">
+    <value>ブロックされた時間範囲内でイベントをスケジュールすることはできません。</value>
+  </data>
+  <data name="Schedule_Cancel" xml:space="preserve">
+    <value>キャンセル</value>
+  </data>
+  <data name="Schedule_CancelButton" xml:space="preserve">
+    <value>キャンセル</value>
+  </data>
+  <data name="Schedule_Close" xml:space="preserve">
+    <value>閉じる</value>
+  </data>
+  <data name="Schedule_CreateError" xml:space="preserve">
+    <value>イベントの期間は、発生する頻度よりも短くする必要があります。期間を短くするか、繰り返しイベントエディターで繰り返しパターンを変更します。</value>
+  </data>
+  <data name="Schedule_CreateEvent" xml:space="preserve">
+    <value>作成する</value>
+  </data>
+  <data name="Schedule_Day" xml:space="preserve">
+    <value>日</value>
+  </data>
+  <data name="Schedule_Delete" xml:space="preserve">
+    <value>削除</value>
+  </data>
+  <data name="Schedule_DeleteButton" xml:space="preserve">
+    <value>削除</value>
+  </data>
+  <data name="Schedule_DeleteContent" xml:space="preserve">
+    <value>このイベントを削除してもよろしいですか？</value>
+  </data>
+  <data name="Schedule_DeleteEvent" xml:space="preserve">
+    <value>このイベント</value>
+  </data>
+  <data name="Schedule_DeleteMultipleContent" xml:space="preserve">
+    <value>選択したイベントを削除してもよろしいですか？</value>
+  </data>
+  <data name="Schedule_DeleteMultipleEvent" xml:space="preserve">
+    <value>複数のイベントを削除する</value>
+  </data>
+  <data name="Schedule_DeleteSeries" xml:space="preserve">
+    <value>シリーズ全体</value>
+  </data>
+  <data name="Schedule_DeleteTitle" xml:space="preserve">
+    <value>イベントを削除</value>
+  </data>
+  <data name="Schedule_Description" xml:space="preserve">
+    <value>説明</value>
+  </data>
+  <data name="Schedule_Edit" xml:space="preserve">
+    <value>編集</value>
+  </data>
+  <data name="Schedule_EditContent" xml:space="preserve">
+    <value>シリーズの予定をどのように変更しますか？</value>
+  </data>
+  <data name="Schedule_EditEvent" xml:space="preserve">
+    <value>このイベント</value>
+  </data>
+  <data name="Schedule_EditFollowingEvent" xml:space="preserve">
+    <value>次のイベント</value>
+  </data>
+  <data name="Schedule_EditRecurrence" xml:space="preserve">
+    <value>繰り返しを編集</value>
+  </data>
+  <data name="Schedule_EditSeries" xml:space="preserve">
+    <value>シリーズ全体</value>
+  </data>
+  <data name="Schedule_EditTitle" xml:space="preserve">
+    <value>イベントを編集</value>
+  </data>
+  <data name="Schedule_EmptyContainer" xml:space="preserve">
+    <value>この日に予定されているイベントはありません。</value>
+  </data>
+  <data name="Schedule_End" xml:space="preserve">
+    <value>終わり</value>
+  </data>
+  <data name="Schedule_EndTime" xml:space="preserve">
+    <value>終了時間</value>
+  </data>
+  <data name="Schedule_EndAt" xml:space="preserve">
+    <value>で終了</value>
+  </data>
+  <data name="Schedule_EndTimezone" xml:space="preserve">
+    <value>終了タイムゾーン</value>
+  </data>
+  <data name="Schedule_InvalidDateError" xml:space="preserve">
+    <value>入力された日付値は無効です。</value>
+  </data>
+  <data name="Schedule_Location" xml:space="preserve">
+    <value>ロケーション</value>
+  </data>
+  <data name="Schedule_LookForMore" xml:space="preserve">
+    <value>もっと探す</value>
+  </data>
+  <data name="Schedule_Month" xml:space="preserve">
+    <value>月</value>
+  </data>
+  <data name="Schedule_MonthAgenda" xml:space="preserve">
+    <value>月の議題</value>
+  </data>
+  <data name="Schedule_More" xml:space="preserve">
+    <value>もっと</value>
+  </data>
+  <data name="Schedule_MoreDetails" xml:space="preserve">
+    <value>詳細</value>
+  </data>
+  <data name="Schedule_NewEvent" xml:space="preserve">
+    <value>新しいイベント</value>
+  </data>
+  <data name="Schedule_next" xml:space="preserve">
+    <value>次</value>
+  </data>
+  <data name="Schedule_No" xml:space="preserve">
+    <value>番号</value>
+  </data>
+  <data name="Schedule_NoEvents" xml:space="preserve">
+    <value>イベントなし</value>
+  </data>
+  <data name="Schedule_NoRecords" xml:space="preserve">
+    <value>記録なし</value>
+  </data>
+  <data name="Schedule_NoTitle" xml:space="preserve">
+    <value>（無題）</value>
+  </data>
+  <data name="Schedule_Occurrence" xml:space="preserve">
+    <value>発生</value>
+  </data>
+  <data name="Schedule_Ok" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="Schedule_Previous" xml:space="preserve">
+    <value>前</value>
+  </data>
+  <data name="Schedule_Recurrence" xml:space="preserve">
+    <value>再発</value>
+  </data>
+  <data name="Schedule_Repeat" xml:space="preserve">
+    <value>繰り返す</value>
+  </data>
+  <data name="Schedule_Repeats" xml:space="preserve">
+    <value>繰り返し</value>
+  </data>
+  <data name="Schedule_SameDayAlert" xml:space="preserve">
+    <value>同じイベントが同じ日に2回発生することはできません。</value>
+  </data>
+  <data name="Schedule_Save" xml:space="preserve">
+    <value>セーブ</value>
+  </data>
+  <data name="Schedule_SaveButton" xml:space="preserve">
+    <value>セーブ</value>
+  </data>
+  <data name="Schedule_SelectedItems" xml:space="preserve">
+    <value>選択されたアイテム</value>
+  </data>
+  <data name="Schedule_Series" xml:space="preserve">
+    <value>シリーズ</value>
+  </data>
+  <data name="Schedule_SearchTimezone" xml:space="preserve">
+    <value>タイムゾーンを検索</value>
+  </data>
+  <data name="Schedule_SeriesChangeAlert" xml:space="preserve">
+    <value>このシリーズの特定のインスタンスに加えられた変更をキャンセルし、再びシリーズ全体に一致させますか？</value>
+  </data>
+  <data name="Schedule_ShowingEventsUntil" xml:space="preserve">
+    <value>までのイベントの表示</value>
+  </data>
+  <data name="Schedule_Start" xml:space="preserve">
+    <value>開始</value>
+  </data>
+  <data name="Schedule_StartTime" xml:space="preserve">
+    <value>始まる時間</value>
+  </data>
+  <data name="Schedule_StartEndError" xml:space="preserve">
+    <value>選択した終了日は、開始日より前に発生します。</value>
+  </data>
+  <data name="Schedule_StartTimezone" xml:space="preserve">
+    <value>タイムゾーンを開始</value>
+  </data>
+  <data name="Schedule_Subject" xml:space="preserve">
+    <value>件名</value>
+  </data>
+  <data name="Schedule_TimelineDay" xml:space="preserve">
+    <value>タイムラインの日</value>
+  </data>
+  <data name="Schedule_TimelineMonth" xml:space="preserve">
+    <value>タイムライン月</value>
+  </data>
+  <data name="Schedule_TimelineWeek" xml:space="preserve">
+    <value>タイムラインウィーク</value>
+  </data>
+  <data name="Schedule_TimelineWorkWeek" xml:space="preserve">
+    <value>タイムラインワークウィーク</value>
+  </data>
+  <data name="Schedule_TimelineYear" xml:space="preserve">
+    <value>タイムライン年</value>
+  </data>
+  <data name="Schedule_Timezone" xml:space="preserve">
+    <value>タイムゾーン</value>
+  </data>
+  <data name="Schedule_Title" xml:space="preserve">
+    <value>題名</value>
+  </data>
+  <data name="Schedule_Today" xml:space="preserve">
+    <value>今日</value>
+  </data>
+  <data name="Schedule_Week" xml:space="preserve">
+    <value>週間</value>
+  </data>
+  <data name="Schedule_WeekAgenda" xml:space="preserve">
+    <value>週間アジェンダ</value>
+  </data>
+  <data name="Schedule_WorkWeek" xml:space="preserve">
+    <value>仕事の週</value>
+  </data>
+  <data name="Schedule_WorkWeekAgenda" xml:space="preserve">
+    <value>労働週間の議題</value>
+  </data>
+  <data name="Schedule_WrongPattern" xml:space="preserve">
+    <value>繰り返しパターンは無効です。</value>
+  </data>
+  <data name="Schedule_Yes" xml:space="preserve">
+    <value>はい</value>
+  </data>
+  <data name="Schedule_Year" xml:space="preserve">
+    <value>年</value>
+  </data>
+  <data name="Tab_CloseButtonTitle" xml:space="preserve">
+    <value>閉じる</value>
+  </data>
+  <data name="Carousel_PreviousSlide" xml:space="preserve">
+    <value>前のスライド</value>
+  </data>
+  <data name="Carousel_NextSlide" xml:space="preserve">
+    <value>次のスライド</value>
+  </data>
+  <data name="Carousel_Slide" xml:space="preserve">
+    <value>滑り台</value>
+  </data>
+  <data name="Carousel_Of" xml:space="preserve">
+    <value>の</value>
+  </data>
+  <data name="Carousel_PlaySlide" xml:space="preserve">
+    <value>自動アニメーションを停止します</value>
+  </data>
+  <data name="Carousel_PauseSlide" xml:space="preserve">
+    <value>自動アニメーションを開始します</value>
+  </data>
+  <data name="Carousel_SlideShow" xml:space="preserve">
+    <value>スライドショー</value>
+  </data>
+  <data name="PdfViewer" xml:space="preserve">
+    <value>PDFビューア</value>
+  </data>
+  <data name="PdfViewer_Cancel" xml:space="preserve">
+    <value>キャンセル</value>
+  </data>
+  <data name="PdfViewer_DownloadFile" xml:space="preserve">
+    <value>ダウンロードファイル</value>
+  </data>
+  <data name="PdfViewer_Download" xml:space="preserve">
+    <value>ダウンロード</value>
+  </data>
+  <data name="PdfViewer_EnterPassword" xml:space="preserve">
+    <value>このドキュメントはパスワードで保護されています。パスワードを入力して下さい。</value>
+  </data>
+  <data name="PdfViewer_FileCorrupted" xml:space="preserve">
+    <value>ファイルが破損した</value>
+  </data>
+  <data name="PdfViewer_FileCorruptedContent" xml:space="preserve">
+    <value>ファイルが破損しており、開くことができません。</value>
+  </data>
+  <data name="PdfViewer_FitPage" xml:space="preserve">
+    <value>ページに合わせる</value>
+  </data>
+  <data name="PdfViewer_FitWidth" xml:space="preserve">
+    <value>幅に合わせる</value>
+  </data>
+  <data name="PdfViewer_Automatic" xml:space="preserve">
+    <value>自動</value>
+  </data>
+  <data name="PdfViewer_GoToFirstPage" xml:space="preserve">
+    <value>最初のページを表示</value>
+  </data>
+  <data name="PdfViewer_InvalidPassword" xml:space="preserve">
+    <value>パスワードが正しくありません。もう一度お試しください。</value>
+  </data>
+  <data name="PdfViewer_NextPage" xml:space="preserve">
+    <value>次のページを表示</value>
+  </data>
+  <data name="PdfViewer_PreviousPage" xml:space="preserve">
+    <value>前のページを表示</value>
+  </data>
+  <data name="PdfViewer_OK" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="PdfViewer_Open" xml:space="preserve">
+    <value>ファイルを開く</value>
+  </data>
+  <data name="PdfViewer_PageNumber" xml:space="preserve">
+    <value>現在のページ番号</value>
+  </data>
+  <data name="PdfViewer_GoToLastPage" xml:space="preserve">
+    <value>最後のページを表示</value>
+  </data>
+  <data name="PdfViewer_Zoom" xml:space="preserve">
+    <value>ズーム</value>
+  </data>
+  <data name="PdfViewer_ZoomIn" xml:space="preserve">
+    <value>ズームイン</value>
+  </data>
+  <data name="PdfViewer_ZoomOut" xml:space="preserve">
+    <value>ズームアウトする</value>
+  </data>
+  <data name="PdfViewer_PageThumbnails" xml:space="preserve">
+    <value>ページのサムネイル</value>
+  </data>
+  <data name="PdfViewer_Bookmarks" xml:space="preserve">
+    <value>しおり</value>
+  </data>
+  <data name="PdfViewer_Print" xml:space="preserve">
+    <value>ファイルを印刷</value>
+  </data>
+  <data name="PdfViewer_PasswordProtected" xml:space="preserve">
+    <value>パスワードが必要</value>
+  </data>
+  <data name="PdfViewer_Copy" xml:space="preserve">
+    <value>コピーする</value>
+  </data>
+  <data name="PdfViewer_TextSelection" xml:space="preserve">
+    <value>テキスト選択ツール</value>
+  </data>
+  <data name="PdfViewer_Panning" xml:space="preserve">
+    <value>パンモード</value>
+  </data>
+  <data name="PdfViewer_TextSearch" xml:space="preserve">
+    <value>テキストを検索</value>
+  </data>
+  <data name="PdfViewer_Findindocument" xml:space="preserve">
+    <value>ドキュメントで検索</value>
+  </data>
+  <data name="PdfViewer_Matchcase" xml:space="preserve">
+    <value>マッチケース</value>
+  </data>
+  <data name="PdfViewer_Apply" xml:space="preserve">
+    <value>申し込む</value>
+  </data>
+  <data name="PdfViewer_GoToPage" xml:space="preserve">
+    <value>ページに移動</value>
+  </data>
+  <data name="PdfViewer_Nomatches" xml:space="preserve">
+    <value>ビューアはドキュメントの検索を終了しました。これ以上一致するものが見つかりませんでした</value>
+  </data>
+  <data name="PdfViewer_NoTextFound" xml:space="preserve">
+    <value>テキストが見つかりません</value>
+  </data>
+  <data name="PdfViewer_Undo" xml:space="preserve">
+    <value>元に戻す</value>
+  </data>
+  <data name="PdfViewer_Redo" xml:space="preserve">
+    <value>やり直す</value>
+  </data>
+  <data name="PdfViewer_Annotation" xml:space="preserve">
+    <value>注釈を追加または編集する</value>
+  </data>
+  <data name="PdfViewer_Highlight" xml:space="preserve">
+    <value>テキストを強調表示</value>
+  </data>
+  <data name="PdfViewer_Underline" xml:space="preserve">
+    <value>下線テキスト</value>
+  </data>
+  <data name="PdfViewer_Strikethrough" xml:space="preserve">
+    <value>取り消し線付きのテキスト</value>
+  </data>
+  <data name="PdfViewer_Delete" xml:space="preserve">
+    <value>注釈を削除</value>
+  </data>
+  <data name="PdfViewer_Opacity" xml:space="preserve">
+    <value>不透明度</value>
+  </data>
+  <data name="PdfViewer_ColorEdit" xml:space="preserve">
+    <value>色を変える</value>
+  </data>
+  <data name="PdfViewer_OpacityEdit" xml:space="preserve">
+    <value>不透明度を変更</value>
+  </data>
+  <data name="PdfViewer_HighlightContext" xml:space="preserve">
+    <value>ハイライト</value>
+  </data>
+  <data name="PdfViewer_UnderlineContext" xml:space="preserve">
+    <value>下線</value>
+  </data>
+  <data name="PdfViewer_StrikethroughContext" xml:space="preserve">
+    <value>取り消し線</value>
+  </data>
+  <data name="PdfViewer_Servererror" xml:space="preserve">
+    <value>Webサービスはリッスンしていません。 PDF Viewerは、そのすべての機能をWebサービスに依存しています。続行するには、Webサービスを開始してください.</value>
+  </data>
+  <data name="PdfViewer_Clienterror" xml:space="preserve">
+    <value>クライアント側のエラーが見つかりました。 AjaxRequestSettingsプロパティで提供されるカスタムヘッダーと、ServerActionSettingsプロパティでWebアクションメソッドを確認してください。</value>
+  </data>
+  <data name="PdfViewer_OpenText" xml:space="preserve">
+    <value>開いた</value>
+  </data>
+  <data name="PdfViewer_FirstText" xml:space="preserve">
+    <value>一ページ目</value>
+  </data>
+  <data name="PdfViewer_PreviousText" xml:space="preserve">
+    <value>前のページ</value>
+  </data>
+  <data name="PdfViewer_NextText" xml:space="preserve">
+    <value>次のページ</value>
+  </data>
+  <data name="PdfViewer_LastText" xml:space="preserve">
+    <value>最後のページ</value>
+  </data>
+  <data name="PdfViewer_ZoomInText" xml:space="preserve">
+    <value>ズームイン</value>
+  </data>
+  <data name="PdfViewer_ZoomOutText" xml:space="preserve">
+    <value>ズームアウトする</value>
+  </data>
+  <data name="PdfViewer_SelectionText" xml:space="preserve">
+    <value>選択</value>
+  </data>
+  <data name="PdfViewer_PanText" xml:space="preserve">
+    <value>パン</value>
+  </data>
+  <data name="PdfViewer_PrintText" xml:space="preserve">
+    <value>印刷する</value>
+  </data>
+  <data name="PdfViewer_SearchText" xml:space="preserve">
+    <value>探す</value>
+  </data>
+  <data name="PdfViewer_AnnotationEditText" xml:space="preserve">
+    <value>注釈を編集</value>
+  </data>
+  <data name="PdfViewer_LineThickness" xml:space="preserve">
+    <value>線の太さ</value>
+  </data>
+  <data name="PdfViewer_LineProperties" xml:space="preserve">
+    <value>ラインプロパティ</value>
+  </data>
+  <data name="PdfViewer_StartArrow" xml:space="preserve">
+    <value>開始矢印</value>
+  </data>
+  <data name="PdfViewer_EndArrow" xml:space="preserve">
+    <value>終了矢印</value>
+  </data>
+  <data name="PdfViewer_LineStyle" xml:space="preserve">
+    <value>線のスタイル</value>
+  </data>
+  <data name="PdfViewer_FillColor" xml:space="preserve">
+    <value>塗りつぶしの色</value>
+  </data>
+  <data name="PdfViewer_LineColor" xml:space="preserve">
+    <value>線の色</value>
+  </data>
+  <data name="PdfViewer_None" xml:space="preserve">
+    <value>無し</value>
+  </data>
+  <data name="PdfViewer_OpenArrow" xml:space="preserve">
+    <value>オープンアロー</value>
+  </data>
+  <data name="PdfViewer_ClosedArrow" xml:space="preserve">
+    <value>閉じた矢印</value>
+  </data>
+  <data name="PdfViewer_RoundArrow" xml:space="preserve">
+    <value>丸い矢</value>
+  </data>
+  <data name="PdfViewer_SquareArrow" xml:space="preserve">
+    <value>スクエアアロー</value>
+  </data>
+  <data name="PdfViewer_DiamondArrow" xml:space="preserve">
+    <value>ダイヤモンドアロー</value>
+  </data>
+  <data name="PdfViewer_Cut" xml:space="preserve">
+    <value>切る</value>
+  </data>
+  <data name="PdfViewer_Paste" xml:space="preserve">
+    <value>ペースト</value>
+  </data>
+  <data name="PdfViewer_DeleteContext" xml:space="preserve">
+    <value>削除する</value>
+  </data>
+  <data name="PdfViewer_Properties" xml:space="preserve">
+    <value>プロパティ</value>
+  </data>
+  <data name="PdfViewer_AddStamp" xml:space="preserve">
+    <value>スタンプを追加</value>
+  </data>
+  <data name="PdfViewer_AddShapes" xml:space="preserve">
+    <value>形状を追加</value>
+  </data>
+  <data name="PdfViewer_StrokeEdit" xml:space="preserve">
+    <value>ストロークの色を変更する</value>
+  </data>
+  <data name="PdfViewer_ChangeThickness" xml:space="preserve">
+    <value>境界線の太さを変更</value>
+  </data>
+  <data name="PdfViewer_Addline" xml:space="preserve">
+    <value>行を追加</value>
+  </data>
+  <data name="PdfViewer_AddArrow" xml:space="preserve">
+    <value>矢印を追加</value>
+  </data>
+  <data name="PdfViewer_AddRectangle" xml:space="preserve">
+    <value>長方形を追加</value>
+  </data>
+  <data name="PdfViewer_AddCircle" xml:space="preserve">
+    <value>サークルを追加</value>
+  </data>
+  <data name="PdfViewer_AddPolygon" xml:space="preserve">
+    <value>ポリゴンを追加</value>
+  </data>
+  <data name="PdfViewer_AddComments" xml:space="preserve">
+    <value>コメントを追加</value>
+  </data>
+  <data name="PdfViewer_Comments" xml:space="preserve">
+    <value>コメント</value>
+  </data>
+  <data name="PdfViewer_NoCommentsYet" xml:space="preserve">
+    <value>コメントはまだありません</value>
+  </data>
+  <data name="PdfViewer_Accepted" xml:space="preserve">
+    <value>受け入れた</value>
+  </data>
+  <data name="PdfViewer_Completed" xml:space="preserve">
+    <value>完了しました</value>
+  </data>
+  <data name="PdfViewer_Cancelled" xml:space="preserve">
+    <value>キャンセル</value>
+  </data>
+  <data name="PdfViewer_Rejected" xml:space="preserve">
+    <value>拒否されました</value>
+  </data>
+  <data name="PdfViewer_LeaderLength" xml:space="preserve">
+    <value>リーダーの長さ</value>
+  </data>
+  <data name="PdfViewer_ScaleRatio" xml:space="preserve">
+    <value>スケール比</value>
+  </data>
+  <data name="PdfViewer_Calibrate" xml:space="preserve">
+    <value>校正する</value>
+  </data>
+  <data name="PdfViewer_CalibrateDistance" xml:space="preserve">
+    <value>距離の調整</value>
+  </data>
+  <data name="PdfViewer_CalibratePerimeter" xml:space="preserve">
+    <value>境界を調整</value>
+  </data>
+  <data name="PdfViewer_CalibrateArea" xml:space="preserve">
+    <value>エリアの調整</value>
+  </data>
+  <data name="PdfViewer_CalibrateRadius" xml:space="preserve">
+    <value>半径を調整</value>
+  </data>
+  <data name="PdfViewer_CalibrateVolume" xml:space="preserve">
+    <value>ボリュームを調整する</value>
+  </data>
+  <data name="PdfViewer_Depth" xml:space="preserve">
+    <value>奥行き</value>
+  </data>
+  <data name="PdfViewer_Closed" xml:space="preserve">
+    <value>閉まっている</value>
+  </data>
+  <data name="PdfViewer_Round" xml:space="preserve">
+    <value>円形</value>
+  </data>
+  <data name="PdfViewer_Square" xml:space="preserve">
+    <value>平方</value>
+  </data>
+  <data name="PdfViewer_Diamond" xml:space="preserve">
+    <value>ダイヤモンド</value>
+  </data>
+  <data name="PdfViewer_Edit" xml:space="preserve">
+    <value>編集する</value>
+  </data>
+  <data name="PdfViewer_Comment" xml:space="preserve">
+    <value>コメント</value>
+  </data>
+  <data name="PdfViewer_CommentPanel" xml:space="preserve">
+    <value>コメントパネル</value>
+  </data>
+  <data name="PdfViewer_SetStatus" xml:space="preserve">
+    <value>ステータスを設定</value>
+  </data>
+  <data name="PdfViewer_Post" xml:space="preserve">
+    <value>役職</value>
+  </data>
+  <data name="PdfViewer_Page" xml:space="preserve">
+    <value>ページ</value>
+  </data>
+  <data name="PdfViewer_AddComment" xml:space="preserve">
+    <value>コメントを追加</value>
+  </data>
+  <data name="PdfViewer_AddReply" xml:space="preserve">
+    <value>返信を追加</value>
+  </data>
+  <data name="PdfViewer_ImportAnnotations" xml:space="preserve">
+    <value>注釈をインポート</value>
+  </data>
+  <data name="PdfViewer_ExportAnnotations" xml:space="preserve">
+    <value>注釈のエクスポート</value>
+  </data>
+  <data name="PdfViewer_Add" xml:space="preserve">
+    <value>追加</value>
+  </data>
+  <data name="PdfViewer_Clear" xml:space="preserve">
+    <value>晴れ</value>
+  </data>
+  <data name="PdfViewer_Bold" xml:space="preserve">
+    <value>大胆な</value>
+  </data>
+  <data name="PdfViewer_Italic" xml:space="preserve">
+    <value>イタリック</value>
+  </data>
+  <data name="PdfViewer_Strikethroughs" xml:space="preserve">
+    <value>取り消し線</value>
+  </data>
+  <data name="PdfViewer_Underlines" xml:space="preserve">
+    <value>下線</value>
+  </data>
+  <data name="PdfViewer_Superscript" xml:space="preserve">
+    <value>上付き文字</value>
+  </data>
+  <data name="PdfViewer_Subscript" xml:space="preserve">
+    <value>添字</value>
+  </data>
+  <data name="PdfViewer_AlignLeft" xml:space="preserve">
+    <value>左揃え</value>
+  </data>
+  <data name="PdfViewer_AlignRight" xml:space="preserve">
+    <value>右揃え</value>
+  </data>
+  <data name="PdfViewer_Center" xml:space="preserve">
+    <value>センター</value>
+  </data>
+  <data name="PdfViewer_Justify" xml:space="preserve">
+    <value>正当化する</value>
+  </data>
+  <data name="PdfViewer_FontColor" xml:space="preserve">
+    <value>フォントカラー</value>
+  </data>
+  <data name="PdfViewer_TextAlign" xml:space="preserve">
+    <value>テキストの配置</value>
+  </data>
+  <data name="PdfViewer_TextProperties" xml:space="preserve">
+    <value>フォントスタイル</value>
+  </data>
+  <data name="PdfViewer_DrawSignature" xml:space="preserve">
+    <value>署名を描く</value>
+  </data>
+  <data name="PdfViewer_Create" xml:space="preserve">
+    <value>作成する</value>
+  </data>
+  <data name="PdfViewer_FontFamily" xml:space="preserve">
+    <value>フォントファミリー</value>
+  </data>
+  <data name="PdfViewer_FontSize" xml:space="preserve">
+    <value>フォントサイズ</value>
+  </data>
+  <data name="PdfViewer_FreeText" xml:space="preserve">
+    <value>フリーテキスト</value>
+  </data>
+  <data name="PdfViewer_ImportFailed" xml:space="preserve">
+    <value>JSONファイルタイプまたはファイル名が無効です。有効なJSONファイルを選択してください</value>
+  </data>
+  <data name="PdfViewer_FileNotFound" xml:space="preserve">
+    <value>インポートされたJSONファイルが目的の場所に見つかりません</value>
+  </data>
+  <data name="PdfViewer_ExportFailed" xml:space="preserve">
+    <value>注釈のエクスポートアクションが失敗しました。注釈が適切に追加されていることを確認してください</value>
+  </data>
+  <data name="PdfViewer_Draw_hand_Signature" xml:space="preserve">
+    <value>ドロー</value>
+  </data>
+  <data name="PdfViewer_Type_Signature" xml:space="preserve">
+    <value>タイプ</value>
+  </data>
+  <data name="PdfViewer_Upload_Signature" xml:space="preserve">
+    <value>アップロード</value>
+  </data>
+  <data name="PdfViewer_Browse_Signature_Image" xml:space="preserve">
+    <value>ブラウズ</value>
+  </data>
+  <data name="PdfViewer_Save_Signature" xml:space="preserve">
+    <value>署名を保存</value>
+  </data>
+  <data name="PdfViewer_Enter_Signature_as_Name" xml:space="preserve">
+    <value>あなたの名前を入力してください</value>
+  </data>
+  <data name="PdfViewer_Dynamic" xml:space="preserve">
+    <value>動的</value>
+  </data>
+  <data name="PdfViewer_StandardBusiness" xml:space="preserve">
+    <value>標準的なビジネス</value>
+  </data>
+  <data name="PdfViewer_CustomStamp" xml:space="preserve">
+    <value>カスタムスタンプ</value>
+  </data>
+  <data name="PdfViewer_Revised" xml:space="preserve">
+    <value>改訂</value>
+  </data>
+  <data name="PdfViewer_Reviewed" xml:space="preserve">
+    <value>審査</value>
+  </data>
+  <data name="PdfViewer_Received" xml:space="preserve">
+    <value>受け取った</value>
+  </data>
+  <data name="PdfViewer_Approved" xml:space="preserve">
+    <value>承認済み</value>
+  </data>
+  <data name="PdfViewer_Confidential" xml:space="preserve">
+    <value>信頼</value>
+  </data>
+  <data name="PdfViewer_NotApproved" xml:space="preserve">
+    <value>未承認</value>
+  </data>
+  <data name="PdfViewer_Witness" xml:space="preserve">
+    <value>目撃者</value>
+  </data>
+  <data name="PdfViewer_InitialHere" xml:space="preserve">
+    <value>ここでイニシャル</value>
+  </data>
+  <data name="PdfViewer_SignHere" xml:space="preserve">
+    <value>ここにサインしてください</value>
+  </data>
+  <data name="PdfViewer_Draft" xml:space="preserve">
+    <value>下書き</value>
+  </data>
+  <data name="PdfViewer_Final" xml:space="preserve">
+    <value>最後の</value>
+  </data>
+  <data name="PdfViewer_ForPublicRelease" xml:space="preserve">
+    <value>公開用</value>
+  </data>
+  <data name="PdfViewer_NotForPublicRelease" xml:space="preserve">
+    <value>一般公開されていません</value>
+  </data>
+  <data name="PdfViewer_ForComment" xml:space="preserve">
+    <value>コメント用</value>
+  </data>
+  <data name="PdfViewer_Void" xml:space="preserve">
+    <value>空所</value>
+  </data>
+  <data name="PdfViewer_PreliminaryResults" xml:space="preserve">
+    <value>予備結果</value>
+  </data>
+  <data name="PdfViewer_InformationOnly" xml:space="preserve">
+    <value>情報のみ</value>
+  </data>
+  <data name="PdfViewer_SubmitForm" xml:space="preserve">
+    <value>フォームを送信</value>
+  </data>
+  <data name="PdfViewer_Required_ServiceUrl_Error_Message" xml:space="preserve">
+    <value>このPDFビューアでは、Webサービスを介してPDFファイルをレンダリングするためにサーバー側の処理が必要です。 PDFビューアを続行するには、サービスURLを構成する必要があります</value>
+  </data>
+  <data name="PdfViewer_Close" xml:space="preserve">
+    <value>選ぶ</value>
+  </data>
+  <data name="PdfViewer_HandwrittenSignatureDialogHeaderText" xml:space="preserve">
+    <value>署名を追加する</value>
+  </data>
+  <data name="PdfViewer_DrawInk" xml:space="preserve">
+    <value>اインクを引く</value>
+  </data>
+  <data name="DocumentEditor_Table" xml:space="preserve">
+    <value>テーブル</value>
+  </data>
+  <data name="DocumentEditor_Row" xml:space="preserve">
+    <value>行</value>
+  </data>
+  <data name="DocumentEditor_Cell" xml:space="preserve">
+    <value>細胞</value>
+  </data>
+  <data name="DocumentEditor_Ok" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="DocumentEditor_Cancel" xml:space="preserve">
+    <value>キャンセル</value>
+  </data>
+  <data name="DocumentEditor_Size" xml:space="preserve">
+    <value>サイズ</value>
+  </data>
+  <data name="DocumentEditor_PreferredWidth" xml:space="preserve">
+    <value>優先幅</value>
+  </data>
+  <data name="DocumentEditor_Points" xml:space="preserve">
+    <value>ポイント</value>
+  </data>
+  <data name="DocumentEditor_Percent" xml:space="preserve">
+    <value>パーセント</value>
+  </data>
+  <data name="DocumentEditor_MeasureIn" xml:space="preserve">
+    <value>で測定</value>
+  </data>
+  <data name="DocumentEditor_Alignment" xml:space="preserve">
+    <value>アライメント</value>
+  </data>
+  <data name="DocumentEditor_Left" xml:space="preserve">
+    <value>左</value>
+  </data>
+  <data name="DocumentEditor_Center" xml:space="preserve">
+    <value>センター</value>
+  </data>
+  <data name="DocumentEditor_Right" xml:space="preserve">
+    <value>正しい</value>
+  </data>
+  <data name="DocumentEditor_Justify" xml:space="preserve">
+    <value>正当化</value>
+  </data>
+  <data name="DocumentEditor_IndentFromLeft" xml:space="preserve">
+    <value>左からインデント</value>
+  </data>
+  <data name="DocumentEditor_BordersAndShading" xml:space="preserve">
+    <value>ボーダーとシェーディング</value>
+  </data>
+  <data name="DocumentEditor_Options" xml:space="preserve">
+    <value>オプション</value>
+  </data>
+  <data name="DocumentEditor_SpecifyHeight" xml:space="preserve">
+    <value>高さを指定</value>
+  </data>
+  <data name="DocumentEditor_AtLeast" xml:space="preserve">
+    <value>少なくとも</value>
+  </data>
+  <data name="DocumentEditor_Exactly" xml:space="preserve">
+    <value>丁度</value>
+  </data>
+  <data name="DocumentEditor_RowHeightIs" xml:space="preserve">
+    <value>行の高さは</value>
+  </data>
+  <data name="DocumentEditor_AllowRowToBreakAcrossPages" xml:space="preserve">
+    <value>行がページ間で分割できるようにする</value>
+  </data>
+  <data name="DocumentEditor_RepeatAsHeaderRowAtTheTopOfEachPage" xml:space="preserve">
+    <value>各ページの上部にヘッダー行として繰り返します</value>
+  </data>
+  <data name="DocumentEditor_VerticalAlignment" xml:space="preserve">
+    <value>垂直方向の配置</value>
+  </data>
+  <data name="DocumentEditor_Top" xml:space="preserve">
+    <value>上</value>
+  </data>
+  <data name="DocumentEditor_Bottom" xml:space="preserve">
+    <value>底</value>
+  </data>
+  <data name="DocumentEditor_DefaultCellMargins" xml:space="preserve">
+    <value>デフォルトのセルマージン</value>
+  </data>
+  <data name="DocumentEditor_DefaultCellSpacing" xml:space="preserve">
+    <value>デフォルトのセル間隔</value>
+  </data>
+  <data name="DocumentEditor_AllowSpacingBetweenCells" xml:space="preserve">
+    <value>セル間の間隔を許可する</value>
+  </data>
+  <data name="DocumentEditor_CellMargins" xml:space="preserve">
+    <value>セルの余白</value>
+  </data>
+  <data name="DocumentEditor_SameAsTheWholeTable" xml:space="preserve">
+    <value>テーブル全体と同じ</value>
+  </data>
+  <data name="DocumentEditor_Borders" xml:space="preserve">
+    <value>ボーダーズ</value>
+  </data>
+  <data name="DocumentEditor_None" xml:space="preserve">
+    <value>なし</value>
+  </data>
+  <data name="DocumentEditor_Style" xml:space="preserve">
+    <value>スタイル</value>
+  </data>
+  <data name="DocumentEditor_Width" xml:space="preserve">
+    <value>幅</value>
+  </data>
+  <data name="DocumentEditor_Height" xml:space="preserve">
+    <value>高さ</value>
+  </data>
+  <data name="DocumentEditor_Letter" xml:space="preserve">
+    <value>文字</value>
+  </data>
+  <data name="DocumentEditor_Tabloid" xml:space="preserve">
+    <value>タブロイド</value>
+  </data>
+  <data name="DocumentEditor_Legal" xml:space="preserve">
+    <value>法的</value>
+  </data>
+  <data name="DocumentEditor_Statement" xml:space="preserve">
+    <value>ステートメント</value>
+  </data>
+  <data name="DocumentEditor_Executive" xml:space="preserve">
+    <value>エグゼクティブ</value>
+  </data>
+  <data name="DocumentEditor_A3" xml:space="preserve">
+    <value>A3</value>
+  </data>
+  <data name="DocumentEditor_A4" xml:space="preserve">
+    <value>A4</value>
+  </data>
+  <data name="DocumentEditor_A5" xml:space="preserve">
+    <value>A5</value>
+  </data>
+  <data name="DocumentEditor_B4" xml:space="preserve">
+    <value>B4</value>
+  </data>
+  <data name="DocumentEditor_B5" xml:space="preserve">
+    <value>B5</value>
+  </data>
+  <data name="DocumentEditor_CustomSize" xml:space="preserve">
+    <value>カスタムサイズ</value>
+  </data>
+  <data name="DocumentEditor_DifferentOddAndEven" xml:space="preserve">
+    <value>奇数と偶数が異なる</value>
+  </data>
+  <data name="DocumentEditor_DifferentFirstPage" xml:space="preserve">
+    <value>別の最初のページ</value>
+  </data>
+  <data name="DocumentEditor_FromEdge" xml:space="preserve">
+    <value>端から</value>
+  </data>
+  <data name="DocumentEditor_Header" xml:space="preserve">
+    <value>ヘッダ</value>
+  </data>
+  <data name="DocumentEditor_Footer" xml:space="preserve">
+    <value>フッター</value>
+  </data>
+  <data name="DocumentEditor_Margin" xml:space="preserve">
+    <value>マージン</value>
+  </data>
+  <data name="DocumentEditor_Paper" xml:space="preserve">
+    <value>論文</value>
+  </data>
+  <data name="DocumentEditor_Layout" xml:space="preserve">
+    <value>レイアウト</value>
+  </data>
+  <data name="DocumentEditor_Orientation" xml:space="preserve">
+    <value>オリエンテーション</value>
+  </data>
+  <data name="DocumentEditor_Landscape" xml:space="preserve">
+    <value>風景</value>
+  </data>
+  <data name="DocumentEditor_Portrait" xml:space="preserve">
+    <value>肖像画</value>
+  </data>
+  <data name="DocumentEditor_ShowPageNumbers" xml:space="preserve">
+    <value>ページ番号を表示する</value>
+  </data>
+  <data name="DocumentEditor_RightAlignPageNumbers" xml:space="preserve">
+    <value>ページ番号を右揃え.</value>
+  </data>
+  <data name="DocumentEditor_Nothing" xml:space="preserve">
+    <value>なし</value>
+  </data>
+  <data name="DocumentEditor_TabLeader" xml:space="preserve">
+    <value>タブリーダー</value>
+  </data>
+  <data name="DocumentEditor_ShowLevels" xml:space="preserve">
+    <value>レベルを表示</value>
+  </data>
+  <data name="DocumentEditor_UseHyperlinksInsteadOfPageNumbers" xml:space="preserve">
+    <value>ページ番号の代わりにハイパーリンクを使用する</value>
+  </data>
+  <data name="DocumentEditor_BuildTableOfContentsFrom" xml:space="preserve">
+    <value>目次の作成</value>
+  </data>
+  <data name="DocumentEditor_Styles" xml:space="preserve">
+    <value>スタイル</value>
+  </data>
+  <data name="DocumentEditor_AvailableStyles" xml:space="preserve">
+    <value>利用可能なスタイル</value>
+  </data>
+  <data name="DocumentEditor_TOCLevel" xml:space="preserve">
+    <value>TOCレベル</value>
+  </data>
+  <data name="DocumentEditor_Heading" xml:space="preserve">
+    <value>見出し</value>
+  </data>
+  <data name="DocumentEditor_Heading1" xml:space="preserve">
+    <value>見出し1</value>
+  </data>
+  <data name="DocumentEditor_Heading2" xml:space="preserve">
+    <value>見出し2</value>
+  </data>
+  <data name="DocumentEditor_Heading3" xml:space="preserve">
+    <value>見出し3</value>
+  </data>
+  <data name="DocumentEditor_Heading4" xml:space="preserve">
+    <value>見出し4</value>
+  </data>
+  <data name="DocumentEditor_Heading5" xml:space="preserve">
+    <value>見出し5</value>
+  </data>
+  <data name="DocumentEditor_Heading6" xml:space="preserve">
+    <value>見出し6</value>
+  </data>
+  <data name="DocumentEditor_ListParagraph" xml:space="preserve">
+    <value>リスト段落</value>
+  </data>
+  <data name="DocumentEditor_Normal" xml:space="preserve">
+    <value>正常</value>
+  </data>
+  <data name="DocumentEditor_OutlineLevels" xml:space="preserve">
+    <value>アウトラインレベル</value>
+  </data>
+  <data name="DocumentEditor_TableEntryFields" xml:space="preserve">
+    <value>テーブル入力フィールド</value>
+  </data>
+  <data name="DocumentEditor_Modify" xml:space="preserve">
+    <value>変更する</value>
+  </data>
+  <data name="DocumentEditor_Color" xml:space="preserve">
+    <value>色</value>
+  </data>
+  <data name="DocumentEditor_Setting" xml:space="preserve">
+    <value>設定</value>
+  </data>
+  <data name="DocumentEditor_Box" xml:space="preserve">
+    <value>ボックス</value>
+  </data>
+  <data name="DocumentEditor_All" xml:space="preserve">
+    <value>すべて</value>
+  </data>
+  <data name="DocumentEditor_Custom" xml:space="preserve">
+    <value>カスタム</value>
+  </data>
+  <data name="DocumentEditor_Preview" xml:space="preserve">
+    <value>プレビュー</value>
+  </data>
+  <data name="DocumentEditor_Shading" xml:space="preserve">
+    <value>シェーディング</value>
+  </data>
+  <data name="DocumentEditor_Fill" xml:space="preserve">
+    <value>塗りつぶし</value>
+  </data>
+  <data name="DocumentEditor_ApplyTo" xml:space="preserve">
+    <value>に適用</value>
+  </data>
+  <data name="DocumentEditor_TableProperties" xml:space="preserve">
+    <value>テーブルのプロパティ</value>
+  </data>
+  <data name="DocumentEditor_CellOptions" xml:space="preserve">
+    <value>セルオプション</value>
+  </data>
+  <data name="DocumentEditor_TableOptions" xml:space="preserve">
+    <value>テーブルオプション</value>
+  </data>
+  <data name="DocumentEditor_InsertTable" xml:space="preserve">
+    <value>テーブルを挿入</value>
+  </data>
+  <data name="DocumentEditor_NumberOfColumns" xml:space="preserve">
+    <value>列の数</value>
+  </data>
+  <data name="DocumentEditor_NumberOfRows" xml:space="preserve">
+    <value>行の数</value>
+  </data>
+  <data name="DocumentEditor_TextToDisplay" xml:space="preserve">
+    <value>表示するテキスト</value>
+  </data>
+  <data name="DocumentEditor_Address" xml:space="preserve">
+    <value>住所</value>
+  </data>
+  <data name="DocumentEditor_InsertHyperlink" xml:space="preserve">
+    <value>ハイパーリンクを挿入</value>
+  </data>
+  <data name="DocumentEditor_EditHyperlink" xml:space="preserve">
+    <value>ハイパーリンクを編集</value>
+  </data>
+  <data name="DocumentEditor_Insert" xml:space="preserve">
+    <value>インサート</value>
+  </data>
+  <data name="DocumentEditor_General" xml:space="preserve">
+    <value>全般</value>
+  </data>
+  <data name="DocumentEditor_Indentation" xml:space="preserve">
+    <value>くぼみ</value>
+  </data>
+  <data name="DocumentEditor_BeforeText" xml:space="preserve">
+    <value>テキストの前</value>
+  </data>
+  <data name="DocumentEditor_Special" xml:space="preserve">
+    <value>特別</value>
+  </data>
+  <data name="DocumentEditor_FirstLine" xml:space="preserve">
+    <value>最初の行</value>
+  </data>
+  <data name="DocumentEditor_Hanging" xml:space="preserve">
+    <value>ぶら下げ</value>
+  </data>
+  <data name="DocumentEditor_AfterText" xml:space="preserve">
+    <value>テキストの後</value>
+  </data>
+  <data name="DocumentEditor_By" xml:space="preserve">
+    <value>沿って</value>
+  </data>
+  <data name="DocumentEditor_Before" xml:space="preserve">
+    <value>前</value>
+  </data>
+  <data name="DocumentEditor_LineSpacing" xml:space="preserve">
+    <value>行間隔</value>
+  </data>
+  <data name="DocumentEditor_After" xml:space="preserve">
+    <value>後</value>
+  </data>
+  <data name="DocumentEditor_At" xml:space="preserve">
+    <value>で</value>
+  </data>
+  <data name="DocumentEditor_Multiple" xml:space="preserve">
+    <value>複数</value>
+  </data>
+  <data name="DocumentEditor_Spacing" xml:space="preserve">
+    <value>間隔</value>
+  </data>
+  <data name="DocumentEditor_DefineNewMultilevelList" xml:space="preserve">
+    <value>新しいマルチレベルリストを定義する</value>
+  </data>
+  <data name="DocumentEditor_ListLevel" xml:space="preserve">
+    <value>リストレベル</value>
+  </data>
+  <data name="DocumentEditor_ChooseLevelToModify" xml:space="preserve">
+    <value>変更するレベルを選択してください</value>
+  </data>
+  <data name="DocumentEditor_Level" xml:space="preserve">
+    <value>レベル</value>
+  </data>
+  <data name="DocumentEditor_NumberFormat" xml:space="preserve">
+    <value>数値形式</value>
+  </data>
+  <data name="DocumentEditor_NumberStyleForThisLevel" xml:space="preserve">
+    <value>このレベルの番号スタイル</value>
+  </data>
+  <data name="DocumentEditor_EnterFormattingForNumber" xml:space="preserve">
+    <value>番号の書式を入力してください</value>
+  </data>
+  <data name="DocumentEditor_StartAt" xml:space="preserve">
+    <value>で開始</value>
+  </data>
+  <data name="DocumentEditor_RestartListAfter" xml:space="preserve">
+    <value>後の再起動リスト</value>
+  </data>
+  <data name="DocumentEditor_Position" xml:space="preserve">
+    <value>ポジション</value>
+  </data>
+  <data name="DocumentEditor_TextIndentAt" xml:space="preserve">
+    <value>テキストインデント</value>
+  </data>
+  <data name="DocumentEditor_AlignedAt" xml:space="preserve">
+    <value>に整列</value>
+  </data>
+  <data name="DocumentEditor_FollowNumberWith" xml:space="preserve">
+    <value>番号をフォロー</value>
+  </data>
+  <data name="DocumentEditor_TabCharacter" xml:space="preserve">
+    <value>タブ文字</value>
+  </data>
+  <data name="DocumentEditor_Space" xml:space="preserve">
+    <value>スペース</value>
+  </data>
+  <data name="DocumentEditor_Arabic" xml:space="preserve">
+    <value>アラビア語</value>
+  </data>
+  <data name="DocumentEditor_UpRoman" xml:space="preserve">
+    <value>アップローマ</value>
+  </data>
+  <data name="DocumentEditor_LowRoman" xml:space="preserve">
+    <value>ローマン</value>
+  </data>
+  <data name="DocumentEditor_UpLetter" xml:space="preserve">
+    <value>アップレター</value>
+  </data>
+  <data name="DocumentEditor_LowLetter" xml:space="preserve">
+    <value>ローレター</value>
+  </data>
+  <data name="DocumentEditor_Number" xml:space="preserve">
+    <value>数</value>
+  </data>
+  <data name="DocumentEditor_LeadingZero" xml:space="preserve">
+    <value>先行ゼロ</value>
+  </data>
+  <data name="DocumentEditor_Bullet" xml:space="preserve">
+    <value>弾丸</value>
+  </data>
+  <data name="DocumentEditor_Ordinal" xml:space="preserve">
+    <value>序数</value>
+  </data>
+  <data name="DocumentEditor_OrdinalText" xml:space="preserve">
+    <value>序文</value>
+  </data>
+  <data name="DocumentEditor_ForEast" xml:space="preserve">
+    <value>東方</value>
+  </data>
+  <data name="DocumentEditor_NoRestart" xml:space="preserve">
+    <value>再起動なし</value>
+  </data>
+  <data name="DocumentEditor_Font" xml:space="preserve">
+    <value>フォント</value>
+  </data>
+  <data name="DocumentEditor_FontStyle" xml:space="preserve">
+    <value>フォントスタイル</value>
+  </data>
+  <data name="DocumentEditor_UnderlineStyle" xml:space="preserve">
+    <value>下線スタイル</value>
+  </data>
+  <data name="DocumentEditor_FontColor" xml:space="preserve">
+    <value>フォントの色</value>
+  </data>
+  <data name="DocumentEditor_Effects" xml:space="preserve">
+    <value>効果</value>
+  </data>
+  <data name="DocumentEditor_Strikethrough" xml:space="preserve">
+    <value>取り消し線</value>
+  </data>
+  <data name="DocumentEditor_Superscript" xml:space="preserve">
+    <value>上付き</value>
+  </data>
+  <data name="DocumentEditor_Subscript" xml:space="preserve">
+    <value>添字</value>
+  </data>
+  <data name="DocumentEditor_DoubleStrikethrough" xml:space="preserve">
+    <value>二重取り消し線</value>
+  </data>
+  <data name="DocumentEditor_Regular" xml:space="preserve">
+    <value>レギュラー</value>
+  </data>
+  <data name="DocumentEditor_Bold" xml:space="preserve">
+    <value>大胆な</value>
+  </data>
+  <data name="DocumentEditor_Italic" xml:space="preserve">
+    <value>イタリック</value>
+  </data>
+  <data name="DocumentEditor_Cut" xml:space="preserve">
+    <value>切る</value>
+  </data>
+  <data name="DocumentEditor_Copy" xml:space="preserve">
+    <value>コピー</value>
+  </data>
+  <data name="DocumentEditor_Paste" xml:space="preserve">
+    <value>ペースト</value>
+  </data>
+  <data name="DocumentEditor_Hyperlink" xml:space="preserve">
+    <value>ハイパーリンク</value>
+  </data>
+  <data name="DocumentEditor_OpenHyperlink" xml:space="preserve">
+    <value>ハイパーリンクを開く</value>
+  </data>
+  <data name="DocumentEditor_CopyHyperlink" xml:space="preserve">
+    <value>ハイパーリンクをコピー</value>
+  </data>
+  <data name="DocumentEditor_RemoveHyperlink" xml:space="preserve">
+    <value>ハイパーリンクを削除</value>
+  </data>
+  <data name="DocumentEditor_Paragraph" xml:space="preserve">
+    <value>段落</value>
+  </data>
+  <data name="DocumentEditor_LinkedStyle" xml:space="preserve">
+    <value>リンク済み（段落とキャラクター）</value>
+  </data>
+  <data name="DocumentEditor_Character" xml:space="preserve">
+    <value>キャラクター</value>
+  </data>
+  <data name="DocumentEditor_MergeCells" xml:space="preserve">
+    <value>セルを結合します</value>
+  </data>
+  <data name="DocumentEditor_InsertAbove" xml:space="preserve">
+    <value>上に挿入</value>
+  </data>
+  <data name="DocumentEditor_InsertBelow" xml:space="preserve">
+    <value>下に挿入</value>
+  </data>
+  <data name="DocumentEditor_InsertLeft" xml:space="preserve">
+    <value>左に挿入</value>
+  </data>
+  <data name="DocumentEditor_InsertRight" xml:space="preserve">
+    <value>右に挿入</value>
+  </data>
+  <data name="DocumentEditor_Delete" xml:space="preserve">
+    <value>削除</value>
+  </data>
+  <data name="DocumentEditor_DeleteTable" xml:space="preserve">
+    <value>テーブルを削除</value>
+  </data>
+  <data name="DocumentEditor_DeleteRow" xml:space="preserve">
+    <value>行を削除</value>
+  </data>
+  <data name="DocumentEditor_DeleteColumn" xml:space="preserve">
+    <value>列を削除</value>
+  </data>
+  <data name="DocumentEditor_FileName" xml:space="preserve">
+    <value>ファイル名</value>
+  </data>
+  <data name="DocumentEditor_FormatType" xml:space="preserve">
+    <value>フォーマットタイプ</value>
+  </data>
+  <data name="DocumentEditor_Save" xml:space="preserve">
+    <value>セーブ</value>
+  </data>
+  <data name="DocumentEditor_Navigation" xml:space="preserve">
+    <value>ナビゲーション</value>
+  </data>
+  <data name="DocumentEditor_Results" xml:space="preserve">
+    <value>結果</value>
+  </data>
+  <data name="DocumentEditor_Replace" xml:space="preserve">
+    <value>交換</value>
+  </data>
+  <data name="DocumentEditor_ReplaceAll" xml:space="preserve">
+    <value>すべて置換</value>
+  </data>
+  <data name="DocumentEditor_WeReplacedAll" xml:space="preserve">
+    <value>すべて交換しました</value>
+  </data>
+  <data name="DocumentEditor_Find" xml:space="preserve">
+    <value>見つける</value>
+  </data>
+  <data name="DocumentEditor_NoMatches" xml:space="preserve">
+    <value>一致なし</value>
+  </data>
+  <data name="DocumentEditor_AllDone" xml:space="preserve">
+    <value>全部できた</value>
+  </data>
+  <data name="DocumentEditor_Result" xml:space="preserve">
+    <value>結果</value>
+  </data>
+  <data name="DocumentEditor_Of" xml:space="preserve">
+    <value>の</value>
+  </data>
+  <data name="DocumentEditor_Instances" xml:space="preserve">
+    <value>インスタンス</value>
+  </data>
+  <data name="DocumentEditor_With" xml:space="preserve">
+    <value>と</value>
+  </data>
+  <data name="DocumentEditor_ClickToFollowLink" xml:space="preserve">
+    <value>クリックしてリンクをたどる</value>
+  </data>
+  <data name="DocumentEditor_ContinueNumbering" xml:space="preserve">
+    <value>番号付けを続ける</value>
+  </data>
+  <data name="DocumentEditor_BookmarkName" xml:space="preserve">
+    <value>ブックマーク名</value>
+  </data>
+  <data name="DocumentEditor_Close" xml:space="preserve">
+    <value>閉じる</value>
+  </data>
+  <data name="DocumentEditor_RestartAt" xml:space="preserve">
+    <value>再起動</value>
+  </data>
+  <data name="DocumentEditor_Properties" xml:space="preserve">
+    <value>プロパティ</value>
+  </data>
+  <data name="DocumentEditor_Name" xml:space="preserve">
+    <value>名前</value>
+  </data>
+  <data name="DocumentEditor_StyleType" xml:space="preserve">
+    <value>スタイルタイプ</value>
+  </data>
+  <data name="DocumentEditor_StyleBasedOn" xml:space="preserve">
+    <value>に基づくスタイル</value>
+  </data>
+  <data name="DocumentEditor_StyleForFollowingParagraph" xml:space="preserve">
+    <value>次の段落のスタイル</value>
+  </data>
+  <data name="DocumentEditor_Formatting" xml:space="preserve">
+    <value>書式設定</value>
+  </data>
+  <data name="DocumentEditor_NumberingAndBullets" xml:space="preserve">
+    <value>番号付けと箇条書き</value>
+  </data>
+  <data name="DocumentEditor_Numbering" xml:space="preserve">
+    <value>番号付け</value>
+  </data>
+  <data name="DocumentEditor_UpdateField" xml:space="preserve">
+    <value>更新フィールド</value>
+  </data>
+  <data name="DocumentEditor_EditField" xml:space="preserve">
+    <value>フィールドを編集</value>
+  </data>
+  <data name="DocumentEditor_Bookmark" xml:space="preserve">
+    <value>しおり</value>
+  </data>
+  <data name="DocumentEditor_PageSetup" xml:space="preserve">
+    <value>ページ設定</value>
+  </data>
+  <data name="DocumentEditor_NoBookmarksFound" xml:space="preserve">
+    <value>ブックマークが見つかりません</value>
+  </data>
+  <data name="DocumentEditor_Format" xml:space="preserve">
+    <value>フォーマット</value>
+  </data>
+  <data name="DocumentEditor_CreateNewStyle" xml:space="preserve">
+    <value>新しいスタイルを作成</value>
+  </data>
+  <data name="DocumentEditor_ModifyStyle" xml:space="preserve">
+    <value>スタイルを変更</value>
+  </data>
+  <data name="DocumentEditor_New" xml:space="preserve">
+    <value>新着</value>
+  </data>
+  <data name="DocumentEditor_Bullets" xml:space="preserve">
+    <value>箇条書き</value>
+  </data>
+  <data name="DocumentEditor_UseBookmarks" xml:space="preserve">
+    <value>ブックマークを使用する</value>
+  </data>
+  <data name="DocumentEditor_TableOfContents" xml:space="preserve">
+    <value>目次</value>
+  </data>
+  <data name="DocumentEditor_AutoFit" xml:space="preserve">
+    <value>自動調整</value>
+  </data>
+  <data name="DocumentEditor_AutoFitToContents" xml:space="preserve">
+    <value>コンテンツへの自動適合</value>
+  </data>
+  <data name="DocumentEditor_AutoFitToWindow" xml:space="preserve">
+    <value>ウィンドウに自動調整</value>
+  </data>
+  <data name="DocumentEditor_FixedColumnWidth" xml:space="preserve">
+    <value>固定列幅</value>
+  </data>
+  <data name="DocumentEditor_Reset" xml:space="preserve">
+    <value>リセットする</value>
+  </data>
+  <data name="DocumentEditor_MatchCase" xml:space="preserve">
+    <value>マッチケース</value>
+  </data>
+  <data name="DocumentEditor_WholeWords" xml:space="preserve">
+    <value>全体の言葉</value>
+  </data>
+  <data name="DocumentEditor_Add" xml:space="preserve">
+    <value>追加</value>
+  </data>
+  <data name="DocumentEditor_GoTo" xml:space="preserve">
+    <value>に行く</value>
+  </data>
+  <data name="DocumentEditor_SearchFor" xml:space="preserve">
+    <value>検索する</value>
+  </data>
+  <data name="DocumentEditor_ReplaceWith" xml:space="preserve">
+    <value>と置換する</value>
+  </data>
+  <data name="DocumentEditor_TOC1" xml:space="preserve">
+    <value>目次1</value>
+  </data>
+  <data name="DocumentEditor_TOC2" xml:space="preserve">
+    <value>目次2</value>
+  </data>
+  <data name="DocumentEditor_TOC3" xml:space="preserve">
+    <value>目次3</value>
+  </data>
+  <data name="DocumentEditor_TOC4" xml:space="preserve">
+    <value>目次4</value>
+  </data>
+  <data name="DocumentEditor_TOC5" xml:space="preserve">
+    <value>目次5</value>
+  </data>
+  <data name="DocumentEditor_TOC6" xml:space="preserve">
+    <value>目次6</value>
+  </data>
+  <data name="DocumentEditor_TOC7" xml:space="preserve">
+    <value>目次7</value>
+  </data>
+  <data name="DocumentEditor_TOC8" xml:space="preserve">
+    <value>目次8</value>
+  </data>
+  <data name="DocumentEditor_TOC9" xml:space="preserve">
+    <value>目次9</value>
+  </data>
+  <data name="DocumentEditor_RightToLeft" xml:space="preserve">
+    <value>右から左に</value>
+  </data>
+  <data name="DocumentEditor_LeftToRight" xml:space="preserve">
+    <value>左から右へ</value>
+  </data>
+  <data name="DocumentEditor_Direction" xml:space="preserve">
+    <value>方向</value>
+  </data>
+  <data name="DocumentEditor_TableDirection" xml:space="preserve">
+    <value>テーブルの方向</value>
+  </data>
+  <data name="DocumentEditor_IndentFromRight" xml:space="preserve">
+    <value>右からインデント</value>
+  </data>
+  <data name="DocumentEditor_ContextualSpacing" xml:space="preserve">
+    <value>同じスタイルの段落間にスペースを追加しないでください</value>
+  </data>
+  <data name="DocumentEditor_PasswordMismatch" xml:space="preserve">
+    <value>パスワードが一致しません</value>
+  </data>
+  <data name="DocumentEditor_RestrictEditing" xml:space="preserve">
+    <value>編集を制限する</value>
+  </data>
+  <data name="DocumentEditor_FormattingRestrictions" xml:space="preserve">
+    <value>フォーマットの制限</value>
+  </data>
+  <data name="DocumentEditor_AllowFormatting" xml:space="preserve">
+    <value>フォーマットを許可する</value>
+  </data>
+  <data name="DocumentEditor_EditingRestrictions" xml:space="preserve">
+    <value>編集制限</value>
+  </data>
+  <data name="DocumentEditor_ReadOnly" xml:space="preserve">
+    <value>読み取り専用</value>
+  </data>
+  <data name="DocumentEditor_ExceptionsOptional" xml:space="preserve">
+    <value>例外（オプション）</value>
+  </data>
+  <data name="DocumentEditor_SelectPartOfDocumentAndUser" xml:space="preserve">
+    <value>文書の一部を選択し、自由に編集できるユーザーを選択します。</value>
+  </data>
+  <data name="DocumentEditor_Everyone" xml:space="preserve">
+    <value>全員</value>
+  </data>
+  <data name="DocumentEditor_MoreUsers" xml:space="preserve">
+    <value>より多くのユーザー</value>
+  </data>
+  <data name="DocumentEditor_AddUsers" xml:space="preserve">
+    <value>ユーザーを追加</value>
+  </data>
+  <data name="DocumentEditor_EnforcingProtection" xml:space="preserve">
+    <value>はい、保護の実施を開始します</value>
+  </data>
+  <data name="DocumentEditor_StartEnforcingProtection" xml:space="preserve">
+    <value>保護の実施を開始</value>
+  </data>
+  <data name="DocumentEditor_EnterUser" xml:space="preserve">
+    <value>ユーザーを入力</value>
+  </data>
+  <data name="DocumentEditor_Users" xml:space="preserve">
+    <value>ユーザー</value>
+  </data>
+  <data name="DocumentEditor_EnterNewPassword" xml:space="preserve">
+    <value>新しいパスワードを入力してください</value>
+  </data>
+  <data name="DocumentEditor_ReenterNewPasswordToConfirm" xml:space="preserve">
+    <value>確認のために新しいパスワードを再入力してください</value>
+  </data>
+  <data name="DocumentEditor_YourPermissions" xml:space="preserve">
+    <value>あなたの許可</value>
+  </data>
+  <data name="DocumentEditor_ProtectedDocument" xml:space="preserve">
+    <value>このドキュメントは、意図しない編集から保護されています。</value>
+  </data>
+  <data name="DocumentEditor_YouMayFormatTextOnlyWithCertainStyles" xml:space="preserve">
+    <value>特定のスタイルでのみテキストをフォーマットできます。</value>
+  </data>
+  <data name="DocumentEditor_StopProtection" xml:space="preserve">
+    <value>保護を停止</value>
+  </data>
+  <data name="DocumentEditor_Password" xml:space="preserve">
+    <value>パスワード</value>
+  </data>
+  <data name="DocumentEditor_SpellingEditor" xml:space="preserve">
+    <value>スペルエディター</value>
+  </data>
+  <data name="DocumentEditor_Spelling" xml:space="preserve">
+    <value>つづり</value>
+  </data>
+  <data name="DocumentEditor_SpellCheck" xml:space="preserve">
+    <value>スペルチェック</value>
+  </data>
+  <data name="DocumentEditor_UnderlineErrors" xml:space="preserve">
+    <value>エラーに下線を引く</value>
+  </data>
+  <data name="DocumentEditor_Ignore" xml:space="preserve">
+    <value>無視する</value>
+  </data>
+  <data name="DocumentEditor_IgnoreAll" xml:space="preserve">
+    <value>すべて無視</value>
+  </data>
+  <data name="DocumentEditor_AddToDictionary" xml:space="preserve">
+    <value>辞書に追加</value>
+  </data>
+  <data name="DocumentEditor_Change" xml:space="preserve">
+    <value>変化する</value>
+  </data>
+  <data name="DocumentEditor_ChangeAll" xml:space="preserve">
+    <value>すべて変更</value>
+  </data>
+  <data name="DocumentEditor_Suggestions" xml:space="preserve">
+    <value>提案</value>
+  </data>
+  <data name="DocumentEditor_ThePasswordIsIncorrect" xml:space="preserve">
+    <value>パスワードが間違っています</value>
+  </data>
+  <data name="DocumentEditor_ErrorInEstablishingConnectionWithWebServer" xml:space="preserve">
+    <value>Webサーバーとの接続を確立する際のエラー</value>
+  </data>
+  <data name="DocumentEditor_HighlightTheRegionsICanEdit" xml:space="preserve">
+    <value>編集可能な地域をハイライトします</value>
+  </data>
+  <data name="DocumentEditor_ShowAllRegionsICanEdit" xml:space="preserve">
+    <value>編集可能なすべての地域を表示</value>
+  </data>
+  <data name="DocumentEditor_FindNextRegionICanEdit" xml:space="preserve">
+    <value>編集可能な次の地域を検索</value>
+  </data>
+  <data name="DocumentEditor_KeepSourceFormatting" xml:space="preserve">
+    <value>ソースのフォーマットを保持</value>
+  </data>
+  <data name="DocumentEditor_MatchDestinationFormatting" xml:space="preserve">
+    <value>一致先のフォーマット</value>
+  </data>
+  <data name="DocumentEditor_TextOnly" xml:space="preserve">
+    <value>テキストのみ</value>
+  </data>
+  <data name="DocumentEditor_Comments" xml:space="preserve">
+    <value>コメント</value>
+  </data>
+  <data name="DocumentEditor_TypeYourComment" xml:space="preserve">
+    <value>コメントを入力してください</value>
+  </data>
+  <data name="DocumentEditor_Post" xml:space="preserve">
+    <value>役職</value>
+  </data>
+  <data name="DocumentEditor_Reply" xml:space="preserve">
+    <value>応答</value>
+  </data>
+  <data name="DocumentEditor_NewComment" xml:space="preserve">
+    <value>新しいコメント</value>
+  </data>
+  <data name="DocumentEditor_Edit" xml:space="preserve">
+    <value>編集</value>
+  </data>
+  <data name="DocumentEditor_Resolve" xml:space="preserve">
+    <value>解決する</value>
+  </data>
+  <data name="DocumentEditor_Reopen" xml:space="preserve">
+    <value>再開する</value>
+  </data>
+  <data name="DocumentEditor_NoCommentsInThisDocument" xml:space="preserve">
+    <value>このドキュメントにはコメントがありません</value>
+  </data>
+  <data name="DocumentEditor_More" xml:space="preserve">
+    <value>もっと</value>
+  </data>
+  <data name="DocumentEditor_TypeYourCommentHere" xml:space="preserve">
+    <value>ここにコメントを入力してください</value>
+  </data>
+  <data name="DocumentEditor_NextComment" xml:space="preserve">
+    <value>次のコメント</value>
+  </data>
+  <data name="DocumentEditor_PreviousComment" xml:space="preserve">
+    <value>前のコメント</value>
+  </data>
+  <data name="DocumentEditor_UnPostedComments" xml:space="preserve">
+    <value>未投稿のコメント</value>
+  </data>
+  <data name="DocumentEditor_DiscardComment" xml:space="preserve">
+    <value>投稿されていないコメントを追加しました。続行すると、そのコメントは破棄されます。</value>
+  </data>
+  <data name="DocumentEditor_NoHeadings" xml:space="preserve">
+    <value>見出しが見つかりません！</value>
+  </data>
+  <data name="DocumentEditor_AddHeadings" xml:space="preserve">
+    <value>このドキュメントには見出しがありません。見出しを追加してもう一度お試しください。</value>
+  </data>
+  <data name="DocumentEditor_MoreOptions" xml:space="preserve">
+    <value>より多くのオプション</value>
+  </data>
+  <data name="DocumentEditor_ClickToSeeThisComment" xml:space="preserve">
+    <value>クリックしてこのコメントを表示</value>
+  </data>
+  <data name="DocumentEditor_DropDownFormField" xml:space="preserve">
+    <value>ドロップダウンフォームフィールド</value>
+  </data>
+  <data name="DocumentEditor_DropDownItems" xml:space="preserve">
+    <value>ドロップダウンアイテム</value>
+  </data>
+  <data name="DocumentEditor_ItemsInDropDownList" xml:space="preserve">
+    <value>ドロップダウンリストの項目</value>
+  </data>
+  <data name="DocumentEditor_ADDButton" xml:space="preserve">
+    <value>追加</value>
+  </data>
+  <data name="DocumentEditor_REMOVE" xml:space="preserve">
+    <value>削除する</value>
+  </data>
+  <data name="DocumentEditor_FieldSettings" xml:space="preserve">
+    <value>フィールド設定</value>
+  </data>
+  <data name="DocumentEditor_Tooltip" xml:space="preserve">
+    <value>ツールチップ</value>
+  </data>
+  <data name="DocumentEditor_DropDownEnabled" xml:space="preserve">
+    <value>ドロップダウンが有効</value>
+  </data>
+  <data name="DocumentEditor_CheckBoxFormField" xml:space="preserve">
+    <value>チェックボックスフォームフィールド</value>
+  </data>
+  <data name="DocumentEditor_CheckBoxSize" xml:space="preserve">
+    <value>チェックボックスサイズ</value>
+  </data>
+  <data name="DocumentEditor_Auto" xml:space="preserve">
+    <value>自動</value>
+  </data>
+  <data name="DocumentEditor_DefaultValue" xml:space="preserve">
+    <value>デフォルト値</value>
+  </data>
+  <data name="DocumentEditor_NotChecked" xml:space="preserve">
+    <value>未検査</value>
+  </data>
+  <data name="DocumentEditor_Checked" xml:space="preserve">
+    <value>チェック済み</value>
+  </data>
+  <data name="DocumentEditor_CheckBoxEnabled" xml:space="preserve">
+    <value>チェックボックスを有効にしました</value>
+  </data>
+  <data name="DocumentEditor_TextFormField" xml:space="preserve">
+    <value>テキストフォームフィールド</value>
+  </data>
+  <data name="DocumentEditor_Type" xml:space="preserve">
+    <value>タイプ</value>
+  </data>
+  <data name="DocumentEditor_DefaultText" xml:space="preserve">
+    <value>デフォルトのテキスト</value>
+  </data>
+  <data name="DocumentEditor_MaximumLength" xml:space="preserve">
+    <value>最大長</value>
+  </data>
+  <data name="DocumentEditor_TextFormat" xml:space="preserve">
+    <value>テキスト形式</value>
+  </data>
+  <data name="DocumentEditor_FillInEnabled" xml:space="preserve">
+    <value>入力が有効</value>
+  </data>
+  <data name="DocumentEditor_DefaultNumber" xml:space="preserve">
+    <value>デフォルト番号</value>
+  </data>
+  <data name="DocumentEditor_DefaultDate" xml:space="preserve">
+    <value>デフォルトの日付</value>
+  </data>
+  <data name="DocumentEditor_DateFormat" xml:space="preserve">
+    <value>日付形式</value>
+  </data>
+  <data name="DocumentEditor_MergeTrack" xml:space="preserve">
+    <value>このアクションは変更としてマークされません。続けたいですか？</value>
+  </data>
+  <data name="DocumentEditor_UnTrack" xml:space="preserve">
+    <value>追跡できません</value>
+  </data>
+  <data name="DocumentEditor_Accept" xml:space="preserve">
+    <value>受け入れる</value>
+  </data>
+  <data name="DocumentEditor_Reject" xml:space="preserve">
+    <value>拒否する</value>
+  </data>
+  <data name="DocumentEditor_PreviousChanges" xml:space="preserve">
+    <value>以前の変更</value>
+  </data>
+  <data name="DocumentEditor_NextChanges" xml:space="preserve">
+    <value>次の変更</value>
+  </data>
+  <data name="DocumentEditor_Inserted" xml:space="preserve">
+    <value>挿入</value>
+  </data>
+  <data name="DocumentEditor_Deleted" xml:space="preserve">
+    <value>削除しました</value>
+  </data>
+  <data name="DocumentEditor_Changes" xml:space="preserve">
+    <value>変化</value>
+  </data>
+  <data name="DocumentEditor_AcceptAll" xml:space="preserve">
+    <value>すべてを受け入れる</value>
+  </data>
+  <data name="DocumentEditor_RejectAll" xml:space="preserve">
+    <value>すべて拒否</value>
+  </data>
+  <data name="DocumentEditor_NoChanges" xml:space="preserve">
+    <value>変更なし</value>
+  </data>
+  <data name="DocumentEditor_AcceptChanges" xml:space="preserve">
+    <value>変更を受け入れる</value>
+  </data>
+  <data name="DocumentEditor_RejectChanges" xml:space="preserve">
+    <value>変更を拒否</value>
+  </data>
+  <data name="DocumentEditor_User" xml:space="preserve">
+    <value>ユーザー</value>
+  </data>
+  <data name="DocumentEditor_View" xml:space="preserve">
+    <value>見る</value>
+  </data>
+  <data name="DocumentEditor_UnprotectDocument" xml:space="preserve">
+    <value>ドキュメントの保護を解除する</value>
+  </data>
+  <data name="DocumentEditor_FormFieldsOnly" xml:space="preserve">
+    <value>この地域のフォームにのみ記入できます。</value>
+  </data>
+  <data name="DocumentEditor_IndentsAndSpacing" xml:space="preserve">
+    <value>未亡人/孤児のコントロール</value>
+  </data>
+  <data name="DocumentEditor_LineAndBreakPage" xml:space="preserve">
+    <value>インデントと間隔</value>
+  </data>
+  <data name="DocumentEditor_Pagination" xml:space="preserve">
+    <value>行とページの区切り</value>
+  </data>
+  <data name="DocumentEditor_WidowControl" xml:space="preserve">
+    <value>行を一緒に保つ</value>
+  </data>
+  <data name="DocumentEditor_KeepWithNext" xml:space="preserve">
+    <value>一度無視する</value>
+  </data>
+  <data name="DocumentEditor_KeepLinesTogether" xml:space="preserve">
+    <value>次を続ける</value>
+  </data>
+  <data name="DocumentEditor_ScreenTip" xml:space="preserve">
+       <value>ヒント テキスト</value>
+</data>
+<data name="DocumentEditor_KeepSource" xml:space="preserve">
+       <value>ソースのフォーマットを維持する</value>
+</data>
+<data name="DocumentEditor_DestinationFormat" xml:space="preserve">
+       <value>宛先フォーマットに一致</value>
+</data>
+<data name="DocumentEditor_CommentsOnly" xml:space="preserve">
+       <value>この領域にのみコメントを挿入できます。</value>
+</data>
+<data name="DocumentEditor_RowRange" xml:space="preserve">
+       <value>行数は1から32767の間でなければなりません。</value>
+</data>
+<data name="DocumentEditor_ColumnRange" xml:space="preserve">
+       <value>列の数は1から63の間でなければなりません。</value>
+</data>
+<data name="DocumentEditor_Information" xml:space="preserve">
+       <value>情報</value>
+</data>
+<data name="DocumentEditor_Dot" xml:space="preserve">
+       <value>ドット</value>
+</data>
+<data name="DocumentEditor_DashSmallGap" xml:space="preserve">
+       <value>ダッシュスモールギャップ</value>
+</data>
+<data name="DocumentEditor_DashDot" xml:space="preserve">
+       <value>ダッシュドット</value>
+</data>
+<data name="DocumentEditor_ThinThickSmallGap" xml:space="preserve">
+       <value>薄い厚い小さなギャップ</value>
+</data>
+<data name="DocumentEditor_ThickThinSmallGap" xml:space="preserve">
+       <value>厚くて薄い小さなギャップ</value>
+</data>
+<data name="DocumentEditor_ThickThinMediumGap" xml:space="preserve">
+       <value>厚く薄い中程度のギャップ</value>
+</data>
+<data name="DocumentEditor_ThickThinLargeGap" xml:space="preserve">
+       <value>厚くて薄い大きなギャップ</value>
+</data>
+<data name="DocumentEditor_SingleWavy" xml:space="preserve">
+       <value>シングルウェーブ</value>
+</data>
+<data name="DocumentEditor_DoubleWavy" xml:space="preserve">
+       <value>ダブルウェーブ</value>
+</data>
+<data name="DocumentEditor_Inset" xml:space="preserve">
+       <value>挿入図</value>
+</data>
+<data name="DocumentEditor_DashLargeGap" xml:space="preserve">
+       <value>ダッシュラージギャップ</value>
+</data>
+<data name="DocumentEditor_DashDotDot" xml:space="preserve">
+       <value>ダッシュドットドット</value>
+</data>
+<data name="DocumentEditor_Triple" xml:space="preserve">
+       <value>トリプル</value>
+</data>
+<data name="DocumentEditor_ThinThickThinSmallGap" xml:space="preserve">
+       <value>薄い厚い薄い小さなギャップ</value>
+</data>
+<data name="DocumentEditor_ThinThickThinMediumGap" xml:space="preserve">
+       <value>薄い厚い薄い中程度のギャップ</value>
+</data>
+<data name="DocumentEditor_ThinThickThinLargeGap" xml:space="preserve">
+       <value>薄い厚い薄い大きなギャップ</value>
+</data>
+<data name="DocumentEditor_DashDotStroked" xml:space="preserve">
+       <value>ダッシュドットストローク</value>
+</data>
+<data name="DocumentEditor_Engrave3D" xml:space="preserve">
+       <value>彫刻3D</value>
+</data>
+<data name="DocumentEditor_Thick" xml:space="preserve">
+       <value>厚い</value>
+</data>
+<data name="DocumentEditor_Outset" xml:space="preserve">
+       <value>最初</value>
+</data>
+<data name="DocumentEditor_Emboss3D" xml:space="preserve">
+       <value>エンボス3D</value>
+</data>
+<data name="DocumentEditor_ThinThickLargeGap" xml:space="preserve">
+       <value>薄くて厚い大きなギャップ</value>
+</data>
+<data name="DocumentEditor_ThinThickMediumGap" xml:space="preserve">
+       <value>薄い厚い中程度のギャップ</value>
+</data>
+<data name="DocumentEditor_RegularText" xml:space="preserve">
+       <value>通常のテキスト</value>
+</data>
+<data name="DocumentEditor_Date" xml:space="preserve">
+       <value>日にち</value>
+</data>
+<data name="DocumentEditor_Uppercase" xml:space="preserve">
+       <value>大文字</value>
+</data>
+<data name="DocumentEditor_Lowercase" xml:space="preserve">
+       <value>小文字</value>
+</data>
+<data name="DocumentEditor_FirstCapital" xml:space="preserve">
+       <value>FirstCapital</value>
+</data>
+<data name="DocumentEditor_Titlecase" xml:space="preserve">
+       <value>タイトルケース</value>
+</data>
+<data name="DocumentEditor_MoveFrom" xml:space="preserve">
+       <value>から動かして</value>
+</data>
+<data name="DocumentEditor_MoveTo" xml:space="preserve">
+       <value>へ引っ越す</value>
+</data>
+<data name="DocumentEditor_Px" xml:space="preserve">
+       <value>px</value>
+</data>
+<data name="DocumentEditor_ReadOnlyProtection" xml:space="preserve">
+       <value>この地域で編集できます。</value>
+</data>
+<data name="DocumentEditorContainer_RegularTooltip" xml:space="preserve">
+       <value>通常</value>
+</data>
+<data name="DocumentEditorContainer_BoldItalicTooltip" xml:space="preserve">
+       <value>ボールドイタリック</value>
+</data>
+  <data name="DocumentEditorContainer_New" xml:space="preserve">
+    <value>新着</value>
+  </data>
+  <data name="DocumentEditorContainer_Open" xml:space="preserve">
+    <value>開いた</value>
+  </data>
+  <data name="DocumentEditorContainer_Undo" xml:space="preserve">
+    <value>元に戻す</value>
+  </data>
+  <data name="DocumentEditorContainer_Redo" xml:space="preserve">
+    <value>やり直し</value>
+  </data>
+  <data name="DocumentEditorContainer_Image" xml:space="preserve">
+    <value>画像</value>
+  </data>
+  <data name="DocumentEditorContainer_Table" xml:space="preserve">
+    <value>テーブル</value>
+  </data>
+  <data name="DocumentEditorContainer_Link" xml:space="preserve">
+    <value>リンク</value>
+  </data>
+  <data name="DocumentEditorContainer_Bookmark" xml:space="preserve">
+    <value>しおり</value>
+  </data>
+  <data name="DocumentEditorContainer_TableOfContents" xml:space="preserve">
+    <value>目次</value>
+  </data>
+  <data name="DocumentEditorContainer_HEADING1" xml:space="preserve">
+    <value>見出し----1</value>
+  </data>
+  <data name="DocumentEditorContainer_HEADING2" xml:space="preserve">
+    <value>見出し----2</value>
+  </data>
+  <data name="DocumentEditorContainer_HEADING3" xml:space="preserve">
+    <value>見出し----3</value>
+  </data>
+  <data name="DocumentEditorContainer_Header" xml:space="preserve">
+    <value>ヘッダ</value>
+  </data>
+  <data name="DocumentEditorContainer_Footer" xml:space="preserve">
+    <value>フッター</value>
+  </data>
+  <data name="DocumentEditorContainer_PageSetup" xml:space="preserve">
+    <value>ページ設定</value>
+  </data>
+  <data name="DocumentEditorContainer_PageNumber" xml:space="preserve">
+    <value>ページ番号</value>
+  </data>
+  <data name="DocumentEditorContainer_Break" xml:space="preserve">
+    <value>ブレーク</value>
+  </data>
+  <data name="DocumentEditorContainer_Find" xml:space="preserve">
+    <value>見つける</value>
+  </data>
+  <data name="DocumentEditorContainer_LocalClipboard" xml:space="preserve">
+    <value>ローカルクリップボード</value>
+  </data>
+  <data name="DocumentEditorContainer_RestrictEditing" xml:space="preserve">
+    <value>編集を制限する</value>
+  </data>
+  <data name="DocumentEditorContainer_UploadFromComputer" xml:space="preserve">
+    <value>コンピュータからアップロード</value>
+  </data>
+  <data name="DocumentEditorContainer_ByURL" xml:space="preserve">
+    <value>URLで</value>
+  </data>
+  <data name="DocumentEditorContainer_PageBreak" xml:space="preserve">
+    <value>改ページ</value>
+  </data>
+  <data name="DocumentEditorContainer_SectionBreak" xml:space="preserve">
+    <value>セクション区切り</value>
+  </data>
+  <data name="DocumentEditorContainer_HeaderAndFooter" xml:space="preserve">
+    <value>ヘッダーとフッター</value>
+  </data>
+  <data name="DocumentEditorContainer_Options" xml:space="preserve">
+    <value>オプション</value>
+  </data>
+  <data name="DocumentEditorContainer_Levels" xml:space="preserve">
+    <value>レベル</value>
+  </data>
+  <data name="DocumentEditorContainer_DifferentFirstPage" xml:space="preserve">
+    <value>別の最初のページ</value>
+  </data>
+  <data name="DocumentEditorContainer_DifferentHeaderAndFooterForOddAndEvenPages" xml:space="preserve">
+    <value>奇数ページと偶数ページで異なるヘッダーとフッター。</value>
+  </data>
+  <data name="DocumentEditorContainer_DifferentOddAndEvenPages" xml:space="preserve">
+    <value>異なる奇数ページと偶数ページ</value>
+  </data>
+  <data name="DocumentEditorContainer_DifferentHeaderAndFooterForFirstPage" xml:space="preserve">
+    <value>最初のページのヘッダーとフッターが異なります。</value>
+  </data>
+  <data name="DocumentEditorContainer_Position" xml:space="preserve">
+    <value>ポジション</value>
+  </data>
+  <data name="DocumentEditorContainer_HeaderFromTop" xml:space="preserve">
+    <value>上からのヘッダー</value>
+  </data>
+  <data name="DocumentEditorContainer_FooterFromBottom" xml:space="preserve">
+    <value>下からのフッター</value>
+  </data>
+  <data name="DocumentEditorContainer_DistanceFromTopOfThePageToTopOfTheHeader" xml:space="preserve">
+    <value>ページの上部からヘッダーの上部までの距離。</value>
+  </data>
+  <data name="DocumentEditorContainer_DistanceFromBottomOfThePageToBottomOfTheFooter" xml:space="preserve">
+    <value>ページの下部からフッターの下部までの距離。</value>
+  </data>
+  <data name="DocumentEditorContainer_AspectRatio" xml:space="preserve">
+    <value>アスペクト比</value>
+  </data>
+  <data name="DocumentEditorContainer_W" xml:space="preserve">
+    <value>W</value>
+  </data>
+  <data name="DocumentEditorContainer_H" xml:space="preserve">
+    <value>H</value>
+  </data>
+  <data name="DocumentEditorContainer_Width" xml:space="preserve">
+    <value>幅</value>
+  </data>
+  <data name="DocumentEditorContainer_Height" xml:space="preserve">
+    <value>高さ</value>
+  </data>
+  <data name="DocumentEditorContainer_Text" xml:space="preserve">
+    <value>テキスト</value>
+  </data>
+  <data name="DocumentEditorContainer_Paragraph" xml:space="preserve">
+    <value>段落</value>
+  </data>
+  <data name="DocumentEditorContainer_Fill" xml:space="preserve">
+    <value>塗りつぶし</value>
+  </data>
+  <data name="DocumentEditorContainer_FillColor" xml:space="preserve">
+    <value>塗りつぶしの色</value>
+  </data>
+  <data name="DocumentEditorContainer_BorderStyle" xml:space="preserve">
+    <value>ボーダースタイル</value>
+  </data>
+  <data name="DocumentEditorContainer_OutsideBorders" xml:space="preserve">
+    <value>外枠</value>
+  </data>
+  <data name="DocumentEditorContainer_AllBorders" xml:space="preserve">
+    <value>すべての国境</value>
+  </data>
+  <data name="DocumentEditorContainer_InsideBorders" xml:space="preserve">
+    <value>内枠</value>
+  </data>
+  <data name="DocumentEditorContainer_LeftBorder" xml:space="preserve">
+    <value>左ボーダー</value>
+  </data>
+  <data name="DocumentEditorContainer_InsideVerticalBorder" xml:space="preserve">
+    <value>内側の垂直境界線</value>
+  </data>
+  <data name="DocumentEditorContainer_RightBorder" xml:space="preserve">
+    <value>右ボーダー</value>
+  </data>
+  <data name="DocumentEditorContainer_TopBorder" xml:space="preserve">
+    <value>上罫線</value>
+  </data>
+  <data name="DocumentEditorContainer_InsideHorizontalBorder" xml:space="preserve">
+    <value>内側の水平方向の境界線</value>
+  </data>
+  <data name="DocumentEditorContainer_BottomBorder" xml:space="preserve">
+    <value>下枠</value>
+  </data>
+  <data name="DocumentEditorContainer_BorderColor" xml:space="preserve">
+    <value>ボーダの色</value>
+  </data>
+  <data name="DocumentEditorContainer_BorderWidth" xml:space="preserve">
+    <value>ボーダー幅</value>
+  </data>
+  <data name="DocumentEditorContainer_Cell" xml:space="preserve">
+    <value>細胞</value>
+  </data>
+  <data name="DocumentEditorContainer_MergeCells" xml:space="preserve">
+    <value>セルを結合します</value>
+  </data>
+  <data name="DocumentEditorContainer_InsertOrDelete" xml:space="preserve">
+    <value>挿入/削除</value>
+  </data>
+  <data name="DocumentEditorContainer_InsertColumnsToTheLeft" xml:space="preserve">
+    <value>列を左に挿入</value>
+  </data>
+  <data name="DocumentEditorContainer_InsertColumnsToTheRight" xml:space="preserve">
+    <value>列を右に挿入</value>
+  </data>
+  <data name="DocumentEditorContainer_InsertRowsAbove" xml:space="preserve">
+    <value>上に行を挿入</value>
+  </data>
+  <data name="DocumentEditorContainer_InsertRowsBelow" xml:space="preserve">
+    <value>下に行を挿入</value>
+  </data>
+  <data name="DocumentEditorContainer_DeleteRows" xml:space="preserve">
+    <value>行を削除する</value>
+  </data>
+  <data name="DocumentEditorContainer_DeleteColumns" xml:space="preserve">
+    <value>列を削除する</value>
+  </data>
+  <data name="DocumentEditorContainer_CellMargin" xml:space="preserve">
+    <value>セルマージン</value>
+  </data>
+  <data name="DocumentEditorContainer_Top" xml:space="preserve">
+    <value>上</value>
+  </data>
+  <data name="DocumentEditorContainer_Bottom" xml:space="preserve">
+    <value>底</value>
+  </data>
+  <data name="DocumentEditorContainer_Left" xml:space="preserve">
+    <value>左</value>
+  </data>
+  <data name="DocumentEditorContainer_Right" xml:space="preserve">
+    <value>正しい</value>
+  </data>
+  <data name="DocumentEditorContainer_AlignText" xml:space="preserve">
+    <value>テキストを揃える</value>
+  </data>
+  <data name="DocumentEditorContainer_Aligntop" xml:space="preserve">
+    <value>上揃え</value>
+  </data>
+  <data name="DocumentEditorContainer_AlignBottom" xml:space="preserve">
+    <value>下揃え</value>
+  </data>
+  <data name="DocumentEditorContainer_AlignCenter" xml:space="preserve">
+    <value>中央揃え</value>
+  </data>
+  <data name="DocumentEditorContainer_NumberOfHeadingOrOutlineLevelsToBeShownInTableOfContents" xml:space="preserve">
+    <value>目次に表示される見出しまたはアウトラインレベルの数。</value>
+  </data>
+  <data name="DocumentEditorContainer_ShowPageNumbers" xml:space="preserve">
+    <value>ページ番号を表示する</value>
+  </data>
+  <data name="DocumentEditorContainer_ShowPageNumbersInTableOfContents" xml:space="preserve">
+    <value>目次にページ番号を表示します。</value>
+  </data>
+  <data name="DocumentEditorContainer_RightAlignPageNumbers" xml:space="preserve">
+    <value>ページ番号を右揃え.</value>
+  </data>
+  <data name="DocumentEditorContainer_RightAlignPageNumbersInTableOfContents" xml:space="preserve">
+    <value>目次のページ番号を右揃えにします。</value>
+  </data>
+  <data name="DocumentEditorContainer_UseHyperlinks" xml:space="preserve">
+    <value>ハイパーリンクを使用する</value>
+  </data>
+  <data name="DocumentEditorContainer_UseHyperlinksInsteadOfPageNumbers" xml:space="preserve">
+    <value>ページ番号の代わりにハイパーリンクを使用します。</value>
+  </data>
+  <data name="DocumentEditorContainer_Font" xml:space="preserve">
+    <value>フォント</value>
+  </data>
+  <data name="DocumentEditorContainer_FontSize" xml:space="preserve">
+    <value>フォントサイズ</value>
+  </data>
+  <data name="DocumentEditorContainer_FontColor" xml:space="preserve">
+    <value>フォントの色</value>
+  </data>
+  <data name="DocumentEditorContainer_TextHighlightColor" xml:space="preserve">
+    <value>テキストのハイライト色</value>
+  </data>
+  <data name="DocumentEditorContainer_ClearAllFormatting" xml:space="preserve">
+    <value>すべてのフォーマットをクリア</value>
+  </data>
+  <data name="DocumentEditorContainer_BoldTooltip" xml:space="preserve">
+    <value>太字（Ctrl + B）</value>
+  </data>
+  <data name="DocumentEditorContainer_ItalicTooltip" xml:space="preserve">
+    <value>斜体（Ctrl + I）</value>
+  </data>
+  <data name="DocumentEditorContainer_UnderlineTooltip" xml:space="preserve">
+    <value>下線（Ctrl + U）</value>
+  </data>
+  <data name="DocumentEditorContainer_Strikethrough" xml:space="preserve">
+    <value>取り消し線</value>
+  </data>
+  <data name="DocumentEditorContainer_SuperscriptTooltip" xml:space="preserve">
+    <value>上付き文字（Ctrl + Shift ++）</value>
+  </data>
+  <data name="DocumentEditorContainer_SubscriptTooltip" xml:space="preserve">
+    <value>下付き文字（Ctrl + =）</value>
+  </data>
+  <data name="DocumentEditorContainer_AlignLeftTooltip" xml:space="preserve">
+    <value>左揃え（Ctrl + L）</value>
+  </data>
+  <data name="DocumentEditorContainer_CenterTooltip" xml:space="preserve">
+    <value>中央（Ctrl + E）</value>
+  </data>
+  <data name="DocumentEditorContainer_AlignRightTooltip" xml:space="preserve">
+    <value>右揃え（Ctrl + R）</value>
+  </data>
+  <data name="DocumentEditorContainer_JustifyTooltip" xml:space="preserve">
+    <value>両端揃え（Ctrl + J）</value>
+  </data>
+  <data name="DocumentEditorContainer_DecreaseIndent" xml:space="preserve">
+    <value>インデントを減らす</value>
+  </data>
+  <data name="DocumentEditorContainer_IncreaseIndent" xml:space="preserve">
+    <value>インデントを増やします</value>
+  </data>
+  <data name="DocumentEditorContainer_LineSpacing" xml:space="preserve">
+    <value>行間隔</value>
+  </data>
+  <data name="DocumentEditorContainer_Bullets" xml:space="preserve">
+    <value>箇条書き</value>
+  </data>
+  <data name="DocumentEditorContainer_Numbering" xml:space="preserve">
+    <value>番号付け</value>
+  </data>
+  <data name="DocumentEditorContainer_Styles" xml:space="preserve">
+    <value>スタイル</value>
+  </data>
+  <data name="DocumentEditorContainer_ManageStyles" xml:space="preserve">
+    <value>スタイルを管理する</value>
+  </data>
+  <data name="DocumentEditorContainer_Page" xml:space="preserve">
+    <value>ページ</value>
+  </data>
+  <data name="DocumentEditorContainer_Of" xml:space="preserve">
+    <value>の</value>
+  </data>
+  <data name="DocumentEditorContainer_FitOnePage" xml:space="preserve">
+    <value>1ページに収める</value>
+  </data>
+  <data name="DocumentEditorContainer_SpellCheck" xml:space="preserve">
+    <value>スペルチェック</value>
+  </data>
+  <data name="DocumentEditorContainer_UnderlineErrors" xml:space="preserve">
+    <value>エラーに下線を引く</value>
+  </data>
+  <data name="DocumentEditorContainer_FitPageWidth" xml:space="preserve">
+    <value>ページ幅に合わせる</value>
+  </data>
+  <data name="DocumentEditorContainer_Update" xml:space="preserve">
+    <value>更新</value>
+  </data>
+  <data name="DocumentEditorContainer_Cancel" xml:space="preserve">
+    <value>キャンセル</value>
+  </data>
+  <data name="DocumentEditorContainer_Insert" xml:space="preserve">
+    <value>インサート</value>
+  </data>
+  <data name="DocumentEditorContainer_NoBorder" xml:space="preserve">
+    <value>境界が無い</value>
+  </data>
+  <data name="DocumentEditorContainer_CreateANewDocument" xml:space="preserve">
+    <value>新しいドキュメントを作成します。</value>
+  </data>
+  <data name="DocumentEditorContainer_OpenADocument" xml:space="preserve">
+    <value>文書を開きます。</value>
+  </data>
+  <data name="DocumentEditorContainer_UndoTooltip" xml:space="preserve">
+    <value>最後の操作を元に戻します（Ctrl + Z）。</value>
+  </data>
+  <data name="DocumentEditorContainer_RedoTooltip" xml:space="preserve">
+    <value>最後の操作をやり直します（Ctrl + Y）。</value>
+  </data>
+  <data name="DocumentEditorContainer_InsertInlinePictureFromAFile" xml:space="preserve">
+    <value>ファイルからインライン画像を挿入します。</value>
+  </data>
+  <data name="DocumentEditorContainer_InsertATableIntoTheDocument" xml:space="preserve">
+    <value>ドキュメントに表を挿入します.</value>
+  </data>
+  <data name="DocumentEditorContainer_CreateHyperlink" xml:space="preserve">
+    <value>ドキュメントにリンクを作成して、Webページとファイルにすばやくアクセスします（Ctrl + K）。</value>
+  </data>
+  <data name="DocumentEditorContainer_InsertABookmarkInASpecificPlaceInThisDocument" xml:space="preserve">
+    <value>このドキュメントの特定の場所にブックマークを挿入します。</value>
+  </data>
+  <data name="DocumentEditorContainer_ProvideAnOverviewOfYourDocumentByAddingATableOfContents" xml:space="preserve">
+    <value>目次を追加して、ドキュメントの概要を提供します。</value>
+  </data>
+  <data name="DocumentEditorContainer_AddOrEditTheHeader" xml:space="preserve">
+    <value>ヘッダーを追加または編集します。</value>
+  </data>
+  <data name="DocumentEditorContainer_AddOrEditTheFooter" xml:space="preserve">
+    <value>フッターを追加または編集します。</value>
+  </data>
+  <data name="DocumentEditorContainer_OpenThePageSetupDialog" xml:space="preserve">
+    <value>ページ設定ダイアログを開きます。</value>
+  </data>
+  <data name="DocumentEditorContainer_AddPageNumbers" xml:space="preserve">
+    <value>ページ番号を追加します。</value>
+  </data>
+  <data name="DocumentEditorContainer_FindText" xml:space="preserve">
+    <value>ドキュメント内のテキストを検索します（Ctrl + F）。</value>
+  </data>
+  <data name="DocumentEditorContainer_CurrentPageNumber" xml:space="preserve">
+    <value>ドキュメント内の現在のページ番号。クリックまたはタップして特定のページに移動します。</value>
+  </data>
+  <data name="DocumentEditorContainer_ReadOnly" xml:space="preserve">
+    <value>読み取り専用</value>
+  </data>
+  <data name="DocumentEditorContainer_Protections" xml:space="preserve">
+    <value>保護</value>
+  </data>
+  <data name="DocumentEditorContainer_ErrorInEstablishingConnectionWithWebServer" xml:space="preserve">
+    <value>Webサーバーとの接続を確立する際のエラー</value>
+  </data>
+  <data name="DocumentEditorContainer_Single" xml:space="preserve">
+    <value>シングル</value>
+  </data>
+  <data name="DocumentEditorContainer_Double" xml:space="preserve">
+    <value>ダブル</value>
+  </data>
+  <data name="DocumentEditorContainer_NewComment" xml:space="preserve">
+    <value>新しいコメント</value>
+  </data>
+  <data name="DocumentEditorContainer_Comments" xml:space="preserve">
+    <value>コメント</value>
+  </data>
+  <data name="DocumentEditorContainer_PrintLayout" xml:space="preserve">
+    <value>印刷レイアウト</value>
+  </data>
+  <data name="DocumentEditorContainer_WebLayout" xml:space="preserve">
+    <value>Webレイアウト</value>
+  </data>
+  <data name="DocumentEditorContainer_ToggleBetweenTheInternalClipboardAndSystemClipboard" xml:space="preserve">
+    <value>内部クリップボードとシステムクリップボードを切り替えます。&#xD;ブラウザのセキュリティポリシーにより、スクリプトを介したシステムクリップボードへのアクセスは拒否されます。代わりに、&#xD; 1.内部クリップボードを有効にして、コンポーネント内で切り取り、コピー、貼り付けを行うことができます。&#xD; 2.キーボードショートカット（Ctrl + X、Ctrl + C、Ctrl + V）を使用して切り取ります。 、システムクリップボードを使用してコピーして貼り付けます。</value>
+  </data>
+  <data name="DocumentEditorContainer_TextForm" xml:space="preserve">
+    <value>テキストフォーム</value>
+  </data>
+  <data name="DocumentEditorContainer_CheckBox" xml:space="preserve">
+    <value>チェックボックス</value>
+  </data>
+  <data name="DocumentEditorContainer_DropDown" xml:space="preserve">
+    <value>落ちる</value>
+  </data>
+  <data name="DocumentEditorContainer_UpdateFields" xml:space="preserve">
+    <value>フィールドを更新</value>
+  </data>
+  <data name="DocumentEditorContainer_UpdateCrossReferenceFields" xml:space="preserve">
+    <value>相互参照フィールドを更新する.</value>
+  </data>
+  <data name="DocumentEditorContainer_Track_changes" xml:space="preserve">
+    <value>ドキュメントに加えられた変更を追跡します.</value>
+  </data>
+  <data name="DocumentEditorContainer_TrackChanges" xml:space="preserve">
+    <value>変更の追跡</value>
+  </data>
+  <data name="DocumentEditorContainer_ZoomLevel" xml:space="preserve">
+    <value>ズームレベル</value>
+  </data>
+  <data name="DocumentEditorContainer_Footnote_Tooltip" xml:space="preserve">
+    <value>脚注を挿入します（Alt + Ctrl + F）。</value>
+  </data>
+  <data name="DocumentEditorContainer_Endnote_Tooltip" xml:space="preserve">
+    <value>Endnoteを挿入します（Alt + Ctrl + D）。</value>
+  </data>
+  <data name="DocumentEditorContainer_ShowComments" xml:space="preserve">
+    <value>コメントを挿入</value>
+  </data>
+  <data name="DocumentEditorContainer_FormFields" xml:space="preserve">
+    <value>フォームフィールド</value>
+  </data>
+  <data name="DocumentEditorContainer_Information" xml:space="preserve">
+    <value>情報</value>
+  </data>
+  <data name="DocumentEditorContainer_AllCaps" xml:space="preserve">
+    <value>すべて大文字</value>
+  </data>
+  <data name="DocumentEditorContainer_Insert_Footnote" xml:space="preserve">
+    <value>インサート</value>
+  </data>
+  <data name="DocumentEditorContainer_Insert_Endnote" xml:space="preserve">
+    <value>インサート</value>
+  </data>
+  <data name="DocumentEditorContainer_FillingInForms" xml:space="preserve">
+    <value>フォームへの記入</value>
+  </data>
+  <data name="DocumentEditorContainer_Trackedchanges" xml:space="preserve">
+    <value>追跡された変更</value>
+  </data>
+  <data name="DocumentEditorContainer_RemovedIgnoreExceptions" xml:space="preserve">
+    <value>ドキュメント保護でこの変更を行うと、Wordはこのドキュメントのすべての例外を無視します。</value>
+  </data>
+  <data name="DocumentEditor_RevisionsOnly" xml:space="preserve">
+    <value>この地域で編集できますが、すべての変更が追跡されます</value>
+  </data>
+  <data name="DocumentEditorContainer_RemovedIgnore" xml:space="preserve">
+    <value>無視された例外を削除しますか？</value>
+  </data>
+  <data name="DocumentEditorContainer_Yes" xml:space="preserve">
+    <value>はい</value>
+  </data>
+  <data name="DocumentEditorContainer_No" xml:space="preserve">
+    <value>番号</value>
+  </data>
+  <data name="Gantt_Touch_DialogTextOnClickingConnectorPoint" xml:space="preserve">
+    <value>別のタスクを選択してください</value>
+  </data>
+  <data name="Gantt_Touch_DialogTextOnSelectingTaskbar" xml:space="preserve">
+    <value>コネクタの位置を選択します</value>
+  </data>
+  <data name="Gantt_Touch_LeftButton" xml:space="preserve">
+    <value>左</value>
+  </data>
+  <data name="Gantt_Touch_RightButton" xml:space="preserve">
+    <value>右</value>
+  </data>
+  <data name="PdfViewer_ExportXFDF" xml:space="preserve">
+    <value>注釈をXFDFファイルにエクスポート</value>
+  </data>
+  <data name="PdfViewer_ImportXFDF" xml:space="preserve">
+    <value>XFDFファイルから注釈をインポートします</value>
+  </data>
+</root>

@@ -1,0 +1,5274 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AutoComplete_ActionFailureTemplate" xml:space="preserve">
+    <value>Cerere nereusita</value>
+  </data>
+  <data name="AutoComplete_NoRecordsTemplate" xml:space="preserve">
+    <value>Nu au fost găsite</value>
+  </data>
+  <data name="Calendar_Today" xml:space="preserve">
+    <value>Astăzi</value>
+  </data>
+  <data name="ComboBox_ActionFailureTemplate" xml:space="preserve">
+    <value>Cerere nereusita</value>
+  </data>
+  <data name="ComboBox_NoRecordsTemplate" xml:space="preserve">
+    <value>Nu au fost găsite</value>
+  </data>
+  <data name="DatePicker_Placeholder" xml:space="preserve">
+    <value>Alegeți o dată</value>
+  </data>
+  <data name="DatePicker_Today" xml:space="preserve">
+    <value>Astăzi</value>
+  </data>
+  <data name="DateRangePicker_ApplyText" xml:space="preserve">
+    <value>aplica</value>
+  </data>
+  <data name="DateRangePicker_CancelText" xml:space="preserve">
+    <value>Anulare</value>
+  </data>
+  <data name="DateRangePicker_CustomRange" xml:space="preserve">
+    <value>Gama personalizată</value>
+  </data>
+  <data name="DateRangePicker_Days" xml:space="preserve">
+    <value>zi</value>
+  </data>
+  <data name="DateRangePicker_EndLabel" xml:space="preserve">
+    <value>Data de încheiere</value>
+  </data>
+  <data name="DateRangePicker_Placeholder" xml:space="preserve">
+    <value>Alegeți un interval de date</value>
+  </data>
+  <data name="DateRangePicker_SelectedDays" xml:space="preserve">
+    <value>Selected Days</value>
+  </data>
+  <data name="DateRangePicker_StartLabel" xml:space="preserve">
+    <value>Data de început</value>
+  </data>
+  <data name="DateTimePicker_Placeholder" xml:space="preserve">
+    <value>Alegeți data și ora</value>
+  </data>
+  <data name="DateTimePicker_Today" xml:space="preserve">
+    <value>Astăzi</value>
+  </data>
+  <data name="DropDownList_ActionFailureTemplate" xml:space="preserve">
+    <value>Cerere nereusita</value>
+  </data>
+  <data name="DropDownList_NoRecordsTemplate" xml:space="preserve">
+    <value>Nu au fost găsite</value>
+  </data>
+  <data name="MultiSelect_ActionFailureTemplate" xml:space="preserve">
+    <value>Cerere nereusita</value>
+  </data>
+  <data name="MultiSelect_NoRecordsTemplate" xml:space="preserve">
+    <value>Nu au fost găsite</value>
+  </data>
+  <data name="MultiSelect_OverflowCountTemplate" xml:space="preserve">
+    <value>+${count} încă..</value>
+  </data>
+  <data name="MultiSelect_SelectAllText" xml:space="preserve">
+    <value>Selectează tot</value>
+  </data>
+  <data name="MultiSelect_TotalCountTemplate" xml:space="preserve">
+    <value>${count} selectați</value>
+  </data>
+  <data name="MultiSelect_UnSelectAllText" xml:space="preserve">
+    <value>Deselectează tot</value>
+  </data>
+  <data name="NumericTextBox_DecrementTitle" xml:space="preserve">
+    <value>Valoarea descreșterii</value>
+  </data>
+  <data name="NumericTextBox_IncrementTitle" xml:space="preserve">
+    <value>Valoarea creșterii</value>
+  </data>
+  <data name="TimePicker_Placeholder" xml:space="preserve">
+    <value>Alege un timp</value>
+  </data>
+  <data name="Uploader_Abort" xml:space="preserve">
+    <value>Abandonați</value>
+  </data>
+  <data name="Uploader_Browse" xml:space="preserve">
+    <value>Naviga...</value>
+  </data>
+  <data name="Uploader_Cancel" xml:space="preserve">
+    <value>Anulare</value>
+  </data>
+  <data name="Uploader_Clear" xml:space="preserve">
+    <value>clar</value>
+  </data>
+  <data name="Uploader_Delete" xml:space="preserve">
+    <value>Sterge fisierul</value>
+  </data>
+  <data name="Uploader_DropFilesHint" xml:space="preserve">
+    <value>Sau aruncați fișierele aici</value>
+  </data>
+  <data name="Uploader_FileUploadCancel" xml:space="preserve">
+    <value>Încărcarea fișierului a fost anulată</value>
+  </data>
+  <data name="Uploader_InProgress" xml:space="preserve">
+    <value>Se încarcă</value>
+  </data>
+  <data name="Uploader_InvalidFileType" xml:space="preserve">
+    <value>Tipul fișierului nu este permis</value>
+  </data>
+  <data name="Uploader_InvalidMaxFileSize" xml:space="preserve">
+    <value>Dimensiunea fișierului este prea mare</value>
+  </data>
+  <data name="Uploader_invalidMinFileSize" xml:space="preserve">
+    <value>Dimensiunea fișierului este prea mică</value>
+  </data>
+  <data name="Uploader_Pause" xml:space="preserve">
+    <value>Pauză</value>
+  </data>
+  <data name="Uploader_PauseUpload" xml:space="preserve">
+    <value>Încărcarea fișierului a fost întreruptă</value>
+  </data>
+  <data name="Uploader_ReadyToUploadMessage" xml:space="preserve">
+    <value>Gata de încărcare</value>
+  </data>
+  <data name="Uploader_Remove" xml:space="preserve">
+    <value>Elimina</value>
+  </data>
+  <data name="Uploader_RemovedFailedMessage" xml:space="preserve">
+    <value>Imposibil de eliminat fișierul</value>
+  </data>
+  <data name="Uploader_RemovedSuccessMessage" xml:space="preserve">
+    <value>Fișierul a fost eliminat cu succes</value>
+  </data>
+  <data name="Uploader_Resume" xml:space="preserve">
+    <value>Relua</value>
+  </data>
+  <data name="Uploader_Retry" xml:space="preserve">
+    <value>Reîncercați</value>
+  </data>
+  <data name="Uploader_Upload" xml:space="preserve">
+    <value>Încărcați</value>
+  </data>
+  <data name="Uploader_UploadFailedMessage" xml:space="preserve">
+    <value>Fișierul nu a putut încărca</value>
+  </data>
+  <data name="Uploader_UploadSuccessMessage" xml:space="preserve">
+    <value>Fișierul uploadat cu succes</value>
+  </data>
+  <data name="FileManager_NewFolder" xml:space="preserve">
+    <value>Dosar nou</value>
+  </data>
+  <data name="FileManager_Upload" xml:space="preserve">
+    <value>Încărcați</value>
+  </data>
+  <data name="FileManager_Delete" xml:space="preserve">
+    <value>Șterge</value>
+  </data>
+  <data name="FileManager_Rename" xml:space="preserve">
+    <value>Redenumire</value>
+  </data>
+  <data name="FileManager_Download" xml:space="preserve">
+    <value>Descarca</value>
+  </data>
+  <data name="FileManager_Cut" xml:space="preserve">
+    <value>A tăia</value>
+  </data>
+  <data name="FileManager_Copy" xml:space="preserve">
+    <value>Copie</value>
+  </data>
+  <data name="FileManager_Paste" xml:space="preserve">
+    <value>Pastă</value>
+  </data>
+  <data name="FileManager_SortBy" xml:space="preserve">
+    <value>Filtrează după</value>
+  </data>
+  <data name="FileManager_Refresh" xml:space="preserve">
+    <value>Reîmprospăta</value>
+  </data>
+  <data name="FileManager_ItemSelection" xml:space="preserve">
+    <value>element selectat</value>
+  </data>
+  <data name="FileManager_ItemsSelection" xml:space="preserve">
+    <value>elemente selectate</value>
+  </data>
+  <data name="FileManager_View" xml:space="preserve">
+    <value>Vedere</value>
+  </data>
+  <data name="FileManager_Details" xml:space="preserve">
+    <value>Detalii</value>
+  </data>
+  <data name="FileManager_SelectAll" xml:space="preserve">
+    <value>Selectează tot</value>
+  </data>
+  <data name="FileManager_Open" xml:space="preserve">
+    <value>Deschis</value>
+  </data>
+  <data name="FileManager_TooltipNewFolder" xml:space="preserve">
+    <value>Dosar nou</value>
+  </data>
+  <data name="FileManager_TooltipUpload" xml:space="preserve">
+    <value>Încărcați</value>
+  </data>
+  <data name="FileManager_TooltipDelete" xml:space="preserve">
+    <value>Șterge</value>
+  </data>
+  <data name="FileManager_TooltipRename" xml:space="preserve">
+    <value>Redenumire</value>
+  </data>
+  <data name="FileManager_TooltipDownload" xml:space="preserve">
+    <value>Descarca</value>
+  </data>
+  <data name="FileManager_TooltipCut" xml:space="preserve">
+    <value>A tăia</value>
+  </data>
+  <data name="FileManager_TooltipCopy" xml:space="preserve">
+    <value>Copie</value>
+  </data>
+  <data name="FileManager_TooltipPaste" xml:space="preserve">
+    <value>Pastă</value>
+  </data>
+  <data name="FileManager_TooltipSortBy" xml:space="preserve">
+    <value>Filtrează după</value>
+  </data>
+  <data name="FileManager_TooltipRefresh" xml:space="preserve">
+    <value>Reîmprospăta</value>
+  </data>
+  <data name="FileManager_TooltipSelection" xml:space="preserve">
+    <value>Selecție clară</value>
+  </data>
+  <data name="FileManager_TooltipView" xml:space="preserve">
+    <value>Vedere</value>
+  </data>
+  <data name="FileManager_TooltipDetails" xml:space="preserve">
+    <value>Detalii</value>
+  </data>
+  <data name="FileManager_TooltipSelectAll" xml:space="preserve">
+    <value>Selectează tot</value>
+  </data>
+  <data name="FileManager_Name" xml:space="preserve">
+    <value>Nume</value>
+  </data>
+  <data name="FileManager_Size" xml:space="preserve">
+    <value>mărimea</value>
+  </data>
+  <data name="FileManager_DateModified" xml:space="preserve">
+    <value>Modificat</value>
+  </data>
+  <data name="FileManager_DateCreated" xml:space="preserve">
+    <value>Data creării</value>
+  </data>
+  <data name="FileManager_Path" xml:space="preserve">
+    <value>cale</value>
+  </data>
+  <data name="FileManager_Modified" xml:space="preserve">
+    <value>Modificat</value>
+  </data>
+  <data name="FileManager_Created" xml:space="preserve">
+    <value>Creată</value>
+  </data>
+  <data name="FileManager_Location" xml:space="preserve">
+    <value>Locație</value>
+  </data>
+  <data name="FileManager_Type" xml:space="preserve">
+    <value>Tip</value>
+  </data>
+  <data name="FileManager_Permission" xml:space="preserve">
+    <value>Permisiune</value>
+  </data>
+  <data name="FileManager_Ascending" xml:space="preserve">
+    <value>Ascendent</value>
+  </data>
+  <data name="FileManager_Descending" xml:space="preserve">
+    <value>Descendentă</value>
+  </data>
+  <data name="FileManager_None" xml:space="preserve">
+    <value>Nici unul</value>
+  </data>
+  <data name="FileManager_ViewLargeIcons" xml:space="preserve">
+    <value>Pictograme mari</value>
+  </data>
+  <data name="FileManager_ViewDetails" xml:space="preserve">
+    <value>Detalii</value>
+  </data>
+  <data name="FileManager_Search" xml:space="preserve">
+    <value>Căutare</value>
+  </data>
+  <data name="FileManager_ButtonOk" xml:space="preserve">
+    <value>O.K</value>
+  </data>
+  <data name="FileManager_ButtonCancel" xml:space="preserve">
+    <value>Anulare</value>
+  </data>
+  <data name="FileManager_ButtonYes" xml:space="preserve">
+    <value>da</value>
+  </data>
+  <data name="FileManager_ButtonNo" xml:space="preserve">
+    <value>Nu</value>
+  </data>
+  <data name="FileManager_ButtonCreate" xml:space="preserve">
+    <value>Crea</value>
+  </data>
+  <data name="FileManager_ButtonSave" xml:space="preserve">
+    <value>salva</value>
+  </data>
+  <data name="FileManager_HeaderNewFolder" xml:space="preserve">
+    <value>Pliant</value>
+  </data>
+  <data name="FileManager_ContentNewFolder" xml:space="preserve">
+    <value>Introduceți numele folderului</value>
+  </data>
+  <data name="FileManager_HeaderRename" xml:space="preserve">
+    <value>Redenumire</value>
+  </data>
+  <data name="FileManager_ContentRename" xml:space="preserve">
+    <value>Introduceți noul nume</value>
+  </data>
+  <data name="FileManager_HeaderRenameConfirmation" xml:space="preserve">
+    <value>Redenumiți confirmarea</value>
+  </data>
+  <data name="FileManager_ContentRenameConfirmation" xml:space="preserve">
+    <value>Dacă schimbați o extensie de nume de fișier, fișierul ar putea deveni instabil. Ești sigur că vrei să o schimbi?</value>
+  </data>
+  <data name="FileManager_HeaderDelete" xml:space="preserve">
+    <value>Sterge fisierul</value>
+  </data>
+  <data name="FileManager_ContentDelete" xml:space="preserve">
+    <value>Sigur doriți să ștergeți acest fișier?</value>
+  </data>
+  <data name="FileManager_HeaderFolderDelete" xml:space="preserve">
+    <value>Ștergeți folderul</value>
+  </data>
+  <data name="FileManager_ContentFolderDelete" xml:space="preserve">
+    <value>Sigur doriți să ștergeți acest folder?</value>
+  </data>
+  <data name="FileManager_HeaderMultipleDelete" xml:space="preserve">
+    <value>Ștergeți mai multe elemente</value>
+  </data>
+  <data name="FileManager_ContentMultipleDelete" xml:space="preserve">
+    <value>Sigur doriți să ștergeți aceste {0} elemente?</value>
+  </data>
+  <data name="FileManager_HeaderDuplicate" xml:space="preserve">
+    <value>Există fișier / dosar</value>
+  </data>
+  <data name="FileManager_ContentDuplicate" xml:space="preserve">
+    <value>{0} există deja. Doriți să redenumiți și să lipiți?</value>
+  </data>
+  <data name="FileManager_HeaderUpload" xml:space="preserve">
+    <value>Încărca fișiere</value>
+  </data>
+  <data name="FileManager_Error" xml:space="preserve">
+    <value>Eroare</value>
+  </data>
+  <data name="FileManager_ValidationEmpty" xml:space="preserve">
+    <value>Numele fișierului sau folderului nu poate fi gol.</value>
+  </data>
+  <data name="FileManager_ValidationInvalid" xml:space="preserve">
+    <value>Numele fișierului sau folderului {0} conține caractere nevalide. Vă rugăm să utilizați un alt nume. Numele de fișiere sau folder valide nu se pot termina cu un punct sau un spațiu.</value>
+  </data>
+  <data name="FileManager_ValidationNewFolderExists" xml:space="preserve">
+    <value>Există deja un fișier sau folder cu numele {0}.</value>
+  </data>
+  <data name="FileManager_ValidationRenameExists" xml:space="preserve">
+    <value>Nu se poate redenumi {0} la {1}: destinația există deja.</value>
+  </data>
+  <data name="FileManager_FolderEmpty" xml:space="preserve">
+    <value>Acest dosar este gol</value>
+  </data>
+  <data name="FileManager_FileUpload" xml:space="preserve">
+    <value>Trageți fișierele aici pentru a le încărca</value>
+  </data>
+  <data name="FileManager_SearchEmpty" xml:space="preserve">
+    <value>Nici un rezultat gasit</value>
+  </data>
+  <data name="FileManager_SearchKey" xml:space="preserve">
+    <value>Încercați cu diferite cuvinte cheie</value>
+  </data>
+  <data name="FileManager_FilterEmpty" xml:space="preserve">
+    <value>Nici un rezultat gasit</value>
+  </data>
+  <data name="FileManager_FilterKey" xml:space="preserve">
+    <value>Încercați cu filtru diferit</value>
+  </data>
+  <data name="FileManager_SubFolderError" xml:space="preserve">
+    <value>Folderul destinație este subfolderul folderului sursă.</value>
+  </data>
+  <data name="FileManager_AccessDenied" xml:space="preserve">
+    <value>Acces interzis</value>
+  </data>
+  <data name="FileManager_AccessDetails" xml:space="preserve">
+    <value>Nu aveți permisiunea de a accesa acest folder.</value>
+  </data>
+  <data name="FileManager_HeaderRetry" xml:space="preserve">
+    <value>Fisierul există deja</value>
+  </data>
+  <data name="FileManager_ContentRetry" xml:space="preserve">
+    <value>Un fișier cu acest nume există deja în acest folder. Ce ai vrea sa faci?</value>
+  </data>
+  <data name="FileManager_ButtonKeepBoth" xml:space="preserve">
+    <value>Păstrați ambele</value>
+  </data>
+  <data name="FileManager_ButtonReplace" xml:space="preserve">
+    <value>A inlocui</value>
+  </data>
+  <data name="FileManager_ButtonSkip" xml:space="preserve">
+    <value>Ocolire</value>
+  </data>
+  <data name="FileManager_ApplyAllLabel" xml:space="preserve">
+    <value>Faceți acest lucru pentru toate articolele curente</value>
+  </data>
+  <data name="FileManager_KB" xml:space="preserve">
+    <value>KB</value>
+  </data>
+  <data name="FileManager_AccessMessage" xml:space="preserve">
+    <value>{0} nu este accesibil. aveți nevoie de permisiunea pentru a efectua acțiunea {1}.</value>
+  </data>
+  <data name="FileManager_NetworkError" xml:space="preserve">
+    <value>NetworkError: Eroare la trimiterea pe XMLHTTPRequest: Eroare la încărcare</value>
+  </data>
+  <data name="FileManager_ServerError" xml:space="preserve">
+    <value>ServerError: răspuns nevalid din</value>
+  </data>
+  <data name="Chart_Zoom" xml:space="preserve">
+    <value>Zoom</value>
+  </data>
+  <data name="Chart_ZoomIn" xml:space="preserve">
+    <value>Mareste</value>
+  </data>
+  <data name="Chart_ZoomOut" xml:space="preserve">
+    <value>A micsora</value>
+  </data>
+  <data name="Chart_Reset" xml:space="preserve">
+    <value>Resetați</value>
+  </data>
+  <data name="Chart_Pan" xml:space="preserve">
+    <value>Tigaie</value>
+  </data>
+  <data name="Chart_ResetZoom" xml:space="preserve">
+    <value>Resetare Zoom</value>
+  </data>
+  <data name="Slider_DecrementTitle" xml:space="preserve">
+    <value>Scădea</value>
+  </data>
+  <data name="Slider_IncrementTitle" xml:space="preserve">
+    <value>Crește</value>
+  </data>
+  <data name="Maps_Zoom" xml:space="preserve">
+    <value>Zoom</value>
+  </data>
+  <data name="Maps_ZoomIn" xml:space="preserve">
+    <value>Mareste</value>
+  </data>
+  <data name="Maps_ZoomOut" xml:space="preserve">
+    <value>A micsora</value>
+  </data>
+  <data name="Maps_Reset" xml:space="preserve">
+    <value>Resetați</value>
+  </data>
+  <data name="Maps_Pan" xml:space="preserve">
+    <value>Tigaie</value>
+  </data>
+  <data name="Gantt_Above" xml:space="preserve">
+    <value>De mai sus</value>
+  </data>
+  <data name="Gantt_Add" xml:space="preserve">
+    <value>Adăuga</value>
+  </data>
+  <data name="Gantt_AddDialogTitle" xml:space="preserve">
+    <value>Sarcina noua</value>
+  </data>
+  <data name="Gantt_BaselineEndDate" xml:space="preserve">
+    <value>Data de încheiere de bază</value>
+  </data>
+  <data name="Gantt_BaselineStartDate" xml:space="preserve">
+    <value>Data inițială de început</value>
+  </data>
+  <data name="Gantt_Below" xml:space="preserve">
+    <value>De mai jos</value>
+  </data>
+  <data name="Gantt_Cancel" xml:space="preserve">
+    <value>Anulare</value>
+  </data>
+  <data name="Gantt_Child" xml:space="preserve">
+    <value>Copil</value>
+  </data>
+  <data name="Gantt_CollapseAll" xml:space="preserve">
+    <value>Reduceți totul</value>
+  </data>
+  <data name="Gantt_ConfirmDelete" xml:space="preserve">
+    <value>Sigur doriți să ștergeți înregistrarea?</value>
+  </data>
+  <data name="Gantt_ConfirmPredecessorDelete" xml:space="preserve">
+    <value>Sigur doriți să eliminați linkul de dependență?</value>
+  </data>
+  <data name="Gantt_Indent" xml:space="preserve">
+    <value>Indentați</value>
+  </data>
+  <data name="Gantt_Outdent" xml:space="preserve">
+    <value>fără indentare</value>
+  </data>
+  <data name="Gantt_Convert" xml:space="preserve">
+    <value>Convertit</value>
+  </data>
+  <data name="Gantt_CsvExport" xml:space="preserve">
+    <value>Export CSV</value>
+  </data>
+  <data name="Gantt_CustomTab" xml:space="preserve">
+    <value>Coloane personalizate</value>
+  </data>
+  <data name="Gantt_Day" xml:space="preserve">
+    <value>zi</value>
+  </data>
+  <data name="Gantt_Days" xml:space="preserve">
+    <value>zi</value>
+  </data>
+  <data name="Gantt_Delete" xml:space="preserve">
+    <value>Șterge</value>
+  </data>
+  <data name="Gantt_DeleteDependency" xml:space="preserve">
+    <value>Ștergeți dependența</value>
+  </data>
+  <data name="Gantt_DeleteTask" xml:space="preserve">
+    <value>Ștergeți Task</value>
+  </data>
+  <data name="Gantt_Dependency" xml:space="preserve">
+    <value>Dependenţă</value>
+  </data>
+  <data name="Gantt_Duration" xml:space="preserve">
+    <value>Durată</value>
+  </data>
+  <data name="Gantt_Edit" xml:space="preserve">
+    <value>Editați</value>
+  </data>
+  <data name="Gantt_EditDialogTitle" xml:space="preserve">
+    <value>Informații despre sarcini</value>
+  </data>
+  <data name="Gantt_EmptyRecord" xml:space="preserve">
+    <value>Nu există înregistrări de afișat</value>
+  </data>
+  <data name="Gantt_EndDate" xml:space="preserve">
+    <value>Data de încheiere</value>
+  </data>
+  <data name="Gantt_EnterValue" xml:space="preserve">
+    <value>Introduceți valoarea</value>
+  </data>
+  <data name="Gantt_EventMarkers" xml:space="preserve">
+    <value>Markeri de eveniment</value>
+  </data>
+  <data name="Gantt_ExcelExport" xml:space="preserve">
+    <value>Export Excel</value>
+  </data>
+  <data name="Gantt_ExpandAll" xml:space="preserve">
+    <value>Extinde toate</value>
+  </data>
+  <data name="Gantt_Finish" xml:space="preserve">
+    <value>finalizarea</value>
+  </data>
+  <data name="Gantt_From" xml:space="preserve">
+    <value>Din</value>
+  </data>
+  <data name="Gantt_GeneralTab" xml:space="preserve">
+    <value>General</value>
+  </data>
+  <data name="Gantt_Hour" xml:space="preserve">
+    <value>ora</value>
+  </data>
+  <data name="Gantt_Hours" xml:space="preserve">
+    <value>ore</value>
+  </data>
+  <data name="Gantt_Id" xml:space="preserve">
+    <value>ID-ul</value>
+  </data>
+  <data name="Gantt_Lag" xml:space="preserve">
+    <value>întârziere</value>
+  </data>
+  <data name="Gantt_LeftTaskLabel" xml:space="preserve">
+    <value>Eticheta sarcinii din stânga</value>
+  </data>
+  <data name="Gantt_Milestone" xml:space="preserve">
+    <value>Milestone</value>
+  </data>
+  <data name="Gantt_Minute" xml:space="preserve">
+    <value>minut</value>
+  </data>
+  <data name="Gantt_Minutes" xml:space="preserve">
+    <value>minute</value>
+  </data>
+  <data name="Gantt_Name" xml:space="preserve">
+    <value>Nume</value>
+  </data>
+  <data name="Gantt_NextTimeSpan" xml:space="preserve">
+    <value>Durata următoare</value>
+  </data>
+  <data name="Gantt_Notes" xml:space="preserve">
+    <value>notițe</value>
+  </data>
+  <data name="Gantt_Offset" xml:space="preserve">
+    <value>Decalaj</value>
+  </data>
+  <data name="Gantt_OkText" xml:space="preserve">
+    <value>O.K</value>
+  </data>
+  <data name="Gantt_PrevTimeSpan" xml:space="preserve">
+    <value>Durata anterioară</value>
+  </data>
+  <data name="Gantt_Progress" xml:space="preserve">
+    <value>progres</value>
+  </data>
+  <data name="Gantt_ResourceID" xml:space="preserve">
+    <value>ID-ul resursei</value>
+  </data>
+  <data name="Gantt_ResourceName" xml:space="preserve">
+    <value>Resurse</value>
+  </data>
+  <data name="Gantt_RightTaskLabel" xml:space="preserve">
+    <value>Eticheta corectă a sarcinii</value>
+  </data>
+  <data name="Gantt_Save" xml:space="preserve">
+    <value>salva</value>
+  </data>
+  <data name="Gantt_SaveButton" xml:space="preserve">
+    <value>salva</value>
+  </data>
+  <data name="Gantt_Search" xml:space="preserve">
+    <value>Căutare</value>
+  </data>
+  <data name="Gantt_Start" xml:space="preserve">
+    <value>start</value>
+  </data>
+  <data name="Gantt_StartDate" xml:space="preserve">
+    <value>Data de început</value>
+  </data>
+  <data name="Gantt_Task" xml:space="preserve">
+    <value>sarcină</value>
+  </data>
+  <data name="Gantt_TaskAfterPredecessor_FF" xml:space="preserve">
+    <value>Ați mutat „{0}” pentru a termina după terminarea „{1}” și cele două sarcini sunt legate. Drept urmare, linkurile nu pot fi onorate. Selectați o acțiune de mai jos pentru a efectua</value>
+  </data>
+  <data name="Gantt_TaskAfterPredecessor_FS" xml:space="preserve">
+    <value>Ați mutat „{0}” departe de „{1}” și cele două sarcini sunt legate. Drept urmare, linkurile nu pot fi onorate. Selectați o acțiune de mai jos pentru a efectua</value>
+  </data>
+  <data name="Gantt_TaskAfterPredecessor_SF" xml:space="preserve">
+    <value>Ați mutat „{0}” pentru a termina după începerea „{1}” și cele două sarcini sunt legate. Drept urmare, linkurile nu pot fi onorate. Selectați o acțiune de mai jos pentru a efectua</value>
+  </data>
+  <data name="Gantt_TaskAfterPredecessor_SS" xml:space="preserve">
+    <value>Ați mutat „{0}” pentru a începe după ce „{1}” începe și cele două sarcini sunt legate. Drept urmare, linkurile nu pot fi onorate. Selectați o acțiune de mai jos pentru a efectua</value>
+  </data>
+  <data name="Gantt_TaskBeforePredecessor_FF" xml:space="preserve">
+    <value>Ați mutat „{0}” pentru a termina înainte de finalizarea „{1}” și cele două sarcini sunt legate. Drept urmare, linkurile nu pot fi onorate. Selectați o acțiune de mai jos pentru a efectua</value>
+  </data>
+  <data name="Gantt_TaskBeforePredecessor_FS" xml:space="preserve">
+    <value>Ați mutat „{0}” pentru a începe înainte de finalizarea „{1}” și cele două sarcini sunt legate. Drept urmare, linkurile nu pot fi onorate. Selectați o acțiune de mai jos pentru a efectua</value>
+  </data>
+  <data name="Gantt_TaskBeforePredecessor_SF" xml:space="preserve">
+    <value>Ați mutat „{0}” departe de „{1}” la început și cele două sarcini sunt legate. Drept urmare, linkurile nu pot fi onorate. Selectați o acțiune de mai jos pentru a efectua</value>
+  </data>
+  <data name="Gantt_TaskBeforePredecessor_SS" xml:space="preserve">
+    <value>Ați mutat „{0}” pentru a începe înainte de a începe „{1}” și cele două sarcini sunt legate. Drept urmare, linkurile nu pot fi onorate. Selectați o acțiune de mai jos pentru a efectua</value>
+  </data>
+  <data name="Gantt_TaskInformation" xml:space="preserve">
+    <value>Informații despre sarcini</value>
+  </data>
+  <data name="Gantt_TaskLink" xml:space="preserve">
+    <value>Link-ul sarcinii</value>
+  </data>
+  <data name="Gantt_Tasks" xml:space="preserve">
+    <value>sarcini</value>
+  </data>
+  <data name="Gantt_TimelineCell" xml:space="preserve">
+    <value>Celula cronologică</value>
+  </data>
+  <data name="Gantt_To" xml:space="preserve">
+    <value>La</value>
+  </data>
+  <data name="Gantt_ToMilestone" xml:space="preserve">
+    <value>Spre Milestone</value>
+  </data>
+  <data name="Gantt_ToTask" xml:space="preserve">
+    <value>Pentru sarcină</value>
+  </data>
+  <data name="Gantt_Type" xml:space="preserve">
+    <value>Tip</value>
+  </data>
+  <data name="Gantt_Update" xml:space="preserve">
+    <value>Actualizați</value>
+  </data>
+  <data name="Gantt_WriteNotes" xml:space="preserve">
+    <value>Scrie Note</value>
+  </data>
+  <data name="Gantt_ZoomIn" xml:space="preserve">
+    <value>Mareste</value>
+  </data>
+  <data name="Gantt_ZoomOut" xml:space="preserve">
+    <value>A micsora</value>
+  </data>
+  <data name="Gantt_ZoomToFit" xml:space="preserve">
+    <value>Zoom pentru a se potrivi</value>
+  </data>
+  <data name="Gantt_AutoFit" xml:space="preserve">
+    <value>Coloană de potrivire automată</value>
+  </data>
+  <data name="Gantt_AutoFitAll" xml:space="preserve">
+    <value>Potriviți automat toate coloanele</value>
+  </data>
+  <data name="Gantt_SortAscending" xml:space="preserve">
+    <value>Sortare ascendentă</value>
+  </data>
+  <data name="Gantt_SortDescending" xml:space="preserve">
+    <value>Sortează descrescător</value>
+  </data>
+  <data name="Gantt_TaskMode" xml:space="preserve">
+    <value>Modul Sarcină</value>
+  </data>
+  <data name="Gantt_TaskMode_Auto" xml:space="preserve">
+    <value>Auto</value>
+  </data>
+  <data name="Gantt_TaskMode_Manual" xml:space="preserve">
+    <value>Manual</value>
+  </data>
+  <data name="Gantt_SubTaskStartDate" xml:space="preserve">
+    <value>Data de începere a sarcinilor secundare</value>
+  </data>
+  <data name="Gantt_SubTaskEndDate" xml:space="preserve">
+    <value>Data de încheiere a sarcinilor secundare</value>
+  </data>
+  <data name="Gantt_AutoDuration" xml:space="preserve">
+    <value>Durată</value>
+  </data>
+  <data name="Gantt_Work" xml:space="preserve">
+    <value>Muncă</value>
+  </data>
+  <data name="Gantt_H" xml:space="preserve">
+    <value>H</value>
+  </data>
+  <data name="Gantt_D" xml:space="preserve">
+    <value>D</value>
+  </data>
+  <data name="Gantt_M" xml:space="preserve">
+    <value>M</value>
+  </data>
+  <data name="Gantt_Min" xml:space="preserve">
+    <value>Min</value>
+  </data>
+  <data name="Gantt_CustomColumn" xml:space="preserve">
+    <value>Coloane personalizate</value>
+  </data>
+  <data name="Gantt_TaskType" xml:space="preserve">
+    <value>Tip de sarcină</value>
+  </data>
+  <data name="ColorPicker_Apply" xml:space="preserve">
+    <value>aplica</value>
+  </data>
+  <data name="ColorPicker_Cancel" xml:space="preserve">
+    <value>Anulare</value>
+  </data>
+  <data name="ColorPicker_ModeSwitcher" xml:space="preserve">
+    <value>Mod de comutare</value>
+  </data>
+  <data name="ListBox_ActionFailureTemplate" xml:space="preserve">
+    <value>Cerere nereusita</value>
+  </data>
+  <data name="ListBox_MoveAllFrom" xml:space="preserve">
+    <value>Mutați totul de la</value>
+  </data>
+  <data name="ListBox_MoveAllTo" xml:space="preserve">
+    <value>Mutați totul la</value>
+  </data>
+  <data name="ListBox_MoveDown" xml:space="preserve">
+    <value>Mută-te în jos</value>
+  </data>
+  <data name="ListBox_MoveFrom" xml:space="preserve">
+    <value>Misca din</value>
+  </data>
+  <data name="ListBox_MoveTo" xml:space="preserve">
+    <value>Treceți la</value>
+  </data>
+  <data name="ListBox_MoveUp" xml:space="preserve">
+    <value>Mută ​​în sus</value>
+  </data>
+  <data name="ListBox_NoRecordsTemplate" xml:space="preserve">
+    <value>Nu au fost găsite</value>
+  </data>
+  <data name="ListBox_SelectAllText" xml:space="preserve">
+    <value>Selectează tot</value>
+  </data>
+  <data name="ListBox_UnSelectAllText" xml:space="preserve">
+    <value>Deselectează tot</value>
+  </data>
+  <data name="PivotView_NumberFormat_ExampleWatermark" xml:space="preserve">
+    <value>Exemplu: C, P, 0000%, ### 0. ## 0 # etc.</value>
+  </data>
+  <data name="PivotView_SortNone_TooltipMessage" xml:space="preserve">
+    <value>Sortați ordinea datelor</value>
+  </data>
+  <data name="PivotView_SortDescending_TooltipMessage" xml:space="preserve">
+    <value>Sortați ordinea descrescătoare</value>
+  </data>
+  <data name="PivotView_StaticFieldList" xml:space="preserve">
+    <value>Lista câmpurilor pivot</value>
+  </data>
+  <data name="PivotView_FieldList" xml:space="preserve">
+    <value>Lista câmpurilor</value>
+  </data>
+  <data name="PivotView_AddFieldMessage" xml:space="preserve">
+    <value>Adăugați câmp aici</value>
+  </data>
+  <data name="PivotView_ChooseFieldMessage" xml:space="preserve">
+    <value>Alegeți câmpul</value>
+  </data>
+  <data name="PivotView_DragFieldsMessage" xml:space="preserve">
+    <value>Trageți câmpurile între axe de mai jos:</value>
+  </data>
+  <data name="PivotView_Add" xml:space="preserve">
+    <value>Adăuga</value>
+  </data>
+  <data name="PivotView_DeferLayoutUpdate" xml:space="preserve">
+    <value>Amânați actualizarea aspectului</value>
+  </data>
+  <data name="PivotView_ShowLegend" xml:space="preserve">
+    <value>Arată Legendă</value>
+  </data>
+  <data name="PivotView_FieldCaptionWatermark" xml:space="preserve">
+    <value>Introduceți legenda câmpului</value>
+  </data>
+  <data name="PivotView_SortAscending_TooltipMessage" xml:space="preserve">
+    <value>Sortați ordinea crescătoare</value>
+  </data>
+  <data name="PivotView_ReplaceReport_BeforeMessage" xml:space="preserve">
+    <value>Un raport numit</value>
+  </data>
+  <data name="PivotView_ReplaceReport_AfterMessage" xml:space="preserve">
+    <value>deja exista. Vrei sa o inlocuiesti?</value>
+  </data>
+  <data name="PivotView_AddCondition" xml:space="preserve">
+    <value>Adaugă condiție</value>
+  </data>
+  <data name="PivotView_AddToColumn" xml:space="preserve">
+    <value>Adăugați la Coloană</value>
+  </data>
+  <data name="PivotView_AddToFilter" xml:space="preserve">
+    <value>Adăugați în filtru</value>
+  </data>
+  <data name="PivotView_AddToRow" xml:space="preserve">
+    <value>Adăugați la Row</value>
+  </data>
+  <data name="PivotView_AddToValue" xml:space="preserve">
+    <value>Adăugați la valoare</value>
+  </data>
+  <data name="PivotView_After" xml:space="preserve">
+    <value>După</value>
+  </data>
+  <data name="PivotView_AfterOrEqualTo" xml:space="preserve">
+    <value>După sau egal cu</value>
+  </data>
+  <data name="PivotView_Aggregate" xml:space="preserve">
+    <value>Agregat</value>
+  </data>
+  <data name="PivotView_Alert" xml:space="preserve">
+    <value>Alerta</value>
+  </data>
+  <data name="PivotView_All" xml:space="preserve">
+    <value>Toate</value>
+  </data>
+  <data name="PivotView_AllFields" xml:space="preserve">
+    <value>Toate câmpurile</value>
+  </data>
+  <data name="PivotView_AllValues" xml:space="preserve">
+    <value>Toate valorile</value>
+  </data>
+  <data name="PivotView_And" xml:space="preserve">
+    <value>și</value>
+  </data>
+  <data name="PivotView_Apply" xml:space="preserve">
+    <value>aplica</value>
+  </data>
+  <data name="PivotView_Area" xml:space="preserve">
+    <value>Zonă</value>
+  </data>
+  <data name="PivotView_Ascending" xml:space="preserve">
+    <value>Ascendent</value>
+  </data>
+  <data name="PivotView_Avg" xml:space="preserve">
+    <value>Medie</value>
+  </data>
+  <data name="PivotView_Bar" xml:space="preserve">
+    <value>Bar</value>
+  </data>
+  <data name="PivotView_BaseField" xml:space="preserve">
+    <value>Câmp de bază</value>
+  </data>
+  <data name="PivotView_BaseItem" xml:space="preserve">
+    <value>Element de bază</value>
+  </data>
+  <data name="PivotView_Before" xml:space="preserve">
+    <value>Inainte de</value>
+  </data>
+  <data name="PivotView_BeforeOrEqualTo" xml:space="preserve">
+    <value>Înainte sau egal cu</value>
+  </data>
+  <data name="PivotView_BeginWith" xml:space="preserve">
+    <value>Începe cu</value>
+  </data>
+  <data name="PivotView_Between" xml:space="preserve">
+    <value>Între</value>
+  </data>
+  <data name="PivotView_Blank" xml:space="preserve">
+    <value>(Gol)</value>
+  </data>
+  <data name="PivotView_By" xml:space="preserve">
+    <value>de</value>
+  </data>
+  <data name="PivotView_CalculatedField" xml:space="preserve">
+    <value>Câmpul calculat</value>
+  </data>
+  <data name="PivotView_CalculatedField_ConfirmMessage" xml:space="preserve">
+    <value>Un câmp de calcul există deja în acest nume. Vrei sa o inlocuiesti?</value>
+  </data>
+  <data name="PivotView_CalculatedField_DragDropMessage" xml:space="preserve">
+    <value>Trageți și plasați câmpurile în formulă</value>
+  </data>
+  <data name="PivotView_CalculatedField_DragMessage" xml:space="preserve">
+    <value>Trageți câmpul către formulă</value>
+  </data>
+  <data name="PivotView_CalculatedField_DropMessage" xml:space="preserve">
+    <value>Câmpul calculat nu poate fi plasat în nicio altă regiune, cu excepția axei valorice.</value>
+  </data>
+  <data name="PivotView_CalculatedField_ExampleWatermark" xml:space="preserve">
+    <value>Exemplu: ('Sum(Order_Count)' + 'Sum(In_Stock)') * 250</value>
+  </data>
+  <data name="PivotView_CalculatedField_ExistMessage" xml:space="preserve">
+    <value>Un câmp există deja în acest nume. Vă rugăm să introduceți un alt nume.</value>
+  </data>
+  <data name="PivotView_CalculatedField_MobileWatermark" xml:space="preserve">
+    <value>Adăugați câmpuri și modificați formula aici.</value>
+  </data>
+  <data name="PivotView_CalculatedField_NameWatermark" xml:space="preserve">
+    <value>Introduceți numele câmpului</value>
+  </data>
+  <data name="PivotView_CalculatedField_OLAPExampleWatermark" xml:space="preserve">
+    <value>Exemplu: [Measures].[Order Quantity] + ([Measures].[Order Quantity] * 0.10)</value>
+  </data>
+  <data name="PivotView_CalculatedField_Tooltip" xml:space="preserve">
+    <value>Trageți și plasați câmpurile pentru a crea o expresie. Și, dacă doriți să editați câmpurile calculate existente! O puteți obține prin simpla selectare a câmpului din 'Membri calculați'.</value>
+  </data>
+  <data name="PivotView_Cancel" xml:space="preserve">
+    <value>Anulare</value>
+  </data>
+  <data name="PivotView_Chart" xml:space="preserve">
+    <value>Diagramă</value>
+  </data>
+  <data name="PivotView_Clear" xml:space="preserve">
+    <value>Limpezi</value>
+  </data>
+  <data name="PivotView_ClearFilter" xml:space="preserve">
+    <value>Limpezi</value>
+  </data>
+  <data name="PivotView_Close" xml:space="preserve">
+    <value>Închide</value>
+  </data>
+  <data name="PivotView_Collapse" xml:space="preserve">
+    <value>Colaps</value>
+  </data>
+  <data name="PivotView_Column" xml:space="preserve">
+    <value>Coloană</value>
+  </data>
+  <data name="PivotView_ColumnAxisWatermark" xml:space="preserve">
+    <value>Aruncați coloana aici</value>
+  </data>
+  <data name="PivotView_Columns" xml:space="preserve">
+    <value>coloane</value>
+  </data>
+  <data name="PivotView_ConditionalFormating" xml:space="preserve">
+    <value>Formatarea condițională</value>
+  </data>
+  <data name="PivotView_ConditionalFormatting" xml:space="preserve">
+    <value>Formatarea condițională</value>
+  </data>
+  <data name="PivotView_Contains" xml:space="preserve">
+    <value>Conține</value>
+  </data>
+  <data name="PivotView_Copy" xml:space="preserve">
+    <value>Copie</value>
+  </data>
+  <data name="PivotView_Count" xml:space="preserve">
+    <value>Numara</value>
+  </data>
+  <data name="PivotView_CreateCalculatedField" xml:space="preserve">
+    <value>Creați câmpul calculat</value>
+  </data>
+  <data name="PivotView_CSV" xml:space="preserve">
+    <value>CSV</value>
+  </data>
+  <data name="PivotView_Currency" xml:space="preserve">
+    <value>Valută</value>
+  </data>
+  <data name="PivotView_CurrencySymbol" xml:space="preserve">
+    <value>Simbol Valută</value>
+  </data>
+  <data name="PivotView_Custom" xml:space="preserve">
+    <value>Personalizat</value>
+  </data>
+  <data name="PivotView_CustomFormat" xml:space="preserve">
+    <value>Format personalizat</value>
+  </data>
+  <data name="PivotView_CustomFormatMessage" xml:space="preserve">
+    <value>Introduceți șirul formatului personalizat</value>
+  </data>
+  <data name="PivotView_Date" xml:space="preserve">
+    <value>Data</value>
+  </data>
+  <data name="PivotView_DateTextMessage" xml:space="preserve">
+    <value>Afișați elementele pentru care data</value>
+  </data>
+  <data name="PivotView_Days" xml:space="preserve">
+    <value>zi</value>
+  </data>
+  <data name="PivotView_DecimalPlaces" xml:space="preserve">
+    <value>Zecimale</value>
+  </data>
+  <data name="PivotView_Delete" xml:space="preserve">
+    <value>Șterge</value>
+  </data>
+  <data name="PivotView_DeleteReport" xml:space="preserve">
+    <value>Ștergeți un raport curent</value>
+  </data>
+  <data name="PivotView_Descending" xml:space="preserve">
+    <value>Descendentă</value>
+  </data>
+  <data name="PivotView_Details" xml:space="preserve">
+    <value>Detalii</value>
+  </data>
+  <data name="PivotView_DifferenceFrom" xml:space="preserve">
+    <value>Diferență de</value>
+  </data>
+  <data name="PivotView_Dimension" xml:space="preserve">
+    <value>Dimensiune</value>
+  </data>
+  <data name="PivotView_DistinctCount" xml:space="preserve">
+    <value>Contele distins</value>
+  </data>
+  <data name="PivotView_DoesNotBeginWith" xml:space="preserve">
+    <value>Nu începe cu</value>
+  </data>
+  <data name="PivotView_DoesNotContains" xml:space="preserve">
+    <value>Nu contine</value>
+  </data>
+  <data name="PivotView_DoesNotEndsWith" xml:space="preserve">
+    <value>Nu se termină</value>
+  </data>
+  <data name="PivotView_DoesNotEquals" xml:space="preserve">
+    <value>Nu este egal</value>
+  </data>
+  <data name="PivotView_DoNotShowGrandTotals" xml:space="preserve">
+    <value>Nu afișați totalități mari</value>
+  </data>
+  <data name="PivotView_DoNotShowSubtotals" xml:space="preserve">
+    <value>Nu afișați totalurile secundare</value>
+  </data>
+  <data name="PivotView_Drag" xml:space="preserve">
+    <value>Trage</value>
+  </data>
+  <data name="PivotView_DrillThrough" xml:space="preserve">
+    <value>Drill Through</value>
+  </data>
+  <data name="PivotView_DrillThroughErrorMessage" xml:space="preserve">
+    <value>Nu se pot afișa elementele brute ale câmpurilor calculate.</value>
+  </data>
+  <data name="PivotView_Edit" xml:space="preserve">
+    <value>Editați | ×</value>
+  </data>
+  <data name="PivotView_EmptyRecordsMessage" xml:space="preserve">
+    <value>Nu există înregistrări de afișat</value>
+  </data>
+  <data name="PivotView_EmptyReportMessage" xml:space="preserve">
+    <value>Nu s-au găsit rapoarte !!</value>
+  </data>
+  <data name="PivotView_EndAt" xml:space="preserve">
+    <value>Se încheie la</value>
+  </data>
+  <data name="PivotView_EndsWith" xml:space="preserve">
+    <value>Se termină cu</value>
+  </data>
+  <data name="PivotView_EnterDate" xml:space="preserve">
+    <value>Introduceți data</value>
+  </data>
+  <data name="PivotView_EnterReportNameMessage" xml:space="preserve">
+    <value>Introduceți un nume de raport</value>
+  </data>
+  <data name="PivotView_EnterValue" xml:space="preserve">
+    <value>Introduceți valoarea</value>
+  </data>
+  <data name="PivotView_Equals" xml:space="preserve">
+    <value>equals</value>
+  </data>
+  <data name="PivotView_Error" xml:space="preserve">
+    <value>Eroare</value>
+  </data>
+  <data name="PivotView_Example" xml:space="preserve">
+    <value>de exemplu:</value>
+  </data>
+  <data name="PivotView_Excel" xml:space="preserve">
+    <value>Excel</value>
+  </data>
+  <data name="PivotView_Expand" xml:space="preserve">
+    <value>Extinde</value>
+  </data>
+  <data name="PivotView_Export" xml:space="preserve">
+    <value>Export</value>
+  </data>
+  <data name="PivotView_Expression" xml:space="preserve">
+    <value>Expresie</value>
+  </data>
+  <data name="PivotView_False" xml:space="preserve">
+    <value>Fals</value>
+  </data>
+  <data name="PivotView_FieldCaption" xml:space="preserve">
+    <value>Subtitrare câmp</value>
+  </data>
+  <data name="PivotView_FieldCaptionMessage" xml:space="preserve">
+    <value>Subtitrare câmp</value>
+  </data>
+  <data name="PivotView_FieldDropErrorMessage" xml:space="preserve">
+    <value>Câmpul pe care îl mutați nu poate fi plasat în acea zonă a raportului</value>
+  </data>
+  <data name="PivotView_FieldName" xml:space="preserve">
+    <value>Numele domeniului</value>
+  </data>
+  <data name="PivotView_FieldNameMessage" xml:space="preserve">
+    <value>Numele domeniului :</value>
+  </data>
+  <data name="PivotView_FieldType" xml:space="preserve">
+    <value>Tipul câmpului</value>
+  </data>
+  <data name="PivotView_Filter" xml:space="preserve">
+    <value>Filtru</value>
+  </data>
+  <data name="PivotView_FilterAxisWatermark" xml:space="preserve">
+    <value>Aruncați filtrul aici</value>
+  </data>
+  <data name="PivotView_Filtered" xml:space="preserve">
+    <value>Filtrate</value>
+  </data>
+  <data name="PivotView_Filters" xml:space="preserve">
+    <value>Filtre</value>
+  </data>
+  <data name="PivotView_Format" xml:space="preserve">
+    <value>Format</value>
+  </data>
+  <data name="PivotView_FormatString" xml:space="preserve">
+    <value>Formatează șirul</value>
+  </data>
+  <data name="PivotView_FormatType" xml:space="preserve">
+    <value>Tip de format</value>
+  </data>
+  <data name="PivotView_Formula" xml:space="preserve">
+    <value>Formulă</value>
+  </data>
+  <data name="PivotView_GrandTotal" xml:space="preserve">
+    <value>Total general</value>
+  </data>
+  <data name="PivotView_GrandTotals" xml:space="preserve">
+    <value>Totaluri mari</value>
+  </data>
+  <data name="PivotView_GreaterThan" xml:space="preserve">
+    <value>Mai mare ca</value>
+  </data>
+  <data name="PivotView_GreaterThanOrEqualTo" xml:space="preserve">
+    <value>Mai mare decât sau egală cu</value>
+  </data>
+  <data name="PivotView_Group" xml:space="preserve">
+    <value>grup</value>
+  </data>
+  <data name="PivotView_GroupCaptionMessage" xml:space="preserve">
+    <value>Introduceți legendă pentru a fi afișat în antet</value>
+  </data>
+  <data name="PivotView_GroupFieldCaptionMessage" xml:space="preserve">
+    <value>Introduceți legenda pentru câmpul de grup</value>
+  </data>
+  <data name="PivotView_Grouping" xml:space="preserve">
+    <value>gruparea</value>
+  </data>
+  <data name="PivotView_GroupName" xml:space="preserve">
+    <value>Numele Grupului</value>
+  </data>
+  <data name="PivotView_Hours" xml:space="preserve">
+    <value>ore</value>
+  </data>
+  <data name="PivotView_Index" xml:space="preserve">
+    <value>Index</value>
+  </data>
+  <data name="PivotView_IntervalBy" xml:space="preserve">
+    <value>Interval de</value>
+  </data>
+  <data name="PivotView_InvalidFormat" xml:space="preserve">
+    <value>Formatul este nevalid.</value>
+  </data>
+  <data name="PivotView_InvalidFormula" xml:space="preserve">
+    <value>Formula nevalidă.</value>
+  </data>
+  <data name="PivotView_InvalidGroupSelectionMessage" xml:space="preserve">
+    <value>Nu poate grupa acea selecție.</value>
+  </data>
+  <data name="PivotView_JPEG" xml:space="preserve">
+    <value>JPEG</value>
+  </data>
+  <data name="PivotView_Label" xml:space="preserve">
+    <value>Eticheta</value>
+  </data>
+  <data name="PivotView_LabelTextMessage" xml:space="preserve">
+    <value>Afișați elementele pentru care eticheta</value>
+  </data>
+  <data name="PivotView_Left" xml:space="preserve">
+    <value>Stânga</value>
+  </data>
+  <data name="PivotView_LessThan" xml:space="preserve">
+    <value>Mai puțin decât</value>
+  </data>
+  <data name="PivotView_LessThanOrEqualTo" xml:space="preserve">
+    <value>Mai mic sau egal cu</value>
+  </data>
+  <data name="PivotView_Line" xml:space="preserve">
+    <value>Linia</value>
+  </data>
+  <data name="PivotView_LoadReport" xml:space="preserve">
+    <value>Sarcină</value>
+  </data>
+  <data name="PivotView_ManageRecords" xml:space="preserve">
+    <value>Gestionați înregistrările</value>
+  </data>
+  <data name="PivotView_Max" xml:space="preserve">
+    <value>Max</value>
+  </data>
+  <data name="PivotView_MdxQuery" xml:space="preserve">
+    <value>Interogare MDX</value>
+  </data>
+  <data name="PivotView_Measure" xml:space="preserve">
+    <value>Măsura</value>
+  </data>
+  <data name="PivotView_Member" xml:space="preserve">
+    <value>Membru</value>
+  </data>
+  <data name="PivotView_MemberLimitMessage" xml:space="preserve">
+    <value>mai multe articole. Căutați să perfecționați în continuare.</value>
+  </data>
+  <data name="PivotView_Min" xml:space="preserve">
+    <value>Min</value>
+  </data>
+  <data name="PivotView_Minutes" xml:space="preserve">
+    <value>Minute</value>
+  </data>
+  <data name="PivotView_Months" xml:space="preserve">
+    <value>Luni</value>
+  </data>
+  <data name="PivotView_MoreOption" xml:space="preserve">
+    <value>Mai Mult...</value>
+  </data>
+  <data name="PivotView_MultipleItems" xml:space="preserve">
+    <value>Mai multe articole</value>
+  </data>
+  <data name="PivotView_NewReport" xml:space="preserve">
+    <value>Creați un raport nou</value>
+  </data>
+  <data name="PivotView_NewReportConfirmMessage" xml:space="preserve">
+    <value>Doriți să salvați modificările aduse acestui raport?</value>
+  </data>
+  <data name="PivotView_NoFormatMessage" xml:space="preserve">
+    <value>Niciun format nu a fost găsit !!!</value>
+  </data>
+  <data name="PivotView_NoInputMessage" xml:space="preserve">
+    <value>Introduceți o valoare</value>
+  </data>
+  <data name="PivotView_NoMatchesMessage" xml:space="preserve">
+    <value>Nici-o potrivire</value>
+  </data>
+  <data name="PivotView_NotBetween" xml:space="preserve">
+    <value>Nu între</value>
+  </data>
+  <data name="PivotView_NotEquals" xml:space="preserve">
+    <value>Nu este egal</value>
+  </data>
+  <data name="PivotView_NoValue" xml:space="preserve">
+    <value>Fără valoare</value>
+  </data>
+  <data name="PivotView_Null" xml:space="preserve">
+    <value>nul</value>
+  </data>
+  <data name="PivotView_Number" xml:space="preserve">
+    <value>Număr</value>
+  </data>
+  <data name="PivotView_NumberFormatting" xml:space="preserve">
+    <value>Formatarea numărului</value>
+  </data>
+  <data name="PivotView_Of" xml:space="preserve">
+    <value>de</value>
+  </data>
+  <data name="PivotView_OK" xml:space="preserve">
+    <value>O.K</value>
+  </data>
+  <data name="PivotView_OutOfRange" xml:space="preserve">
+    <value>În afara razei de acțiune</value>
+  </data>
+  <data name="PivotView_ParentHierarchy" xml:space="preserve">
+    <value>Ierarhia părinților</value>
+  </data>
+  <data name="PivotView_PDF" xml:space="preserve">
+    <value>PDF</value>
+  </data>
+  <data name="PivotView_Percent" xml:space="preserve">
+    <value>La sută</value>
+  </data>
+  <data name="PivotView_Percentage" xml:space="preserve">
+    <value>Procent</value>
+  </data>
+  <data name="PivotView_PercentageOfColumnTotal" xml:space="preserve">
+    <value>% din totalul coloanei</value>
+  </data>
+  <data name="PivotView_PercentageOfDifferenceFrom" xml:space="preserve">
+    <value>% din diferență de</value>
+  </data>
+  <data name="PivotView_PercentageOfGrandTotal" xml:space="preserve">
+    <value>% din totalul mare</value>
+  </data>
+  <data name="PivotView_PercentageOfParentColumnTotal" xml:space="preserve">
+    <value>% din totalul coloanelor părinte</value>
+  </data>
+  <data name="PivotView_PercentageOfParentRowTotal" xml:space="preserve">
+    <value>% din totalul rândului părinților</value>
+  </data>
+  <data name="PivotView_PercentageOfParentTotal" xml:space="preserve">
+    <value>% din totalul părinților</value>
+  </data>
+  <data name="PivotView_PercentageOfRowTotal" xml:space="preserve">
+    <value>% din rândul total</value>
+  </data>
+  <data name="PivotView_PNG" xml:space="preserve">
+    <value>PNG</value>
+  </data>
+  <data name="PivotView_Polar" xml:space="preserve">
+    <value>Polar</value>
+  </data>
+  <data name="PivotView_PopulationStDev" xml:space="preserve">
+    <value>Populația StDev</value>
+  </data>
+  <data name="PivotView_PopulationVar" xml:space="preserve">
+    <value>Pop. Var</value>
+  </data>
+  <data name="PivotView_Product" xml:space="preserve">
+    <value>Produs</value>
+  </data>
+  <data name="PivotView_Quarter" xml:space="preserve">
+    <value>Qtr</value>
+  </data>
+  <data name="PivotView_Quarters" xml:space="preserve">
+    <value>Quarters</value>
+  </data>
+  <data name="PivotView_QuarterYear" xml:space="preserve">
+    <value>Anul trimestrial</value>
+  </data>
+  <data name="PivotView_Remove" xml:space="preserve">
+    <value>Elimina</value>
+  </data>
+  <data name="PivotView_RemoveReportConfirmMessage" xml:space="preserve">
+    <value>Sigur doriți să ștergeți acest raport?</value>
+  </data>
+  <data name="PivotView_RenameReport" xml:space="preserve">
+    <value>Redenumirea unui raport curent</value>
+  </data>
+  <data name="PivotView_ReportList" xml:space="preserve">
+    <value>Lista de rapoarte</value>
+  </data>
+  <data name="PivotView_ReportNameMessage" xml:space="preserve">
+    <value>Nume raport:</value>
+  </data>
+  <data name="PivotView_Right" xml:space="preserve">
+    <value>Dreapta</value>
+  </data>
+  <data name="PivotView_Row" xml:space="preserve">
+    <value>Rând</value>
+  </data>
+  <data name="PivotView_RowAxisWatermark" xml:space="preserve">
+    <value>Aruncați rândul aici</value>
+  </data>
+  <data name="PivotView_Rows" xml:space="preserve">
+    <value>rânduri</value>
+  </data>
+  <data name="PivotView_RunningTotals" xml:space="preserve">
+    <value>Totaluri de rulare</value>
+  </data>
+  <data name="PivotView_SampleReport" xml:space="preserve">
+    <value>Exemplu de raport</value>
+  </data>
+  <data name="PivotView_SampleStDev" xml:space="preserve">
+    <value>Proba StDev</value>
+  </data>
+  <data name="PivotView_SampleVar" xml:space="preserve">
+    <value>Var. Probă</value>
+  </data>
+  <data name="PivotView_SaveAsReport" xml:space="preserve">
+    <value>Salvați ca raport curent</value>
+  </data>
+  <data name="PivotView_SaveReport" xml:space="preserve">
+    <value>Salvați un raport</value>
+  </data>
+  <data name="PivotView_Scatter" xml:space="preserve">
+    <value>Împrăștia</value>
+  </data>
+  <data name="PivotView_Search" xml:space="preserve">
+    <value>Căutare</value>
+  </data>
+  <data name="PivotView_Seconds" xml:space="preserve">
+    <value>secunde</value>
+  </data>
+  <data name="PivotView_SelectedItems" xml:space="preserve">
+    <value>Articole selectate</value>
+  </data>
+  <data name="PivotView_SelectGroups" xml:space="preserve">
+    <value>Select groups</value>
+  </data>
+  <data name="PivotView_ShowColumnGrandTotalsOnly" xml:space="preserve">
+    <value>Afișați doar coloane totale totale</value>
+  </data>
+  <data name="PivotView_ShowColumnSubtotalsOnly" xml:space="preserve">
+    <value>Afișați doar coloane sub total</value>
+  </data>
+  <data name="PivotView_ShowFieldList" xml:space="preserve">
+    <value>Show fieldlist</value>
+  </data>
+  <data name="PivotView_ShowGrandTotals" xml:space="preserve">
+    <value>Afișează totaluri minunate</value>
+  </data>
+  <data name="PivotView_ShowRowGrandTotalsOnly" xml:space="preserve">
+    <value>Afișați doar rândurile totale mari</value>
+  </data>
+  <data name="PivotView_ShowRowSubtotalsOnly" xml:space="preserve">
+    <value>Afișați doar rândurile sub total</value>
+  </data>
+  <data name="PivotView_ShowSubtotals" xml:space="preserve">
+    <value>Afișează totalul sub</value>
+  </data>
+  <data name="PivotView_ShowTable" xml:space="preserve">
+    <value>Afișează tabelul</value>
+  </data>
+  <data name="PivotView_Sort" xml:space="preserve">
+    <value>Fel</value>
+  </data>
+  <data name="PivotView_Standard" xml:space="preserve">
+    <value>Standard</value>
+  </data>
+  <data name="PivotView_StartAt" xml:space="preserve">
+    <value>Începând de la</value>
+  </data>
+  <data name="PivotView_Subtotals" xml:space="preserve">
+    <value>Totaluri secundare</value>
+  </data>
+  <data name="PivotView_Sum" xml:space="preserve">
+    <value>Sumă</value>
+  </data>
+  <data name="PivotView_Summaries" xml:space="preserve">
+    <value>Rezumarea valorilor de</value>
+  </data>
+  <data name="PivotView_SummarizeValuesBy" xml:space="preserve">
+    <value>Rezumați valorile după</value>
+  </data>
+  <data name="PivotView_SVG" xml:space="preserve">
+    <value>SVG</value>
+  </data>
+  <data name="PivotView_SymbolPosition" xml:space="preserve">
+    <value>Poziția simbolului</value>
+  </data>
+  <data name="PivotView_Total" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="PivotView_True" xml:space="preserve">
+    <value>Adevărat</value>
+  </data>
+  <data name="PivotView_Undefined" xml:space="preserve">
+    <value>nedefinit</value>
+  </data>
+  <data name="PivotView_Ungroup" xml:space="preserve">
+    <value>Degrupeaza</value>
+  </data>
+  <data name="PivotView_ValidReportNameMessage" xml:space="preserve">
+    <value>Vă rugăm să introduceți un nume de înregistrare valabil !!!</value>
+  </data>
+  <data name="PivotView_Value" xml:space="preserve">
+    <value>Valoare</value>
+  </data>
+  <data name="PivotView_ValueAxisWatermark" xml:space="preserve">
+    <value>Scade valoarea aici</value>
+  </data>
+  <data name="PivotView_ValueFieldSettings" xml:space="preserve">
+    <value>Setări câmp valorice</value>
+  </data>
+  <data name="PivotView_Values" xml:space="preserve">
+    <value>valori</value>
+  </data>
+  <data name="PivotView_ValueTextMessage" xml:space="preserve">
+    <value>Afișați elementele pentru care</value>
+  </data>
+  <data name="PivotView_Warning" xml:space="preserve">
+    <value>Avertizare</value>
+  </data>
+  <data name="PivotView_Years" xml:space="preserve">
+    <value>Ani</value>
+  </data>
+  <data name="PivotView_MultipleAxes" xml:space="preserve">
+    <value>Axe multiple</value>
+  </data>
+  <data name="PivotView_ChartTypeSettings" xml:space="preserve">
+    <value>Setări tip diagramă</value>
+  </data>
+  <data name="PivotView_ChartType" xml:space="preserve">
+    <value>Tipul graficului</value>
+  </data>
+  <data name="PivotView_Yes" xml:space="preserve">
+    <value>da</value>
+  </data>
+  <data name="PivotView_No" xml:space="preserve">
+    <value>Nu</value>
+  </data>
+  <data name="PivotView_NumberFormatMenu" xml:space="preserve">
+    <value>Number Formatting...</value>
+  </data>
+  <data name="PivotView_ConditionalFormatingMenu" xml:space="preserve">
+    <value>Formatarea condițională...</value>
+  </data>
+  <data name="PivotView_CalculatedField_RemoveMessage" xml:space="preserve">
+    <value>Sigur doriți să ștergeți acest câmp calculat?</value>
+  </data>
+  <data name="PivotView_StackedArea" xml:space="preserve">
+    <value>Zona stivuită</value>
+  </data>
+  <data name="PivotView_StackedColumn" xml:space="preserve">
+    <value>Coloana stivuită</value>
+  </data>
+  <data name="PivotView_StackedBar" xml:space="preserve">
+    <value>Barul stivuit</value>
+  </data>
+  <data name="PivotView_StepLine" xml:space="preserve">
+    <value>Pas de linie</value>
+  </data>
+  <data name="PivotView_StepArea" xml:space="preserve">
+    <value>Zona pasului</value>
+  </data>
+  <data name="PivotView_SplineArea" xml:space="preserve">
+    <value>Zona Spline</value>
+  </data>
+  <data name="PivotView_Spline" xml:space="preserve">
+    <value>Splina</value>
+  </data>
+  <data name="PivotView_StackedColumn100" xml:space="preserve">
+    <value>100% Coloană stivuită</value>
+  </data>
+  <data name="PivotView_StackedBar100" xml:space="preserve">
+    <value>Bar 100% stivuit</value>
+  </data>
+  <data name="PivotView_StackedArea100" xml:space="preserve">
+    <value>Suprafață 100% stivuită</value>
+  </data>
+  <data name="PivotView_Bubble" xml:space="preserve">
+    <value>balon</value>
+  </data>
+  <data name="PivotView_Pareto" xml:space="preserve">
+    <value>Pareto</value>
+  </data>
+  <data name="PivotView_Radar" xml:space="preserve">
+    <value>Radar</value>
+  </data>
+  <data name="PivotView_CalculatedField_EditTooltipMessage" xml:space="preserve">
+    <value>Editați câmpul calculat</value>
+  </data>
+  <data name="PivotView_CalculatedField_ClearTooltipMessage" xml:space="preserve">
+    <value>Ștergeți informațiile câmpului editate</value>
+  </data>
+  <data name="PivotView_Pie" xml:space="preserve">
+    <value>Plăcintă</value>
+  </data>
+  <data name="PivotView_Pyramid" xml:space="preserve">
+    <value>Piramidă</value>
+  </data>
+  <data name="PivotView_Doughnut" xml:space="preserve">
+    <value>Gogoașă</value>
+  </data>
+  <data name="PivotView_Funnel" xml:space="preserve">
+    <value>Pâlnie</value>
+  </data>
+  <data name="PivotView_Stacked" xml:space="preserve">
+    <value>Stivuite</value>
+  </data>
+  <data name="PivotView_Grouped" xml:space="preserve">
+    <value>Grupate</value>
+  </data>
+  <data name="PivotView_MultipleAxisMode" xml:space="preserve">
+    <value>Mod cu mai multe axe</value>
+  </data>
+  <data name="PivotView_Median" xml:space="preserve">
+    <value>Median</value>
+  </data>
+  <data name="PivotView_Bottom" xml:space="preserve">
+    <value>Partea de jos</value>
+  </data>
+  <data name="PivotView_GrandTotalPositions" xml:space="preserve">
+    <value>Poziții în total mare</value>
+  </data>
+  <data name="PivotView_Top" xml:space="preserve">
+    <value>Top</value>
+  </data>
+  <data name="QueryBuilder_AddCondition" xml:space="preserve">
+    <value>Adaugă condiție</value>
+  </data>
+  <data name="QueryBuilder_AddGroup" xml:space="preserve">
+    <value>Adăugare grup</value>
+  </data>
+  <data name="QueryBuilder_AND" xml:space="preserve">
+    <value>ȘI</value>
+  </data>
+  <data name="QueryBuilder_Between" xml:space="preserve">
+    <value>Între</value>
+  </data>
+  <data name="QueryBuilder_Contains" xml:space="preserve">
+    <value>Conține</value>
+  </data>
+  <data name="QueryBuilder_DeleteGroup" xml:space="preserve">
+    <value>Ștergeți grupul</value>
+  </data>
+  <data name="QueryBuilder_DeleteRule" xml:space="preserve">
+    <value>Eliminați această condiție</value>
+  </data>
+  <data name="QueryBuilder_Edit" xml:space="preserve">
+    <value>EDITAȚI | ×</value>
+  </data>
+  <data name="QueryBuilder_Empty" xml:space="preserve">
+    <value>Gol</value>
+  </data>
+  <data name="QueryBuilder_EndsWith" xml:space="preserve">
+    <value>Se termină cu</value>
+  </data>
+  <data name="QueryBuilder_Equal" xml:space="preserve">
+    <value>Egal</value>
+  </data>
+  <data name="QueryBuilder_GreaterThan" xml:space="preserve">
+    <value>Mai mare ca</value>
+  </data>
+  <data name="QueryBuilder_GreaterThanOrEqual" xml:space="preserve">
+    <value>Mai mare decât sau egal</value>
+  </data>
+  <data name="QueryBuilder_In" xml:space="preserve">
+    <value>În</value>
+  </data>
+  <data name="QueryBuilder_LessThan" xml:space="preserve">
+    <value>Mai puțin decât</value>
+  </data>
+  <data name="QueryBuilder_LessThanOrEqual" xml:space="preserve">
+    <value>Mai puțin decât sau egal</value>
+  </data>
+  <data name="QueryBuilder_NotBetween" xml:space="preserve">
+    <value>Nu între</value>
+  </data>
+  <data name="QueryBuilder_NotContains" xml:space="preserve">
+    <value>Nu conține</value>
+  </data>
+  <data name="QueryBuilder_NotEmpty" xml:space="preserve">
+    <value>Nu gol</value>
+  </data>
+  <data name="QueryBuilder_NotEqual" xml:space="preserve">
+    <value>Nu este egal</value>
+  </data>
+  <data name="QueryBuilder_NotIn" xml:space="preserve">
+    <value>Nu în</value>
+  </data>
+  <data name="QueryBuilder_OR" xml:space="preserve">
+    <value>SAU</value>
+  </data>
+  <data name="QueryBuilder_OtherFields" xml:space="preserve">
+    <value>Alte domenii</value>
+  </data>
+  <data name="QueryBuilder_Remove" xml:space="preserve">
+    <value>ELIMINA</value>
+  </data>
+  <data name="QueryBuilder_SelectField" xml:space="preserve">
+    <value>Selectați un câmp</value>
+  </data>
+  <data name="QueryBuilder_SelectOperator" xml:space="preserve">
+    <value>Selectați operatorul</value>
+  </data>
+  <data name="QueryBuilder_SelectValue" xml:space="preserve">
+    <value>Introduceți valoare</value>
+  </data>
+  <data name="QueryBuilder_StartsWith" xml:space="preserve">
+    <value>Incepe cu</value>
+  </data>
+  <data name="QueryBuilder_SummaryViewTitle" xml:space="preserve">
+    <value>Vizualizare sumară</value>
+  </data>
+  <data name="QueryBuilder_ValidationMessage" xml:space="preserve">
+    <value>Acest câmp este obligatoriu</value>
+  </data>
+  <data name="Dialog_Close" xml:space="preserve">
+    <value>Închide</value>
+  </data>
+  <data name="Toast_Close" xml:space="preserve">
+    <value>Închide</value>
+  </data>
+  <data name="InPlaceEditor_Save" xml:space="preserve">
+    <value>salva</value>
+  </data>
+  <data name="InPlaceEditor_Cancel" xml:space="preserve">
+    <value>Anulare</value>
+  </data>
+  <data name="InPlaceEditor_LoadingText" xml:space="preserve">
+    <value>Se încarcă...</value>
+  </data>
+  <data name="InPlaceEditor_EditIcon" xml:space="preserve">
+    <value>Faceți clic pentru a edita</value>
+  </data>
+  <data name="InPlaceEditor_EditAreaClick" xml:space="preserve">
+    <value>Faceți clic pentru a edita</value>
+  </data>
+  <data name="InPlaceEditor_EditAreaDoubleClick" xml:space="preserve">
+    <value>Faceți dublu clic pentru a edita</value>
+  </data>
+  <data name="Kanban_Items" xml:space="preserve">
+    <value>articole</value>
+  </data>
+  <data name="Kanban_Item" xml:space="preserve">
+    <value>articol</value>
+  </data>
+  <data name="Kanban_No_Cards" xml:space="preserve">
+    <value>Nu există cărți de afișat</value>
+  </data>
+  <data name="Kanban_Min" xml:space="preserve">
+    <value>min</value>
+  </data>
+  <data name="Kanban_Max" xml:space="preserve">
+    <value>Max</value>
+  </data>
+  <data name="Kanban_CardsSelected" xml:space="preserve">
+    <value>Carduri selectate</value>
+  </data>
+  <data name="Kanban_AddTitle" xml:space="preserve">
+    <value>Adăugați card nou</value>
+  </data>
+  <data name="Kanban_EditTitle" xml:space="preserve">
+    <value>Editează detaliile cardului</value>
+  </data>
+  <data name="Kanban_DeleteTitle" xml:space="preserve">
+    <value>Ștergeți cardul</value>
+  </data>
+  <data name="Kanban_DeleteContent" xml:space="preserve">
+    <value>Sigur doriți să ștergeți acest card?</value>
+  </data>
+  <data name="Kanban_Save" xml:space="preserve">
+    <value>Salvați</value>
+  </data>
+  <data name="Kanban_Delete" xml:space="preserve">
+    <value>Șterge</value>
+  </data>
+  <data name="Kanban_Cancel" xml:space="preserve">
+    <value>Anulare</value>
+  </data>
+  <data name="Kanban_Yes" xml:space="preserve">
+    <value>da</value>
+  </data>
+  <data name="Kanban_No" xml:space="preserve">
+    <value>Nu</value>
+  </data>
+  <data name="RichTextEditor_NumberFormatListNone" xml:space="preserve">
+    <value>Nici unul</value>
+  </data>
+  <data name="RichTextEditor_NumberFormatListNumber" xml:space="preserve">
+    <value>Număr</value>
+  </data>
+  <data name="RichTextEditor_NumberFormatListUpperAlpha" xml:space="preserve">
+    <value>Alfa Superioară</value>
+  </data>
+  <data name="RichTextEditor_NumberFormatListLowerAlpha" xml:space="preserve">
+    <value>Alfa inferior</value>
+  </data>
+  <data name="RichTextEditor_NumberFormatListUpperRoman" xml:space="preserve">
+    <value>Roman superior</value>
+  </data>
+  <data name="RichTextEditor_NumberFormatListLowerRoman" xml:space="preserve">
+    <value>Roman inferior</value>
+  </data>
+  <data name="RichTextEditor_NumberFormatListLowerGreek" xml:space="preserve">
+    <value>Grecul inferior</value>
+  </data>
+  <data name="RichTextEditor_BulletFormatListNone" xml:space="preserve">
+    <value>Nici unul</value>
+  </data>
+  <data name="RichTextEditor_BulletFormatListCircle" xml:space="preserve">
+    <value>Cerc</value>
+  </data>
+  <data name="RichTextEditor_BulletFormatListSquare" xml:space="preserve">
+    <value>Pătrat</value>
+  </data>
+  <data name="RichTextEditor_BulletFormatListDisc" xml:space="preserve">
+    <value>Disc</value>
+  </data>
+  <data name="RichTextEditor_FormatsDropDownParagraph" xml:space="preserve">
+    <value>Paragraf</value>
+  </data>
+  <data name="RichTextEditor_FormatsDropDownCode" xml:space="preserve">
+    <value>Cod</value>
+  </data>
+  <data name="RichTextEditor_FormatsDropDownQuotation" xml:space="preserve">
+    <value>Citat</value>
+  </data>
+  <data name="RichTextEditor_FormatsDropDownHeading1" xml:space="preserve">
+    <value>Titlu 1</value>
+  </data>
+  <data name="RichTextEditor_FormatsDropDownHeading2" xml:space="preserve">
+    <value>Titlu 2</value>
+  </data>
+  <data name="RichTextEditor_FormatsDropDownHeading3" xml:space="preserve">
+    <value>Titlu 3</value>
+  </data>
+  <data name="RichTextEditor_FormatsDropDownHeading4" xml:space="preserve">
+    <value>Titlu  4</value>
+  </data>
+  <data name="RichTextEditor_FormatsDropDownHeading5" xml:space="preserve">
+    <value>Titlu  5</value>
+  </data>
+  <data name="RichTextEditor_FormatsDropDownHeading6" xml:space="preserve">
+    <value>Titlu   6</value>
+  </data>
+  <data name="RichTextEditor_FontNameSegoeUI" xml:space="preserve">
+    <value>Segoe UI</value>
+  </data>
+  <data name="RichTextEditor_FontNameArial" xml:space="preserve">
+    <value>Arial</value>
+  </data>
+  <data name="RichTextEditor_FontNameGeorgia" xml:space="preserve">
+    <value>Geórgia</value>
+  </data>
+  <data name="RichTextEditor_FontNameImpact" xml:space="preserve">
+    <value>Impact</value>
+  </data>
+  <data name="RichTextEditor_FontNameTahoma" xml:space="preserve">
+    <value>Tahoma</value>
+  </data>
+  <data name="RichTextEditor_FontNameTimesNewRoman" xml:space="preserve">
+    <value>Vremuri noi român</value>
+  </data>
+  <data name="RichTextEditor_FontNameVerdana" xml:space="preserve">
+    <value>Verdana</value>
+  </data>
+  <data name="RichTextEditor_Alignments" xml:space="preserve">
+    <value>aliniamente</value>
+  </data>
+  <data name="RichTextEditor_JustifyLeft" xml:space="preserve">
+    <value>Alinia la stânga</value>
+  </data>
+  <data name="RichTextEditor_JustifyCenter" xml:space="preserve">
+    <value>Aliniere la centru</value>
+  </data>
+  <data name="RichTextEditor_JustifyRight" xml:space="preserve">
+    <value>Aliniați dreapta</value>
+  </data>
+  <data name="RichTextEditor_JustifyFull" xml:space="preserve">
+    <value>Aliniază Justificare</value>
+  </data>
+  <data name="RichTextEditor_FontName" xml:space="preserve">
+    <value>Numele fontului</value>
+  </data>
+  <data name="RichTextEditor_FontSize" xml:space="preserve">
+    <value>Marimea fontului</value>
+  </data>
+  <data name="RichTextEditor_FontColor" xml:space="preserve">
+    <value>Culoarea fontului</value>
+  </data>
+  <data name="RichTextEditor_BackgroundColor" xml:space="preserve">
+    <value>Culoare de fundal</value>
+  </data>
+  <data name="RichTextEditor_Bold" xml:space="preserve">
+    <value>Îndrăzneţ</value>
+  </data>
+  <data name="RichTextEditor_Italic" xml:space="preserve">
+    <value>Cursiv</value>
+  </data>
+  <data name="RichTextEditor_Underline" xml:space="preserve">
+    <value>subliniere</value>
+  </data>
+  <data name="RichTextEditor_Strikethrough" xml:space="preserve">
+    <value>Tăiat</value>
+  </data>
+  <data name="RichTextEditor_ClearFormat" xml:space="preserve">
+    <value>Ștergeți formatul</value>
+  </data>
+  <data name="RichTextEditor_ClearAll" xml:space="preserve">
+    <value>Curata tot</value>
+  </data>
+  <data name="RichTextEditor_Cut" xml:space="preserve">
+    <value>A tăia</value>
+  </data>
+  <data name="RichTextEditor_Copy" xml:space="preserve">
+    <value>Copie</value>
+  </data>
+  <data name="RichTextEditor_Paste" xml:space="preserve">
+    <value>Pastă</value>
+  </data>
+  <data name="RichTextEditor_UnorderedList" xml:space="preserve">
+    <value>Listă cu puncte</value>
+  </data>
+  <data name="RichTextEditor_OrderedList" xml:space="preserve">
+    <value>Lista numerotată</value>
+  </data>
+  <data name="RichTextEditor_Indent" xml:space="preserve">
+    <value>Mareste indent-ul</value>
+  </data>
+  <data name="RichTextEditor_Outdent" xml:space="preserve">
+    <value>Scăderea indentificării</value>
+  </data>
+  <data name="RichTextEditor_Undo" xml:space="preserve">
+    <value>Anula</value>
+  </data>
+  <data name="RichTextEditor_Redo" xml:space="preserve">
+    <value>A reface</value>
+  </data>
+  <data name="RichTextEditor_Superscript" xml:space="preserve">
+    <value>Exponent</value>
+  </data>
+  <data name="RichTextEditor_Subscript" xml:space="preserve">
+    <value>Subscript</value>
+  </data>
+  <data name="RichTextEditor_CreateLink" xml:space="preserve">
+    <value>Introduceți hyperlink</value>
+  </data>
+  <data name="RichTextEditor_OpenLink" xml:space="preserve">
+    <value>Deschide link-ul</value>
+  </data>
+  <data name="RichTextEditor_EditLink" xml:space="preserve">
+    <value>Editează linkul</value>
+  </data>
+  <data name="RichTextEditor_RemoveLink" xml:space="preserve">
+    <value>Eliminați linkul</value>
+  </data>
+  <data name="RichTextEditor_Image" xml:space="preserve">
+    <value>Inserați imagine</value>
+  </data>
+  <data name="RichTextEditor_Replace" xml:space="preserve">
+    <value>A inlocui</value>
+  </data>
+  <data name="RichTextEditor_Align" xml:space="preserve">
+    <value>Alinia</value>
+  </data>
+  <data name="RichTextEditor_Caption" xml:space="preserve">
+    <value>Legenda imaginii</value>
+  </data>
+  <data name="RichTextEditor_Remove" xml:space="preserve">
+    <value>Elimina</value>
+  </data>
+  <data name="RichTextEditor_InsertLink" xml:space="preserve">
+    <value>Insert Link</value>
+  </data>
+  <data name="RichTextEditor_Display" xml:space="preserve">
+    <value>Afişa</value>
+  </data>
+  <data name="RichTextEditor_AltText" xml:space="preserve">
+    <value>Text alternativ</value>
+  </data>
+  <data name="RichTextEditor_Dimension" xml:space="preserve">
+    <value>Modificați dimensiunea</value>
+  </data>
+  <data name="RichTextEditor_Fullscreen" xml:space="preserve">
+    <value>Maximizați</value>
+  </data>
+  <data name="RichTextEditor_Maximize" xml:space="preserve">
+    <value>Maximizați</value>
+  </data>
+  <data name="RichTextEditor_Minimize" xml:space="preserve">
+    <value>minimaliza</value>
+  </data>
+  <data name="RichTextEditor_LowerCase" xml:space="preserve">
+    <value>Minuscule</value>
+  </data>
+  <data name="RichTextEditor_UpperCase" xml:space="preserve">
+    <value>Majuscule</value>
+  </data>
+  <data name="RichTextEditor_Print" xml:space="preserve">
+    <value>Imprimare</value>
+  </data>
+  <data name="RichTextEditor_Formats" xml:space="preserve">
+    <value>formate</value>
+  </data>
+  <data name="RichTextEditor_Sourcecode" xml:space="preserve">
+    <value>Vizualizare cod</value>
+  </data>
+  <data name="RichTextEditor_Preview" xml:space="preserve">
+    <value>previzualizare</value>
+  </data>
+  <data name="RichTextEditor_Viewside" xml:space="preserve">
+    <value>Vedere laterală</value>
+  </data>
+  <data name="RichTextEditor_InsertCode" xml:space="preserve">
+    <value>Introduce codul</value>
+  </data>
+  <data name="RichTextEditor_LinkText" xml:space="preserve">
+    <value>Afișați textul</value>
+  </data>
+  <data name="RichTextEditor_LinkTooltipLabel" xml:space="preserve">
+    <value>Titlu</value>
+  </data>
+  <data name="RichTextEditor_LinkWebUrl" xml:space="preserve">
+    <value>Adresa de internet</value>
+  </data>
+  <data name="RichTextEditor_LinkTitle" xml:space="preserve">
+    <value>Introduceți un titlu</value>
+  </data>
+  <data name="RichTextEditor_LinkUrl" xml:space="preserve">
+    <value>http://example.com</value>
+  </data>
+  <data name="RichTextEditor_LinkOpenInNewWindow" xml:space="preserve">
+    <value>Deschide link-ul într-o fereastră nouă</value>
+  </data>
+  <data name="RichTextEditor_LinkHeader" xml:space="preserve">
+    <value>Insert Link</value>
+  </data>
+  <data name="RichTextEditor_DialogInsert" xml:space="preserve">
+    <value>Introduce</value>
+  </data>
+  <data name="RichTextEditor_DialogCancel" xml:space="preserve">
+    <value>Anulare</value>
+  </data>
+  <data name="RichTextEditor_DialogUpdate" xml:space="preserve">
+    <value>Actualizați</value>
+  </data>
+  <data name="RichTextEditor_ImageHeader" xml:space="preserve">
+    <value>Inserați imagine</value>
+  </data>
+  <data name="RichTextEditor_ImageLinkHeader" xml:space="preserve">
+    <value>Puteți furniza, de asemenea, un link de pe web"</value>
+  </data>
+  <data name="RichTextEditor_MdImageLink" xml:space="preserve">
+    <value>Vă rugăm să furnizați o adresă URL pentru imaginea dvs</value>
+  </data>
+  <data name="RichTextEditor_ImageUploadMessage" xml:space="preserve">
+    <value>Aruncați imaginea aici sau navigați pentru a încărca</value>
+  </data>
+  <data name="RichTextEditor_ImageDeviceUploadMessage" xml:space="preserve">
+    <value>Faceți clic aici pentru a încărca</value>
+  </data>
+  <data name="RichTextEditor_ImageAlternateText" xml:space="preserve">
+    <value>Text alternativ</value>
+  </data>
+  <data name="RichTextEditor_AlternateHeader" xml:space="preserve">
+    <value>Text alternativ</value>
+  </data>
+  <data name="RichTextEditor_Browse" xml:space="preserve">
+    <value>Naviga</value>
+  </data>
+  <data name="RichTextEditor_ImageUrl" xml:space="preserve">
+    <value>http://example.com/image.png</value>
+  </data>
+  <data name="RichTextEditor_ImageCaption" xml:space="preserve">
+    <value>Legendă</value>
+  </data>
+  <data name="RichTextEditor_ImageSizeHeader" xml:space="preserve">
+    <value>Marimea imaginii</value>
+  </data>
+  <data name="RichTextEditor_ImageHeight" xml:space="preserve">
+    <value>Înălţime</value>
+  </data>
+  <data name="RichTextEditor_ImageWidth" xml:space="preserve">
+    <value>Lăţime</value>
+  </data>
+  <data name="RichTextEditor_TextPlaceholder" xml:space="preserve">
+    <value>Introduceți text</value>
+  </data>
+  <data name="RichTextEditor_InsertTableBtn" xml:space="preserve">
+    <value>Introduceți tabelul</value>
+  </data>
+  <data name="RichTextEditor_TableDialogHeader" xml:space="preserve">
+    <value>Introduceți tabelul</value>
+  </data>
+  <data name="RichTextEditor_TableWidth" xml:space="preserve">
+    <value>Lăţime</value>
+  </data>
+  <data name="RichTextEditor_Cellpadding" xml:space="preserve">
+    <value>Căptușeala celulară</value>
+  </data>
+  <data name="RichTextEditor_Cellspacing" xml:space="preserve">
+    <value>Spațiu celular</value>
+  </data>
+  <data name="RichTextEditor_Columns" xml:space="preserve">
+    <value>Numar de coloane</value>
+  </data>
+  <data name="RichTextEditor_Rows" xml:space="preserve">
+    <value>Număr de rânduri</value>
+  </data>
+  <data name="RichTextEditor_TableRows" xml:space="preserve">
+    <value>Rândurile de masă</value>
+  </data>
+  <data name="RichTextEditor_TableColumns" xml:space="preserve">
+    <value>Coloane din tabel</value>
+  </data>
+  <data name="RichTextEditor_TableCellHorizontalAlign" xml:space="preserve">
+    <value>Aliniere orizontală a celulelor de masă</value>
+  </data>
+  <data name="RichTextEditor_TableCellVerticalAlign" xml:space="preserve">
+    <value>Alinierea verticală a celulelor de masă</value>
+  </data>
+  <data name="RichTextEditor_CreateTable" xml:space="preserve">
+    <value>Creare tabel</value>
+  </data>
+  <data name="RichTextEditor_RemoveTable" xml:space="preserve">
+    <value>Eliminați tabelul</value>
+  </data>
+  <data name="RichTextEditor_TableHeader" xml:space="preserve">
+    <value>Antetul tabelului</value>
+  </data>
+  <data name="RichTextEditor_TableRemove" xml:space="preserve">
+    <value>Se elimină tabelul</value>
+  </data>
+  <data name="RichTextEditor_TableCellBackground" xml:space="preserve">
+    <value>Fundalul celulei de tabel</value>
+  </data>
+  <data name="RichTextEditor_TableEditProperties" xml:space="preserve">
+    <value>Proprietăți de editare a tabelului</value>
+  </data>
+  <data name="RichTextEditor_Styles" xml:space="preserve">
+    <value>stiluri</value>
+  </data>
+  <data name="RichTextEditor_InsertColumnLeft" xml:space="preserve">
+    <value>Introduceți coloana la stânga</value>
+  </data>
+  <data name="RichTextEditor_InsertColumnRight" xml:space="preserve">
+    <value>Introduceți coloana la dreapta</value>
+  </data>
+  <data name="RichTextEditor_DeleteColumn" xml:space="preserve">
+    <value>Ștergeți coloana</value>
+  </data>
+  <data name="RichTextEditor_InsertRowBefore" xml:space="preserve">
+    <value>Introduceți rândul înainte"</value>
+  </data>
+  <data name="RichTextEditor_InsertRowAfter" xml:space="preserve">
+    <value>Introduceți rândul după</value>
+  </data>
+  <data name="RichTextEditor_DeleteRow" xml:space="preserve">
+    <value>Ștergeți rândul</value>
+  </data>
+  <data name="RichTextEditor_TableEditHeader" xml:space="preserve">
+    <value>Editează tabelul</value>
+  </data>
+  <data name="RichTextEditor_TableHeadingText" xml:space="preserve">
+    <value>Titlu</value>
+  </data>
+  <data name="RichTextEditor_TableColText" xml:space="preserve">
+    <value>Col</value>
+  </data>
+  <data name="RichTextEditor_ImageInsertLinkHeader" xml:space="preserve">
+    <value>Insert Link</value>
+  </data>
+  <data name="RichTextEditor_EditImageHeader" xml:space="preserve">
+    <value>Editează imagine</value>
+  </data>
+  <data name="RichTextEditor_AlignmentsDropDownLeft" xml:space="preserve">
+    <value>Alinia la stânga</value>
+  </data>
+  <data name="RichTextEditor_AlignmentsDropDownCenter" xml:space="preserve">
+    <value>Aliniere la centru</value>
+  </data>
+  <data name="RichTextEditor_AlignmentsDropDownRight" xml:space="preserve">
+    <value>Aliniați dreapta</value>
+  </data>
+  <data name="RichTextEditor_AlignmentsDropDownJustify" xml:space="preserve">
+    <value>Aliniază Justificare</value>
+  </data>
+  <data name="RichTextEditor_ImageDisplayDropDownInline" xml:space="preserve">
+    <value>In linie</value>
+  </data>
+  <data name="RichTextEditor_ImageDisplayDropDownBreak" xml:space="preserve">
+    <value>Pauză</value>
+  </data>
+  <data name="RichTextEditor_TableInsertRowDropDownBefore" xml:space="preserve">
+    <value>Introduceți rândul înainte</value>
+  </data>
+  <data name="RichTextEditor_TableInsertRowDropDownAfter" xml:space="preserve">
+    <value>Introduceți rând după</value>
+  </data>
+  <data name="RichTextEditor_TableInsertRowDropDownDelete" xml:space="preserve">
+    <value>Ștergeți rândul</value>
+  </data>
+  <data name="RichTextEditor_TableInsertColumnDropDownLeft" xml:space="preserve">
+    <value>Introduceți coloana din stânga</value>
+  </data>
+  <data name="RichTextEditor_TableInsertColumnDropDownRight" xml:space="preserve">
+    <value>Introduceți coloana la dreapta</value>
+  </data>
+  <data name="RichTextEditor_TableInsertColumnDropDownDelete" xml:space="preserve">
+    <value>Ștergeți coloana</value>
+  </data>
+  <data name="RichTextEditor_TableVerticalAlignDropDownTop" xml:space="preserve">
+    <value>Aliniați Topul</value>
+  </data>
+  <data name="RichTextEditor_TableVerticalAlignDropDownMiddle" xml:space="preserve">
+    <value>Aliniați mijlocul</value>
+  </data>
+  <data name="RichTextEditor_TableVerticalAlignDropDownBottom" xml:space="preserve">
+    <value>Aliniați partea de jos</value>
+  </data>
+  <data name="RichTextEditor_TableStylesDropDownDashedBorder" xml:space="preserve">
+    <value>Frontierele scăzute</value>
+  </data>
+  <data name="RichTextEditor_TableStylesDropDownAlternateRows" xml:space="preserve">
+    <value>Rânduri alternative</value>
+  </data>
+  <data name="RichTextEditor_PasteFormat" xml:space="preserve">
+    <value>Format de lipit</value>
+  </data>
+  <data name="RichTextEditor_PasteFormatContent" xml:space="preserve">
+    <value>Alegeți acțiunea de formatare</value>
+  </data>
+  <data name="RichTextEditor_PlainText" xml:space="preserve">
+    <value>Text simplu</value>
+  </data>
+  <data name="RichTextEditor_CleanFormat" xml:space="preserve">
+    <value>Curat</value>
+  </data>
+  <data name="RichTextEditor_KeepFormat" xml:space="preserve">
+    <value>A pastra</value>
+  </data>
+  <data name="RichTextEditor_PasteDialogOk" xml:space="preserve">
+    <value>O.K</value>
+  </data>
+  <data name="RichTextEditor_PasteDialogCancel" xml:space="preserve">
+    <value>Anulare</value>
+  </data>
+  <data name="DiagramComponent_X" xml:space="preserve">
+    <value>X</value>
+  </data>
+  <data name="DiagramComponent_Y" xml:space="preserve">
+    <value>Y</value>
+  </data>
+  <data name="DiagramComponent_W" xml:space="preserve">
+    <value>W</value>
+  </data>
+  <data name="DiagramComponent_H" xml:space="preserve">
+    <value>H</value>
+  </data>
+  <data name="Diagram_BringToFront" xml:space="preserve">
+    <value>Aduceți în față</value>
+  </data>
+  <data name="Diagram_Copy" xml:space="preserve">
+    <value>Copie</value>
+  </data>
+  <data name="Diagram_Cut" xml:space="preserve">
+    <value>A tăia</value>
+  </data>
+  <data name="Diagram_Group" xml:space="preserve">
+    <value>grup</value>
+  </data>
+  <data name="Diagram_Grouping" xml:space="preserve">
+    <value>gruparea</value>
+  </data>
+  <data name="Diagram_MoveForward" xml:space="preserve">
+    <value>Mergi inainte</value>
+  </data>
+  <data name="Diagram_Order" xml:space="preserve">
+    <value>Ordin</value>
+  </data>
+  <data name="Diagram_Paste" xml:space="preserve">
+    <value>Pastă</value>
+  </data>
+  <data name="Diagram_Redo" xml:space="preserve">
+    <value>A reface</value>
+  </data>
+  <data name="Diagram_SelectAll" xml:space="preserve">
+    <value>Selectează tot</value>
+  </data>
+  <data name="Diagram_SendBackward" xml:space="preserve">
+    <value>Trimite înapoi</value>
+  </data>
+  <data name="Diagram_SendToBack" xml:space="preserve">
+    <value>Trimite înapoi</value>
+  </data>
+  <data name="Diagram_Undo" xml:space="preserve">
+    <value>Anula</value>
+  </data>
+  <data name="Diagram_UnGroup" xml:space="preserve">
+    <value>Degrupeaza</value>
+  </data>
+  <data name="Grid_EmptyRecord" xml:space="preserve">
+    <value>Nu există înregistrări de afișat</value>
+  </data>
+  <data name="Grid_True" xml:space="preserve">
+    <value>Adevărat</value>
+  </data>
+  <data name="Grid_False" xml:space="preserve">
+    <value>fals</value>
+  </data>
+  <data name="Grid_InvalidFilterMessage" xml:space="preserve">
+    <value>Date de filtrare nevalide</value>
+  </data>
+  <data name="Grid_GroupDropArea" xml:space="preserve">
+    <value>Trageți un antet de coloană aici pentru a-i grupa coloana</value>
+  </data>
+  <data name="Grid_UnGroupButton" xml:space="preserve">
+    <value>Faceți clic aici pentru a dezgropa</value>
+  </data>
+  <data name="Grid_GroupDisable" xml:space="preserve">
+    <value>Gruparea este dezactivată pentru această coloană</value>
+  </data>
+  <data name="Grid_FilterbarTitle" xml:space="preserve">
+    <value>"celula de bare a filtrului</value>
+  </data>
+  <data name="Grid_EmptyDataSourceError" xml:space="preserve">
+    <value>DataSource nu trebuie să fie goală la încărcarea inițială, deoarece coloanele sunt generate din dataSource în AutoGenerate Column Grid</value>
+  </data>
+  <data name="Grid_Add" xml:space="preserve">
+    <value>Adăuga</value>
+  </data>
+  <data name="Grid_Edit" xml:space="preserve">
+    <value>Editați | ×</value>
+  </data>
+  <data name="Grid_Cancel" xml:space="preserve">
+    <value>Anulare</value>
+  </data>
+  <data name="Grid_Update" xml:space="preserve">
+    <value>Actualizați</value>
+  </data>
+  <data name="Grid_Delete" xml:space="preserve">
+    <value>Șterge</value>
+  </data>
+  <data name="Grid_Print" xml:space="preserve">
+    <value>Imprimare</value>
+  </data>
+  <data name="Grid_Pdfexport" xml:space="preserve">
+    <value>Export PDF</value>
+  </data>
+  <data name="Grid_Excelexport" xml:space="preserve">
+    <value>Export Excel</value>
+  </data>
+  <data name="Grid_Wordexport" xml:space="preserve">
+    <value>Export de cuvinte</value>
+  </data>
+  <data name="Grid_Csvexport" xml:space="preserve">
+    <value>Export CSV</value>
+  </data>
+  <data name="Grid_Search" xml:space="preserve">
+    <value>Căutare</value>
+  </data>
+  <data name="Grid_Columnchooser" xml:space="preserve">
+    <value>coloane</value>
+  </data>
+  <data name="Grid_Save" xml:space="preserve">
+    <value>salva</value>
+  </data>
+  <data name="Grid_Item" xml:space="preserve">
+    <value>articol</value>
+  </data>
+  <data name="Grid_Items" xml:space="preserve">
+    <value>articole</value>
+  </data>
+  <data name="Grid_EditOperationAlert" xml:space="preserve">
+    <value>Nu există înregistrări selectate pentru operația de editare</value>
+  </data>
+  <data name="Grid_DeleteOperationAlert" xml:space="preserve">
+    <value>Nu există înregistrări selectate pentru operațiunea de ștergere</value>
+  </data>
+  <data name="Grid_SaveButton" xml:space="preserve">
+    <value>salva</value>
+  </data>
+  <data name="Grid_OKButton" xml:space="preserve">
+    <value>O.K</value>
+  </data>
+  <data name="Grid_CancelButton" xml:space="preserve">
+    <value>Anulare</value>
+  </data>
+  <data name="Grid_EditFormTitle" xml:space="preserve">
+    <value>Detaliile</value>
+  </data>
+  <data name="Grid_AddFormTitle" xml:space="preserve">
+    <value>Adăugați înregistrare nouă</value>
+  </data>
+  <data name="Grid_BatchSaveConfirm" xml:space="preserve">
+    <value>Sigur doriți să salvați modificările?</value>
+  </data>
+  <data name="Grid_BatchSaveLostChanges" xml:space="preserve">
+    <value>Modificările salvate vor fi pierdute. Esti sigur ca vrei sa continui?</value>
+  </data>
+  <data name="Grid_ConfirmDelete" xml:space="preserve">
+    <value>Sigur doriți să ștergeți înregistrarea?</value>
+  </data>
+  <data name="Grid_CancelEdit" xml:space="preserve">
+    <value>Sigur doriți să anulați modificările?</value>
+  </data>
+  <data name="Grid_ChooseColumns" xml:space="preserve">
+    <value>Alegeți Coloana</value>
+  </data>
+  <data name="Grid_SearchColumns" xml:space="preserve">
+    <value>coloane de căutare</value>
+  </data>
+  <data name="Grid_Matchs" xml:space="preserve">
+    <value>Nu s-a gasit nici o potrivire</value>
+  </data>
+  <data name="Grid_FilterButton" xml:space="preserve">
+    <value>Filtru</value>
+  </data>
+  <data name="Grid_ClearButton" xml:space="preserve">
+    <value>clar</value>
+  </data>
+  <data name="Grid_StartsWith" xml:space="preserve">
+    <value>Incepe cu</value>
+  </data>
+  <data name="Grid_EndsWith" xml:space="preserve">
+    <value>Se termină cu</value>
+  </data>
+  <data name="Grid_Contains" xml:space="preserve">
+    <value>Conține</value>
+  </data>
+  <data name="Grid_Equal" xml:space="preserve">
+    <value>Egal</value>
+  </data>
+  <data name="Grid_NotEqual" xml:space="preserve">
+    <value>Nu este egal</value>
+  </data>
+  <data name="Grid_LessThan" xml:space="preserve">
+    <value>Mai puțin decât</value>
+  </data>
+  <data name="Grid_LessThanOrEqual" xml:space="preserve">
+    <value>Mai puțin decât sau egal</value>
+  </data>
+  <data name="Grid_GreaterThan" xml:space="preserve">
+    <value>Mai mare ca</value>
+  </data>
+  <data name="Grid_GreaterThanOrEqual" xml:space="preserve">
+    <value>Mai mare decât sau egal</value>
+  </data>
+  <data name="Grid_ChooseDate" xml:space="preserve">
+    <value>Alegeți o dată</value>
+  </data>
+  <data name="Grid_EnterValue" xml:space="preserve">
+    <value>Introduceți valoarea</value>
+  </data>
+  <data name="Grid_Copy" xml:space="preserve">
+    <value>Copie</value>
+  </data>
+  <data name="Grid_Group" xml:space="preserve">
+    <value>Grupați după această coloană</value>
+  </data>
+  <data name="Grid_Ungroup" xml:space="preserve">
+    <value>Deschideți această coloană</value>
+  </data>
+  <data name="Grid_AutoFitAll" xml:space="preserve">
+    <value>Configurați automat toate coloanele</value>
+  </data>
+  <data name="Grid_AutoFit" xml:space="preserve">
+    <value>Configurare automată a acestei coloane</value>
+  </data>
+  <data name="Grid_Export" xml:space="preserve">
+    <value>Export</value>
+  </data>
+  <data name="Grid_FirstPage" xml:space="preserve">
+    <value>Prima pagina</value>
+  </data>
+  <data name="Grid_LastPage" xml:space="preserve">
+    <value>Ultima pagina</value>
+  </data>
+  <data name="Grid_PreviousPage" xml:space="preserve">
+    <value>Pagina precedentă</value>
+  </data>
+  <data name="Grid_NextPage" xml:space="preserve">
+    <value>Pagina următoare</value>
+  </data>
+  <data name="Grid_SortAscending" xml:space="preserve">
+    <value>Sortare ascendentă</value>
+  </data>
+  <data name="Grid_SortDescending" xml:space="preserve">
+    <value>Sortează descrescător</value>
+  </data>
+  <data name="Grid_EditRecord" xml:space="preserve">
+    <value>Editează înregistrarea</value>
+  </data>
+  <data name="Grid_DeleteRecord" xml:space="preserve">
+    <value>Ștergeți înregistrarea</value>
+  </data>
+  <data name="Grid_FilterMenu" xml:space="preserve">
+    <value>Filtru</value>
+  </data>
+  <data name="Grid_SelectAll" xml:space="preserve">
+    <value>Selectează tot</value>
+  </data>
+  <data name="Grid_Blanks" xml:space="preserve">
+    <value>Blanks</value>
+  </data>
+  <data name="Grid_FilterTrue" xml:space="preserve">
+    <value>Adevărat</value>
+  </data>
+  <data name="Grid_FilterFalse" xml:space="preserve">
+    <value>Fals</value>
+  </data>
+  <data name="Grid_NoResult" xml:space="preserve">
+    <value>Nu s-a gasit nici o potrivire</value>
+  </data>
+  <data name="Grid_ClearFilter" xml:space="preserve">
+    <value>Ștergeți filtrul</value>
+  </data>
+  <data name="Grid_NumberFilter" xml:space="preserve">
+    <value>Filtre cu număr</value>
+  </data>
+  <data name="Grid_TextFilter" xml:space="preserve">
+    <value>Filtre de text</value>
+  </data>
+  <data name="Grid_DateFilter" xml:space="preserve">
+    <value>Filtre de date</value>
+  </data>
+  <data name="Grid_DateTimeFilter" xml:space="preserve">
+    <value>Filtre DateTime</value>
+  </data>
+  <data name="Grid_MatchCase" xml:space="preserve">
+    <value>Caz de potrivire</value>
+  </data>
+  <data name="Grid_Between" xml:space="preserve">
+    <value>Între</value>
+  </data>
+  <data name="Grid_CustomFilter" xml:space="preserve">
+    <value>Filtru customizat</value>
+  </data>
+  <data name="Grid_CustomFilterPlaceHolder" xml:space="preserve">
+    <value>Introduceți valoarea</value>
+  </data>
+  <data name="Grid_CustomFilterDatePlaceHolder" xml:space="preserve">
+    <value>Alegeți o dată</value>
+  </data>
+  <data name="Grid_AND" xml:space="preserve">
+    <value>ȘI</value>
+  </data>
+  <data name="Grid_OR" xml:space="preserve">
+    <value>SAU</value>
+  </data>
+  <data name="Grid_ShowRowsWhere" xml:space="preserve">
+    <value>Afișați rândurile unde:</value>
+  </data>
+  <data name="Grid_RowSelectionCheckBoxARIA" xml:space="preserve">
+    <value>Casetă de selectare Rând</value>
+  </data>
+  <data name="Grid_FilterMenuIconARIA" xml:space="preserve">
+    <value>Pictograma Filtru</value>
+  </data>
+  <data name="Grid_ColumnMenuIconARIA" xml:space="preserve">
+    <value>Pictograma meniului coloană</value>
+  </data>
+  <data name="Grid_GroupButtonARIA" xml:space="preserve">
+    <value>Butonul de grup</value>
+  </data>
+  <data name="Grid_UnGroupButtonARIA" xml:space="preserve">
+    <value>Butonul Degrupare</value>
+  </data>
+  <data name="Grid_ColumnHeaderARIA" xml:space="preserve">
+    <value>Antet de coloană</value>
+  </data>
+  <data name="Grid_FilterCheckboxARIA" xml:space="preserve">
+    <value>Caseta de selectare Filtru</value>
+  </data>
+  <data name="Grid_HeaderSelectionCheckBoxARIA" xml:space="preserve">
+    <value>Caseta de selectare antet</value>
+  </data>
+  <data name="Pager_GotoPageARIA" xml:space="preserve">
+    <value>Mergi la pagina</value>
+  </data>
+  <data name="Pager_CurrentPageInfo" xml:space="preserve">
+    <value>{0} din {1} pagini</value>
+  </data>
+  <data name="Pager_TotalItemsInfo" xml:space="preserve">
+    <value>({0} articole)</value>
+  </data>
+  <data name="Pager_FirstPageTooltip" xml:space="preserve">
+    <value>Accesați prima pagină</value>
+  </data>
+  <data name="Pager_LastPageTooltip" xml:space="preserve">
+    <value>Accesați ultima pagină</value>
+  </data>
+  <data name="Pager_NextPageTooltip" xml:space="preserve">
+    <value>Accesați pagina următoare</value>
+  </data>
+  <data name="Pager_PreviousPageTooltip" xml:space="preserve">
+    <value>Accesați pagina anterioară</value>
+  </data>
+  <data name="Pager_NextPagerTooltip" xml:space="preserve">
+    <value>Accesați pagina următoare</value>
+  </data>
+  <data name="Pager_PreviousPagerTooltip" xml:space="preserve">
+    <value>Accesați pagina anterioară</value>
+  </data>
+  <data name="Pager_PagerDropDown" xml:space="preserve">
+    <value>articole pe pagină</value>
+  </data>
+  <data name="Pager_PagerAllDropDown" xml:space="preserve">
+    <value>Articole</value>
+  </data>
+  <data name="Pager_All" xml:space="preserve">
+    <value>Toate</value>
+  </data>
+  <data name="RecurrenceEditor_Count" xml:space="preserve">
+    <value>Numara</value>
+  </data>
+  <data name="RecurrenceEditor_Daily" xml:space="preserve">
+    <value>Zilnic</value>
+  </data>
+  <data name="RecurrenceEditor_Days" xml:space="preserve">
+    <value>Ziua (s)</value>
+  </data>
+  <data name="RecurrenceEditor_End" xml:space="preserve">
+    <value>Sfârșit</value>
+  </data>
+  <data name="RecurrenceEditor_Every" xml:space="preserve">
+    <value>fiecare</value>
+  </data>
+  <data name="RecurrenceEditor_First" xml:space="preserve">
+    <value>Primul</value>
+  </data>
+  <data name="RecurrenceEditor_Fourth" xml:space="preserve">
+    <value>Al patrulea</value>
+  </data>
+  <data name="RecurrenceEditor_Last" xml:space="preserve">
+    <value>Ultimul</value>
+  </data>
+  <data name="RecurrenceEditor_Month" xml:space="preserve">
+    <value>Lună</value>
+  </data>
+  <data name="RecurrenceEditor_MonthExpander" xml:space="preserve">
+    <value>Expander lunar</value>
+  </data>
+  <data name="RecurrenceEditor_Monthly" xml:space="preserve">
+    <value>Lunar</value>
+  </data>
+  <data name="RecurrenceEditor_MonthPosition" xml:space="preserve">
+    <value>Poziția lunară</value>
+  </data>
+  <data name="RecurrenceEditor_Months" xml:space="preserve">
+    <value>Luni)</value>
+  </data>
+  <data name="RecurrenceEditor_MonthWeek" xml:space="preserve">
+    <value>Săptămâna lunii</value>
+  </data>
+  <data name="RecurrenceEditor_Never" xml:space="preserve">
+    <value>Nu</value>
+  </data>
+  <data name="RecurrenceEditor_None" xml:space="preserve">
+    <value>Nici unul</value>
+  </data>
+  <data name="RecurrenceEditor_On" xml:space="preserve">
+    <value>Repetați Pornit</value>
+  </data>
+  <data name="RecurrenceEditor_OnDay" xml:space="preserve">
+    <value>Zi</value>
+  </data>
+  <data name="RecurrenceEditor_Repeat" xml:space="preserve">
+    <value>Repeta</value>
+  </data>
+  <data name="RecurrenceEditor_RepeatEvery" xml:space="preserve">
+    <value>Repetați fiecare</value>
+  </data>
+  <data name="RecurrenceEditor_RepeatInterval" xml:space="preserve">
+    <value>Repetați intervalul</value>
+  </data>
+  <data name="RecurrenceEditor_Second" xml:space="preserve">
+    <value>Al doilea</value>
+  </data>
+  <data name="RecurrenceEditor_SummaryDay" xml:space="preserve">
+    <value>zi (s)</value>
+  </data>
+  <data name="RecurrenceEditor_SummaryMonth" xml:space="preserve">
+    <value>luni)</value>
+  </data>
+  <data name="RecurrenceEditor_SummaryOn" xml:space="preserve">
+    <value>pe</value>
+  </data>
+  <data name="RecurrenceEditor_SummaryRepeat" xml:space="preserve">
+    <value>repetă</value>
+  </data>
+  <data name="RecurrenceEditor_SummaryTimes" xml:space="preserve">
+    <value>timp (s)</value>
+  </data>
+  <data name="RecurrenceEditor_SummaryUntil" xml:space="preserve">
+    <value>pana cand</value>
+  </data>
+  <data name="RecurrenceEditor_SummaryWeek" xml:space="preserve">
+    <value>săptămână (s)</value>
+  </data>
+  <data name="RecurrenceEditor_SummaryYear" xml:space="preserve">
+    <value>ani)</value>
+  </data>
+  <data name="RecurrenceEditor_Third" xml:space="preserve">
+    <value>Al treilea</value>
+  </data>
+  <data name="RecurrenceEditor_Until" xml:space="preserve">
+    <value>Pana cand</value>
+  </data>
+  <data name="RecurrenceEditor_Weekly" xml:space="preserve">
+    <value>Săptămânal</value>
+  </data>
+  <data name="RecurrenceEditor_Weeks" xml:space="preserve">
+    <value>Săptămâna (s)</value>
+  </data>
+  <data name="RecurrenceEditor_YearExpander" xml:space="preserve">
+    <value>Anul Expander</value>
+  </data>
+  <data name="RecurrenceEditor_Yearly" xml:space="preserve">
+    <value>Anual</value>
+  </data>
+  <data name="RecurrenceEditor_Years" xml:space="preserve">
+    <value>Ani)</value>
+  </data>
+  <data name="Schedule_AddTitle" xml:space="preserve">
+    <value>Adauga titlu</value>
+  </data>
+  <data name="Schedule_Agenda" xml:space="preserve">
+    <value>Agendă</value>
+  </data>
+  <data name="Schedule_Alert" xml:space="preserve">
+    <value>Alerta</value>
+  </data>
+  <data name="Schedule_AllDay" xml:space="preserve">
+    <value>Toată ziua</value>
+  </data>
+  <data name="Schedule_BeginFrom" xml:space="preserve">
+    <value>Începeți de la</value>
+  </data>
+  <data name="Schedule_BlockAlert" xml:space="preserve">
+    <value>Evenimentele nu pot fi programate în intervalul de timp blocat.</value>
+  </data>
+  <data name="Schedule_Cancel" xml:space="preserve">
+    <value>Anulare</value>
+  </data>
+  <data name="Schedule_CancelButton" xml:space="preserve">
+    <value>Anulare</value>
+  </data>
+  <data name="Schedule_Close" xml:space="preserve">
+    <value>Închide</value>
+  </data>
+  <data name="Schedule_CreateError" xml:space="preserve">
+    <value>Durata evenimentului trebuie să fie mai scurtă decât cât de des are loc. Scurtați durata sau modificați modelul de recurență în editorul de evenimente de recurență.</value>
+  </data>
+  <data name="Schedule_CreateEvent" xml:space="preserve">
+    <value>Crea</value>
+  </data>
+  <data name="Schedule_Day" xml:space="preserve">
+    <value>Zi</value>
+  </data>
+  <data name="Schedule_Delete" xml:space="preserve">
+    <value>Șterge</value>
+  </data>
+  <data name="Schedule_DeleteButton" xml:space="preserve">
+    <value>Șterge</value>
+  </data>
+  <data name="Schedule_DeleteContent" xml:space="preserve">
+    <value>Sigur doriți să ștergeți acest eveniment?</value>
+  </data>
+  <data name="Schedule_DeleteEvent" xml:space="preserve">
+    <value>Acest eveniment</value>
+  </data>
+  <data name="Schedule_DeleteMultipleContent" xml:space="preserve">
+    <value>Sigur doriți să ștergeți evenimentele selectate?</value>
+  </data>
+  <data name="Schedule_DeleteMultipleEvent" xml:space="preserve">
+    <value>Ștergeți mai multe evenimente</value>
+  </data>
+  <data name="Schedule_DeleteSeries" xml:space="preserve">
+    <value>Serie întreagă</value>
+  </data>
+  <data name="Schedule_DeleteTitle" xml:space="preserve">
+    <value>Ștergeți evenimentul</value>
+  </data>
+  <data name="Schedule_Description" xml:space="preserve">
+    <value>Descriere</value>
+  </data>
+  <data name="Schedule_Edit" xml:space="preserve">
+    <value>Editați | ×</value>
+  </data>
+  <data name="Schedule_EditContent" xml:space="preserve">
+    <value>Cum ați dori să schimbați programarea în serie?</value>
+  </data>
+  <data name="Schedule_EditEvent" xml:space="preserve">
+    <value>Acest eveniment</value>
+  </data>
+  <data name="Schedule_EditFollowingEvent" xml:space="preserve">
+    <value>În urma evenimentelor</value>
+  </data>
+  <data name="Schedule_EditRecurrence" xml:space="preserve">
+    <value>Editează recurența</value>
+  </data>
+  <data name="Schedule_EditSeries" xml:space="preserve">
+    <value>Serie întreagă</value>
+  </data>
+  <data name="Schedule_EditTitle" xml:space="preserve">
+    <value>Editează evenimentul</value>
+  </data>
+  <data name="Schedule_EmptyContainer" xml:space="preserve">
+    <value>Nu există evenimente programate în această zi.</value>
+  </data>
+  <data name="Schedule_End" xml:space="preserve">
+    <value>Sfârșit</value>
+  </data>
+  <data name="Schedule_EndTime" xml:space="preserve">
+    <value>Sfârșitul timpului</value>
+  </data>
+  <data name="Schedule_EndAt" xml:space="preserve">
+    <value>Încheiați la</value>
+  </data>
+  <data name="Schedule_EndTimezone" xml:space="preserve">
+    <value>Fusul orar final</value>
+  </data>
+  <data name="Schedule_InvalidDateError" xml:space="preserve">
+    <value>Valoarea dată introdusă nu este validă.</value>
+  </data>
+  <data name="Schedule_Location" xml:space="preserve">
+    <value>Locație</value>
+  </data>
+  <data name="Schedule_LookForMore" xml:space="preserve">
+    <value>Caută mai multe</value>
+  </data>
+  <data name="Schedule_Month" xml:space="preserve">
+    <value>Lună</value>
+  </data>
+  <data name="Schedule_MonthAgenda" xml:space="preserve">
+    <value>Agenda lunară</value>
+  </data>
+  <data name="Schedule_More" xml:space="preserve">
+    <value>Mai Mult</value>
+  </data>
+  <data name="Schedule_MoreDetails" xml:space="preserve">
+    <value>Mai multe detalii</value>
+  </data>
+  <data name="Schedule_NewEvent" xml:space="preserve">
+    <value>Eveniment nou</value>
+  </data>
+  <data name="Schedule_next" xml:space="preserve">
+    <value>Următor →</value>
+  </data>
+  <data name="Schedule_No" xml:space="preserve">
+    <value>Nu</value>
+  </data>
+  <data name="Schedule_NoEvents" xml:space="preserve">
+    <value>Fără evenimente</value>
+  </data>
+  <data name="Schedule_NoRecords" xml:space="preserve">
+    <value>Fără înregistrări</value>
+  </data>
+  <data name="Schedule_NoTitle" xml:space="preserve">
+    <value>(Fara titlu)</value>
+  </data>
+  <data name="Schedule_Occurrence" xml:space="preserve">
+    <value>Apariţie</value>
+  </data>
+  <data name="Schedule_Ok" xml:space="preserve">
+    <value>O.K</value>
+  </data>
+  <data name="Schedule_Previous" xml:space="preserve">
+    <value>Anterior</value>
+  </data>
+  <data name="Schedule_Recurrence" xml:space="preserve">
+    <value>recurență</value>
+  </data>
+  <data name="Schedule_Repeat" xml:space="preserve">
+    <value>Repeta</value>
+  </data>
+  <data name="Schedule_Repeats" xml:space="preserve">
+    <value>repetă</value>
+  </data>
+  <data name="Schedule_SameDayAlert" xml:space="preserve">
+    <value>Două apariții ale aceluiași eveniment nu pot apărea în aceeași zi.</value>
+  </data>
+  <data name="Schedule_Save" xml:space="preserve">
+    <value>salva</value>
+  </data>
+  <data name="Schedule_SaveButton" xml:space="preserve">
+    <value>salva</value>
+  </data>
+  <data name="Schedule_SelectedItems" xml:space="preserve">
+    <value>Articole selectate</value>
+  </data>
+  <data name="Schedule_SearchTimezone" xml:space="preserve">
+    <value>Căutați fusul orar</value>
+  </data>
+  <data name="Schedule_Series" xml:space="preserve">
+    <value>Serie</value>
+  </data>
+  <data name="Schedule_SeriesChangeAlert" xml:space="preserve">
+    <value>Doriți să anulați modificările aduse unor instanțe specifice ale acestei serii și să o potriviți din nou la întreaga serie?</value>
+  </data>
+  <data name="Schedule_ShowingEventsUntil" xml:space="preserve">
+    <value>Se afișează evenimente până la</value>
+  </data>
+  <data name="Schedule_Start" xml:space="preserve">
+    <value>start</value>
+  </data>
+  <data name="Schedule_StartTime" xml:space="preserve">
+    <value>Timpul de începere</value>
+  </data>
+  <data name="Schedule_StartEndError" xml:space="preserve">
+    <value>Data de încheiere selectată apare înainte de data de început.</value>
+  </data>
+  <data name="Schedule_StartTimezone" xml:space="preserve">
+    <value>Start Timezone</value>
+  </data>
+  <data name="Schedule_Subject" xml:space="preserve">
+    <value>Subiect</value>
+  </data>
+  <data name="Schedule_TimelineDay" xml:space="preserve">
+    <value>Ziua cronologiei</value>
+  </data>
+  <data name="Schedule_TimelineMonth" xml:space="preserve">
+    <value>Luna cronologică</value>
+  </data>
+  <data name="Schedule_TimelineWeek" xml:space="preserve">
+    <value>Saptamana Timeline</value>
+  </data>
+  <data name="Schedule_TimelineWorkWeek" xml:space="preserve">
+    <value>Săptămâna muncii Timeline</value>
+  </data>
+  <data name="Schedule_TimelineYear" xml:space="preserve">
+    <value>Anul cronologic</value>
+  </data>
+  <data name="Schedule_Timezone" xml:space="preserve">
+    <value>Fus orar</value>
+  </data>
+  <data name="Schedule_Title" xml:space="preserve">
+    <value>Titlu</value>
+  </data>
+  <data name="Schedule_Today" xml:space="preserve">
+    <value>Astăzi</value>
+  </data>
+  <data name="Schedule_Week" xml:space="preserve">
+    <value>Săptămână</value>
+  </data>
+  <data name="Schedule_WeekAgenda" xml:space="preserve">
+    <value>Agenda săptămânii</value>
+  </data>
+  <data name="Schedule_WorkWeek" xml:space="preserve">
+    <value>Saptamana de lucru</value>
+  </data>
+  <data name="Schedule_WorkWeekAgenda" xml:space="preserve">
+    <value>Agenda săptămânii de lucru</value>
+  </data>
+  <data name="Schedule_WrongPattern" xml:space="preserve">
+    <value>Modelul de recurență nu este valid.</value>
+  </data>
+  <data name="Schedule_Yes" xml:space="preserve">
+    <value>da</value>
+  </data>
+  <data name="Schedule_Year" xml:space="preserve">
+    <value>An</value>
+  </data>
+  <data name="Tab_CloseButtonTitle" xml:space="preserve">
+    <value>Închide</value>
+  </data>
+  <data name="Carousel_PreviousSlide" xml:space="preserve">
+    <value>Slide anterior</value>
+  </data>
+  <data name="Carousel_NextSlide" xml:space="preserve">
+    <value>Următorul Slide</value>
+  </data>
+  <data name="Carousel_Slide" xml:space="preserve">
+    <value>Slide</value>
+  </data>
+  <data name="Carousel_Of" xml:space="preserve">
+    <value>de</value>
+  </data>
+  <data name="Carousel_PlaySlide" xml:space="preserve">
+    <value>Opriți animația automată</value>
+  </data>
+  <data name="Carousel_PauseSlide" xml:space="preserve">
+    <value>Porniți animația automată</value>
+  </data>
+  <data name="Carousel_SlideShow" xml:space="preserve">
+    <value>prezentare de diapozitive</value>
+  </data>
+  <data name="PdfViewer" xml:space="preserve">
+    <value>PDF Viewer</value>
+  </data>
+  <data name="PdfViewer_Cancel" xml:space="preserve">
+    <value>Anulare</value>
+  </data>
+  <data name="PdfViewer_DownloadFile" xml:space="preserve">
+    <value>Descărcare fișier</value>
+  </data>
+  <data name="PdfViewer_Download" xml:space="preserve">
+    <value>Descarca</value>
+  </data>
+  <data name="PdfViewer_EnterPassword" xml:space="preserve">
+    <value>Acest document este protejat prin parolă. Vă rugăm să introduceți o parolă.</value>
+  </data>
+  <data name="PdfViewer_FileCorrupted" xml:space="preserve">
+    <value>Fisier corupt</value>
+  </data>
+  <data name="PdfViewer_FileCorruptedContent" xml:space="preserve">
+    <value>Fișierul este corupt și nu poate fi deschis.</value>
+  </data>
+  <data name="PdfViewer_FitPage" xml:space="preserve">
+    <value>Pagina potrivit</value>
+  </data>
+  <data name="PdfViewer_FitWidth" xml:space="preserve">
+    <value>Lățimea potrivită</value>
+  </data>
+  <data name="PdfViewer_Automatic" xml:space="preserve">
+    <value>Automat</value>
+  </data>
+  <data name="PdfViewer_GoToFirstPage" xml:space="preserve">
+    <value>Afișează prima pagină</value>
+  </data>
+  <data name="PdfViewer_InvalidPassword" xml:space="preserve">
+    <value>Parola incorecta. Vă rugăm să încercați din nou.</value>
+  </data>
+  <data name="PdfViewer_NextPage" xml:space="preserve">
+    <value>Afișează pagina următoare</value>
+  </data>
+  <data name="PdfViewer_PreviousPage" xml:space="preserve">
+    <value>Arată pagina anterioară</value>
+  </data>
+  <data name="PdfViewer_OK" xml:space="preserve">
+    <value>O.K</value>
+  </data>
+  <data name="PdfViewer_Open" xml:space="preserve">
+    <value>Deschide fișierul</value>
+  </data>
+  <data name="PdfViewer_PageNumber" xml:space="preserve">
+    <value>Numărul curent al paginii</value>
+  </data>
+  <data name="PdfViewer_GoToLastPage" xml:space="preserve">
+    <value>Afișează ultima pagină</value>
+  </data>
+  <data name="PdfViewer_Zoom" xml:space="preserve">
+    <value>Zoom</value>
+  </data>
+  <data name="PdfViewer_ZoomIn" xml:space="preserve">
+    <value>a mari</value>
+  </data>
+  <data name="PdfViewer_ZoomOut" xml:space="preserve">
+    <value>A micsora</value>
+  </data>
+  <data name="PdfViewer_PageThumbnails" xml:space="preserve">
+    <value>Miniaturi de pagină</value>
+  </data>
+  <data name="PdfViewer_Bookmarks" xml:space="preserve">
+    <value>Marcaje</value>
+  </data>
+  <data name="PdfViewer_Print" xml:space="preserve">
+    <value>Fisier de printat</value>
+  </data>
+  <data name="PdfViewer_PasswordProtected" xml:space="preserve">
+    <value>Parola obligatorie</value>
+  </data>
+  <data name="PdfViewer_Copy" xml:space="preserve">
+    <value>Copie</value>
+  </data>
+  <data name="PdfViewer_TextSelection" xml:space="preserve">
+    <value>Instrument de selectare a textului</value>
+  </data>
+  <data name="PdfViewer_Panning" xml:space="preserve">
+    <value>Mod Pan</value>
+  </data>
+  <data name="PdfViewer_TextSearch" xml:space="preserve">
+    <value>Găsiți text</value>
+  </data>
+  <data name="PdfViewer_Findindocument" xml:space="preserve">
+    <value>Găsiți în document</value>
+  </data>
+  <data name="PdfViewer_Matchcase" xml:space="preserve">
+    <value>Carcasă potrivită</value>
+  </data>
+  <data name="PdfViewer_Apply" xml:space="preserve">
+    <value>aplica</value>
+  </data>
+  <data name="PdfViewer_GoToPage" xml:space="preserve">
+    <value>Mergi la pagina</value>
+  </data>
+  <data name="PdfViewer_Nomatches" xml:space="preserve">
+    <value>Viewer a terminat căutarea documentului. Nu s-au găsit mai multe meciuri</value>
+  </data>
+  <data name="PdfViewer_NoTextFound" xml:space="preserve">
+    <value>Nu a fost găsit niciun text</value>
+  </data>
+  <data name="PdfViewer_Undo" xml:space="preserve">
+    <value>Anula</value>
+  </data>
+  <data name="PdfViewer_Redo" xml:space="preserve">
+    <value>A reface</value>
+  </data>
+  <data name="PdfViewer_Annotation" xml:space="preserve">
+    <value>Adăugați sau Editați adnotări</value>
+  </data>
+  <data name="PdfViewer_Highlight" xml:space="preserve">
+    <value>Text subliniat</value>
+  </data>
+  <data name="PdfViewer_Underline" xml:space="preserve">
+    <value>Subliniază textul</value>
+  </data>
+  <data name="PdfViewer_Strikethrough" xml:space="preserve">
+    <value>text de strikethrough</value>
+  </data>
+  <data name="PdfViewer_Delete" xml:space="preserve">
+    <value>Ștergeți adnotarea</value>
+  </data>
+  <data name="PdfViewer_Opacity" xml:space="preserve">
+    <value>Opacitate</value>
+  </data>
+  <data name="PdfViewer_ColorEdit" xml:space="preserve">
+    <value>Schimba culoarea</value>
+  </data>
+  <data name="PdfViewer_OpacityEdit" xml:space="preserve">
+    <value>Schimbă opacitatea</value>
+  </data>
+  <data name="PdfViewer_HighlightContext" xml:space="preserve">
+    <value>Pune in evidenta</value>
+  </data>
+  <data name="PdfViewer_UnderlineContext" xml:space="preserve">
+    <value>subliniere</value>
+  </data>
+  <data name="PdfViewer_StrikethroughContext" xml:space="preserve">
+    <value>Loviti prin</value>
+  </data>
+  <data name="PdfViewer_Servererror" xml:space="preserve">
+    <value>Serviciul web nu ascultă. PDF Viewer depinde de serviciul web pentru toate funcțiile sale. Vă rugăm să începeți serviciul web pentru a continua.</value>
+  </data>
+  <data name="PdfViewer_Clienterror" xml:space="preserve">
+    <value>Eroare din partea clientului este găsită. Verificați anteturile personalizate furnizate în proprietatea AjaxRequestSettings și metodele de acțiune web din proprietatea ServerActionSettings.</value>
+  </data>
+  <data name="PdfViewer_OpenText" xml:space="preserve">
+    <value>Deschis</value>
+  </data>
+  <data name="PdfViewer_FirstText" xml:space="preserve">
+    <value>Prima pagina</value>
+  </data>
+  <data name="PdfViewer_PreviousText" xml:space="preserve">
+    <value>Pagina precedentă</value>
+  </data>
+  <data name="PdfViewer_NextText" xml:space="preserve">
+    <value>Pagina următoare</value>
+  </data>
+  <data name="PdfViewer_LastText" xml:space="preserve">
+    <value>Ultima pagina</value>
+  </data>
+  <data name="PdfViewer_ZoomInText" xml:space="preserve">
+    <value>A mari</value>
+  </data>
+  <data name="PdfViewer_ZoomOutText" xml:space="preserve">
+    <value>A micsora</value>
+  </data>
+  <data name="PdfViewer_SelectionText" xml:space="preserve">
+    <value>Selecţie</value>
+  </data>
+  <data name="PdfViewer_PanText" xml:space="preserve">
+    <value>Tigaie</value>
+  </data>
+  <data name="PdfViewer_PrintText" xml:space="preserve">
+    <value>Imprimare</value>
+  </data>
+  <data name="PdfViewer_SearchText" xml:space="preserve">
+    <value>Căutare</value>
+  </data>
+  <data name="PdfViewer_AnnotationEditText" xml:space="preserve">
+    <value>Editează adnotarea</value>
+  </data>
+  <data name="PdfViewer_LineThickness" xml:space="preserve">
+    <value>Grosimea liniei</value>
+  </data>
+  <data name="PdfViewer_LineProperties" xml:space="preserve">
+    <value>Proprietăți de linie</value>
+  </data>
+  <data name="PdfViewer_StartArrow" xml:space="preserve">
+    <value>Începeți săgeata</value>
+  </data>
+  <data name="PdfViewer_EndArrow" xml:space="preserve">
+    <value>Săgeata finală</value>
+  </data>
+  <data name="PdfViewer_LineStyle" xml:space="preserve">
+    <value>Stil de linie</value>
+  </data>
+  <data name="PdfViewer_FillColor" xml:space="preserve">
+    <value>Culoare umplere</value>
+  </data>
+  <data name="PdfViewer_LineColor" xml:space="preserve">
+    <value>Culoarea liniei</value>
+  </data>
+  <data name="PdfViewer_None" xml:space="preserve">
+    <value>Nici unul</value>
+  </data>
+  <data name="PdfViewer_OpenArrow" xml:space="preserve">
+    <value>Săgeată deschisă</value>
+  </data>
+  <data name="PdfViewer_ClosedArrow" xml:space="preserve">
+    <value>Săgeata închisă</value>
+  </data>
+  <data name="PdfViewer_RoundArrow" xml:space="preserve">
+    <value>Săgeata rotundă</value>
+  </data>
+  <data name="PdfViewer_SquareArrow" xml:space="preserve">
+    <value>Săgeata pătrată</value>
+  </data>
+  <data name="PdfViewer_DiamondArrow" xml:space="preserve">
+    <value>Săgeata de diamant</value>
+  </data>
+  <data name="PdfViewer_Cut" xml:space="preserve">
+    <value>A tăia</value>
+  </data>
+  <data name="PdfViewer_Paste" xml:space="preserve">
+    <value>Pastă</value>
+  </data>
+  <data name="PdfViewer_DeleteContext" xml:space="preserve">
+    <value>Șterge</value>
+  </data>
+  <data name="PdfViewer_Properties" xml:space="preserve">
+    <value>Proprietăți</value>
+  </data>
+  <data name="PdfViewer_AddStamp" xml:space="preserve">
+    <value>Adăugați timbru</value>
+  </data>
+  <data name="PdfViewer_AddShapes" xml:space="preserve">
+    <value>Adăugați forme</value>
+  </data>
+  <data name="PdfViewer_StrokeEdit" xml:space="preserve">
+    <value>Schimbați culoarea cursei</value>
+  </data>
+  <data name="PdfViewer_ChangeThickness" xml:space="preserve">
+    <value>Schimbați grosimea graniței</value>
+  </data>
+  <data name="PdfViewer_Addline" xml:space="preserve">
+    <value>Adaugă linie</value>
+  </data>
+  <data name="PdfViewer_AddArrow" xml:space="preserve">
+    <value>Adăugați săgeata</value>
+  </data>
+  <data name="PdfViewer_AddRectangle" xml:space="preserve">
+    <value>Adăugați Rectangle</value>
+  </data>
+  <data name="PdfViewer_AddCircle" xml:space="preserve">
+    <value>Adăugați cerc</value>
+  </data>
+  <data name="PdfViewer_AddPolygon" xml:space="preserve">
+    <value>Adăugați Poligon</value>
+  </data>
+  <data name="PdfViewer_AddComments" xml:space="preserve">
+    <value>Adaugă comentarii</value>
+  </data>
+  <data name="PdfViewer_Comments" xml:space="preserve">
+    <value>Comentarii</value>
+  </data>
+  <data name="PdfViewer_NoCommentsYet" xml:space="preserve">
+    <value>Nici un comentariu</value>
+  </data>
+  <data name="PdfViewer_Accepted" xml:space="preserve">
+    <value>Admis</value>
+  </data>
+  <data name="PdfViewer_Completed" xml:space="preserve">
+    <value>Efectuat</value>
+  </data>
+  <data name="PdfViewer_Cancelled" xml:space="preserve">
+    <value>Anulat</value>
+  </data>
+  <data name="PdfViewer_Rejected" xml:space="preserve">
+    <value>respins</value>
+  </data>
+  <data name="PdfViewer_LeaderLength" xml:space="preserve">
+    <value>Lungimea liderului</value>
+  </data>
+  <data name="PdfViewer_ScaleRatio" xml:space="preserve">
+    <value>Raportul scării</value>
+  </data>
+  <data name="PdfViewer_Calibrate" xml:space="preserve">
+    <value>Calibra</value>
+  </data>
+  <data name="PdfViewer_CalibrateDistance" xml:space="preserve">
+    <value>Calibrați distanța</value>
+  </data>
+  <data name="PdfViewer_CalibratePerimeter" xml:space="preserve">
+    <value>Calibrați Perimetrul</value>
+  </data>
+  <data name="PdfViewer_CalibrateArea" xml:space="preserve">
+    <value>Zona de calibrare</value>
+  </data>
+  <data name="PdfViewer_CalibrateRadius" xml:space="preserve">
+    <value>Raza Calibrați</value>
+  </data>
+  <data name="PdfViewer_CalibrateVolume" xml:space="preserve">
+    <value>Calibrați volumul</value>
+  </data>
+  <data name="PdfViewer_Depth" xml:space="preserve">
+    <value>Adâncime</value>
+  </data>
+  <data name="PdfViewer_Closed" xml:space="preserve">
+    <value>Închis</value>
+  </data>
+  <data name="PdfViewer_Round" xml:space="preserve">
+    <value>Rundă</value>
+  </data>
+  <data name="PdfViewer_Square" xml:space="preserve">
+    <value>Pătrat</value>
+  </data>
+  <data name="PdfViewer_Diamond" xml:space="preserve">
+    <value>Diamant</value>
+  </data>
+  <data name="PdfViewer_Edit" xml:space="preserve">
+    <value>Editați | ×</value>
+  </data>
+  <data name="PdfViewer_Comment" xml:space="preserve">
+    <value>cometariu</value>
+  </data>
+  <data name="PdfViewer_CommentPanel" xml:space="preserve">
+    <value>Panoul de comentarii</value>
+  </data>
+  <data name="PdfViewer_SetStatus" xml:space="preserve">
+    <value>Setați starea</value>
+  </data>
+  <data name="PdfViewer_Post" xml:space="preserve">
+    <value>Post</value>
+  </data>
+  <data name="PdfViewer_Page" xml:space="preserve">
+    <value>Pagină</value>
+  </data>
+  <data name="PdfViewer_AddComment" xml:space="preserve">
+    <value>Adauga un comentariu</value>
+  </data>
+  <data name="PdfViewer_AddReply" xml:space="preserve">
+    <value>Adăugați un răspuns</value>
+  </data>
+  <data name="PdfViewer_ImportAnnotations" xml:space="preserve">
+    <value>Importați adnotări</value>
+  </data>
+  <data name="PdfViewer_ExportAnnotations" xml:space="preserve">
+    <value>Adnotări la export</value>
+  </data>
+  <data name="PdfViewer_Add" xml:space="preserve">
+    <value>Adăuga</value>
+  </data>
+  <data name="PdfViewer_Clear" xml:space="preserve">
+    <value>clar</value>
+  </data>
+  <data name="PdfViewer_Bold" xml:space="preserve">
+    <value>Îndrăzneţ</value>
+  </data>
+  <data name="PdfViewer_Italic" xml:space="preserve">
+    <value>Cursiv</value>
+  </data>
+  <data name="PdfViewer_Strikethroughs" xml:space="preserve">
+    <value>Tăiat</value>
+  </data>
+  <data name="PdfViewer_Underlines" xml:space="preserve">
+    <value>subliniază</value>
+  </data>
+  <data name="PdfViewer_Superscript" xml:space="preserve">
+    <value>Exponent</value>
+  </data>
+  <data name="PdfViewer_Subscript" xml:space="preserve">
+    <value>subscript</value>
+  </data>
+  <data name="PdfViewer_AlignLeft" xml:space="preserve">
+    <value>Alinia la stânga</value>
+  </data>
+  <data name="PdfViewer_AlignRight" xml:space="preserve">
+    <value>Aliniați dreapta</value>
+  </data>
+  <data name="PdfViewer_Center" xml:space="preserve">
+    <value>Centru</value>
+  </data>
+  <data name="PdfViewer_Justify" xml:space="preserve">
+    <value>Justifica</value>
+  </data>
+  <data name="PdfViewer_FontColor" xml:space="preserve">
+    <value>Culoarea fontului</value>
+  </data>
+  <data name="PdfViewer_TextAlign" xml:space="preserve">
+    <value>Aliniere text</value>
+  </data>
+  <data name="PdfViewer_TextProperties" xml:space="preserve">
+    <value>Stilul fontului</value>
+  </data>
+  <data name="PdfViewer_DrawSignature" xml:space="preserve">
+    <value>Desenați semnătura</value>
+  </data>
+  <data name="PdfViewer_Create" xml:space="preserve">
+    <value>Crea</value>
+  </data>
+  <data name="PdfViewer_FontFamily" xml:space="preserve">
+    <value>Familie de fonturi</value>
+  </data>
+  <data name="PdfViewer_FontSize" xml:space="preserve">
+    <value>Marimea fontului</value>
+  </data>
+  <data name="PdfViewer_FreeText" xml:space="preserve">
+    <value>Text gratuit</value>
+  </data>
+  <data name="PdfViewer_ImportFailed" xml:space="preserve">
+    <value>Tip de fișier JSON sau nume de fișier nevalide; selectați un fișier JSON valid</value>
+  </data>
+  <data name="PdfViewer_FileNotFound" xml:space="preserve">
+    <value>Fișierul JSON importat nu se găsește în locația dorită</value>
+  </data>
+  <data name="PdfViewer_ExportFailed" xml:space="preserve">
+    <value>Acțiunea de adnotare la export a eșuat; Vă rugăm să vă asigurați că adnotările sunt adăugate corect</value>
+  </data>
+  <data name="PdfViewer_Draw_hand_Signature" xml:space="preserve">
+    <value>A DESENA</value>
+  </data>
+  <data name="PdfViewer_Type_Signature" xml:space="preserve">
+    <value>TIP</value>
+  </data>
+  <data name="PdfViewer_Upload_Signature" xml:space="preserve">
+    <value>ÎNCĂRCAȚI</value>
+  </data>
+  <data name="PdfViewer_Browse_Signature_Image" xml:space="preserve">
+    <value>NAVIGA</value>
+  </data>
+  <data name="PdfViewer_Save_Signature" xml:space="preserve">
+    <value>Salvați semnătura</value>
+  </data>
+  <data name="PdfViewer_Enter_Signature_as_Name" xml:space="preserve">
+    <value>Introdu numele tau</value>
+  </data>
+  <data name="PdfViewer_Dynamic" xml:space="preserve">
+    <value>Dinamic</value>
+  </data>
+  <data name="PdfViewer_StandardBusiness" xml:space="preserve">
+    <value>Afaceri standard</value>
+  </data>
+  <data name="PdfViewer_CustomStamp" xml:space="preserve">
+    <value>Ștampila personalizată</value>
+  </data>
+  <data name="PdfViewer_Revised" xml:space="preserve">
+    <value>Revizuit</value>
+  </data>
+  <data name="PdfViewer_Reviewed" xml:space="preserve">
+    <value>Revizuit</value>
+  </data>
+  <data name="PdfViewer_Received" xml:space="preserve">
+    <value>Primit</value>
+  </data>
+  <data name="PdfViewer_Approved" xml:space="preserve">
+    <value>Aprobat</value>
+  </data>
+  <data name="PdfViewer_Confidential" xml:space="preserve">
+    <value>Confidenţial</value>
+  </data>
+  <data name="PdfViewer_NotApproved" xml:space="preserve">
+    <value>Neaprobat</value>
+  </data>
+  <data name="PdfViewer_Witness" xml:space="preserve">
+    <value>Martor</value>
+  </data>
+  <data name="PdfViewer_InitialHere" xml:space="preserve">
+    <value>Initiala Aici</value>
+  </data>
+  <data name="PdfViewer_SignHere" xml:space="preserve">
+    <value>Înregistrează aici</value>
+  </data>
+  <data name="PdfViewer_Draft" xml:space="preserve">
+    <value>Proiect</value>
+  </data>
+  <data name="PdfViewer_Final" xml:space="preserve">
+    <value>Final</value>
+  </data>
+  <data name="PdfViewer_ForPublicRelease" xml:space="preserve">
+    <value>Pentru lansare publică</value>
+  </data>
+  <data name="PdfViewer_NotForPublicRelease" xml:space="preserve">
+    <value>Nu pentru lansare publică</value>
+  </data>
+  <data name="PdfViewer_ForComment" xml:space="preserve">
+    <value>Pentru comentariu</value>
+  </data>
+  <data name="PdfViewer_Void" xml:space="preserve">
+    <value>Vidul</value>
+  </data>
+  <data name="PdfViewer_PreliminaryResults" xml:space="preserve">
+    <value>Rezultate preliminare</value>
+  </data>
+  <data name="PdfViewer_InformationOnly" xml:space="preserve">
+    <value>Doar informații</value>
+  </data>
+  <data name="PdfViewer_SubmitForm" xml:space="preserve">
+    <value>Trimiteți formularul</value>
+  </data>
+  <data name="PdfViewer_Required_ServiceUrl_Error_Message" xml:space="preserve">
+    <value>Acest vizualizator PDF necesită procesare pe partea serverului pentru a reda fișierele PDF prin serviciul web. Trebuie să configurați adresa URL a serviciului pentru a continua cu vizualizatorul PDF</value>
+  </data>
+  <data name="PdfViewer_Close" xml:space="preserve">
+    <value>închide</value>
+  </data>
+  <data name="PdfViewer_HandwrittenSignatureDialogHeaderText" xml:space="preserve">
+    <value>Adăugați semnătură</value>
+  </data>
+  <data name="PdfViewer_DrawInk" xml:space="preserve">
+    <value>Desenați cerneală</value>
+  </data>
+  <data name="DocumentEditor_Table" xml:space="preserve">
+    <value>Masa</value>
+  </data>
+  <data name="DocumentEditor_Row" xml:space="preserve">
+    <value>Rând</value>
+  </data>
+  <data name="DocumentEditor_Cell" xml:space="preserve">
+    <value>celulă</value>
+  </data>
+  <data name="DocumentEditor_Ok" xml:space="preserve">
+    <value>O.K</value>
+  </data>
+  <data name="DocumentEditor_Cancel" xml:space="preserve">
+    <value>Anulare</value>
+  </data>
+  <data name="DocumentEditor_Size" xml:space="preserve">
+    <value>mărimea</value>
+  </data>
+  <data name="DocumentEditor_PreferredWidth" xml:space="preserve">
+    <value>Lățimea preferată</value>
+  </data>
+  <data name="DocumentEditor_Points" xml:space="preserve">
+    <value>puncte</value>
+  </data>
+  <data name="DocumentEditor_Percent" xml:space="preserve">
+    <value>La sută</value>
+  </data>
+  <data name="DocumentEditor_MeasureIn" xml:space="preserve">
+    <value>Măsurați în</value>
+  </data>
+  <data name="DocumentEditor_Alignment" xml:space="preserve">
+    <value>Aliniere</value>
+  </data>
+  <data name="DocumentEditor_Left" xml:space="preserve">
+    <value>Stânga</value>
+  </data>
+  <data name="DocumentEditor_Center" xml:space="preserve">
+    <value>Centru</value>
+  </data>
+  <data name="DocumentEditor_Right" xml:space="preserve">
+    <value>Dreapta</value>
+  </data>
+  <data name="DocumentEditor_Justify" xml:space="preserve">
+    <value>Justifica</value>
+  </data>
+  <data name="DocumentEditor_IndentFromLeft" xml:space="preserve">
+    <value>Indentare de la stânga</value>
+  </data>
+  <data name="DocumentEditor_BordersAndShading" xml:space="preserve">
+    <value>Granițele și umbrirea</value>
+  </data>
+  <data name="DocumentEditor_Options" xml:space="preserve">
+    <value>Opțiuni</value>
+  </data>
+  <data name="DocumentEditor_SpecifyHeight" xml:space="preserve">
+    <value>Precizați înălțimea</value>
+  </data>
+  <data name="DocumentEditor_AtLeast" xml:space="preserve">
+    <value>Macar</value>
+  </data>
+  <data name="DocumentEditor_Exactly" xml:space="preserve">
+    <value>Exact</value>
+  </data>
+  <data name="DocumentEditor_RowHeightIs" xml:space="preserve">
+    <value>Înălțimea rândului este</value>
+  </data>
+  <data name="DocumentEditor_AllowRowToBreakAcrossPages" xml:space="preserve">
+    <value>Permiteți rândului să împartă paginile</value>
+  </data>
+  <data name="DocumentEditor_RepeatAsHeaderRowAtTheTopOfEachPage" xml:space="preserve">
+    <value>Repetați ca rândul antet în partea de sus a fiecărei pagini</value>
+  </data>
+  <data name="DocumentEditor_VerticalAlignment" xml:space="preserve">
+    <value>Aliniere verticală</value>
+  </data>
+  <data name="DocumentEditor_Top" xml:space="preserve">
+    <value>Top</value>
+  </data>
+  <data name="DocumentEditor_Bottom" xml:space="preserve">
+    <value>Partea de jos</value>
+  </data>
+  <data name="DocumentEditor_DefaultCellMargins" xml:space="preserve">
+    <value>Marjele celulare implicite</value>
+  </data>
+  <data name="DocumentEditor_DefaultCellSpacing" xml:space="preserve">
+    <value>Spațiul implicit al celulelor</value>
+  </data>
+  <data name="DocumentEditor_AllowSpacingBetweenCells" xml:space="preserve">
+    <value>Permiteți distanțarea între celule</value>
+  </data>
+  <data name="DocumentEditor_CellMargins" xml:space="preserve">
+    <value>Marjele celulare</value>
+  </data>
+  <data name="DocumentEditor_SameAsTheWholeTable" xml:space="preserve">
+    <value>La fel ca întreaga masă</value>
+  </data>
+  <data name="DocumentEditor_Borders" xml:space="preserve">
+    <value>Frontiere</value>
+  </data>
+  <data name="DocumentEditor_None" xml:space="preserve">
+    <value>Nici unul</value>
+  </data>
+  <data name="DocumentEditor_Style" xml:space="preserve">
+    <value>Stil</value>
+  </data>
+  <data name="DocumentEditor_Width" xml:space="preserve">
+    <value>Lăţime</value>
+  </data>
+  <data name="DocumentEditor_Height" xml:space="preserve">
+    <value>Înălţime</value>
+  </data>
+  <data name="DocumentEditor_Letter" xml:space="preserve">
+    <value>Scrisoare</value>
+  </data>
+  <data name="DocumentEditor_Tabloid" xml:space="preserve">
+    <value>tabloid</value>
+  </data>
+  <data name="DocumentEditor_Legal" xml:space="preserve">
+    <value>legal</value>
+  </data>
+  <data name="DocumentEditor_Statement" xml:space="preserve">
+    <value>Afirmație</value>
+  </data>
+  <data name="DocumentEditor_Executive" xml:space="preserve">
+    <value>Executiv</value>
+  </data>
+  <data name="DocumentEditor_A3" xml:space="preserve">
+    <value>A3</value>
+  </data>
+  <data name="DocumentEditor_A4" xml:space="preserve">
+    <value>A4</value>
+  </data>
+  <data name="DocumentEditor_A5" xml:space="preserve">
+    <value>A5</value>
+  </data>
+  <data name="DocumentEditor_B4" xml:space="preserve">
+    <value>B4</value>
+  </data>
+  <data name="DocumentEditor_B5" xml:space="preserve">
+    <value>B5</value>
+  </data>
+  <data name="DocumentEditor_CustomSize" xml:space="preserve">
+    <value>Marime personalizata</value>
+  </data>
+  <data name="DocumentEditor_DifferentOddAndEven" xml:space="preserve">
+    <value>Diferite și impar</value>
+  </data>
+  <data name="DocumentEditor_DifferentFirstPage" xml:space="preserve">
+    <value>Prima pagină diferită</value>
+  </data>
+  <data name="DocumentEditor_FromEdge" xml:space="preserve">
+    <value>De la margine</value>
+  </data>
+  <data name="DocumentEditor_Header" xml:space="preserve">
+    <value>Antet</value>
+  </data>
+  <data name="DocumentEditor_Footer" xml:space="preserve">
+    <value>Subsol</value>
+  </data>
+  <data name="DocumentEditor_Margin" xml:space="preserve">
+    <value>Margini</value>
+  </data>
+  <data name="DocumentEditor_Paper" xml:space="preserve">
+    <value>Hârtie</value>
+  </data>
+  <data name="DocumentEditor_Layout" xml:space="preserve">
+    <value>schemă</value>
+  </data>
+  <data name="DocumentEditor_Orientation" xml:space="preserve">
+    <value>Orientare</value>
+  </data>
+  <data name="DocumentEditor_Landscape" xml:space="preserve">
+    <value>Peisaj</value>
+  </data>
+  <data name="DocumentEditor_Portrait" xml:space="preserve">
+    <value>Portret</value>
+  </data>
+  <data name="DocumentEditor_ShowPageNumbers" xml:space="preserve">
+    <value>Afișează numerele paginii</value>
+  </data>
+  <data name="DocumentEditor_RightAlignPageNumbers" xml:space="preserve">
+    <value>Alegeți numerele drepte ale paginii.</value>
+  </data>
+  <data name="DocumentEditor_Nothing" xml:space="preserve">
+    <value>Nimic</value>
+  </data>
+  <data name="DocumentEditor_TabLeader" xml:space="preserve">
+    <value>Lider de file</value>
+  </data>
+  <data name="DocumentEditor_ShowLevels" xml:space="preserve">
+    <value>Afișați nivelurile</value>
+  </data>
+  <data name="DocumentEditor_UseHyperlinksInsteadOfPageNumbers" xml:space="preserve">
+    <value>Folosiți hyperlink-uri în loc de numere de pagină</value>
+  </data>
+  <data name="DocumentEditor_BuildTableOfContentsFrom" xml:space="preserve">
+    <value>Construiți un conținut din</value>
+  </data>
+  <data name="DocumentEditor_Styles" xml:space="preserve">
+    <value>stiluri</value>
+  </data>
+  <data name="DocumentEditor_AvailableStyles" xml:space="preserve">
+    <value>Stiluri disponibile</value>
+  </data>
+  <data name="DocumentEditor_TOCLevel" xml:space="preserve">
+    <value>Nivelul TOC</value>
+  </data>
+  <data name="DocumentEditor_Heading" xml:space="preserve">
+    <value>Titlu</value>
+  </data>
+  <data name="DocumentEditor_Heading1" xml:space="preserve">
+    <value>Rubrica 1</value>
+  </data>
+  <data name="DocumentEditor_Heading2" xml:space="preserve">
+    <value>Rubrica 2</value>
+  </data>
+  <data name="DocumentEditor_Heading3" xml:space="preserve">
+    <value>Titlul 3</value>
+  </data>
+  <data name="DocumentEditor_Heading4" xml:space="preserve">
+    <value>Rubrica 4</value>
+  </data>
+  <data name="DocumentEditor_Heading5" xml:space="preserve">
+    <value>Rubrica 5</value>
+  </data>
+  <data name="DocumentEditor_Heading6" xml:space="preserve">
+    <value>Titlul 6</value>
+  </data>
+  <data name="DocumentEditor_ListParagraph" xml:space="preserve">
+    <value>Paragraful listei</value>
+  </data>
+  <data name="DocumentEditor_Normal" xml:space="preserve">
+    <value>Normal</value>
+  </data>
+  <data name="DocumentEditor_OutlineLevels" xml:space="preserve">
+    <value>Niveluri contur</value>
+  </data>
+  <data name="DocumentEditor_TableEntryFields" xml:space="preserve">
+    <value>Câmpuri de intrare în tabel</value>
+  </data>
+  <data name="DocumentEditor_Modify" xml:space="preserve">
+    <value>Modifica</value>
+  </data>
+  <data name="DocumentEditor_Color" xml:space="preserve">
+    <value>Culoare</value>
+  </data>
+  <data name="DocumentEditor_Setting" xml:space="preserve">
+    <value>reglaj</value>
+  </data>
+  <data name="DocumentEditor_Box" xml:space="preserve">
+    <value>Cutie</value>
+  </data>
+  <data name="DocumentEditor_All" xml:space="preserve">
+    <value>Toate</value>
+  </data>
+  <data name="DocumentEditor_Custom" xml:space="preserve">
+    <value>Personalizat</value>
+  </data>
+  <data name="DocumentEditor_Preview" xml:space="preserve">
+    <value>previzualizare</value>
+  </data>
+  <data name="DocumentEditor_Shading" xml:space="preserve">
+    <value>Umbrire</value>
+  </data>
+  <data name="DocumentEditor_Fill" xml:space="preserve">
+    <value>Completati</value>
+  </data>
+  <data name="DocumentEditor_ApplyTo" xml:space="preserve">
+    <value>Aplica pentru</value>
+  </data>
+  <data name="DocumentEditor_TableProperties" xml:space="preserve">
+    <value>Proprietățile tabelului</value>
+  </data>
+  <data name="DocumentEditor_CellOptions" xml:space="preserve">
+    <value>Opțiuni celulare</value>
+  </data>
+  <data name="DocumentEditor_TableOptions" xml:space="preserve">
+    <value>Opțiuni de tabel</value>
+  </data>
+  <data name="DocumentEditor_InsertTable" xml:space="preserve">
+    <value>Introduceți tabelul</value>
+  </data>
+  <data name="DocumentEditor_NumberOfColumns" xml:space="preserve">
+    <value>Numar de coloane</value>
+  </data>
+  <data name="DocumentEditor_NumberOfRows" xml:space="preserve">
+    <value>Număr de rânduri</value>
+  </data>
+  <data name="DocumentEditor_TextToDisplay" xml:space="preserve">
+    <value>Text de afișat</value>
+  </data>
+  <data name="DocumentEditor_Address" xml:space="preserve">
+    <value>Abordare</value>
+  </data>
+  <data name="DocumentEditor_InsertHyperlink" xml:space="preserve">
+    <value>Introduceți hyperlink</value>
+  </data>
+  <data name="DocumentEditor_EditHyperlink" xml:space="preserve">
+    <value>Editați hyperlink</value>
+  </data>
+  <data name="DocumentEditor_Insert" xml:space="preserve">
+    <value>Introduce</value>
+  </data>
+  <data name="DocumentEditor_General" xml:space="preserve">
+    <value>General</value>
+  </data>
+  <data name="DocumentEditor_Indentation" xml:space="preserve">
+    <value>zimțuire</value>
+  </data>
+  <data name="DocumentEditor_BeforeText" xml:space="preserve">
+    <value>Înainte de text</value>
+  </data>
+  <data name="DocumentEditor_Special" xml:space="preserve">
+    <value>Special</value>
+  </data>
+  <data name="DocumentEditor_FirstLine" xml:space="preserve">
+    <value>Prima linie</value>
+  </data>
+  <data name="DocumentEditor_Hanging" xml:space="preserve">
+    <value>Agăţat</value>
+  </data>
+  <data name="DocumentEditor_AfterText" xml:space="preserve">
+    <value>După text</value>
+  </data>
+  <data name="DocumentEditor_By" xml:space="preserve">
+    <value>De</value>
+  </data>
+  <data name="DocumentEditor_Before" xml:space="preserve">
+    <value>Inainte de</value>
+  </data>
+  <data name="DocumentEditor_LineSpacing" xml:space="preserve">
+    <value>Distanța de linie</value>
+  </data>
+  <data name="DocumentEditor_After" xml:space="preserve">
+    <value>După</value>
+  </data>
+  <data name="DocumentEditor_At" xml:space="preserve">
+    <value>La</value>
+  </data>
+  <data name="DocumentEditor_Multiple" xml:space="preserve">
+    <value>Multiplu</value>
+  </data>
+  <data name="DocumentEditor_Spacing" xml:space="preserve">
+    <value>spaţiere</value>
+  </data>
+  <data name="DocumentEditor_DefineNewMultilevelList" xml:space="preserve">
+    <value>Definiți o nouă listă pe mai multe niveluri</value>
+  </data>
+  <data name="DocumentEditor_ListLevel" xml:space="preserve">
+    <value>Nivel de listă</value>
+  </data>
+  <data name="DocumentEditor_ChooseLevelToModify" xml:space="preserve">
+    <value>Alegeți nivelul de modificat</value>
+  </data>
+  <data name="DocumentEditor_Level" xml:space="preserve">
+    <value>Nivel</value>
+  </data>
+  <data name="DocumentEditor_NumberFormat" xml:space="preserve">
+    <value>Formatul numărului</value>
+  </data>
+  <data name="DocumentEditor_NumberStyleForThisLevel" xml:space="preserve">
+    <value>Stilul numerelor pentru acest nivel</value>
+  </data>
+  <data name="DocumentEditor_EnterFormattingForNumber" xml:space="preserve">
+    <value>Introduceți formatarea pentru numărul</value>
+  </data>
+  <data name="DocumentEditor_StartAt" xml:space="preserve">
+    <value>Incepe la</value>
+  </data>
+  <data name="DocumentEditor_RestartListAfter" xml:space="preserve">
+    <value>Reporniți lista după</value>
+  </data>
+  <data name="DocumentEditor_Position" xml:space="preserve">
+    <value>Poziţie</value>
+  </data>
+  <data name="DocumentEditor_TextIndentAt" xml:space="preserve">
+    <value>Litiu de text la</value>
+  </data>
+  <data name="DocumentEditor_AlignedAt" xml:space="preserve">
+    <value>Aliniat la</value>
+  </data>
+  <data name="DocumentEditor_FollowNumberWith" xml:space="preserve">
+    <value>Urmăriți numărul cu</value>
+  </data>
+  <data name="DocumentEditor_TabCharacter" xml:space="preserve">
+    <value>Caracterul filei</value>
+  </data>
+  <data name="DocumentEditor_Space" xml:space="preserve">
+    <value>Spaţiu</value>
+  </data>
+  <data name="DocumentEditor_Arabic" xml:space="preserve">
+    <value>arabic</value>
+  </data>
+  <data name="DocumentEditor_UpRoman" xml:space="preserve">
+    <value>UpRoman</value>
+  </data>
+  <data name="DocumentEditor_LowRoman" xml:space="preserve">
+    <value>LowRoman</value>
+  </data>
+  <data name="DocumentEditor_UpLetter" xml:space="preserve">
+    <value>UpLetter</value>
+  </data>
+  <data name="DocumentEditor_LowLetter" xml:space="preserve">
+    <value>LowLetter</value>
+  </data>
+  <data name="DocumentEditor_Number" xml:space="preserve">
+    <value>Număr</value>
+  </data>
+  <data name="DocumentEditor_LeadingZero" xml:space="preserve">
+    <value>Conducerea zero</value>
+  </data>
+  <data name="DocumentEditor_Bullet" xml:space="preserve">
+    <value>Glonţ</value>
+  </data>
+  <data name="DocumentEditor_Ordinal" xml:space="preserve">
+    <value>Ordinal</value>
+  </data>
+  <data name="DocumentEditor_OrdinalText" xml:space="preserve">
+    <value>Text ordinal</value>
+  </data>
+  <data name="DocumentEditor_ForEast" xml:space="preserve">
+    <value>Pentru est</value>
+  </data>
+  <data name="DocumentEditor_NoRestart" xml:space="preserve">
+    <value>Fără restart</value>
+  </data>
+  <data name="DocumentEditor_Font" xml:space="preserve">
+    <value>Font</value>
+  </data>
+  <data name="DocumentEditor_FontStyle" xml:space="preserve">
+    <value>Stilul fontului</value>
+  </data>
+  <data name="DocumentEditor_UnderlineStyle" xml:space="preserve">
+    <value>Stil subliniat</value>
+  </data>
+  <data name="DocumentEditor_FontColor" xml:space="preserve">
+    <value>Culoarea fontului</value>
+  </data>
+  <data name="DocumentEditor_Effects" xml:space="preserve">
+    <value>Efecte</value>
+  </data>
+  <data name="DocumentEditor_Strikethrough" xml:space="preserve">
+    <value>Tăiat</value>
+  </data>
+  <data name="DocumentEditor_Superscript" xml:space="preserve">
+    <value>Exponent</value>
+  </data>
+  <data name="DocumentEditor_Subscript" xml:space="preserve">
+    <value>subscript</value>
+  </data>
+  <data name="DocumentEditor_DoubleStrikethrough" xml:space="preserve">
+    <value>Dublu strikethrough</value>
+  </data>
+  <data name="DocumentEditor_Regular" xml:space="preserve">
+    <value>Regulat</value>
+  </data>
+  <data name="DocumentEditor_Bold" xml:space="preserve">
+    <value>Îndrăzneţ</value>
+  </data>
+  <data name="DocumentEditor_Italic" xml:space="preserve">
+    <value>Cursiv</value>
+  </data>
+  <data name="DocumentEditor_Cut" xml:space="preserve">
+    <value>A tăia</value>
+  </data>
+  <data name="DocumentEditor_Copy" xml:space="preserve">
+    <value>Copie</value>
+  </data>
+  <data name="DocumentEditor_Paste" xml:space="preserve">
+    <value>Pastă</value>
+  </data>
+  <data name="DocumentEditor_Hyperlink" xml:space="preserve">
+    <value>Hyperlink</value>
+  </data>
+  <data name="DocumentEditor_OpenHyperlink" xml:space="preserve">
+    <value>Deschideți hyperlink</value>
+  </data>
+  <data name="DocumentEditor_CopyHyperlink" xml:space="preserve">
+    <value>Copiați hyperlink</value>
+  </data>
+  <data name="DocumentEditor_RemoveHyperlink" xml:space="preserve">
+    <value>Îndepărtați Hyperlink</value>
+  </data>
+  <data name="DocumentEditor_Paragraph" xml:space="preserve">
+    <value>Paragraf</value>
+  </data>
+  <data name="DocumentEditor_LinkedStyle" xml:space="preserve">
+    <value>Legat (paragraf și caracter)</value>
+  </data>
+  <data name="DocumentEditor_Character" xml:space="preserve">
+    <value>Caracter</value>
+  </data>
+  <data name="DocumentEditor_MergeCells" xml:space="preserve">
+    <value>Uneste celulele</value>
+  </data>
+  <data name="DocumentEditor_InsertAbove" xml:space="preserve">
+    <value>Introduceți mai sus</value>
+  </data>
+  <data name="DocumentEditor_InsertBelow" xml:space="preserve">
+    <value>Introduceți mai jos</value>
+  </data>
+  <data name="DocumentEditor_InsertLeft" xml:space="preserve">
+    <value>Introduceți în stânga</value>
+  </data>
+  <data name="DocumentEditor_InsertRight" xml:space="preserve">
+    <value>Introduceți dreapta</value>
+  </data>
+  <data name="DocumentEditor_Delete" xml:space="preserve">
+    <value>Șterge</value>
+  </data>
+  <data name="DocumentEditor_DeleteTable" xml:space="preserve">
+    <value>Ștergeți tabelul</value>
+  </data>
+  <data name="DocumentEditor_DeleteRow" xml:space="preserve">
+    <value>Ștergeți rândul</value>
+  </data>
+  <data name="DocumentEditor_DeleteColumn" xml:space="preserve">
+    <value>Ștergeți coloana</value>
+  </data>
+  <data name="DocumentEditor_FileName" xml:space="preserve">
+    <value>Nume de fișier</value>
+  </data>
+  <data name="DocumentEditor_FormatType" xml:space="preserve">
+    <value>Tip de format</value>
+  </data>
+  <data name="DocumentEditor_Save" xml:space="preserve">
+    <value>salva</value>
+  </data>
+  <data name="DocumentEditor_Navigation" xml:space="preserve">
+    <value>Navigare</value>
+  </data>
+  <data name="DocumentEditor_Results" xml:space="preserve">
+    <value>Rezultate</value>
+  </data>
+  <data name="DocumentEditor_Replace" xml:space="preserve">
+    <value>A inlocui</value>
+  </data>
+  <data name="DocumentEditor_ReplaceAll" xml:space="preserve">
+    <value>Înlocuiește-le pe toate</value>
+  </data>
+  <data name="DocumentEditor_WeReplacedAll" xml:space="preserve">
+    <value>Am înlocuit toate</value>
+  </data>
+  <data name="DocumentEditor_Find" xml:space="preserve">
+    <value>Găsi</value>
+  </data>
+  <data name="DocumentEditor_NoMatches" xml:space="preserve">
+    <value>Nici-o potrivire</value>
+  </data>
+  <data name="DocumentEditor_AllDone" xml:space="preserve">
+    <value>Totul este gata</value>
+  </data>
+  <data name="DocumentEditor_Result" xml:space="preserve">
+    <value>Rezultat</value>
+  </data>
+  <data name="DocumentEditor_Of" xml:space="preserve">
+    <value>de</value>
+  </data>
+  <data name="DocumentEditor_Instances" xml:space="preserve">
+    <value>instanțe</value>
+  </data>
+  <data name="DocumentEditor_With" xml:space="preserve">
+    <value>cu</value>
+  </data>
+  <data name="DocumentEditor_ClickToFollowLink" xml:space="preserve">
+    <value>Faceți clic pentru a urma linkul</value>
+  </data>
+  <data name="DocumentEditor_ContinueNumbering" xml:space="preserve">
+    <value>Continuați numerotarea</value>
+  </data>
+  <data name="DocumentEditor_BookmarkName" xml:space="preserve">
+    <value>Numele marcajului</value>
+  </data>
+  <data name="DocumentEditor_Close" xml:space="preserve">
+    <value>Închide</value>
+  </data>
+  <data name="DocumentEditor_RestartAt" xml:space="preserve">
+    <value>Reporniți At</value>
+  </data>
+  <data name="DocumentEditor_Properties" xml:space="preserve">
+    <value>Proprietăți</value>
+  </data>
+  <data name="DocumentEditor_Name" xml:space="preserve">
+    <value>Nume</value>
+  </data>
+  <data name="DocumentEditor_StyleType" xml:space="preserve">
+    <value>Tip de stil</value>
+  </data>
+  <data name="DocumentEditor_StyleBasedOn" xml:space="preserve">
+    <value>Stil bazat pe</value>
+  </data>
+  <data name="DocumentEditor_StyleForFollowingParagraph" xml:space="preserve">
+    <value>Stil pentru următorul alineat</value>
+  </data>
+  <data name="DocumentEditor_Formatting" xml:space="preserve">
+    <value>Formatarea</value>
+  </data>
+  <data name="DocumentEditor_NumberingAndBullets" xml:space="preserve">
+    <value>Numerotare și Buletine</value>
+  </data>
+  <data name="DocumentEditor_Numbering" xml:space="preserve">
+    <value>Numerotare</value>
+  </data>
+  <data name="DocumentEditor_UpdateField" xml:space="preserve">
+    <value>Câmpul de actualizare</value>
+  </data>
+  <data name="DocumentEditor_EditField" xml:space="preserve">
+    <value>Modificați câmpul</value>
+  </data>
+  <data name="DocumentEditor_Bookmark" xml:space="preserve">
+    <value>semn de carte</value>
+  </data>
+  <data name="DocumentEditor_PageSetup" xml:space="preserve">
+    <value>Configurare pagina</value>
+  </data>
+  <data name="DocumentEditor_NoBookmarksFound" xml:space="preserve">
+    <value>Nu au fost găsite marcaje</value>
+  </data>
+  <data name="DocumentEditor_Format" xml:space="preserve">
+    <value>Format</value>
+  </data>
+  <data name="DocumentEditor_CreateNewStyle" xml:space="preserve">
+    <value>Creați stil nou</value>
+  </data>
+  <data name="DocumentEditor_ModifyStyle" xml:space="preserve">
+    <value>Modificați stilul</value>
+  </data>
+  <data name="DocumentEditor_New" xml:space="preserve">
+    <value>Nou</value>
+  </data>
+  <data name="DocumentEditor_Bullets" xml:space="preserve">
+    <value>Marcatori</value>
+  </data>
+  <data name="DocumentEditor_UseBookmarks" xml:space="preserve">
+    <value>Folosiți marcaje</value>
+  </data>
+  <data name="DocumentEditor_TableOfContents" xml:space="preserve">
+    <value>Cuprins</value>
+  </data>
+  <data name="DocumentEditor_AutoFit" xml:space="preserve">
+    <value>Potrivire automată</value>
+  </data>
+  <data name="DocumentEditor_AutoFitToContents" xml:space="preserve">
+    <value>AutoFit la Cuprins</value>
+  </data>
+  <data name="DocumentEditor_AutoFitToWindow" xml:space="preserve">
+    <value>AutoFit la fereastră</value>
+  </data>
+  <data name="DocumentEditor_FixedColumnWidth" xml:space="preserve">
+    <value>Lățimea fixă ​​a coloanei</value>
+  </data>
+  <data name="DocumentEditor_Reset" xml:space="preserve">
+    <value>Resetați</value>
+  </data>
+  <data name="DocumentEditor_MatchCase" xml:space="preserve">
+    <value>Carcasă potrivită</value>
+  </data>
+  <data name="DocumentEditor_WholeWords" xml:space="preserve">
+    <value>Cuvinte întregi</value>
+  </data>
+  <data name="DocumentEditor_Add" xml:space="preserve">
+    <value>Adăuga</value>
+  </data>
+  <data name="DocumentEditor_GoTo" xml:space="preserve">
+    <value>Mergi la</value>
+  </data>
+  <data name="DocumentEditor_SearchFor" xml:space="preserve">
+    <value>Caută</value>
+  </data>
+  <data name="DocumentEditor_ReplaceWith" xml:space="preserve">
+    <value>Înlocui cu</value>
+  </data>
+  <data name="DocumentEditor_TOC1" xml:space="preserve">
+    <value>TOC 1</value>
+  </data>
+  <data name="DocumentEditor_TOC2" xml:space="preserve">
+    <value>TOC 2</value>
+  </data>
+  <data name="DocumentEditor_TOC3" xml:space="preserve">
+    <value>TOC 3</value>
+  </data>
+  <data name="DocumentEditor_TOC4" xml:space="preserve">
+    <value>TOC 4</value>
+  </data>
+  <data name="DocumentEditor_TOC5" xml:space="preserve">
+    <value>TOC 5</value>
+  </data>
+  <data name="DocumentEditor_TOC6" xml:space="preserve">
+    <value>TOC 6</value>
+  </data>
+  <data name="DocumentEditor_TOC7" xml:space="preserve">
+    <value>TOC 7</value>
+  </data>
+  <data name="DocumentEditor_TOC8" xml:space="preserve">
+    <value>TOC 8</value>
+  </data>
+  <data name="DocumentEditor_TOC9" xml:space="preserve">
+    <value>TOC 9</value>
+  </data>
+  <data name="DocumentEditor_RightToLeft" xml:space="preserve">
+    <value>De la dreapta la stanga</value>
+  </data>
+  <data name="DocumentEditor_LeftToRight" xml:space="preserve">
+    <value>De la stânga la dreapta</value>
+  </data>
+  <data name="DocumentEditor_Direction" xml:space="preserve">
+    <value>Direcţie</value>
+  </data>
+  <data name="DocumentEditor_TableDirection" xml:space="preserve">
+    <value>Direcția tabelului</value>
+  </data>
+  <data name="DocumentEditor_IndentFromRight" xml:space="preserve">
+    <value>Indentare de la dreapta</value>
+  </data>
+  <data name="DocumentEditor_ContextualSpacing" xml:space="preserve">
+    <value>Nu adăugați spațiu între alineatele din aceleași stiluri</value>
+  </data>
+  <data name="DocumentEditor_PasswordMismatch" xml:space="preserve">
+    <value>Parola nu se potrivește</value>
+  </data>
+  <data name="DocumentEditor_RestrictEditing" xml:space="preserve">
+    <value>Restricți editarea</value>
+  </data>
+  <data name="DocumentEditor_FormattingRestrictions" xml:space="preserve">
+    <value>Restricții de formatare</value>
+  </data>
+  <data name="DocumentEditor_AllowFormatting" xml:space="preserve">
+    <value>Permite formatarea</value>
+  </data>
+  <data name="DocumentEditor_EditingRestrictions" xml:space="preserve">
+    <value>Restricții de editare</value>
+  </data>
+  <data name="DocumentEditor_ReadOnly" xml:space="preserve">
+    <value>Numai citit</value>
+  </data>
+  <data name="DocumentEditor_ExceptionsOptional" xml:space="preserve">
+    <value>Excepții (opțional)</value>
+  </data>
+  <data name="DocumentEditor_SelectPartOfDocumentAndUser" xml:space="preserve">
+    <value>Selectați părți ale documentului și alegeți utilizatorii cărora li se permite să le editeze liber.</value>
+  </data>
+  <data name="DocumentEditor_Everyone" xml:space="preserve">
+    <value>Toata lumea</value>
+  </data>
+  <data name="DocumentEditor_MoreUsers" xml:space="preserve">
+    <value>Mai mulți utilizatori</value>
+  </data>
+  <data name="DocumentEditor_AddUsers" xml:space="preserve">
+    <value>Adăugați utilizatori</value>
+  </data>
+  <data name="DocumentEditor_EnforcingProtection" xml:space="preserve">
+    <value>Da, începeți să impuneți protecția</value>
+  </data>
+  <data name="DocumentEditor_StartEnforcingProtection" xml:space="preserve">
+    <value>Începeți să impuneți protecția</value>
+  </data>
+  <data name="DocumentEditor_EnterUser" xml:space="preserve">
+    <value>Intră Utilizator</value>
+  </data>
+  <data name="DocumentEditor_Users" xml:space="preserve">
+    <value>Utilizatori</value>
+  </data>
+  <data name="DocumentEditor_EnterNewPassword" xml:space="preserve">
+    <value>Introduceți o parolă nouă</value>
+  </data>
+  <data name="DocumentEditor_ReenterNewPasswordToConfirm" xml:space="preserve">
+    <value>Reintroduceți noua parolă pentru confirmare</value>
+  </data>
+  <data name="DocumentEditor_YourPermissions" xml:space="preserve">
+    <value>Permisiunile dvs</value>
+  </data>
+  <data name="DocumentEditor_ProtectedDocument" xml:space="preserve">
+    <value>Acest document este protejat împotriva editării neintenționate.</value>
+  </data>
+  <data name="DocumentEditor_YouMayFormatTextOnlyWithCertainStyles" xml:space="preserve">
+    <value>Puteți formata textul doar cu anumite stiluri.</value>
+  </data>
+  <data name="DocumentEditor_StopProtection" xml:space="preserve">
+    <value>Opriți protecția</value>
+  </data>
+  <data name="DocumentEditor_Password" xml:space="preserve">
+    <value>Parola</value>
+  </data>
+  <data name="DocumentEditor_SpellingEditor" xml:space="preserve">
+    <value>Editor de ortografie</value>
+  </data>
+  <data name="DocumentEditor_Spelling" xml:space="preserve">
+    <value>Ortografie</value>
+  </data>
+  <data name="DocumentEditor_SpellCheck" xml:space="preserve">
+    <value>Verificare a ortografiei</value>
+  </data>
+  <data name="DocumentEditor_UnderlineErrors" xml:space="preserve">
+    <value>Subliniază erorile</value>
+  </data>
+  <data name="DocumentEditor_Ignore" xml:space="preserve">
+    <value>Ignora</value>
+  </data>
+  <data name="DocumentEditor_IgnoreAll" xml:space="preserve">
+    <value>Ignora tot</value>
+  </data>
+  <data name="DocumentEditor_AddToDictionary" xml:space="preserve">
+    <value>Adaugă în dicționar</value>
+  </data>
+  <data name="DocumentEditor_Change" xml:space="preserve">
+    <value>Schimbare</value>
+  </data>
+  <data name="DocumentEditor_ChangeAll" xml:space="preserve">
+    <value>Schimbă toate</value>
+  </data>
+  <data name="DocumentEditor_Suggestions" xml:space="preserve">
+    <value>sugestii</value>
+  </data>
+  <data name="DocumentEditor_ThePasswordIsIncorrect" xml:space="preserve">
+    <value>Parola este incorecta</value>
+  </data>
+  <data name="DocumentEditor_ErrorInEstablishingConnectionWithWebServer" xml:space="preserve">
+    <value>Eroare la stabilirea conexiunii cu serverul web</value>
+  </data>
+  <data name="DocumentEditor_HighlightTheRegionsICanEdit" xml:space="preserve">
+    <value>Evidențiați regiunile pe care le pot edita</value>
+  </data>
+  <data name="DocumentEditor_ShowAllRegionsICanEdit" xml:space="preserve">
+    <value>Afișează toate regiunile pe care le pot edita</value>
+  </data>
+  <data name="DocumentEditor_FindNextRegionICanEdit" xml:space="preserve">
+    <value>Găsiți regiunea următoare pe care o pot edita</value>
+  </data>
+  <data name="DocumentEditor_KeepSourceFormatting" xml:space="preserve">
+    <value>Mențineți formatarea sursei</value>
+  </data>
+  <data name="DocumentEditor_MatchDestinationFormatting" xml:space="preserve">
+    <value>Potrivirea formatării destinației</value>
+  </data>
+  <data name="DocumentEditor_TextOnly" xml:space="preserve">
+    <value>Doar text</value>
+  </data>
+  <data name="DocumentEditor_Comments" xml:space="preserve">
+    <value>Comentarii</value>
+  </data>
+  <data name="DocumentEditor_TypeYourComment" xml:space="preserve">
+    <value>Tastați comentariul</value>
+  </data>
+  <data name="DocumentEditor_Post" xml:space="preserve">
+    <value>Post</value>
+  </data>
+  <data name="DocumentEditor_Reply" xml:space="preserve">
+    <value>Răspuns</value>
+  </data>
+  <data name="DocumentEditor_NewComment" xml:space="preserve">
+    <value>Comentariu nou</value>
+  </data>
+  <data name="DocumentEditor_Edit" xml:space="preserve">
+    <value>Editați | ×</value>
+  </data>
+  <data name="DocumentEditor_Resolve" xml:space="preserve">
+    <value>Rezolva</value>
+  </data>
+  <data name="DocumentEditor_Reopen" xml:space="preserve">
+    <value>Redeschide</value>
+  </data>
+  <data name="DocumentEditor_NoCommentsInThisDocument" xml:space="preserve">
+    <value>Nu există comentarii în acest document</value>
+  </data>
+  <data name="DocumentEditor_More" xml:space="preserve">
+    <value>Mai Mult</value>
+  </data>
+  <data name="DocumentEditor_TypeYourCommentHere" xml:space="preserve">
+    <value>Introdu comentariul tău aici</value>
+  </data>
+  <data name="DocumentEditor_NextComment" xml:space="preserve">
+    <value>Următorul comentariu</value>
+  </data>
+  <data name="DocumentEditor_PreviousComment" xml:space="preserve">
+    <value>Comentariu anterior</value>
+  </data>
+  <data name="DocumentEditor_UnPostedComments" xml:space="preserve">
+    <value>Comentarii postate</value>
+  </data>
+  <data name="DocumentEditor_DiscardComment" xml:space="preserve">
+    <value>Comentarii adăugate care nu au fost postate. Dacă continuați, acel comentariu va fi aruncat.</value>
+  </data>
+  <data name="DocumentEditor_NoHeadings" xml:space="preserve">
+    <value>Nu a fost găsit un titlu!</value>
+  </data>
+  <data name="DocumentEditor_AddHeadings" xml:space="preserve">
+    <value>Acest document nu are titluri. Vă rugăm să adăugați rubrici și să încercați din nou.</value>
+  </data>
+  <data name="DocumentEditor_MoreOptions" xml:space="preserve">
+    <value>Mai multe opțiuni</value>
+  </data>
+  <data name="DocumentEditor_ClickToSeeThisComment" xml:space="preserve">
+    <value>Faceți clic pentru a vedea acest comentariu</value>
+  </data>
+  <data name="DocumentEditor_DropDownFormField" xml:space="preserve">
+    <value>Derulează câmpul formularului</value>
+  </data>
+  <data name="DocumentEditor_DropDownItems" xml:space="preserve">
+    <value>Elemente drop-down</value>
+  </data>
+  <data name="DocumentEditor_ItemsInDropDownList" xml:space="preserve">
+    <value>Elemente din lista derulantă</value>
+  </data>
+  <data name="DocumentEditor_ADDButton" xml:space="preserve">
+    <value>ADĂUGA</value>
+  </data>
+  <data name="DocumentEditor_REMOVE" xml:space="preserve">
+    <value>ELIMINA</value>
+  </data>
+  <data name="DocumentEditor_FieldSettings" xml:space="preserve">
+    <value>Setări câmp</value>
+  </data>
+  <data name="DocumentEditor_Tooltip" xml:space="preserve">
+    <value>tooltip</value>
+  </data>
+  <data name="DocumentEditor_DropDownEnabled" xml:space="preserve">
+    <value>Funcție drop-down activată</value>
+  </data>
+  <data name="DocumentEditor_CheckBoxFormField" xml:space="preserve">
+    <value>Bifează câmpul formularului casetei</value>
+  </data>
+  <data name="DocumentEditor_CheckBoxSize" xml:space="preserve">
+    <value>Bifează dimensiunea casetei</value>
+  </data>
+  <data name="DocumentEditor_Auto" xml:space="preserve">
+    <value>Auto</value>
+  </data>
+  <data name="DocumentEditor_DefaultValue" xml:space="preserve">
+    <value>Valoare implicită</value>
+  </data>
+  <data name="DocumentEditor_NotChecked" xml:space="preserve">
+    <value>Nu a verificat</value>
+  </data>
+  <data name="DocumentEditor_Checked" xml:space="preserve">
+    <value>verificat</value>
+  </data>
+  <data name="DocumentEditor_CheckBoxEnabled" xml:space="preserve">
+    <value>Caseta de selectare este activată</value>
+  </data>
+  <data name="DocumentEditor_TextFormField" xml:space="preserve">
+    <value>Câmp Formular Text</value>
+  </data>
+  <data name="DocumentEditor_Type" xml:space="preserve">
+    <value>Tip</value>
+  </data>
+  <data name="DocumentEditor_DefaultText" xml:space="preserve">
+    <value>Text implicit</value>
+  </data>
+  <data name="DocumentEditor_MaximumLength" xml:space="preserve">
+    <value>Lungime maxima</value>
+  </data>
+  <data name="DocumentEditor_TextFormat" xml:space="preserve">
+    <value>Formatul textului</value>
+  </data>
+  <data name="DocumentEditor_FillInEnabled" xml:space="preserve">
+    <value>Completarea este activată</value>
+  </data>
+  <data name="DocumentEditor_DefaultNumber" xml:space="preserve">
+    <value>Numărul implicit</value>
+  </data>
+  <data name="DocumentEditor_DefaultDate" xml:space="preserve">
+    <value>Data implicită</value>
+  </data>
+  <data name="DocumentEditor_DateFormat" xml:space="preserve">
+    <value>Formatul datei</value>
+  </data>
+  <data name="DocumentEditor_MergeTrack" xml:space="preserve">
+    <value>Această acțiune nu va fi marcată ca modificare. Doriți să continuați?</value>
+  </data>
+  <data name="DocumentEditor_UnTrack" xml:space="preserve">
+    <value>Nu poate fi urmărit</value>
+  </data>
+  <data name="DocumentEditor_Accept" xml:space="preserve">
+    <value>Accept</value>
+  </data>
+  <data name="DocumentEditor_Reject" xml:space="preserve">
+    <value>Respinge</value>
+  </data>
+  <data name="DocumentEditor_PreviousChanges" xml:space="preserve">
+    <value>Modificări anterioare</value>
+  </data>
+  <data name="DocumentEditor_NextChanges" xml:space="preserve">
+    <value>Următoarele modificări</value>
+  </data>
+  <data name="DocumentEditor_Inserted" xml:space="preserve">
+    <value>inserat</value>
+  </data>
+  <data name="DocumentEditor_Deleted" xml:space="preserve">
+    <value>şters</value>
+  </data>
+  <data name="DocumentEditor_Changes" xml:space="preserve">
+    <value>Schimbări</value>
+  </data>
+  <data name="DocumentEditor_AcceptAll" xml:space="preserve">
+    <value>Accepta toate</value>
+  </data>
+  <data name="DocumentEditor_RejectAll" xml:space="preserve">
+    <value>Respingeți toate</value>
+  </data>
+  <data name="DocumentEditor_NoChanges" xml:space="preserve">
+    <value>Nici o schimbare</value>
+  </data>
+  <data name="DocumentEditor_AcceptChanges" xml:space="preserve">
+    <value>Acceptați modificările</value>
+  </data>
+  <data name="DocumentEditor_RejectChanges" xml:space="preserve">
+    <value>Respingeți modificările</value>
+  </data>
+  <data name="DocumentEditor_User" xml:space="preserve">
+    <value>Utilizator</value>
+  </data>
+  <data name="DocumentEditor_View" xml:space="preserve">
+    <value>Vedere</value>
+  </data>
+  <data name="DocumentEditor_UnprotectDocument" xml:space="preserve">
+    <value>Deprotejați documentul</value>
+  </data>
+  <data name="DocumentEditor_FormFieldsOnly" xml:space="preserve">
+    <value>Puteți completa formulare doar în această regiune.</value>
+  </data>
+  <data name="DocumentEditor_IndentsAndSpacing" xml:space="preserve">
+    <value>Control văduv / orfan</value>
+  </data>
+  <data name="DocumentEditor_LineAndBreakPage" xml:space="preserve">
+    <value>Indentări și spațiu</value>
+  </data>
+  <data name="DocumentEditor_Pagination" xml:space="preserve">
+    <value>Pauze de linie și pagină</value>
+  </data>
+  <data name="DocumentEditor_WidowControl" xml:space="preserve">
+    <value>Păstrați liniile împreună</value>
+  </data>
+  <data name="DocumentEditor_KeepWithNext" xml:space="preserve">
+    <value>Ignoră o dată</value>
+  </data>
+  <data name="DocumentEditor_KeepLinesTogether" xml:space="preserve">
+    <value>Păstrați cu următorul</value>
+  </data>
+  <data name="DocumentEditor_ScreenTip" xml:space="preserve">
+       <value>Text Sfat ecran</value>
+</data>
+<data name="DocumentEditor_KeepSource" xml:space="preserve">
+       <value>Păstrați formatarea sursei</value>
+</data>
+<data name="DocumentEditor_DestinationFormat" xml:space="preserve">
+       <value>Potriviți formatarea destinației</value>
+</data>
+<data name="DocumentEditor_CommentsOnly" xml:space="preserve">
+       <value>Puteți introduce doar comentarii în această regiune.</value>
+</data>
+<data name="DocumentEditor_RowRange" xml:space="preserve">
+       <value>Numărul de rânduri trebuie să fie între 1 și 32767.</value>
+</data>
+<data name="DocumentEditor_ColumnRange" xml:space="preserve">
+       <value>Numărul de coloane trebuie să fie între 1 și 63.</value>
+</data>
+<data name="DocumentEditor_Information" xml:space="preserve">
+       <value>informație</value>
+</data>
+<data name="DocumentEditor_Dot" xml:space="preserve">
+       <value>Punct</value>
+</data>
+<data name="DocumentEditor_DashSmallGap" xml:space="preserve">
+       <value>Dash mic Gap</value>
+</data>
+<data name="DocumentEditor_DashDot" xml:space="preserve">
+       <value>Punct de linie</value>
+</data>
+<data name="DocumentEditor_ThinThickSmallGap" xml:space="preserve">
+       <value>Gap mic subțire gros</value>
+</data>
+<data name="DocumentEditor_ThickThinSmallGap" xml:space="preserve">
+       <value>Gap mic subțire gros</value>
+</data>
+<data name="DocumentEditor_ThickThinMediumGap" xml:space="preserve">
+       <value>Gap gros subțire mediu</value>
+</data>
+<data name="DocumentEditor_ThickThinLargeGap" xml:space="preserve">
+       <value>Gap gros subțire mare</value>
+</data>
+<data name="DocumentEditor_SingleWavy" xml:space="preserve">
+       <value>Un singur ondulat</value>
+</data>
+<data name="DocumentEditor_DoubleWavy" xml:space="preserve">
+       <value>Dublu ondulat</value>
+</data>
+<data name="DocumentEditor_Inset" xml:space="preserve">
+       <value>Medalion</value>
+</data>
+<data name="DocumentEditor_DashLargeGap" xml:space="preserve">
+       <value>Dash gap mare</value>
+</data>
+<data name="DocumentEditor_DashDotDot" xml:space="preserve">
+       <value>Dash Punct Punct</value>
+</data>
+<data name="DocumentEditor_Triple" xml:space="preserve">
+       <value>Triplu</value>
+</data>
+<data name="DocumentEditor_ThinThickThinSmallGap" xml:space="preserve">
+       <value>Subțire subțire subțire mic Gap</value>
+</data>
+<data name="DocumentEditor_ThinThickThinMediumGap" xml:space="preserve">
+       <value>Subțire Gros Subțire Gap Mediu</value>
+</data>
+<data name="DocumentEditor_ThinThickThinLargeGap" xml:space="preserve">
+       <value>Subțire Subțire Subțire Mari Gap</value>
+</data>
+<data name="DocumentEditor_DashDotStroked" xml:space="preserve">
+       <value>Dash Punct Grevă</value>
+</data>
+<data name="DocumentEditor_Engrave3D" xml:space="preserve">
+       <value>Gravare 3D</value>
+</data>
+<data name="DocumentEditor_Thick" xml:space="preserve">
+       <value>Gros</value>
+</data>
+<data name="DocumentEditor_Outset" xml:space="preserve">
+       <value>Început</value>
+</data>
+<data name="DocumentEditor_Emboss3D" xml:space="preserve">
+       <value>Emboss3D</value>
+</data>
+<data name="DocumentEditor_ThinThickLargeGap" xml:space="preserve">
+       <value>Gap subțire gros și mare</value>
+</data>
+<data name="DocumentEditor_ThinThickMediumGap" xml:space="preserve">
+       <value>Gap Mediu Subțire Gros</value>
+</data>
+<data name="DocumentEditor_RegularText" xml:space="preserve">
+       <value>Text obișnuit</value>
+</data>
+<data name="DocumentEditor_Date" xml:space="preserve">
+       <value>Dată</value>
+</data>
+<data name="DocumentEditor_Uppercase" xml:space="preserve">
+       <value>Majuscule</value>
+</data>
+<data name="DocumentEditor_Lowercase" xml:space="preserve">
+       <value>Litere mici</value>
+</data>
+<data name="DocumentEditor_FirstCapital" xml:space="preserve">
+       <value>Prima Capitală</value>
+</data>
+<data name="DocumentEditor_Titlecase" xml:space="preserve">
+       <value>Titlucase</value>
+</data>
+<data name="DocumentEditor_MoveFrom" xml:space="preserve">
+       <value>Misca din</value>
+</data>
+<data name="DocumentEditor_MoveTo" xml:space="preserve">
+       <value>Mutare la</value>
+</data>
+<data name="DocumentEditor_Px" xml:space="preserve">
+       <value>px</value>
+</data>
+<data name="DocumentEditor_ReadOnlyProtection" xml:space="preserve">
+       <value>Puteți edita în această regiune.</value>
+</data>
+<data name="DocumentEditorContainer_RegularTooltip" xml:space="preserve">
+       <value>Regulat</value>
+</data>
+<data name="DocumentEditorContainer_BoldItalicTooltip" xml:space="preserve">
+       <value>Cursiv aldine</value>
+</data>
+  <data name="DocumentEditorContainer_New" xml:space="preserve">
+    <value>Nou</value>
+  </data>
+  <data name="DocumentEditorContainer_Open" xml:space="preserve">
+    <value>Deschis</value>
+  </data>
+  <data name="DocumentEditorContainer_Undo" xml:space="preserve">
+    <value>Anula</value>
+  </data>
+  <data name="DocumentEditorContainer_Redo" xml:space="preserve">
+    <value>A reface</value>
+  </data>
+  <data name="DocumentEditorContainer_Image" xml:space="preserve">
+    <value>Imagine</value>
+  </data>
+  <data name="DocumentEditorContainer_Table" xml:space="preserve">
+    <value>Masa</value>
+  </data>
+  <data name="DocumentEditorContainer_Link" xml:space="preserve">
+    <value>Legătură</value>
+  </data>
+  <data name="DocumentEditorContainer_Bookmark" xml:space="preserve">
+    <value>semn de carte</value>
+  </data>
+  <data name="DocumentEditorContainer_TableOfContents" xml:space="preserve">
+    <value>Cuprins</value>
+  </data>
+  <data name="DocumentEditorContainer_HEADING1" xml:space="preserve">
+    <value>Titlu - - - - 1</value>
+  </data>
+  <data name="DocumentEditorContainer_HEADING2" xml:space="preserve">
+    <value>Titlul - - - - 2</value>
+  </data>
+  <data name="DocumentEditorContainer_HEADING3" xml:space="preserve">
+    <value>Titlul - - - - 3</value>
+  </data>
+  <data name="DocumentEditorContainer_Header" xml:space="preserve">
+    <value>Antet</value>
+  </data>
+  <data name="DocumentEditorContainer_Footer" xml:space="preserve">
+    <value>Subsol</value>
+  </data>
+  <data name="DocumentEditorContainer_PageSetup" xml:space="preserve">
+    <value>Configurare pagina</value>
+  </data>
+  <data name="DocumentEditorContainer_PageNumber" xml:space="preserve">
+    <value>Numărul paginii</value>
+  </data>
+  <data name="DocumentEditorContainer_Break" xml:space="preserve">
+    <value>Pauză</value>
+  </data>
+  <data name="DocumentEditorContainer_Find" xml:space="preserve">
+    <value>Găsi</value>
+  </data>
+  <data name="DocumentEditorContainer_LocalClipboard" xml:space="preserve">
+    <value>Clipboard local</value>
+  </data>
+  <data name="DocumentEditorContainer_RestrictEditing" xml:space="preserve">
+    <value>Restricți editarea</value>
+  </data>
+  <data name="DocumentEditorContainer_UploadFromComputer" xml:space="preserve">
+    <value>Încărcați de pe computer</value>
+  </data>
+  <data name="DocumentEditorContainer_ByURL" xml:space="preserve">
+    <value>Pe adresa URL</value>
+  </data>
+  <data name="DocumentEditorContainer_PageBreak" xml:space="preserve">
+    <value>Pauză de pagină</value>
+  </data>
+  <data name="DocumentEditorContainer_SectionBreak" xml:space="preserve">
+    <value>Pauză de secțiune</value>
+  </data>
+  <data name="DocumentEditorContainer_HeaderAndFooter" xml:space="preserve">
+    <value>Antet și subsol</value>
+  </data>
+  <data name="DocumentEditorContainer_Options" xml:space="preserve">
+    <value>Opțiuni</value>
+  </data>
+  <data name="DocumentEditorContainer_Levels" xml:space="preserve">
+    <value>niveluri</value>
+  </data>
+  <data name="DocumentEditorContainer_DifferentFirstPage" xml:space="preserve">
+    <value>Prima pagină diferită</value>
+  </data>
+  <data name="DocumentEditorContainer_DifferentHeaderAndFooterForOddAndEvenPages" xml:space="preserve">
+    <value>Antet și subsol diferit pentru pagini impare și par.</value>
+  </data>
+  <data name="DocumentEditorContainer_DifferentOddAndEvenPages" xml:space="preserve">
+    <value>Pagini diferite impar și par</value>
+  </data>
+  <data name="DocumentEditorContainer_DifferentHeaderAndFooterForFirstPage" xml:space="preserve">
+    <value>Antet și subsol diferit pentru prima pagină.</value>
+  </data>
+  <data name="DocumentEditorContainer_Position" xml:space="preserve">
+    <value>Poziţie</value>
+  </data>
+  <data name="DocumentEditorContainer_HeaderFromTop" xml:space="preserve">
+    <value>Antet de sus</value>
+  </data>
+  <data name="DocumentEditorContainer_FooterFromBottom" xml:space="preserve">
+    <value>Subsol de jos</value>
+  </data>
+  <data name="DocumentEditorContainer_DistanceFromTopOfThePageToTopOfTheHeader" xml:space="preserve">
+    <value>Distanța de la partea de sus a paginii până la partea de sus a antetului.</value>
+  </data>
+  <data name="DocumentEditorContainer_DistanceFromBottomOfThePageToBottomOfTheFooter" xml:space="preserve">
+    <value>Distanța de la partea de jos a paginii până la partea de jos a subsolului.</value>
+  </data>
+  <data name="DocumentEditorContainer_AspectRatio" xml:space="preserve">
+    <value>Raportul de aspect</value>
+  </data>
+  <data name="DocumentEditorContainer_W" xml:space="preserve">
+    <value>W</value>
+  </data>
+  <data name="DocumentEditorContainer_H" xml:space="preserve">
+    <value>H</value>
+  </data>
+  <data name="DocumentEditorContainer_Width" xml:space="preserve">
+    <value>Lăţime</value>
+  </data>
+  <data name="DocumentEditorContainer_Height" xml:space="preserve">
+    <value>Înălţime</value>
+  </data>
+  <data name="DocumentEditorContainer_Text" xml:space="preserve">
+    <value>Text</value>
+  </data>
+  <data name="DocumentEditorContainer_Paragraph" xml:space="preserve">
+    <value>Paragraf</value>
+  </data>
+  <data name="DocumentEditorContainer_Fill" xml:space="preserve">
+    <value>Completati</value>
+  </data>
+  <data name="DocumentEditorContainer_FillColor" xml:space="preserve">
+    <value>Umple culoarea</value>
+  </data>
+  <data name="DocumentEditorContainer_BorderStyle" xml:space="preserve">
+    <value>Stil de graniță</value>
+  </data>
+  <data name="DocumentEditorContainer_OutsideBorders" xml:space="preserve">
+    <value>În afara granițelor</value>
+  </data>
+  <data name="DocumentEditorContainer_AllBorders" xml:space="preserve">
+    <value>Toate granițele</value>
+  </data>
+  <data name="DocumentEditorContainer_InsideBorders" xml:space="preserve">
+    <value>În interiorul granițelor</value>
+  </data>
+  <data name="DocumentEditorContainer_LeftBorder" xml:space="preserve">
+    <value>Frontiera stângă</value>
+  </data>
+  <data name="DocumentEditorContainer_InsideVerticalBorder" xml:space="preserve">
+    <value>În interiorul chenarului vertical</value>
+  </data>
+  <data name="DocumentEditorContainer_RightBorder" xml:space="preserve">
+    <value>Frontiera dreapta</value>
+  </data>
+  <data name="DocumentEditorContainer_TopBorder" xml:space="preserve">
+    <value>Frontiera de sus</value>
+  </data>
+  <data name="DocumentEditorContainer_InsideHorizontalBorder" xml:space="preserve">
+    <value>În interiorul frontierei orizontale</value>
+  </data>
+  <data name="DocumentEditorContainer_BottomBorder" xml:space="preserve">
+    <value>Bordura de jos</value>
+  </data>
+  <data name="DocumentEditorContainer_BorderColor" xml:space="preserve">
+    <value>Culoarea frontierei</value>
+  </data>
+  <data name="DocumentEditorContainer_BorderWidth" xml:space="preserve">
+    <value>Lățimea graniței</value>
+  </data>
+  <data name="DocumentEditorContainer_Cell" xml:space="preserve">
+    <value>celulă</value>
+  </data>
+  <data name="DocumentEditorContainer_MergeCells" xml:space="preserve">
+    <value>Uneste celulele</value>
+  </data>
+  <data name="DocumentEditorContainer_InsertOrDelete" xml:space="preserve">
+    <value>Introduceți / Ștergeți</value>
+  </data>
+  <data name="DocumentEditorContainer_InsertColumnsToTheLeft" xml:space="preserve">
+    <value>Introduceți coloane la stânga</value>
+  </data>
+  <data name="DocumentEditorContainer_InsertColumnsToTheRight" xml:space="preserve">
+    <value>Introduceți coloane la dreapta</value>
+  </data>
+  <data name="DocumentEditorContainer_InsertRowsAbove" xml:space="preserve">
+    <value>Introduceți rândurile deasupra</value>
+  </data>
+  <data name="DocumentEditorContainer_InsertRowsBelow" xml:space="preserve">
+    <value>Introduceți rândurile de mai jos</value>
+  </data>
+  <data name="DocumentEditorContainer_DeleteRows" xml:space="preserve">
+    <value>Ștergeți rândurile</value>
+  </data>
+  <data name="DocumentEditorContainer_DeleteColumns" xml:space="preserve">
+    <value>Ștergeți coloane</value>
+  </data>
+  <data name="DocumentEditorContainer_CellMargin" xml:space="preserve">
+    <value>Marja celulară</value>
+  </data>
+  <data name="DocumentEditorContainer_Top" xml:space="preserve">
+    <value>Top</value>
+  </data>
+  <data name="DocumentEditorContainer_Bottom" xml:space="preserve">
+    <value>Partea de jos</value>
+  </data>
+  <data name="DocumentEditorContainer_Left" xml:space="preserve">
+    <value>Stânga</value>
+  </data>
+  <data name="DocumentEditorContainer_Right" xml:space="preserve">
+    <value>Dreapta</value>
+  </data>
+  <data name="DocumentEditorContainer_AlignText" xml:space="preserve">
+    <value>Aliniere text</value>
+  </data>
+  <data name="DocumentEditorContainer_Aligntop" xml:space="preserve">
+    <value>Aliniați partea de sus</value>
+  </data>
+  <data name="DocumentEditorContainer_AlignBottom" xml:space="preserve">
+    <value>Aliniați partea inferioară</value>
+  </data>
+  <data name="DocumentEditorContainer_AlignCenter" xml:space="preserve">
+    <value>Aliniere la centru</value>
+  </data>
+  <data name="DocumentEditorContainer_NumberOfHeadingOrOutlineLevelsToBeShownInTableOfContents" xml:space="preserve">
+    <value>Numărul de niveluri de titlu sau contur care trebuie afișate în conținut.</value>
+  </data>
+  <data name="DocumentEditorContainer_ShowPageNumbers" xml:space="preserve">
+    <value>Afișează numerele paginii</value>
+  </data>
+  <data name="DocumentEditorContainer_ShowPageNumbersInTableOfContents" xml:space="preserve">
+    <value>Afișează numerele de pagină în cuprins.</value>
+  </data>
+  <data name="DocumentEditorContainer_RightAlignPageNumbers" xml:space="preserve">
+    <value>Alegeți numerele drepte ale paginii.</value>
+  </data>
+  <data name="DocumentEditorContainer_RightAlignPageNumbersInTableOfContents" xml:space="preserve">
+    <value>Alegeți numerele drepte de pagini în cuprins.</value>
+  </data>
+  <data name="DocumentEditorContainer_UseHyperlinks" xml:space="preserve">
+    <value>Folosiți hyperlink-uri</value>
+  </data>
+  <data name="DocumentEditorContainer_UseHyperlinksInsteadOfPageNumbers" xml:space="preserve">
+    <value>Folosiți hyperlink-uri în loc de numere de pagină.</value>
+  </data>
+  <data name="DocumentEditorContainer_Font" xml:space="preserve">
+    <value>Font</value>
+  </data>
+  <data name="DocumentEditorContainer_FontSize" xml:space="preserve">
+    <value>Marimea fontului</value>
+  </data>
+  <data name="DocumentEditorContainer_FontColor" xml:space="preserve">
+    <value>Culoarea fontului</value>
+  </data>
+  <data name="DocumentEditorContainer_TextHighlightColor" xml:space="preserve">
+    <value>Culoarea evidențiată a textului</value>
+  </data>
+  <data name="DocumentEditorContainer_ClearAllFormatting" xml:space="preserve">
+    <value>Ștergeți toate formatările</value>
+  </data>
+  <data name="DocumentEditorContainer_BoldTooltip" xml:space="preserve">
+    <value>Bold (Ctrl + B)</value>
+  </data>
+  <data name="DocumentEditorContainer_ItalicTooltip" xml:space="preserve">
+    <value>Italic (Ctrl + I)</value>
+  </data>
+  <data name="DocumentEditorContainer_UnderlineTooltip" xml:space="preserve">
+    <value>Subliniere (Ctrl + U)</value>
+  </data>
+  <data name="DocumentEditorContainer_Strikethrough" xml:space="preserve">
+    <value>Tăiat</value>
+  </data>
+  <data name="DocumentEditorContainer_SuperscriptTooltip" xml:space="preserve">
+    <value>Superscript (Ctrl + Shift ++)</value>
+  </data>
+  <data name="DocumentEditorContainer_SubscriptTooltip" xml:space="preserve">
+    <value>Abonament (Ctrl + =)</value>
+  </data>
+  <data name="DocumentEditorContainer_AlignLeftTooltip" xml:space="preserve">
+    <value>Aliniați la stânga (Ctrl + L)</value>
+  </data>
+  <data name="DocumentEditorContainer_CenterTooltip" xml:space="preserve">
+    <value>Centru (Ctrl + E)</value>
+  </data>
+  <data name="DocumentEditorContainer_AlignRightTooltip" xml:space="preserve">
+    <value>Aliniați dreapta (Ctrl + R)</value>
+  </data>
+  <data name="DocumentEditorContainer_JustifyTooltip" xml:space="preserve">
+    <value>Justificați (Ctrl + J)</value>
+  </data>
+  <data name="DocumentEditorContainer_DecreaseIndent" xml:space="preserve">
+    <value>Reduceți liniuța</value>
+  </data>
+  <data name="DocumentEditorContainer_IncreaseIndent" xml:space="preserve">
+    <value>Mareste indent-ul</value>
+  </data>
+  <data name="DocumentEditorContainer_LineSpacing" xml:space="preserve">
+    <value>Distanța de linie</value>
+  </data>
+  <data name="DocumentEditorContainer_Bullets" xml:space="preserve">
+    <value>Marcatori</value>
+  </data>
+  <data name="DocumentEditorContainer_Numbering" xml:space="preserve">
+    <value>Numerotare</value>
+  </data>
+  <data name="DocumentEditorContainer_Styles" xml:space="preserve">
+    <value>stiluri</value>
+  </data>
+  <data name="DocumentEditorContainer_ManageStyles" xml:space="preserve">
+    <value>Gestionați stiluri</value>
+  </data>
+  <data name="DocumentEditorContainer_Page" xml:space="preserve">
+    <value>Pagină</value>
+  </data>
+  <data name="DocumentEditorContainer_Of" xml:space="preserve">
+    <value>de</value>
+  </data>
+  <data name="DocumentEditorContainer_FitOnePage" xml:space="preserve">
+    <value>Potriviți o pagină</value>
+  </data>
+  <data name="DocumentEditorContainer_SpellCheck" xml:space="preserve">
+    <value>Verificare a ortografiei</value>
+  </data>
+  <data name="DocumentEditorContainer_UnderlineErrors" xml:space="preserve">
+    <value>Subliniază erorile</value>
+  </data>
+  <data name="DocumentEditorContainer_FitPageWidth" xml:space="preserve">
+    <value>Potriviți lățimea paginii</value>
+  </data>
+  <data name="DocumentEditorContainer_Update" xml:space="preserve">
+    <value>Actualizați</value>
+  </data>
+  <data name="DocumentEditorContainer_Cancel" xml:space="preserve">
+    <value>Anulare</value>
+  </data>
+  <data name="DocumentEditorContainer_Insert" xml:space="preserve">
+    <value>Introduce</value>
+  </data>
+  <data name="DocumentEditorContainer_NoBorder" xml:space="preserve">
+    <value>Fara limita</value>
+  </data>
+  <data name="DocumentEditorContainer_CreateANewDocument" xml:space="preserve">
+    <value>Creați un document nou.</value>
+  </data>
+  <data name="DocumentEditorContainer_OpenADocument" xml:space="preserve">
+    <value>Deschideți un document.</value>
+  </data>
+  <data name="DocumentEditorContainer_UndoTooltip" xml:space="preserve">
+    <value>Anulați ultima operație (Ctrl + Z).</value>
+  </data>
+  <data name="DocumentEditorContainer_RedoTooltip" xml:space="preserve">
+    <value>Reîncărcați ultima operație (Ctrl + Y).</value>
+  </data>
+  <data name="DocumentEditorContainer_InsertInlinePictureFromAFile" xml:space="preserve">
+    <value>Inserați o imagine în linie dintr-un fișier.</value>
+  </data>
+  <data name="DocumentEditorContainer_InsertATableIntoTheDocument" xml:space="preserve">
+    <value>Introduceți o tabelă în document.</value>
+  </data>
+  <data name="DocumentEditorContainer_CreateHyperlink" xml:space="preserve">
+    <value>Creați un link în documentul dvs. pentru acces rapid la paginile și fișierele web (Ctrl + K).</value>
+  </data>
+  <data name="DocumentEditorContainer_InsertABookmarkInASpecificPlaceInThisDocument" xml:space="preserve">
+    <value>Introduceți un marcaj într-un loc specific în acest document.</value>
+  </data>
+  <data name="DocumentEditorContainer_ProvideAnOverviewOfYourDocumentByAddingATableOfContents" xml:space="preserve">
+    <value>Oferiți o imagine de ansamblu a documentului dvs. adăugând un cuprins.</value>
+  </data>
+  <data name="DocumentEditorContainer_AddOrEditTheHeader" xml:space="preserve">
+    <value>Adăugați sau editați antetul.</value>
+  </data>
+  <data name="DocumentEditorContainer_AddOrEditTheFooter" xml:space="preserve">
+    <value>Adăugați sau editați subsolul.</value>
+  </data>
+  <data name="DocumentEditorContainer_OpenThePageSetupDialog" xml:space="preserve">
+    <value>Deschideți dialogul de configurare a paginii.</value>
+  </data>
+  <data name="DocumentEditorContainer_AddPageNumbers" xml:space="preserve">
+    <value>Adăugați numere de pagină.</value>
+  </data>
+  <data name="DocumentEditorContainer_FindText" xml:space="preserve">
+    <value>Găsiți text în document (Ctrl + F).</value>
+  </data>
+  <data name="DocumentEditorContainer_CurrentPageNumber" xml:space="preserve">
+    <value>Numărul de pagină curent din document. Faceți clic sau atingeți pentru a naviga pe o anumită pagină.</value>
+  </data>
+  <data name="DocumentEditorContainer_ReadOnly" xml:space="preserve">
+    <value>Numai citit</value>
+  </data>
+  <data name="DocumentEditorContainer_Protections" xml:space="preserve">
+    <value>protectii</value>
+  </data>
+  <data name="DocumentEditorContainer_ErrorInEstablishingConnectionWithWebServer" xml:space="preserve">
+    <value>Eroare la stabilirea conexiunii cu serverul web</value>
+  </data>
+  <data name="DocumentEditorContainer_Single" xml:space="preserve">
+    <value>Singur</value>
+  </data>
+  <data name="DocumentEditorContainer_Double" xml:space="preserve">
+    <value>Dubla</value>
+  </data>
+  <data name="DocumentEditorContainer_NewComment" xml:space="preserve">
+    <value>Comentariu nou</value>
+  </data>
+  <data name="DocumentEditorContainer_Comments" xml:space="preserve">
+    <value>Comentarii</value>
+  </data>
+  <data name="DocumentEditorContainer_PrintLayout" xml:space="preserve">
+    <value>Aspect imprimat</value>
+  </data>
+  <data name="DocumentEditorContainer_WebLayout" xml:space="preserve">
+    <value>Aspect web</value>
+  </data>
+  <data name="DocumentEditorContainer_ToggleBetweenTheInternalClipboardAndSystemClipboard" xml:space="preserve">
+    <value>Comutați între clipboardul intern și panoul de sistem. &#xD; Accesul la panoul de bord al sistemului prin script este refuzat din cauza politicii de securitate a browserelor. În schimb, &#xD; 1. Puteți permite clipboard-ului intern să taie, să copieze și să lipească în componentă. &#xD; 2. Puteți utiliza comenzile rapide de la tastatură (Ctrl + X, Ctrl + C și Ctrl + V) pentru a tăia , copiați și lipiți cu clipboardul sistemului.</value>
+  </data>
+  <data name="DocumentEditorContainer_TextForm" xml:space="preserve">
+    <value>Formular de text</value>
+  </data>
+  <data name="DocumentEditorContainer_CheckBox" xml:space="preserve">
+    <value>Caseta de bifat</value>
+  </data>
+  <data name="DocumentEditorContainer_DropDown" xml:space="preserve">
+    <value>Scapă jos</value>
+  </data>
+  <data name="DocumentEditorContainer_UpdateFields" xml:space="preserve">
+    <value>Câmpuri de actualizare</value>
+  </data>
+  <data name="DocumentEditorContainer_UpdateCrossReferenceFields" xml:space="preserve">
+    <value>Actualizați câmpurile de referință încrucișate.</value>
+  </data>
+  <data name="DocumentEditorContainer_Track_changes" xml:space="preserve">
+    <value>Țineți evidența modificărilor făcute în document.</value>
+  </data>
+  <data name="DocumentEditorContainer_TrackChanges" xml:space="preserve">
+    <value>Urmareste schimbarile</value>
+  </data>
+  <data name="DocumentEditorContainer_ZoomLevel" xml:space="preserve">
+    <value>Nivel de zoom</value>
+  </data>
+  <data name="DocumentEditorContainer_Footnote_Tooltip" xml:space="preserve">
+    <value>Introduceți nota de subsol (Alt + Ctrl + F).</value>
+  </data>
+  <data name="DocumentEditorContainer_Endnote_Tooltip" xml:space="preserve">
+    <value>Introduceți nota finală (Alt + Ctrl + D).</value>
+  </data>
+  <data name="DocumentEditorContainer_ShowComments" xml:space="preserve">
+    <value>Inserați comentarii</value>
+  </data>
+  <data name="DocumentEditorContainer_FormFields" xml:space="preserve">
+    <value>Câmpuri formular</value>
+  </data>
+  <data name="DocumentEditorContainer_Information" xml:space="preserve">
+    <value>informație</value>
+  </data>
+  <data name="DocumentEditorContainer_AllCaps" xml:space="preserve">
+    <value>Toate majusculele</value>
+  </data>
+  <data name="DocumentEditorContainer_Insert_Footnote" xml:space="preserve">
+    <value>Introduce</value>
+  </data>
+  <data name="DocumentEditorContainer_Insert_Endnote" xml:space="preserve">
+    <value>Introduce</value>
+  </data>
+  <data name="DocumentEditorContainer_FillingInForms" xml:space="preserve">
+    <value>Completarea formularelor</value>
+  </data>
+  <data name="DocumentEditorContainer_Trackedchanges" xml:space="preserve">
+    <value>Modificări urmărite</value>
+  </data>
+  <data name="DocumentEditorContainer_RemovedIgnoreExceptions" xml:space="preserve">
+    <value>Dacă faceți această modificare în protecția documentelor, Word va ignora toate excepțiile din acest document.</value>
+  </data>
+<data name="DocumentEditor_RevisionsOnly" xml:space="preserve">
+  <value>Puteți edita în această regiune, dar toate modificările vor fi urmărite</value>
+</data>
+  <data name="DocumentEditorContainer_RemovedIgnore" xml:space="preserve">
+    <value>Doriți să eliminați excepțiile ignorate?</value>
+  </data>
+  <data name="DocumentEditorContainer_Yes" xml:space="preserve">
+    <value>da</value>
+  </data>
+  <data name="DocumentEditorContainer_No" xml:space="preserve">
+    <value>Nu</value>
+  </data>
+  <data name="Gantt_Touch_DialogTextOnClickingConnectorPoint" xml:space="preserve">
+    <value>Alegeți o altă sarcină</value>
+  </data>
+  <data name="Gantt_Touch_DialogTextOnSelectingTaskbar" xml:space="preserve">
+    <value>Selectați poziția conectorului</value>
+  </data>
+  <data name="Gantt_Touch_LeftButton" xml:space="preserve">
+    <value>Stânga</value>
+  </data>
+  <data name="Gantt_Touch_RightButton" xml:space="preserve">
+    <value>Dreapta</value>
+  </data>
+  <data name="PdfViewer_ExportXFDF" xml:space="preserve">
+    <value>Exportați adnotarea în fișierul XFDF</value>
+  </data>
+  <data name="PdfViewer_ImportXFDF" xml:space="preserve">
+    <value>Importați adnotări din fișierul XFDF</value>
+  </data>
+</root>

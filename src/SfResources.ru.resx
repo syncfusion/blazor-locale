@@ -1,0 +1,5274 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AutoComplete_ActionFailureTemplate" xml:space="preserve">
+    <value>Запрос не выполнен</value>
+  </data>
+  <data name="AutoComplete_NoRecordsTemplate" xml:space="preserve">
+    <value>записей не найдено</value>
+  </data>
+  <data name="Calendar_Today" xml:space="preserve">
+    <value>сегодня</value>
+  </data>
+  <data name="ComboBox_ActionFailureTemplate" xml:space="preserve">
+    <value>Запрос не выполнен</value>
+  </data>
+  <data name="ComboBox_NoRecordsTemplate" xml:space="preserve">
+    <value>записей не найдено</value>
+  </data>
+  <data name="DatePicker_Placeholder" xml:space="preserve">
+    <value>Выберите дату</value>
+  </data>
+  <data name="DatePicker_Today" xml:space="preserve">
+    <value>сегодня</value>
+  </data>
+  <data name="DateRangePicker_ApplyText" xml:space="preserve">
+    <value>Подать заявление</value>
+  </data>
+  <data name="DateRangePicker_CancelText" xml:space="preserve">
+    <value>Отмена</value>
+  </data>
+  <data name="DateRangePicker_CustomRange" xml:space="preserve">
+    <value>Пользовательский диапазон</value>
+  </data>
+  <data name="DateRangePicker_Days" xml:space="preserve">
+    <value>дней</value>
+  </data>
+  <data name="DateRangePicker_EndLabel" xml:space="preserve">
+    <value>Дата окончания</value>
+  </data>
+  <data name="DateRangePicker_Placeholder" xml:space="preserve">
+    <value>Выберите диапазон дат</value>
+  </data>
+  <data name="DateRangePicker_SelectedDays" xml:space="preserve">
+    <value>Избранные дни</value>
+  </data>
+  <data name="DateRangePicker_StartLabel" xml:space="preserve">
+    <value>Дата начала</value>
+  </data>
+  <data name="DateTimePicker_Placeholder" xml:space="preserve">
+    <value>Выберите дату и время</value>
+  </data>
+  <data name="DateTimePicker_Today" xml:space="preserve">
+    <value>сегодня</value>
+  </data>
+  <data name="DropDownList_ActionFailureTemplate" xml:space="preserve">
+    <value>Запрос не выполнен</value>
+  </data>
+  <data name="DropDownList_NoRecordsTemplate" xml:space="preserve">
+    <value>записей не найдено</value>
+  </data>
+  <data name="MultiSelect_ActionFailureTemplate" xml:space="preserve">
+    <value>Запрос не выполнен</value>
+  </data>
+  <data name="MultiSelect_NoRecordsTemplate" xml:space="preserve">
+    <value>записей не найдено</value>
+  </data>
+  <data name="MultiSelect_OverflowCountTemplate" xml:space="preserve">
+    <value>+${count} больше ..</value>
+  </data>
+  <data name="MultiSelect_SelectAllText" xml:space="preserve">
+    <value>Выбрать все</value>
+  </data>
+  <data name="MultiSelect_TotalCountTemplate" xml:space="preserve">
+    <value>${count} выбран</value>
+  </data>
+  <data name="MultiSelect_UnSelectAllText" xml:space="preserve">
+    <value>Снять все</value>
+  </data>
+  <data name="NumericTextBox_DecrementTitle" xml:space="preserve">
+    <value>Значение декремента</value>
+  </data>
+  <data name="NumericTextBox_IncrementTitle" xml:space="preserve">
+    <value>Значение приращения</value>
+  </data>
+  <data name="TimePicker_Placeholder" xml:space="preserve">
+    <value>Выберите время</value>
+  </data>
+  <data name="Uploader_Abort" xml:space="preserve">
+    <value>Прервать</value>
+  </data>
+  <data name="Uploader_Browse" xml:space="preserve">
+    <value>Просматривать...</value>
+  </data>
+  <data name="Uploader_Cancel" xml:space="preserve">
+    <value>Отмена</value>
+  </data>
+  <data name="Uploader_Clear" xml:space="preserve">
+    <value>ясно</value>
+  </data>
+  <data name="Uploader_Delete" xml:space="preserve">
+    <value>Удалить файл</value>
+  </data>
+  <data name="Uploader_DropFilesHint" xml:space="preserve">
+    <value>Или сбросьте файлы здесь</value>
+  </data>
+  <data name="Uploader_FileUploadCancel" xml:space="preserve">
+    <value>Загрузка файла отменена</value>
+  </data>
+  <data name="Uploader_InProgress" xml:space="preserve">
+    <value>Выгрузка</value>
+  </data>
+  <data name="Uploader_InvalidFileType" xml:space="preserve">
+    <value>Тип файла не допускается</value>
+  </data>
+  <data name="Uploader_InvalidMaxFileSize" xml:space="preserve">
+    <value>Размер файла слишком велик</value>
+  </data>
+  <data name="Uploader_invalidMinFileSize" xml:space="preserve">
+    <value>Размер файла слишком мал</value>
+  </data>
+  <data name="Uploader_Pause" xml:space="preserve">
+    <value>Пауза</value>
+  </data>
+  <data name="Uploader_PauseUpload" xml:space="preserve">
+    <value>Загрузка файла приостановлена</value>
+  </data>
+  <data name="Uploader_ReadyToUploadMessage" xml:space="preserve">
+    <value>Готов к загрузке</value>
+  </data>
+  <data name="Uploader_Remove" xml:space="preserve">
+    <value>удалять</value>
+  </data>
+  <data name="Uploader_RemovedFailedMessage" xml:space="preserve">
+    <value>Невозможно удалить файл</value>
+  </data>
+  <data name="Uploader_RemovedSuccessMessage" xml:space="preserve">
+    <value>Файл успешно удален</value>
+  </data>
+  <data name="Uploader_Resume" xml:space="preserve">
+    <value>Резюме</value>
+  </data>
+  <data name="Uploader_Retry" xml:space="preserve">
+    <value>Retry</value>
+  </data>
+  <data name="Uploader_Upload" xml:space="preserve">
+    <value>Загрузить</value>
+  </data>
+  <data name="Uploader_UploadFailedMessage" xml:space="preserve">
+    <value>Невозможно удалить файл</value>
+  </data>
+  <data name="Uploader_UploadSuccessMessage" xml:space="preserve">
+    <value>Файл успешно удален</value>
+  </data>
+  <data name="FileManager_NewFolder" xml:space="preserve">
+    <value>Новая папка</value>
+  </data>
+  <data name="FileManager_Upload" xml:space="preserve">
+    <value>Загрузить</value>
+  </data>
+  <data name="FileManager_Delete" xml:space="preserve">
+    <value>удалять</value>
+  </data>
+  <data name="FileManager_Rename" xml:space="preserve">
+    <value>Rename</value>
+  </data>
+  <data name="FileManager_Download" xml:space="preserve">
+    <value>Скачать</value>
+  </data>
+  <data name="FileManager_Cut" xml:space="preserve">
+    <value>Порез</value>
+  </data>
+  <data name="FileManager_Copy" xml:space="preserve">
+    <value>копия</value>
+  </data>
+  <data name="FileManager_Paste" xml:space="preserve">
+    <value>Вставить</value>
+  </data>
+  <data name="FileManager_SortBy" xml:space="preserve">
+    <value>Сортировать по</value>
+  </data>
+  <data name="FileManager_Refresh" xml:space="preserve">
+    <value>обновление</value>
+  </data>
+  <data name="FileManager_ItemSelection" xml:space="preserve">
+    <value>пункт выбран</value>
+  </data>
+  <data name="FileManager_ItemsSelection" xml:space="preserve">
+    <value>выбранные предметы</value>
+  </data>
+  <data name="FileManager_View" xml:space="preserve">
+    <value>Посмотреть</value>
+  </data>
+  <data name="FileManager_Details" xml:space="preserve">
+    <value>Детали</value>
+  </data>
+  <data name="FileManager_SelectAll" xml:space="preserve">
+    <value>Выбрать все</value>
+  </data>
+  <data name="FileManager_Open" xml:space="preserve">
+    <value>открыто</value>
+  </data>
+  <data name="FileManager_TooltipNewFolder" xml:space="preserve">
+    <value>Новая папка</value>
+  </data>
+  <data name="FileManager_TooltipUpload" xml:space="preserve">
+    <value>Загрузить</value>
+  </data>
+  <data name="FileManager_TooltipDelete" xml:space="preserve">
+    <value>удалять</value>
+  </data>
+  <data name="FileManager_TooltipRename" xml:space="preserve">
+    <value>Rename</value>
+  </data>
+  <data name="FileManager_TooltipDownload" xml:space="preserve">
+    <value>Скачать</value>
+  </data>
+  <data name="FileManager_TooltipCut" xml:space="preserve">
+    <value>Порез</value>
+  </data>
+  <data name="FileManager_TooltipCopy" xml:space="preserve">
+    <value>копия</value>
+  </data>
+  <data name="FileManager_TooltipPaste" xml:space="preserve">
+    <value>Вставить</value>
+  </data>
+  <data name="FileManager_TooltipSortBy" xml:space="preserve">
+    <value>Сортировать по</value>
+  </data>
+  <data name="FileManager_TooltipRefresh" xml:space="preserve">
+    <value>обновление</value>
+  </data>
+  <data name="FileManager_TooltipSelection" xml:space="preserve">
+    <value>Понятный выбор</value>
+  </data>
+  <data name="FileManager_TooltipView" xml:space="preserve">
+    <value>Посмотреть</value>
+  </data>
+  <data name="FileManager_TooltipDetails" xml:space="preserve">
+    <value>Детали</value>
+  </data>
+  <data name="FileManager_TooltipSelectAll" xml:space="preserve">
+    <value>Выбрать все</value>
+  </data>
+  <data name="FileManager_Name" xml:space="preserve">
+    <value>имя</value>
+  </data>
+  <data name="FileManager_Size" xml:space="preserve">
+    <value>Размер</value>
+  </data>
+  <data name="FileManager_DateModified" xml:space="preserve">
+    <value>модифицированный</value>
+  </data>
+  <data name="FileManager_DateCreated" xml:space="preserve">
+    <value>Дата создания</value>
+  </data>
+  <data name="FileManager_Path" xml:space="preserve">
+    <value>Путь</value>
+  </data>
+  <data name="FileManager_Modified" xml:space="preserve">
+    <value>модифицированный</value>
+  </data>
+  <data name="FileManager_Created" xml:space="preserve">
+    <value>созданный</value>
+  </data>
+  <data name="FileManager_Location" xml:space="preserve">
+    <value>Место расположения</value>
+  </data>
+  <data name="FileManager_Type" xml:space="preserve">
+    <value>Тип</value>
+  </data>
+  <data name="FileManager_Permission" xml:space="preserve">
+    <value>разрешение</value>
+  </data>
+  <data name="FileManager_Ascending" xml:space="preserve">
+    <value>по возрастанию</value>
+  </data>
+  <data name="FileManager_Descending" xml:space="preserve">
+    <value>По убыванию</value>
+  </data>
+  <data name="FileManager_None" xml:space="preserve">
+     <value>Никто</value>
+  </data>
+  <data name="FileManager_ViewLargeIcons" xml:space="preserve">
+    <value>Большие иконки</value>
+  </data>
+  <data name="FileManager_ViewDetails" xml:space="preserve">
+    <value>Детали</value>
+  </data>
+  <data name="FileManager_Search" xml:space="preserve">
+    <value>Поиск</value>
+  </data>
+  <data name="FileManager_ButtonOk" xml:space="preserve">
+    <value>Ok</value>
+  </data>
+  <data name="FileManager_ButtonCancel" xml:space="preserve">
+    <value>Отмена</value>
+  </data>
+  <data name="FileManager_ButtonYes" xml:space="preserve">
+    <value>да</value>
+  </data>
+  <data name="FileManager_ButtonNo" xml:space="preserve">
+    <value>нет</value>
+  </data>
+  <data name="FileManager_ButtonCreate" xml:space="preserve">
+    <value>Создайте</value>
+  </data>
+  <data name="FileManager_ButtonSave" xml:space="preserve">
+    <value>Сохранить</value>
+  </data>
+  <data name="FileManager_HeaderNewFolder" xml:space="preserve">
+    <value>скоросшиватель</value>
+  </data>
+  <data name="FileManager_ContentNewFolder" xml:space="preserve">
+    <value>Введите название вашей папки</value>
+  </data>
+  <data name="FileManager_HeaderRename" xml:space="preserve">
+    <value>Rename</value>
+  </data>
+  <data name="FileManager_ContentRename" xml:space="preserve">
+    <value>Введите ваше новое имя</value>
+  </data>
+  <data name="FileManager_HeaderRenameConfirmation" xml:space="preserve">
+    <value>Переименовать Подтверждение</value>
+  </data>
+  <data name="FileManager_ContentRenameConfirmation" xml:space="preserve">
+    <value>Если вы измените расширение имени файла, файл может стать нестабильным. Вы уверены, что хотите изменить это?</value>
+  </data>
+  <data name="FileManager_HeaderDelete" xml:space="preserve">
+    <value>Удалить файл</value>
+  </data>
+  <data name="FileManager_ContentDelete" xml:space="preserve">
+    <value>Вы уверены, что хотите удалить этот файл?</value>
+  </data>
+  <data name="FileManager_HeaderFolderDelete" xml:space="preserve">
+    <value>Удалить папку</value>
+  </data>
+  <data name="FileManager_ContentFolderDelete" xml:space="preserve">
+    <value>Вы уверены, что хотите удалить эту папку?</value>
+  </data>
+  <data name="FileManager_HeaderMultipleDelete" xml:space="preserve">
+    <value>Удалить несколько элементов</value>
+  </data>
+  <data name="FileManager_ContentMultipleDelete" xml:space="preserve">
+    <value>Вы уверены, что хотите удалить эти {0} элементы?</value>
+  </data>
+  <data name="FileManager_HeaderDuplicate" xml:space="preserve">
+    <value>Файл / папка существует</value>
+  </data>
+  <data name="FileManager_ContentDuplicate" xml:space="preserve">
+    <value>{0} уже существует. Хотите переименовать и вставить?</value>
+  </data>
+  <data name="FileManager_HeaderUpload" xml:space="preserve">
+    <value>Загрузить файлы</value>
+  </data>
+  <data name="FileManager_Error" xml:space="preserve">
+    <value>ошибка</value>
+  </data>
+  <data name="FileManager_ValidationEmpty" xml:space="preserve">
+    <value>Имя файла или папки не может быть пустым.</value>
+  </data>
+  <data name="FileManager_ValidationInvalid" xml:space="preserve">
+    <value>Имя файла или папки {0} содержит недопустимые символы. Пожалуйста, используйте другое имя. Допустимые имена файлов или папок не могут заканчиваться точкой или пробелом.</value>
+  </data>
+  <data name="FileManager_ValidationNewFolderExists" xml:space="preserve">
+    <value>Файл или папка с именем {0} уже существует.</value>
+  </data>
+  <data name="FileManager_ValidationRenameExists" xml:space="preserve">
+    <value>Невозможно переименовать {0} в {1}: место назначения уже существует.</value>
+  </data>
+  <data name="FileManager_FolderEmpty" xml:space="preserve">
+    <value>Эта папка пуста</value>
+  </data>
+  <data name="FileManager_FileUpload" xml:space="preserve">
+    <value>Перетащите файлы сюда, чтобы загрузить</value>
+  </data>
+  <data name="FileManager_SearchEmpty" xml:space="preserve">
+    <value>результаты не найдены</value>
+  </data>
+  <data name="FileManager_SearchKey" xml:space="preserve">
+    <value>Попробуйте с разными ключевыми словами</value>
+  </data>
+  <data name="FileManager_FilterEmpty" xml:space="preserve">
+    <value>результаты не найдены</value>
+  </data>
+  <data name="FileManager_FilterKey" xml:space="preserve">
+    <value>Попробуйте с другим фильтром</value>
+  </data>
+  <data name="FileManager_SubFolderError" xml:space="preserve">
+    <value>Папка назначения является подпапкой исходной папки.</value>
+  </data>
+  <data name="FileManager_AccessDenied" xml:space="preserve">
+    <value>Доступ запрещен</value>
+  </data>
+  <data name="FileManager_AccessDetails" xml:space="preserve">
+    <value>У вас нет прав доступа к этой папке.</value>
+  </data>
+  <data name="FileManager_HeaderRetry" xml:space="preserve">
+    <value>Файл уже существует</value>
+  </data>
+  <data name="FileManager_ContentRetry" xml:space="preserve">
+    <value>Файл с таким именем уже существует в этой папке. Чем бы Вы хотели заняться?</value>
+  </data>
+  <data name="FileManager_ButtonKeepBoth" xml:space="preserve">
+    <value>Оставить оба</value>
+  </data>
+  <data name="FileManager_ButtonReplace" xml:space="preserve">
+    <value>замещать</value>
+  </data>
+  <data name="FileManager_ButtonSkip" xml:space="preserve">
+    <value>Пропускать</value>
+  </data>
+  <data name="FileManager_ApplyAllLabel" xml:space="preserve">
+    <value>Сделайте это для всех текущих предметов</value>
+  </data>
+  <data name="FileManager_KB" xml:space="preserve">
+    <value>KB</value>
+  </data>
+  <data name="FileManager_AccessMessage" xml:space="preserve">
+    <value>{0} недоступен. вам нужно разрешение на выполнение действия {1}.</value>
+  </data>
+  <data name="FileManager_NetworkError" xml:space="preserve">
+    <value>NetworkError: Не удалось отправить на XMLHTTPRequest: Не удалось загрузить</value>
+  </data>
+  <data name="FileManager_ServerError" xml:space="preserve">
+    <value>ServerError: Неверный ответ от</value>
+  </data>
+  <data name="Chart_Zoom" xml:space="preserve">
+    <value>Увеличить</value>
+  </data>
+  <data name="Chart_ZoomIn" xml:space="preserve">
+    <value>Приблизить</value>
+  </data>
+  <data name="Chart_ZoomOut" xml:space="preserve">
+    <value>Уменьшить</value>
+  </data>
+  <data name="Chart_Reset" xml:space="preserve">
+    <value>Сброс настроек</value>
+  </data>
+  <data name="Chart_Pan" xml:space="preserve">
+    <value>Кастрюля</value>
+  </data>
+  <data name="Chart_ResetZoom" xml:space="preserve">
+    <value>Сбросить масштаб</value>
+  </data>
+  <data name="Slider_DecrementTitle" xml:space="preserve">
+    <value>Уменьшить</value>
+  </data>
+  <data name="Slider_IncrementTitle" xml:space="preserve">
+    <value>Увеличение</value>
+  </data>
+  <data name="Maps_Zoom" xml:space="preserve">
+    <value>Увеличить</value>
+  </data>
+  <data name="Maps_ZoomIn" xml:space="preserve">
+    <value>Приблизить</value>
+  </data>
+  <data name="Maps_ZoomOut" xml:space="preserve">
+    <value>Уменьшить</value>
+  </data>
+  <data name="Maps_Reset" xml:space="preserve">
+    <value>Сброс настроек</value>
+  </data>
+  <data name="Maps_Pan" xml:space="preserve">
+    <value>Кастрюля</value>
+  </data>
+  <data name="Gantt_Above" xml:space="preserve">
+    <value>Над</value>
+  </data>
+  <data name="Gantt_Add" xml:space="preserve">
+    <value>добавлять</value>
+  </data>
+  <data name="Gantt_AddDialogTitle" xml:space="preserve">
+    <value>Новое задание</value>
+  </data>
+  <data name="Gantt_BaselineEndDate" xml:space="preserve">
+    <value>Базовая дата окончания</value>
+  </data>
+  <data name="Gantt_BaselineStartDate" xml:space="preserve">
+    <value>Базовая дата начала</value>
+  </data>
+  <data name="Gantt_Below" xml:space="preserve">
+    <value>Ниже</value>
+  </data>
+  <data name="Gantt_Cancel" xml:space="preserve">
+    <value>Отмена</value>
+  </data>
+  <data name="Gantt_Child" xml:space="preserve">
+    <value>ребенок</value>
+  </data>
+  <data name="Gantt_CollapseAll" xml:space="preserve">
+    <value>Свернуть все</value>
+  </data>
+  <data name="Gantt_ConfirmDelete" xml:space="preserve">
+    <value>Вы уверены, что хотите удалить запись?</value>
+  </data>
+  <data name="Gantt_ConfirmPredecessorDelete" xml:space="preserve">
+    <value>Вы уверены, что хотите удалить ссылку зависимости?</value>
+  </data>
+  <data name="Gantt_Indent" xml:space="preserve">
+    <value>индент</value>
+  </data>
+  <data name="Gantt_Outdent" xml:space="preserve">
+    <value>Выступ</value>
+  </data>
+  <data name="Gantt_Convert" xml:space="preserve">
+    <value>Конвертировать</value>
+  </data>
+  <data name="Gantt_CsvExport" xml:space="preserve">
+    <value>CSV экспорт</value>
+  </data>
+  <data name="Gantt_CustomTab" xml:space="preserve">
+    <value>Пользовательские столбцы</value>
+  </data>
+  <data name="Gantt_Day" xml:space="preserve">
+    <value>день</value>
+  </data>
+  <data name="Gantt_Days" xml:space="preserve">
+    <value>дней</value>
+  </data>
+  <data name="Gantt_Delete" xml:space="preserve">
+    <value>удалять</value>
+  </data>
+  <data name="Gantt_DeleteDependency" xml:space="preserve">
+    <value>Удалить зависимость</value>
+  </data>
+  <data name="Gantt_DeleteTask" xml:space="preserve">
+    <value>Удалить задачу</value>
+  </data>
+  <data name="Gantt_Dependency" xml:space="preserve">
+    <value>зависимость</value>
+  </data>
+  <data name="Gantt_Duration" xml:space="preserve">
+    <value>продолжительность</value>
+  </data>
+  <data name="Gantt_Edit" xml:space="preserve">
+    <value>редактировать</value>
+  </data>
+  <data name="Gantt_EditDialogTitle" xml:space="preserve">
+    <value>Информация о задании</value>
+  </data>
+  <data name="Gantt_EmptyRecord" xml:space="preserve">
+    <value>Нет записей для отображения</value>
+  </data>
+  <data name="Gantt_EndDate" xml:space="preserve">
+    <value>Дата окончания</value>
+  </data>
+  <data name="Gantt_EnterValue" xml:space="preserve">
+    <value>Введите значение</value>
+  </data>
+  <data name="Gantt_EventMarkers" xml:space="preserve">
+    <value>Маркеры событий</value>
+  </data>
+  <data name="Gantt_ExcelExport" xml:space="preserve">
+    <value>Экспорт в Excel</value>
+  </data>
+  <data name="Gantt_ExpandAll" xml:space="preserve">
+    <value>Расширить все</value>
+  </data>
+  <data name="Gantt_Finish" xml:space="preserve">
+    <value>Конец</value>
+  </data>
+  <data name="Gantt_From" xml:space="preserve">
+    <value>Из</value>
+  </data>
+  <data name="Gantt_GeneralTab" xml:space="preserve">
+    <value>Общая</value>
+  </data>
+  <data name="Gantt_Hour" xml:space="preserve">
+    <value>час</value>
+  </data>
+  <data name="Gantt_Hours" xml:space="preserve">
+    <value>часов</value>
+  </data>
+  <data name="Gantt_Id" xml:space="preserve">
+    <value>Я БЫ</value>
+  </data>
+  <data name="Gantt_Lag" xml:space="preserve">
+    <value>запаздывание</value>
+  </data>
+  <data name="Gantt_LeftTaskLabel" xml:space="preserve">
+    <value>Левая метка задачи</value>
+  </data>
+  <data name="Gantt_Milestone" xml:space="preserve">
+    <value>веха</value>
+  </data>
+  <data name="Gantt_Minute" xml:space="preserve">
+    <value>минут</value>
+  </data>
+  <data name="Gantt_Minutes" xml:space="preserve">
+    <value>минут</value>
+  </data>
+  <data name="Gantt_Name" xml:space="preserve">
+    <value>имя</value>
+  </data>
+  <data name="Gantt_NextTimeSpan" xml:space="preserve">
+    <value>Следующий промежуток времени</value>
+  </data>
+  <data name="Gantt_Notes" xml:space="preserve">
+    <value>Примечания</value>
+  </data>
+  <data name="Gantt_Offset" xml:space="preserve">
+    <value>офсет</value>
+  </data>
+  <data name="Gantt_OkText" xml:space="preserve">
+    <value>Ok</value>
+  </data>
+  <data name="Gantt_PrevTimeSpan" xml:space="preserve">
+    <value>Предыдущее время</value>
+  </data>
+  <data name="Gantt_Progress" xml:space="preserve">
+    <value>Прогресс</value>
+  </data>
+  <data name="Gantt_ResourceID" xml:space="preserve">
+    <value>ID ресурса</value>
+  </data>
+  <data name="Gantt_ResourceName" xml:space="preserve">
+    <value>ResurseРесурсы</value>
+  </data>
+  <data name="Gantt_RightTaskLabel" xml:space="preserve">
+    <value>Правильный ярлык задачи</value>
+  </data>
+  <data name="Gantt_Save" xml:space="preserve">
+    <value>Сохранить</value>
+  </data>
+  <data name="Gantt_SaveButton" xml:space="preserve">
+    <value>Сохранить</value>
+  </data>
+  <data name="Gantt_Search" xml:space="preserve">
+    <value>Поиск</value>
+  </data>
+  <data name="Gantt_Start" xml:space="preserve">
+    <value>Начало</value>
+  </data>
+  <data name="Gantt_StartDate" xml:space="preserve">
+    <value>Дата начала</value>
+  </data>
+  <data name="Gantt_Task" xml:space="preserve">
+    <value>задача</value>
+  </data>
+  <data name="Gantt_TaskAfterPredecessor_FF" xml:space="preserve">
+    <value>Вы переместили «{0}» для завершения после «{1}» и обе задачи связаны. В результате ссылки не могут быть выполнены. Выберите одно действие ниже для выполнения</value>
+  </data>
+  <data name="Gantt_TaskAfterPredecessor_FS" xml:space="preserve">
+    <value>Вы удалили «{0}» из «{1}», и эти две задачи связаны между собой. В результате ссылки не могут быть выполнены. Выберите одно действие ниже для выполнения</value>
+  </data>
+  <data name="Gantt_TaskAfterPredecessor_SF" xml:space="preserve">
+    <value>Вы переместили «{0}» для завершения после запуска «{1}», и эти две задачи связаны. В результате ссылки не могут быть выполнены. Выберите одно действие ниже для выполнения</value>
+  </data>
+  <data name="Gantt_TaskAfterPredecessor_SS" xml:space="preserve">
+    <value>Вы переместили «{0}» для запуска после запуска «{1}», и эти две задачи связаны. В результате ссылки не могут быть выполнены. Выберите одно действие ниже для выполнения</value>
+  </data>
+  <data name="Gantt_TaskBeforePredecessor_FF" xml:space="preserve">
+    <value>Вы переместили «{0}» до завершения «{1}», и эти две задачи связаны. В результате ссылки не могут быть выполнены. Выберите одно действие ниже для выполнения</value>
+  </data>
+  <data name="Gantt_TaskBeforePredecessor_FS" xml:space="preserve">
+    <value>Вы переместили «{0}» для запуска до завершения «{1}», и эти две задачи связаны. В результате ссылки не могут быть выполнены. Выберите одно действие ниже для выполнения</value>
+  </data>
+  <data name="Gantt_TaskBeforePredecessor_SF" xml:space="preserve">
+    <value>Вы переместили «{0}» из «{1}» в начало, и эти две задачи связаны между собой. В результате ссылки не могут быть выполнены. Выберите одно действие ниже для выполнения</value>
+  </data>
+  <data name="Gantt_TaskBeforePredecessor_SS" xml:space="preserve">
+    <value>Вы переместили «{0}» для запуска до запуска «{1}», и эти две задачи связаны. В результате ссылки не могут быть выполнены. Выберите одно действие ниже для выполнения</value>
+  </data>
+  <data name="Gantt_TaskInformation" xml:space="preserve">
+    <value>Информация о задании</value>
+  </data>
+  <data name="Gantt_TaskLink" xml:space="preserve">
+    <value>Ссылка на задачу</value>
+  </data>
+  <data name="Gantt_Tasks" xml:space="preserve">
+    <value>задания</value>
+  </data>
+  <data name="Gantt_TimelineCell" xml:space="preserve">
+    <value>Временная ячейка</value>
+  </data>
+  <data name="Gantt_To" xml:space="preserve">
+    <value>к</value>
+  </data>
+  <data name="Gantt_ToMilestone" xml:space="preserve">
+    <value>Вехой</value>
+  </data>
+  <data name="Gantt_ToTask" xml:space="preserve">
+    <value>К задаче</value>
+  </data>
+  <data name="Gantt_Type" xml:space="preserve">
+    <value>Тип</value>
+  </data>
+  <data name="Gantt_Update" xml:space="preserve">
+    <value>Обновить</value>
+  </data>
+  <data name="Gantt_WriteNotes" xml:space="preserve">
+    <value>Писать заметки</value>
+  </data>
+  <data name="Gantt_ZoomIn" xml:space="preserve">
+    <value>Приблизить</value>
+  </data>
+  <data name="Gantt_ZoomOut" xml:space="preserve">
+    <value>Уменьшить</value>
+  </data>
+  <data name="Gantt_ZoomToFit" xml:space="preserve">
+    <value>Увеличить, чтобы соответствовать</value>
+  </data>
+  <data name="Gantt_AutoFit" xml:space="preserve">
+    <value>Автоподбор столбца</value>
+  </data>
+  <data name="Gantt_AutoFitAll" xml:space="preserve">
+    <value>Автоподбор всех столбцов</value>
+  </data>
+  <data name="Gantt_SortAscending" xml:space="preserve">
+    <value>Сортировать по возрастанию</value>
+  </data>
+  <data name="Gantt_SortDescending" xml:space="preserve">
+    <value>Сортировать по убыванию</value>
+  </data>
+  <data name="Gantt_TaskMode" xml:space="preserve">
+    <value>Режим задачи</value>
+  </data>
+  <data name="Gantt_TaskMode_Auto" xml:space="preserve">
+    <value>Авто</value>
+  </data>
+  <data name="Gantt_TaskMode_Manual" xml:space="preserve">
+    <value>Руководство</value>
+  </data>
+  <data name="Gantt_SubTaskStartDate" xml:space="preserve">
+    <value>Дата начала подзадач</value>
+  </data>
+  <data name="Gantt_SubTaskEndDate" xml:space="preserve">
+    <value>Дата окончания подзадач</value>
+  </data>
+  <data name="Gantt_AutoDuration" xml:space="preserve">
+    <value>Продолжительность</value>
+  </data>
+  <data name="Gantt_Work" xml:space="preserve">
+    <value>Работа</value>
+  </data>
+  <data name="Gantt_H" xml:space="preserve">
+    <value>ЧАС</value>
+  </data>
+  <data name="Gantt_D" xml:space="preserve">
+    <value>Д</value>
+  </data>
+  <data name="Gantt_M" xml:space="preserve">
+    <value>М</value>
+  </data>
+  <data name="Gantt_Min" xml:space="preserve">
+    <value>Мин</value>
+  </data>
+  <data name="Gantt_CustomColumn" xml:space="preserve">
+    <value>Пользовательские столбцы</value>
+  </data>
+  <data name="Gantt_TaskType" xml:space="preserve">
+    <value>Тип задачи</value>
+  </data>
+  <data name="ColorPicker_Apply" xml:space="preserve">
+    <value>Подать заявление</value>
+  </data>
+  <data name="ColorPicker_Cancel" xml:space="preserve">
+    <value>Отмена</value>
+  </data>
+  <data name="ColorPicker_ModeSwitcher" xml:space="preserve">
+    <value>Переключить режим</value>
+  </data>
+  <data name="ListBox_ActionFailureTemplate" xml:space="preserve">
+    <value>Запрос не выполнен</value>
+  </data>
+  <data name="ListBox_MoveAllFrom" xml:space="preserve">
+    <value>Переместить все из</value>
+  </data>
+  <data name="ListBox_MoveAllTo" xml:space="preserve">
+    <value>Переместить все в</value>
+  </data>
+  <data name="ListBox_MoveDown" xml:space="preserve">
+    <value>Двигаться вниз</value>
+  </data>
+  <data name="ListBox_MoveFrom" xml:space="preserve">
+    <value>Двигаться из</value>
+  </data>
+  <data name="ListBox_MoveTo" xml:space="preserve">
+    <value>Переместить в</value>
+  </data>
+  <data name="ListBox_MoveUp" xml:space="preserve">
+    <value>Двигаться вверх</value>
+  </data>
+  <data name="ListBox_NoRecordsTemplate" xml:space="preserve">
+    <value>записей не найдено</value>
+  </data>
+  <data name="ListBox_SelectAllText" xml:space="preserve">
+    <value>Выбрать все</value>
+  </data>
+  <data name="ListBox_UnSelectAllText" xml:space="preserve">
+    <value>Снять все</value>
+  </data>
+  <data name="PivotView_NumberFormat_ExampleWatermark" xml:space="preserve">
+    <value>Пример: C, P, 0000%, ### 0. ## 0 # и т. Д.</value>
+  </data>
+  <data name="PivotView_SortNone_TooltipMessage" xml:space="preserve">
+    <value>Порядок сортировки данных</value>
+  </data>
+  <data name="PivotView_SortDescending_TooltipMessage" xml:space="preserve">
+    <value>Сортировать по убыванию</value>
+  </data>
+  <data name="PivotView_StaticFieldList" xml:space="preserve">
+    <value>Список сводных полей</value>
+  </data>
+  <data name="PivotView_FieldList" xml:space="preserve">
+    <value>Список полей</value>
+  </data>
+  <data name="PivotView_AddFieldMessage" xml:space="preserve">
+    <value>Добавьте сюда поле</value>
+  </data>
+  <data name="PivotView_ChooseFieldMessage" xml:space="preserve">
+    <value>Выбрать поле</value>
+  </data>
+  <data name="PivotView_DragFieldsMessage" xml:space="preserve">
+    <value>Перетащите поля между осями ниже:</value>
+  </data>
+  <data name="PivotView_Add" xml:space="preserve">
+    <value>Добавить</value>
+  </data>
+  <data name="PivotView_DeferLayoutUpdate" xml:space="preserve">
+    <value>Отложить обновление макета</value>
+  </data>
+  <data name="PivotView_ShowLegend" xml:space="preserve">
+    <value>Показать легенду</value>
+  </data>
+  <data name="PivotView_FieldCaptionWatermark" xml:space="preserve">
+    <value>Введите заголовок поля</value>
+  </data>
+  <data name="PivotView_SortAscending_TooltipMessage" xml:space="preserve">
+    <value>Сортировать по возрастанию</value>
+  </data>
+  <data name="PivotView_ReplaceReport_BeforeMessage" xml:space="preserve">
+    <value>Отчет под названием</value>
+  </data>
+  <data name="PivotView_ReplaceReport_AfterMessage" xml:space="preserve">
+    <value>уже существует. Вы хотите заменить это?</value>
+  </data>
+  <data name="PivotView_AddCondition" xml:space="preserve">
+    <value>Добавить условие</value>
+  </data>
+  <data name="PivotView_AddToColumn" xml:space="preserve">
+    <value>Добавить в столбец</value>
+  </data>
+  <data name="PivotView_AddToFilter" xml:space="preserve">
+    <value>Добавить в фильтр</value>
+  </data>
+  <data name="PivotView_AddToRow" xml:space="preserve">
+    <value>Добавить в строку</value>
+  </data>
+  <data name="PivotView_AddToValue" xml:space="preserve">
+    <value>Добавить к стоимости</value>
+  </data>
+  <data name="PivotView_After" xml:space="preserve">
+    <value>После</value>
+  </data>
+  <data name="PivotView_AfterOrEqualTo" xml:space="preserve">
+    <value>После или равно</value>
+  </data>
+  <data name="PivotView_Aggregate" xml:space="preserve">
+    <value>заполнитель</value>
+  </data>
+  <data name="PivotView_Alert" xml:space="preserve">
+    <value>бдительный</value>
+  </data>
+  <data name="PivotView_All" xml:space="preserve">
+    <value>Все</value>
+  </data>
+  <data name="PivotView_AllFields" xml:space="preserve">
+    <value>Все поля</value>
+  </data>
+  <data name="PivotView_AllValues" xml:space="preserve">
+    <value>Все ценности</value>
+  </data>
+  <data name="PivotView_And" xml:space="preserve">
+    <value>и</value>
+  </data>
+  <data name="PivotView_Apply" xml:space="preserve">
+    <value>Подать заявление</value>
+  </data>
+  <data name="PivotView_Area" xml:space="preserve">
+    <value>Площадь</value>
+  </data>
+  <data name="PivotView_Ascending" xml:space="preserve">
+    <value>по возрастанию</value>
+  </data>
+  <data name="PivotView_Avg" xml:space="preserve">
+    <value>в среднем</value>
+  </data>
+  <data name="PivotView_Bar" xml:space="preserve">
+    <value>Бар</value>
+  </data>
+  <data name="PivotView_BaseField" xml:space="preserve">
+    <value>Базовое поле</value>
+  </data>
+  <data name="PivotView_BaseItem" xml:space="preserve">
+    <value>Базовый элемент</value>
+  </data>
+  <data name="PivotView_Before" xml:space="preserve">
+    <value>Перед</value>
+  </data>
+  <data name="PivotView_BeforeOrEqualTo" xml:space="preserve">
+    <value>До или равно</value>
+  </data>
+  <data name="PivotView_BeginWith" xml:space="preserve">
+    <value>Начинается с</value>
+  </data>
+  <data name="PivotView_Between" xml:space="preserve">
+    <value>Между</value>
+  </data>
+  <data name="PivotView_Blank" xml:space="preserve">
+    <value>(Пустой)</value>
+  </data>
+  <data name="PivotView_By" xml:space="preserve">
+    <value>by</value>
+  </data>
+  <data name="PivotView_CalculatedField" xml:space="preserve">
+    <value>Расчетное поле</value>
+  </data>
+  <data name="PivotView_CalculatedField_ConfirmMessage" xml:space="preserve">
+    <value>Поле расчета уже существует с этим именем. Вы хотите заменить это?</value>
+  </data>
+  <data name="PivotView_CalculatedField_DragDropMessage" xml:space="preserve">
+    <value>Перетащите поля в формулу</value>
+  </data>
+  <data name="PivotView_CalculatedField_DragMessage" xml:space="preserve">
+    <value>Перетащите поле в формулу</value>
+  </data>
+  <data name="PivotView_CalculatedField_DropMessage" xml:space="preserve">
+    <value>Вычисляемое поле не может быть размещено в любом другом регионе, кроме оси значений.</value>
+  </data>
+  <data name="PivotView_CalculatedField_ExampleWatermark" xml:space="preserve">
+    <value>Пример: ('Sum(Order_Count)' + 'Sum(In_Stock)') * 250</value>
+  </data>
+  <data name="PivotView_CalculatedField_ExistMessage" xml:space="preserve">
+    <value>Поле с таким именем уже существует. Пожалуйста, введите другое имя.</value>
+  </data>
+  <data name="PivotView_CalculatedField_MobileWatermark" xml:space="preserve">
+    <value>Добавьте поля и отредактируйте формулу здесь.</value>
+  </data>
+  <data name="PivotView_CalculatedField_NameWatermark" xml:space="preserve">
+    <value>Введите имя поля</value>
+  </data>
+  <data name="PivotView_CalculatedField_OLAPExampleWatermark" xml:space="preserve">
+    <value>Пример: [Measures].[Order Quantity] + ([Measures].[Order Quantity] * 0.10)</value>
+  </data>
+  <data name="PivotView_CalculatedField_Tooltip" xml:space="preserve">
+    <value>Перетащите поля, чтобы создать выражение. И, если вы хотите отредактировать существующие вычисляемые поля! Вы можете добиться этого, просто выбрав поле в разделе «Вычисляемые элементы».</value>
+  </data>
+  <data name="PivotView_Cancel" xml:space="preserve">
+    <value>Отмена</value>
+  </data>
+  <data name="PivotView_Chart" xml:space="preserve">
+    <value>Диаграмма</value>
+  </data>
+  <data name="PivotView_Clear" xml:space="preserve">
+    <value>убирать</value>
+  </data>
+  <data name="PivotView_ClearFilter" xml:space="preserve">
+    <value>убирать</value>
+  </data>
+  <data name="PivotView_Close" xml:space="preserve">
+    <value>близко</value>
+  </data>
+  <data name="PivotView_Collapse" xml:space="preserve">
+    <value>коллапс</value>
+  </data>
+  <data name="PivotView_Column" xml:space="preserve">
+    <value>колонка</value>
+  </data>
+  <data name="PivotView_ColumnAxisWatermark" xml:space="preserve">
+    <value>Оставьте столбец здесь</value>
+  </data>
+  <data name="PivotView_Columns" xml:space="preserve">
+    <value>Колонны</value>
+  </data>
+  <data name="PivotView_ConditionalFormating" xml:space="preserve">
+    <value>Условное форматирование</value>
+  </data>
+  <data name="PivotView_ConditionalFormatting" xml:space="preserve">
+    <value>Условное форматирование</value>
+  </data>
+  <data name="PivotView_Contains" xml:space="preserve">
+    <value>Содержит</value>
+  </data>
+  <data name="PivotView_Copy" xml:space="preserve">
+    <value>копия</value>
+  </data>
+  <data name="PivotView_Count" xml:space="preserve">
+    <value>подсчитывать</value>
+  </data>
+  <data name="PivotView_CreateCalculatedField" xml:space="preserve">
+    <value>Создать вычисляемое поле</value>
+  </data>
+  <data name="PivotView_CSV" xml:space="preserve">
+    <value>CSV</value>
+  </data>
+  <data name="PivotView_Currency" xml:space="preserve">
+    <value>валюта</value>
+  </data>
+  <data name="PivotView_CurrencySymbol" xml:space="preserve">
+    <value>Символ валюты</value>
+  </data>
+  <data name="PivotView_Custom" xml:space="preserve">
+    <value>изготовленный на заказ</value>
+  </data>
+  <data name="PivotView_CustomFormat" xml:space="preserve">
+    <value>Пользовательский формат</value>
+  </data>
+  <data name="PivotView_CustomFormatMessage" xml:space="preserve">
+    <value>Введите строку произвольного формата</value>
+  </data>
+  <data name="PivotView_Date" xml:space="preserve">
+    <value>Дата</value>
+  </data>
+  <data name="PivotView_DateTextMessage" xml:space="preserve">
+    <value>Покажите предметы, для которых дата</value>
+  </data>
+  <data name="PivotView_Days" xml:space="preserve">
+    <value>дней</value>
+  </data>
+  <data name="PivotView_DecimalPlaces" xml:space="preserve">
+    <value>Десятичные знаки</value>
+  </data>
+  <data name="PivotView_Delete" xml:space="preserve">
+    <value>удалять</value>
+  </data>
+  <data name="PivotView_DeleteReport" xml:space="preserve">
+    <value>Удалить текущий отчет</value>
+  </data>
+  <data name="PivotView_Descending" xml:space="preserve">
+    <value>По убыванию</value>
+  </data>
+  <data name="PivotView_Details" xml:space="preserve">
+    <value>Детали</value>
+  </data>
+  <data name="PivotView_DifferenceFrom" xml:space="preserve">
+    <value>Отличие от</value>
+  </data>
+  <data name="PivotView_Dimension" xml:space="preserve">
+    <value>измерение</value>
+  </data>
+  <data name="PivotView_DistinctCount" xml:space="preserve">
+    <value>Отличный счет</value>
+  </data>
+  <data name="PivotView_DoesNotBeginWith" xml:space="preserve">
+    <value>Не начинается с</value>
+  </data>
+  <data name="PivotView_DoesNotContains" xml:space="preserve">
+    <value>Не содержит</value>
+  </data>
+  <data name="PivotView_DoesNotEndsWith" xml:space="preserve">
+    <value>Не заканчивается</value>
+  </data>
+  <data name="PivotView_DoesNotEquals" xml:space="preserve">
+    <value>Не равно</value>
+  </data>
+  <data name="PivotView_DoNotShowGrandTotals" xml:space="preserve">
+    <value>Не показывать общие итоги</value>
+  </data>
+  <data name="PivotView_DoNotShowSubtotals" xml:space="preserve">
+    <value>Не показывать промежуточные итоги</value>
+  </data>
+  <data name="PivotView_Drag" xml:space="preserve">
+    <value>Тащить, тянуть</value>
+  </data>
+  <data name="PivotView_DrillThrough" xml:space="preserve">
+    <value>Просверлить</value>
+  </data>
+  <data name="PivotView_DrillThroughErrorMessage" xml:space="preserve">
+    <value>Невозможно отобразить необработанные элементы вычисляемых полей.</value>
+  </data>
+  <data name="PivotView_Edit" xml:space="preserve">
+    <value>редактировать</value>
+  </data>
+  <data name="PivotView_EmptyRecordsMessage" xml:space="preserve">
+    <value>Нет записей для отображения</value>
+  </data>
+  <data name="PivotView_EmptyReportMessage" xml:space="preserve">
+    <value>Отчетов не найдено !!</value>
+  </data>
+  <data name="PivotView_EndAt" xml:space="preserve">
+    <value>Окончание в</value>
+  </data>
+  <data name="PivotView_EndsWith" xml:space="preserve">
+    <value>Заканчивается</value>
+  </data>
+  <data name="PivotView_EnterDate" xml:space="preserve">
+    <value>Введите дату</value>
+  </data>
+  <data name="PivotView_EnterReportNameMessage" xml:space="preserve">
+    <value>Введите название отчета</value>
+  </data>
+  <data name="PivotView_EnterValue" xml:space="preserve">
+    <value>Введите значение</value>
+  </data>
+  <data name="PivotView_Equals" xml:space="preserve">
+    <value>Равно</value>
+  </data>
+  <data name="PivotView_Error" xml:space="preserve">
+    <value>ошибка</value>
+  </data>
+  <data name="PivotView_Example" xml:space="preserve">
+    <value>например:</value>
+  </data>
+  <data name="PivotView_Excel" xml:space="preserve">
+    <value>Excel</value>
+  </data>
+  <data name="PivotView_Expand" xml:space="preserve">
+    <value>расширять</value>
+  </data>
+  <data name="PivotView_Export" xml:space="preserve">
+    <value>экспорт</value>
+  </data>
+  <data name="PivotView_Expression" xml:space="preserve">
+    <value>выражение</value>
+  </data>
+  <data name="PivotView_False" xml:space="preserve">
+    <value>Ложь</value>
+  </data>
+  <data name="PivotView_FieldCaption" xml:space="preserve">
+    <value>Заголовок поля</value>
+  </data>
+  <data name="PivotView_FieldCaptionMessage" xml:space="preserve">
+    <value>Заголовок поля</value>
+  </data>
+  <data name="PivotView_FieldDropErrorMessage" xml:space="preserve">
+    <value>Перемещаемое поле нельзя поместить в эту область отчета</value>
+  </data>
+  <data name="PivotView_FieldName" xml:space="preserve">
+    <value>Имя поля</value>
+  </data>
+  <data name="PivotView_FieldNameMessage" xml:space="preserve">
+    <value>Имя поля:</value>
+  </data>
+  <data name="PivotView_FieldType" xml:space="preserve">
+    <value>Тип поля</value>
+  </data>
+  <data name="PivotView_Filter" xml:space="preserve">
+    <value>Фильтр</value>
+  </data>
+  <data name="PivotView_FilterAxisWatermark" xml:space="preserve">
+    <value>Удалить фильтр здесь</value>
+  </data>
+  <data name="PivotView_Filtered" xml:space="preserve">
+    <value>отфильтрованный</value>
+  </data>
+  <data name="PivotView_Filters" xml:space="preserve">
+    <value>фильтры</value>
+  </data>
+  <data name="PivotView_Format" xml:space="preserve">
+    <value>Формат</value>
+  </data>
+  <data name="PivotView_FormatString" xml:space="preserve">
+    <value>Формат Строка</value>
+  </data>
+  <data name="PivotView_FormatType" xml:space="preserve">
+    <value>Тип формата</value>
+  </data>
+  <data name="PivotView_Formula" xml:space="preserve">
+    <value>формула</value>
+  </data>
+  <data name="PivotView_GrandTotal" xml:space="preserve">
+    <value>Общая сумма</value>
+  </data>
+  <data name="PivotView_GrandTotals" xml:space="preserve">
+    <value>Итоги</value>
+  </data>
+  <data name="PivotView_GreaterThan" xml:space="preserve">
+    <value>Больше чем</value>
+  </data>
+  <data name="PivotView_GreaterThanOrEqualTo" xml:space="preserve">
+    <value>Больше или равно</value>
+  </data>
+  <data name="PivotView_Group" xml:space="preserve">
+    <value>группа</value>
+  </data>
+  <data name="PivotView_GroupCaptionMessage" xml:space="preserve">
+    <value>Введите заголовок для отображения в заголовке</value>
+  </data>
+  <data name="PivotView_GroupFieldCaptionMessage" xml:space="preserve">
+    <value>Введите заголовок для поля группы</value>
+  </data>
+  <data name="PivotView_Grouping" xml:space="preserve">
+    <value>Группировка</value>
+  </data>
+  <data name="PivotView_GroupName" xml:space="preserve">
+    <value>Имя группы</value>
+  </data>
+  <data name="PivotView_Hours" xml:space="preserve">
+    <value>часов</value>
+  </data>
+  <data name="PivotView_Index" xml:space="preserve">
+    <value>Показатель</value>
+  </data>
+  <data name="PivotView_IntervalBy" xml:space="preserve">
+    <value>Интервал по</value>
+  </data>
+  <data name="PivotView_InvalidFormat" xml:space="preserve">
+    <value>Неверный формат.</value>
+  </data>
+  <data name="PivotView_InvalidFormula" xml:space="preserve">
+    <value>Invalid formula.</value>
+  </data>
+  <data name="PivotView_InvalidGroupSelectionMessage" xml:space="preserve">
+    <value>Невозможно сгруппировать этот выбор.</value>
+  </data>
+  <data name="PivotView_JPEG" xml:space="preserve">
+    <value>JPEG</value>
+  </data>
+  <data name="PivotView_Label" xml:space="preserve">
+    <value>метка</value>
+  </data>
+  <data name="PivotView_LabelTextMessage" xml:space="preserve">
+    <value>Покажите предметы, для которых этикетка</value>
+  </data>
+  <data name="PivotView_Left" xml:space="preserve">
+    <value>Оставили</value>
+  </data>
+  <data name="PivotView_LessThan" xml:space="preserve">
+    <value>Меньше, чем</value>
+  </data>
+  <data name="PivotView_LessThanOrEqualTo" xml:space="preserve">
+    <value>Меньше или равно</value>
+  </data>
+  <data name="PivotView_Line" xml:space="preserve">
+    <value>Линия</value>
+  </data>
+  <data name="PivotView_LoadReport" xml:space="preserve">
+    <value>нагрузка</value>
+  </data>
+  <data name="PivotView_ManageRecords" xml:space="preserve">
+    <value>Управление записями</value>
+  </data>
+  <data name="PivotView_Max" xml:space="preserve">
+    <value>Максимум</value>
+  </data>
+  <data name="PivotView_MdxQuery" xml:space="preserve">
+    <value>MDX Query</value>
+  </data>
+  <data name="PivotView_Measure" xml:space="preserve">
+    <value>Мера</value>
+  </data>
+  <data name="PivotView_Member" xml:space="preserve">
+    <value>член</value>
+  </data>
+  <data name="PivotView_MemberLimitMessage" xml:space="preserve">
+    <value>больше предметов. Поиск, чтобы уточнить дальше.</value>
+  </data>
+  <data name="PivotView_Min" xml:space="preserve">
+    <value>Min</value>
+  </data>
+  <data name="PivotView_Minutes" xml:space="preserve">
+    <value>минут</value>
+  </data>
+  <data name="PivotView_Months" xml:space="preserve">
+    <value>Месяцы</value>
+  </data>
+  <data name="PivotView_MoreOption" xml:space="preserve">
+    <value>Больше...</value>
+  </data>
+  <data name="PivotView_MultipleItems" xml:space="preserve">
+    <value>Несколько предметов</value>
+  </data>
+  <data name="PivotView_NewReport" xml:space="preserve">
+    <value>Создать новый отчет</value>
+  </data>
+  <data name="PivotView_NewReportConfirmMessage" xml:space="preserve">
+    <value>Сохранить изменения в этом отчете?</value>
+  </data>
+  <data name="PivotView_NoFormatMessage" xml:space="preserve">
+    <value>Формат не найден !!!</value>
+  </data>
+  <data name="PivotView_NoInputMessage" xml:space="preserve">
+    <value>Введите значение</value>
+  </data>
+  <data name="PivotView_NoMatchesMessage" xml:space="preserve">
+    <value>Нет совпадений</value>
+  </data>
+  <data name="PivotView_NotBetween" xml:space="preserve">
+    <value>Не между</value>
+  </data>
+  <data name="PivotView_NotEquals" xml:space="preserve">
+    <value>Не равно</value>
+  </data>
+  <data name="PivotView_NoValue" xml:space="preserve">
+    <value>Неважно</value>
+  </data>
+  <data name="PivotView_Null" xml:space="preserve">
+    <value>значение NULL</value>
+  </data>
+  <data name="PivotView_Number" xml:space="preserve">
+    <value>номер</value>
+  </data>
+  <data name="PivotView_NumberFormatting" xml:space="preserve">
+    <value>Форматирование чисел</value>
+  </data>
+  <data name="PivotView_Of" xml:space="preserve">
+    <value>из</value>
+  </data>
+  <data name="PivotView_OK" xml:space="preserve">
+    <value>Ok</value>
+  </data>
+  <data name="PivotView_OutOfRange" xml:space="preserve">
+    <value>Вне зоны доступа</value>
+  </data>
+  <data name="PivotView_ParentHierarchy" xml:space="preserve">
+    <value>Родительская Иерархия</value>
+  </data>
+  <data name="PivotView_PDF" xml:space="preserve">
+    <value>PDF</value>
+  </data>
+  <data name="PivotView_Percent" xml:space="preserve">
+    <value>Процентов</value>
+  </data>
+  <data name="PivotView_Percentage" xml:space="preserve">
+    <value>процент</value>
+  </data>
+  <data name="PivotView_PercentageOfColumnTotal" xml:space="preserve">
+    <value>% от общего столбца</value>
+  </data>
+  <data name="PivotView_PercentageOfDifferenceFrom" xml:space="preserve">
+    <value>% от разницы от</value>
+  </data>
+  <data name="PivotView_PercentageOfGrandTotal" xml:space="preserve">
+    <value>% от общего итога</value>
+  </data>
+  <data name="PivotView_PercentageOfParentColumnTotal" xml:space="preserve">
+    <value>% от родительского столбца всего</value>
+  </data>
+  <data name="PivotView_PercentageOfParentRowTotal" xml:space="preserve">
+    <value>% от родительского ряда</value>
+  </data>
+  <data name="PivotView_PercentageOfParentTotal" xml:space="preserve">
+    <value>% от общего количества родителей</value>
+  </data>
+  <data name="PivotView_PercentageOfRowTotal" xml:space="preserve">
+    <value>% от общего количества строк</value>
+  </data>
+  <data name="PivotView_PNG" xml:space="preserve">
+    <value>PNG</value>
+  </data>
+  <data name="PivotView_Polar" xml:space="preserve">
+    <value>полярный</value>
+  </data>
+  <data name="PivotView_PopulationStDev" xml:space="preserve">
+    <value>Население СтДев</value>
+  </data>
+  <data name="PivotView_PopulationVar" xml:space="preserve">
+    <value>Население Вар</value>
+  </data>
+  <data name="PivotView_Product" xml:space="preserve">
+    <value>Продукт</value>
+  </data>
+  <data name="PivotView_Quarter" xml:space="preserve">
+    <value>Qtr</value>
+  </data>
+  <data name="PivotView_Quarters" xml:space="preserve">
+    <value>помещение</value>
+  </data>
+  <data name="PivotView_QuarterYear" xml:space="preserve">
+    <value>Квартальный год</value>
+  </data>
+  <data name="PivotView_Remove" xml:space="preserve">
+    <value>удалять</value>
+  </data>
+  <data name="PivotView_RemoveReportConfirmMessage" xml:space="preserve">
+    <value>Вы действительно хотите удалить этот отчет?</value>
+  </data>
+  <data name="PivotView_RenameReport" xml:space="preserve">
+    <value>Переименовать текущий отчет</value>
+  </data>
+  <data name="PivotView_ReportList" xml:space="preserve">
+    <value>Список отчетов</value>
+  </data>
+  <data name="PivotView_ReportNameMessage" xml:space="preserve">
+    <value>Название отчета:</value>
+  </data>
+  <data name="PivotView_Right" xml:space="preserve">
+    <value>Правильно</value>
+  </data>
+  <data name="PivotView_Row" xml:space="preserve">
+    <value>Ряд</value>
+  </data>
+  <data name="PivotView_RowAxisWatermark" xml:space="preserve">
+    <value>Оставьте строку здесь</value>
+  </data>
+  <data name="PivotView_Rows" xml:space="preserve">
+    <value>Ряды</value>
+  </data>
+  <data name="PivotView_RunningTotals" xml:space="preserve">
+    <value>Итоги</value>
+  </data>
+  <data name="PivotView_SampleReport" xml:space="preserve">
+    <value>Образец Oтчета</value>
+  </data>
+  <data name="PivotView_SampleStDev" xml:space="preserve">
+    <value>Образец StDev</value>
+  </data>
+  <data name="PivotView_SampleVar" xml:space="preserve">
+    <value>Образец Вар</value>
+  </data>
+  <data name="PivotView_SaveAsReport" xml:space="preserve">
+    <value>Сохранить как текущий отчет</value>
+  </data>
+  <data name="PivotView_SaveReport" xml:space="preserve">
+    <value>Сохранить отчет</value>
+  </data>
+  <data name="PivotView_Scatter" xml:space="preserve">
+    <value>рассеивать</value>
+  </data>
+  <data name="PivotView_Search" xml:space="preserve">
+    <value>Поиск</value>
+  </data>
+  <data name="PivotView_Seconds" xml:space="preserve">
+    <value>секунд</value>
+  </data>
+  <data name="PivotView_SelectedItems" xml:space="preserve">
+    <value>Выбранные предметы</value>
+  </data>
+  <data name="PivotView_SelectGroups" xml:space="preserve">
+    <value>Выберите группы</value>
+  </data>
+  <data name="PivotView_ShowColumnGrandTotalsOnly" xml:space="preserve">
+    <value>Показывать только столбцы общих итогов</value>
+  </data>
+  <data name="PivotView_ShowColumnSubtotalsOnly" xml:space="preserve">
+    <value>Показывать только промежуточные столбцы</value>
+  </data>
+  <data name="PivotView_ShowFieldList" xml:space="preserve">
+    <value>Показать список полей</value>
+  </data>
+  <data name="PivotView_ShowGrandTotals" xml:space="preserve">
+    <value>Показать итоги</value>
+  </data>
+  <data name="PivotView_ShowRowGrandTotalsOnly" xml:space="preserve">
+    <value>Показывать только строки итогов</value>
+  </data>
+  <data name="PivotView_ShowRowSubtotalsOnly" xml:space="preserve">
+    <value>Показывать только итоговые строки</value>
+  </data>
+  <data name="PivotView_ShowSubtotals" xml:space="preserve">
+    <value>Показать промежуточные итоги</value>
+  </data>
+  <data name="PivotView_ShowTable" xml:space="preserve">
+    <value>Показать таблицу</value>
+  </data>
+  <data name="PivotView_Sort" xml:space="preserve">
+    <value>Сортировать</value>
+  </data>
+  <data name="PivotView_Standard" xml:space="preserve">
+    <value>стандарт</value>
+  </data>
+  <data name="PivotView_StartAt" xml:space="preserve">
+    <value>Начинается с</value>
+  </data>
+  <data name="PivotView_Subtotals" xml:space="preserve">
+    <value>Подытоги</value>
+  </data>
+  <data name="PivotView_Sum" xml:space="preserve">
+    <value>сумма</value>
+  </data>
+  <data name="PivotView_Summaries" xml:space="preserve">
+    <value>Суммарные значения по</value>
+  </data>
+  <data name="PivotView_SummarizeValuesBy" xml:space="preserve">
+    <value>Суммируйте значения по</value>
+  </data>
+  <data name="PivotView_SVG" xml:space="preserve">
+    <value>SVG</value>
+  </data>
+  <data name="PivotView_SymbolPosition" xml:space="preserve">
+    <value>Положение символа</value>
+  </data>
+  <data name="PivotView_Total" xml:space="preserve">
+    <value>Общее</value>
+  </data>
+  <data name="PivotView_True" xml:space="preserve">
+    <value>Правда</value>
+  </data>
+  <data name="PivotView_Undefined" xml:space="preserve">
+    <value>не определено</value>
+  </data>
+  <data name="PivotView_Ungroup" xml:space="preserve">
+    <value>Ungroup</value>
+  </data>
+  <data name="PivotView_ValidReportNameMessage" xml:space="preserve">
+    <value>Пожалуйста, введите правильное имя записи !!!</value>
+  </data>
+  <data name="PivotView_Value" xml:space="preserve">
+    <value>Значение</value>
+  </data>
+  <data name="PivotView_ValueAxisWatermark" xml:space="preserve">
+    <value>Падение значение здесь</value>
+  </data>
+  <data name="PivotView_ValueFieldSettings" xml:space="preserve">
+    <value>Настройки поля значения</value>
+  </data>
+  <data name="PivotView_Values" xml:space="preserve">
+    <value>Значения</value>
+  </data>
+  <data name="PivotView_ValueTextMessage" xml:space="preserve">
+    <value>Показать предметы, для которых</value>
+  </data>
+  <data name="PivotView_Warning" xml:space="preserve">
+    <value>Предупреждение</value>
+  </data>
+  <data name="PivotView_Years" xml:space="preserve">
+    <value>лет</value>
+  </data>
+  <data name="PivotView_MultipleAxes" xml:space="preserve">
+    <value>Несколько осей</value>
+  </data>
+  <data name="PivotView_ChartTypeSettings" xml:space="preserve">
+    <value>Настройки типа диаграммы</value>
+  </data>
+  <data name="PivotView_ChartType" xml:space="preserve">
+    <value>Тип диаграммы</value>
+  </data>
+  <data name="PivotView_Yes" xml:space="preserve">
+    <value>да</value>
+  </data>
+  <data name="PivotView_No" xml:space="preserve">
+    <value>нет</value>
+  </data>
+  <data name="PivotView_NumberFormatMenu" xml:space="preserve">
+    <value>Форматирование чисел ...</value>
+  </data>
+  <data name="PivotView_ConditionalFormatingMenu" xml:space="preserve">
+    <value>Условное форматирование...</value>
+  </data>
+  <data name="PivotView_CalculatedField_RemoveMessage" xml:space="preserve">
+    <value>Вы уверены, что хотите удалить это вычисленное поле?</value>
+  </data>
+  <data name="PivotView_StackedArea" xml:space="preserve">
+    <value>Сложенная область</value>
+  </data>
+  <data name="PivotView_StackedColumn" xml:space="preserve">
+    <value>Колонка с накоплением</value>
+  </data>
+  <data name="PivotView_StackedBar" xml:space="preserve">
+    <value>С накоплением бар</value>
+  </data>
+  <data name="PivotView_StepLine" xml:space="preserve">
+    <value>шаг линия</value>
+  </data>
+  <data name="PivotView_StepArea" xml:space="preserve">
+    <value>Ступенька</value>
+  </data>
+  <data name="PivotView_SplineArea" xml:space="preserve">
+    <value>Сплайн Площадь</value>
+  </data>
+  <data name="PivotView_Spline" xml:space="preserve">
+    <value>Сплайн</value>
+  </data>
+  <data name="PivotView_StackedColumn100" xml:space="preserve">
+    <value>100% столбец с накоплением</value>
+  </data>
+  <data name="PivotView_StackedBar100" xml:space="preserve">
+    <value>100% с накоплением</value>
+  </data>
+  <data name="PivotView_StackedArea100" xml:space="preserve">
+    <value>100% накопленная площадь</value>
+  </data>
+  <data name="PivotView_Bubble" xml:space="preserve">
+    <value>Пузырь</value>
+  </data>
+  <data name="PivotView_Pareto" xml:space="preserve">
+    <value>Парето</value>
+  </data>
+  <data name="PivotView_Radar" xml:space="preserve">
+    <value>радиолокационный</value>
+  </data>
+  <data name="PivotView_CalculatedField_EditTooltipMessage" xml:space="preserve">
+    <value>Редактировать рассчитанное поле</value>
+  </data>
+  <data name="PivotView_CalculatedField_ClearTooltipMessage" xml:space="preserve">
+    <value>Очистить отредактированную информацию поля</value>
+  </data>
+  <data name="PivotView_Pie" xml:space="preserve">
+    <value>Пирог</value>
+  </data>
+  <data name="PivotView_Pyramid" xml:space="preserve">
+    <value>Пирамида</value>
+  </data>
+  <data name="PivotView_Doughnut" xml:space="preserve">
+    <value>Пончик</value>
+  </data>
+  <data name="PivotView_Funnel" xml:space="preserve">
+    <value>Воронка</value>
+  </data>
+  <data name="PivotView_Stacked" xml:space="preserve">
+    <value>Сложены</value>
+  </data>
+  <data name="PivotView_Grouped" xml:space="preserve">
+    <value>Сгруппированы</value>
+  </data>
+  <data name="PivotView_MultipleAxisMode" xml:space="preserve">
+    <value>Многоосевой режим</value>
+  </data>
+  <data name="PivotView_Median" xml:space="preserve">
+    <value>Медиана</value>
+  </data>
+  <data name="PivotView_Bottom" xml:space="preserve">
+    <value>Низ</value>
+  </data>
+  <data name="PivotView_GrandTotalPositions" xml:space="preserve">
+    <value>Общее количество позиций</value>
+  </data>
+  <data name="PivotView_Top" xml:space="preserve">
+    <value>Вершина</value>
+  </data>
+  <data name="QueryBuilder_AddCondition" xml:space="preserve">
+    <value>Добавить условие</value>
+  </data>
+  <data name="QueryBuilder_AddGroup" xml:space="preserve">
+    <value>Добавить группу</value>
+  </data>
+  <data name="QueryBuilder_AND" xml:space="preserve">
+    <value>И</value>
+  </data>
+  <data name="QueryBuilder_Between" xml:space="preserve">
+    <value>Между</value>
+  </data>
+  <data name="QueryBuilder_Contains" xml:space="preserve">
+    <value>Содержит</value>
+  </data>
+  <data name="QueryBuilder_DeleteGroup" xml:space="preserve">
+    <value>Удалить группу</value>
+  </data>
+  <data name="QueryBuilder_DeleteRule" xml:space="preserve">
+    <value>Удалить это условие</value>
+  </data>
+  <data name="QueryBuilder_Edit" xml:space="preserve">
+    <value>РЕДАКТИРОВАТЬ</value>
+  </data>
+  <data name="QueryBuilder_Empty" xml:space="preserve">
+    <value>пустой</value>
+  </data>
+  <data name="QueryBuilder_EndsWith" xml:space="preserve">
+    <value>Заканчивается</value>
+  </data>
+  <data name="QueryBuilder_Equal" xml:space="preserve">
+    <value>равных</value>
+  </data>
+  <data name="QueryBuilder_GreaterThan" xml:space="preserve">
+    <value>Больше чем</value>
+  </data>
+  <data name="QueryBuilder_GreaterThanOrEqual" xml:space="preserve">
+    <value>Больше или равно</value>
+  </data>
+  <data name="QueryBuilder_In" xml:space="preserve">
+    <value>В</value>
+  </data>
+  <data name="QueryBuilder_LessThan" xml:space="preserve">
+    <value>Меньше, чем</value>
+  </data>
+  <data name="QueryBuilder_LessThanOrEqual" xml:space="preserve">
+    <value>Меньше или равно</value>
+  </data>
+  <data name="QueryBuilder_NotBetween" xml:space="preserve">
+    <value>Не между</value>
+  </data>
+  <data name="QueryBuilder_NotContains" xml:space="preserve">
+    <value>Не содержит</value>
+  </data>
+  <data name="QueryBuilder_NotEmpty" xml:space="preserve">
+    <value>Не пусто</value>
+  </data>
+  <data name="QueryBuilder_NotEqual" xml:space="preserve">
+    <value>Не равный</value>
+  </data>
+  <data name="QueryBuilder_NotIn" xml:space="preserve">
+    <value>Не в</value>
+  </data>
+  <data name="QueryBuilder_OR" xml:space="preserve">
+    <value>ИЛИ</value>
+  </data>
+  <data name="QueryBuilder_OtherFields" xml:space="preserve">
+    <value>Другие поля</value>
+  </data>
+  <data name="QueryBuilder_Remove" xml:space="preserve">
+    <value>УДАЛЯТЬ</value>
+  </data>
+  <data name="QueryBuilder_SelectField" xml:space="preserve">
+    <value>Выберите поле</value>
+  </data>
+  <data name="QueryBuilder_SelectOperator" xml:space="preserve">
+    <value>Выберите оператора</value>
+  </data>
+  <data name="QueryBuilder_SelectValue" xml:space="preserve">
+    <value>Введите значение</value>
+  </data>
+  <data name="QueryBuilder_StartsWith" xml:space="preserve">
+    <value>Начинается с</value>
+  </data>
+  <data name="QueryBuilder_SummaryViewTitle" xml:space="preserve">
+    <value>Общий вид</value>
+  </data>
+  <data name="QueryBuilder_ValidationMessage" xml:space="preserve">
+    <value>Это поле обязательно к заполнению</value>
+  </data>
+  <data name="Dialog_Close" xml:space="preserve">
+    <value>близко</value>
+  </data>
+  <data name="Toast_Close" xml:space="preserve">
+    <value>близко</value>
+  </data>
+  <data name="InPlaceEditor_Save" xml:space="preserve">
+    <value>Сохранить</value>
+  </data>
+  <data name="InPlaceEditor_Cancel" xml:space="preserve">
+    <value>Отмена</value>
+  </data>
+  <data name="InPlaceEditor_LoadingText" xml:space="preserve">
+    <value>Loading ...</value>
+  </data>
+  <data name="InPlaceEditor_EditIcon" xml:space="preserve">
+    <value>Нажмите, чтобы редактировать</value>
+  </data>
+  <data name="InPlaceEditor_EditAreaClick" xml:space="preserve">
+    <value>Нажмите, чтобы редактировать</value>
+  </data>
+  <data name="InPlaceEditor_EditAreaDoubleClick" xml:space="preserve">
+    <value>Двойной щелчок для редактирования</value>
+  </data>
+  <data name="Kanban_Items" xml:space="preserve">
+    <value>Предметы</value>
+  </data>
+  <data name="Kanban_Item" xml:space="preserve">
+    <value>пункт</value>
+  </data>
+  <data name="Kanban_No_Cards" xml:space="preserve">
+    <value>Нет карточек для отображения</value>
+  </data>
+  <data name="Kanban_Min" xml:space="preserve">
+    <value>Мин</value>
+  </data>
+  <data name="Kanban_Max" xml:space="preserve">
+    <value>Максимум</value>
+  </data>
+  <data name="Kanban_CardsSelected" xml:space="preserve">
+    <value>Выбранные карты</value>
+  </data>
+  <data name="Kanban_AddTitle" xml:space="preserve">
+    <value>Добавить новую карту</value>
+  </data>
+  <data name="Kanban_EditTitle" xml:space="preserve">
+    <value>Изменить данные карты</value>
+  </data>
+  <data name="Kanban_DeleteTitle" xml:space="preserve">
+    <value>Удалить карту</value>
+  </data>
+  <data name="Kanban_DeleteContent" xml:space="preserve">
+    <value>Вы уверены, что хотите удалить эту карту?</value>
+  </data>
+  <data name="Kanban_Save" xml:space="preserve">
+    <value>Сохранить</value>
+  </data>
+  <data name="Kanban_Delete" xml:space="preserve">
+    <value>Удалить</value>
+  </data>
+  <data name="Kanban_Cancel" xml:space="preserve">
+    <value>Отмена</value>
+  </data>
+  <data name="Kanban_Yes" xml:space="preserve">
+    <value>да</value>
+  </data>
+  <data name="Kanban_No" xml:space="preserve">
+    <value>нет</value>
+  </data>
+  <data name="RichTextEditor_NumberFormatListNone" xml:space="preserve">
+    <value>Никто</value>
+  </data>
+  <data name="RichTextEditor_NumberFormatListNumber" xml:space="preserve">
+    <value>Число</value>
+  </data>
+  <data name="RichTextEditor_NumberFormatListUpperAlpha" xml:space="preserve">
+    <value>Верхняя Альфа</value>
+  </data>
+  <data name="RichTextEditor_NumberFormatListLowerAlpha" xml:space="preserve">
+    <value>Нижняя Альфа</value>
+  </data>
+  <data name="RichTextEditor_NumberFormatListUpperRoman" xml:space="preserve">
+    <value>Верхний римский</value>
+  </data>
+  <data name="RichTextEditor_NumberFormatListLowerRoman" xml:space="preserve">
+    <value>Нижний римский</value>
+  </data>
+  <data name="RichTextEditor_NumberFormatListLowerGreek" xml:space="preserve">
+    <value>Нижнегреческий</value>
+  </data>
+  <data name="RichTextEditor_BulletFormatListNone" xml:space="preserve">
+    <value>Никто</value>
+  </data>
+  <data name="RichTextEditor_BulletFormatListCircle" xml:space="preserve">
+    <value>Круг</value>
+  </data>
+  <data name="RichTextEditor_BulletFormatListSquare" xml:space="preserve">
+    <value>Квадратный</value>
+  </data>
+  <data name="RichTextEditor_BulletFormatListDisc" xml:space="preserve">
+    <value>Диск</value>
+  </data>
+  <data name="RichTextEditor_FormatsDropDownParagraph" xml:space="preserve">
+    <value>Пункт</value>
+  </data>
+  <data name="RichTextEditor_FormatsDropDownCode" xml:space="preserve">
+    <value>Код</value>
+  </data>
+  <data name="RichTextEditor_FormatsDropDownQuotation" xml:space="preserve">
+    <value>Цитата</value>
+  </data>
+  <data name="RichTextEditor_FormatsDropDownHeading1" xml:space="preserve">
+    <value>Заголовок 1</value>
+  </data>
+  <data name="RichTextEditor_FormatsDropDownHeading2" xml:space="preserve">
+    <value>Заголовок 2</value>
+  </data>
+  <data name="RichTextEditor_FormatsDropDownHeading3" xml:space="preserve">
+    <value>Заголовок 3</value>
+  </data>
+  <data name="RichTextEditor_FormatsDropDownHeading4" xml:space="preserve">
+    <value>Заголовок  4</value>
+  </data>
+  <data name="RichTextEditor_FormatsDropDownHeading5" xml:space="preserve">
+    <value>Заголовок  5</value>
+  </data>
+  <data name="RichTextEditor_FormatsDropDownHeading6" xml:space="preserve">
+    <value>Заголовок   6</value>
+  </data>
+  <data name="RichTextEditor_FontNameSegoeUI" xml:space="preserve">
+    <value>Сегоэ Оторхин</value>
+  </data>
+  <data name="RichTextEditor_FontNameArial" xml:space="preserve">
+    <value>Arial</value>
+  </data>
+  <data name="RichTextEditor_FontNameGeorgia" xml:space="preserve">
+    <value>Грузия</value>
+  </data>
+  <data name="RichTextEditor_FontNameImpact" xml:space="preserve">
+    <value>Влияние</value>
+  </data>
+  <data name="RichTextEditor_FontNameTahoma" xml:space="preserve">
+    <value>Тахома</value>
+  </data>
+  <data name="RichTextEditor_FontNameTimesNewRoman" xml:space="preserve">
+    <value>Раз новый Роман</value>
+  </data>
+  <data name="RichTextEditor_FontNameVerdana" xml:space="preserve">
+    <value>Вердана</value>
+  </data>
+  <data name="RichTextEditor_Alignments" xml:space="preserve">
+    <value>Трассы</value>
+  </data>
+  <data name="RichTextEditor_JustifyLeft" xml:space="preserve">
+    <value>Выровнять по левому краю</value>
+  </data>
+  <data name="RichTextEditor_JustifyCenter" xml:space="preserve">
+    <value>Центр выравнивания</value>
+  </data>
+  <data name="RichTextEditor_JustifyRight" xml:space="preserve">
+    <value>Выровнять право</value>
+  </data>
+  <data name="RichTextEditor_JustifyFull" xml:space="preserve">
+    <value>Выровнять оправдать</value>
+  </data>
+  <data name="RichTextEditor_FontName" xml:space="preserve">
+    <value>Название шрифта</value>
+  </data>
+  <data name="RichTextEditor_FontSize" xml:space="preserve">
+    <value>Размер шрифта</value>
+  </data>
+  <data name="RichTextEditor_FontColor" xml:space="preserve">
+    <value>Цвет шрифта</value>
+  </data>
+  <data name="RichTextEditor_BackgroundColor" xml:space="preserve">
+    <value>Фоновый цвет</value>
+  </data>
+  <data name="RichTextEditor_Bold" xml:space="preserve">
+    <value>Жирный</value>
+  </data>
+  <data name="RichTextEditor_Italic" xml:space="preserve">
+    <value>курсивный</value>
+  </data>
+  <data name="RichTextEditor_Underline" xml:space="preserve">
+    <value>Подчеркнутый</value>
+  </data>
+  <data name="RichTextEditor_Strikethrough" xml:space="preserve">
+    <value>Зачеркнутый</value>
+  </data>
+  <data name="RichTextEditor_ClearFormat" xml:space="preserve">
+    <value>Очистить формат</value>
+  </data>
+  <data name="RichTextEditor_ClearAll" xml:space="preserve">
+    <value>Очистить все</value>
+  </data>
+  <data name="RichTextEditor_Cut" xml:space="preserve">
+    <value>Порез</value>
+  </data>
+  <data name="RichTextEditor_Copy" xml:space="preserve">
+    <value>копия</value>
+  </data>
+  <data name="RichTextEditor_Paste" xml:space="preserve">
+    <value>Вставить</value>
+  </data>
+  <data name="RichTextEditor_UnorderedList" xml:space="preserve">
+    <value>Маркированный список</value>
+  </data>
+  <data name="RichTextEditor_OrderedList" xml:space="preserve">
+    <value>Нумерованный список</value>
+  </data>
+  <data name="RichTextEditor_Indent" xml:space="preserve">
+    <value>Увеличить отступ</value>
+  </data>
+  <data name="RichTextEditor_Outdent" xml:space="preserve">
+    <value>Уменьшить отступ</value>
+  </data>
+  <data name="RichTextEditor_Undo" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="RichTextEditor_Redo" xml:space="preserve">
+    <value>Redo</value>
+  </data>
+  <data name="RichTextEditor_Superscript" xml:space="preserve">
+    <value>верхний индекс</value>
+  </data>
+  <data name="RichTextEditor_Subscript" xml:space="preserve">
+    <value>индекс</value>
+  </data>
+  <data name="RichTextEditor_CreateLink" xml:space="preserve">
+    <value>Вставить гиперссылку</value>
+  </data>
+  <data name="RichTextEditor_OpenLink" xml:space="preserve">
+    <value>Открыть ссылку</value>
+  </data>
+  <data name="RichTextEditor_EditLink" xml:space="preserve">
+    <value>Изменить ссылку</value>
+  </data>
+  <data name="RichTextEditor_RemoveLink" xml:space="preserve">
+    <value>далить ссылку</value>
+  </data>
+  <data name="RichTextEditor_Image" xml:space="preserve">
+    <value>Вставить изображение</value>
+  </data>
+  <data name="RichTextEditor_Replace" xml:space="preserve">
+    <value>замещать</value>
+  </data>
+  <data name="RichTextEditor_Align" xml:space="preserve">
+    <value>Align</value>
+  </data>
+  <data name="RichTextEditor_Caption" xml:space="preserve">
+    <value>Заголовок изображения</value>
+  </data>
+  <data name="RichTextEditor_Remove" xml:space="preserve">
+    <value>удалять</value>
+  </data>
+  <data name="RichTextEditor_InsertLink" xml:space="preserve">
+    <value>Вставить ссылку</value>
+  </data>
+  <data name="RichTextEditor_Display" xml:space="preserve">
+    <value>дисплей</value>
+  </data>
+  <data name="RichTextEditor_AltText" xml:space="preserve">
+    <value>Альтернативный текст</value>
+  </data>
+  <data name="RichTextEditor_Dimension" xml:space="preserve">
+    <value>Изменить размер</value>
+  </data>
+  <data name="RichTextEditor_Fullscreen" xml:space="preserve">
+    <value>Максимизация</value>
+  </data>
+  <data name="RichTextEditor_Maximize" xml:space="preserve">
+    <value>Максимизация</value>
+  </data>
+  <data name="RichTextEditor_Minimize" xml:space="preserve">
+    <value>Свести к минимуму</value>
+  </data>
+  <data name="RichTextEditor_LowerCase" xml:space="preserve">
+    <value>Нижний регистр</value>
+  </data>
+  <data name="RichTextEditor_UpperCase" xml:space="preserve">
+    <value>Верхний регистр</value>
+  </data>
+  <data name="RichTextEditor_Print" xml:space="preserve">
+    <value>Распечатать</value>
+  </data>
+  <data name="RichTextEditor_Formats" xml:space="preserve">
+    <value>Форматы</value>
+  </data>
+  <data name="RichTextEditor_Sourcecode" xml:space="preserve">
+    <value>Вид кода</value>
+  </data>
+  <data name="RichTextEditor_Preview" xml:space="preserve">
+    <value>предварительный просмотр</value>
+  </data>
+  <data name="RichTextEditor_Viewside" xml:space="preserve">
+    <value>Вид сбоку</value>
+  </data>
+  <data name="RichTextEditor_InsertCode" xml:space="preserve">
+    <value>Код вставки</value>
+  </data>
+  <data name="RichTextEditor_LinkText" xml:space="preserve">
+    <value>Показать текст</value>
+  </data>
+  <data name="RichTextEditor_LinkTooltipLabel" xml:space="preserve">
+    <value>заглавие</value>
+  </data>
+  <data name="RichTextEditor_LinkWebUrl" xml:space="preserve">
+    <value>Веб-адрес</value>
+  </data>
+  <data name="RichTextEditor_LinkTitle" xml:space="preserve">
+    <value>Введите название</value>
+  </data>
+  <data name="RichTextEditor_LinkUrl" xml:space="preserve">
+    <value>http://example.com</value>
+  </data>
+  <data name="RichTextEditor_LinkOpenInNewWindow" xml:space="preserve">
+    <value>Открыть ссылку в новом окне</value>
+  </data>
+  <data name="RichTextEditor_LinkHeader" xml:space="preserve">
+    <value>Вставить ссылку</value>
+  </data>
+  <data name="RichTextEditor_DialogInsert" xml:space="preserve">
+    <value>Вставить</value>
+  </data>
+  <data name="RichTextEditor_DialogCancel" xml:space="preserve">
+    <value>Отмена</value>
+  </data>
+  <data name="RichTextEditor_DialogUpdate" xml:space="preserve">
+    <value>Обновить</value>
+  </data>
+  <data name="RichTextEditor_ImageHeader" xml:space="preserve">
+    <value>Вставить изображение</value>
+  </data>
+  <data name="RichTextEditor_ImageLinkHeader" xml:space="preserve">
+    <value>Вы также можете предоставить ссылку из Интернета</value>
+  </data>
+  <data name="RichTextEditor_MdImageLink" xml:space="preserve">
+    <value>Пожалуйста, укажите URL для вашего изображения</value>
+  </data>
+  <data name="RichTextEditor_ImageUploadMessage" xml:space="preserve">
+    <value>Перетащите изображение сюда или перейдите к загрузке</value>
+  </data>
+  <data name="RichTextEditor_ImageDeviceUploadMessage" xml:space="preserve">
+    <value>Нажмите здесь, чтобы загрузить</value>
+  </data>
+  <data name="RichTextEditor_ImageAlternateText" xml:space="preserve">
+    <value>Альтернативный текст</value>
+  </data>
+  <data name="RichTextEditor_AlternateHeader" xml:space="preserve">
+    <value>Альтернативный текст</value>
+  </data>
+  <data name="RichTextEditor_Browse" xml:space="preserve">
+    <value>Просматривать</value>
+  </data>
+  <data name="RichTextEditor_ImageUrl" xml:space="preserve">
+    <value>http://example.com/image.png</value>
+  </data>
+  <data name="RichTextEditor_ImageCaption" xml:space="preserve">
+    <value>титр</value>
+  </data>
+  <data name="RichTextEditor_ImageSizeHeader" xml:space="preserve">
+    <value>Размер изображения</value>
+  </data>
+  <data name="RichTextEditor_ImageHeight" xml:space="preserve">
+    <value>Высота</value>
+  </data>
+  <data name="RichTextEditor_ImageWidth" xml:space="preserve">
+    <value>ширина</value>
+  </data>
+  <data name="RichTextEditor_TextPlaceholder" xml:space="preserve">
+    <value>Введите текст</value>
+  </data>
+  <data name="RichTextEditor_InsertTableBtn" xml:space="preserve">
+    <value>Вставить таблицу</value>
+  </data>
+  <data name="RichTextEditor_TableDialogHeader" xml:space="preserve">
+    <value>Вставить таблицу</value>
+  </data>
+  <data name="RichTextEditor_TableWidth" xml:space="preserve">
+    <value>ширина</value>
+  </data>
+  <data name="RichTextEditor_Cellpadding" xml:space="preserve">
+    <value>Cell Padding</value>
+  </data>
+  <data name="RichTextEditor_Cellspacing" xml:space="preserve">
+    <value>Сотовый интервал</value>
+  </data>
+  <data name="RichTextEditor_Columns" xml:space="preserve">
+    <value>Число столбцов</value>
+  </data>
+  <data name="RichTextEditor_Rows" xml:space="preserve">
+    <value>Количество рядов</value>
+  </data>
+  <data name="RichTextEditor_TableRows" xml:space="preserve">
+    <value>Строки таблицы</value>
+  </data>
+  <data name="RichTextEditor_TableColumns" xml:space="preserve">
+    <value>Столбцы таблицы</value>
+  </data>
+  <data name="RichTextEditor_TableCellHorizontalAlign" xml:space="preserve">
+    <value>Горизонтальное выравнивание ячейки таблицы</value>
+  </data>
+  <data name="RichTextEditor_TableCellVerticalAlign" xml:space="preserve">
+    <value>Ячейка таблицы по вертикали</value>
+  </data>
+  <data name="RichTextEditor_CreateTable" xml:space="preserve">
+    <value>Создать таблицу</value>
+  </data>
+  <data name="RichTextEditor_RemoveTable" xml:space="preserve">
+    <value>Удалить таблицу</value>
+  </data>
+  <data name="RichTextEditor_TableHeader" xml:space="preserve">
+    <value>Заголовок таблицы</value>
+  </data>
+  <data name="RichTextEditor_TableRemove" xml:space="preserve">
+    <value>Стол Удалить</value>
+  </data>
+  <data name="RichTextEditor_TableCellBackground" xml:space="preserve">
+    <value>Фон ячейки таблицы</value>
+  </data>
+  <data name="RichTextEditor_TableEditProperties" xml:space="preserve">
+    <value>Свойства редактирования таблицы</value>
+  </data>
+  <data name="RichTextEditor_Styles" xml:space="preserve">
+    <value>Стили</value>
+  </data>
+  <data name="RichTextEditor_InsertColumnLeft" xml:space="preserve">
+    <value>Вставить столбец слева</value>
+  </data>
+  <data name="RichTextEditor_InsertColumnRight" xml:space="preserve">
+    <value>Вставить столбец справа</value>
+  </data>
+  <data name="RichTextEditor_DeleteColumn" xml:space="preserve">
+    <value>Удалить столбец"</value>
+  </data>
+  <data name="RichTextEditor_InsertRowBefore" xml:space="preserve">
+    <value>Вставить строку перед</value>
+  </data>
+  <data name="RichTextEditor_InsertRowAfter" xml:space="preserve">
+    <value>Вставить строку после</value>
+  </data>
+  <data name="RichTextEditor_DeleteRow" xml:space="preserve">
+    <value>Удалить строку</value>
+  </data>
+  <data name="RichTextEditor_TableEditHeader" xml:space="preserve">
+    <value>Редактировать таблицу</value>
+  </data>
+  <data name="RichTextEditor_TableHeadingText" xml:space="preserve">
+    <value>Heading</value>
+  </data>
+  <data name="RichTextEditor_TableColText" xml:space="preserve">
+    <value>седло</value>
+  </data>
+  <data name="RichTextEditor_ImageInsertLinkHeader" xml:space="preserve">
+    <value>Вставить ссылку</value>
+  </data>
+  <data name="RichTextEditor_EditImageHeader" xml:space="preserve">
+    <value>Редактировать изображение</value>
+  </data>
+  <data name="RichTextEditor_AlignmentsDropDownLeft" xml:space="preserve">
+    <value>Выровнять по левому краю</value>
+  </data>
+  <data name="RichTextEditor_AlignmentsDropDownCenter" xml:space="preserve">
+    <value>Центр выравнивания</value>
+  </data>
+  <data name="RichTextEditor_AlignmentsDropDownRight" xml:space="preserve">
+    <value>Выровнять право</value>
+  </data>
+  <data name="RichTextEditor_AlignmentsDropDownJustify" xml:space="preserve">
+    <value>Выровнять оправдать</value>
+  </data>
+  <data name="RichTextEditor_ImageDisplayDropDownInline" xml:space="preserve">
+    <value>В соответствии</value>
+  </data>
+  <data name="RichTextEditor_ImageDisplayDropDownBreak" xml:space="preserve">
+    <value>Перемена</value>
+  </data>
+  <data name="RichTextEditor_TableInsertRowDropDownBefore" xml:space="preserve">
+    <value>Вставить строку перед</value>
+  </data>
+  <data name="RichTextEditor_TableInsertRowDropDownAfter" xml:space="preserve">
+    <value>Вставить строку после</value>
+  </data>
+  <data name="RichTextEditor_TableInsertRowDropDownDelete" xml:space="preserve">
+    <value>Удалить строку</value>
+  </data>
+  <data name="RichTextEditor_TableInsertColumnDropDownLeft" xml:space="preserve">
+    <value>Вставить столбец слева</value>
+  </data>
+  <data name="RichTextEditor_TableInsertColumnDropDownRight" xml:space="preserve">
+    <value>Вставить столбец справа</value>
+  </data>
+  <data name="RichTextEditor_TableInsertColumnDropDownDelete" xml:space="preserve">
+    <value>Удалить столбец</value>
+  </data>
+  <data name="RichTextEditor_TableVerticalAlignDropDownTop" xml:space="preserve">
+    <value>Выровнять топ</value>
+  </data>
+  <data name="RichTextEditor_TableVerticalAlignDropDownMiddle" xml:space="preserve">
+    <value>Выровнять по середине</value>
+  </data>
+  <data name="RichTextEditor_TableVerticalAlignDropDownBottom" xml:space="preserve">
+    <value>Выровнять низ</value>
+  </data>
+  <data name="RichTextEditor_TableStylesDropDownDashedBorder" xml:space="preserve">
+    <value>Пунктирные границы</value>
+  </data>
+  <data name="RichTextEditor_TableStylesDropDownAlternateRows" xml:space="preserve">
+    <value>Альтернативные ряды</value>
+  </data>
+  <data name="RichTextEditor_PasteFormat" xml:space="preserve">
+    <value>Вставить формат</value>
+  </data>
+  <data name="RichTextEditor_PasteFormatContent" xml:space="preserve">
+    <value>Выберите действие форматирования</value>
+  </data>
+  <data name="RichTextEditor_PlainText" xml:space="preserve">
+    <value>Простой текст</value>
+  </data>
+  <data name="RichTextEditor_CleanFormat" xml:space="preserve">
+    <value>чистый</value>
+  </data>
+  <data name="RichTextEditor_KeepFormat" xml:space="preserve">
+    <value>Держать</value>
+  </data>
+  <data name="RichTextEditor_PasteDialogOk" xml:space="preserve">
+    <value>Ok</value>
+  </data>
+  <data name="RichTextEditor_PasteDialogCancel" xml:space="preserve">
+    <value>Отмена</value>
+  </data>
+  <data name="DiagramComponent_X" xml:space="preserve">
+    <value>Икс</value>
+  </data>
+  <data name="DiagramComponent_Y" xml:space="preserve">
+    <value>Y</value>
+  </data>
+  <data name="DiagramComponent_W" xml:space="preserve">
+    <value>W</value>
+  </data>
+  <data name="DiagramComponent_H" xml:space="preserve">
+    <value>ЧАС</value>
+  </data>
+  <data name="Diagram_Copy" xml:space="preserve">
+    <value>копия</value>
+  </data>
+  <data name="Diagram_Cut" xml:space="preserve">
+    <value>Резать</value>
+  </data>
+  <data name="Diagram_Group" xml:space="preserve">
+    <value>группа</value>
+  </data>
+  <data name="Diagram_Grouping" xml:space="preserve">
+    <value>Группировка</value>
+  </data>
+  <data name="Diagram_MoveForward" xml:space="preserve">
+    <value>Двигаться вперед</value>
+  </data>
+  <data name="Diagram_Order" xml:space="preserve">
+    <value>порядок</value>
+  </data>
+  <data name="Diagram_Paste" xml:space="preserve">
+    <value>Вставить</value>
+  </data>
+  <data name="Diagram_Redo" xml:space="preserve">
+    <value>Повторить</value>
+  </data>
+  <data name="Diagram_SelectAll" xml:space="preserve">
+    <value>Выбрать все</value>
+  </data>
+  <data name="Diagram_SendBackward" xml:space="preserve">
+    <value>Отправить назад</value>
+  </data>
+  <data name="Diagram_SendToBack" xml:space="preserve">
+    <value>Отправить Вернуться</value>
+  </data>
+  <data name="Diagram_Undo" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="Diagram_UnGroup" xml:space="preserve">
+    <value>разгруппировать</value>
+  </data>
+  <data name="Grid_EmptyRecord" xml:space="preserve">
+    <value>Нет записей для отображения</value>
+  </data>
+  <data name="Grid_True" xml:space="preserve">
+    <value>правда</value>
+  </data>
+  <data name="Grid_False" xml:space="preserve">
+    <value>ложный</value>
+  </data>
+  <data name="Grid_InvalidFilterMessage" xml:space="preserve">
+    <value>Неверные данные фильтра</value>
+  </data>
+  <data name="Grid_GroupDropArea" xml:space="preserve">
+    <value>Перетащите заголовок столбца сюда, чтобы сгруппировать его столбец</value>
+  </data>
+  <data name="Grid_UnGroupButton" xml:space="preserve">
+    <value>Нажмите здесь, чтобы разгруппироваться</value>
+  </data>
+  <data name="Grid_GroupDisable" xml:space="preserve">
+    <value>Группировка отключена для этого столбца</value>
+  </data>
+  <data name="Grid_FilterbarTitle" xml:space="preserve">
+    <value>ячейка фильтра</value>
+  </data>
+  <data name="Grid_EmptyDataSourceError" xml:space="preserve">
+    <value>Источник данных не должен быть пустым при начальной загрузке, поскольку столбцы генерируются из источника данных в AutoGenerate Column Grid</value>
+  </data>
+  <data name="Grid_Add" xml:space="preserve">
+    <value>добавлять</value>
+  </data>
+  <data name="Grid_Edit" xml:space="preserve">
+    <value>редактировать</value>
+  </data>
+  <data name="Grid_Cancel" xml:space="preserve">
+    <value>Отмена</value>
+  </data>
+  <data name="Grid_Update" xml:space="preserve">
+    <value>Обновить</value>
+  </data>
+  <data name="Grid_Delete" xml:space="preserve">
+    <value>удалять</value>
+  </data>
+  <data name="Grid_Print" xml:space="preserve">
+    <value>Распечатать</value>
+  </data>
+  <data name="Grid_Pdfexport" xml:space="preserve">
+    <value>PDF Экспорт</value>
+  </data>
+  <data name="Grid_Excelexport" xml:space="preserve">
+    <value>Экспорт в Excel</value>
+  </data>
+  <data name="Grid_Wordexport" xml:space="preserve">
+    <value>Экспорт слова</value>
+  </data>
+  <data name="Grid_Csvexport" xml:space="preserve">
+    <value>CSV Export</value>
+  </data>
+  <data name="Grid_Search" xml:space="preserve">
+    <value>Поиск</value>
+  </data>
+  <data name="Grid_Columnchooser" xml:space="preserve">
+    <value>Колонны</value>
+  </data>
+  <data name="Grid_Save" xml:space="preserve">
+    <value>Сохранить</value>
+  </data>
+  <data name="Grid_Item" xml:space="preserve">
+    <value>вещь</value>
+  </data>
+  <data name="Grid_Items" xml:space="preserve">
+    <value>Предметы</value>
+  </data>
+  <data name="Grid_EditOperationAlert" xml:space="preserve">
+    <value>Нет записей, выбранных для операции редактирования</value>
+  </data>
+  <data name="Grid_DeleteOperationAlert" xml:space="preserve">
+    <value>Для операции удаления не выбрано ни одной записи</value>
+  </data>
+  <data name="Grid_SaveButton" xml:space="preserve">
+    <value>Сохранить</value>
+  </data>
+  <data name="Grid_OKButton" xml:space="preserve">
+    <value>Ok</value>
+  </data>
+  <data name="Grid_CancelButton" xml:space="preserve">
+    <value>Отмена</value>
+  </data>
+  <data name="Grid_EditFormTitle" xml:space="preserve">
+    <value>Детали</value>
+  </data>
+  <data name="Grid_AddFormTitle" xml:space="preserve">
+    <value>Добавить новую запись</value>
+  </data>
+  <data name="Grid_BatchSaveConfirm" xml:space="preserve">
+    <value>Вы уверены, что хотите сохранить изменения?</value>
+  </data>
+  <data name="Grid_BatchSaveLostChanges" xml:space="preserve">
+    <value>Несохраненные изменения будут потеряны. Вы уверены что хотите продолжить?</value>
+  </data>
+  <data name="Grid_ConfirmDelete" xml:space="preserve">
+    <value>Вы уверены, что хотите удалить запись?</value>
+  </data>
+  <data name="Grid_CancelEdit" xml:space="preserve">
+    <value>Вы уверены, что хотите отменить изменения?</value>
+  </data>
+  <data name="Grid_ChooseColumns" xml:space="preserve">
+    <value>Выберите столбец</value>
+  </data>
+  <data name="Grid_SearchColumns" xml:space="preserve">
+    <value>столбцы поиска</value>
+  </data>
+  <data name="Grid_Matchs" xml:space="preserve">
+    <value>Совпадений не найдено</value>
+  </data>
+  <data name="Grid_FilterButton" xml:space="preserve">
+    <value>Фильтр</value>
+  </data>
+  <data name="Grid_ClearButton" xml:space="preserve">
+    <value>ясно</value>
+  </data>
+  <data name="Grid_StartsWith" xml:space="preserve">
+    <value>Начинается с</value>
+  </data>
+  <data name="Grid_EndsWith" xml:space="preserve">
+    <value>Заканчивается</value>
+  </data>
+  <data name="Grid_Contains" xml:space="preserve">
+    <value>Содержит</value>
+  </data>
+  <data name="Grid_Equal" xml:space="preserve">
+    <value>равных</value>
+  </data>
+  <data name="Grid_NotEqual" xml:space="preserve">
+    <value>Не равный</value>
+  </data>
+  <data name="Grid_LessThan" xml:space="preserve">
+    <value>Меньше, чем</value>
+  </data>
+  <data name="Grid_LessThanOrEqual" xml:space="preserve">
+    <value>Меньше или равно</value>
+  </data>
+  <data name="Grid_GreaterThan" xml:space="preserve">
+    <value>Больше чем</value>
+  </data>
+  <data name="Grid_GreaterThanOrEqual" xml:space="preserve">
+    <value>Больше или равно</value>
+  </data>
+  <data name="Grid_ChooseDate" xml:space="preserve">
+    <value>Выберите дату</value>
+  </data>
+  <data name="Grid_EnterValue" xml:space="preserve">
+    <value>Введите значение</value>
+  </data>
+  <data name="Grid_Copy" xml:space="preserve">
+    <value>копия</value>
+  </data>
+  <data name="Grid_Group" xml:space="preserve">
+    <value>Группировать по этому столбцу</value>
+  </data>
+  <data name="Grid_Ungroup" xml:space="preserve">
+    <value>Разгруппировать по этому столбцу</value>
+  </data>
+  <data name="Grid_AutoFitAll" xml:space="preserve">
+    <value>Авто Подгонка всех столбцов</value>
+  </data>
+  <data name="Grid_AutoFit" xml:space="preserve">
+    <value>Авто Подгонка этой колонки</value>
+  </data>
+  <data name="Grid_Export" xml:space="preserve">
+    <value>экспорт</value>
+  </data>
+  <data name="Grid_FirstPage" xml:space="preserve">
+    <value>Первая страница</value>
+  </data>
+  <data name="Grid_LastPage" xml:space="preserve">
+    <value>Предыдущая страница</value>
+  </data>
+  <data name="Grid_PreviousPage" xml:space="preserve">
+    <value>Предыдущая страница</value>
+  </data>
+  <data name="Grid_NextPage" xml:space="preserve">
+    <value>Следующая Страница</value>
+  </data>
+  <data name="Grid_SortAscending" xml:space="preserve">
+    <value>Сортировать по возрастанию</value>
+  </data>
+  <data name="Grid_SortDescending" xml:space="preserve">
+    <value>Сортировать по убыванию</value>
+  </data>
+  <data name="Grid_EditRecord" xml:space="preserve">
+    <value>Редактировать запись</value>
+  </data>
+  <data name="Grid_DeleteRecord" xml:space="preserve">
+    <value>Удалить запись</value>
+  </data>
+  <data name="Grid_FilterMenu" xml:space="preserve">
+    <value>Фильтр</value>
+  </data>
+  <data name="Grid_SelectAll" xml:space="preserve">
+    <value>Выбрать все</value>
+  </data>
+  <data name="Grid_Blanks" xml:space="preserve">
+    <value>Пробелы</value>
+  </data>
+  <data name="Grid_FilterTrue" xml:space="preserve">
+    <value>Правда</value>
+  </data>
+  <data name="Grid_FilterFalse" xml:space="preserve">
+    <value>Ложь</value>
+  </data>
+  <data name="Grid_NoResult" xml:space="preserve">
+    <value>Совпадений не найдено</value>
+  </data>
+  <data name="Grid_ClearFilter" xml:space="preserve">
+    <value>Очистить фильтр</value>
+  </data>
+  <data name="Grid_NumberFilter" xml:space="preserve">
+    <value>Числовые фильтры</value>
+  </data>
+  <data name="Grid_TextFilter" xml:space="preserve">
+    <value>Текстовые фильтры</value>
+  </data>
+  <data name="Grid_DateFilter" xml:space="preserve">
+    <value>Фильтры даты</value>
+  </data>
+  <data name="Grid_DateTimeFilter" xml:space="preserve">
+    <value>Фильтры DateTime</value>
+  </data>
+  <data name="Grid_MatchCase" xml:space="preserve">
+    <value>Учитывать регистр</value>
+  </data>
+  <data name="Grid_Between" xml:space="preserve">
+    <value>Между</value>
+  </data>
+  <data name="Grid_CustomFilter" xml:space="preserve">
+    <value>Пользовательский фильтр</value>
+  </data>
+  <data name="Grid_CustomFilterPlaceHolder" xml:space="preserve">
+    <value>Введите значение</value>
+  </data>
+  <data name="Grid_CustomFilterDatePlaceHolder" xml:space="preserve">
+    <value>Выберите дату</value>
+  </data>
+  <data name="Grid_AND" xml:space="preserve">
+    <value>И</value>
+  </data>
+  <data name="Grid_OR" xml:space="preserve">
+    <value>ИЛИ</value>
+  </data>
+  <data name="Grid_ShowRowsWhere" xml:space="preserve">
+    <value>Показать строки, где:</value>
+  </data>
+  <data name="Grid_RowSelectionCheckBoxARIA" xml:space="preserve">
+    <value>Флажок строки</value>
+  </data>
+  <data name="Grid_FilterMenuIconARIA" xml:space="preserve">
+    <value>Значок фильтра</value>
+  </data>
+  <data name="Grid_ColumnMenuIconARIA" xml:space="preserve">
+    <value>Значок меню столбца</value>
+  </data>
+  <data name="Grid_GroupButtonARIA" xml:space="preserve">
+    <value>Кнопка группы</value>
+  </data>
+  <data name="Grid_UnGroupButtonARIA" xml:space="preserve">
+    <value>Кнопка разгруппировать</value>
+  </data>
+  <data name="Grid_ColumnHeaderARIA" xml:space="preserve">
+    <value>Заголовок столбца</value>
+  </data>
+  <data name="Grid_FilterCheckboxARIA" xml:space="preserve">
+    <value>Флажок фильтра</value>
+  </data>
+  <data name="Grid_HeaderSelectionCheckBoxARIA" xml:space="preserve">
+    <value>Флажок заголовка</value>
+  </data>
+  <data name="Pager_GotoPageARIA" xml:space="preserve">
+    <value>Перейти на страницу</value>
+  </data>
+  <data name="Pager_CurrentPageInfo" xml:space="preserve">
+    <value>{0} из {1} страниц</value>
+  </data>
+  <data name="Pager_TotalItemsInfo" xml:space="preserve">
+    <value>({0} наименований)</value>
+  </data>
+  <data name="Pager_FirstPageTooltip" xml:space="preserve">
+    <value>Перейти на первую страницу</value>
+  </data>
+  <data name="Pager_LastPageTooltip" xml:space="preserve">
+    <value>Перейти на последнюю страницу</value>
+  </data>
+  <data name="Pager_NextPageTooltip" xml:space="preserve">
+    <value>Перейти на следующую страницу</value>
+  </data>
+  <data name="Pager_PreviousPageTooltip" xml:space="preserve">
+    <value>Перейти на предыдущую страницу</value>
+  </data>
+  <data name="Pager_NextPagerTooltip" xml:space="preserve">
+    <value>Перейти к следующему пейджеру</value>
+  </data>
+  <data name="Pager_PreviousPagerTooltip" xml:space="preserve">
+    <value>Перейти к предыдущему пейджеру</value>
+  </data>
+  <data name="Pager_PagerDropDown" xml:space="preserve">
+    <value>пункты на странице</value>
+  </data>
+  <data name="Pager_PagerAllDropDown" xml:space="preserve">
+    <value>Предметы</value>
+  </data>
+  <data name="Pager_All" xml:space="preserve">
+    <value>Все</value>
+  </data>
+  <data name="RecurrenceEditor_Count" xml:space="preserve">
+    <value>подсчитывать</value>
+  </data>
+  <data name="RecurrenceEditor_Daily" xml:space="preserve">
+    <value>Ежедневно</value>
+  </data>
+  <data name="RecurrenceEditor_Days" xml:space="preserve">
+    <value>День (ы)</value>
+  </data>
+  <data name="RecurrenceEditor_End" xml:space="preserve">
+    <value>Конец</value>
+  </data>
+  <data name="RecurrenceEditor_Every" xml:space="preserve">
+    <value>каждый</value>
+  </data>
+  <data name="RecurrenceEditor_First" xml:space="preserve">
+    <value>Первый</value>
+  </data>
+  <data name="RecurrenceEditor_Fourth" xml:space="preserve">
+    <value>четвертый</value>
+  </data>
+  <data name="RecurrenceEditor_Last" xml:space="preserve">
+    <value>Последний</value>
+  </data>
+  <data name="RecurrenceEditor_Month" xml:space="preserve">
+    <value>Месяц</value>
+  </data>
+  <data name="RecurrenceEditor_MonthExpander" xml:space="preserve">
+    <value>Расширитель месяца</value>
+  </data>
+  <data name="RecurrenceEditor_Monthly" xml:space="preserve">
+    <value>ежемесячно</value>
+  </data>
+  <data name="RecurrenceEditor_MonthPosition" xml:space="preserve">
+    <value>Позиция месяца</value>
+  </data>
+  <data name="RecurrenceEditor_Months" xml:space="preserve">
+    <value>Месяцы)</value>
+  </data>
+  <data name="RecurrenceEditor_MonthWeek" xml:space="preserve">
+    <value>Месяц неделя</value>
+  </data>
+  <data name="RecurrenceEditor_Never" xml:space="preserve">
+    <value>Никогда</value>
+  </data>
+  <data name="RecurrenceEditor_None" xml:space="preserve">
+    <value>Никто</value>
+  </data>
+  <data name="RecurrenceEditor_On" xml:space="preserve">
+    <value>Повторить на</value>
+  </data>
+  <data name="RecurrenceEditor_OnDay" xml:space="preserve">
+    <value>День</value>
+  </data>
+  <data name="RecurrenceEditor_Repeat" xml:space="preserve">
+    <value>Повторение</value>
+  </data>
+  <data name="RecurrenceEditor_RepeatEvery" xml:space="preserve">
+    <value>Повторите каждый</value>
+  </data>
+  <data name="RecurrenceEditor_RepeatInterval" xml:space="preserve">
+    <value>Повторить интервал</value>
+  </data>
+  <data name="RecurrenceEditor_Second" xml:space="preserve">
+    <value>второй</value>
+  </data>
+  <data name="RecurrenceEditor_SummaryDay" xml:space="preserve">
+    <value>день (ей)</value>
+  </data>
+  <data name="RecurrenceEditor_SummaryMonth" xml:space="preserve">
+    <value>месяцы)</value>
+  </data>
+  <data name="RecurrenceEditor_SummaryOn" xml:space="preserve">
+    <value>на</value>
+  </data>
+  <data name="RecurrenceEditor_SummaryRepeat" xml:space="preserve">
+    <value>Повторы</value>
+  </data>
+  <data name="RecurrenceEditor_SummaryTimes" xml:space="preserve">
+    <value>Время (ы)</value>
+  </data>
+  <data name="RecurrenceEditor_SummaryUntil" xml:space="preserve">
+    <value>до того как</value>
+  </data>
+  <data name="RecurrenceEditor_SummaryWeek" xml:space="preserve">
+    <value>неделя (s)</value>
+  </data>
+  <data name="RecurrenceEditor_SummaryYear" xml:space="preserve">
+    <value>год (лет)</value>
+  </data>
+  <data name="RecurrenceEditor_Third" xml:space="preserve">
+    <value>Третий</value>
+  </data>
+  <data name="RecurrenceEditor_Until" xml:space="preserve">
+    <value>До того как</value>
+  </data>
+  <data name="RecurrenceEditor_Weekly" xml:space="preserve">
+    <value>еженедельно</value>
+  </data>
+  <data name="RecurrenceEditor_Weeks" xml:space="preserve">
+    <value>Неделя (ы)</value>
+  </data>
+  <data name="RecurrenceEditor_YearExpander" xml:space="preserve">
+    <value>Год расширитель</value>
+  </data>
+  <data name="RecurrenceEditor_Yearly" xml:space="preserve">
+    <value>каждый год</value>
+  </data>
+  <data name="RecurrenceEditor_Years" xml:space="preserve">
+    <value>Год (ы)</value>
+  </data>
+  <data name="Schedule_AddTitle" xml:space="preserve">
+    <value>Добавить заголовок</value>
+  </data>
+  <data name="Schedule_Agenda" xml:space="preserve">
+    <value>Повестка дня</value>
+  </data>
+  <data name="Schedule_Alert" xml:space="preserve">
+    <value>бдительный</value>
+  </data>
+  <data name="Schedule_AllDay" xml:space="preserve">
+    <value>Весь день</value>
+  </data>
+  <data name="Schedule_BeginFrom" xml:space="preserve">
+    <value>Начать с</value>
+  </data>
+  <data name="Schedule_BlockAlert" xml:space="preserve">
+    <value>События не могут быть запланированы в течение заблокированного периода времени.</value>
+  </data>
+  <data name="Schedule_Cancel" xml:space="preserve">
+    <value>Отмена</value>
+  </data>
+  <data name="Schedule_CancelButton" xml:space="preserve">
+    <value>Отмена</value>
+  </data>
+  <data name="Schedule_Close" xml:space="preserve">
+    <value>близко</value>
+  </data>
+  <data name="Schedule_CreateError" xml:space="preserve">
+    <value>Продолжительность события должна быть короче, чем часто. Сократите продолжительность или измените шаблон повторения в редакторе событий повторения.</value>
+  </data>
+  <data name="Schedule_CreateEvent" xml:space="preserve">
+    <value>Создайте</value>
+  </data>
+  <data name="Schedule_Day" xml:space="preserve">
+    <value>День</value>
+  </data>
+  <data name="Schedule_Delete" xml:space="preserve">
+    <value>удалять</value>
+  </data>
+  <data name="Schedule_DeleteButton" xml:space="preserve">
+    <value>удалять</value>
+  </data>
+  <data name="Schedule_DeleteContent" xml:space="preserve">
+    <value>Вы уверены, что хотите удалить это событие?</value>
+  </data>
+  <data name="Schedule_DeleteEvent" xml:space="preserve">
+    <value>Это событие</value>
+  </data>
+  <data name="Schedule_DeleteMultipleContent" xml:space="preserve">
+    <value>Вы уверены, что хотите удалить выбранные события?</value>
+  </data>
+  <data name="Schedule_DeleteMultipleEvent" xml:space="preserve">
+    <value>Удалить несколько событий</value>
+  </data>
+  <data name="Schedule_DeleteSeries" xml:space="preserve">
+    <value>Вся серия</value>
+  </data>
+  <data name="Schedule_DeleteTitle" xml:space="preserve">
+    <value>Удалить событие</value>
+  </data>
+  <data name="Schedule_Description" xml:space="preserve">
+    <value>Описание</value>
+  </data>
+  <data name="Schedule_Edit" xml:space="preserve">
+    <value>редактировать</value>
+  </data>
+  <data name="Schedule_EditContent" xml:space="preserve">
+    <value>Как бы вы хотели изменить назначение в серии?</value>
+  </data>
+  <data name="Schedule_EditEvent" xml:space="preserve">
+    <value>Это событие</value>
+  </data>
+  <data name="Schedule_EditFollowingEvent" xml:space="preserve">
+    <value>Следующие события</value>
+  </data>
+  <data name="Schedule_EditRecurrence" xml:space="preserve">
+    <value>Редактировать повторение</value>
+  </data>
+  <data name="Schedule_EditSeries" xml:space="preserve">
+    <value>Вся серия</value>
+  </data>
+  <data name="Schedule_EditTitle" xml:space="preserve">
+    <value>Изменить событие</value>
+  </data>
+  <data name="Schedule_EmptyContainer" xml:space="preserve">
+    <value>На этот день нет запланированных событий.</value>
+  </data>
+  <data name="Schedule_End" xml:space="preserve">
+    <value>Конец</value>
+  </data>
+  <data name="Schedule_EndTime" xml:space="preserve">
+    <value>Время окончания</value>
+  </data>
+  <data name="Schedule_EndAt" xml:space="preserve">
+    <value>Конец в</value>
+  </data>
+  <data name="Schedule_EndTimezone" xml:space="preserve">
+    <value>Конечный часовой пояс</value>
+  </data>
+  <data name="Schedule_InvalidDateError" xml:space="preserve">
+    <value>Введенное значение даты недействительно.</value>
+  </data>
+  <data name="Schedule_Location" xml:space="preserve">
+    <value>Место расположения</value>
+  </data>
+  <data name="Schedule_LookForMore" xml:space="preserve">
+    <value>Ищите больше</value>
+  </data>
+  <data name="Schedule_Month" xml:space="preserve">
+    <value>Месяц</value>
+  </data>
+  <data name="Schedule_MonthAgenda" xml:space="preserve">
+    <value>Повестка дня</value>
+  </data>
+  <data name="Schedule_More" xml:space="preserve">
+    <value>Больше</value>
+  </data>
+  <data name="Schedule_MoreDetails" xml:space="preserve">
+    <value>Подробнее</value>
+  </data>
+  <data name="Schedule_NewEvent" xml:space="preserve">
+    <value>Новое событие</value>
+  </data>
+  <data name="Schedule_next" xml:space="preserve">
+    <value>следующий</value>
+  </data>
+  <data name="Schedule_No" xml:space="preserve">
+    <value>нет</value>
+  </data>
+  <data name="Schedule_NoEvents" xml:space="preserve">
+    <value>Нет событий</value>
+  </data>
+  <data name="Schedule_NoRecords" xml:space="preserve">
+    <value>Нет записей</value>
+  </data>
+  <data name="Schedule_NoTitle" xml:space="preserve">
+    <value>(Без заголовка)</value>
+  </data>
+  <data name="Schedule_Occurrence" xml:space="preserve">
+    <value>Вхождение</value>
+  </data>
+  <data name="Schedule_Ok" xml:space="preserve">
+    <value>Ok</value>
+  </data>
+  <data name="Schedule_Previous" xml:space="preserve">
+    <value>предыдущий</value>
+  </data>
+  <data name="Schedule_Recurrence" xml:space="preserve">
+    <value>рекуррентность</value>
+  </data>
+  <data name="Schedule_Repeat" xml:space="preserve">
+    <value>Повторение</value>
+  </data>
+  <data name="Schedule_Repeats" xml:space="preserve">
+    <value>Повторы</value>
+  </data>
+  <data name="Schedule_SameDayAlert" xml:space="preserve">
+    <value>Два события одного и того же события не могут происходить в один и тот же день.</value>
+  </data>
+  <data name="Schedule_Save" xml:space="preserve">
+    <value>Сохранить</value>
+  </data>
+  <data name="Schedule_SaveButton" xml:space="preserve">
+    <value>Сохранить</value>
+  </data>
+  <data name="Schedule_SelectedItems" xml:space="preserve">
+    <value>Предметы выбраны</value>
+  </data>
+  <data name="Schedule_SearchTimezone" xml:space="preserve">
+    <value>Часовой пояс поиска</value>
+  </data>
+  <data name="Schedule_Series" xml:space="preserve">
+    <value>Серии</value>
+  </data>
+  <data name="Schedule_SeriesChangeAlert" xml:space="preserve">
+    <value>Хотите отменить изменения, внесенные в конкретные экземпляры этой серии, и снова сопоставить их со всей серией?</value>
+  </data>
+  <data name="Schedule_ShowingEventsUntil" xml:space="preserve">
+    <value>Показаны события до</value>
+  </data>
+  <data name="Schedule_Start" xml:space="preserve">
+    <value>Начало</value>
+  </data>
+  <data name="Schedule_StartTime" xml:space="preserve">
+    <value>Начальное время</value>
+  </data>
+  <data name="Schedule_StartEndError" xml:space="preserve">
+    <value>Выбранная дата окончания наступает раньше даты начала.</value>
+  </data>
+  <data name="Schedule_StartTimezone" xml:space="preserve">
+    <value>Начать часовой пояс</value>
+  </data>
+  <data name="Schedule_Subject" xml:space="preserve">
+    <value>Предмет</value>
+  </data>
+  <data name="Schedule_TimelineDay" xml:space="preserve">
+    <value>График дня</value>
+  </data>
+  <data name="Schedule_TimelineMonth" xml:space="preserve">
+    <value>График месяца</value>
+  </data>
+  <data name="Schedule_TimelineWeek" xml:space="preserve">
+    <value>Хронология Неделя</value>
+  </data>
+  <data name="Schedule_TimelineWorkWeek" xml:space="preserve">
+    <value>График рабочей недели</value>
+  </data>
+  <data name="Schedule_TimelineYear" xml:space="preserve">
+    <value>Хронология Год</value>
+  </data>
+  <data name="Schedule_Timezone" xml:space="preserve">
+    <value>Часовой пояс</value>
+  </data>
+  <data name="Schedule_Title" xml:space="preserve">
+    <value>заглавие</value>
+  </data>
+  <data name="Schedule_Today" xml:space="preserve">
+    <value>сегодня</value>
+  </data>
+  <data name="Schedule_Week" xml:space="preserve">
+    <value>Неделя</value>
+  </data>
+  <data name="Schedule_WeekAgenda" xml:space="preserve">
+    <value>Программа недели</value>
+  </data>
+  <data name="Schedule_WorkWeek" xml:space="preserve">
+    <value>Рабочая неделя</value>
+  </data>
+  <data name="Schedule_WorkWeekAgenda" xml:space="preserve">
+    <value>Программа рабочей недели</value>
+  </data>
+  <data name="Schedule_WrongPattern" xml:space="preserve">
+    <value>Шаблон повторения недопустим.</value>
+  </data>
+  <data name="Schedule_Yes" xml:space="preserve">
+    <value>да</value>
+  </data>
+  <data name="Schedule_Year" xml:space="preserve">
+    <value>Год</value>
+  </data>
+  <data name="Tab_CloseButtonTitle" xml:space="preserve">
+    <value>близко</value>
+  </data>
+  <data name="Carousel_PreviousSlide" xml:space="preserve">
+    <value>Предыдущий слайд</value>
+  </data>
+  <data name="Carousel_NextSlide" xml:space="preserve">
+    <value>Следующий слайд</value>
+  </data>
+  <data name="Carousel_Slide" xml:space="preserve">
+    <value>Горка</value>
+  </data>
+  <data name="Carousel_Of" xml:space="preserve">
+    <value>из</value>
+  </data>
+  <data name="Carousel_PlaySlide" xml:space="preserve">
+    <value>Остановить автоматическую анимацию</value>
+  </data>
+  <data name="Carousel_PauseSlide" xml:space="preserve">
+    <value>Запустить автоматическую анимацию</value>
+  </data>
+  <data name="Carousel_SlideShow" xml:space="preserve">
+    <value>слайд-шоу</value>
+  </data>
+  <data name="PdfViewer" xml:space="preserve">
+    <value>PDF Viewer</value>
+  </data>
+  <data name="PdfViewer_Cancel" xml:space="preserve">
+    <value>Отмена</value>
+  </data>
+  <data name="PdfViewer_DownloadFile" xml:space="preserve">
+    <value>Загрузить файл</value>
+  </data>
+  <data name="PdfViewer_Download" xml:space="preserve">
+    <value>Скачать</value>
+  </data>
+  <data name="PdfViewer_EnterPassword" xml:space="preserve">
+    <value>Этот документ защищен паролем. Пожалуйста, введите пароль.</value>
+  </data>
+  <data name="PdfViewer_FileCorrupted" xml:space="preserve">
+    <value>Файл поврежден</value>
+  </data>
+  <data name="PdfViewer_FileCorruptedContent" xml:space="preserve">
+    <value>Файл поврежден и не может быть открыт.</value>
+  </data>
+  <data name="PdfViewer_FitPage" xml:space="preserve">
+    <value>Fit Page</value>
+  </data>
+  <data name="PdfViewer_FitWidth" xml:space="preserve">
+    <value>Подходит ширина</value>
+  </data>
+  <data name="PdfViewer_Automatic" xml:space="preserve">
+    <value>автоматическая</value>
+  </data>
+  <data name="PdfViewer_GoToFirstPage" xml:space="preserve">
+    <value>Показать первую страницу</value>
+  </data>
+  <data name="PdfViewer_InvalidPassword" xml:space="preserve">
+    <value>Неверный пароль. Пожалуйста, попробуйте еще раз.</value>
+  </data>
+  <data name="PdfViewer_NextPage" xml:space="preserve">
+    <value>Показать следующую страницу</value>
+  </data>
+  <data name="PdfViewer_PreviousPage" xml:space="preserve">
+    <value>Показать предыдущую страницу</value>
+  </data>
+  <data name="PdfViewer_OK" xml:space="preserve">
+    <value>Хорошо</value>
+  </data>
+  <data name="PdfViewer_Open" xml:space="preserve">
+    <value>Открыть файл</value>
+  </data>
+  <data name="PdfViewer_PageNumber" xml:space="preserve">
+    <value>Номер текущей страницы</value>
+  </data>
+  <data name="PdfViewer_GoToLastPage" xml:space="preserve">
+    <value>Показать последнюю страницу</value>
+  </data>
+  <data name="PdfViewer_Zoom" xml:space="preserve">
+    <value>Увеличить</value>
+  </data>
+  <data name="PdfViewer_ZoomIn" xml:space="preserve">
+    <value>Приблизить</value>
+  </data>
+  <data name="PdfViewer_ZoomOut" xml:space="preserve">
+    <value>Уменьшить</value>
+  </data>
+  <data name="PdfViewer_PageThumbnails" xml:space="preserve">
+    <value>Миниатюры страниц</value>
+  </data>
+  <data name="PdfViewer_Bookmarks" xml:space="preserve">
+    <value>закладки</value>
+  </data>
+  <data name="PdfViewer_Print" xml:space="preserve">
+    <value>Распечатать файл</value>
+  </data>
+  <data name="PdfViewer_PasswordProtected" xml:space="preserve">
+    <value>Требуется пароль</value>
+  </data>
+  <data name="PdfViewer_Copy" xml:space="preserve">
+    <value>копия</value>
+  </data>
+  <data name="PdfViewer_TextSelection" xml:space="preserve">
+    <value>Инструмент выделения текста</value>
+  </data>
+  <data name="PdfViewer_Panning" xml:space="preserve">
+    <value>Режим панорамирования</value>
+  </data>
+  <data name="PdfViewer_TextSearch" xml:space="preserve">
+    <value>Найти текст</value>
+  </data>
+  <data name="PdfViewer_Findindocument" xml:space="preserve">
+    <value>Найти в документе</value>
+  </data>
+  <data name="PdfViewer_Matchcase" xml:space="preserve">
+    <value>Учитывать регистр</value>
+  </data>
+  <data name="PdfViewer_Apply" xml:space="preserve">
+    <value>Применять</value>
+  </data>
+  <data name="PdfViewer_GoToPage" xml:space="preserve">
+    <value>Перейти на страницу</value>
+  </data>
+  <data name="PdfViewer_Nomatches" xml:space="preserve">
+    <value>Зритель завершил поиск документа. Больше совпадений не найдено</value>
+  </data>
+  <data name="PdfViewer_NoTextFound" xml:space="preserve">
+    <value>Текст не найден</value>
+  </data>
+  <data name="PdfViewer_Undo" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="PdfViewer_Redo" xml:space="preserve">
+    <value>Redo</value>
+  </data>
+  <data name="PdfViewer_Annotation" xml:space="preserve">
+    <value>Добавить или редактировать аннотации</value>
+  </data>
+  <data name="PdfViewer_Highlight" xml:space="preserve">
+    <value>Выделите текст</value>
+  </data>
+  <data name="PdfViewer_Underline" xml:space="preserve">
+    <value>Подчеркнуть текст</value>
+  </data>
+  <data name="PdfViewer_Strikethrough" xml:space="preserve">
+    <value>Зачеркнутый текст</value>
+  </data>
+  <data name="PdfViewer_Delete" xml:space="preserve">
+    <value>Удалить аннотацию</value>
+  </data>
+  <data name="PdfViewer_Opacity" xml:space="preserve">
+    <value>помутнение</value>
+  </data>
+  <data name="PdfViewer_ColorEdit" xml:space="preserve">
+    <value>Изменить цвет</value>
+  </data>
+  <data name="PdfViewer_OpacityEdit" xml:space="preserve">
+    <value>Изменить непрозрачность</value>
+  </data>
+  <data name="PdfViewer_HighlightContext" xml:space="preserve">
+    <value>основной момент</value>
+  </data>
+  <data name="PdfViewer_UnderlineContext" xml:space="preserve">
+    <value>Подчеркнутый</value>
+  </data>
+  <data name="PdfViewer_StrikethroughContext" xml:space="preserve">
+    <value>Прорваться через</value>
+  </data>
+  <data name="PdfViewer_Servererror" xml:space="preserve">
+    <value>Веб-сервис не слушает. PDF Viewer зависит от веб-сервиса для всех его возможностей. Пожалуйста, запустите веб-сервис, чтобы продолжить.</value>
+  </data>
+  <data name="PdfViewer_Clienterror" xml:space="preserve">
+    <value>Обнаружена ошибка на стороне клиента. Проверьте пользовательские заголовки, предоставленные в свойстве AjaxRequestSettings, и методы веб-действий в свойстве ServerActionSettings.</value>
+  </data>
+  <data name="PdfViewer_OpenText" xml:space="preserve">
+    <value>открыто</value>
+  </data>
+  <data name="PdfViewer_FirstText" xml:space="preserve">
+    <value>Первая страница</value>
+  </data>
+  <data name="PdfViewer_PreviousText" xml:space="preserve">
+    <value>Предыдущая страница</value>
+  </data>
+  <data name="PdfViewer_NextText" xml:space="preserve">
+    <value>Следующая Страница</value>
+  </data>
+  <data name="PdfViewer_LastText" xml:space="preserve">
+    <value>Предыдущая страница</value>
+  </data>
+  <data name="PdfViewer_ZoomInText" xml:space="preserve">
+    <value>Приблизить</value>
+  </data>
+  <data name="PdfViewer_ZoomOutText" xml:space="preserve">
+    <value>Уменьшить</value>
+  </data>
+  <data name="PdfViewer_SelectionText" xml:space="preserve">
+    <value>выбор</value>
+  </data>
+  <data name="PdfViewer_PanText" xml:space="preserve">
+    <value>Сковорода</value>
+  </data>
+  <data name="PdfViewer_PrintText" xml:space="preserve">
+    <value>Распечатать</value>
+  </data>
+  <data name="PdfViewer_SearchText" xml:space="preserve">
+    <value>Поиск</value>
+  </data>
+  <data name="PdfViewer_AnnotationEditText" xml:space="preserve">
+    <value>Редактировать аннотацию</value>
+  </data>
+  <data name="PdfViewer_LineThickness" xml:space="preserve">
+    <value>Толщина линии</value>
+  </data>
+  <data name="PdfViewer_LineProperties" xml:space="preserve">
+    <value>Свойства линии</value>
+  </data>
+  <data name="PdfViewer_StartArrow" xml:space="preserve">
+    <value>Стрелка</value>
+  </data>
+  <data name="PdfViewer_EndArrow" xml:space="preserve">
+    <value>Конец Стрелка</value>
+  </data>
+  <data name="PdfViewer_LineStyle" xml:space="preserve">
+    <value>Стиль линии</value>
+  </data>
+  <data name="PdfViewer_FillColor" xml:space="preserve">
+    <value>Цвет заливки</value>
+  </data>
+  <data name="PdfViewer_LineColor" xml:space="preserve">
+    <value>Цвет линии</value>
+  </data>
+  <data name="PdfViewer_None" xml:space="preserve">
+    <value>Никто</value>
+  </data>
+  <data name="PdfViewer_OpenArrow" xml:space="preserve">
+    <value>Открытая стрелка</value>
+  </data>
+  <data name="PdfViewer_ClosedArrow" xml:space="preserve">
+    <value>Закрытая стрелка</value>
+  </data>
+  <data name="PdfViewer_RoundArrow" xml:space="preserve">
+    <value>Круглая стрелка</value>
+  </data>
+  <data name="PdfViewer_SquareArrow" xml:space="preserve">
+    <value>Квадратная стрелка</value>
+  </data>
+  <data name="PdfViewer_DiamondArrow" xml:space="preserve">
+    <value>Алмазная стрела</value>
+  </data>
+  <data name="PdfViewer_Cut" xml:space="preserve">
+    <value>Резать</value>
+  </data>
+  <data name="PdfViewer_Paste" xml:space="preserve">
+    <value>Вставить</value>
+  </data>
+  <data name="PdfViewer_DeleteContext" xml:space="preserve">
+    <value>удалять</value>
+  </data>
+  <data name="PdfViewer_Properties" xml:space="preserve">
+    <value>свойства</value>
+  </data>
+  <data name="PdfViewer_AddStamp" xml:space="preserve">
+    <value>Добавить штамп</value>
+  </data>
+  <data name="PdfViewer_AddShapes" xml:space="preserve">
+    <value>Добавить фигуры</value>
+  </data>
+  <data name="PdfViewer_StrokeEdit" xml:space="preserve">
+    <value>Изменить цвет обводки</value>
+  </data>
+  <data name="PdfViewer_ChangeThickness" xml:space="preserve">
+    <value>Изменить толщину границы</value>
+  </data>
+  <data name="PdfViewer_Addline" xml:space="preserve">
+    <value>Добавить строку</value>
+  </data>
+  <data name="PdfViewer_AddArrow" xml:space="preserve">
+    <value>Добавить стрелку</value>
+  </data>
+  <data name="PdfViewer_AddRectangle" xml:space="preserve">
+    <value>Добавить прямоугольник</value>
+  </data>
+  <data name="PdfViewer_AddCircle" xml:space="preserve">
+    <value>Добавить круг</value>
+  </data>
+  <data name="PdfViewer_AddPolygon" xml:space="preserve">
+    <value>Добавить полигон</value>
+  </data>
+  <data name="PdfViewer_AddComments" xml:space="preserve">
+    <value>Добавить комментарии</value>
+  </data>
+  <data name="PdfViewer_Comments" xml:space="preserve">
+    <value>Комментарии</value>
+  </data>
+  <data name="PdfViewer_NoCommentsYet" xml:space="preserve">
+    <value>Пока без коментариев</value>
+  </data>
+  <data name="PdfViewer_Accepted" xml:space="preserve">
+    <value>Принятый</value>
+  </data>
+  <data name="PdfViewer_Completed" xml:space="preserve">
+    <value>Завершенный</value>
+  </data>
+  <data name="PdfViewer_Cancelled" xml:space="preserve">
+    <value>отменен</value>
+  </data>
+  <data name="PdfViewer_Rejected" xml:space="preserve">
+    <value>Отклонено</value>
+  </data>
+  <data name="PdfViewer_LeaderLength" xml:space="preserve">
+    <value>Длина лидера</value>
+  </data>
+  <data name="PdfViewer_ScaleRatio" xml:space="preserve">
+    <value>Коэффициент масштабирования</value>
+  </data>
+  <data name="PdfViewer_Calibrate" xml:space="preserve">
+    <value>Калибровка</value>
+  </data>
+  <data name="PdfViewer_CalibrateDistance" xml:space="preserve">
+    <value>Калибровать расстояние</value>
+  </data>
+  <data name="PdfViewer_CalibratePerimeter" xml:space="preserve">
+    <value>Калибровать Периметр</value>
+  </data>
+  <data name="PdfViewer_CalibrateArea" xml:space="preserve">
+    <value>Калибровать площадь</value>
+  </data>
+  <data name="PdfViewer_CalibrateRadius" xml:space="preserve">
+    <value>Калибровать радиус</value>
+  </data>
+  <data name="PdfViewer_CalibrateVolume" xml:space="preserve">
+    <value>Калибровать громкость</value>
+  </data>
+  <data name="PdfViewer_Depth" xml:space="preserve">
+    <value>глубина</value>
+  </data>
+  <data name="PdfViewer_Closed" xml:space="preserve">
+    <value>Закрыто</value>
+  </data>
+  <data name="PdfViewer_Round" xml:space="preserve">
+    <value>Круглый</value>
+  </data>
+  <data name="PdfViewer_Square" xml:space="preserve">
+    <value>Квадрат</value>
+  </data>
+  <data name="PdfViewer_Diamond" xml:space="preserve">
+    <value>ромб</value>
+  </data>
+  <data name="PdfViewer_Edit" xml:space="preserve">
+    <value>редактировать</value>
+  </data>
+  <data name="PdfViewer_Comment" xml:space="preserve">
+    <value>Комментарий</value>
+  </data>
+  <data name="PdfViewer_CommentPanel" xml:space="preserve">
+    <value>Панель комментариев</value>
+  </data>
+  <data name="PdfViewer_SetStatus" xml:space="preserve">
+    <value>Установить статус</value>
+  </data>
+  <data name="PdfViewer_Post" xml:space="preserve">
+    <value>После</value>
+  </data>
+  <data name="PdfViewer_Page" xml:space="preserve">
+    <value>страница</value>
+  </data>
+  <data name="PdfViewer_AddComment" xml:space="preserve">
+    <value>Добавить комментарий</value>
+  </data>
+  <data name="PdfViewer_AddReply" xml:space="preserve">
+    <value>Добавить ответ</value>
+  </data>
+  <data name="PdfViewer_ImportAnnotations" xml:space="preserve">
+    <value>Импорт аннотаций</value>
+  </data>
+  <data name="PdfViewer_ExportAnnotations" xml:space="preserve">
+    <value>Экспортные аннотации</value>
+  </data>
+  <data name="PdfViewer_Add" xml:space="preserve">
+    <value>Добавить</value>
+  </data>
+  <data name="PdfViewer_Clear" xml:space="preserve">
+    <value>Очистить</value>
+  </data>
+  <data name="PdfViewer_Bold" xml:space="preserve">
+    <value>Смелый</value>
+  </data>
+  <data name="PdfViewer_Italic" xml:space="preserve">
+    <value>курсивный</value>
+  </data>
+  <data name="PdfViewer_Strikethroughs" xml:space="preserve">
+    <value>Зачеркнутый</value>
+  </data>
+  <data name="PdfViewer_Underlines" xml:space="preserve">
+    <value>подчеркивает</value>
+  </data>
+  <data name="PdfViewer_Superscript" xml:space="preserve">
+    <value>верхний индекс</value>
+  </data>
+  <data name="PdfViewer_Subscript" xml:space="preserve">
+    <value>индекс</value>
+  </data>
+  <data name="PdfViewer_AlignLeft" xml:space="preserve">
+    <value>Выровнять по левому краю</value>
+  </data>
+  <data name="PdfViewer_AlignRight" xml:space="preserve">
+    <value>Выровнять право</value>
+  </data>
+  <data name="PdfViewer_Center" xml:space="preserve">
+    <value>Центр</value>
+  </data>
+  <data name="PdfViewer_Justify" xml:space="preserve">
+    <value>обосновывать</value>
+  </data>
+  <data name="PdfViewer_FontColor" xml:space="preserve">
+    <value>Цвет шрифта</value>
+  </data>
+  <data name="PdfViewer_TextAlign" xml:space="preserve">
+    <value>Выровнять текст</value>
+  </data>
+  <data name="PdfViewer_TextProperties" xml:space="preserve">
+    <value>Стиль шрифта</value>
+  </data>
+  <data name="PdfViewer_DrawSignature" xml:space="preserve">
+    <value>Draw Signature</value>
+  </data>
+  <data name="PdfViewer_Create" xml:space="preserve">
+    <value>Создайте</value>
+  </data>
+  <data name="PdfViewer_FontFamily" xml:space="preserve">
+    <value>Семейство шрифтов</value>
+  </data>
+  <data name="PdfViewer_FontSize" xml:space="preserve">
+    <value>Размер шрифта</value>
+  </data>
+  <data name="PdfViewer_FreeText" xml:space="preserve">
+    <value>Открытый текст</value>
+  </data>
+  <data name="PdfViewer_ImportFailed" xml:space="preserve">
+    <value>Неверный тип файла JSON или имя файла; пожалуйста, выберите правильный файл JSON</value>
+  </data>
+  <data name="PdfViewer_FileNotFound" xml:space="preserve">
+    <value>Импортированный файл JSON не найден в нужном месте</value>
+  </data>
+  <data name="PdfViewer_ExportFailed" xml:space="preserve">
+    <value>Действие экспорта аннотаций не выполнено; пожалуйста, убедитесь, что аннотации добавлены правильно</value>
+  </data>
+  <data name="PdfViewer_Draw_hand_Signature" xml:space="preserve">
+    <value>РИСОВАТЬ</value>
+  </data>
+  <data name="PdfViewer_Type_Signature" xml:space="preserve">
+    <value>ТИП</value>
+  </data>
+  <data name="PdfViewer_Upload_Signature" xml:space="preserve">
+    <value>ЗАГРУЗИТЬ</value>
+  </data>
+  <data name="PdfViewer_Browse_Signature_Image" xml:space="preserve">
+    <value>ПРОСМАТРИВАТЬ</value>
+  </data>
+  <data name="PdfViewer_Save_Signature" xml:space="preserve">
+    <value>Сохранить подпись</value>
+  </data>
+  <data name="PdfViewer_Enter_Signature_as_Name" xml:space="preserve">
+    <value>Введите ваше имя</value>
+  </data>
+  <data name="PdfViewer_Dynamic" xml:space="preserve">
+    <value>Динамический</value>
+  </data>
+  <data name="PdfViewer_StandardBusiness" xml:space="preserve">
+    <value>Стандартный бизнес</value>
+  </data>
+  <data name="PdfViewer_CustomStamp" xml:space="preserve">
+    <value>Пользовательский штамп</value>
+  </data>
+  <data name="PdfViewer_Revised" xml:space="preserve">
+    <value>Пересмотрено</value>
+  </data>
+  <data name="PdfViewer_Reviewed" xml:space="preserve">
+    <value>Проверено</value>
+  </data>
+  <data name="PdfViewer_Received" xml:space="preserve">
+    <value>Полученный</value>
+  </data>
+  <data name="PdfViewer_Approved" xml:space="preserve">
+    <value>Одобренный</value>
+  </data>
+  <data name="PdfViewer_Confidential" xml:space="preserve">
+    <value>Конфиденциально</value>
+  </data>
+  <data name="PdfViewer_NotApproved" xml:space="preserve">
+    <value>Не одобрено</value>
+  </data>
+  <data name="PdfViewer_Witness" xml:space="preserve">
+    <value>Свидетель</value>
+  </data>
+  <data name="PdfViewer_InitialHere" xml:space="preserve">
+    <value>Начальный здесь</value>
+  </data>
+  <data name="PdfViewer_SignHere" xml:space="preserve">
+    <value>Подпишите здесь</value>
+  </data>
+  <data name="PdfViewer_Draft" xml:space="preserve">
+    <value>Проект</value>
+  </data>
+  <data name="PdfViewer_Final" xml:space="preserve">
+    <value>Финал</value>
+  </data>
+  <data name="PdfViewer_ForPublicRelease" xml:space="preserve">
+    <value>Для публичного выпуска</value>
+  </data>
+  <data name="PdfViewer_NotForPublicRelease" xml:space="preserve">
+    <value>Не для публичного выпуска</value>
+  </data>
+  <data name="PdfViewer_ForComment" xml:space="preserve">
+    <value>Для комментариев</value>
+  </data>
+  <data name="PdfViewer_Void" xml:space="preserve">
+    <value>Пустота</value>
+  </data>
+  <data name="PdfViewer_PreliminaryResults" xml:space="preserve">
+    <value>Предварительные результаты</value>
+  </data>
+  <data name="PdfViewer_InformationOnly" xml:space="preserve">
+    <value>Только информация</value>
+  </data>
+  <data name="PdfViewer_SubmitForm" xml:space="preserve">
+    <value>Представить форму</value>
+  </data>
+  <data name="PdfViewer_Required_ServiceUrl_Error_Message" xml:space="preserve">
+    <value>Это средство просмотра PDF требует обработки на стороне сервера для отображения файлов PDF через веб-службу. Чтобы продолжить работу с программой просмотра PDF, необходимо настроить URL-адрес службы</value>
+  </data>
+  <data name="PdfViewer_Close" xml:space="preserve">
+    <value>Закрывать</value>
+  </data>
+  <data name="PdfViewer_HandwrittenSignatureDialogHeaderText" xml:space="preserve">
+    <value>Добавить подпись</value>
+  </data>
+  <data name="PdfViewer_DrawInk" xml:space="preserve">
+    <value>рисовать чернилами</value>
+  </data>
+  <data name="DocumentEditor_Table" xml:space="preserve">
+    <value>Стол</value>
+  </data>
+  <data name="DocumentEditor_Row" xml:space="preserve">
+    <value>Строка</value>
+  </data>
+  <data name="DocumentEditor_Cell" xml:space="preserve">
+    <value>клетка</value>
+  </data>
+  <data name="DocumentEditor_Ok" xml:space="preserve">
+    <value>Ok</value>
+  </data>
+  <data name="DocumentEditor_Cancel" xml:space="preserve">
+    <value>Отмена</value>
+  </data>
+  <data name="DocumentEditor_Size" xml:space="preserve">
+    <value>Размер</value>
+  </data>
+  <data name="DocumentEditor_PreferredWidth" xml:space="preserve">
+    <value>Предпочитаемая ширина</value>
+  </data>
+  <data name="DocumentEditor_Points" xml:space="preserve">
+    <value>Точки</value>
+  </data>
+  <data name="DocumentEditor_Percent" xml:space="preserve">
+    <value>Процентов</value>
+  </data>
+  <data name="DocumentEditor_MeasureIn" xml:space="preserve">
+    <value>Измерьте в</value>
+  </data>
+  <data name="DocumentEditor_Alignment" xml:space="preserve">
+    <value>центровка</value>
+  </data>
+  <data name="DocumentEditor_Left" xml:space="preserve">
+    <value>Осталось</value>
+  </data>
+  <data name="DocumentEditor_Center" xml:space="preserve">
+    <value>Центр</value>
+  </data>
+  <data name="DocumentEditor_Right" xml:space="preserve">
+    <value>Правильно</value>
+  </data>
+  <data name="DocumentEditor_Justify" xml:space="preserve">
+    <value>обосновывать</value>
+  </data>
+  <data name="DocumentEditor_IndentFromLeft" xml:space="preserve">
+    <value>Отступ слева</value>
+  </data>
+  <data name="DocumentEditor_BordersAndShading" xml:space="preserve">
+    <value>Границы и затенение</value>
+  </data>
+  <data name="DocumentEditor_Options" xml:space="preserve">
+    <value>Параметры</value>
+  </data>
+  <data name="DocumentEditor_SpecifyHeight" xml:space="preserve">
+    <value>Указать высоту</value>
+  </data>
+  <data name="DocumentEditor_AtLeast" xml:space="preserve">
+    <value>По крайней мере</value>
+  </data>
+  <data name="DocumentEditor_Exactly" xml:space="preserve">
+    <value>Точно</value>
+  </data>
+  <data name="DocumentEditor_RowHeightIs" xml:space="preserve">
+    <value>Высота строки</value>
+  </data>
+  <data name="DocumentEditor_AllowRowToBreakAcrossPages" xml:space="preserve">
+    <value>Разрешить строку разбивать на страницы</value>
+  </data>
+  <data name="DocumentEditor_RepeatAsHeaderRowAtTheTopOfEachPage" xml:space="preserve">
+    <value>Повторите как заголовок строки в верхней части каждой страницы</value>
+  </data>
+  <data name="DocumentEditor_VerticalAlignment" xml:space="preserve">
+    <value>Вертикальное выравнивание</value>
+  </data>
+  <data name="DocumentEditor_Top" xml:space="preserve">
+    <value>верхний</value>
+  </data>
+  <data name="DocumentEditor_Bottom" xml:space="preserve">
+    <value>Дно</value>
+  </data>
+  <data name="DocumentEditor_DefaultCellMargins" xml:space="preserve">
+    <value>Поля ячейки по умолчанию</value>
+  </data>
+  <data name="DocumentEditor_DefaultCellSpacing" xml:space="preserve">
+    <value>Интервал между ячейками по умолчанию</value>
+  </data>
+  <data name="DocumentEditor_AllowSpacingBetweenCells" xml:space="preserve">
+    <value>Разрешить расстояние между ячейками</value>
+  </data>
+  <data name="DocumentEditor_CellMargins" xml:space="preserve">
+    <value>Клеточные поля</value>
+  </data>
+  <data name="DocumentEditor_SameAsTheWholeTable" xml:space="preserve">
+    <value>То же, что и вся таблица</value>
+  </data>
+  <data name="DocumentEditor_Borders" xml:space="preserve">
+    <value>Границы</value>
+  </data>
+  <data name="DocumentEditor_None" xml:space="preserve">
+    <value>Никто</value>
+  </data>
+  <data name="DocumentEditor_Style" xml:space="preserve">
+    <value>Стиль</value>
+  </data>
+  <data name="DocumentEditor_Width" xml:space="preserve">
+    <value>ширина</value>
+  </data>
+  <data name="DocumentEditor_Height" xml:space="preserve">
+    <value>Высота</value>
+  </data>
+  <data name="DocumentEditor_Letter" xml:space="preserve">
+    <value>Письмо</value>
+  </data>
+  <data name="DocumentEditor_Tabloid" xml:space="preserve">
+    <value>бульварный</value>
+  </data>
+  <data name="DocumentEditor_Legal" xml:space="preserve">
+    <value>легальный</value>
+  </data>
+  <data name="DocumentEditor_Statement" xml:space="preserve">
+    <value>утверждение</value>
+  </data>
+  <data name="DocumentEditor_Executive" xml:space="preserve">
+    <value>Должностное лицо</value>
+  </data>
+  <data name="DocumentEditor_A3" xml:space="preserve">
+    <value>A3</value>
+  </data>
+  <data name="DocumentEditor_A4" xml:space="preserve">
+    <value>A4</value>
+  </data>
+  <data name="DocumentEditor_A5" xml:space="preserve">
+    <value>A5</value>
+  </data>
+  <data name="DocumentEditor_B4" xml:space="preserve">
+    <value>B4</value>
+  </data>
+  <data name="DocumentEditor_B5" xml:space="preserve">
+    <value>B5</value>
+  </data>
+  <data name="DocumentEditor_CustomSize" xml:space="preserve">
+    <value>Обычный размер</value>
+  </data>
+  <data name="DocumentEditor_DifferentOddAndEven" xml:space="preserve">
+    <value>Разные нечетные и четные</value>
+  </data>
+  <data name="DocumentEditor_DifferentFirstPage" xml:space="preserve">
+    <value>Другая первая страница</value>
+  </data>
+  <data name="DocumentEditor_FromEdge" xml:space="preserve">
+    <value>От края</value>
+  </data>
+  <data name="DocumentEditor_Header" xml:space="preserve">
+    <value>заголовок</value>
+  </data>
+  <data name="DocumentEditor_Footer" xml:space="preserve">
+    <value>нижний колонтитул</value>
+  </data>
+  <data name="DocumentEditor_Margin" xml:space="preserve">
+    <value>Маржа</value>
+  </data>
+  <data name="DocumentEditor_Paper" xml:space="preserve">
+    <value>Бумага</value>
+  </data>
+  <data name="DocumentEditor_Layout" xml:space="preserve">
+    <value>раскладка</value>
+  </data>
+  <data name="DocumentEditor_Orientation" xml:space="preserve">
+    <value>ориентация</value>
+  </data>
+  <data name="DocumentEditor_Landscape" xml:space="preserve">
+    <value>Пейзаж</value>
+  </data>
+  <data name="DocumentEditor_Portrait" xml:space="preserve">
+    <value>Портрет</value>
+  </data>
+  <data name="DocumentEditor_ShowPageNumbers" xml:space="preserve">
+    <value>Показать номера страниц</value>
+  </data>
+  <data name="DocumentEditor_RightAlignPageNumbers" xml:space="preserve">
+    <value>Выровняйте номера страниц по правому краю.</value>
+  </data>
+  <data name="DocumentEditor_Nothing" xml:space="preserve">
+    <value>Ничего</value>
+  </data>
+  <data name="DocumentEditor_TabLeader" xml:space="preserve">
+    <value>Вкладка лидер</value>
+  </data>
+  <data name="DocumentEditor_ShowLevels" xml:space="preserve">
+    <value>Показать уровни</value>
+  </data>
+  <data name="DocumentEditor_UseHyperlinksInsteadOfPageNumbers" xml:space="preserve">
+    <value>Используйте гиперссылки вместо номеров страниц</value>
+  </data>
+  <data name="DocumentEditor_BuildTableOfContentsFrom" xml:space="preserve">
+    <value>Построить оглавление из</value>
+  </data>
+  <data name="DocumentEditor_Styles" xml:space="preserve">
+    <value>Стили</value>
+  </data>
+  <data name="DocumentEditor_AvailableStyles" xml:space="preserve">
+    <value>Доступные стили</value>
+  </data>
+  <data name="DocumentEditor_TOCLevel" xml:space="preserve">
+    <value>Уровень оглавления</value>
+  </data>
+  <data name="DocumentEditor_Heading" xml:space="preserve">
+    <value>Heading</value>
+  </data>
+  <data name="DocumentEditor_Heading1" xml:space="preserve">
+    <value>Заголовок 1</value>
+  </data>
+  <data name="DocumentEditor_Heading2" xml:space="preserve">
+    <value>Заголовок 2</value>
+  </data>
+  <data name="DocumentEditor_Heading3" xml:space="preserve">
+    <value>Заголовок 3</value>
+  </data>
+  <data name="DocumentEditor_Heading4" xml:space="preserve">
+    <value>Заголовок 4</value>
+  </data>
+  <data name="DocumentEditor_Heading5" xml:space="preserve">
+    <value>Заголовок 5</value>
+  </data>
+  <data name="DocumentEditor_Heading6" xml:space="preserve">
+    <value>Заголовок 6</value>
+  </data>
+  <data name="DocumentEditor_ListParagraph" xml:space="preserve">
+    <value>Список Абзац</value>
+  </data>
+  <data name="DocumentEditor_Normal" xml:space="preserve">
+    <value>Обычный</value>
+  </data>
+  <data name="DocumentEditor_OutlineLevels" xml:space="preserve">
+    <value>Наброски уровней</value>
+  </data>
+  <data name="DocumentEditor_TableEntryFields" xml:space="preserve">
+    <value>Поля ввода таблицы</value>
+  </data>
+  <data name="DocumentEditor_Modify" xml:space="preserve">
+    <value>Изменить</value>
+  </data>
+  <data name="DocumentEditor_Color" xml:space="preserve">
+    <value>цвет</value>
+  </data>
+  <data name="DocumentEditor_Setting" xml:space="preserve">
+    <value>настройка</value>
+  </data>
+  <data name="DocumentEditor_Box" xml:space="preserve">
+    <value>коробка</value>
+  </data>
+  <data name="DocumentEditor_All" xml:space="preserve">
+    <value>Все</value>
+  </data>
+  <data name="DocumentEditor_Custom" xml:space="preserve">
+    <value>изготовленный на заказ</value>
+  </data>
+  <data name="DocumentEditor_Preview" xml:space="preserve">
+    <value>предварительный просмотр</value>
+  </data>
+  <data name="DocumentEditor_Shading" xml:space="preserve">
+    <value>затенение</value>
+  </data>
+  <data name="DocumentEditor_Fill" xml:space="preserve">
+    <value>Заливка</value>
+  </data>
+  <data name="DocumentEditor_ApplyTo" xml:space="preserve">
+    <value>Применить к</value>
+  </data>
+  <data name="DocumentEditor_TableProperties" xml:space="preserve">
+    <value>Свойства таблицы</value>
+  </data>
+  <data name="DocumentEditor_CellOptions" xml:space="preserve">
+    <value>Параметры ячейки</value>
+  </data>
+  <data name="DocumentEditor_TableOptions" xml:space="preserve">
+    <value>Параметры таблицы</value>
+  </data>
+  <data name="DocumentEditor_InsertTable" xml:space="preserve">
+    <value>Вставить таблицу</value>
+  </data>
+  <data name="DocumentEditor_NumberOfColumns" xml:space="preserve">
+    <value>Число столбцов</value>
+  </data>
+  <data name="DocumentEditor_NumberOfRows" xml:space="preserve">
+    <value>Количество рядов</value>
+  </data>
+  <data name="DocumentEditor_TextToDisplay" xml:space="preserve">
+    <value>Текст для отображения</value>
+  </data>
+  <data name="DocumentEditor_Address" xml:space="preserve">
+    <value>Адрес</value>
+  </data>
+  <data name="DocumentEditor_InsertHyperlink" xml:space="preserve">
+    <value>Вставить гиперссылку</value>
+  </data>
+  <data name="DocumentEditor_EditHyperlink" xml:space="preserve">
+    <value>Изменить гиперссылку</value>
+  </data>
+  <data name="DocumentEditor_Insert" xml:space="preserve">
+    <value>Вставить</value>
+  </data>
+  <data name="DocumentEditor_General" xml:space="preserve">
+    <value>Общая</value>
+  </data>
+  <data name="DocumentEditor_Indentation" xml:space="preserve">
+    <value>вдавливание</value>
+  </data>
+  <data name="DocumentEditor_BeforeText" xml:space="preserve">
+    <value>Перед текстом</value>
+  </data>
+  <data name="DocumentEditor_Special" xml:space="preserve">
+    <value>Особый</value>
+  </data>
+  <data name="DocumentEditor_FirstLine" xml:space="preserve">
+    <value>Первая строка</value>
+  </data>
+  <data name="DocumentEditor_Hanging" xml:space="preserve">
+    <value>Подвесная</value>
+  </data>
+  <data name="DocumentEditor_AfterText" xml:space="preserve">
+    <value>После текста</value>
+  </data>
+  <data name="DocumentEditor_By" xml:space="preserve">
+    <value>По</value>
+  </data>
+  <data name="DocumentEditor_Before" xml:space="preserve">
+    <value>Перед</value>
+  </data>
+  <data name="DocumentEditor_LineSpacing" xml:space="preserve">
+    <value>Межстрочный интервал</value>
+  </data>
+  <data name="DocumentEditor_After" xml:space="preserve">
+    <value>После</value>
+  </data>
+  <data name="DocumentEditor_At" xml:space="preserve">
+    <value>В</value>
+  </data>
+  <data name="DocumentEditor_Multiple" xml:space="preserve">
+    <value>множественный</value>
+  </data>
+  <data name="DocumentEditor_Spacing" xml:space="preserve">
+    <value>Разнос</value>
+  </data>
+  <data name="DocumentEditor_DefineNewMultilevelList" xml:space="preserve">
+    <value>Определить новый многоуровневый список</value>
+  </data>
+  <data name="DocumentEditor_ListLevel" xml:space="preserve">
+    <value>Уровень списка</value>
+  </data>
+  <data name="DocumentEditor_ChooseLevelToModify" xml:space="preserve">
+    <value>Выберите уровень для изменения</value>
+  </data>
+  <data name="DocumentEditor_Level" xml:space="preserve">
+    <value>уровень</value>
+  </data>
+  <data name="DocumentEditor_NumberFormat" xml:space="preserve">
+    <value>Числовой формат</value>
+  </data>
+  <data name="DocumentEditor_NumberStyleForThisLevel" xml:space="preserve">
+    <value>Числовой стиль для этого уровня</value>
+  </data>
+  <data name="DocumentEditor_EnterFormattingForNumber" xml:space="preserve">
+    <value>Введите форматирование для номера</value>
+  </data>
+  <data name="DocumentEditor_StartAt" xml:space="preserve">
+    <value>Начать с</value>
+  </data>
+  <data name="DocumentEditor_RestartListAfter" xml:space="preserve">
+    <value>Перезапустите список после</value>
+  </data>
+  <data name="DocumentEditor_Position" xml:space="preserve">
+    <value>Позиция</value>
+  </data>
+  <data name="DocumentEditor_TextIndentAt" xml:space="preserve">
+    <value>Отступ текста в</value>
+  </data>
+  <data name="DocumentEditor_AlignedAt" xml:space="preserve">
+    <value>Выровнен по</value>
+  </data>
+  <data name="DocumentEditor_FollowNumberWith" xml:space="preserve">
+    <value>Следуйте за номером с</value>
+  </data>
+  <data name="DocumentEditor_TabCharacter" xml:space="preserve">
+    <value>Символ табуляции</value>
+  </data>
+  <data name="DocumentEditor_Space" xml:space="preserve">
+    <value>Космос</value>
+  </data>
+  <data name="DocumentEditor_Arabic" xml:space="preserve">
+    <value>арабский</value>
+  </data>
+  <data name="DocumentEditor_UpRoman" xml:space="preserve">
+    <value>UpRoman</value>
+  </data>
+  <data name="DocumentEditor_LowRoman" xml:space="preserve">
+    <value>LowRoman</value>
+  </data>
+  <data name="DocumentEditor_UpLetter" xml:space="preserve">
+    <value>UpLetter</value>
+  </data>
+  <data name="DocumentEditor_LowLetter" xml:space="preserve">
+    <value>LowLetter</value>
+  </data>
+  <data name="DocumentEditor_Number" xml:space="preserve">
+    <value>номер</value>
+  </data>
+  <data name="DocumentEditor_LeadingZero" xml:space="preserve">
+    <value>Ведущий ноль</value>
+  </data>
+  <data name="DocumentEditor_Bullet" xml:space="preserve">
+    <value>пуля</value>
+  </data>
+  <data name="DocumentEditor_Ordinal" xml:space="preserve">
+    <value>порядковый</value>
+  </data>
+  <data name="DocumentEditor_OrdinalText" xml:space="preserve">
+    <value>Порядковый текст</value>
+  </data>
+  <data name="DocumentEditor_ForEast" xml:space="preserve">
+    <value>Для востока</value>
+  </data>
+  <data name="DocumentEditor_NoRestart" xml:space="preserve">
+    <value>Нет перезагрузки</value>
+  </data>
+  <data name="DocumentEditor_Font" xml:space="preserve">
+    <value>Шрифт</value>
+  </data>
+  <data name="DocumentEditor_FontStyle" xml:space="preserve">
+    <value>Стиль шрифта</value>
+  </data>
+  <data name="DocumentEditor_UnderlineStyle" xml:space="preserve">
+    <value>Подчеркни стиль</value>
+  </data>
+  <data name="DocumentEditor_FontColor" xml:space="preserve">
+    <value>Цвет шрифта</value>
+  </data>
+  <data name="DocumentEditor_Effects" xml:space="preserve">
+    <value>Последствия</value>
+  </data>
+  <data name="DocumentEditor_Strikethrough" xml:space="preserve">
+    <value>Зачеркнутый</value>
+  </data>
+  <data name="DocumentEditor_Superscript" xml:space="preserve">
+    <value>верхний индекс</value>
+  </data>
+  <data name="DocumentEditor_Subscript" xml:space="preserve">
+    <value>индекс</value>
+  </data>
+  <data name="DocumentEditor_DoubleStrikethrough" xml:space="preserve">
+    <value>Двойной зачеркнутый</value>
+  </data>
+  <data name="DocumentEditor_Regular" xml:space="preserve">
+    <value>регулярное</value>
+  </data>
+  <data name="DocumentEditor_Bold" xml:space="preserve">
+    <value>Жирный</value>
+  </data>
+  <data name="DocumentEditor_Italic" xml:space="preserve">
+    <value>курсивный</value>
+  </data>
+  <data name="DocumentEditor_Cut" xml:space="preserve">
+    <value>Порез</value>
+  </data>
+  <data name="DocumentEditor_Copy" xml:space="preserve">
+    <value>копия</value>
+  </data>
+  <data name="DocumentEditor_Paste" xml:space="preserve">
+    <value>Вставить</value>
+  </data>
+  <data name="DocumentEditor_Hyperlink" xml:space="preserve">
+    <value>Гиперссылка</value>
+  </data>
+  <data name="DocumentEditor_OpenHyperlink" xml:space="preserve">
+    <value>Открыть гиперссылку</value>
+  </data>
+  <data name="DocumentEditor_CopyHyperlink" xml:space="preserve">
+    <value>Скопировать гиперссылку</value>
+  </data>
+  <data name="DocumentEditor_RemoveHyperlink" xml:space="preserve">
+    <value>Удалить гиперссылку</value>
+  </data>
+  <data name="DocumentEditor_Paragraph" xml:space="preserve">
+    <value>Параграф</value>
+  </data>
+  <data name="DocumentEditor_LinkedStyle" xml:space="preserve">
+    <value>Связанный (Абзац и Символ)</value>
+  </data>
+  <data name="DocumentEditor_Character" xml:space="preserve">
+    <value>символ</value>
+  </data>
+  <data name="DocumentEditor_MergeCells" xml:space="preserve">
+    <value>Объединить ячейки</value>
+  </data>
+  <data name="DocumentEditor_InsertAbove" xml:space="preserve">
+    <value>Вставить выше</value>
+  </data>
+  <data name="DocumentEditor_InsertBelow" xml:space="preserve">
+    <value>Вставить ниже</value>
+  </data>
+  <data name="DocumentEditor_InsertLeft" xml:space="preserve">
+    <value>Вставить слева</value>
+  </data>
+  <data name="DocumentEditor_InsertRight" xml:space="preserve">
+    <value>Вставить справа</value>
+  </data>
+  <data name="DocumentEditor_Delete" xml:space="preserve">
+    <value>удалять</value>
+  </data>
+  <data name="DocumentEditor_DeleteTable" xml:space="preserve">
+    <value>Удалить таблицу</value>
+  </data>
+  <data name="DocumentEditor_DeleteRow" xml:space="preserve">
+    <value>Удалить строку</value>
+  </data>
+  <data name="DocumentEditor_DeleteColumn" xml:space="preserve">
+    <value>Удалить столбец</value>
+  </data>
+  <data name="DocumentEditor_FileName" xml:space="preserve">
+    <value>Имя файла</value>
+  </data>
+  <data name="DocumentEditor_FormatType" xml:space="preserve">
+    <value>Тип формата</value>
+  </data>
+  <data name="DocumentEditor_Save" xml:space="preserve">
+    <value>Сохранить</value>
+  </data>
+  <data name="DocumentEditor_Navigation" xml:space="preserve">
+    <value>навигация</value>
+  </data>
+  <data name="DocumentEditor_Results" xml:space="preserve">
+    <value>Результаты</value>
+  </data>
+  <data name="DocumentEditor_Replace" xml:space="preserve">
+    <value>замещать</value>
+  </data>
+  <data name="DocumentEditor_ReplaceAll" xml:space="preserve">
+    <value>Заменить все</value>
+  </data>
+  <data name="DocumentEditor_WeReplacedAll" xml:space="preserve">
+    <value>Мы заменили все</value>
+  </data>
+  <data name="DocumentEditor_Find" xml:space="preserve">
+    <value>найти</value>
+  </data>
+  <data name="DocumentEditor_NoMatches" xml:space="preserve">
+    <value>Нет совпадений</value>
+  </data>
+  <data name="DocumentEditor_AllDone" xml:space="preserve">
+    <value>Все сделано</value>
+  </data>
+  <data name="DocumentEditor_Result" xml:space="preserve">
+    <value>Результат</value>
+  </data>
+  <data name="DocumentEditor_Of" xml:space="preserve">
+    <value>из</value>
+  </data>
+  <data name="DocumentEditor_Instances" xml:space="preserve">
+    <value>экземпляры</value>
+  </data>
+  <data name="DocumentEditor_With" xml:space="preserve">
+    <value>с</value>
+  </data>
+  <data name="DocumentEditor_ClickToFollowLink" xml:space="preserve">
+    <value>Нажмите, чтобы перейти по ссылке</value>
+  </data>
+  <data name="DocumentEditor_ContinueNumbering" xml:space="preserve">
+    <value>Продолжить нумерацию</value>
+  </data>
+  <data name="DocumentEditor_BookmarkName" xml:space="preserve">
+    <value>Имя закладки</value>
+  </data>
+  <data name="DocumentEditor_Close" xml:space="preserve">
+    <value>близко</value>
+  </data>
+  <data name="DocumentEditor_RestartAt" xml:space="preserve">
+    <value>Перезапустить на</value>
+  </data>
+  <data name="DocumentEditor_Properties" xml:space="preserve">
+    <value>свойства</value>
+  </data>
+  <data name="DocumentEditor_Name" xml:space="preserve">
+    <value>имя</value>
+  </data>
+  <data name="DocumentEditor_StyleType" xml:space="preserve">
+    <value>Тип стиля</value>
+  </data>
+  <data name="DocumentEditor_StyleBasedOn" xml:space="preserve">
+    <value>Стиль основан на</value>
+  </data>
+  <data name="DocumentEditor_StyleForFollowingParagraph" xml:space="preserve">
+    <value>Стиль для следующего абзаца</value>
+  </data>
+  <data name="DocumentEditor_Formatting" xml:space="preserve">
+    <value>Форматирование</value>
+  </data>
+  <data name="DocumentEditor_NumberingAndBullets" xml:space="preserve">
+    <value>Нумерация и Пули</value>
+  </data>
+  <data name="DocumentEditor_Numbering" xml:space="preserve">
+    <value>нумерация</value>
+  </data>
+  <data name="DocumentEditor_UpdateField" xml:space="preserve">
+    <value>Обновить поле</value>
+  </data>
+  <data name="DocumentEditor_EditField" xml:space="preserve">
+    <value>Редактировать поле</value>
+  </data>
+  <data name="DocumentEditor_Bookmark" xml:space="preserve">
+    <value>закладка</value>
+  </data>
+  <data name="DocumentEditor_PageSetup" xml:space="preserve">
+    <value>Настройка страницы</value>
+  </data>
+  <data name="DocumentEditor_NoBookmarksFound" xml:space="preserve">
+    <value>Закладки не найдены</value>
+  </data>
+  <data name="DocumentEditor_Format" xml:space="preserve">
+    <value>Формат</value>
+  </data>
+  <data name="DocumentEditor_CreateNewStyle" xml:space="preserve">
+    <value>Создать новый стиль</value>
+  </data>
+  <data name="DocumentEditor_ModifyStyle" xml:space="preserve">
+    <value>Изменить стиль</value>
+  </data>
+  <data name="DocumentEditor_New" xml:space="preserve">
+    <value>новый</value>
+  </data>
+  <data name="DocumentEditor_Bullets" xml:space="preserve">
+    <value>Пули</value>
+  </data>
+  <data name="DocumentEditor_UseBookmarks" xml:space="preserve">
+    <value>Используйте закладки</value>
+  </data>
+  <data name="DocumentEditor_TableOfContents" xml:space="preserve">
+    <value>Содержание</value>
+  </data>
+  <data name="DocumentEditor_AutoFit" xml:space="preserve">
+    <value>Автоподбор</value>
+  </data>
+  <data name="DocumentEditor_AutoFitToContents" xml:space="preserve">
+    <value>AutoFit к содержанию</value>
+  </data>
+  <data name="DocumentEditor_AutoFitToWindow" xml:space="preserve">
+    <value>Автоподбор в окно</value>
+  </data>
+  <data name="DocumentEditor_FixedColumnWidth" xml:space="preserve">
+    <value>Фиксированная ширина столбца</value>
+  </data>
+  <data name="DocumentEditor_Reset" xml:space="preserve">
+    <value>Сброс настроек</value>
+  </data>
+  <data name="DocumentEditor_MatchCase" xml:space="preserve">
+    <value>Учитывать регистр</value>
+  </data>
+  <data name="DocumentEditor_WholeWords" xml:space="preserve">
+    <value>Целые слова</value>
+  </data>
+  <data name="DocumentEditor_Add" xml:space="preserve">
+    <value>добавлять</value>
+  </data>
+  <data name="DocumentEditor_GoTo" xml:space="preserve">
+    <value>Перейти к</value>
+  </data>
+  <data name="DocumentEditor_SearchFor" xml:space="preserve">
+    <value>Искать</value>
+  </data>
+  <data name="DocumentEditor_ReplaceWith" xml:space="preserve">
+    <value>Заменить</value>
+  </data>
+  <data name="DocumentEditor_TOC1" xml:space="preserve">
+    <value>ТОС 1</value>
+  </data>
+  <data name="DocumentEditor_TOC2" xml:space="preserve">
+    <value>Оглавление 2</value>
+  </data>
+  <data name="DocumentEditor_TOC3" xml:space="preserve">
+    <value>Оглавление 3</value>
+  </data>
+  <data name="DocumentEditor_TOC4" xml:space="preserve">
+    <value>Оглавление 4</value>
+  </data>
+  <data name="DocumentEditor_TOC5" xml:space="preserve">
+    <value>Оглавление 5</value>
+  </data>
+  <data name="DocumentEditor_TOC6" xml:space="preserve">
+    <value>Оглавление 6</value>
+  </data>
+  <data name="DocumentEditor_TOC7" xml:space="preserve">
+    <value>Оглавление 7</value>
+  </data>
+  <data name="DocumentEditor_TOC8" xml:space="preserve">
+    <value>Оглавление 8</value>
+  </data>
+  <data name="DocumentEditor_TOC9" xml:space="preserve">
+    <value>Оглавление 9</value>
+  </data>
+  <data name="DocumentEditor_RightToLeft" xml:space="preserve">
+    <value>Справа налево</value>
+  </data>
+  <data name="DocumentEditor_LeftToRight" xml:space="preserve">
+    <value>Слева направо</value>
+  </data>
+  <data name="DocumentEditor_Direction" xml:space="preserve">
+    <value>направление</value>
+  </data>
+  <data name="DocumentEditor_TableDirection" xml:space="preserve">
+    <value>Направление стола</value>
+  </data>
+  <data name="DocumentEditor_IndentFromRight" xml:space="preserve">
+    <value>Отступ справа</value>
+  </data>
+  <data name="DocumentEditor_ContextualSpacing" xml:space="preserve">
+    <value>Не добавляйте пробелы между абзацами одного стиля</value>
+  </data>
+  <data name="DocumentEditor_PasswordMismatch" xml:space="preserve">
+    <value>Пароль не совпадает</value>
+  </data>
+  <data name="DocumentEditor_RestrictEditing" xml:space="preserve">
+    <value>Ограничить редактирование</value>
+  </data>
+  <data name="DocumentEditor_FormattingRestrictions" xml:space="preserve">
+    <value>Ограничения форматирования</value>
+  </data>
+  <data name="DocumentEditor_AllowFormatting" xml:space="preserve">
+    <value>Разрешить форматирование</value>
+  </data>
+  <data name="DocumentEditor_EditingRestrictions" xml:space="preserve">
+    <value>Редактирование ограничений</value>
+  </data>
+  <data name="DocumentEditor_ReadOnly" xml:space="preserve">
+    <value>Только для чтения</value>
+  </data>
+  <data name="DocumentEditor_ExceptionsOptional" xml:space="preserve">
+    <value>Исключения (необязательно)</value>
+  </data>
+  <data name="DocumentEditor_SelectPartOfDocumentAndUser" xml:space="preserve">
+    <value>Выберите части документа и выберите пользователей, которым разрешено свободно редактировать их.</value>
+  </data>
+  <data name="DocumentEditor_Everyone" xml:space="preserve">
+    <value>Все</value>
+  </data>
+  <data name="DocumentEditor_MoreUsers" xml:space="preserve">
+    <value>Больше пользователей</value>
+  </data>
+  <data name="DocumentEditor_AddUsers" xml:space="preserve">
+    <value>Добавить пользователей</value>
+  </data>
+  <data name="DocumentEditor_EnforcingProtection" xml:space="preserve">
+    <value>Да, начать принудительную защиту</value>
+  </data>
+  <data name="DocumentEditor_StartEnforcingProtection" xml:space="preserve">
+    <value>Начать принудительную защиту</value>
+  </data>
+  <data name="DocumentEditor_EnterUser" xml:space="preserve">
+    <value>Введите пользователя</value>
+  </data>
+  <data name="DocumentEditor_Users" xml:space="preserve">
+    <value>пользователей</value>
+  </data>
+  <data name="DocumentEditor_EnterNewPassword" xml:space="preserve">
+    <value>Введите новый пароль</value>
+  </data>
+  <data name="DocumentEditor_ReenterNewPasswordToConfirm" xml:space="preserve">
+    <value>Повторно введите новый пароль для подтверждения</value>
+  </data>
+  <data name="DocumentEditor_YourPermissions" xml:space="preserve">
+    <value>Ваши разрешения</value>
+  </data>
+  <data name="DocumentEditor_ProtectedDocument" xml:space="preserve">
+    <value>Этот документ защищен от непреднамеренного редактирования.</value>
+  </data>
+  <data name="DocumentEditor_YouMayFormatTextOnlyWithCertainStyles" xml:space="preserve">
+    <value>Вы можете форматировать текст только с определенными стилями.</value>
+  </data>
+  <data name="DocumentEditor_StopProtection" xml:space="preserve">
+    <value>Стоп Защита</value>
+  </data>
+  <data name="DocumentEditor_Password" xml:space="preserve">
+    <value>пароль</value>
+  </data>
+  <data name="DocumentEditor_SpellingEditor" xml:space="preserve">
+    <value>Редактор правописания</value>
+  </data>
+  <data name="DocumentEditor_Spelling" xml:space="preserve">
+    <value>орфография</value>
+  </data>
+  <data name="DocumentEditor_SpellCheck" xml:space="preserve">
+    <value>Проверка орфографии</value>
+  </data>
+  <data name="DocumentEditor_UnderlineErrors" xml:space="preserve">
+    <value>Подчеркнуть ошибки</value>
+  </data>
+  <data name="DocumentEditor_Ignore" xml:space="preserve">
+    <value>игнорировать</value>
+  </data>
+  <data name="DocumentEditor_IgnoreAll" xml:space="preserve">
+    <value>Не обращай внимания</value>
+  </data>
+  <data name="DocumentEditor_AddToDictionary" xml:space="preserve">
+    <value>Добавить в словарь</value>
+  </data>
+  <data name="DocumentEditor_Change" xml:space="preserve">
+    <value>+ Изменить</value>
+  </data>
+  <data name="DocumentEditor_ChangeAll" xml:space="preserve">
+    <value>Изменить все</value>
+  </data>
+  <data name="DocumentEditor_Suggestions" xml:space="preserve">
+    <value>Предложения</value>
+  </data>
+  <data name="DocumentEditor_ThePasswordIsIncorrect" xml:space="preserve">
+    <value>Пароль неверен</value>
+  </data>
+  <data name="DocumentEditor_ErrorInEstablishingConnectionWithWebServer" xml:space="preserve">
+    <value>Ошибка при установлении соединения с веб-сервером</value>
+  </data>
+  <data name="DocumentEditor_HighlightTheRegionsICanEdit" xml:space="preserve">
+    <value>Выделите регионы, которые я могу редактировать</value>
+  </data>
+  <data name="DocumentEditor_ShowAllRegionsICanEdit" xml:space="preserve">
+    <value>Показать все регионы, которые я могу редактировать</value>
+  </data>
+  <data name="DocumentEditor_FindNextRegionICanEdit" xml:space="preserve">
+    <value>Найти следующий регион, который я могу редактировать</value>
+  </data>
+  <data name="DocumentEditor_KeepSourceFormatting" xml:space="preserve">
+    <value>Сохранить исходное форматирование</value>
+  </data>
+  <data name="DocumentEditor_MatchDestinationFormatting" xml:space="preserve">
+    <value>Форматирование соответствия цели</value>
+  </data>
+  <data name="DocumentEditor_TextOnly" xml:space="preserve">
+    <value>Только текст</value>
+  </data>
+  <data name="DocumentEditor_Comments" xml:space="preserve">
+    <value>Комментарии</value>
+  </data>
+  <data name="DocumentEditor_TypeYourComment" xml:space="preserve">
+    <value>Введите свой комментарий</value>
+  </data>
+  <data name="DocumentEditor_Post" xml:space="preserve">
+    <value>Почта</value>
+  </data>
+  <data name="DocumentEditor_Reply" xml:space="preserve">
+    <value>Ответить</value>
+  </data>
+  <data name="DocumentEditor_NewComment" xml:space="preserve">
+    <value>Новый комментарий</value>
+  </data>
+  <data name="DocumentEditor_Edit" xml:space="preserve">
+    <value>редактировать</value>
+  </data>
+  <data name="DocumentEditor_Resolve" xml:space="preserve">
+    <value>Разрешить</value>
+  </data>
+  <data name="DocumentEditor_Reopen" xml:space="preserve">
+    <value>возобновлять</value>
+  </data>
+  <data name="DocumentEditor_NoCommentsInThisDocument" xml:space="preserve">
+    <value>Нет комментариев в этом документе</value>
+  </data>
+  <data name="DocumentEditor_More" xml:space="preserve">
+    <value>Больше</value>
+  </data>
+  <data name="DocumentEditor_TypeYourCommentHere" xml:space="preserve">
+    <value>Напишите свой комментарий здесь</value>
+  </data>
+  <data name="DocumentEditor_NextComment" xml:space="preserve">
+    <value>Следующий комментарий</value>
+  </data>
+  <data name="DocumentEditor_PreviousComment" xml:space="preserve">
+    <value>Предыдущий комментарий</value>
+  </data>
+  <data name="DocumentEditor_UnPostedComments" xml:space="preserve">
+    <value>Неопубликованные комментарии</value>
+  </data>
+  <data name="DocumentEditor_DiscardComment" xml:space="preserve">
+    <value>Добавленные комментарии не опубликованы. Если вы продолжите, этот комментарий будет удален.</value>
+  </data>
+  <data name="DocumentEditor_NoHeadings" xml:space="preserve">
+    <value>Заголовок не найден!</value>
+  </data>
+  <data name="DocumentEditor_AddHeadings" xml:space="preserve">
+    <value>Этот документ не имеет заголовков. Пожалуйста, добавьте заголовки и попробуйте снова.</value>
+  </data>
+  <data name="DocumentEditor_MoreOptions" xml:space="preserve">
+    <value>Больше вариантов</value>
+  </data>
+  <data name="DocumentEditor_ClickToSeeThisComment" xml:space="preserve">
+    <value>Нажмите, чтобы увидеть этот комментарий</value>
+  </data>
+  <data name="DocumentEditor_DropDownFormField" xml:space="preserve">
+    <value>Выпадающее поле формы</value>
+  </data>
+  <data name="DocumentEditor_DropDownItems" xml:space="preserve">
+    <value>Выпадающие предметы</value>
+  </data>
+  <data name="DocumentEditor_ItemsInDropDownList" xml:space="preserve">
+    <value>Элементы в выпадающем списке</value>
+  </data>
+  <data name="DocumentEditor_ADDButton" xml:space="preserve">
+    <value>ДОБАВИТЬ</value>
+  </data>
+  <data name="DocumentEditor_REMOVE" xml:space="preserve">
+    <value>УДАЛИТЬ</value>
+  </data>
+  <data name="DocumentEditor_FieldSettings" xml:space="preserve">
+    <value>Настройки поля</value>
+  </data>
+  <data name="DocumentEditor_Tooltip" xml:space="preserve">
+    <value>подсказка</value>
+  </data>
+  <data name="DocumentEditor_DropDownEnabled" xml:space="preserve">
+    <value>Выпадающий включен</value>
+  </data>
+  <data name="DocumentEditor_CheckBoxFormField" xml:space="preserve">
+    <value>Поле формы флажка</value>
+  </data>
+  <data name="DocumentEditor_CheckBoxSize" xml:space="preserve">
+    <value>Размер флажка</value>
+  </data>
+  <data name="DocumentEditor_Auto" xml:space="preserve">
+    <value>Авто</value>
+  </data>
+  <data name="DocumentEditor_DefaultValue" xml:space="preserve">
+    <value>Значение по умолчанию</value>
+  </data>
+  <data name="DocumentEditor_NotChecked" xml:space="preserve">
+    <value>Не проверено</value>
+  </data>
+  <data name="DocumentEditor_Checked" xml:space="preserve">
+    <value>Проверено</value>
+  </data>
+  <data name="DocumentEditor_CheckBoxEnabled" xml:space="preserve">
+    <value>Флажок включен</value>
+  </data>
+  <data name="DocumentEditor_TextFormField" xml:space="preserve">
+    <value>Текстовое поле</value>
+  </data>
+  <data name="DocumentEditor_Type" xml:space="preserve">
+    <value>Тип</value>
+  </data>
+  <data name="DocumentEditor_DefaultText" xml:space="preserve">
+    <value>Текст по умолчанию</value>
+  </data>
+  <data name="DocumentEditor_MaximumLength" xml:space="preserve">
+    <value>Максимальная длина</value>
+  </data>
+  <data name="DocumentEditor_TextFormat" xml:space="preserve">
+    <value>Текстовый формат</value>
+  </data>
+  <data name="DocumentEditor_FillInEnabled" xml:space="preserve">
+    <value>Заполнение включено</value>
+  </data>
+  <data name="DocumentEditor_DefaultNumber" xml:space="preserve">
+    <value>Номер по умолчанию</value>
+  </data>
+  <data name="DocumentEditor_DefaultDate" xml:space="preserve">
+    <value>Дата по умолчанию</value>
+  </data>
+  <data name="DocumentEditor_DateFormat" xml:space="preserve">
+    <value>Формат даты</value>
+  </data>
+  <data name="DocumentEditor_MergeTrack" xml:space="preserve">
+    <value>Это действие не будет помечено как изменение. Вы хотите продолжить?</value>
+  </data>
+  <data name="DocumentEditor_UnTrack" xml:space="preserve">
+    <value>Не может быть отслежен</value>
+  </data>
+  <data name="DocumentEditor_Accept" xml:space="preserve">
+    <value>принимать</value>
+  </data>
+  <data name="DocumentEditor_Reject" xml:space="preserve">
+    <value>отклонять</value>
+  </data>
+  <data name="DocumentEditor_PreviousChanges" xml:space="preserve">
+    <value>Предыдущие изменения</value>
+  </data>
+  <data name="DocumentEditor_NextChanges" xml:space="preserve">
+    <value>Следующие изменения</value>
+  </data>
+  <data name="DocumentEditor_Inserted" xml:space="preserve">
+    <value>вставленный</value>
+  </data>
+  <data name="DocumentEditor_Deleted" xml:space="preserve">
+    <value>Исключен</value>
+  </data>
+  <data name="DocumentEditor_Changes" xml:space="preserve">
+    <value>изменения</value>
+  </data>
+  <data name="DocumentEditor_AcceptAll" xml:space="preserve">
+    <value>Принять все</value>
+  </data>
+  <data name="DocumentEditor_RejectAll" xml:space="preserve">
+    <value>Отклонить все</value>
+  </data>
+  <data name="DocumentEditor_NoChanges" xml:space="preserve">
+    <value>Без изменений</value>
+  </data>
+  <data name="DocumentEditor_AcceptChanges" xml:space="preserve">
+    <value>Принять изменения</value>
+  </data>
+  <data name="DocumentEditor_RejectChanges" xml:space="preserve">
+    <value>Отклонить изменения</value>
+  </data>
+  <data name="DocumentEditor_User" xml:space="preserve">
+    <value>пользователь</value>
+  </data>
+  <data name="DocumentEditor_View" xml:space="preserve">
+    <value>Посмотреть</value>
+  </data>
+  <data name="DocumentEditor_UnprotectDocument" xml:space="preserve">
+    <value>Снять защиту с документа</value>
+  </data>
+  <data name="DocumentEditor_FormFieldsOnly" xml:space="preserve">
+    <value>Вы можете заполнять формы только в этом регионе.</value>
+  </data>
+  <data name="DocumentEditor_IndentsAndSpacing" xml:space="preserve">
+    <value>Контроль вдов / сирот</value>
+  </data>
+  <data name="DocumentEditor_LineAndBreakPage" xml:space="preserve">
+    <value>Отступы и интервалы</value>
+  </data>
+  <data name="DocumentEditor_Pagination" xml:space="preserve">
+    <value>Разрывы строк и страниц</value>
+  </data>
+  <data name="DocumentEditor_WidowControl" xml:space="preserve">
+    <value>Держите линии вместе</value>
+  </data>
+  <data name="DocumentEditor_KeepWithNext" xml:space="preserve">
+    <value>Игнорировать один раз</value>
+  </data>
+  <data name="DocumentEditor_KeepLinesTogether" xml:space="preserve">
+    <value>Продолжить со следующим</value>
+  </data>
+  <data name="DocumentEditor_ScreenTip" xml:space="preserve">
+       <value>Текст всплывающей подсказки</value>
+</data>
+<data name="DocumentEditor_KeepSource" xml:space="preserve">
+       <value>Сохраняйте исходное форматирование</value>
+</data>
+<data name="DocumentEditor_DestinationFormat" xml:space="preserve">
+       <value>Совпадение с форматированием места назначения</value>
+</data>
+<data name="DocumentEditor_CommentsOnly" xml:space="preserve">
+       <value>Вы можете вставлять комментарии только в этот регион.</value>
+</data>
+<data name="DocumentEditor_RowRange" xml:space="preserve">
+       <value>Количество строк должно быть от 1 до 32767.</value>
+</data>
+<data name="DocumentEditor_ColumnRange" xml:space="preserve">
+       <value>Количество столбцов должно быть от 1 до 63.</value>
+</data>
+<data name="DocumentEditor_Information" xml:space="preserve">
+       <value>Информация</value>
+</data>
+<data name="DocumentEditor_Dot" xml:space="preserve">
+       <value>точка</value>
+</data>
+<data name="DocumentEditor_DashSmallGap" xml:space="preserve">
+       <value>Небольшой разрыв в тире</value>
+</data>
+<data name="DocumentEditor_DashDot" xml:space="preserve">
+       <value>тире точка</value>
+</data>
+<data name="DocumentEditor_ThinThickSmallGap" xml:space="preserve">
+       <value>Тонкий Толстый Маленький Зазор</value>
+</data>
+<data name="DocumentEditor_ThickThinSmallGap" xml:space="preserve">
+       <value>Толстый Тонкий Маленький Зазор</value>
+</data>
+<data name="DocumentEditor_ThickThinMediumGap" xml:space="preserve">
+       <value>Толстый Тонкий Средний Зазор</value>
+</data>
+<data name="DocumentEditor_ThickThinLargeGap" xml:space="preserve">
+       <value>Толстый Тонкий Большой зазор</value>
+</data>
+<data name="DocumentEditor_SingleWavy" xml:space="preserve">
+       <value>Одноместный волнистый</value>
+</data>
+<data name="DocumentEditor_DoubleWavy" xml:space="preserve">
+       <value>Двойной волнистый</value>
+</data>
+<data name="DocumentEditor_Inset" xml:space="preserve">
+       <value>Вставка</value>
+</data>
+<data name="DocumentEditor_DashLargeGap" xml:space="preserve">
+       <value>Большой разрыв в тире</value>
+</data>
+<data name="DocumentEditor_DashDotDot" xml:space="preserve">
+       <value>тире точка точка</value>
+</data>
+<data name="DocumentEditor_Triple" xml:space="preserve">
+       <value>Тройной</value>
+</data>
+<data name="DocumentEditor_ThinThickThinSmallGap" xml:space="preserve">
+       <value>Тонкий Толстый Тонкий Малый зазор</value>
+</data>
+<data name="DocumentEditor_ThinThickThinMediumGap" xml:space="preserve">
+       <value>Тонкий Толстый Тонкий Средний Зазор</value>
+</data>
+<data name="DocumentEditor_ThinThickThinLargeGap" xml:space="preserve">
+       <value>Тонкий Толстый Тонкий Большой зазор</value>
+</data>
+<data name="DocumentEditor_DashDotStroked" xml:space="preserve">
+       <value>тире точка погладил</value>
+</data>
+<data name="DocumentEditor_Engrave3D" xml:space="preserve">
+       <value>Гравировать3D</value>
+</data>
+<data name="DocumentEditor_Thick" xml:space="preserve">
+       <value>Толстый</value>
+</data>
+<data name="DocumentEditor_Outset" xml:space="preserve">
+       <value>Начало</value>
+</data>
+<data name="DocumentEditor_Emboss3D" xml:space="preserve">
+       <value>Тиснение3D</value>
+</data>
+<data name="DocumentEditor_ThinThickLargeGap" xml:space="preserve">
+       <value>Тонкий Толстый Большой Зазор</value>
+</data>
+<data name="DocumentEditor_ThinThickMediumGap" xml:space="preserve">
+       <value>Тонкий Толстый Средний Зазор</value>
+</data>
+<data name="DocumentEditor_RegularText" xml:space="preserve">
+       <value>Обычный текст</value>
+</data>
+<data name="DocumentEditor_Date" xml:space="preserve">
+       <value>Дата</value>
+</data>
+<data name="DocumentEditor_Uppercase" xml:space="preserve">
+       <value>Верхний регистр</value>
+</data>
+<data name="DocumentEditor_Lowercase" xml:space="preserve">
+       <value>Нижний регистр</value>
+</data>
+<data name="DocumentEditor_FirstCapital" xml:space="preserve">
+       <value>Первая столица</value>
+</data>
+<data name="DocumentEditor_Titlecase" xml:space="preserve">
+       <value>Название дела</value>
+</data>
+<data name="DocumentEditor_MoveFrom" xml:space="preserve">
+       <value>Двигаться из</value>
+</data>
+<data name="DocumentEditor_MoveTo" xml:space="preserve">
+       <value>Перейти к</value>
+</data>
+<data name="DocumentEditor_Px" xml:space="preserve">
+       <value>пикс</value>
+</data>
+<data name="DocumentEditor_ReadOnlyProtection" xml:space="preserve">
+       <value>Вы можете редактировать в этом регионе.</value>
+</data>
+<data name="DocumentEditorContainer_RegularTooltip" xml:space="preserve">
+       <value>Обычный</value>
+</data>
+<data name="DocumentEditorContainer_BoldItalicTooltip" xml:space="preserve">
+       <value>Жирный курсив</value>
+</data>
+  <data name="DocumentEditorContainer_New" xml:space="preserve">
+    <value>новый</value>
+  </data>
+  <data name="DocumentEditorContainer_Open" xml:space="preserve">
+    <value>открыто</value>
+  </data>
+  <data name="DocumentEditorContainer_Undo" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="DocumentEditorContainer_Redo" xml:space="preserve">
+    <value>Redo</value>
+  </data>
+  <data name="DocumentEditorContainer_Image" xml:space="preserve">
+    <value>Образ</value>
+  </data>
+  <data name="DocumentEditorContainer_Table" xml:space="preserve">
+    <value>Стол</value>
+  </data>
+  <data name="DocumentEditorContainer_Link" xml:space="preserve">
+    <value>Ссылка на сайт</value>
+  </data>
+  <data name="DocumentEditorContainer_Bookmark" xml:space="preserve">
+    <value>закладка</value>
+  </data>
+  <data name="DocumentEditorContainer_TableOfContents" xml:space="preserve">
+    <value>Содержание</value>
+  </data>
+  <data name="DocumentEditorContainer_HEADING1" xml:space="preserve">
+    <value>Заголовок - - - - 1</value>
+  </data>
+  <data name="DocumentEditorContainer_HEADING2" xml:space="preserve">
+    <value>Заголовок - - - - 2</value>
+  </data>
+  <data name="DocumentEditorContainer_HEADING3" xml:space="preserve">
+    <value>Заголовок - - - - 3</value>
+  </data>
+  <data name="DocumentEditorContainer_Header" xml:space="preserve">
+    <value>заголовок</value>
+  </data>
+  <data name="DocumentEditorContainer_Footer" xml:space="preserve">
+    <value>нижний колонтитул</value>
+  </data>
+  <data name="DocumentEditorContainer_PageSetup" xml:space="preserve">
+    <value>Настройка страницы</value>
+  </data>
+  <data name="DocumentEditorContainer_PageNumber" xml:space="preserve">
+    <value>Номер страницы</value>
+  </data>
+  <data name="DocumentEditorContainer_Break" xml:space="preserve">
+    <value>Перемена</value>
+  </data>
+  <data name="DocumentEditorContainer_Find" xml:space="preserve">
+    <value>найти</value>
+  </data>
+  <data name="DocumentEditorContainer_LocalClipboard" xml:space="preserve">
+    <value>Локальный буфер обмена</value>
+  </data>
+  <data name="DocumentEditorContainer_RestrictEditing" xml:space="preserve">
+    <value>Ограничить редактирование</value>
+  </data>
+  <data name="DocumentEditorContainer_UploadFromComputer" xml:space="preserve">
+    <value>Загрузить с компьютера</value>
+  </data>
+  <data name="DocumentEditorContainer_ByURL" xml:space="preserve">
+    <value>По URL</value>
+  </data>
+  <data name="DocumentEditorContainer_PageBreak" xml:space="preserve">
+    <value>Разрыв страницы</value>
+  </data>
+  <data name="DocumentEditorContainer_SectionBreak" xml:space="preserve">
+    <value>Разрыв раздела</value>
+  </data>
+  <data name="DocumentEditorContainer_HeaderAndFooter" xml:space="preserve">
+    <value>Верхний и нижний колонтитулы</value>
+  </data>
+  <data name="DocumentEditorContainer_Options" xml:space="preserve">
+    <value>Параметры</value>
+  </data>
+  <data name="DocumentEditorContainer_Levels" xml:space="preserve">
+    <value>Уровни</value>
+  </data>
+  <data name="DocumentEditorContainer_DifferentFirstPage" xml:space="preserve">
+    <value>Другая первая страница</value>
+  </data>
+  <data name="DocumentEditorContainer_DifferentHeaderAndFooterForOddAndEvenPages" xml:space="preserve">
+    <value>Разные колонтитулы для нечетных и четных страниц.</value>
+  </data>
+  <data name="DocumentEditorContainer_DifferentOddAndEvenPages" xml:space="preserve">
+    <value>Разные нечетные и четные страницы</value>
+  </data>
+  <data name="DocumentEditorContainer_DifferentHeaderAndFooterForFirstPage" xml:space="preserve">
+    <value>Другой верхний и нижний колонтитулы для первой страницы.</value>
+  </data>
+  <data name="DocumentEditorContainer_Position" xml:space="preserve">
+    <value>Позиция</value>
+  </data>
+  <data name="DocumentEditorContainer_HeaderFromTop" xml:space="preserve">
+    <value>Заголовок сверху</value>
+  </data>
+  <data name="DocumentEditorContainer_FooterFromBottom" xml:space="preserve">
+    <value>Нижний колонтитул снизу</value>
+  </data>
+  <data name="DocumentEditorContainer_DistanceFromTopOfThePageToTopOfTheHeader" xml:space="preserve">
+    <value>Расстояние от верхней части страницы до верхней части заголовка.</value>
+  </data>
+  <data name="DocumentEditorContainer_DistanceFromBottomOfThePageToBottomOfTheFooter" xml:space="preserve">
+    <value>Расстояние от нижней части страницы до нижней части нижнего колонтитула.</value>
+  </data>
+  <data name="DocumentEditorContainer_AspectRatio" xml:space="preserve">
+    <value>Соотношение сторон</value>
+  </data>
+  <data name="DocumentEditorContainer_W" xml:space="preserve">
+    <value>W</value>
+  </data>
+  <data name="DocumentEditorContainer_H" xml:space="preserve">
+    <value>ЧАС</value>
+  </data>
+  <data name="DocumentEditorContainer_Width" xml:space="preserve">
+    <value>ширина</value>
+  </data>
+  <data name="DocumentEditorContainer_Height" xml:space="preserve">
+    <value>Высота</value>
+  </data>
+  <data name="DocumentEditorContainer_Text" xml:space="preserve">
+    <value>Текст</value>
+  </data>
+  <data name="DocumentEditorContainer_Paragraph" xml:space="preserve">
+    <value>Параграф</value>
+  </data>
+  <data name="DocumentEditorContainer_Fill" xml:space="preserve">
+    <value>Заливка</value>
+  </data>
+  <data name="DocumentEditorContainer_FillColor" xml:space="preserve">
+    <value>Цвет заливки</value>
+  </data>
+  <data name="DocumentEditorContainer_BorderStyle" xml:space="preserve">
+    <value>Стиль границы</value>
+  </data>
+  <data name="DocumentEditorContainer_OutsideBorders" xml:space="preserve">
+    <value>Внешние границы</value>
+  </data>
+  <data name="DocumentEditorContainer_AllBorders" xml:space="preserve">
+    <value>Все границы</value>
+  </data>
+  <data name="DocumentEditorContainer_InsideBorders" xml:space="preserve">
+    <value>Внутренние границы</value>
+  </data>
+  <data name="DocumentEditorContainer_LeftBorder" xml:space="preserve">
+    <value>Левая граница</value>
+  </data>
+  <data name="DocumentEditorContainer_InsideVerticalBorder" xml:space="preserve">
+    <value>Внутри вертикальной границы</value>
+  </data>
+  <data name="DocumentEditorContainer_RightBorder" xml:space="preserve">
+    <value>Правая граница</value>
+  </data>
+  <data name="DocumentEditorContainer_TopBorder" xml:space="preserve">
+    <value>Верхняя граница</value>
+  </data>
+  <data name="DocumentEditorContainer_InsideHorizontalBorder" xml:space="preserve">
+    <value>Внутри горизонтальной границы</value>
+  </data>
+  <data name="DocumentEditorContainer_BottomBorder" xml:space="preserve">
+    <value>Нижняя граница</value>
+  </data>
+  <data name="DocumentEditorContainer_BorderColor" xml:space="preserve">
+    <value>Цвет границы</value>
+  </data>
+  <data name="DocumentEditorContainer_BorderWidth" xml:space="preserve">
+    <value>Ширина рамки</value>
+  </data>
+  <data name="DocumentEditorContainer_Cell" xml:space="preserve">
+    <value>клетка</value>
+  </data>
+  <data name="DocumentEditorContainer_MergeCells" xml:space="preserve">
+    <value>Объединить ячейки</value>
+  </data>
+  <data name="DocumentEditorContainer_InsertOrDelete" xml:space="preserve">
+    <value>Вставить / Удалить</value>
+  </data>
+  <data name="DocumentEditorContainer_InsertColumnsToTheLeft" xml:space="preserve">
+    <value>Вставьте столбцы слева</value>
+  </data>
+  <data name="DocumentEditorContainer_InsertColumnsToTheRight" xml:space="preserve">
+    <value>Вставьте столбцы справа</value>
+  </data>
+  <data name="DocumentEditorContainer_InsertRowsAbove" xml:space="preserve">
+    <value>Вставить строки выше</value>
+  </data>
+  <data name="DocumentEditorContainer_InsertRowsBelow" xml:space="preserve">
+    <value>Вставьте строки ниже</value>
+  </data>
+  <data name="DocumentEditorContainer_DeleteRows" xml:space="preserve">
+    <value>Удалить строки</value>
+  </data>
+  <data name="DocumentEditorContainer_DeleteColumns" xml:space="preserve">
+    <value>Удалить столбцы</value>
+  </data>
+  <data name="DocumentEditorContainer_CellMargin" xml:space="preserve">
+    <value>Сотовая маржа</value>
+  </data>
+  <data name="DocumentEditorContainer_Top" xml:space="preserve">
+    <value>верхний</value>
+  </data>
+  <data name="DocumentEditorContainer_Bottom" xml:space="preserve">
+    <value>Дно</value>
+  </data>
+  <data name="DocumentEditorContainer_Left" xml:space="preserve">
+    <value>Осталось</value>
+  </data>
+  <data name="DocumentEditorContainer_Right" xml:space="preserve">
+    <value>Правильно</value>
+  </data>
+  <data name="DocumentEditorContainer_AlignText" xml:space="preserve">
+    <value>Выровнять текст</value>
+  </data>
+  <data name="DocumentEditorContainer_Aligntop" xml:space="preserve">
+    <value>Выровнять верх</value>
+  </data>
+  <data name="DocumentEditorContainer_AlignBottom" xml:space="preserve">
+    <value>Выровнять дно</value>
+  </data>
+  <data name="DocumentEditorContainer_AlignCenter" xml:space="preserve">
+    <value>Выровнять центр</value>
+  </data>
+  <data name="DocumentEditorContainer_NumberOfHeadingOrOutlineLevelsToBeShownInTableOfContents" xml:space="preserve">
+    <value>Количество уровней заголовка или структуры, которые должны быть показаны в оглавлении.</value>
+  </data>
+  <data name="DocumentEditorContainer_ShowPageNumbers" xml:space="preserve">
+    <value>Показать номера страниц</value>
+  </data>
+  <data name="DocumentEditorContainer_ShowPageNumbersInTableOfContents" xml:space="preserve">
+    <value>Показать номера страниц в оглавлении.</value>
+  </data>
+  <data name="DocumentEditorContainer_RightAlignPageNumbers" xml:space="preserve">
+    <value>Выровняйте номера страниц по правому краю.</value>
+  </data>
+  <data name="DocumentEditorContainer_RightAlignPageNumbersInTableOfContents" xml:space="preserve">
+    <value>Справа выровняйте номера страниц в оглавлении.</value>
+  </data>
+  <data name="DocumentEditorContainer_UseHyperlinks" xml:space="preserve">
+    <value>Используйте гиперссылки</value>
+  </data>
+  <data name="DocumentEditorContainer_UseHyperlinksInsteadOfPageNumbers" xml:space="preserve">
+    <value>Используйте гиперссылки вместо номеров страниц.</value>
+  </data>
+  <data name="DocumentEditorContainer_Font" xml:space="preserve">
+    <value>Шрифт</value>
+  </data>
+  <data name="DocumentEditorContainer_FontSize" xml:space="preserve">
+    <value>Размер шрифта</value>
+  </data>
+  <data name="DocumentEditorContainer_FontColor" xml:space="preserve">
+    <value>Цвет шрифта</value>
+  </data>
+  <data name="DocumentEditorContainer_TextHighlightColor" xml:space="preserve">
+    <value>Цвет подсветки текста</value>
+  </data>
+  <data name="DocumentEditorContainer_ClearAllFormatting" xml:space="preserve">
+    <value>Очистить все форматирование</value>
+  </data>
+  <data name="DocumentEditorContainer_BoldTooltip" xml:space="preserve">
+    <value>Полужирный (Ctrl + B)</value>
+  </data>
+  <data name="DocumentEditorContainer_ItalicTooltip" xml:space="preserve">
+    <value>Курсив (Ctrl + I)</value>
+  </data>
+  <data name="DocumentEditorContainer_UnderlineTooltip" xml:space="preserve">
+    <value>Подчеркивание (Ctrl + U)</value>
+  </data>
+  <data name="DocumentEditorContainer_Strikethrough" xml:space="preserve">
+    <value>Зачеркнутый</value>
+  </data>
+  <data name="DocumentEditorContainer_SuperscriptTooltip" xml:space="preserve">
+    <value>Верхний индекс (Ctrl + Shift ++)</value>
+  </data>
+  <data name="DocumentEditorContainer_SubscriptTooltip" xml:space="preserve">
+    <value>Подстрочный индекс (Ctrl + =)</value>
+  </data>
+  <data name="DocumentEditorContainer_AlignLeftTooltip" xml:space="preserve">
+    <value>Выровнять по левому краю (Ctrl + L)</value>
+  </data>
+  <data name="DocumentEditorContainer_CenterTooltip" xml:space="preserve">
+    <value>Центр (Ctrl + E)</value>
+  </data>
+  <data name="DocumentEditorContainer_AlignRightTooltip" xml:space="preserve">
+    <value>Выровнять по правому краю (Ctrl + R)</value>
+  </data>
+  <data name="DocumentEditorContainer_JustifyTooltip" xml:space="preserve">
+    <value>Обоснуйте (Ctrl + J)</value>
+  </data>
+  <data name="DocumentEditorContainer_DecreaseIndent" xml:space="preserve">
+    <value>Уменьшить отступ</value>
+  </data>
+  <data name="DocumentEditorContainer_IncreaseIndent" xml:space="preserve">
+    <value>Увеличить отступ</value>
+  </data>
+  <data name="DocumentEditorContainer_LineSpacing" xml:space="preserve">
+    <value>Межстрочный интервал</value>
+  </data>
+  <data name="DocumentEditorContainer_Bullets" xml:space="preserve">
+    <value>Пули</value>
+  </data>
+  <data name="DocumentEditorContainer_Numbering" xml:space="preserve">
+    <value>нумерация</value>
+  </data>
+  <data name="DocumentEditorContainer_Styles" xml:space="preserve">
+    <value>Стили</value>
+  </data>
+  <data name="DocumentEditorContainer_ManageStyles" xml:space="preserve">
+    <value>Управление стилями</value>
+  </data>
+  <data name="DocumentEditorContainer_Page" xml:space="preserve">
+    <value>страница</value>
+  </data>
+  <data name="DocumentEditorContainer_Of" xml:space="preserve">
+    <value>из</value>
+  </data>
+  <data name="DocumentEditorContainer_FitOnePage" xml:space="preserve">
+    <value>Подогнать одну страницу</value>
+  </data>
+  <data name="DocumentEditorContainer_SpellCheck" xml:space="preserve">
+    <value>Проверка орфографии</value>
+  </data>
+  <data name="DocumentEditorContainer_UnderlineErrors" xml:space="preserve">
+    <value>Подчеркнуть ошибки</value>
+  </data>
+  <data name="DocumentEditorContainer_FitPageWidth" xml:space="preserve">
+    <value>Подогнать ширину страницы</value>
+  </data>
+  <data name="DocumentEditorContainer_Update" xml:space="preserve">
+    <value>Обновить</value>
+  </data>
+  <data name="DocumentEditorContainer_Cancel" xml:space="preserve">
+    <value>Отмена</value>
+  </data>
+  <data name="DocumentEditorContainer_Insert" xml:space="preserve">
+    <value>Вставить</value>
+  </data>
+  <data name="DocumentEditorContainer_NoBorder" xml:space="preserve">
+    <value>Без границ</value>
+  </data>
+  <data name="DocumentEditorContainer_CreateANewDocument" xml:space="preserve">
+    <value>Создать новый документ.</value>
+  </data>
+  <data name="DocumentEditorContainer_OpenADocument" xml:space="preserve">
+    <value>Откройте документ.</value>
+  </data>
+  <data name="DocumentEditorContainer_UndoTooltip" xml:space="preserve">
+    <value>Отменить последнюю операцию (Ctrl + Z).</value>
+  </data>
+  <data name="DocumentEditorContainer_RedoTooltip" xml:space="preserve">
+    <value>Повторите последнюю операцию (Ctrl + Y).</value>
+  </data>
+  <data name="DocumentEditorContainer_InsertInlinePictureFromAFile" xml:space="preserve">
+    <value>Вставьте встроенную картинку из файла.</value>
+  </data>
+  <data name="DocumentEditorContainer_InsertATableIntoTheDocument" xml:space="preserve">
+    <value>Вставьте таблицу в документ.</value>
+  </data>
+  <data name="DocumentEditorContainer_CreateHyperlink" xml:space="preserve">
+    <value>Создайте ссылку в своем документе для быстрого доступа к веб-страницам и файлам (Ctrl + K).</value>
+  </data>
+  <data name="DocumentEditorContainer_InsertABookmarkInASpecificPlaceInThisDocument" xml:space="preserve">
+    <value>Вставьте закладку в определенном месте в этом документе.</value>
+  </data>
+  <data name="DocumentEditorContainer_ProvideAnOverviewOfYourDocumentByAddingATableOfContents" xml:space="preserve">
+    <value>Предоставьте обзор вашего документа, добавив оглавление.</value>
+  </data>
+  <data name="DocumentEditorContainer_AddOrEditTheHeader" xml:space="preserve">
+    <value>Добавьте или отредактируйте заголовок.</value>
+  </data>
+  <data name="DocumentEditorContainer_AddOrEditTheFooter" xml:space="preserve">
+    <value>Добавьте или отредактируйте нижний колонтитул.</value>
+  </data>
+  <data name="DocumentEditorContainer_OpenThePageSetupDialog" xml:space="preserve">
+    <value>Откройте диалоговое окно настройки страницы.</value>
+  </data>
+  <data name="DocumentEditorContainer_AddPageNumbers" xml:space="preserve">
+    <value>Добавьте номера страниц.</value>
+  </data>
+  <data name="DocumentEditorContainer_FindText" xml:space="preserve">
+    <value>Найти текст в документе (Ctrl + F).</value>
+  </data>
+  <data name="DocumentEditorContainer_CurrentPageNumber" xml:space="preserve">
+    <value>Номер текущей страницы в документе. Нажмите или нажмите, чтобы перейти на определенную страницу.</value>
+  </data>
+  <data name="DocumentEditorContainer_ReadOnly" xml:space="preserve">
+    <value>Только для чтения</value>
+  </data>
+  <data name="DocumentEditorContainer_Protections" xml:space="preserve">
+    <value>Ограждения</value>
+  </data>
+  <data name="DocumentEditorContainer_ErrorInEstablishingConnectionWithWebServer" xml:space="preserve">
+    <value>Ошибка при установлении соединения с веб-сервером</value>
+  </data>
+  <data name="DocumentEditorContainer_Single" xml:space="preserve">
+    <value>не замужем</value>
+  </data>
+  <data name="DocumentEditorContainer_Double" xml:space="preserve">
+    <value>двойной</value>
+  </data>
+  <data name="DocumentEditorContainer_NewComment" xml:space="preserve">
+    <value>Новый комментарий</value>
+  </data>
+  <data name="DocumentEditorContainer_Comments" xml:space="preserve">
+    <value>Комментарии</value>
+  </data>
+  <data name="DocumentEditorContainer_PrintLayout" xml:space="preserve">
+    <value>Компоновка страницы</value>
+  </data>
+  <data name="DocumentEditorContainer_WebLayout" xml:space="preserve">
+    <value>Веб-макет</value>
+  </data>
+  <data name="DocumentEditorContainer_ToggleBetweenTheInternalClipboardAndSystemClipboard" xml:space="preserve">
+    <value>Переключение между внутренним буфером обмена и системным буфером обмена. &#xD; Доступ к системному буферу обмена через сценарий запрещен из-за политики безопасности браузера. Вместо этого &#xD; 1. Вы можете включить внутренний буфер обмена для вырезания, копирования и вставки внутри компонента. &#xD; 2. Вы можете использовать сочетания клавиш (Ctrl + X, Ctrl + C и Ctrl + V), чтобы вырезать , скопируйте и вставьте в системный буфер обмена.</value>
+  </data>
+  <data name="DocumentEditorContainer_TextForm" xml:space="preserve">
+    <value>Текстовая форма</value>
+  </data>
+  <data name="DocumentEditorContainer_CheckBox" xml:space="preserve">
+    <value>Флажок</value>
+  </data>
+  <data name="DocumentEditorContainer_DropDown" xml:space="preserve">
+    <value>Падать</value>
+  </data>
+  <data name="DocumentEditorContainer_UpdateFields" xml:space="preserve">
+    <value>Обновить поля</value>
+  </data>
+  <data name="DocumentEditorContainer_UpdateCrossReferenceFields" xml:space="preserve">
+    <value>Обновить поля перекрестных ссылок.</value>
+  </data>
+  <data name="DocumentEditorContainer_Track_changes" xml:space="preserve">
+    <value>Следите за изменениями, внесенными в документ.</value>
+  </data>
+  <data name="DocumentEditorContainer_TrackChanges" xml:space="preserve">
+    <value>Отслеживать изменения</value>
+  </data>
+  <data name="DocumentEditorContainer_ZoomLevel" xml:space="preserve">
+    <value>Уровень масштабирования</value>
+  </data>
+  <data name="DocumentEditorContainer_Footnote_Tooltip" xml:space="preserve">
+    <value>Вставить сноску (Alt + Ctrl + F).</value>
+  </data>
+  <data name="DocumentEditorContainer_Endnote_Tooltip" xml:space="preserve">
+    <value>Вставить концевую сноску (Alt + Ctrl + D).</value>
+  </data>
+  <data name="DocumentEditorContainer_ShowComments" xml:space="preserve">
+    <value>Вставить комментарии</value>
+  </data>
+  <data name="DocumentEditorContainer_FormFields" xml:space="preserve">
+    <value>Поля формы</value>
+  </data>
+  <data name="DocumentEditorContainer_Information" xml:space="preserve">
+    <value>Информация</value>
+  </data>
+  <data name="DocumentEditorContainer_AllCaps" xml:space="preserve">
+    <value>Все заглавные буквы</value>
+  </data>
+  <data name="DocumentEditorContainer_Insert_Footnote" xml:space="preserve">
+    <value>Вставить</value>
+  </data>
+  <data name="DocumentEditorContainer_Insert_Endnote" xml:space="preserve">
+    <value>Вставить</value>
+  </data>
+  <data name="Diagram_BringToFront" xml:space="preserve">
+    <value>На передний план</value>
+  </data>
+  <data name="DocumentEditorContainer_FillingInForms" xml:space="preserve">
+    <value>Заполнение форм</value>
+  </data>
+  <data name="DocumentEditorContainer_Trackedchanges" xml:space="preserve">
+    <value>Отслеживаемые изменения</value>
+  </data>
+  <data name="DocumentEditorContainer_RemovedIgnoreExceptions" xml:space="preserve">
+    <value>Если вы внесете это изменение в защиту документа, Word будет игнорировать все исключения в этом документе.</value>
+  </data>
+  <data name="DocumentEditor_RevisionsOnly" xml:space="preserve">
+    <value>Вы можете редактировать в этом регионе, но все изменения будут отслеживаться</value>
+  </data>
+  <data name="DocumentEditorContainer_RemovedIgnore" xml:space="preserve">
+    <value>Вы хотите удалить игнорируемые исключения?</value>
+  </data>
+  <data name="DocumentEditorContainer_Yes" xml:space="preserve">
+    <value>да</value>
+  </data>
+  <data name="DocumentEditorContainer_No" xml:space="preserve">
+    <value>Нет</value>
+  </data>
+  <data name="Gantt_Touch_DialogTextOnClickingConnectorPoint" xml:space="preserve">
+    <value>Выберите другую задачу</value>
+  </data>
+  <data name="Gantt_Touch_DialogTextOnSelectingTaskbar" xml:space="preserve">
+    <value>Выберите положение разъема</value>
+  </data>
+  <data name="Gantt_Touch_LeftButton" xml:space="preserve">
+    <value>Слева</value>
+  </data>
+  <data name="Gantt_Touch_RightButton" xml:space="preserve">
+    <value>Верно</value>
+  </data>
+  <data name="PdfViewer_ExportXFDF" xml:space="preserve">
+    <value>Экспорт аннотации в файл XFDF</value>
+  </data>
+  <data name="PdfViewer_ImportXFDF" xml:space="preserve">
+    <value>Импорт аннотаций из файла XFDF</value>
+  </data>
+</root>

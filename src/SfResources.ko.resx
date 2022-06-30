@@ -1,0 +1,5274 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AutoComplete_ActionFailureTemplate" xml:space="preserve">
+    <value>요청 실패</value>
+  </data>
+  <data name="AutoComplete_NoRecordsTemplate" xml:space="preserve">
+    <value>기록 없음</value>
+  </data>
+  <data name="Calendar_Today" xml:space="preserve">
+    <value>오늘</value>
+  </data>
+  <data name="ComboBox_ActionFailureTemplate" xml:space="preserve">
+    <value>요청 실패</value>
+  </data>
+  <data name="ComboBox_NoRecordsTemplate" xml:space="preserve">
+    <value>기록 없음</value>
+  </data>
+  <data name="DatePicker_Placeholder" xml:space="preserve">
+    <value>날짜를 선택하십시오</value>
+  </data>
+  <data name="DatePicker_Today" xml:space="preserve">
+    <value>오늘</value>
+  </data>
+  <data name="DateRangePicker_ApplyText" xml:space="preserve">
+    <value>대다</value>
+  </data>
+  <data name="DateRangePicker_CancelText" xml:space="preserve">
+    <value>취소</value>
+  </data>
+  <data name="DateRangePicker_CustomRange" xml:space="preserve">
+    <value>맞춤 범위</value>
+  </data>
+  <data name="DateRangePicker_Days" xml:space="preserve">
+    <value>일</value>
+  </data>
+  <data name="DateRangePicker_EndLabel" xml:space="preserve">
+    <value>종료일</value>
+  </data>
+  <data name="DateRangePicker_Placeholder" xml:space="preserve">
+    <value>기간을 선택하십시오</value>
+  </data>
+  <data name="DateRangePicker_SelectedDays" xml:space="preserve">
+    <value>선택된 요일</value>
+  </data>
+  <data name="DateRangePicker_StartLabel" xml:space="preserve">
+    <value>시작일</value>
+  </data>
+  <data name="DateTimePicker_Placeholder" xml:space="preserve">
+    <value>날짜와 시간을 선택하십시오</value>
+  </data>
+  <data name="DateTimePicker_Today" xml:space="preserve">
+    <value>오늘</value>
+  </data>
+  <data name="DropDownList_ActionFailureTemplate" xml:space="preserve">
+    <value>요청 실패</value>
+  </data>
+  <data name="DropDownList_NoRecordsTemplate" xml:space="preserve">
+    <value>기록 없음</value>
+  </data>
+  <data name="MultiSelect_ActionFailureTemplate" xml:space="preserve">
+    <value>요청 실패</value>
+  </data>
+  <data name="MultiSelect_NoRecordsTemplate" xml:space="preserve">
+    <value>기록 없음</value>
+  </data>
+  <data name="MultiSelect_OverflowCountTemplate" xml:space="preserve">
+    <value>+${count} 개 더 ..</value>
+  </data>
+  <data name="MultiSelect_SelectAllText" xml:space="preserve">
+    <value>모두 선택</value>
+  </data>
+  <data name="MultiSelect_TotalCountTemplate" xml:space="preserve">
+    <value>선택된 ${count}</value>
+  </data>
+  <data name="MultiSelect_UnSelectAllText" xml:space="preserve">
+    <value>모두 선택 해제</value>
+  </data>
+  <data name="NumericTextBox_DecrementTitle" xml:space="preserve">
+    <value>가치 감소</value>
+  </data>
+  <data name="NumericTextBox_IncrementTitle" xml:space="preserve">
+    <value>증가 가치</value>
+  </data>
+  <data name="TimePicker_Placeholder" xml:space="preserve">
+    <value>시간을 선택하세요</value>
+  </data>
+  <data name="Uploader_Abort" xml:space="preserve">
+    <value>중단</value>
+  </data>
+  <data name="Uploader_Browse" xml:space="preserve">
+    <value>검색...</value>
+  </data>
+  <data name="Uploader_Cancel" xml:space="preserve">
+    <value>취소</value>
+  </data>
+  <data name="Uploader_Clear" xml:space="preserve">
+    <value>명확한</value>
+  </data>
+  <data name="Uploader_Delete" xml:space="preserve">
+    <value>파일 삭제</value>
+  </data>
+  <data name="Uploader_DropFilesHint" xml:space="preserve">
+    <value>아니면 여기에 파일을 드롭</value>
+  </data>
+  <data name="Uploader_FileUploadCancel" xml:space="preserve">
+    <value>파일 업로드가 취소되었습니다</value>
+  </data>
+  <data name="Uploader_InProgress" xml:space="preserve">
+    <value>업로드 중</value>
+  </data>
+  <data name="Uploader_InvalidFileType" xml:space="preserve">
+    <value>파일 형식이 허용되지 않습니다</value>
+  </data>
+  <data name="Uploader_InvalidMaxFileSize" xml:space="preserve">
+    <value>파일 크기가 너무 큽니다</value>
+  </data>
+  <data name="Uploader_invalidMinFileSize" xml:space="preserve">
+    <value>파일 크기가 너무 작습니다</value>
+  </data>
+  <data name="Uploader_Pause" xml:space="preserve">
+    <value>중지</value>
+  </data>
+  <data name="Uploader_PauseUpload" xml:space="preserve">
+    <value>파일 업로드 일시 중지</value>
+  </data>
+  <data name="Uploader_ReadyToUploadMessage" xml:space="preserve">
+    <value>업로드 준비 완료</value>
+  </data>
+  <data name="Uploader_Remove" xml:space="preserve">
+    <value>없애다</value>
+  </data>
+  <data name="Uploader_RemovedFailedMessage" xml:space="preserve">
+    <value>파일을 제거 할 수 없습니다</value>
+  </data>
+  <data name="Uploader_RemovedSuccessMessage" xml:space="preserve">
+    <value>파일이 성공적으로 제거되었습니다</value>
+  </data>
+  <data name="Uploader_Resume" xml:space="preserve">
+    <value>이력서</value>
+  </data>
+  <data name="Uploader_Retry" xml:space="preserve">
+    <value>다시 해 보다</value>
+  </data>
+  <data name="Uploader_Upload" xml:space="preserve">
+    <value>업로드</value>
+  </data>
+  <data name="Uploader_UploadFailedMessage" xml:space="preserve">
+    <value>파일을 업로드하지 못했습니다</value>
+  </data>
+  <data name="Uploader_UploadSuccessMessage" xml:space="preserve">
+    <value>파일이 성공적으로 업로드되었습니다</value>
+  </data>
+  <data name="FileManager_NewFolder" xml:space="preserve">
+    <value>새 폴더</value>
+  </data>
+  <data name="FileManager_Upload" xml:space="preserve">
+    <value>업로드</value>
+  </data>
+  <data name="FileManager_Delete" xml:space="preserve">
+    <value>지우다</value>
+  </data>
+  <data name="FileManager_Rename" xml:space="preserve">
+    <value>이름 바꾸기</value>
+  </data>
+  <data name="FileManager_Download" xml:space="preserve">
+    <value>다운로드</value>
+  </data>
+  <data name="FileManager_Cut" xml:space="preserve">
+    <value>절단</value>
+  </data>
+  <data name="FileManager_Copy" xml:space="preserve">
+    <value>부</value>
+  </data>
+  <data name="FileManager_Paste" xml:space="preserve">
+    <value>풀</value>
+  </data>
+  <data name="FileManager_SortBy" xml:space="preserve">
+    <value>정렬 기준</value>
+  </data>
+  <data name="FileManager_Refresh" xml:space="preserve">
+    <value>새롭게 하다</value>
+  </data>
+  <data name="FileManager_ItemSelection" xml:space="preserve">
+    <value>선택된 항목</value>
+  </data>
+  <data name="FileManager_ItemsSelection" xml:space="preserve">
+    <value>선택된 항목</value>
+  </data>
+  <data name="FileManager_View" xml:space="preserve">
+    <value>전망</value>
+  </data>
+  <data name="FileManager_Details" xml:space="preserve">
+    <value>세부</value>
+  </data>
+  <data name="FileManager_SelectAll" xml:space="preserve">
+    <value>모두 선택</value>
+  </data>
+  <data name="FileManager_Open" xml:space="preserve">
+    <value>열다</value>
+  </data>
+  <data name="FileManager_TooltipNewFolder" xml:space="preserve">
+    <value>새 폴더</value>
+  </data>
+  <data name="FileManager_TooltipUpload" xml:space="preserve">
+    <value>업로드</value>
+  </data>
+  <data name="FileManager_TooltipDelete" xml:space="preserve">
+    <value>지우다</value>
+  </data>
+  <data name="FileManager_TooltipRename" xml:space="preserve">
+    <value>이름 바꾸기</value>
+  </data>
+  <data name="FileManager_TooltipDownload" xml:space="preserve">
+    <value>다운로드</value>
+  </data>
+  <data name="FileManager_TooltipCut" xml:space="preserve">
+    <value>절단</value>
+  </data>
+  <data name="FileManager_TooltipCopy" xml:space="preserve">
+    <value>부</value>
+  </data>
+  <data name="FileManager_TooltipPaste" xml:space="preserve">
+    <value>풀</value>
+  </data>
+  <data name="FileManager_TooltipSortBy" xml:space="preserve">
+    <value>정렬 기준</value>
+  </data>
+  <data name="FileManager_TooltipRefresh" xml:space="preserve">
+    <value>새롭게 하다</value>
+  </data>
+  <data name="FileManager_TooltipSelection" xml:space="preserve">
+    <value>명확한 선택</value>
+  </data>
+  <data name="FileManager_TooltipView" xml:space="preserve">
+    <value>전망</value>
+  </data>
+  <data name="FileManager_TooltipDetails" xml:space="preserve">
+    <value>세부</value>
+  </data>
+  <data name="FileManager_TooltipSelectAll" xml:space="preserve">
+    <value>모두 선택</value>
+  </data>
+  <data name="FileManager_Name" xml:space="preserve">
+    <value>이름</value>
+  </data>
+  <data name="FileManager_Size" xml:space="preserve">
+    <value>크기</value>
+  </data>
+  <data name="FileManager_DateModified" xml:space="preserve">
+    <value>수정</value>
+  </data>
+  <data name="FileManager_DateCreated" xml:space="preserve">
+    <value>작성일</value>
+  </data>
+  <data name="FileManager_Path" xml:space="preserve">
+    <value>통로</value>
+  </data>
+  <data name="FileManager_Modified" xml:space="preserve">
+    <value>수정</value>
+  </data>
+  <data name="FileManager_Created" xml:space="preserve">
+    <value>만들어진</value>
+  </data>
+  <data name="FileManager_Location" xml:space="preserve">
+    <value>위치</value>
+  </data>
+  <data name="FileManager_Type" xml:space="preserve">
+    <value>유형</value>
+  </data>
+  <data name="FileManager_Permission" xml:space="preserve">
+    <value>허가</value>
+  </data>
+  <data name="FileManager_Ascending" xml:space="preserve">
+    <value>오름차순</value>
+  </data>
+  <data name="FileManager_Descending" xml:space="preserve">
+    <value>내림차순</value>
+  </data>
+  <data name="FileManager_None" xml:space="preserve">
+    <value>없음</value>
+  </data>
+  <data name="FileManager_ViewLargeIcons" xml:space="preserve">
+    <value>큰 아이콘</value>
+  </data>
+  <data name="FileManager_ViewDetails" xml:space="preserve">
+    <value>세부</value>
+  </data>
+  <data name="FileManager_Search" xml:space="preserve">
+    <value>검색</value>
+  </data>
+  <data name="FileManager_ButtonOk" xml:space="preserve">
+    <value>확인</value>
+  </data>
+  <data name="FileManager_ButtonCancel" xml:space="preserve">
+    <value>취소</value>
+  </data>
+  <data name="FileManager_ButtonYes" xml:space="preserve">
+    <value>예</value>
+  </data>
+  <data name="FileManager_ButtonNo" xml:space="preserve">
+    <value>아니</value>
+  </data>
+  <data name="FileManager_ButtonCreate" xml:space="preserve">
+    <value>창조하다</value>
+  </data>
+  <data name="FileManager_ButtonSave" xml:space="preserve">
+    <value>저장</value>
+  </data>
+  <data name="FileManager_HeaderNewFolder" xml:space="preserve">
+    <value>폴더</value>
+  </data>
+  <data name="FileManager_ContentNewFolder" xml:space="preserve">
+    <value>폴더 이름을 입력하십시오</value>
+  </data>
+  <data name="FileManager_HeaderRename" xml:space="preserve">
+    <value>이름 바꾸기</value>
+  </data>
+  <data name="FileManager_ContentRename" xml:space="preserve">
+    <value>새 이름을 입력하십시오</value>
+  </data>
+  <data name="FileManager_HeaderRenameConfirmation" xml:space="preserve">
+    <value>확인 이름 변경</value>
+  </data>
+  <data name="FileManager_ContentRenameConfirmation" xml:space="preserve">
+    <value>파일 이름 확장자를 변경하면 파일이 불안정해질 수 있습니다. 변경 하시겠습니까?</value>
+  </data>
+  <data name="FileManager_HeaderDelete" xml:space="preserve">
+    <value>파일 삭제</value>
+  </data>
+  <data name="FileManager_ContentDelete" xml:space="preserve">
+    <value>이 파일을 삭제 하시겠습니까?</value>
+  </data>
+  <data name="FileManager_HeaderFolderDelete" xml:space="preserve">
+    <value>폴더 삭제</value>
+  </data>
+  <data name="FileManager_ContentFolderDelete" xml:space="preserve">
+    <value>이 폴더를 삭제 하시겠습니까?</value>
+  </data>
+  <data name="FileManager_HeaderMultipleDelete" xml:space="preserve">
+    <value>여러 항목 삭제</value>
+  </data>
+  <data name="FileManager_ContentMultipleDelete" xml:space="preserve">
+    <value>이 {0} 항목을 삭제 하시겠습니까?</value>
+  </data>
+  <data name="FileManager_HeaderDuplicate" xml:space="preserve">
+    <value>파일 / 폴더가 존재합니다</value>
+  </data>
+  <data name="FileManager_ContentDuplicate" xml:space="preserve">
+    <value>{0}이 (가) 이미 존재합니다. 이름을 바꾸고 붙여 넣기 하시겠습니까?</value>
+  </data>
+  <data name="FileManager_HeaderUpload" xml:space="preserve">
+    <value>파일 업로드하다</value>
+  </data>
+  <data name="FileManager_Error" xml:space="preserve">
+    <value>오류</value>
+  </data>
+  <data name="FileManager_ValidationEmpty" xml:space="preserve">
+    <value>파일 또는 폴더 이름은 비워 둘 수 없습니다.</value>
+  </data>
+  <data name="FileManager_ValidationInvalid" xml:space="preserve">
+    <value>파일 또는 폴더 이름 {0}에 유효하지 않은 문자가 있습니다. 다른 이름을 사용하십시오. 유효한 파일 또는 폴더 이름은 점 또는 공백으로 끝날 수 없습니다.</value>
+  </data>
+  <data name="FileManager_ValidationNewFolderExists" xml:space="preserve">
+    <value>이름이 {0} 인 파일 또는 폴더가 이미 존재합니다.</value>
+  </data>
+  <data name="FileManager_ValidationRenameExists" xml:space="preserve">
+    <value>{0}의 이름을 {1} (으)로 바꿀 수 없습니다. 대상이 이미 존재합니다.</value>
+  </data>
+  <data name="FileManager_FolderEmpty" xml:space="preserve">
+    <value>이 폴더는 비어 있습니다</value>
+  </data>
+  <data name="FileManager_FileUpload" xml:space="preserve">
+    <value>파일을 여기로 드래그하여 업로드</value>
+  </data>
+  <data name="FileManager_SearchEmpty" xml:space="preserve">
+    <value>검색 결과가 없습니다</value>
+  </data>
+  <data name="FileManager_SearchKey" xml:space="preserve">
+    <value>다른 키워드로 시도</value>
+  </data>
+  <data name="FileManager_FilterEmpty" xml:space="preserve">
+    <value>검색 결과가 없습니다</value>
+  </data>
+  <data name="FileManager_FilterKey" xml:space="preserve">
+    <value>다른 필터로 시도</value>
+  </data>
+  <data name="FileManager_SubFolderError" xml:space="preserve">
+    <value>대상 폴더는 원본 폴더의 하위 폴더입니다.</value>
+  </data>
+  <data name="FileManager_AccessDenied" xml:space="preserve">
+    <value>접근 불가</value>
+  </data>
+  <data name="FileManager_AccessDetails" xml:space="preserve">
+    <value>이 폴더에 액세스 할 수있는 권한이 없습니다.</value>
+  </data>
+  <data name="FileManager_HeaderRetry" xml:space="preserve">
+    <value>존재하는 파일입니다</value>
+  </data>
+  <data name="FileManager_ContentRetry" xml:space="preserve">
+    <value>이 이름의 파일이 이미이 폴더에 있습니다. 무엇을하고 싶으십니까?</value>
+  </data>
+  <data name="FileManager_ButtonKeepBoth" xml:space="preserve">
+    <value>둘 다 유지</value>
+  </data>
+  <data name="FileManager_ButtonReplace" xml:space="preserve">
+    <value>바꾸다</value>
+  </data>
+  <data name="FileManager_ButtonSkip" xml:space="preserve">
+    <value>건너 뛰기</value>
+  </data>
+  <data name="FileManager_ApplyAllLabel" xml:space="preserve">
+    <value>모든 현재 항목에 대해</value>
+  </data>
+  <data name="FileManager_KB" xml:space="preserve">
+    <value>KB</value>
+  </data>
+  <data name="FileManager_AccessMessage" xml:space="preserve">
+    <value>{0}에 액세스 할 수 없습니다. {1} 조치를 수행하려면 권한이 필요합니다.</value>
+  </data>
+  <data name="FileManager_NetworkError" xml:space="preserve">
+    <value>NetworkError : XMLHTTPRequest를 보내지 못했습니다 :로드하지 못했습니다</value>
+  </data>
+  <data name="FileManager_ServerError" xml:space="preserve">
+    <value>ServerError : 잘못된 응답</value>
+  </data>
+  <data name="Chart_Zoom" xml:space="preserve">
+    <value>줌</value>
+  </data>
+  <data name="Chart_ZoomIn" xml:space="preserve">
+    <value>확대</value>
+  </data>
+  <data name="Chart_ZoomOut" xml:space="preserve">
+    <value>축소</value>
+  </data>
+  <data name="Chart_Reset" xml:space="preserve">
+    <value>초기화</value>
+  </data>
+  <data name="Chart_Pan" xml:space="preserve">
+    <value>팬</value>
+  </data>
+  <data name="Chart_ResetZoom" xml:space="preserve">
+    <value>줌 재설정</value>
+  </data>
+  <data name="Slider_DecrementTitle" xml:space="preserve">
+    <value>감소</value>
+  </data>
+  <data name="Slider_IncrementTitle" xml:space="preserve">
+    <value>증가하다</value>
+  </data>
+  <data name="Maps_Zoom" xml:space="preserve">
+    <value>줌</value>
+  </data>
+  <data name="Maps_ZoomIn" xml:space="preserve">
+    <value>확대</value>
+  </data>
+  <data name="Maps_ZoomOut" xml:space="preserve">
+    <value>축소</value>
+  </data>
+  <data name="Maps_Reset" xml:space="preserve">
+    <value>초기화</value>
+  </data>
+  <data name="Maps_Pan" xml:space="preserve">
+    <value>팬</value>
+  </data>
+  <data name="Gantt_Above" xml:space="preserve">
+    <value>위</value>
+  </data>
+  <data name="Gantt_Add" xml:space="preserve">
+    <value>더하다</value>
+  </data>
+  <data name="Gantt_AddDialogTitle" xml:space="preserve">
+    <value>새 작업</value>
+  </data>
+  <data name="Gantt_BaselineEndDate" xml:space="preserve">
+    <value>기준 종료일</value>
+  </data>
+  <data name="Gantt_BaselineStartDate" xml:space="preserve">
+    <value>기준 시작 날짜</value>
+  </data>
+  <data name="Gantt_Below" xml:space="preserve">
+    <value>이하</value>
+  </data>
+  <data name="Gantt_Cancel" xml:space="preserve">
+    <value>취소</value>
+  </data>
+  <data name="Gantt_Child" xml:space="preserve">
+    <value>아이</value>
+  </data>
+  <data name="Gantt_CollapseAll" xml:space="preserve">
+    <value>모든 축소</value>
+  </data>
+  <data name="Gantt_ConfirmDelete" xml:space="preserve">
+    <value>레코드를 삭제 하시겠습니까?</value>
+  </data>
+  <data name="Gantt_ConfirmPredecessorDelete" xml:space="preserve">
+    <value>종속성 링크를 제거 하시겠습니까?</value>
+  </data>
+  <data name="Gantt_Indent" xml:space="preserve">
+    <value>톱니 모양</value>
+  </data>
+  <data name="Gantt_Outdent" xml:space="preserve">
+    <value>Outdent</value>
+  </data>
+  <data name="Gantt_Convert" xml:space="preserve">
+    <value>변하게 하다</value>
+  </data>
+  <data name="Gantt_CsvExport" xml:space="preserve">
+    <value>CSV 내보내기</value>
+  </data>
+  <data name="Gantt_CustomTab" xml:space="preserve">
+    <value>맞춤 항목</value>
+  </data>
+  <data name="Gantt_Day" xml:space="preserve">
+    <value>일</value>
+  </data>
+  <data name="Gantt_Days" xml:space="preserve">
+    <value>일</value>
+  </data>
+  <data name="Gantt_Delete" xml:space="preserve">
+    <value>지우다</value>
+  </data>
+  <data name="Gantt_DeleteDependency" xml:space="preserve">
+    <value>종속성 삭제</value>
+  </data>
+  <data name="Gantt_DeleteTask" xml:space="preserve">
+    <value>작업 삭제</value>
+  </data>
+  <data name="Gantt_Dependency" xml:space="preserve">
+    <value>의존</value>
+  </data>
+  <data name="Gantt_Duration" xml:space="preserve">
+    <value>지속</value>
+  </data>
+  <data name="Gantt_Edit" xml:space="preserve">
+    <value>편집하다</value>
+  </data>
+  <data name="Gantt_EditDialogTitle" xml:space="preserve">
+    <value>작업 정보</value>
+  </data>
+  <data name="Gantt_EmptyRecord" xml:space="preserve">
+    <value>표시 할 레코드가 없습니다</value>
+  </data>
+  <data name="Gantt_EndDate" xml:space="preserve">
+    <value>종료일</value>
+  </data>
+  <data name="Gantt_EnterValue" xml:space="preserve">
+    <value>값을 입력하십시오</value>
+  </data>
+  <data name="Gantt_EventMarkers" xml:space="preserve">
+    <value>이벤트 마커</value>
+  </data>
+  <data name="Gantt_ExcelExport" xml:space="preserve">
+    <value>엑셀 내보내기</value>
+  </data>
+  <data name="Gantt_ExpandAll" xml:space="preserve">
+    <value>모두 확장</value>
+  </data>
+  <data name="Gantt_Finish" xml:space="preserve">
+    <value>끝</value>
+  </data>
+  <data name="Gantt_From" xml:space="preserve">
+    <value>에서</value>
+  </data>
+  <data name="Gantt_GeneralTab" xml:space="preserve">
+    <value>일반</value>
+  </data>
+  <data name="Gantt_Hour" xml:space="preserve">
+    <value>시</value>
+  </data>
+  <data name="Gantt_Hours" xml:space="preserve">
+    <value>시간</value>
+  </data>
+  <data name="Gantt_Id" xml:space="preserve">
+    <value>신분증</value>
+  </data>
+  <data name="Gantt_Lag" xml:space="preserve">
+    <value>지연</value>
+  </data>
+  <data name="Gantt_LeftTaskLabel" xml:space="preserve">
+    <value>왼쪽 작업 라벨</value>
+  </data>
+  <data name="Gantt_Milestone" xml:space="preserve">
+    <value>획기적 사건</value>
+  </data>
+  <data name="Gantt_Minute" xml:space="preserve">
+    <value>분</value>
+  </data>
+  <data name="Gantt_Minutes" xml:space="preserve">
+    <value>의사록</value>
+  </data>
+  <data name="Gantt_Name" xml:space="preserve">
+    <value>이름</value>
+  </data>
+  <data name="Gantt_NextTimeSpan" xml:space="preserve">
+    <value>다음 시간</value>
+  </data>
+  <data name="Gantt_Notes" xml:space="preserve">
+    <value>노트</value>
+  </data>
+  <data name="Gantt_Offset" xml:space="preserve">
+    <value>오프셋</value>
+  </data>
+  <data name="Gantt_OkText" xml:space="preserve">
+    <value>확인</value>
+  </data>
+  <data name="Gantt_PrevTimeSpan" xml:space="preserve">
+    <value>이전 기간</value>
+  </data>
+  <data name="Gantt_Progress" xml:space="preserve">
+    <value>진행</value>
+  </data>
+  <data name="Gantt_ResourceID" xml:space="preserve">
+    <value>자원 ID</value>
+  </data>
+  <data name="Gantt_ResourceName" xml:space="preserve">
+    <value>자원</value>
+  </data>
+  <data name="Gantt_RightTaskLabel" xml:space="preserve">
+    <value>올바른 작업 라벨</value>
+  </data>
+  <data name="Gantt_Save" xml:space="preserve">
+    <value>저장</value>
+  </data>
+  <data name="Gantt_SaveButton" xml:space="preserve">
+    <value>저장</value>
+  </data>
+  <data name="Gantt_Search" xml:space="preserve">
+    <value>검색</value>
+  </data>
+  <data name="Gantt_Start" xml:space="preserve">
+    <value>스타트</value>
+  </data>
+  <data name="Gantt_StartDate" xml:space="preserve">
+    <value>시작일</value>
+  </data>
+  <data name="Gantt_Task" xml:space="preserve">
+    <value>직무</value>
+  </data>
+  <data name="Gantt_TaskAfterPredecessor_FF" xml:space="preserve">
+    <value>'{1}'이 (가) 완료된 후 '{0}'을 (를) 이동하고 두 작업이 연결되었습니다. 결과적으로 링크를 사용할 수 없습니다. 수행 할 작업을 아래에서 선택하십시오</value>
+  </data>
+  <data name="Gantt_TaskAfterPredecessor_FS" xml:space="preserve">
+    <value>'{1}'에서 '{0}'을 (를) 이동했으며 두 작업이 연결되었습니다. 결과적으로 링크를 사용할 수 없습니다. 수행 할 작업을 아래에서 선택하십시오</value>
+  </data>
+  <data name="Gantt_TaskAfterPredecessor_SF" xml:space="preserve">
+    <value>'{1}'이 (가) 시작된 후 '{0}'을 (를) 이동하고 두 작업이 연결되었습니다. 결과적으로 링크를 사용할 수 없습니다. 수행 할 작업을 아래에서 선택하십시오</value>
+  </data>
+  <data name="Gantt_TaskAfterPredecessor_SS" xml:space="preserve">
+    <value>'{1}'이 (가) 시작된 후 시작하도록 '{0}'을 (를) 이동했으며 두 작업이 연결되었습니다. 결과적으로 링크를 사용할 수 없습니다. 수행 할 작업을 아래에서 선택하십시오</value>
+  </data>
+  <data name="Gantt_TaskBeforePredecessor_FF" xml:space="preserve">
+    <value>'{1}'이 (가) 완료되기 전에 '{0}'을 (를) 이동하여 두 작업이 연결되었습니다. 결과적으로 링크를 사용할 수 없습니다. 수행 할 작업을 아래에서 선택하십시오</value>
+  </data>
+  <data name="Gantt_TaskBeforePredecessor_FS" xml:space="preserve">
+    <value>'{1}'이 (가) 완료되기 전에 시작하기 위해 '{0}'을 (를) 이동했으며 두 작업이 연결되었습니다. 결과적으로 링크를 사용할 수 없습니다. 수행 할 작업을 아래에서 선택하십시오</value>
+  </data>
+  <data name="Gantt_TaskBeforePredecessor_SF" xml:space="preserve">
+    <value>'{0}'을 (를) '{1}'에서 이동하여 시작했으며 두 작업이 연결되었습니다. 결과적으로 링크를 사용할 수 없습니다. 수행 할 작업을 아래에서 선택하십시오</value>
+  </data>
+  <data name="Gantt_TaskBeforePredecessor_SS" xml:space="preserve">
+    <value>'{1}'이 (가) 시작되기 전에 시작하도록 '{0}'을 (를) 이동했으며 두 작업이 연결되었습니다. 결과적으로 링크를 사용할 수 없습니다. 수행 할 작업을 아래에서 선택하십시오</value>
+  </data>
+  <data name="Gantt_TaskInformation" xml:space="preserve">
+    <value>작업 정보</value>
+  </data>
+  <data name="Gantt_TaskLink" xml:space="preserve">
+    <value>작업 링크</value>
+  </data>
+  <data name="Gantt_Tasks" xml:space="preserve">
+    <value>업무</value>
+  </data>
+  <data name="Gantt_TimelineCell" xml:space="preserve">
+    <value>타임 라인 셀</value>
+  </data>
+  <data name="Gantt_To" xml:space="preserve">
+    <value>에</value>
+  </data>
+  <data name="Gantt_ToMilestone" xml:space="preserve">
+    <value>이정표로</value>
+  </data>
+  <data name="Gantt_ToTask" xml:space="preserve">
+    <value>할 일</value>
+  </data>
+  <data name="Gantt_Type" xml:space="preserve">
+    <value>유형</value>
+  </data>
+  <data name="Gantt_Update" xml:space="preserve">
+    <value>최신 정보</value>
+  </data>
+  <data name="Gantt_WriteNotes" xml:space="preserve">
+    <value>메모 작성</value>
+  </data>
+  <data name="Gantt_ZoomIn" xml:space="preserve">
+    <value>확대</value>
+  </data>
+  <data name="Gantt_ZoomOut" xml:space="preserve">
+    <value>축소</value>
+  </data>
+  <data name="Gantt_ZoomToFit" xml:space="preserve">
+    <value>맞게 확대</value>
+  </data>
+  <data name="Gantt_AutoFit" xml:space="preserve">
+    <value>자동 맞춤 열</value>
+  </data>
+  <data name="Gantt_AutoFitAll" xml:space="preserve">
+    <value>모든 열 자동 맞춤</value>
+  </data>
+  <data name="Gantt_SortAscending" xml:space="preserve">
+    <value>오름차순 정렬</value>
+  </data>
+  <data name="Gantt_SortDescending" xml:space="preserve">
+    <value>내림차순 정렬</value>
+  </data>
+  <data name="Gantt_TaskMode" xml:space="preserve">
+    <value>작업 모드</value>
+  </data>
+  <data name="Gantt_TaskMode_Auto" xml:space="preserve">
+    <value>자동</value>
+  </data>
+  <data name="Gantt_TaskMode_Manual" xml:space="preserve">
+    <value>수동</value>
+  </data>
+  <data name="Gantt_SubTaskStartDate" xml:space="preserve">
+    <value>하위 작업 시작 날짜</value>
+  </data>
+  <data name="Gantt_SubTaskEndDate" xml:space="preserve">
+    <value>하위 작업 종료 날짜</value>
+  </data>
+  <data name="Gantt_AutoDuration" xml:space="preserve">
+    <value>지속</value>
+  </data>
+  <data name="Gantt_Work" xml:space="preserve">
+    <value>일하다</value>
+  </data>
+  <data name="Gantt_H" xml:space="preserve">
+    <value>시간</value>
+  </data>
+  <data name="Gantt_D" xml:space="preserve">
+    <value>디</value>
+  </data>
+  <data name="Gantt_M" xml:space="preserve">
+    <value>중</value>
+  </data>
+  <data name="Gantt_Min" xml:space="preserve">
+    <value>분</value>
+  </data>
+  <data name="Gantt_CustomColumn" xml:space="preserve">
+    <value>사용자 정의 열</value>
+  </data>
+  <data name="Gantt_TaskType" xml:space="preserve">
+    <value>작업 유형</value>
+  </data>
+  <data name="ColorPicker_Apply" xml:space="preserve">
+    <value>대다</value>
+  </data>
+  <data name="ColorPicker_Cancel" xml:space="preserve">
+    <value>취소</value>
+  </data>
+  <data name="ColorPicker_ModeSwitcher" xml:space="preserve">
+    <value>스위치 모드</value>
+  </data>
+  <data name="ListBox_ActionFailureTemplate" xml:space="preserve">
+    <value>요청 실패</value>
+  </data>
+  <data name="ListBox_MoveAllFrom" xml:space="preserve">
+    <value>모두에서 이동</value>
+  </data>
+  <data name="ListBox_MoveAllTo" xml:space="preserve">
+    <value>모두로 이동</value>
+  </data>
+  <data name="ListBox_MoveDown" xml:space="preserve">
+    <value>아래로 이동</value>
+  </data>
+  <data name="ListBox_MoveFrom" xml:space="preserve">
+    <value>에서왔다</value>
+  </data>
+  <data name="ListBox_MoveTo" xml:space="preserve">
+    <value>이동</value>
+  </data>
+  <data name="ListBox_MoveUp" xml:space="preserve">
+    <value>이동</value>
+  </data>
+  <data name="ListBox_NoRecordsTemplate" xml:space="preserve">
+    <value>기록 없음</value>
+  </data>
+  <data name="ListBox_SelectAllText" xml:space="preserve">
+    <value>모두 선택</value>
+  </data>
+  <data name="ListBox_UnSelectAllText" xml:space="preserve">
+    <value>모두 선택 해제</value>
+  </data>
+  <data name="PivotView_NumberFormat_ExampleWatermark" xml:space="preserve">
+    <value>예: C, P, 0000 %, ###0.##0# 등.</value>
+  </data>
+  <data name="PivotView_SortNone_TooltipMessage" xml:space="preserve">
+    <value>데이터 순서 정렬</value>
+  </data>
+  <data name="PivotView_SortDescending_TooltipMessage" xml:space="preserve">
+    <value>내림차순 정렬</value>
+  </data>
+  <data name="PivotView_StaticFieldList" xml:space="preserve">
+    <value>피벗 필드 목록</value>
+  </data>
+  <data name="PivotView_FieldList" xml:space="preserve">
+    <value>필드 목록</value>
+  </data>
+  <data name="PivotView_AddFieldMessage" xml:space="preserve">
+    <value>여기에 필드 추가</value>
+  </data>
+  <data name="PivotView_ChooseFieldMessage" xml:space="preserve">
+    <value>필드 선택</value>
+  </data>
+  <data name="PivotView_DragFieldsMessage" xml:space="preserve">
+    <value>아래의 축 사이에서 필드를 드래그하십시오:</value>
+  </data>
+  <data name="PivotView_Add" xml:space="preserve">
+    <value>더하다</value>
+  </data>
+  <data name="PivotView_DeferLayoutUpdate" xml:space="preserve">
+    <value>레이아웃 업데이트 연기</value>
+  </data>
+  <data name="PivotView_ShowLegend" xml:space="preserve">
+    <value>범례 표시</value>
+  </data>
+  <data name="PivotView_FieldCaptionWatermark" xml:space="preserve">
+    <value>필드 캡션 입력</value>
+  </data>
+  <data name="PivotView_SortAscending_TooltipMessage" xml:space="preserve">
+    <value>오름차순 정렬</value>
+  </data>
+  <data name="PivotView_ReplaceReport_BeforeMessage" xml:space="preserve">
+    <value>이름이 지정된 보고서</value>
+  </data>
+  <data name="PivotView_ReplaceReport_AfterMessage" xml:space="preserve">
+    <value>이미 존재 함. 교체 하시겠습니까?</value>
+  </data>
+  <data name="PivotView_AddCondition" xml:space="preserve">
+    <value>조건 추가</value>
+  </data>
+  <data name="PivotView_AddToColumn" xml:space="preserve">
+    <value>열에 추가</value>
+  </data>
+  <data name="PivotView_AddToFilter" xml:space="preserve">
+    <value>필터에 추가</value>
+  </data>
+  <data name="PivotView_AddToRow" xml:space="preserve">
+    <value>행에 추가</value>
+  </data>
+  <data name="PivotView_AddToValue" xml:space="preserve">
+    <value>가치에 추가</value>
+  </data>
+  <data name="PivotView_After" xml:space="preserve">
+    <value>후</value>
+  </data>
+  <data name="PivotView_AfterOrEqualTo" xml:space="preserve">
+    <value>후 또는 같음</value>
+  </data>
+  <data name="PivotView_Aggregate" xml:space="preserve">
+    <value>골재</value>
+  </data>
+  <data name="PivotView_Alert" xml:space="preserve">
+    <value>경보</value>
+  </data>
+  <data name="PivotView_All" xml:space="preserve">
+    <value>모두</value>
+  </data>
+  <data name="PivotView_AllFields" xml:space="preserve">
+    <value>모든 분야</value>
+  </data>
+  <data name="PivotView_AllValues" xml:space="preserve">
+    <value>모든 가치</value>
+  </data>
+  <data name="PivotView_And" xml:space="preserve">
+    <value>과</value>
+  </data>
+  <data name="PivotView_Apply" xml:space="preserve">
+    <value>대다</value>
+  </data>
+  <data name="PivotView_Area" xml:space="preserve">
+    <value>지역</value>
+  </data>
+  <data name="PivotView_Ascending" xml:space="preserve">
+    <value>오름차순</value>
+  </data>
+  <data name="PivotView_Avg" xml:space="preserve">
+    <value>평균</value>
+  </data>
+  <data name="PivotView_Bar" xml:space="preserve">
+    <value>바</value>
+  </data>
+  <data name="PivotView_BaseField" xml:space="preserve">
+    <value>베이스 필드</value>
+  </data>
+  <data name="PivotView_BaseItem" xml:space="preserve">
+    <value>기본 아이템</value>
+  </data>
+  <data name="PivotView_Before" xml:space="preserve">
+    <value>전에</value>
+  </data>
+  <data name="PivotView_BeforeOrEqualTo" xml:space="preserve">
+    <value>전에 또는 같음</value>
+  </data>
+  <data name="PivotView_BeginWith" xml:space="preserve">
+    <value>로 시작</value>
+  </data>
+  <data name="PivotView_Between" xml:space="preserve">
+    <value>중에서</value>
+  </data>
+  <data name="PivotView_Blank" xml:space="preserve">
+    <value>(공백)</value>
+  </data>
+  <data name="PivotView_By" xml:space="preserve">
+    <value>으로</value>
+  </data>
+  <data name="PivotView_CalculatedField" xml:space="preserve">
+    <value>계산 된 필드</value>
+  </data>
+  <data name="PivotView_CalculatedField_ConfirmMessage" xml:space="preserve">
+    <value>이 이름에는 이미 계산 필드가 있습니다. 교체 하시겠습니까?</value>
+  </data>
+  <data name="PivotView_CalculatedField_DragDropMessage" xml:space="preserve">
+    <value>필드를 수식으로 끌어서 놓기</value>
+  </data>
+  <data name="PivotView_CalculatedField_DragMessage" xml:space="preserve">
+    <value>필드를 수식으로 드래그</value>
+  </data>
+  <data name="PivotView_CalculatedField_DropMessage" xml:space="preserve">
+    <value>계산 된 필드는 값 축을 제외한 다른 영역에 배치 할 수 없습니다.</value>
+  </data>
+  <data name="PivotView_CalculatedField_ExampleWatermark" xml:space="preserve">
+    <value>예: ('Sum(Order_Count)' + 'Sum(In_Stock)') * 250</value>
+  </data>
+  <data name="PivotView_CalculatedField_ExistMessage" xml:space="preserve">
+    <value>이 이름에 필드가 이미 존재합니다. 다른 이름을 입력하십시오.</value>
+  </data>
+  <data name="PivotView_CalculatedField_MobileWatermark" xml:space="preserve">
+    <value>여기에서 필드를 추가하고 수식을 편집하십시오.</value>
+  </data>
+  <data name="PivotView_CalculatedField_NameWatermark" xml:space="preserve">
+    <value>필드 이름을 입력하십시오</value>
+  </data>
+  <data name="PivotView_CalculatedField_OLAPExampleWatermark" xml:space="preserve">
+    <value>예: [Measures].[Order Quantity] + ([Measures].[Order Quantity] * 0.10)</value>
+  </data>
+  <data name="PivotView_CalculatedField_Tooltip" xml:space="preserve">
+    <value>필드를 끌어서 놓아 표현식을 만듭니다. 그리고 기존 계산된 필드를 수정하고 싶다면! '계산된 구성원'에서 필드를 선택하기만 하면 달성할 수 있습니다.</value>
+  </data>
+  <data name="PivotView_Cancel" xml:space="preserve">
+    <value>취소</value>
+  </data>
+  <data name="PivotView_Chart" xml:space="preserve">
+    <value>차트</value>
+  </data>
+  <data name="PivotView_Clear" xml:space="preserve">
+    <value>명확한</value>
+  </data>
+  <data name="PivotView_ClearFilter" xml:space="preserve">
+    <value>명확한</value>
+  </data>
+  <data name="PivotView_Close" xml:space="preserve">
+    <value>닫기</value>
+  </data>
+  <data name="PivotView_Collapse" xml:space="preserve">
+    <value>무너짐</value>
+  </data>
+  <data name="PivotView_Column" xml:space="preserve">
+    <value>기둥</value>
+  </data>
+  <data name="PivotView_ColumnAxisWatermark" xml:space="preserve">
+    <value>여기에 열을 놓으십시오</value>
+  </data>
+  <data name="PivotView_Columns" xml:space="preserve">
+    <value>열</value>
+  </data>
+  <data name="PivotView_ConditionalFormating" xml:space="preserve">
+    <value>조건부 서식</value>
+  </data>
+  <data name="PivotView_ConditionalFormatting" xml:space="preserve">
+    <value>조건부 서식</value>
+  </data>
+  <data name="PivotView_Contains" xml:space="preserve">
+    <value>포함</value>
+  </data>
+  <data name="PivotView_Copy" xml:space="preserve">
+    <value>부</value>
+  </data>
+  <data name="PivotView_Count" xml:space="preserve">
+    <value>카운트</value>
+  </data>
+  <data name="PivotView_CreateCalculatedField" xml:space="preserve">
+    <value>계산 된 필드 만들기</value>
+  </data>
+  <data name="PivotView_CSV" xml:space="preserve">
+    <value>CSV</value>
+  </data>
+  <data name="PivotView_Currency" xml:space="preserve">
+    <value>통화</value>
+  </data>
+  <data name="PivotView_CurrencySymbol" xml:space="preserve">
+    <value>통화 기호</value>
+  </data>
+  <data name="PivotView_Custom" xml:space="preserve">
+    <value>커스텀</value>
+  </data>
+  <data name="PivotView_CustomFormat" xml:space="preserve">
+    <value>맞춤 형식</value>
+  </data>
+  <data name="PivotView_CustomFormatMessage" xml:space="preserve">
+    <value>맞춤 형식 문자열을 입력하세요</value>
+  </data>
+  <data name="PivotView_Date" xml:space="preserve">
+    <value>데이트</value>
+  </data>
+  <data name="PivotView_DateTextMessage" xml:space="preserve">
+    <value>날짜가있는 항목 표시</value>
+  </data>
+  <data name="PivotView_Days" xml:space="preserve">
+    <value>일</value>
+  </data>
+  <data name="PivotView_DecimalPlaces" xml:space="preserve">
+    <value>소수 자릿수</value>
+  </data>
+  <data name="PivotView_Delete" xml:space="preserve">
+    <value>지우다</value>
+  </data>
+  <data name="PivotView_DeleteReport" xml:space="preserve">
+    <value>현재 보고서 삭제</value>
+  </data>
+  <data name="PivotView_Descending" xml:space="preserve">
+    <value>내림차순</value>
+  </data>
+  <data name="PivotView_Details" xml:space="preserve">
+    <value>세부</value>
+  </data>
+  <data name="PivotView_DifferenceFrom" xml:space="preserve">
+    <value>와의 차이점</value>
+  </data>
+  <data name="PivotView_Dimension" xml:space="preserve">
+    <value>치수</value>
+  </data>
+  <data name="PivotView_DistinctCount" xml:space="preserve">
+    <value>고유 카운트</value>
+  </data>
+  <data name="PivotView_DoesNotBeginWith" xml:space="preserve">
+    <value>로 시작하지 않는다</value>
+  </data>
+  <data name="PivotView_DoesNotContains" xml:space="preserve">
+    <value>포함되어 있지 않다</value>
+  </data>
+  <data name="PivotView_DoesNotEndsWith" xml:space="preserve">
+    <value>끝나지 않는다</value>
+  </data>
+  <data name="PivotView_DoesNotEquals" xml:space="preserve">
+    <value>같지 않다</value>
+  </data>
+  <data name="PivotView_DoNotShowGrandTotals" xml:space="preserve">
+    <value>총계 표시 안함</value>
+  </data>
+  <data name="PivotView_DoNotShowSubtotals" xml:space="preserve">
+    <value>소계를 표시하지 않음</value>
+  </data>
+  <data name="PivotView_Drag" xml:space="preserve">
+    <value>견인</value>
+  </data>
+  <data name="PivotView_DrillThrough" xml:space="preserve">
+    <value>드릴 스루</value>
+  </data>
+  <data name="PivotView_DrillThroughErrorMessage" xml:space="preserve">
+    <value>계산 된 필드의 원시 항목을 표시 할 수 없습니다.</value>
+  </data>
+  <data name="PivotView_Edit" xml:space="preserve">
+    <value>편집하다</value>
+  </data>
+  <data name="PivotView_EmptyRecordsMessage" xml:space="preserve">
+    <value>표시 할 레코드가 없습니다</value>
+  </data>
+  <data name="PivotView_EmptyReportMessage" xml:space="preserve">
+    <value>보고서가 없습니다 !!</value>
+  </data>
+  <data name="PivotView_EndAt" xml:space="preserve">
+    <value>에 끝나는</value>
+  </data>
+  <data name="PivotView_EndsWith" xml:space="preserve">
+    <value>로 끝나다</value>
+  </data>
+  <data name="PivotView_EnterDate" xml:space="preserve">
+    <value>날짜 입력</value>
+  </data>
+  <data name="PivotView_EnterReportNameMessage" xml:space="preserve">
+    <value>보고서 이름을 입력하십시오</value>
+  </data>
+  <data name="PivotView_EnterValue" xml:space="preserve">
+    <value>값을 입력하십시오</value>
+  </data>
+  <data name="PivotView_Equals" xml:space="preserve">
+    <value>같음</value>
+  </data>
+  <data name="PivotView_Error" xml:space="preserve">
+    <value>오류</value>
+  </data>
+  <data name="PivotView_Example" xml:space="preserve">
+    <value>예 :</value>
+  </data>
+  <data name="PivotView_Excel" xml:space="preserve">
+    <value>Excel</value>
+  </data>
+  <data name="PivotView_Expand" xml:space="preserve">
+    <value>넓히다</value>
+  </data>
+  <data name="PivotView_Export" xml:space="preserve">
+    <value>수출</value>
+  </data>
+  <data name="PivotView_Expression" xml:space="preserve">
+    <value>표현</value>
+  </data>
+  <data name="PivotView_False" xml:space="preserve">
+    <value>그릇된</value>
+  </data>
+  <data name="PivotView_FieldCaption" xml:space="preserve">
+    <value>필드 캡션</value>
+  </data>
+  <data name="PivotView_FieldCaptionMessage" xml:space="preserve">
+    <value>필드 캡션</value>
+  </data>
+  <data name="PivotView_FieldDropErrorMessage" xml:space="preserve">
+    <value>이동중인 필드를 보고서의 해당 영역에 배치 할 수 없습니다</value>
+  </data>
+  <data name="PivotView_FieldName" xml:space="preserve">
+    <value>분야 명</value>
+  </data>
+  <data name="PivotView_FieldNameMessage" xml:space="preserve">
+    <value>분야 명 :</value>
+  </data>
+  <data name="PivotView_FieldType" xml:space="preserve">
+    <value>필드 타입</value>
+  </data>
+  <data name="PivotView_Filter" xml:space="preserve">
+    <value>필터</value>
+  </data>
+  <data name="PivotView_FilterAxisWatermark" xml:space="preserve">
+    <value>필터를 여기에 놓으십시오</value>
+  </data>
+  <data name="PivotView_Filtered" xml:space="preserve">
+    <value>거르는</value>
+  </data>
+  <data name="PivotView_Filters" xml:space="preserve">
+    <value>필터</value>
+  </data>
+  <data name="PivotView_Format" xml:space="preserve">
+    <value>체재</value>
+  </data>
+  <data name="PivotView_FormatString" xml:space="preserve">
+    <value>형식 문자열</value>
+  </data>
+  <data name="PivotView_FormatType" xml:space="preserve">
+    <value>체재 유형</value>
+  </data>
+  <data name="PivotView_Formula" xml:space="preserve">
+    <value>공식</value>
+  </data>
+  <data name="PivotView_GrandTotal" xml:space="preserve">
+    <value>총계</value>
+  </data>
+  <data name="PivotView_GrandTotals" xml:space="preserve">
+    <value>총계</value>
+  </data>
+  <data name="PivotView_GreaterThan" xml:space="preserve">
+    <value>보다 큰</value>
+  </data>
+  <data name="PivotView_GreaterThanOrEqualTo" xml:space="preserve">
+    <value>보다 크거나 같음</value>
+  </data>
+  <data name="PivotView_Group" xml:space="preserve">
+    <value>그룹</value>
+  </data>
+  <data name="PivotView_GroupCaptionMessage" xml:space="preserve">
+    <value>머리글에 표시 할 캡션을 입력하십시오</value>
+  </data>
+  <data name="PivotView_GroupFieldCaptionMessage" xml:space="preserve">
+    <value>그룹 캡션을 입력하십시오</value>
+  </data>
+  <data name="PivotView_Grouping" xml:space="preserve">
+    <value>그룹화</value>
+  </data>
+  <data name="PivotView_GroupName" xml:space="preserve">
+    <value>그룹 이름</value>
+  </data>
+  <data name="PivotView_Hours" xml:space="preserve">
+    <value>시간</value>
+  </data>
+  <data name="PivotView_Index" xml:space="preserve">
+    <value>인덱스</value>
+  </data>
+  <data name="PivotView_IntervalBy" xml:space="preserve">
+    <value>간격</value>
+  </data>
+  <data name="PivotView_InvalidFormat" xml:space="preserve">
+    <value>잘못된 형식입니다.</value>
+  </data>
+  <data name="PivotView_InvalidFormula" xml:space="preserve">
+    <value>잘못된 수식입니다.</value>
+  </data>
+  <data name="PivotView_InvalidGroupSelectionMessage" xml:space="preserve">
+    <value>해당 선택을 그룹화 할 수 없습니다.</value>
+  </data>
+  <data name="PivotView_JPEG" xml:space="preserve">
+    <value>JPEG</value>
+  </data>
+  <data name="PivotView_Label" xml:space="preserve">
+    <value>상표</value>
+  </data>
+  <data name="PivotView_LabelTextMessage" xml:space="preserve">
+    <value>레이블이있는 항목 표시</value>
+  </data>
+  <data name="PivotView_Left" xml:space="preserve">
+    <value>왼쪽</value>
+  </data>
+  <data name="PivotView_LessThan" xml:space="preserve">
+    <value>보다 작음</value>
+  </data>
+  <data name="PivotView_LessThanOrEqualTo" xml:space="preserve">
+    <value>작거나 같음</value>
+  </data>
+  <data name="PivotView_Line" xml:space="preserve">
+    <value>선</value>
+  </data>
+  <data name="PivotView_LoadReport" xml:space="preserve">
+    <value>하중</value>
+  </data>
+  <data name="PivotView_ManageRecords" xml:space="preserve">
+    <value>기록 관리</value>
+  </data>
+  <data name="PivotView_Max" xml:space="preserve">
+    <value>맥스</value>
+  </data>
+  <data name="PivotView_MdxQuery" xml:space="preserve">
+    <value>MDX 쿼리</value>
+  </data>
+  <data name="PivotView_Measure" xml:space="preserve">
+    <value>법안</value>
+  </data>
+  <data name="PivotView_Member" xml:space="preserve">
+    <value>회원</value>
+  </data>
+  <data name="PivotView_MemberLimitMessage" xml:space="preserve">
+    <value>더 많은 아이템. 더 세분화하려면 검색하십시오.</value>
+  </data>
+  <data name="PivotView_Min" xml:space="preserve">
+    <value>최소</value>
+  </data>
+  <data name="PivotView_Minutes" xml:space="preserve">
+    <value>의사록</value>
+  </data>
+  <data name="PivotView_Months" xml:space="preserve">
+    <value>개월</value>
+  </data>
+  <data name="PivotView_MoreOption" xml:space="preserve">
+    <value>더...</value>
+  </data>
+  <data name="PivotView_MultipleItems" xml:space="preserve">
+    <value>여러 항목</value>
+  </data>
+  <data name="PivotView_NewReport" xml:space="preserve">
+    <value>새 보고서 작성</value>
+  </data>
+  <data name="PivotView_NewReportConfirmMessage" xml:space="preserve">
+    <value>이 보고서의 변경 사항을 저장하시겠습니까?</value>
+  </data>
+  <data name="PivotView_NoFormatMessage" xml:space="preserve">
+    <value>형식을 찾을 수 없습니다 !!!</value>
+  </data>
+  <data name="PivotView_NoInputMessage" xml:space="preserve">
+    <value>값을 입력하십시오</value>
+  </data>
+  <data name="PivotView_NoMatchesMessage" xml:space="preserve">
+    <value>맞지 않는다</value>
+  </data>
+  <data name="PivotView_NotBetween" xml:space="preserve">
+    <value>사이가 아님</value>
+  </data>
+  <data name="PivotView_NotEquals" xml:space="preserve">
+    <value>같지 않음</value>
+  </data>
+  <data name="PivotView_NoValue" xml:space="preserve">
+    <value>가치 없음</value>
+  </data>
+  <data name="PivotView_Null" xml:space="preserve">
+    <value>없는</value>
+  </data>
+  <data name="PivotView_Number" xml:space="preserve">
+    <value>번호</value>
+  </data>
+  <data name="PivotView_NumberFormatting" xml:space="preserve">
+    <value>숫자 서식</value>
+  </data>
+  <data name="PivotView_Of" xml:space="preserve">
+    <value>의</value>
+  </data>
+  <data name="PivotView_OK" xml:space="preserve">
+    <value>확인</value>
+  </data>
+  <data name="PivotView_OutOfRange" xml:space="preserve">
+    <value>범위를 벗어남</value>
+  </data>
+  <data name="PivotView_ParentHierarchy" xml:space="preserve">
+    <value>부모 계층</value>
+  </data>
+  <data name="PivotView_PDF" xml:space="preserve">
+    <value>PDF</value>
+  </data>
+  <data name="PivotView_Percent" xml:space="preserve">
+    <value>퍼센트</value>
+  </data>
+  <data name="PivotView_Percentage" xml:space="preserve">
+    <value>백분율</value>
+  </data>
+  <data name="PivotView_PercentageOfColumnTotal" xml:space="preserve">
+    <value>% 열 합계의</value>
+  </data>
+  <data name="PivotView_PercentageOfDifferenceFrom" xml:space="preserve">
+    <value>% 차이의</value>
+  </data>
+  <data name="PivotView_PercentageOfGrandTotal" xml:space="preserve">
+    <value>% 총계의</value>
+  </data>
+  <data name="PivotView_PercentageOfParentColumnTotal" xml:space="preserve">
+    <value>% 상위 열 합계의</value>
+  </data>
+  <data name="PivotView_PercentageOfParentRowTotal" xml:space="preserve">
+    <value>% 부모 행 총계의</value>
+  </data>
+  <data name="PivotView_PercentageOfParentTotal" xml:space="preserve">
+    <value>% 부모 합계의</value>
+  </data>
+  <data name="PivotView_PercentageOfRowTotal" xml:space="preserve">
+    <value>% 행 총계의</value>
+  </data>
+  <data name="PivotView_PNG" xml:space="preserve">
+    <value>PNG</value>
+  </data>
+  <data name="PivotView_Polar" xml:space="preserve">
+    <value>극선</value>
+  </data>
+  <data name="PivotView_PopulationStDev" xml:space="preserve">
+    <value>세인트 데브 인구</value>
+  </data>
+  <data name="PivotView_PopulationVar" xml:space="preserve">
+    <value>인구 Var</value>
+  </data>
+  <data name="PivotView_Product" xml:space="preserve">
+    <value>생성물</value>
+  </data>
+  <data name="PivotView_Quarter" xml:space="preserve">
+    <value>Qtr</value>
+  </data>
+  <data name="PivotView_Quarters" xml:space="preserve">
+    <value>병사</value>
+  </data>
+  <data name="PivotView_QuarterYear" xml:space="preserve">
+    <value>분기 년</value>
+  </data>
+  <data name="PivotView_Remove" xml:space="preserve">
+    <value>없애다</value>
+  </data>
+  <data name="PivotView_RemoveReportConfirmMessage" xml:space="preserve">
+    <value>이 보고서를 삭제 하시겠습니까?</value>
+  </data>
+  <data name="PivotView_RenameReport" xml:space="preserve">
+    <value>현재 보고서 이름 바꾸기</value>
+  </data>
+  <data name="PivotView_ReportList" xml:space="preserve">
+    <value>리포트리스트</value>
+  </data>
+  <data name="PivotView_ReportNameMessage" xml:space="preserve">
+    <value>보고서 이름 :</value>
+  </data>
+  <data name="PivotView_Right" xml:space="preserve">
+    <value>권리</value>
+  </data>
+  <data name="PivotView_Row" xml:space="preserve">
+    <value>열</value>
+  </data>
+  <data name="PivotView_RowAxisWatermark" xml:space="preserve">
+    <value>여기에 행을 놓으십시오</value>
+  </data>
+  <data name="PivotView_Rows" xml:space="preserve">
+    <value>행</value>
+  </data>
+  <data name="PivotView_RunningTotals" xml:space="preserve">
+    <value>누적 합계</value>
+  </data>
+  <data name="PivotView_SampleReport" xml:space="preserve">
+    <value>샘플 보고서</value>
+  </data>
+  <data name="PivotView_SampleStDev" xml:space="preserve">
+    <value>샘플 StDev</value>
+  </data>
+  <data name="PivotView_SampleVar" xml:space="preserve">
+    <value>샘플 바</value>
+  </data>
+  <data name="PivotView_SaveAsReport" xml:space="preserve">
+    <value>현재 보고서로 저장</value>
+  </data>
+  <data name="PivotView_SaveReport" xml:space="preserve">
+    <value>보고서 저장</value>
+  </data>
+  <data name="PivotView_Scatter" xml:space="preserve">
+    <value>흩어지게하다</value>
+  </data>
+  <data name="PivotView_Search" xml:space="preserve">
+    <value>검색</value>
+  </data>
+  <data name="PivotView_Seconds" xml:space="preserve">
+    <value>초</value>
+  </data>
+  <data name="PivotView_SelectedItems" xml:space="preserve">
+    <value>선택된 아이템</value>
+  </data>
+  <data name="PivotView_SelectGroups" xml:space="preserve">
+    <value>그룹 선택</value>
+  </data>
+  <data name="PivotView_ShowColumnGrandTotalsOnly" xml:space="preserve">
+    <value>총계 열만 표시</value>
+  </data>
+  <data name="PivotView_ShowColumnSubtotalsOnly" xml:space="preserve">
+    <value>부분 합계 열만 표시</value>
+  </data>
+  <data name="PivotView_ShowFieldList" xml:space="preserve">
+    <value>필드 목록 표시</value>
+  </data>
+  <data name="PivotView_ShowGrandTotals" xml:space="preserve">
+    <value>총계 표시</value>
+  </data>
+  <data name="PivotView_ShowRowGrandTotalsOnly" xml:space="preserve">
+    <value>총계 행만 표시</value>
+  </data>
+  <data name="PivotView_ShowRowSubtotalsOnly" xml:space="preserve">
+    <value>부분 합계 행만 표시</value>
+  </data>
+  <data name="PivotView_ShowSubtotals" xml:space="preserve">
+    <value>소계 표시</value>
+  </data>
+  <data name="PivotView_ShowTable" xml:space="preserve">
+    <value>테이블 표시</value>
+  </data>
+  <data name="PivotView_Sort" xml:space="preserve">
+    <value>종류</value>
+  </data>
+  <data name="PivotView_Standard" xml:space="preserve">
+    <value>표준</value>
+  </data>
+  <data name="PivotView_StartAt" xml:space="preserve">
+    <value>에서 시작</value>
+  </data>
+  <data name="PivotView_Subtotals" xml:space="preserve">
+    <value>소계</value>
+  </data>
+  <data name="PivotView_Sum" xml:space="preserve">
+    <value>합집합</value>
+  </data>
+  <data name="PivotView_Summaries" xml:space="preserve">
+    <value>다음에 의해 요약 된 값</value>
+  </data>
+  <data name="PivotView_SummarizeValuesBy" xml:space="preserve">
+    <value>다음에 의해 값을 요약</value>
+  </data>
+  <data name="PivotView_SVG" xml:space="preserve">
+    <value>SVG</value>
+  </data>
+  <data name="PivotView_SymbolPosition" xml:space="preserve">
+    <value>심볼 위치</value>
+  </data>
+  <data name="PivotView_Total" xml:space="preserve">
+    <value>합계</value>
+  </data>
+  <data name="PivotView_True" xml:space="preserve">
+    <value>진실</value>
+  </data>
+  <data name="PivotView_Undefined" xml:space="preserve">
+    <value>찾으시는 주소가 없습니다</value>
+  </data>
+  <data name="PivotView_Ungroup" xml:space="preserve">
+    <value>그룹 해제</value>
+  </data>
+  <data name="PivotView_ValidReportNameMessage" xml:space="preserve">
+    <value>유효한 레코드 이름을 입력하십시오 !!!</value>
+  </data>
+  <data name="PivotView_Value" xml:space="preserve">
+    <value>값</value>
+  </data>
+  <data name="PivotView_ValueAxisWatermark" xml:space="preserve">
+    <value>여기에 가치를 떨어 뜨리십시오</value>
+  </data>
+  <data name="PivotView_ValueFieldSettings" xml:space="preserve">
+    <value>값 필드 설정</value>
+  </data>
+  <data name="PivotView_Values" xml:space="preserve">
+    <value>가치</value>
+  </data>
+  <data name="PivotView_ValueTextMessage" xml:space="preserve">
+    <value>대상 품목 표시</value>
+  </data>
+  <data name="PivotView_Warning" xml:space="preserve">
+    <value>경고</value>
+  </data>
+  <data name="PivotView_Years" xml:space="preserve">
+    <value>연령</value>
+  </data>
+  <data name="PivotView_MultipleAxes" xml:space="preserve">
+    <value>다중 축</value>
+  </data>
+  <data name="PivotView_ChartTypeSettings" xml:space="preserve">
+    <value>차트 유형 설정</value>
+  </data>
+  <data name="PivotView_ChartType" xml:space="preserve">
+    <value>차트 종류</value>
+  </data>
+  <data name="PivotView_Yes" xml:space="preserve">
+    <value>예</value>
+  </data>
+  <data name="PivotView_No" xml:space="preserve">
+    <value>아니</value>
+  </data>
+  <data name="PivotView_NumberFormatMenu" xml:space="preserve">
+    <value>숫자 서식 ...</value>
+  </data>
+  <data name="PivotView_ConditionalFormatingMenu" xml:space="preserve">
+    <value>조건부 서식...</value>
+  </data>
+  <data name="PivotView_CalculatedField_RemoveMessage" xml:space="preserve">
+    <value>이 계산 된 필드를 삭제 하시겠습니까?</value>
+  </data>
+  <data name="PivotView_StackedArea" xml:space="preserve">
+    <value>누적 영역</value>
+  </data>
+  <data name="PivotView_StackedColumn" xml:space="preserve">
+    <value>누적 열</value>
+  </data>
+  <data name="PivotView_StackedBar" xml:space="preserve">
+    <value>누적 막대</value>
+  </data>
+  <data name="PivotView_StepLine" xml:space="preserve">
+    <value>스텝 라인</value>
+  </data>
+  <data name="PivotView_StepArea" xml:space="preserve">
+    <value>단계 영역</value>
+  </data>
+  <data name="PivotView_SplineArea" xml:space="preserve">
+    <value>스플라인 영역</value>
+  </data>
+  <data name="PivotView_Spline" xml:space="preserve">
+    <value>운형자</value>
+  </data>
+  <data name="PivotView_StackedColumn100" xml:space="preserve">
+    <value>100 % 누적 컬럼</value>
+  </data>
+  <data name="PivotView_StackedBar100" xml:space="preserve">
+    <value>100 % 누적 막대</value>
+  </data>
+  <data name="PivotView_StackedArea100" xml:space="preserve">
+    <value>100 % 누적 영역</value>
+  </data>
+  <data name="PivotView_Bubble" xml:space="preserve">
+    <value>거품</value>
+  </data>
+  <data name="PivotView_Pareto" xml:space="preserve">
+    <value>파레토</value>
+  </data>
+  <data name="PivotView_Radar" xml:space="preserve">
+    <value>레이더</value>
+  </data>
+  <data name="PivotView_CalculatedField_EditTooltipMessage" xml:space="preserve">
+    <value>계산 된 필드 편집</value>
+  </data>
+  <data name="PivotView_CalculatedField_ClearTooltipMessage" xml:space="preserve">
+    <value>편집 된 필드 정보 지우기</value>
+  </data>
+  <data name="PivotView_Pie" xml:space="preserve">
+    <value>파이</value>
+  </data>
+  <data name="PivotView_Pyramid" xml:space="preserve">
+    <value>피라미드</value>
+  </data>
+  <data name="PivotView_Doughnut" xml:space="preserve">
+    <value>도넛</value>
+  </data>
+  <data name="PivotView_Funnel" xml:space="preserve">
+    <value>깔때기</value>
+  </data>
+  <data name="PivotView_Stacked" xml:space="preserve">
+    <value>스택</value>
+  </data>
+  <data name="PivotView_Grouped" xml:space="preserve">
+    <value>그룹화</value>
+  </data>
+  <data name="PivotView_MultipleAxisMode" xml:space="preserve">
+    <value>다축 모드</value>
+  </data>
+  <data name="PivotView_Median" xml:space="preserve">
+    <value>중앙값</value>
+  </data>
+  <data name="PivotView_Bottom" xml:space="preserve">
+    <value>맨 아래</value>
+  </data>
+  <data name="PivotView_GrandTotalPositions" xml:space="preserve">
+    <value>총계 포지션</value>
+  </data>
+  <data name="PivotView_Top" xml:space="preserve">
+    <value>맨 위</value>
+  </data>
+  <data name="QueryBuilder_AddCondition" xml:space="preserve">
+    <value>조건 추가</value>
+  </data>
+  <data name="QueryBuilder_AddGroup" xml:space="preserve">
+    <value>그룹 추가</value>
+  </data>
+  <data name="QueryBuilder_AND" xml:space="preserve">
+    <value>또는</value>
+  </data>
+  <data name="QueryBuilder_Between" xml:space="preserve">
+    <value>중에서</value>
+  </data>
+  <data name="QueryBuilder_Contains" xml:space="preserve">
+    <value>포함</value>
+  </data>
+  <data name="QueryBuilder_DeleteGroup" xml:space="preserve">
+    <value>그룹 삭제</value>
+  </data>
+  <data name="QueryBuilder_DeleteRule" xml:space="preserve">
+    <value>이 조건을 제거하십시오</value>
+  </data>
+  <data name="QueryBuilder_Edit" xml:space="preserve">
+    <value>편집하다</value>
+  </data>
+  <data name="QueryBuilder_Empty" xml:space="preserve">
+    <value>빈</value>
+  </data>
+  <data name="QueryBuilder_EndsWith" xml:space="preserve">
+    <value>로 끝나다</value>
+  </data>
+  <data name="QueryBuilder_Equal" xml:space="preserve">
+    <value>같은</value>
+  </data>
+  <data name="QueryBuilder_GreaterThan" xml:space="preserve">
+    <value>보다 큰</value>
+  </data>
+  <data name="QueryBuilder_GreaterThanOrEqual" xml:space="preserve">
+    <value>크거나 같음</value>
+  </data>
+  <data name="QueryBuilder_In" xml:space="preserve">
+    <value>에</value>
+  </data>
+  <data name="QueryBuilder_LessThan" xml:space="preserve">
+    <value>보다 작음</value>
+  </data>
+  <data name="QueryBuilder_LessThanOrEqual" xml:space="preserve">
+    <value>작거나 같음</value>
+  </data>
+  <data name="QueryBuilder_NotBetween" xml:space="preserve">
+    <value>사이가 아님</value>
+  </data>
+  <data name="QueryBuilder_NotContains" xml:space="preserve">
+    <value>포함하지 않음</value>
+  </data>
+  <data name="QueryBuilder_NotEmpty" xml:space="preserve">
+    <value>비우지 않음</value>
+  </data>
+  <data name="QueryBuilder_NotEqual" xml:space="preserve">
+    <value>같지 않음</value>
+  </data>
+  <data name="QueryBuilder_NotIn" xml:space="preserve">
+    <value>안으로</value>
+  </data>
+  <data name="QueryBuilder_OR" xml:space="preserve">
+    <value>또는</value>
+  </data>
+  <data name="QueryBuilder_OtherFields" xml:space="preserve">
+    <value>다른 분야</value>
+  </data>
+  <data name="QueryBuilder_Remove" xml:space="preserve">
+    <value>없애다</value>
+  </data>
+  <data name="QueryBuilder_SelectField" xml:space="preserve">
+    <value>필드를 선택하십시오</value>
+  </data>
+  <data name="QueryBuilder_SelectOperator" xml:space="preserve">
+    <value>운영자 선택</value>
+  </data>
+  <data name="QueryBuilder_SelectValue" xml:space="preserve">
+    <value>값을 입력하십시오</value>
+  </data>
+  <data name="QueryBuilder_StartsWith" xml:space="preserve">
+    <value>로 시작</value>
+  </data>
+  <data name="QueryBuilder_SummaryViewTitle" xml:space="preserve">
+    <value>요약보기</value>
+  </data>
+  <data name="QueryBuilder_ValidationMessage" xml:space="preserve">
+    <value>이 필드는 필수입니다</value>
+  </data>
+  <data name="Dialog_Close" xml:space="preserve">
+    <value>닫기</value>
+  </data>
+  <data name="Toast_Close" xml:space="preserve">
+    <value>닫기</value>
+  </data>
+  <data name="InPlaceEditor_Save" xml:space="preserve">
+    <value>저장</value>
+  </data>
+  <data name="InPlaceEditor_Cancel" xml:space="preserve">
+    <value>취소</value>
+  </data>
+  <data name="InPlaceEditor_LoadingText" xml:space="preserve">
+    <value>불러오는 중 ...</value>
+  </data>
+  <data name="InPlaceEditor_EditIcon" xml:space="preserve">
+    <value>클릭하여 수정</value>
+  </data>
+  <data name="InPlaceEditor_EditAreaClick" xml:space="preserve">
+    <value>클릭하여 수정</value>
+  </data>
+  <data name="InPlaceEditor_EditAreaDoubleClick" xml:space="preserve">
+    <value>두 번 클릭하여 편집</value>
+  </data>
+  <data name="Kanban_Items" xml:space="preserve">
+    <value>아이템</value>
+  </data>
+  <data name="Kanban_Item" xml:space="preserve">
+    <value>안건</value>
+  </data>
+  <data name="Kanban_No_Cards" xml:space="preserve">
+    <value>표시 할 카드가 없습니다</value>
+  </data>
+  <data name="Kanban_Min" xml:space="preserve">
+    <value>최소</value>
+  </data>
+  <data name="Kanban_Max" xml:space="preserve">
+    <value>맥스</value>
+  </data>
+  <data name="Kanban_CardsSelected" xml:space="preserve">
+    <value>선택된 카드</value>
+  </data>
+  <data name="Kanban_AddTitle" xml:space="preserve">
+    <value>새 카드 추가</value>
+  </data>
+  <data name="Kanban_EditTitle" xml:space="preserve">
+    <value>카드 정보 편집</value>
+  </data>
+  <data name="Kanban_DeleteTitle" xml:space="preserve">
+    <value>카드 삭제</value>
+  </data>
+  <data name="Kanban_DeleteContent" xml:space="preserve">
+    <value>이 카드를 삭제 하시겠습니까?</value>
+  </data>
+  <data name="Kanban_Save" xml:space="preserve">
+    <value>저장</value>
+  </data>
+  <data name="Kanban_Delete" xml:space="preserve">
+    <value>지우다</value>
+  </data>
+  <data name="Kanban_Cancel" xml:space="preserve">
+    <value>취소</value>
+  </data>
+  <data name="Kanban_Yes" xml:space="preserve">
+    <value>예</value>
+  </data>
+  <data name="Kanban_No" xml:space="preserve">
+    <value>아니</value>
+  </data>
+  <data name="RichTextEditor_NumberFormatListNone" xml:space="preserve">
+    <value>없음</value>
+  </data>
+  <data name="RichTextEditor_NumberFormatListNumber" xml:space="preserve">
+    <value>번호</value>
+  </data>
+  <data name="RichTextEditor_NumberFormatListUpperAlpha" xml:space="preserve">
+    <value>어퍼 알파</value>
+  </data>
+  <data name="RichTextEditor_NumberFormatListLowerAlpha" xml:space="preserve">
+    <value>낮은 알파</value>
+  </data>
+  <data name="RichTextEditor_NumberFormatListUpperRoman" xml:space="preserve">
+    <value>어퍼 로마</value>
+  </data>
+  <data name="RichTextEditor_NumberFormatListLowerRoman" xml:space="preserve">
+    <value>로만</value>
+  </data>
+  <data name="RichTextEditor_NumberFormatListLowerGreek" xml:space="preserve">
+    <value>낮은 그리스어</value>
+  </data>
+  <data name="RichTextEditor_BulletFormatListNone" xml:space="preserve">
+    <value>없음</value>
+  </data>
+  <data name="RichTextEditor_BulletFormatListCircle" xml:space="preserve">
+    <value>원</value>
+  </data>
+  <data name="RichTextEditor_BulletFormatListSquare" xml:space="preserve">
+    <value>광장</value>
+  </data>
+  <data name="RichTextEditor_BulletFormatListDisc" xml:space="preserve">
+    <value>디스크</value>
+  </data>
+  <data name="RichTextEditor_FormatsDropDownParagraph" xml:space="preserve">
+    <value>절</value>
+  </data>
+  <data name="RichTextEditor_FormatsDropDownCode" xml:space="preserve">
+    <value>암호</value>
+  </data>
+  <data name="RichTextEditor_FormatsDropDownQuotation" xml:space="preserve">
+    <value>인용</value>
+  </data>
+  <data name="RichTextEditor_FormatsDropDownHeading1" xml:space="preserve">
+    <value>제목 1</value>
+  </data>
+  <data name="RichTextEditor_FormatsDropDownHeading2" xml:space="preserve">
+    <value>제목 2</value>
+  </data>
+  <data name="RichTextEditor_FormatsDropDownHeading3" xml:space="preserve">
+    <value>제목 3</value>
+  </data>
+  <data name="RichTextEditor_FormatsDropDownHeading4" xml:space="preserve">
+    <value>제목  4</value>
+  </data>
+  <data name="RichTextEditor_FormatsDropDownHeading5" xml:space="preserve">
+    <value>제목  5</value>
+  </data>
+  <data name="RichTextEditor_FormatsDropDownHeading6" xml:space="preserve">
+    <value>제목   6</value>
+  </data>
+  <data name="RichTextEditor_FontNameSegoeUI" xml:space="preserve">
+    <value>せごえ 우이</value>
+  </data>
+  <data name="RichTextEditor_FontNameArial" xml:space="preserve">
+    <value>굴림</value>
+  </data>
+  <data name="RichTextEditor_FontNameGeorgia" xml:space="preserve">
+    <value>그루지야</value>
+  </data>
+  <data name="RichTextEditor_FontNameImpact" xml:space="preserve">
+    <value>타격</value>
+  </data>
+  <data name="RichTextEditor_FontNameTahoma" xml:space="preserve">
+    <value>타호 마</value>
+  </data>
+  <data name="RichTextEditor_FontNameTimesNewRoman" xml:space="preserve">
+    <value>새로운 시간 로마 인</value>
+  </data>
+  <data name="RichTextEditor_FontNameVerdana" xml:space="preserve">
+    <value>Verdana</value>
+  </data>
+  <data name="RichTextEditor_Alignments" xml:space="preserve">
+    <value>정렬</value>
+  </data>
+  <data name="RichTextEditor_JustifyLeft" xml:space="preserve">
+    <value>왼쪽 정렬</value>
+  </data>
+  <data name="RichTextEditor_JustifyCenter" xml:space="preserve">
+    <value>가운데 맞춤</value>
+  </data>
+  <data name="RichTextEditor_JustifyRight" xml:space="preserve">
+    <value>오른쪽 정렬</value>
+  </data>
+  <data name="RichTextEditor_JustifyFull" xml:space="preserve">
+    <value>정렬 정렬</value>
+  </data>
+  <data name="RichTextEditor_FontName" xml:space="preserve">
+    <value>폰트 이름</value>
+  </data>
+  <data name="RichTextEditor_FontSize" xml:space="preserve">
+    <value>폰트 크기</value>
+  </data>
+  <data name="RichTextEditor_FontColor" xml:space="preserve">
+    <value>글자 색</value>
+  </data>
+  <data name="RichTextEditor_BackgroundColor" xml:space="preserve">
+    <value>배경색</value>
+  </data>
+  <data name="RichTextEditor_Bold" xml:space="preserve">
+    <value>굵게</value>
+  </data>
+  <data name="RichTextEditor_Italic" xml:space="preserve">
+    <value>이탤릭체</value>
+  </data>
+  <data name="RichTextEditor_Underline" xml:space="preserve">
+    <value>밑줄</value>
+  </data>
+  <data name="RichTextEditor_Strikethrough" xml:space="preserve">
+    <value>취소 선</value>
+  </data>
+  <data name="RichTextEditor_ClearFormat" xml:space="preserve">
+    <value>명확한 형식</value>
+  </data>
+  <data name="RichTextEditor_ClearAll" xml:space="preserve">
+    <value>모두 지우기</value>
+  </data>
+  <data name="RichTextEditor_Cut" xml:space="preserve">
+    <value>절단</value>
+  </data>
+  <data name="RichTextEditor_Copy" xml:space="preserve">
+    <value>부</value>
+  </data>
+  <data name="RichTextEditor_Paste" xml:space="preserve">
+    <value>풀</value>
+  </data>
+  <data name="RichTextEditor_UnorderedList" xml:space="preserve">
+    <value>글 머리 기호 목록</value>
+  </data>
+  <data name="RichTextEditor_OrderedList" xml:space="preserve">
+    <value>번호 매기기 목록</value>
+  </data>
+  <data name="RichTextEditor_Indent" xml:space="preserve">
+    <value>들여 쓰기</value>
+  </data>
+  <data name="RichTextEditor_Outdent" xml:space="preserve">
+    <value>들여 쓰기 감소</value>
+  </data>
+  <data name="RichTextEditor_Undo" xml:space="preserve">
+    <value>실행 취소</value>
+  </data>
+  <data name="RichTextEditor_Redo" xml:space="preserve">
+    <value>다시 하다</value>
+  </data>
+  <data name="RichTextEditor_Superscript" xml:space="preserve">
+    <value>어깨 문자</value>
+  </data>
+  <data name="RichTextEditor_Subscript" xml:space="preserve">
+    <value>아래 첨자</value>
+  </data>
+  <data name="RichTextEditor_CreateLink" xml:space="preserve">
+    <value>하이퍼 링크 삽입</value>
+  </data>
+  <data name="RichTextEditor_OpenLink" xml:space="preserve">
+    <value>링크 열기</value>
+  </data>
+  <data name="RichTextEditor_EditLink" xml:space="preserve">
+    <value>링크 편집</value>
+  </data>
+  <data name="RichTextEditor_RemoveLink" xml:space="preserve">
+    <value>링크 제거</value>
+  </data>
+  <data name="RichTextEditor_Image" xml:space="preserve">
+    <value>이미지 삽입</value>
+  </data>
+  <data name="RichTextEditor_Replace" xml:space="preserve">
+    <value>바꾸다</value>
+  </data>
+  <data name="RichTextEditor_Align" xml:space="preserve">
+    <value>정렬</value>
+  </data>
+  <data name="RichTextEditor_Caption" xml:space="preserve">
+    <value>이미지 캡션</value>
+  </data>
+  <data name="RichTextEditor_Remove" xml:space="preserve">
+    <value>없애다</value>
+  </data>
+  <data name="RichTextEditor_InsertLink" xml:space="preserve">
+    <value>링크 삽입</value>
+  </data>
+  <data name="RichTextEditor_Display" xml:space="preserve">
+    <value>디스플레이</value>
+  </data>
+  <data name="RichTextEditor_AltText" xml:space="preserve">
+    <value>대체 텍스트</value>
+  </data>
+  <data name="RichTextEditor_Dimension" xml:space="preserve">
+    <value>크기 변경</value>
+  </data>
+  <data name="RichTextEditor_Fullscreen" xml:space="preserve">
+    <value>최대화</value>
+  </data>
+  <data name="RichTextEditor_Maximize" xml:space="preserve">
+    <value>최대화</value>
+  </data>
+  <data name="RichTextEditor_Minimize" xml:space="preserve">
+    <value>최소화</value>
+  </data>
+  <data name="RichTextEditor_LowerCase" xml:space="preserve">
+    <value>소문자</value>
+  </data>
+  <data name="RichTextEditor_UpperCase" xml:space="preserve">
+    <value>대문자</value>
+  </data>
+  <data name="RichTextEditor_Print" xml:space="preserve">
+    <value>인쇄</value>
+  </data>
+  <data name="RichTextEditor_Formats" xml:space="preserve">
+    <value>체재</value>
+  </data>
+  <data name="RichTextEditor_Sourcecode" xml:space="preserve">
+    <value>코드 뷰</value>
+  </data>
+  <data name="RichTextEditor_Preview" xml:space="preserve">
+    <value>시사</value>
+  </data>
+  <data name="RichTextEditor_Viewside" xml:space="preserve">
+    <value>뷰 사이드</value>
+  </data>
+  <data name="RichTextEditor_InsertCode" xml:space="preserve">
+    <value>코드를 입력하세요</value>
+  </data>
+  <data name="RichTextEditor_LinkText" xml:space="preserve">
+    <value>텍스트 표시</value>
+  </data>
+  <data name="RichTextEditor_LinkTooltipLabel" xml:space="preserve">
+    <value>표제</value>
+  </data>
+  <data name="RichTextEditor_LinkWebUrl" xml:space="preserve">
+    <value>웹 주소</value>
+  </data>
+  <data name="RichTextEditor_LinkTitle" xml:space="preserve">
+    <value>제목을 입력하십시오</value>
+  </data>
+  <data name="RichTextEditor_LinkUrl" xml:space="preserve">
+    <value>http://example.com</value>
+  </data>
+  <data name="RichTextEditor_LinkOpenInNewWindow" xml:space="preserve">
+    <value>새 창에서 링크 열기</value>
+  </data>
+  <data name="RichTextEditor_LinkHeader" xml:space="preserve">
+    <value>링크 삽입</value>
+  </data>
+  <data name="RichTextEditor_DialogInsert" xml:space="preserve">
+    <value>끼워 넣다</value>
+  </data>
+  <data name="RichTextEditor_DialogCancel" xml:space="preserve">
+    <value>취소</value>
+  </data>
+  <data name="RichTextEditor_DialogUpdate" xml:space="preserve">
+    <value>최신 정보</value>
+  </data>
+  <data name="RichTextEditor_ImageHeader" xml:space="preserve">
+    <value>이미지 삽입</value>
+  </data>
+  <data name="RichTextEditor_ImageLinkHeader" xml:space="preserve">
+    <value>웹에서 링크를 제공 할 수도 있습니다</value>
+  </data>
+  <data name="RichTextEditor_MdImageLink" xml:space="preserve">
+    <value>이미지의 URL을 입력하십시오</value>
+  </data>
+  <data name="RichTextEditor_ImageUploadMessage" xml:space="preserve">
+    <value>여기에 이미지를 드롭하거나 업로드를 찾아보십시오</value>
+  </data>
+  <data name="RichTextEditor_ImageDeviceUploadMessage" xml:space="preserve">
+    <value>업로드하려면 여기를 클릭하십시오</value>
+  </data>
+  <data name="RichTextEditor_ImageAlternateText" xml:space="preserve">
+    <value>대체 텍스트</value>
+  </data>
+  <data name="RichTextEditor_AlternateHeader" xml:space="preserve">
+    <value>대체 텍스트</value>
+  </data>
+  <data name="RichTextEditor_Browse" xml:space="preserve">
+    <value>검색</value>
+  </data>
+  <data name="RichTextEditor_ImageUrl" xml:space="preserve">
+    <value>http://example.com/image.png</value>
+  </data>
+  <data name="RichTextEditor_ImageCaption" xml:space="preserve">
+    <value>표제</value>
+  </data>
+  <data name="RichTextEditor_ImageSizeHeader" xml:space="preserve">
+    <value>이미지 크기</value>
+  </data>
+  <data name="RichTextEditor_ImageHeight" xml:space="preserve">
+    <value>신장</value>
+  </data>
+  <data name="RichTextEditor_ImageWidth" xml:space="preserve">
+    <value>폭</value>
+  </data>
+  <data name="RichTextEditor_TextPlaceholder" xml:space="preserve">
+    <value>텍스트 입력</value>
+  </data>
+  <data name="RichTextEditor_InsertTableBtn" xml:space="preserve">
+    <value>테이블 삽입</value>
+  </data>
+  <data name="RichTextEditor_TableDialogHeader" xml:space="preserve">
+    <value>테이블 삽입</value>
+  </data>
+  <data name="RichTextEditor_TableWidth" xml:space="preserve">
+    <value>폭</value>
+  </data>
+  <data name="RichTextEditor_Cellpadding" xml:space="preserve">
+    <value>세포 패딩</value>
+  </data>
+  <data name="RichTextEditor_Cellspacing" xml:space="preserve">
+    <value>셀 간격</value>
+  </data>
+  <data name="RichTextEditor_Columns" xml:space="preserve">
+    <value>열 수</value>
+  </data>
+  <data name="RichTextEditor_Rows" xml:space="preserve">
+    <value>행 수</value>
+  </data>
+  <data name="RichTextEditor_TableRows" xml:space="preserve">
+    <value>테이블 행</value>
+  </data>
+  <data name="RichTextEditor_TableColumns" xml:space="preserve">
+    <value>테이블 열</value>
+  </data>
+  <data name="RichTextEditor_TableCellHorizontalAlign" xml:space="preserve">
+    <value>테이블 셀 가로 정렬</value>
+  </data>
+  <data name="RichTextEditor_TableCellVerticalAlign" xml:space="preserve">
+    <value>테이블 셀 수직 정렬</value>
+  </data>
+  <data name="RichTextEditor_CreateTable" xml:space="preserve">
+    <value>테이블 만들기</value>
+  </data>
+  <data name="RichTextEditor_RemoveTable" xml:space="preserve">
+    <value>테이블 제거</value>
+  </data>
+  <data name="RichTextEditor_TableHeader" xml:space="preserve">
+    <value>테이블 헤더</value>
+  </data>
+  <data name="RichTextEditor_TableRemove" xml:space="preserve">
+    <value>테이블 제거</value>
+  </data>
+  <data name="RichTextEditor_TableCellBackground" xml:space="preserve">
+    <value>테이블 셀 배경</value>
+  </data>
+  <data name="RichTextEditor_TableEditProperties" xml:space="preserve">
+    <value>테이블 셀 배경</value>
+  </data>
+  <data name="RichTextEditor_Styles" xml:space="preserve">
+    <value>스타일</value>
+  </data>
+  <data name="RichTextEditor_InsertColumnLeft" xml:space="preserve">
+    <value>왼쪽 열 삽입</value>
+  </data>
+  <data name="RichTextEditor_InsertColumnRight" xml:space="preserve">
+    <value>열을 오른쪽으로 삽입</value>
+  </data>
+  <data name="RichTextEditor_DeleteColumn" xml:space="preserve">
+    <value>열 삭제</value>
+  </data>
+  <data name="RichTextEditor_InsertRowBefore" xml:space="preserve">
+    <value>앞에 행 삽입</value>
+  </data>
+  <data name="RichTextEditor_InsertRowAfter" xml:space="preserve">
+    <value>뒤에 행 삽입</value>
+  </data>
+  <data name="RichTextEditor_DeleteRow" xml:space="preserve">
+    <value>행 삭제</value>
+  </data>
+  <data name="RichTextEditor_TableEditHeader" xml:space="preserve">
+    <value>테이블 편집</value>
+  </data>
+  <data name="RichTextEditor_TableHeadingText" xml:space="preserve">
+    <value>표제</value>
+  </data>
+  <data name="RichTextEditor_TableColText" xml:space="preserve">
+    <value>안부</value>
+  </data>
+  <data name="RichTextEditor_ImageInsertLinkHeader" xml:space="preserve">
+    <value>링크 삽입</value>
+  </data>
+  <data name="RichTextEditor_EditImageHeader" xml:space="preserve">
+    <value>이미지 편집</value>
+  </data>
+  <data name="RichTextEditor_AlignmentsDropDownLeft" xml:space="preserve">
+    <value>왼쪽 정렬</value>
+  </data>
+  <data name="RichTextEditor_AlignmentsDropDownCenter" xml:space="preserve">
+    <value>가운데 맞춤</value>
+  </data>
+  <data name="RichTextEditor_AlignmentsDropDownRight" xml:space="preserve">
+    <value>오른쪽 정렬</value>
+  </data>
+  <data name="RichTextEditor_AlignmentsDropDownJustify" xml:space="preserve">
+    <value>정렬 정렬</value>
+  </data>
+  <data name="RichTextEditor_ImageDisplayDropDownInline" xml:space="preserve">
+    <value>인라인</value>
+  </data>
+  <data name="RichTextEditor_ImageDisplayDropDownBreak" xml:space="preserve">
+    <value>단절</value>
+  </data>
+  <data name="RichTextEditor_TableInsertRowDropDownBefore" xml:space="preserve">
+    <value>앞에 행 삽입</value>
+  </data>
+  <data name="RichTextEditor_TableInsertRowDropDownAfter" xml:space="preserve">
+    <value>뒤에 행 삽입</value>
+  </data>
+  <data name="RichTextEditor_TableInsertRowDropDownDelete" xml:space="preserve">
+    <value>행 삭제</value>
+  </data>
+  <data name="RichTextEditor_TableInsertColumnDropDownLeft" xml:space="preserve">
+    <value>왼쪽 열 삽입</value>
+  </data>
+  <data name="RichTextEditor_TableInsertColumnDropDownRight" xml:space="preserve">
+    <value>열을 오른쪽으로 삽입</value>
+  </data>
+  <data name="RichTextEditor_TableInsertColumnDropDownDelete" xml:space="preserve">
+    <value>열 삭제</value>
+  </data>
+  <data name="RichTextEditor_TableVerticalAlignDropDownTop" xml:space="preserve">
+    <value>상단 정렬</value>
+  </data>
+  <data name="RichTextEditor_TableVerticalAlignDropDownMiddle" xml:space="preserve">
+    <value>가운데 정렬</value>
+  </data>
+  <data name="RichTextEditor_TableVerticalAlignDropDownBottom" xml:space="preserve">
+    <value>하단 정렬</value>
+  </data>
+  <data name="RichTextEditor_TableStylesDropDownDashedBorder" xml:space="preserve">
+    <value>점선 테두리</value>
+  </data>
+  <data name="RichTextEditor_TableStylesDropDownAlternateRows" xml:space="preserve">
+    <value>대체 행</value>
+  </data>
+  <data name="RichTextEditor_PasteFormat" xml:space="preserve">
+    <value>붙여 넣기 형식</value>
+  </data>
+  <data name="RichTextEditor_PasteFormatContent" xml:space="preserve">
+    <value>포맷 작업을 선택하십시오</value>
+  </data>
+  <data name="RichTextEditor_PlainText" xml:space="preserve">
+    <value>일반 텍스트</value>
+  </data>
+  <data name="RichTextEditor_CleanFormat" xml:space="preserve">
+    <value>깨끗한</value>
+  </data>
+  <data name="RichTextEditor_KeepFormat" xml:space="preserve">
+    <value>유지</value>
+  </data>
+  <data name="RichTextEditor_PasteDialogOk" xml:space="preserve">
+    <value>확인</value>
+  </data>
+  <data name="RichTextEditor_PasteDialogCancel" xml:space="preserve">
+    <value>취소</value>
+  </data>
+  <data name="DiagramComponent_X" xml:space="preserve">
+    <value>x</value>
+  </data>
+  <data name="DiagramComponent_Y" xml:space="preserve">
+    <value>와이</value>
+  </data>
+  <data name="DiagramComponent_W" xml:space="preserve">
+    <value>여</value>
+  </data>
+  <data name="DiagramComponent_H" xml:space="preserve">
+    <value>시간</value>
+  </data>
+  <data name="Diagram_BringToFront" xml:space="preserve">
+    <value>앞으로 가져 오기</value>
+  </data>
+  <data name="Diagram_Copy" xml:space="preserve">
+    <value>부</value>
+  </data>
+  <data name="Diagram_Cut" xml:space="preserve">
+    <value>절단</value>
+  </data>
+  <data name="Diagram_Group" xml:space="preserve">
+    <value>그룹</value>
+  </data>
+  <data name="Diagram_Grouping" xml:space="preserve">
+    <value>그룹화</value>
+  </data>
+  <data name="Diagram_MoveForward" xml:space="preserve">
+    <value>앞으로 움직이다</value>
+  </data>
+  <data name="Diagram_Order" xml:space="preserve">
+    <value>주문</value>
+  </data>
+  <data name="Diagram_Paste" xml:space="preserve">
+    <value>풀</value>
+  </data>
+  <data name="Diagram_Redo" xml:space="preserve">
+    <value>다시 하다</value>
+  </data>
+  <data name="Diagram_SelectAll" xml:space="preserve">
+    <value>모두 선택</value>
+  </data>
+  <data name="Diagram_SendBackward" xml:space="preserve">
+    <value>뒤로 보내기</value>
+  </data>
+  <data name="Diagram_SendToBack" xml:space="preserve">
+    <value>다시 보내기</value>
+  </data>
+  <data name="Diagram_Undo" xml:space="preserve">
+    <value>실행 취소</value>
+  </data>
+  <data name="Diagram_UnGroup" xml:space="preserve">
+    <value>그룹 해제</value>
+  </data>
+  <data name="Grid_EmptyRecord" xml:space="preserve">
+    <value>표시 할 레코드가 없습니다</value>
+  </data>
+  <data name="Grid_True" xml:space="preserve">
+    <value>진실</value>
+  </data>
+  <data name="Grid_False" xml:space="preserve">
+    <value>그릇된</value>
+  </data>
+  <data name="Grid_InvalidFilterMessage" xml:space="preserve">
+    <value>잘못된 필터 데이터</value>
+  </data>
+  <data name="Grid_GroupDropArea" xml:space="preserve">
+    <value>열 머리글을 여기로 끌어 열을 그룹화하십시오</value>
+  </data>
+  <data name="Grid_UnGroupButton" xml:space="preserve">
+    <value>그룹을 해제하려면 여기를 클릭하십시오</value>
+  </data>
+  <data name="Grid_GroupDisable" xml:space="preserve">
+    <value>이 열에 대해 그룹화가 비활성화되었습니다</value>
+  </data>
+  <data name="Grid_FilterbarTitle" xml:space="preserve">
+    <value>"s 필터 막대 셀</value>
+  </data>
+  <data name="Grid_EmptyDataSourceError" xml:space="preserve">
+    <value>자동 생성 열 그리드의 dataSource에서 열이 생성되므로 초기로드시 DataSource를 비워 둘 수 없습니다</value>
+  </data>
+  <data name="Grid_Add" xml:space="preserve">
+    <value>더하다</value>
+  </data>
+  <data name="Grid_Edit" xml:space="preserve">
+    <value>편집하다</value>
+  </data>
+  <data name="Grid_Cancel" xml:space="preserve">
+    <value>취소</value>
+  </data>
+  <data name="Grid_Update" xml:space="preserve">
+    <value>최신 정보</value>
+  </data>
+  <data name="Grid_Delete" xml:space="preserve">
+    <value>지우다</value>
+  </data>
+  <data name="Grid_Print" xml:space="preserve">
+    <value>인쇄</value>
+  </data>
+  <data name="Grid_Pdfexport" xml:space="preserve">
+    <value>PDF 내보내기</value>
+  </data>
+  <data name="Grid_Excelexport" xml:space="preserve">
+    <value>엑셀 내보내기</value>
+  </data>
+  <data name="Grid_Wordexport" xml:space="preserve">
+    <value>단어 내보내기</value>
+  </data>
+  <data name="Grid_Csvexport" xml:space="preserve">
+    <value>CSV 내보내기</value>
+  </data>
+  <data name="Grid_Search" xml:space="preserve">
+    <value>검색</value>
+  </data>
+  <data name="Grid_Columnchooser" xml:space="preserve">
+    <value>열</value>
+  </data>
+  <data name="Grid_Save" xml:space="preserve">
+    <value>저장</value>
+  </data>
+  <data name="Grid_Item" xml:space="preserve">
+    <value>안건</value>
+  </data>
+  <data name="Grid_Items" xml:space="preserve">
+    <value>아이템</value>
+  </data>
+  <data name="Grid_EditOperationAlert" xml:space="preserve">
+    <value>편집 조작을 위해 선택된 레코드가 없습니다</value>
+  </data>
+  <data name="Grid_DeleteOperationAlert" xml:space="preserve">
+    <value>삭제 조작을 위해 선택된 레코드가 없습니다</value>
+  </data>
+  <data name="Grid_SaveButton" xml:space="preserve">
+    <value>저장</value>
+  </data>
+  <data name="Grid_OKButton" xml:space="preserve">
+    <value>확인</value>
+  </data>
+  <data name="Grid_CancelButton" xml:space="preserve">
+    <value>취소</value>
+  </data>
+  <data name="Grid_EditFormTitle" xml:space="preserve">
+    <value>세부 사항</value>
+  </data>
+  <data name="Grid_AddFormTitle" xml:space="preserve">
+    <value>새 레코드 추가</value>
+  </data>
+  <data name="Grid_BatchSaveConfirm" xml:space="preserve">
+    <value>변경 사항을 저장 하시겠습니까?</value>
+  </data>
+  <data name="Grid_BatchSaveLostChanges" xml:space="preserve">
+    <value>저장하지 않은 변경 사항은 손실됩니다. 정말로 계속하기를 원하십니까?</value>
+  </data>
+  <data name="Grid_ConfirmDelete" xml:space="preserve">
+    <value>레코드를 삭제 하시겠습니까?</value>
+  </data>
+  <data name="Grid_CancelEdit" xml:space="preserve">
+    <value>변경 사항을 취소 하시겠습니까?</value>
+  </data>
+  <data name="Grid_ChooseColumns" xml:space="preserve">
+    <value>열을 선택하십시오</value>
+  </data>
+  <data name="Grid_SearchColumns" xml:space="preserve">
+    <value>검색 열</value>
+  </data>
+  <data name="Grid_Matchs" xml:space="preserve">
+    <value>검색 결과가 없습니다</value>
+  </data>
+  <data name="Grid_FilterButton" xml:space="preserve">
+    <value>필터</value>
+  </data>
+  <data name="Grid_ClearButton" xml:space="preserve">
+    <value>명확한</value>
+  </data>
+  <data name="Grid_StartsWith" xml:space="preserve">
+    <value>로 시작</value>
+  </data>
+  <data name="Grid_EndsWith" xml:space="preserve">
+    <value>로 끝나다</value>
+  </data>
+  <data name="Grid_Contains" xml:space="preserve">
+    <value>포함</value>
+  </data>
+  <data name="Grid_Equal" xml:space="preserve">
+    <value>같은</value>
+  </data>
+  <data name="Grid_NotEqual" xml:space="preserve">
+    <value>같지 않음</value>
+  </data>
+  <data name="Grid_LessThan" xml:space="preserve">
+    <value>보다 작음</value>
+  </data>
+  <data name="Grid_LessThanOrEqual" xml:space="preserve">
+    <value>작거나 같음</value>
+  </data>
+  <data name="Grid_GreaterThan" xml:space="preserve">
+    <value>보다 큰</value>
+  </data>
+  <data name="Grid_GreaterThanOrEqual" xml:space="preserve">
+    <value>크거나 같음</value>
+  </data>
+  <data name="Grid_ChooseDate" xml:space="preserve">
+    <value>날짜를 선택하십시오</value>
+  </data>
+  <data name="Grid_EnterValue" xml:space="preserve">
+    <value>값을 입력하십시오</value>
+  </data>
+  <data name="Grid_Copy" xml:space="preserve">
+    <value>부</value>
+  </data>
+  <data name="Grid_Group" xml:space="preserve">
+    <value>이 열을 기준으로 그룹화</value>
+  </data>
+  <data name="Grid_Ungroup" xml:space="preserve">
+    <value>이 항목을 기준으로 그룹 해제</value>
+  </data>
+  <data name="Grid_AutoFitAll" xml:space="preserve">
+    <value>모든 열 자동 맞춤</value>
+  </data>
+  <data name="Grid_AutoFit" xml:space="preserve">
+    <value>이 열 자동 맞춤</value>
+  </data>
+  <data name="Grid_Export" xml:space="preserve">
+    <value>수출</value>
+  </data>
+  <data name="Grid_FirstPage" xml:space="preserve">
+    <value>첫 페이지</value>
+  </data>
+  <data name="Grid_LastPage" xml:space="preserve">
+    <value>마지막 페이지</value>
+  </data>
+  <data name="Grid_PreviousPage" xml:space="preserve">
+    <value>이전 페이지</value>
+  </data>
+  <data name="Grid_NextPage" xml:space="preserve">
+    <value>다음 페이지</value>
+  </data>
+  <data name="Grid_SortAscending" xml:space="preserve">
+    <value>오름차순 정렬</value>
+  </data>
+  <data name="Grid_SortDescending" xml:space="preserve">
+    <value>내림차순 정렬</value>
+  </data>
+  <data name="Grid_EditRecord" xml:space="preserve">
+    <value>레코드 편집</value>
+  </data>
+  <data name="Grid_DeleteRecord" xml:space="preserve">
+    <value>레코드 삭제</value>
+  </data>
+  <data name="Grid_FilterMenu" xml:space="preserve">
+    <value>필터</value>
+  </data>
+  <data name="Grid_SelectAll" xml:space="preserve">
+    <value>모두 선택</value>
+  </data>
+  <data name="Grid_Blanks" xml:space="preserve">
+    <value>공백</value>
+  </data>
+  <data name="Grid_FilterTrue" xml:space="preserve">
+    <value>진실</value>
+  </data>
+  <data name="Grid_FilterFalse" xml:space="preserve">
+    <value>그릇된</value>
+  </data>
+  <data name="Grid_NoResult" xml:space="preserve">
+    <value>검색 결과가 없습니다</value>
+  </data>
+  <data name="Grid_ClearFilter" xml:space="preserve">
+    <value>필터 지우기</value>
+  </data>
+  <data name="Grid_NumberFilter" xml:space="preserve">
+    <value>숫자 필터</value>
+  </data>
+  <data name="Grid_TextFilter" xml:space="preserve">
+    <value>텍스트 필터</value>
+  </data>
+  <data name="Grid_DateFilter" xml:space="preserve">
+    <value>날짜 필터</value>
+  </data>
+  <data name="Grid_DateTimeFilter" xml:space="preserve">
+    <value>날짜 / 시간 필터</value>
+  </data>
+  <data name="Grid_MatchCase" xml:space="preserve">
+    <value>경기 사례</value>
+  </data>
+  <data name="Grid_Between" xml:space="preserve">
+    <value>중에서</value>
+  </data>
+  <data name="Grid_CustomFilter" xml:space="preserve">
+    <value>맞춤 필터</value>
+  </data>
+  <data name="Grid_CustomFilterPlaceHolder" xml:space="preserve">
+    <value>값을 입력하십시오</value>
+  </data>
+  <data name="Grid_CustomFilterDatePlaceHolder" xml:space="preserve">
+    <value>날짜를 선택하십시오</value>
+  </data>
+  <data name="Grid_AND" xml:space="preserve">
+    <value>과</value>
+  </data>
+  <data name="Grid_OR" xml:space="preserve">
+    <value>또는</value>
+  </data>
+  <data name="Grid_ShowRowsWhere" xml:space="preserve">
+    <value>다음 위치에 행을 표시하십시오:</value>
+  </data>
+  <data name="Grid_RowSelectionCheckBoxARIA" xml:space="preserve">
+    <value>행 체크박스</value>
+  </data>
+  <data name="Grid_FilterMenuIconARIA" xml:space="preserve">
+    <value>필터 아이콘</value>
+  </data>
+  <data name="Grid_ColumnMenuIconARIA" xml:space="preserve">
+    <value>열 메뉴 아이콘</value>
+  </data>
+  <data name="Grid_GroupButtonARIA" xml:space="preserve">
+    <value>그룹 버튼</value>
+  </data>
+  <data name="Grid_UnGroupButtonARIA" xml:space="preserve">
+    <value>그룹 해제 버튼</value>
+  </data>
+  <data name="Grid_ColumnHeaderARIA" xml:space="preserve">
+    <value>열 머리글</value>
+  </data>
+  <data name="Grid_FilterCheckboxARIA" xml:space="preserve">
+    <value>필터 체크박스</value>
+  </data>
+  <data name="Grid_HeaderSelectionCheckBoxARIA" xml:space="preserve">
+    <value>헤더 체크박스</value>
+  </data>
+  <data name="Pager_GotoPageARIA" xml:space="preserve">
+    <value>고토 페이지</value>
+  </data>
+  <data name="Pager_CurrentPageInfo" xml:space="preserve">
+    <value>{1} 페이지 중 {0}</value>
+  </data>
+  <data name="Pager_TotalItemsInfo" xml:space="preserve">
+    <value>({0} 항목)</value>
+  </data>
+  <data name="Pager_FirstPageTooltip" xml:space="preserve">
+    <value>첫 페이지로 이동</value>
+  </data>
+  <data name="Pager_LastPageTooltip" xml:space="preserve">
+    <value>마지막 페이지로 이동</value>
+  </data>
+  <data name="Pager_NextPageTooltip" xml:space="preserve">
+    <value>다음 페이지로 이동</value>
+  </data>
+  <data name="Pager_PreviousPageTooltip" xml:space="preserve">
+    <value>이전 페이지로 이동</value>
+  </data>
+  <data name="Pager_NextPagerTooltip" xml:space="preserve">
+    <value>다음 호출기로 이동</value>
+  </data>
+  <data name="Pager_PreviousPagerTooltip" xml:space="preserve">
+    <value>이전 호출기로 이동</value>
+  </data>
+  <data name="Pager_PagerDropDown" xml:space="preserve">
+    <value>페이지 당 항목</value>
+  </data>
+  <data name="Pager_PagerAllDropDown" xml:space="preserve">
+    <value>아이템</value>
+  </data>
+  <data name="Pager_All" xml:space="preserve">
+    <value>모두</value>
+  </data>
+  <data name="RecurrenceEditor_Count" xml:space="preserve">
+    <value>카운트</value>
+  </data>
+  <data name="RecurrenceEditor_Daily" xml:space="preserve">
+    <value>매일</value>
+  </data>
+  <data name="RecurrenceEditor_Days" xml:space="preserve">
+    <value>일</value>
+  </data>
+  <data name="RecurrenceEditor_End" xml:space="preserve">
+    <value>종료</value>
+  </data>
+  <data name="RecurrenceEditor_Every" xml:space="preserve">
+    <value>모든</value>
+  </data>
+  <data name="RecurrenceEditor_First" xml:space="preserve">
+    <value>먼저</value>
+  </data>
+  <data name="RecurrenceEditor_Fourth" xml:space="preserve">
+    <value>네번째</value>
+  </data>
+  <data name="RecurrenceEditor_Last" xml:space="preserve">
+    <value>마지막</value>
+  </data>
+  <data name="RecurrenceEditor_Month" xml:space="preserve">
+    <value>달</value>
+  </data>
+  <data name="RecurrenceEditor_MonthExpander" xml:space="preserve">
+    <value>월 확장기</value>
+  </data>
+  <data name="RecurrenceEditor_Monthly" xml:space="preserve">
+    <value>월간 간행물</value>
+  </data>
+  <data name="RecurrenceEditor_MonthPosition" xml:space="preserve">
+    <value>월 위치</value>
+  </data>
+  <data name="RecurrenceEditor_Months" xml:space="preserve">
+    <value>월</value>
+  </data>
+  <data name="RecurrenceEditor_MonthWeek" xml:space="preserve">
+    <value>월 주</value>
+  </data>
+  <data name="RecurrenceEditor_Never" xml:space="preserve">
+    <value>못</value>
+  </data>
+  <data name="RecurrenceEditor_None" xml:space="preserve">
+    <value>없음</value>
+  </data>
+  <data name="RecurrenceEditor_On" xml:space="preserve">
+    <value>반복</value>
+  </data>
+  <data name="RecurrenceEditor_OnDay" xml:space="preserve">
+    <value>일</value>
+  </data>
+  <data name="RecurrenceEditor_Repeat" xml:space="preserve">
+    <value>반복</value>
+  </data>
+  <data name="RecurrenceEditor_RepeatEvery" xml:space="preserve">
+    <value>매번 반복</value>
+  </data>
+  <data name="RecurrenceEditor_RepeatInterval" xml:space="preserve">
+    <value>간격 반복</value>
+  </data>
+  <data name="RecurrenceEditor_Second" xml:space="preserve">
+    <value>둘째</value>
+  </data>
+  <data name="RecurrenceEditor_SummaryDay" xml:space="preserve">
+    <value>일</value>
+  </data>
+  <data name="RecurrenceEditor_SummaryMonth" xml:space="preserve">
+    <value>월</value>
+  </data>
+  <data name="RecurrenceEditor_SummaryOn" xml:space="preserve">
+    <value>의 위에</value>
+  </data>
+  <data name="RecurrenceEditor_SummaryRepeat" xml:space="preserve">
+    <value>반복</value>
+  </data>
+  <data name="RecurrenceEditor_SummaryTimes" xml:space="preserve">
+    <value>타임스)</value>
+  </data>
+  <data name="RecurrenceEditor_SummaryUntil" xml:space="preserve">
+    <value>~까지</value>
+  </data>
+  <data name="RecurrenceEditor_SummaryWeek" xml:space="preserve">
+    <value>주</value>
+  </data>
+  <data name="RecurrenceEditor_SummaryYear" xml:space="preserve">
+    <value>연령)</value>
+  </data>
+  <data name="RecurrenceEditor_Third" xml:space="preserve">
+    <value>제삼</value>
+  </data>
+  <data name="RecurrenceEditor_Until" xml:space="preserve">
+    <value>까지</value>
+  </data>
+  <data name="RecurrenceEditor_Weekly" xml:space="preserve">
+    <value>주간</value>
+  </data>
+  <data name="RecurrenceEditor_Weeks" xml:space="preserve">
+    <value>주</value>
+  </data>
+  <data name="RecurrenceEditor_YearExpander" xml:space="preserve">
+    <value>년 확장기</value>
+  </data>
+  <data name="RecurrenceEditor_Yearly" xml:space="preserve">
+    <value>매년</value>
+  </data>
+  <data name="RecurrenceEditor_Years" xml:space="preserve">
+    <value>연령)</value>
+  </data>
+  <data name="Schedule_AddTitle" xml:space="preserve">
+    <value>제목 추가</value>
+  </data>
+  <data name="Schedule_Agenda" xml:space="preserve">
+    <value>의제</value>
+  </data>
+  <data name="Schedule_Alert" xml:space="preserve">
+    <value>경보</value>
+  </data>
+  <data name="Schedule_AllDay" xml:space="preserve">
+    <value>하루 종일</value>
+  </data>
+  <data name="Schedule_BeginFrom" xml:space="preserve">
+    <value>시작</value>
+  </data>
+  <data name="Schedule_BlockAlert" xml:space="preserve">
+    <value>차단 된 시간 범위 내에서 이벤트를 예약 할 수 없습니다.</value>
+  </data>
+  <data name="Schedule_Cancel" xml:space="preserve">
+    <value>취소</value>
+  </data>
+  <data name="Schedule_CancelButton" xml:space="preserve">
+    <value>취소</value>
+  </data>
+  <data name="Schedule_Close" xml:space="preserve">
+    <value>닫기</value>
+  </data>
+  <data name="Schedule_CreateError" xml:space="preserve">
+    <value>이벤트 기간은 발생 빈도보다 짧아야합니다. 지속 시간을 줄이거 나 반복 이벤트 편집기에서 반복 패턴을 변경하십시오.</value>
+  </data>
+  <data name="Schedule_CreateEvent" xml:space="preserve">
+    <value>창조하다</value>
+  </data>
+  <data name="Schedule_Day" xml:space="preserve">
+    <value>일</value>
+  </data>
+  <data name="Schedule_Delete" xml:space="preserve">
+    <value>지우다</value>
+  </data>
+  <data name="Schedule_DeleteButton" xml:space="preserve">
+    <value>지우다</value>
+  </data>
+  <data name="Schedule_DeleteContent" xml:space="preserve">
+    <value>이 이벤트를 삭제 하시겠습니까?</value>
+  </data>
+  <data name="Schedule_DeleteEvent" xml:space="preserve">
+    <value>이번 행사</value>
+  </data>
+  <data name="Schedule_DeleteMultipleContent" xml:space="preserve">
+    <value>선택한 이벤트를 삭제 하시겠습니까?</value>
+  </data>
+  <data name="Schedule_DeleteMultipleEvent" xml:space="preserve">
+    <value>여러 이벤트 삭제</value>
+  </data>
+  <data name="Schedule_DeleteSeries" xml:space="preserve">
+    <value>전체 시리즈</value>
+  </data>
+  <data name="Schedule_DeleteTitle" xml:space="preserve">
+    <value>이벤트 삭제</value>
+  </data>
+  <data name="Schedule_Description" xml:space="preserve">
+    <value>기술</value>
+  </data>
+  <data name="Schedule_Edit" xml:space="preserve">
+    <value>편집하다</value>
+  </data>
+  <data name="Schedule_EditContent" xml:space="preserve">
+    <value>시리즈의 약속을 어떻게 바꾸시겠습니까?</value>
+  </data>
+  <data name="Schedule_EditEvent" xml:space="preserve">
+    <value>이번 행사</value>
+  </data>
+  <data name="Schedule_EditFollowingEvent" xml:space="preserve">
+    <value>다음 행사</value>
+  </data>
+  <data name="Schedule_EditRecurrence" xml:space="preserve">
+    <value>반복 편집</value>
+  </data>
+  <data name="Schedule_EditSeries" xml:space="preserve">
+    <value>전체 시리즈</value>
+  </data>
+  <data name="Schedule_EditTitle" xml:space="preserve">
+    <value>이벤트 수정</value>
+  </data>
+  <data name="Schedule_EmptyContainer" xml:space="preserve">
+    <value>이 날에는 예정된 행사가 없습니다.</value>
+  </data>
+  <data name="Schedule_End" xml:space="preserve">
+    <value>종료</value>
+  </data>
+  <data name="Schedule_EndTime" xml:space="preserve">
+    <value>종료 시간</value>
+  </data>
+  <data name="Schedule_EndAt" xml:space="preserve">
+    <value>종료</value>
+  </data>
+  <data name="Schedule_EndTimezone" xml:space="preserve">
+    <value>종료 시간대</value>
+  </data>
+  <data name="Schedule_InvalidDateError" xml:space="preserve">
+    <value>입력 한 날짜 값이 유효하지 않습니다.</value>
+  </data>
+  <data name="Schedule_Location" xml:space="preserve">
+    <value>위치</value>
+  </data>
+  <data name="Schedule_LookForMore" xml:space="preserve">
+    <value>더 찾아보기</value>
+  </data>
+  <data name="Schedule_Month" xml:space="preserve">
+    <value>달</value>
+  </data>
+  <data name="Schedule_MonthAgenda" xml:space="preserve">
+    <value>달 의제</value>
+  </data>
+  <data name="Schedule_More" xml:space="preserve">
+    <value>더</value>
+  </data>
+  <data name="Schedule_MoreDetails" xml:space="preserve">
+    <value>자세한 내용은</value>
+  </data>
+  <data name="Schedule_NewEvent" xml:space="preserve">
+    <value>새로운 이벤트</value>
+  </data>
+  <data name="Schedule_next" xml:space="preserve">
+    <value>다음</value>
+  </data>
+  <data name="Schedule_No" xml:space="preserve">
+    <value>아니</value>
+  </data>
+  <data name="Schedule_NoEvents" xml:space="preserve">
+    <value>이벤트가 없습니다</value>
+  </data>
+  <data name="Schedule_NoRecords" xml:space="preserve">
+    <value>기록 없음</value>
+  </data>
+  <data name="Schedule_NoTitle" xml:space="preserve">
+    <value>(제목 없음)</value>
+  </data>
+  <data name="Schedule_Occurrence" xml:space="preserve">
+    <value>발생</value>
+  </data>
+  <data name="Schedule_Ok" xml:space="preserve">
+    <value>확인</value>
+  </data>
+  <data name="Schedule_Previous" xml:space="preserve">
+    <value>이전</value>
+  </data>
+  <data name="Schedule_Recurrence" xml:space="preserve">
+    <value>회귀</value>
+  </data>
+  <data name="Schedule_Repeat" xml:space="preserve">
+    <value>반복</value>
+  </data>
+  <data name="Schedule_Repeats" xml:space="preserve">
+    <value>반복</value>
+  </data>
+  <data name="Schedule_SameDayAlert" xml:space="preserve">
+    <value>같은 날 두 번의 동일한 이벤트가 발생할 수 없습니다.</value>
+  </data>
+  <data name="Schedule_Save" xml:space="preserve">
+    <value>저장</value>
+  </data>
+  <data name="Schedule_SaveButton" xml:space="preserve">
+    <value>저장</value>
+  </data>
+  <data name="Schedule_SelectedItems" xml:space="preserve">
+    <value>선택된 아이템</value>
+  </data>
+  <data name="Schedule_Series" xml:space="preserve">
+    <value>시리즈</value>
+  </data>
+  <data name="Schedule_SearchTimezone" xml:space="preserve">
+    <value>시간대 검색</value>
+  </data>
+  <data name="Schedule_SeriesChangeAlert" xml:space="preserve">
+    <value>이 시리즈의 특정 인스턴스에 대한 변경 사항을 취소하고 전체 시리즈와 다시 일치 시키려고합니까?</value>
+  </data>
+  <data name="Schedule_ShowingEventsUntil" xml:space="preserve">
+    <value>까지 이벤트 표시</value>
+  </data>
+  <data name="Schedule_Start" xml:space="preserve">
+    <value>스타트</value>
+  </data>
+  <data name="Schedule_StartTime" xml:space="preserve">
+    <value>시작 시간</value>
+  </data>
+  <data name="Schedule_StartEndError" xml:space="preserve">
+    <value>선택한 종료 날짜는 시작 날짜 이전에 발생합니다.</value>
+  </data>
+  <data name="Schedule_StartTimezone" xml:space="preserve">
+    <value>시간대 시작</value>
+  </data>
+  <data name="Schedule_Subject" xml:space="preserve">
+    <value>제목</value>
+  </data>
+  <data name="Schedule_TimelineDay" xml:space="preserve">
+    <value>타임 라인 데이</value>
+  </data>
+  <data name="Schedule_TimelineMonth" xml:space="preserve">
+    <value>타임 라인 월</value>
+  </data>
+  <data name="Schedule_TimelineWeek" xml:space="preserve">
+    <value>타임 라인 주</value>
+  </data>
+  <data name="Schedule_TimelineWorkWeek" xml:space="preserve">
+    <value>타임 라인 작업 주간</value>
+  </data>
+  <data name="Schedule_TimelineYear" xml:space="preserve">
+    <value>타임 라인</value>
+  </data>
+  <data name="Schedule_Timezone" xml:space="preserve">
+    <value>시간대</value>
+  </data>
+  <data name="Schedule_Title" xml:space="preserve">
+    <value>표제</value>
+  </data>
+  <data name="Schedule_Today" xml:space="preserve">
+    <value>오늘</value>
+  </data>
+  <data name="Schedule_Week" xml:space="preserve">
+    <value>주</value>
+  </data>
+  <data name="Schedule_WeekAgenda" xml:space="preserve">
+    <value>주 일정</value>
+  </data>
+  <data name="Schedule_WorkWeek" xml:space="preserve">
+    <value>일주일</value>
+  </data>
+  <data name="Schedule_WorkWeekAgenda" xml:space="preserve">
+    <value>일주일 의제</value>
+  </data>
+  <data name="Schedule_WrongPattern" xml:space="preserve">
+    <value>반복 패턴이 유효하지 않습니다.</value>
+  </data>
+  <data name="Schedule_Yes" xml:space="preserve">
+    <value>예</value>
+  </data>
+  <data name="Schedule_Year" xml:space="preserve">
+    <value>년도</value>
+  </data>
+  <data name="Tab_CloseButtonTitle" xml:space="preserve">
+    <value>닫기</value>
+  </data>
+  <data name="Carousel_PreviousSlide" xml:space="preserve">
+    <value>이전 슬라이드</value>
+  </data>
+  <data name="Carousel_NextSlide" xml:space="preserve">
+    <value>다음 슬라이드</value>
+  </data>
+  <data name="Carousel_Slide" xml:space="preserve">
+    <value>미끄러지 다</value>
+  </data>
+  <data name="Carousel_Of" xml:space="preserve">
+    <value>의</value>
+  </data>
+  <data name="Carousel_PlaySlide" xml:space="preserve">
+    <value>자동 애니메이션 중지</value>
+  </data>
+  <data name="Carousel_PauseSlide" xml:space="preserve">
+    <value>자동 애니메이션 시작</value>
+  </data>
+  <data name="Carousel_SlideShow" xml:space="preserve">
+    <value>슬라이드 쇼</value>
+  </data>
+  <data name="PdfViewer" xml:space="preserve">
+    <value>PDF 뷰어</value>
+  </data>
+  <data name="PdfViewer_Cancel" xml:space="preserve">
+    <value>취소</value>
+  </data>
+  <data name="PdfViewer_DownloadFile" xml:space="preserve">
+    <value>파일 다운로드</value>
+  </data>
+  <data name="PdfViewer_Download" xml:space="preserve">
+    <value>다운로드</value>
+  </data>
+  <data name="PdfViewer_EnterPassword" xml:space="preserve">
+    <value>이 문서는 암호로 보호되어 있습니다. 비밀번호를 입력하십시오.</value>
+  </data>
+  <data name="PdfViewer_FileCorrupted" xml:space="preserve">
+    <value>손상된 파일</value>
+  </data>
+  <data name="PdfViewer_FileCorruptedContent" xml:space="preserve">
+    <value>파일이 손상되어 열 수 없습니다.</value>
+  </data>
+  <data name="PdfViewer_FitPage" xml:space="preserve">
+    <value>페이지 맞추기</value>
+  </data>
+  <data name="PdfViewer_FitWidth" xml:space="preserve">
+    <value>너비에 맞게</value>
+  </data>
+  <data name="PdfViewer_Automatic" xml:space="preserve">
+    <value>자동적 인</value>
+  </data>
+  <data name="PdfViewer_GoToFirstPage" xml:space="preserve">
+    <value>첫 페이지 표시</value>
+  </data>
+  <data name="PdfViewer_InvalidPassword" xml:space="preserve">
+    <value>잘못된 비밀번호. 다시 시도하십시오.</value>
+  </data>
+  <data name="PdfViewer_NextPage" xml:space="preserve">
+    <value>다음 페이지 표시</value>
+  </data>
+  <data name="PdfViewer_PreviousPage" xml:space="preserve">
+    <value>이전 페이지 표시</value>
+  </data>
+  <data name="PdfViewer_OK" xml:space="preserve">
+    <value>확인</value>
+  </data>
+  <data name="PdfViewer_Open" xml:space="preserve">
+    <value>파일 열기</value>
+  </data>
+  <data name="PdfViewer_PageNumber" xml:space="preserve">
+    <value>현재 페이지 번호</value>
+  </data>
+  <data name="PdfViewer_GoToLastPage" xml:space="preserve">
+    <value>마지막 페이지 표시</value>
+  </data>
+  <data name="PdfViewer_Zoom" xml:space="preserve">
+    <value>줌</value>
+  </data>
+  <data name="PdfViewer_ZoomIn" xml:space="preserve">
+    <value>확대</value>
+  </data>
+  <data name="PdfViewer_ZoomOut" xml:space="preserve">
+    <value>축소</value>
+  </data>
+  <data name="PdfViewer_PageThumbnails" xml:space="preserve">
+    <value>페이지 축소판</value>
+  </data>
+  <data name="PdfViewer_Bookmarks" xml:space="preserve">
+    <value>북마크</value>
+  </data>
+  <data name="PdfViewer_Print" xml:space="preserve">
+    <value>파일 인쇄</value>
+  </data>
+  <data name="PdfViewer_PasswordProtected" xml:space="preserve">
+    <value>비밀번호 필요</value>
+  </data>
+  <data name="PdfViewer_Copy" xml:space="preserve">
+    <value>부</value>
+  </data>
+  <data name="PdfViewer_TextSelection" xml:space="preserve">
+    <value>텍스트 선택 도구</value>
+  </data>
+  <data name="PdfViewer_Panning" xml:space="preserve">
+    <value>팬 모드</value>
+  </data>
+  <data name="PdfViewer_TextSearch" xml:space="preserve">
+    <value>텍스트 찾기</value>
+  </data>
+  <data name="PdfViewer_Findindocument" xml:space="preserve">
+    <value>문서에서 찾기</value>
+  </data>
+  <data name="PdfViewer_Matchcase" xml:space="preserve">
+    <value>경기 사례</value>
+  </data>
+  <data name="PdfViewer_Apply" xml:space="preserve">
+    <value>대다</value>
+  </data>
+  <data name="PdfViewer_GoToPage" xml:space="preserve">
+    <value>페이지로 이동</value>
+  </data>
+  <data name="PdfViewer_Nomatches" xml:space="preserve">
+    <value>뷰어가 문서 검색을 완료했습니다. 더 이상 일치하는 항목이 없습니다</value>
+  </data>
+  <data name="PdfViewer_NoTextFound" xml:space="preserve">
+    <value>텍스트를 찾을 수 없습니다</value>
+  </data>
+  <data name="PdfViewer_Undo" xml:space="preserve">
+    <value>실행 취소</value>
+  </data>
+  <data name="PdfViewer_Redo" xml:space="preserve">
+    <value>다시 하다</value>
+  </data>
+  <data name="PdfViewer_Annotation" xml:space="preserve">
+    <value>주석 추가 또는 편집</value>
+  </data>
+  <data name="PdfViewer_Highlight" xml:space="preserve">
+    <value>텍스트 강조</value>
+  </data>
+  <data name="PdfViewer_Underline" xml:space="preserve">
+    <value>밑줄 텍스트</value>
+  </data>
+  <data name="PdfViewer_Strikethrough" xml:space="preserve">
+    <value>취소 선 텍스트</value>
+  </data>
+  <data name="PdfViewer_Delete" xml:space="preserve">
+    <value>주석 삭제</value>
+  </data>
+  <data name="PdfViewer_Opacity" xml:space="preserve">
+    <value>불투명</value>
+  </data>
+  <data name="PdfViewer_ColorEdit" xml:space="preserve">
+    <value>색 변경</value>
+  </data>
+  <data name="PdfViewer_OpacityEdit" xml:space="preserve">
+    <value>불투명도 변경</value>
+  </data>
+  <data name="PdfViewer_HighlightContext" xml:space="preserve">
+    <value>가장 밝은 부분</value>
+  </data>
+  <data name="PdfViewer_UnderlineContext" xml:space="preserve">
+    <value>밑줄</value>
+  </data>
+  <data name="PdfViewer_StrikethroughContext" xml:space="preserve">
+    <value>파업</value>
+  </data>
+  <data name="PdfViewer_Servererror" xml:space="preserve">
+    <value>웹 서비스가 듣고 있지 않습니다. PDF 뷰어는 모든 기능을 웹 서비스에 의존합니다. 계속하려면 웹 서비스를 시작하십시오.</value>
+  </data>
+  <data name="PdfViewer_Clienterror" xml:space="preserve">
+    <value>클라이언트 측 오류가 발견되었습니다. ServerActionSettings 등록 정보에서 AjaxRequestSettings 등록 정보 및 웹 조치 메소드에 제공된 사용자 정의 헤더를 확인하십시오.</value>
+  </data>
+  <data name="PdfViewer_OpenText" xml:space="preserve">
+    <value>열다</value>
+  </data>
+  <data name="PdfViewer_FirstText" xml:space="preserve">
+    <value>첫 페이지</value>
+  </data>
+  <data name="PdfViewer_PreviousText" xml:space="preserve">
+    <value>이전 페이지</value>
+  </data>
+  <data name="PdfViewer_NextText" xml:space="preserve">
+    <value>다음 페이지</value>
+  </data>
+  <data name="PdfViewer_LastText" xml:space="preserve">
+    <value>마지막 페이지</value>
+  </data>
+  <data name="PdfViewer_ZoomInText" xml:space="preserve">
+    <value>확대</value>
+  </data>
+  <data name="PdfViewer_ZoomOutText" xml:space="preserve">
+    <value>축소</value>
+  </data>
+  <data name="PdfViewer_SelectionText" xml:space="preserve">
+    <value>선택</value>
+  </data>
+  <data name="PdfViewer_PanText" xml:space="preserve">
+    <value>팬</value>
+  </data>
+  <data name="PdfViewer_PrintText" xml:space="preserve">
+    <value>인쇄</value>
+  </data>
+  <data name="PdfViewer_SearchText" xml:space="preserve">
+    <value>검색</value>
+  </data>
+  <data name="PdfViewer_AnnotationEditText" xml:space="preserve">
+    <value>주석 편집</value>
+  </data>
+  <data name="PdfViewer_LineThickness" xml:space="preserve">
+    <value>선 두께</value>
+  </data>
+  <data name="PdfViewer_LineProperties" xml:space="preserve">
+    <value>선 속성</value>
+  </data>
+  <data name="PdfViewer_StartArrow" xml:space="preserve">
+    <value>시작 화살표</value>
+  </data>
+  <data name="PdfViewer_EndArrow" xml:space="preserve">
+    <value>끝 화살표</value>
+  </data>
+  <data name="PdfViewer_LineStyle" xml:space="preserve">
+    <value>선 스타일</value>
+  </data>
+  <data name="PdfViewer_FillColor" xml:space="preserve">
+    <value>채우기 색상</value>
+  </data>
+  <data name="PdfViewer_LineColor" xml:space="preserve">
+    <value>선 색</value>
+  </data>
+  <data name="PdfViewer_None" xml:space="preserve">
+    <value>없음</value>
+  </data>
+  <data name="PdfViewer_OpenArrow" xml:space="preserve">
+    <value>열린 화살표</value>
+  </data>
+  <data name="PdfViewer_ClosedArrow" xml:space="preserve">
+    <value>닫힌 화살표</value>
+  </data>
+  <data name="PdfViewer_RoundArrow" xml:space="preserve">
+    <value>둥근 화살</value>
+  </data>
+  <data name="PdfViewer_SquareArrow" xml:space="preserve">
+    <value>정사각형 화살표</value>
+  </data>
+  <data name="PdfViewer_DiamondArrow" xml:space="preserve">
+    <value>다이아몬드 화살</value>
+  </data>
+  <data name="PdfViewer_Cut" xml:space="preserve">
+    <value>절단</value>
+  </data>
+  <data name="PdfViewer_Paste" xml:space="preserve">
+    <value>풀</value>
+  </data>
+  <data name="PdfViewer_DeleteContext" xml:space="preserve">
+    <value>지우다</value>
+  </data>
+  <data name="PdfViewer_Properties" xml:space="preserve">
+    <value>속성</value>
+  </data>
+  <data name="PdfViewer_AddStamp" xml:space="preserve">
+    <value>스탬프 추가</value>
+  </data>
+  <data name="PdfViewer_AddShapes" xml:space="preserve">
+    <value>도형 추가</value>
+  </data>
+  <data name="PdfViewer_StrokeEdit" xml:space="preserve">
+    <value>획 색상 변경</value>
+  </data>
+  <data name="PdfViewer_ChangeThickness" xml:space="preserve">
+    <value>테두리 두께 변경</value>
+  </data>
+  <data name="PdfViewer_Addline" xml:space="preserve">
+    <value>라인 추가</value>
+  </data>
+  <data name="PdfViewer_AddArrow" xml:space="preserve">
+    <value>화살표 추가</value>
+  </data>
+  <data name="PdfViewer_AddRectangle" xml:space="preserve">
+    <value>사각형 추가</value>
+  </data>
+  <data name="PdfViewer_AddCircle" xml:space="preserve">
+    <value>서클 추가</value>
+  </data>
+  <data name="PdfViewer_AddPolygon" xml:space="preserve">
+    <value>다각형 추가</value>
+  </data>
+  <data name="PdfViewer_AddComments" xml:space="preserve">
+    <value>의견 추가</value>
+  </data>
+  <data name="PdfViewer_Comments" xml:space="preserve">
+    <value>코멘트</value>
+  </data>
+  <data name="PdfViewer_NoCommentsYet" xml:space="preserve">
+    <value>아직 코멘트가 없습니다</value>
+  </data>
+  <data name="PdfViewer_Accepted" xml:space="preserve">
+    <value>받아 들여</value>
+  </data>
+  <data name="PdfViewer_Completed" xml:space="preserve">
+    <value>완료</value>
+  </data>
+  <data name="PdfViewer_Cancelled" xml:space="preserve">
+    <value>취소 된</value>
+  </data>
+  <data name="PdfViewer_Rejected" xml:space="preserve">
+    <value>거부</value>
+  </data>
+  <data name="PdfViewer_LeaderLength" xml:space="preserve">
+    <value>리더 길이</value>
+  </data>
+  <data name="PdfViewer_ScaleRatio" xml:space="preserve">
+    <value>스케일 비율</value>
+  </data>
+  <data name="PdfViewer_Calibrate" xml:space="preserve">
+    <value>교정</value>
+  </data>
+  <data name="PdfViewer_CalibrateDistance" xml:space="preserve">
+    <value>거리 보정</value>
+  </data>
+  <data name="PdfViewer_CalibratePerimeter" xml:space="preserve">
+    <value>주변 보정</value>
+  </data>
+  <data name="PdfViewer_CalibrateArea" xml:space="preserve">
+    <value>면적 교정</value>
+  </data>
+  <data name="PdfViewer_CalibrateRadius" xml:space="preserve">
+    <value>반경 보정</value>
+  </data>
+  <data name="PdfViewer_CalibrateVolume" xml:space="preserve">
+    <value>볼륨 보정</value>
+  </data>
+  <data name="PdfViewer_Depth" xml:space="preserve">
+    <value>깊이</value>
+  </data>
+  <data name="PdfViewer_Closed" xml:space="preserve">
+    <value>닫은</value>
+  </data>
+  <data name="PdfViewer_Round" xml:space="preserve">
+    <value>일주</value>
+  </data>
+  <data name="PdfViewer_Square" xml:space="preserve">
+    <value>광장</value>
+  </data>
+  <data name="PdfViewer_Diamond" xml:space="preserve">
+    <value>다이아몬드</value>
+  </data>
+  <data name="PdfViewer_Edit" xml:space="preserve">
+    <value>편집하다</value>
+  </data>
+  <data name="PdfViewer_Comment" xml:space="preserve">
+    <value>논평</value>
+  </data>
+  <data name="PdfViewer_CommentPanel" xml:space="preserve">
+    <value>댓글 패널</value>
+  </data>
+  <data name="PdfViewer_SetStatus" xml:space="preserve">
+    <value>상태 설정</value>
+  </data>
+  <data name="PdfViewer_Post" xml:space="preserve">
+    <value>게시하다</value>
+  </data>
+  <data name="PdfViewer_Page" xml:space="preserve">
+    <value>페이지</value>
+  </data>
+  <data name="PdfViewer_AddComment" xml:space="preserve">
+    <value>코멘트를 추가하다</value>
+  </data>
+  <data name="PdfViewer_AddReply" xml:space="preserve">
+    <value>답글 추가</value>
+  </data>
+  <data name="PdfViewer_ImportAnnotations" xml:space="preserve">
+    <value>가져 오기 주석</value>
+  </data>
+  <data name="PdfViewer_ExportAnnotations" xml:space="preserve">
+    <value>주석 내보내기</value>
+  </data>
+  <data name="PdfViewer_Add" xml:space="preserve">
+    <value>더하다</value>
+  </data>
+  <data name="PdfViewer_Clear" xml:space="preserve">
+    <value>명확한</value>
+  </data>
+  <data name="PdfViewer_Bold" xml:space="preserve">
+    <value>굵게</value>
+  </data>
+  <data name="PdfViewer_Italic" xml:space="preserve">
+    <value>이탤릭체</value>
+  </data>
+  <data name="PdfViewer_Strikethroughs" xml:space="preserve">
+    <value>취소 선</value>
+  </data>
+  <data name="PdfViewer_Underlines" xml:space="preserve">
+    <value>밑줄</value>
+  </data>
+  <data name="PdfViewer_Superscript" xml:space="preserve">
+    <value>어깨 문자</value>
+  </data>
+  <data name="PdfViewer_Subscript" xml:space="preserve">
+    <value>아래 첨자</value>
+  </data>
+  <data name="PdfViewer_AlignLeft" xml:space="preserve">
+    <value>왼쪽 정렬</value>
+  </data>
+  <data name="PdfViewer_AlignRight" xml:space="preserve">
+    <value>오른쪽 정렬</value>
+  </data>
+  <data name="PdfViewer_Center" xml:space="preserve">
+    <value>센터</value>
+  </data>
+  <data name="PdfViewer_Justify" xml:space="preserve">
+    <value>신이 옳다고 하다</value>
+  </data>
+  <data name="PdfViewer_FontColor" xml:space="preserve">
+    <value>글꼴 색상</value>
+  </data>
+  <data name="PdfViewer_TextAlign" xml:space="preserve">
+    <value>텍스트 정렬</value>
+  </data>
+  <data name="PdfViewer_TextProperties" xml:space="preserve">
+    <value>폰트 스타일</value>
+  </data>
+  <data name="PdfViewer_DrawSignature" xml:space="preserve">
+    <value>서명 그리기</value>
+  </data>
+  <data name="PdfViewer_Create" xml:space="preserve">
+    <value>창조하다</value>
+  </data>
+  <data name="PdfViewer_FontFamily" xml:space="preserve">
+    <value>폰트 패밀리</value>
+  </data>
+  <data name="PdfViewer_FontSize" xml:space="preserve">
+    <value>폰트 크기</value>
+  </data>
+  <data name="PdfViewer_FreeText" xml:space="preserve">
+    <value>무료 문자</value>
+  </data>
+  <data name="PdfViewer_ImportFailed" xml:space="preserve">
+    <value>잘못된 JSON 파일 형식 또는 파일 이름입니다. 유효한 JSON 파일을 선택하십시오</value>
+  </data>
+  <data name="PdfViewer_FileNotFound" xml:space="preserve">
+    <value>가져온 JSON 파일을 원하는 위치에 없습니다</value>
+  </data>
+  <data name="PdfViewer_ExportFailed" xml:space="preserve">
+    <value>주석 내보내기 조치가 실패했습니다. 주석이 제대로 추가되었는지 확인하십시오</value>
+  </data>
+  <data name="PdfViewer_Draw_hand_Signature" xml:space="preserve">
+    <value>무승부</value>
+  </data>
+  <data name="PdfViewer_Type_Signature" xml:space="preserve">
+    <value>유형</value>
+  </data>
+  <data name="PdfViewer_Upload_Signature" xml:space="preserve">
+    <value>업로드</value>
+  </data>
+  <data name="PdfViewer_Browse_Signature_Image" xml:space="preserve">
+    <value>검색</value>
+  </data>
+  <data name="PdfViewer_Save_Signature" xml:space="preserve">
+    <value>서명 저장</value>
+  </data>
+  <data name="PdfViewer_Enter_Signature_as_Name" xml:space="preserve">
+    <value>당신의 이름을 입력</value>
+  </data>
+  <data name="PdfViewer_Dynamic" xml:space="preserve">
+    <value>동적</value>
+  </data>
+  <data name="PdfViewer_StandardBusiness" xml:space="preserve">
+    <value>스탠다드 비즈니스</value>
+  </data>
+  <data name="PdfViewer_CustomStamp" xml:space="preserve">
+    <value>맞춤 스탬프</value>
+  </data>
+  <data name="PdfViewer_Revised" xml:space="preserve">
+    <value>개정</value>
+  </data>
+  <data name="PdfViewer_Reviewed" xml:space="preserve">
+    <value>검토됨</value>
+  </data>
+  <data name="PdfViewer_Received" xml:space="preserve">
+    <value>받았다</value>
+  </data>
+  <data name="PdfViewer_Approved" xml:space="preserve">
+    <value>승인됨</value>
+  </data>
+  <data name="PdfViewer_Confidential" xml:space="preserve">
+    <value>비밀의</value>
+  </data>
+  <data name="PdfViewer_NotApproved" xml:space="preserve">
+    <value>승인이 거절 됨</value>
+  </data>
+  <data name="PdfViewer_Witness" xml:space="preserve">
+    <value>증인</value>
+  </data>
+  <data name="PdfViewer_InitialHere" xml:space="preserve">
+    <value>여기에 이니셜</value>
+  </data>
+  <data name="PdfViewer_SignHere" xml:space="preserve">
+    <value>여기에 서명</value>
+  </data>
+  <data name="PdfViewer_Draft" xml:space="preserve">
+    <value>초안</value>
+  </data>
+  <data name="PdfViewer_Final" xml:space="preserve">
+    <value>결정적인</value>
+  </data>
+  <data name="PdfViewer_ForPublicRelease" xml:space="preserve">
+    <value>공개용</value>
+  </data>
+  <data name="PdfViewer_NotForPublicRelease" xml:space="preserve">
+    <value>공개용 아님</value>
+  </data>
+  <data name="PdfViewer_ForComment" xml:space="preserve">
+    <value>코멘트를 위해</value>
+  </data>
+  <data name="PdfViewer_Void" xml:space="preserve">
+    <value>무효의</value>
+  </data>
+  <data name="PdfViewer_PreliminaryResults" xml:space="preserve">
+    <value>예비 결과</value>
+  </data>
+  <data name="PdfViewer_InformationOnly" xml:space="preserve">
+    <value>정보용</value>
+  </data>
+  <data name="PdfViewer_SubmitForm" xml:space="preserve">
+    <value>양식 제출</value>
+  </data>
+  <data name="PdfViewer_Required_ServiceUrl_Error_Message" xml:space="preserve">
+    <value>이 PDF 뷰어는 웹 서비스를 통해 PDF 파일을 렌더링하기 위해 서버 측 처리가 필요합니다. PDF 뷰어를 계속 진행하려면 서비스 URL을 구성해야 합니다</value>
+  </data>
+  <data name="PdfViewer_HandwrittenSignatureDialogHeaderText" xml:space="preserve">
+    <value>서명 추가</value>
+  </data>
+  <data name="PdfViewer_DrawInk" xml:space="preserve">
+    <value>ا잉크 그리기</value>
+  </data>
+  <data name="PdfViewer_Close" xml:space="preserve">
+    <value>닫기</value>
+  </data>
+  <data name="DocumentEditor_Table" xml:space="preserve">
+    <value>표</value>
+  </data>
+  <data name="DocumentEditor_Row" xml:space="preserve">
+    <value>열</value>
+  </data>
+  <data name="DocumentEditor_Cell" xml:space="preserve">
+    <value>세포</value>
+  </data>
+  <data name="DocumentEditor_Ok" xml:space="preserve">
+    <value>확인</value>
+  </data>
+  <data name="DocumentEditor_Cancel" xml:space="preserve">
+    <value>취소</value>
+  </data>
+  <data name="DocumentEditor_Size" xml:space="preserve">
+    <value>크기</value>
+  </data>
+  <data name="DocumentEditor_PreferredWidth" xml:space="preserve">
+    <value>선호하는 폭</value>
+  </data>
+  <data name="DocumentEditor_Points" xml:space="preserve">
+    <value>포인트들</value>
+  </data>
+  <data name="DocumentEditor_Percent" xml:space="preserve">
+    <value>퍼센트</value>
+  </data>
+  <data name="DocumentEditor_MeasureIn" xml:space="preserve">
+    <value>측정</value>
+  </data>
+  <data name="DocumentEditor_Alignment" xml:space="preserve">
+    <value>조정</value>
+  </data>
+  <data name="DocumentEditor_Left" xml:space="preserve">
+    <value>왼쪽</value>
+  </data>
+  <data name="DocumentEditor_Center" xml:space="preserve">
+    <value>센터</value>
+  </data>
+  <data name="DocumentEditor_Right" xml:space="preserve">
+    <value>권리</value>
+  </data>
+  <data name="DocumentEditor_Justify" xml:space="preserve">
+    <value>신이 옳다고 하다</value>
+  </data>
+  <data name="DocumentEditor_IndentFromLeft" xml:space="preserve">
+    <value>왼쪽에서 들여 쓰기</value>
+  </data>
+  <data name="DocumentEditor_BordersAndShading" xml:space="preserve">
+    <value>테두리와 음영</value>
+  </data>
+  <data name="DocumentEditor_Options" xml:space="preserve">
+    <value>옵션</value>
+  </data>
+  <data name="DocumentEditor_SpecifyHeight" xml:space="preserve">
+    <value>높이 지정</value>
+  </data>
+  <data name="DocumentEditor_AtLeast" xml:space="preserve">
+    <value>적어도</value>
+  </data>
+  <data name="DocumentEditor_Exactly" xml:space="preserve">
+    <value>바로 그거죠</value>
+  </data>
+  <data name="DocumentEditor_RowHeightIs" xml:space="preserve">
+    <value>행 높이</value>
+  </data>
+  <data name="DocumentEditor_AllowRowToBreakAcrossPages" xml:space="preserve">
+    <value>행이 여러 페이지에서 나뉘도록 허용</value>
+  </data>
+  <data name="DocumentEditor_RepeatAsHeaderRowAtTheTopOfEachPage" xml:space="preserve">
+    <value>각 페이지 상단에 헤더 행으로 반복</value>
+  </data>
+  <data name="DocumentEditor_VerticalAlignment" xml:space="preserve">
+    <value>수직 정렬</value>
+  </data>
+  <data name="DocumentEditor_Top" xml:space="preserve">
+    <value>상단</value>
+  </data>
+  <data name="DocumentEditor_Bottom" xml:space="preserve">
+    <value>바닥</value>
+  </data>
+  <data name="DocumentEditor_DefaultCellMargins" xml:space="preserve">
+    <value>기본 셀 여백</value>
+  </data>
+  <data name="DocumentEditor_DefaultCellSpacing" xml:space="preserve">
+    <value>기본 셀 간격</value>
+  </data>
+  <data name="DocumentEditor_AllowSpacingBetweenCells" xml:space="preserve">
+    <value>셀 간 간격 허용</value>
+  </data>
+  <data name="DocumentEditor_CellMargins" xml:space="preserve">
+    <value>셀 마진</value>
+  </data>
+  <data name="DocumentEditor_SameAsTheWholeTable" xml:space="preserve">
+    <value>전체 테이블과 동일</value>
+  </data>
+  <data name="DocumentEditor_Borders" xml:space="preserve">
+    <value>테두리</value>
+  </data>
+  <data name="DocumentEditor_None" xml:space="preserve">
+    <value>없음</value>
+  </data>
+  <data name="DocumentEditor_Style" xml:space="preserve">
+    <value>스타일</value>
+  </data>
+  <data name="DocumentEditor_Width" xml:space="preserve">
+    <value>폭</value>
+  </data>
+  <data name="DocumentEditor_Height" xml:space="preserve">
+    <value>신장</value>
+  </data>
+  <data name="DocumentEditor_Letter" xml:space="preserve">
+    <value>편지</value>
+  </data>
+  <data name="DocumentEditor_Tabloid" xml:space="preserve">
+    <value>정제</value>
+  </data>
+  <data name="DocumentEditor_Legal" xml:space="preserve">
+    <value>적법한</value>
+  </data>
+  <data name="DocumentEditor_Statement" xml:space="preserve">
+    <value>성명서</value>
+  </data>
+  <data name="DocumentEditor_Executive" xml:space="preserve">
+    <value>행정부</value>
+  </data>
+  <data name="DocumentEditor_A3" xml:space="preserve">
+    <value>A3</value>
+  </data>
+  <data name="DocumentEditor_A4" xml:space="preserve">
+    <value>A4</value>
+  </data>
+  <data name="DocumentEditor_A5" xml:space="preserve">
+    <value>A5</value>
+  </data>
+  <data name="DocumentEditor_B4" xml:space="preserve">
+    <value>B4</value>
+  </data>
+  <data name="DocumentEditor_B5" xml:space="preserve">
+    <value>B5</value>
+  </data>
+  <data name="DocumentEditor_CustomSize" xml:space="preserve">
+    <value>사용자 정의 크기</value>
+  </data>
+  <data name="DocumentEditor_DifferentOddAndEven" xml:space="preserve">
+    <value>다른 홀수 및 짝수</value>
+  </data>
+  <data name="DocumentEditor_DifferentFirstPage" xml:space="preserve">
+    <value>다른 첫 페이지</value>
+  </data>
+  <data name="DocumentEditor_FromEdge" xml:space="preserve">
+    <value>가장자리에서</value>
+  </data>
+  <data name="DocumentEditor_Header" xml:space="preserve">
+    <value>머리글</value>
+  </data>
+  <data name="DocumentEditor_Footer" xml:space="preserve">
+    <value>보행인</value>
+  </data>
+  <data name="DocumentEditor_Margin" xml:space="preserve">
+    <value>여백</value>
+  </data>
+  <data name="DocumentEditor_Paper" xml:space="preserve">
+    <value>종이</value>
+  </data>
+  <data name="DocumentEditor_Layout" xml:space="preserve">
+    <value>나열한 것</value>
+  </data>
+  <data name="DocumentEditor_Orientation" xml:space="preserve">
+    <value>정위</value>
+  </data>
+  <data name="DocumentEditor_Landscape" xml:space="preserve">
+    <value>경치</value>
+  </data>
+  <data name="DocumentEditor_Portrait" xml:space="preserve">
+    <value>초상화</value>
+  </data>
+  <data name="DocumentEditor_ShowPageNumbers" xml:space="preserve">
+    <value>페이지 번호 표시</value>
+  </data>
+  <data name="DocumentEditor_RightAlignPageNumbers" xml:space="preserve">
+    <value>페이지 번호를 오른쪽 정렬.</value>
+  </data>
+  <data name="DocumentEditor_Nothing" xml:space="preserve">
+    <value>아무것도</value>
+  </data>
+  <data name="DocumentEditor_TabLeader" xml:space="preserve">
+    <value>탭 리더</value>
+  </data>
+  <data name="DocumentEditor_ShowLevels" xml:space="preserve">
+    <value>레벨 표시</value>
+  </data>
+  <data name="DocumentEditor_UseHyperlinksInsteadOfPageNumbers" xml:space="preserve">
+    <value>페이지 번호 대신 하이퍼 링크 사용</value>
+  </data>
+  <data name="DocumentEditor_BuildTableOfContentsFrom" xml:space="preserve">
+    <value>목차 구축</value>
+  </data>
+  <data name="DocumentEditor_Styles" xml:space="preserve">
+    <value>스타일</value>
+  </data>
+  <data name="DocumentEditor_AvailableStyles" xml:space="preserve">
+    <value>사용 가능한 스타일</value>
+  </data>
+  <data name="DocumentEditor_TOCLevel" xml:space="preserve">
+    <value>TOC 레벨</value>
+  </data>
+  <data name="DocumentEditor_Heading" xml:space="preserve">
+    <value>표제</value>
+  </data>
+  <data name="DocumentEditor_Heading1" xml:space="preserve">
+    <value>제목 1</value>
+  </data>
+  <data name="DocumentEditor_Heading2" xml:space="preserve">
+    <value>제목 2</value>
+  </data>
+  <data name="DocumentEditor_Heading3" xml:space="preserve">
+    <value>제목 3</value>
+  </data>
+  <data name="DocumentEditor_Heading4" xml:space="preserve">
+    <value>제목 4</value>
+  </data>
+  <data name="DocumentEditor_Heading5" xml:space="preserve">
+    <value>제목 5</value>
+  </data>
+  <data name="DocumentEditor_Heading6" xml:space="preserve">
+    <value>제목 6</value>
+  </data>
+  <data name="DocumentEditor_ListParagraph" xml:space="preserve">
+    <value>단락 목록</value>
+  </data>
+  <data name="DocumentEditor_Normal" xml:space="preserve">
+    <value>표준</value>
+  </data>
+  <data name="DocumentEditor_OutlineLevels" xml:space="preserve">
+    <value>개요 수준</value>
+  </data>
+  <data name="DocumentEditor_TableEntryFields" xml:space="preserve">
+    <value>테이블 입력 필드</value>
+  </data>
+  <data name="DocumentEditor_Modify" xml:space="preserve">
+    <value>수정</value>
+  </data>
+  <data name="DocumentEditor_Color" xml:space="preserve">
+    <value>색깔</value>
+  </data>
+  <data name="DocumentEditor_Setting" xml:space="preserve">
+    <value>환경</value>
+  </data>
+  <data name="DocumentEditor_Box" xml:space="preserve">
+    <value>상자</value>
+  </data>
+  <data name="DocumentEditor_All" xml:space="preserve">
+    <value>모두</value>
+  </data>
+  <data name="DocumentEditor_Custom" xml:space="preserve">
+    <value>커스텀</value>
+  </data>
+  <data name="DocumentEditor_Preview" xml:space="preserve">
+    <value>시사</value>
+  </data>
+  <data name="DocumentEditor_Shading" xml:space="preserve">
+    <value>농담</value>
+  </data>
+  <data name="DocumentEditor_Fill" xml:space="preserve">
+    <value>가득 따르다</value>
+  </data>
+  <data name="DocumentEditor_ApplyTo" xml:space="preserve">
+    <value>적용하다</value>
+  </data>
+  <data name="DocumentEditor_TableProperties" xml:space="preserve">
+    <value>테이블 속성</value>
+  </data>
+  <data name="DocumentEditor_CellOptions" xml:space="preserve">
+    <value>셀 옵션</value>
+  </data>
+  <data name="DocumentEditor_TableOptions" xml:space="preserve">
+    <value>테이블 옵션</value>
+  </data>
+  <data name="DocumentEditor_InsertTable" xml:space="preserve">
+    <value>테이블 삽입</value>
+  </data>
+  <data name="DocumentEditor_NumberOfColumns" xml:space="preserve">
+    <value>열 수</value>
+  </data>
+  <data name="DocumentEditor_NumberOfRows" xml:space="preserve">
+    <value>행 수</value>
+  </data>
+  <data name="DocumentEditor_TextToDisplay" xml:space="preserve">
+    <value>표시 할 텍스트</value>
+  </data>
+  <data name="DocumentEditor_Address" xml:space="preserve">
+    <value>주소</value>
+  </data>
+  <data name="DocumentEditor_InsertHyperlink" xml:space="preserve">
+    <value>하이퍼 링크 삽입</value>
+  </data>
+  <data name="DocumentEditor_EditHyperlink" xml:space="preserve">
+    <value>하이퍼 링크 편집</value>
+  </data>
+  <data name="DocumentEditor_Insert" xml:space="preserve">
+    <value>끼워 넣다</value>
+  </data>
+  <data name="DocumentEditor_General" xml:space="preserve">
+    <value>일반</value>
+  </data>
+  <data name="DocumentEditor_Indentation" xml:space="preserve">
+    <value>들여 쓰기</value>
+  </data>
+  <data name="DocumentEditor_BeforeText" xml:space="preserve">
+    <value>텍스트 전에</value>
+  </data>
+  <data name="DocumentEditor_Special" xml:space="preserve">
+    <value>특별한</value>
+  </data>
+  <data name="DocumentEditor_FirstLine" xml:space="preserve">
+    <value>첫 번째 줄</value>
+  </data>
+  <data name="DocumentEditor_Hanging" xml:space="preserve">
+    <value>교수형</value>
+  </data>
+  <data name="DocumentEditor_AfterText" xml:space="preserve">
+    <value>텍스트 후</value>
+  </data>
+  <data name="DocumentEditor_By" xml:space="preserve">
+    <value>으로</value>
+  </data>
+  <data name="DocumentEditor_Before" xml:space="preserve">
+    <value>전에</value>
+  </data>
+  <data name="DocumentEditor_LineSpacing" xml:space="preserve">
+    <value>줄 간격</value>
+  </data>
+  <data name="DocumentEditor_After" xml:space="preserve">
+    <value>후</value>
+  </data>
+  <data name="DocumentEditor_At" xml:space="preserve">
+    <value>에서</value>
+  </data>
+  <data name="DocumentEditor_Multiple" xml:space="preserve">
+    <value>배수</value>
+  </data>
+  <data name="DocumentEditor_Spacing" xml:space="preserve">
+    <value>간격</value>
+  </data>
+  <data name="DocumentEditor_DefineNewMultilevelList" xml:space="preserve">
+    <value>새로운 다단계 목록 정의</value>
+  </data>
+  <data name="DocumentEditor_ListLevel" xml:space="preserve">
+    <value>리스트 레벨</value>
+  </data>
+  <data name="DocumentEditor_ChooseLevelToModify" xml:space="preserve">
+    <value>수정할 레벨을 선택하십시오</value>
+  </data>
+  <data name="DocumentEditor_Level" xml:space="preserve">
+    <value>수평</value>
+  </data>
+  <data name="DocumentEditor_NumberFormat" xml:space="preserve">
+    <value>숫자 형식</value>
+  </data>
+  <data name="DocumentEditor_NumberStyleForThisLevel" xml:space="preserve">
+    <value>이 레벨의 숫자 스타일</value>
+  </data>
+  <data name="DocumentEditor_EnterFormattingForNumber" xml:space="preserve">
+    <value>숫자 형식을 입력하십시오</value>
+  </data>
+  <data name="DocumentEditor_StartAt" xml:space="preserve">
+    <value>에서 시작</value>
+  </data>
+  <data name="DocumentEditor_RestartListAfter" xml:space="preserve">
+    <value>다음에 다시 시작 목록</value>
+  </data>
+  <data name="DocumentEditor_Position" xml:space="preserve">
+    <value>위치</value>
+  </data>
+  <data name="DocumentEditor_TextIndentAt" xml:space="preserve">
+    <value>텍스트 들여 쓰기</value>
+  </data>
+  <data name="DocumentEditor_AlignedAt" xml:space="preserve">
+    <value>에 정렬</value>
+  </data>
+  <data name="DocumentEditor_FollowNumberWith" xml:space="preserve">
+    <value>와 번호를 따르십시오</value>
+  </data>
+  <data name="DocumentEditor_TabCharacter" xml:space="preserve">
+    <value>탭 문자</value>
+  </data>
+  <data name="DocumentEditor_Space" xml:space="preserve">
+    <value>우주</value>
+  </data>
+  <data name="DocumentEditor_Arabic" xml:space="preserve">
+    <value>아라비아 말</value>
+  </data>
+  <data name="DocumentEditor_UpRoman" xml:space="preserve">
+    <value>로마</value>
+  </data>
+  <data name="DocumentEditor_LowRoman" xml:space="preserve">
+    <value>로로 만</value>
+  </data>
+  <data name="DocumentEditor_UpLetter" xml:space="preserve">
+    <value>편지</value>
+  </data>
+  <data name="DocumentEditor_LowLetter" xml:space="preserve">
+    <value>낮은 글자</value>
+  </data>
+  <data name="DocumentEditor_Number" xml:space="preserve">
+    <value>번호</value>
+  </data>
+  <data name="DocumentEditor_LeadingZero" xml:space="preserve">
+    <value>선행 제로</value>
+  </data>
+  <data name="DocumentEditor_Bullet" xml:space="preserve">
+    <value>총알</value>
+  </data>
+  <data name="DocumentEditor_Ordinal" xml:space="preserve">
+    <value>서수</value>
+  </data>
+  <data name="DocumentEditor_OrdinalText" xml:space="preserve">
+    <value>서수 텍스트</value>
+  </data>
+  <data name="DocumentEditor_ForEast" xml:space="preserve">
+    <value>동쪽</value>
+  </data>
+  <data name="DocumentEditor_NoRestart" xml:space="preserve">
+    <value>다시 시작하지 않음</value>
+  </data>
+  <data name="DocumentEditor_Font" xml:space="preserve">
+    <value>폰트</value>
+  </data>
+  <data name="DocumentEditor_FontStyle" xml:space="preserve">
+    <value>폰트 스타일</value>
+  </data>
+  <data name="DocumentEditor_UnderlineStyle" xml:space="preserve">
+    <value>밑줄 스타일</value>
+  </data>
+  <data name="DocumentEditor_FontColor" xml:space="preserve">
+    <value>글자 색</value>
+  </data>
+  <data name="DocumentEditor_Effects" xml:space="preserve">
+    <value>효과</value>
+  </data>
+  <data name="DocumentEditor_Strikethrough" xml:space="preserve">
+    <value>취소 선</value>
+  </data>
+  <data name="DocumentEditor_Superscript" xml:space="preserve">
+    <value>어깨 문자</value>
+  </data>
+  <data name="DocumentEditor_Subscript" xml:space="preserve">
+    <value>아래 첨자</value>
+  </data>
+  <data name="DocumentEditor_DoubleStrikethrough" xml:space="preserve">
+    <value>이중 취소 선</value>
+  </data>
+  <data name="DocumentEditor_Regular" xml:space="preserve">
+    <value>정규병</value>
+  </data>
+  <data name="DocumentEditor_Bold" xml:space="preserve">
+    <value>굵게</value>
+  </data>
+  <data name="DocumentEditor_Italic" xml:space="preserve">
+    <value>이탤릭체</value>
+  </data>
+  <data name="DocumentEditor_Cut" xml:space="preserve">
+    <value>절단</value>
+  </data>
+  <data name="DocumentEditor_Copy" xml:space="preserve">
+    <value>부</value>
+  </data>
+  <data name="DocumentEditor_Paste" xml:space="preserve">
+    <value>풀</value>
+  </data>
+  <data name="DocumentEditor_Hyperlink" xml:space="preserve">
+    <value>하이퍼 링크</value>
+  </data>
+  <data name="DocumentEditor_OpenHyperlink" xml:space="preserve">
+    <value>하이퍼 링크 열기</value>
+  </data>
+  <data name="DocumentEditor_CopyHyperlink" xml:space="preserve">
+    <value>하이퍼 링크 복사</value>
+  </data>
+  <data name="DocumentEditor_RemoveHyperlink" xml:space="preserve">
+    <value>하이퍼 링크 제거</value>
+  </data>
+  <data name="DocumentEditor_Paragraph" xml:space="preserve">
+    <value>절</value>
+  </data>
+  <data name="DocumentEditor_LinkedStyle" xml:space="preserve">
+    <value>연결 (문단 및 문자)</value>
+  </data>
+  <data name="DocumentEditor_Character" xml:space="preserve">
+    <value>캐릭터</value>
+  </data>
+  <data name="DocumentEditor_MergeCells" xml:space="preserve">
+    <value>셀 병합</value>
+  </data>
+  <data name="DocumentEditor_InsertAbove" xml:space="preserve">
+    <value>위에 삽입</value>
+  </data>
+  <data name="DocumentEditor_InsertBelow" xml:space="preserve">
+    <value>아래에 삽입</value>
+  </data>
+  <data name="DocumentEditor_InsertLeft" xml:space="preserve">
+    <value>왼쪽 삽입</value>
+  </data>
+  <data name="DocumentEditor_InsertRight" xml:space="preserve">
+    <value>오른쪽 삽입</value>
+  </data>
+  <data name="DocumentEditor_Delete" xml:space="preserve">
+    <value>지우다</value>
+  </data>
+  <data name="DocumentEditor_DeleteTable" xml:space="preserve">
+    <value>테이블 삭제</value>
+  </data>
+  <data name="DocumentEditor_DeleteRow" xml:space="preserve">
+    <value>행 삭제</value>
+  </data>
+  <data name="DocumentEditor_DeleteColumn" xml:space="preserve">
+    <value>열 삭제</value>
+  </data>
+  <data name="DocumentEditor_FileName" xml:space="preserve">
+    <value>파일 이름</value>
+  </data>
+  <data name="DocumentEditor_FormatType" xml:space="preserve">
+    <value>체재 유형</value>
+  </data>
+  <data name="DocumentEditor_Save" xml:space="preserve">
+    <value>저장</value>
+  </data>
+  <data name="DocumentEditor_Navigation" xml:space="preserve">
+    <value>항해</value>
+  </data>
+  <data name="DocumentEditor_Results" xml:space="preserve">
+    <value>결과</value>
+  </data>
+  <data name="DocumentEditor_Replace" xml:space="preserve">
+    <value>바꾸다</value>
+  </data>
+  <data name="DocumentEditor_ReplaceAll" xml:space="preserve">
+    <value>전부 교체</value>
+  </data>
+  <data name="DocumentEditor_WeReplacedAll" xml:space="preserve">
+    <value>우리는 모두 교체</value>
+  </data>
+  <data name="DocumentEditor_Find" xml:space="preserve">
+    <value>찾기</value>
+  </data>
+  <data name="DocumentEditor_NoMatches" xml:space="preserve">
+    <value>맞지 않는다</value>
+  </data>
+  <data name="DocumentEditor_AllDone" xml:space="preserve">
+    <value>모두 완료</value>
+  </data>
+  <data name="DocumentEditor_Result" xml:space="preserve">
+    <value>결과</value>
+  </data>
+  <data name="DocumentEditor_Of" xml:space="preserve">
+    <value>의</value>
+  </data>
+  <data name="DocumentEditor_Instances" xml:space="preserve">
+    <value>인스턴스</value>
+  </data>
+  <data name="DocumentEditor_With" xml:space="preserve">
+    <value>와</value>
+  </data>
+  <data name="DocumentEditor_ClickToFollowLink" xml:space="preserve">
+    <value>링크를 클릭하십시오</value>
+  </data>
+  <data name="DocumentEditor_ContinueNumbering" xml:space="preserve">
+    <value>번호 매기기 계속</value>
+  </data>
+  <data name="DocumentEditor_BookmarkName" xml:space="preserve">
+    <value>북마크 이름</value>
+  </data>
+  <data name="DocumentEditor_Close" xml:space="preserve">
+    <value>닫기</value>
+  </data>
+  <data name="DocumentEditor_RestartAt" xml:space="preserve">
+    <value>다시 시작</value>
+  </data>
+  <data name="DocumentEditor_Properties" xml:space="preserve">
+    <value>속성</value>
+  </data>
+  <data name="DocumentEditor_Name" xml:space="preserve">
+    <value>이름</value>
+  </data>
+  <data name="DocumentEditor_StyleType" xml:space="preserve">
+    <value>스타일 타입</value>
+  </data>
+  <data name="DocumentEditor_StyleBasedOn" xml:space="preserve">
+    <value>기반 스타일</value>
+  </data>
+  <data name="DocumentEditor_StyleForFollowingParagraph" xml:space="preserve">
+    <value>다음 단락 스타일</value>
+  </data>
+  <data name="DocumentEditor_Formatting" xml:space="preserve">
+    <value>서식</value>
+  </data>
+  <data name="DocumentEditor_NumberingAndBullets" xml:space="preserve">
+    <value>번호 매기기 및 글 머리 기호</value>
+  </data>
+  <data name="DocumentEditor_Numbering" xml:space="preserve">
+    <value>넘버링</value>
+  </data>
+  <data name="DocumentEditor_UpdateField" xml:space="preserve">
+    <value>업데이트 필드</value>
+  </data>
+  <data name="DocumentEditor_EditField" xml:space="preserve">
+    <value>필드 편집</value>
+  </data>
+  <data name="DocumentEditor_Bookmark" xml:space="preserve">
+    <value>서표</value>
+  </data>
+  <data name="DocumentEditor_PageSetup" xml:space="preserve">
+    <value>페이지 설정</value>
+  </data>
+  <data name="DocumentEditor_NoBookmarksFound" xml:space="preserve">
+    <value>북마크를 찾을 수 없습니다</value>
+  </data>
+  <data name="DocumentEditor_Format" xml:space="preserve">
+    <value>체재</value>
+  </data>
+  <data name="DocumentEditor_CreateNewStyle" xml:space="preserve">
+    <value>새로운 스타일 만들기</value>
+  </data>
+  <data name="DocumentEditor_ModifyStyle" xml:space="preserve">
+    <value>스타일 수정</value>
+  </data>
+  <data name="DocumentEditor_New" xml:space="preserve">
+    <value>새로운</value>
+  </data>
+  <data name="DocumentEditor_Bullets" xml:space="preserve">
+    <value>글 머리 기호</value>
+  </data>
+  <data name="DocumentEditor_UseBookmarks" xml:space="preserve">
+    <value>북마크 사용</value>
+  </data>
+  <data name="DocumentEditor_TableOfContents" xml:space="preserve">
+    <value>목차</value>
+  </data>
+  <data name="DocumentEditor_AutoFit" xml:space="preserve">
+    <value>자동 맞춤</value>
+  </data>
+  <data name="DocumentEditor_AutoFitToContents" xml:space="preserve">
+    <value>내용에 자동 맞춤</value>
+  </data>
+  <data name="DocumentEditor_AutoFitToWindow" xml:space="preserve">
+    <value>창에 자동 맞춤</value>
+  </data>
+  <data name="DocumentEditor_FixedColumnWidth" xml:space="preserve">
+    <value>고정 열 너비</value>
+  </data>
+  <data name="DocumentEditor_Reset" xml:space="preserve">
+    <value>초기화</value>
+  </data>
+  <data name="DocumentEditor_MatchCase" xml:space="preserve">
+    <value>경기 사례</value>
+  </data>
+  <data name="DocumentEditor_WholeWords" xml:space="preserve">
+    <value>전체 단어</value>
+  </data>
+  <data name="DocumentEditor_Add" xml:space="preserve">
+    <value>더하다</value>
+  </data>
+  <data name="DocumentEditor_GoTo" xml:space="preserve">
+    <value>이동</value>
+  </data>
+  <data name="DocumentEditor_SearchFor" xml:space="preserve">
+    <value>검색</value>
+  </data>
+  <data name="DocumentEditor_ReplaceWith" xml:space="preserve">
+    <value>로 교체</value>
+  </data>
+  <data name="DocumentEditor_TOC1" xml:space="preserve">
+    <value>목차 1</value>
+  </data>
+  <data name="DocumentEditor_TOC2" xml:space="preserve">
+    <value>TOC 2</value>
+  </data>
+  <data name="DocumentEditor_TOC3" xml:space="preserve">
+    <value>목차 3</value>
+  </data>
+  <data name="DocumentEditor_TOC4" xml:space="preserve">
+    <value>TOC 4</value>
+  </data>
+  <data name="DocumentEditor_TOC5" xml:space="preserve">
+    <value>TOC 5</value>
+  </data>
+  <data name="DocumentEditor_TOC6" xml:space="preserve">
+    <value>TOC 6</value>
+  </data>
+  <data name="DocumentEditor_TOC7" xml:space="preserve">
+    <value>TOC 7</value>
+  </data>
+  <data name="DocumentEditor_TOC8" xml:space="preserve">
+    <value>TOC 8</value>
+  </data>
+  <data name="DocumentEditor_TOC9" xml:space="preserve">
+    <value>TOC 9</value>
+  </data>
+  <data name="DocumentEditor_RightToLeft" xml:space="preserve">
+    <value>오른쪽에서 왼쪽으로</value>
+  </data>
+  <data name="DocumentEditor_LeftToRight" xml:space="preserve">
+    <value>왼쪽에서 오른쪽으로</value>
+  </data>
+  <data name="DocumentEditor_Direction" xml:space="preserve">
+    <value>방향</value>
+  </data>
+  <data name="DocumentEditor_TableDirection" xml:space="preserve">
+    <value>테이블 방향</value>
+  </data>
+  <data name="DocumentEditor_IndentFromRight" xml:space="preserve">
+    <value>오른쪽에서 들여 쓰기</value>
+  </data>
+  <data name="DocumentEditor_ContextualSpacing" xml:space="preserve">
+    <value>같은 스타일의 단락 사이에 공백을 추가하지 마십시오</value>
+  </data>
+  <data name="DocumentEditor_PasswordMismatch" xml:space="preserve">
+    <value>비밀번호가 일치하지 않습니다</value>
+  </data>
+  <data name="DocumentEditor_RestrictEditing" xml:space="preserve">
+    <value>편집 제한</value>
+  </data>
+  <data name="DocumentEditor_FormattingRestrictions" xml:space="preserve">
+    <value>포맷 제한</value>
+  </data>
+  <data name="DocumentEditor_AllowFormatting" xml:space="preserve">
+    <value>서식 허용</value>
+  </data>
+  <data name="DocumentEditor_EditingRestrictions" xml:space="preserve">
+    <value>편집 제한</value>
+  </data>
+  <data name="DocumentEditor_ReadOnly" xml:space="preserve">
+    <value>읽기 전용</value>
+  </data>
+  <data name="DocumentEditor_ExceptionsOptional" xml:space="preserve">
+    <value>예외 (선택 사항)</value>
+  </data>
+  <data name="DocumentEditor_SelectPartOfDocumentAndUser" xml:space="preserve">
+    <value>문서의 일부를 선택하고 자유롭게 편집 할 수있는 사용자를 선택하십시오.</value>
+  </data>
+  <data name="DocumentEditor_Everyone" xml:space="preserve">
+    <value>여러분</value>
+  </data>
+  <data name="DocumentEditor_MoreUsers" xml:space="preserve">
+    <value>더 많은 사용자</value>
+  </data>
+  <data name="DocumentEditor_AddUsers" xml:space="preserve">
+    <value>사용자 추가</value>
+  </data>
+  <data name="DocumentEditor_EnforcingProtection" xml:space="preserve">
+    <value>예, 보호 시작</value>
+  </data>
+  <data name="DocumentEditor_StartEnforcingProtection" xml:space="preserve">
+    <value>보호 시작</value>
+  </data>
+  <data name="DocumentEditor_EnterUser" xml:space="preserve">
+    <value>사용자 입력</value>
+  </data>
+  <data name="DocumentEditor_Users" xml:space="preserve">
+    <value>사용자</value>
+  </data>
+  <data name="DocumentEditor_EnterNewPassword" xml:space="preserve">
+    <value>새 비밀번호를 입력하십시오</value>
+  </data>
+  <data name="DocumentEditor_ReenterNewPasswordToConfirm" xml:space="preserve">
+    <value>확인을 위해 새 비밀번호를 다시 입력하십시오</value>
+  </data>
+  <data name="DocumentEditor_YourPermissions" xml:space="preserve">
+    <value>당신의 권한</value>
+  </data>
+  <data name="DocumentEditor_ProtectedDocument" xml:space="preserve">
+    <value>이 문서는 의도하지 않은 편집으로부터 보호됩니다.</value>
+  </data>
+  <data name="DocumentEditor_YouMayFormatTextOnlyWithCertainStyles" xml:space="preserve">
+    <value>특정 스타일로만 텍스트 서식을 지정할 수 있습니다.</value>
+  </data>
+  <data name="DocumentEditor_StopProtection" xml:space="preserve">
+    <value>보호 중지</value>
+  </data>
+  <data name="DocumentEditor_Password" xml:space="preserve">
+    <value>암호</value>
+  </data>
+  <data name="DocumentEditor_SpellingEditor" xml:space="preserve">
+    <value>맞춤법 편집기</value>
+  </data>
+  <data name="DocumentEditor_Spelling" xml:space="preserve">
+    <value>철자</value>
+  </data>
+  <data name="DocumentEditor_SpellCheck" xml:space="preserve">
+    <value>맞춤법 검사</value>
+  </data>
+  <data name="DocumentEditor_UnderlineErrors" xml:space="preserve">
+    <value>밑줄 오류</value>
+  </data>
+  <data name="DocumentEditor_Ignore" xml:space="preserve">
+    <value>무시</value>
+  </data>
+  <data name="DocumentEditor_IgnoreAll" xml:space="preserve">
+    <value>전부다 무시해라</value>
+  </data>
+  <data name="DocumentEditor_AddToDictionary" xml:space="preserve">
+    <value>사전에 추가</value>
+  </data>
+  <data name="DocumentEditor_Change" xml:space="preserve">
+    <value>변화</value>
+  </data>
+  <data name="DocumentEditor_ChangeAll" xml:space="preserve">
+    <value>모두 변경</value>
+  </data>
+  <data name="DocumentEditor_Suggestions" xml:space="preserve">
+    <value>제안</value>
+  </data>
+  <data name="DocumentEditor_ThePasswordIsIncorrect" xml:space="preserve">
+    <value>비밀번호가 잘못되었습니다</value>
+  </data>
+  <data name="DocumentEditor_ErrorInEstablishingConnectionWithWebServer" xml:space="preserve">
+    <value>웹 서버와의 연결 설정 중 오류</value>
+  </data>
+  <data name="DocumentEditor_HighlightTheRegionsICanEdit" xml:space="preserve">
+    <value>편집 할 수있는 영역을 강조 표시합니다</value>
+  </data>
+  <data name="DocumentEditor_ShowAllRegionsICanEdit" xml:space="preserve">
+    <value>편집 할 수있는 모든 지역 표시</value>
+  </data>
+  <data name="DocumentEditor_FindNextRegionICanEdit" xml:space="preserve">
+    <value>편집 할 수있는 다음 지역 찾기</value>
+  </data>
+  <data name="DocumentEditor_KeepSourceFormatting" xml:space="preserve">
+    <value>소스 형식 유지</value>
+  </data>
+  <data name="DocumentEditor_MatchDestinationFormatting" xml:space="preserve">
+    <value>대상 형식 일치</value>
+  </data>
+  <data name="DocumentEditor_TextOnly" xml:space="preserve">
+    <value>텍스트 만</value>
+  </data>
+  <data name="DocumentEditor_Comments" xml:space="preserve">
+    <value>코멘트</value>
+  </data>
+  <data name="DocumentEditor_TypeYourComment" xml:space="preserve">
+    <value>귀하의 의견을 입력하십시오</value>
+  </data>
+  <data name="DocumentEditor_Post" xml:space="preserve">
+    <value>우편</value>
+  </data>
+  <data name="DocumentEditor_Reply" xml:space="preserve">
+    <value>댓글</value>
+  </data>
+  <data name="DocumentEditor_NewComment" xml:space="preserve">
+    <value>새로운 코멘트</value>
+  </data>
+  <data name="DocumentEditor_Edit" xml:space="preserve">
+    <value>편집하다</value>
+  </data>
+  <data name="DocumentEditor_Resolve" xml:space="preserve">
+    <value>결의</value>
+  </data>
+  <data name="DocumentEditor_Reopen" xml:space="preserve">
+    <value>다시 열다</value>
+  </data>
+  <data name="DocumentEditor_NoCommentsInThisDocument" xml:space="preserve">
+    <value>이 문서에 의견이 없습니다</value>
+  </data>
+  <data name="DocumentEditor_More" xml:space="preserve">
+    <value>더</value>
+  </data>
+  <data name="DocumentEditor_TypeYourCommentHere" xml:space="preserve">
+    <value>여기에 의견을 입력하십시오</value>
+  </data>
+  <data name="DocumentEditor_NextComment" xml:space="preserve">
+    <value>다음 댓글</value>
+  </data>
+  <data name="DocumentEditor_PreviousComment" xml:space="preserve">
+    <value>이전 의견</value>
+  </data>
+  <data name="DocumentEditor_UnPostedComments" xml:space="preserve">
+    <value>게시되지 않은 댓글</value>
+  </data>
+  <data name="DocumentEditor_DiscardComment" xml:space="preserve">
+    <value>댓글이 게시되지 않았습니다. 계속하면 해당 댓글이 삭제됩니다.</value>
+  </data>
+  <data name="DocumentEditor_NoHeadings" xml:space="preserve">
+    <value>제목이 없습니다!</value>
+  </data>
+  <data name="DocumentEditor_AddHeadings" xml:space="preserve">
+    <value>이 문서에는 제목이 없습니다. 제목을 추가하고 다시 시도하십시오.</value>
+  </data>
+  <data name="DocumentEditor_MoreOptions" xml:space="preserve">
+    <value>추가 옵션</value>
+  </data>
+  <data name="DocumentEditor_ClickToSeeThisComment" xml:space="preserve">
+    <value>이 의견을 보려면 클릭하십시오</value>
+  </data>
+  <data name="DocumentEditor_DropDownFormField" xml:space="preserve">
+    <value>드롭 다운 양식 필드</value>
+  </data>
+  <data name="DocumentEditor_DropDownItems" xml:space="preserve">
+    <value>드롭 다운 항목</value>
+  </data>
+  <data name="DocumentEditor_ItemsInDropDownList" xml:space="preserve">
+    <value>드롭 다운 목록의 항목</value>
+  </data>
+  <data name="DocumentEditor_ADDButton" xml:space="preserve">
+    <value>더하다</value>
+  </data>
+  <data name="DocumentEditor_REMOVE" xml:space="preserve">
+    <value>없애다</value>
+  </data>
+  <data name="DocumentEditor_FieldSettings" xml:space="preserve">
+    <value>필드 설정</value>
+  </data>
+  <data name="DocumentEditor_Tooltip" xml:space="preserve">
+    <value>툴팁</value>
+  </data>
+  <data name="DocumentEditor_DropDownEnabled" xml:space="preserve">
+    <value>드롭 다운 사용</value>
+  </data>
+  <data name="DocumentEditor_CheckBoxFormField" xml:space="preserve">
+    <value>확인란 양식 필드</value>
+  </data>
+  <data name="DocumentEditor_CheckBoxSize" xml:space="preserve">
+    <value>확인란 크기</value>
+  </data>
+  <data name="DocumentEditor_Auto" xml:space="preserve">
+    <value>자동</value>
+  </data>
+  <data name="DocumentEditor_DefaultValue" xml:space="preserve">
+    <value>기본값</value>
+  </data>
+  <data name="DocumentEditor_NotChecked" xml:space="preserve">
+    <value>확인되지 않은</value>
+  </data>
+  <data name="DocumentEditor_Checked" xml:space="preserve">
+    <value>확인</value>
+  </data>
+  <data name="DocumentEditor_CheckBoxEnabled" xml:space="preserve">
+    <value>확인란 활성화</value>
+  </data>
+  <data name="DocumentEditor_TextFormField" xml:space="preserve">
+    <value>텍스트 양식 필드</value>
+  </data>
+  <data name="DocumentEditor_Type" xml:space="preserve">
+    <value>유형</value>
+  </data>
+  <data name="DocumentEditor_DefaultText" xml:space="preserve">
+    <value>기본 텍스트</value>
+  </data>
+  <data name="DocumentEditor_MaximumLength" xml:space="preserve">
+    <value>최대 길이</value>
+  </data>
+  <data name="DocumentEditor_TextFormat" xml:space="preserve">
+    <value>텍스트 형식</value>
+  </data>
+  <data name="DocumentEditor_FillInEnabled" xml:space="preserve">
+    <value>채우기 사용</value>
+  </data>
+  <data name="DocumentEditor_DefaultNumber" xml:space="preserve">
+    <value>기본 번호</value>
+  </data>
+  <data name="DocumentEditor_DefaultDate" xml:space="preserve">
+    <value>기본 날짜</value>
+  </data>
+  <data name="DocumentEditor_DateFormat" xml:space="preserve">
+    <value>날짜 형식</value>
+  </data>
+  <data name="DocumentEditor_MergeTrack" xml:space="preserve">
+    <value>이 조치는 변경으로 표시되지 않습니다. 계속 하시겠습니까?</value>
+  </data>
+  <data name="DocumentEditor_UnTrack" xml:space="preserve">
+    <value>추적 할 수 없습니다</value>
+  </data>
+  <data name="DocumentEditor_Accept" xml:space="preserve">
+    <value>동의하기</value>
+  </data>
+  <data name="DocumentEditor_Reject" xml:space="preserve">
+    <value>받지 않다</value>
+  </data>
+  <data name="DocumentEditor_PreviousChanges" xml:space="preserve">
+    <value>이전 변경</value>
+  </data>
+  <data name="DocumentEditor_NextChanges" xml:space="preserve">
+    <value>다음 변경</value>
+  </data>
+  <data name="DocumentEditor_Inserted" xml:space="preserve">
+    <value>삽입</value>
+  </data>
+  <data name="DocumentEditor_Deleted" xml:space="preserve">
+    <value>삭제</value>
+  </data>
+  <data name="DocumentEditor_Changes" xml:space="preserve">
+    <value>변경</value>
+  </data>
+  <data name="DocumentEditor_AcceptAll" xml:space="preserve">
+    <value>모든것을 받아 들인다</value>
+  </data>
+  <data name="DocumentEditor_RejectAll" xml:space="preserve">
+    <value>모두 거부</value>
+  </data>
+  <data name="DocumentEditor_NoChanges" xml:space="preserve">
+    <value>변경 사항 없음</value>
+  </data>
+  <data name="DocumentEditor_AcceptChanges" xml:space="preserve">
+    <value>변경 수락</value>
+  </data>
+  <data name="DocumentEditor_RejectChanges" xml:space="preserve">
+    <value>변경 사항 거부</value>
+  </data>
+  <data name="DocumentEditor_User" xml:space="preserve">
+    <value>사용자</value>
+  </data>
+  <data name="DocumentEditor_View" xml:space="preserve">
+    <value>전망</value>
+  </data>
+  <data name="DocumentEditor_UnprotectDocument" xml:space="preserve">
+    <value>문서 보호 해제</value>
+  </data>
+  <data name="DocumentEditor_FormFieldsOnly" xml:space="preserve">
+    <value>이 지역에서만 양식을 작성할 수 있습니다.</value>
+  </data>
+  <data name="DocumentEditor_IndentsAndSpacing" xml:space="preserve">
+    <value>과부/고아 통제</value>
+  </data>
+  <data name="DocumentEditor_LineAndBreakPage" xml:space="preserve">
+    <value>들여쓰기 및 간격</value>
+  </data>
+  <data name="DocumentEditor_Pagination" xml:space="preserve">
+    <value>줄 바꿈 및 페이지 나누기</value>
+  </data>
+  <data name="DocumentEditor_WidowControl" xml:space="preserve">
+    <value>줄을 함께 유지</value>
+  </data>
+  <data name="DocumentEditor_KeepWithNext" xml:space="preserve">
+    <value>한 번 무시</value>
+  </data>
+  <data name="DocumentEditor_KeepLinesTogether" xml:space="preserve">
+    <value>다음으로 유지</value>
+  </data>
+  <data name="DocumentEditor_ScreenTip" xml:space="preserve">
+       <value>스크린팁 텍스트</value>
+</data>
+<data name="DocumentEditor_KeepSource" xml:space="preserve">
+       <value>소스 형식 유지</value>
+</data>
+<data name="DocumentEditor_DestinationFormat" xml:space="preserve">
+       <value>대상 서식 일치</value>
+</data>
+<data name="DocumentEditor_CommentsOnly" xml:space="preserve">
+       <value>이 영역에만 주석을 삽입할 수 있습니다.</value>
+</data>
+<data name="DocumentEditor_RowRange" xml:space="preserve">
+       <value>행 수는 1에서 32767 사이여야 합니다.</value>
+</data>
+<data name="DocumentEditor_ColumnRange" xml:space="preserve">
+       <value>열 수는 1에서 63 사이여야 합니다.</value>
+</data>
+<data name="DocumentEditor_Information" xml:space="preserve">
+       <value>정보</value>
+</data>
+<data name="DocumentEditor_Dot" xml:space="preserve">
+       <value>점</value>
+</data>
+<data name="DocumentEditor_DashSmallGap" xml:space="preserve">
+       <value>대시 스몰 갭</value>
+</data>
+<data name="DocumentEditor_DashDot" xml:space="preserve">
+       <value>대시 도트</value>
+</data>
+<data name="DocumentEditor_ThinThickSmallGap" xml:space="preserve">
+       <value>얇은 두꺼운 작은 간격</value>
+</data>
+<data name="DocumentEditor_ThickThinSmallGap" xml:space="preserve">
+       <value>두꺼운 얇은 작은 간격</value>
+</data>
+<data name="DocumentEditor_ThickThinMediumGap" xml:space="preserve">
+       <value>두꺼운 얇은 중간 간격</value>
+</data>
+<data name="DocumentEditor_ThickThinLargeGap" xml:space="preserve">
+       <value>두꺼운 얇은 큰 간격</value>
+</data>
+<data name="DocumentEditor_SingleWavy" xml:space="preserve">
+       <value>싱글 웨이브</value>
+</data>
+<data name="DocumentEditor_DoubleWavy" xml:space="preserve">
+       <value>더블 웨이브</value>
+</data>
+<data name="DocumentEditor_Inset" xml:space="preserve">
+       <value>삽입</value>
+</data>
+<data name="DocumentEditor_DashLargeGap" xml:space="preserve">
+       <value>대시 큰 갭</value>
+</data>
+<data name="DocumentEditor_DashDotDot" xml:space="preserve">
+       <value>대시 도트 도트</value>
+</data>
+<data name="DocumentEditor_Triple" xml:space="preserve">
+       <value>삼루타</value>
+</data>
+<data name="DocumentEditor_ThinThickThinSmallGap" xml:space="preserve">
+       <value>얇은 두꺼운 얇은 작은 간격</value>
+</data>
+<data name="DocumentEditor_ThinThickThinMediumGap" xml:space="preserve">
+       <value>얇은 두꺼운 얇은 중간 간격</value>
+</data>
+<data name="DocumentEditor_ThinThickThinLargeGap" xml:space="preserve">
+       <value>얇은 두꺼운 얇은 큰 간격</value>
+</data>
+<data name="DocumentEditor_DashDotStroked" xml:space="preserve">
+       <value>대시 도트 스트로크</value>
+</data>
+<data name="DocumentEditor_Engrave3D" xml:space="preserve">
+       <value>새기다3D</value>
+</data>
+<data name="DocumentEditor_Thick" xml:space="preserve">
+       <value>두꺼운</value>
+</data>
+<data name="DocumentEditor_Outset" xml:space="preserve">
+       <value>시초</value>
+</data>
+<data name="DocumentEditor_Emboss3D" xml:space="preserve">
+       <value>엠보스3D</value>
+</data>
+<data name="DocumentEditor_ThinThickLargeGap" xml:space="preserve">
+       <value>얇은 두꺼운 큰 간격</value>
+</data>
+<data name="DocumentEditor_ThinThickMediumGap" xml:space="preserve">
+       <value>얇은 두꺼운 중간 간격</value>
+</data>
+<data name="DocumentEditor_RegularText" xml:space="preserve">
+       <value>일반 텍스트</value>
+</data>
+<data name="DocumentEditor_Date" xml:space="preserve">
+       <value>날짜</value>
+</data>
+<data name="DocumentEditor_Uppercase" xml:space="preserve">
+       <value>대문자</value>
+</data>
+<data name="DocumentEditor_Lowercase" xml:space="preserve">
+       <value>소문자</value>
+</data>
+<data name="DocumentEditor_FirstCapital" xml:space="preserve">
+       <value>퍼스트캐피탈</value>
+</data>
+<data name="DocumentEditor_Titlecase" xml:space="preserve">
+       <value>제목 케이스</value>
+</data>
+<data name="DocumentEditor_MoveFrom" xml:space="preserve">
+       <value>에서왔다</value>
+</data>
+<data name="DocumentEditor_MoveTo" xml:space="preserve">
+       <value>이동</value>
+</data>
+<data name="DocumentEditor_Px" xml:space="preserve">
+       <value>픽셀</value>
+</data>
+<data name="DocumentEditor_ReadOnlyProtection" xml:space="preserve">
+       <value>이 영역에서 편집할 수 있습니다.</value>
+</data>
+<data name="DocumentEditorContainer_RegularTooltip" xml:space="preserve">
+       <value>정기적 인</value>
+</data>
+<data name="DocumentEditorContainer_BoldItalicTooltip" xml:space="preserve">
+       <value>굵은 기울임꼴</value>
+</data>
+  <data name="DocumentEditorContainer_New" xml:space="preserve">
+    <value>새로운</value>
+  </data>
+  <data name="DocumentEditorContainer_Open" xml:space="preserve">
+    <value>열다</value>
+  </data>
+  <data name="DocumentEditorContainer_Undo" xml:space="preserve">
+    <value>실행 취소</value>
+  </data>
+  <data name="DocumentEditorContainer_Redo" xml:space="preserve">
+    <value>다시 하다</value>
+  </data>
+  <data name="DocumentEditorContainer_Image" xml:space="preserve">
+    <value>영상</value>
+  </data>
+  <data name="DocumentEditorContainer_Table" xml:space="preserve">
+    <value>표</value>
+  </data>
+  <data name="DocumentEditorContainer_Link" xml:space="preserve">
+    <value>링크</value>
+  </data>
+  <data name="DocumentEditorContainer_Bookmark" xml:space="preserve">
+    <value>서표</value>
+  </data>
+  <data name="DocumentEditorContainer_TableOfContents" xml:space="preserve">
+    <value>목차</value>
+  </data>
+  <data name="DocumentEditorContainer_HEADING1" xml:space="preserve">
+    <value>표제----1</value>
+  </data>
+  <data name="DocumentEditorContainer_HEADING2" xml:space="preserve">
+    <value>제목----2</value>
+  </data>
+  <data name="DocumentEditorContainer_HEADING3" xml:space="preserve">
+    <value>제목----3</value>
+  </data>
+  <data name="DocumentEditorContainer_Header" xml:space="preserve">
+    <value>머리글</value>
+  </data>
+  <data name="DocumentEditorContainer_Footer" xml:space="preserve">
+    <value>보행인</value>
+  </data>
+  <data name="DocumentEditorContainer_PageSetup" xml:space="preserve">
+    <value>페이지 설정</value>
+  </data>
+  <data name="DocumentEditorContainer_PageNumber" xml:space="preserve">
+    <value>페이지 번호</value>
+  </data>
+  <data name="DocumentEditorContainer_Break" xml:space="preserve">
+    <value>단절</value>
+  </data>
+  <data name="DocumentEditorContainer_Find" xml:space="preserve">
+    <value>찾기</value>
+  </data>
+  <data name="DocumentEditorContainer_LocalClipboard" xml:space="preserve">
+    <value>로컬 클립 보드</value>
+  </data>
+  <data name="DocumentEditorContainer_RestrictEditing" xml:space="preserve">
+    <value>편집 제한</value>
+  </data>
+  <data name="DocumentEditorContainer_UploadFromComputer" xml:space="preserve">
+    <value>컴퓨터에서 업로드</value>
+  </data>
+  <data name="DocumentEditorContainer_ByURL" xml:space="preserve">
+    <value>URL로</value>
+  </data>
+  <data name="DocumentEditorContainer_PageBreak" xml:space="preserve">
+    <value>페이지 나누기</value>
+  </data>
+  <data name="DocumentEditorContainer_SectionBreak" xml:space="preserve">
+    <value>섹션 나누기</value>
+  </data>
+  <data name="DocumentEditorContainer_HeaderAndFooter" xml:space="preserve">
+    <value>머리글 및 바닥 글</value>
+  </data>
+  <data name="DocumentEditorContainer_Options" xml:space="preserve">
+    <value>옵션</value>
+  </data>
+  <data name="DocumentEditorContainer_Levels" xml:space="preserve">
+    <value>레벨</value>
+  </data>
+  <data name="DocumentEditorContainer_DifferentFirstPage" xml:space="preserve">
+    <value>다른 첫 페이지</value>
+  </data>
+  <data name="DocumentEditorContainer_DifferentHeaderAndFooterForOddAndEvenPages" xml:space="preserve">
+    <value>홀수 및 짝수 페이지를위한 다른 머리글 및 바닥 글.</value>
+  </data>
+  <data name="DocumentEditorContainer_DifferentOddAndEvenPages" xml:space="preserve">
+    <value>다른 홀수 및 짝수 페이지</value>
+  </data>
+  <data name="DocumentEditorContainer_DifferentHeaderAndFooterForFirstPage" xml:space="preserve">
+    <value>첫 페이지에 대한 다른 머리글 및 바닥 글.</value>
+  </data>
+  <data name="DocumentEditorContainer_Position" xml:space="preserve">
+    <value>위치</value>
+  </data>
+  <data name="DocumentEditorContainer_HeaderFromTop" xml:space="preserve">
+    <value>상단에서 헤더</value>
+  </data>
+  <data name="DocumentEditorContainer_FooterFromBottom" xml:space="preserve">
+    <value>바닥 글에서 바닥 글</value>
+  </data>
+  <data name="DocumentEditorContainer_DistanceFromTopOfThePageToTopOfTheHeader" xml:space="preserve">
+    <value>페이지 상단에서 헤더 상단까지의 거리입니다.</value>
+  </data>
+  <data name="DocumentEditorContainer_DistanceFromBottomOfThePageToBottomOfTheFooter" xml:space="preserve">
+    <value>페이지 하단에서 바닥 글 하단까지의 거리입니다.</value>
+  </data>
+  <data name="DocumentEditorContainer_AspectRatio" xml:space="preserve">
+    <value>종횡비</value>
+  </data>
+  <data name="DocumentEditorContainer_W" xml:space="preserve">
+    <value>여</value>
+  </data>
+  <data name="DocumentEditorContainer_H" xml:space="preserve">
+    <value>H</value>
+  </data>
+  <data name="DocumentEditorContainer_Width" xml:space="preserve">
+    <value>폭</value>
+  </data>
+  <data name="DocumentEditorContainer_Height" xml:space="preserve">
+    <value>신장</value>
+  </data>
+  <data name="DocumentEditorContainer_Text" xml:space="preserve">
+    <value>본문</value>
+  </data>
+  <data name="DocumentEditorContainer_Paragraph" xml:space="preserve">
+    <value>절</value>
+  </data>
+  <data name="DocumentEditorContainer_Fill" xml:space="preserve">
+    <value>가득 따르다</value>
+  </data>
+  <data name="DocumentEditorContainer_FillColor" xml:space="preserve">
+    <value>채우기 색상</value>
+  </data>
+  <data name="DocumentEditorContainer_BorderStyle" xml:space="preserve">
+    <value>테두리 스타일</value>
+  </data>
+  <data name="DocumentEditorContainer_OutsideBorders" xml:space="preserve">
+    <value>외부 테두리</value>
+  </data>
+  <data name="DocumentEditorContainer_AllBorders" xml:space="preserve">
+    <value>모든 테두리</value>
+  </data>
+  <data name="DocumentEditorContainer_InsideBorders" xml:space="preserve">
+    <value>내부 테두리</value>
+  </data>
+  <data name="DocumentEditorContainer_LeftBorder" xml:space="preserve">
+    <value>왼쪽 테두리</value>
+  </data>
+  <data name="DocumentEditorContainer_InsideVerticalBorder" xml:space="preserve">
+    <value>내부 세로 테두리</value>
+  </data>
+  <data name="DocumentEditorContainer_RightBorder" xml:space="preserve">
+    <value>오른쪽 테두리</value>
+  </data>
+  <data name="DocumentEditorContainer_TopBorder" xml:space="preserve">
+    <value>상단 테두리</value>
+  </data>
+  <data name="DocumentEditorContainer_InsideHorizontalBorder" xml:space="preserve">
+    <value>내부 가로 테두리</value>
+  </data>
+  <data name="DocumentEditorContainer_BottomBorder" xml:space="preserve">
+    <value>아래쪽 테두리</value>
+  </data>
+  <data name="DocumentEditorContainer_BorderColor" xml:space="preserve">
+    <value>테두리 색</value>
+  </data>
+  <data name="DocumentEditorContainer_BorderWidth" xml:space="preserve">
+    <value>테두리 너비</value>
+  </data>
+  <data name="DocumentEditorContainer_Cell" xml:space="preserve">
+    <value>세포</value>
+  </data>
+  <data name="DocumentEditorContainer_MergeCells" xml:space="preserve">
+    <value>셀 병합</value>
+  </data>
+  <data name="DocumentEditorContainer_InsertOrDelete" xml:space="preserve">
+    <value>삽입 / 삭제</value>
+  </data>
+  <data name="DocumentEditorContainer_InsertColumnsToTheLeft" xml:space="preserve">
+    <value>왼쪽에 열 삽입</value>
+  </data>
+  <data name="DocumentEditorContainer_InsertColumnsToTheRight" xml:space="preserve">
+    <value>오른쪽에 열 삽입</value>
+  </data>
+  <data name="DocumentEditorContainer_InsertRowsAbove" xml:space="preserve">
+    <value>위의 행 삽입</value>
+  </data>
+  <data name="DocumentEditorContainer_InsertRowsBelow" xml:space="preserve">
+    <value>아래에 행 삽입</value>
+  </data>
+  <data name="DocumentEditorContainer_DeleteRows" xml:space="preserve">
+    <value>행 삭제</value>
+  </data>
+  <data name="DocumentEditorContainer_DeleteColumns" xml:space="preserve">
+    <value>열 삭제</value>
+  </data>
+  <data name="DocumentEditorContainer_CellMargin" xml:space="preserve">
+    <value>세포 여백</value>
+  </data>
+  <data name="DocumentEditorContainer_Top" xml:space="preserve">
+    <value>상단</value>
+  </data>
+  <data name="DocumentEditorContainer_Bottom" xml:space="preserve">
+    <value>바닥</value>
+  </data>
+  <data name="DocumentEditorContainer_Left" xml:space="preserve">
+    <value>왼쪽</value>
+  </data>
+  <data name="DocumentEditorContainer_Right" xml:space="preserve">
+    <value>권리</value>
+  </data>
+  <data name="DocumentEditorContainer_AlignText" xml:space="preserve">
+    <value>텍스트 정렬</value>
+  </data>
+  <data name="DocumentEditorContainer_Aligntop" xml:space="preserve">
+    <value>상단 정렬</value>
+  </data>
+  <data name="DocumentEditorContainer_AlignBottom" xml:space="preserve">
+    <value>하단 정렬</value>
+  </data>
+  <data name="DocumentEditorContainer_AlignCenter" xml:space="preserve">
+    <value>가운데 정렬</value>
+  </data>
+  <data name="DocumentEditorContainer_NumberOfHeadingOrOutlineLevelsToBeShownInTableOfContents" xml:space="preserve">
+    <value>목차에 표시 할 제목 또는 개요 수준의 수입니다.</value>
+  </data>
+  <data name="DocumentEditorContainer_ShowPageNumbers" xml:space="preserve">
+    <value>페이지 번호 표시</value>
+  </data>
+  <data name="DocumentEditorContainer_ShowPageNumbersInTableOfContents" xml:space="preserve">
+    <value>목차에 페이지 번호를 표시합니다.</value>
+  </data>
+  <data name="DocumentEditorContainer_RightAlignPageNumbers" xml:space="preserve">
+    <value>페이지 번호를 오른쪽 정렬.</value>
+  </data>
+  <data name="DocumentEditorContainer_RightAlignPageNumbersInTableOfContents" xml:space="preserve">
+    <value>목차에서 페이지 번호를 오른쪽 정렬하십시오.</value>
+  </data>
+  <data name="DocumentEditorContainer_UseHyperlinks" xml:space="preserve">
+    <value>하이퍼 링크 사용</value>
+  </data>
+  <data name="DocumentEditorContainer_UseHyperlinksInsteadOfPageNumbers" xml:space="preserve">
+    <value>페이지 번호 대신 하이퍼 링크를 사용하십시오.</value>
+  </data>
+  <data name="DocumentEditorContainer_Font" xml:space="preserve">
+    <value>폰트</value>
+  </data>
+  <data name="DocumentEditorContainer_FontSize" xml:space="preserve">
+    <value>폰트 크기</value>
+  </data>
+  <data name="DocumentEditorContainer_FontColor" xml:space="preserve">
+    <value>글자 색</value>
+  </data>
+  <data name="DocumentEditorContainer_TextHighlightColor" xml:space="preserve">
+    <value>텍스트 하이라이트 색상</value>
+  </data>
+  <data name="DocumentEditorContainer_ClearAllFormatting" xml:space="preserve">
+    <value>모든 서식 지우기</value>
+  </data>
+  <data name="DocumentEditorContainer_BoldTooltip" xml:space="preserve">
+    <value>굵게 (Ctrl + B)</value>
+  </data>
+  <data name="DocumentEditorContainer_ItalicTooltip" xml:space="preserve">
+    <value>기울임 꼴 (Ctrl + I)</value>
+  </data>
+  <data name="DocumentEditorContainer_UnderlineTooltip" xml:space="preserve">
+    <value>밑줄 (Ctrl + U)</value>
+  </data>
+  <data name="DocumentEditorContainer_Strikethrough" xml:space="preserve">
+    <value>취소 선</value>
+  </data>
+  <data name="DocumentEditorContainer_SuperscriptTooltip" xml:space="preserve">
+    <value>위첨자 (Ctrl + Shift ++)</value>
+  </data>
+  <data name="DocumentEditorContainer_SubscriptTooltip" xml:space="preserve">
+    <value>아래 첨자 (Ctrl + =)</value>
+  </data>
+  <data name="DocumentEditorContainer_AlignLeftTooltip" xml:space="preserve">
+    <value>왼쪽 맞춤 (Ctrl + L)</value>
+  </data>
+  <data name="DocumentEditorContainer_CenterTooltip" xml:space="preserve">
+    <value>가운데 (Ctrl + E)</value>
+  </data>
+  <data name="DocumentEditorContainer_AlignRightTooltip" xml:space="preserve">
+    <value>오른쪽 맞춤 (Ctrl + R)</value>
+  </data>
+  <data name="DocumentEditorContainer_JustifyTooltip" xml:space="preserve">
+    <value>정당화 (Ctrl + J)</value>
+  </data>
+  <data name="DocumentEditorContainer_DecreaseIndent" xml:space="preserve">
+    <value>들여 쓰기 감소</value>
+  </data>
+  <data name="DocumentEditorContainer_IncreaseIndent" xml:space="preserve">
+    <value>들여 쓰기</value>
+  </data>
+  <data name="DocumentEditorContainer_LineSpacing" xml:space="preserve">
+    <value>줄 간격</value>
+  </data>
+  <data name="DocumentEditorContainer_Bullets" xml:space="preserve">
+    <value>글 머리 기호</value>
+  </data>
+  <data name="DocumentEditorContainer_Numbering" xml:space="preserve">
+    <value>넘버링</value>
+  </data>
+  <data name="DocumentEditorContainer_Styles" xml:space="preserve">
+    <value>스타일</value>
+  </data>
+  <data name="DocumentEditorContainer_ManageStyles" xml:space="preserve">
+    <value>스타일 관리</value>
+  </data>
+  <data name="DocumentEditorContainer_Page" xml:space="preserve">
+    <value>페이지</value>
+  </data>
+  <data name="DocumentEditorContainer_Of" xml:space="preserve">
+    <value>의</value>
+  </data>
+  <data name="DocumentEditorContainer_FitOnePage" xml:space="preserve">
+    <value>한 페이지에 적합</value>
+  </data>
+  <data name="DocumentEditorContainer_SpellCheck" xml:space="preserve">
+    <value>맞춤법 검사</value>
+  </data>
+  <data name="DocumentEditorContainer_UnderlineErrors" xml:space="preserve">
+    <value>밑줄 오류</value>
+  </data>
+  <data name="DocumentEditorContainer_FitPageWidth" xml:space="preserve">
+    <value>페이지 너비 맞추기</value>
+  </data>
+  <data name="DocumentEditorContainer_Update" xml:space="preserve">
+    <value>최신 정보</value>
+  </data>
+  <data name="DocumentEditorContainer_Cancel" xml:space="preserve">
+    <value>취소</value>
+  </data>
+  <data name="DocumentEditorContainer_Insert" xml:space="preserve">
+    <value>끼워 넣다</value>
+  </data>
+  <data name="DocumentEditorContainer_NoBorder" xml:space="preserve">
+    <value>국경 없음</value>
+  </data>
+  <data name="DocumentEditorContainer_CreateANewDocument" xml:space="preserve">
+    <value>새 문서를 작성하십시오.</value>
+  </data>
+  <data name="DocumentEditorContainer_OpenADocument" xml:space="preserve">
+    <value>문서를여십시오.</value>
+  </data>
+  <data name="DocumentEditorContainer_UndoTooltip" xml:space="preserve">
+    <value>마지막 작업을 취소합니다 (Ctrl + Z).</value>
+  </data>
+  <data name="DocumentEditorContainer_RedoTooltip" xml:space="preserve">
+    <value>마지막 작업을 다시 실행하십시오 (Ctrl + Y).</value>
+  </data>
+  <data name="DocumentEditorContainer_InsertInlinePictureFromAFile" xml:space="preserve">
+    <value>파일에서 인라인 그림을 삽입하십시오.</value>
+  </data>
+  <data name="DocumentEditorContainer_InsertATableIntoTheDocument" xml:space="preserve">
+    <value>문서에 테이블 삽입.</value>
+  </data>
+  <data name="DocumentEditorContainer_CreateHyperlink" xml:space="preserve">
+    <value>웹 페이지 및 파일에 빠르게 액세스 할 수 있도록 문서에 링크를 만듭니다 (Ctrl + K).</value>
+  </data>
+  <data name="DocumentEditorContainer_InsertABookmarkInASpecificPlaceInThisDocument" xml:space="preserve">
+    <value>이 문서의 특정 위치에 책갈피를 삽입하십시오.</value>
+  </data>
+  <data name="DocumentEditorContainer_ProvideAnOverviewOfYourDocumentByAddingATableOfContents" xml:space="preserve">
+    <value>목차를 추가하여 문서의 개요를 제공하십시오.</value>
+  </data>
+  <data name="DocumentEditorContainer_AddOrEditTheHeader" xml:space="preserve">
+    <value>헤더를 추가하거나 편집하십시오.</value>
+  </data>
+  <data name="DocumentEditorContainer_AddOrEditTheFooter" xml:space="preserve">
+    <value>바닥 글을 추가하거나 편집하십시오.</value>
+  </data>
+  <data name="DocumentEditorContainer_OpenThePageSetupDialog" xml:space="preserve">
+    <value>페이지 설정 대화 상자를 엽니 다.</value>
+  </data>
+  <data name="DocumentEditorContainer_AddPageNumbers" xml:space="preserve">
+    <value>페이지 번호를 추가하십시오.</value>
+  </data>
+  <data name="DocumentEditorContainer_FindText" xml:space="preserve">
+    <value>문서에서 텍스트를 찾으십시오 (Ctrl + F).</value>
+  </data>
+  <data name="DocumentEditorContainer_CurrentPageNumber" xml:space="preserve">
+    <value>문서의 현재 페이지 번호 특정 페이지를 탐색하려면 클릭하거나 탭하십시오.</value>
+  </data>
+  <data name="DocumentEditorContainer_ReadOnly" xml:space="preserve">
+    <value>읽기 전용</value>
+  </data>
+  <data name="DocumentEditorContainer_Protections" xml:space="preserve">
+    <value>보호</value>
+  </data>
+  <data name="DocumentEditorContainer_ErrorInEstablishingConnectionWithWebServer" xml:space="preserve">
+    <value>웹 서버와의 연결 설정 중 오류</value>
+  </data>
+  <data name="DocumentEditorContainer_Single" xml:space="preserve">
+    <value>단일</value>
+  </data>
+  <data name="DocumentEditorContainer_Double" xml:space="preserve">
+    <value>더블</value>
+  </data>
+  <data name="DocumentEditorContainer_NewComment" xml:space="preserve">
+    <value>새로운 의견</value>
+  </data>
+  <data name="DocumentEditorContainer_Comments" xml:space="preserve">
+    <value>코멘트</value>
+  </data>
+  <data name="DocumentEditorContainer_PrintLayout" xml:space="preserve">
+    <value>인쇄 레이아웃</value>
+  </data>
+  <data name="DocumentEditorContainer_WebLayout" xml:space="preserve">
+    <value>웹 레이아웃</value>
+  </data>
+  <data name="DocumentEditorContainer_ToggleBetweenTheInternalClipboardAndSystemClipboard" xml:space="preserve">
+    <value>내부 클립 보드와 시스템 클립 보드간에 전환합니다. &#xD; 브라우저 보안 정책으로 인해 스크립트를 통한 시스템 클립 보드 액세스가 거부되었습니다. 대신 &#xD; 1. 내부 클립 보드를 사용하여 구성 요소 내에서 잘라 내기, 복사 및 붙여 넣기를 수행 할 수 있습니다. &#xD; 2. 키보드 단축키 (Ctrl + X, Ctrl + C 및 Ctrl + V)를 사용하여 잘라낼 수 있습니다. , 시스템 클립 보드로 복사하여 붙여 넣기.</value>
+  </data>
+  <data name="DocumentEditorContainer_TextForm" xml:space="preserve">
+    <value>텍스트 양식</value>
+  </data>
+  <data name="DocumentEditorContainer_CheckBox" xml:space="preserve">
+    <value>확인란</value>
+  </data>
+  <data name="DocumentEditorContainer_DropDown" xml:space="preserve">
+    <value>쓰러지 다</value>
+  </data>
+  <data name="DocumentEditorContainer_UpdateFields" xml:space="preserve">
+    <value>업데이트 필드</value>
+  </data>
+  <data name="DocumentEditorContainer_UpdateCrossReferenceFields" xml:space="preserve">
+    <value>상호 참조 필드 업데이트.</value>
+  </data>
+  <data name="DocumentEditorContainer_Track_changes" xml:space="preserve">
+    <value>문서의 변경 사항을 추적합니다.</value>
+  </data>
+  <data name="DocumentEditorContainer_TrackChanges" xml:space="preserve">
+    <value>변경 사항 추적</value>
+  </data>
+  <data name="DocumentEditorContainer_ZoomLevel" xml:space="preserve">
+    <value>확대/축소 수준</value>
+  </data>
+  <data name="DocumentEditorContainer_Footnote_Tooltip" xml:space="preserve">
+    <value>각주 삽입 (Alt + Ctrl + F).</value>
+  </data>
+  <data name="DocumentEditorContainer_Endnote_Tooltip" xml:space="preserve">
+    <value>미주 삽입 (Alt + Ctrl + D).</value>
+  </data>
+  <data name="DocumentEditorContainer_ShowComments" xml:space="preserve">
+    <value>댓글 삽입</value>
+  </data>
+  <data name="DocumentEditorContainer_FormFields" xml:space="preserve">
+    <value>양식 필드</value>
+  </data>
+  <data name="DocumentEditorContainer_Information" xml:space="preserve">
+    <value>정보</value>
+  </data>
+  <data name="DocumentEditorContainer_AllCaps" xml:space="preserve">
+    <value>모두 대문자</value>
+  </data>
+  <data name="DocumentEditorContainer_Insert_Footnote" xml:space="preserve">
+    <value>끼워 넣다</value>
+  </data>
+  <data name="DocumentEditorContainer_Insert_Endnote" xml:space="preserve">
+    <value>끼워 넣다</value>
+  </data>
+  <data name="DocumentEditorContainer_FillingInForms" xml:space="preserve">
+    <value>양식 작성</value>
+  </data>
+  <data name="DocumentEditorContainer_Trackedchanges" xml:space="preserve">
+    <value>추적된 변경 사항</value>
+</data>
+  <data name="DocumentEditorContainer_RemovedIgnoreExceptions" xml:space="preserve">
+    <value>문서 보호에서 이렇게 변경하면 Word에서 이 문서의 모든 예외를 무시합니다.</value>
+  </data>
+  <data name="DocumentEditor_RevisionsOnly" xml:space="preserve">
+    <value>이 지역에서 편집할 수 있지만 모든 변경 사항은 추적됩니다</value>
+  </data>
+  <data name="DocumentEditorContainer_RemovedIgnore" xml:space="preserve">
+    <value>무시된 예외를 제거하시겠습니까?</value>
+  </data>
+  <data name="DocumentEditorContainer_Yes" xml:space="preserve">
+    <value>네</value>
+  </data>
+  <data name="DocumentEditorContainer_No" xml:space="preserve">
+    <value>아니요</value>
+</data>
+   <data name="Gantt_Touch_DialogTextOnClickingConnectorPoint" xml:space="preserve">
+    <value>다른 작업 선택</value>
+  </data>
+  <data name="Gantt_Touch_DialogTextOnSelectingTaskbar" xml:space="preserve">
+    <value>커넥터 위치 선택</value>
+  </data>
+  <data name="Gantt_Touch_LeftButton" xml:space="preserve">
+    <value>왼쪽</value>
+  </data>
+  <data name="Gantt_Touch_RightButton" xml:space="preserve">
+    <value>권리</value>
+  </data>
+  <data name="PdfViewer_ExportXFDF" xml:space="preserve">
+    <value>주석을 XFDF 파일로 내보내기</value>
+  </data>
+  <data name="PdfViewer_ImportXFDF" xml:space="preserve">
+    <value>XFDF 파일에서 주석 가져오기</value>
+  </data>
+</root>

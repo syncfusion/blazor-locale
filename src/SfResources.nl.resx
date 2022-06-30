@@ -1,0 +1,5274 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AutoComplete_ActionFailureTemplate" xml:space="preserve">
+    <value>Verzoek mislukt</value>
+  </data>
+  <data name="AutoComplete_NoRecordsTemplate" xml:space="preserve">
+    <value>Geen verslagen gevonden</value>
+  </data>
+  <data name="Calendar_Today" xml:space="preserve">
+    <value>Vandaag</value>
+  </data>
+  <data name="ComboBox_ActionFailureTemplate" xml:space="preserve">
+    <value>Verzoek mislukt</value>
+  </data>
+  <data name="ComboBox_NoRecordsTemplate" xml:space="preserve">
+    <value>Geen verslagen gevonden</value>
+  </data>
+  <data name="DatePicker_Placeholder" xml:space="preserve">
+    <value>Kies een datum</value>
+  </data>
+  <data name="DatePicker_Today" xml:space="preserve">
+    <value>Vandaag</value>
+  </data>
+  <data name="DateRangePicker_ApplyText" xml:space="preserve">
+    <value>Van toepassing zijn</value>
+  </data>
+  <data name="DateRangePicker_CancelText" xml:space="preserve">
+    <value>annuleren</value>
+  </data>
+  <data name="DateRangePicker_CustomRange" xml:space="preserve">
+    <value>Aangepast bereik</value>
+  </data>
+  <data name="DateRangePicker_Days" xml:space="preserve">
+    <value>dagen</value>
+  </data>
+  <data name="DateRangePicker_EndLabel" xml:space="preserve">
+    <value>Einddatum</value>
+  </data>
+  <data name="DateRangePicker_Placeholder" xml:space="preserve">
+    <value>Kies een datumbereik</value>
+  </data>
+  <data name="DateRangePicker_SelectedDays" xml:space="preserve">
+    <value>Geselecteerde dagen</value>
+  </data>
+  <data name="DateRangePicker_StartLabel" xml:space="preserve">
+    <value>Begin datum</value>
+  </data>
+  <data name="DateTimePicker_Placeholder" xml:space="preserve">
+    <value>Kies een datum en tijd</value>
+  </data>
+  <data name="DateTimePicker_Today" xml:space="preserve">
+    <value>Vandaag</value>
+  </data>
+  <data name="DropDownList_ActionFailureTemplate" xml:space="preserve">
+    <value>Verzoek mislukt</value>
+  </data>
+  <data name="DropDownList_NoRecordsTemplate" xml:space="preserve">
+    <value>Geen verslagen gevonden</value>
+  </data>
+  <data name="MultiSelect_ActionFailureTemplate" xml:space="preserve">
+    <value>Verzoek mislukt</value>
+  </data>
+  <data name="MultiSelect_NoRecordsTemplate" xml:space="preserve">
+    <value>Geen verslagen gevonden</value>
+  </data>
+  <data name="MultiSelect_OverflowCountTemplate" xml:space="preserve">
+    <value>+${count} meer ..</value>
+  </data>
+  <data name="MultiSelect_SelectAllText" xml:space="preserve">
+    <value>Selecteer alles</value>
+  </data>
+  <data name="MultiSelect_TotalCountTemplate" xml:space="preserve">
+    <value>${count} geselecteerd</value>
+  </data>
+  <data name="MultiSelect_UnSelectAllText" xml:space="preserve">
+    <value>Deselecteer alles</value>
+  </data>
+  <data name="NumericTextBox_DecrementTitle" xml:space="preserve">
+    <value>Waarde verlagen</value>
+  </data>
+  <data name="NumericTextBox_IncrementTitle" xml:space="preserve">
+    <value>Verhogen waarde</value>
+  </data>
+  <data name="TimePicker_Placeholder" xml:space="preserve">
+    <value>Kies een tijdstip</value>
+  </data>
+  <data name="Uploader_Abort" xml:space="preserve">
+    <value>Afbreken</value>
+  </data>
+  <data name="Uploader_Browse" xml:space="preserve">
+    <value>Bladeren ...</value>
+  </data>
+  <data name="Uploader_Cancel" xml:space="preserve">
+    <value>annuleren</value>
+  </data>
+  <data name="Uploader_Clear" xml:space="preserve">
+    <value>Doorzichtig</value>
+  </data>
+  <data name="Uploader_Delete" xml:space="preserve">
+    <value>Verwijder bestand</value>
+  </data>
+  <data name="Uploader_DropFilesHint" xml:space="preserve">
+    <value>Of zet bestanden hier neer</value>
+  </data>
+  <data name="Uploader_FileUploadCancel" xml:space="preserve">
+    <value>Bestandsupload geannuleerd</value>
+  </data>
+  <data name="Uploader_InProgress" xml:space="preserve">
+    <value>uploaden</value>
+  </data>
+  <data name="Uploader_InvalidFileType" xml:space="preserve">
+    <value>Bestandstype is niet toegestaan</value>
+  </data>
+  <data name="Uploader_InvalidMaxFileSize" xml:space="preserve">
+    <value>Bestandsgrootte is te groot</value>
+  </data>
+  <data name="Uploader_invalidMinFileSize" xml:space="preserve">
+    <value>Bestandsgrootte is te klein</value>
+  </data>
+  <data name="Uploader_Pause" xml:space="preserve">
+    <value>Pauze</value>
+  </data>
+  <data name="Uploader_PauseUpload" xml:space="preserve">
+    <value>Bestandsupload gepauzeerd</value>
+  </data>
+  <data name="Uploader_ReadyToUploadMessage" xml:space="preserve">
+    <value>Klaar om te uploaden</value>
+  </data>
+  <data name="Uploader_Remove" xml:space="preserve">
+    <value>Verwijderen</value>
+  </data>
+  <data name="Uploader_RemovedFailedMessage" xml:space="preserve">
+    <value>Kan bestand niet verwijderen</value>
+  </data>
+  <data name="Uploader_RemovedSuccessMessage" xml:space="preserve">
+    <value>Bestand succesvol verwijderd</value>
+  </data>
+  <data name="Uploader_Resume" xml:space="preserve">
+    <value>Hervat</value>
+  </data>
+  <data name="Uploader_Retry" xml:space="preserve">
+    <value>Opnieuw</value>
+  </data>
+  <data name="Uploader_Upload" xml:space="preserve">
+    <value>Uploaden</value>
+  </data>
+  <data name="Uploader_UploadFailedMessage" xml:space="preserve">
+    <value>Bestand kan niet worden geüpload</value>
+  </data>
+  <data name="Uploader_UploadSuccessMessage" xml:space="preserve">
+    <value>bestand succesvol geüpload</value>
+  </data>
+  <data name="FileManager_NewFolder" xml:space="preserve">
+    <value>Nieuwe map</value>
+  </data>
+  <data name="FileManager_Upload" xml:space="preserve">
+    <value>Uploaden</value>
+  </data>
+  <data name="FileManager_Delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="FileManager_Rename" xml:space="preserve">
+    <value>Andere naam geven</value>
+  </data>
+  <data name="FileManager_Download" xml:space="preserve">
+    <value>Download</value>
+  </data>
+  <data name="FileManager_Cut" xml:space="preserve">
+    <value>Knippen</value>
+  </data>
+  <data name="FileManager_Copy" xml:space="preserve">
+    <value>Kopiëren</value>
+  </data>
+  <data name="FileManager_Paste" xml:space="preserve">
+    <value>Plakken</value>
+  </data>
+  <data name="FileManager_SortBy" xml:space="preserve">
+    <value>Sorteer op</value>
+  </data>
+  <data name="FileManager_Refresh" xml:space="preserve">
+    <value>Verversen</value>
+  </data>
+  <data name="FileManager_ItemSelection" xml:space="preserve">
+    <value>item geselecteerd</value>
+  </data>
+  <data name="FileManager_ItemsSelection" xml:space="preserve">
+    <value>items geselecteerd</value>
+  </data>
+  <data name="FileManager_View" xml:space="preserve">
+    <value>View</value>
+  </data>
+  <data name="FileManager_Details" xml:space="preserve">
+    <value>Details</value>
+  </data>
+  <data name="FileManager_SelectAll" xml:space="preserve">
+    <value>Selecteer alles</value>
+  </data>
+  <data name="FileManager_Open" xml:space="preserve">
+    <value>Open</value>
+  </data>
+  <data name="FileManager_TooltipNewFolder" xml:space="preserve">
+    <value>Nieuwe map</value>
+  </data>
+  <data name="FileManager_TooltipUpload" xml:space="preserve">
+    <value>Uploaden</value>
+  </data>
+  <data name="FileManager_TooltipDelete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="FileManager_TooltipRename" xml:space="preserve">
+    <value>Andere naam geven</value>
+  </data>
+  <data name="FileManager_TooltipDownload" xml:space="preserve">
+    <value>Download</value>
+  </data>
+  <data name="FileManager_TooltipCut" xml:space="preserve">
+    <value>Knippen</value>
+  </data>
+  <data name="FileManager_TooltipCopy" xml:space="preserve">
+    <value>Kopiëren</value>
+  </data>
+  <data name="FileManager_TooltipPaste" xml:space="preserve">
+    <value>Plakken</value>
+  </data>
+  <data name="FileManager_TooltipSortBy" xml:space="preserve">
+    <value>Sorteer op</value>
+  </data>
+  <data name="FileManager_TooltipRefresh" xml:space="preserve">
+    <value>Verversen</value>
+  </data>
+  <data name="FileManager_TooltipSelection" xml:space="preserve">
+    <value>Selectie wissen</value>
+  </data>
+  <data name="FileManager_TooltipView" xml:space="preserve">
+    <value>View</value>
+  </data>
+  <data name="FileManager_TooltipDetails" xml:space="preserve">
+    <value>Details</value>
+  </data>
+  <data name="FileManager_TooltipSelectAll" xml:space="preserve">
+    <value>Selecteer alles</value>
+  </data>
+  <data name="FileManager_Name" xml:space="preserve">
+    <value>Naam</value>
+  </data>
+  <data name="FileManager_Size" xml:space="preserve">
+    <value>Grootte</value>
+  </data>
+  <data name="FileManager_DateModified" xml:space="preserve">
+    <value>Gewijzigd op</value>
+  </data>
+  <data name="FileManager_DateCreated" xml:space="preserve">
+    <value>Aangemaakt op</value>
+  </data>
+  <data name="FileManager_Path" xml:space="preserve">
+    <value>Pad</value>
+  </data>
+  <data name="FileManager_Modified" xml:space="preserve">
+    <value>Gewijzigd</value>
+  </data>
+  <data name="FileManager_Created" xml:space="preserve">
+    <value>Aangemaakt</value>
+  </data>
+  <data name="FileManager_Location" xml:space="preserve">
+    <value>Locatie</value>
+  </data>
+  <data name="FileManager_Type" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="FileManager_Permission" xml:space="preserve">
+    <value>Toestemming</value>
+  </data>
+  <data name="FileManager_Ascending" xml:space="preserve">
+    <value>Oplopend</value>
+  </data>
+  <data name="FileManager_Descending" xml:space="preserve">
+    <value>Aflopend</value>
+  </data>
+  <data name="FileManager_None" xml:space="preserve">
+    <value>Geen</value>
+  </data>
+  <data name="FileManager_ViewLargeIcons" xml:space="preserve">
+    <value>Grote iconen</value>
+  </data>
+  <data name="FileManager_ViewDetails" xml:space="preserve">
+    <value>Details</value>
+  </data>
+  <data name="FileManager_Search" xml:space="preserve">
+    <value>Zoeken</value>
+  </data>
+  <data name="FileManager_ButtonOk" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="FileManager_ButtonCancel" xml:space="preserve">
+    <value>Annuleren</value>
+  </data>
+  <data name="FileManager_ButtonYes" xml:space="preserve">
+    <value>Ja</value>
+  </data>
+  <data name="FileManager_ButtonNo" xml:space="preserve">
+    <value>Nee</value>
+  </data>
+  <data name="FileManager_ButtonCreate" xml:space="preserve">
+    <value>Maken</value>
+  </data>
+  <data name="FileManager_ButtonSave" xml:space="preserve">
+    <value>Opslaan</value>
+  </data>
+  <data name="FileManager_HeaderNewFolder" xml:space="preserve">
+    <value>Map</value>
+  </data>
+  <data name="FileManager_ContentNewFolder" xml:space="preserve">
+    <value>Voer uw mapnaam in</value>
+  </data>
+  <data name="FileManager_HeaderRename" xml:space="preserve">
+    <value>Andere naam geven</value>
+  </data>
+  <data name="FileManager_ContentRename" xml:space="preserve">
+    <value>Voer je nieuwe naam in</value>
+  </data>
+  <data name="FileManager_HeaderRenameConfirmation" xml:space="preserve">
+    <value>Naam bevestigen</value>
+  </data>
+  <data name="FileManager_ContentRenameConfirmation" xml:space="preserve">
+    <value>Als u een bestandsnaamextensie wijzigt, kan het bestand instabiel worden. Weet u zeker dat u dit wilt wijzigen?</value>
+  </data>
+  <data name="FileManager_HeaderDelete" xml:space="preserve">
+    <value>Verwijder bestand</value>
+  </data>
+  <data name="FileManager_ContentDelete" xml:space="preserve">
+    <value>Weet je zeker dat je dit bestand wilt verwijderen?</value>
+  </data>
+  <data name="FileManager_HeaderFolderDelete" xml:space="preserve">
+    <value>Verwijder map</value>
+  </data>
+  <data name="FileManager_ContentFolderDelete" xml:space="preserve">
+    <value>Weet je zeker dat je deze map wilt verwijderen?</value>
+  </data>
+  <data name="FileManager_HeaderMultipleDelete" xml:space="preserve">
+    <value>Verwijder meerdere items</value>
+  </data>
+  <data name="FileManager_ContentMultipleDelete" xml:space="preserve">
+    <value>Weet je zeker dat je deze {0} items wilt verwijderen?</value>
+  </data>
+  <data name="FileManager_HeaderDuplicate" xml:space="preserve">
+    <value>Bestand bestaat al</value>
+  </data>
+  <data name="FileManager_ContentDuplicate" xml:space="preserve">
+    <value>{0} bestaat al. Wilt u hernoemen en plakken?</value>
+  </data>
+  <data name="FileManager_HeaderUpload" xml:space="preserve">
+    <value>Upload bestanden</value>
+  </data>
+  <data name="FileManager_Error" xml:space="preserve">
+    <value>Fout</value>
+  </data>
+  <data name="FileManager_ValidationEmpty" xml:space="preserve">
+    <value>De bestands- of mapnaam mag niet leeg zijn.</value>
+  </data>
+  <data name="FileManager_ValidationInvalid" xml:space="preserve">
+    <value>De bestands- of mapnaam {0} bevat ongeldige tekens. Gebruik een andere naam. Geldige bestands- of mapnamen mogen niet eindigen op een punt of spatie.</value>
+  </data>
+  <data name="FileManager_ValidationNewFolderExists" xml:space="preserve">
+    <value>Er bestaat al een bestand of map met de naam {0}.</value>
+  </data>
+  <data name="FileManager_ValidationRenameExists" xml:space="preserve">
+    <value>Kan {0} niet hernoemen naar {1}: bestemming bestaat al.</value>
+  </data>
+  <data name="FileManager_FolderEmpty" xml:space="preserve">
+    <value>Deze map is leeg</value>
+  </data>
+  <data name="FileManager_FileUpload" xml:space="preserve">
+    <value>Sleep bestanden hiernaartoe om te uploaden</value>
+  </data>
+  <data name="FileManager_SearchEmpty" xml:space="preserve">
+    <value>Geen resultaten gevonden</value>
+  </data>
+  <data name="FileManager_SearchKey" xml:space="preserve">
+    <value>Probeer het met verschillende zoekwoorden</value>
+  </data>
+  <data name="FileManager_FilterEmpty" xml:space="preserve">
+    <value>geen resultaten gevonden</value>
+  </data>
+  <data name="FileManager_FilterKey" xml:space="preserve">
+    <value>Probeer het met een ander filter</value>
+  </data>
+  <data name="FileManager_SubFolderError" xml:space="preserve">
+    <value>De doelmap is de submap van de bronmap.</value>
+  </data>
+  <data name="FileManager_AccessDenied" xml:space="preserve">
+    <value>Toegang geweigerd</value>
+  </data>
+  <data name="FileManager_AccessDetails" xml:space="preserve">
+    <value>U hebt geen toestemming om deze map te openen.</value>
+  </data>
+  <data name="FileManager_HeaderRetry" xml:space="preserve">
+    <value>Bestand bestaat al</value>
+  </data>
+  <data name="FileManager_ContentRetry" xml:space="preserve">
+    <value>Er bestaat al een bestand met deze naam in deze map. Wat zou je willen doen?</value>
+  </data>
+  <data name="FileManager_ButtonKeepBoth" xml:space="preserve">
+    <value>Hou beide</value>
+  </data>
+  <data name="FileManager_ButtonReplace" xml:space="preserve">
+    <value>Vervangen</value>
+  </data>
+  <data name="FileManager_ButtonSkip" xml:space="preserve">
+    <value>Overspringen</value>
+  </data>
+  <data name="FileManager_ApplyAllLabel" xml:space="preserve">
+    <value>Doe dit voor alle huidige items</value>
+  </data>
+  <data name="FileManager_KB" xml:space="preserve">
+    <value>KB</value>
+  </data>
+  <data name="FileManager_AccessMessage" xml:space="preserve">
+    <value>{0} is niet toegankelijk. je hebt toestemming nodig om de actie {1} uit te voeren.</value>
+  </data>
+  <data name="FileManager_NetworkError" xml:space="preserve">
+    <value>NetworkError: kan niet worden verzonden op XMLHTTPRequest: kan niet worden geladen</value>
+  </data>
+  <data name="FileManager_ServerError" xml:space="preserve">
+    <value>ServerError: ongeldige reactie van</value>
+  </data>
+  <data name="Chart_Zoom" xml:space="preserve">
+    <value>Zoom</value>
+  </data>
+  <data name="Chart_ZoomIn" xml:space="preserve">
+    <value>In zoomen</value>
+  </data>
+  <data name="Chart_ZoomOut" xml:space="preserve">
+    <value>Uitzoomen</value>
+  </data>
+  <data name="Chart_Reset" xml:space="preserve">
+    <value>Reset</value>
+  </data>
+  <data name="Chart_Pan" xml:space="preserve">
+    <value>Panne</value>
+  </data>
+  <data name="Chart_ResetZoom" xml:space="preserve">
+    <value>Zoom resetten</value>
+  </data>
+  <data name="Slider_DecrementTitle" xml:space="preserve">
+    <value>Verminderen</value>
+  </data>
+  <data name="Slider_IncrementTitle" xml:space="preserve">
+    <value>Toenemen</value>
+  </data>
+  <data name="Maps_Zoom" xml:space="preserve">
+    <value>Zoom</value>
+  </data>
+  <data name="Maps_ZoomIn" xml:space="preserve">
+    <value>In zoomen</value>
+  </data>
+  <data name="Maps_ZoomOut" xml:space="preserve">
+    <value>Uitzoomen</value>
+  </data>
+  <data name="Maps_Reset" xml:space="preserve">
+    <value>Reset</value>
+  </data>
+  <data name="Maps_Pan" xml:space="preserve">
+    <value>Pan</value>
+  </data>
+  <data name="Gantt_Above" xml:space="preserve">
+    <value>Bovenstaand</value>
+  </data>
+  <data name="Gantt_Add" xml:space="preserve">
+    <value>toevoegen</value>
+  </data>
+  <data name="Gantt_AddDialogTitle" xml:space="preserve">
+    <value>Nieuwe taak</value>
+  </data>
+  <data name="Gantt_BaselineEndDate" xml:space="preserve">
+    <value>Einddatum baseline</value>
+  </data>
+  <data name="Gantt_BaselineStartDate" xml:space="preserve">
+    <value>Startdatum baseline</value>
+  </data>
+  <data name="Gantt_Below" xml:space="preserve">
+    <value>beneden</value>
+  </data>
+  <data name="Gantt_Cancel" xml:space="preserve">
+    <value>annuleren</value>
+  </data>
+  <data name="Gantt_Child" xml:space="preserve">
+    <value>Kind</value>
+  </data>
+  <data name="Gantt_CollapseAll" xml:space="preserve">
+    <value>Alles inklappen</value>
+  </data>
+  <data name="Gantt_ConfirmDelete" xml:space="preserve">
+    <value>Weet u zeker dat u record wilt verwijderen?</value>
+  </data>
+  <data name="Gantt_ConfirmPredecessorDelete" xml:space="preserve">
+    <value>Weet u zeker dat u de afhankelijkheidskoppeling wilt verwijderen?</value>
+  </data>
+  <data name="Gantt_Indent" xml:space="preserve">
+    <value>Inspringen</value>
+  </data>
+  <data name="Gantt_Outdent" xml:space="preserve">
+    <value>Outdent</value>
+  </data>
+  <data name="Gantt_Convert" xml:space="preserve">
+    <value>Converteren</value>
+  </data>
+  <data name="Gantt_CsvExport" xml:space="preserve">
+    <value>CSV-export</value>
+  </data>
+  <data name="Gantt_CustomTab" xml:space="preserve">
+    <value>Aangepaste kolommen</value>
+  </data>
+  <data name="Gantt_Day" xml:space="preserve">
+    <value>dag</value>
+  </data>
+  <data name="Gantt_Days" xml:space="preserve">
+    <value>dagen</value>
+  </data>
+  <data name="Gantt_Delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="Gantt_DeleteDependency" xml:space="preserve">
+    <value>Verwijder afhankelijkheid</value>
+  </data>
+  <data name="Gantt_DeleteTask" xml:space="preserve">
+    <value>Taak verwijderen</value>
+  </data>
+  <data name="Gantt_Dependency" xml:space="preserve">
+    <value>Afhankelijkheid</value>
+  </data>
+  <data name="Gantt_Duration" xml:space="preserve">
+    <value>Looptijd</value>
+  </data>
+  <data name="Gantt_Edit" xml:space="preserve">
+    <value>Bewerk</value>
+  </data>
+  <data name="Gantt_EditDialogTitle" xml:space="preserve">
+    <value>Taak informatie</value>
+  </data>
+  <data name="Gantt_EmptyRecord" xml:space="preserve">
+    <value>Geen records om weer te geven</value>
+  </data>
+  <data name="Gantt_EndDate" xml:space="preserve">
+    <value>Einddatum</value>
+  </data>
+  <data name="Gantt_EnterValue" xml:space="preserve">
+    <value>Voer waarde in</value>
+  </data>
+  <data name="Gantt_EventMarkers" xml:space="preserve">
+    <value>Evenementmarkeringen</value>
+  </data>
+  <data name="Gantt_ExcelExport" xml:space="preserve">
+    <value>Excel exporteren</value>
+  </data>
+  <data name="Gantt_ExpandAll" xml:space="preserve">
+    <value>Alles uitvouwen</value>
+  </data>
+  <data name="Gantt_Finish" xml:space="preserve">
+    <value>Af hebben</value>
+  </data>
+  <data name="Gantt_From" xml:space="preserve">
+    <value>Van</value>
+  </data>
+  <data name="Gantt_GeneralTab" xml:space="preserve">
+    <value>Algemeen</value>
+  </data>
+  <data name="Gantt_Hour" xml:space="preserve">
+    <value>uur</value>
+  </data>
+  <data name="Gantt_Hours" xml:space="preserve">
+    <value>uur</value>
+  </data>
+  <data name="Gantt_Id" xml:space="preserve">
+    <value>ID kaart</value>
+  </data>
+  <data name="Gantt_Lag" xml:space="preserve">
+    <value>Vertraging</value>
+  </data>
+  <data name="Gantt_LeftTaskLabel" xml:space="preserve">
+    <value>Linker taaklabel</value>
+  </data>
+  <data name="Gantt_Milestone" xml:space="preserve">
+    <value>Mijlpaal</value>
+  </data>
+  <data name="Gantt_Minute" xml:space="preserve">
+    <value>minuut</value>
+  </data>
+  <data name="Gantt_Minutes" xml:space="preserve">
+    <value>minuten</value>
+  </data>
+  <data name="Gantt_Name" xml:space="preserve">
+    <value>Naam</value>
+  </data>
+  <data name="Gantt_NextTimeSpan" xml:space="preserve">
+    <value>Volgende tijdspanne</value>
+  </data>
+  <data name="Gantt_Notes" xml:space="preserve">
+    <value>Notes</value>
+  </data>
+  <data name="Gantt_Offset" xml:space="preserve">
+    <value>compenseren</value>
+  </data>
+  <data name="Gantt_OkText" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="Gantt_PrevTimeSpan" xml:space="preserve">
+    <value>Vorige tijdspanne</value>
+  </data>
+  <data name="Gantt_Progress" xml:space="preserve">
+    <value>Vooruitgang</value>
+  </data>
+  <data name="Gantt_ResourceID" xml:space="preserve">
+    <value>Bron-ID</value>
+  </data>
+  <data name="Gantt_ResourceName" xml:space="preserve">
+    <value>Middelen</value>
+  </data>
+  <data name="Gantt_RightTaskLabel" xml:space="preserve">
+    <value>Juist taaklabel</value>
+  </data>
+  <data name="Gantt_Save" xml:space="preserve">
+    <value>Opslaan</value>
+  </data>
+  <data name="Gantt_SaveButton" xml:space="preserve">
+    <value>Opslaan</value>
+  </data>
+  <data name="Gantt_Search" xml:space="preserve">
+    <value>Zoeken</value>
+  </data>
+  <data name="Gantt_Start" xml:space="preserve">
+    <value>Begin</value>
+  </data>
+  <data name="Gantt_StartDate" xml:space="preserve">
+    <value>Begin datum</value>
+  </data>
+  <data name="Gantt_Task" xml:space="preserve">
+    <value>taak</value>
+  </data>
+  <data name="Gantt_TaskAfterPredecessor_FF" xml:space="preserve">
+    <value>U hebt '{0}' verplaatst om te eindigen nadat '{1}' is voltooid en de twee taken zijn gekoppeld. Als gevolg hiervan kunnen de links niet worden gehonoreerd. Selecteer hieronder een actie om uit te voeren</value>
+  </data>
+  <data name="Gantt_TaskAfterPredecessor_FS" xml:space="preserve">
+    <value>U hebt '{0}' verwijderd van '{1}' en de twee taken zijn gekoppeld. Als gevolg hiervan kunnen de links niet worden gehonoreerd. Selecteer hieronder een actie om uit te voeren</value>
+  </data>
+  <data name="Gantt_TaskAfterPredecessor_SF" xml:space="preserve">
+    <value>U heeft '{0}' verplaatst om te eindigen nadat '{1}' is gestart en de twee taken zijn gekoppeld. Als gevolg hiervan kunnen de links niet worden gehonoreerd. Selecteer hieronder een actie om uit te voeren</value>
+  </data>
+  <data name="Gantt_TaskAfterPredecessor_SS" xml:space="preserve">
+    <value>U heeft '{0}' verplaatst om te starten nadat '{1}' is gestart en de twee taken zijn gekoppeld. Als gevolg hiervan kunnen de links niet worden gehonoreerd. Selecteer hieronder een actie om uit te voeren</value>
+  </data>
+  <data name="Gantt_TaskBeforePredecessor_FF" xml:space="preserve">
+    <value>U hebt '{0}' verplaatst om te eindigen voordat '{1}' is voltooid en de twee taken zijn gekoppeld. Als gevolg hiervan kunnen de links niet worden gehonoreerd. Selecteer hieronder een actie om uit te voeren</value>
+  </data>
+  <data name="Gantt_TaskBeforePredecessor_FS" xml:space="preserve">
+    <value>U hebt '{0}' verplaatst om te beginnen voordat '{1}' is voltooid en de twee taken zijn gekoppeld. Als gevolg hiervan kunnen de links niet worden gehonoreerd. Selecteer hieronder een actie om uit te voeren</value>
+  </data>
+  <data name="Gantt_TaskBeforePredecessor_SF" xml:space="preserve">
+    <value>U heeft '{0}' verwijderd van '{1}' om te starten en de twee taken zijn gekoppeld. Als gevolg hiervan kunnen de links niet worden gehonoreerd. Selecteer hieronder een actie om uit te voeren</value>
+  </data>
+  <data name="Gantt_TaskBeforePredecessor_SS" xml:space="preserve">
+    <value>U hebt '{0}' verplaatst om te starten voordat '{1}' start en de twee taken zijn gekoppeld. Als gevolg hiervan kunnen de links niet worden gehonoreerd. Selecteer hieronder een actie om uit te voeren</value>
+  </data>
+  <data name="Gantt_TaskInformation" xml:space="preserve">
+    <value>Taak informatie</value>
+  </data>
+  <data name="Gantt_TaskLink" xml:space="preserve">
+    <value>Taakkoppeling</value>
+  </data>
+  <data name="Gantt_Tasks" xml:space="preserve">
+    <value>taken</value>
+  </data>
+  <data name="Gantt_TimelineCell" xml:space="preserve">
+    <value>Tijdlijn cel</value>
+  </data>
+  <data name="Gantt_To" xml:space="preserve">
+    <value>Naar</value>
+  </data>
+  <data name="Gantt_ToMilestone" xml:space="preserve">
+    <value>Naar mijlpaal</value>
+  </data>
+  <data name="Gantt_ToTask" xml:space="preserve">
+    <value>Taken</value>
+  </data>
+  <data name="Gantt_Type" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="Gantt_Update" xml:space="preserve">
+    <value>Bijwerken</value>
+  </data>
+  <data name="Gantt_WriteNotes" xml:space="preserve">
+    <value>Schrijf notities</value>
+  </data>
+  <data name="Gantt_ZoomIn" xml:space="preserve">
+    <value>In zoomen</value>
+  </data>
+  <data name="Gantt_ZoomOut" xml:space="preserve">
+    <value>Uitzoomen</value>
+  </data>
+  <data name="Gantt_ZoomToFit" xml:space="preserve">
+    <value>Zoom in om te passen</value>
+  </data>
+  <data name="Gantt_AutoFit" xml:space="preserve">
+    <value>Kolom automatisch aanpassen</value>
+  </data>
+  <data name="Gantt_AutoFitAll" xml:space="preserve">
+    <value>Alle kolommen automatisch aanpassen</value>
+  </data>
+  <data name="Gantt_SortAscending" xml:space="preserve">
+    <value>Oplopend sorteren</value>
+  </data>
+  <data name="Gantt_SortDescending" xml:space="preserve">
+    <value>Aflopend sorteren</value>
+  </data>
+  <data name="Gantt_TaskMode" xml:space="preserve">
+    <value>Taakmodus</value>
+  </data>
+  <data name="Gantt_TaskMode_Auto" xml:space="preserve">
+    <value>Auto</value>
+  </data>
+  <data name="Gantt_TaskMode_Manual" xml:space="preserve">
+    <value>Handmatig</value>
+  </data>
+  <data name="Gantt_SubTaskStartDate" xml:space="preserve">
+    <value>Startdatum subtaken</value>
+  </data>
+  <data name="Gantt_SubTaskEndDate" xml:space="preserve">
+    <value>Einddatum subtaken</value>
+  </data>
+  <data name="Gantt_AutoDuration" xml:space="preserve">
+    <value>Looptijd</value>
+  </data>
+  <data name="Gantt_Work" xml:space="preserve">
+    <value>Het werk</value>
+  </data>
+  <data name="Gantt_H" xml:space="preserve">
+    <value>H</value>
+  </data>
+  <data name="Gantt_D" xml:space="preserve">
+    <value>D</value>
+  </data>
+  <data name="Gantt_M" xml:space="preserve">
+    <value>m</value>
+  </data>
+  <data name="Gantt_Min" xml:space="preserve">
+    <value>min</value>
+  </data>
+  <data name="Gantt_CustomColumn" xml:space="preserve">
+    <value>Aangepaste kolommen</value>
+  </data>
+  <data name="Gantt_TaskType" xml:space="preserve">
+    <value>Taaktype</value>
+  </data>
+  <data name="ColorPicker_Apply" xml:space="preserve">
+    <value>Van toepassing zijn</value>
+  </data>
+  <data name="ColorPicker_Cancel" xml:space="preserve">
+    <value>annuleren</value>
+  </data>
+  <data name="ColorPicker_ModeSwitcher" xml:space="preserve">
+    <value>Verander modus</value>
+  </data>
+  <data name="ListBox_ActionFailureTemplate" xml:space="preserve">
+    <value>Verzoek mislukt</value>
+  </data>
+  <data name="ListBox_MoveAllFrom" xml:space="preserve">
+    <value>Alles verplaatsen van</value>
+  </data>
+  <data name="ListBox_MoveAllTo" xml:space="preserve">
+    <value>Alles verplaatsen naar</value>
+  </data>
+  <data name="ListBox_MoveDown" xml:space="preserve">
+    <value>Naar beneden verplaatsen</value>
+  </data>
+  <data name="ListBox_MoveFrom" xml:space="preserve">
+    <value>Verhuizen van</value>
+  </data>
+  <data name="ListBox_MoveTo" xml:space="preserve">
+    <value>Verplaatsen naar</value>
+  </data>
+  <data name="ListBox_MoveUp" xml:space="preserve">
+    <value>Ga omhoog</value>
+  </data>
+  <data name="ListBox_NoRecordsTemplate" xml:space="preserve">
+    <value>Geen verslagen gevonden</value>
+  </data>
+  <data name="ListBox_SelectAllText" xml:space="preserve">
+    <value>Selecteer alles</value>
+  </data>
+  <data name="ListBox_UnSelectAllText" xml:space="preserve">
+    <value>Deselecteer alles</value>
+  </data>
+  <data name="PivotView_NumberFormat_ExampleWatermark" xml:space="preserve">
+    <value>Voorbeeld: C, P, 0000%, ### 0. ## 0 #, etc.</value>
+  </data>
+  <data name="PivotView_SortNone_TooltipMessage" xml:space="preserve">
+    <value>Sorteer de gegevensvolgorde</value>
+  </data>
+  <data name="PivotView_SortDescending_TooltipMessage" xml:space="preserve">
+    <value>Sorteer aflopende volgorde</value>
+  </data>
+  <data name="PivotView_StaticFieldList" xml:space="preserve">
+    <value>Lijst met draaivelden</value>
+  </data>
+  <data name="PivotView_FieldList" xml:space="preserve">
+    <value>Lijst met velden</value>
+  </data>
+  <data name="PivotView_AddFieldMessage" xml:space="preserve">
+    <value>Voeg hier een veld toe</value>
+  </data>
+  <data name="PivotView_ChooseFieldMessage" xml:space="preserve">
+    <value>Kies veld</value>
+  </data>
+  <data name="PivotView_DragFieldsMessage" xml:space="preserve">
+    <value>Sleep velden tussen onderstaande assen:</value>
+  </data>
+  <data name="PivotView_Add" xml:space="preserve">
+    <value>Toevoegen</value>
+  </data>
+  <data name="PivotView_DeferLayoutUpdate" xml:space="preserve">
+    <value>Update lay-out uitstellen</value>
+  </data>
+  <data name="PivotView_ShowLegend" xml:space="preserve">
+    <value>Legenda weergeven</value>
+  </data>
+  <data name="PivotView_FieldCaptionWatermark" xml:space="preserve">
+    <value>Voer het bijschrift van het veld in</value>
+  </data>
+  <data name="PivotView_SortAscending_TooltipMessage" xml:space="preserve">
+    <value>Sorteer oplopende volgorde</value>
+  </data>
+  <data name="PivotView_ReplaceReport_BeforeMessage" xml:space="preserve">
+    <value>Een rapport met de naam</value>
+  </data>
+  <data name="PivotView_ReplaceReport_AfterMessage" xml:space="preserve">
+    <value>bestaat al. Wil je het vervangen?</value>
+  </data>
+  <data name="PivotView_AddCondition" xml:space="preserve">
+    <value>Voorwaarde toevoegen</value>
+  </data>
+  <data name="PivotView_AddToColumn" xml:space="preserve">
+    <value>Toevoegen aan kolom</value>
+  </data>
+  <data name="PivotView_AddToFilter" xml:space="preserve">
+    <value>Toevoegen aan filter</value>
+  </data>
+  <data name="PivotView_AddToRow" xml:space="preserve">
+    <value>Toevoegen aan rij</value>
+  </data>
+  <data name="PivotView_AddToValue" xml:space="preserve">
+    <value>Toevoegen aan waarde</value>
+  </data>
+  <data name="PivotView_After" xml:space="preserve">
+    <value>Na</value>
+  </data>
+  <data name="PivotView_AfterOrEqualTo" xml:space="preserve">
+    <value>Na of gelijk aan</value>
+  </data>
+  <data name="PivotView_Aggregate" xml:space="preserve">
+    <value>Aggregaat</value>
+  </data>
+  <data name="PivotView_Alert" xml:space="preserve">
+    <value>Alert</value>
+  </data>
+  <data name="PivotView_All" xml:space="preserve">
+    <value>Allemaal</value>
+  </data>
+  <data name="PivotView_AllFields" xml:space="preserve">
+    <value>Alle velden</value>
+  </data>
+  <data name="PivotView_AllValues" xml:space="preserve">
+    <value>Alle waarden</value>
+  </data>
+  <data name="PivotView_And" xml:space="preserve">
+    <value>en</value>
+  </data>
+  <data name="PivotView_Apply" xml:space="preserve">
+    <value>Van toepassing zijn</value>
+  </data>
+  <data name="PivotView_Area" xml:space="preserve">
+    <value>Oppervlakte</value>
+  </data>
+  <data name="PivotView_Ascending" xml:space="preserve">
+    <value>Oplopend</value>
+  </data>
+  <data name="PivotView_Avg" xml:space="preserve">
+    <value>Gem</value>
+  </data>
+  <data name="PivotView_Bar" xml:space="preserve">
+    <value>Bar</value>
+  </data>
+  <data name="PivotView_BaseField" xml:space="preserve">
+    <value>Basisveld</value>
+  </data>
+  <data name="PivotView_BaseItem" xml:space="preserve">
+    <value>Basisitem</value>
+  </data>
+  <data name="PivotView_Before" xml:space="preserve">
+    <value>Voordat</value>
+  </data>
+  <data name="PivotView_BeforeOrEqualTo" xml:space="preserve">
+    <value>Voor of gelijk aan</value>
+  </data>
+  <data name="PivotView_BeginWith" xml:space="preserve">
+    <value>Begint met</value>
+  </data>
+  <data name="PivotView_Between" xml:space="preserve">
+    <value>Tussen</value>
+  </data>
+  <data name="PivotView_Blank" xml:space="preserve">
+    <value>(Blanco)</value>
+  </data>
+  <data name="PivotView_By" xml:space="preserve">
+    <value>door</value>
+  </data>
+  <data name="PivotView_CalculatedField" xml:space="preserve">
+    <value>Berekend veld</value>
+  </data>
+  <data name="PivotView_CalculatedField_ConfirmMessage" xml:space="preserve">
+    <value>Er bestaat al een berekeningsveld in deze naam. Wil je het vervangen?</value>
+  </data>
+  <data name="PivotView_CalculatedField_DragDropMessage" xml:space="preserve">
+    <value>Sleep velden naar de formule</value>
+  </data>
+  <data name="PivotView_CalculatedField_DragMessage" xml:space="preserve">
+    <value>Sleep veld naar formule</value>
+  </data>
+  <data name="PivotView_CalculatedField_DropMessage" xml:space="preserve">
+    <value>Het berekende veld kan niet in een ander gebied worden geplaatst dan de waardeas.</value>
+  </data>
+  <data name="PivotView_CalculatedField_ExampleWatermark" xml:space="preserve">
+    <value>Voorbeeld:  ('Sum(Order_Count)' + 'Sum(In_Stock)') * 250</value>
+  </data>
+  <data name="PivotView_CalculatedField_ExistMessage" xml:space="preserve">
+    <value>Er bestaat al een veld in deze naam. Voer een andere naam in.</value>
+  </data>
+  <data name="PivotView_CalculatedField_MobileWatermark" xml:space="preserve">
+    <value>Voeg velden toe en bewerk de formule hier.</value>
+  </data>
+  <data name="PivotView_CalculatedField_NameWatermark" xml:space="preserve">
+    <value>Voer de veldnaam in</value>
+  </data>
+  <data name="PivotView_CalculatedField_OLAPExampleWatermark" xml:space="preserve">
+    <value>Voorbeeld:  [Measures].[Order Quantity] + ([Measures].[Order Quantity] * 0.10)</value>
+  </data>
+  <data name="PivotView_CalculatedField_Tooltip" xml:space="preserve">
+    <value>Sleep velden en zet ze neer om een ​​uitdrukking te maken. En als u de bestaande berekende velden wilt bewerken! U kunt dit bereiken door eenvoudig het veld onder 'Berekende leden' te selecteren.</value>
+  </data>
+  <data name="PivotView_Cancel" xml:space="preserve">
+    <value>annuleren</value>
+  </data>
+  <data name="PivotView_Chart" xml:space="preserve">
+    <value>Grafiek</value>
+  </data>
+  <data name="PivotView_Clear" xml:space="preserve">
+    <value>Uitschrappen</value>
+  </data>
+  <data name="PivotView_ClearFilter" xml:space="preserve">
+    <value>Uitschrappen</value>
+  </data>
+  <data name="PivotView_Close" xml:space="preserve">
+    <value>Dichtbij</value>
+  </data>
+  <data name="PivotView_Collapse" xml:space="preserve">
+    <value>Ineenstorting</value>
+  </data>
+  <data name="PivotView_Column" xml:space="preserve">
+    <value>Kolom</value>
+  </data>
+  <data name="PivotView_ColumnAxisWatermark" xml:space="preserve">
+    <value>Zet hier de kolom neer</value>
+  </data>
+  <data name="PivotView_Columns" xml:space="preserve">
+    <value>Kolommen</value>
+  </data>
+  <data name="PivotView_ConditionalFormating" xml:space="preserve">
+    <value>Conditionele opmaak</value>
+  </data>
+  <data name="PivotView_ConditionalFormatting" xml:space="preserve">
+    <value>Conditionele opmaak</value>
+  </data>
+  <data name="PivotView_Contains" xml:space="preserve">
+    <value>Bevat</value>
+  </data>
+  <data name="PivotView_Copy" xml:space="preserve">
+    <value>Kopiëren</value>
+  </data>
+  <data name="PivotView_Count" xml:space="preserve">
+    <value>tellen</value>
+  </data>
+  <data name="PivotView_CreateCalculatedField" xml:space="preserve">
+    <value>Maak een berekend veld</value>
+  </data>
+  <data name="PivotView_CSV" xml:space="preserve">
+    <value>CSV</value>
+  </data>
+  <data name="PivotView_Currency" xml:space="preserve">
+    <value>Valuta</value>
+  </data>
+  <data name="PivotView_CurrencySymbol" xml:space="preserve">
+    <value>Symbool van munteenheid</value>
+  </data>
+  <data name="PivotView_Custom" xml:space="preserve">
+    <value>Op maat</value>
+  </data>
+  <data name="PivotView_CustomFormat" xml:space="preserve">
+    <value>Aangepast formaat</value>
+  </data>
+  <data name="PivotView_CustomFormatMessage" xml:space="preserve">
+    <value>Voer een aangepaste tekenreeks in</value>
+  </data>
+  <data name="PivotView_Date" xml:space="preserve">
+    <value>Datum</value>
+  </data>
+  <data name="PivotView_DateTextMessage" xml:space="preserve">
+    <value>Toon de items waarvoor de datum</value>
+  </data>
+  <data name="PivotView_Days" xml:space="preserve">
+    <value>Dagen</value>
+  </data>
+  <data name="PivotView_DecimalPlaces" xml:space="preserve">
+    <value>Decimale plaatsen</value>
+  </data>
+  <data name="PivotView_Delete" xml:space="preserve">
+    <value>Verwijderen</value>
+  </data>
+  <data name="PivotView_DeleteReport" xml:space="preserve">
+    <value>Verwijder een huidig ​​rapport</value>
+  </data>
+  <data name="PivotView_Descending" xml:space="preserve">
+    <value>Aflopend</value>
+  </data>
+  <data name="PivotView_Details" xml:space="preserve">
+    <value>Details</value>
+  </data>
+  <data name="PivotView_DifferenceFrom" xml:space="preserve">
+    <value>Verschil met</value>
+  </data>
+  <data name="PivotView_Dimension" xml:space="preserve">
+    <value>Dimensie</value>
+  </data>
+  <data name="PivotView_DistinctCount" xml:space="preserve">
+    <value>Duidelijke telling</value>
+  </data>
+  <data name="PivotView_DoesNotBeginWith" xml:space="preserve">
+    <value>Begint niet met</value>
+  </data>
+  <data name="PivotView_DoesNotContains" xml:space="preserve">
+    <value>Bevat geen</value>
+  </data>
+  <data name="PivotView_DoesNotEndsWith" xml:space="preserve">
+    <value>Eindigt niet met</value>
+  </data>
+  <data name="PivotView_DoesNotEquals" xml:space="preserve">
+    <value>Is niet gelijk aan</value>
+  </data>
+  <data name="PivotView_DoNotShowGrandTotals" xml:space="preserve">
+    <value>Geen eindtotalen weergeven</value>
+  </data>
+  <data name="PivotView_DoNotShowSubtotals" xml:space="preserve">
+    <value>Geen subtotalen weergeven</value>
+  </data>
+  <data name="PivotView_Drag" xml:space="preserve">
+    <value>Slepen</value>
+  </data>
+  <data name="PivotView_DrillThrough" xml:space="preserve">
+    <value>Doorboren</value>
+  </data>
+  <data name="PivotView_DrillThroughErrorMessage" xml:space="preserve">
+    <value>Kan de onbewerkte items van berekende velden niet weergeven.</value>
+  </data>
+  <data name="PivotView_Edit" xml:space="preserve">
+    <value>Bewerk</value>
+  </data>
+  <data name="PivotView_EmptyRecordsMessage" xml:space="preserve">
+    <value>Geen records om weer te geven</value>
+  </data>
+  <data name="PivotView_EmptyReportMessage" xml:space="preserve">
+    <value>Geen rapporten gevonden !!</value>
+  </data>
+  <data name="PivotView_EndAt" xml:space="preserve">
+    <value>Eindigend op</value>
+  </data>
+  <data name="PivotView_EndsWith" xml:space="preserve">
+    <value>Eindigt met</value>
+  </data>
+  <data name="PivotView_EnterDate" xml:space="preserve">
+    <value>Voer datum in</value>
+  </data>
+  <data name="PivotView_EnterReportNameMessage" xml:space="preserve">
+    <value>Voer een rapportnaam in</value>
+  </data>
+  <data name="PivotView_EnterValue" xml:space="preserve">
+    <value>Voer de waarde in</value>
+  </data>
+  <data name="PivotView_Equals" xml:space="preserve">
+    <value>Is gelijk aan</value>
+  </data>
+  <data name="PivotView_Error" xml:space="preserve">
+    <value>Fout</value>
+  </data>
+  <data name="PivotView_Example" xml:space="preserve">
+    <value>bijv:</value>
+  </data>
+  <data name="PivotView_Excel" xml:space="preserve">
+    <value>Excel</value>
+  </data>
+  <data name="PivotView_Expand" xml:space="preserve">
+    <value>Uitbreiden</value>
+  </data>
+  <data name="PivotView_Export" xml:space="preserve">
+    <value>Exporteren</value>
+  </data>
+  <data name="PivotView_Expression" xml:space="preserve">
+    <value>Uitdrukking</value>
+  </data>
+  <data name="PivotView_False" xml:space="preserve">
+    <value>vals</value>
+  </data>
+  <data name="PivotView_FieldCaption" xml:space="preserve">
+    <value>Veldbijschrift</value>
+  </data>
+  <data name="PivotView_FieldCaptionMessage" xml:space="preserve">
+    <value>Veldbijschrift</value>
+  </data>
+  <data name="PivotView_FieldDropErrorMessage" xml:space="preserve">
+    <value>Het veld dat u verplaatst, kan niet in dat gebied van het rapport worden geplaatst</value>
+  </data>
+  <data name="PivotView_FieldName" xml:space="preserve">
+    <value>Veldnaam</value>
+  </data>
+  <data name="PivotView_FieldNameMessage" xml:space="preserve">
+    <value>Veldnaam :</value>
+  </data>
+  <data name="PivotView_FieldType" xml:space="preserve">
+    <value>Veld soort</value>
+  </data>
+  <data name="PivotView_Filter" xml:space="preserve">
+    <value>Filter</value>
+  </data>
+  <data name="PivotView_FilterAxisWatermark" xml:space="preserve">
+    <value>Zet het filter hier neer</value>
+  </data>
+  <data name="PivotView_Filtered" xml:space="preserve">
+    <value>Gefilterd</value>
+  </data>
+  <data name="PivotView_Filters" xml:space="preserve">
+    <value>Filters</value>
+  </data>
+  <data name="PivotView_Format" xml:space="preserve">
+    <value>Formaat</value>
+  </data>
+  <data name="PivotView_FormatString" xml:space="preserve">
+    <value>Tekenreeks opmaken</value>
+  </data>
+  <data name="PivotView_FormatType" xml:space="preserve">
+    <value>Type opmaak</value>
+  </data>
+  <data name="PivotView_Formula" xml:space="preserve">
+    <value>Formule</value>
+  </data>
+  <data name="PivotView_GrandTotal" xml:space="preserve">
+    <value>Eindtotaal</value>
+  </data>
+  <data name="PivotView_GrandTotals" xml:space="preserve">
+    <value>Eindtotalen</value>
+  </data>
+  <data name="PivotView_GreaterThan" xml:space="preserve">
+    <value>Groter dan</value>
+  </data>
+  <data name="PivotView_GreaterThanOrEqualTo" xml:space="preserve">
+    <value>Groter dan of gelijk aan</value>
+  </data>
+  <data name="PivotView_Group" xml:space="preserve">
+    <value>Groep</value>
+  </data>
+  <data name="PivotView_GroupCaptionMessage" xml:space="preserve">
+    <value>Voer het bijschrift in dat in de koptekst moet worden weergegeven</value>
+  </data>
+  <data name="PivotView_GroupFieldCaptionMessage" xml:space="preserve">
+    <value>Voer het bijschrift voor groepsveld in</value>
+  </data>
+  <data name="PivotView_Grouping" xml:space="preserve">
+    <value>Groepering</value>
+  </data>
+  <data name="PivotView_GroupName" xml:space="preserve">
+    <value>Groepsnaam</value>
+  </data>
+  <data name="PivotView_Hours" xml:space="preserve">
+    <value>Uren</value>
+  </data>
+  <data name="PivotView_Index" xml:space="preserve">
+    <value>Inhoudsopgave</value>
+  </data>
+  <data name="PivotView_IntervalBy" xml:space="preserve">
+    <value>Interval door</value>
+  </data>
+  <data name="PivotView_InvalidFormat" xml:space="preserve">
+    <value>Ongeldige indeling.</value>
+  </data>
+  <data name="PivotView_InvalidFormula" xml:space="preserve">
+    <value>Ongeldige formule.</value>
+  </data>
+  <data name="PivotView_InvalidGroupSelectionMessage" xml:space="preserve">
+    <value>Kan die selectie niet groeperen.</value>
+  </data>
+  <data name="PivotView_JPEG" xml:space="preserve">
+    <value>JPEG</value>
+  </data>
+  <data name="PivotView_Label" xml:space="preserve">
+    <value>Etiket</value>
+  </data>
+  <data name="PivotView_LabelTextMessage" xml:space="preserve">
+    <value>Toon de items waarvoor het label</value>
+  </data>
+  <data name="PivotView_Left" xml:space="preserve">
+    <value>Links</value>
+  </data>
+  <data name="PivotView_LessThan" xml:space="preserve">
+    <value>Minder dan</value>
+  </data>
+  <data name="PivotView_LessThanOrEqualTo" xml:space="preserve">
+    <value>Minder dan of gelijk aan</value>
+  </data>
+  <data name="PivotView_Line" xml:space="preserve">
+    <value>Lijn</value>
+  </data>
+  <data name="PivotView_LoadReport" xml:space="preserve">
+    <value>Laden</value>
+  </data>
+  <data name="PivotView_ManageRecords" xml:space="preserve">
+    <value>Beheer records</value>
+  </data>
+  <data name="PivotView_Max" xml:space="preserve">
+    <value>Max</value>
+  </data>
+  <data name="PivotView_MdxQuery" xml:space="preserve">
+    <value>MDX-zoekopdracht</value>
+  </data>
+  <data name="PivotView_Measure" xml:space="preserve">
+    <value>Meten</value>
+  </data>
+  <data name="PivotView_Member" xml:space="preserve">
+    <value>Lid</value>
+  </data>
+  <data name="PivotView_MemberLimitMessage" xml:space="preserve">
+    <value>meer items. Zoek om verder te verfijnen.</value>
+  </data>
+  <data name="PivotView_Min" xml:space="preserve">
+    <value>Min</value>
+  </data>
+  <data name="PivotView_Minutes" xml:space="preserve">
+    <value>Minuten</value>
+  </data>
+  <data name="PivotView_Months" xml:space="preserve">
+    <value>Maanden</value>
+  </data>
+  <data name="PivotView_MoreOption" xml:space="preserve">
+    <value>Meer...</value>
+  </data>
+  <data name="PivotView_MultipleItems" xml:space="preserve">
+    <value>Meerdere items</value>
+  </data>
+  <data name="PivotView_NewReport" xml:space="preserve">
+    <value>Maak een nieuw rapport</value>
+  </data>
+  <data name="PivotView_NewReportConfirmMessage" xml:space="preserve">
+    <value>Wilt u de wijzigingen in dit rapport opslaan?</value>
+  </data>
+  <data name="PivotView_NoFormatMessage" xml:space="preserve">
+    <value>Geen formaat gevonden !!!</value>
+  </data>
+  <data name="PivotView_NoInputMessage" xml:space="preserve">
+    <value>Voer een waarde in</value>
+  </data>
+  <data name="PivotView_NoMatchesMessage" xml:space="preserve">
+    <value>Geen overeenkomsten</value>
+  </data>
+  <data name="PivotView_NotBetween" xml:space="preserve">
+    <value>Niet tussen</value>
+  </data>
+  <data name="PivotView_NotEquals" xml:space="preserve">
+    <value>Is niet gelijk</value>
+  </data>
+  <data name="PivotView_NoValue" xml:space="preserve">
+    <value>Geen waarde</value>
+  </data>
+  <data name="PivotView_Null" xml:space="preserve">
+    <value>nul</value>
+  </data>
+  <data name="PivotView_Number" xml:space="preserve">
+    <value>Aantal</value>
+  </data>
+  <data name="PivotView_NumberFormatting" xml:space="preserve">
+    <value>Nummeropmaak</value>
+  </data>
+  <data name="PivotView_Of" xml:space="preserve">
+    <value>van</value>
+  </data>
+  <data name="PivotView_OK" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="PivotView_OutOfRange" xml:space="preserve">
+    <value>Buiten bereik</value>
+  </data>
+  <data name="PivotView_ParentHierarchy" xml:space="preserve">
+    <value>Bovenliggende hiërarchie</value>
+  </data>
+  <data name="PivotView_PDF" xml:space="preserve">
+    <value>PDF</value>
+  </data>
+  <data name="PivotView_Percent" xml:space="preserve">
+    <value>Procent</value>
+  </data>
+  <data name="PivotView_Percentage" xml:space="preserve">
+    <value>Percentage</value>
+  </data>
+  <data name="PivotView_PercentageOfColumnTotal" xml:space="preserve">
+    <value>% van kolomtotaal</value>
+  </data>
+  <data name="PivotView_PercentageOfDifferenceFrom" xml:space="preserve">
+    <value>% verschil van</value>
+  </data>
+  <data name="PivotView_PercentageOfGrandTotal" xml:space="preserve">
+    <value>% van eindtotaal</value>
+  </data>
+  <data name="PivotView_PercentageOfParentColumnTotal" xml:space="preserve">
+    <value>% van bovenliggend kolomtotaal</value>
+  </data>
+  <data name="PivotView_PercentageOfParentRowTotal" xml:space="preserve">
+    <value>% van bovenliggende rijtotaal</value>
+  </data>
+  <data name="PivotView_PercentageOfParentTotal" xml:space="preserve">
+    <value>% ouder totaal</value>
+  </data>
+  <data name="PivotView_PercentageOfRowTotal" xml:space="preserve">
+    <value>% van rij totaal</value>
+  </data>
+  <data name="PivotView_PNG" xml:space="preserve">
+    <value>PNG</value>
+  </data>
+  <data name="PivotView_Polar" xml:space="preserve">
+    <value>Polair</value>
+  </data>
+  <data name="PivotView_PopulationStDev" xml:space="preserve">
+    <value>Bevolking StDev</value>
+  </data>
+  <data name="PivotView_PopulationVar" xml:space="preserve">
+    <value>Bevolking Var</value>
+  </data>
+  <data name="PivotView_Product" xml:space="preserve">
+    <value>Product</value>
+  </data>
+  <data name="PivotView_Quarter" xml:space="preserve">
+    <value>Qtr</value>
+  </data>
+  <data name="PivotView_Quarters" xml:space="preserve">
+    <value>vertrekken</value>
+  </data>
+  <data name="PivotView_QuarterYear" xml:space="preserve">
+    <value>Kwartaaljaar</value>
+  </data>
+  <data name="PivotView_Remove" xml:space="preserve">
+    <value>Verwijderen</value>
+  </data>
+  <data name="PivotView_RemoveReportConfirmMessage" xml:space="preserve">
+    <value>Weet u zeker dat u dit rapport wilt verwijderen?</value>
+  </data>
+  <data name="PivotView_RenameReport" xml:space="preserve">
+    <value>Hernoem een huidig rapport</value>
+  </data>
+  <data name="PivotView_ReportList" xml:space="preserve">
+    <value>Rapport lijst</value>
+  </data>
+  <data name="PivotView_ReportNameMessage" xml:space="preserve">
+    <value>Rapportnaam:</value>
+  </data>
+  <data name="PivotView_Right" xml:space="preserve">
+    <value>Rechtsaf</value>
+  </data>
+  <data name="PivotView_Row" xml:space="preserve">
+    <value>Rij</value>
+  </data>
+  <data name="PivotView_RowAxisWatermark" xml:space="preserve">
+    <value>Zet hier een rij neer</value>
+  </data>
+  <data name="PivotView_Rows" xml:space="preserve">
+    <value>Rijen</value>
+  </data>
+  <data name="PivotView_RunningTotals" xml:space="preserve">
+    <value>Lopende totalen</value>
+  </data>
+  <data name="PivotView_SampleReport" xml:space="preserve">
+    <value>Voorbeeldrapport</value>
+  </data>
+  <data name="PivotView_SampleStDev" xml:space="preserve">
+    <value>Voorbeeld StDev</value>
+  </data>
+  <data name="PivotView_SampleVar" xml:space="preserve">
+    <value>Voorbeeld Var</value>
+  </data>
+  <data name="PivotView_SaveAsReport" xml:space="preserve">
+    <value>Opslaan als huidig rapport</value>
+  </data>
+  <data name="PivotView_SaveReport" xml:space="preserve">
+    <value>Sla een rapport op</value>
+  </data>
+  <data name="PivotView_Scatter" xml:space="preserve">
+    <value>Verstrooien</value>
+  </data>
+  <data name="PivotView_Search" xml:space="preserve">
+    <value>Zoeken</value>
+  </data>
+  <data name="PivotView_Seconds" xml:space="preserve">
+    <value>Seconden</value>
+  </data>
+  <data name="PivotView_SelectedItems" xml:space="preserve">
+    <value>Geselecteerde voorwerpen</value>
+  </data>
+  <data name="PivotView_SelectGroups" xml:space="preserve">
+    <value>Selecteer groepen</value>
+  </data>
+  <data name="PivotView_ShowColumnGrandTotalsOnly" xml:space="preserve">
+    <value>Alleen grote totalenkolommen weergeven</value>
+  </data>
+  <data name="PivotView_ShowColumnSubtotalsOnly" xml:space="preserve">
+    <value>Toon alleen subtotalenkolommen</value>
+  </data>
+  <data name="PivotView_ShowFieldList" xml:space="preserve">
+    <value>Lijst met velden tonen</value>
+  </data>
+  <data name="PivotView_ShowGrandTotals" xml:space="preserve">
+    <value>Eindtotalen weergeven</value>
+  </data>
+  <data name="PivotView_ShowRowGrandTotalsOnly" xml:space="preserve">
+    <value>Alleen grote totalen rijen weergeven</value>
+  </data>
+  <data name="PivotView_ShowRowSubtotalsOnly" xml:space="preserve">
+    <value>Toon alleen subtotaalrijen</value>
+  </data>
+  <data name="PivotView_ShowSubtotals" xml:space="preserve">
+    <value>Subtotalen weergeven</value>
+  </data>
+  <data name="PivotView_ShowTable" xml:space="preserve">
+    <value>Tabel weergeven</value>
+  </data>
+  <data name="PivotView_Sort" xml:space="preserve">
+    <value>Soort</value>
+  </data>
+  <data name="PivotView_Standard" xml:space="preserve">
+    <value>Standaard</value>
+  </data>
+  <data name="PivotView_StartAt" xml:space="preserve">
+    <value>Beginnend bij</value>
+  </data>
+  <data name="PivotView_Subtotals" xml:space="preserve">
+    <value>Subtotalen</value>
+  </data>
+  <data name="PivotView_Sum" xml:space="preserve">
+    <value>Som</value>
+  </data>
+  <data name="PivotView_Summaries" xml:space="preserve">
+    <value>Samenvattingen waarden door</value>
+  </data>
+  <data name="PivotView_SummarizeValuesBy" xml:space="preserve">
+    <value>Vat waarden samen door</value>
+  </data>
+  <data name="PivotView_SVG" xml:space="preserve">
+    <value>SVG</value>
+  </data>
+  <data name="PivotView_SymbolPosition" xml:space="preserve">
+    <value>Symbool positie</value>
+  </data>
+  <data name="PivotView_Total" xml:space="preserve">
+    <value>Totaal</value>
+  </data>
+  <data name="PivotView_True" xml:space="preserve">
+    <value>Klopt</value>
+  </data>
+  <data name="PivotView_Undefined" xml:space="preserve">
+    <value>ongedefinieerd</value>
+  </data>
+  <data name="PivotView_Ungroup" xml:space="preserve">
+    <value>Groep opheffen</value>
+  </data>
+  <data name="PivotView_ValidReportNameMessage" xml:space="preserve">
+    <value>Voer een geldige recordnaam in !!!</value>
+  </data>
+  <data name="PivotView_Value" xml:space="preserve">
+    <value>Waarde</value>
+  </data>
+  <data name="PivotView_ValueAxisWatermark" xml:space="preserve">
+    <value>Zet hier de waarde neer</value>
+  </data>
+  <data name="PivotView_ValueFieldSettings" xml:space="preserve">
+    <value>Waarde veldinstellingen</value>
+  </data>
+  <data name="PivotView_Values" xml:space="preserve">
+    <value>Waarden</value>
+  </data>
+  <data name="PivotView_ValueTextMessage" xml:space="preserve">
+    <value>Laat de items zien waarvoor</value>
+  </data>
+  <data name="PivotView_Warning" xml:space="preserve">
+    <value>Waarschuwing</value>
+  </data>
+  <data name="PivotView_Years" xml:space="preserve">
+    <value>Jaren</value>
+  </data>
+  <data name="PivotView_MultipleAxes" xml:space="preserve">
+    <value>Meerdere assen</value>
+  </data>
+  <data name="PivotView_ChartTypeSettings" xml:space="preserve">
+    <value>Instellingen voor diagramtypen</value>
+  </data>
+  <data name="PivotView_ChartType" xml:space="preserve">
+    <value>Diagramtype</value>
+  </data>
+  <data name="PivotView_Yes" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="PivotView_No" xml:space="preserve">
+    <value>Nee</value>
+  </data>
+  <data name="PivotView_NumberFormatMenu" xml:space="preserve">
+    <value>Nummeropmaak...</value>
+  </data>
+  <data name="PivotView_ConditionalFormatingMenu" xml:space="preserve">
+    <value>Conditionele opmaak...</value>
+  </data>
+  <data name="PivotView_CalculatedField_RemoveMessage" xml:space="preserve">
+    <value>Weet u zeker dat u dit berekende veld wilt verwijderen?</value>
+  </data>
+  <data name="PivotView_StackedArea" xml:space="preserve">
+    <value>Gestapeld gebied</value>
+  </data>
+  <data name="PivotView_StackedColumn" xml:space="preserve">
+    <value>Gestapelde kolom</value>
+  </data>
+  <data name="PivotView_StackedBar" xml:space="preserve">
+    <value>Gestapelde staaf</value>
+  </data>
+  <data name="PivotView_StepLine" xml:space="preserve">
+    <value>Stap lijn</value>
+  </data>
+  <data name="PivotView_StepArea" xml:space="preserve">
+    <value>Stapgebied</value>
+  </data>
+  <data name="PivotView_SplineArea" xml:space="preserve">
+    <value>Spline-gebied</value>
+  </data>
+  <data name="PivotView_Spline" xml:space="preserve">
+    <value>Spline</value>
+  </data>
+  <data name="PivotView_StackedColumn100" xml:space="preserve">
+    <value>100% gestapelde kolom</value>
+  </data>
+  <data name="PivotView_StackedBar100" xml:space="preserve">
+    <value>100% gestapelde staaf</value>
+  </data>
+  <data name="PivotView_StackedArea100" xml:space="preserve">
+    <value>100% gestapeld gebied</value>
+  </data>
+  <data name="PivotView_Bubble" xml:space="preserve">
+    <value>Bubbel</value>
+  </data>
+  <data name="PivotView_Pareto" xml:space="preserve">
+    <value>Pareto</value>
+  </data>
+  <data name="PivotView_Radar" xml:space="preserve">
+    <value>Radar</value>
+  </data>
+  <data name="PivotView_CalculatedField_EditTooltipMessage" xml:space="preserve">
+    <value>Bewerk berekend veld</value>
+  </data>
+  <data name="PivotView_CalculatedField_ClearTooltipMessage" xml:space="preserve">
+    <value>Wis veldinformatie bewerken</value>
+  </data>
+  <data name="PivotView_Pie" xml:space="preserve">
+    <value>Taart</value>
+  </data>
+  <data name="PivotView_Pyramid" xml:space="preserve">
+    <value>Piramide</value>
+  </data>
+  <data name="PivotView_Doughnut" xml:space="preserve">
+    <value>Donut</value>
+  </data>
+  <data name="PivotView_Funnel" xml:space="preserve">
+    <value>Trechter</value>
+  </data>
+  <data name="PivotView_Stacked" xml:space="preserve">
+    <value>Gestapeld</value>
+  </data>
+  <data name="PivotView_Grouped" xml:space="preserve">
+    <value>gegroepeerd</value>
+  </data>
+  <data name="PivotView_MultipleAxisMode" xml:space="preserve">
+    <value>Meerdere assen</value>
+  </data>
+  <data name="PivotView_Median" xml:space="preserve">
+    <value>Mediaan</value>
+  </data>
+  <data name="PivotView_Bottom" xml:space="preserve">
+    <value>Onderkant</value>
+  </data>
+  <data name="PivotView_GrandTotalPositions" xml:space="preserve">
+    <value>Eindtotaal Posities</value>
+  </data>
+  <data name="PivotView_Top" xml:space="preserve">
+    <value>Bovenkant</value>
+  </data>
+  <data name="QueryBuilder_AddCondition" xml:space="preserve">
+    <value>Voorwaarde toevoegen</value>
+  </data>
+  <data name="QueryBuilder_AddGroup" xml:space="preserve">
+    <value>Groep toevoegen</value>
+  </data>
+  <data name="QueryBuilder_AND" xml:space="preserve">
+    <value>EN</value>
+  </data>
+  <data name="QueryBuilder_Between" xml:space="preserve">
+    <value>Tussen</value>
+  </data>
+  <data name="QueryBuilder_Contains" xml:space="preserve">
+    <value>bevat</value>
+  </data>
+  <data name="QueryBuilder_DeleteGroup" xml:space="preserve">
+    <value>Groep verwijderen</value>
+  </data>
+  <data name="QueryBuilder_DeleteRule" xml:space="preserve">
+    <value>Verwijder deze voorwaarde</value>
+  </data>
+  <data name="QueryBuilder_Edit" xml:space="preserve">
+    <value>BEWERK</value>
+  </data>
+  <data name="QueryBuilder_Empty" xml:space="preserve">
+    <value>Leeg</value>
+  </data>
+  <data name="QueryBuilder_EndsWith" xml:space="preserve">
+    <value>Eindigt met</value>
+  </data>
+  <data name="QueryBuilder_Equal" xml:space="preserve">
+    <value>Gelijk</value>
+  </data>
+  <data name="QueryBuilder_GreaterThan" xml:space="preserve">
+    <value>Groter dan</value>
+  </data>
+  <data name="QueryBuilder_GreaterThanOrEqual" xml:space="preserve">
+    <value>Groter dan of gelijk aan</value>
+  </data>
+  <data name="QueryBuilder_In" xml:space="preserve">
+    <value>In</value>
+  </data>
+  <data name="QueryBuilder_LessThan" xml:space="preserve">
+    <value>Minder dan</value>
+  </data>
+  <data name="QueryBuilder_LessThanOrEqual" xml:space="preserve">
+    <value>Minder dan of gelijk</value>
+  </data>
+  <data name="QueryBuilder_NotBetween" xml:space="preserve">
+    <value>Niet tussen</value>
+  </data>
+  <data name="QueryBuilder_NotContains" xml:space="preserve">
+    <value>Bevat niet</value>
+  </data>
+  <data name="QueryBuilder_NotEmpty" xml:space="preserve">
+    <value>Niet leeg</value>
+  </data>
+  <data name="QueryBuilder_NotEqual" xml:space="preserve">
+    <value>Niet gelijk</value>
+  </data>
+  <data name="QueryBuilder_NotIn" xml:space="preserve">
+    <value>Niet in</value>
+  </data>
+  <data name="QueryBuilder_OR" xml:space="preserve">
+    <value>OF</value>
+  </data>
+  <data name="QueryBuilder_OtherFields" xml:space="preserve">
+    <value>Andere velden</value>
+  </data>
+  <data name="QueryBuilder_Remove" xml:space="preserve">
+    <value>VERWIJDEREN</value>
+  </data>
+  <data name="QueryBuilder_SelectField" xml:space="preserve">
+    <value>Selecteer een veld</value>
+  </data>
+  <data name="QueryBuilder_SelectOperator" xml:space="preserve">
+    <value>Selecteer operator</value>
+  </data>
+  <data name="QueryBuilder_SelectValue" xml:space="preserve">
+    <value>Voer waarde in</value>
+  </data>
+  <data name="QueryBuilder_StartsWith" xml:space="preserve">
+    <value>Begint met</value>
+  </data>
+  <data name="QueryBuilder_SummaryViewTitle" xml:space="preserve">
+    <value>Overzichtsweergave</value>
+  </data>
+  <data name="QueryBuilder_ValidationMessage" xml:space="preserve">
+    <value>dit veld is verplicht</value>
+  </data>
+  <data name="Dialog_Close" xml:space="preserve">
+    <value>Sluiten</value>
+  </data>
+  <data name="Toast_Close" xml:space="preserve">
+    <value>Dichtbij</value>
+  </data>
+  <data name="InPlaceEditor_Save" xml:space="preserve">
+    <value>Opslaan</value>
+  </data>
+  <data name="InPlaceEditor_Cancel" xml:space="preserve">
+    <value>annuleren</value>
+  </data>
+  <data name="InPlaceEditor_LoadingText" xml:space="preserve">
+    <value>Bezig met laden...</value>
+  </data>
+  <data name="InPlaceEditor_EditIcon" xml:space="preserve">
+    <value>Klik om te bewerken</value>
+  </data>
+  <data name="InPlaceEditor_EditAreaClick" xml:space="preserve">
+    <value>Klik om te bewerken</value>
+  </data>
+  <data name="InPlaceEditor_EditAreaDoubleClick" xml:space="preserve">
+    <value>Dubbelklik om te bewerken</value>
+  </data>
+  <data name="Kanban_Items" xml:space="preserve">
+    <value>artikelen</value>
+  </data>
+  <data name="Kanban_Item" xml:space="preserve">
+    <value>item</value>
+  </data>
+  <data name="Kanban_No_Cards" xml:space="preserve">
+    <value>Geen kaarten om weer te geven</value>
+  </data>
+  <data name="Kanban_Min" xml:space="preserve">
+    <value>min</value>
+  </data>
+  <data name="Kanban_Max" xml:space="preserve">
+    <value>Max</value>
+  </data>
+  <data name="Kanban_CardsSelected" xml:space="preserve">
+    <value>Geselecteerde kaarten</value>
+  </data>
+  <data name="Kanban_AddTitle" xml:space="preserve">
+    <value>Nieuwe kaart toevoegen</value>
+  </data>
+  <data name="Kanban_EditTitle" xml:space="preserve">
+    <value>Kaartgegevens bewerken</value>
+  </data>
+  <data name="Kanban_DeleteTitle" xml:space="preserve">
+    <value>Kaart verwijderen</value>
+  </data>
+  <data name="Kanban_DeleteContent" xml:space="preserve">
+    <value>Weet je zeker dat je deze kaart wilt verwijderen?</value>
+  </data>
+  <data name="Kanban_Save" xml:space="preserve">
+    <value>Sparen</value>
+  </data>
+  <data name="Kanban_Delete" xml:space="preserve">
+    <value>Verwijderen</value>
+  </data>
+  <data name="Kanban_Cancel" xml:space="preserve">
+    <value>Annuleer</value>
+  </data>
+  <data name="Kanban_Yes" xml:space="preserve">
+    <value>Ja</value>
+  </data>
+  <data name="Kanban_No" xml:space="preserve">
+    <value>Nee</value>
+  </data>
+  <data name="RichTextEditor_NumberFormatListNone" xml:space="preserve">
+    <value>Geen</value>
+  </data>
+  <data name="RichTextEditor_NumberFormatListNumber" xml:space="preserve">
+    <value>Aantal</value>
+  </data>
+  <data name="RichTextEditor_NumberFormatListUpperAlpha" xml:space="preserve">
+    <value>Hogere Alpha</value>
+  </data>
+  <data name="RichTextEditor_NumberFormatListLowerAlpha" xml:space="preserve">
+    <value>Lagere Alpha</value>
+  </data>
+  <data name="RichTextEditor_NumberFormatListUpperRoman" xml:space="preserve">
+    <value>Boven-Romeins</value>
+  </data>
+  <data name="RichTextEditor_NumberFormatListLowerRoman" xml:space="preserve">
+    <value>Lagere Roman</value>
+  </data>
+  <data name="RichTextEditor_NumberFormatListLowerGreek" xml:space="preserve">
+    <value>Lagere Grieks</value>
+  </data>
+  <data name="RichTextEditor_BulletFormatListNone" xml:space="preserve">
+    <value>Geen</value>
+  </data>
+  <data name="RichTextEditor_BulletFormatListCircle" xml:space="preserve">
+    <value>Cirkel</value>
+  </data>
+  <data name="RichTextEditor_BulletFormatListSquare" xml:space="preserve">
+    <value>Plein</value>
+  </data>
+  <data name="RichTextEditor_BulletFormatListDisc" xml:space="preserve">
+    <value>Schijf</value>
+  </data>
+  <data name="RichTextEditor_FormatsDropDownParagraph" xml:space="preserve">
+    <value>Paragraaf</value>
+  </data>
+  <data name="RichTextEditor_FormatsDropDownCode" xml:space="preserve">
+    <value>Code</value>
+  </data>
+  <data name="RichTextEditor_FormatsDropDownQuotation" xml:space="preserve">
+    <value>Citaat</value>
+  </data>
+  <data name="RichTextEditor_FormatsDropDownHeading1" xml:space="preserve">
+    <value>Rubriek 1</value>
+  </data>
+  <data name="RichTextEditor_FormatsDropDownHeading2" xml:space="preserve">
+    <value>Rubriek 2</value>
+  </data>
+  <data name="RichTextEditor_FormatsDropDownHeading3" xml:space="preserve">
+    <value>Rubriek 3</value>
+  </data>
+  <data name="RichTextEditor_FormatsDropDownHeading4" xml:space="preserve">
+    <value>Rubriek  4</value>
+  </data>
+  <data name="RichTextEditor_FormatsDropDownHeading5" xml:space="preserve">
+    <value>Rubriek  5</value>
+  </data>
+  <data name="RichTextEditor_FormatsDropDownHeading6" xml:space="preserve">
+    <value>Rubriek   6</value>
+  </data>
+  <data name="RichTextEditor_FontNameSegoeUI" xml:space="preserve">
+    <value>Segoe gebruikersinterface</value>
+  </data>
+  <data name="RichTextEditor_FontNameArial" xml:space="preserve">
+    <value>Arial</value>
+  </data>
+  <data name="RichTextEditor_FontNameGeorgia" xml:space="preserve">
+    <value>Georgië</value>
+  </data>
+  <data name="RichTextEditor_FontNameImpact" xml:space="preserve">
+    <value>Gevolg</value>
+  </data>
+  <data name="RichTextEditor_FontNameTahoma" xml:space="preserve">
+    <value>Tahoma</value>
+  </data>
+  <data name="RichTextEditor_FontNameTimesNewRoman" xml:space="preserve">
+    <value>Keer nieuw romeinse</value>
+  </data>
+  <data name="RichTextEditor_FontNameVerdana" xml:space="preserve">
+    <value>Verdana</value>
+  </data>
+  <data name="RichTextEditor_Alignments" xml:space="preserve">
+    <value>alignementen</value>
+  </data>
+  <data name="RichTextEditor_JustifyLeft" xml:space="preserve">
+    <value>Links uitlijnen</value>
+  </data>
+  <data name="RichTextEditor_JustifyCenter" xml:space="preserve">
+    <value>Tekst in het midden uitlijnen</value>
+  </data>
+  <data name="RichTextEditor_JustifyRight" xml:space="preserve">
+    <value>Rechts uitlijnen</value>
+  </data>
+  <data name="RichTextEditor_JustifyFull" xml:space="preserve">
+    <value>Uitlijnen Rechtvaardigen</value>
+  </data>
+  <data name="RichTextEditor_FontName" xml:space="preserve">
+    <value>Lettertypenaam</value>
+  </data>
+  <data name="RichTextEditor_FontSize" xml:space="preserve">
+    <value>Lettertypegrootte</value>
+  </data>
+  <data name="RichTextEditor_FontColor" xml:space="preserve">
+    <value>Letterkleur</value>
+  </data>
+  <data name="RichTextEditor_BackgroundColor" xml:space="preserve">
+    <value>Achtergrond kleur</value>
+  </data>
+  <data name="RichTextEditor_Bold" xml:space="preserve">
+    <value>Stoutmoedig</value>
+  </data>
+  <data name="RichTextEditor_Italic" xml:space="preserve">
+    <value>Cursief</value>
+  </data>
+  <data name="RichTextEditor_Underline" xml:space="preserve">
+    <value>Onderstrepen</value>
+  </data>
+  <data name="RichTextEditor_Strikethrough" xml:space="preserve">
+    <value>doorhalen</value>
+  </data>
+  <data name="RichTextEditor_ClearFormat" xml:space="preserve">
+    <value>Formaat wissen</value>
+  </data>
+  <data name="RichTextEditor_ClearAll" xml:space="preserve">
+    <value>Wis alles</value>
+  </data>
+  <data name="RichTextEditor_Cut" xml:space="preserve">
+    <value>Knippen</value>
+  </data>
+  <data name="RichTextEditor_Copy" xml:space="preserve">
+    <value>Kopiëren</value>
+  </data>
+  <data name="RichTextEditor_Paste" xml:space="preserve">
+    <value>Plakken</value>
+  </data>
+  <data name="RichTextEditor_UnorderedList" xml:space="preserve">
+    <value>Lijst met opsommingstekens</value>
+  </data>
+  <data name="RichTextEditor_OrderedList" xml:space="preserve">
+    <value>Genummerde lijst</value>
+  </data>
+  <data name="RichTextEditor_Indent" xml:space="preserve">
+    <value>Inspringen vergroten</value>
+  </data>
+  <data name="RichTextEditor_Outdent" xml:space="preserve">
+    <value>Inspringen verminderen</value>
+  </data>
+  <data name="RichTextEditor_Undo" xml:space="preserve">
+    <value>Undo</value>
+  </data>
+  <data name="RichTextEditor_Redo" xml:space="preserve">
+    <value>Opnieuw doen</value>
+  </data>
+  <data name="RichTextEditor_Superscript" xml:space="preserve">
+    <value>Superscript</value>
+  </data>
+  <data name="RichTextEditor_Subscript" xml:space="preserve">
+    <value>Onderschrift</value>
+  </data>
+  <data name="RichTextEditor_CreateLink" xml:space="preserve">
+    <value>Voeg hyperlink in</value>
+  </data>
+  <data name="RichTextEditor_OpenLink" xml:space="preserve">
+    <value>Open Link</value>
+  </data>
+  <data name="RichTextEditor_EditLink" xml:space="preserve">
+    <value>Link bewerken</value>
+  </data>
+  <data name="RichTextEditor_RemoveLink" xml:space="preserve">
+    <value>Link verwijderen</value>
+  </data>
+  <data name="RichTextEditor_Image" xml:space="preserve">
+    <value>Voeg afbeelding in</value>
+  </data>
+  <data name="RichTextEditor_Replace" xml:space="preserve">
+    <value>Vervangen</value>
+  </data>
+  <data name="RichTextEditor_Align" xml:space="preserve">
+    <value>Align</value>
+  </data>
+  <data name="RichTextEditor_Caption" xml:space="preserve">
+    <value>Afbeelding bijschrift</value>
+  </data>
+  <data name="RichTextEditor_Remove" xml:space="preserve">
+    <value>Verwijderen</value>
+  </data>
+  <data name="RichTextEditor_InsertLink" xml:space="preserve">
+    <value>Link invoegen</value>
+  </data>
+  <data name="RichTextEditor_Display" xml:space="preserve">
+    <value>Scherm</value>
+  </data>
+  <data name="RichTextEditor_AltText" xml:space="preserve">
+    <value>alternatieve tekst</value>
+  </data>
+  <data name="RichTextEditor_Dimension" xml:space="preserve">
+    <value>Wijzig de grootte</value>
+  </data>
+  <data name="RichTextEditor_Fullscreen" xml:space="preserve">
+    <value>Maximaliseren</value>
+  </data>
+  <data name="RichTextEditor_Maximize" xml:space="preserve">
+    <value>Maximaliseren</value>
+  </data>
+  <data name="RichTextEditor_Minimize" xml:space="preserve">
+    <value>verkleinen</value>
+  </data>
+  <data name="RichTextEditor_LowerCase" xml:space="preserve">
+    <value>Kleine letters</value>
+  </data>
+  <data name="RichTextEditor_UpperCase" xml:space="preserve">
+    <value>Hoofdletters</value>
+  </data>
+  <data name="RichTextEditor_Print" xml:space="preserve">
+    <value>Afdrukken</value>
+  </data>
+  <data name="RichTextEditor_Formats" xml:space="preserve">
+    <value>formats</value>
+  </data>
+  <data name="RichTextEditor_Sourcecode" xml:space="preserve">
+    <value>Codeweergave</value>
+  </data>
+  <data name="RichTextEditor_Preview" xml:space="preserve">
+    <value>Voorbeeld</value>
+  </data>
+  <data name="RichTextEditor_Viewside" xml:space="preserve">
+    <value>ViewSide</value>
+  </data>
+  <data name="RichTextEditor_InsertCode" xml:space="preserve">
+    <value>Voeg code in</value>
+  </data>
+  <data name="RichTextEditor_LinkText" xml:space="preserve">
+    <value>Tekst weergeven</value>
+  </data>
+  <data name="RichTextEditor_LinkTooltipLabel" xml:space="preserve">
+    <value>Titel</value>
+  </data>
+  <data name="RichTextEditor_LinkWebUrl" xml:space="preserve">
+    <value>Webadres</value>
+  </data>
+  <data name="RichTextEditor_LinkTitle" xml:space="preserve">
+    <value>Voer een titel in</value>
+  </data>
+  <data name="RichTextEditor_LinkUrl" xml:space="preserve">
+    <value>http://example.com</value>
+  </data>
+  <data name="RichTextEditor_LinkOpenInNewWindow" xml:space="preserve">
+    <value>Open de link in een nieuw venster</value>
+  </data>
+  <data name="RichTextEditor_LinkHeader" xml:space="preserve">
+    <value>Link invoegen</value>
+  </data>
+  <data name="RichTextEditor_DialogInsert" xml:space="preserve">
+    <value>invoegen</value>
+  </data>
+  <data name="RichTextEditor_DialogCancel" xml:space="preserve">
+    <value>annuleren</value>
+  </data>
+  <data name="RichTextEditor_DialogUpdate" xml:space="preserve">
+    <value>Bijwerken</value>
+  </data>
+  <data name="RichTextEditor_ImageHeader" xml:space="preserve">
+    <value>Voeg afbeelding in</value>
+  </data>
+  <data name="RichTextEditor_ImageLinkHeader" xml:space="preserve">
+    <value>U kunt ook een link van internet opgeven</value>
+  </data>
+  <data name="RichTextEditor_MdImageLink" xml:space="preserve">
+    <value>Geef een URL op voor uw afbeelding</value>
+  </data>
+  <data name="RichTextEditor_ImageUploadMessage" xml:space="preserve">
+    <value>Zet de afbeelding hier neer of blader om te uploaden</value>
+  </data>
+  <data name="RichTextEditor_ImageDeviceUploadMessage" xml:space="preserve">
+    <value>Klik hier om te uploaden</value>
+  </data>
+  <data name="RichTextEditor_ImageAlternateText" xml:space="preserve">
+    <value>Alternatieve tekst</value>
+  </data>
+  <data name="RichTextEditor_AlternateHeader" xml:space="preserve">
+    <value>Alternatieve tekst</value>
+  </data>
+  <data name="RichTextEditor_Browse" xml:space="preserve">
+    <value>Bladeren</value>
+  </data>
+  <data name="RichTextEditor_ImageUrl" xml:space="preserve">
+    <value>http://example.com/image.png</value>
+  </data>
+  <data name="RichTextEditor_ImageCaption" xml:space="preserve">
+    <value>Onderschrift</value>
+  </data>
+  <data name="RichTextEditor_ImageSizeHeader" xml:space="preserve">
+    <value>Afbeeldingsgrootte</value>
+  </data>
+  <data name="RichTextEditor_ImageHeight" xml:space="preserve">
+    <value>Hoogte</value>
+  </data>
+  <data name="RichTextEditor_ImageWidth" xml:space="preserve">
+    <value>Breedte</value>
+  </data>
+  <data name="RichTextEditor_TextPlaceholder" xml:space="preserve">
+    <value>Voer tekst in</value>
+  </data>
+  <data name="RichTextEditor_InsertTableBtn" xml:space="preserve">
+    <value>Tabel invoegen</value>
+  </data>
+  <data name="RichTextEditor_TableDialogHeader" xml:space="preserve">
+    <value>Tabel invoegen</value>
+  </data>
+  <data name="RichTextEditor_TableWidth" xml:space="preserve">
+    <value>Breedte</value>
+  </data>
+  <data name="RichTextEditor_Cellpadding" xml:space="preserve">
+    <value>Opvulling van cellen</value>
+  </data>
+  <data name="RichTextEditor_Cellspacing" xml:space="preserve">
+    <value>Celafstand</value>
+  </data>
+  <data name="RichTextEditor_Columns" xml:space="preserve">
+    <value>Aantal columns</value>
+  </data>
+  <data name="RichTextEditor_Rows" xml:space="preserve">
+    <value>Aantal rijen</value>
+  </data>
+  <data name="RichTextEditor_TableRows" xml:space="preserve">
+    <value>Tafelrijen</value>
+  </data>
+  <data name="RichTextEditor_TableColumns" xml:space="preserve">
+    <value>Tabelkolommen</value>
+  </data>
+  <data name="RichTextEditor_TableCellHorizontalAlign" xml:space="preserve">
+    <value>Tabelcel Horizontaal uitlijnen</value>
+  </data>
+  <data name="RichTextEditor_TableCellVerticalAlign" xml:space="preserve">
+    <value>Tabelcel Verticaal uitlijnen</value>
+  </data>
+  <data name="RichTextEditor_CreateTable" xml:space="preserve">
+    <value>Maak een tabel aan</value>
+  </data>
+  <data name="RichTextEditor_RemoveTable" xml:space="preserve">
+    <value>Verwijder tabel</value>
+  </data>
+  <data name="RichTextEditor_TableHeader" xml:space="preserve">
+    <value>Tabelkop</value>
+  </data>
+  <data name="RichTextEditor_TableRemove" xml:space="preserve">
+    <value>Tafel verwijderen</value>
+  </data>
+  <data name="RichTextEditor_TableCellBackground" xml:space="preserve">
+    <value>Achtergrond van tabelcellen</value>
+  </data>
+  <data name="RichTextEditor_TableEditProperties" xml:space="preserve">
+    <value>Tabel Bewerk eigenschappen</value>
+  </data>
+  <data name="RichTextEditor_Styles" xml:space="preserve">
+    <value>stijlen</value>
+  </data>
+  <data name="RichTextEditor_InsertColumnLeft" xml:space="preserve">
+    <value>Kolom links invoegen</value>
+  </data>
+  <data name="RichTextEditor_InsertColumnRight" xml:space="preserve">
+    <value>Kolom rechts invoegen</value>
+  </data>
+  <data name="RichTextEditor_DeleteColumn" xml:space="preserve">
+    <value>Kolom verwijderen</value>
+  </data>
+  <data name="RichTextEditor_InsertRowBefore" xml:space="preserve">
+    <value>Rij vóór invoegen</value>
+  </data>
+  <data name="RichTextEditor_InsertRowAfter" xml:space="preserve">
+    <value>Rij invoegen na</value>
+  </data>
+  <data name="RichTextEditor_DeleteRow" xml:space="preserve">
+    <value>Verwijder rij</value>
+  </data>
+  <data name="RichTextEditor_TableEditHeader" xml:space="preserve">
+    <value>Tabel bewerken</value>
+  </data>
+  <data name="RichTextEditor_TableHeadingText" xml:space="preserve">
+    <value>Rubriek</value>
+  </data>
+  <data name="RichTextEditor_TableColText" xml:space="preserve">
+    <value>Col</value>
+  </data>
+  <data name="RichTextEditor_ImageInsertLinkHeader" xml:space="preserve">
+    <value>Link invoegen</value>
+  </data>
+  <data name="RichTextEditor_EditImageHeader" xml:space="preserve">
+    <value>Bewerk afbeelding</value>
+  </data>
+  <data name="RichTextEditor_AlignmentsDropDownLeft" xml:space="preserve">
+    <value>Links uitlijnen</value>
+  </data>
+  <data name="RichTextEditor_AlignmentsDropDownCenter" xml:space="preserve">
+    <value>Tekst in het midden uitlijnen</value>
+  </data>
+  <data name="RichTextEditor_AlignmentsDropDownRight" xml:space="preserve">
+    <value>Rechts uitlijnen</value>
+  </data>
+  <data name="RichTextEditor_AlignmentsDropDownJustify" xml:space="preserve">
+    <value>Uitlijnen Rechtvaardigen</value>
+  </data>
+  <data name="RichTextEditor_ImageDisplayDropDownInline" xml:space="preserve">
+    <value>In lijn</value>
+  </data>
+  <data name="RichTextEditor_ImageDisplayDropDownBreak" xml:space="preserve">
+    <value>Breken</value>
+  </data>
+  <data name="RichTextEditor_TableInsertRowDropDownBefore" xml:space="preserve">
+    <value>Rij vóór invoegen</value>
+  </data>
+  <data name="RichTextEditor_TableInsertRowDropDownAfter" xml:space="preserve">
+    <value>Rij invoegen na</value>
+  </data>
+  <data name="RichTextEditor_TableInsertRowDropDownDelete" xml:space="preserve">
+    <value>Verwijder rij</value>
+  </data>
+  <data name="RichTextEditor_TableInsertColumnDropDownLeft" xml:space="preserve">
+    <value>Kolom links invoegen</value>
+  </data>
+  <data name="RichTextEditor_TableInsertColumnDropDownRight" xml:space="preserve">
+    <value>Kolom rechts invoegen</value>
+  </data>
+  <data name="RichTextEditor_TableInsertColumnDropDownDelete" xml:space="preserve">
+    <value>Kolom verwijderen</value>
+  </data>
+  <data name="RichTextEditor_TableVerticalAlignDropDownTop" xml:space="preserve">
+    <value>Boven uitlijnen</value>
+  </data>
+  <data name="RichTextEditor_TableVerticalAlignDropDownMiddle" xml:space="preserve">
+    <value>Midden uitlijnen</value>
+  </data>
+  <data name="RichTextEditor_TableVerticalAlignDropDownBottom" xml:space="preserve">
+    <value>Onder uitlijnen</value>
+  </data>
+  <data name="RichTextEditor_TableStylesDropDownDashedBorder" xml:space="preserve">
+    <value>Gestreepte randen</value>
+  </data>
+  <data name="RichTextEditor_TableStylesDropDownAlternateRows" xml:space="preserve">
+    <value>Alternatieve rijen</value>
+  </data>
+  <data name="RichTextEditor_PasteFormat" xml:space="preserve">
+    <value>Formaat plakken</value>
+  </data>
+  <data name="RichTextEditor_PasteFormatContent" xml:space="preserve">
+    <value>Kies de opmaakactie</value>
+  </data>
+  <data name="RichTextEditor_PlainText" xml:space="preserve">
+    <value>Platte tekst</value>
+  </data>
+  <data name="RichTextEditor_CleanFormat" xml:space="preserve">
+    <value>Schoon</value>
+  </data>
+  <data name="RichTextEditor_KeepFormat" xml:space="preserve">
+    <value>Houden</value>
+  </data>
+  <data name="RichTextEditor_PasteDialogOk" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="RichTextEditor_PasteDialogCancel" xml:space="preserve">
+    <value>annuleren</value>
+  </data>
+  <data name="DiagramComponent_X" xml:space="preserve">
+    <value>X</value>
+  </data>
+  <data name="DiagramComponent_Y" xml:space="preserve">
+    <value>Y</value>
+  </data>
+  <data name="DiagramComponent_W" xml:space="preserve">
+    <value>W</value>
+  </data>
+  <data name="DiagramComponent_H" xml:space="preserve">
+    <value>H</value>
+  </data>
+  <data name="Diagram_BringToFront" xml:space="preserve">
+    <value>Naar voren brengen</value>
+  </data>
+  <data name="Diagram_Copy" xml:space="preserve">
+    <value>Kopiëren</value>
+  </data>
+  <data name="Diagram_Cut" xml:space="preserve">
+    <value>Besnoeiing</value>
+  </data>
+  <data name="Diagram_Group" xml:space="preserve">
+    <value>Groep</value>
+  </data>
+  <data name="Diagram_Grouping" xml:space="preserve">
+    <value>Groepering</value>
+  </data>
+  <data name="Diagram_MoveForward" xml:space="preserve">
+    <value>ga vooruit</value>
+  </data>
+  <data name="Diagram_Order" xml:space="preserve">
+    <value>Bestellen</value>
+  </data>
+  <data name="Diagram_Paste" xml:space="preserve">
+    <value>Plakken</value>
+  </data>
+  <data name="Diagram_Redo" xml:space="preserve">
+    <value>Opnieuw doen</value>
+  </data>
+  <data name="Diagram_SelectAll" xml:space="preserve">
+    <value>Selecteer alles</value>
+  </data>
+  <data name="Diagram_SendBackward" xml:space="preserve">
+    <value>Terug sturen</value>
+  </data>
+  <data name="Diagram_SendToBack" xml:space="preserve">
+    <value>Verzenden naar terug</value>
+  </data>
+  <data name="Diagram_Undo" xml:space="preserve">
+    <value>Ongedaan maken</value>
+  </data>
+  <data name="Diagram_UnGroup" xml:space="preserve">
+    <value>Groep opheffen</value>
+  </data>
+  <data name="Grid_EmptyRecord" xml:space="preserve">
+    <value>Geen records om weer te geven</value>
+  </data>
+  <data name="Grid_True" xml:space="preserve">
+    <value>waar</value>
+  </data>
+  <data name="Grid_False" xml:space="preserve">
+    <value>vals</value>
+  </data>
+  <data name="Grid_InvalidFilterMessage" xml:space="preserve">
+    <value>Ongeldige filtergegevens</value>
+  </data>
+  <data name="Grid_GroupDropArea" xml:space="preserve">
+    <value>Sleep een kolomkop hierheen om de kolom te groeperen</value>
+  </data>
+  <data name="Grid_UnGroupButton" xml:space="preserve">
+    <value>Klik hier om te degroeperen</value>
+  </data>
+  <data name="Grid_GroupDisable" xml:space="preserve">
+    <value>Groeperen is uitgeschakeld voor deze kolom</value>
+  </data>
+  <data name="Grid_FilterbarTitle" xml:space="preserve">
+    <value>"s filterbalkcel</value>
+  </data>
+  <data name="Grid_EmptyDataSourceError" xml:space="preserve">
+    <value>DataSource mag niet leeg zijn bij de eerste laadactie, omdat kolommen worden gegenereerd vanuit dataSource in AutoGenerate Column Grid</value>
+  </data>
+  <data name="Grid_Add" xml:space="preserve">
+    <value>Toevoegen</value>
+  </data>
+  <data name="Grid_Edit" xml:space="preserve">
+    <value>Bewerk</value>
+  </data>
+  <data name="Grid_Cancel" xml:space="preserve">
+    <value>annuleren</value>
+  </data>
+  <data name="Grid_Update" xml:space="preserve">
+    <value>Bijwerken</value>
+  </data>
+  <data name="Grid_Delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="Grid_Print" xml:space="preserve">
+    <value>Afdrukken</value>
+  </data>
+  <data name="Grid_Pdfexport" xml:space="preserve">
+    <value>PDF exporteren</value>
+  </data>
+  <data name="Grid_Excelexport" xml:space="preserve">
+    <value>Excel exporteren</value>
+  </data>
+  <data name="Grid_Wordexport" xml:space="preserve">
+    <value>Woord exporteren</value>
+  </data>
+  <data name="Grid_Csvexport" xml:space="preserve">
+    <value>CSV-export</value>
+  </data>
+  <data name="Grid_Search" xml:space="preserve">
+    <value>Zoeken</value>
+  </data>
+  <data name="Grid_Columnchooser" xml:space="preserve">
+    <value>columns</value>
+  </data>
+  <data name="Grid_Save" xml:space="preserve">
+    <value>Opslaan</value>
+  </data>
+  <data name="Grid_Item" xml:space="preserve">
+    <value>item</value>
+  </data>
+  <data name="Grid_Items" xml:space="preserve">
+    <value>items</value>
+  </data>
+  <data name="Grid_EditOperationAlert" xml:space="preserve">
+    <value>Geen records geselecteerd voor bewerking</value>
+  </data>
+  <data name="Grid_DeleteOperationAlert" xml:space="preserve">
+    <value>Geen records geselecteerd voor wisbewerking</value>
+  </data>
+  <data name="Grid_SaveButton" xml:space="preserve">
+    <value>Opslaan</value>
+  </data>
+  <data name="Grid_OKButton" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="Grid_CancelButton" xml:space="preserve">
+    <value>annuleren</value>
+  </data>
+  <data name="Grid_EditFormTitle" xml:space="preserve">
+    <value>Details van</value>
+  </data>
+  <data name="Grid_AddFormTitle" xml:space="preserve">
+    <value>Nieuw record toevoegen</value>
+  </data>
+  <data name="Grid_BatchSaveConfirm" xml:space="preserve">
+    <value>Weet u zeker dat u wijzigingen wilt opslaan?</value>
+  </data>
+  <data name="Grid_BatchSaveLostChanges" xml:space="preserve">
+    <value>Niet-opgeslagen wijzigingen gaan verloren. Weet je zeker dat je door wilt gaan?</value>
+  </data>
+  <data name="Grid_ConfirmDelete" xml:space="preserve">
+    <value>Weet u zeker dat u record wilt verwijderen?</value>
+  </data>
+  <data name="Grid_CancelEdit" xml:space="preserve">
+    <value>Weet u zeker dat u de wijzigingen wilt annuleren?</value>
+  </data>
+  <data name="Grid_ChooseColumns" xml:space="preserve">
+    <value>Kies kolom</value>
+  </data>
+  <data name="Grid_SearchColumns" xml:space="preserve">
+    <value>zoek kolommen</value>
+  </data>
+  <data name="Grid_Matchs" xml:space="preserve">
+    <value>Geen overeenkomsten gevonden</value>
+  </data>
+  <data name="Grid_FilterButton" xml:space="preserve">
+    <value>Filter</value>
+  </data>
+  <data name="Grid_ClearButton" xml:space="preserve">
+    <value>Doorzichtig</value>
+  </data>
+  <data name="Grid_StartsWith" xml:space="preserve">
+    <value>Begint met</value>
+  </data>
+  <data name="Grid_EndsWith" xml:space="preserve">
+    <value>Eindigt met</value>
+  </data>
+  <data name="Grid_Contains" xml:space="preserve">
+    <value>bevat</value>
+  </data>
+  <data name="Grid_Equal" xml:space="preserve">
+    <value>Gelijk</value>
+  </data>
+  <data name="Grid_NotEqual" xml:space="preserve">
+    <value>Niet gelijk</value>
+  </data>
+  <data name="Grid_LessThan" xml:space="preserve">
+    <value>Minder dan</value>
+  </data>
+  <data name="Grid_LessThanOrEqual" xml:space="preserve">
+    <value>Minder dan of gelijk</value>
+  </data>
+  <data name="Grid_GreaterThan" xml:space="preserve">
+    <value>Groter dan</value>
+  </data>
+  <data name="Grid_GreaterThanOrEqual" xml:space="preserve">
+    <value>Groter dan of gelijk aan</value>
+  </data>
+  <data name="Grid_ChooseDate" xml:space="preserve">
+    <value>Kies een datum</value>
+  </data>
+  <data name="Grid_EnterValue" xml:space="preserve">
+    <value>Voer de waarde in</value>
+  </data>
+  <data name="Grid_Copy" xml:space="preserve">
+    <value>Kopiëren</value>
+  </data>
+  <data name="Grid_Group" xml:space="preserve">
+    <value>Groeperen op deze kolom</value>
+  </data>
+  <data name="Grid_Ungroup" xml:space="preserve">
+    <value>Degroeperen via deze kolom</value>
+  </data>
+  <data name="Grid_AutoFitAll" xml:space="preserve">
+    <value>Alle kolommen automatisch aanpassen</value>
+  </data>
+  <data name="Grid_AutoFit" xml:space="preserve">
+    <value>Auto Fit deze kolom</value>
+  </data>
+  <data name="Grid_Export" xml:space="preserve">
+    <value>Exporteren</value>
+  </data>
+  <data name="Grid_FirstPage" xml:space="preserve">
+    <value>Eerste pagina</value>
+  </data>
+  <data name="Grid_LastPage" xml:space="preserve">
+    <value>Laatste pagina</value>
+  </data>
+  <data name="Grid_PreviousPage" xml:space="preserve">
+    <value>Vorige bladzijde</value>
+  </data>
+  <data name="Grid_NextPage" xml:space="preserve">
+    <value>Volgende bladzijde</value>
+  </data>
+  <data name="Grid_SortAscending" xml:space="preserve">
+    <value>Oplopend sorteren</value>
+  </data>
+  <data name="Grid_SortDescending" xml:space="preserve">
+    <value>Aflopend sorteren</value>
+  </data>
+  <data name="Grid_EditRecord" xml:space="preserve">
+    <value>Record bewerken</value>
+  </data>
+  <data name="Grid_DeleteRecord" xml:space="preserve">
+    <value>Record verwijderen</value>
+  </data>
+  <data name="Grid_FilterMenu" xml:space="preserve">
+    <value>Filter</value>
+  </data>
+  <data name="Grid_SelectAll" xml:space="preserve">
+    <value>Selecteer alles</value>
+  </data>
+  <data name="Grid_Blanks" xml:space="preserve">
+    <value>blanks</value>
+  </data>
+  <data name="Grid_FilterTrue" xml:space="preserve">
+    <value>waar</value>
+  </data>
+  <data name="Grid_FilterFalse" xml:space="preserve">
+    <value>vals</value>
+  </data>
+  <data name="Grid_NoResult" xml:space="preserve">
+    <value>Geen overeenkomsten gevonden</value>
+  </data>
+  <data name="Grid_ClearFilter" xml:space="preserve">
+    <value>Wis filter</value>
+  </data>
+  <data name="Grid_NumberFilter" xml:space="preserve">
+    <value>Nummerfilters</value>
+  </data>
+  <data name="Grid_TextFilter" xml:space="preserve">
+    <value>Tekstfilters</value>
+  </data>
+  <data name="Grid_DateFilter" xml:space="preserve">
+    <value>Datumfilters</value>
+  </data>
+  <data name="Grid_DateTimeFilter" xml:space="preserve">
+    <value>Datum / tijd-filters</value>
+  </data>
+  <data name="Grid_MatchCase" xml:space="preserve">
+    <value>Match Case</value>
+  </data>
+  <data name="Grid_Between" xml:space="preserve">
+    <value>Tussen</value>
+  </data>
+  <data name="Grid_CustomFilter" xml:space="preserve">
+    <value>Aangepast filter</value>
+  </data>
+  <data name="Grid_CustomFilterPlaceHolder" xml:space="preserve">
+    <value>Voer de waarde in</value>
+  </data>
+  <data name="Grid_CustomFilterDatePlaceHolder" xml:space="preserve">
+    <value>Kies een datum</value>
+  </data>
+  <data name="Grid_AND" xml:space="preserve">
+    <value>EN</value>
+  </data>
+  <data name="Grid_OR" xml:space="preserve">
+    <value>OF</value>
+  </data>
+  <data name="Grid_ShowRowsWhere" xml:space="preserve">
+    <value>Toon rijen waar:</value>
+  </data>
+  <data name="Grid_RowSelectionCheckBoxARIA" xml:space="preserve">
+    <value>Rij selectievakje</value>
+  </data>
+  <data name="Grid_FilterMenuIconARIA" xml:space="preserve">
+    <value>Filterpictogram</value>
+  </data>
+  <data name="Grid_ColumnMenuIconARIA" xml:space="preserve">
+    <value>Kolom menupictogram</value>
+  </data>
+  <data name="Grid_GroupButtonARIA" xml:space="preserve">
+    <value>Groepsknop</value>
+  </data>
+  <data name="Grid_UnGroupButtonARIA" xml:space="preserve">
+    <value>Knop groep opheffen</value>
+  </data>
+  <data name="Grid_ColumnHeaderARIA" xml:space="preserve">
+    <value>Kolomkop</value>
+  </data>
+  <data name="Grid_FilterCheckboxARIA" xml:space="preserve">
+    <value>Selectievakje filteren</value>
+  </data>
+  <data name="Grid_HeaderSelectionCheckBoxARIA" xml:space="preserve">
+    <value>Koptekst selectievakje</value>
+  </data>
+  <data name="Pager_GotoPageARIA" xml:space="preserve">
+    <value>Ga naar pagina</value>
+  </data>
+  <data name="Pager_CurrentPageInfo" xml:space="preserve">
+    <value>{0} van {1} pagina's</value>
+  </data>
+  <data name="Pager_TotalItemsInfo" xml:space="preserve">
+    <value>({0} items)</value>
+  </data>
+  <data name="Pager_FirstPageTooltip" xml:space="preserve">
+    <value>Ga naar de eerste pagina</value>
+  </data>
+  <data name="Pager_LastPageTooltip" xml:space="preserve">
+    <value>Ga naar de laatste pagina</value>
+  </data>
+  <data name="Pager_NextPageTooltip" xml:space="preserve">
+    <value>Ga naar de volgende pagina</value>
+  </data>
+  <data name="Pager_PreviousPageTooltip" xml:space="preserve">
+    <value>Ga naar de vorige pagina</value>
+  </data>
+  <data name="Pager_NextPagerTooltip" xml:space="preserve">
+    <value>Ga naar de volgende pager</value>
+  </data>
+  <data name="Pager_PreviousPagerTooltip" xml:space="preserve">
+    <value>Ga naar vorige pager</value>
+  </data>
+  <data name="Pager_PagerDropDown" xml:space="preserve">
+    <value>Artikelen per pagina</value>
+  </data>
+  <data name="Pager_PagerAllDropDown" xml:space="preserve">
+    <value>items</value>
+  </data>
+  <data name="Pager_All" xml:space="preserve">
+    <value>Allemaal</value>
+  </data>
+  <data name="RecurrenceEditor_Count" xml:space="preserve">
+    <value>tellen</value>
+  </data>
+  <data name="RecurrenceEditor_Daily" xml:space="preserve">
+    <value>Dagelijks</value>
+  </data>
+  <data name="RecurrenceEditor_Days" xml:space="preserve">
+    <value>Dag (en)</value>
+  </data>
+  <data name="RecurrenceEditor_End" xml:space="preserve">
+    <value>Einde</value>
+  </data>
+  <data name="RecurrenceEditor_Every" xml:space="preserve">
+    <value>elk</value>
+  </data>
+  <data name="RecurrenceEditor_First" xml:space="preserve">
+    <value>Eerste</value>
+  </data>
+  <data name="RecurrenceEditor_Fourth" xml:space="preserve">
+    <value>Vierde</value>
+  </data>
+  <data name="RecurrenceEditor_Last" xml:space="preserve">
+    <value>Laatste</value>
+  </data>
+  <data name="RecurrenceEditor_Month" xml:space="preserve">
+    <value>Maand</value>
+  </data>
+  <data name="RecurrenceEditor_MonthExpander" xml:space="preserve">
+    <value>Maanduitbreiding</value>
+  </data>
+  <data name="RecurrenceEditor_Monthly" xml:space="preserve">
+    <value>Maandelijks</value>
+  </data>
+  <data name="RecurrenceEditor_MonthPosition" xml:space="preserve">
+    <value>Maandpositie</value>
+  </data>
+  <data name="RecurrenceEditor_Months" xml:space="preserve">
+    <value>Maanden)</value>
+  </data>
+  <data name="RecurrenceEditor_MonthWeek" xml:space="preserve">
+    <value>Maand Week</value>
+  </data>
+  <data name="RecurrenceEditor_Never" xml:space="preserve">
+    <value>Nooit</value>
+  </data>
+  <data name="RecurrenceEditor_None" xml:space="preserve">
+    <value>Geen</value>
+  </data>
+  <data name="RecurrenceEditor_On" xml:space="preserve">
+    <value>Herhaal Aan</value>
+  </data>
+  <data name="RecurrenceEditor_OnDay" xml:space="preserve">
+    <value>Dag</value>
+  </data>
+  <data name="RecurrenceEditor_Repeat" xml:space="preserve">
+    <value>Herhaling</value>
+  </data>
+  <data name="RecurrenceEditor_RepeatEvery" xml:space="preserve">
+    <value>Herhaal elke</value>
+  </data>
+  <data name="RecurrenceEditor_RepeatInterval" xml:space="preserve">
+    <value>Herhaal interval</value>
+  </data>
+  <data name="RecurrenceEditor_Second" xml:space="preserve">
+    <value>Tweede</value>
+  </data>
+  <data name="RecurrenceEditor_SummaryDay" xml:space="preserve">
+    <value>dag (en)</value>
+  </data>
+  <data name="RecurrenceEditor_SummaryMonth" xml:space="preserve">
+    <value>maanden)</value>
+  </data>
+  <data name="RecurrenceEditor_SummaryOn" xml:space="preserve">
+    <value>Aan</value>
+  </data>
+  <data name="RecurrenceEditor_SummaryRepeat" xml:space="preserve">
+    <value>herhalingen</value>
+  </data>
+  <data name="RecurrenceEditor_SummaryTimes" xml:space="preserve">
+    <value>keer)</value>
+  </data>
+  <data name="RecurrenceEditor_SummaryUntil" xml:space="preserve">
+    <value>tot</value>
+  </data>
+  <data name="RecurrenceEditor_SummaryWeek" xml:space="preserve">
+    <value>weken)</value>
+  </data>
+  <data name="RecurrenceEditor_SummaryYear" xml:space="preserve">
+    <value>jaar (jaren)</value>
+  </data>
+  <data name="RecurrenceEditor_Third" xml:space="preserve">
+    <value>Derde</value>
+  </data>
+  <data name="RecurrenceEditor_Until" xml:space="preserve">
+    <value>Tot</value>
+  </data>
+  <data name="RecurrenceEditor_Weekly" xml:space="preserve">
+    <value>Wekelijks</value>
+  </data>
+  <data name="RecurrenceEditor_Weeks" xml:space="preserve">
+    <value>Weken)</value>
+  </data>
+  <data name="RecurrenceEditor_YearExpander" xml:space="preserve">
+    <value>Jaaruitbreiding</value>
+  </data>
+  <data name="RecurrenceEditor_Yearly" xml:space="preserve">
+    <value>Jaarlijks</value>
+  </data>
+  <data name="RecurrenceEditor_Years" xml:space="preserve">
+    <value>Jaar (s)</value>
+  </data>
+  <data name="Schedule_AddTitle" xml:space="preserve">
+    <value>Titel toevoegen</value>
+  </data>
+  <data name="Schedule_Agenda" xml:space="preserve">
+    <value>Agenda</value>
+  </data>
+  <data name="Schedule_Alert" xml:space="preserve">
+    <value>alarm</value>
+  </data>
+  <data name="Schedule_AllDay" xml:space="preserve">
+    <value>De hele dag</value>
+  </data>
+  <data name="Schedule_BeginFrom" xml:space="preserve">
+    <value>Begin vanaf</value>
+  </data>
+  <data name="Schedule_BlockAlert" xml:space="preserve">
+    <value>Evenementen kunnen niet worden gepland binnen het geblokkeerde tijdsbereik.</value>
+  </data>
+  <data name="Schedule_Cancel" xml:space="preserve">
+    <value>annuleren</value>
+  </data>
+  <data name="Schedule_CancelButton" xml:space="preserve">
+    <value>annuleren</value>
+  </data>
+  <data name="Schedule_Close" xml:space="preserve">
+    <value>Dichtbij</value>
+  </data>
+  <data name="Schedule_CreateError" xml:space="preserve">
+    <value>De duur van het evenement moet korter zijn dan hoe vaak het voorkomt. Kort de duur in of wijzig het terugkeerpatroon in de terugkeereditor.</value>
+  </data>
+  <data name="Schedule_CreateEvent" xml:space="preserve">
+    <value>creëren</value>
+  </data>
+  <data name="Schedule_Day" xml:space="preserve">
+    <value>Dag</value>
+  </data>
+  <data name="Schedule_Delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="Schedule_DeleteButton" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="Schedule_DeleteContent" xml:space="preserve">
+    <value>Weet je zeker dat je dit evenement wilt verwijderen?</value>
+  </data>
+  <data name="Schedule_DeleteEvent" xml:space="preserve">
+    <value>Deze gebeurtenis</value>
+  </data>
+  <data name="Schedule_DeleteMultipleContent" xml:space="preserve">
+    <value>Weet je zeker dat je de geselecteerde evenementen wilt verwijderen?</value>
+  </data>
+  <data name="Schedule_DeleteMultipleEvent" xml:space="preserve">
+    <value>Verwijder meerdere evenementen</value>
+  </data>
+  <data name="Schedule_DeleteSeries" xml:space="preserve">
+    <value>Hele serie</value>
+  </data>
+  <data name="Schedule_DeleteTitle" xml:space="preserve">
+    <value>Evenement verwijderen</value>
+  </data>
+  <data name="Schedule_Description" xml:space="preserve">
+    <value>Beschrijving</value>
+  </data>
+  <data name="Schedule_Edit" xml:space="preserve">
+    <value>Bewerk</value>
+  </data>
+  <data name="Schedule_EditContent" xml:space="preserve">
+    <value>Hoe wilt u de afspraak in de serie wijzigen?</value>
+  </data>
+  <data name="Schedule_EditEvent" xml:space="preserve">
+    <value>Deze gebeurtenis</value>
+  </data>
+  <data name="Schedule_EditFollowingEvent" xml:space="preserve">
+    <value>Evenementen volgen</value>
+  </data>
+  <data name="Schedule_EditRecurrence" xml:space="preserve">
+    <value>Herhaling bewerken</value>
+  </data>
+  <data name="Schedule_EditSeries" xml:space="preserve">
+    <value>Hele serie</value>
+  </data>
+  <data name="Schedule_EditTitle" xml:space="preserve">
+    <value>Evenement bewerken</value>
+  </data>
+  <data name="Schedule_EmptyContainer" xml:space="preserve">
+    <value>Er zijn geen evenementen gepland op deze dag.</value>
+  </data>
+  <data name="Schedule_End" xml:space="preserve">
+    <value>Einde</value>
+  </data>
+  <data name="Schedule_EndTime" xml:space="preserve">
+    <value>Eindtijd</value>
+  </data>
+  <data name="Schedule_EndAt" xml:space="preserve">
+    <value>Eindig op</value>
+  </data>
+  <data name="Schedule_EndTimezone" xml:space="preserve">
+    <value>Einde tijdzone</value>
+  </data>
+  <data name="Schedule_InvalidDateError" xml:space="preserve">
+    <value>De ingevoerde datumwaarde is ongeldig.</value>
+  </data>
+  <data name="Schedule_Location" xml:space="preserve">
+    <value>Plaats</value>
+  </data>
+  <data name="Schedule_LookForMore" xml:space="preserve">
+    <value>Kijk voor meer</value>
+  </data>
+  <data name="Schedule_Month" xml:space="preserve">
+    <value>Maand</value>
+  </data>
+  <data name="Schedule_MonthAgenda" xml:space="preserve">
+    <value>Maandagenda</value>
+  </data>
+  <data name="Schedule_More" xml:space="preserve">
+    <value>meer</value>
+  </data>
+  <data name="Schedule_MoreDetails" xml:space="preserve">
+    <value>Meer details</value>
+  </data>
+  <data name="Schedule_NewEvent" xml:space="preserve">
+    <value>Nieuw evenement</value>
+  </data>
+  <data name="Schedule_next" xml:space="preserve">
+    <value>De volgende</value>
+  </data>
+  <data name="Schedule_No" xml:space="preserve">
+    <value>Nee</value>
+  </data>
+  <data name="Schedule_NoEvents" xml:space="preserve">
+    <value>Geen evenementen</value>
+  </data>
+  <data name="Schedule_NoRecords" xml:space="preserve">
+    <value>Geen records</value>
+  </data>
+  <data name="Schedule_NoTitle" xml:space="preserve">
+    <value>(Geen titel)</value>
+  </data>
+  <data name="Schedule_Occurrence" xml:space="preserve">
+    <value>voorval</value>
+  </data>
+  <data name="Schedule_Ok" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="Schedule_Previous" xml:space="preserve">
+    <value>voorgaand</value>
+  </data>
+  <data name="Schedule_Recurrence" xml:space="preserve">
+    <value>Herhaling</value>
+  </data>
+  <data name="Schedule_Repeat" xml:space="preserve">
+    <value>Herhaling</value>
+  </data>
+  <data name="Schedule_Repeats" xml:space="preserve">
+    <value>herhalingen</value>
+  </data>
+  <data name="Schedule_SameDayAlert" xml:space="preserve">
+    <value>Twee gebeurtenissen van dezelfde gebeurtenis kunnen niet op dezelfde dag plaatsvinden.</value>
+  </data>
+  <data name="Schedule_Save" xml:space="preserve">
+    <value>Opslaan</value>
+  </data>
+  <data name="Schedule_SaveButton" xml:space="preserve">
+    <value>Opslaan</value>
+  </data>
+  <data name="Schedule_SelectedItems" xml:space="preserve">
+    <value>Items geselecteerd</value>
+  </data>
+  <data name="Schedule_SearchTimezone" xml:space="preserve">
+    <value>Zoeken in tijdzone</value>
+  </data>
+  <data name="Schedule_Series" xml:space="preserve">
+    <value>Serie</value>
+  </data>
+  <data name="Schedule_SeriesChangeAlert" xml:space="preserve">
+    <value>Wilt u de wijzigingen annuleren die zijn aangebracht in specifieke exemplaren van deze serie en deze opnieuw koppelen aan de hele serie?</value>
+  </data>
+  <data name="Schedule_ShowingEventsUntil" xml:space="preserve">
+    <value>Evenementen weergeven tot</value>
+  </data>
+  <data name="Schedule_Start" xml:space="preserve">
+    <value>Begin</value>
+  </data>
+  <data name="Schedule_StartTime" xml:space="preserve">
+    <value>Starttijd</value>
+  </data>
+  <data name="Schedule_StartEndError" xml:space="preserve">
+    <value>De geselecteerde einddatum vindt plaats vóór de startdatum.</value>
+  </data>
+  <data name="Schedule_StartTimezone" xml:space="preserve">
+    <value>Start Tijdzone</value>
+  </data>
+  <data name="Schedule_Subject" xml:space="preserve">
+    <value>Onderwerpen</value>
+  </data>
+  <data name="Schedule_TimelineDay" xml:space="preserve">
+    <value>Tijdlijn dag</value>
+  </data>
+  <data name="Schedule_TimelineMonth" xml:space="preserve">
+    <value>Tijdlijn maand</value>
+  </data>
+  <data name="Schedule_TimelineWeek" xml:space="preserve">
+    <value>Tijdlijn Week</value>
+  </data>
+  <data name="Schedule_TimelineWorkWeek" xml:space="preserve">
+    <value>Tijdlijn Werkweek</value>
+  </data>
+  <data name="Schedule_TimelineYear" xml:space="preserve">
+    <value>Tijdlijn jaar</value>
+  </data>
+  <data name="Schedule_Timezone" xml:space="preserve">
+    <value>Tijdzone</value>
+  </data>
+  <data name="Schedule_Title" xml:space="preserve">
+    <value>Titel</value>
+  </data>
+  <data name="Schedule_Today" xml:space="preserve">
+    <value>Vandaag</value>
+  </data>
+  <data name="Schedule_Week" xml:space="preserve">
+    <value>Week</value>
+  </data>
+  <data name="Schedule_WeekAgenda" xml:space="preserve">
+    <value>Weekagenda</value>
+  </data>
+  <data name="Schedule_WorkWeek" xml:space="preserve">
+    <value>Werkweek</value>
+  </data>
+  <data name="Schedule_WorkWeekAgenda" xml:space="preserve">
+    <value>Werkweek Agenda</value>
+  </data>
+  <data name="Schedule_WrongPattern" xml:space="preserve">
+    <value>Het herhalingspatroon is niet geldig.</value>
+  </data>
+  <data name="Schedule_Yes" xml:space="preserve">
+    <value>Ja</value>
+  </data>
+  <data name="Schedule_Year" xml:space="preserve">
+    <value>Jaar</value>
+  </data>
+  <data name="Tab_CloseButtonTitle" xml:space="preserve">
+    <value>Dichtbij</value>
+  </data>
+  <data name="Carousel_PreviousSlide" xml:space="preserve">
+    <value>Vorige dia</value>
+  </data>
+  <data name="Carousel_NextSlide" xml:space="preserve">
+    <value>Volgende dia</value>
+  </data>
+  <data name="Carousel_Slide" xml:space="preserve">
+    <value>Schuif</value>
+  </data>
+  <data name="Carousel_Of" xml:space="preserve">
+    <value>van</value>
+  </data>
+  <data name="Carousel_PlaySlide" xml:space="preserve">
+    <value>Automatische animatie stoppen</value>
+  </data>
+  <data name="Carousel_PauseSlide" xml:space="preserve">
+    <value>Automatische animatie starten</value>
+  </data>
+  <data name="Carousel_SlideShow" xml:space="preserve">
+    <value>diavoorstelling</value>
+  </data>
+  <data name="PdfViewer" xml:space="preserve">
+    <value>PDF Viewer</value>
+  </data>
+  <data name="PdfViewer_Cancel" xml:space="preserve">
+    <value>annuleren</value>
+  </data>
+  <data name="PdfViewer_DownloadFile" xml:space="preserve">
+    <value>Download bestand</value>
+  </data>
+  <data name="PdfViewer_Download" xml:space="preserve">
+    <value>Downloaden</value>
+  </data>
+  <data name="PdfViewer_EnterPassword" xml:space="preserve">
+    <value>Dit document is beveiligd met een wachtwoord. voer een wachtwoord in alstublieft.</value>
+  </data>
+  <data name="PdfViewer_FileCorrupted" xml:space="preserve">
+    <value>Bestand beschadigd</value>
+  </data>
+  <data name="PdfViewer_FileCorruptedContent" xml:space="preserve">
+    <value>Het bestand is beschadigd en kan niet worden geopend.</value>
+  </data>
+  <data name="PdfViewer_FitPage" xml:space="preserve">
+    <value>Op de pagina passen</value>
+  </data>
+  <data name="PdfViewer_FitWidth" xml:space="preserve">
+    <value>Pas breedte aan</value>
+  </data>
+  <data name="PdfViewer_Automatic" xml:space="preserve">
+    <value>Automatisch</value>
+  </data>
+  <data name="PdfViewer_GoToFirstPage" xml:space="preserve">
+    <value>Eerste pagina weergeven</value>
+  </data>
+  <data name="PdfViewer_InvalidPassword" xml:space="preserve">
+    <value>Incorrect wachtwoord. Probeer het alstublieft opnieuw.</value>
+  </data>
+  <data name="PdfViewer_NextPage" xml:space="preserve">
+    <value>Volgende pagina weergeven</value>
+  </data>
+  <data name="PdfViewer_PreviousPage" xml:space="preserve">
+    <value>Toon vorige pagina</value>
+  </data>
+  <data name="PdfViewer_OK" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="PdfViewer_Open" xml:space="preserve">
+    <value>Open bestand</value>
+  </data>
+  <data name="PdfViewer_PageNumber" xml:space="preserve">
+    <value>Huidig paginanummer</value>
+  </data>
+  <data name="PdfViewer_GoToLastPage" xml:space="preserve">
+    <value>Toon laatste pagina</value>
+  </data>
+  <data name="PdfViewer_Zoom" xml:space="preserve">
+    <value>Zoom</value>
+  </data>
+  <data name="PdfViewer_ZoomIn" xml:space="preserve">
+    <value>in zoomen</value>
+  </data>
+  <data name="PdfViewer_ZoomOut" xml:space="preserve">
+    <value>Uitzoomen</value>
+  </data>
+  <data name="PdfViewer_PageThumbnails" xml:space="preserve">
+    <value>Paginaminiaturen</value>
+  </data>
+  <data name="PdfViewer_Bookmarks" xml:space="preserve">
+    <value>Bladwijzers</value>
+  </data>
+  <data name="PdfViewer_Print" xml:space="preserve">
+    <value>Bestand printen</value>
+  </data>
+  <data name="PdfViewer_PasswordProtected" xml:space="preserve">
+    <value>Wachtwoord benodigd</value>
+  </data>
+  <data name="PdfViewer_Copy" xml:space="preserve">
+    <value>Kopiëren</value>
+  </data>
+  <data name="PdfViewer_TextSelection" xml:space="preserve">
+    <value>Tekstselectietool</value>
+  </data>
+  <data name="PdfViewer_Panning" xml:space="preserve">
+    <value>Pan-modus</value>
+  </data>
+  <data name="PdfViewer_TextSearch" xml:space="preserve">
+    <value>Vind tekst</value>
+  </data>
+  <data name="PdfViewer_Findindocument" xml:space="preserve">
+    <value>Vind in document</value>
+  </data>
+  <data name="PdfViewer_Matchcase" xml:space="preserve">
+    <value>Match case</value>
+  </data>
+  <data name="PdfViewer_Apply" xml:space="preserve">
+    <value>Van toepassing zijn</value>
+  </data>
+  <data name="PdfViewer_GoToPage" xml:space="preserve">
+    <value>Ga naar pagina</value>
+  </data>
+  <data name="PdfViewer_Nomatches" xml:space="preserve">
+    <value>Viewer is klaar met zoeken in het document. Er zijn geen overeenkomsten meer gevonden</value>
+  </data>
+  <data name="PdfViewer_NoTextFound" xml:space="preserve">
+    <value>Geen tekst gevonden</value>
+  </data>
+  <data name="PdfViewer_Undo" xml:space="preserve">
+    <value>Ongedaan maken</value>
+  </data>
+  <data name="PdfViewer_Redo" xml:space="preserve">
+    <value>Opnieuw doen</value>
+  </data>
+  <data name="PdfViewer_Annotation" xml:space="preserve">
+    <value>Annotaties toevoegen of bewerken</value>
+  </data>
+  <data name="PdfViewer_Highlight" xml:space="preserve">
+    <value>Tekst markeren</value>
+  </data>
+  <data name="PdfViewer_Underline" xml:space="preserve">
+    <value>Onderstreep tekst</value>
+  </data>
+  <data name="PdfViewer_Strikethrough" xml:space="preserve">
+    <value>Doorgehaalde tekst</value>
+  </data>
+  <data name="PdfViewer_Delete" xml:space="preserve">
+    <value>Annotatie verwijderen</value>
+  </data>
+  <data name="PdfViewer_Opacity" xml:space="preserve">
+    <value>Dekking</value>
+  </data>
+  <data name="PdfViewer_ColorEdit" xml:space="preserve">
+    <value>Verander kleur</value>
+  </data>
+  <data name="PdfViewer_OpacityEdit" xml:space="preserve">
+    <value>Verander de dekking</value>
+  </data>
+  <data name="PdfViewer_HighlightContext" xml:space="preserve">
+    <value>Markeer</value>
+  </data>
+  <data name="PdfViewer_UnderlineContext" xml:space="preserve">
+    <value>Onderstrepen</value>
+  </data>
+  <data name="PdfViewer_StrikethroughContext" xml:space="preserve">
+    <value>Doorhalen</value>
+  </data>
+  <data name="PdfViewer_Servererror" xml:space="preserve">
+    <value>Webservice luistert niet. PDF Viewer is voor al zijn functies afhankelijk van de webservice. Start de webservice om door te gaan.</value>
+  </data>
+  <data name="PdfViewer_Clienterror" xml:space="preserve">
+    <value>Er is een clientfout gevonden. Controleer de aangepaste kopteksten in de eigenschap AjaxRequestSettings en webactiemethoden in de eigenschap ServerActionSettings.</value>
+  </data>
+  <data name="PdfViewer_OpenText" xml:space="preserve">
+    <value>Open</value>
+  </data>
+  <data name="PdfViewer_FirstText" xml:space="preserve">
+    <value>Eerste pagina</value>
+  </data>
+  <data name="PdfViewer_PreviousText" xml:space="preserve">
+    <value>Vorige pagina</value>
+  </data>
+  <data name="PdfViewer_NextText" xml:space="preserve">
+    <value>Volgende pagina</value>
+  </data>
+  <data name="PdfViewer_LastText" xml:space="preserve">
+    <value>Laatste pagina</value>
+  </data>
+  <data name="PdfViewer_ZoomInText" xml:space="preserve">
+    <value>in zoomen</value>
+  </data>
+  <data name="PdfViewer_ZoomOutText" xml:space="preserve">
+    <value>Uitzoomen</value>
+  </data>
+  <data name="PdfViewer_SelectionText" xml:space="preserve">
+    <value>Selectie</value>
+  </data>
+  <data name="PdfViewer_PanText" xml:space="preserve">
+    <value>Pan</value>
+  </data>
+  <data name="PdfViewer_PrintText" xml:space="preserve">
+    <value>Afdrukken</value>
+  </data>
+  <data name="PdfViewer_SearchText" xml:space="preserve">
+    <value>Zoeken</value>
+  </data>
+  <data name="PdfViewer_AnnotationEditText" xml:space="preserve">
+    <value>Annotatie bewerken</value>
+  </data>
+  <data name="PdfViewer_LineThickness" xml:space="preserve">
+    <value>Lijndikte</value>
+  </data>
+  <data name="PdfViewer_LineProperties" xml:space="preserve">
+    <value>Lijneigenschappen</value>
+  </data>
+  <data name="PdfViewer_StartArrow" xml:space="preserve">
+    <value>Start pijl</value>
+  </data>
+  <data name="PdfViewer_EndArrow" xml:space="preserve">
+    <value>Einde pijl</value>
+  </data>
+  <data name="PdfViewer_LineStyle" xml:space="preserve">
+    <value>Lijnstijl</value>
+  </data>
+  <data name="PdfViewer_FillColor" xml:space="preserve">
+    <value>Opvulkleur</value>
+  </data>
+  <data name="PdfViewer_LineColor" xml:space="preserve">
+    <value>Lijnkleur</value>
+  </data>
+  <data name="PdfViewer_None" xml:space="preserve">
+    <value>Geen</value>
+  </data>
+  <data name="PdfViewer_OpenArrow" xml:space="preserve">
+    <value>Open pijl</value>
+  </data>
+  <data name="PdfViewer_ClosedArrow" xml:space="preserve">
+    <value>Gesloten pijl</value>
+  </data>
+  <data name="PdfViewer_RoundArrow" xml:space="preserve">
+    <value>Ronde pijl</value>
+  </data>
+  <data name="PdfViewer_SquareArrow" xml:space="preserve">
+    <value>Vierkante pijl</value>
+  </data>
+  <data name="PdfViewer_DiamondArrow" xml:space="preserve">
+    <value>Diamant pijl</value>
+  </data>
+  <data name="PdfViewer_Cut" xml:space="preserve">
+    <value>Besnoeiing</value>
+  </data>
+  <data name="PdfViewer_Paste" xml:space="preserve">
+    <value>Plakken</value>
+  </data>
+  <data name="PdfViewer_DeleteContext" xml:space="preserve">
+    <value>Verwijderen</value>
+  </data>
+  <data name="PdfViewer_Properties" xml:space="preserve">
+    <value>Eigendommen</value>
+  </data>
+  <data name="PdfViewer_AddStamp" xml:space="preserve">
+    <value>Stempel toevoegen</value>
+  </data>
+  <data name="PdfViewer_AddShapes" xml:space="preserve">
+    <value>Vormen toevoegen</value>
+  </data>
+  <data name="PdfViewer_StrokeEdit" xml:space="preserve">
+    <value>Lijnkleur wijzigen</value>
+  </data>
+  <data name="PdfViewer_ChangeThickness" xml:space="preserve">
+    <value>Wijzig randdikte</value>
+  </data>
+  <data name="PdfViewer_Addline" xml:space="preserve">
+    <value>Lijn toevoegen</value>
+  </data>
+  <data name="PdfViewer_AddArrow" xml:space="preserve">
+    <value>Pijl toevoegen</value>
+  </data>
+  <data name="PdfViewer_AddRectangle" xml:space="preserve">
+    <value>Rechthoek toevoegen</value>
+  </data>
+  <data name="PdfViewer_AddCircle" xml:space="preserve">
+    <value>Circle toevoegen</value>
+  </data>
+  <data name="PdfViewer_AddPolygon" xml:space="preserve">
+    <value>Polygoon toevoegen</value>
+  </data>
+  <data name="PdfViewer_AddComments" xml:space="preserve">
+    <value>Commentaar toevoegen</value>
+  </data>
+  <data name="PdfViewer_Comments" xml:space="preserve">
+    <value>Opmerkingen</value>
+  </data>
+  <data name="PdfViewer_NoCommentsYet" xml:space="preserve">
+    <value>Nog geen reacties</value>
+  </data>
+  <data name="PdfViewer_Accepted" xml:space="preserve">
+    <value>Geaccepteerd</value>
+  </data>
+  <data name="PdfViewer_Completed" xml:space="preserve">
+    <value>Voltooid</value>
+  </data>
+  <data name="PdfViewer_Cancelled" xml:space="preserve">
+    <value>Geannuleerd</value>
+  </data>
+  <data name="PdfViewer_Rejected" xml:space="preserve">
+    <value>Afgekeurd</value>
+  </data>
+  <data name="PdfViewer_LeaderLength" xml:space="preserve">
+    <value>Leider lengte</value>
+  </data>
+  <data name="PdfViewer_ScaleRatio" xml:space="preserve">
+    <value>Schaalverhouding</value>
+  </data>
+  <data name="PdfViewer_Calibrate" xml:space="preserve">
+    <value>Ijken</value>
+  </data>
+  <data name="PdfViewer_CalibrateDistance" xml:space="preserve">
+    <value>Afstand kalibreren</value>
+  </data>
+  <data name="PdfViewer_CalibratePerimeter" xml:space="preserve">
+    <value>Perimeter kalibreren</value>
+  </data>
+  <data name="PdfViewer_CalibrateArea" xml:space="preserve">
+    <value>Kalibreer gebied</value>
+  </data>
+  <data name="PdfViewer_CalibrateRadius" xml:space="preserve">
+    <value>Straal kalibreren</value>
+  </data>
+  <data name="PdfViewer_CalibrateVolume" xml:space="preserve">
+    <value>Volume kalibreren</value>
+  </data>
+  <data name="PdfViewer_Depth" xml:space="preserve">
+    <value>Diepte</value>
+  </data>
+  <data name="PdfViewer_Closed" xml:space="preserve">
+    <value>Gesloten</value>
+  </data>
+  <data name="PdfViewer_Round" xml:space="preserve">
+    <value>Ronde</value>
+  </data>
+  <data name="PdfViewer_Square" xml:space="preserve">
+    <value>Vierkant</value>
+  </data>
+  <data name="PdfViewer_Diamond" xml:space="preserve">
+    <value>Diamant</value>
+  </data>
+  <data name="PdfViewer_Edit" xml:space="preserve">
+    <value>Bewerk</value>
+  </data>
+  <data name="PdfViewer_Comment" xml:space="preserve">
+    <value>Commentaar</value>
+  </data>
+  <data name="PdfViewer_CommentPanel" xml:space="preserve">
+    <value>Opmerkingenpaneel</value>
+  </data>
+  <data name="PdfViewer_SetStatus" xml:space="preserve">
+    <value>Status instellen</value>
+  </data>
+  <data name="PdfViewer_Post" xml:space="preserve">
+    <value>Post</value>
+  </data>
+  <data name="PdfViewer_Page" xml:space="preserve">
+    <value>Bladzijde</value>
+  </data>
+  <data name="PdfViewer_AddComment" xml:space="preserve">
+    <value>Voeg een reactie toe</value>
+  </data>
+  <data name="PdfViewer_AddReply" xml:space="preserve">
+    <value>Voeg een antwoord toe</value>
+  </data>
+  <data name="PdfViewer_ImportAnnotations" xml:space="preserve">
+    <value>Annotaties importeren</value>
+  </data>
+  <data name="PdfViewer_ExportAnnotations" xml:space="preserve">
+    <value>Annotaties exporteren</value>
+  </data>
+  <data name="PdfViewer_Add" xml:space="preserve">
+    <value>Toevoegen</value>
+  </data>
+  <data name="PdfViewer_Clear" xml:space="preserve">
+    <value>Doorzichtig</value>
+  </data>
+  <data name="PdfViewer_Bold" xml:space="preserve">
+    <value>Stoutmoedig</value>
+  </data>
+  <data name="PdfViewer_Italic" xml:space="preserve">
+    <value>Cursief</value>
+  </data>
+  <data name="PdfViewer_Strikethroughs" xml:space="preserve">
+    <value>Doorhalen</value>
+  </data>
+  <data name="PdfViewer_Underlines" xml:space="preserve">
+    <value>Onderstreept</value>
+  </data>
+  <data name="PdfViewer_Superscript" xml:space="preserve">
+    <value>Superscript</value>
+  </data>
+  <data name="PdfViewer_Subscript" xml:space="preserve">
+    <value>Subscript</value>
+  </data>
+  <data name="PdfViewer_AlignLeft" xml:space="preserve">
+    <value>Links uitlijnen</value>
+  </data>
+  <data name="PdfViewer_AlignRight" xml:space="preserve">
+    <value>Rechts uitlijnen</value>
+  </data>
+  <data name="PdfViewer_Center" xml:space="preserve">
+    <value>Centrum</value>
+  </data>
+  <data name="PdfViewer_Justify" xml:space="preserve">
+    <value>Rechtvaardigen</value>
+  </data>
+  <data name="PdfViewer_FontColor" xml:space="preserve">
+    <value>Lettertype kleur</value>
+  </data>
+  <data name="PdfViewer_TextAlign" xml:space="preserve">
+    <value>Tekst uitlijnen</value>
+  </data>
+  <data name="PdfViewer_TextProperties" xml:space="preserve">
+    <value>Lettertype</value>
+  </data>
+  <data name="PdfViewer_DrawSignature" xml:space="preserve">
+    <value>Handtekening tekenen</value>
+  </data>
+  <data name="PdfViewer_Create" xml:space="preserve">
+    <value>Creëer</value>
+  </data>
+  <data name="PdfViewer_FontFamily" xml:space="preserve">
+    <value>Lettertypefamilie</value>
+  </data>
+  <data name="PdfViewer_FontSize" xml:space="preserve">
+    <value>Lettertypegrootte</value>
+  </data>
+  <data name="PdfViewer_FreeText" xml:space="preserve">
+    <value>Vrije tekst</value>
+  </data>
+  <data name="PdfViewer_ImportFailed" xml:space="preserve">
+    <value>Ongeldig JSON-bestandstype of bestandsnaam; selecteer een geldig JSON-bestand</value>
+  </data>
+  <data name="PdfViewer_FileNotFound" xml:space="preserve">
+    <value>Het geïmporteerde JSON-bestand wordt niet gevonden op de gewenste locatie</value>
+  </data>
+  <data name="PdfViewer_ExportFailed" xml:space="preserve">
+    <value>Actie annotaties exporteren is mislukt; zorg ervoor dat annotaties correct zijn toegevoegd</value>
+  </data>
+  <data name="PdfViewer_Draw_hand_Signature" xml:space="preserve">
+    <value>TREK</value>
+  </data>
+  <data name="PdfViewer_Type_Signature" xml:space="preserve">
+    <value>TYPE</value>
+  </data>
+  <data name="PdfViewer_Upload_Signature" xml:space="preserve">
+    <value>UPLOADEN</value>
+  </data>
+  <data name="PdfViewer_Browse_Signature_Image" xml:space="preserve">
+    <value>BLADER</value>
+  </data>
+  <data name="PdfViewer_Save_Signature" xml:space="preserve">
+    <value>Handtekening opslaan</value>
+  </data>
+  <data name="PdfViewer_Enter_Signature_as_Name" xml:space="preserve">
+    <value>Vul uw naam in</value>
+  </data>
+  <data name="PdfViewer_Dynamic" xml:space="preserve">
+    <value>Dynamisch</value>
+  </data>
+  <data name="PdfViewer_StandardBusiness" xml:space="preserve">
+    <value>Standaard Zakelijk</value>
+  </data>
+  <data name="PdfViewer_CustomStamp" xml:space="preserve">
+    <value>Aangepaste stempel</value>
+  </data>
+  <data name="PdfViewer_Revised" xml:space="preserve">
+    <value>Beoordeeld</value>
+  </data>
+  <data name="PdfViewer_Reviewed" xml:space="preserve">
+    <value>beoordeeld</value>
+  </data>
+  <data name="PdfViewer_Received" xml:space="preserve">
+    <value>Ontvangen</value>
+  </data>
+  <data name="PdfViewer_Approved" xml:space="preserve">
+    <value>Goedgekeurd</value>
+  </data>
+  <data name="PdfViewer_Confidential" xml:space="preserve">
+    <value>Confidential</value>
+  </data>
+  <data name="PdfViewer_NotApproved" xml:space="preserve">
+    <value>Niet goedgekeurd</value>
+  </data>
+  <data name="PdfViewer_Witness" xml:space="preserve">
+    <value>Getuige</value>
+  </data>
+  <data name="PdfViewer_InitialHere" xml:space="preserve">
+    <value>Eerste hier</value>
+  </data>
+  <data name="PdfViewer_SignHere" xml:space="preserve">
+    <value>Teken hier</value>
+  </data>
+  <data name="PdfViewer_Draft" xml:space="preserve">
+    <value>Droogte</value>
+  </data>
+  <data name="PdfViewer_Final" xml:space="preserve">
+    <value>Laatste</value>
+  </data>
+  <data name="PdfViewer_ForPublicRelease" xml:space="preserve">
+    <value>Voor openbare publicatie</value>
+  </data>
+  <data name="PdfViewer_NotForPublicRelease" xml:space="preserve">
+    <value>Niet voor openbare publicatie</value>
+  </data>
+  <data name="PdfViewer_ForComment" xml:space="preserve">
+    <value>Voor commentaar</value>
+  </data>
+  <data name="PdfViewer_Void" xml:space="preserve">
+    <value>Leegte</value>
+  </data>
+  <data name="PdfViewer_PreliminaryResults" xml:space="preserve">
+    <value>Voorlopige resultaten</value>
+  </data>
+  <data name="PdfViewer_InformationOnly" xml:space="preserve">
+    <value>Alleen informatie</value>
+  </data>
+  <data name="PdfViewer_SubmitForm" xml:space="preserve">
+    <value>Formulier verzenden</value>
+  </data>
+  <data name="PdfViewer_Required_ServiceUrl_Error_Message" xml:space="preserve">
+    <value>Deze PDF-viewer vereist verwerking aan de serverzijde om de PDF-bestanden via de webservice weer te geven. U moet de service-URL configureren om door te gaan met de PDF-viewer</value>
+  </data>
+  <data name="PdfViewer_Close" xml:space="preserve">
+    <value>Dichtbij</value>
+  </data>
+  <data name="PdfViewer_HandwrittenSignatureDialogHeaderText" xml:space="preserve">
+    <value>Handtekening toevoegen</value>
+  </data>
+  <data name="PdfViewer_DrawInk" xml:space="preserve">
+    <value>Teken inkt</value>
+  </data>
+  <data name="DocumentEditor_Table" xml:space="preserve">
+    <value>Tabel</value>
+  </data>
+  <data name="DocumentEditor_Row" xml:space="preserve">
+    <value>Rij</value>
+  </data>
+  <data name="DocumentEditor_Cell" xml:space="preserve">
+    <value>Cel</value>
+  </data>
+  <data name="DocumentEditor_Ok" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="DocumentEditor_Cancel" xml:space="preserve">
+    <value>Annuleren</value>
+  </data>
+  <data name="DocumentEditor_Size" xml:space="preserve">
+    <value>Grootte</value>
+  </data>
+  <data name="DocumentEditor_PreferredWidth" xml:space="preserve">
+    <value>Gewenste breedte</value>
+  </data>
+  <data name="DocumentEditor_Points" xml:space="preserve">
+    <value>punten</value>
+  </data>
+  <data name="DocumentEditor_Percent" xml:space="preserve">
+    <value>procent</value>
+  </data>
+  <data name="DocumentEditor_MeasureIn" xml:space="preserve">
+    <value>Meet in</value>
+  </data>
+  <data name="DocumentEditor_Alignment" xml:space="preserve">
+    <value>opstelling</value>
+  </data>
+  <data name="DocumentEditor_Left" xml:space="preserve">
+    <value>Links</value>
+  </data>
+  <data name="DocumentEditor_Center" xml:space="preserve">
+    <value>Centrum</value>
+  </data>
+  <data name="DocumentEditor_Right" xml:space="preserve">
+    <value>Rechtsaf</value>
+  </data>
+  <data name="DocumentEditor_Justify" xml:space="preserve">
+    <value>Rechtvaardigen</value>
+  </data>
+  <data name="DocumentEditor_IndentFromLeft" xml:space="preserve">
+    <value>Inspringen van links</value>
+  </data>
+  <data name="DocumentEditor_BordersAndShading" xml:space="preserve">
+    <value>Randen en schaduw</value>
+  </data>
+  <data name="DocumentEditor_Options" xml:space="preserve">
+    <value>opties</value>
+  </data>
+  <data name="DocumentEditor_SpecifyHeight" xml:space="preserve">
+    <value>Geef de hoogte op</value>
+  </data>
+  <data name="DocumentEditor_AtLeast" xml:space="preserve">
+    <value>Minstens</value>
+  </data>
+  <data name="DocumentEditor_Exactly" xml:space="preserve">
+    <value>Precies</value>
+  </data>
+  <data name="DocumentEditor_RowHeightIs" xml:space="preserve">
+    <value>Rijhoogte is</value>
+  </data>
+  <data name="DocumentEditor_AllowRowToBreakAcrossPages" xml:space="preserve">
+    <value>Laat rij over pagina's breken</value>
+  </data>
+  <data name="DocumentEditor_RepeatAsHeaderRowAtTheTopOfEachPage" xml:space="preserve">
+    <value>Herhaal dit als kopregel bovenaan elke pagina</value>
+  </data>
+  <data name="DocumentEditor_VerticalAlignment" xml:space="preserve">
+    <value>Verticale uitlijning</value>
+  </data>
+  <data name="DocumentEditor_Top" xml:space="preserve">
+    <value>Top</value>
+  </data>
+  <data name="DocumentEditor_Bottom" xml:space="preserve">
+    <value>Bodem</value>
+  </data>
+  <data name="DocumentEditor_DefaultCellMargins" xml:space="preserve">
+    <value>Standaard celmarges</value>
+  </data>
+  <data name="DocumentEditor_DefaultCellSpacing" xml:space="preserve">
+    <value>Standaard celafstand</value>
+  </data>
+  <data name="DocumentEditor_AllowSpacingBetweenCells" xml:space="preserve">
+    <value>Ruimte tussen cellen toestaan</value>
+  </data>
+  <data name="DocumentEditor_CellMargins" xml:space="preserve">
+    <value>Celmarges</value>
+  </data>
+  <data name="DocumentEditor_SameAsTheWholeTable" xml:space="preserve">
+    <value>Hetzelfde als de hele tafel</value>
+  </data>
+  <data name="DocumentEditor_Borders" xml:space="preserve">
+    <value>borders</value>
+  </data>
+  <data name="DocumentEditor_None" xml:space="preserve">
+    <value>Geen</value>
+  </data>
+  <data name="DocumentEditor_Style" xml:space="preserve">
+    <value>Stijl</value>
+  </data>
+  <data name="DocumentEditor_Width" xml:space="preserve">
+    <value>Breedte</value>
+  </data>
+  <data name="DocumentEditor_Height" xml:space="preserve">
+    <value>Hoogte</value>
+  </data>
+  <data name="DocumentEditor_Letter" xml:space="preserve">
+    <value>Brief</value>
+  </data>
+  <data name="DocumentEditor_Tabloid" xml:space="preserve">
+    <value>tabloid</value>
+  </data>
+  <data name="DocumentEditor_Legal" xml:space="preserve">
+    <value>wettelijk</value>
+  </data>
+  <data name="DocumentEditor_Statement" xml:space="preserve">
+    <value>Uitspraak</value>
+  </data>
+  <data name="DocumentEditor_Executive" xml:space="preserve">
+    <value>uitvoerend</value>
+  </data>
+  <data name="DocumentEditor_A3" xml:space="preserve">
+    <value>A3</value>
+  </data>
+  <data name="DocumentEditor_A4" xml:space="preserve">
+    <value>A4</value>
+  </data>
+  <data name="DocumentEditor_A5" xml:space="preserve">
+    <value>A5</value>
+  </data>
+  <data name="DocumentEditor_B4" xml:space="preserve">
+    <value>B4</value>
+  </data>
+  <data name="DocumentEditor_B5" xml:space="preserve">
+    <value>B5</value>
+  </data>
+  <data name="DocumentEditor_CustomSize" xml:space="preserve">
+    <value>Aangepast formaat</value>
+  </data>
+  <data name="DocumentEditor_DifferentOddAndEven" xml:space="preserve">
+    <value>Anders even en oneven</value>
+  </data>
+  <data name="DocumentEditor_DifferentFirstPage" xml:space="preserve">
+    <value>Verschillende eerste pagina</value>
+  </data>
+  <data name="DocumentEditor_FromEdge" xml:space="preserve">
+    <value>Van rand</value>
+  </data>
+  <data name="DocumentEditor_Header" xml:space="preserve">
+    <value>Koptekst</value>
+  </data>
+  <data name="DocumentEditor_Footer" xml:space="preserve">
+    <value>Voettekst</value>
+  </data>
+  <data name="DocumentEditor_Margin" xml:space="preserve">
+    <value>marges</value>
+  </data>
+  <data name="DocumentEditor_Paper" xml:space="preserve">
+    <value>Papier</value>
+  </data>
+  <data name="DocumentEditor_Layout" xml:space="preserve">
+    <value>lay-out</value>
+  </data>
+  <data name="DocumentEditor_Orientation" xml:space="preserve">
+    <value>oriëntering</value>
+  </data>
+  <data name="DocumentEditor_Landscape" xml:space="preserve">
+    <value>Landschap</value>
+  </data>
+  <data name="DocumentEditor_Portrait" xml:space="preserve">
+    <value>Portret</value>
+  </data>
+  <data name="DocumentEditor_ShowPageNumbers" xml:space="preserve">
+    <value>Toon paginanummers</value>
+  </data>
+  <data name="DocumentEditor_RightAlignPageNumbers" xml:space="preserve">
+    <value>Paginanummers rechts uitlijnen.</value>
+  </data>
+  <data name="DocumentEditor_Nothing" xml:space="preserve">
+    <value>Niets</value>
+  </data>
+  <data name="DocumentEditor_TabLeader" xml:space="preserve">
+    <value>Tab leider</value>
+  </data>
+  <data name="DocumentEditor_ShowLevels" xml:space="preserve">
+    <value>Toon niveaus</value>
+  </data>
+  <data name="DocumentEditor_UseHyperlinksInsteadOfPageNumbers" xml:space="preserve">
+    <value>Gebruik hyperlinks in plaats van paginanummers</value>
+  </data>
+  <data name="DocumentEditor_BuildTableOfContentsFrom" xml:space="preserve">
+    <value>Bouw een inhoudsopgave van</value>
+  </data>
+  <data name="DocumentEditor_Styles" xml:space="preserve">
+    <value>stijlen</value>
+  </data>
+  <data name="DocumentEditor_AvailableStyles" xml:space="preserve">
+    <value>Beschikbare stijlen</value>
+  </data>
+  <data name="DocumentEditor_TOCLevel" xml:space="preserve">
+    <value>TOC-niveau</value>
+  </data>
+  <data name="DocumentEditor_Heading" xml:space="preserve">
+    <value>Heading</value>
+  </data>
+  <data name="DocumentEditor_Heading1" xml:space="preserve">
+    <value>Koptekst 1</value>
+  </data>
+  <data name="DocumentEditor_Heading2" xml:space="preserve">
+    <value>Kop 2</value>
+  </data>
+  <data name="DocumentEditor_Heading3" xml:space="preserve">
+    <value>Rubriek 3</value>
+  </data>
+  <data name="DocumentEditor_Heading4" xml:space="preserve">
+    <value>Rubriek 4</value>
+  </data>
+  <data name="DocumentEditor_Heading5" xml:space="preserve">
+    <value>Rubriek 5</value>
+  </data>
+  <data name="DocumentEditor_Heading6" xml:space="preserve">
+    <value>Rubriek 6</value>
+  </data>
+  <data name="DocumentEditor_ListParagraph" xml:space="preserve">
+    <value>Lijst Alinea</value>
+  </data>
+  <data name="DocumentEditor_Normal" xml:space="preserve">
+    <value>normaal</value>
+  </data>
+  <data name="DocumentEditor_OutlineLevels" xml:space="preserve">
+    <value>Overzichtsniveaus</value>
+  </data>
+  <data name="DocumentEditor_TableEntryFields" xml:space="preserve">
+    <value>Velden voor tabelinvoer</value>
+  </data>
+  <data name="DocumentEditor_Modify" xml:space="preserve">
+    <value>Aanpassen</value>
+  </data>
+  <data name="DocumentEditor_Color" xml:space="preserve">
+    <value>Kleur</value>
+  </data>
+  <data name="DocumentEditor_Setting" xml:space="preserve">
+    <value>omgeving</value>
+  </data>
+  <data name="DocumentEditor_Box" xml:space="preserve">
+    <value>Doos</value>
+  </data>
+  <data name="DocumentEditor_All" xml:space="preserve">
+    <value>Allemaal</value>
+  </data>
+  <data name="DocumentEditor_Custom" xml:space="preserve">
+    <value>Op maat</value>
+  </data>
+  <data name="DocumentEditor_Preview" xml:space="preserve">
+    <value>Voorbeeld</value>
+  </data>
+  <data name="DocumentEditor_Shading" xml:space="preserve">
+    <value>shading</value>
+  </data>
+  <data name="DocumentEditor_Fill" xml:space="preserve">
+    <value>Vullen</value>
+  </data>
+  <data name="DocumentEditor_ApplyTo" xml:space="preserve">
+    <value>Van toepassing op</value>
+  </data>
+  <data name="DocumentEditor_TableProperties" xml:space="preserve">
+    <value>Tabeleigenschappen</value>
+  </data>
+  <data name="DocumentEditor_CellOptions" xml:space="preserve">
+    <value>Celopties</value>
+  </data>
+  <data name="DocumentEditor_TableOptions" xml:space="preserve">
+    <value>Tabel opties</value>
+  </data>
+  <data name="DocumentEditor_InsertTable" xml:space="preserve">
+    <value>Tabel invoegen</value>
+  </data>
+  <data name="DocumentEditor_NumberOfColumns" xml:space="preserve">
+    <value>Aantal kolommen</value>
+  </data>
+  <data name="DocumentEditor_NumberOfRows" xml:space="preserve">
+    <value>Aantal rijen</value>
+  </data>
+  <data name="DocumentEditor_TextToDisplay" xml:space="preserve">
+    <value>Weer te geven tekst</value>
+  </data>
+  <data name="DocumentEditor_Address" xml:space="preserve">
+    <value>Adres</value>
+  </data>
+  <data name="DocumentEditor_InsertHyperlink" xml:space="preserve">
+    <value>Voeg hyperlink in</value>
+  </data>
+  <data name="DocumentEditor_EditHyperlink" xml:space="preserve">
+    <value>Hyperlink bewerken</value>
+  </data>
+  <data name="DocumentEditor_Insert" xml:space="preserve">
+    <value>invoegen</value>
+  </data>
+  <data name="DocumentEditor_General" xml:space="preserve">
+    <value>Algemeen</value>
+  </data>
+  <data name="DocumentEditor_Indentation" xml:space="preserve">
+    <value>deuk</value>
+  </data>
+  <data name="DocumentEditor_BeforeText" xml:space="preserve">
+    <value>Voor tekst</value>
+  </data>
+  <data name="DocumentEditor_Special" xml:space="preserve">
+    <value>speciaal</value>
+  </data>
+  <data name="DocumentEditor_FirstLine" xml:space="preserve">
+    <value>Eerste lijn</value>
+  </data>
+  <data name="DocumentEditor_Hanging" xml:space="preserve">
+    <value>hangende</value>
+  </data>
+  <data name="DocumentEditor_AfterText" xml:space="preserve">
+    <value>Na tekst</value>
+  </data>
+  <data name="DocumentEditor_By" xml:space="preserve">
+    <value>Door</value>
+  </data>
+  <data name="DocumentEditor_Before" xml:space="preserve">
+    <value>Voordat</value>
+  </data>
+  <data name="DocumentEditor_LineSpacing" xml:space="preserve">
+    <value>Regelafstand</value>
+  </data>
+  <data name="DocumentEditor_After" xml:space="preserve">
+    <value>Na</value>
+  </data>
+  <data name="DocumentEditor_At" xml:space="preserve">
+    <value>Bij</value>
+  </data>
+  <data name="DocumentEditor_Multiple" xml:space="preserve">
+    <value>Meerdere</value>
+  </data>
+  <data name="DocumentEditor_Spacing" xml:space="preserve">
+    <value>Spatiëring</value>
+  </data>
+  <data name="DocumentEditor_DefineNewMultilevelList" xml:space="preserve">
+    <value>Definieer nieuwe lijst op meerdere niveaus</value>
+  </data>
+  <data name="DocumentEditor_ListLevel" xml:space="preserve">
+    <value>Lijstniveau</value>
+  </data>
+  <data name="DocumentEditor_ChooseLevelToModify" xml:space="preserve">
+    <value>Kies niveau om te wijzigen</value>
+  </data>
+  <data name="DocumentEditor_Level" xml:space="preserve">
+    <value>Niveau</value>
+  </data>
+  <data name="DocumentEditor_NumberFormat" xml:space="preserve">
+    <value>Nummer formaat</value>
+  </data>
+  <data name="DocumentEditor_NumberStyleForThisLevel" xml:space="preserve">
+    <value>Nummerstijl voor dit niveau</value>
+  </data>
+  <data name="DocumentEditor_EnterFormattingForNumber" xml:space="preserve">
+    <value>Voer de opmaak voor het nummer in</value>
+  </data>
+  <data name="DocumentEditor_StartAt" xml:space="preserve">
+    <value>Begin bij</value>
+  </data>
+  <data name="DocumentEditor_RestartListAfter" xml:space="preserve">
+    <value>Lijst opnieuw starten na</value>
+  </data>
+  <data name="DocumentEditor_Position" xml:space="preserve">
+    <value>Positie</value>
+  </data>
+  <data name="DocumentEditor_TextIndentAt" xml:space="preserve">
+    <value>Tekst inspringen om</value>
+  </data>
+  <data name="DocumentEditor_AlignedAt" xml:space="preserve">
+    <value>Uitgelijnd op</value>
+  </data>
+  <data name="DocumentEditor_FollowNumberWith" xml:space="preserve">
+    <value>Volg nummer met</value>
+  </data>
+  <data name="DocumentEditor_TabCharacter" xml:space="preserve">
+    <value>Tab-teken</value>
+  </data>
+  <data name="DocumentEditor_Space" xml:space="preserve">
+    <value>Ruimte</value>
+  </data>
+  <data name="DocumentEditor_Arabic" xml:space="preserve">
+    <value>Arabisch</value>
+  </data>
+  <data name="DocumentEditor_UpRoman" xml:space="preserve">
+    <value>UpRoman</value>
+  </data>
+  <data name="DocumentEditor_LowRoman" xml:space="preserve">
+    <value>LowRoman</value>
+  </data>
+  <data name="DocumentEditor_UpLetter" xml:space="preserve">
+    <value>UpLetter</value>
+  </data>
+  <data name="DocumentEditor_LowLetter" xml:space="preserve">
+    <value>LowLetter</value>
+  </data>
+  <data name="DocumentEditor_Number" xml:space="preserve">
+    <value>Aantal</value>
+  </data>
+  <data name="DocumentEditor_LeadingZero" xml:space="preserve">
+    <value>Voorloopnul</value>
+  </data>
+  <data name="DocumentEditor_Bullet" xml:space="preserve">
+    <value>Kogel</value>
+  </data>
+  <data name="DocumentEditor_Ordinal" xml:space="preserve">
+    <value>rangtelwoord</value>
+  </data>
+  <data name="DocumentEditor_OrdinalText" xml:space="preserve">
+    <value>Oorspronkelijke tekst</value>
+  </data>
+  <data name="DocumentEditor_ForEast" xml:space="preserve">
+    <value>Voor oost</value>
+  </data>
+  <data name="DocumentEditor_NoRestart" xml:space="preserve">
+    <value>Geen herstart</value>
+  </data>
+  <data name="DocumentEditor_Font" xml:space="preserve">
+    <value>Lettertype</value>
+  </data>
+  <data name="DocumentEditor_FontStyle" xml:space="preserve">
+    <value>Lettertype</value>
+  </data>
+  <data name="DocumentEditor_UnderlineStyle" xml:space="preserve">
+    <value>Stijl onderstrepen</value>
+  </data>
+  <data name="DocumentEditor_FontColor" xml:space="preserve">
+    <value>Letterkleur</value>
+  </data>
+  <data name="DocumentEditor_Effects" xml:space="preserve">
+    <value>Effecten</value>
+  </data>
+  <data name="DocumentEditor_Strikethrough" xml:space="preserve">
+    <value>doorhalen</value>
+  </data>
+  <data name="DocumentEditor_Superscript" xml:space="preserve">
+    <value>superscript</value>
+  </data>
+  <data name="DocumentEditor_Subscript" xml:space="preserve">
+    <value>Onderschrift</value>
+  </data>
+  <data name="DocumentEditor_DoubleStrikethrough" xml:space="preserve">
+    <value>Dubbel doorgehaald</value>
+  </data>
+  <data name="DocumentEditor_Regular" xml:space="preserve">
+    <value>regelmatig</value>
+  </data>
+  <data name="DocumentEditor_Bold" xml:space="preserve">
+    <value>Vet</value>
+  </data>
+  <data name="DocumentEditor_Italic" xml:space="preserve">
+    <value>Cursief</value>
+  </data>
+  <data name="DocumentEditor_Cut" xml:space="preserve">
+    <value>Knippen</value>
+  </data>
+  <data name="DocumentEditor_Copy" xml:space="preserve">
+    <value>Kopiëren</value>
+  </data>
+  <data name="DocumentEditor_Paste" xml:space="preserve">
+    <value>Plakken</value>
+  </data>
+  <data name="DocumentEditor_Hyperlink" xml:space="preserve">
+    <value>hyperlink</value>
+  </data>
+  <data name="DocumentEditor_OpenHyperlink" xml:space="preserve">
+    <value>Open Hyperlink</value>
+  </data>
+  <data name="DocumentEditor_CopyHyperlink" xml:space="preserve">
+    <value>Hyperlink kopiëren</value>
+  </data>
+  <data name="DocumentEditor_RemoveHyperlink" xml:space="preserve">
+    <value>Hyperlink verwijderen</value>
+  </data>
+  <data name="DocumentEditor_Paragraph" xml:space="preserve">
+    <value>paragraaf</value>
+  </data>
+  <data name="DocumentEditor_LinkedStyle" xml:space="preserve">
+    <value>Gekoppeld (alinea en teken)</value>
+  </data>
+  <data name="DocumentEditor_Character" xml:space="preserve">
+    <value>Karakter</value>
+  </data>
+  <data name="DocumentEditor_MergeCells" xml:space="preserve">
+    <value>Cellen samenvoegen</value>
+  </data>
+  <data name="DocumentEditor_InsertAbove" xml:space="preserve">
+    <value>Boven invoegen</value>
+  </data>
+  <data name="DocumentEditor_InsertBelow" xml:space="preserve">
+    <value>Hieronder invoegen</value>
+  </data>
+  <data name="DocumentEditor_InsertLeft" xml:space="preserve">
+    <value>Links invoegen</value>
+  </data>
+  <data name="DocumentEditor_InsertRight" xml:space="preserve">
+    <value>Rechts invoegen</value>
+  </data>
+  <data name="DocumentEditor_Delete" xml:space="preserve">
+    <value>Verwijderen</value>
+  </data>
+  <data name="DocumentEditor_DeleteTable" xml:space="preserve">
+    <value>Tabel verwijderen</value>
+  </data>
+  <data name="DocumentEditor_DeleteRow" xml:space="preserve">
+    <value>Verwijder rij</value>
+  </data>
+  <data name="DocumentEditor_DeleteColumn" xml:space="preserve">
+    <value>Kolom verwijderen</value>
+  </data>
+  <data name="DocumentEditor_FileName" xml:space="preserve">
+    <value>Bestandsnaam</value>
+  </data>
+  <data name="DocumentEditor_FormatType" xml:space="preserve">
+    <value>Type opmaak</value>
+  </data>
+  <data name="DocumentEditor_Save" xml:space="preserve">
+    <value>Opslaan</value>
+  </data>
+  <data name="DocumentEditor_Navigation" xml:space="preserve">
+    <value>Navigatie</value>
+  </data>
+  <data name="DocumentEditor_Results" xml:space="preserve">
+    <value>resultaten</value>
+  </data>
+  <data name="DocumentEditor_Replace" xml:space="preserve">
+    <value>Vervangen</value>
+  </data>
+  <data name="DocumentEditor_ReplaceAll" xml:space="preserve">
+    <value>Vervang alles</value>
+  </data>
+  <data name="DocumentEditor_WeReplacedAll" xml:space="preserve">
+    <value>We hebben alles vervangen</value>
+  </data>
+  <data name="DocumentEditor_Find" xml:space="preserve">
+    <value>Zoeken</value>
+  </data>
+  <data name="DocumentEditor_NoMatches" xml:space="preserve">
+    <value>Geen overeenkomsten</value>
+  </data>
+  <data name="DocumentEditor_AllDone" xml:space="preserve">
+    <value>Helemaal klaar</value>
+  </data>
+  <data name="DocumentEditor_Result" xml:space="preserve">
+    <value>Resultaat</value>
+  </data>
+  <data name="DocumentEditor_Of" xml:space="preserve">
+    <value>van</value>
+  </data>
+  <data name="DocumentEditor_Instances" xml:space="preserve">
+    <value>instanties</value>
+  </data>
+  <data name="DocumentEditor_With" xml:space="preserve">
+    <value>met</value>
+  </data>
+  <data name="DocumentEditor_ClickToFollowLink" xml:space="preserve">
+    <value>Klik om de link te volgen</value>
+  </data>
+  <data name="DocumentEditor_ContinueNumbering" xml:space="preserve">
+    <value>Doorgaan met nummeren</value>
+  </data>
+  <data name="DocumentEditor_BookmarkName" xml:space="preserve">
+    <value>Bladwijzernaam</value>
+  </data>
+  <data name="DocumentEditor_Close" xml:space="preserve">
+    <value>Sluiten</value>
+  </data>
+  <data name="DocumentEditor_RestartAt" xml:space="preserve">
+    <value>Herstart om</value>
+  </data>
+  <data name="DocumentEditor_Properties" xml:space="preserve">
+    <value>Eigendommen</value>
+  </data>
+  <data name="DocumentEditor_Name" xml:space="preserve">
+    <value>Naam</value>
+  </data>
+  <data name="DocumentEditor_StyleType" xml:space="preserve">
+    <value>Stijltype</value>
+  </data>
+  <data name="DocumentEditor_StyleBasedOn" xml:space="preserve">
+    <value>Stijl gebaseerd op</value>
+  </data>
+  <data name="DocumentEditor_StyleForFollowingParagraph" xml:space="preserve">
+    <value>Stijl voor de volgende paragraaf</value>
+  </data>
+  <data name="DocumentEditor_Formatting" xml:space="preserve">
+    <value>formatteren</value>
+  </data>
+  <data name="DocumentEditor_NumberingAndBullets" xml:space="preserve">
+    <value>Nummering en opsommingstekens</value>
+  </data>
+  <data name="DocumentEditor_Numbering" xml:space="preserve">
+    <value>nummering</value>
+  </data>
+  <data name="DocumentEditor_UpdateField" xml:space="preserve">
+    <value>Werk veld bij</value>
+  </data>
+  <data name="DocumentEditor_EditField" xml:space="preserve">
+    <value>Veld bewerken</value>
+  </data>
+  <data name="DocumentEditor_Bookmark" xml:space="preserve">
+    <value>Bladwijzer</value>
+  </data>
+  <data name="DocumentEditor_PageSetup" xml:space="preserve">
+    <value>Pagina instellingen</value>
+  </data>
+  <data name="DocumentEditor_NoBookmarksFound" xml:space="preserve">
+    <value>Geen bladwijzers gevonden</value>
+  </data>
+  <data name="DocumentEditor_Format" xml:space="preserve">
+    <value>Formaat</value>
+  </data>
+  <data name="DocumentEditor_CreateNewStyle" xml:space="preserve">
+    <value>Maak een nieuwe stijl</value>
+  </data>
+  <data name="DocumentEditor_ModifyStyle" xml:space="preserve">
+    <value>Stijl wijzigen</value>
+  </data>
+  <data name="DocumentEditor_New" xml:space="preserve">
+    <value>Nieuw</value>
+  </data>
+  <data name="DocumentEditor_Bullets" xml:space="preserve">
+    <value>kogels</value>
+  </data>
+  <data name="DocumentEditor_UseBookmarks" xml:space="preserve">
+    <value>Gebruik bladwijzers</value>
+  </data>
+  <data name="DocumentEditor_TableOfContents" xml:space="preserve">
+    <value>Inhoudsopgave</value>
+  </data>
+  <data name="DocumentEditor_AutoFit" xml:space="preserve">
+    <value>AutoFit</value>
+  </data>
+  <data name="DocumentEditor_AutoFitToContents" xml:space="preserve">
+    <value>AutoFit naar inhoud</value>
+  </data>
+  <data name="DocumentEditor_AutoFitToWindow" xml:space="preserve">
+    <value>Automatisch aanpassen aan venster</value>
+  </data>
+  <data name="DocumentEditor_FixedColumnWidth" xml:space="preserve">
+    <value>Vaste kolombreedte</value>
+  </data>
+  <data name="DocumentEditor_Reset" xml:space="preserve">
+    <value>Reset</value>
+  </data>
+  <data name="DocumentEditor_MatchCase" xml:space="preserve">
+    <value>Hoofdlettergevoelig</value>
+  </data>
+  <data name="DocumentEditor_WholeWords" xml:space="preserve">
+    <value>Hele woorden</value>
+  </data>
+  <data name="DocumentEditor_Add" xml:space="preserve">
+    <value>Toevoegen</value>
+  </data>
+  <data name="DocumentEditor_GoTo" xml:space="preserve">
+    <value>Ga naar</value>
+  </data>
+  <data name="DocumentEditor_SearchFor" xml:space="preserve">
+    <value>Zoeken</value>
+  </data>
+  <data name="DocumentEditor_ReplaceWith" xml:space="preserve">
+    <value>Vervangen door</value>
+  </data>
+  <data name="DocumentEditor_TOC1" xml:space="preserve">
+    <value>TOC 1</value>
+  </data>
+  <data name="DocumentEditor_TOC2" xml:space="preserve">
+    <value>TOC 2</value>
+  </data>
+  <data name="DocumentEditor_TOC3" xml:space="preserve">
+    <value>TOC 3</value>
+  </data>
+  <data name="DocumentEditor_TOC4" xml:space="preserve">
+    <value>TOC 4</value>
+  </data>
+  <data name="DocumentEditor_TOC5" xml:space="preserve">
+    <value>TOC 5</value>
+  </data>
+  <data name="DocumentEditor_TOC6" xml:space="preserve">
+    <value>TOC 6</value>
+  </data>
+  <data name="DocumentEditor_TOC7" xml:space="preserve">
+    <value>TOC 7</value>
+  </data>
+  <data name="DocumentEditor_TOC8" xml:space="preserve">
+    <value>TOC 8</value>
+  </data>
+  <data name="DocumentEditor_TOC9" xml:space="preserve">
+    <value>TOC 9</value>
+  </data>
+  <data name="DocumentEditor_RightToLeft" xml:space="preserve">
+    <value>Rechts naar links</value>
+  </data>
+  <data name="DocumentEditor_LeftToRight" xml:space="preserve">
+    <value>Van links naar rechts</value>
+  </data>
+  <data name="DocumentEditor_Direction" xml:space="preserve">
+    <value>Richting</value>
+  </data>
+  <data name="DocumentEditor_TableDirection" xml:space="preserve">
+    <value>Tabel richting</value>
+  </data>
+  <data name="DocumentEditor_IndentFromRight" xml:space="preserve">
+    <value>Inspringen van rechts</value>
+  </data>
+  <data name="DocumentEditor_ContextualSpacing" xml:space="preserve">
+    <value>Voeg geen ruimte toe tussen de alinea's van dezelfde stijlen</value>
+  </data>
+  <data name="DocumentEditor_PasswordMismatch" xml:space="preserve">
+    <value>Het wachtwoord komt niet overeen</value>
+  </data>
+  <data name="DocumentEditor_RestrictEditing" xml:space="preserve">
+    <value>Bewerking beperken</value>
+  </data>
+  <data name="DocumentEditor_FormattingRestrictions" xml:space="preserve">
+    <value>Opmaakbeperkingen</value>
+  </data>
+  <data name="DocumentEditor_AllowFormatting" xml:space="preserve">
+    <value>Formatteren toestaan</value>
+  </data>
+  <data name="DocumentEditor_EditingRestrictions" xml:space="preserve">
+    <value>Beperkingen bewerken</value>
+  </data>
+  <data name="DocumentEditor_ReadOnly" xml:space="preserve">
+    <value>Alleen lezen</value>
+  </data>
+  <data name="DocumentEditor_ExceptionsOptional" xml:space="preserve">
+    <value>Uitzonderingen (optioneel)</value>
+  </data>
+  <data name="DocumentEditor_SelectPartOfDocumentAndUser" xml:space="preserve">
+    <value>Selecteer delen van het document en kies gebruikers die ze vrij mogen bewerken.</value>
+  </data>
+  <data name="DocumentEditor_Everyone" xml:space="preserve">
+    <value>Iedereen</value>
+  </data>
+  <data name="DocumentEditor_MoreUsers" xml:space="preserve">
+    <value>Meer gebruikers</value>
+  </data>
+  <data name="DocumentEditor_AddUsers" xml:space="preserve">
+    <value>Gebruikers toevoegen</value>
+  </data>
+  <data name="DocumentEditor_EnforcingProtection" xml:space="preserve">
+    <value>Ja, start het afdwingen van bescherming</value>
+  </data>
+  <data name="DocumentEditor_StartEnforcingProtection" xml:space="preserve">
+    <value>Start het afdwingen van bescherming</value>
+  </data>
+  <data name="DocumentEditor_EnterUser" xml:space="preserve">
+    <value>Voer gebruiker in</value>
+  </data>
+  <data name="DocumentEditor_Users" xml:space="preserve">
+    <value>gebruikers</value>
+  </data>
+  <data name="DocumentEditor_EnterNewPassword" xml:space="preserve">
+    <value>Voer nieuw wachtwoord in</value>
+  </data>
+  <data name="DocumentEditor_ReenterNewPasswordToConfirm" xml:space="preserve">
+    <value>Voer het nieuwe wachtwoord opnieuw in om te bevestigen</value>
+  </data>
+  <data name="DocumentEditor_YourPermissions" xml:space="preserve">
+    <value>Uw rechten</value>
+  </data>
+  <data name="DocumentEditor_ProtectedDocument" xml:space="preserve">
+    <value>Dit document is beschermd tegen onbedoelde bewerking.</value>
+  </data>
+  <data name="DocumentEditor_YouMayFormatTextOnlyWithCertainStyles" xml:space="preserve">
+    <value>U kunt tekst alleen met bepaalde stijlen opmaken.</value>
+  </data>
+  <data name="DocumentEditor_StopProtection" xml:space="preserve">
+    <value>Stop bescherming</value>
+  </data>
+  <data name="DocumentEditor_Password" xml:space="preserve">
+    <value>Wachtwoord</value>
+  </data>
+  <data name="DocumentEditor_SpellingEditor" xml:space="preserve">
+    <value>Spelling Editor</value>
+  </data>
+  <data name="DocumentEditor_Spelling" xml:space="preserve">
+    <value>Spelling</value>
+  </data>
+  <data name="DocumentEditor_SpellCheck" xml:space="preserve">
+    <value>Spellingscontrole</value>
+  </data>
+  <data name="DocumentEditor_UnderlineErrors" xml:space="preserve">
+    <value>Onderstreep fouten</value>
+  </data>
+  <data name="DocumentEditor_Ignore" xml:space="preserve">
+    <value>Negeren</value>
+  </data>
+  <data name="DocumentEditor_IgnoreAll" xml:space="preserve">
+    <value>Negeer alles</value>
+  </data>
+  <data name="DocumentEditor_AddToDictionary" xml:space="preserve">
+    <value>Toevoegen aan woordenboek</value>
+  </data>
+  <data name="DocumentEditor_Change" xml:space="preserve">
+    <value>Verandering</value>
+  </data>
+  <data name="DocumentEditor_ChangeAll" xml:space="preserve">
+    <value>Verander alles</value>
+  </data>
+  <data name="DocumentEditor_Suggestions" xml:space="preserve">
+    <value>suggesties</value>
+  </data>
+  <data name="DocumentEditor_ThePasswordIsIncorrect" xml:space="preserve">
+    <value>Het wachtwoord is incorrect</value>
+  </data>
+  <data name="DocumentEditor_ErrorInEstablishingConnectionWithWebServer" xml:space="preserve">
+    <value>Fout bij het tot stand brengen van verbinding met webserver</value>
+  </data>
+  <data name="DocumentEditor_HighlightTheRegionsICanEdit" xml:space="preserve">
+    <value>Markeer de regio's die ik kan bewerken</value>
+  </data>
+  <data name="DocumentEditor_ShowAllRegionsICanEdit" xml:space="preserve">
+    <value>Alle regio's weergeven die ik kan bewerken</value>
+  </data>
+  <data name="DocumentEditor_FindNextRegionICanEdit" xml:space="preserve">
+    <value>Zoek de volgende regio die ik kan bewerken</value>
+  </data>
+  <data name="DocumentEditor_KeepSourceFormatting" xml:space="preserve">
+    <value>Blijf de bron opmaken</value>
+  </data>
+  <data name="DocumentEditor_MatchDestinationFormatting" xml:space="preserve">
+    <value>Match de opmaak van de bestemming</value>
+  </data>
+  <data name="DocumentEditor_TextOnly" xml:space="preserve">
+    <value>Alleen tekst</value>
+  </data>
+  <data name="DocumentEditor_Comments" xml:space="preserve">
+    <value>Comments</value>
+  </data>
+  <data name="DocumentEditor_TypeYourComment" xml:space="preserve">
+    <value>Typ uw reactie</value>
+  </data>
+  <data name="DocumentEditor_Post" xml:space="preserve">
+    <value>Post</value>
+  </data>
+  <data name="DocumentEditor_Reply" xml:space="preserve">
+    <value>Antwoord</value>
+  </data>
+  <data name="DocumentEditor_NewComment" xml:space="preserve">
+    <value>Nieuwe reactie</value>
+  </data>
+  <data name="DocumentEditor_Edit" xml:space="preserve">
+    <value>Bewerk</value>
+  </data>
+  <data name="DocumentEditor_Resolve" xml:space="preserve">
+    <value>Resolve</value>
+  </data>
+  <data name="DocumentEditor_Reopen" xml:space="preserve">
+    <value>heropenen</value>
+  </data>
+  <data name="DocumentEditor_NoCommentsInThisDocument" xml:space="preserve">
+    <value>Geen opmerkingen in dit document</value>
+  </data>
+  <data name="DocumentEditor_More" xml:space="preserve">
+    <value>meer</value>
+  </data>
+  <data name="DocumentEditor_TypeYourCommentHere" xml:space="preserve">
+    <value>Typ uw reactie hier</value>
+  </data>
+  <data name="DocumentEditor_NextComment" xml:space="preserve">
+    <value>Volgende reactie</value>
+  </data>
+  <data name="DocumentEditor_PreviousComment" xml:space="preserve">
+    <value>Vorige reactie</value>
+  </data>
+  <data name="DocumentEditor_UnPostedComments" xml:space="preserve">
+    <value>Niet geposte reacties</value>
+  </data>
+  <data name="DocumentEditor_DiscardComment" xml:space="preserve">
+    <value>Toegevoegde opmerkingen niet gepost. Als u doorgaat, wordt die opmerking verwijderd.</value>
+  </data>
+  <data name="DocumentEditor_NoHeadings" xml:space="preserve">
+    <value>Geen rubriek gevonden!</value>
+  </data>
+  <data name="DocumentEditor_AddHeadings" xml:space="preserve">
+    <value>Dit document heeft geen koppen. Voeg koppen toe en probeer het opnieuw.</value>
+  </data>
+  <data name="DocumentEditor_MoreOptions" xml:space="preserve">
+    <value>Meer opties</value>
+  </data>
+  <data name="DocumentEditor_ClickToSeeThisComment" xml:space="preserve">
+    <value>Klik om deze opmerking te zien</value>
+  </data>
+  <data name="DocumentEditor_DropDownFormField" xml:space="preserve">
+    <value>Drop-down formulierveld</value>
+  </data>
+  <data name="DocumentEditor_DropDownItems" xml:space="preserve">
+    <value>Dropdown-items</value>
+  </data>
+  <data name="DocumentEditor_ItemsInDropDownList" xml:space="preserve">
+    <value>Items in vervolgkeuzelijst</value>
+  </data>
+  <data name="DocumentEditor_ADDButton" xml:space="preserve">
+    <value>TOEVOEGEN</value>
+  </data>
+  <data name="DocumentEditor_REMOVE" xml:space="preserve">
+    <value>VERWIJDEREN</value>
+  </data>
+  <data name="DocumentEditor_FieldSettings" xml:space="preserve">
+    <value>Lokale instellingen</value>
+  </data>
+  <data name="DocumentEditor_Tooltip" xml:space="preserve">
+    <value>Knopinfo</value>
+  </data>
+  <data name="DocumentEditor_DropDownEnabled" xml:space="preserve">
+    <value>Drop-down ingeschakeld</value>
+  </data>
+  <data name="DocumentEditor_CheckBoxFormField" xml:space="preserve">
+    <value>Selectievakje Formulierveld</value>
+  </data>
+  <data name="DocumentEditor_CheckBoxSize" xml:space="preserve">
+    <value>Grootte van selectievakje</value>
+  </data>
+  <data name="DocumentEditor_Auto" xml:space="preserve">
+    <value>Auto</value>
+  </data>
+  <data name="DocumentEditor_DefaultValue" xml:space="preserve">
+    <value>Standaardwaarde</value>
+  </data>
+  <data name="DocumentEditor_NotChecked" xml:space="preserve">
+    <value>Niet aangevinkt</value>
+  </data>
+  <data name="DocumentEditor_Checked" xml:space="preserve">
+    <value>Gecontroleerd</value>
+  </data>
+  <data name="DocumentEditor_CheckBoxEnabled" xml:space="preserve">
+    <value>Selectievakje ingeschakeld</value>
+  </data>
+  <data name="DocumentEditor_TextFormField" xml:space="preserve">
+    <value>Tekst formulierveld</value>
+  </data>
+  <data name="DocumentEditor_Type" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="DocumentEditor_DefaultText" xml:space="preserve">
+    <value>Standaardtekst</value>
+  </data>
+  <data name="DocumentEditor_MaximumLength" xml:space="preserve">
+    <value>Maximale lengte</value>
+  </data>
+  <data name="DocumentEditor_TextFormat" xml:space="preserve">
+    <value>Tekstformaat</value>
+  </data>
+  <data name="DocumentEditor_FillInEnabled" xml:space="preserve">
+    <value>Invullen ingeschakeld</value>
+  </data>
+  <data name="DocumentEditor_DefaultNumber" xml:space="preserve">
+    <value>Standaard nummer</value>
+  </data>
+  <data name="DocumentEditor_DefaultDate" xml:space="preserve">
+    <value>Standaarddatum</value>
+  </data>
+  <data name="DocumentEditor_DateFormat" xml:space="preserve">
+    <value>Datumnotatie</value>
+  </data>
+  <data name="DocumentEditor_MergeTrack" xml:space="preserve">
+    <value>Deze actie wordt niet gemarkeerd als wijziging. Wil je doorgaan?</value>
+  </data>
+  <data name="DocumentEditor_UnTrack" xml:space="preserve">
+    <value>Kan niet worden gevolgd</value>
+  </data>
+  <data name="DocumentEditor_Accept" xml:space="preserve">
+    <value>Aanvaarden</value>
+  </data>
+  <data name="DocumentEditor_Reject" xml:space="preserve">
+    <value>Weigeren</value>
+  </data>
+  <data name="DocumentEditor_PreviousChanges" xml:space="preserve">
+    <value>Eerdere wijzigingen</value>
+  </data>
+  <data name="DocumentEditor_NextChanges" xml:space="preserve">
+    <value>Volgende wijzigingen</value>
+  </data>
+  <data name="DocumentEditor_Inserted" xml:space="preserve">
+    <value>Ingevoegd</value>
+  </data>
+  <data name="DocumentEditor_Deleted" xml:space="preserve">
+    <value>Verwijderd</value>
+  </data>
+  <data name="DocumentEditor_Changes" xml:space="preserve">
+    <value>Veranderingen</value>
+  </data>
+  <data name="DocumentEditor_AcceptAll" xml:space="preserve">
+    <value>Accepteer alles</value>
+  </data>
+  <data name="DocumentEditor_RejectAll" xml:space="preserve">
+    <value>Alles afwijzen</value>
+  </data>
+  <data name="DocumentEditor_NoChanges" xml:space="preserve">
+    <value>Geen veranderingen</value>
+  </data>
+  <data name="DocumentEditor_AcceptChanges" xml:space="preserve">
+    <value>Accepteer wijzigingen</value>
+  </data>
+  <data name="DocumentEditor_RejectChanges" xml:space="preserve">
+    <value>Wijzigingen afwijzen</value>
+  </data>
+  <data name="DocumentEditor_User" xml:space="preserve">
+    <value>Gebruiker</value>
+  </data>
+  <data name="DocumentEditor_View" xml:space="preserve">
+    <value>Visie</value>
+  </data>
+  <data name="DocumentEditor_UnprotectDocument" xml:space="preserve">
+    <value>Document beveiligen opheffen</value>
+  </data>
+  <data name="DocumentEditor_FormFieldsOnly" xml:space="preserve">
+    <value>U mag alleen in deze regio formulieren invullen.</value>
+  </data>
+  <data name="DocumentEditor_IndentsAndSpacing" xml:space="preserve">
+    <value>Controle over weduwe/wees</value>
+  </data>
+  <data name="DocumentEditor_LineAndBreakPage" xml:space="preserve">
+    <value>Inspringingen en afstand</value>
+  </data>
+  <data name="DocumentEditor_Pagination" xml:space="preserve">
+    <value>Regel- en pagina-einden</value>
+  </data>
+  <data name="DocumentEditor_WidowControl" xml:space="preserve">
+    <value>Houd lijnen bij elkaar</value>
+  </data>
+  <data name="DocumentEditor_KeepWithNext" xml:space="preserve">
+    <value>Eén keer negeren</value>
+  </data>
+  <data name="DocumentEditor_KeepLinesTogether" xml:space="preserve">
+    <value>Blijf bij volgende</value>
+  </data>
+  <data name="DocumentEditor_ScreenTip" xml:space="preserve">
+       <value>ScreenTip tekst</value>
+</data>
+<data name="DocumentEditor_KeepSource" xml:space="preserve">
+       <value>Bronopmaak behouden</value>
+</data>
+<data name="DocumentEditor_DestinationFormat" xml:space="preserve">
+       <value>Opmaak van bestemming overeenkomen</value>
+</data>
+<data name="DocumentEditor_CommentsOnly" xml:space="preserve">
+       <value>U mag alleen opmerkingen invoegen in deze regio.</value>
+</data>
+<data name="DocumentEditor_RowRange" xml:space="preserve">
+       <value>Het aantal rijen moet tussen 1 en 32767 liggen.</value>
+</data>
+<data name="DocumentEditor_ColumnRange" xml:space="preserve">
+       <value>Het aantal kolommen moet tussen 1 en 63 liggen.</value>
+</data>
+<data name="DocumentEditor_Information" xml:space="preserve">
+       <value>Informatie</value>
+</data>
+<data name="DocumentEditor_Dot" xml:space="preserve">
+       <value>Punt</value>
+</data>
+<data name="DocumentEditor_DashSmallGap" xml:space="preserve">
+       <value>Dash kleine opening</value>
+</data>
+<data name="DocumentEditor_DashDot" xml:space="preserve">
+       <value>Streepjespunt</value>
+</data>
+<data name="DocumentEditor_ThinThickSmallGap" xml:space="preserve">
+       <value>Dunne dikke kleine opening</value>
+</data>
+<data name="DocumentEditor_ThickThinSmallGap" xml:space="preserve">
+       <value>Dikke dunne kleine opening</value>
+</data>
+<data name="DocumentEditor_ThickThinMediumGap" xml:space="preserve">
+       <value>Dik Dun Medium Spleet</value>
+</data>
+<data name="DocumentEditor_ThickThinLargeGap" xml:space="preserve">
+       <value>Dikke dunne grote opening</value>
+</data>
+<data name="DocumentEditor_SingleWavy" xml:space="preserve">
+       <value>enkel golvend</value>
+</data>
+<data name="DocumentEditor_DoubleWavy" xml:space="preserve">
+       <value>Dubbel golvend</value>
+</data>
+<data name="DocumentEditor_Inset" xml:space="preserve">
+       <value>inzet</value>
+</data>
+<data name="DocumentEditor_DashLargeGap" xml:space="preserve">
+       <value>Dash grote opening</value>
+</data>
+<data name="DocumentEditor_DashDotDot" xml:space="preserve">
+       <value>Streepje Punt Punt</value>
+</data>
+<data name="DocumentEditor_Triple" xml:space="preserve">
+       <value>Verdrievoudigen</value>
+</data>
+<data name="DocumentEditor_ThinThickThinSmallGap" xml:space="preserve">
+       <value>Dun dik dun klein gat</value>
+</data>
+<data name="DocumentEditor_ThinThickThinMediumGap" xml:space="preserve">
+       <value>Dun Dik Dun Medium Spleet</value>
+</data>
+<data name="DocumentEditor_ThinThickThinLargeGap" xml:space="preserve">
+       <value>Dun Dik Dun Grote opening</value>
+</data>
+<data name="DocumentEditor_DashDotStroked" xml:space="preserve">
+       <value>Streepje stip gestreken</value>
+</data>
+<data name="DocumentEditor_Engrave3D" xml:space="preserve">
+       <value>Graveren3D</value>
+</data>
+<data name="DocumentEditor_Thick" xml:space="preserve">
+       <value>Dik</value>
+</data>
+<data name="DocumentEditor_Outset" xml:space="preserve">
+       <value>Begin</value>
+</data>
+<data name="DocumentEditor_Emboss3D" xml:space="preserve">
+       <value>Reliëf3D</value>
+</data>
+<data name="DocumentEditor_ThinThickLargeGap" xml:space="preserve">
+       <value>Dunne dikke grote opening</value>
+</data>
+<data name="DocumentEditor_ThinThickMediumGap" xml:space="preserve">
+       <value>Dunne dikke gemiddelde opening</value>
+</data>
+<data name="DocumentEditor_RegularText" xml:space="preserve">
+       <value>gewone tekst</value>
+</data>
+<data name="DocumentEditor_Date" xml:space="preserve">
+       <value>Datum</value>
+</data>
+<data name="DocumentEditor_Uppercase" xml:space="preserve">
+       <value>hoofdletters</value>
+</data>
+<data name="DocumentEditor_Lowercase" xml:space="preserve">
+       <value>kleine letters</value>
+</data>
+<data name="DocumentEditor_FirstCapital" xml:space="preserve">
+       <value>Eerste Hoofdstad</value>
+</data>
+<data name="DocumentEditor_Titlecase" xml:space="preserve">
+       <value>Hoofdzaak</value>
+</data>
+<data name="DocumentEditor_MoveFrom" xml:space="preserve">
+       <value>Verhuizen van</value>
+</data>
+<data name="DocumentEditor_MoveTo" xml:space="preserve">
+       <value>Verplaatsen naar</value>
+</data>
+<data name="DocumentEditor_Px" xml:space="preserve">
+       <value>px</value>
+</data>
+<data name="DocumentEditor_ReadOnlyProtection" xml:space="preserve">
+       <value>U kunt in deze regio bewerken.</value>
+</data>
+<data name="DocumentEditorContainer_RegularTooltip" xml:space="preserve">
+       <value>Normaal</value>
+</data>
+<data name="DocumentEditorContainer_BoldItalicTooltip" xml:space="preserve">
+       <value>Vet cursief</value>
+</data>
+  <data name="DocumentEditorContainer_New" xml:space="preserve">
+    <value>Nieuw</value>
+  </data>
+  <data name="DocumentEditorContainer_Open" xml:space="preserve">
+    <value>Open</value>
+  </data>
+  <data name="DocumentEditorContainer_Undo" xml:space="preserve">
+    <value>Ongedaan maken</value>
+  </data>
+  <data name="DocumentEditorContainer_Redo" xml:space="preserve">
+    <value>Opnieuw doen</value>
+  </data>
+  <data name="DocumentEditorContainer_Image" xml:space="preserve">
+    <value>Beeld</value>
+  </data>
+  <data name="DocumentEditorContainer_Table" xml:space="preserve">
+    <value>Tabel</value>
+  </data>
+  <data name="DocumentEditorContainer_Link" xml:space="preserve">
+    <value>Koppeling</value>
+  </data>
+  <data name="DocumentEditorContainer_Bookmark" xml:space="preserve">
+    <value>Bladwijzer</value>
+  </data>
+  <data name="DocumentEditorContainer_TableOfContents" xml:space="preserve">
+    <value>Inhoudsopgave</value>
+  </data>
+  <data name="DocumentEditorContainer_HEADING1" xml:space="preserve">
+    <value>rubriek - - - - 1</value>
+  </data>
+  <data name="DocumentEditorContainer_HEADING2" xml:space="preserve">
+    <value>rubriek - - - - 2</value>
+  </data>
+  <data name="DocumentEditorContainer_HEADING3" xml:space="preserve">
+    <value>rubriek - - - - 3</value>
+  </data>
+  <data name="DocumentEditorContainer_Header" xml:space="preserve">
+    <value>Koptekst</value>
+  </data>
+  <data name="DocumentEditorContainer_Footer" xml:space="preserve">
+    <value>Voettekst</value>
+  </data>
+  <data name="DocumentEditorContainer_PageSetup" xml:space="preserve">
+    <value>Pagina instellingen</value>
+  </data>
+  <data name="DocumentEditorContainer_PageNumber" xml:space="preserve">
+    <value>Paginanummer</value>
+  </data>
+  <data name="DocumentEditorContainer_Break" xml:space="preserve">
+    <value>Breken</value>
+  </data>
+  <data name="DocumentEditorContainer_Find" xml:space="preserve">
+    <value>Zoeken</value>
+  </data>
+  <data name="DocumentEditorContainer_LocalClipboard" xml:space="preserve">
+    <value>Lokaal klembord</value>
+  </data>
+  <data name="DocumentEditorContainer_RestrictEditing" xml:space="preserve">
+    <value>Bewerking beperken</value>
+  </data>
+  <data name="DocumentEditorContainer_UploadFromComputer" xml:space="preserve">
+    <value>Upload van computer</value>
+  </data>
+  <data name="DocumentEditorContainer_ByURL" xml:space="preserve">
+    <value>Op URL</value>
+  </data>
+  <data name="DocumentEditorContainer_PageBreak" xml:space="preserve">
+    <value>Pagina-einde</value>
+  </data>
+  <data name="DocumentEditorContainer_SectionBreak" xml:space="preserve">
+    <value>Sectie Break</value>
+  </data>
+  <data name="DocumentEditorContainer_HeaderAndFooter" xml:space="preserve">
+    <value>Kop- en voettekst</value>
+  </data>
+  <data name="DocumentEditorContainer_Options" xml:space="preserve">
+    <value>Opties</value>
+  </data>
+  <data name="DocumentEditorContainer_Levels" xml:space="preserve">
+    <value>levels</value>
+  </data>
+  <data name="DocumentEditorContainer_DifferentFirstPage" xml:space="preserve">
+    <value>Afwijkende eerste pagina</value>
+  </data>
+  <data name="DocumentEditorContainer_DifferentHeaderAndFooterForOddAndEvenPages" xml:space="preserve">
+    <value>Verschillende kop- en voettekst voor oneven en even pagina's.</value>
+  </data>
+  <data name="DocumentEditorContainer_DifferentOddAndEvenPages" xml:space="preserve">
+    <value>Afwijkende Even en oneven pagina's</value>
+  </data>
+  <data name="DocumentEditorContainer_DifferentHeaderAndFooterForFirstPage" xml:space="preserve">
+    <value>Afwijkende kop- en voettekst voor de eerste pagina.</value>
+  </data>
+  <data name="DocumentEditorContainer_Position" xml:space="preserve">
+    <value>Positie</value>
+  </data>
+  <data name="DocumentEditorContainer_HeaderFromTop" xml:space="preserve">
+    <value>Koptekst vanaf bovenkant</value>
+  </data>
+  <data name="DocumentEditorContainer_FooterFromBottom" xml:space="preserve">
+    <value>Voettekst vanaf onderkant</value>
+  </data>
+  <data name="DocumentEditorContainer_DistanceFromTopOfThePageToTopOfTheHeader" xml:space="preserve">
+    <value>Afstand van de bovenkant van de pagina tot de bovenkant van de koptekst.</value>
+  </data>
+  <data name="DocumentEditorContainer_DistanceFromBottomOfThePageToBottomOfTheFooter" xml:space="preserve">
+    <value>Afstand van de onderkant van de pagina tot de onderkant van de voettekst.</value>
+  </data>
+  <data name="DocumentEditorContainer_AspectRatio" xml:space="preserve">
+    <value>Beeldverhouding</value>
+  </data>
+  <data name="DocumentEditorContainer_W" xml:space="preserve">
+    <value>w</value>
+  </data>
+  <data name="DocumentEditorContainer_H" xml:space="preserve">
+    <value>H</value>
+  </data>
+  <data name="DocumentEditorContainer_Width" xml:space="preserve">
+    <value>Breedte</value>
+  </data>
+  <data name="DocumentEditorContainer_Height" xml:space="preserve">
+    <value>Hoogte</value>
+  </data>
+  <data name="DocumentEditorContainer_Text" xml:space="preserve">
+    <value>Tekst</value>
+  </data>
+  <data name="DocumentEditorContainer_Paragraph" xml:space="preserve">
+    <value>paragraaf</value>
+  </data>
+  <data name="DocumentEditorContainer_Fill" xml:space="preserve">
+    <value>Vullen</value>
+  </data>
+  <data name="DocumentEditorContainer_FillColor" xml:space="preserve">
+    <value>Opvulkleur</value>
+  </data>
+  <data name="DocumentEditorContainer_BorderStyle" xml:space="preserve">
+    <value>Randstijl</value>
+  </data>
+  <data name="DocumentEditorContainer_OutsideBorders" xml:space="preserve">
+    <value>Buiten grenzen</value>
+  </data>
+  <data name="DocumentEditorContainer_AllBorders" xml:space="preserve">
+    <value>Alle grenzen</value>
+  </data>
+  <data name="DocumentEditorContainer_InsideBorders" xml:space="preserve">
+    <value>Binnen grenzen</value>
+  </data>
+  <data name="DocumentEditorContainer_LeftBorder" xml:space="preserve">
+    <value>Linker rand</value>
+  </data>
+  <data name="DocumentEditorContainer_InsideVerticalBorder" xml:space="preserve">
+    <value>Binnen verticale rand</value>
+  </data>
+  <data name="DocumentEditorContainer_RightBorder" xml:space="preserve">
+    <value>Rechter rand</value>
+  </data>
+  <data name="DocumentEditorContainer_TopBorder" xml:space="preserve">
+    <value>Bovenrand</value>
+  </data>
+  <data name="DocumentEditorContainer_InsideHorizontalBorder" xml:space="preserve">
+    <value>Binnen horizontale rand</value>
+  </data>
+  <data name="DocumentEditorContainer_BottomBorder" xml:space="preserve">
+    <value>Onderrand</value>
+  </data>
+  <data name="DocumentEditorContainer_BorderColor" xml:space="preserve">
+    <value>Rand kleur</value>
+  </data>
+  <data name="DocumentEditorContainer_BorderWidth" xml:space="preserve">
+    <value>Grensbreedte</value>
+  </data>
+  <data name="DocumentEditorContainer_Cell" xml:space="preserve">
+    <value>Cel</value>
+  </data>
+  <data name="DocumentEditorContainer_MergeCells" xml:space="preserve">
+    <value>Cellen samenvoegen</value>
+  </data>
+  <data name="DocumentEditorContainer_InsertOrDelete" xml:space="preserve">
+    <value>Invoegen / verwijderen</value>
+  </data>
+  <data name="DocumentEditorContainer_InsertColumnsToTheLeft" xml:space="preserve">
+    <value>Kolommen links invoegen</value>
+  </data>
+  <data name="DocumentEditorContainer_InsertColumnsToTheRight" xml:space="preserve">
+    <value>Kolommen rechts invoegen</value>
+  </data>
+  <data name="DocumentEditorContainer_InsertRowsAbove" xml:space="preserve">
+    <value>Voeg rijen hierboven in</value>
+  </data>
+  <data name="DocumentEditorContainer_InsertRowsBelow" xml:space="preserve">
+    <value>Voeg rijen hieronder in</value>
+  </data>
+  <data name="DocumentEditorContainer_DeleteRows" xml:space="preserve">
+    <value>Rijen verwijderen</value>
+  </data>
+  <data name="DocumentEditorContainer_DeleteColumns" xml:space="preserve">
+    <value>Kolommen verwijderen</value>
+  </data>
+  <data name="DocumentEditorContainer_CellMargin" xml:space="preserve">
+    <value>Mobiele marge</value>
+  </data>
+  <data name="DocumentEditorContainer_Top" xml:space="preserve">
+    <value>Top</value>
+  </data>
+  <data name="DocumentEditorContainer_Bottom" xml:space="preserve">
+    <value>Bodem</value>
+  </data>
+  <data name="DocumentEditorContainer_Left" xml:space="preserve">
+    <value>Links</value>
+  </data>
+  <data name="DocumentEditorContainer_Right" xml:space="preserve">
+    <value>Rechtsaf</value>
+  </data>
+  <data name="DocumentEditorContainer_AlignText" xml:space="preserve">
+    <value>Tekst uitlijnen</value>
+  </data>
+  <data name="DocumentEditorContainer_Aligntop" xml:space="preserve">
+    <value>Boven uitlijnen</value>
+  </data>
+  <data name="DocumentEditorContainer_AlignBottom" xml:space="preserve">
+    <value>Lijn de onderkant uit</value>
+  </data>
+  <data name="DocumentEditorContainer_AlignCenter" xml:space="preserve">
+    <value>Tekst in het midden uitlijnen</value>
+  </data>
+  <data name="DocumentEditorContainer_NumberOfHeadingOrOutlineLevelsToBeShownInTableOfContents" xml:space="preserve">
+    <value>Aantal kop- of overzichtsniveaus dat moet worden weergegeven in de inhoudsopgave.</value>
+  </data>
+  <data name="DocumentEditorContainer_ShowPageNumbers" xml:space="preserve">
+    <value>Toon paginanummers</value>
+  </data>
+  <data name="DocumentEditorContainer_ShowPageNumbersInTableOfContents" xml:space="preserve">
+    <value>Paginanummers weergeven in de inhoudsopgave.</value>
+  </data>
+  <data name="DocumentEditorContainer_RightAlignPageNumbers" xml:space="preserve">
+    <value>Paginanummers rechts uitlijnen.</value>
+  </data>
+  <data name="DocumentEditorContainer_RightAlignPageNumbersInTableOfContents" xml:space="preserve">
+    <value>Lijn de paginanummers in de inhoudsopgave rechts uit.</value>
+  </data>
+  <data name="DocumentEditorContainer_UseHyperlinks" xml:space="preserve">
+    <value>Gebruik hyperlinks</value>
+  </data>
+  <data name="DocumentEditorContainer_UseHyperlinksInsteadOfPageNumbers" xml:space="preserve">
+    <value>Gebruik hyperlinks in plaats van paginanummers.</value>
+  </data>
+  <data name="DocumentEditorContainer_Font" xml:space="preserve">
+    <value>Lettertype</value>
+  </data>
+  <data name="DocumentEditorContainer_FontSize" xml:space="preserve">
+    <value>Lettertypegrootte</value>
+  </data>
+  <data name="DocumentEditorContainer_FontColor" xml:space="preserve">
+    <value>Letterkleur</value>
+  </data>
+  <data name="DocumentEditorContainer_TextHighlightColor" xml:space="preserve">
+    <value>Tekst markeer kleur</value>
+  </data>
+  <data name="DocumentEditorContainer_ClearAllFormatting" xml:space="preserve">
+    <value>Wis alle opmaak</value>
+  </data>
+  <data name="DocumentEditorContainer_BoldTooltip" xml:space="preserve">
+    <value>Vet (Ctrl + B)</value>
+  </data>
+  <data name="DocumentEditorContainer_ItalicTooltip" xml:space="preserve">
+    <value>Cursief (Ctrl + I)</value>
+  </data>
+  <data name="DocumentEditorContainer_UnderlineTooltip" xml:space="preserve">
+    <value>Onderstrepen (Ctrl + U)</value>
+  </data>
+  <data name="DocumentEditorContainer_Strikethrough" xml:space="preserve">
+    <value>doorhalen</value>
+  </data>
+  <data name="DocumentEditorContainer_SuperscriptTooltip" xml:space="preserve">
+    <value>Superscript (Ctrl + Shift ++)</value>
+  </data>
+  <data name="DocumentEditorContainer_SubscriptTooltip" xml:space="preserve">
+    <value>Subscript (Ctrl + =)</value>
+  </data>
+  <data name="DocumentEditorContainer_AlignLeftTooltip" xml:space="preserve">
+    <value>Links uitlijnen (Ctrl + L)</value>
+  </data>
+  <data name="DocumentEditorContainer_CenterTooltip" xml:space="preserve">
+    <value>Midden (Ctrl + E)</value>
+  </data>
+  <data name="DocumentEditorContainer_AlignRightTooltip" xml:space="preserve">
+    <value>Rechts uitlijnen (Ctrl + R)</value>
+  </data>
+  <data name="DocumentEditorContainer_JustifyTooltip" xml:space="preserve">
+    <value>Rechtvaardigen (Ctrl + J)</value>
+  </data>
+  <data name="DocumentEditorContainer_DecreaseIndent" xml:space="preserve">
+    <value>Inspringen verminderen</value>
+  </data>
+  <data name="DocumentEditorContainer_IncreaseIndent" xml:space="preserve">
+    <value>Inspringen vergroten</value>
+  </data>
+  <data name="DocumentEditorContainer_LineSpacing" xml:space="preserve">
+    <value>Regelafstand</value>
+  </data>
+  <data name="DocumentEditorContainer_Bullets" xml:space="preserve">
+    <value>kogels</value>
+  </data>
+  <data name="DocumentEditorContainer_Numbering" xml:space="preserve">
+    <value>nummering</value>
+  </data>
+  <data name="DocumentEditorContainer_Styles" xml:space="preserve">
+    <value>stijlen</value>
+  </data>
+  <data name="DocumentEditorContainer_ManageStyles" xml:space="preserve">
+    <value>Stijlen beheren</value>
+  </data>
+  <data name="DocumentEditorContainer_Page" xml:space="preserve">
+    <value>Bladzijde</value>
+  </data>
+  <data name="DocumentEditorContainer_Of" xml:space="preserve">
+    <value>van</value>
+  </data>
+  <data name="DocumentEditorContainer_FitOnePage" xml:space="preserve">
+    <value>Plaats één pagina</value>
+  </data>
+  <data name="DocumentEditorContainer_SpellCheck" xml:space="preserve">
+    <value>Spellingscontrole</value>
+  </data>
+  <data name="DocumentEditorContainer_UnderlineErrors" xml:space="preserve">
+    <value>Onderstreep fouten</value>
+  </data>
+  <data name="DocumentEditorContainer_FitPageWidth" xml:space="preserve">
+    <value>Pas paginabreedte aan</value>
+  </data>
+  <data name="DocumentEditorContainer_Update" xml:space="preserve">
+    <value>Bijwerken</value>
+  </data>
+  <data name="DocumentEditorContainer_Cancel" xml:space="preserve">
+    <value>Annuleren</value>
+  </data>
+  <data name="DocumentEditorContainer_Insert" xml:space="preserve">
+    <value>invoegen</value>
+  </data>
+  <data name="DocumentEditorContainer_NoBorder" xml:space="preserve">
+    <value>Geen grens</value>
+  </data>
+  <data name="DocumentEditorContainer_CreateANewDocument" xml:space="preserve">
+    <value>Maak een nieuw document.</value>
+  </data>
+  <data name="DocumentEditorContainer_OpenADocument" xml:space="preserve">
+    <value>Open een document.</value>
+  </data>
+  <data name="DocumentEditorContainer_UndoTooltip" xml:space="preserve">
+    <value>Maak de laatste bewerking ongedaan (Ctrl + Z).</value>
+  </data>
+  <data name="DocumentEditorContainer_RedoTooltip" xml:space="preserve">
+    <value>Voer de laatste bewerking opnieuw uit (Ctrl + Y).</value>
+  </data>
+  <data name="DocumentEditorContainer_InsertInlinePictureFromAFile" xml:space="preserve">
+    <value>Inline-afbeelding uit een bestand invoegen.</value>
+  </data>
+  <data name="DocumentEditorContainer_InsertATableIntoTheDocument" xml:space="preserve">
+    <value>Voeg een tabel in het document in.</value>
+  </data>
+  <data name="DocumentEditorContainer_CreateHyperlink" xml:space="preserve">
+    <value>Maak een link in uw document voor snelle toegang tot webpagina's en bestanden (Ctrl + K).</value>
+  </data>
+  <data name="DocumentEditorContainer_InsertABookmarkInASpecificPlaceInThisDocument" xml:space="preserve">
+    <value>Voeg een bladwijzer in op een specifieke plaats in dit document.</value>
+  </data>
+  <data name="DocumentEditorContainer_ProvideAnOverviewOfYourDocumentByAddingATableOfContents" xml:space="preserve">
+    <value>Geef een overzicht van uw document door een inhoudsopgave toe te voegen.</value>
+  </data>
+  <data name="DocumentEditorContainer_AddOrEditTheHeader" xml:space="preserve">
+    <value>Voeg de kop toe of bewerk deze.</value>
+  </data>
+  <data name="DocumentEditorContainer_AddOrEditTheFooter" xml:space="preserve">
+    <value>Voettekst toevoegen of bewerken.</value>
+  </data>
+  <data name="DocumentEditorContainer_OpenThePageSetupDialog" xml:space="preserve">
+    <value>Open het dialoogvenster Pagina-instelling.</value>
+  </data>
+  <data name="DocumentEditorContainer_AddPageNumbers" xml:space="preserve">
+    <value>Voeg paginanummers toe.</value>
+  </data>
+  <data name="DocumentEditorContainer_FindText" xml:space="preserve">
+    <value>Zoek tekst in het document (Ctrl + F).</value>
+  </data>
+  <data name="DocumentEditorContainer_CurrentPageNumber" xml:space="preserve">
+    <value>Het huidige paginanummer in het document. Klik of tik om naar een specifieke pagina te navigeren.</value>
+  </data>
+  <data name="DocumentEditorContainer_ReadOnly" xml:space="preserve">
+    <value>Alleen lezen</value>
+  </data>
+  <data name="DocumentEditorContainer_Protections" xml:space="preserve">
+    <value>Protections</value>
+  </data>
+  <data name="DocumentEditorContainer_ErrorInEstablishingConnectionWithWebServer" xml:space="preserve">
+    <value>Fout bij het tot stand brengen van verbinding met webserver</value>
+  </data>
+  <data name="DocumentEditorContainer_Single" xml:space="preserve">
+    <value>single</value>
+  </data>
+  <data name="DocumentEditorContainer_Double" xml:space="preserve">
+    <value>Dubbele</value>
+  </data>
+  <data name="DocumentEditorContainer_NewComment" xml:space="preserve">
+    <value>Nieuwe reactie</value>
+  </data>
+  <data name="DocumentEditorContainer_Comments" xml:space="preserve">
+    <value>Opmerkingen</value>
+  </data>
+  <data name="DocumentEditorContainer_PrintLayout" xml:space="preserve">
+    <value>Afdrukopmaak</value>
+  </data>
+  <data name="DocumentEditorContainer_WebLayout" xml:space="preserve">
+    <value>web layout</value>
+  </data>
+  <data name="DocumentEditorContainer_ToggleBetweenTheInternalClipboardAndSystemClipboard" xml:space="preserve">
+    <value>Schakelen tussen het interne klembord en het systeemklembord. &#xD; Toegang tot het systeemklembord via script wordt geweigerd vanwege het beveiligingsbeleid van browsers. In plaats daarvan &#xD; 1. U kunt het interne klembord laten knippen, kopiëren en plakken in de component. &#xD; 2. U kunt de sneltoetsen (Ctrl + X, Ctrl + C en Ctrl + V) gebruiken om te knippen , kopiëren en plakken met systeemklembord.</value>
+  </data>
+  <data name="DocumentEditorContainer_TextForm" xml:space="preserve">
+    <value>Tekst vorm</value>
+  </data>
+  <data name="DocumentEditorContainer_CheckBox" xml:space="preserve">
+    <value>Selectievakje</value>
+  </data>
+  <data name="DocumentEditorContainer_DropDown" xml:space="preserve">
+    <value>Laten vallen</value>
+  </data>
+  <data name="DocumentEditorContainer_UpdateFields" xml:space="preserve">
+    <value>Velden bijwerken</value>
+  </data>
+  <data name="DocumentEditorContainer_UpdateCrossReferenceFields" xml:space="preserve">
+    <value>Kruisverwijzingsvelden bijwerken.</value>
+  </data>
+  <data name="DocumentEditorContainer_Track_changes" xml:space="preserve">
+    <value>Houd de wijzigingen in het document bij.</value>
+  </data>
+  <data name="DocumentEditorContainer_TrackChanges" xml:space="preserve">
+    <value>Spoorwissel</value>
+  </data>
+  <data name="DocumentEditorContainer_ZoomLevel" xml:space="preserve">
+    <value>Zoomniveau</value>
+  </data>
+  <data name="DocumentEditorContainer_Footnote_Tooltip" xml:space="preserve">
+    <value>Voetnoot invoegen (Alt + Ctrl + F).</value>
+  </data>
+  <data name="DocumentEditorContainer_Endnote_Tooltip" xml:space="preserve">
+    <value>Eindnoot invoegen (Alt + Ctrl + D).</value>
+  </data>
+  <data name="DocumentEditorContainer_ShowComments" xml:space="preserve">
+    <value>Opmerkingen invoegen</value>
+  </data>
+  <data name="DocumentEditorContainer_FormFields" xml:space="preserve">
+    <value>Formuliervelden</value>
+  </data>
+  <data name="DocumentEditorContainer_Information" xml:space="preserve">
+    <value>Informatie</value>
+  </data>
+  <data name="DocumentEditorContainer_AllCaps" xml:space="preserve">
+    <value>In hoofdletters</value>
+  </data>
+  <data name="DocumentEditorContainer_Insert_Footnote" xml:space="preserve">
+    <value>invoegen</value>
+  </data>
+  <data name="DocumentEditorContainer_Insert_Endnote" xml:space="preserve">
+    <value>invoegen</value>
+  </data>
+  <data name="DocumentEditorContainer_FillingInForms" xml:space="preserve">
+    <value>Formulieren invullen</value>
+  </data>
+  <data name="DocumentEditorContainer_Trackedchanges" xml:space="preserve">
+    <value>Bijgehouden wijzigingen</value>
+  </data>
+  <data name="DocumentEditorContainer_RemovedIgnoreExceptions" xml:space="preserve">
+    <value>Als u deze wijziging in documentbeveiliging aanbrengt, negeert Word alle uitzonderingen in dit document.</value>
+  </data>
+  <data name="DocumentEditor_RevisionsOnly" xml:space="preserve">
+    <value>U kunt in deze regio bewerken, maar alle wijzigingen worden bijgehouden</value>
+  </data>
+  <data name="DocumentEditorContainer_RemovedIgnore" xml:space="preserve">
+    <value>Wilt u de genegeerde uitzonderingen verwijderen?</value>
+  </data>
+  <data name="DocumentEditorContainer_Yes" xml:space="preserve">
+    <value>Ja</value>
+  </data>
+  <data name="DocumentEditorContainer_No" xml:space="preserve">
+    <value>Nee</value>
+  </data>
+  <data name="Gantt_Touch_DialogTextOnClickingConnectorPoint" xml:space="preserve">
+    <value>Kies de andere taak</value>
+  </data>
+  <data name="Gantt_Touch_DialogTextOnSelectingTaskbar" xml:space="preserve">
+    <value>Selecteer de connectorpositie</value>
+  </data>
+  <data name="Gantt_Touch_LeftButton" xml:space="preserve">
+    <value>Links</value>
+  </data>
+  <data name="Gantt_Touch_RightButton" xml:space="preserve">
+    <value>Rechts</value>
+  </data>
+  <data name="PdfViewer_ExportXFDF" xml:space="preserve">
+    <value>Annotatie exporteren naar XFDF-bestand</value>
+  </data>
+  <data name="PdfViewer_ImportXFDF" xml:space="preserve">
+    <value>Aantekeningen importeren uit XFDF-bestand</value>
+  </data>
+</root>

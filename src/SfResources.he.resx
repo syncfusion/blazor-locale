@@ -1,0 +1,5274 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AutoComplete_ActionFailureTemplate" xml:space="preserve">
+    <value>בקשה נכשלה</value>
+  </data>
+  <data name="AutoComplete_NoRecordsTemplate" xml:space="preserve">
+    <value>לא נמצאו שיאים</value>
+  </data>
+  <data name="Calendar_Today" xml:space="preserve">
+    <value>היום</value>
+  </data>
+  <data name="ComboBox_ActionFailureTemplate" xml:space="preserve">
+    <value>בקשה נכשלה</value>
+  </data>
+  <data name="ComboBox_NoRecordsTemplate" xml:space="preserve">
+    <value>לא נמצאו שיאים</value>
+  </data>
+  <data name="DatePicker_Placeholder" xml:space="preserve">
+    <value>בחר תאריך</value>
+  </data>
+  <data name="DatePicker_Today" xml:space="preserve">
+    <value>היום</value>
+  </data>
+  <data name="DateRangePicker_ApplyText" xml:space="preserve">
+    <value>להגיש מועמדות</value>
+  </data>
+  <data name="DateRangePicker_CancelText" xml:space="preserve">
+    <value>בטל</value>
+  </data>
+  <data name="DateRangePicker_CustomRange" xml:space="preserve">
+    <value>טווח מותאם אישית</value>
+  </data>
+  <data name="DateRangePicker_Days" xml:space="preserve">
+    <value>ימים</value>
+  </data>
+  <data name="DateRangePicker_EndLabel" xml:space="preserve">
+    <value>תאריך סיום</value>
+  </data>
+  <data name="DateRangePicker_Placeholder" xml:space="preserve">
+    <value>בחר טווח תאריכים</value>
+  </data>
+  <data name="DateRangePicker_SelectedDays" xml:space="preserve">
+    <value>ימים נבחרים</value>
+  </data>
+  <data name="DateRangePicker_StartLabel" xml:space="preserve">
+    <value>תאריך התחלה</value>
+  </data>
+  <data name="DateTimePicker_Placeholder" xml:space="preserve">
+    <value>בחר תאריך ושעה</value>
+  </data>
+  <data name="DateTimePicker_Today" xml:space="preserve">
+    <value>היום</value>
+  </data>
+  <data name="DropDownList_ActionFailureTemplate" xml:space="preserve">
+    <value>בקשה נכשלה</value>
+  </data>
+  <data name="DropDownList_NoRecordsTemplate" xml:space="preserve">
+    <value>לא נמצאו שיאים</value>
+  </data>
+  <data name="MultiSelect_ActionFailureTemplate" xml:space="preserve">
+    <value>בקשה נכשלה</value>
+  </data>
+  <data name="MultiSelect_NoRecordsTemplate" xml:space="preserve">
+    <value>לא נמצאו שיאים</value>
+  </data>
+  <data name="MultiSelect_OverflowCountTemplate" xml:space="preserve">
+    <value>+${count} יותר ..</value>
+  </data>
+  <data name="MultiSelect_SelectAllText" xml:space="preserve">
+    <value>בחר הכל</value>
+  </data>
+  <data name="MultiSelect_TotalCountTemplate" xml:space="preserve">
+    <value>נבחרו ${count}</value>
+  </data>
+  <data name="MultiSelect_UnSelectAllText" xml:space="preserve">
+    <value>בטל את הבחירה בכולם</value>
+  </data>
+  <data name="NumericTextBox_DecrementTitle" xml:space="preserve">
+    <value>ערך הפחתה</value>
+  </data>
+  <data name="NumericTextBox_IncrementTitle" xml:space="preserve">
+    <value>ערך תוספת</value>
+  </data>
+  <data name="TimePicker_Placeholder" xml:space="preserve">
+    <value>בחר זמן</value>
+  </data>
+  <data name="Uploader_Abort" xml:space="preserve">
+    <value>הפסק</value>
+  </data>
+  <data name="Uploader_Browse" xml:space="preserve">
+    <value>דפדף ...</value>
+  </data>
+  <data name="Uploader_Cancel" xml:space="preserve">
+    <value>בטל</value>
+  </data>
+  <data name="Uploader_Clear" xml:space="preserve">
+    <value>ברור</value>
+  </data>
+  <data name="Uploader_Delete" xml:space="preserve">
+    <value>מחק קובץ</value>
+  </data>
+  <data name="Uploader_DropFilesHint" xml:space="preserve">
+    <value>או שמור קבצים כאן</value>
+  </data>
+  <data name="Uploader_FileUploadCancel" xml:space="preserve">
+    <value>העלאת הקובץ בוטלה</value>
+  </data>
+  <data name="Uploader_InProgress" xml:space="preserve">
+    <value>מעלה</value>
+  </data>
+  <data name="Uploader_InvalidFileType" xml:space="preserve">
+    <value>אסור להשתמש בקובץ</value>
+  </data>
+  <data name="Uploader_InvalidMaxFileSize" xml:space="preserve">
+    <value>גודל הקובץ גדול מדי</value>
+  </data>
+  <data name="Uploader_invalidMinFileSize" xml:space="preserve">
+    <value>גודל הקובץ קטן מדי</value>
+  </data>
+  <data name="Uploader_Pause" xml:space="preserve">
+    <value>הפסקה</value>
+  </data>
+  <data name="Uploader_PauseUpload" xml:space="preserve">
+    <value>העלאת הקובץ מושהית</value>
+  </data>
+  <data name="Uploader_ReadyToUploadMessage" xml:space="preserve">
+    <value>מוכן להעלאה</value>
+  </data>
+  <data name="Uploader_Remove" xml:space="preserve">
+    <value>הסר</value>
+  </data>
+  <data name="Uploader_RemovedFailedMessage" xml:space="preserve">
+    <value>לא ניתן להסיר את הקובץ</value>
+  </data>
+  <data name="Uploader_RemovedSuccessMessage" xml:space="preserve">
+    <value>הקובץ הוסר בהצלחה</value>
+  </data>
+  <data name="Uploader_Resume" xml:space="preserve">
+    <value>קורות חיים</value>
+  </data>
+  <data name="Uploader_Retry" xml:space="preserve">
+    <value>נסה שוב</value>
+  </data>
+  <data name="Uploader_Upload" xml:space="preserve">
+    <value>העלה</value>
+  </data>
+  <data name="Uploader_UploadFailedMessage" xml:space="preserve">
+    <value>העלאת הקובץ נכשלה</value>
+  </data>
+  <data name="Uploader_UploadSuccessMessage" xml:space="preserve">
+    <value>הקובץ הועלה בהצלחה</value>
+  </data>
+  <data name="FileManager_NewFolder" xml:space="preserve">
+    <value>תיקייה חדשה</value>
+  </data>
+  <data name="FileManager_Upload" xml:space="preserve">
+    <value>העלה</value>
+  </data>
+  <data name="FileManager_Delete" xml:space="preserve">
+    <value>מחק</value>
+  </data>
+  <data name="FileManager_Rename" xml:space="preserve">
+    <value>שנה שם</value>
+  </data>
+  <data name="FileManager_Download" xml:space="preserve">
+    <value>הורד</value>
+  </data>
+  <data name="FileManager_Cut" xml:space="preserve">
+    <value>גזירה</value>
+  </data>
+  <data name="FileManager_Copy" xml:space="preserve">
+    <value>עותק</value>
+  </data>
+  <data name="FileManager_Paste" xml:space="preserve">
+    <value>הדבק</value>
+  </data>
+  <data name="FileManager_SortBy" xml:space="preserve">
+    <value>מיין לפי</value>
+  </data>
+  <data name="FileManager_Refresh" xml:space="preserve">
+    <value>רענן</value>
+  </data>
+  <data name="FileManager_ItemSelection" xml:space="preserve">
+    <value>פריט שנבחר</value>
+  </data>
+  <data name="FileManager_ItemsSelection" xml:space="preserve">
+    <value>פריטים שנבחרו</value>
+  </data>
+  <data name="FileManager_View" xml:space="preserve">
+    <value>נוף</value>
+  </data>
+  <data name="FileManager_Details" xml:space="preserve">
+    <value>פרטים</value>
+  </data>
+  <data name="FileManager_SelectAll" xml:space="preserve">
+    <value>בחר הכל</value>
+  </data>
+  <data name="FileManager_Open" xml:space="preserve">
+    <value>פתוח</value>
+  </data>
+  <data name="FileManager_TooltipNewFolder" xml:space="preserve">
+    <value>תיקייה חדשה</value>
+  </data>
+  <data name="FileManager_TooltipUpload" xml:space="preserve">
+    <value>העלה</value>
+  </data>
+  <data name="FileManager_TooltipDelete" xml:space="preserve">
+    <value>מחק</value>
+  </data>
+  <data name="FileManager_TooltipRename" xml:space="preserve">
+    <value>שנה שם</value>
+  </data>
+  <data name="FileManager_TooltipDownload" xml:space="preserve">
+    <value>הורד</value>
+  </data>
+  <data name="FileManager_TooltipCut" xml:space="preserve">
+    <value>גזירה</value>
+  </data>
+  <data name="FileManager_TooltipCopy" xml:space="preserve">
+    <value>עותק</value>
+  </data>
+  <data name="FileManager_TooltipPaste" xml:space="preserve">
+    <value>הדבק</value>
+  </data>
+  <data name="FileManager_TooltipSortBy" xml:space="preserve">
+    <value>מיין לפי</value>
+  </data>
+  <data name="FileManager_TooltipRefresh" xml:space="preserve">
+    <value>רענן</value>
+  </data>
+  <data name="FileManager_TooltipSelection" xml:space="preserve">
+    <value>בחירה ברורה</value>
+  </data>
+  <data name="FileManager_TooltipView" xml:space="preserve">
+    <value>נוף</value>
+  </data>
+  <data name="FileManager_TooltipDetails" xml:space="preserve">
+    <value>פרטים</value>
+  </data>
+  <data name="FileManager_TooltipSelectAll" xml:space="preserve">
+    <value>בחר הכל</value>
+  </data>
+  <data name="FileManager_Name" xml:space="preserve">
+    <value>שם</value>
+  </data>
+  <data name="FileManager_Size" xml:space="preserve">
+    <value>גודל</value>
+  </data>
+  <data name="FileManager_DateModified" xml:space="preserve">
+    <value>השתנה</value>
+  </data>
+  <data name="FileManager_DateCreated" xml:space="preserve">
+    <value>תאריך יצירה</value>
+  </data>
+  <data name="FileManager_Path" xml:space="preserve">
+    <value>נתיב</value>
+  </data>
+  <data name="FileManager_Modified" xml:space="preserve">
+    <value>השתנה</value>
+  </data>
+  <data name="FileManager_Created" xml:space="preserve">
+    <value>נוצר</value>
+  </data>
+  <data name="FileManager_Location" xml:space="preserve">
+    <value>מקום</value>
+  </data>
+  <data name="FileManager_Type" xml:space="preserve">
+    <value>סוג</value>
+  </data>
+  <data name="FileManager_Permission" xml:space="preserve">
+    <value>הרשאה</value>
+  </data>
+  <data name="FileManager_Ascending" xml:space="preserve">
+    <value>עולה</value>
+  </data>
+  <data name="FileManager_Descending" xml:space="preserve">
+    <value>יורד</value>
+  </data>
+  <data name="FileManager_None" xml:space="preserve">
+    <value>אף אחד</value>
+  </data>
+  <data name="FileManager_ViewLargeIcons" xml:space="preserve">
+    <value>אייקונים גדולים</value>
+  </data>
+  <data name="FileManager_ViewDetails" xml:space="preserve">
+    <value>פרטים</value>
+  </data>
+  <data name="FileManager_Search" xml:space="preserve">
+    <value>לחפש</value>
+  </data>
+  <data name="FileManager_ButtonOk" xml:space="preserve">
+    <value>בסדר</value>
+  </data>
+  <data name="FileManager_ButtonCancel" xml:space="preserve">
+    <value>בטל</value>
+  </data>
+  <data name="FileManager_ButtonYes" xml:space="preserve">
+    <value>כן</value>
+  </data>
+  <data name="FileManager_ButtonNo" xml:space="preserve">
+    <value>לא</value>
+  </data>
+  <data name="FileManager_ButtonCreate" xml:space="preserve">
+    <value>צור</value>
+  </data>
+  <data name="FileManager_ButtonSave" xml:space="preserve">
+    <value>להציל</value>
+  </data>
+  <data name="FileManager_HeaderNewFolder" xml:space="preserve">
+    <value>תיקיה</value>
+  </data>
+  <data name="FileManager_ContentNewFolder" xml:space="preserve">
+    <value>הזן את שם התיקיה שלך</value>
+  </data>
+  <data name="FileManager_HeaderRename" xml:space="preserve">
+    <value>שנה שם</value>
+  </data>
+  <data name="FileManager_ContentRename" xml:space="preserve">
+    <value>הזן את שמך החדש</value>
+  </data>
+  <data name="FileManager_HeaderRenameConfirmation" xml:space="preserve">
+    <value>שנה שם אישור</value>
+  </data>
+  <data name="FileManager_ContentRenameConfirmation" xml:space="preserve">
+    <value>אם תשנה סיומת שם קובץ, הקובץ עלול להפוך לא יציב. האם אתה בטוח שברצונך לשנות את זה?</value>
+  </data>
+  <data name="FileManager_HeaderDelete" xml:space="preserve">
+    <value>מחק קובץ</value>
+  </data>
+  <data name="FileManager_ContentDelete" xml:space="preserve">
+    <value>האם אתה בטוח שברצונך למחוק קובץ זה?</value>
+  </data>
+  <data name="FileManager_HeaderFolderDelete" xml:space="preserve">
+    <value>מחק תיקיה</value>
+  </data>
+  <data name="FileManager_ContentFolderDelete" xml:space="preserve">
+    <value>האם אתה בטוח שברצונך למחוק תיקיה זו?</value>
+  </data>
+  <data name="FileManager_HeaderMultipleDelete" xml:space="preserve">
+    <value>מחק פריטים מרובים</value>
+  </data>
+  <data name="FileManager_ContentMultipleDelete" xml:space="preserve">
+    <value>האם אתה בטוח שברצונך למחוק את הפריטים {0} האלה?</value>
+  </data>
+  <data name="FileManager_HeaderDuplicate" xml:space="preserve">
+    <value>קיים קובץ / תיקיה</value>
+  </data>
+  <data name="FileManager_ContentDuplicate" xml:space="preserve">
+    <value>{0} כבר קיים. האם אתה רוצה לשנות שם ולהדביק?</value>
+  </data>
+  <data name="FileManager_HeaderUpload" xml:space="preserve">
+    <value>העלה קבצים</value>
+  </data>
+  <data name="FileManager_Error" xml:space="preserve">
+    <value>שגיאה</value>
+  </data>
+  <data name="FileManager_ValidationEmpty" xml:space="preserve">
+    <value>שם הקובץ או התיקיה אינם יכולים להיות ריקים.</value>
+  </data>
+  <data name="FileManager_ValidationInvalid" xml:space="preserve">
+    <value>שם הקובץ או התיקיה {0} מכילים תווים לא חוקיים. אנא השתמש בשם אחר. שמות קבצים או תיקיות תקפים לא יכולים להסתיים בנקודה או ברווח.</value>
+  </data>
+  <data name="FileManager_ValidationNewFolderExists" xml:space="preserve">
+    <value>קיים כבר קובץ או תיקיה עם השם {0}.</value>
+  </data>
+  <data name="FileManager_ValidationRenameExists" xml:space="preserve">
+    <value>לא ניתן לשנות את שם {0} ל- {1}: היעד כבר קיים.</value>
+  </data>
+  <data name="FileManager_FolderEmpty" xml:space="preserve">
+    <value>התיקיה הזו ריקה</value>
+  </data>
+  <data name="FileManager_FileUpload" xml:space="preserve">
+    <value>גרור קבצים לכאן כדי להעלות</value>
+  </data>
+  <data name="FileManager_SearchEmpty" xml:space="preserve">
+    <value>לא נמצאו תוצאות</value>
+  </data>
+  <data name="FileManager_SearchKey" xml:space="preserve">
+    <value>נסה עם מילות מפתח שונות</value>
+  </data>
+  <data name="FileManager_FilterEmpty" xml:space="preserve">
+    <value>לא נמצאו תוצאות</value>
+  </data>
+  <data name="FileManager_FilterKey" xml:space="preserve">
+    <value>נסה עם פילטר אחר</value>
+  </data>
+  <data name="FileManager_SubFolderError" xml:space="preserve">
+    <value>תיקיית היעד היא תיקיית המשנה של תיקיית המקור.</value>
+  </data>
+  <data name="FileManager_AccessDenied" xml:space="preserve">
+    <value>גישה נדחתה</value>
+  </data>
+  <data name="FileManager_AccessDetails" xml:space="preserve">
+    <value>אין לך הרשאה לגישה לתיקיה זו.</value>
+  </data>
+  <data name="FileManager_HeaderRetry" xml:space="preserve">
+    <value>קובץ כבר קיים</value>
+  </data>
+  <data name="FileManager_ContentRetry" xml:space="preserve">
+    <value>קובץ עם שם זה כבר קיים בתיקיה זו. מה תרצה לעשות?</value>
+  </data>
+  <data name="FileManager_ButtonKeepBoth" xml:space="preserve">
+    <value>שמור את שניהם</value>
+  </data>
+  <data name="FileManager_ButtonReplace" xml:space="preserve">
+    <value>החלף</value>
+  </data>
+  <data name="FileManager_ButtonSkip" xml:space="preserve">
+    <value>לדלג</value>
+  </data>
+  <data name="FileManager_ApplyAllLabel" xml:space="preserve">
+    <value>עשה זאת עבור כל הפריטים הנוכחיים</value>
+  </data>
+  <data name="FileManager_KB" xml:space="preserve">
+    <value>KB</value>
+  </data>
+  <data name="FileManager_AccessMessage" xml:space="preserve">
+    <value>{0} אינו נגיש. אתה צריך אישור לביצוע הפעולה {1}.</value>
+  </data>
+  <data name="FileManager_NetworkError" xml:space="preserve">
+    <value>NetworkError: נכשל בהעברת XMLHTTP בקשה: טעינה נכשלה</value>
+  </data>
+  <data name="FileManager_ServerError" xml:space="preserve">
+    <value>ServerError: תגובה לא חוקית מאת</value>
+  </data>
+  <data name="Chart_Zoom" xml:space="preserve">
+    <value>תקריב</value>
+  </data>
+  <data name="Chart_ZoomIn" xml:space="preserve">
+    <value>Zoom In</value>
+  </data>
+  <data name="Chart_ZoomOut" xml:space="preserve">
+    <value>להקטין את התצוגה</value>
+  </data>
+  <data name="Chart_Reset" xml:space="preserve">
+    <value>אפס</value>
+  </data>
+  <data name="Chart_Pan" xml:space="preserve">
+    <value>מחבת</value>
+  </data>
+  <data name="Chart_ResetZoom" xml:space="preserve">
+    <value>אפס זום</value>
+  </data>
+  <data name="Slider_DecrementTitle" xml:space="preserve">
+    <value>צמצום</value>
+  </data>
+  <data name="Slider_IncrementTitle" xml:space="preserve">
+    <value>להגביר</value>
+  </data>
+  <data name="Maps_Zoom" xml:space="preserve">
+    <value>תקריב</value>
+  </data>
+  <data name="Maps_ZoomIn" xml:space="preserve">
+    <value>ZoomIn</value>
+  </data>
+  <data name="Maps_ZoomOut" xml:space="preserve">
+    <value>להקטין את התצוגה</value>
+  </data>
+  <data name="Maps_Reset" xml:space="preserve">
+    <value>אפס</value>
+  </data>
+  <data name="Maps_Pan" xml:space="preserve">
+    <value>מחבת</value>
+  </data>
+  <data name="Gantt_Above" xml:space="preserve">
+    <value>מעל</value>
+  </data>
+  <data name="Gantt_Add" xml:space="preserve">
+    <value>הוסף</value>
+  </data>
+  <data name="Gantt_AddDialogTitle" xml:space="preserve">
+    <value>משימה חדשה</value>
+  </data>
+  <data name="Gantt_BaselineEndDate" xml:space="preserve">
+    <value>תאריך סיום בסיסי</value>
+  </data>
+  <data name="Gantt_BaselineStartDate" xml:space="preserve">
+    <value>תאריך התחלה בסיסי</value>
+  </data>
+  <data name="Gantt_Below" xml:space="preserve">
+    <value>למטה</value>
+  </data>
+  <data name="Gantt_Cancel" xml:space="preserve">
+    <value>בטל</value>
+  </data>
+  <data name="Gantt_Child" xml:space="preserve">
+    <value>ילד</value>
+  </data>
+  <data name="Gantt_CollapseAll" xml:space="preserve">
+    <value>למוטט הכל</value>
+  </data>
+  <data name="Gantt_ConfirmDelete" xml:space="preserve">
+    <value>האם אתה בטוח שברצונך למחוק את הרשומה?</value>
+  </data>
+  <data name="Gantt_ConfirmPredecessorDelete" xml:space="preserve">
+    <value>האם אתה בטוח שברצונך להסיר את קישור התלות?</value>
+  </data>
+  <data name="Gantt_Indent" xml:space="preserve">
+    <value>לְשַׁנֵן</value>
+  </data>
+  <data name="Gantt_Outdent" xml:space="preserve">
+    <value>נלהב</value>
+  </data>
+  <data name="Gantt_Convert" xml:space="preserve">
+    <value>להמיר</value>
+  </data>
+  <data name="Gantt_CsvExport" xml:space="preserve">
+    <value>ייצוא CSV</value>
+  </data>
+  <data name="Gantt_CustomTab" xml:space="preserve">
+    <value>עמודות בהתאמה אישית</value>
+  </data>
+  <data name="Gantt_Day" xml:space="preserve">
+    <value>יום</value>
+  </data>
+  <data name="Gantt_Days" xml:space="preserve">
+    <value>ימים</value>
+  </data>
+  <data name="Gantt_Delete" xml:space="preserve">
+    <value>מחק</value>
+  </data>
+  <data name="Gantt_DeleteDependency" xml:space="preserve">
+    <value>מחק תלות</value>
+  </data>
+  <data name="Gantt_DeleteTask" xml:space="preserve">
+    <value>מחק את המשימה</value>
+  </data>
+  <data name="Gantt_Dependency" xml:space="preserve">
+    <value>תלות</value>
+  </data>
+  <data name="Gantt_Duration" xml:space="preserve">
+    <value>משך הזמן</value>
+  </data>
+  <data name="Gantt_Edit" xml:space="preserve">
+    <value>ערוך</value>
+  </data>
+  <data name="Gantt_EditDialogTitle" xml:space="preserve">
+    <value>מידע על המשימות</value>
+  </data>
+  <data name="Gantt_EmptyRecord" xml:space="preserve">
+    <value>אין רשומות להצגה</value>
+  </data>
+  <data name="Gantt_EndDate" xml:space="preserve">
+    <value>תאריך סיום</value>
+  </data>
+  <data name="Gantt_EnterValue" xml:space="preserve">
+    <value>הזן את הערך</value>
+  </data>
+  <data name="Gantt_EventMarkers" xml:space="preserve">
+    <value>סמני אירועים</value>
+  </data>
+  <data name="Gantt_ExcelExport" xml:space="preserve">
+    <value>ייצוא של Excel</value>
+  </data>
+  <data name="Gantt_ExpandAll" xml:space="preserve">
+    <value>הרחב הכל</value>
+  </data>
+  <data name="Gantt_Finish" xml:space="preserve">
+    <value>סיים</value>
+  </data>
+  <data name="Gantt_From" xml:space="preserve">
+    <value>מ</value>
+  </data>
+  <data name="Gantt_GeneralTab" xml:space="preserve">
+    <value>כללי</value>
+  </data>
+  <data name="Gantt_Hour" xml:space="preserve">
+    <value>שעה</value>
+  </data>
+  <data name="Gantt_Hours" xml:space="preserve">
+    <value>שעה (ות</value>
+  </data>
+  <data name="Gantt_Id" xml:space="preserve">
+    <value>תעודת זהות</value>
+  </data>
+  <data name="Gantt_Lag" xml:space="preserve">
+    <value>לג</value>
+  </data>
+  <data name="Gantt_LeftTaskLabel" xml:space="preserve">
+    <value>תווית משימה שמאלית</value>
+  </data>
+  <data name="Gantt_Milestone" xml:space="preserve">
+    <value>אבן דרך</value>
+  </data>
+  <data name="Gantt_Minute" xml:space="preserve">
+    <value>דקה</value>
+  </data>
+  <data name="Gantt_Minutes" xml:space="preserve">
+    <value>דקות</value>
+  </data>
+  <data name="Gantt_Name" xml:space="preserve">
+    <value>שם</value>
+  </data>
+  <data name="Gantt_NextTimeSpan" xml:space="preserve">
+    <value>זמן הזמן הבא</value>
+  </data>
+  <data name="Gantt_Notes" xml:space="preserve">
+    <value>הערות</value>
+  </data>
+  <data name="Gantt_Offset" xml:space="preserve">
+    <value>קיזוז</value>
+  </data>
+  <data name="Gantt_OkText" xml:space="preserve">
+    <value>בסדר</value>
+  </data>
+  <data name="Gantt_PrevTimeSpan" xml:space="preserve">
+    <value>זמן זמן קודם</value>
+  </data>
+  <data name="Gantt_Progress" xml:space="preserve">
+    <value>התקדמות</value>
+  </data>
+  <data name="Gantt_ResourceID" xml:space="preserve">
+    <value>מזהה משאב</value>
+  </data>
+  <data name="Gantt_ResourceName" xml:space="preserve">
+    <value>משאבים</value>
+  </data>
+  <data name="Gantt_RightTaskLabel" xml:space="preserve">
+    <value>תווית משימה נכונה</value>
+  </data>
+  <data name="Gantt_Save" xml:space="preserve">
+    <value>להציל</value>
+  </data>
+  <data name="Gantt_SaveButton" xml:space="preserve">
+    <value>להציל</value>
+  </data>
+  <data name="Gantt_Search" xml:space="preserve">
+    <value>לחפש</value>
+  </data>
+  <data name="Gantt_Start" xml:space="preserve">
+    <value>התחל</value>
+  </data>
+  <data name="Gantt_StartDate" xml:space="preserve">
+    <value>תאריך התחלה</value>
+  </data>
+  <data name="Gantt_Task" xml:space="preserve">
+    <value>משימה</value>
+  </data>
+  <data name="Gantt_TaskAfterPredecessor_FF" xml:space="preserve">
+    <value>העברתם את '{0}' לסיום לאחר סיום '{1}' ושתי המשימות מקושרות. כתוצאה מכך, לא ניתן לכבד את הקישורים. בחר פעולה אחת למטה לביצוע</value>
+  </data>
+  <data name="Gantt_TaskAfterPredecessor_FS" xml:space="preserve">
+    <value>התרחקת מ- '{0}' מ- '{1}' ושתי המשימות מקושרות. כתוצאה מכך, לא ניתן לכבד את הקישורים. בחר פעולה אחת למטה לביצוע</value>
+  </data>
+  <data name="Gantt_TaskAfterPredecessor_SF" xml:space="preserve">
+    <value>העברתם את '{0}' לסיום לאחר התחלת '{1}' ושתי המשימות מקושרות. כתוצאה מכך, לא ניתן לכבד את הקישורים. בחר פעולה אחת למטה לביצוע</value>
+  </data>
+  <data name="Gantt_TaskAfterPredecessor_SS" xml:space="preserve">
+    <value>העברתם את '{0}' כדי להתחיל לאחר '{1}' והתחלנו שתי המשימות. כתוצאה מכך, לא ניתן לכבד את הקישורים. בחר פעולה אחת למטה לביצוע</value>
+  </data>
+  <data name="Gantt_TaskBeforePredecessor_FF" xml:space="preserve">
+    <value>העברתם את '{0}' לסיום לפני סיום '{1}' ושתי המשימות מקושרות. כתוצאה מכך, לא ניתן לכבד את הקישורים. בחר פעולה אחת למטה לביצוע</value>
+  </data>
+  <data name="Gantt_TaskBeforePredecessor_FS" xml:space="preserve">
+    <value>העברתם את '{0}' כדי להתחיל לפני סיום '{1}' ושתי המשימות מקושרות. כתוצאה מכך, לא ניתן לכבד את הקישורים. בחר פעולה אחת למטה לביצוע</value>
+  </data>
+  <data name="Gantt_TaskBeforePredecessor_SF" xml:space="preserve">
+    <value>העברתם '{0}' הרחק מ- '{1}' להתחלות ושתי המשימות מקושרות. כתוצאה מכך, לא ניתן לכבד את הקישורים. בחר פעולה אחת למטה לביצוע</value>
+  </data>
+  <data name="Gantt_TaskBeforePredecessor_SS" xml:space="preserve">
+    <value>העברת את '{0}' כדי להתחיל לפני '{1}' ושני המשימות מקושרות. כתוצאה מכך, לא ניתן לכבד את הקישורים. בחר פעולה אחת למטה לביצוע</value>
+  </data>
+  <data name="Gantt_TaskInformation" xml:space="preserve">
+    <value>מידע על המשימות</value>
+  </data>
+  <data name="Gantt_TaskLink" xml:space="preserve">
+    <value>קישור משימה</value>
+  </data>
+  <data name="Gantt_Tasks" xml:space="preserve">
+    <value>משימות</value>
+  </data>
+  <data name="Gantt_TimelineCell" xml:space="preserve">
+    <value>תא ציר זמן</value>
+  </data>
+  <data name="Gantt_To" xml:space="preserve">
+    <value>ל</value>
+  </data>
+  <data name="Gantt_ToMilestone" xml:space="preserve">
+    <value>לציון דרך</value>
+  </data>
+  <data name="Gantt_ToTask" xml:space="preserve">
+    <value>למשימה</value>
+  </data>
+  <data name="Gantt_Type" xml:space="preserve">
+    <value>סוג</value>
+  </data>
+  <data name="Gantt_Update" xml:space="preserve">
+    <value>עדכון</value>
+  </data>
+  <data name="Gantt_WriteNotes" xml:space="preserve">
+    <value>כתוב הערות</value>
+  </data>
+  <data name="Gantt_ZoomIn" xml:space="preserve">
+    <value>התקרב</value>
+  </data>
+  <data name="Gantt_ZoomOut" xml:space="preserve">
+    <value>להקטין את התצוגה</value>
+  </data>
+  <data name="Gantt_ZoomToFit" xml:space="preserve">
+    <value>הגדלה להתאמה</value>
+  </data>
+  <data name="Gantt_AutoFit" xml:space="preserve">
+    <value>עמודת התאמה אוטומטית</value>
+  </data>
+  <data name="Gantt_AutoFitAll" xml:space="preserve">
+    <value>התאמה אוטומטית של כל העמודות</value>
+  </data>
+  <data name="Gantt_SortAscending" xml:space="preserve">
+    <value>מיין לפי סדר עולה</value>
+  </data>
+  <data name="Gantt_SortDescending" xml:space="preserve">
+    <value>מיין יורד</value>
+  </data>
+  <data name="Gantt_TaskMode" xml:space="preserve">
+    <value>מצב משימה</value>
+  </data>
+  <data name="Gantt_TaskMode_Auto" xml:space="preserve">
+    <value>אוטומטי</value>
+  </data>
+  <data name="Gantt_TaskMode_Manual" xml:space="preserve">
+    <value>מדריך ל</value>
+  </data>
+  <data name="Gantt_SubTaskStartDate" xml:space="preserve">
+    <value>תאריך התחלה של משימות משנה</value>
+  </data>
+  <data name="Gantt_SubTaskEndDate" xml:space="preserve">
+    <value>תאריך סיום של משימות משנה</value>
+  </data>
+  <data name="Gantt_AutoDuration" xml:space="preserve">
+    <value>מֶשֶׁך</value>
+  </data>
+  <data name="Gantt_Work" xml:space="preserve">
+    <value>עֲבוֹדָה</value>
+  </data>
+  <data name="Gantt_H" xml:space="preserve">
+    <value>ח</value>
+  </data>
+  <data name="Gantt_D" xml:space="preserve">
+    <value>ד</value>
+  </data>
+  <data name="Gantt_M" xml:space="preserve">
+    <value>M</value>
+  </data>
+  <data name="Gantt_Min" xml:space="preserve">
+    <value>מינימום</value>
+  </data>
+  <data name="Gantt_CustomColumn" xml:space="preserve">
+    <value>עמודות מותאמות אישית</value>
+  </data>
+  <data name="Gantt_TaskType" xml:space="preserve">
+    <value>סוג משימה</value>
+  </data>
+  <data name="ColorPicker_Apply" xml:space="preserve">
+    <value>להגיש מועמדות</value>
+  </data>
+  <data name="ColorPicker_Cancel" xml:space="preserve">
+    <value>בטל</value>
+  </data>
+  <data name="ColorPicker_ModeSwitcher" xml:space="preserve">
+    <value>להחליף מצב</value>
+  </data>
+  <data name="ListBox_ActionFailureTemplate" xml:space="preserve">
+    <value>בקשה נכשלה</value>
+  </data>
+  <data name="ListBox_MoveAllFrom" xml:space="preserve">
+    <value>העבר את הכל מ</value>
+  </data>
+  <data name="ListBox_MoveAllTo" xml:space="preserve">
+    <value>העבר הכל אל</value>
+  </data>
+  <data name="ListBox_MoveDown" xml:space="preserve">
+    <value>לרדת</value>
+  </data>
+  <data name="ListBox_MoveFrom" xml:space="preserve">
+    <value>לעבור מ</value>
+  </data>
+  <data name="ListBox_MoveTo" xml:space="preserve">
+    <value>לעבור ל</value>
+  </data>
+  <data name="ListBox_MoveUp" xml:space="preserve">
+    <value>זז למעלה</value>
+  </data>
+  <data name="ListBox_NoRecordsTemplate" xml:space="preserve">
+    <value>לא נמצאו שיאים</value>
+  </data>
+  <data name="ListBox_SelectAllText" xml:space="preserve">
+    <value>בחר הכל</value>
+  </data>
+  <data name="ListBox_UnSelectAllText" xml:space="preserve">
+    <value>בטל את הבחירה בכולם</value>
+  </data>
+  <data name="PivotView_NumberFormat_ExampleWatermark" xml:space="preserve">
+    <value>דוגמה: C, P, 0000%, ### 0. ## 0 # וכו '.</value>
+  </data>
+  <data name="PivotView_SortNone_TooltipMessage" xml:space="preserve">
+    <value>מיין סדר נתונים</value>
+  </data>
+  <data name="PivotView_SortDescending_TooltipMessage" xml:space="preserve">
+    <value>מיין סדר יורד</value>
+  </data>
+  <data name="PivotView_StaticFieldList" xml:space="preserve">
+    <value>רשימת שדות ציר</value>
+  </data>
+  <data name="PivotView_FieldList" xml:space="preserve">
+    <value>רשימת שדה</value>
+  </data>
+  <data name="PivotView_AddFieldMessage" xml:space="preserve">
+    <value>הוסף שדה כאן</value>
+  </data>
+  <data name="PivotView_ChooseFieldMessage" xml:space="preserve">
+    <value>בחר שדה</value>
+  </data>
+  <data name="PivotView_DragFieldsMessage" xml:space="preserve">
+    <value>גרור שדות בין הצירים למטה:</value>
+  </data>
+  <data name="PivotView_Add" xml:space="preserve">
+    <value>לְהוֹסִיף</value>
+  </data>
+  <data name="PivotView_DeferLayoutUpdate" xml:space="preserve">
+    <value>דחה את עדכון הפריסה</value>
+  </data>
+  <data name="PivotView_ShowLegend" xml:space="preserve">
+    <value>הצג אגדה</value>
+  </data>
+  <data name="PivotView_FieldCaptionWatermark" xml:space="preserve">
+    <value>Enter the field caption</value>
+  </data>
+  <data name="PivotView_SortAscending_TooltipMessage" xml:space="preserve">
+    <value>מיין סדר עולה</value>
+  </data>
+  <data name="PivotView_ReplaceReport_BeforeMessage" xml:space="preserve">
+    <value>דוח בשם</value>
+  </data>
+  <data name="PivotView_ReplaceReport_AfterMessage" xml:space="preserve">
+    <value>כבר קיים. אתה רוצה להחליף את זה?</value>
+  </data>
+  <data name="PivotView_AddCondition" xml:space="preserve">
+    <value>הוסף תנאי</value>
+  </data>
+  <data name="PivotView_AddToColumn" xml:space="preserve">
+    <value>הוסף לטור</value>
+  </data>
+  <data name="PivotView_AddToFilter" xml:space="preserve">
+    <value>הוסף לסינון</value>
+  </data>
+  <data name="PivotView_AddToRow" xml:space="preserve">
+    <value>הוסף לשורה</value>
+  </data>
+  <data name="PivotView_AddToValue" xml:space="preserve">
+    <value>הוסף לערך</value>
+  </data>
+  <data name="PivotView_After" xml:space="preserve">
+    <value>לאחר</value>
+  </data>
+  <data name="PivotView_AfterOrEqualTo" xml:space="preserve">
+    <value>אחרי או שווה ל</value>
+  </data>
+  <data name="PivotView_Aggregate" xml:space="preserve">
+    <value>מצטבר</value>
+  </data>
+  <data name="PivotView_Alert" xml:space="preserve">
+    <value>התראה</value>
+  </data>
+  <data name="PivotView_All" xml:space="preserve">
+    <value>את כל</value>
+  </data>
+  <data name="PivotView_AllFields" xml:space="preserve">
+    <value>כל השדות</value>
+  </data>
+  <data name="PivotView_AllValues" xml:space="preserve">
+    <value>כל הערכים</value>
+  </data>
+  <data name="PivotView_And" xml:space="preserve">
+    <value>ו</value>
+  </data>
+  <data name="PivotView_Apply" xml:space="preserve">
+    <value>להגיש מועמדות</value>
+  </data>
+  <data name="PivotView_Area" xml:space="preserve">
+    <value>אזור</value>
+  </data>
+  <data name="PivotView_Ascending" xml:space="preserve">
+    <value>עולה</value>
+  </data>
+  <data name="PivotView_Avg" xml:space="preserve">
+    <value>ממוצע</value>
+  </data>
+  <data name="PivotView_Bar" xml:space="preserve">
+    <value>בר</value>
+  </data>
+  <data name="PivotView_BaseField" xml:space="preserve">
+    <value>שדה בסיס</value>
+  </data>
+  <data name="PivotView_BaseItem" xml:space="preserve">
+    <value>פריט בסיס</value>
+  </data>
+  <data name="PivotView_Before" xml:space="preserve">
+    <value>לפני</value>
+  </data>
+  <data name="PivotView_BeforeOrEqualTo" xml:space="preserve">
+    <value>לפני או שווה ל</value>
+  </data>
+  <data name="PivotView_BeginWith" xml:space="preserve">
+    <value>מתחיל עם</value>
+  </data>
+  <data name="PivotView_Between" xml:space="preserve">
+    <value>בין</value>
+  </data>
+  <data name="PivotView_Blank" xml:space="preserve">
+    <value>(ריק)</value>
+  </data>
+  <data name="PivotView_By" xml:space="preserve">
+    <value>על ידי</value>
+  </data>
+  <data name="PivotView_CalculatedField" xml:space="preserve">
+    <value>שדה מחושב</value>
+  </data>
+  <data name="PivotView_CalculatedField_ConfirmMessage" xml:space="preserve">
+    <value>שדה חישוב כבר קיים בשם זה. אתה רוצה להחליף את זה?</value>
+  </data>
+  <data name="PivotView_CalculatedField_DragDropMessage" xml:space="preserve">
+    <value>גרור ושחרר שדות לנוסחה</value>
+  </data>
+  <data name="PivotView_CalculatedField_DragMessage" xml:space="preserve">
+    <value>גרור שדה לנוסחה</value>
+  </data>
+  <data name="PivotView_CalculatedField_DropMessage" xml:space="preserve">
+    <value>שדה מחושב לא יכול להיות במקום בשום אזור אחר פרט לציר ערך.</value>
+  </data>
+  <data name="PivotView_CalculatedField_ExampleWatermark" xml:space="preserve">
+    <value>דוגמא: ('Sum(Order_Count)' + 'Sum(In_Stock)') * 250</value>
+  </data>
+  <data name="PivotView_CalculatedField_ExistMessage" xml:space="preserve">
+    <value>שדה כבר קיים בשם זה. אנא הזן שם אחר.</value>
+  </data>
+  <data name="PivotView_CalculatedField_MobileWatermark" xml:space="preserve">
+    <value>הוסף שדות וערוך נוסחה כאן.</value>
+  </data>
+  <data name="PivotView_CalculatedField_NameWatermark" xml:space="preserve">
+    <value>הזן את שם השדה</value>
+  </data>
+  <data name="PivotView_CalculatedField_OLAPExampleWatermark" xml:space="preserve">
+    <value>דוגמא: [Measures].[Order Quantity] + ([Measures].[Order Quantity] * 0.10)</value>
+  </data>
+  <data name="PivotView_CalculatedField_Tooltip" xml:space="preserve">
+    <value>גרור ושחרר שדות כדי ליצור ביטוי. ואם אתה רוצה לערוך את השדות המחושבים הקיימים! אתה יכול להשיג זאת על ידי בחירה בשדה תחת 'חברים מחושבים'.</value>
+  </data>
+  <data name="PivotView_Cancel" xml:space="preserve">
+    <value>בטל</value>
+  </data>
+  <data name="PivotView_Chart" xml:space="preserve">
+    <value>תרשים</value>
+  </data>
+  <data name="PivotView_Clear" xml:space="preserve">
+    <value>לְסַלֵק</value>
+  </data>
+  <data name="PivotView_ClearFilter" xml:space="preserve">
+    <value>לְסַלֵק</value>
+  </data>
+  <data name="PivotView_Close" xml:space="preserve">
+    <value>סגור</value>
+  </data>
+  <data name="PivotView_Collapse" xml:space="preserve">
+    <value>התמוטטות</value>
+  </data>
+  <data name="PivotView_Column" xml:space="preserve">
+    <value>טור</value>
+  </data>
+  <data name="PivotView_ColumnAxisWatermark" xml:space="preserve">
+    <value>שחרר טור כאן</value>
+  </data>
+  <data name="PivotView_Columns" xml:space="preserve">
+    <value>עמודים</value>
+  </data>
+  <data name="PivotView_ConditionalFormating" xml:space="preserve">
+    <value>עיצוב מותנה</value>
+  </data>
+  <data name="PivotView_ConditionalFormatting" xml:space="preserve">
+    <value>עיצוב מותנה</value>
+  </data>
+  <data name="PivotView_Contains" xml:space="preserve">
+    <value>מכיל</value>
+  </data>
+  <data name="PivotView_Copy" xml:space="preserve">
+    <value>עותק</value>
+  </data>
+  <data name="PivotView_Count" xml:space="preserve">
+    <value>לספור</value>
+  </data>
+  <data name="PivotView_CreateCalculatedField" xml:space="preserve">
+    <value>צור שדה מחושב</value>
+  </data>
+  <data name="PivotView_CSV" xml:space="preserve">
+    <value>CSV</value>
+  </data>
+  <data name="PivotView_Currency" xml:space="preserve">
+    <value>מטבע</value>
+  </data>
+  <data name="PivotView_CurrencySymbol" xml:space="preserve">
+    <value>סמל המטבע</value>
+  </data>
+  <data name="PivotView_Custom" xml:space="preserve">
+    <value>המותאם אישית</value>
+  </data>
+  <data name="PivotView_CustomFormat" xml:space="preserve">
+    <value>פורמט מותאם אישית</value>
+  </data>
+  <data name="PivotView_CustomFormatMessage" xml:space="preserve">
+    <value>הזן מחרוזת בפורמט מותאם אישית</value>
+  </data>
+  <data name="PivotView_Date" xml:space="preserve">
+    <value>תאריך</value>
+  </data>
+  <data name="PivotView_DateTextMessage" xml:space="preserve">
+    <value>הצג את הפריטים שעבורם התאריך</value>
+  </data>
+  <data name="PivotView_Days" xml:space="preserve">
+    <value>ימים</value>
+  </data>
+  <data name="PivotView_DecimalPlaces" xml:space="preserve">
+    <value>מקומות עשרוניים</value>
+  </data>
+  <data name="PivotView_Delete" xml:space="preserve">
+    <value>מחק</value>
+  </data>
+  <data name="PivotView_DeleteReport" xml:space="preserve">
+    <value>מחק דוח נוכחי</value>
+  </data>
+  <data name="PivotView_Descending" xml:space="preserve">
+    <value>יורד</value>
+  </data>
+  <data name="PivotView_Details" xml:space="preserve">
+    <value>פרטים</value>
+  </data>
+  <data name="PivotView_DifferenceFrom" xml:space="preserve">
+    <value>ההבדל מ</value>
+  </data>
+  <data name="PivotView_Dimension" xml:space="preserve">
+    <value>ממד</value>
+  </data>
+  <data name="PivotView_DistinctCount" xml:space="preserve">
+    <value>ספירה מובחנת</value>
+  </data>
+  <data name="PivotView_DoesNotBeginWith" xml:space="preserve">
+    <value>לא מתחיל עם</value>
+  </data>
+  <data name="PivotView_DoesNotContains" xml:space="preserve">
+    <value>לא מכיל</value>
+  </data>
+  <data name="PivotView_DoesNotEndsWith" xml:space="preserve">
+    <value>לא מסתיים</value>
+  </data>
+  <data name="PivotView_DoesNotEquals" xml:space="preserve">
+    <value>לא שווה</value>
+  </data>
+  <data name="PivotView_DoNotShowGrandTotals" xml:space="preserve">
+    <value>אל תציג סך הכל</value>
+  </data>
+  <data name="PivotView_DoNotShowSubtotals" xml:space="preserve">
+    <value>אל תציג סיכומי משנה</value>
+  </data>
+  <data name="PivotView_Drag" xml:space="preserve">
+    <value>גרור</value>
+  </data>
+  <data name="PivotView_DrillThrough" xml:space="preserve">
+    <value>לקדוח דרך</value>
+  </data>
+  <data name="PivotView_DrillThroughErrorMessage" xml:space="preserve">
+    <value>לא ניתן להציג את פריטי הגלם של שדות מחושבים.</value>
+  </data>
+  <data name="PivotView_Edit" xml:space="preserve">
+    <value>ערוך</value>
+  </data>
+  <data name="PivotView_EmptyRecordsMessage" xml:space="preserve">
+    <value>אין רשומות להצגה</value>
+  </data>
+  <data name="PivotView_EmptyReportMessage" xml:space="preserve">
+    <value>לא נמצאו דוחות !!</value>
+  </data>
+  <data name="PivotView_EndAt" xml:space="preserve">
+    <value>מסתיים בשעה</value>
+  </data>
+  <data name="PivotView_EndsWith" xml:space="preserve">
+    <value>נגמר עם</value>
+  </data>
+  <data name="PivotView_EnterDate" xml:space="preserve">
+    <value>הזן תאריך</value>
+  </data>
+  <data name="PivotView_EnterReportNameMessage" xml:space="preserve">
+    <value>הזן שם דוח</value>
+  </data>
+  <data name="PivotView_EnterValue" xml:space="preserve">
+    <value>הזן ערך</value>
+  </data>
+  <data name="PivotView_Equals" xml:space="preserve">
+    <value>שווים</value>
+  </data>
+  <data name="PivotView_Error" xml:space="preserve">
+    <value>שגיאה</value>
+  </data>
+  <data name="PivotView_Example" xml:space="preserve">
+    <value>למשל:</value>
+  </data>
+  <data name="PivotView_Excel" xml:space="preserve">
+    <value>Excel</value>
+  </data>
+  <data name="PivotView_Expand" xml:space="preserve">
+    <value>הרחב</value>
+  </data>
+  <data name="PivotView_Export" xml:space="preserve">
+    <value>ייצוא</value>
+  </data>
+  <data name="PivotView_Expression" xml:space="preserve">
+    <value>ביטוי</value>
+  </data>
+  <data name="PivotView_False" xml:space="preserve">
+    <value>שקר</value>
+  </data>
+  <data name="PivotView_FieldCaption" xml:space="preserve">
+    <value>כיתוב שדה</value>
+  </data>
+  <data name="PivotView_FieldCaptionMessage" xml:space="preserve">
+    <value>כיתוב שדה</value>
+  </data>
+  <data name="PivotView_FieldDropErrorMessage" xml:space="preserve">
+    <value>לא ניתן להציב את השדה שאתה מעביר באזור זה של הדוח</value>
+  </data>
+  <data name="PivotView_FieldName" xml:space="preserve">
+    <value>שם שדה</value>
+  </data>
+  <data name="PivotView_FieldNameMessage" xml:space="preserve">
+    <value>שם שדה :</value>
+  </data>
+  <data name="PivotView_FieldType" xml:space="preserve">
+    <value>סוג שדה</value>
+  </data>
+  <data name="PivotView_Filter" xml:space="preserve">
+    <value>סנן</value>
+  </data>
+  <data name="PivotView_FilterAxisWatermark" xml:space="preserve">
+    <value>זרוק את המסנן כאן</value>
+  </data>
+  <data name="PivotView_Filtered" xml:space="preserve">
+    <value>סונן</value>
+  </data>
+  <data name="PivotView_Filters" xml:space="preserve">
+    <value>מסננים</value>
+  </data>
+  <data name="PivotView_Format" xml:space="preserve">
+    <value>פורמט</value>
+  </data>
+  <data name="PivotView_FormatString" xml:space="preserve">
+    <value>מחרוזת פורמט</value>
+  </data>
+  <data name="PivotView_FormatType" xml:space="preserve">
+    <value>סוג פורמט</value>
+  </data>
+  <data name="PivotView_Formula" xml:space="preserve">
+    <value>פורמולה</value>
+  </data>
+  <data name="PivotView_GrandTotal" xml:space="preserve">
+    <value>סכום סופי</value>
+  </data>
+  <data name="PivotView_GrandTotals" xml:space="preserve">
+    <value>סך הכל</value>
+  </data>
+  <data name="PivotView_GreaterThan" xml:space="preserve">
+    <value>גדול מ</value>
+  </data>
+  <data name="PivotView_GreaterThanOrEqualTo" xml:space="preserve">
+    <value>גדול או שווה</value>
+  </data>
+  <data name="PivotView_Group" xml:space="preserve">
+    <value>קבוצה</value>
+  </data>
+  <data name="PivotView_GroupCaptionMessage" xml:space="preserve">
+    <value>הזן את הכיתוב שיוצג בכותרת העליונה</value>
+  </data>
+  <data name="PivotView_GroupFieldCaptionMessage" xml:space="preserve">
+    <value>הזן את הכיתוב לשדה הקבוצה</value>
+  </data>
+  <data name="PivotView_Grouping" xml:space="preserve">
+    <value>קיבוץ</value>
+  </data>
+  <data name="PivotView_GroupName" xml:space="preserve">
+    <value>שם קבוצה</value>
+  </data>
+  <data name="PivotView_Hours" xml:space="preserve">
+    <value>שעה (ות</value>
+  </data>
+  <data name="PivotView_Index" xml:space="preserve">
+    <value>אינדקס</value>
+  </data>
+  <data name="PivotView_IntervalBy" xml:space="preserve">
+    <value>מרווח עד</value>
+  </data>
+  <data name="PivotView_InvalidFormat" xml:space="preserve">
+    <value>פורמט לא חוקי.</value>
+  </data>
+  <data name="PivotView_InvalidFormula" xml:space="preserve">
+    <value>נוסחה לא חוקית.</value>
+  </data>
+  <data name="PivotView_InvalidGroupSelectionMessage" xml:space="preserve">
+    <value>לא ניתן לקבץ את הבחירה הזו.</value>
+  </data>
+  <data name="PivotView_JPEG" xml:space="preserve">
+    <value>JPEG</value>
+  </data>
+  <data name="PivotView_Label" xml:space="preserve">
+    <value>תווית</value>
+  </data>
+  <data name="PivotView_LabelTextMessage" xml:space="preserve">
+    <value>הצג את הפריטים שעבורם התווית</value>
+  </data>
+  <data name="PivotView_Left" xml:space="preserve">
+    <value>שמאלה</value>
+  </data>
+  <data name="PivotView_LessThan" xml:space="preserve">
+    <value>פחות מ</value>
+  </data>
+  <data name="PivotView_LessThanOrEqualTo" xml:space="preserve">
+    <value>פחות מ או שווה ל</value>
+  </data>
+  <data name="PivotView_Line" xml:space="preserve">
+    <value>קו</value>
+  </data>
+  <data name="PivotView_LoadReport" xml:space="preserve">
+    <value>עומס</value>
+  </data>
+  <data name="PivotView_ManageRecords" xml:space="preserve">
+    <value>נהל רשומות</value>
+  </data>
+  <data name="PivotView_Max" xml:space="preserve">
+    <value>מקסימום</value>
+  </data>
+  <data name="PivotView_MdxQuery" xml:space="preserve">
+    <value>שאילתת MDX</value>
+  </data>
+  <data name="PivotView_Measure" xml:space="preserve">
+    <value>מידה</value>
+  </data>
+  <data name="PivotView_Member" xml:space="preserve">
+    <value>חבר</value>
+  </data>
+  <data name="PivotView_MemberLimitMessage" xml:space="preserve">
+    <value>עוד פריטים. חפש כדי לצמצם עוד יותר.</value>
+  </data>
+  <data name="PivotView_Min" xml:space="preserve">
+    <value>דקה</value>
+  </data>
+  <data name="PivotView_Minutes" xml:space="preserve">
+    <value>דקות</value>
+  </data>
+  <data name="PivotView_Months" xml:space="preserve">
+    <value>חודשים</value>
+  </data>
+  <data name="PivotView_MoreOption" xml:space="preserve">
+    <value>יותר...</value>
+  </data>
+  <data name="PivotView_MultipleItems" xml:space="preserve">
+    <value>פריטים מרובים</value>
+  </data>
+  <data name="PivotView_NewReport" xml:space="preserve">
+    <value>צור דוח חדש</value>
+  </data>
+  <data name="PivotView_NewReportConfirmMessage" xml:space="preserve">
+    <value>האם ברצונך לשמור את השינויים בדוח זה?</value>
+  </data>
+  <data name="PivotView_NoFormatMessage" xml:space="preserve">
+    <value>לא נמצא פורמט !!!</value>
+  </data>
+  <data name="PivotView_NoInputMessage" xml:space="preserve">
+    <value>הזן ערך</value>
+  </data>
+  <data name="PivotView_NoMatchesMessage" xml:space="preserve">
+    <value>אין התאמה</value>
+  </data>
+  <data name="PivotView_NotBetween" xml:space="preserve">
+    <value>לא בין</value>
+  </data>
+  <data name="PivotView_NotEquals" xml:space="preserve">
+    <value>לא שווים</value>
+  </data>
+  <data name="PivotView_NoValue" xml:space="preserve">
+    <value>אין ערך</value>
+  </data>
+  <data name="PivotView_Null" xml:space="preserve">
+    <value>ריק</value>
+  </data>
+  <data name="PivotView_Number" xml:space="preserve">
+    <value>מספר</value>
+  </data>
+  <data name="PivotView_NumberFormatting" xml:space="preserve">
+    <value>עיצוב מספרים</value>
+  </data>
+  <data name="PivotView_Of" xml:space="preserve">
+    <value>של</value>
+  </data>
+  <data name="PivotView_OK" xml:space="preserve">
+    <value>בסדר</value>
+  </data>
+  <data name="PivotView_OutOfRange" xml:space="preserve">
+    <value>מחוץ לטווח</value>
+  </data>
+  <data name="PivotView_ParentHierarchy" xml:space="preserve">
+    <value>היררכיית אב</value>
+  </data>
+  <data name="PivotView_PDF" xml:space="preserve">
+    <value>PDF</value>
+  </data>
+  <data name="PivotView_Percent" xml:space="preserve">
+    <value>אחוז</value>
+  </data>
+  <data name="PivotView_Percentage" xml:space="preserve">
+    <value>אחוז</value>
+  </data>
+  <data name="PivotView_PercentageOfColumnTotal" xml:space="preserve">
+    <value>% מסך העמודה</value>
+  </data>
+  <data name="PivotView_PercentageOfDifferenceFrom" xml:space="preserve">
+    <value>% מההבדל מ</value>
+  </data>
+  <data name="PivotView_PercentageOfGrandTotal" xml:space="preserve">
+    <value>% מסך סך הכל</value>
+  </data>
+  <data name="PivotView_PercentageOfParentColumnTotal" xml:space="preserve">
+    <value>% מסך טור ההורה</value>
+  </data>
+  <data name="PivotView_PercentageOfParentRowTotal" xml:space="preserve">
+    <value>% מסך ההורה</value>
+  </data>
+  <data name="PivotView_PercentageOfParentTotal" xml:space="preserve">
+    <value>% מסך ההורה</value>
+  </data>
+  <data name="PivotView_PercentageOfRowTotal" xml:space="preserve">
+    <value>% מסך השורה</value>
+  </data>
+  <data name="PivotView_PNG" xml:space="preserve">
+    <value>PNG</value>
+  </data>
+  <data name="PivotView_Polar" xml:space="preserve">
+    <value>קוטב</value>
+  </data>
+  <data name="PivotView_PopulationStDev" xml:space="preserve">
+    <value>אוכלוסייה StDev</value>
+  </data>
+  <data name="PivotView_PopulationVar" xml:space="preserve">
+    <value>אוכלוסייה Var</value>
+  </data>
+  <data name="PivotView_Product" xml:space="preserve">
+    <value>מוצר</value>
+  </data>
+  <data name="PivotView_Quarter" xml:space="preserve">
+    <value>Qtr</value>
+  </data>
+  <data name="PivotView_Quarters" xml:space="preserve">
+    <value>רבעים</value>
+  </data>
+  <data name="PivotView_QuarterYear" xml:space="preserve">
+    <value>שנה רבעונית</value>
+  </data>
+  <data name="PivotView_Remove" xml:space="preserve">
+    <value>הסר</value>
+  </data>
+  <data name="PivotView_RemoveReportConfirmMessage" xml:space="preserve">
+    <value>האם אתה בטוח שברצונך למחוק דוח זה?</value>
+  </data>
+  <data name="PivotView_RenameReport" xml:space="preserve">
+    <value>שנה שם של דוח הנוכחי</value>
+  </data>
+  <data name="PivotView_ReportList" xml:space="preserve">
+    <value>רשימת דוחות</value>
+  </data>
+  <data name="PivotView_ReportNameMessage" xml:space="preserve">
+    <value>שם הדוח:</value>
+  </data>
+  <data name="PivotView_Right" xml:space="preserve">
+    <value>ימין</value>
+  </data>
+  <data name="PivotView_Row" xml:space="preserve">
+    <value>שורה</value>
+  </data>
+  <data name="PivotView_RowAxisWatermark" xml:space="preserve">
+    <value>זרוק שורה כאן</value>
+  </data>
+  <data name="PivotView_Rows" xml:space="preserve">
+    <value>שורות</value>
+  </data>
+  <data name="PivotView_RunningTotals" xml:space="preserve">
+    <value>ריצת סך הכל</value>
+  </data>
+  <data name="PivotView_SampleReport" xml:space="preserve">
+    <value>דוח לדוגמה</value>
+  </data>
+  <data name="PivotView_SampleStDev" xml:space="preserve">
+    <value>מדגם StDev</value>
+  </data>
+  <data name="PivotView_SampleVar" xml:space="preserve">
+    <value>מדגם Var</value>
+  </data>
+  <data name="PivotView_SaveAsReport" xml:space="preserve">
+    <value>שמור כדוח הנוכחי</value>
+  </data>
+  <data name="PivotView_SaveReport" xml:space="preserve">
+    <value>שמור דוח</value>
+  </data>
+  <data name="PivotView_Scatter" xml:space="preserve">
+    <value>פיזור</value>
+  </data>
+  <data name="PivotView_Search" xml:space="preserve">
+    <value>לחפש</value>
+  </data>
+  <data name="PivotView_Seconds" xml:space="preserve">
+    <value>שניות</value>
+  </data>
+  <data name="PivotView_SelectedItems" xml:space="preserve">
+    <value>פריטים שנבחרו</value>
+  </data>
+  <data name="PivotView_SelectGroups" xml:space="preserve">
+    <value>בחר קבוצות</value>
+  </data>
+  <data name="PivotView_ShowColumnGrandTotalsOnly" xml:space="preserve">
+    <value>הצג עמודות בסך הכל הכולל בלבד</value>
+  </data>
+  <data name="PivotView_ShowColumnSubtotalsOnly" xml:space="preserve">
+    <value>הצג עמודות סיכומי משנה בלבד</value>
+  </data>
+  <data name="PivotView_ShowFieldList" xml:space="preserve">
+    <value>הצג רשימת שדות</value>
+  </data>
+  <data name="PivotView_ShowGrandTotals" xml:space="preserve">
+    <value>הצג סיכומים גדולים</value>
+  </data>
+  <data name="PivotView_ShowRowGrandTotalsOnly" xml:space="preserve">
+    <value>הצג שורות בסך הכל הכולל</value>
+  </data>
+  <data name="PivotView_ShowRowSubtotalsOnly" xml:space="preserve">
+    <value>הצג שורות לסהכ משנה בלבד</value>
+  </data>
+  <data name="PivotView_ShowSubtotals" xml:space="preserve">
+    <value>הצג סיכומי משנה</value>
+  </data>
+  <data name="PivotView_ShowTable" xml:space="preserve">
+    <value>הצג טבלה</value>
+  </data>
+  <data name="PivotView_Sort" xml:space="preserve">
+    <value>סוג</value>
+  </data>
+  <data name="PivotView_Standard" xml:space="preserve">
+    <value>סטנדרט</value>
+  </data>
+  <data name="PivotView_StartAt" xml:space="preserve">
+    <value>מתחיל ב</value>
+  </data>
+  <data name="PivotView_Subtotals" xml:space="preserve">
+    <value>סיכומי המשנה</value>
+  </data>
+  <data name="PivotView_Sum" xml:space="preserve">
+    <value>סכום</value>
+  </data>
+  <data name="PivotView_Summaries" xml:space="preserve">
+    <value>סיכמו ערכים לפי</value>
+  </data>
+  <data name="PivotView_SummarizeValuesBy" xml:space="preserve">
+    <value>סיכמו ערכים לפי</value>
+  </data>
+  <data name="PivotView_SVG" xml:space="preserve">
+    <value>SVG</value>
+  </data>
+  <data name="PivotView_SymbolPosition" xml:space="preserve">
+    <value>מיקום הסמל</value>
+  </data>
+  <data name="PivotView_Total" xml:space="preserve">
+    <value>סך הכל</value>
+  </data>
+  <data name="PivotView_True" xml:space="preserve">
+    <value>נכון</value>
+  </data>
+  <data name="PivotView_Undefined" xml:space="preserve">
+    <value>לא מוגדר</value>
+  </data>
+  <data name="PivotView_Ungroup" xml:space="preserve">
+    <value>בטל קבוצה</value>
+  </data>
+  <data name="PivotView_ValidReportNameMessage" xml:space="preserve">
+    <value>אנא הכנס שם רשומה תקף !!!</value>
+  </data>
+  <data name="PivotView_Value" xml:space="preserve">
+    <value>ערך</value>
+  </data>
+  <data name="PivotView_ValueAxisWatermark" xml:space="preserve">
+    <value>ירידת ערך כאן</value>
+  </data>
+  <data name="PivotView_ValueFieldSettings" xml:space="preserve">
+    <value>הגדרות שדה ערך</value>
+  </data>
+  <data name="PivotView_Values" xml:space="preserve">
+    <value>ערכים</value>
+  </data>
+  <data name="PivotView_ValueTextMessage" xml:space="preserve">
+    <value>הצג את הפריטים שעבורם</value>
+  </data>
+  <data name="PivotView_Warning" xml:space="preserve">
+    <value>אזהרה</value>
+  </data>
+  <data name="PivotView_Years" xml:space="preserve">
+    <value>שנים</value>
+  </data>
+  <data name="PivotView_MultipleAxes" xml:space="preserve">
+    <value>צירים מרובים</value>
+  </data>
+  <data name="PivotView_ChartTypeSettings" xml:space="preserve">
+    <value>הגדרות סוג תרשים</value>
+  </data>
+  <data name="PivotView_ChartType" xml:space="preserve">
+    <value>סוג התרשים</value>
+  </data>
+  <data name="PivotView_Yes" xml:space="preserve">
+    <value>כן</value>
+  </data>
+  <data name="PivotView_No" xml:space="preserve">
+    <value>לא</value>
+  </data>
+  <data name="PivotView_NumberFormatMenu" xml:space="preserve">
+    <value>עיצוב מספר ...</value>
+  </data>
+  <data name="PivotView_ConditionalFormatingMenu" xml:space="preserve">
+    <value>עיצוב מותנה...</value>
+  </data>
+  <data name="PivotView_CalculatedField_RemoveMessage" xml:space="preserve">
+    <value>האם אתה בטוח שברצונך למחוק שדה מחושב זה?</value>
+  </data>
+  <data name="PivotView_StackedArea" xml:space="preserve">
+    <value>שטח מוערם</value>
+  </data>
+  <data name="PivotView_StackedColumn" xml:space="preserve">
+    <value>עמוד מוערם</value>
+  </data>
+  <data name="PivotView_StackedBar" xml:space="preserve">
+    <value>בר מוערם</value>
+  </data>
+  <data name="PivotView_StepLine" xml:space="preserve">
+    <value>קו צעד</value>
+  </data>
+  <data name="PivotView_StepArea" xml:space="preserve">
+    <value>אזור צעד</value>
+  </data>
+  <data name="PivotView_SplineArea" xml:space="preserve">
+    <value>אזור שקע</value>
+  </data>
+  <data name="PivotView_Spline" xml:space="preserve">
+    <value>שקע</value>
+  </data>
+  <data name="PivotView_StackedColumn100" xml:space="preserve">
+    <value>100% עמודה מוערמת</value>
+  </data>
+  <data name="PivotView_StackedBar100" xml:space="preserve">
+    <value>100% סרגל מוערם</value>
+  </data>
+  <data name="PivotView_StackedArea100" xml:space="preserve">
+    <value>100% שטח מוערם</value>
+  </data>
+  <data name="PivotView_Bubble" xml:space="preserve">
+    <value>בועה</value>
+  </data>
+  <data name="PivotView_Pareto" xml:space="preserve">
+    <value>פרטו</value>
+  </data>
+  <data name="PivotView_Radar" xml:space="preserve">
+    <value>מכם</value>
+  </data>
+  <data name="PivotView_CalculatedField_EditTooltipMessage" xml:space="preserve">
+    <value>ערוך שדה מחושב</value>
+  </data>
+  <data name="PivotView_CalculatedField_ClearTooltipMessage" xml:space="preserve">
+    <value>נקה את פרטי השדה הערוכים</value>
+  </data>
+  <data name="PivotView_Pie" xml:space="preserve">
+    <value>פַּאִי</value>
+  </data>
+  <data name="PivotView_Pyramid" xml:space="preserve">
+    <value>פִּירָמִידָה</value>
+  </data>
+  <data name="PivotView_Doughnut" xml:space="preserve">
+    <value>סופגניה</value>
+  </data>
+  <data name="PivotView_Funnel" xml:space="preserve">
+    <value>מַשׁפֵּך</value>
+  </data>
+  <data name="PivotView_Stacked" xml:space="preserve">
+    <value>מְגוּבָּב</value>
+  </data>
+  <data name="PivotView_Grouped" xml:space="preserve">
+    <value>מקובץ</value>
+  </data>
+  <data name="PivotView_MultipleAxisMode" xml:space="preserve">
+    <value>מצב ציר מרובה</value>
+  </data>
+  <data name="PivotView_Median" xml:space="preserve">
+    <value>מעדיאַן</value>
+  </data>
+  <data name="PivotView_Bottom" xml:space="preserve">
+    <value>תַחתִית</value>
+  </data>
+  <data name="PivotView_GrandTotalPositions" xml:space="preserve">
+    <value>סה"כ מיקומים כוללים</value>
+  </data>
+  <data name="PivotView_Top" xml:space="preserve">
+    <value>חלק עליון</value>
+  </data>
+  <data name="QueryBuilder_AddCondition" xml:space="preserve">
+    <value>הוסף תנאי</value>
+  </data>
+  <data name="QueryBuilder_AddGroup" xml:space="preserve">
+    <value>הוסף קבוצה</value>
+  </data>
+  <data name="QueryBuilder_AND" xml:space="preserve">
+    <value>ו</value>
+  </data>
+  <data name="QueryBuilder_Between" xml:space="preserve">
+    <value>בין</value>
+  </data>
+  <data name="QueryBuilder_Contains" xml:space="preserve">
+    <value>מכיל</value>
+  </data>
+  <data name="QueryBuilder_DeleteGroup" xml:space="preserve">
+    <value>מחק קבוצה</value>
+  </data>
+  <data name="QueryBuilder_DeleteRule" xml:space="preserve">
+    <value>הסר מצב זה</value>
+  </data>
+  <data name="QueryBuilder_Edit" xml:space="preserve">
+    <value>ערוך</value>
+  </data>
+  <data name="QueryBuilder_Empty" xml:space="preserve">
+    <value>ריק</value>
+  </data>
+  <data name="QueryBuilder_EndsWith" xml:space="preserve">
+    <value>נגמר עם</value>
+  </data>
+  <data name="QueryBuilder_Equal" xml:space="preserve">
+    <value>שווה</value>
+  </data>
+  <data name="QueryBuilder_GreaterThan" xml:space="preserve">
+    <value>גדול מ</value>
+  </data>
+  <data name="QueryBuilder_GreaterThanOrEqual" xml:space="preserve">
+    <value>גדול או שווה</value>
+  </data>
+  <data name="QueryBuilder_In" xml:space="preserve">
+    <value>בתוך</value>
+  </data>
+  <data name="QueryBuilder_LessThan" xml:space="preserve">
+    <value>פחות מ</value>
+  </data>
+  <data name="QueryBuilder_LessThanOrEqual" xml:space="preserve">
+    <value>פחות מ או שווה</value>
+  </data>
+  <data name="QueryBuilder_NotBetween" xml:space="preserve">
+    <value>לא בין</value>
+  </data>
+  <data name="QueryBuilder_NotContains" xml:space="preserve">
+    <value>לא מכיל</value>
+  </data>
+  <data name="QueryBuilder_NotEmpty" xml:space="preserve">
+    <value>לא ריק</value>
+  </data>
+  <data name="QueryBuilder_NotEqual" xml:space="preserve">
+    <value>לא שווה</value>
+  </data>
+  <data name="QueryBuilder_NotIn" xml:space="preserve">
+    <value>לא ב</value>
+  </data>
+  <data name="QueryBuilder_OR" xml:space="preserve">
+    <value>או</value>
+  </data>
+  <data name="QueryBuilder_OtherFields" xml:space="preserve">
+    <value>שדות אחרים</value>
+  </data>
+  <data name="QueryBuilder_Remove" xml:space="preserve">
+    <value>הסר</value>
+  </data>
+  <data name="QueryBuilder_SelectField" xml:space="preserve">
+    <value>בחר שדה</value>
+  </data>
+  <data name="QueryBuilder_SelectOperator" xml:space="preserve">
+    <value>בחר מפעיל</value>
+  </data>
+  <data name="QueryBuilder_SelectValue" xml:space="preserve">
+    <value>הזן ערך</value>
+  </data>
+  <data name="QueryBuilder_StartsWith" xml:space="preserve">
+    <value>מתחיל עם</value>
+  </data>
+  <data name="QueryBuilder_SummaryViewTitle" xml:space="preserve">
+    <value>תצוגת סיכום</value>
+  </data>
+  <data name="QueryBuilder_ValidationMessage" xml:space="preserve">
+    <value>זהו שדה חובה</value>
+  </data>
+  <data name="Dialog_Close" xml:space="preserve">
+    <value>סגור</value>
+  </data>
+  <data name="Toast_Close" xml:space="preserve">
+    <value>סגור</value>
+  </data>
+  <data name="InPlaceEditor_Save" xml:space="preserve">
+    <value>להציל</value>
+  </data>
+  <data name="InPlaceEditor_Cancel" xml:space="preserve">
+    <value>בטל</value>
+  </data>
+  <data name="InPlaceEditor_LoadingText" xml:space="preserve">
+    <value>טעינה...</value>
+  </data>
+  <data name="InPlaceEditor_EditIcon" xml:space="preserve">
+    <value>לחץ כדי לערוך</value>
+  </data>
+  <data name="InPlaceEditor_EditAreaClick" xml:space="preserve">
+    <value>לחץ כדי לערוך</value>
+  </data>
+  <data name="InPlaceEditor_EditAreaDoubleClick" xml:space="preserve">
+    <value>לחץ פעמיים כדי לערוך</value>
+  </data>
+  <data name="Kanban_Items" xml:space="preserve">
+    <value>פריטים</value>
+  </data>
+  <data name="Kanban_Item" xml:space="preserve">
+    <value>פריט</value>
+  </data>
+  <data name="Kanban_No_Cards" xml:space="preserve">
+    <value>אין כרטיסים להצגה</value>
+  </data>
+  <data name="Kanban_Min" xml:space="preserve">
+    <value>דקה</value>
+  </data>
+  <data name="Kanban_Max" xml:space="preserve">
+    <value>מקסימום</value>
+  </data>
+  <data name="Kanban_CardsSelected" xml:space="preserve">
+    <value>כרטיסים נבחרים</value>
+  </data>
+  <data name="Kanban_AddTitle" xml:space="preserve">
+    <value>הוסף כרטיס חדש</value>
+  </data>
+  <data name="Kanban_EditTitle" xml:space="preserve">
+    <value>ערוך פרטי כרטיס</value>
+  </data>
+  <data name="Kanban_DeleteTitle" xml:space="preserve">
+    <value>מחק כרטיס</value>
+  </data>
+  <data name="Kanban_DeleteContent" xml:space="preserve">
+    <value>האם אתה בטוח שברצונך למחוק את הכרטיס הזה?</value>
+  </data>
+  <data name="Kanban_Save" xml:space="preserve">
+    <value>להציל</value>
+  </data>
+  <data name="Kanban_Delete" xml:space="preserve">
+    <value>מחק</value>
+  </data>
+  <data name="Kanban_Cancel" xml:space="preserve">
+    <value>בטל</value>
+  </data>
+  <data name="Kanban_Yes" xml:space="preserve">
+    <value>כן</value>
+  </data>
+  <data name="Kanban_No" xml:space="preserve">
+    <value>לא</value>
+  </data>
+  <data name="RichTextEditor_NumberFormatListNone" xml:space="preserve">
+    <value>אף אחד</value>
+  </data>
+  <data name="RichTextEditor_NumberFormatListNumber" xml:space="preserve">
+    <value>מספר</value>
+  </data>
+  <data name="RichTextEditor_NumberFormatListUpperAlpha" xml:space="preserve">
+    <value>אלפא עליון</value>
+  </data>
+  <data name="RichTextEditor_NumberFormatListLowerAlpha" xml:space="preserve">
+    <value>אלפא תחתון</value>
+  </data>
+  <data name="RichTextEditor_NumberFormatListUpperRoman" xml:space="preserve">
+    <value>רומא עליון</value>
+  </data>
+  <data name="RichTextEditor_NumberFormatListLowerRoman" xml:space="preserve">
+    <value>רומא תחתון</value>
+  </data>
+  <data name="RichTextEditor_NumberFormatListLowerGreek" xml:space="preserve">
+    <value>יוונית תחתונה</value>
+  </data>
+  <data name="RichTextEditor_BulletFormatListNone" xml:space="preserve">
+    <value>אף אחד</value>
+  </data>
+  <data name="RichTextEditor_BulletFormatListCircle" xml:space="preserve">
+    <value>מעגל</value>
+  </data>
+  <data name="RichTextEditor_BulletFormatListSquare" xml:space="preserve">
+    <value>כיכר</value>
+  </data>
+  <data name="RichTextEditor_BulletFormatListDisc" xml:space="preserve">
+    <value>דיסק</value>
+  </data>
+  <data name="RichTextEditor_FormatsDropDownParagraph" xml:space="preserve">
+    <value>פסקה</value>
+  </data>
+  <data name="RichTextEditor_FormatsDropDownCode" xml:space="preserve">
+    <value>קוד</value>
+  </data>
+  <data name="RichTextEditor_FormatsDropDownQuotation" xml:space="preserve">
+    <value>ציטוט</value>
+  </data>
+  <data name="RichTextEditor_FormatsDropDownHeading1" xml:space="preserve">
+    <value>מכוון ל 1</value>
+  </data>
+  <data name="RichTextEditor_FormatsDropDownHeading2" xml:space="preserve">
+    <value>מכוון ל 2</value>
+  </data>
+  <data name="RichTextEditor_FormatsDropDownHeading3" xml:space="preserve">
+    <value>מכוון ל 3</value>
+  </data>
+  <data name="RichTextEditor_FormatsDropDownHeading4" xml:space="preserve">
+    <value>מכוון ל 4</value>
+  </data>
+  <data name="RichTextEditor_FormatsDropDownHeading5" xml:space="preserve">
+    <value>מכוון ל 5</value>
+  </data>
+  <data name="RichTextEditor_FormatsDropDownHeading6" xml:space="preserve">
+    <value>מכוון ל 6</value>
+  </data>
+  <data name="RichTextEditor_FontNameSegoeUI" xml:space="preserve">
+    <value>ממשק משתמש Segoe</value>
+  </data>
+  <data name="RichTextEditor_FontNameArial" xml:space="preserve">
+    <value>אריאל</value>
+  </data>
+  <data name="RichTextEditor_FontNameGeorgia" xml:space="preserve">
+    <value>ג'ורג'יה</value>
+  </data>
+  <data name="RichTextEditor_FontNameImpact" xml:space="preserve">
+    <value>פְּגִיעָה</value>
+  </data>
+  <data name="RichTextEditor_FontNameTahoma" xml:space="preserve">
+    <value>טהומה</value>
+  </data>
+  <data name="RichTextEditor_FontNameTimesNewRoman" xml:space="preserve">
+    <value>זמנים חדשים רוֹמִי</value>
+  </data>
+  <data name="RichTextEditor_FontNameVerdana" xml:space="preserve">
+    <value>ורדנה</value>
+  </data>
+  <data name="RichTextEditor_Alignments" xml:space="preserve">
+    <value>יישור קו</value>
+  </data>
+  <data name="RichTextEditor_JustifyLeft" xml:space="preserve">
+    <value>יישר שמאלה</value>
+  </data>
+  <data name="RichTextEditor_JustifyCenter" xml:space="preserve">
+    <value>יישר למרכז</value>
+  </data>
+  <data name="RichTextEditor_JustifyRight" xml:space="preserve">
+    <value>ליישור מימין</value>
+  </data>
+  <data name="RichTextEditor_JustifyFull" xml:space="preserve">
+    <value>יישר הצדקה</value>
+  </data>
+  <data name="RichTextEditor_FontName" xml:space="preserve">
+    <value>שם גופן</value>
+  </data>
+  <data name="RichTextEditor_FontSize" xml:space="preserve">
+    <value>גודל גופן</value>
+  </data>
+  <data name="RichTextEditor_FontColor" xml:space="preserve">
+    <value>צבע גופן</value>
+  </data>
+  <data name="RichTextEditor_BackgroundColor" xml:space="preserve">
+    <value>צבע רקע</value>
+  </data>
+  <data name="RichTextEditor_Bold" xml:space="preserve">
+    <value>נועז</value>
+  </data>
+  <data name="RichTextEditor_Italic" xml:space="preserve">
+    <value>נטוי</value>
+  </data>
+  <data name="RichTextEditor_Underline" xml:space="preserve">
+    <value>קו תחתון</value>
+  </data>
+  <data name="RichTextEditor_Strikethrough" xml:space="preserve">
+    <value>חוצה דרך</value>
+  </data>
+  <data name="RichTextEditor_ClearFormat" xml:space="preserve">
+    <value>נקה תבנית</value>
+  </data>
+  <data name="RichTextEditor_ClearAll" xml:space="preserve">
+    <value>נקה הכל</value>
+  </data>
+  <data name="RichTextEditor_Cut" xml:space="preserve">
+    <value>גזירה</value>
+  </data>
+  <data name="RichTextEditor_Copy" xml:space="preserve">
+    <value>עותק</value>
+  </data>
+  <data name="RichTextEditor_Paste" xml:space="preserve">
+    <value>הדבק</value>
+  </data>
+  <data name="RichTextEditor_UnorderedList" xml:space="preserve">
+    <value>רשימת תבליטים</value>
+  </data>
+  <data name="RichTextEditor_OrderedList" xml:space="preserve">
+    <value>רשימה ממוספרת</value>
+  </data>
+  <data name="RichTextEditor_Indent" xml:space="preserve">
+    <value>הגדל את הכניסה</value>
+  </data>
+  <data name="RichTextEditor_Outdent" xml:space="preserve">
+    <value>צמצם את הכניסה</value>
+  </data>
+  <data name="RichTextEditor_Undo" xml:space="preserve">
+    <value>לבטל</value>
+  </data>
+  <data name="RichTextEditor_Redo" xml:space="preserve">
+    <value>בצע שוב</value>
+  </data>
+  <data name="RichTextEditor_Superscript" xml:space="preserve">
+    <value>סופרגרף</value>
+  </data>
+  <data name="RichTextEditor_Subscript" xml:space="preserve">
+    <value>מנוי</value>
+  </data>
+  <data name="RichTextEditor_CreateLink" xml:space="preserve">
+    <value>הכנס היפר-קישור</value>
+  </data>
+  <data name="RichTextEditor_OpenLink" xml:space="preserve">
+    <value>קישור פתוח</value>
+  </data>
+  <data name="RichTextEditor_EditLink" xml:space="preserve">
+    <value>ערוך קישור</value>
+  </data>
+  <data name="RichTextEditor_RemoveLink" xml:space="preserve">
+    <value>הסר קישור</value>
+  </data>
+  <data name="RichTextEditor_Image" xml:space="preserve">
+    <value>הוסף תמונה</value>
+  </data>
+  <data name="RichTextEditor_Replace" xml:space="preserve">
+    <value>החלף</value>
+  </data>
+  <data name="RichTextEditor_Align" xml:space="preserve">
+    <value>יישר קו</value>
+  </data>
+  <data name="RichTextEditor_Caption" xml:space="preserve">
+    <value>כיתוב תמונה</value>
+  </data>
+  <data name="RichTextEditor_Remove" xml:space="preserve">
+    <value>הסר</value>
+  </data>
+  <data name="RichTextEditor_InsertLink" xml:space="preserve">
+    <value>הכנס קישור</value>
+  </data>
+  <data name="RichTextEditor_Display" xml:space="preserve">
+    <value>תצוגה</value>
+  </data>
+  <data name="RichTextEditor_AltText" xml:space="preserve">
+    <value>טקסט אלטרנטיב</value>
+  </data>
+  <data name="RichTextEditor_Dimension" xml:space="preserve">
+    <value>שנה גודל</value>
+  </data>
+  <data name="RichTextEditor_Fullscreen" xml:space="preserve">
+    <value>למקסם</value>
+  </data>
+  <data name="RichTextEditor_Maximize" xml:space="preserve">
+    <value>למקסם</value>
+  </data>
+  <data name="RichTextEditor_Minimize" xml:space="preserve">
+    <value>מזער</value>
+  </data>
+  <data name="RichTextEditor_LowerCase" xml:space="preserve">
+    <value>תיק קטן</value>
+  </data>
+  <data name="RichTextEditor_UpperCase" xml:space="preserve">
+    <value>תיק עליון</value>
+  </data>
+  <data name="RichTextEditor_Print" xml:space="preserve">
+    <value>הדפס</value>
+  </data>
+  <data name="RichTextEditor_Formats" xml:space="preserve">
+    <value>פורמטים</value>
+  </data>
+  <data name="RichTextEditor_Sourcecode" xml:space="preserve">
+    <value>תצוגת קוד</value>
+  </data>
+  <data name="RichTextEditor_Preview" xml:space="preserve">
+    <value>תצוגה מקדימה</value>
+  </data>
+  <data name="RichTextEditor_Viewside" xml:space="preserve">
+    <value>נוף צד</value>
+  </data>
+  <data name="RichTextEditor_InsertCode" xml:space="preserve">
+    <value>הכנס קוד</value>
+  </data>
+  <data name="RichTextEditor_LinkText" xml:space="preserve">
+    <value>טקסט לתצוגה</value>
+  </data>
+  <data name="RichTextEditor_LinkTooltipLabel" xml:space="preserve">
+    <value>כותרת</value>
+  </data>
+  <data name="RichTextEditor_LinkWebUrl" xml:space="preserve">
+    <value>כתובת אתר אינטרנט</value>
+  </data>
+  <data name="RichTextEditor_LinkTitle" xml:space="preserve">
+    <value>הזן כותרת</value>
+  </data>
+  <data name="RichTextEditor_LinkUrl" xml:space="preserve">
+    <value>http://example.com</value>
+  </data>
+  <data name="RichTextEditor_LinkOpenInNewWindow" xml:space="preserve">
+    <value>תפתח קישור בחלון חדש</value>
+  </data>
+  <data name="RichTextEditor_LinkHeader" xml:space="preserve">
+    <value>הכנס קישור</value>
+  </data>
+  <data name="RichTextEditor_DialogInsert" xml:space="preserve">
+    <value>הכנס</value>
+  </data>
+  <data name="RichTextEditor_DialogCancel" xml:space="preserve">
+    <value>בטל</value>
+  </data>
+  <data name="RichTextEditor_DialogUpdate" xml:space="preserve">
+    <value>עדכון</value>
+  </data>
+  <data name="RichTextEditor_ImageHeader" xml:space="preserve">
+    <value>הוסף תמונה</value>
+  </data>
+  <data name="RichTextEditor_ImageLinkHeader" xml:space="preserve">
+    <value>אתה יכול גם לספק קישור מהאינטרנט</value>
+  </data>
+  <data name="RichTextEditor_MdImageLink" xml:space="preserve">
+    <value>אנא ספק כתובת URL לתמונה שלך</value>
+  </data>
+  <data name="RichTextEditor_ImageUploadMessage" xml:space="preserve">
+    <value>שחרר תמונה כאן או דפדף להעלאה</value>
+  </data>
+  <data name="RichTextEditor_ImageDeviceUploadMessage" xml:space="preserve">
+    <value>לחץ כאן כדי להעלות</value>
+  </data>
+  <data name="RichTextEditor_ImageAlternateText" xml:space="preserve">
+    <value>טקסט חלופי</value>
+  </data>
+  <data name="RichTextEditor_AlternateHeader" xml:space="preserve">
+    <value>טקסט אלטרנטיבי</value>
+  </data>
+  <data name="RichTextEditor_Browse" xml:space="preserve">
+    <value>דפדף</value>
+  </data>
+  <data name="RichTextEditor_ImageUrl" xml:space="preserve">
+    <value>http://example.com/image.png</value>
+  </data>
+  <data name="RichTextEditor_ImageCaption" xml:space="preserve">
+    <value>הכיתוב</value>
+  </data>
+  <data name="RichTextEditor_ImageSizeHeader" xml:space="preserve">
+    <value>גודל תמונה</value>
+  </data>
+  <data name="RichTextEditor_ImageHeight" xml:space="preserve">
+    <value>גובה</value>
+  </data>
+  <data name="RichTextEditor_ImageWidth" xml:space="preserve">
+    <value>רוחב</value>
+  </data>
+  <data name="RichTextEditor_TextPlaceholder" xml:space="preserve">
+    <value>הזן טקסט</value>
+  </data>
+  <data name="RichTextEditor_InsertTableBtn" xml:space="preserve">
+    <value>הכנס טבלה</value>
+  </data>
+  <data name="RichTextEditor_TableDialogHeader" xml:space="preserve">
+    <value>הכנס טבלה</value>
+  </data>
+  <data name="RichTextEditor_TableWidth" xml:space="preserve">
+    <value>רוחב</value>
+  </data>
+  <data name="RichTextEditor_Cellpadding" xml:space="preserve">
+    <value>ריפוד תאים</value>
+  </data>
+  <data name="RichTextEditor_Cellspacing" xml:space="preserve">
+    <value>ריווח תאים</value>
+  </data>
+  <data name="RichTextEditor_Columns" xml:space="preserve">
+    <value>מספר העמודות</value>
+  </data>
+  <data name="RichTextEditor_Rows" xml:space="preserve">
+    <value>מספר שורות</value>
+  </data>
+  <data name="RichTextEditor_TableRows" xml:space="preserve">
+    <value>שורות טבלה</value>
+  </data>
+  <data name="RichTextEditor_TableColumns" xml:space="preserve">
+    <value>עמודות טבלה</value>
+  </data>
+  <data name="RichTextEditor_TableCellHorizontalAlign" xml:space="preserve">
+    <value>יישור אופקי של תא שולחן</value>
+  </data>
+  <data name="RichTextEditor_TableCellVerticalAlign" xml:space="preserve">
+    <value>יישור אנכי של תא לוח</value>
+  </data>
+  <data name="RichTextEditor_CreateTable" xml:space="preserve">
+    <value>צור טבלה</value>
+  </data>
+  <data name="RichTextEditor_RemoveTable" xml:space="preserve">
+    <value>הסר את הטבלה</value>
+  </data>
+  <data name="RichTextEditor_TableHeader" xml:space="preserve">
+    <value>כותרת טבלה</value>
+  </data>
+  <data name="RichTextEditor_TableRemove" xml:space="preserve">
+    <value>הסר טבלה</value>
+  </data>
+  <data name="RichTextEditor_TableCellBackground" xml:space="preserve">
+    <value>רקע לתא טבלה</value>
+  </data>
+  <data name="RichTextEditor_TableEditProperties" xml:space="preserve">
+    <value>מאפייני עריכת טבלה</value>
+  </data>
+  <data name="RichTextEditor_Styles" xml:space="preserve">
+    <value>סגנונות</value>
+  </data>
+  <data name="RichTextEditor_InsertColumnLeft" xml:space="preserve">
+    <value>הכנס עמודה שמאלה</value>
+  </data>
+  <data name="RichTextEditor_InsertColumnRight" xml:space="preserve">
+    <value>הכנס עמודה ימינה</value>
+  </data>
+  <data name="RichTextEditor_DeleteColumn" xml:space="preserve">
+    <value>מחק טור</value>
+  </data>
+  <data name="RichTextEditor_InsertRowBefore" xml:space="preserve">
+    <value>הכנס שורה לפני</value>
+  </data>
+  <data name="RichTextEditor_InsertRowAfter" xml:space="preserve">
+    <value>הכנס שורה אחרי</value>
+  </data>
+  <data name="RichTextEditor_DeleteRow" xml:space="preserve">
+    <value>מחק שורה</value>
+  </data>
+  <data name="RichTextEditor_TableEditHeader" xml:space="preserve">
+    <value>ערוך טבלה</value>
+  </data>
+  <data name="RichTextEditor_TableHeadingText" xml:space="preserve">
+    <value>כותרת</value>
+  </data>
+  <data name="RichTextEditor_TableColText" xml:space="preserve">
+    <value>אל\"מ</value>
+  </data>
+  <data name="RichTextEditor_ImageInsertLinkHeader" xml:space="preserve">
+    <value>הכנס קישור</value>
+  </data>
+  <data name="RichTextEditor_EditImageHeader" xml:space="preserve">
+    <value>ערוך תמונה</value>
+  </data>
+  <data name="RichTextEditor_AlignmentsDropDownLeft" xml:space="preserve">
+    <value>יישר שמאלה</value>
+  </data>
+  <data name="RichTextEditor_AlignmentsDropDownCenter" xml:space="preserve">
+    <value>יישר למרכז</value>
+  </data>
+  <data name="RichTextEditor_AlignmentsDropDownRight" xml:space="preserve">
+    <value>ליישור מימין</value>
+  </data>
+  <data name="RichTextEditor_AlignmentsDropDownJustify" xml:space="preserve">
+    <value>יישר הצדקה</value>
+  </data>
+  <data name="RichTextEditor_ImageDisplayDropDownInline" xml:space="preserve">
+    <value>בשורה</value>
+  </data>
+  <data name="RichTextEditor_ImageDisplayDropDownBreak" xml:space="preserve">
+    <value>לשבור</value>
+  </data>
+  <data name="RichTextEditor_TableInsertRowDropDownBefore" xml:space="preserve">
+    <value>הכנס שורה לפני</value>
+  </data>
+  <data name="RichTextEditor_TableInsertRowDropDownAfter" xml:space="preserve">
+    <value>הכנס שורה אחרי</value>
+  </data>
+  <data name="RichTextEditor_TableInsertRowDropDownDelete" xml:space="preserve">
+    <value>מחק שורה</value>
+  </data>
+  <data name="RichTextEditor_TableInsertColumnDropDownLeft" xml:space="preserve">
+    <value>הכנס עמודה שמאלה</value>
+  </data>
+  <data name="RichTextEditor_TableInsertColumnDropDownRight" xml:space="preserve">
+    <value>הכנס עמודה ימינה</value>
+  </data>
+  <data name="RichTextEditor_TableInsertColumnDropDownDelete" xml:space="preserve">
+    <value>מחק עמודה</value>
+  </data>
+  <data name="RichTextEditor_TableVerticalAlignDropDownTop" xml:space="preserve">
+    <value>יישר למעלה</value>
+  </data>
+  <data name="RichTextEditor_TableVerticalAlignDropDownMiddle" xml:space="preserve">
+    <value>יישור התיכון</value>
+  </data>
+  <data name="RichTextEditor_TableVerticalAlignDropDownBottom" xml:space="preserve">
+    <value>יישר תחתון</value>
+  </data>
+  <data name="RichTextEditor_TableStylesDropDownDashedBorder" xml:space="preserve">
+    <value>גבולות מקווקו</value>
+  </data>
+  <data name="RichTextEditor_TableStylesDropDownAlternateRows" xml:space="preserve">
+    <value>שורות חלופיות</value>
+  </data>
+  <data name="RichTextEditor_PasteFormat" xml:space="preserve">
+    <value>הדבק תבנית</value>
+  </data>
+  <data name="RichTextEditor_PasteFormatContent" xml:space="preserve">
+    <value>בחר בפעולת העיצוב</value>
+  </data>
+  <data name="RichTextEditor_PlainText" xml:space="preserve">
+    <value>טקסט רגיל</value>
+  </data>
+  <data name="RichTextEditor_CleanFormat" xml:space="preserve">
+    <value>נקי</value>
+  </data>
+  <data name="RichTextEditor_KeepFormat" xml:space="preserve">
+    <value>שמור</value>
+  </data>
+  <data name="RichTextEditor_PasteDialogOk" xml:space="preserve">
+    <value>בסדר</value>
+  </data>
+  <data name="RichTextEditor_PasteDialogCancel" xml:space="preserve">
+    <value>בטל</value>
+  </data>
+  <data name="DiagramComponent_X" xml:space="preserve">
+    <value>איקס</value>
+  </data>
+  <data name="DiagramComponent_Y" xml:space="preserve">
+    <value>י</value>
+  </data>
+  <data name="DiagramComponent_W" xml:space="preserve">
+    <value>W</value>
+  </data>
+  <data name="DiagramComponent_H" xml:space="preserve">
+    <value>ח</value>
+  </data>
+  <data name="Diagram_BringToFront" xml:space="preserve">
+    <value>תביא לחזית</value>
+  </data>
+  <data name="Diagram_Copy" xml:space="preserve">
+    <value>עותק</value>
+  </data>
+  <data name="Diagram_Cut" xml:space="preserve">
+    <value>גזירה</value>
+  </data>
+  <data name="Diagram_Group" xml:space="preserve">
+    <value>קבוצה</value>
+  </data>
+  <data name="Diagram_Grouping" xml:space="preserve">
+    <value>קיבוץ</value>
+  </data>
+  <data name="Diagram_MoveForward" xml:space="preserve">
+    <value>להתקדם</value>
+  </data>
+  <data name="Diagram_Order" xml:space="preserve">
+    <value>להזמין</value>
+  </data>
+  <data name="Diagram_Paste" xml:space="preserve">
+    <value>הדבק</value>
+  </data>
+  <data name="Diagram_Redo" xml:space="preserve">
+    <value>בצע שוב</value>
+  </data>
+  <data name="Diagram_SelectAll" xml:space="preserve">
+    <value>בחר הכל</value>
+  </data>
+  <data name="Diagram_SendBackward" xml:space="preserve">
+    <value>שלח אחורה</value>
+  </data>
+  <data name="Diagram_SendToBack" xml:space="preserve">
+    <value>שלח אחורה</value>
+  </data>
+  <data name="Diagram_Undo" xml:space="preserve">
+    <value>לבטל</value>
+  </data>
+  <data name="Diagram_UnGroup" xml:space="preserve">
+    <value>בטל את הקבוצה</value>
+  </data>
+  <data name="Grid_EmptyRecord" xml:space="preserve">
+    <value>אין רשומות להצגה</value>
+  </data>
+  <data name="Grid_True" xml:space="preserve">
+    <value>נכון</value>
+  </data>
+  <data name="Grid_False" xml:space="preserve">
+    <value>שקר</value>
+  </data>
+  <data name="Grid_InvalidFilterMessage" xml:space="preserve">
+    <value>נתוני סינון לא חוקיים</value>
+  </data>
+  <data name="Grid_GroupDropArea" xml:space="preserve">
+    <value>גרור לכותרת עמודה לכאן כדי לקבץ את העמודה שלה</value>
+  </data>
+  <data name="Grid_UnGroupButton" xml:space="preserve">
+    <value>לחץ כאן לביטול הקבוצה</value>
+  </data>
+  <data name="Grid_GroupDisable" xml:space="preserve">
+    <value>קיבוץ מושבת בעמודה זו</value>
+  </data>
+  <data name="Grid_FilterbarTitle" xml:space="preserve">
+    <value>תא סרגל המסנן</value>
+  </data>
+  <data name="Grid_EmptyDataSourceError" xml:space="preserve">
+    <value>אסור ש- DataSource יהיה ריק בעומס ראשוני מאחר ועמודות נוצרות מ- DataSource ברשת אוטומטית של העמודה</value>
+  </data>
+  <data name="Grid_Add" xml:space="preserve">
+    <value>הוסף</value>
+  </data>
+  <data name="Grid_Edit" xml:space="preserve">
+    <value>ערוך</value>
+  </data>
+  <data name="Grid_Cancel" xml:space="preserve">
+    <value>בטל</value>
+  </data>
+  <data name="Grid_Update" xml:space="preserve">
+    <value>עדכון</value>
+  </data>
+  <data name="Grid_Delete" xml:space="preserve">
+    <value>מחק</value>
+  </data>
+  <data name="Grid_Print" xml:space="preserve">
+    <value>הדפס</value>
+  </data>
+  <data name="Grid_Pdfexport" xml:space="preserve">
+    <value>ייצוא PDF</value>
+  </data>
+  <data name="Grid_Excelexport" xml:space="preserve">
+    <value>ייצוא של Excel</value>
+  </data>
+  <data name="Grid_Wordexport" xml:space="preserve">
+    <value>ייצוא מילים</value>
+  </data>
+  <data name="Grid_Csvexport" xml:space="preserve">
+    <value>ייצוא CSV</value>
+  </data>
+  <data name="Grid_Search" xml:space="preserve">
+    <value>לחפש</value>
+  </data>
+  <data name="Grid_Columnchooser" xml:space="preserve">
+    <value>עמודים</value>
+  </data>
+  <data name="Grid_Save" xml:space="preserve">
+    <value>להציל</value>
+  </data>
+  <data name="Grid_Item" xml:space="preserve">
+    <value>פריט</value>
+  </data>
+  <data name="Grid_Items" xml:space="preserve">
+    <value>פריטים</value>
+  </data>
+  <data name="Grid_EditOperationAlert" xml:space="preserve">
+    <value>לא נבחרו רשומות להפעלת עריכה</value>
+  </data>
+  <data name="Grid_DeleteOperationAlert" xml:space="preserve">
+    <value>לא נבחרו רשומות להפעלת מחיקה</value>
+  </data>
+  <data name="Grid_SaveButton" xml:space="preserve">
+    <value>להציל</value>
+  </data>
+  <data name="Grid_OKButton" xml:space="preserve">
+    <value>בסדר</value>
+  </data>
+  <data name="Grid_CancelButton" xml:space="preserve">
+    <value>בטל</value>
+  </data>
+  <data name="Grid_EditFormTitle" xml:space="preserve">
+    <value>פירוט של</value>
+  </data>
+  <data name="Grid_AddFormTitle" xml:space="preserve">
+    <value>הוסף רשומה חדשה</value>
+  </data>
+  <data name="Grid_BatchSaveConfirm" xml:space="preserve">
+    <value>האם אתה בטוח שברצונך לשמור שינויים?</value>
+  </data>
+  <data name="Grid_BatchSaveLostChanges" xml:space="preserve">
+    <value>שינויים שלא נשמרו יאבדו. האם אתה בטוח שאתה רוצה להמשיך?</value>
+  </data>
+  <data name="Grid_ConfirmDelete" xml:space="preserve">
+    <value>האם אתה בטוח שברצונך למחוק את הרשומה?</value>
+  </data>
+  <data name="Grid_CancelEdit" xml:space="preserve">
+    <value>האם אתה בטוח שברצונך לבטל את השינויים?</value>
+  </data>
+  <data name="Grid_ChooseColumns" xml:space="preserve">
+    <value>בחר טור</value>
+  </data>
+  <data name="Grid_SearchColumns" xml:space="preserve">
+    <value>עמודות חיפוש</value>
+  </data>
+  <data name="Grid_Matchs" xml:space="preserve">
+    <value>אין תוצאות מתאימות</value>
+  </data>
+  <data name="Grid_FilterButton" xml:space="preserve">
+    <value>סנן</value>
+  </data>
+  <data name="Grid_ClearButton" xml:space="preserve">
+    <value>ברור</value>
+  </data>
+  <data name="Grid_StartsWith" xml:space="preserve">
+    <value>מתחיל עם</value>
+  </data>
+  <data name="Grid_EndsWith" xml:space="preserve">
+    <value>נגמר עם</value>
+  </data>
+  <data name="Grid_Contains" xml:space="preserve">
+    <value>מכיל</value>
+  </data>
+  <data name="Grid_Equal" xml:space="preserve">
+    <value>שווה</value>
+  </data>
+  <data name="Grid_NotEqual" xml:space="preserve">
+    <value>לא שווה</value>
+  </data>
+  <data name="Grid_LessThan" xml:space="preserve">
+    <value>פחות מ</value>
+  </data>
+  <data name="Grid_LessThanOrEqual" xml:space="preserve">
+    <value>פחות מ או שווה</value>
+  </data>
+  <data name="Grid_GreaterThan" xml:space="preserve">
+    <value>גדול מ</value>
+  </data>
+  <data name="Grid_GreaterThanOrEqual" xml:space="preserve">
+    <value>גדול או שווה</value>
+  </data>
+  <data name="Grid_ChooseDate" xml:space="preserve">
+    <value>בחר תאריך</value>
+  </data>
+  <data name="Grid_EnterValue" xml:space="preserve">
+    <value>הזן את הערך</value>
+  </data>
+  <data name="Grid_Copy" xml:space="preserve">
+    <value>עותק</value>
+  </data>
+  <data name="Grid_Group" xml:space="preserve">
+    <value>קבץ לפי עמודה זו</value>
+  </data>
+  <data name="Grid_Ungroup" xml:space="preserve">
+    <value>בטל את הקבוצה לפי עמודה זו</value>
+  </data>
+  <data name="Grid_AutoFitAll" xml:space="preserve">
+    <value>התאם אוטומטית לכל העמודות</value>
+  </data>
+  <data name="Grid_AutoFit" xml:space="preserve">
+    <value>התאם אוטומטית לעמודה זו</value>
+  </data>
+  <data name="Grid_Export" xml:space="preserve">
+    <value>ייצוא</value>
+  </data>
+  <data name="Grid_FirstPage" xml:space="preserve">
+    <value>עמוד ראשון</value>
+  </data>
+  <data name="Grid_LastPage" xml:space="preserve">
+    <value>עמוד אחרון</value>
+  </data>
+  <data name="Grid_PreviousPage" xml:space="preserve">
+    <value>עמוד קודם</value>
+  </data>
+  <data name="Grid_NextPage" xml:space="preserve">
+    <value>עמוד הבא</value>
+  </data>
+  <data name="Grid_SortAscending" xml:space="preserve">
+    <value>מיין בסדר עולה</value>
+  </data>
+  <data name="Grid_SortDescending" xml:space="preserve">
+    <value>מיין יורד</value>
+  </data>
+  <data name="Grid_EditRecord" xml:space="preserve">
+    <value>עריכת רשומה</value>
+  </data>
+  <data name="Grid_DeleteRecord" xml:space="preserve">
+    <value>מחק רשומה</value>
+  </data>
+  <data name="Grid_FilterMenu" xml:space="preserve">
+    <value>סנן</value>
+  </data>
+  <data name="Grid_SelectAll" xml:space="preserve">
+    <value>בחר הכל</value>
+  </data>
+  <data name="Grid_Blanks" xml:space="preserve">
+    <value>החסר</value>
+  </data>
+  <data name="Grid_FilterTrue" xml:space="preserve">
+    <value>נכון</value>
+  </data>
+  <data name="Grid_FilterFalse" xml:space="preserve">
+    <value>שקר</value>
+  </data>
+  <data name="Grid_NoResult" xml:space="preserve">
+    <value>אין תוצאות מתאימות</value>
+  </data>
+  <data name="Grid_ClearFilter" xml:space="preserve">
+    <value>נקה את המסנן</value>
+  </data>
+  <data name="Grid_NumberFilter" xml:space="preserve">
+    <value>מסנני מספר</value>
+  </data>
+  <data name="Grid_TextFilter" xml:space="preserve">
+    <value>מסנני טקסט</value>
+  </data>
+  <data name="Grid_DateFilter" xml:space="preserve">
+    <value>מסנני תאריך</value>
+  </data>
+  <data name="Grid_DateTimeFilter" xml:space="preserve">
+    <value>מסנני DateTime</value>
+  </data>
+  <data name="Grid_MatchCase" xml:space="preserve">
+    <value>תיק התאמה</value>
+  </data>
+  <data name="Grid_Between" xml:space="preserve">
+    <value>בין</value>
+  </data>
+  <data name="Grid_CustomFilter" xml:space="preserve">
+    <value>מסנן מותאם אישית</value>
+  </data>
+  <data name="Grid_CustomFilterPlaceHolder" xml:space="preserve">
+    <value>הזן את הערך</value>
+  </data>
+  <data name="Grid_CustomFilterDatePlaceHolder" xml:space="preserve">
+    <value>בחר תאריך</value>
+  </data>
+  <data name="Grid_AND" xml:space="preserve">
+    <value>ו</value>
+  </data>
+  <data name="Grid_OR" xml:space="preserve">
+    <value>או</value>
+  </data>
+  <data name="Grid_ShowRowsWhere" xml:space="preserve">
+    <value>הצג שורות איפה:</value>
+  </data>
+  <data name="Grid_RowSelectionCheckBoxARIA" xml:space="preserve">
+    <value>תיבת סימון שורה</value>
+  </data>
+  <data name="Grid_FilterMenuIconARIA" xml:space="preserve">
+    <value>סמל מסנן</value>
+  </data>
+  <data name="Grid_ColumnMenuIconARIA" xml:space="preserve">
+    <value>סמל תפריט עמודה</value>
+  </data>
+  <data name="Grid_GroupButtonARIA" xml:space="preserve">
+    <value>לחצן קבוצה</value>
+  </data>
+  <data name="Grid_UnGroupButtonARIA" xml:space="preserve">
+    <value>לחצן ביטול קבוצה</value>
+  </data>
+  <data name="Grid_ColumnHeaderARIA" xml:space="preserve">
+    <value>כותרת עמודה</value>
+  </data>
+  <data name="Grid_FilterCheckboxARIA" xml:space="preserve">
+    <value>תיבת סימון מסנן</value>
+  </data>
+  <data name="Grid_HeaderSelectionCheckBoxARIA" xml:space="preserve">
+    <value>תיבת סימון כותרת</value>
+  </data>
+  <data name="Pager_GotoPageARIA" xml:space="preserve">
+    <value>לך לעמוד</value>
+  </data>
+  <data name="Pager_CurrentPageInfo" xml:space="preserve">
+    <value>{0} מתוך {1} עמודים</value>
+  </data>
+  <data name="Pager_TotalItemsInfo" xml:space="preserve">
+    <value>({0} פריטים)</value>
+  </data>
+  <data name="Pager_FirstPageTooltip" xml:space="preserve">
+    <value>עבור לדף הראשון</value>
+  </data>
+  <data name="Pager_LastPageTooltip" xml:space="preserve">
+    <value>עבור לדף האחרון</value>
+  </data>
+  <data name="Pager_NextPageTooltip" xml:space="preserve">
+    <value>עבור לדף הבא</value>
+  </data>
+  <data name="Pager_PreviousPageTooltip" xml:space="preserve">
+    <value>תחזור לדף הקודם</value>
+  </data>
+  <data name="Pager_NextPagerTooltip" xml:space="preserve">
+    <value>עבור אל הביפר הבא</value>
+  </data>
+  <data name="Pager_PreviousPagerTooltip" xml:space="preserve">
+    <value>עבור אל הביפר הקודם</value>
+  </data>
+  <data name="Pager_PagerDropDown" xml:space="preserve">
+    <value>פריטים לעמוד</value>
+  </data>
+  <data name="Pager_PagerAllDropDown" xml:space="preserve">
+    <value>פריטים</value>
+  </data>
+  <data name="Pager_All" xml:space="preserve">
+    <value>את כל</value>
+  </data>
+  <data name="RecurrenceEditor_Count" xml:space="preserve">
+    <value>לספור</value>
+  </data>
+  <data name="RecurrenceEditor_Daily" xml:space="preserve">
+    <value>יומי</value>
+  </data>
+  <data name="RecurrenceEditor_Days" xml:space="preserve">
+    <value>יום (ים)</value>
+  </data>
+  <data name="RecurrenceEditor_End" xml:space="preserve">
+    <value>סוף</value>
+  </data>
+  <data name="RecurrenceEditor_Every" xml:space="preserve">
+    <value>כל</value>
+  </data>
+  <data name="RecurrenceEditor_First" xml:space="preserve">
+    <value>ראשון</value>
+  </data>
+  <data name="RecurrenceEditor_Fourth" xml:space="preserve">
+    <value>רביעי</value>
+  </data>
+  <data name="RecurrenceEditor_Last" xml:space="preserve">
+    <value>אחרון</value>
+  </data>
+  <data name="RecurrenceEditor_Month" xml:space="preserve">
+    <value>חודש</value>
+  </data>
+  <data name="RecurrenceEditor_MonthExpander" xml:space="preserve">
+    <value>מרחיב חודש</value>
+  </data>
+  <data name="RecurrenceEditor_Monthly" xml:space="preserve">
+    <value>חודשי</value>
+  </data>
+  <data name="RecurrenceEditor_MonthPosition" xml:space="preserve">
+    <value>מיקום חודש</value>
+  </data>
+  <data name="RecurrenceEditor_Months" xml:space="preserve">
+    <value>חודש (ים)</value>
+  </data>
+  <data name="RecurrenceEditor_MonthWeek" xml:space="preserve">
+    <value>שבוע החודש</value>
+  </data>
+  <data name="RecurrenceEditor_Never" xml:space="preserve">
+    <value>לעולם לא</value>
+  </data>
+  <data name="RecurrenceEditor_None" xml:space="preserve">
+    <value>אף אחד</value>
+  </data>
+  <data name="RecurrenceEditor_On" xml:space="preserve">
+    <value>חזור על</value>
+  </data>
+  <data name="RecurrenceEditor_OnDay" xml:space="preserve">
+    <value>יום</value>
+  </data>
+  <data name="RecurrenceEditor_Repeat" xml:space="preserve">
+    <value>חזור</value>
+  </data>
+  <data name="RecurrenceEditor_RepeatEvery" xml:space="preserve">
+    <value>חזור על כל אחד</value>
+  </data>
+  <data name="RecurrenceEditor_RepeatInterval" xml:space="preserve">
+    <value>מרווח חוזר</value>
+  </data>
+  <data name="RecurrenceEditor_Second" xml:space="preserve">
+    <value>שני</value>
+  </data>
+  <data name="RecurrenceEditor_SummaryDay" xml:space="preserve">
+    <value>יום (ים)</value>
+  </data>
+  <data name="RecurrenceEditor_SummaryMonth" xml:space="preserve">
+    <value>חודש (ים)</value>
+  </data>
+  <data name="RecurrenceEditor_SummaryOn" xml:space="preserve">
+    <value>ב</value>
+  </data>
+  <data name="RecurrenceEditor_SummaryRepeat" xml:space="preserve">
+    <value>חוזר</value>
+  </data>
+  <data name="RecurrenceEditor_SummaryTimes" xml:space="preserve">
+    <value>זמן (ים)</value>
+  </data>
+  <data name="RecurrenceEditor_SummaryUntil" xml:space="preserve">
+    <value>עד</value>
+  </data>
+  <data name="RecurrenceEditor_SummaryWeek" xml:space="preserve">
+    <value>שבוע (ים)</value>
+  </data>
+  <data name="RecurrenceEditor_SummaryYear" xml:space="preserve">
+    <value>שנה (ים)</value>
+  </data>
+  <data name="RecurrenceEditor_Third" xml:space="preserve">
+    <value>שלישית</value>
+  </data>
+  <data name="RecurrenceEditor_Until" xml:space="preserve">
+    <value>עד</value>
+  </data>
+  <data name="RecurrenceEditor_Weekly" xml:space="preserve">
+    <value>שבועי</value>
+  </data>
+  <data name="RecurrenceEditor_Weeks" xml:space="preserve">
+    <value>שבוע (ים)</value>
+  </data>
+  <data name="RecurrenceEditor_YearExpander" xml:space="preserve">
+    <value>שנה מרחיבה</value>
+  </data>
+  <data name="RecurrenceEditor_Yearly" xml:space="preserve">
+    <value>שנתי</value>
+  </data>
+  <data name="RecurrenceEditor_Years" xml:space="preserve">
+    <value>שנה (ים)</value>
+  </data>
+  <data name="Schedule_AddTitle" xml:space="preserve">
+    <value>הוסף כותרת</value>
+  </data>
+  <data name="Schedule_Agenda" xml:space="preserve">
+    <value>סדר יום</value>
+  </data>
+  <data name="Schedule_Alert" xml:space="preserve">
+    <value>התראה</value>
+  </data>
+  <data name="Schedule_AllDay" xml:space="preserve">
+    <value>כל היום</value>
+  </data>
+  <data name="Schedule_BeginFrom" xml:space="preserve">
+    <value>התחל מ</value>
+  </data>
+  <data name="Schedule_BlockAlert" xml:space="preserve">
+    <value>לא ניתן לתזמן אירועים בטווח הזמן החסום.</value>
+  </data>
+  <data name="Schedule_Cancel" xml:space="preserve">
+    <value>בטל</value>
+  </data>
+  <data name="Schedule_CancelButton" xml:space="preserve">
+    <value>בטל</value>
+  </data>
+  <data name="Schedule_Close" xml:space="preserve">
+    <value>סגור</value>
+  </data>
+  <data name="Schedule_CreateError" xml:space="preserve">
+    <value>משך האירוע חייב להיות קצר יותר מתדירות התרחשותו. קצר את משך הזמן, או שנה את דפוס הישנות בעורך אירוע הישנות.</value>
+  </data>
+  <data name="Schedule_CreateEvent" xml:space="preserve">
+    <value>צור</value>
+  </data>
+  <data name="Schedule_Day" xml:space="preserve">
+    <value>יום</value>
+  </data>
+  <data name="Schedule_Delete" xml:space="preserve">
+    <value>מחק</value>
+  </data>
+  <data name="Schedule_DeleteButton" xml:space="preserve">
+    <value>מחק</value>
+  </data>
+  <data name="Schedule_DeleteContent" xml:space="preserve">
+    <value>האם אתה בטוח שברצונך למחוק אירוע זה?</value>
+  </data>
+  <data name="Schedule_DeleteEvent" xml:space="preserve">
+    <value>האירוע הזה</value>
+  </data>
+  <data name="Schedule_DeleteMultipleContent" xml:space="preserve">
+    <value>האם אתה בטוח שברצונך למחוק את האירועים שנבחרו?</value>
+  </data>
+  <data name="Schedule_DeleteMultipleEvent" xml:space="preserve">
+    <value>מחק אירועים מרובים</value>
+  </data>
+  <data name="Schedule_DeleteSeries" xml:space="preserve">
+    <value>סדרה שלמה</value>
+  </data>
+  <data name="Schedule_DeleteTitle" xml:space="preserve">
+    <value>מחק אירוע</value>
+  </data>
+  <data name="Schedule_Description" xml:space="preserve">
+    <value>תיאור</value>
+  </data>
+  <data name="Schedule_Edit" xml:space="preserve">
+    <value>ערוך</value>
+  </data>
+  <data name="Schedule_EditContent" xml:space="preserve">
+    <value>איך תרצה לשנות את המינוי בסדרה?</value>
+  </data>
+  <data name="Schedule_EditEvent" xml:space="preserve">
+    <value>האירוע הזה</value>
+  </data>
+  <data name="Schedule_EditFollowingEvent" xml:space="preserve">
+    <value>בעקבות האירועים</value>
+  </data>
+  <data name="Schedule_EditRecurrence" xml:space="preserve">
+    <value>ערוך הישנות</value>
+  </data>
+  <data name="Schedule_EditSeries" xml:space="preserve">
+    <value>סדרה שלמה</value>
+  </data>
+  <data name="Schedule_EditTitle" xml:space="preserve">
+    <value>ערוך אירוע</value>
+  </data>
+  <data name="Schedule_EmptyContainer" xml:space="preserve">
+    <value>לא נקבעו אירועים ביום זה.</value>
+  </data>
+  <data name="Schedule_End" xml:space="preserve">
+    <value>סוף</value>
+  </data>
+  <data name="Schedule_EndTime" xml:space="preserve">
+    <value>שעת סיום</value>
+  </data>
+  <data name="Schedule_EndAt" xml:space="preserve">
+    <value>נגמר ב</value>
+  </data>
+  <data name="Schedule_EndTimezone" xml:space="preserve">
+    <value>אזור זמן סיום</value>
+  </data>
+  <data name="Schedule_InvalidDateError" xml:space="preserve">
+    <value>ערך התאריך שהוזן אינו חוקי.</value>
+  </data>
+  <data name="Schedule_Location" xml:space="preserve">
+    <value>מקום</value>
+  </data>
+  <data name="Schedule_LookForMore" xml:space="preserve">
+    <value>חפש עוד</value>
+  </data>
+  <data name="Schedule_Month" xml:space="preserve">
+    <value>חודש</value>
+  </data>
+  <data name="Schedule_MonthAgenda" xml:space="preserve">
+    <value>סדר יום לחודש</value>
+  </data>
+  <data name="Schedule_More" xml:space="preserve">
+    <value>יותר</value>
+  </data>
+  <data name="Schedule_MoreDetails" xml:space="preserve">
+    <value>פרטים נוספים</value>
+  </data>
+  <data name="Schedule_NewEvent" xml:space="preserve">
+    <value>אירוע חדש</value>
+  </data>
+  <data name="Schedule_next" xml:space="preserve">
+    <value>הבא</value>
+  </data>
+  <data name="Schedule_No" xml:space="preserve">
+    <value>לא</value>
+  </data>
+  <data name="Schedule_NoEvents" xml:space="preserve">
+    <value>אין אירועים</value>
+  </data>
+  <data name="Schedule_NoRecords" xml:space="preserve">
+    <value>אין הקלטות</value>
+  </data>
+  <data name="Schedule_NoTitle" xml:space="preserve">
+    <value>(ללא כותרת)</value>
+  </data>
+  <data name="Schedule_Occurrence" xml:space="preserve">
+    <value>התרחשות</value>
+  </data>
+  <data name="Schedule_Ok" xml:space="preserve">
+    <value>בסדר</value>
+  </data>
+  <data name="Schedule_Previous" xml:space="preserve">
+    <value>קודם</value>
+  </data>
+  <data name="Schedule_Recurrence" xml:space="preserve">
+    <value>הישנות</value>
+  </data>
+  <data name="Schedule_Repeat" xml:space="preserve">
+    <value>חזור</value>
+  </data>
+  <data name="Schedule_Repeats" xml:space="preserve">
+    <value>חוזר</value>
+  </data>
+  <data name="Schedule_SameDayAlert" xml:space="preserve">
+    <value>שני התרחשויות של אותו אירוע לא יכולים להתרחש באותו יום.</value>
+  </data>
+  <data name="Schedule_Save" xml:space="preserve">
+    <value>להציל</value>
+  </data>
+  <data name="Schedule_SaveButton" xml:space="preserve">
+    <value>להציל</value>
+  </data>
+  <data name="Schedule_SelectedItems" xml:space="preserve">
+    <value>פריטים שנבחרו</value>
+  </data>
+  <data name="Schedule_SearchTimezone" xml:space="preserve">
+    <value>אזור זמן חיפוש</value>
+  </data>
+  <data name="Schedule_Series" xml:space="preserve">
+    <value>סדרה</value>
+  </data>
+  <data name="Schedule_SeriesChangeAlert" xml:space="preserve">
+    <value>האם ברצונך לבטל את השינויים שבוצעו במקרים ספציפיים של הסדרה הזו ולהתאים אותה לסדרה כולה שוב?</value>
+  </data>
+  <data name="Schedule_ShowingEventsUntil" xml:space="preserve">
+    <value>מציג אירועים עד</value>
+  </data>
+  <data name="Schedule_Start" xml:space="preserve">
+    <value>התחל</value>
+  </data>
+  <data name="Schedule_StartTime" xml:space="preserve">
+    <value>שעת התחלה</value>
+  </data>
+  <data name="Schedule_StartEndError" xml:space="preserve">
+    <value>תאריך הסיום שנבחר מתרחש לפני תאריך ההתחלה.</value>
+  </data>
+  <data name="Schedule_StartTimezone" xml:space="preserve">
+    <value>התחל את אזור הזמן</value>
+  </data>
+  <data name="Schedule_Subject" xml:space="preserve">
+    <value>נושא</value>
+  </data>
+  <data name="Schedule_TimelineDay" xml:space="preserve">
+    <value>יום ציר הזמן</value>
+  </data>
+  <data name="Schedule_TimelineMonth" xml:space="preserve">
+    <value>חודש ציר זמן</value>
+  </data>
+  <data name="Schedule_TimelineWeek" xml:space="preserve">
+    <value>שבוע ציר הזמן</value>
+  </data>
+  <data name="Schedule_TimelineWorkWeek" xml:space="preserve">
+    <value>שבוע עבודה של ציר זמן</value>
+  </data>
+  <data name="Schedule_TimelineYear" xml:space="preserve">
+    <value>שנת ציר זמן</value>
+  </data>
+  <data name="Schedule_Timezone" xml:space="preserve">
+    <value>אזור זמן</value>
+  </data>
+  <data name="Schedule_Title" xml:space="preserve">
+    <value>כותרת</value>
+  </data>
+  <data name="Schedule_Today" xml:space="preserve">
+    <value>היום</value>
+  </data>
+  <data name="Schedule_Week" xml:space="preserve">
+    <value>שבוע</value>
+  </data>
+  <data name="Schedule_WeekAgenda" xml:space="preserve">
+    <value>סדר יום בשבוע</value>
+  </data>
+  <data name="Schedule_WorkWeek" xml:space="preserve">
+    <value>שבוע עבודה</value>
+  </data>
+  <data name="Schedule_WorkWeekAgenda" xml:space="preserve">
+    <value>סדר יום של שבוע עבודה</value>
+  </data>
+  <data name="Schedule_WrongPattern" xml:space="preserve">
+    <value>דפוס הישנות אינו תקף.</value>
+  </data>
+  <data name="Schedule_Yes" xml:space="preserve">
+    <value>כן</value>
+  </data>
+  <data name="Schedule_Year" xml:space="preserve">
+    <value>שָׁנָה</value>
+  </data>
+  <data name="Tab_CloseButtonTitle" xml:space="preserve">
+    <value>סגור</value>
+  </data>
+  <data name="Carousel_PreviousSlide" xml:space="preserve">
+    <value>שקופית קודמת</value>
+  </data>
+  <data name="Carousel_NextSlide" xml:space="preserve">
+    <value>השקופית הבאה</value>
+  </data>
+  <data name="Carousel_Slide" xml:space="preserve">
+    <value>שקופית</value>
+  </data>
+  <data name="Carousel_Of" xml:space="preserve">
+    <value>שֶׁל</value>
+  </data>
+  <data name="Carousel_PlaySlide" xml:space="preserve">
+    <value>עצור אנימציה אוטומטית</value>
+  </data>
+  <data name="Carousel_PauseSlide" xml:space="preserve">
+    <value>התחל אנימציה אוטומטית</value>
+  </data>
+  <data name="Carousel_SlideShow" xml:space="preserve">
+    <value>הצגת שקופיות</value>
+  </data>
+  <data name="PdfViewer" xml:space="preserve">
+    <value>מציג PDF</value>
+  </data>
+  <data name="PdfViewer_Cancel" xml:space="preserve">
+    <value>בטל</value>
+  </data>
+  <data name="PdfViewer_DownloadFile" xml:space="preserve">
+    <value>הורד קובץ</value>
+  </data>
+  <data name="PdfViewer_Download" xml:space="preserve">
+    <value>הורד</value>
+  </data>
+  <data name="PdfViewer_EnterPassword" xml:space="preserve">
+    <value>מסמך זה מוגן באמצעות סיסמה. הכנס סיסמא בבקשה.</value>
+  </data>
+  <data name="PdfViewer_FileCorrupted" xml:space="preserve">
+    <value>הקובץ פגום</value>
+  </data>
+  <data name="PdfViewer_FileCorruptedContent" xml:space="preserve">
+    <value>הקובץ פגום ולא ניתן לפתוח אותו.</value>
+  </data>
+  <data name="PdfViewer_FitPage" xml:space="preserve">
+    <value>התאמה לדף</value>
+  </data>
+  <data name="PdfViewer_FitWidth" xml:space="preserve">
+    <value>רוחב התאמה</value>
+  </data>
+  <data name="PdfViewer_Automatic" xml:space="preserve">
+    <value>אוטומטי</value>
+  </data>
+  <data name="PdfViewer_GoToFirstPage" xml:space="preserve">
+    <value>הצג דף ראשון</value>
+  </data>
+  <data name="PdfViewer_InvalidPassword" xml:space="preserve">
+    <value>סיסמא לא נכונה. בבקשה נסה שוב.</value>
+  </data>
+  <data name="PdfViewer_NextPage" xml:space="preserve">
+    <value>הצג את העמוד הבא</value>
+  </data>
+  <data name="PdfViewer_PreviousPage" xml:space="preserve">
+    <value>הצג דף קודם</value>
+  </data>
+  <data name="PdfViewer_OK" xml:space="preserve">
+    <value>בסדר</value>
+  </data>
+  <data name="PdfViewer_Open" xml:space="preserve">
+    <value>תיק פתוח</value>
+  </data>
+  <data name="PdfViewer_PageNumber" xml:space="preserve">
+    <value>מספר העמוד הנוכחי</value>
+  </data>
+  <data name="PdfViewer_GoToLastPage" xml:space="preserve">
+    <value>הצג דף אחרון</value>
+  </data>
+  <data name="PdfViewer_Zoom" xml:space="preserve">
+    <value>תקריב</value>
+  </data>
+  <data name="PdfViewer_ZoomIn" xml:space="preserve">
+    <value>התקרב</value>
+  </data>
+  <data name="PdfViewer_ZoomOut" xml:space="preserve">
+    <value>להקטין את התצוגה</value>
+  </data>
+  <data name="PdfViewer_PageThumbnails" xml:space="preserve">
+    <value>תמונות ממוזערות של הדפים</value>
+  </data>
+  <data name="PdfViewer_Bookmarks" xml:space="preserve">
+    <value>סימניות</value>
+  </data>
+  <data name="PdfViewer_Print" xml:space="preserve">
+    <value>קובץ הדפסה</value>
+  </data>
+  <data name="PdfViewer_PasswordProtected" xml:space="preserve">
+    <value>סיסמא חובה</value>
+  </data>
+  <data name="PdfViewer_Copy" xml:space="preserve">
+    <value>עותק</value>
+  </data>
+  <data name="PdfViewer_TextSelection" xml:space="preserve">
+    <value>כלי לבחירת טקסט</value>
+  </data>
+  <data name="PdfViewer_Panning" xml:space="preserve">
+    <value>מצב פאן</value>
+  </data>
+  <data name="PdfViewer_TextSearch" xml:space="preserve">
+    <value>מצא טקסט</value>
+  </data>
+  <data name="PdfViewer_Findindocument" xml:space="preserve">
+    <value>מצא במסמך</value>
+  </data>
+  <data name="PdfViewer_Matchcase" xml:space="preserve">
+    <value>מקרה התאמה</value>
+  </data>
+  <data name="PdfViewer_Apply" xml:space="preserve">
+    <value>להגיש מועמדות</value>
+  </data>
+  <data name="PdfViewer_GoToPage" xml:space="preserve">
+    <value>לך לעמוד</value>
+  </data>
+  <data name="PdfViewer_Nomatches" xml:space="preserve">
+    <value>הצופה סיים לחפש את המסמך. לא נמצאו גפרורים נוספים</value>
+  </data>
+  <data name="PdfViewer_NoTextFound" xml:space="preserve">
+    <value>לא נמצא טקסט</value>
+  </data>
+  <data name="PdfViewer_Undo" xml:space="preserve">
+    <value>לבטל</value>
+  </data>
+  <data name="PdfViewer_Redo" xml:space="preserve">
+    <value>בצע שוב</value>
+  </data>
+  <data name="PdfViewer_Annotation" xml:space="preserve">
+    <value>הוסף או ערוך הערות</value>
+  </data>
+  <data name="PdfViewer_Highlight" xml:space="preserve">
+    <value>להדגיש טקסט</value>
+  </data>
+  <data name="PdfViewer_Underline" xml:space="preserve">
+    <value>קו תחתון</value>
+  </data>
+  <data name="PdfViewer_Strikethrough" xml:space="preserve">
+    <value>טקסט חוצה</value>
+  </data>
+  <data name="PdfViewer_Delete" xml:space="preserve">
+    <value>מחק את ההערה</value>
+  </data>
+  <data name="PdfViewer_Opacity" xml:space="preserve">
+    <value>אטימות</value>
+  </data>
+  <data name="PdfViewer_ColorEdit" xml:space="preserve">
+    <value>שנה צבע</value>
+  </data>
+  <data name="PdfViewer_OpacityEdit" xml:space="preserve">
+    <value>שנה אטימות</value>
+  </data>
+  <data name="PdfViewer_HighlightContext" xml:space="preserve">
+    <value>הדגש</value>
+  </data>
+  <data name="PdfViewer_UnderlineContext" xml:space="preserve">
+    <value>קו תחתון</value>
+  </data>
+  <data name="PdfViewer_StrikethroughContext" xml:space="preserve">
+    <value>לעבור דרך</value>
+  </data>
+  <data name="PdfViewer_Servererror" xml:space="preserve">
+    <value>שירות האינטרנט אינו מקשיב. מציג PDF תלוי בשירות האינטרנט לכל התכונות שלו. התחל את שירות האינטרנט כדי להמשיך.</value>
+  </data>
+  <data name="PdfViewer_Clienterror" xml:space="preserve">
+    <value>נמצאה שגיאה בצד הלקוח. אנא בדוק את הכותרות המותאמות אישית המסופקות במאפיין AjaxRequestSettings ושיטות פעולה באינטרנט בנכס ServerActionSettings.</value>
+  </data>
+  <data name="PdfViewer_OpenText" xml:space="preserve">
+    <value>פתוח</value>
+  </data>
+  <data name="PdfViewer_FirstText" xml:space="preserve">
+    <value>עמוד ראשון</value>
+  </data>
+  <data name="PdfViewer_PreviousText" xml:space="preserve">
+    <value>עמוד קודם</value>
+  </data>
+  <data name="PdfViewer_NextText" xml:space="preserve">
+    <value>עמוד הבא</value>
+  </data>
+  <data name="PdfViewer_LastText" xml:space="preserve">
+    <value>עמוד אחרון</value>
+  </data>
+  <data name="PdfViewer_ZoomInText" xml:space="preserve">
+    <value>התקרב</value>
+  </data>
+  <data name="PdfViewer_ZoomOutText" xml:space="preserve">
+    <value>להקטין את התצוגה</value>
+  </data>
+  <data name="PdfViewer_SelectionText" xml:space="preserve">
+    <value>בחירה</value>
+  </data>
+  <data name="PdfViewer_PanText" xml:space="preserve">
+    <value>מחבת</value>
+  </data>
+  <data name="PdfViewer_PrintText" xml:space="preserve">
+    <value>הדפס</value>
+  </data>
+  <data name="PdfViewer_SearchText" xml:space="preserve">
+    <value>לחפש</value>
+  </data>
+  <data name="PdfViewer_AnnotationEditText" xml:space="preserve">
+    <value>ערוך הערה</value>
+  </data>
+  <data name="PdfViewer_LineThickness" xml:space="preserve">
+    <value>עובי קו</value>
+  </data>
+  <data name="PdfViewer_LineProperties" xml:space="preserve">
+    <value>מאפייני קו</value>
+  </data>
+  <data name="PdfViewer_StartArrow" xml:space="preserve">
+    <value>התחל את החץ</value>
+  </data>
+  <data name="PdfViewer_EndArrow" xml:space="preserve">
+    <value>חץ קצה</value>
+  </data>
+  <data name="PdfViewer_LineStyle" xml:space="preserve">
+    <value>סגנון קו</value>
+  </data>
+  <data name="PdfViewer_FillColor" xml:space="preserve">
+    <value>צבע מילוי</value>
+  </data>
+  <data name="PdfViewer_LineColor" xml:space="preserve">
+    <value>צבע קו</value>
+  </data>
+  <data name="PdfViewer_None" xml:space="preserve">
+    <value>אף אחד</value>
+  </data>
+  <data name="PdfViewer_OpenArrow" xml:space="preserve">
+    <value>חץ פתוח</value>
+  </data>
+  <data name="PdfViewer_ClosedArrow" xml:space="preserve">
+    <value>חץ סגור</value>
+  </data>
+  <data name="PdfViewer_RoundArrow" xml:space="preserve">
+    <value>חץ עגול</value>
+  </data>
+  <data name="PdfViewer_SquareArrow" xml:space="preserve">
+    <value>חץ מרובע</value>
+  </data>
+  <data name="PdfViewer_DiamondArrow" xml:space="preserve">
+    <value>חץ יהלום</value>
+  </data>
+  <data name="PdfViewer_Cut" xml:space="preserve">
+    <value>גזירה</value>
+  </data>
+  <data name="PdfViewer_Paste" xml:space="preserve">
+    <value>הדבק</value>
+  </data>
+  <data name="PdfViewer_DeleteContext" xml:space="preserve">
+    <value>מחק</value>
+  </data>
+  <data name="PdfViewer_Properties" xml:space="preserve">
+    <value>נכסים</value>
+  </data>
+  <data name="PdfViewer_AddStamp" xml:space="preserve">
+    <value>הוסף בול</value>
+  </data>
+  <data name="PdfViewer_AddShapes" xml:space="preserve">
+    <value>הוסף צורות</value>
+  </data>
+  <data name="PdfViewer_StrokeEdit" xml:space="preserve">
+    <value>שינוי צבע קו</value>
+  </data>
+  <data name="PdfViewer_ChangeThickness" xml:space="preserve">
+    <value>שנה את עובי הגבול</value>
+  </data>
+  <data name="PdfViewer_Addline" xml:space="preserve">
+    <value>הוסף קו</value>
+  </data>
+  <data name="PdfViewer_AddArrow" xml:space="preserve">
+    <value>הוסף חץ</value>
+  </data>
+  <data name="PdfViewer_AddRectangle" xml:space="preserve">
+    <value>הוסף מלבן</value>
+  </data>
+  <data name="PdfViewer_AddCircle" xml:space="preserve">
+    <value>הוסף מעגל</value>
+  </data>
+  <data name="PdfViewer_AddPolygon" xml:space="preserve">
+    <value>הוסף מצולע</value>
+  </data>
+  <data name="PdfViewer_AddComments" xml:space="preserve">
+    <value>הוסף תגובות</value>
+  </data>
+  <data name="PdfViewer_Comments" xml:space="preserve">
+    <value>הערות</value>
+  </data>
+  <data name="PdfViewer_NoCommentsYet" xml:space="preserve">
+    <value>אין תגובות עדיין</value>
+  </data>
+  <data name="PdfViewer_Accepted" xml:space="preserve">
+    <value>מקובל</value>
+  </data>
+  <data name="PdfViewer_Completed" xml:space="preserve">
+    <value>הושלם</value>
+  </data>
+  <data name="PdfViewer_Cancelled" xml:space="preserve">
+    <value>מבוטל</value>
+  </data>
+  <data name="PdfViewer_Rejected" xml:space="preserve">
+    <value>נדחה</value>
+  </data>
+  <data name="PdfViewer_LeaderLength" xml:space="preserve">
+    <value>אורך המנהיג</value>
+  </data>
+  <data name="PdfViewer_ScaleRatio" xml:space="preserve">
+    <value>יחס סולם</value>
+  </data>
+  <data name="PdfViewer_Calibrate" xml:space="preserve">
+    <value>כיול</value>
+  </data>
+  <data name="PdfViewer_CalibrateDistance" xml:space="preserve">
+    <value>כיול מרחק</value>
+  </data>
+  <data name="PdfViewer_CalibratePerimeter" xml:space="preserve">
+    <value>כיול המערכת</value>
+  </data>
+  <data name="PdfViewer_CalibrateArea" xml:space="preserve">
+    <value>כיול אזור</value>
+  </data>
+  <data name="PdfViewer_CalibrateRadius" xml:space="preserve">
+    <value>כיול רדיוס</value>
+  </data>
+  <data name="PdfViewer_CalibrateVolume" xml:space="preserve">
+    <value>כיול נפח</value>
+  </data>
+  <data name="PdfViewer_Depth" xml:space="preserve">
+    <value>עומק</value>
+  </data>
+  <data name="PdfViewer_Closed" xml:space="preserve">
+    <value>סגור</value>
+  </data>
+  <data name="PdfViewer_Round" xml:space="preserve">
+    <value>עגול</value>
+  </data>
+  <data name="PdfViewer_Square" xml:space="preserve">
+    <value>כיכר</value>
+  </data>
+  <data name="PdfViewer_Diamond" xml:space="preserve">
+    <value>יהלום</value>
+  </data>
+  <data name="PdfViewer_Edit" xml:space="preserve">
+    <value>ערוך</value>
+  </data>
+  <data name="PdfViewer_Comment" xml:space="preserve">
+    <value>תגובה</value>
+  </data>
+  <data name="PdfViewer_CommentPanel" xml:space="preserve">
+    <value>לוח הערות</value>
+  </data>
+  <data name="PdfViewer_SetStatus" xml:space="preserve">
+    <value>הגדר סטטוס</value>
+  </data>
+  <data name="PdfViewer_Post" xml:space="preserve">
+    <value>הודעה</value>
+  </data>
+  <data name="PdfViewer_Page" xml:space="preserve">
+    <value>עמוד</value>
+  </data>
+  <data name="PdfViewer_AddComment" xml:space="preserve">
+    <value>הוסף תגובה</value>
+  </data>
+  <data name="PdfViewer_AddReply" xml:space="preserve">
+    <value>הוסף תגובה</value>
+  </data>
+  <data name="PdfViewer_ImportAnnotations" xml:space="preserve">
+    <value>ייבא הערות</value>
+  </data>
+  <data name="PdfViewer_ExportAnnotations" xml:space="preserve">
+    <value>ייצא הערות</value>
+  </data>
+  <data name="PdfViewer_Add" xml:space="preserve">
+    <value>הוסף</value>
+  </data>
+  <data name="PdfViewer_Clear" xml:space="preserve">
+    <value>ברור</value>
+  </data>
+  <data name="PdfViewer_Bold" xml:space="preserve">
+    <value>נועז</value>
+  </data>
+  <data name="PdfViewer_Italic" xml:space="preserve">
+    <value>נטוי</value>
+  </data>
+  <data name="PdfViewer_Strikethroughs" xml:space="preserve">
+    <value>שבבי דרך</value>
+  </data>
+  <data name="PdfViewer_Underlines" xml:space="preserve">
+    <value>קו תחתון</value>
+  </data>
+  <data name="PdfViewer_Superscript" xml:space="preserve">
+    <value>סופרגרף</value>
+  </data>
+  <data name="PdfViewer_Subscript" xml:space="preserve">
+    <value>מנוי</value>
+  </data>
+  <data name="PdfViewer_AlignLeft" xml:space="preserve">
+    <value>יישר שמאלה</value>
+  </data>
+  <data name="PdfViewer_AlignRight" xml:space="preserve">
+    <value>ליישור מימין</value>
+  </data>
+  <data name="PdfViewer_Center" xml:space="preserve">
+    <value>מרכז</value>
+  </data>
+  <data name="PdfViewer_Justify" xml:space="preserve">
+    <value>תצדיק</value>
+  </data>
+  <data name="PdfViewer_FontColor" xml:space="preserve">
+    <value>צבע גופן</value>
+  </data>
+  <data name="PdfViewer_TextAlign" xml:space="preserve">
+    <value>יישור טקסט</value>
+  </data>
+  <data name="PdfViewer_TextProperties" xml:space="preserve">
+    <value>סיגנון גופן</value>
+  </data>
+  <data name="PdfViewer_DrawSignature" xml:space="preserve">
+    <value>צייר חתימה</value>
+  </data>
+  <data name="PdfViewer_Create" xml:space="preserve">
+    <value>צור</value>
+  </data>
+  <data name="PdfViewer_FontFamily" xml:space="preserve">
+    <value>משפחת גופן</value>
+  </data>
+  <data name="PdfViewer_FontSize" xml:space="preserve">
+    <value>גודל גופן</value>
+  </data>
+  <data name="PdfViewer_FreeText" xml:space="preserve">
+    <value>טקסט חינם</value>
+  </data>
+  <data name="PdfViewer_ImportFailed" xml:space="preserve">
+    <value>סוג קובץ או שם קובץ של JSON לא חוקיים; אנא בחר קובץ JSON תקף</value>
+  </data>
+  <data name="PdfViewer_FileNotFound" xml:space="preserve">
+    <value>קובץ JSON מיובא לא נמצא במיקום הרצוי</value>
+  </data>
+  <data name="PdfViewer_ExportFailed" xml:space="preserve">
+    <value>פעולת ההערות לייצוא נכשלה; אנא וודא שהערות יתווספו כראויs</value>
+  </data>
+  <data name="PdfViewer_Draw_hand_Signature" xml:space="preserve">
+    <value>לצייר</value>
+  </data>
+  <data name="PdfViewer_Type_Signature" xml:space="preserve">
+    <value>סוּג</value>
+  </data>
+  <data name="PdfViewer_Upload_Signature" xml:space="preserve">
+    <value>העלאה</value>
+  </data>
+  <data name="PdfViewer_Browse_Signature_Image" xml:space="preserve">
+    <value>לְדַפדֵף</value>
+  </data>
+  <data name="PdfViewer_Save_Signature" xml:space="preserve">
+    <value>שמור חתימה</value>
+  </data>
+  <data name="PdfViewer_Enter_Signature_as_Name" xml:space="preserve">
+    <value>הזן את שמך</value>
+  </data>
+  <data name="PdfViewer_Dynamic" xml:space="preserve">
+    <value>דִינָמִי</value>
+  </data>
+  <data name="PdfViewer_StandardBusiness" xml:space="preserve">
+    <value>עסק סטנדרטי</value>
+  </data>
+  <data name="PdfViewer_CustomStamp" xml:space="preserve">
+    <value>חותמת מותאמת אישית</value>
+  </data>
+  <data name="PdfViewer_Revised" xml:space="preserve">
+    <value>מתוקן</value>
+  </data>
+  <data name="PdfViewer_Reviewed" xml:space="preserve">
+    <value>נבדק</value>
+  </data>
+  <data name="PdfViewer_Received" xml:space="preserve">
+    <value>קיבלו</value>
+  </data>
+  <data name="PdfViewer_Approved" xml:space="preserve">
+    <value>אושר</value>
+  </data>
+  <data name="PdfViewer_Confidential" xml:space="preserve">
+    <value>סוֹדִי</value>
+  </data>
+  <data name="PdfViewer_NotApproved" xml:space="preserve">
+    <value>לא מאושר</value>
+  </data>
+  <data name="PdfViewer_Witness" xml:space="preserve">
+    <value>עֵד</value>
+  </data>
+  <data name="PdfViewer_InitialHere" xml:space="preserve">
+    <value>ראשוני כאן</value>
+  </data>
+  <data name="PdfViewer_SignHere" xml:space="preserve">
+    <value>תחתום כאן</value>
+  </data>
+  <data name="PdfViewer_Draft" xml:space="preserve">
+    <value>טְיוּטָה</value>
+  </data>
+  <data name="PdfViewer_Final" xml:space="preserve">
+    <value>סופי</value>
+  </data>
+  <data name="PdfViewer_ForPublicRelease" xml:space="preserve">
+    <value>לפרסום פומבי</value>
+  </data>
+  <data name="PdfViewer_NotForPublicRelease" xml:space="preserve">
+    <value>לא לפרסום פומבי</value>
+  </data>
+  <data name="PdfViewer_ForComment" xml:space="preserve">
+    <value>להערה</value>
+  </data>
+  <data name="PdfViewer_Void" xml:space="preserve">
+    <value>בָּטֵל</value>
+  </data>
+  <data name="PdfViewer_PreliminaryResults" xml:space="preserve">
+    <value>תוצאות ראשוניות</value>
+  </data>
+  <data name="PdfViewer_InformationOnly" xml:space="preserve">
+    <value>מידע בלבד</value>
+  </data>
+  <data name="PdfViewer_SubmitForm" xml:space="preserve">
+    <value>להגיש טופס</value>
+  </data>
+  <data name="PdfViewer_Required_ServiceUrl_Error_Message" xml:space="preserve">
+    <value>מציג PDF זה דורש עיבוד בצד השרת כדי להציג את קובצי ה-PDF באמצעות שירות האינטרנט. עליך להגדיר את כתובת האתר של השירות כדי להמשיך עם מציג PDF</value>
+  </data>
+  <data name="PdfViewer_Close" xml:space="preserve">
+    <value>סגור</value>
+  </data>
+  <data name="PdfViewer_HandwrittenSignatureDialogHeaderText" xml:space="preserve">
+    <value>הוסף חתימה</value>
+  </data>
+  <data name="PdfViewer_DrawInk" xml:space="preserve">
+    <value>צייר דיו</value>
+  </data>
+  <data name="DocumentEditor_Table" xml:space="preserve">
+    <value>שולחן</value>
+  </data>
+  <data name="DocumentEditor_Row" xml:space="preserve">
+    <value>שורה</value>
+  </data>
+  <data name="DocumentEditor_Cell" xml:space="preserve">
+    <value>תא</value>
+  </data>
+  <data name="DocumentEditor_Ok" xml:space="preserve">
+    <value>בסדר</value>
+  </data>
+  <data name="DocumentEditor_Cancel" xml:space="preserve">
+    <value>בטל</value>
+  </data>
+  <data name="DocumentEditor_Size" xml:space="preserve">
+    <value>גודל</value>
+  </data>
+  <data name="DocumentEditor_PreferredWidth" xml:space="preserve">
+    <value>רוחב מועדף</value>
+  </data>
+  <data name="DocumentEditor_Points" xml:space="preserve">
+    <value>נקודות</value>
+  </data>
+  <data name="DocumentEditor_Percent" xml:space="preserve">
+    <value>אחוז</value>
+  </data>
+  <data name="DocumentEditor_MeasureIn" xml:space="preserve">
+    <value>למדוד ב</value>
+  </data>
+  <data name="DocumentEditor_Alignment" xml:space="preserve">
+    <value>יישור</value>
+  </data>
+  <data name="DocumentEditor_Left" xml:space="preserve">
+    <value>שמאלה</value>
+  </data>
+  <data name="DocumentEditor_Center" xml:space="preserve">
+    <value>מרכז</value>
+  </data>
+  <data name="DocumentEditor_Right" xml:space="preserve">
+    <value>ימין</value>
+  </data>
+  <data name="DocumentEditor_Justify" xml:space="preserve">
+    <value>תצדיק</value>
+  </data>
+  <data name="DocumentEditor_IndentFromLeft" xml:space="preserve">
+    <value>כניסה משמאל</value>
+  </data>
+  <data name="DocumentEditor_BordersAndShading" xml:space="preserve">
+    <value>גבולות והצללה</value>
+  </data>
+  <data name="DocumentEditor_Options" xml:space="preserve">
+    <value>אפשרויות</value>
+  </data>
+  <data name="DocumentEditor_SpecifyHeight" xml:space="preserve">
+    <value>ציין גובה</value>
+  </data>
+  <data name="DocumentEditor_AtLeast" xml:space="preserve">
+    <value>לפחות</value>
+  </data>
+  <data name="DocumentEditor_Exactly" xml:space="preserve">
+    <value>בדיוק</value>
+  </data>
+  <data name="DocumentEditor_RowHeightIs" xml:space="preserve">
+    <value>גובה השורה הוא</value>
+  </data>
+  <data name="DocumentEditor_AllowRowToBreakAcrossPages" xml:space="preserve">
+    <value>אפשר לשורה להתפרק בין העמודים</value>
+  </data>
+  <data name="DocumentEditor_RepeatAsHeaderRowAtTheTopOfEachPage" xml:space="preserve">
+    <value>חזור כשורת כותרת בראש כל עמוד</value>
+  </data>
+  <data name="DocumentEditor_VerticalAlignment" xml:space="preserve">
+    <value>יישור אנכי</value>
+  </data>
+  <data name="DocumentEditor_Top" xml:space="preserve">
+    <value>חלק עליון</value>
+  </data>
+  <data name="DocumentEditor_Bottom" xml:space="preserve">
+    <value>בתחתית</value>
+  </data>
+  <data name="DocumentEditor_DefaultCellMargins" xml:space="preserve">
+    <value>שולי ברירת מחדל לתא</value>
+  </data>
+  <data name="DocumentEditor_DefaultCellSpacing" xml:space="preserve">
+    <value>ריווח ברירת מחדל לתא</value>
+  </data>
+  <data name="DocumentEditor_AllowSpacingBetweenCells" xml:space="preserve">
+    <value>אפשר ריווח בין תאים</value>
+  </data>
+  <data name="DocumentEditor_CellMargins" xml:space="preserve">
+    <value>שולי תאים</value>
+  </data>
+  <data name="DocumentEditor_SameAsTheWholeTable" xml:space="preserve">
+    <value>זהה לכל השולחן</value>
+  </data>
+  <data name="DocumentEditor_Borders" xml:space="preserve">
+    <value>גבולות</value>
+  </data>
+  <data name="DocumentEditor_None" xml:space="preserve">
+    <value>אף אחד</value>
+  </data>
+  <data name="DocumentEditor_Style" xml:space="preserve">
+    <value>סגנון</value>
+  </data>
+  <data name="DocumentEditor_Width" xml:space="preserve">
+    <value>רוחב</value>
+  </data>
+  <data name="DocumentEditor_Height" xml:space="preserve">
+    <value>גובה</value>
+  </data>
+  <data name="DocumentEditor_Letter" xml:space="preserve">
+    <value>מכתב</value>
+  </data>
+  <data name="DocumentEditor_Tabloid" xml:space="preserve">
+    <value>הצהובון</value>
+  </data>
+  <data name="DocumentEditor_Legal" xml:space="preserve">
+    <value>משפטי</value>
+  </data>
+  <data name="DocumentEditor_Statement" xml:space="preserve">
+    <value>הצהרה</value>
+  </data>
+  <data name="DocumentEditor_Executive" xml:space="preserve">
+    <value>מנהל</value>
+  </data>
+  <data name="DocumentEditor_A3" xml:space="preserve">
+    <value>A3</value>
+  </data>
+  <data name="DocumentEditor_A4" xml:space="preserve">
+    <value>A4</value>
+  </data>
+  <data name="DocumentEditor_A5" xml:space="preserve">
+    <value>A5</value>
+  </data>
+  <data name="DocumentEditor_B4" xml:space="preserve">
+    <value>B4</value>
+  </data>
+  <data name="DocumentEditor_B5" xml:space="preserve">
+    <value>B5</value>
+  </data>
+  <data name="DocumentEditor_CustomSize" xml:space="preserve">
+    <value>גודל מותאם אישית</value>
+  </data>
+  <data name="DocumentEditor_DifferentOddAndEven" xml:space="preserve">
+    <value>שונות ומשונות ואחידות</value>
+  </data>
+  <data name="DocumentEditor_DifferentFirstPage" xml:space="preserve">
+    <value>עמוד ראשון שונה</value>
+  </data>
+  <data name="DocumentEditor_FromEdge" xml:space="preserve">
+    <value>מקצה</value>
+  </data>
+  <data name="DocumentEditor_Header" xml:space="preserve">
+    <value>כותרת עליונה</value>
+  </data>
+  <data name="DocumentEditor_Footer" xml:space="preserve">
+    <value>כותרת תחתונה</value>
+  </data>
+  <data name="DocumentEditor_Margin" xml:space="preserve">
+    <value>שוליים</value>
+  </data>
+  <data name="DocumentEditor_Paper" xml:space="preserve">
+    <value>עיתון</value>
+  </data>
+  <data name="DocumentEditor_Layout" xml:space="preserve">
+    <value>פריסה</value>
+  </data>
+  <data name="DocumentEditor_Orientation" xml:space="preserve">
+    <value>נטייה</value>
+  </data>
+  <data name="DocumentEditor_Landscape" xml:space="preserve">
+    <value>נוף</value>
+  </data>
+  <data name="DocumentEditor_Portrait" xml:space="preserve">
+    <value>דיוקן</value>
+  </data>
+  <data name="DocumentEditor_ShowPageNumbers" xml:space="preserve">
+    <value>הצג מספרי עמודים</value>
+  </data>
+  <data name="DocumentEditor_RightAlignPageNumbers" xml:space="preserve">
+    <value>יישור מספרי עמודים ימני.</value>
+  </data>
+  <data name="DocumentEditor_Nothing" xml:space="preserve">
+    <value>שום דבר</value>
+  </data>
+  <data name="DocumentEditor_TabLeader" xml:space="preserve">
+    <value>מנהיג כרטיסיות</value>
+  </data>
+  <data name="DocumentEditor_ShowLevels" xml:space="preserve">
+    <value>הצג רמות</value>
+  </data>
+  <data name="DocumentEditor_UseHyperlinksInsteadOfPageNumbers" xml:space="preserve">
+    <value>השתמש בהיפר-קישורים במקום במספרי עמודים</value>
+  </data>
+  <data name="DocumentEditor_BuildTableOfContentsFrom" xml:space="preserve">
+    <value>בנה תוכן עניינים מ</value>
+  </data>
+  <data name="DocumentEditor_Styles" xml:space="preserve">
+    <value>סגנונות</value>
+  </data>
+  <data name="DocumentEditor_AvailableStyles" xml:space="preserve">
+    <value>סגנונות זמינים</value>
+  </data>
+  <data name="DocumentEditor_TOCLevel" xml:space="preserve">
+    <value>רמת TOC</value>
+  </data>
+  <data name="DocumentEditor_Heading" xml:space="preserve">
+    <value>כותרת</value>
+  </data>
+  <data name="DocumentEditor_Heading1" xml:space="preserve">
+    <value>מכוון ל 1</value>
+  </data>
+  <data name="DocumentEditor_Heading2" xml:space="preserve">
+    <value>כותרת 2</value>
+  </data>
+  <data name="DocumentEditor_Heading3" xml:space="preserve">
+    <value>כותרת 3</value>
+  </data>
+  <data name="DocumentEditor_Heading4" xml:space="preserve">
+    <value>כותרת 4</value>
+  </data>
+  <data name="DocumentEditor_Heading5" xml:space="preserve">
+    <value>כותרת 5</value>
+  </data>
+  <data name="DocumentEditor_Heading6" xml:space="preserve">
+    <value>כותרת 6</value>
+  </data>
+  <data name="DocumentEditor_ListParagraph" xml:space="preserve">
+    <value>רשימת פסקאות</value>
+  </data>
+  <data name="DocumentEditor_Normal" xml:space="preserve">
+    <value>רגיל</value>
+  </data>
+  <data name="DocumentEditor_OutlineLevels" xml:space="preserve">
+    <value>רמות מתאר</value>
+  </data>
+  <data name="DocumentEditor_TableEntryFields" xml:space="preserve">
+    <value>שדות הזנת טבלה</value>
+  </data>
+  <data name="DocumentEditor_Modify" xml:space="preserve">
+    <value>שנה</value>
+  </data>
+  <data name="DocumentEditor_Color" xml:space="preserve">
+    <value>צבע</value>
+  </data>
+  <data name="DocumentEditor_Setting" xml:space="preserve">
+    <value>הגדרה</value>
+  </data>
+  <data name="DocumentEditor_Box" xml:space="preserve">
+    <value>קופסא</value>
+  </data>
+  <data name="DocumentEditor_All" xml:space="preserve">
+    <value>את כל</value>
+  </data>
+  <data name="DocumentEditor_Custom" xml:space="preserve">
+    <value>המותאם אישית</value>
+  </data>
+  <data name="DocumentEditor_Preview" xml:space="preserve">
+    <value>תצוגה מקדימה</value>
+  </data>
+  <data name="DocumentEditor_Shading" xml:space="preserve">
+    <value>הצללה</value>
+  </data>
+  <data name="DocumentEditor_Fill" xml:space="preserve">
+    <value>למלא</value>
+  </data>
+  <data name="DocumentEditor_ApplyTo" xml:space="preserve">
+    <value>החל על</value>
+  </data>
+  <data name="DocumentEditor_TableProperties" xml:space="preserve">
+    <value>מאפייני טבלה</value>
+  </data>
+  <data name="DocumentEditor_CellOptions" xml:space="preserve">
+    <value>אפשרויות תא</value>
+  </data>
+  <data name="DocumentEditor_TableOptions" xml:space="preserve">
+    <value>אפשרויות טבלה</value>
+  </data>
+  <data name="DocumentEditor_InsertTable" xml:space="preserve">
+    <value>הכנס טבלה</value>
+  </data>
+  <data name="DocumentEditor_NumberOfColumns" xml:space="preserve">
+    <value>מספר העמודות</value>
+  </data>
+  <data name="DocumentEditor_NumberOfRows" xml:space="preserve">
+    <value>מספר שורות</value>
+  </data>
+  <data name="DocumentEditor_TextToDisplay" xml:space="preserve">
+    <value>טקסט לתצוגה</value>
+  </data>
+  <data name="DocumentEditor_Address" xml:space="preserve">
+    <value>כתובת</value>
+  </data>
+  <data name="DocumentEditor_InsertHyperlink" xml:space="preserve">
+    <value>הכנס היפר-קישור</value>
+  </data>
+  <data name="DocumentEditor_EditHyperlink" xml:space="preserve">
+    <value>ערוך את היפר-קישור</value>
+  </data>
+  <data name="DocumentEditor_Insert" xml:space="preserve">
+    <value>הכנס</value>
+  </data>
+  <data name="DocumentEditor_General" xml:space="preserve">
+    <value>כללי</value>
+  </data>
+  <data name="DocumentEditor_Indentation" xml:space="preserve">
+    <value>כניסה</value>
+  </data>
+  <data name="DocumentEditor_BeforeText" xml:space="preserve">
+    <value>לפני הטקסט</value>
+  </data>
+  <data name="DocumentEditor_Special" xml:space="preserve">
+    <value>מיוחד</value>
+  </data>
+  <data name="DocumentEditor_FirstLine" xml:space="preserve">
+    <value>שורה ראשונה</value>
+  </data>
+  <data name="DocumentEditor_Hanging" xml:space="preserve">
+    <value>תלויים</value>
+  </data>
+  <data name="DocumentEditor_AfterText" xml:space="preserve">
+    <value>אחרי טקסט</value>
+  </data>
+  <data name="DocumentEditor_By" xml:space="preserve">
+    <value>על ידי</value>
+  </data>
+  <data name="DocumentEditor_Before" xml:space="preserve">
+    <value>לפני</value>
+  </data>
+  <data name="DocumentEditor_LineSpacing" xml:space="preserve">
+    <value>מרווח בין שורות</value>
+  </data>
+  <data name="DocumentEditor_After" xml:space="preserve">
+    <value>לאחר</value>
+  </data>
+  <data name="DocumentEditor_At" xml:space="preserve">
+    <value>בשעה</value>
+  </data>
+  <data name="DocumentEditor_Multiple" xml:space="preserve">
+    <value>מרובות</value>
+  </data>
+  <data name="DocumentEditor_Spacing" xml:space="preserve">
+    <value>ריווח</value>
+  </data>
+  <data name="DocumentEditor_DefineNewMultilevelList" xml:space="preserve">
+    <value>הגדר רשימה חדשה עם רב שכבתי</value>
+  </data>
+  <data name="DocumentEditor_ListLevel" xml:space="preserve">
+    <value>רמת רשימה</value>
+  </data>
+  <data name="DocumentEditor_ChooseLevelToModify" xml:space="preserve">
+    <value>בחר רמה לשינוי</value>
+  </data>
+  <data name="DocumentEditor_Level" xml:space="preserve">
+    <value>רמה</value>
+  </data>
+  <data name="DocumentEditor_NumberFormat" xml:space="preserve">
+    <value>פורמט מספרים</value>
+  </data>
+  <data name="DocumentEditor_NumberStyleForThisLevel" xml:space="preserve">
+    <value>סגנון מספרים לרמה זו</value>
+  </data>
+  <data name="DocumentEditor_EnterFormattingForNumber" xml:space="preserve">
+    <value>הזן עיצוב למספר</value>
+  </data>
+  <data name="DocumentEditor_StartAt" xml:space="preserve">
+    <value>מתחיל ב</value>
+  </data>
+  <data name="DocumentEditor_RestartListAfter" xml:space="preserve">
+    <value>הפעל מחדש את הרשימה לאחר מכן</value>
+  </data>
+  <data name="DocumentEditor_Position" xml:space="preserve">
+    <value>עמדה</value>
+  </data>
+  <data name="DocumentEditor_TextIndentAt" xml:space="preserve">
+    <value>כניסת טקסט ב</value>
+  </data>
+  <data name="DocumentEditor_AlignedAt" xml:space="preserve">
+    <value>הוקמה בשעה</value>
+  </data>
+  <data name="DocumentEditor_FollowNumberWith" xml:space="preserve">
+    <value>עקוב אחר המספר עם</value>
+  </data>
+  <data name="DocumentEditor_TabCharacter" xml:space="preserve">
+    <value>תו כרטיסייה</value>
+  </data>
+  <data name="DocumentEditor_Space" xml:space="preserve">
+    <value>שטח</value>
+  </data>
+  <data name="DocumentEditor_Arabic" xml:space="preserve">
+    <value>ערבית</value>
+  </data>
+  <data name="DocumentEditor_UpRoman" xml:space="preserve">
+    <value>UpRoman</value>
+  </data>
+  <data name="DocumentEditor_LowRoman" xml:space="preserve">
+    <value>LowRoman</value>
+  </data>
+  <data name="DocumentEditor_UpLetter" xml:space="preserve">
+    <value>UpLetter</value>
+  </data>
+  <data name="DocumentEditor_LowLetter" xml:space="preserve">
+    <value>LowLetter</value>
+  </data>
+  <data name="DocumentEditor_Number" xml:space="preserve">
+    <value>מספר</value>
+  </data>
+  <data name="DocumentEditor_LeadingZero" xml:space="preserve">
+    <value>מוביל אפס</value>
+  </data>
+  <data name="DocumentEditor_Bullet" xml:space="preserve">
+    <value>כדור</value>
+  </data>
+  <data name="DocumentEditor_Ordinal" xml:space="preserve">
+    <value>רגיל</value>
+  </data>
+  <data name="DocumentEditor_OrdinalText" xml:space="preserve">
+    <value>טקסט רגיל</value>
+  </data>
+  <data name="DocumentEditor_ForEast" xml:space="preserve">
+    <value>עבור מזרח</value>
+  </data>
+  <data name="DocumentEditor_NoRestart" xml:space="preserve">
+    <value>אין הפעלה מחדש</value>
+  </data>
+  <data name="DocumentEditor_Font" xml:space="preserve">
+    <value>גופן</value>
+  </data>
+  <data name="DocumentEditor_FontStyle" xml:space="preserve">
+    <value>סיגנון גופן</value>
+  </data>
+  <data name="DocumentEditor_UnderlineStyle" xml:space="preserve">
+    <value>קו תחתון תחתון</value>
+  </data>
+  <data name="DocumentEditor_FontColor" xml:space="preserve">
+    <value>צבע גופן</value>
+  </data>
+  <data name="DocumentEditor_Effects" xml:space="preserve">
+    <value>השפעות</value>
+  </data>
+  <data name="DocumentEditor_Strikethrough" xml:space="preserve">
+    <value>חוצה דרך</value>
+  </data>
+  <data name="DocumentEditor_Superscript" xml:space="preserve">
+    <value>סופרגרף</value>
+  </data>
+  <data name="DocumentEditor_Subscript" xml:space="preserve">
+    <value>מנוי</value>
+  </data>
+  <data name="DocumentEditor_DoubleStrikethrough" xml:space="preserve">
+    <value>דרך כפולה</value>
+  </data>
+  <data name="DocumentEditor_Regular" xml:space="preserve">
+    <value>רגיל</value>
+  </data>
+  <data name="DocumentEditor_Bold" xml:space="preserve">
+    <value>נועז</value>
+  </data>
+  <data name="DocumentEditor_Italic" xml:space="preserve">
+    <value>נטוי</value>
+  </data>
+  <data name="DocumentEditor_Cut" xml:space="preserve">
+    <value>גזירה</value>
+  </data>
+  <data name="DocumentEditor_Copy" xml:space="preserve">
+    <value>עותק</value>
+  </data>
+  <data name="DocumentEditor_Paste" xml:space="preserve">
+    <value>הדבק</value>
+  </data>
+  <data name="DocumentEditor_Hyperlink" xml:space="preserve">
+    <value>היפר-קישור</value>
+  </data>
+  <data name="DocumentEditor_OpenHyperlink" xml:space="preserve">
+    <value>פתח את היפר-קישור</value>
+  </data>
+  <data name="DocumentEditor_CopyHyperlink" xml:space="preserve">
+    <value>העתק היפר-קישור</value>
+  </data>
+  <data name="DocumentEditor_RemoveHyperlink" xml:space="preserve">
+    <value>הסר את היפר-קישור</value>
+  </data>
+  <data name="DocumentEditor_Paragraph" xml:space="preserve">
+    <value>פסקה</value>
+  </data>
+  <data name="DocumentEditor_LinkedStyle" xml:space="preserve">
+    <value>מקושרים (פסקה ותו)</value>
+  </data>
+  <data name="DocumentEditor_Character" xml:space="preserve">
+    <value>דמות</value>
+  </data>
+  <data name="DocumentEditor_MergeCells" xml:space="preserve">
+    <value>מיזוג תאים</value>
+  </data>
+  <data name="DocumentEditor_InsertAbove" xml:space="preserve">
+    <value>הכנס מעל</value>
+  </data>
+  <data name="DocumentEditor_InsertBelow" xml:space="preserve">
+    <value>הכנס למטה</value>
+  </data>
+  <data name="DocumentEditor_InsertLeft" xml:space="preserve">
+    <value>הכנס שמאלה</value>
+  </data>
+  <data name="DocumentEditor_InsertRight" xml:space="preserve">
+    <value>הכנס ימינה</value>
+  </data>
+  <data name="DocumentEditor_Delete" xml:space="preserve">
+    <value>מחק</value>
+  </data>
+  <data name="DocumentEditor_DeleteTable" xml:space="preserve">
+    <value>מחק טבלה</value>
+  </data>
+  <data name="DocumentEditor_DeleteRow" xml:space="preserve">
+    <value>מחק שורה</value>
+  </data>
+  <data name="DocumentEditor_DeleteColumn" xml:space="preserve">
+    <value>מחק טור</value>
+  </data>
+  <data name="DocumentEditor_FileName" xml:space="preserve">
+    <value>שם קובץ</value>
+  </data>
+  <data name="DocumentEditor_FormatType" xml:space="preserve">
+    <value>סוג פורמט</value>
+  </data>
+  <data name="DocumentEditor_Save" xml:space="preserve">
+    <value>להציל</value>
+  </data>
+  <data name="DocumentEditor_Navigation" xml:space="preserve">
+    <value>ניווט</value>
+  </data>
+  <data name="DocumentEditor_Results" xml:space="preserve">
+    <value>תוצאות</value>
+  </data>
+  <data name="DocumentEditor_Replace" xml:space="preserve">
+    <value>החלף</value>
+  </data>
+  <data name="DocumentEditor_ReplaceAll" xml:space="preserve">
+    <value>החלף הכל</value>
+  </data>
+  <data name="DocumentEditor_WeReplacedAll" xml:space="preserve">
+    <value>החלפנו את כולם</value>
+  </data>
+  <data name="DocumentEditor_Find" xml:space="preserve">
+    <value>למצוא</value>
+  </data>
+  <data name="DocumentEditor_NoMatches" xml:space="preserve">
+    <value>אין התאמה</value>
+  </data>
+  <data name="DocumentEditor_AllDone" xml:space="preserve">
+    <value>הכל בוצע</value>
+  </data>
+  <data name="DocumentEditor_Result" xml:space="preserve">
+    <value>תוצאה</value>
+  </data>
+  <data name="DocumentEditor_Of" xml:space="preserve">
+    <value>של</value>
+  </data>
+  <data name="DocumentEditor_Instances" xml:space="preserve">
+    <value>מקרים</value>
+  </data>
+  <data name="DocumentEditor_With" xml:space="preserve">
+    <value>עם</value>
+  </data>
+  <data name="DocumentEditor_ClickToFollowLink" xml:space="preserve">
+    <value>לחץ למעקב אחר קישור</value>
+  </data>
+  <data name="DocumentEditor_ContinueNumbering" xml:space="preserve">
+    <value>המשך למספור</value>
+  </data>
+  <data name="DocumentEditor_BookmarkName" xml:space="preserve">
+    <value>שם הסימניה</value>
+  </data>
+  <data name="DocumentEditor_Close" xml:space="preserve">
+    <value>סגור</value>
+  </data>
+  <data name="DocumentEditor_RestartAt" xml:space="preserve">
+    <value>הפעל מחדש ב</value>
+  </data>
+  <data name="DocumentEditor_Properties" xml:space="preserve">
+    <value>נכסים</value>
+  </data>
+  <data name="DocumentEditor_Name" xml:space="preserve">
+    <value>שם</value>
+  </data>
+  <data name="DocumentEditor_StyleType" xml:space="preserve">
+    <value>סוג סגנון</value>
+  </data>
+  <data name="DocumentEditor_StyleBasedOn" xml:space="preserve">
+    <value>סגנון מבוסס על</value>
+  </data>
+  <data name="DocumentEditor_StyleForFollowingParagraph" xml:space="preserve">
+    <value>סגנון לפסקה הבאה</value>
+  </data>
+  <data name="DocumentEditor_Formatting" xml:space="preserve">
+    <value>עיצוב</value>
+  </data>
+  <data name="DocumentEditor_NumberingAndBullets" xml:space="preserve">
+    <value>מספור וכדורים</value>
+  </data>
+  <data name="DocumentEditor_Numbering" xml:space="preserve">
+    <value>מספור</value>
+  </data>
+  <data name="DocumentEditor_UpdateField" xml:space="preserve">
+    <value>עדכון שדה</value>
+  </data>
+  <data name="DocumentEditor_EditField" xml:space="preserve">
+    <value>ערוך שדה</value>
+  </data>
+  <data name="DocumentEditor_Bookmark" xml:space="preserve">
+    <value>סימניה</value>
+  </data>
+  <data name="DocumentEditor_PageSetup" xml:space="preserve">
+    <value>הגדרות עמוד</value>
+  </data>
+  <data name="DocumentEditor_NoBookmarksFound" xml:space="preserve">
+    <value>לא נמצאו סימניות</value>
+  </data>
+  <data name="DocumentEditor_Format" xml:space="preserve">
+    <value>פורמט</value>
+  </data>
+  <data name="DocumentEditor_CreateNewStyle" xml:space="preserve">
+    <value>צור סגנון חדש</value>
+  </data>
+  <data name="DocumentEditor_ModifyStyle" xml:space="preserve">
+    <value>שנה סגנון</value>
+  </data>
+  <data name="DocumentEditor_New" xml:space="preserve">
+    <value>חדש</value>
+  </data>
+  <data name="DocumentEditor_Bullets" xml:space="preserve">
+    <value>כדורים</value>
+  </data>
+  <data name="DocumentEditor_UseBookmarks" xml:space="preserve">
+    <value>השתמש בסימניות</value>
+  </data>
+  <data name="DocumentEditor_TableOfContents" xml:space="preserve">
+    <value>תוכן העניינים</value>
+  </data>
+  <data name="DocumentEditor_AutoFit" xml:space="preserve">
+    <value>התאמה אוטומטית</value>
+  </data>
+  <data name="DocumentEditor_AutoFitToContents" xml:space="preserve">
+    <value>התאמה אוטומטית לתוכן</value>
+  </data>
+  <data name="DocumentEditor_AutoFitToWindow" xml:space="preserve">
+    <value>התאמה אוטומטית לחלון</value>
+  </data>
+  <data name="DocumentEditor_FixedColumnWidth" xml:space="preserve">
+    <value>רוחב עמודה קבוע</value>
+  </data>
+  <data name="DocumentEditor_Reset" xml:space="preserve">
+    <value>אפס</value>
+  </data>
+  <data name="DocumentEditor_MatchCase" xml:space="preserve">
+    <value>מקרה התאמה</value>
+  </data>
+  <data name="DocumentEditor_WholeWords" xml:space="preserve">
+    <value>מילים שלמות</value>
+  </data>
+  <data name="DocumentEditor_Add" xml:space="preserve">
+    <value>הוסף</value>
+  </data>
+  <data name="DocumentEditor_GoTo" xml:space="preserve">
+    <value>לך ל</value>
+  </data>
+  <data name="DocumentEditor_SearchFor" xml:space="preserve">
+    <value>לחפש אחר</value>
+  </data>
+  <data name="DocumentEditor_ReplaceWith" xml:space="preserve">
+    <value>להחליף ב</value>
+  </data>
+  <data name="DocumentEditor_TOC1" xml:space="preserve">
+    <value>TOC 1</value>
+  </data>
+  <data name="DocumentEditor_TOC2" xml:space="preserve">
+    <value>TOC 2</value>
+  </data>
+  <data name="DocumentEditor_TOC3" xml:space="preserve">
+    <value>TOC 3</value>
+  </data>
+  <data name="DocumentEditor_TOC4" xml:space="preserve">
+    <value>TOC 4</value>
+  </data>
+  <data name="DocumentEditor_TOC5" xml:space="preserve">
+    <value>TOC 5</value>
+  </data>
+  <data name="DocumentEditor_TOC6" xml:space="preserve">
+    <value>TOC 6</value>
+  </data>
+  <data name="DocumentEditor_TOC7" xml:space="preserve">
+    <value>TOC 7</value>
+  </data>
+  <data name="DocumentEditor_TOC8" xml:space="preserve">
+    <value>TOC 8</value>
+  </data>
+  <data name="DocumentEditor_TOC9" xml:space="preserve">
+    <value>TOC 9</value>
+  </data>
+  <data name="DocumentEditor_RightToLeft" xml:space="preserve">
+    <value>מימין לשמאל</value>
+  </data>
+  <data name="DocumentEditor_LeftToRight" xml:space="preserve">
+    <value>משמאל לימין</value>
+  </data>
+  <data name="DocumentEditor_Direction" xml:space="preserve">
+    <value>כיוון</value>
+  </data>
+  <data name="DocumentEditor_TableDirection" xml:space="preserve">
+    <value>כיוון הטבלה</value>
+  </data>
+  <data name="DocumentEditor_IndentFromRight" xml:space="preserve">
+    <value>כניסה מימין</value>
+  </data>
+  <data name="DocumentEditor_ContextualSpacing" xml:space="preserve">
+    <value>אל תוסיף רווח בין הפסקאות לאותם סגנונות</value>
+  </data>
+  <data name="DocumentEditor_PasswordMismatch" xml:space="preserve">
+    <value>הסיסמה אינה תואמת</value>
+  </data>
+  <data name="DocumentEditor_RestrictEditing" xml:space="preserve">
+    <value>הגבל את העריכה</value>
+  </data>
+  <data name="DocumentEditor_FormattingRestrictions" xml:space="preserve">
+    <value>הגבלות עיצוב</value>
+  </data>
+  <data name="DocumentEditor_AllowFormatting" xml:space="preserve">
+    <value>אפשר עיצוב</value>
+  </data>
+  <data name="DocumentEditor_EditingRestrictions" xml:space="preserve">
+    <value>מגבלות עריכה</value>
+  </data>
+  <data name="DocumentEditor_ReadOnly" xml:space="preserve">
+    <value>לקריאה בלבד</value>
+  </data>
+  <data name="DocumentEditor_ExceptionsOptional" xml:space="preserve">
+    <value>חריגים (לא חובה)</value>
+  </data>
+  <data name="DocumentEditor_SelectPartOfDocumentAndUser" xml:space="preserve">
+    <value>בחר חלקים מהמסמך ובחר משתמשים הרשאים לערוך אותם בחופשיות.</value>
+  </data>
+  <data name="DocumentEditor_Everyone" xml:space="preserve">
+    <value>כל אחד</value>
+  </data>
+  <data name="DocumentEditor_MoreUsers" xml:space="preserve">
+    <value>משתמשים נוספים</value>
+  </data>
+  <data name="DocumentEditor_AddUsers" xml:space="preserve">
+    <value>הוסף משתמשים</value>
+  </data>
+  <data name="DocumentEditor_EnforcingProtection" xml:space="preserve">
+    <value>כן, התחל לאכוף את ההגנה</value>
+  </data>
+  <data name="DocumentEditor_StartEnforcingProtection" xml:space="preserve">
+    <value>התחל לאכוף את ההגנה</value>
+  </data>
+  <data name="DocumentEditor_EnterUser" xml:space="preserve">
+    <value>הכנס משתמש</value>
+  </data>
+  <data name="DocumentEditor_Users" xml:space="preserve">
+    <value>משתמשים</value>
+  </data>
+  <data name="DocumentEditor_EnterNewPassword" xml:space="preserve">
+    <value>הכנס סיסמה חדשה</value>
+  </data>
+  <data name="DocumentEditor_ReenterNewPasswordToConfirm" xml:space="preserve">
+    <value>הזן סיסמה חדשה כדי לאשר</value>
+  </data>
+  <data name="DocumentEditor_YourPermissions" xml:space="preserve">
+    <value>ההרשאות שלך</value>
+  </data>
+  <data name="DocumentEditor_ProtectedDocument" xml:space="preserve">
+    <value>מסמך זה מוגן מפני עריכה לא מכוונת.</value>
+  </data>
+  <data name="DocumentEditor_YouMayFormatTextOnlyWithCertainStyles" xml:space="preserve">
+    <value>ניתן לעצב טקסט רק עם סגנונות מסוימים.</value>
+  </data>
+  <data name="DocumentEditor_StopProtection" xml:space="preserve">
+    <value>הפסק את ההגנה</value>
+  </data>
+  <data name="DocumentEditor_Password" xml:space="preserve">
+    <value>סיסמה</value>
+  </data>
+  <data name="DocumentEditor_SpellingEditor" xml:space="preserve">
+    <value>עורך איות</value>
+  </data>
+  <data name="DocumentEditor_Spelling" xml:space="preserve">
+    <value>איות</value>
+  </data>
+  <data name="DocumentEditor_SpellCheck" xml:space="preserve">
+    <value>בדיקת איות</value>
+  </data>
+  <data name="DocumentEditor_UnderlineErrors" xml:space="preserve">
+    <value>הדגיש שגיאות</value>
+  </data>
+  <data name="DocumentEditor_Ignore" xml:space="preserve">
+    <value>להתעלם</value>
+  </data>
+  <data name="DocumentEditor_IgnoreAll" xml:space="preserve">
+    <value>התעלם מהכל</value>
+  </data>
+  <data name="DocumentEditor_AddToDictionary" xml:space="preserve">
+    <value>הוסף למילון</value>
+  </data>
+  <data name="DocumentEditor_Change" xml:space="preserve">
+    <value>שינוי</value>
+  </data>
+  <data name="DocumentEditor_ChangeAll" xml:space="preserve">
+    <value>שנה הכל</value>
+  </data>
+  <data name="DocumentEditor_Suggestions" xml:space="preserve">
+    <value>הצעות</value>
+  </data>
+  <data name="DocumentEditor_ThePasswordIsIncorrect" xml:space="preserve">
+    <value>הסיסמא לא נכונה</value>
+  </data>
+  <data name="DocumentEditor_ErrorInEstablishingConnectionWithWebServer" xml:space="preserve">
+    <value>שגיאה ביצירת חיבור לשרת האינטרנט</value>
+  </data>
+  <data name="DocumentEditor_HighlightTheRegionsICanEdit" xml:space="preserve">
+    <value>הדגש את האזורים שאני יכול לערוך</value>
+  </data>
+  <data name="DocumentEditor_ShowAllRegionsICanEdit" xml:space="preserve">
+    <value>הצג את כל האזורים שאני יכול לערוך</value>
+  </data>
+  <data name="DocumentEditor_FindNextRegionICanEdit" xml:space="preserve">
+    <value>מצא את האזור הבא שאני יכול לערוך</value>
+  </data>
+  <data name="DocumentEditor_KeepSourceFormatting" xml:space="preserve">
+    <value>שמור על עיצוב המקור</value>
+  </data>
+  <data name="DocumentEditor_MatchDestinationFormatting" xml:space="preserve">
+    <value>התאם את עיצוב היעד</value>
+  </data>
+  <data name="DocumentEditor_TextOnly" xml:space="preserve">
+    <value>רק טקסט</value>
+  </data>
+  <data name="DocumentEditor_Comments" xml:space="preserve">
+    <value>הערות</value>
+  </data>
+  <data name="DocumentEditor_TypeYourComment" xml:space="preserve">
+    <value>הקלד את התגובה שלך</value>
+  </data>
+  <data name="DocumentEditor_Post" xml:space="preserve">
+    <value>הודעה</value>
+  </data>
+  <data name="DocumentEditor_Reply" xml:space="preserve">
+    <value>תשובה</value>
+  </data>
+  <data name="DocumentEditor_NewComment" xml:space="preserve">
+    <value>תגובה חדשה</value>
+  </data>
+  <data name="DocumentEditor_Edit" xml:space="preserve">
+    <value>ערוך</value>
+  </data>
+  <data name="DocumentEditor_Resolve" xml:space="preserve">
+    <value>לפתור</value>
+  </data>
+  <data name="DocumentEditor_Reopen" xml:space="preserve">
+    <value>נפתח מחדש</value>
+  </data>
+  <data name="DocumentEditor_NoCommentsInThisDocument" xml:space="preserve">
+    <value>אין תגובות במסמך זה</value>
+  </data>
+  <data name="DocumentEditor_More" xml:space="preserve">
+    <value>יותר</value>
+  </data>
+  <data name="DocumentEditor_TypeYourCommentHere" xml:space="preserve">
+    <value>תכתוב את התגובה שלך כאן</value>
+  </data>
+  <data name="DocumentEditor_NextComment" xml:space="preserve">
+    <value>תגובה הבאה</value>
+  </data>
+  <data name="DocumentEditor_PreviousComment" xml:space="preserve">
+    <value>תגובה קודמת</value>
+  </data>
+  <data name="DocumentEditor_UnPostedComments" xml:space="preserve">
+    <value>תגובות שלא פורסמו</value>
+  </data>
+  <data name="DocumentEditor_DiscardComment" xml:space="preserve">
+    <value>התגובות הוספו שלא פורסמו. אם תמשיך, התגובה הזו תושלך.</value>
+  </data>
+  <data name="DocumentEditor_NoHeadings" xml:space="preserve">
+    <value>לא נמצאה כותרת!</value>
+  </data>
+  <data name="DocumentEditor_AddHeadings" xml:space="preserve">
+    <value>למסמך זה אין כותרות. הוסף כותרות ונסה שוב.</value>
+  </data>
+  <data name="DocumentEditor_MoreOptions" xml:space="preserve">
+    <value>אפשרויות נוספות</value>
+  </data>
+  <data name="DocumentEditor_ClickToSeeThisComment" xml:space="preserve">
+    <value>לחץ כדי לראות תגובה זו</value>
+  </data>
+  <data name="DocumentEditor_DropDownFormField" xml:space="preserve">
+    <value>שדה טופס נפתח</value>
+  </data>
+  <data name="DocumentEditor_DropDownItems" xml:space="preserve">
+    <value>פריטים נפתחים</value>
+  </data>
+  <data name="DocumentEditor_ItemsInDropDownList" xml:space="preserve">
+    <value>פריטים ברשימה הנפתחת</value>
+  </data>
+  <data name="DocumentEditor_ADDButton" xml:space="preserve">
+    <value>הוסף</value>
+  </data>
+  <data name="DocumentEditor_REMOVE" xml:space="preserve">
+    <value>הסר</value>
+  </data>
+  <data name="DocumentEditor_FieldSettings" xml:space="preserve">
+    <value>הגדרות שדה</value>
+  </data>
+  <data name="DocumentEditor_Tooltip" xml:space="preserve">
+    <value>הסבר כלים</value>
+  </data>
+  <data name="DocumentEditor_DropDownEnabled" xml:space="preserve">
+    <value>התפריט הנפתח מופעל</value>
+  </data>
+  <data name="DocumentEditor_CheckBoxFormField" xml:space="preserve">
+    <value>שדה טופס תיבה</value>
+  </data>
+  <data name="DocumentEditor_CheckBoxSize" xml:space="preserve">
+    <value>סמן את גודל התיבה</value>
+  </data>
+  <data name="DocumentEditor_Auto" xml:space="preserve">
+    <value>אוטומטי</value>
+  </data>
+  <data name="DocumentEditor_DefaultValue" xml:space="preserve">
+    <value>ערך ברירת מחדל</value>
+  </data>
+  <data name="DocumentEditor_NotChecked" xml:space="preserve">
+    <value>לא בדוק</value>
+  </data>
+  <data name="DocumentEditor_Checked" xml:space="preserve">
+    <value>נבדק</value>
+  </data>
+  <data name="DocumentEditor_CheckBoxEnabled" xml:space="preserve">
+    <value>תיבת הסימון מופעלת</value>
+  </data>
+  <data name="DocumentEditor_TextFormField" xml:space="preserve">
+    <value>שדה טופס טקסט</value>
+  </data>
+  <data name="DocumentEditor_Type" xml:space="preserve">
+    <value>סוג</value>
+  </data>
+  <data name="DocumentEditor_DefaultText" xml:space="preserve">
+    <value>טקסט ברירת מחדל</value>
+  </data>
+  <data name="DocumentEditor_MaximumLength" xml:space="preserve">
+    <value>אורך מקסימאלי</value>
+  </data>
+  <data name="DocumentEditor_TextFormat" xml:space="preserve">
+    <value>פורמט טקסט</value>
+  </data>
+  <data name="DocumentEditor_FillInEnabled" xml:space="preserve">
+    <value>מילוי מופעל</value>
+  </data>
+  <data name="DocumentEditor_DefaultNumber" xml:space="preserve">
+    <value>מספר ברירת מחדל</value>
+  </data>
+  <data name="DocumentEditor_DefaultDate" xml:space="preserve">
+    <value>תאריך ברירת מחדל</value>
+  </data>
+  <data name="DocumentEditor_DateFormat" xml:space="preserve">
+    <value>פורמט תאריך</value>
+  </data>
+  <data name="DocumentEditor_MergeTrack" xml:space="preserve">
+    <value>פעולה זו לא תסומן כשינוי. האם אתה רוצה להמשיך?</value>
+  </data>
+  <data name="DocumentEditor_UnTrack" xml:space="preserve">
+    <value>לא ניתן לאתר מעקב</value>
+  </data>
+  <data name="DocumentEditor_Accept" xml:space="preserve">
+    <value>לְקַבֵּל</value>
+  </data>
+  <data name="DocumentEditor_Reject" xml:space="preserve">
+    <value>לִדחוֹת</value>
+  </data>
+  <data name="DocumentEditor_PreviousChanges" xml:space="preserve">
+    <value>שינויים קודמים</value>
+  </data>
+  <data name="DocumentEditor_NextChanges" xml:space="preserve">
+    <value>השינויים הבאים</value>
+  </data>
+  <data name="DocumentEditor_Inserted" xml:space="preserve">
+    <value>מוּכנָס</value>
+  </data>
+  <data name="DocumentEditor_Deleted" xml:space="preserve">
+    <value>נמחק</value>
+  </data>
+  <data name="DocumentEditor_Changes" xml:space="preserve">
+    <value>שינויים</value>
+  </data>
+  <data name="DocumentEditor_AcceptAll" xml:space="preserve">
+    <value>קבל הכל</value>
+  </data>
+  <data name="DocumentEditor_RejectAll" xml:space="preserve">
+    <value>דחה את הכל</value>
+  </data>
+  <data name="DocumentEditor_NoChanges" xml:space="preserve">
+    <value>אין שינויים</value>
+  </data>
+  <data name="DocumentEditor_AcceptChanges" xml:space="preserve">
+    <value>קבל שינויים</value>
+  </data>
+  <data name="DocumentEditor_RejectChanges" xml:space="preserve">
+    <value>דחה שינויים</value>
+  </data>
+  <data name="DocumentEditor_User" xml:space="preserve">
+    <value>מִשׁתַמֵשׁ</value>
+  </data>
+  <data name="DocumentEditor_View" xml:space="preserve">
+    <value>נוף</value>
+  </data>
+  <data name="DocumentEditor_UnprotectDocument" xml:space="preserve">
+    <value>בטל הגנה על מסמך</value>
+  </data>
+  <data name="DocumentEditor_FormFieldsOnly" xml:space="preserve">
+    <value>ניתן למלא טפסים רק באזור זה.</value>
+  </data>
+  <data name="DocumentEditor_IndentsAndSpacing" xml:space="preserve">
+    <value>שליטה באלמנה/יתומה</value>
+  </data>
+  <data name="DocumentEditor_LineAndBreakPage" xml:space="preserve">
+    <value>כניסות ומרווחים</value>
+  </data>
+  <data name="DocumentEditor_Pagination" xml:space="preserve">
+    <value>שורות קו ודף</value>
+  </data>
+  <data name="DocumentEditor_WidowControl" xml:space="preserve">
+    <value>שמור על קווים ביחד</value>
+  </data>
+  <data name="DocumentEditor_KeepWithNext" xml:space="preserve">
+    <value>התעלם פעם אחת</value>
+  </data>
+  <data name="DocumentEditor_KeepLinesTogether" xml:space="preserve">
+    <value>המשך עם הבא</value>
+  </data>
+  <data name="DocumentEditor_ScreenTip" xml:space="preserve">
+       <value>טקסט של טיפ מסך</value>
+</data>
+<data name="DocumentEditor_KeepSource" xml:space="preserve">
+       <value>המשך לעצב את המקור</value>
+</data>
+<data name="DocumentEditor_DestinationFormat" xml:space="preserve">
+       <value>התאם עיצוב יעד</value>
+</data>
+<data name="DocumentEditor_CommentsOnly" xml:space="preserve">
+       <value>אתה יכול רק להוסיף הערות לאזור זה.</value>
+</data>
+<data name="DocumentEditor_RowRange" xml:space="preserve">
+       <value>מספר השורות חייב להיות בין 1 ל-32767.</value>
+</data>
+<data name="DocumentEditor_ColumnRange" xml:space="preserve">
+       <value>מספר העמודות חייב להיות בין 1 ל-63.</value>
+</data>
+<data name="DocumentEditor_Information" xml:space="preserve">
+       <value>מֵידָע</value>
+</data>
+<data name="DocumentEditor_Dot" xml:space="preserve">
+       <value>נְקוּדָה</value>
+</data>
+<data name="DocumentEditor_DashSmallGap" xml:space="preserve">
+       <value>מקף פער קטן</value>
+</data>
+<data name="DocumentEditor_DashDot" xml:space="preserve">
+       <value>דאש דוט</value>
+</data>
+<data name="DocumentEditor_ThinThickSmallGap" xml:space="preserve">
+       <value>מרווח קטן דק ועבה</value>
+</data>
+<data name="DocumentEditor_ThickThinSmallGap" xml:space="preserve">
+       <value>עבה דק קטן פער</value>
+</data>
+<data name="DocumentEditor_ThickThinMediumGap" xml:space="preserve">
+       <value>עבה דק בינוני פער</value>
+</data>
+<data name="DocumentEditor_ThickThinLargeGap" xml:space="preserve">
+       <value>עבה דק גדול פער</value>
+</data>
+<data name="DocumentEditor_SingleWavy" xml:space="preserve">
+       <value>גלי יחיד</value>
+</data>
+<data name="DocumentEditor_DoubleWavy" xml:space="preserve">
+       <value>גלי כפול</value>
+</data>
+<data name="DocumentEditor_Inset" xml:space="preserve">
+       <value>הַבלָעָה</value>
+</data>
+<data name="DocumentEditor_DashLargeGap" xml:space="preserve">
+       <value>מקף פער גדול</value>
+</data>
+<data name="DocumentEditor_DashDotDot" xml:space="preserve">
+       <value>נקודת מקף</value>
+</data>
+<data name="DocumentEditor_Triple" xml:space="preserve">
+       <value>לְשַׁלֵשׁ</value>
+</data>
+<data name="DocumentEditor_ThinThickThinSmallGap" xml:space="preserve">
+       <value>מרווח דק דק</value>
+</data>
+<data name="DocumentEditor_ThinThickThinMediumGap" xml:space="preserve">
+       <value>מרווח בינוני דק דק ודק</value>
+</data>
+<data name="DocumentEditor_ThinThickThinLargeGap" xml:space="preserve">
+       <value>מרווח דק ודק</value>
+</data>
+<data name="DocumentEditor_DashDotStroked" xml:space="preserve">
+       <value>קו נקודה מקף</value>
+</data>
+<data name="DocumentEditor_Engrave3D" xml:space="preserve">
+       <value>לחרוט 3D</value>
+</data>
+<data name="DocumentEditor_Thick" xml:space="preserve">
+       <value>עבה</value>
+</data>
+<data name="DocumentEditor_Outset" xml:space="preserve">
+       <value>רֵאשִׁית</value>
+</data>
+<data name="DocumentEditor_Emboss3D" xml:space="preserve">
+       <value>הבלטה3D</value>
+</data>
+<data name="DocumentEditor_ThinThickLargeGap" xml:space="preserve">
+       <value>דק עבה פער גדול</value>
+</data>
+<data name="DocumentEditor_ThinThickMediumGap" xml:space="preserve">
+       <value>דק עבה מרווח בינוני</value>
+</data>
+<data name="DocumentEditor_RegularText" xml:space="preserve">
+       <value>טקסט רגיל</value>
+</data>
+<data name="DocumentEditor_Date" xml:space="preserve">
+       <value>תַאֲרִיך</value>
+</data>
+<data name="DocumentEditor_Uppercase" xml:space="preserve">
+       <value>אותיות רישיות</value>
+</data>
+<data name="DocumentEditor_Lowercase" xml:space="preserve">
+       <value>אותיות קטנות</value>
+</data>
+<data name="DocumentEditor_FirstCapital" xml:space="preserve">
+       <value>עיר בירה ראשונה</value>
+</data>
+<data name="DocumentEditor_Titlecase" xml:space="preserve">
+       <value>כותרת כיסוי</value>
+</data>
+<data name="DocumentEditor_MoveFrom" xml:space="preserve">
+       <value>לעבור מ</value>
+</data>
+<data name="DocumentEditor_MoveTo" xml:space="preserve">
+       <value>לעבור ל</value>
+</data>
+<data name="DocumentEditor_Px" xml:space="preserve">
+       <value>פיקסלים</value>
+</data>
+<data name="DocumentEditor_ReadOnlyProtection" xml:space="preserve">
+       <value>אתה יכול לערוך באזור זה.</value>
+</data>
+<data name="DocumentEditorContainer_RegularTooltip" xml:space="preserve">
+       <value>רגיל</value>
+</data>
+<data name="DocumentEditorContainer_BoldItalicTooltip" xml:space="preserve">
+       <value>מודגש נטוי</value>
+</data>
+  <data name="DocumentEditorContainer_New" xml:space="preserve">
+    <value>חדש</value>
+  </data>
+  <data name="DocumentEditorContainer_Open" xml:space="preserve">
+    <value>פתוח</value>
+  </data>
+  <data name="DocumentEditorContainer_Undo" xml:space="preserve">
+    <value>לבטל</value>
+  </data>
+  <data name="DocumentEditorContainer_Redo" xml:space="preserve">
+    <value>בצע שוב</value>
+  </data>
+  <data name="DocumentEditorContainer_Image" xml:space="preserve">
+    <value>תמונה</value>
+  </data>
+  <data name="DocumentEditorContainer_Table" xml:space="preserve">
+    <value>שולחן</value>
+  </data>
+  <data name="DocumentEditorContainer_Link" xml:space="preserve">
+    <value>קישור</value>
+  </data>
+  <data name="DocumentEditorContainer_Bookmark" xml:space="preserve">
+    <value>סימניה</value>
+  </data>
+  <data name="DocumentEditorContainer_TableOfContents" xml:space="preserve">
+    <value>תוכן העניינים</value>
+  </data>
+  <data name="DocumentEditorContainer_HEADING1" xml:space="preserve">
+    <value>כותרת - - - - 1</value>
+  </data>
+  <data name="DocumentEditorContainer_HEADING2" xml:space="preserve">
+    <value>כותרת - - - - 2</value>
+  </data>
+  <data name="DocumentEditorContainer_HEADING3" xml:space="preserve">
+    <value>כותרת - - - - 3</value>
+  </data>
+  <data name="DocumentEditorContainer_Header" xml:space="preserve">
+    <value>כותרת עליונה</value>
+  </data>
+  <data name="DocumentEditorContainer_Footer" xml:space="preserve">
+    <value>כותרת תחתונה</value>
+  </data>
+  <data name="DocumentEditorContainer_PageSetup" xml:space="preserve">
+    <value>הגדרות עמוד</value>
+  </data>
+  <data name="DocumentEditorContainer_PageNumber" xml:space="preserve">
+    <value>מספר עמוד</value>
+  </data>
+  <data name="DocumentEditorContainer_Break" xml:space="preserve">
+    <value>לשבור</value>
+  </data>
+  <data name="DocumentEditorContainer_Find" xml:space="preserve">
+    <value>למצוא</value>
+  </data>
+  <data name="DocumentEditorContainer_LocalClipboard" xml:space="preserve">
+    <value>הלוח המקומי</value>
+  </data>
+  <data name="DocumentEditorContainer_RestrictEditing" xml:space="preserve">
+    <value>הגבל את העריכה</value>
+  </data>
+  <data name="DocumentEditorContainer_UploadFromComputer" xml:space="preserve">
+    <value>העלה מהמחשב</value>
+  </data>
+  <data name="DocumentEditorContainer_ByURL" xml:space="preserve">
+    <value>לפי כתובת אתר</value>
+  </data>
+  <data name="DocumentEditorContainer_PageBreak" xml:space="preserve">
+    <value>פריצת עמוד</value>
+  </data>
+  <data name="DocumentEditorContainer_SectionBreak" xml:space="preserve">
+    <value>קטע מעבר</value>
+  </data>
+  <data name="DocumentEditorContainer_HeaderAndFooter" xml:space="preserve">
+    <value>כותרת עליונה וכותרת תחתונה</value>
+  </data>
+  <data name="DocumentEditorContainer_Options" xml:space="preserve">
+    <value>אפשרויות</value>
+  </data>
+  <data name="DocumentEditorContainer_Levels" xml:space="preserve">
+    <value>רמות</value>
+  </data>
+  <data name="DocumentEditorContainer_DifferentFirstPage" xml:space="preserve">
+    <value>עמוד ראשון שונה</value>
+  </data>
+  <data name="DocumentEditorContainer_DifferentHeaderAndFooterForOddAndEvenPages" xml:space="preserve">
+    <value>כותרת עליונה ותחתונה שונה לדפים משונים ואף אחידים.</value>
+  </data>
+  <data name="DocumentEditorContainer_DifferentOddAndEvenPages" xml:space="preserve">
+    <value>דפים שונים ומוזרים שונים</value>
+  </data>
+  <data name="DocumentEditorContainer_DifferentHeaderAndFooterForFirstPage" xml:space="preserve">
+    <value>כותרת עליונה ותחתונה שונה עבור העמוד הראשון.</value>
+  </data>
+  <data name="DocumentEditorContainer_Position" xml:space="preserve">
+    <value>עמדה</value>
+  </data>
+  <data name="DocumentEditorContainer_HeaderFromTop" xml:space="preserve">
+    <value>כותרת עליונה</value>
+  </data>
+  <data name="DocumentEditorContainer_FooterFromBottom" xml:space="preserve">
+    <value>כותרת תחתונה מלמטה</value>
+  </data>
+  <data name="DocumentEditorContainer_DistanceFromTopOfThePageToTopOfTheHeader" xml:space="preserve">
+    <value>המרחק מראש הדף לראש הכותרת.</value>
+  </data>
+  <data name="DocumentEditorContainer_DistanceFromBottomOfThePageToBottomOfTheFooter" xml:space="preserve">
+    <value>המרחק מתחתית העמוד לתחתית הכותרת התחתונה.</value>
+  </data>
+  <data name="DocumentEditorContainer_AspectRatio" xml:space="preserve">
+    <value>יחס גובה-רוחב</value>
+  </data>
+  <data name="DocumentEditorContainer_W" xml:space="preserve">
+    <value>W</value>
+  </data>
+  <data name="DocumentEditorContainer_H" xml:space="preserve">
+    <value>ח</value>
+  </data>
+  <data name="DocumentEditorContainer_Width" xml:space="preserve">
+    <value>רוחב</value>
+  </data>
+  <data name="DocumentEditorContainer_Height" xml:space="preserve">
+    <value>גובה</value>
+  </data>
+  <data name="DocumentEditorContainer_Text" xml:space="preserve">
+    <value>טקסט</value>
+  </data>
+  <data name="DocumentEditorContainer_Paragraph" xml:space="preserve">
+    <value>פסקה</value>
+  </data>
+  <data name="DocumentEditorContainer_Fill" xml:space="preserve">
+    <value>למלא</value>
+  </data>
+  <data name="DocumentEditorContainer_FillColor" xml:space="preserve">
+    <value>צבע מילוי</value>
+  </data>
+  <data name="DocumentEditorContainer_BorderStyle" xml:space="preserve">
+    <value>סגנון גבול</value>
+  </data>
+  <data name="DocumentEditorContainer_OutsideBorders" xml:space="preserve">
+    <value>גבולות מחוץ</value>
+  </data>
+  <data name="DocumentEditorContainer_AllBorders" xml:space="preserve">
+    <value>כל הגבולות</value>
+  </data>
+  <data name="DocumentEditorContainer_InsideBorders" xml:space="preserve">
+    <value>בתוך גבולות</value>
+  </data>
+  <data name="DocumentEditorContainer_LeftBorder" xml:space="preserve">
+    <value>גבול שמאלי</value>
+  </data>
+  <data name="DocumentEditorContainer_InsideVerticalBorder" xml:space="preserve">
+    <value>בתוך גבול אנכי</value>
+  </data>
+  <data name="DocumentEditorContainer_RightBorder" xml:space="preserve">
+    <value>גבול ימין</value>
+  </data>
+  <data name="DocumentEditorContainer_TopBorder" xml:space="preserve">
+    <value>גבול עליון</value>
+  </data>
+  <data name="DocumentEditorContainer_InsideHorizontalBorder" xml:space="preserve">
+    <value>בתוך גבול אופקי</value>
+  </data>
+  <data name="DocumentEditorContainer_BottomBorder" xml:space="preserve">
+    <value>גבול תחתון</value>
+  </data>
+  <data name="DocumentEditorContainer_BorderColor" xml:space="preserve">
+    <value>צבע גבול</value>
+  </data>
+  <data name="DocumentEditorContainer_BorderWidth" xml:space="preserve">
+    <value>רוחב גבול</value>
+  </data>
+  <data name="DocumentEditorContainer_Cell" xml:space="preserve">
+    <value>תא</value>
+  </data>
+  <data name="DocumentEditorContainer_MergeCells" xml:space="preserve">
+    <value>מיזוג תאים</value>
+  </data>
+  <data name="DocumentEditorContainer_InsertOrDelete" xml:space="preserve">
+    <value>הכנס / מחק</value>
+  </data>
+  <data name="DocumentEditorContainer_InsertColumnsToTheLeft" xml:space="preserve">
+    <value>הכנס עמודות משמאל</value>
+  </data>
+  <data name="DocumentEditorContainer_InsertColumnsToTheRight" xml:space="preserve">
+    <value>הכנס עמודות משמאל</value>
+  </data>
+  <data name="DocumentEditorContainer_InsertRowsAbove" xml:space="preserve">
+    <value>הכנס שורות למעלה</value>
+  </data>
+  <data name="DocumentEditorContainer_InsertRowsBelow" xml:space="preserve">
+    <value>הכנס שורות למטה</value>
+  </data>
+  <data name="DocumentEditorContainer_DeleteRows" xml:space="preserve">
+    <value>מחק שורות</value>
+  </data>
+  <data name="DocumentEditorContainer_DeleteColumns" xml:space="preserve">
+    <value>מחק עמודות</value>
+  </data>
+  <data name="DocumentEditorContainer_CellMargin" xml:space="preserve">
+    <value>שולי תא</value>
+  </data>
+  <data name="DocumentEditorContainer_Top" xml:space="preserve">
+    <value>חלק עליון</value>
+  </data>
+  <data name="DocumentEditorContainer_Bottom" xml:space="preserve">
+    <value>בתחתית</value>
+  </data>
+  <data name="DocumentEditorContainer_Left" xml:space="preserve">
+    <value>שמאלה</value>
+  </data>
+  <data name="DocumentEditorContainer_Right" xml:space="preserve">
+    <value>ימין</value>
+  </data>
+  <data name="DocumentEditorContainer_AlignText" xml:space="preserve">
+    <value>יישור טקסט</value>
+  </data>
+  <data name="DocumentEditorContainer_Aligntop" xml:space="preserve">
+    <value>יישר את החלק העליון</value>
+  </data>
+  <data name="DocumentEditorContainer_AlignBottom" xml:space="preserve">
+    <value>יישר את התחתון</value>
+  </data>
+  <data name="DocumentEditorContainer_AlignCenter" xml:space="preserve">
+    <value>יישר למרכז</value>
+  </data>
+  <data name="DocumentEditorContainer_NumberOfHeadingOrOutlineLevelsToBeShownInTableOfContents" xml:space="preserve">
+    <value>מספר רמות הכותרת או המתאר שיוצגו בתוכן העניינים.</value>
+  </data>
+  <data name="DocumentEditorContainer_ShowPageNumbers" xml:space="preserve">
+    <value>הצג מספרי עמודים</value>
+  </data>
+  <data name="DocumentEditorContainer_ShowPageNumbersInTableOfContents" xml:space="preserve">
+    <value>הצג מספרי עמודים בתוכן העניינים.</value>
+  </data>
+  <data name="DocumentEditorContainer_RightAlignPageNumbers" xml:space="preserve">
+    <value>יישור מספרי עמודים ימני.</value>
+  </data>
+  <data name="DocumentEditorContainer_RightAlignPageNumbersInTableOfContents" xml:space="preserve">
+    <value>יישר ימינה את מספרי העמודים בתוכן העניינים.</value>
+  </data>
+  <data name="DocumentEditorContainer_UseHyperlinks" xml:space="preserve">
+    <value>השתמש בהיפר-קישורים</value>
+  </data>
+  <data name="DocumentEditorContainer_UseHyperlinksInsteadOfPageNumbers" xml:space="preserve">
+    <value>השתמש בהיפר-קישורים במקום במספרי עמודים.</value>
+  </data>
+  <data name="DocumentEditorContainer_Font" xml:space="preserve">
+    <value>גופן</value>
+  </data>
+  <data name="DocumentEditorContainer_FontSize" xml:space="preserve">
+    <value>גודל גופן</value>
+  </data>
+  <data name="DocumentEditorContainer_FontColor" xml:space="preserve">
+    <value>צבע גופן</value>
+  </data>
+  <data name="DocumentEditorContainer_TextHighlightColor" xml:space="preserve">
+    <value>צבע הדגשת טקסט</value>
+  </data>
+  <data name="DocumentEditorContainer_ClearAllFormatting" xml:space="preserve">
+    <value>נקה את כל העיצוב</value>
+  </data>
+  <data name="DocumentEditorContainer_BoldTooltip" xml:space="preserve">
+    <value>מודגש (Ctrl + B)</value>
+  </data>
+  <data name="DocumentEditorContainer_ItalicTooltip" xml:space="preserve">
+    <value>נטוי (Ctrl + I)</value>
+  </data>
+  <data name="DocumentEditorContainer_UnderlineTooltip" xml:space="preserve">
+    <value>קו תחתון (Ctrl + U)</value>
+  </data>
+  <data name="DocumentEditorContainer_Strikethrough" xml:space="preserve">
+    <value>חוצה דרך</value>
+  </data>
+  <data name="DocumentEditorContainer_SuperscriptTooltip" xml:space="preserve">
+    <value>העלאה (Ctrl + Shift ++)</value>
+  </data>
+  <data name="DocumentEditorContainer_SubscriptTooltip" xml:space="preserve">
+    <value>מנוי (Ctrl + =)</value>
+  </data>
+  <data name="DocumentEditorContainer_AlignLeftTooltip" xml:space="preserve">
+    <value>יישר שמאלה (Ctrl + L)</value>
+  </data>
+  <data name="DocumentEditorContainer_CenterTooltip" xml:space="preserve">
+    <value>מרכז (Ctrl + E)</value>
+  </data>
+  <data name="DocumentEditorContainer_AlignRightTooltip" xml:space="preserve">
+    <value>יישר ימינה (Ctrl + R)</value>
+  </data>
+  <data name="DocumentEditorContainer_JustifyTooltip" xml:space="preserve">
+    <value>הצדקה (Ctrl + J)</value>
+  </data>
+  <data name="DocumentEditorContainer_DecreaseIndent" xml:space="preserve">
+    <value>צמצם את הכניסה</value>
+  </data>
+  <data name="DocumentEditorContainer_IncreaseIndent" xml:space="preserve">
+    <value>הגדל את הכניסה</value>
+  </data>
+  <data name="DocumentEditorContainer_LineSpacing" xml:space="preserve">
+    <value>מרווח בין שורות</value>
+  </data>
+  <data name="DocumentEditorContainer_Bullets" xml:space="preserve">
+    <value>כדורים</value>
+  </data>
+  <data name="DocumentEditorContainer_Numbering" xml:space="preserve">
+    <value>מספור</value>
+  </data>
+  <data name="DocumentEditorContainer_Styles" xml:space="preserve">
+    <value>סגנונות</value>
+  </data>
+  <data name="DocumentEditorContainer_ManageStyles" xml:space="preserve">
+    <value>נהל סגנונות</value>
+  </data>
+  <data name="DocumentEditorContainer_Page" xml:space="preserve">
+    <value>עמוד</value>
+  </data>
+  <data name="DocumentEditorContainer_Of" xml:space="preserve">
+    <value>של</value>
+  </data>
+  <data name="DocumentEditorContainer_FitOnePage" xml:space="preserve">
+    <value>התאם דף אחד</value>
+  </data>
+  <data name="DocumentEditorContainer_SpellCheck" xml:space="preserve">
+    <value>בדיקת איות</value>
+  </data>
+  <data name="DocumentEditorContainer_UnderlineErrors" xml:space="preserve">
+    <value>הדגיש שגיאות</value>
+  </data>
+  <data name="DocumentEditorContainer_FitPageWidth" xml:space="preserve">
+    <value>התאם את רוחב העמוד</value>
+  </data>
+  <data name="DocumentEditorContainer_Update" xml:space="preserve">
+    <value>עדכון</value>
+  </data>
+  <data name="DocumentEditorContainer_Cancel" xml:space="preserve">
+    <value>בטל</value>
+  </data>
+  <data name="DocumentEditorContainer_Insert" xml:space="preserve">
+    <value>הכנס</value>
+  </data>
+  <data name="DocumentEditorContainer_NoBorder" xml:space="preserve">
+    <value>אין גבול</value>
+  </data>
+  <data name="DocumentEditorContainer_CreateANewDocument" xml:space="preserve">
+    <value>צור מסמך חדש.</value>
+  </data>
+  <data name="DocumentEditorContainer_OpenADocument" xml:space="preserve">
+    <value>פתח מסמך.</value>
+  </data>
+  <data name="DocumentEditorContainer_UndoTooltip" xml:space="preserve">
+    <value>בטל את הפעולה האחרונה (Ctrl + Z).</value>
+  </data>
+  <data name="DocumentEditorContainer_RedoTooltip" xml:space="preserve">
+    <value>בצע שוב את הפעולה האחרונה (Ctrl + Y).</value>
+  </data>
+  <data name="DocumentEditorContainer_InsertInlinePictureFromAFile" xml:space="preserve">
+    <value>הכנס תמונה מוטבעת מקובץ.</value>
+  </data>
+  <data name="DocumentEditorContainer_InsertATableIntoTheDocument" xml:space="preserve">
+    <value>הכנס טבלה למסמך.</value>
+  </data>
+  <data name="DocumentEditorContainer_CreateHyperlink" xml:space="preserve">
+    <value>צור קישור במסמך לגישה מהירה לדפי אינטרנט וקבצים (Ctrl + K).</value>
+  </data>
+  <data name="DocumentEditorContainer_InsertABookmarkInASpecificPlaceInThisDocument" xml:space="preserve">
+    <value>הכנס סימניה במקום ספציפי במסמך זה.</value>
+  </data>
+  <data name="DocumentEditorContainer_ProvideAnOverviewOfYourDocumentByAddingATableOfContents" xml:space="preserve">
+    <value>ספק סקירה כללית של המסמך שלך על ידי הוספת תוכן עניינים.</value>
+  </data>
+  <data name="DocumentEditorContainer_AddOrEditTheHeader" xml:space="preserve">
+    <value>הוסף או ערוך את הכותרת.</value>
+  </data>
+  <data name="DocumentEditorContainer_AddOrEditTheFooter" xml:space="preserve">
+    <value>הוסף או ערוך את הכותרת התחתונה.</value>
+  </data>
+  <data name="DocumentEditorContainer_OpenThePageSetupDialog" xml:space="preserve">
+    <value>פתח את תיבת הדו-שיח של הגדרת העמוד.</value>
+  </data>
+  <data name="DocumentEditorContainer_AddPageNumbers" xml:space="preserve">
+    <value>הוסף מספרי עמודים.</value>
+  </data>
+  <data name="DocumentEditorContainer_FindText" xml:space="preserve">
+    <value>מצא טקסט במסמך (Ctrl + F).</value>
+  </data>
+  <data name="DocumentEditorContainer_CurrentPageNumber" xml:space="preserve">
+    <value>מספר העמוד הנוכחי במסמך. לחץ או הקש כדי לנווט בדף ספציפי.</value>
+  </data>
+  <data name="DocumentEditorContainer_ReadOnly" xml:space="preserve">
+    <value>לקריאה בלבד</value>
+  </data>
+  <data name="DocumentEditorContainer_Protections" xml:space="preserve">
+    <value>הגנות</value>
+  </data>
+  <data name="DocumentEditorContainer_ErrorInEstablishingConnectionWithWebServer" xml:space="preserve">
+    <value>שגיאה ביצירת חיבור לשרת האינטרנט</value>
+  </data>
+  <data name="DocumentEditorContainer_Single" xml:space="preserve">
+    <value>יחיד</value>
+  </data>
+  <data name="DocumentEditorContainer_Double" xml:space="preserve">
+    <value>כפול</value>
+  </data>
+  <data name="DocumentEditorContainer_NewComment" xml:space="preserve">
+    <value>תגובה חדשה</value>
+  </data>
+  <data name="DocumentEditorContainer_Comments" xml:space="preserve">
+    <value>הערות</value>
+  </data>
+  <data name="DocumentEditorContainer_PrintLayout" xml:space="preserve">
+    <value>פריסת הדפסה</value>
+  </data>
+  <data name="DocumentEditorContainer_WebLayout" xml:space="preserve">
+    <value>פריסת רשת</value>
+  </data>
+  <data name="DocumentEditorContainer_ToggleBetweenTheInternalClipboardAndSystemClipboard" xml:space="preserve">
+    <value>מעבר בין הלוח הפנימי ללוח המערכת. &#xD; הגישה ללוח המערכת דרך סקריפט נדחתה בגלל מדיניות האבטחה של הדפדפנים. במקום זאת, &#xD; 1. אתה יכול לאפשר ללוח פנימי לחתוך, להעתיק ולהדביק בתוך הרכיב. &#xD; 2. אתה יכול להשתמש בקיצורי המקשים (Ctrl + X, Ctrl + C ו- Ctrl + V) כדי לחתוך , העתק והדבק באמצעות לוח המערכת.</value>
+  </data>
+  <data name="DocumentEditorContainer_TextForm" xml:space="preserve">
+    <value>טופס טקסט</value>
+  </data>
+  <data name="DocumentEditorContainer_CheckBox" xml:space="preserve">
+    <value>תיבת הסימון</value>
+  </data>
+  <data name="DocumentEditorContainer_DropDown" xml:space="preserve">
+    <value>להפיל</value>
+  </data>
+  <data name="DocumentEditorContainer_UpdateFields" xml:space="preserve">
+    <value>עדכן שדות</value>
+  </data>
+  <data name="DocumentEditorContainer_UpdateCrossReferenceFields" xml:space="preserve">
+    <value>עדכן שדות הפניה מקושרת.</value>
+  </data>
+  <data name="DocumentEditorContainer_Track_changes" xml:space="preserve">
+    <value>עקוב אחר השינויים שבוצעו במסמך.</value>
+  </data>
+  <data name="DocumentEditorContainer_TrackChanges" xml:space="preserve">
+    <value>שינויי מסלול</value>
+  </data>
+  <data name="DocumentEditorContainer_ZoomLevel" xml:space="preserve">
+    <value>רמת הזום</value>
+  </data>
+  <data name="DocumentEditorContainer_Footnote_Tooltip" xml:space="preserve">
+    <value>הוסף הערת שוליים (Alt + Ctrl + F).</value>
+  </data>
+  <data name="DocumentEditorContainer_Endnote_Tooltip" xml:space="preserve">
+    <value>הכנס הערת סיום (Alt + Ctrl + D).</value>
+  </data>
+  <data name="DocumentEditorContainer_ShowComments" xml:space="preserve">
+    <value>הוסף הערות</value>
+  </data>
+  <data name="DocumentEditorContainer_FormFields" xml:space="preserve">
+    <value>שדות טופס</value>
+  </data>
+  <data name="DocumentEditorContainer_Information" xml:space="preserve">
+    <value>מֵידָע</value>
+  </data>
+  <data name="DocumentEditorContainer_AllCaps" xml:space="preserve">
+    <value>הכול באותיות גדולות</value>
+  </data>
+  <data name="DocumentEditorContainer_Insert_Footnote" xml:space="preserve">
+    <value>הכנס</value>
+  </data>
+  <data name="DocumentEditorContainer_Insert_Endnote" xml:space="preserve">
+    <value>הכנס</value>
+  </data>
+  <data name="DocumentEditorContainer_FillingInForms" xml:space="preserve">
+    <value>מילוי טפסים</value>
+  </data>
+  <data name="DocumentEditorContainer_Trackedchanges" xml:space="preserve">
+    <value>מעקב אחר שינויים</value>
+  </data>
+  <data name="DocumentEditorContainer_RemovedIgnoreExceptions" xml:space="preserve">
+    <value>אם תבצע את השינוי הזה בהגנה על מסמכים, Word יתעלם מכל החריגים במסמך זה.</value>
+  </data>
+  <data name="DocumentEditor_RevisionsOnly" xml:space="preserve">
+    <value>אתה יכול לערוך באזור זה, אבל כל השינויים יעברו מעקב</value>
+  </data>
+  <data name="DocumentEditorContainer_RemovedIgnore" xml:space="preserve">
+    <value>האם ברצונך להסיר את החריגים שהתעלמו מהם?</value>
+  </data>
+  <data name="DocumentEditorContainer_Yes" xml:space="preserve">
+    <value>כן</value>
+  </data>
+  <data name="DocumentEditorContainer_No" xml:space="preserve">
+    <value>לא</value>
+  </data>
+  <data name="Gantt_Touch_DialogTextOnClickingConnectorPoint" xml:space="preserve">
+    <value>בחר במשימה אחרת</value>
+  </data>
+  <data name="Gantt_Touch_DialogTextOnSelectingTaskbar" xml:space="preserve">
+    <value>בחר את מיקום המחבר</value>
+  </data>
+  <data name="Gantt_Touch_LeftButton" xml:space="preserve">
+    <value>שמאלה</value>
+  </data>
+  <data name="Gantt_Touch_RightButton" xml:space="preserve">
+    <value>ימין</value>
+  </data>
+  <data name="PdfViewer_ExportXFDF" xml:space="preserve">
+    <value>ייצא הערה לקובץ XFDF</value>
+  </data>
+  <data name="PdfViewer_ImportXFDF" xml:space="preserve">
+    <value>ייבא הערות מקובץ XFDF</value>
+  </data>
+</root>
