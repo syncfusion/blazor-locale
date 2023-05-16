@@ -591,6 +591,9 @@
   <data name="Slider_IncrementTitle" xml:space="preserve">
     <value>Lisääntyä</value>
   </data>
+  <data name="Maps_ImageNotFound" xml:space="preserve">
+    <value>Kuvaa ei löydy</value>
+  </data>
   <data name="Maps_Zoom" xml:space="preserve">
     <value>Zoomaus</value>
   </data>
@@ -894,6 +897,9 @@
   <data name="Gantt_TaskType" xml:space="preserve">
     <value>Tehtävän tyyppi</value>
   </data>
+  <data name="Gantt_CriticalPath" xml:space="preserve">
+    <value>Kriittinen polku</value>
+  </data>
   <data name="ColorPicker_Apply" xml:space="preserve">
     <value>Käytä</value>
   </data>
@@ -902,6 +908,15 @@
   </data>
   <data name="ColorPicker_ModeSwitcher" xml:space="preserve">
     <value>Vaihda tila</value>
+  </data>
+  <data name="ColorPicker_FormatSwitcher" xml:space="preserve">
+    <value>Vaihda muotoa</value>
+  </data>
+  <data name="ColorPicker" xml:space="preserve">
+    <value>Värinvalitsija</value>
+  </data>
+  <data name="SplitButton" xml:space="preserve">
+    <value>Split-painike</value>
   </data>
   <data name="ListBox_ActionFailureTemplate" xml:space="preserve">
     <value>Pyyntö epäonnistui</value>
@@ -932,6 +947,9 @@
   </data>
   <data name="ListBox_UnSelectAllText" xml:space="preserve">
     <value>Poista kaikki valinnat</value>
+  </data>
+  <data name="ListBox_FilterLabel" xml:space="preserve">
+    <value>Hae luettelokohdetta</value>
   </data>
   <data name="PivotView_NumberFormat_ExampleWatermark" xml:space="preserve">
     <value>Esimerkki: C, P, 0000%, ### 0. ## 0 # jne.</value>
@@ -2830,6 +2848,9 @@
   </data>
   <data name="Pager_All" xml:space="preserve">
     <value>Kaikki</value>
+  </data>
+  <data name="Pager_Items" xml:space="preserve">
+    <value>kohdetta</value>
   </data>
   <data name="RecurrenceEditor_Count" xml:space="preserve">
     <value>Kreivi</value>
@@ -4889,6 +4910,9 @@
 <data name="DocumentEditor_PageBreak" xml:space="preserve">
 <value>Sivunvaihto</value>
 </data>
+<data name="DocumentEditor_ColumnBreak" xml:space="preserve">
+<value>Sarakkeen tauko</value>
+</data>
 <data name="DocumentEditor_One" xml:space="preserve">
 <value>Yksi</value>
 </data>
@@ -4922,11 +4946,14 @@
 <data name="DocumentEditor_SectionBreakContinuous" xml:space="preserve">
 <value>Osion tauko (jatkuva)</value>
 </data>
+<data name="DocumentEditor_PasteContentDialog" xml:space="preserve">
+  <value>Selaimen suojauskäytännön vuoksi liittäminen järjestelmän leikepöydältä on rajoitettu. Vaihtoehtoisesti voit käyttää pikanäppäintä</value>
+</data>
+<data name="DocumentEditor_PasteCheckBoxContentDialog" xml:space="preserve">
+  <value>Älä näytä uudelleen</value>
+</data>
 <data name="DocumentEditorContainer_Columns" xml:space="preserve">
 <value>Sarakkeet</value>
-</data>
-<data name="DocumentEditorContainer_ColumnBreak" xml:space="preserve">
-<value>Sarakkeen tauko</value>
 </data>
 <data name="DocumentEditorContainer_ShowHiddenMarks" xml:space="preserve">
 <value>Näytä piilotetut merkit, kuten välilyönnit, sarkaimet, kappalemerkit ja vaihdot.(Ctrl + *)</value>
@@ -5002,12 +5029,6 @@
   </data>
   <data name="DocumentEditorContainer_ByURL" xml:space="preserve">
     <value>URL-osoitteen mukaan</value>
-  </data>
-  <data name="DocumentEditorContainer_PageBreak" xml:space="preserve">
-    <value>Sivunvaihto</value>
-  </data>
-  <data name="DocumentEditorContainer_SectionBreak" xml:space="preserve">
-    <value>Jaksokatko</value>
   </data>
   <data name="DocumentEditorContainer_HeaderAndFooter" xml:space="preserve">
     <value>Ylä- ja alatunniste</value>
@@ -5435,6 +5456,24 @@
   <data name="DocumentEditorContainer_HidePropertiesPane" xml:space="preserve">
     <value>Piilota ominaisuusruutu</value>
   </data>
+  <data name="DocumentEditorContainer_SectionBreakContinuous" xml:space="preserve">
+    <value>Jatkuva</value>
+  </data>
+  <data name="DocumentEditorContainer_ColumnBreak" xml:space="preserve">
+    <value>Sarake</value>
+  </data>
+  <data name="DocumentEditorContainer_PageBreak" xml:space="preserve">
+    <value>Sivu</value>
+  </data>
+  <data name="DocumentEditorContainer_SectionBreak" xml:space="preserve">
+    <value>Seuraava sivu</value>
+  </data>
+  <data name="DocumentEditorContainer_PageBreaks" xml:space="preserve">
+    <value>Sivukatkot</value>
+  </data>
+  <data name="DocumentEditorContainer_SectionBreaks" xml:space="preserve">
+    <value>Osion katkokset</value>
+  </data>
   <data name="Gantt_Touch_DialogTextOnClickingConnectorPoint" xml:space="preserve">
     <value>Valitse toinen tehtävä</value>
   </data>
@@ -5494,5 +5533,35 @@
   </data>
   <data name="PivotView_Auto" xml:space="preserve">
     <value>Auto</value>
+  </data>
+  <data name="PivotView_RowPager" xml:space="preserve">
+    <value>Rivihakulaite</value>
+  </data>
+  <data name="PivotView_RowsPerPage" xml:space="preserve">
+    <value>Rivejä per sivu</value>
+  </data>
+  <data name="PivotView_ColumnPager" xml:space="preserve">
+    <value>Sarakehakulaite</value>
+  </data>
+  <data name="PivotView_ColumnsPerPage" xml:space="preserve">
+    <value>Sarakkeita per sivu</value>
+  </data>
+  <data name="PivotView_GoToFirstPage" xml:space="preserve">
+    <value>Siirry ensimmäiselle sivulle</value>
+  </data>
+  <data name="PivotView_GoToLastPage" xml:space="preserve">
+    <value>Siirry viimeiselle sivulle</value>
+  </data>
+  <data name="PivotView_GoToNextPage" xml:space="preserve">
+    <value>Siirry seuraavalle sivulle</value>
+  </data>
+  <data name="PivotView_GoToPreviousPage" xml:space="preserve">
+    <value>Siirry edelliselle sivulle</value>
+  </data>
+  <data name="Grid_ChooseTime" xml:space="preserve">
+    <value>Valitse aika!</value>
+  </data>
+  <data name="Grid_TimeFilter" xml:space="preserve">
+    <value>Aikasuodattimet!</value>
   </data>
 </root>

@@ -591,6 +591,9 @@
   <data name="Slider_IncrementTitle" xml:space="preserve">
     <value>להגביר</value>
   </data>
+  <data name="Maps_ImageNotFound" xml:space="preserve">
+    <value>Image Not Found</value>
+  </data>
   <data name="Maps_Zoom" xml:space="preserve">
     <value>תקריב</value>
   </data>
@@ -894,6 +897,9 @@
   <data name="Gantt_TaskType" xml:space="preserve">
     <value>סוג משימה</value>
   </data>
+  <data name="Gantt_CriticalPath" xml:space="preserve">
+    <value>נתיב קריטי</value>
+  </data>
   <data name="ColorPicker_Apply" xml:space="preserve">
     <value>להגיש מועמדות</value>
   </data>
@@ -902,6 +908,15 @@
   </data>
   <data name="ColorPicker_ModeSwitcher" xml:space="preserve">
     <value>להחליף מצב</value>
+  </data>
+  <data name="ColorPicker_FormatSwitcher" xml:space="preserve">
+    <value>החלף פורמט</value>
+  </data>
+  <data name="ColorPicker" xml:space="preserve">
+    <value>בוחר הצבעים</value>
+  </data>
+  <data name="SplitButton" xml:space="preserve">
+    <value>כפתור פיצול</value>
   </data>
   <data name="ListBox_ActionFailureTemplate" xml:space="preserve">
     <value>בקשה נכשלה</value>
@@ -932,6 +947,9 @@
   </data>
   <data name="ListBox_UnSelectAllText" xml:space="preserve">
     <value>בטל את הבחירה בכולם</value>
+  </data>
+  <data name="ListBox_FilterLabel" xml:space="preserve">
+    <value>חפש פריט ברשימה</value>
   </data>
   <data name="PivotView_NumberFormat_ExampleWatermark" xml:space="preserve">
     <value>דוגמה: C, P, 0000%, ### 0. ## 0 # וכו '.</value>
@@ -2830,6 +2848,9 @@
   </data>
   <data name="Pager_All" xml:space="preserve">
     <value>את כל</value>
+  </data>
+  <data name="Pager_Items" xml:space="preserve">
+    <value>פריטים</value>
   </data>
   <data name="RecurrenceEditor_Count" xml:space="preserve">
     <value>לספור</value>
@@ -4889,6 +4910,9 @@
 <data name="DocumentEditor_PageBreak" xml:space="preserve">
 <value>מעבר עמודים</value>
 </data>
+<data name="DocumentEditor_ColumnBreak" xml:space="preserve">
+<value>שבירת עמודות</value>
+</data>
 <data name="DocumentEditor_One" xml:space="preserve">
 <value>אחד</value>
 </data>
@@ -4922,11 +4946,14 @@
 <data name="DocumentEditor_SectionBreakContinuous" xml:space="preserve">
 <value>הפסקת מדור (רציף)</value>
 </data>
+<data name="DocumentEditor_PasteContentDialog" xml:space="preserve">
+  <value>בשל מדיניות האבטחה של הדפדפן, ההדבקה מהלוח של המערכת מוגבלת. לחלופין השתמש בקיצור המקלדת</value>
+</data>
+<data name="DocumentEditor_PasteCheckBoxContentDialog" xml:space="preserve">
+  <value>אל תראה שוב</value>
+</data>
 <data name="DocumentEditorContainer_Columns" xml:space="preserve">
 <value>עמודות</value>
-</data>
-<data name="DocumentEditorContainer_ColumnBreak" xml:space="preserve">
-<value>שבירת עמודות</value>
 </data>
 <data name="DocumentEditorContainer_ShowHiddenMarks" xml:space="preserve">
 <value>הצג את התווים המוסתרים כמו רווחים, טאב, סימני פסקה ומעברים.(Ctrl + *)</value>
@@ -5002,12 +5029,6 @@
   </data>
   <data name="DocumentEditorContainer_ByURL" xml:space="preserve">
     <value>לפי כתובת אתר</value>
-  </data>
-  <data name="DocumentEditorContainer_PageBreak" xml:space="preserve">
-    <value>פריצת עמוד</value>
-  </data>
-  <data name="DocumentEditorContainer_SectionBreak" xml:space="preserve">
-    <value>קטע מעבר</value>
   </data>
   <data name="DocumentEditorContainer_HeaderAndFooter" xml:space="preserve">
     <value>כותרת עליונה וכותרת תחתונה</value>
@@ -5435,6 +5456,24 @@
   <data name="DocumentEditorContainer_HidePropertiesPane" xml:space="preserve">
     <value>הסתר חלונית מאפיינים</value>
   </data>
+  <data name="DocumentEditorContainer_SectionBreakContinuous" xml:space="preserve">
+    <value>רָצִיף</value>
+  </data>
+  <data name="DocumentEditorContainer_ColumnBreak" xml:space="preserve">
+    <value>טור</value>
+  </data>
+  <data name="DocumentEditorContainer_PageBreak" xml:space="preserve">
+    <value>עמוד</value>
+  </data>
+  <data name="DocumentEditorContainer_SectionBreak" xml:space="preserve">
+    <value>עמוד הבא</value>
+  </data>
+  <data name="DocumentEditorContainer_PageBreaks" xml:space="preserve">
+    <value>מעברי דפים</value>
+  </data>
+  <data name="DocumentEditorContainer_SectionBreaks" xml:space="preserve">
+    <value>הפסקות מדור</value>
+  </data>
   <data name="Gantt_Touch_DialogTextOnClickingConnectorPoint" xml:space="preserve">
     <value>בחר במשימה אחרת</value>
   </data>
@@ -5494,5 +5533,35 @@
   </data>
   <data name="PivotView_Auto" xml:space="preserve">
     <value>אוטומטי</value>
+  </data>
+  <data name="PivotView_RowPager" xml:space="preserve">
+    <value>איתור שורות</value>
+  </data>
+  <data name="PivotView_RowsPerPage" xml:space="preserve">
+    <value>שורות לכל עמוד</value>
+  </data>
+  <data name="PivotView_ColumnPager" xml:space="preserve">
+    <value>איתור עמודות</value>
+  </data>
+  <data name="PivotView_ColumnsPerPage" xml:space="preserve">
+    <value>עמודות לכל עמוד</value>
+  </data>
+  <data name="PivotView_GoToFirstPage" xml:space="preserve">
+    <value>עבור לעמוד הראשון</value>
+  </data>
+  <data name="PivotView_GoToLastPage" xml:space="preserve">
+   <value>עבור לדף האחרון</value>
+  </data>
+  <data name="PivotView_GoToNextPage" xml:space="preserve">
+    <value>עבור לדף הבא</value>
+  </data>
+  <data name="PivotView_GoToPreviousPage" xml:space="preserve">
+    <value>תחזור לדף הקודם</value>
+  </data>
+  <data name="Grid_ChooseTime" xml:space="preserve">
+    <value>בחר שעה!</value>
+  </data>
+  <data name="Grid_TimeFilter" xml:space="preserve">
+    <value>מסנני זמן!</value>
   </data>
 </root>

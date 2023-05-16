@@ -303,6 +303,15 @@
   <data name="ColorPicker_ModeSwitcher" xml:space="preserve">
     <value>切換模式</value>
   </data>
+  <data name="ColorPicker_FormatSwitcher" xml:space="preserve">
+    <value>切换格式</value>
+  </data>
+  <data name="ColorPicker" xml:space="preserve">
+    <value>选色器</value>
+  </data>
+  <data name="SplitButton" xml:space="preserve">
+    <value>拆分按钮</value>
+  </data>
   <data name="ListBox_ActionFailureTemplate" xml:space="preserve">
     <value>請求失敗</value>
   </data>
@@ -332,6 +341,9 @@
   </data>
   <data name="ListBox_UnSelectAllText" xml:space="preserve">
     <value>全部取消選擇</value>
+  </data>
+  <data name="ListBox_FilterLabel" xml:space="preserve">
+    <value>搜索列表项</value>
   </data>
   <data name="QueryBuilder_AddCondition" xml:space="preserve">
     <value>添加條件</value>
@@ -729,6 +741,9 @@
   <data name="Chart_ResetZoom" xml:space="preserve">
     <value>重置縮放</value>
   </data>
+  <data name="Maps_ImageNotFound" xml:space="preserve">
+    <value>图片未找到</value>
+  </data>
   <data name="Maps_Zoom" xml:space="preserve">
     <value>放大</value>
   </data>
@@ -1031,6 +1046,9 @@
   </data>
   <data name="Gantt_Outdent" xml:space="preserve">
     <value>突出</value>
+  </data>
+  <data name="Gantt_CriticalPath" xml:space="preserve">
+    <value>關鍵路徑</value>
   </data>
   <data name="DiagramComponent_X" xml:space="preserve">
     <value>X</value>
@@ -1466,6 +1484,9 @@
   </data>
   <data name="Pager_All" xml:space="preserve">
     <value>所有</value>
+  </data>
+  <data name="Pager_Items" xml:space="preserve">
+    <value>項目</value>
   </data>
   <data name="Schedule_AddTitle" xml:space="preserve">
     <value>添加標題</value>
@@ -4888,6 +4909,9 @@
 <data name="DocumentEditor_PageBreak" xml:space="preserve">
 <value>分页符</value>
 </data>
+<data name="DocumentEditor_ColumnBreak" xml:space="preserve">
+<value>分栏符</value>
+</data>
 <data name="DocumentEditor_One" xml:space="preserve">
 <value>一</value>
 </data>
@@ -4921,11 +4945,14 @@
 <data name="DocumentEditor_SectionBreakContinuous" xml:space="preserve">
 <value>分节符（连续）</value>
 </data>
+<data name="DocumentEditor_PasteContentDialog" xml:space="preserve">
+  <value>由于浏览器的安全策略，从系统剪贴板粘贴是受限制的。或者使用键盘快捷键</value>
+</data>
+<data name="DocumentEditor_PasteCheckBoxContentDialog" xml:space="preserve">
+  <value>不再显示</value>
+</data>
 <data name="DocumentEditorContainer_Columns" xml:space="preserve">
 <value>列</value>
-</data>
-<data name="DocumentEditorContainer_ColumnBreak" xml:space="preserve">
-<value>分栏符</value>
 </data>
 <data name="DocumentEditorContainer_ShowHiddenMarks" xml:space="preserve">
 <value>显示隐藏的字符，如空格、制表符、段落标记和换行符。(Ctrl + *)</value>
@@ -5001,12 +5028,6 @@
   </data>
   <data name="DocumentEditorContainer_ByURL" xml:space="preserve">
     <value>通過URL</value>
-  </data>
-  <data name="DocumentEditorContainer_PageBreak" xml:space="preserve">
-    <value>分頁符</value>
-  </data>
-  <data name="DocumentEditorContainer_SectionBreak" xml:space="preserve">
-    <value>分節符</value>
   </data>
   <data name="DocumentEditorContainer_HeaderAndFooter" xml:space="preserve">
     <value>頁眉頁腳</value>
@@ -5434,6 +5455,24 @@
   <data name="DocumentEditorContainer_HidePropertiesPane" xml:space="preserve">
     <value>隐藏属性窗格</value>
   </data>
+  <data name="DocumentEditorContainer_SectionBreakContinuous" xml:space="preserve">
+    <value>连续</value>
+  </data>
+  <data name="DocumentEditorContainer_ColumnBreak" xml:space="preserve">
+    <value>柱子</value>
+  </data>
+  <data name="DocumentEditorContainer_PageBreak" xml:space="preserve">
+    <value>页</value>
+  </data>
+  <data name="DocumentEditorContainer_SectionBreak" xml:space="preserve">
+    <value>下一页</value>
+  </data>
+  <data name="DocumentEditorContainer_PageBreaks" xml:space="preserve">
+    <value>分页符</value>
+  </data>
+  <data name="DocumentEditorContainer_SectionBreaks" xml:space="preserve">
+    <value>分节符</value>
+  </data>
   <data name="Gantt_Touch_DialogTextOnClickingConnectorPoint" xml:space="preserve">
     <value>選擇另一個任務</value>
   </data>
@@ -5493,5 +5532,35 @@
   </data>
   <data name="PivotView_Auto" xml:space="preserve">
     <value>汽车</value>
+  </data>
+  <data name="PivotView_RowPager" xml:space="preserve">
+    <value>行寻呼机</value>
+  </data>
+  <data name="PivotView_RowsPerPage" xml:space="preserve">
+    <value>每页行数</value>
+  </data>
+  <data name="PivotView_ColumnPager" xml:space="preserve">
+    <value>分栏寻呼机</value>
+  </data>
+  <data name="PivotView_ColumnsPerPage" xml:space="preserve">
+    <value>每页列数</value>
+  </data>
+  <data name="PivotView_GoToFirstPage" xml:space="preserve">
+    <value>转到第一页</value>
+  </data>
+  <data name="PivotView_GoToLastPage" xml:space="preserve">
+   <value>转到最后一页</value>
+  </data>
+  <data name="PivotView_GoToNextPage" xml:space="preserve">
+    <value>转到下一页</value>
+  </data>
+  <data name="PivotView_GoToPreviousPage" xml:space="preserve">
+    <value>转到上一页</value>
+  </data>
+  <data name="Grid_ChooseTime" xml:space="preserve">
+    <value>选择时间</value>
+  </data>
+  <data name="Grid_TimeFilter" xml:space="preserve">
+    <value>时间过滤：</value>
   </data>
 </root>

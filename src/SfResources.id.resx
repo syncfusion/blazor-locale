@@ -591,6 +591,9 @@
   <data name="Slider_IncrementTitle" xml:space="preserve">
     <value>Meningkat</value>
   </data>
+  <data name="Maps_ImageNotFound" xml:space="preserve">
+    <value>Gambar tidak ditemukan</value>
+  </data>
   <data name="Maps_Zoom" xml:space="preserve">
     <value>Perbesar</value>
   </data>
@@ -894,6 +897,9 @@
   <data name="Gantt_TaskType" xml:space="preserve">
     <value>Jenis Tugas</value>
   </data>
+  <data name="Gantt_CriticalPath" xml:space="preserve">
+    <value>Jalur Kritis</value>
+  </data>
   <data name="ColorPicker_Apply" xml:space="preserve">
     <value>Menerapkan</value>
   </data>
@@ -902,6 +908,15 @@
   </data>
   <data name="ColorPicker_ModeSwitcher" xml:space="preserve">
     <value>Alihkan Mode</value>
+  </data>
+  <data name="ColorPicker_FormatSwitcher" xml:space="preserve">
+    <value>Beralih format</value>
+  </data>
+  <data name="ColorPicker" xml:space="preserve">
+    <value>Pemilih Warna</value>
+  </data>
+  <data name="SplitButton" xml:space="preserve">
+    <value>Butang Pisah</value>
   </data>
   <data name="ListBox_ActionFailureTemplate" xml:space="preserve">
     <value>Permintaan gagal</value>
@@ -932,6 +947,9 @@
   </data>
   <data name="ListBox_UnSelectAllText" xml:space="preserve">
     <value>Batalkan Semua Pilihan</value>
+  </data>
+  <data name="ListBox_FilterLabel" xml:space="preserve">
+    <value>Cari Item Senarai</value>
   </data>
   <data name="PivotView_NumberFormat_ExampleWatermark" xml:space="preserve">
     <value>Contoh: C, P, 0000%, ### 0. ## 0 #, dll.</value>
@@ -2829,6 +2847,9 @@
   </data>
   <data name="Pager_All" xml:space="preserve">
     <value>Semua</value>
+  </data>
+  <data name="Pager_Items" xml:space="preserve">
+    <value>barang</value>
   </data>
   <data name="RecurrenceEditor_Count" xml:space="preserve">
     <value>Menghitung</value>
@@ -4888,6 +4909,9 @@
 <data name="DocumentEditor_PageBreak" xml:space="preserve">
 <value>Istirahat Halaman</value>
 </data>
+<data name="DocumentEditor_ColumnBreak" xml:space="preserve">
+<value>Istirahat Kolom</value>
+</data>
 <data name="DocumentEditor_One" xml:space="preserve">
 <value>Satu</value>
 </data>
@@ -4921,11 +4945,14 @@
 <data name="DocumentEditor_SectionBreakContinuous" xml:space="preserve">
 <value>Istirahat Bagian (Berkelanjutan)</value>
 </data>
+<data name="DocumentEditor_PasteContentDialog" xml:space="preserve">
+  <value>Karena kebijakan keamanan browser, tempel dari clipboard sistem dibatasi. Atau gunakan pintasan keyboard</value>
+</data>
+<data name="DocumentEditor_PasteCheckBoxContentDialog" xml:space="preserve">
+  <value>Jangan tampilkan lagi</value>
+</data>
 <data name="DocumentEditorContainer_Columns" xml:space="preserve">
 <value>Kolom</value>
-</data>
-<data name="DocumentEditorContainer_ColumnBreak" xml:space="preserve">
-<value>Istirahat Kolom</value>
 </data>
 <data name="DocumentEditorContainer_ShowHiddenMarks" xml:space="preserve">
 <value>Tampilkan karakter tersembunyi seperti spasi, tab, tanda paragraf, dan jeda.(Ctrl + *)</value>
@@ -5001,12 +5028,6 @@
   </data>
   <data name="DocumentEditorContainer_ByURL" xml:space="preserve">
     <value>Dengan URL</value>
-  </data>
-  <data name="DocumentEditorContainer_PageBreak" xml:space="preserve">
-    <value>Istirahat Halaman</value>
-  </data>
-  <data name="DocumentEditorContainer_SectionBreak" xml:space="preserve">
-    <value>Bagian istirahat</value>
   </data>
   <data name="DocumentEditorContainer_HeaderAndFooter" xml:space="preserve">
     <value>Bagian atas dan bagian bawah</value>
@@ -5434,6 +5455,24 @@
   <data name="DocumentEditorContainer_HidePropertiesPane" xml:space="preserve">
     <value>Sembunyikan panel properti</value>
   </data>
+  <data name="DocumentEditorContainer_SectionBreakContinuous" xml:space="preserve">
+   <value>Kontinu</value>
+  </data>
+  <data name="DocumentEditorContainer_ColumnBreak" xml:space="preserve">
+    <value>Kolom</value>
+  </data>
+  <data name="DocumentEditorContainer_PageBreak" xml:space="preserve">
+    <value>Halaman</value>
+  </data>
+  <data name="DocumentEditorContainer_SectionBreak" xml:space="preserve">
+    <value>Halaman selanjutnya</value>
+  </data>
+  <data name="DocumentEditorContainer_PageBreaks" xml:space="preserve">
+    <value>Hentian Halaman</value>
+  </data>
+  <data name="DocumentEditorContainer_SectionBreaks" xml:space="preserve">
+    <value>Bagian Istirahat</value>
+  </data>
   <data name="Gantt_Touch_DialogTextOnClickingConnectorPoint" xml:space="preserve">
     <value>Pilih tugas lain</value>
   </data>
@@ -5493,5 +5532,35 @@
   </data>
   <data name="PivotView_Auto" xml:space="preserve">
     <value>Mobil</value>
+  </data>
+  <data name="PivotView_RowPager" xml:space="preserve">
+    <value>Pager baris</value>
+  </data>
+  <data name="PivotView_RowsPerPage" xml:space="preserve">
+    <value>Baris per halaman</value>
+  </data>
+  <data name="PivotView_ColumnPager" xml:space="preserve">
+    <value>Pager kolom</value>
+  </data>
+  <data name="PivotView_ColumnsPerPage" xml:space="preserve">
+    <value>Kolom per halaman</value>
+  </data>
+  <data name="PivotView_GoToFirstPage" xml:space="preserve">
+    <value>Pergi ke halaman pertama</value>
+  </data>
+  <data name="PivotView_GoToLastPage" xml:space="preserve">
+   <value>Pergi ke halaman terakhir</value>
+  </data>
+  <data name="PivotView_GoToNextPage" xml:space="preserve">
+    <value>Buka halaman berikutnya</value>
+  </data>
+  <data name="PivotView_GoToPreviousPage" xml:space="preserve">
+    <value>Ke halaman sebelumnya</value>
+  </data>
+  <data name="Grid_ChooseTime" xml:space="preserve">
+    <value>Pilih Waktu</value>
+  </data>
+  <data name="Grid_TimeFilter" xml:space="preserve">
+    <value>Filter Waktu!</value>
   </data>
 </root>

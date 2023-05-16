@@ -591,6 +591,9 @@
   <data name="Slider_IncrementTitle" xml:space="preserve">
     <value>زيادة</value>
   </data>
+  <data name="Maps_ImageNotFound" xml:space="preserve">
+    <value>الصورة غير موجودة</value>
+  </data>
   <data name="Maps_ZoomIn" xml:space="preserve">
     <value>التكبير</value>
   </data>
@@ -731,6 +734,9 @@
   </data>
   <data name="Gantt_CollapseAll" xml:space="preserve">
     <value>انهيار جميع</value>
+  </data>
+  <data name="Gantt_CriticalPath" xml:space="preserve">
+    <value>المسار الحرج</value>
   </data>
   <data name="Gantt_NextTimeSpan" xml:space="preserve">
     <value>الجدول الزمني التالي</value>
@@ -903,6 +909,15 @@
   <data name="ColorPicker_ModeSwitcher" xml:space="preserve">
     <value>تغيير النظام</value>
   </data>
+  <data name="ColorPicker_FormatSwitcher" xml:space="preserve">
+    <value>تبديل التنسيق</value>
+  </data>
+  <data name="ColorPicker" xml:space="preserve">
+    <value>أداة انتقاء اللون</value>
+  </data>
+  <data name="SplitButton" xml:space="preserve">
+    <value>زر الانقسام</value>
+  </data>
   <data name="ListBox_ActionFailureTemplate" xml:space="preserve">
     <value>الطلب فشل</value>
   </data>
@@ -932,6 +947,9 @@
   </data>
   <data name="ListBox_UnSelectAllText" xml:space="preserve">
     <value>إلغاء تحديد الكل</value>
+  </data>
+  <data name="ListBox_FilterLabel" xml:space="preserve">
+    <value>عنصر قائمة البحث</value>
   </data>
   <data name="PivotView_NumberFormat_ExampleWatermark" xml:space="preserve">
     <value>مثال: C, P, 0000 %, ###0.##0#, etc.</value>
@@ -2828,6 +2846,9 @@
   </data>
   <data name="Pager_All" xml:space="preserve">
     <value>الكل</value>
+  </data>
+  <data name="Pager_Items" xml:space="preserve">
+    <value>العناصر</value>
   </data>
   <data name="RecurrenceEditor_Count" xml:space="preserve">
     <value>عد</value>
@@ -4887,6 +4908,9 @@
 <data name="DocumentEditor_PageBreak" xml:space="preserve">
 <value>فاصل صفحة</value>
 </data>
+<data name="DocumentEditor_ColumnBreak" xml:space="preserve">
+<value>فاصل العمود</value>
+</data>
 <data name="DocumentEditor_One" xml:space="preserve">
 <value>واحد</value>
 </data>
@@ -4920,11 +4944,14 @@
 <data name="DocumentEditor_SectionBreakContinuous" xml:space="preserve">
 <value>فاصل مقطعي (مستمر)</value>
 </data>
+<data name="DocumentEditor_PasteContentDialog" xml:space="preserve">
+  <value>نظرًا لسياسة أمان المتصفح ، يتم تقييد اللصق من حافظة النظام. بدلاً من ذلك ، استخدم اختصار لوحة المفاتيح</value>
+</data>
+<data name="DocumentEditor_PasteCheckBoxContentDialog" xml:space="preserve">
+  <value>لا تظهر مرة أخرى</value>
+</data>
 <data name="DocumentEditorContainer_Columns" xml:space="preserve">
 <value>الأعمدة</value>
-</data>
-<data name="DocumentEditorContainer_ColumnBreak" xml:space="preserve">
-<value>فاصل العمود</value>
 </data>
 <data name="DocumentEditorContainer_ShowHiddenMarks" xml:space="preserve">
 <value>إظهار الأحرف المخفية مثل المسافات وعلامات الجدولة وعلامات الفقرات والفواصل. (Ctrl + *)</value>
@@ -5000,12 +5027,6 @@
   </data>
   <data name="DocumentEditorContainer_ByURL" xml:space="preserve">
     <value>بواسطة URL</value>
-  </data>
-  <data name="DocumentEditorContainer_PageBreak" xml:space="preserve">
-    <value>فاصل صفحة</value>
-  </data>
-  <data name="DocumentEditorContainer_SectionBreak" xml:space="preserve">
-    <value>فاصل المقطع</value>
   </data>
   <data name="DocumentEditorContainer_HeaderAndFooter" xml:space="preserve">
     <value>تذييل الرأس</value>
@@ -5431,13 +5452,31 @@
     <value>إظهار جزء الخصائص</value>
   </data>
   <data name="DocumentEditorContainer_HidePropertiesPane" xml:space="preserve">
-    <value>إخفاء جزء الخصائص</value>
-  </data>
-  <data name="Gantt_Touch_DialogTextOnClickingConnectorPoint" xml:space="preserve">
-    <value>اختر مهمة أخرى</value>
-  </data>
-  <data name="Gantt_Touch_DialogTextOnSelectingTaskbar" xml:space="preserve">
-    <value>حدد موضع الموصل</value>
+  <value>إخفاء جزء الخصائص</value>
+</data>
+<data name="DocumentEditorContainer_SectionBreakContinuous" xml:space="preserve">
+  <value>مستمر</value>
+</data>
+<data name="DocumentEditorContainer_ColumnBreak" xml:space="preserve">
+  <value>عمود</value>
+</data>
+<data name="DocumentEditorContainer_PageBreak" xml:space="preserve">
+  <value>صفحة</value>
+</data>
+<data name="DocumentEditorContainer_SectionBreak" xml:space="preserve">
+  <value>الصفحة التالية</value>
+</data>
+<data name="DocumentEditorContainer_PageBreaks" xml:space="preserve">
+  <value>فواصل الصفحة</value>
+</data>
+<data name="DocumentEditorContainer_SectionBreaks" xml:space="preserve">
+  <value>فواصل القسم</value>
+</data>
+<data name="Gantt_Touch_DialogTextOnClickingConnectorPoint" xml:space="preserve">
+  <value>اختر مهمة أخرى</value>
+</data>
+<data name="Gantt_Touch_DialogTextOnSelectingTaskbar" xml:space="preserve">
+  <value>حدد موضع الموصل</value>
   </data>
   <data name="Gantt_Touch_LeftButton" xml:space="preserve">
     <value>اليسار</value>
@@ -5492,5 +5531,35 @@
   </data>
   <data name="PivotView_Auto" xml:space="preserve">
     <value>آلي</value>
+  </data>
+  <data name="PivotView_RowPager" xml:space="preserve">
+    <value>صف بيجر</value>
+  </data>
+  <data name="PivotView_RowsPerPage" xml:space="preserve">
+    <value>عدد الصفوف في الصفحة</value>
+  </data>
+  <data name="PivotView_ColumnPager" xml:space="preserve">
+    <value>بيجر العمود</value>
+  </data>
+  <data name="PivotView_ColumnsPerPage" xml:space="preserve">
+    <value>أعمدة في الصفحة</value>
+  </data>
+  <data name="PivotView_GoToFirstPage" xml:space="preserve">
+    <value>اذهب إلى الصفحة الأولى</value>
+  </data>
+  <data name="PivotView_GoToLastPage" xml:space="preserve">
+    <value>انتقل إلى الصفحة الأخيرة</value>
+  </data>
+  <data name="PivotView_GoToNextPage" xml:space="preserve">
+  <value>انتقل إلى الصفحة التالية</value>
+</data>
+<data name="PivotView_GoToPreviousPage" xml:space="preserve">
+  <value>الانتقال إلى الصفحة السابقة</value>
+</data>
+  <data name="Grid_ChooseTime" xml:space="preserve">
+    <value>أختر</value>
+  </data>
+  <data name="Grid_TimeFilter" xml:space="preserve">
+    <value>مرشحات الوقت!</value>
   </data>
 </root>

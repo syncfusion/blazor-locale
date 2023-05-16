@@ -591,6 +591,9 @@
   <data name="Slider_IncrementTitle" xml:space="preserve">
     <value>Növekedés</value>
   </data>
+  <data name="Maps_ImageNotFound" xml:space="preserve">
+    <value>A kép nem található</value>
+  </data>
   <data name="Maps_Zoom" xml:space="preserve">
     <value>Zoomolás</value>
   </data>
@@ -894,6 +897,9 @@
   <data name="Gantt_TaskType" xml:space="preserve">
     <value>Feladat típusa</value>
   </data>
+  <data name="Gantt_CriticalPath" xml:space="preserve">
+    <value>Kritikus út</value>
+  </data>
   <data name="ColorPicker_Apply" xml:space="preserve">
     <value>Alkalmaz</value>
   </data>
@@ -902,6 +908,15 @@
   </data>
   <data name="ColorPicker_ModeSwitcher" xml:space="preserve">
     <value>Váltás mód</value>
+  </data>
+  <data name="ColorPicker_FormatSwitcher" xml:space="preserve">
+    <value>Formátum váltása</value>
+  </data>
+  <data name="ColorPicker" xml:space="preserve">
+    <value>Színválasztó</value>
+  </data>
+  <data name="SplitButton" xml:space="preserve">
+    <value>Split gomb</value>
   </data>
   <data name="ListBox_ActionFailureTemplate" xml:space="preserve">
     <value>Kérés sikertelen</value>
@@ -932,6 +947,9 @@
   </data>
   <data name="ListBox_UnSelectAllText" xml:space="preserve">
     <value>Minden kijelölés megszüntetése</value>
+  </data>
+  <data name="ListBox_FilterLabel" xml:space="preserve">
+    <value>Listaelem keresése</value>
   </data>
   <data name="PivotView_NumberFormat_ExampleWatermark" xml:space="preserve">
     <value>Példa: C, P, 0000%, ### 0. ## 0 # stb.</value>
@@ -2830,6 +2848,9 @@
   </data>
   <data name="Pager_All" xml:space="preserve">
     <value>Összes</value>
+  </data>
+  <data name="Pager_Items" xml:space="preserve">
+    <value>példány</value>
   </data>
   <data name="RecurrenceEditor_Count" xml:space="preserve">
     <value>Számol</value>
@@ -4889,6 +4910,9 @@
 <data name="DocumentEditor_PageBreak" xml:space="preserve">
 <value>Oldaltörés</value>
 </data>
+<data name="DocumentEditor_ColumnBreak" xml:space="preserve">
+<value>Oszloptörés</value>
+</data>
 <data name="DocumentEditor_One" xml:space="preserve">
 <value>Egy</value>
 </data>
@@ -4922,11 +4946,14 @@
 <data name="DocumentEditor_SectionBreakContinuous" xml:space="preserve">
 <value>Szakasztörés (folyamatos)</value>
 </data>
+<data name="DocumentEditor_PasteContentDialog" xml:space="preserve">
+  <value>A böngésző biztonsági szabályzata miatt a rendszer vágólapjáról történő beillesztés korlátozott. Alternatív megoldásként használja a billentyűparancsot</value>
+</data>
+<data name="DocumentEditor_PasteCheckBoxContentDialog" xml:space="preserve">
+  <value>Ne mutasd újra</value>
+</data>
 <data name="DocumentEditorContainer_Columns" xml:space="preserve">
 <value>Oszlopok</value>
-</data>
-<data name="DocumentEditorContainer_ColumnBreak" xml:space="preserve">
-<value>Oszloptörés</value>
 </data>
 <data name="DocumentEditorContainer_ShowHiddenMarks" xml:space="preserve">
 <value>A rejtett karakterek, például szóközök, tabulátorok, bekezdésjelek és törések megjelenítése. (Ctrl + *)</value>
@@ -5002,12 +5029,6 @@
   </data>
   <data name="DocumentEditorContainer_ByURL" xml:space="preserve">
     <value>URL alapján</value>
-  </data>
-  <data name="DocumentEditorContainer_PageBreak" xml:space="preserve">
-    <value>Oldaltörés</value>
-  </data>
-  <data name="DocumentEditorContainer_SectionBreak" xml:space="preserve">
-    <value>Szakaszszakadás</value>
   </data>
   <data name="DocumentEditorContainer_HeaderAndFooter" xml:space="preserve">
     <value>Fejléc lábléc</value>
@@ -5435,6 +5456,24 @@
   <data name="DocumentEditorContainer_HidePropertiesPane" xml:space="preserve">
     <value>Tulajdonságok panel elrejtése</value>
   </data>
+  <data name="DocumentEditorContainer_SectionBreakContinuous" xml:space="preserve">
+    <value>Folyamatos</value>
+  </data>
+  <data name="DocumentEditorContainer_ColumnBreak" xml:space="preserve">
+    <value>Oszlop</value>
+  </data>
+  <data name="DocumentEditorContainer_PageBreak" xml:space="preserve">
+    <value>oldal</value>
+  </data>
+  <data name="DocumentEditorContainer_SectionBreak" xml:space="preserve">
+    <value>Következő oldal</value>
+  </data>
+  <data name="DocumentEditorContainer_PageBreaks" xml:space="preserve">
+    <value>Oldaltörések</value>
+  </data>
+  <data name="DocumentEditorContainer_SectionBreaks" xml:space="preserve">
+    <value>Szakasz szünetek</value>
+  </data>
   <data name="Gantt_Touch_DialogTextOnClickingConnectorPoint" xml:space="preserve">
     <value>Válassz egy másik feladatot</value>
   </data>
@@ -5494,5 +5533,35 @@
   </data>
   <data name="PivotView_Auto" xml:space="preserve">
     <value>Auto</value>
+  </data>
+  <data name="PivotView_RowPager" xml:space="preserve">
+    <value>Sorlapozó</value>
+  </data>
+  <data name="PivotView_RowsPerPage" xml:space="preserve">
+    <value>Sorok oldalanként</value>
+  </data>
+  <data name="PivotView_ColumnPager" xml:space="preserve">
+    <value>Oszlop lapozó</value>
+  </data>
+  <data name="PivotView_ColumnsPerPage" xml:space="preserve">
+    <value>Oszlopok oldalanként</value>
+  </data>
+  <data name="PivotView_GoToFirstPage" xml:space="preserve">
+    <value>Ugrás az első oldalra</value>
+  </data>
+  <data name="PivotView_GoToLastPage" xml:space="preserve">
+   <value>Ugrás az utolsó oldalra</value>
+  </data>
+  <data name="PivotView_GoToNextPage" xml:space="preserve">
+    <value>Ugrás a következő oldalra</value>
+  </data>
+  <data name="PivotView_GoToPreviousPage" xml:space="preserve">
+    <value>Ugrás az előző oldalra</value>
+  </data>
+  <data name="Grid_ChooseTime" xml:space="preserve">
+    <value>&lt;&lt; Előbb:</value>
+  </data>
+  <data name="Grid_TimeFilter" xml:space="preserve">
+    <value>Időszűrők!</value>
   </data>
 </root>

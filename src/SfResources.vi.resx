@@ -591,6 +591,9 @@
   <data name="Slider_IncrementTitle" xml:space="preserve">
     <value>Tăng</value>
   </data>
+  <data name="Maps_ImageNotFound" xml:space="preserve">
+    <value>Không tìm thấy hình ảnh</value>
+  </data>
   <data name="Maps_Zoom" xml:space="preserve">
     <value>Thu phóng</value>
   </data>
@@ -894,6 +897,9 @@
   <data name="Gantt_TaskType" xml:space="preserve">
     <value>Loại công việc</value>
   </data>
+  <data name="Gantt_CriticalPath" xml:space="preserve">
+    <value>Con đường quan trọng</value>
+  </data>
   <data name="ColorPicker_Apply" xml:space="preserve">
     <value>Ứng dụng</value>
   </data>
@@ -902,6 +908,15 @@
   </data>
   <data name="ColorPicker_ModeSwitcher" xml:space="preserve">
     <value>Chế độ chuyển đổi</value>
+  </data>
+  <data name="ColorPicker_FormatSwitcher" xml:space="preserve">
+    <value>chuyển đổi định dạng</value>
+  </data>
+  <data name="ColorPicker" xml:space="preserve">
+    <value>Bộ chọn màu</value>
+  </data>
+  <data name="SplitButton" xml:space="preserve">
+    <value>nút tách</value>
   </data>
   <data name="ListBox_ActionFailureTemplate" xml:space="preserve">
     <value>Yêu cầu thất bại</value>
@@ -932,6 +947,9 @@
   </data>
   <data name="ListBox_UnSelectAllText" xml:space="preserve">
     <value>Bỏ chọn tất cả</value>
+  </data>
+  <data name="ListBox_FilterLabel" xml:space="preserve">
+    <value>Mục danh sách tìm kiếm</value>
   </data>
   <data name="PivotView_NumberFormat_ExampleWatermark" xml:space="preserve">
     <value>Ví dụ: C, P, 0000%, ### 0. ## 0 #, v.v.</value>
@@ -2826,6 +2844,9 @@
   </data>
   <data name="Pager_All" xml:space="preserve">
     <value>Tất cả</value>
+  </data>
+  <data name="Pager_Items" xml:space="preserve">
+    <value>mặt hàng</value>
   </data>
   <data name="RecurrenceEditor_Count" xml:space="preserve">
     <value>Đếm</value>
@@ -4885,6 +4906,9 @@
 <data name="DocumentEditor_PageBreak" xml:space="preserve">
 <value>Ngắt trang</value>
 </data>
+<data name="DocumentEditor_ColumnBreak" xml:space="preserve">
+<value>Phá vỡ cột</value>
+</data>
 <data name="DocumentEditor_One" xml:space="preserve">
 <value>Một</value>
 </data>
@@ -4918,11 +4942,14 @@
 <data name="DocumentEditor_SectionBreakContinuous" xml:space="preserve">
 <value>Ngắt đoạn (Liên tục)</value>
 </data>
+<data name="DocumentEditor_PasteContentDialog" xml:space="preserve">
+  <value>Do chính sách bảo mật của trình duyệt, việc dán từ khay nhớ tạm của hệ thống bị hạn chế. Hoặc sử dụng phím tắt</value>
+</data>
+<data name="DocumentEditor_PasteCheckBoxContentDialog" xml:space="preserve">
+  <value>Không hiển thị lại</value>
+</data>
 <data name="DocumentEditorContainer_Columns" xml:space="preserve">
 <value>Cột</value>
-</data>
-<data name="DocumentEditorContainer_ColumnBreak" xml:space="preserve">
-<value>Phá vỡ cột</value>
 </data>
 <data name="DocumentEditorContainer_ShowHiddenMarks" xml:space="preserve">
 <value>Hiển thị các ký tự ẩn như dấu cách, tab, dấu đoạn và dấu ngắt. (Ctrl + *)</value>
@@ -4999,12 +5026,6 @@
   </data>
   <data name="DocumentEditorContainer_ByURL" xml:space="preserve">
     <value>Theo URL</value>
-  </data>
-  <data name="DocumentEditorContainer_PageBreak" xml:space="preserve">
-    <value>Ngắt trang</value>
-  </data>
-  <data name="DocumentEditorContainer_SectionBreak" xml:space="preserve">
-    <value>Phá vỡ phần</value>
   </data>
   <data name="DocumentEditorContainer_HeaderAndFooter" xml:space="preserve">
     <value>Đầu trang và chân trang</value>
@@ -5432,6 +5453,24 @@
   <data name="DocumentEditorContainer_HidePropertiesPane" xml:space="preserve">
     <value>Ẩn ngăn thuộc tính</value>
   </data>
+  <data name="DocumentEditorContainer_SectionBreakContinuous" xml:space="preserve">
+    <value>Tiếp diễn</value>
+  </data>
+  <data name="DocumentEditorContainer_ColumnBreak" xml:space="preserve">
+    <value>Cột</value>
+  </data>
+  <data name="DocumentEditorContainer_PageBreak" xml:space="preserve">
+    <value>Trang</value>
+  </data>
+  <data name="DocumentEditorContainer_SectionBreak" xml:space="preserve">
+    <value>Trang tiếp theo</value>
+  </data>
+  <data name="DocumentEditorContainer_PageBreaks" xml:space="preserve">
+    <value>ngắt trang</value>
+  </data>
+  <data name="DocumentEditorContainer_SectionBreaks" xml:space="preserve">
+    <value>Phần Breaks</value>
+  </data>
   <data name="Gantt_Touch_DialogTextOnClickingConnectorPoint" xml:space="preserve">
     <value>Chọn một nhiệm vụ khác</value>
   </data>
@@ -5494,5 +5533,35 @@
   </data>
   <data name="PivotView_Auto" xml:space="preserve">
     <value>Tự động</value>
+  </data>
+  <data name="PivotView_RowPager" xml:space="preserve">
+    <value>Máy nhắn tin hàng</value>
+  </data>
+  <data name="PivotView_RowsPerPage" xml:space="preserve">
+    <value>Hàng trên mỗi trang</value>
+  </data>
+  <data name="PivotView_ColumnPager" xml:space="preserve">
+    <value>máy nhắn tin cột</value>
+  </data>
+  <data name="PivotView_ColumnsPerPage" xml:space="preserve">
+    <value>Cột trên mỗi trang</value>
+  </data>
+  <data name="PivotView_GoToFirstPage" xml:space="preserve">
+    <value>Tới trang đầu tiên</value>
+  </data>
+  <data name="PivotView_GoToLastPage" xml:space="preserve">
+    <value>Tới trang cuối cùng</value>
+  </data>
+  <data name="PivotView_GoToNextPage" xml:space="preserve">
+    <value>Tới trang tiếp theo</value>
+  </data>
+  <data name="PivotView_GoToPreviousPage" xml:space="preserve">
+    <value>Tới trang trước</value>
+  </data>
+  <data name="Grid_ChooseTime" xml:space="preserve">
+    <value>Chọn thời gian!</value>
+  </data>
+  <data name="Grid_TimeFilter" xml:space="preserve">
+    <value>Bộ lọc thời gian!</value>
   </data>
 </root>

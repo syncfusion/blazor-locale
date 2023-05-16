@@ -591,6 +591,9 @@
   <data name="Slider_IncrementTitle" xml:space="preserve">
     <value>Toenemen</value>
   </data>
+  <data name="Maps_ImageNotFound" xml:space="preserve">
+    <value>Image Not Found</value>
+  </data>
   <data name="Maps_Zoom" xml:space="preserve">
     <value>Zoom</value>
   </data>
@@ -894,14 +897,26 @@
   <data name="Gantt_TaskType" xml:space="preserve">
     <value>Taaktype</value>
   </data>
+  <data name="Gantt_CriticalPath" xml:space="preserve">
+    <value>Kritiek pad</value>
+  </data>
   <data name="ColorPicker_Apply" xml:space="preserve">
-    <value>Van toepassing zijn</value>
+    <value>Toepassen</value>
   </data>
   <data name="ColorPicker_Cancel" xml:space="preserve">
     <value>annuleren</value>
   </data>
   <data name="ColorPicker_ModeSwitcher" xml:space="preserve">
     <value>Verander modus</value>
+  </data>
+  <data name="ColorPicker_FormatSwitcher" xml:space="preserve">
+    <value>Wissel formaat</value>
+  </data>
+  <data name="ColorPicker" xml:space="preserve">
+    <value>Kleur kiezer</value>
+  </data>
+  <data name="SplitButton" xml:space="preserve">
+    <value>Split-knop</value>
   </data>
   <data name="ListBox_ActionFailureTemplate" xml:space="preserve">
     <value>Verzoek mislukt</value>
@@ -932,6 +947,9 @@
   </data>
   <data name="ListBox_UnSelectAllText" xml:space="preserve">
     <value>Deselecteer alles</value>
+  </data>
+  <data name="ListBox_FilterLabel" xml:space="preserve">
+    <value>Lijstitem zoeken</value>
   </data>
   <data name="PivotView_NumberFormat_ExampleWatermark" xml:space="preserve">
     <value>Voorbeeld: C, P, 0000%, ### 0. ## 0 #, etc.</value>
@@ -2830,6 +2848,9 @@
   </data>
   <data name="Pager_All" xml:space="preserve">
     <value>Allemaal</value>
+  </data>
+  <data name="Pager_Items" xml:space="preserve">
+    <value>items</value>
   </data>
   <data name="RecurrenceEditor_Count" xml:space="preserve">
     <value>tellen</value>
@@ -4889,6 +4910,9 @@
 <data name="DocumentEditor_PageBreak" xml:space="preserve">
 <value>Pagina-einde</value>
 </data>
+<data name="DocumentEditor_ColumnBreak" xml:space="preserve">
+<value>Kolom pauze</value>
+</data>
 <data name="DocumentEditor_One" xml:space="preserve">
 <value>Een</value>
 </data>
@@ -4922,11 +4946,14 @@
 <data name="DocumentEditor_SectionBreakContinuous" xml:space="preserve">
 <value>Sectie-einde (doorlopend)</value>
 </data>
+<data name="DocumentEditor_PasteContentDialog" xml:space="preserve">
+  <value>Vanwege het beveiligingsbeleid van de browser is plakken vanaf het systeemklembord beperkt. U kunt ook de sneltoets gebruiken</value>
+</data>
+<data name="DocumentEditor_PasteCheckBoxContentDialog" xml:space="preserve">
+  <value>Niet meer laten zien</value>
+</data>
 <data name="DocumentEditorContainer_Columns" xml:space="preserve">
 <value>Kolommen</value>
-</data>
-<data name="DocumentEditorContainer_ColumnBreak" xml:space="preserve">
-<value>Kolom pauze</value>
 </data>
 <data name="DocumentEditorContainer_ShowHiddenMarks" xml:space="preserve">
 <value>Toon de verborgen tekens zoals spaties, tabs, alineamarkeringen en pauzes.(Ctrl + *)</value>
@@ -5002,12 +5029,6 @@
   </data>
   <data name="DocumentEditorContainer_ByURL" xml:space="preserve">
     <value>Op URL</value>
-  </data>
-  <data name="DocumentEditorContainer_PageBreak" xml:space="preserve">
-    <value>Pagina-einde</value>
-  </data>
-  <data name="DocumentEditorContainer_SectionBreak" xml:space="preserve">
-    <value>Sectie Break</value>
   </data>
   <data name="DocumentEditorContainer_HeaderAndFooter" xml:space="preserve">
     <value>Kop- en voettekst</value>
@@ -5431,10 +5452,28 @@
   </data>
   <data name="DocumentEditorContainer_ShowPropertiesPane" xml:space="preserve">
     <value>Eigenschappenvenster weergeven</value>
-  </data>
-  <data name="DocumentEditorContainer_HidePropertiesPane" xml:space="preserve">
-    <value>Eigenschappenvenster verbergen</value>
-  </data>
+ </data>
+<data name="DocumentEditorContainer_HidePropertiesPane" xml:space="preserve">
+  <value>Eigenschappenvenster verbergen</value>
+</data>
+<data name="DocumentEditorContainer_SectionBreakContinuous" xml:space="preserve">
+  <value>Continu</value>
+</data>
+<data name="DocumentEditorContainer_ColumnBreak" xml:space="preserve">
+  <value>Kolom</value>
+</data>
+<data name="DocumentEditorContainer_PageBreak" xml:space="preserve">
+  <value>Bladzijde</value>
+</data>
+<data name="DocumentEditorContainer_SectionBreak" xml:space="preserve">
+  <value>Volgende bladzijde</value>
+</data>
+<data name="DocumentEditorContainer_PageBreaks" xml:space="preserve">
+  <value>Pagina-einden</value>
+</data>
+<data name="DocumentEditorContainer_SectionBreaks" xml:space="preserve">
+  <value>Sectie-onderbrekingen</value>
+</data>
   <data name="Gantt_Touch_DialogTextOnClickingConnectorPoint" xml:space="preserve">
     <value>Kies de andere taak</value>
   </data>
@@ -5494,5 +5533,35 @@
   </data>
   <data name="PivotView_Auto" xml:space="preserve">
     <value>Auto</value>
+  </data>
+  <data name="PivotView_RowPager" xml:space="preserve">
+    <value>Rij pieper</value>
+  </data>
+  <data name="PivotView_RowsPerPage" xml:space="preserve">
+    <value>Rijen per pagina</value>
+  </data>
+  <data name="PivotView_ColumnPager" xml:space="preserve">
+    <value>Kolom pager</value>
+  </data>
+  <data name="PivotView_ColumnsPerPage" xml:space="preserve">
+    <value>Kolommen per pagina</value>
+  </data>
+  <data name="PivotView_GoToFirstPage" xml:space="preserve">
+    <value>Ga naar de eerste pagina</value>
+  </data>
+  <data name="PivotView_GoToLastPage" xml:space="preserve">
+    <value>Ga naar de laatste pagina</value>
+  </data>
+  <data name="PivotView_GoToNextPage" xml:space="preserve">
+    <value>Ga naar de volgende pagina</value>
+  </data>
+  <data name="PivotView_GoToPreviousPage" xml:space="preserve">
+    <value>Ga naar de vorige pagina</value>
+  </data>
+  <data name="Grid_ChooseTime" xml:space="preserve">
+    <value>Kies een tijdstip</value>
+  </data>
+  <data name="Grid_TimeFilter" xml:space="preserve">
+    <value>Tijd filters!</value>
   </data>
 </root>

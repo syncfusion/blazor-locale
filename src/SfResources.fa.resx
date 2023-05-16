@@ -591,6 +591,9 @@
   <data name="Slider_IncrementTitle" xml:space="preserve">
     <value>ارزش افزوده</value>
   </data>
+  <data name="Maps_ImageNotFound" xml:space="preserve">
+    <value>تصویر پیدا نشد</value>
+  </data>
   <data name="Maps_Zoom" xml:space="preserve">
     <value>بزرگنمایی</value>
   </data>
@@ -894,14 +897,26 @@
   <data name="Gantt_TaskType" xml:space="preserve">
     <value>نوع وظیفه</value>
   </data>
+  <data name="Gantt_CriticalPath" xml:space="preserve">
+    <value>مسیربحرانی</value>
+  </data>
   <data name="ColorPicker_Apply" xml:space="preserve">
     <value>درخواست دادن</value>
   </data>
   <data name="ColorPicker_Cancel" xml:space="preserve">
-    <value>لغو</value>
+    <value>لغو کنید</value>
   </data>
   <data name="ColorPicker_ModeSwitcher" xml:space="preserve">
     <value>حالت سوئیچ</value>
+  </data>
+  <data name="ColorPicker_FormatSwitcher" xml:space="preserve">
+    <value>تغییر فرمت</value>
+  </data>
+  <data name="ColorPicker" xml:space="preserve">
+    <value>انتخاب کننده رنگ</value>
+  </data>
+  <data name="SplitButton" xml:space="preserve">
+    <value>دکمه تقسیم</value>
   </data>
   <data name="ListBox_ActionFailureTemplate" xml:space="preserve">
     <value>درخواست انجام نشد</value>
@@ -932,6 +947,9 @@
   </data>
   <data name="ListBox_UnSelectAllText" xml:space="preserve">
     <value>همه را انتخاب کنید</value>
+  </data>
+  <data name="ListBox_FilterLabel" xml:space="preserve">
+    <value>جستجوی آیتم فهرست</value>
   </data>
   <data name="PivotView_NumberFormat_ExampleWatermark" xml:space="preserve">
     <value>Sampla: C, P, 0000%, ### 0. ## 0 #, srl.</value>
@@ -2776,6 +2794,9 @@
   </data>
   <data name="Pager_All" xml:space="preserve">
     <value>همه</value>
+  </data>
+  <data name="Pager_Items" xml:space="preserve">
+    <value>موارد</value>
   </data>
   <data name="RecurrenceEditor_Count" xml:space="preserve">
     <value>شمردن</value>
@@ -4835,6 +4856,9 @@
 <data name="DocumentEditor_PageBreak" xml:space="preserve">
 <value>صفحه شکستن</value>
 </data>
+<data name="DocumentEditor_ColumnBreak" xml:space="preserve">
+<value>شکستن ستون</value>
+</data>
 <data name="DocumentEditor_One" xml:space="preserve">
 <value>یکی</value>
 </data>
@@ -4868,11 +4892,14 @@
 <data name="DocumentEditor_SectionBreakContinuous" xml:space="preserve">
 <value>شکست بخش (مداوم)</value>
 </data>
+<data name="DocumentEditor_PasteContentDialog" xml:space="preserve">
+  <value>به دلیل خط مشی امنیتی مرورگر، چسباندن از کلیپ بورد سیستم محدود شده است. یا از میانبر صفحه کلید استفاده کنید</value>
+</data>
+<data name="DocumentEditor_PasteCheckBoxContentDialog" xml:space="preserve">
+  <value>دیگر نشان نده</value>
+</data>
 <data name="DocumentEditorContainer_Columns" xml:space="preserve">
 <value>ستون ها</value>
-</data>
-<data name="DocumentEditorContainer_ColumnBreak" xml:space="preserve">
-<value>شکستن ستون</value>
 </data>
 <data name="DocumentEditorContainer_ShowHiddenMarks" xml:space="preserve">
 <value>کاراکترهای پنهان مانند فاصله، برگه، علامت پاراگراف و شکست را نشان دهید. (Ctrl + *)</value>
@@ -4948,12 +4975,6 @@
   </data>
   <data name="DocumentEditorContainer_ByURL" xml:space="preserve">
     <value>توسط URL</value>
-  </data>
-  <data name="DocumentEditorContainer_PageBreak" xml:space="preserve">
-    <value>صفحه شکستن</value>
-  </data>
-  <data name="DocumentEditorContainer_SectionBreak" xml:space="preserve">
-    <value>بخش شکست</value>
   </data>
   <data name="DocumentEditorContainer_HeaderAndFooter" xml:space="preserve">
     <value>هدر و پاورقی</value>
@@ -5435,6 +5456,24 @@
   <data name="DocumentEditorContainer_HidePropertiesPane" xml:space="preserve">
     <value>پنهان کردن پنجره خصوصیات</value>
   </data>
+  <data name="DocumentEditorContainer_SectionBreakContinuous" xml:space="preserve">
+    <value>مداوم</value>
+  </data>
+  <data name="DocumentEditorContainer_ColumnBreak" xml:space="preserve">
+    <value>ستون</value>
+  </data>
+  <data name="DocumentEditorContainer_PageBreak" xml:space="preserve">
+    <value>صفحه</value>
+  </data>
+  <data name="DocumentEditorContainer_SectionBreak" xml:space="preserve">
+    <value>صفحه بعد</value>
+  </data>
+  <data name="DocumentEditorContainer_PageBreaks" xml:space="preserve">
+    <value>صفحه شکسته می شود</value>
+  </data>
+  <data name="DocumentEditorContainer_SectionBreaks" xml:space="preserve">
+    <value>بخش می شکند</value>
+  </data>
   <data name="Gantt_Touch_DialogTextOnClickingConnectorPoint" xml:space="preserve">
     <value>کار دیگری را انتخاب کنید</value>
   </data>
@@ -5494,5 +5533,35 @@
   </data>
   <data name="PivotView_Auto" xml:space="preserve">
     <value>خودکار</value>
+  </data>
+  <data name="PivotView_RowPager" xml:space="preserve">
+    <value>پیجر ردیفی</value>
+  </data>
+  <data name="PivotView_RowsPerPage" xml:space="preserve">
+    <value>ردیف در هر صفحه</value>
+  </data>
+  <data name="PivotView_ColumnPager" xml:space="preserve">
+    <value>پیجر ستونی</value>
+  </data>
+  <data name="PivotView_ColumnsPerPage" xml:space="preserve">
+    <value>ستون در هر صفحه</value>
+  </data>
+  <data name="PivotView_GoToFirstPage" xml:space="preserve">
+    <value>به صفحه اول بروید</value>
+  </data>
+  <data name="PivotView_GoToLastPage" xml:space="preserve">
+    <value>برو به صفحه آخر</value>
+  </data>
+  <data name="PivotView_GoToNextPage" xml:space="preserve">
+    <value>به صفحه بعد بروید</value>
+  </data>
+  <data name="PivotView_GoToPreviousPage" xml:space="preserve">
+    <value>برو به صفحه قبل</value>
+  </data>
+  <data name="Grid_ChooseTime" xml:space="preserve">
+    <value>انتخاب منطقه زمانی</value>
+  </data>
+  <data name="Grid_TimeFilter" xml:space="preserve">
+    <value>فیلترهای زمان!</value>
   </data>
 </root>

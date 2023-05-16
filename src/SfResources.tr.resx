@@ -591,6 +591,9 @@
   <data name="Slider_IncrementTitle" xml:space="preserve">
     <value>Artır</value>
   </data>
+  <data name="Maps_ImageNotFound" xml:space="preserve">
+    <value>Resim Bulunamadı</value>
+  </data>
   <data name="Maps_Zoom" xml:space="preserve">
     <value>yakınlaştırma</value>
   </data>
@@ -894,6 +897,9 @@
   <data name="Gantt_TaskType" xml:space="preserve">
     <value>Görev Türü</value>
   </data>
+  <data name="Gantt_CriticalPath" xml:space="preserve">
+    <value>Kritik yol</value>
+  </data>
   <data name="ColorPicker_Apply" xml:space="preserve">
     <value>Uygulamak</value>
   </data>
@@ -902,6 +908,15 @@
   </data>
   <data name="ColorPicker_ModeSwitcher" xml:space="preserve">
     <value>Anahtar Modu</value>
+  </data>
+  <data name="ColorPicker_FormatSwitcher" xml:space="preserve">
+    <value>Biçimi değiştir</value>
+  </data>
+  <data name="ColorPicker" xml:space="preserve">
+    <value>Renk seçici</value>
+  </data>
+  <data name="SplitButton" xml:space="preserve">
+    <value>Bölme Düğmesi</value>
   </data>
   <data name="ListBox_ActionFailureTemplate" xml:space="preserve">
     <value>İstek başarısız oldu</value>
@@ -932,6 +947,9 @@
   </data>
   <data name="ListBox_UnSelectAllText" xml:space="preserve">
     <value>Tümünün Seçimini Kaldır</value>
+  </data>
+  <data name="ListBox_FilterLabel" xml:space="preserve">
+    <value>Arama Listesi Öğesi</value>
   </data>
   <data name="PivotView_NumberFormat_ExampleWatermark" xml:space="preserve">
     <value>Örnek: C, P, 0000%, ### 0. ## 0 #, vb.</value>
@@ -2826,6 +2844,9 @@
   </data>
   <data name="Pager_All" xml:space="preserve">
     <value>Herşey</value>
+  </data>
+  <data name="Pager_Items" xml:space="preserve">
+    <value>ürün</value>
   </data>
   <data name="RecurrenceEditor_Count" xml:space="preserve">
     <value>Miktar</value>
@@ -4885,6 +4906,9 @@
 <data name="DocumentEditor_PageBreak" xml:space="preserve">
 <value>Sayfa sonu</value>
 </data>
+<data name="DocumentEditor_ColumnBreak" xml:space="preserve">
+<value>Sütun Arası</value>
+</data>
 <data name="DocumentEditor_One" xml:space="preserve">
 <value>Bir</value>
 </data>
@@ -4918,11 +4942,14 @@
 <data name="DocumentEditor_SectionBreakContinuous" xml:space="preserve">
 <value>Bölüm Arası (Sürekli)</value>
 </data>
+<data name="DocumentEditor_PasteContentDialog" xml:space="preserve">
+  <value>Tarayıcının güvenlik politikası nedeniyle, sistem panosundan yapıştırma işlemi kısıtlanmıştır. Alternatif olarak klavye kısayolunu kullanın</value>
+</data>
+<data name="DocumentEditor_PasteCheckBoxContentDialog" xml:space="preserve">
+  <value>tekrar gösterme</value>
+</data>
 <data name="DocumentEditorContainer_Columns" xml:space="preserve">
 <value>Sütunlar</value>
-</data>
-<data name="DocumentEditorContainer_ColumnBreak" xml:space="preserve">
-<value>Sütun Arası</value>
 </data>
 <data name="DocumentEditorContainer_ShowHiddenMarks" xml:space="preserve">
 <value>Boşluk, sekme, paragraf işaretleri ve sonlar gibi gizli karakterleri gösterin.(Ctrl + *)</value>
@@ -4998,12 +5025,6 @@
   </data>
   <data name="DocumentEditorContainer_ByURL" xml:space="preserve">
     <value>URL ile</value>
-  </data>
-  <data name="DocumentEditorContainer_PageBreak" xml:space="preserve">
-    <value>Sayfa sonu</value>
-  </data>
-  <data name="DocumentEditorContainer_SectionBreak" xml:space="preserve">
-    <value>Bölüm sonu</value>
   </data>
   <data name="DocumentEditorContainer_HeaderAndFooter" xml:space="preserve">
     <value>Üstbilgi Altbilgi</value>
@@ -5431,6 +5452,24 @@
   <data name="DocumentEditorContainer_HidePropertiesPane" xml:space="preserve">
     <value>Özellikler bölmesini gizle</value>
   </data>
+  <data name="DocumentEditorContainer_SectionBreakContinuous" xml:space="preserve">
+    <value>Sürekli</value>
+  </data>
+  <data name="DocumentEditorContainer_ColumnBreak" xml:space="preserve">
+    <value>Kolon</value>
+  </data>
+  <data name="DocumentEditorContainer_PageBreak" xml:space="preserve">
+    <value>Sayfa</value>
+  </data>
+  <data name="DocumentEditorContainer_SectionBreak" xml:space="preserve">
+    <value>Sonraki Sayfa</value>
+  </data>
+  <data name="DocumentEditorContainer_PageBreaks" xml:space="preserve">
+    <value>Sayfa Sonları</value>
+  </data>
+  <data name="DocumentEditorContainer_SectionBreaks" xml:space="preserve">
+    <value>Bölüm Sonları</value>
+  </data>
   <data name="Gantt_Touch_DialogTextOnClickingConnectorPoint" xml:space="preserve">
     <value>Başka bir görev seçin</value>
   </data>
@@ -5493,5 +5532,35 @@
   </data>
   <data name="PivotView_Auto" xml:space="preserve">
     <value>Oto</value>
+  </data>
+  <data name="PivotView_RowPager" xml:space="preserve">
+    <value>Satır çağrı cihazı</value>
+  </data>
+  <data name="PivotView_RowsPerPage" xml:space="preserve">
+    <value>Sayfa başına satır</value>
+  </data>
+  <data name="PivotView_ColumnPager" xml:space="preserve">
+    <value>Sütun çağrı cihazı</value>
+  </data>
+  <data name="PivotView_ColumnsPerPage" xml:space="preserve">
+    <value>Sayfa başına sütun sayısı</value>
+  </data>
+  <data name="PivotView_GoToFirstPage" xml:space="preserve">
+    <value>ilk sayfaya git</value>
+  </data>
+  <data name="PivotView_GoToLastPage" xml:space="preserve">
+    <value>son sayfaya git</value>
+  </data>
+  <data name="PivotView_GoToNextPage" xml:space="preserve">
+    <value>sonraki sayfaya git</value>
+  </data>
+  <data name="PivotView_GoToPreviousPage" xml:space="preserve">
+    <value>Önceki sayfaya git</value>
+  </data>
+  <data name="Grid_ChooseTime" xml:space="preserve">
+    <value>Rezervasyon Saati</value>
+  </data>
+  <data name="Grid_TimeFilter" xml:space="preserve">
+    <value>Zaman Filtreleri!</value>
   </data>
 </root>

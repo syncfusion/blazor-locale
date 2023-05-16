@@ -1830,6 +1830,9 @@
   <data name="DocumentEditor_PageBreak" xml:space="preserve">
   <value>Page Break</value>
   </data>
+  <data name="DocumentEditor_ColumnBreak" xml:space="preserve">
+  <value>Column Break</value>
+  </data>
   <data name="DocumentEditor_RevisionsOnly" xml:space="preserve">
     <value>You may edit in this region, but all change will be tracked</value>
   </data>
@@ -1875,8 +1878,11 @@
   <data name="DocumentEditor_SectionBreakContinuous" xml:space="preserve">
     <value>Section Break (Continuous)</value>
   </data>
-  <data name="DocumentEditorContainer_ColumnBreak" xml:space="preserve">
-    <value>Column Break</value>
+  <data name="DocumentEditor_PasteContentDialog" xml:space="preserve">
+    <value>Due to browser’s security policy, paste from system clipboard is restricted. Alternatively use the keyboard shortcut</value>
+  </data>
+  <data name="DocumentEditor_PasteCheckBoxContentDialog" xml:space="preserve">
+    <value>Don't show again</value>
   </data>
   <data name="DocumentEditorContainer_Columns" xml:space="preserve">
     <value>Columns</value>
@@ -1967,12 +1973,6 @@
   </data>
   <data name="DocumentEditorContainer_ByURL" xml:space="preserve">
     <value>By URL</value>
-  </data>
-  <data name="DocumentEditorContainer_PageBreak" xml:space="preserve">
-    <value>Page Break</value>
-  </data>
-  <data name="DocumentEditorContainer_SectionBreak" xml:space="preserve">
-    <value>Section Break</value>
   </data>
   <data name="DocumentEditorContainer_HeaderAndFooter" xml:space="preserve">
     <value>Header and Footer</value>
@@ -2379,6 +2379,24 @@
   <data name="DocumentEditorContainer_HidePropertiesPane" xml:space="preserve">
     <value>Hide properties pane</value>
   </data>
+<data name="DocumentEditorContainer_SectionBreakContinuous" xml:space="preserve">
+  <value>Continuous</value>
+</data>
+<data name="DocumentEditorContainer_ColumnBreak" xml:space="preserve">
+  <value>Column</value>
+</data>
+<data name="DocumentEditorContainer_PageBreak" xml:space="preserve">
+  <value>Page</value>
+</data>
+<data name="DocumentEditorContainer_SectionBreak" xml:space="preserve">
+  <value>Next Page</value>
+</data>
+<data name="DocumentEditorContainer_PageBreaks" xml:space="preserve">
+  <value>Page Breaks</value>
+</data>
+<data name="DocumentEditorContainer_SectionBreaks" xml:space="preserve">
+  <value>Section Breaks</value>
+</data>
   <data name="PivotView_AddCondition" xml:space="preserve">
     <value>Add Condition</value>
   </data>
@@ -2602,7 +2620,7 @@
     <value>Do not show grand totals</value>
   </data>
   <data name="PivotView_DoNotShowSubtotals" xml:space="preserve">
-    <value>Do not show sub totals</value>
+    <value>Do not show subtotals</value>
   </data>
   <data name="PivotView_Doughnut" xml:space="preserve">
     <value>Doughnut</value>
@@ -2727,8 +2745,8 @@
   <data name="PivotView_GroupCaptionMessage" xml:space="preserve">
     <value>Enter the caption to display in header</value>
   </data>
-  <data name="PivotView_Grouped" xml:space="preserve">
-    <value>Grouped</value>
+  <data name="PivotView_Single" xml:space="preserve">
+    <value>Single</value>
   </data>
   <data name="PivotView_GroupFieldCaptionMessage" xml:space="preserve">
     <value>Enter the caption for group field</value>
@@ -2800,7 +2818,7 @@
     <value>Top</value>
   </data>
   <data name="PivotView_GrandTotalPositions" xml:space="preserve">
-    <value>Grand Total Positions</value>
+    <value>Grand totals position</value>
   </data>
   <data name="PivotView_Bottom" xml:space="preserve">
     <value>Bottom</value>
@@ -2998,7 +3016,7 @@
     <value>Show grand totals columns only</value>
   </data>
   <data name="PivotView_ShowColumnSubtotalsOnly" xml:space="preserve">
-    <value>Show sub totals columns only</value>
+    <value>Show subtotals columns only</value>
   </data>
   <data name="PivotView_ShowFieldList" xml:space="preserve">
     <value>Show field list</value>
@@ -3010,10 +3028,10 @@
     <value>Show grand totals rows only</value>
   </data>
   <data name="PivotView_ShowRowSubtotalsOnly" xml:space="preserve">
-    <value>Show sub totals rows only</value>
+    <value>Show subtotals rows only</value>
   </data>
   <data name="PivotView_ShowSubtotals" xml:space="preserve">
-    <value>Show sub totals</value>
+    <value>Show subtotals</value>
   </data>
   <data name="PivotView_ShowTable" xml:space="preserve">
     <value>Show table</value>
@@ -3197,6 +3215,9 @@
   </data>
   <data name="PivotView_DeferLayoutUpdate" xml:space="preserve">
     <value>Defer Layout Update</value>
+  </data>
+  <data name="Maps_ImageNotFound" xml:space="preserve">
+    <value>Image Not Found</value>
   </data>
   <data name="Maps_Pan" xml:space="preserve">
     <value>Pan</value>
@@ -5043,6 +5064,9 @@
   <data name="Gantt_Touch_RightButton" xml:space="preserve">
     <value>Right</value>
   </data>
+  <data name="Gantt_CriticalPath" xml:space="preserve">
+    <value>Critical Path</value>
+  </data>
   <data name="Grid_EmptyRecord" xml:space="preserve">
     <value>No records to display</value>
   </data>
@@ -5268,6 +5292,12 @@
   <data name="Grid_DateFilter" xml:space="preserve">
     <value>Date Filters</value>
   </data>
+  <data name="Grid_ChooseTime" xml:space="preserve">
+    <value>Choose a Time</value>
+  </data>
+  <data name="Grid_TimeFilter" xml:space="preserve">
+    <value>Time Filters</value>
+  </data>
   <data name="Grid_DateTimeFilter" xml:space="preserve">
     <value>DateTime Filters</value>
   </data>
@@ -5424,6 +5454,9 @@
   <data name="Pager_All" xml:space="preserve">
     <value>All</value>
   </data>
+  <data name="Pager_Items" xml:space="preserve">
+    <value>items</value>
+  </data>
   <data name="Predefined_Dialog_Title" xml:space="preserve">
     <value>Information</value>
   </data>
@@ -5448,10 +5481,31 @@
   <data name="PivotView_SubtotalsPosition" xml:space="preserve">
     <value>Subtotals position</value>
   </data>
-  <data name="PivotView_Single" xml:space="preserve">
-    <value>Single</value>
-  </data>
   <data name="PivotView_Auto" xml:space="preserve">
     <value>Auto</value>
+  </data>
+  <data name="PivotView_ColumnPager" xml:space="preserve">
+    <value>Column pager</value>
+  </data>
+  <data name="PivotView_ColumnsPerPage" xml:space="preserve">
+    <value>Columns per page</value>
+  </data>
+  <data name="PivotView_GoToFirstPage" xml:space="preserve">
+    <value>Go to first page</value>
+  </data>
+  <data name="PivotView_GoToLastPage" xml:space="preserve">
+    <value>Go to last page</value>
+  </data>
+  <data name="PivotView_GoToNextPage" xml:space="preserve">
+    <value>Go to next page</value>
+  </data>
+  <data name="PivotView_GoToPreviousPage" xml:space="preserve">
+    <value>Go to previous page</value>
+  </data>
+  <data name="PivotView_RowPager" xml:space="preserve">
+    <value>Row pager</value>
+  </data>
+  <data name="PivotView_RowsPerPage" xml:space="preserve">
+    <value>Rows per page</value>
   </data>
 </root>

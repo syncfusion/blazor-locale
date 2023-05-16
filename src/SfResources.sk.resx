@@ -591,6 +591,9 @@
   <data name="Slider_IncrementTitle" xml:space="preserve">
     <value>Zvýšiť</value>
   </data>
+  <data name="Maps_ImageNotFound" xml:space="preserve">
+    <value>Obrázok sa nenašiel</value>
+  </data>
   <data name="Maps_Zoom" xml:space="preserve">
     <value>zoom</value>
   </data>
@@ -894,6 +897,9 @@
   <data name="Gantt_TaskType" xml:space="preserve">
     <value>Typ úlohy</value>
   </data>
+  <data name="Gantt_CriticalPath" xml:space="preserve">
+    <value>Kritická cesta</value>
+  </data>
   <data name="ColorPicker_Apply" xml:space="preserve">
     <value>platiť</value>
   </data>
@@ -902,6 +908,15 @@
   </data>
   <data name="ColorPicker_ModeSwitcher" xml:space="preserve">
     <value>Režim prepínania</value>
+  </data>
+  <data name="ColorPicker_FormatSwitcher" xml:space="preserve">
+    <value>Prepnúť formát</value>
+  </data>
+  <data name="ColorPicker" xml:space="preserve">
+    <value>Výber farieb</value>
+  </data>
+  <data name="SplitButton" xml:space="preserve">
+    <value>Rozdeliť tlačidlo</value>
   </data>
   <data name="ListBox_ActionFailureTemplate" xml:space="preserve">
     <value>Žiadosť zlyhala</value>
@@ -932,6 +947,9 @@
   </data>
   <data name="ListBox_UnSelectAllText" xml:space="preserve">
     <value>Odznačiť všetko</value>
+  </data>
+  <data name="ListBox_FilterLabel" xml:space="preserve">
+    <value>Hľadať položku zoznamu</value>
   </data>
   <data name="PivotView_NumberFormat_ExampleWatermark" xml:space="preserve">
     <value>Príklad: C, P, 0000%, ### 0. ## 0 # atď.</value>
@@ -2826,6 +2844,9 @@
   </data>
   <data name="Pager_All" xml:space="preserve">
     <value>všetko</value>
+  </data>
+  <data name="Pager_Items" xml:space="preserve">
+    <value>položky</value>
   </data>
   <data name="RecurrenceEditor_Count" xml:space="preserve">
     <value>počítať</value>
@@ -4885,6 +4906,9 @@
 <data name="DocumentEditor_PageBreak" xml:space="preserve">
 <value>Zlom strany</value>
 </data>
+<data name="DocumentEditor_ColumnBreak" xml:space="preserve">
+<value>Zalomenie stĺpca</value>
+</data>
 <data name="DocumentEditor_One" xml:space="preserve">
 <value>Jeden</value>
 </data>
@@ -4918,11 +4942,14 @@
 <data name="DocumentEditor_SectionBreakContinuous" xml:space="preserve">
 <value>Zalomenie sekcie (nepretržité)</value>
 </data>
+<data name="DocumentEditor_PasteContentDialog" xml:space="preserve">
+  <value>Vzhľadom na bezpečnostnú politiku prehliadača je prilepenie zo systémovej schránky obmedzené. Prípadne použite klávesovú skratku</value>
+</data>
+<data name="DocumentEditor_PasteCheckBoxContentDialog" xml:space="preserve">
+  <value>Už nezobrazovať</value>
+</data>
 <data name="DocumentEditorContainer_Columns" xml:space="preserve">
 <value>Stĺpce</value>
-</data>
-<data name="DocumentEditorContainer_ColumnBreak" xml:space="preserve">
-<value>Zalomenie stĺpca</value>
 </data>
 <data name="DocumentEditorContainer_ShowHiddenMarks" xml:space="preserve">
 <value>Zobrazte skryté znaky, ako sú medzery, tabulátor, značky odsekov a zlomy. (Ctrl + *)</value>
@@ -4998,12 +5025,6 @@
   </data>
   <data name="DocumentEditorContainer_ByURL" xml:space="preserve">
     <value>Podľa adresy URL</value>
-  </data>
-  <data name="DocumentEditorContainer_PageBreak" xml:space="preserve">
-    <value>Zlom strany</value>
-  </data>
-  <data name="DocumentEditorContainer_SectionBreak" xml:space="preserve">
-    <value>Koniec oddielu</value>
   </data>
   <data name="DocumentEditorContainer_HeaderAndFooter" xml:space="preserve">
     <value>Záhlavie a päta</value>
@@ -5431,6 +5452,24 @@
   <data name="DocumentEditorContainer_HidePropertiesPane" xml:space="preserve">
     <value>Skryť panel vlastností</value>
   </data>
+  <data name="DocumentEditorContainer_SectionBreakContinuous" xml:space="preserve">
+    <value>Nepretržitý</value>
+  </data>
+  <data name="DocumentEditorContainer_ColumnBreak" xml:space="preserve">
+    <value>Stĺpec</value>
+  </data>
+  <data name="DocumentEditorContainer_PageBreak" xml:space="preserve">
+    <value>Stránka</value>
+  </data>
+  <data name="DocumentEditorContainer_SectionBreak" xml:space="preserve">
+    <value>Ďalšia strana</value>
+  </data>
+  <data name="DocumentEditorContainer_PageBreaks" xml:space="preserve">
+    <value>Konce strán</value>
+  </data>
+  <data name="DocumentEditorContainer_SectionBreaks" xml:space="preserve">
+    <value>Prestávky sekcií</value>
+  </data>
   <data name="Gantt_Touch_DialogTextOnClickingConnectorPoint" xml:space="preserve">
     <value>Vyberte si inú úlohu</value>
   </data>
@@ -5493,5 +5532,35 @@
   </data>
   <data name="PivotView_Auto" xml:space="preserve">
     <value>Auto</value>
+  </data>
+  <data name="PivotView_RowPager" xml:space="preserve">
+    <value>Riadkový pager</value>
+  </data>
+  <data name="PivotView_RowsPerPage" xml:space="preserve">
+    <value>Počet riadkov na stránku</value>
+  </data>
+  <data name="PivotView_ColumnPager" xml:space="preserve">
+    <value>Stĺpcový pager</value>
+  </data>
+  <data name="PivotView_ColumnsPerPage" xml:space="preserve">
+    <value>Stĺpce na stránku</value>
+  </data>
+  <data name="PivotView_GoToFirstPage" xml:space="preserve">
+    <value>Prejdite na prvú stránku</value>
+  </data>
+  <data name="PivotView_GoToLastPage" xml:space="preserve">
+    <value>Prejdite na poslednú stranu</value>
+  </data>
+  <data name="PivotView_GoToNextPage" xml:space="preserve">
+    <value>Prejdite na ďalšiu stránku</value>
+  </data>
+  <data name="PivotView_GoToPreviousPage" xml:space="preserve">
+    <value>Prejsť na predchádzajúcu stránku</value>
+  </data>
+  <data name="Grid_ChooseTime" xml:space="preserve">
+    <value>Zvoľte</value>
+  </data>
+  <data name="Grid_TimeFilter" xml:space="preserve">
+    <value>Časové filtre!</value>
   </data>
 </root>

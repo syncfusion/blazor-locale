@@ -591,6 +591,9 @@
   <data name="Slider_IncrementTitle" xml:space="preserve">
     <value>Aumentar</value>
   </data>
+  <data name="Maps_ImageNotFound" xml:space="preserve">
+    <value>Imagem não encontrada</value>
+  </data>
   <data name="Maps_Zoom" xml:space="preserve">
     <value>Ampliação</value>
   </data>
@@ -894,6 +897,9 @@
   <data name="Gantt_TaskType" xml:space="preserve">
     <value>Tipo de tarefa</value>
   </data>
+  <data name="Gantt_CriticalPath" xml:space="preserve">
+    <value>Caminho crítico</value>
+  </data>
   <data name="ColorPicker_Apply" xml:space="preserve">
     <value>Aplique</value>
   </data>
@@ -902,6 +908,15 @@
   </data>
   <data name="ColorPicker_ModeSwitcher" xml:space="preserve">
     <value>Mudar de modo</value>
+  </data>
+  <data name="ColorPicker_FormatSwitcher" xml:space="preserve">
+    <value>Alternar formato</value>
+  </data>
+  <data name="ColorPicker" xml:space="preserve">
+    <value>Seletor de cores</value>
+  </data>
+  <data name="SplitButton" xml:space="preserve">
+    <value>Botão Dividir</value>
   </data>
   <data name="ListBox_ActionFailureTemplate" xml:space="preserve">
     <value>Falha no pedido</value>
@@ -932,6 +947,9 @@
   </data>
   <data name="ListBox_UnSelectAllText" xml:space="preserve">
     <value>Desmarque todos</value>
+  </data>
+  <data name="ListBox_FilterLabel" xml:space="preserve">
+    <value>Pesquisa o item da lista</value>
   </data>
   <data name="PivotView_NumberFormat_ExampleWatermark" xml:space="preserve">
     <value>Exemplo: C, P, 0000%, ### 0. ## 0 #, etc.</value>
@@ -2826,6 +2844,9 @@
   </data>
   <data name="Pager_All" xml:space="preserve">
     <value>Todos</value>
+  </data>
+  <data name="Pager_Items" xml:space="preserve">
+    <value>Itens</value>
   </data>
   <data name="RecurrenceEditor_Count" xml:space="preserve">
     <value>Contagem</value>
@@ -4885,6 +4906,9 @@
 <data name="DocumentEditor_PageBreak" xml:space="preserve">
 <value>Quebra de página</value>
 </data>
+<data name="DocumentEditor_ColumnBreak" xml:space="preserve">
+<value>quebra de coluna</value>
+</data>
 <data name="DocumentEditor_One" xml:space="preserve">
 <value>Um</value>
 </data>
@@ -4918,11 +4942,14 @@
 <data name="DocumentEditor_SectionBreakContinuous" xml:space="preserve">
 <value>Quebra de seção (contínua)</value>
 </data>
+<data name="DocumentEditor_PasteContentDialog" xml:space="preserve">
+  <value>Devido à política de segurança do navegador, colar da área de transferência do sistema é restrito. Como alternativa, use o atalho de teclado</value>
+</data>
+<data name="DocumentEditor_PasteCheckBoxContentDialog" xml:space="preserve">
+  <value>Não mostrar novamente</value>
+</data>
 <data name="DocumentEditorContainer_Columns" xml:space="preserve">
 <value>colunas</value>
-</data>
-<data name="DocumentEditorContainer_ColumnBreak" xml:space="preserve">
-<value>quebra de coluna</value>
 </data>
 <data name="DocumentEditorContainer_ShowHiddenMarks" xml:space="preserve">
 <value>Mostre os caracteres ocultos como espaços, tabulação, marcas de parágrafo e quebras.(Ctrl + *)</value>
@@ -4998,12 +5025,6 @@
   </data>
   <data name="DocumentEditorContainer_ByURL" xml:space="preserve">
     <value>Por URL</value>
-  </data>
-  <data name="DocumentEditorContainer_PageBreak" xml:space="preserve">
-    <value>Quebra de página</value>
-  </data>
-  <data name="DocumentEditorContainer_SectionBreak" xml:space="preserve">
-    <value>Quebra de seção</value>
   </data>
   <data name="DocumentEditorContainer_HeaderAndFooter" xml:space="preserve">
     <value>Cabeçalho rodapé</value>
@@ -5431,6 +5452,24 @@
   <data name="DocumentEditorContainer_HidePropertiesPane" xml:space="preserve">
     <value>Ocultar painel de propriedades</value>
   </data>
+  <data name="DocumentEditorContainer_SectionBreakContinuous" xml:space="preserve">
+    <value>Contínuo</value>
+  </data>
+  <data name="DocumentEditorContainer_ColumnBreak" xml:space="preserve">
+    <value>Coluna</value>
+  </data>
+  <data name="DocumentEditorContainer_PageBreak" xml:space="preserve">
+    <value>Página</value>
+  </data>
+  <data name="DocumentEditorContainer_SectionBreak" xml:space="preserve">
+    <value>Próxima página</value>
+  </data>
+  <data name="DocumentEditorContainer_PageBreaks" xml:space="preserve">
+    <value>quebras de página</value>
+  </data>
+  <data name="DocumentEditorContainer_SectionBreaks" xml:space="preserve">
+    <value>Quebras de seção</value>
+  </data>
   <data name="Gantt_Touch_DialogTextOnClickingConnectorPoint" xml:space="preserve">
     <value>Escolha a outra tarefa</value>
   </data>
@@ -5493,5 +5532,35 @@
   </data>
   <data name="PivotView_Auto" xml:space="preserve">
     <value>Auto</value>
+  </data>
+  <data name="PivotView_RowPager" xml:space="preserve">
+    <value>pager de linha</value>
+  </data>
+  <data name="PivotView_RowsPerPage" xml:space="preserve">
+    <value>Linhas por página</value>
+  </data>
+  <data name="PivotView_ColumnPager" xml:space="preserve">
+    <value>pager de coluna</value>
+  </data>
+  <data name="PivotView_ColumnsPerPage" xml:space="preserve">
+    <value>Colunas por página</value>
+  </data>
+  <data name="PivotView_GoToFirstPage" xml:space="preserve">
+    <value>Ir para a primeira página</value>
+  </data>
+  <data name="PivotView_GoToLastPage" xml:space="preserve">
+   <value>Ir para a última página</value>
+  </data>
+  <data name="PivotView_GoToNextPage" xml:space="preserve">
+    <value>Ir para a próxima página</value>
+  </data>
+  <data name="PivotView_GoToPreviousPage" xml:space="preserve">
+    <value>Ir para a página anterior</value>
+  </data>
+  <data name="Grid_ChooseTime" xml:space="preserve">
+    <value>Escolha uma hora</value>
+  </data>
+  <data name="Grid_TimeFilter" xml:space="preserve">
+    <value>Filtros de Tempo!</value>
   </data>
 </root>

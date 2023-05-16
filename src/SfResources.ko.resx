@@ -591,6 +591,9 @@
   <data name="Slider_IncrementTitle" xml:space="preserve">
     <value>증가하다</value>
   </data>
+  <data name="Maps_ImageNotFound" xml:space="preserve">
+    <value>이미지를 찾을 수 없음</value>
+  </data>
   <data name="Maps_Zoom" xml:space="preserve">
     <value>줌</value>
   </data>
@@ -894,6 +897,9 @@
   <data name="Gantt_TaskType" xml:space="preserve">
     <value>작업 유형</value>
   </data>
+  <data name="Gantt_CriticalPath" xml:space="preserve">
+    <value>중요한 경로</value>
+  </data>
   <data name="ColorPicker_Apply" xml:space="preserve">
     <value>대다</value>
   </data>
@@ -902,6 +908,15 @@
   </data>
   <data name="ColorPicker_ModeSwitcher" xml:space="preserve">
     <value>스위치 모드</value>
+  </data>
+  <data name="ColorPicker_FormatSwitcher" xml:space="preserve">
+    <value>형식 전환</value>
+  </data>
+  <data name="ColorPicker" xml:space="preserve">
+    <value>색상 선택기</value>
+  </data>
+  <data name="SplitButton" xml:space="preserve">
+    <value>분할 버튼</value>
   </data>
   <data name="ListBox_ActionFailureTemplate" xml:space="preserve">
     <value>요청 실패</value>
@@ -932,6 +947,9 @@
   </data>
   <data name="ListBox_UnSelectAllText" xml:space="preserve">
     <value>모두 선택 해제</value>
+  </data>
+  <data name="ListBox_FilterLabel" xml:space="preserve">
+    <value>목록 항목 검색</value>
   </data>
   <data name="PivotView_NumberFormat_ExampleWatermark" xml:space="preserve">
     <value>예: C, P, 0000 %, ###0.##0# 등.</value>
@@ -2830,6 +2848,9 @@
   </data>
   <data name="Pager_All" xml:space="preserve">
     <value>모두</value>
+  </data>
+  <data name="Pager_Items" xml:space="preserve">
+    <value>아이템</value>
   </data>
   <data name="RecurrenceEditor_Count" xml:space="preserve">
     <value>카운트</value>
@@ -4889,6 +4910,9 @@
 <data name="DocumentEditor_PageBreak" xml:space="preserve">
 <value>페이지 나누기</value>
 </data>
+<data name="DocumentEditor_ColumnBreak" xml:space="preserve">
+<value>단 나누기</value>
+</data>
 <data name="DocumentEditor_One" xml:space="preserve">
 <value>하나</value>
 </data>
@@ -4922,11 +4946,14 @@
 <data name="DocumentEditor_SectionBreakContinuous" xml:space="preserve">
 <value>구역 나누기(연속)</value>
 </data>
+<data name="DocumentEditor_PasteContentDialog" xml:space="preserve">
+  <value>브라우저의 보안 정책으로 인해 시스템 클립보드에서 붙여넣기가 제한됩니다. 또는 키보드 단축키를 사용하십시오.</value>
+</data>
+<data name="DocumentEditor_PasteCheckBoxContentDialog" xml:space="preserve">
+  <value>다시 표시하지 않음</value>
+</data>
 <data name="DocumentEditorContainer_Columns" xml:space="preserve">
 <value>열</value>
-</data>
-<data name="DocumentEditorContainer_ColumnBreak" xml:space="preserve">
-<value>단 나누기</value>
 </data>
 <data name="DocumentEditorContainer_ShowHiddenMarks" xml:space="preserve">
 <value>공백, 탭, 단락 기호 및 나누기와 같은 숨겨진 문자를 표시합니다.(Ctrl + *)</value>
@@ -5002,12 +5029,6 @@
   </data>
   <data name="DocumentEditorContainer_ByURL" xml:space="preserve">
     <value>URL로</value>
-  </data>
-  <data name="DocumentEditorContainer_PageBreak" xml:space="preserve">
-    <value>페이지 나누기</value>
-  </data>
-  <data name="DocumentEditorContainer_SectionBreak" xml:space="preserve">
-    <value>섹션 나누기</value>
   </data>
   <data name="DocumentEditorContainer_HeaderAndFooter" xml:space="preserve">
     <value>머리글 및 바닥 글</value>
@@ -5435,6 +5456,24 @@
   <data name="DocumentEditorContainer_HidePropertiesPane" xml:space="preserve">
     <value>속성 창 숨기기</value>
   </data>
+ <data name="DocumentEditorContainer_SectionBreakContinuous" xml:space="preserve">
+    <value>마디 없는</value>
+  </data>
+  <data name="DocumentEditorContainer_ColumnBreak" xml:space="preserve">
+    <value>열</value>
+  </data>
+  <data name="DocumentEditorContainer_PageBreak" xml:space="preserve">
+    <value>페이지</value>
+  </data>
+  <data name="DocumentEditorContainer_SectionBreak" xml:space="preserve">
+    <value>다음 페이지</value>
+  </data>
+  <data name="DocumentEditorContainer_PageBreaks" xml:space="preserve">
+    <value>페이지 나누기</value>
+  </data>
+  <data name="DocumentEditorContainer_SectionBreaks" xml:space="preserve">
+    <value>섹션 나누기</value>
+  </data>
   <data name="Gantt_Touch_DialogTextOnClickingConnectorPoint" xml:space="preserve">
     <value>다른 작업 선택</value>
   </data>
@@ -5494,5 +5533,35 @@
   </data>
   <data name="PivotView_Auto" xml:space="preserve">
     <value>자동</value>
+  </data>
+  <data name="PivotView_RowPager" xml:space="preserve">
+    <value>행 페이저</value>
+  </data>
+  <data name="PivotView_RowsPerPage" xml:space="preserve">
+    <value>페이지당 행</value>
+  </data>
+  <data name="PivotView_ColumnPager" xml:space="preserve">
+    <value>열 호출기</value>
+  </data>
+  <data name="PivotView_ColumnsPerPage" xml:space="preserve">
+    <value>페이지당 열</value>
+  </data>
+  <data name="PivotView_GoToFirstPage" xml:space="preserve">
+    <value>첫 페이지로 이동</value>
+  </data>
+  <data name="PivotView_GoToLastPage" xml:space="preserve">
+    <value>마지막 페이지로 이동</value>
+  </data>
+  <data name="PivotView_GoToNextPage" xml:space="preserve">
+    <value>다음 페이지로 이동</value>
+  </data>
+  <data name="PivotView_GoToPreviousPage" xml:space="preserve">
+    <value>이전 페이지로 이동</value>
+  </data>
+  <data name="Grid_ChooseTime" xml:space="preserve">
+    <value>시간 선택</value>
+  </data>
+  <data name="Grid_TimeFilter" xml:space="preserve">
+    <value>시간 필터</value>
   </data>
 </root>

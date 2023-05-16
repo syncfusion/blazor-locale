@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -592,6 +592,9 @@
     <value>Zvýšit</value>
 	
   </data>
+  <data name="Maps_ImageNotFound" xml:space="preserve">
+    <value>Image Not Found</value>
+  </data>
   <data name="Maps_Zoom" xml:space="preserve">
     <value>Zvětšení</value>
   </data>
@@ -895,6 +898,9 @@
   <data name="Gantt_TaskType" xml:space="preserve">
     <value>Typ úkolu</value>
   </data>
+  <data name="Gantt_CriticalPath" xml:space="preserve">
+    <value>Kritická cesta</value>
+  </data>
   <data name="ColorPicker_Apply" xml:space="preserve">
     <value>Aplikovat</value>
   </data>
@@ -903,6 +909,15 @@
   </data>
   <data name="ColorPicker_ModeSwitcher" xml:space="preserve">
     <value>Režim přepínání</value>
+  </data>
+  <data name="ColorPicker_FormatSwitcher" xml:space="preserve">
+    <value>Přepnout formát</value>
+  </data>
+  <data name="ColorPicker" xml:space="preserve">
+    <value>Výběr barvy</value>
+  </data>
+  <data name="SplitButton" xml:space="preserve">
+    <value>Rozdělit tlačítko</value>
   </data>
   <data name="ListBox_ActionFailureTemplate" xml:space="preserve">
     <value>Požadavek selhala</value>
@@ -933,6 +948,9 @@
   </data>
   <data name="ListBox_UnSelectAllText" xml:space="preserve">
     <value>Odznačit vše</value>
+  </data>
+  <data name="ListBox_FilterLabel" xml:space="preserve">
+    <value>Hledat položku seznamu</value>
   </data>
   <data name="PivotView_NumberFormat_ExampleWatermark" xml:space="preserve">
     <value>Příklad: C, P, 0000%, ### 0. ## 0 # atd.</value>
@@ -2829,6 +2847,9 @@
   </data>
   <data name="Pager_All" xml:space="preserve">
     <value>Všechno</value>
+  </data>
+  <data name="Pager_Items" xml:space="preserve">
+    <value>položek</value>
   </data>
   <data name="RecurrenceEditor_Count" xml:space="preserve">
     <value>Počet</value>
@@ -4888,6 +4909,9 @@
 <data name="DocumentEditor_PageBreak" xml:space="preserve">
 <value>Konec stránky</value>
 </data>
+<data name="DocumentEditor_ColumnBreak" xml:space="preserve">
+<value>Přerušení sloupce</value>
+</data>
 <data name="DocumentEditor_One" xml:space="preserve">
 <value>Jeden</value>
 </data>
@@ -4921,11 +4945,14 @@
 <data name="DocumentEditor_SectionBreakContinuous" xml:space="preserve">
 <value>Konec sekce (nepřetržitý)</value>
 </data>
+<data name="DocumentEditor_PasteContentDialog" xml:space="preserve">
+  <value>Kvůli bezpečnostní politice prohlížeče je vkládání ze systémové schránky omezeno. Případně použijte klávesovou zkratku</value>
+</data>
+<data name="DocumentEditor_PasteCheckBoxContentDialog" xml:space="preserve">
+  <value>Nezobrazovat znovu</value>
+</data>
 <data name="DocumentEditorContainer_Columns" xml:space="preserve">
 <value>Sloupce</value>
-</data>
-<data name="DocumentEditorContainer_ColumnBreak" xml:space="preserve">
-<value>Přerušení sloupce</value>
 </data>
 <data name="DocumentEditorContainer_ShowHiddenMarks" xml:space="preserve">
 <value>Zobrazit skryté znaky, jako jsou mezery, tabulátor, značky odstavců a konce. (Ctrl + *)</value>
@@ -5002,12 +5029,6 @@
   </data>
   <data name="DocumentEditorContainer_ByURL" xml:space="preserve">
     <value>Podle URL</value>
-  </data>
-  <data name="DocumentEditorContainer_PageBreak" xml:space="preserve">
-    <value>Konec stránky</value>
-  </data>
-  <data name="DocumentEditorContainer_SectionBreak" xml:space="preserve">
-    <value>Konec sekce</value>
   </data>
   <data name="DocumentEditorContainer_HeaderAndFooter" xml:space="preserve">
     <value>Záhlaví zápatí</value>
@@ -5433,30 +5454,48 @@
     <value>Zobrazit panel vlastností</value>
   </data>
   <data name="DocumentEditorContainer_HidePropertiesPane" xml:space="preserve">
-      <value>Skrýt panel vlastností</value>
-  </data>
-  <data name="Gantt_Touch_DialogTextOnClickingConnectorPoint" xml:space="preserve">
-    <value>Vyberte si jiný úkol</value>
-  </data>
-  <data name="Gantt_Touch_DialogTextOnSelectingTaskbar" xml:space="preserve">
-    <value>Vyberte polohu konektoru</value>
-  </data>
-  <data name="Gantt_Touch_LeftButton" xml:space="preserve">
-    <value>Vlevo, odjet</value>
-  </data>
-  <data name="Gantt_Touch_RightButton" xml:space="preserve">
-    <value>Že jo</value>
-  </data>
-  <data name="PdfViewer_ExportXFDF" xml:space="preserve">
-    <value>Exportujte anotaci do souboru XFDF</value>
-  </data>
-  <data name="PdfViewer_ImportXFDF" xml:space="preserve">
-    <value>Importujte anotace ze souboru XFDF</value>
-  </data>
-  <data name="Predefined_Dialog_Title" xml:space="preserve">
-    <value>Informace</value>
-  </data>
-  <data name="PivotView_StackedLine" xml:space="preserve">
+     <value>Skrýt panel vlastností</value>
+    </data>
+    <data name="DocumentEditorContainer_SectionBreakContinuous" xml:space="preserve">
+      <value>Kontinuální</value>
+    </data>
+    <data name="DocumentEditorContainer_ColumnBreak" xml:space="preserve">
+      <value>Sloupec</value>
+    </data>
+    <data name="DocumentEditorContainer_PageBreak" xml:space="preserve">
+      <value>Strana</value>
+    </data>
+    <data name="DocumentEditorContainer_SectionBreak" xml:space="preserve">
+      <value>Další strana</value>
+    </data>
+    <data name="DocumentEditorContainer_PageBreaks" xml:space="preserve">
+      <value>Konce stránek</value>
+    </data>
+    <data name="DocumentEditorContainer_SectionBreaks" xml:space="preserve">
+      <value>Přestávky v oddílech</value>
+    </data>
+    <data name="Gantt_Touch_DialogTextOnClickingConnectorPoint" xml:space="preserve">
+      <value>Vyberte si jiný úkol</value>
+    </data>
+    <data name="Gantt_Touch_DialogTextOnSelectingTaskbar" xml:space="preserve">
+      <value>Vyberte polohu konektoru</value>
+    </data>
+    <data name="Gantt_Touch_LeftButton" xml:space="preserve">
+      <value>Vlevo, odjet</value>
+    </data>
+    <data name="Gantt_Touch_RightButton" xml:space="preserve">
+      <value>Že jo</value>
+    </data>
+    <data name="PdfViewer_ExportXFDF" xml:space="preserve">
+      <value>Exportujte anotaci do souboru XFDF</value>
+    </data>
+    <data name="PdfViewer_ImportXFDF" xml:space="preserve">
+      <value>Importujte anotace ze souboru XFDF</value>
+    </data>
+    <data name="Predefined_Dialog_Title" xml:space="preserve">
+      <value>Informace</value>
+    </data>
+    <data name="PivotView_StackedLine" xml:space="preserve">
     <value>Skládaný řádek</value>
   </data>
   <data name="PivotView_StackedLine100" xml:space="preserve">
@@ -5494,5 +5533,35 @@
   </data>
   <data name="PivotView_Auto" xml:space="preserve">
     <value>Auto</value>
+  </data>
+  <data name="PivotView_RowPager" xml:space="preserve">
+    <value>Řádkový pager</value>
+  </data>
+  <data name="PivotView_RowsPerPage" xml:space="preserve">
+    <value>Řádky na stránku</value>
+  </data>
+  <data name="PivotView_ColumnPager" xml:space="preserve">
+    <value>Sloupový pager</value>
+  </data>
+  <data name="PivotView_ColumnsPerPage" xml:space="preserve">
+    <value>Sloupce na stránku</value>
+  </data>
+  <data name="PivotView_GoToFirstPage" xml:space="preserve">
+    <value>Přejděte na první stránku</value>
+  </data>
+  <data name="PivotView_GoToLastPage" xml:space="preserve">
+    <value>Přejít na poslední stránku</value>
+  </data>
+  <data name="PivotView_GoToNextPage" xml:space="preserve">
+    <value>Přejít na další stránku</value>
+  </data>
+  <data name="PivotView_GoToPreviousPage" xml:space="preserve">
+    <value>Přejít na předchozí stránku</value>
+  </data>
+  <data name="Grid_ChooseTime" xml:space="preserve">
+    <value>Vyberte si čas!</value>
+  </data>
+  <data name="Grid_TimeFilter" xml:space="preserve">
+    <value>Časové filtry!</value>
   </data>
 </root>

@@ -591,6 +591,9 @@
   <data name="Slider_IncrementTitle" xml:space="preserve">
     <value>増加する</value>
   </data>
+  <data name="Maps_ImageNotFound" xml:space="preserve">
+    <value>画像が見つかりません</value>
+  </data>
   <data name="Maps_Zoom" xml:space="preserve">
     <value>ズーム</value>
   </data>
@@ -894,6 +897,9 @@
   <data name="Gantt_TaskType" xml:space="preserve">
     <value>タスクタイプ</value>
   </data>
+  <data name="Gantt_CriticalPath" xml:space="preserve">
+    <value>クリティカルパス</value>
+  </data>
   <data name="ColorPicker_Apply" xml:space="preserve">
     <value>適用する</value>
   </data>
@@ -902,6 +908,15 @@
   </data>
   <data name="ColorPicker_ModeSwitcher" xml:space="preserve">
     <value>スイッチモード</value>
+  </data>
+  <data name="ColorPicker_FormatSwitcher" xml:space="preserve">
+    <value>フォーマットを切り替え</value>
+  </data>
+  <data name="ColorPicker" xml:space="preserve">
+    <value>カラーピッカー</value>
+  </data>
+  <data name="SplitButton" xml:space="preserve">
+    <value>分割ボタン</value>
   </data>
   <data name="ListBox_ActionFailureTemplate" xml:space="preserve">
     <value>リクエストに失敗しました</value>
@@ -932,6 +947,9 @@
   </data>
   <data name="ListBox_UnSelectAllText" xml:space="preserve">
     <value>すべて選択解除</value>
+  </data>
+  <data name="ListBox_FilterLabel" xml:space="preserve">
+    <value>リスト アイテムの検索</value>
   </data>
   <data name="PivotView_NumberFormat_ExampleWatermark" xml:space="preserve">
     <value>例：C、P、0000％、### 0。## 0＃など。</value>
@@ -2830,6 +2848,9 @@
   </data>
   <data name="Pager_All" xml:space="preserve">
     <value>すべて</value>
+  </data>
+  <data name="Pager_Items" xml:space="preserve">
+    <value>アイテム</value>
   </data>
   <data name="RecurrenceEditor_Count" xml:space="preserve">
     <value>カウント</value>
@@ -4889,6 +4910,9 @@
 <data name="DocumentEditor_PageBreak" xml:space="preserve">
 <value>改ページ</value>
 </data>
+<data name="DocumentEditor_ColumnBreak" xml:space="preserve">
+<value>段区切り</value>
+</data>
 <data name="DocumentEditor_One" xml:space="preserve">
 <value>1</value>
 </data>
@@ -4922,11 +4946,14 @@
 <data name="DocumentEditor_SectionBreakContinuous" xml:space="preserve">
 <value>セクション区切り (連続)</value>
 </data>
+<data name="DocumentEditor_PasteContentDialog" xml:space="preserve">
+  <value>ブラウザのセキュリティ ポリシーにより、システム クリップボードからの貼り付けは制限されています。または、キーボード ショートカットを使用します</value>
+</data>
+<data name="DocumentEditor_PasteCheckBoxContentDialog" xml:space="preserve">
+  <value>今後表示しない</value>
+</data>
 <data name="DocumentEditorContainer_Columns" xml:space="preserve">
 <value>コラム</value>
-</data>
-<data name="DocumentEditorContainer_ColumnBreak" xml:space="preserve">
-<value>段区切り</value>
 </data>
 <data name="DocumentEditorContainer_ShowHiddenMarks" xml:space="preserve">
 <value>スペース、タブ、段落記号、改行などの隠し文字を表示します。(Ctrl + *)</value>
@@ -5002,12 +5029,6 @@
   </data>
   <data name="DocumentEditorContainer_ByURL" xml:space="preserve">
     <value>URLで</value>
-  </data>
-  <data name="DocumentEditorContainer_PageBreak" xml:space="preserve">
-    <value>改ページ</value>
-  </data>
-  <data name="DocumentEditorContainer_SectionBreak" xml:space="preserve">
-    <value>セクション区切り</value>
   </data>
   <data name="DocumentEditorContainer_HeaderAndFooter" xml:space="preserve">
     <value>ヘッダーとフッター</value>
@@ -5435,6 +5456,24 @@
   <data name="DocumentEditorContainer_HidePropertiesPane" xml:space="preserve">
     <value>プロパティ ペインを非表示にする</value>
   </data>
+  <data name="DocumentEditorContainer_SectionBreakContinuous" xml:space="preserve">
+    <value>連続</value>
+  </data>
+  <data name="DocumentEditorContainer_ColumnBreak" xml:space="preserve">
+    <value>桁</value>
+  </data>
+  <data name="DocumentEditorContainer_PageBreak" xml:space="preserve">
+    <value>ページ</value>
+  </data>
+  <data name="DocumentEditorContainer_SectionBreak" xml:space="preserve">
+    <value>次のページ</value>
+  </data>
+  <data name="DocumentEditorContainer_PageBreaks" xml:space="preserve">
+    <value>改ページ</value>
+  </data>
+  <data name="DocumentEditorContainer_SectionBreaks" xml:space="preserve">
+    <value>セクション区切り</value>
+  </data>
   <data name="Gantt_Touch_DialogTextOnClickingConnectorPoint" xml:space="preserve">
     <value>別のタスクを選択してください</value>
   </data>
@@ -5494,5 +5533,35 @@
   </data>
   <data name="PivotView_Auto" xml:space="preserve">
     <value>自動</value>
+  </data>
+  <data name="PivotView_RowPager" xml:space="preserve">
+    <value>行ページャー</value>
+  </data>
+  <data name="PivotView_RowsPerPage" xml:space="preserve">
+    <value>ページあたりの行数</value>
+  </data>
+  <data name="PivotView_ColumnPager" xml:space="preserve">
+    <value>列ページャー</value>
+  </data>
+  <data name="PivotView_ColumnsPerPage" xml:space="preserve">
+    <value>ページあたりの列</value>
+  </data>
+  <data name="PivotView_GoToFirstPage" xml:space="preserve">
+    <value>最初のページに移動</value>
+  </data>
+  <data name="PivotView_GoToLastPage" xml:space="preserve">
+   <value>最後のページへ</value>
+  </data>
+  <data name="PivotView_GoToNextPage" xml:space="preserve">
+    <value>次のページへ</value>
+  </data>
+  <data name="PivotView_GoToPreviousPage" xml:space="preserve">
+    <value>前のページへ</value>
+  </data>
+  <data name="Grid_ChooseTime" xml:space="preserve">
+    <value>時間を選択</value>
+  </data>
+  <data name="Grid_TimeFilter" xml:space="preserve">
+    <value>時間フィルター!</value>
   </data>
 </root>

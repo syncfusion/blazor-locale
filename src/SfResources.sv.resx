@@ -591,6 +591,9 @@
   <data name="Slider_IncrementTitle" xml:space="preserve">
     <value>Öka</value>
   </data>
+  <data name="Maps_ImageNotFound" xml:space="preserve">
+    <value>Bild inte hittad</value>
+  </data>
   <data name="Maps_Zoom" xml:space="preserve">
     <value>Zoom</value>
   </data>
@@ -894,6 +897,9 @@
   <data name="Gantt_TaskType" xml:space="preserve">
     <value>Uppgiftstyp</value>
   </data>
+  <data name="Gantt_CriticalPath" xml:space="preserve">
+    <value>Kritisk väg</value>
+  </data>
   <data name="ColorPicker_Apply" xml:space="preserve">
     <value>Tillämpa</value>
   </data>
@@ -902,6 +908,15 @@
   </data>
   <data name="ColorPicker_ModeSwitcher" xml:space="preserve">
     <value>Byt läge</value>
+  </data>
+  <data name="ColorPicker_FormatSwitcher" xml:space="preserve">
+    <value>Växla format</value>
+  </data>
+  <data name="ColorPicker" xml:space="preserve">
+    <value>Färgväljare</value>
+  </data>
+  <data name="SplitButton" xml:space="preserve">
+    <value>Split-knapp</value>
   </data>
   <data name="ListBox_ActionFailureTemplate" xml:space="preserve">
     <value>Begäran misslyckades</value>
@@ -932,6 +947,9 @@
   </data>
   <data name="ListBox_UnSelectAllText" xml:space="preserve">
     <value>Avmarkera alla</value>
+  </data>
+  <data name="ListBox_FilterLabel" xml:space="preserve">
+    <value>Sök listobjekt</value>
   </data>
   <data name="PivotView_NumberFormat_ExampleWatermark" xml:space="preserve">
     <value>Exempel: C, P, 0000%, ### 0. ## 0 #, etc.</value>
@@ -2826,6 +2844,9 @@
   </data>
   <data name="Pager_All" xml:space="preserve">
     <value>Allt</value>
+  </data>
+  <data name="Pager_Items" xml:space="preserve">
+    <value>objekt</value>
   </data>
   <data name="RecurrenceEditor_Count" xml:space="preserve">
     <value>Räkna</value>
@@ -4885,6 +4906,9 @@
 <data name="DocumentEditor_PageBreak" xml:space="preserve">
 <value>Sidbrytning</value>
 </data>
+<data name="DocumentEditor_ColumnBreak" xml:space="preserve">
+<value>Kolumnbrytning</value>
+</data>
 <data name="DocumentEditor_One" xml:space="preserve">
 <value>Ett</value>
 </data>
@@ -4918,11 +4942,14 @@
 <data name="DocumentEditor_SectionBreakContinuous" xml:space="preserve">
 <value>Avsnittsbrytning (kontinuerlig)</value>
 </data>
+<data name="DocumentEditor_PasteContentDialog" xml:space="preserve">
+  <value>På grund av webbläsarens säkerhetspolicy är inklistring från systemets urklipp begränsad. Alternativt kan du använda kortkommandot</value>
+</data>
+<data name="DocumentEditor_PasteCheckBoxContentDialog" xml:space="preserve">
+  <value>Visa inte igen</value>
+</data>
 <data name="DocumentEditorContainer_Columns" xml:space="preserve">
 <value>Kolumner</value>
-</data>
-<data name="DocumentEditorContainer_ColumnBreak" xml:space="preserve">
-<value>Kolumnbrytning</value>
 </data>
 <data name="DocumentEditorContainer_ShowHiddenMarks" xml:space="preserve">
 <value>Visa de dolda tecknen som mellanslag, tabb, stycketecken och brytningar.(Ctrl + *)</value>
@@ -4998,12 +5025,6 @@
   </data>
   <data name="DocumentEditorContainer_ByURL" xml:space="preserve">
     <value>Med URL</value>
-  </data>
-  <data name="DocumentEditorContainer_PageBreak" xml:space="preserve">
-    <value>Sidbrytning</value>
-  </data>
-  <data name="DocumentEditorContainer_SectionBreak" xml:space="preserve">
-    <value>Avsnitt Break</value>
   </data>
   <data name="DocumentEditorContainer_HeaderAndFooter" xml:space="preserve">
     <value>Header och Footer</value>
@@ -5431,6 +5452,24 @@
   <data name="DocumentEditorContainer_HidePropertiesPane" xml:space="preserve">
     <value>Dölj egenskapsrutan</value>
   </data>
+  <data name="DocumentEditorContainer_SectionBreakContinuous" xml:space="preserve">
+    <value>Kontinuerlig</value>
+  </data>
+  <data name="DocumentEditorContainer_ColumnBreak" xml:space="preserve">
+    <value>Kolumn</value>
+  </data>
+  <data name="DocumentEditorContainer_PageBreak" xml:space="preserve">
+    <value>Sida</value>
+  </data>
+  <data name="DocumentEditorContainer_SectionBreak" xml:space="preserve">
+    <value>Nästa sida</value>
+  </data>
+  <data name="DocumentEditorContainer_PageBreaks" xml:space="preserve">
+    <value>Sidbrytningar</value>
+  </data>
+  <data name="DocumentEditorContainer_SectionBreaks" xml:space="preserve">
+    <value>Avsnittsavbrott</value>
+  </data>
   <data name="Gantt_Touch_DialogTextOnClickingConnectorPoint" xml:space="preserve">
     <value>Välj en annan uppgift</value>
   </data>
@@ -5493,5 +5532,35 @@
   </data>
   <data name="PivotView_Auto" xml:space="preserve">
     <value>Bil</value>
+  </data>
+  <data name="PivotView_RowPager" xml:space="preserve">
+    <value>Radpersonsökare</value>
+  </data>
+  <data name="PivotView_RowsPerPage" xml:space="preserve">
+    <value>Rader per sida</value>
+  </data>
+  <data name="PivotView_ColumnPager" xml:space="preserve">
+    <value>Kolumn personsökare</value>
+  </data>
+  <data name="PivotView_ColumnsPerPage" xml:space="preserve">
+    <value>Kolumner per sida</value>
+  </data>
+  <data name="PivotView_GoToFirstPage" xml:space="preserve">
+    <value>Gå till första sidan</value>
+  </data>
+  <data name="PivotView_GoToLastPage" xml:space="preserve">
+    <value>Gå till sista sidan</value>
+  </data>
+  <data name="PivotView_GoToNextPage" xml:space="preserve">
+    <value>Gå till nästa sida</value>
+  </data>
+  <data name="PivotView_GoToPreviousPage" xml:space="preserve">
+    <value>Gå till föregående sida</value>
+  </data>
+  <data name="Grid_ChooseTime" xml:space="preserve">
+    <value>Välj en</value>
+  </data>
+  <data name="Grid_TimeFilter" xml:space="preserve">
+    <value>Tidsfilter!</value>
   </data>
 </root>

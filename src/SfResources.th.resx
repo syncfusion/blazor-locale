@@ -591,6 +591,9 @@
   <data name="Slider_IncrementTitle" xml:space="preserve">
     <value>เพิ่มขึ้น</value>
   </data>
+  <data name="Maps_ImageNotFound" xml:space="preserve">
+    <value>ไม่พบภาพ</value>
+  </data>
   <data name="Maps_Zoom" xml:space="preserve">
     <value>ซูม</value>
   </data>
@@ -894,6 +897,9 @@
   <data name="Gantt_TaskType" xml:space="preserve">
     <value>ประเภทงาน</value>
   </data>
+  <data name="Gantt_CriticalPath" xml:space="preserve">
+    <value>เส้นทางที่สำคัญ</value>
+  </data>
   <data name="ColorPicker_Apply" xml:space="preserve">
     <value>ใช้</value>
   </data>
@@ -902,6 +908,15 @@
   </data>
   <data name="ColorPicker_ModeSwitcher" xml:space="preserve">
     <value>สลับโหมด</value>
+  </data>
+  <data name="ColorPicker_FormatSwitcher" xml:space="preserve">
+    <value>รูปแบบสลับ</value>
+  </data>
+  <data name="ColorPicker" xml:space="preserve">
+    <value>ตัวเลือกสี</value>
+  </data>
+  <data name="SplitButton" xml:space="preserve">
+    <value>ปุ่มแยก</value>
   </data>
   <data name="ListBox_ActionFailureTemplate" xml:space="preserve">
     <value>คำขอล้มเหลว</value>
@@ -932,6 +947,9 @@
   </data>
   <data name="ListBox_UnSelectAllText" xml:space="preserve">
     <value>ไม่เลือกทั้งหมด</value>
+  </data>
+  <data name="ListBox_FilterLabel" xml:space="preserve">
+    <value>รายการค้นหา</value>
   </data>
   <data name="PivotView_NumberFormat_ExampleWatermark" xml:space="preserve">
     <value>ตัวอย่าง: C, P, 0000%, ### 0. ## 0 # ฯลฯ.</value>
@@ -2826,6 +2844,9 @@
   </data>
   <data name="Pager_All" xml:space="preserve">
     <value>ทั้งหมด</value>
+  </data>
+  <data name="Pager_Items" xml:space="preserve">
+    <value>รายการ</value>
   </data>
   <data name="RecurrenceEditor_Count" xml:space="preserve">
     <value>นับ</value>
@@ -4885,6 +4906,9 @@
 <data name="DocumentEditor_PageBreak" xml:space="preserve">
 <value>ตัวแบ่งหน้า</value>
 </data>
+<data name="DocumentEditor_ColumnBreak" xml:space="preserve">
+<value>การแบ่งคอลัมน์</value>
+</data>
 <data name="DocumentEditor_One" xml:space="preserve">
 <value>หนึ่ง</value>
 </data>
@@ -4918,11 +4942,14 @@
 <data name="DocumentEditor_SectionBreakContinuous" xml:space="preserve">
 <value>ตัวแบ่งส่วน (ต่อเนื่อง)</value>
 </data>
+<data name="DocumentEditor_PasteContentDialog" xml:space="preserve">
+  <value>เนื่องจากนโยบายความปลอดภัยของเบราว์เซอร์ การวางจากคลิปบอร์ดของระบบจึงถูกจำกัด หรือใช้แป้นพิมพ์ลัด</value>
+</data>
+<data name="DocumentEditor_PasteCheckBoxContentDialog" xml:space="preserve">
+  <value>ไม่ต้องแสดงอีก</value>
+</data>
 <data name="DocumentEditorContainer_Columns" xml:space="preserve">
 <value>คอลัมน์</value>
-</data>
-<data name="DocumentEditorContainer_ColumnBreak" xml:space="preserve">
-<value>การแบ่งคอลัมน์</value>
 </data>
 <data name="DocumentEditorContainer_ShowHiddenMarks" xml:space="preserve">
 <value>แสดงอักขระที่ซ่อนอยู่ เช่น ช่องว่าง แท็บ เครื่องหมายย่อหน้า และตัวแบ่ง (Ctrl + *)</value>
@@ -4998,12 +5025,6 @@
   </data>
   <data name="DocumentEditorContainer_ByURL" xml:space="preserve">
     <value>ตาม URL</value>
-  </data>
-  <data name="DocumentEditorContainer_PageBreak" xml:space="preserve">
-    <value>ตัวแบ่งหน้า</value>
-  </data>
-  <data name="DocumentEditorContainer_SectionBreak" xml:space="preserve">
-    <value>การแบ่งส่วน</value>
   </data>
   <data name="DocumentEditorContainer_HeaderAndFooter" xml:space="preserve">
     <value>ส่วนหัวและท้ายกระดาษ</value>
@@ -5431,6 +5452,24 @@
   <data name="DocumentEditorContainer_HidePropertiesPane" xml:space="preserve">
     <value>ซ่อนบานหน้าต่างคุณสมบัติ</value>
   </data>
+  <data name="DocumentEditorContainer_SectionBreakContinuous" xml:space="preserve">
+    <value>ต่อเนื่อง</value>
+  </data>
+  <data name="DocumentEditorContainer_ColumnBreak" xml:space="preserve">
+    <value>คอลัมน์</value>
+  </data>
+  <data name="DocumentEditorContainer_PageBreak" xml:space="preserve">
+    <value>หน้าหนังสือ</value>
+  </data>
+  <data name="DocumentEditorContainer_SectionBreak" xml:space="preserve">
+    <value>หน้าต่อไป</value>
+  </data>
+  <data name="DocumentEditorContainer_PageBreaks" xml:space="preserve">
+    <value>ตัวแบ่งหน้า</value>
+  </data>
+  <data name="DocumentEditorContainer_SectionBreaks" xml:space="preserve">
+    <value>ตัวแบ่งส่วน</value>
+  </data>
   <data name="Gantt_Touch_DialogTextOnClickingConnectorPoint" xml:space="preserve">
     <value>เลือกงานอื่น</value>
   </data>
@@ -5471,7 +5510,7 @@
     <value>ยกเลิก</value>
   </data>
   <data name="PivotView_DoNotShowSubtotals" xml:space="preserve">
-    <value>ไม่แสดงผลรวมย่อย</value>
+   <value>ไม่แสดงผลรวมย่อย</value>
   </data>
   <data name="PivotView_ShowColumnSubtotalsOnly" xml:space="preserve">
     <value>แสดงเฉพาะคอลัมน์ผลรวมย่อยเท่านั้น</value>
@@ -5493,5 +5532,35 @@
   </data>
   <data name="PivotView_Auto" xml:space="preserve">
     <value>อัตโนมัติ</value>
+  </data>
+  <data name="PivotView_RowPager" xml:space="preserve">
+    <value>เพจเจอร์แถว</value>
+  </data>
+  <data name="PivotView_RowsPerPage" xml:space="preserve">
+    <value>แถวต่อหน้า</value>
+  </data>
+  <data name="PivotView_ColumnPager" xml:space="preserve">
+    <value>เพจเจอร์คอลัมน์</value>
+  </data>
+  <data name="PivotView_ColumnsPerPage" xml:space="preserve">
+    <value>คอลัมน์ต่อหน้า</value>
+  </data>
+  <data name="PivotView_GoToFirstPage" xml:space="preserve">
+    <value>ไปที่หน้าแรก</value>
+  </data>
+  <data name="PivotView_GoToLastPage" xml:space="preserve">
+    <value>ไปที่หน้าสุดท้าย</value>
+  </data>
+  <data name="PivotView_GoToNextPage" xml:space="preserve">
+    <value>ไปที่หน้าถัดไป</value>
+  </data>
+  <data name="PivotView_GoToPreviousPage" xml:space="preserve">
+    <value>ไปที่หน้าก่อนหน้า</value>
+  </data>
+  <data name="Grid_ChooseTime" xml:space="preserve">
+    <value>เลือกเวลา!</value>
+  </data>
+  <data name="Grid_TimeFilter" xml:space="preserve">
+    <value>กรองเวลา!</value>
   </data>
 </root>

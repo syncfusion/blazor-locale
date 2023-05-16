@@ -591,6 +591,9 @@
   <data name="Slider_IncrementTitle" xml:space="preserve">
     <value>Crește</value>
   </data>
+  <data name="Maps_ImageNotFound" xml:space="preserve">
+    <value>Image Not Found</value>
+  </data>
   <data name="Maps_Zoom" xml:space="preserve">
     <value>Zoom</value>
   </data>
@@ -894,6 +897,9 @@
   <data name="Gantt_TaskType" xml:space="preserve">
     <value>Tip de sarcină</value>
   </data>
+  <data name="Gantt_CriticalPath" xml:space="preserve">
+    <value>Traiectorie critică</value>
+  </data>
   <data name="ColorPicker_Apply" xml:space="preserve">
     <value>aplica</value>
   </data>
@@ -902,6 +908,15 @@
   </data>
   <data name="ColorPicker_ModeSwitcher" xml:space="preserve">
     <value>Mod de comutare</value>
+  </data>
+  <data name="ColorPicker_FormatSwitcher" xml:space="preserve">
+    <value>Comutați formatul</value>
+  </data>
+  <data name="ColorPicker" xml:space="preserve">
+    <value>Selector de culoare</value>
+  </data>
+  <data name="SplitButton" xml:space="preserve">
+    <value>Buton de împărțire</value>
   </data>
   <data name="ListBox_ActionFailureTemplate" xml:space="preserve">
     <value>Cerere nereusita</value>
@@ -932,6 +947,9 @@
   </data>
   <data name="ListBox_UnSelectAllText" xml:space="preserve">
     <value>Deselectează tot</value>
+  </data>
+  <data name="ListBox_FilterLabel" xml:space="preserve">
+    <value>Căutare articol din listă</value>
   </data>
   <data name="PivotView_NumberFormat_ExampleWatermark" xml:space="preserve">
     <value>Exemplu: C, P, 0000%, ### 0. ## 0 # etc.</value>
@@ -2826,6 +2844,9 @@
   </data>
   <data name="Pager_All" xml:space="preserve">
     <value>Toate</value>
+  </data>
+  <data name="Pager_Items" xml:space="preserve">
+    <value>articole</value>
   </data>
   <data name="RecurrenceEditor_Count" xml:space="preserve">
     <value>Numara</value>
@@ -4885,6 +4906,9 @@
 <data name="DocumentEditor_PageBreak" xml:space="preserve">
 <value>Pauza de pagină</value>
 </data>
+<data name="DocumentEditor_ColumnBreak" xml:space="preserve">
+<value>Pauza de coloană</value>
+</data>
 <data name="DocumentEditor_One" xml:space="preserve">
 <value>unu</value>
 </data>
@@ -4918,11 +4942,14 @@
 <data name="DocumentEditor_SectionBreakContinuous" xml:space="preserve">
 <value>Pauza de sectiune (continuu)</value>
 </data>
+<data name="DocumentEditor_PasteContentDialog" xml:space="preserve">
+  <value>Din cauza politicii de securitate a browserului, lipirea din clipboard-ul sistemului este restricționată. Alternativ, utilizați comanda rapidă de la tastatură</value>
+</data>
+<data name="DocumentEditor_PasteCheckBoxContentDialog" xml:space="preserve">
+  <value>Nu mai arăta</value>
+</data>
 <data name="DocumentEditorContainer_Columns" xml:space="preserve">
 <value>Coloane</value>
-</data>
-<data name="DocumentEditorContainer_ColumnBreak" xml:space="preserve">
-<value>Pauza de coloană</value>
 </data>
 <data name="DocumentEditorContainer_ShowHiddenMarks" xml:space="preserve">
 <value>Afișați caracterele ascunse, cum ar fi spații, tabulatori, semne de paragraf și pauze. (Ctrl + *)</value>
@@ -4998,12 +5025,6 @@
   </data>
   <data name="DocumentEditorContainer_ByURL" xml:space="preserve">
     <value>Pe adresa URL</value>
-  </data>
-  <data name="DocumentEditorContainer_PageBreak" xml:space="preserve">
-    <value>Pauză de pagină</value>
-  </data>
-  <data name="DocumentEditorContainer_SectionBreak" xml:space="preserve">
-    <value>Pauză de secțiune</value>
   </data>
   <data name="DocumentEditorContainer_HeaderAndFooter" xml:space="preserve">
     <value>Antet și subsol</value>
@@ -5431,6 +5452,24 @@
   <data name="DocumentEditorContainer_HidePropertiesPane" xml:space="preserve">
     <value>Ascunde panoul de proprietăți</value>
   </data>
+  <data name="DocumentEditorContainer_SectionBreakContinuous" xml:space="preserve">
+    <value>Continuu</value>
+  </data>
+  <data name="DocumentEditorContainer_ColumnBreak" xml:space="preserve">
+    <value>Coloană</value>
+  </data>
+  <data name="DocumentEditorContainer_PageBreak" xml:space="preserve">
+    <value>Pagină</value>
+  </data>
+  <data name="DocumentEditorContainer_SectionBreak" xml:space="preserve">
+    <value>Pagina următoare</value>
+  </data>
+  <data name="DocumentEditorContainer_PageBreaks" xml:space="preserve">
+    <value>Spărțiri de pagină</value>
+  </data>
+  <data name="DocumentEditorContainer_SectionBreaks" xml:space="preserve">
+    <value>Pauza de sectiune</value>
+  </data>
   <data name="Gantt_Touch_DialogTextOnClickingConnectorPoint" xml:space="preserve">
     <value>Alegeți o altă sarcină</value>
   </data>
@@ -5493,5 +5532,35 @@
   </data>
   <data name="PivotView_Auto" xml:space="preserve">
     <value>Auto</value>
+  </data>
+  <data name="PivotView_RowPager" xml:space="preserve">
+    <value>Paginar pe rând</value>
+  </data>
+  <data name="PivotView_RowsPerPage" xml:space="preserve">
+    <value>Rânduri pe pagină</value>
+  </data>
+  <data name="PivotView_ColumnPager" xml:space="preserve">
+    <value>Pagina de coloană</value>
+  </data>
+  <data name="PivotView_ColumnsPerPage" xml:space="preserve">
+    <value>Coloane pe pagină</value>
+  </data>
+  <data name="PivotView_GoToFirstPage" xml:space="preserve">
+    <value>Accesați prima pagină</value>
+  </data>
+  <data name="PivotView_GoToLastPage" xml:space="preserve">
+    <value>Mergeți la ultima pagină</value>
+  </data>
+  <data name="PivotView_GoToNextPage" xml:space="preserve">
+   <value>Mergeți la pagina următoare</value>
+  </data>
+  <data name="PivotView_GoToPreviousPage" xml:space="preserve">
+    <value>Mergeți la pagina anterioară</value>
+  </data>
+  <data name="Grid_ChooseTime" xml:space="preserve">
+    <value>Alege o</value>
+  </data>
+  <data name="Grid_TimeFilter" xml:space="preserve">
+    <value>Filtre de timp!</value>
   </data>
 </root>

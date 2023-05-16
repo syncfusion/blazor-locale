@@ -591,6 +591,9 @@
   <data name="Slider_IncrementTitle" xml:space="preserve">
     <value>Увеличение</value>
   </data>
+  <data name="Maps_ImageNotFound" xml:space="preserve">
+    <value>Изображение не найдено</value>
+  </data>
   <data name="Maps_Zoom" xml:space="preserve">
     <value>Увеличить</value>
   </data>
@@ -894,6 +897,9 @@
   <data name="Gantt_TaskType" xml:space="preserve">
     <value>Тип задачи</value>
   </data>
+  <data name="Gantt_CriticalPath" xml:space="preserve">
+    <value>Критический путь</value>
+  </data>
   <data name="ColorPicker_Apply" xml:space="preserve">
     <value>Подать заявление</value>
   </data>
@@ -902,6 +908,15 @@
   </data>
   <data name="ColorPicker_ModeSwitcher" xml:space="preserve">
     <value>Переключить режим</value>
+  </data>
+  <data name="ColorPicker_FormatSwitcher" xml:space="preserve">
+    <value>Переключить формат</value>
+  </data>
+  <data name="ColorPicker" xml:space="preserve">
+    <value>Выбор цвета</value>
+  </data>
+  <data name="SplitButton" xml:space="preserve">
+    <value>Кнопка разделения</value>
   </data>
   <data name="ListBox_ActionFailureTemplate" xml:space="preserve">
     <value>Запрос не выполнен</value>
@@ -932,6 +947,9 @@
   </data>
   <data name="ListBox_UnSelectAllText" xml:space="preserve">
     <value>Снять все</value>
+  </data>
+  <data name="ListBox_FilterLabel" xml:space="preserve">
+    <value>Элемент списка поиска</value>
   </data>
   <data name="PivotView_NumberFormat_ExampleWatermark" xml:space="preserve">
     <value>Пример: C, P, 0000%, ### 0. ## 0 # и т. Д.</value>
@@ -2824,6 +2842,9 @@
   </data>
   <data name="Pager_All" xml:space="preserve">
     <value>Все</value>
+  </data>
+  <data name="Pager_Items" xml:space="preserve">
+    <value>Предметы</value>
   </data>
   <data name="RecurrenceEditor_Count" xml:space="preserve">
     <value>подсчитывать</value>
@@ -4883,6 +4904,9 @@
 <data name="DocumentEditor_PageBreak" xml:space="preserve">
 <value>Разрыв страницы</value>
 </data>
+<data name="DocumentEditor_ColumnBreak" xml:space="preserve">
+<value>Разрыв столбца</value>
+</data>
 <data name="DocumentEditor_One" xml:space="preserve">
 <value>Один</value>
 </data>
@@ -4916,11 +4940,14 @@
 <data name="DocumentEditor_SectionBreakContinuous" xml:space="preserve">
 <value>Разрыв раздела (непрерывный)</value>
 </data>
+<data name="DocumentEditor_PasteContentDialog" xml:space="preserve">
+  <value>Из-за политики безопасности браузера вставка из системного буфера обмена ограничена. В качестве альтернативы используйте сочетание клавиш</value>
+</data>
+<data name="DocumentEditor_PasteCheckBoxContentDialog" xml:space="preserve">
+  <value>Больше не показывать</value>
+</data>
 <data name="DocumentEditorContainer_Columns" xml:space="preserve">
 <value>Столбцы</value>
-</data>
-<data name="DocumentEditorContainer_ColumnBreak" xml:space="preserve">
-<value>Разрыв столбца</value>
 </data>
 <data name="DocumentEditorContainer_ShowHiddenMarks" xml:space="preserve">
 <value>Показать скрытые символы, такие как пробелы, табуляция, знаки абзаца и разрывы. (Ctrl + *)</value>
@@ -4996,12 +5023,6 @@
   </data>
   <data name="DocumentEditorContainer_ByURL" xml:space="preserve">
     <value>По URL</value>
-  </data>
-  <data name="DocumentEditorContainer_PageBreak" xml:space="preserve">
-    <value>Разрыв страницы</value>
-  </data>
-  <data name="DocumentEditorContainer_SectionBreak" xml:space="preserve">
-    <value>Разрыв раздела</value>
   </data>
   <data name="DocumentEditorContainer_HeaderAndFooter" xml:space="preserve">
     <value>Верхний и нижний колонтитулы</value>
@@ -5432,6 +5453,24 @@
   <data name="DocumentEditorContainer_HidePropertiesPane" xml:space="preserve">
     <value>Скрыть панель свойств</value>
   </data>
+  <data name="DocumentEditorContainer_SectionBreakContinuous" xml:space="preserve">
+    <value>Непрерывный</value>
+  </data>
+  <data name="DocumentEditorContainer_ColumnBreak" xml:space="preserve">
+    <value>Столбец</value>
+  </data>
+  <data name="DocumentEditorContainer_PageBreak" xml:space="preserve">
+    <value>Страница</value>
+  </data>
+  <data name="DocumentEditorContainer_SectionBreak" xml:space="preserve">
+    <value>Следующая Страница</value>
+  </data>
+  <data name="DocumentEditorContainer_PageBreaks" xml:space="preserve">
+    <value>Разрывы страниц</value>
+  </data>
+  <data name="DocumentEditorContainer_SectionBreaks" xml:space="preserve">
+    <value>Разрывы разделов</value>
+  </data>
   <data name="Gantt_Touch_DialogTextOnClickingConnectorPoint" xml:space="preserve">
     <value>Выберите другую задачу</value>
   </data>
@@ -5494,5 +5533,35 @@
   </data>
   <data name="PivotView_Auto" xml:space="preserve">
     <value>Авто</value>
+  </data>
+  <data name="PivotView_RowPager" xml:space="preserve">
+    <value>Пейджер строк</value>
+  </data>
+  <data name="PivotView_RowsPerPage" xml:space="preserve">
+    <value>Строк на странице</value>
+  </data>
+  <data name="PivotView_ColumnPager" xml:space="preserve">
+    <value>Пейджер колонки</value>
+  </data>
+  <data name="PivotView_ColumnsPerPage" xml:space="preserve">
+    <value>Колонок на странице</value>
+  </data>
+  <data name="PivotView_GoToFirstPage" xml:space="preserve">
+   <value>Перейти на первую страницу</value>
+  </data>
+  <data name="PivotView_GoToLastPage" xml:space="preserve">
+    <value>Перейти на последнюю страницу</value>
+  </data>
+  <data name="PivotView_GoToNextPage" xml:space="preserve">
+    <value>Перейти на следующую страницу</value>
+  </data>
+  <data name="PivotView_GoToPreviousPage" xml:space="preserve">
+    <value>Перейти на предыдущую страницу</value>
+  </data>
+  <data name="Grid_ChooseTime" xml:space="preserve">
+    <value>Выберите время</value>
+  </data>
+  <data name="Grid_TimeFilter" xml:space="preserve">
+    <value>Фильтры времени!</value>
   </data>
 </root>
