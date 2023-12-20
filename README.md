@@ -10,4 +10,4 @@ Localization (L10N) is the process of adapting application components and conten
 
 ## Contributions Welcome!
 
-We welcome the pull request for translating the locale text in the resource files. Your contribution towards this will be greatly appreciated. 
+We welcome the pull request for translating the locale text in the resource files. Your contribution towards this will be greatly appreciated.
