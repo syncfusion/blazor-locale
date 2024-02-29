@@ -168,10 +168,46 @@
   <data name="DateTimePicker_Today" xml:space="preserve">
     <value>Bugün</value>
   </data>
+  <data name="Date_Day" xml:space="preserve">
+    <value>Gün</value>
+  </data>
+  <data name="Date_Month" xml:space="preserve">
+    <value>Ay</value>
+  </data>
+  <data name="Date_Year" xml:space="preserve">
+    <value>Yıl</value>
+  </data>
+  <data name="Time_Hour" xml:space="preserve">
+    <value>Saat</value>
+  </data>
+  <data name="Time_Minute" xml:space="preserve">
+    <value>Dakika</value>
+  </data>
+  <data name="Time_Second" xml:space="preserve">
+    <value>İkinci</value>
+  </data>
+  <data name="Date_DayOfWeek" xml:space="preserve">
+    <value>Haftanın günü</value>
+  </data>
   <data name="DropDownList_ActionFailureTemplate" xml:space="preserve">
     <value>İstek başarısız oldu</value>
   </data>
   <data name="DropDownList_NoRecordsTemplate" xml:space="preserve">
+    <value>Kayıt bulunamadı</value>
+  </data>
+   <data name="DropDownTree_NoRecords" xml:space="preserve">
+    <value>Kayıt bulunamadı</value>
+  </data>
+  <data name="DropDownTree_RequestFailed" xml:space="preserve">
+    <value>İstek başarısız oldu</value>
+  </data>
+  <data name="DropDownTree_SelectAll" xml:space="preserve">
+    <value>Hepsini seç</value>
+  </data>
+  <data name="DropDownTree_UnSelectAll" xml:space="preserve">
+    <value>Tümünün Seçimini Kaldır</value>
+  </data>
+  <data name="Mention_NoRecordsTemplate" xml:space="preserve">
     <value>Kayıt bulunamadı</value>
   </data>
   <data name="MultiSelect_ActionFailureTemplate" xml:space="preserve">
@@ -223,15 +259,18 @@
     <value>Dosya yükleme iptal edildi</value>
   </data>
   <data name="Uploader_InProgress" xml:space="preserve">
-    <value>Yükleniyor..</value>
+    <value>yükleniyor</value>
   </data>
   <data name="Uploader_InvalidFileType" xml:space="preserve">
     <value>Dosya türüne izin verilmiyor</value>
   </data>
+  <data name="Uploader_InvalidFileName" xml:space="preserve">
+    <value>Dosya adına izin verilmiyor</value>
+  </data>
   <data name="Uploader_InvalidMaxFileSize" xml:space="preserve">
     <value>Dosya boyutu çok büyük</value>
   </data>
-  <data name="Uploader_invalidMinFileSize" xml:space="preserve">
+  <data name="Uploader_InvalidMinFileSize" xml:space="preserve">
     <value>Dosya boyutu çok küçük</value>
   </data>
   <data name="Uploader_Pause" xml:space="preserve">
@@ -564,6 +603,12 @@
   <data name="Slider_IncrementTitle" xml:space="preserve">
     <value>Artır</value>
   </data>
+  <data name="Stepper_Optional" xml:space="preserve">
+    <value>İsteğe bağlı</value>
+  </data>
+  <data name="Maps_ImageNotFound" xml:space="preserve">
+    <value>Resim Bulunamadı</value>
+  </data>
   <data name="Maps_Zoom" xml:space="preserve">
     <value>yakınlaştırma</value>
   </data>
@@ -867,6 +912,18 @@
   <data name="Gantt_TaskType" xml:space="preserve">
     <value>Görev Türü</value>
   </data>
+  <data name="Gantt_CriticalPath" xml:space="preserve">
+    <value>Kritik yol</value>
+  </data>
+  <data name="Gantt_Segment" xml:space="preserve">
+    <value>bölümler</value>
+  </data>
+  <data name="Gantt_SplitTask" xml:space="preserve">
+    <value>Segmentler</value>
+  </data>
+  <data name="Gantt_MergeTask" xml:space="preserve">
+    <value>Görevi Birleştir</value>
+  </data>
   <data name="ColorPicker_Apply" xml:space="preserve">
     <value>Uygulamak</value>
   </data>
@@ -875,6 +932,15 @@
   </data>
   <data name="ColorPicker_ModeSwitcher" xml:space="preserve">
     <value>Anahtar Modu</value>
+  </data>
+  <data name="ColorPicker_FormatSwitcher" xml:space="preserve">
+    <value>Biçimi değiştir</value>
+  </data>
+  <data name="ColorPicker" xml:space="preserve">
+    <value>Renk seçici</value>
+  </data>
+  <data name="SplitButton" xml:space="preserve">
+    <value>Bölme Düğmesi</value>
   </data>
   <data name="ListBox_ActionFailureTemplate" xml:space="preserve">
     <value>İstek başarısız oldu</value>
@@ -905,6 +971,9 @@
   </data>
   <data name="ListBox_UnSelectAllText" xml:space="preserve">
     <value>Tümünün Seçimini Kaldır</value>
+  </data>
+  <data name="ListBox_FilterLabel" xml:space="preserve">
+    <value>Arama Listesi Öğesi</value>
   </data>
   <data name="PivotView_NumberFormat_ExampleWatermark" xml:space="preserve">
     <value>Örnek: C, P, 0000%, ### 0. ## 0 #, vb.</value>
@@ -1060,7 +1129,7 @@
     <value>Örneğin: [Measures].[Order Quantity] + ([Measures].[Order Quantity] * 0.10)</value>
   </data>
   <data name="PivotView_CalculatedField_Tooltip" xml:space="preserve">
-    <value>İfade oluşturmak için alanları sürükleyip bırakın. Ve, mevcut hesaplanan alanları düzenlemek istiyorsanız! Sonra bunu sadece 'Hesaplanan Üyeler' altındaki alanı seçerek başarabilirsiniz.</value>
+    <value>Bir ifade oluşturmak için alanları sürükleyip bırakın. Ve mevcut hesaplanmış alanları düzenlemek istiyorsanız! 'Hesaplanan Üyeler' altındaki alanı seçerek bunu başarabilirsiniz.</value>
   </data>
   <data name="PivotView_Cancel" xml:space="preserve">
     <value>İptal etmek</value>
@@ -1172,9 +1241,6 @@
   </data>
   <data name="PivotView_DoNotShowGrandTotals" xml:space="preserve">
     <value>Genel toplamları gösterme</value>
-  </data>
-  <data name="PivotView_DoNotShowSubtotals" xml:space="preserve">
-    <value>Alt toplamları gösterme</value>
   </data>
   <data name="PivotView_Drag" xml:space="preserve">
     <value>Sürüklemek</value>
@@ -1344,6 +1410,9 @@
   <data name="PivotView_LoadReport" xml:space="preserve">
     <value>Yük</value>
   </data>
+  <data name="PivotView_Loading" xml:space="preserve">
+    <value>Yükleniyor...</value>
+  </data>
   <data name="PivotView_ManageRecords" xml:space="preserve">
     <value>Kayıtları Yönet</value>
   </data>
@@ -1381,7 +1450,7 @@
     <value>Yeni bir rapor oluştur</value>
   </data>
   <data name="PivotView_NewReportConfirmMessage" xml:space="preserve">
-    <value>Rapordaki değişiklikleri kaydetmek ister misiniz?</value>
+    <value>Bu rapordaki değişiklikleri kaydetmek istiyor musunuz?</value>
   </data>
   <data name="PivotView_NoFormatMessage" xml:space="preserve">
     <value>Biçim bulunamadı !!!</value>
@@ -1432,25 +1501,25 @@
     <value>Yüzde</value>
   </data>
   <data name="PivotView_PercentageOfColumnTotal" xml:space="preserve">
-    <value>Sütun Toplamının %'si</value>
+    <value>%'si Sütun Toplamının</value>
   </data>
   <data name="PivotView_PercentageOfDifferenceFrom" xml:space="preserve">
-    <value>Farkın %'si</value>
+    <value>%'si Farkın</value>
   </data>
   <data name="PivotView_PercentageOfGrandTotal" xml:space="preserve">
-    <value>Genel Toplamın %'si</value>
+    <value>%'si Genel Toplamın</value>
   </data>
   <data name="PivotView_PercentageOfParentColumnTotal" xml:space="preserve">
-    <value>Üst Sütun Toplamının %'si</value>
+    <value>%'si Üst Sütun Toplamının</value>
   </data>
   <data name="PivotView_PercentageOfParentRowTotal" xml:space="preserve">
-    <value>Üst Satır Toplamının %'si</value>
+    <value>%'si Üst Satır Toplamının</value>
   </data>
   <data name="PivotView_PercentageOfParentTotal" xml:space="preserve">
-    <value>Ebeveyn Toplamının %'si</value>
+    <value>%'si Ebeveyn Toplamının</value>
   </data>
   <data name="PivotView_PercentageOfRowTotal" xml:space="preserve">
-    <value>Satır Toplamının Yüzdesi</value>
+    <value>%'si Satır Toplamının Yüzdesi</value>
   </data>
   <data name="PivotView_PNG" xml:space="preserve">
     <value>PNG</value>
@@ -1507,7 +1576,7 @@
     <value>Koşu Toplamları</value>
   </data>
   <data name="PivotView_SampleReport" xml:space="preserve">
-    <value>Örnek rapor</value>
+    <value>Örnek Rapor</value>
   </data>
   <data name="PivotView_SampleStDev" xml:space="preserve">
     <value>Örnek StDev</value>
@@ -1539,9 +1608,6 @@
   <data name="PivotView_ShowColumnGrandTotalsOnly" xml:space="preserve">
     <value>Yalnızca genel toplam sütunlarını göster</value>
   </data>
-  <data name="PivotView_ShowColumnSubtotalsOnly" xml:space="preserve">
-    <value>Yalnızca alt toplam sütunlarını göster</value>
-  </data>
   <data name="PivotView_ShowFieldList" xml:space="preserve">
     <value>Alan listesini göster</value>
   </data>
@@ -1550,12 +1616,6 @@
   </data>
   <data name="PivotView_ShowRowGrandTotalsOnly" xml:space="preserve">
     <value>Yalnızca genel toplam satırlarını göster</value>
-  </data>
-  <data name="PivotView_ShowRowSubtotalsOnly" xml:space="preserve">
-    <value>Yalnızca alt toplam satırları göster</value>
-  </data>
-  <data name="PivotView_ShowSubtotals" xml:space="preserve">
-    <value>Alt toplamları göster</value>
   </data>
   <data name="PivotView_ShowTable" xml:space="preserve">
     <value>Tabloyu göster</value>
@@ -1579,7 +1639,7 @@
     <value>Değerleri şuna göre özetler</value>
   </data>
   <data name="PivotView_SummarizeValuesBy" xml:space="preserve">
-    <value>Değerleri şuna göre özetle:</value>
+    <value>Değerleri şuna göre özetle</value>
   </data>
   <data name="PivotView_SVG" xml:space="preserve">
     <value>SVG</value>
@@ -1669,13 +1729,13 @@
     <value>şaft dişi</value>
   </data>
   <data name="PivotView_StackedColumn100" xml:space="preserve">
-    <value>%100 Yığılmış Sütun</value>
+    <value>100% Yığılmış Sütun</value>
   </data>
   <data name="PivotView_StackedBar100" xml:space="preserve">
-    <value>%100 Yığılmış Çubuk</value>
+    <value>100% Yığılmış Çubuk</value>
   </data>
   <data name="PivotView_StackedArea100" xml:space="preserve">
-    <value>%100 Yığılmış Alan</value>
+    <value>100% Yığılmış Alan</value>
   </data>
   <data name="PivotView_Bubble" xml:space="preserve">
     <value>kabarcık</value>
@@ -1707,14 +1767,17 @@
   <data name="PivotView_Stacked" xml:space="preserve">
     <value>Yığılmış</value>
   </data>
-  <data name="PivotView_Grouped" xml:space="preserve">
-    <value>gruplandırılmış</value>
-  </data>
   <data name="PivotView_MultipleAxisMode" xml:space="preserve">
     <value>Çoklu eksen modu</value>
   </data>
   <data name="PivotView_Median" xml:space="preserve">
     <value>Medyan</value>
+  </data>
+  <data name="PivotView_Bottom" xml:space="preserve">
+    <value>Alt kısım</value>
+  </data>
+  <data name="PivotView_Top" xml:space="preserve">
+    <value>Üst</value>
   </data>
   <data name="QueryBuilder_AddCondition" xml:space="preserve">
     <value>Koşul Ekle</value>
@@ -1744,7 +1807,7 @@
     <value>Boş</value>
   </data>
   <data name="QueryBuilder_EndsWith" xml:space="preserve">
-    <value>Şununla Bitiyor:</value>
+    <value>ile biter</value>
   </data>
   <data name="QueryBuilder_Equal" xml:space="preserve">
     <value>Eşit</value>
@@ -1797,6 +1860,15 @@
   <data name="QueryBuilder_SelectValue" xml:space="preserve">
     <value>Değer Girin</value>
   </data>
+  <data name="QueryBuilder_PlaceholderValue" xml:space="preserve">
+    <value>Değeri seç</value>
+  </data>
+  <data name="QueryBuilder_PlaceholderDateRangeValue" xml:space="preserve">
+    <value>Bir Aralık Seçin</value>
+  </data>
+  <data name="QueryBuilder_PlaceholderDateValue" xml:space="preserve">
+    <value>bir tarih seçin</value>
+  </data>
   <data name="QueryBuilder_StartsWith" xml:space="preserve">
     <value>İle başlar</value>
   </data>
@@ -1807,6 +1879,9 @@
     <value>Bu alan gereklidir</value>
   </data>
   <data name="Dialog_Close" xml:space="preserve">
+    <value>Kapat</value>
+  </data>
+  <data name="Message_Close" xml:space="preserve">
     <value>Kapat</value>
   </data>
   <data name="Toast_Close" xml:space="preserve">
@@ -1829,6 +1904,321 @@
   </data>
   <data name="InPlaceEditor_EditAreaDoubleClick" xml:space="preserve">
     <value>Düzenlemek için çift tıkla</value>
+  </data>
+  <data name="ImageEditor_ShapeStrokeContent" xml:space="preserve">
+    <value>Küçük</value>
+  </data>
+  <data name="ImageEditor_PenStrokeContent" xml:space="preserve">
+    <value>Küçük</value>
+  </data>
+  <data name="ImageEditor_SliderLabel" xml:space="preserve">
+    <value>Parlaklık</value>
+  </data>
+  <data name="ImageEditor_UploaderTooltip" xml:space="preserve">
+    <value>Araştır</value>
+  </data>
+  <data name="ImageEditor_ZoomOutTooltip" xml:space="preserve">
+    <value>Uzaklaştır</value>
+  </data>
+  <data name="ImageEditor_ZoomInTooltip" xml:space="preserve">
+    <value>Yakınlaştır</value>
+  </data>
+  <data name="ImageEditor_CropTooltip" xml:space="preserve">
+    <value>Kırp ve Dönüştür</value>
+  </data>
+  <data name="ImageEditor_CropSelectionTooltip" xml:space="preserve">
+    <value>Kırpma Seçimi</value>
+  </data>
+  <data name="ImageEditor_AnnotationTooltip" xml:space="preserve">
+    <value>Ek Açıklama</value>
+  </data>
+  <data name="ImageEditor_TransformTooltip" xml:space="preserve">
+    <value>dönüştürmek</value>
+  </data>
+  <data name="ImageEditor_FinetuneTooltip" xml:space="preserve">
+    <value>ince ayar</value>
+  </data>
+  <data name="ImageEditor_FilterTooltip" xml:space="preserve">
+    <value>filtre</value>
+  </data>
+  <data name="ImageEditor_BrightnessTooltip" xml:space="preserve">
+    <value>Parlaklık</value>
+  </data>
+  <data name="ImageEditor_ContrastTooltip" xml:space="preserve">
+    <value>Karşıtlık</value>
+  </data>
+  <data name="ImageEditor_HueTooltip" xml:space="preserve">
+    <value>renk tonu</value>
+  </data>
+  <data name="ImageEditor_SaturationTooltip" xml:space="preserve">
+    <value>Doygunluk</value>
+  </data>
+  <data name="ImageEditor_ExposureTooltip" xml:space="preserve">
+    <value>Kapsam</value>
+  </data>
+  <data name="ImageEditor_OpacityTooltip" xml:space="preserve">
+    <value>opaklık</value>
+  </data>
+  <data name="ImageEditor_BlurTooltip" xml:space="preserve">
+    <value>Bulanıklaştırma</value>
+  </data>
+  <data name="ImageEditor_FontFamilyTooltip" xml:space="preserve">
+    <value>Font ailesi</value>
+  </data>
+  <data name="ImageEditor_FontSizeTooltip" xml:space="preserve">
+    <value>Yazı Boyutu</value>
+  </data>
+  <data name="ImageEditor_FontColorTooltip" xml:space="preserve">
+    <value>Yazı rengi</value>
+  </data>
+  <data name="ImageEditor_StrokeColorTooltip" xml:space="preserve">
+    <value>Kontur Rengi</value>
+  </data>
+  <data name="ImageEditor_StrokeWidthTooltip" xml:space="preserve">
+    <value>Darbe genişliği</value>
+  </data>
+  <data name="ImageEditor_FillColorTooltip" xml:space="preserve">
+    <value>Dolgu Rengi</value>
+  </data>
+  <data name="ImageEditor_ResetBtnTooltip" xml:space="preserve">
+    <value>Sıfırla</value>
+  </data>
+  <data name="ImageEditor_SaveBtnTooltip" xml:space="preserve">
+    <value>Kayıt etmek</value>
+  </data>
+  <data name="ImageEditor_UndoTooltip" xml:space="preserve">
+    <value>Geri alma</value>
+  </data>
+  <data name="ImageEditor_RedoTooltip" xml:space="preserve">
+    <value>Yeniden</value>
+  </data>
+  <data name="ImageEditor_FilterDefaultTooltip" xml:space="preserve">
+    <value>Varsayılan</value>
+  </data>
+  <data name="ImageEditor_FilterChromeTooltip" xml:space="preserve">
+    <value>Krom</value>
+  </data>
+  <data name="ImageEditor_FilterColdTooltip" xml:space="preserve">
+    <value>Durgun</value>
+  </data>
+  <data name="ImageEditor_FilterWarmTooltip" xml:space="preserve">
+    <value>Normal</value>
+  </data>
+  <data name="ImageEditor_FilterGrayscaleTooltip" xml:space="preserve">
+    <value>Gri Tonlamalı</value>
+  </data>
+  <data name="ImageEditor_FilterSepiaTooltip" xml:space="preserve">
+    <value>Sepya</value>
+  </data>
+  <data name="ImageEditor_FilterInvertTooltip" xml:space="preserve">
+    <value>Ters çevir</value>
+  </data>
+  <data name="ImageEditor_CropCustomText" xml:space="preserve">
+    <value>görenek</value>
+  </data>
+  <data name="ImageEditor_CropSquareText" xml:space="preserve">
+    <value>Meydan</value>
+  </data>
+  <data name="ImageEditor_CropCircleText" xml:space="preserve">
+    <value>Daire</value>
+  </data>
+  <data name="ImageEditor_AnnotationPenText" xml:space="preserve">
+    <value>Kalem</value>
+  </data>
+  <data name="ImageEditor_AnnotationLineText" xml:space="preserve">
+    <value>Hat</value>
+  </data>
+  <data name="ImageEditor_AnnotationRectangleText" xml:space="preserve">
+    <value>Dikdörtgen</value>
+  </data>
+  <data name="ImageEditor_AnnotationEllipseText" xml:space="preserve">
+    <value>Elips</value>
+  </data>
+  <data name="ImageEditor_AnnotationPathText" xml:space="preserve">
+    <value>Dosya yolu</value>
+  </data>
+  <data name="ImageEditor_AnnotationText" xml:space="preserve">
+    <value>Metin ekle</value>
+  </data>
+  <data name="ImageEditor_TransformRotateLeftText" xml:space="preserve">
+    <value>sola döndür</value>
+  </data>
+  <data name="ImageEditor_TransformRotateRightText" xml:space="preserve">
+    <value>sağa döndür</value>
+  </data>
+  <data name="ImageEditor_TransformFlipHorizontalText" xml:space="preserve">
+    <value>Yatay döndür</value>
+  </data>
+  <data name="ImageEditor_TransformFlipVerticalText" xml:space="preserve">
+    <value>Yatay döndür</value>
+  </data>
+  <data name="ImageEditor_FontStyleBoldText" xml:space="preserve">
+    <value>cesur</value>
+  </data>
+  <data name="ImageEditor_FontStyleItalicText" xml:space="preserve">
+    <value>İtalik</value>
+  </data>
+  <data name="ImageEditor_ShapeStrokeXSmallText" xml:space="preserve">
+    <value>X-Küçük</value>
+  </data>
+  <data name="ImageEditor_ShapeStrokeSmallText" xml:space="preserve">
+    <value>Küçük</value>
+  </data>
+  <data name="ImageEditor_ShapeStrokeMediumText" xml:space="preserve">
+    <value>Orta</value>
+  </data>
+  <data name="ImageEditor_ShapeStrokeLargeText" xml:space="preserve">
+    <value>Büyük</value>
+  </data>
+  <data name="ImageEditor_ShapeStrokeXLargeText" xml:space="preserve">
+    <value>x-büyük</value>
+  </data>
+  <data name="ImageEditor_CloneBtnTooltip" xml:space="preserve">
+    <value>Çoğalt</value>
+  </data>
+  <data name="ImageEditor_DeleteBtnTooltip" xml:space="preserve">
+    <value>Kaldırmak</value>
+  </data>
+  <data name="ImageEditor_EditTextBtnTooltip" xml:space="preserve">
+    <value>Metni düzenle</value>
+  </data>
+  <data name="ImageEditor_ArrowStart" xml:space="preserve">
+    <value>Başlat</value>
+  </data>
+  <data name="ImageEditor_ArrowEnd" xml:space="preserve">
+    <value>Son</value>
+  </data>
+  <data name="ImageEditor_ArrowStartContent" xml:space="preserve">
+    <value>Yok</value>
+  </data>
+  <data name="ImageEditor_ArrowEndContent" xml:space="preserve">
+    <value>Sağlam Ok</value>
+  </data>
+  <data name="ImageEditor_ArrowNone" xml:space="preserve">
+    <value>Yok</value>
+  </data>
+  <data name="ImageEditor_ArrowBar" xml:space="preserve">
+    <value>Bar</value>
+  </data>
+  <data name="ImageEditor_Arrow" xml:space="preserve">
+    <value>ok</value>
+  </data>
+  <data name="ImageEditor_ArrowSolid" xml:space="preserve">
+    <value>Sağlam Ok</value>
+  </data>
+  <data name="ImageEditor_ArrowCircle" xml:space="preserve">
+    <value>Daire</value>
+  </data>
+  <data name="ImageEditor_ArrowCircleSolid" xml:space="preserve">
+    <value>Çember Katı</value>
+  </data>
+  <data name="ImageEditor_ArrowSquare" xml:space="preserve">
+    <value>Meydan</value>
+  </data>
+  <data name="ImageEditor_ArrowSquareSolid" xml:space="preserve">
+    <value>Kare Katı</value>
+  </data>
+  <data name="ImageEditor_DialogHeaderContent" xml:space="preserve">
+    <value>Değişiklikleri Kaydetmeyi Onayla</value>
+  </data>
+  <data name="ImageEditor_DialogContent" xml:space="preserve">
+    <value>Görüntüde yaptığınız değişiklikleri kaydetmek istiyor musunuz?</value>
+  </data>
+  <data name="ImageEditor_DialogYesContent" xml:space="preserve">
+    <value>Evet</value>
+  </data>
+  <data name="ImageEditor_DialogNoContent" xml:space="preserve">
+    <value>Hayır</value>
+  </data>
+  <data name="ImageEditor_ResizeText" xml:space="preserve">
+    <value>yeniden boyutlandırmak</value>
+  </data>
+  <data name="ImageEditor_ResizeWidth" xml:space="preserve">
+    <value>Genişlik</value>
+  </data>
+  <data name="ImageEditor_ResizeHeight" xml:space="preserve">
+    <value>yükseklik</value>
+  </data>
+  <data name="ImageEditor_NonAspect_Tooltip" xml:space="preserve">
+    <value>En boy oranını koru</value>
+  </data>
+  <data name="ImageEditor_Aspect_Tooltip" xml:space="preserve">
+    <value>En boy oranını koru</value>
+  </data>
+  <data name="ImageEditor_HorizontalFlipBtnTooltip" xml:space="preserve">
+    <value>yatay çevirme</value>
+  </data>
+  <data name="ImageEditor_VerticalFlipBtnTooltip" xml:space="preserve">
+    <value>dikey çevirme</value>
+  </data>
+  <data name="ImageEditor_TransparencyBtnTooltip" xml:space="preserve">
+    <value>şeffaflık</value>
+  </data>
+  <data name="ImageEditor_DragText" xml:space="preserve">
+    <value>Resminizi buraya sürükleyip bırakın veya</value>
+  </data>
+  <data name="ImageEditor_BrowseText" xml:space="preserve">
+    <value>Buraya göz atın...</value>
+  </data>
+  <data name="ImageEditor_SupportText" xml:space="preserve">
+    <value>Destekler: </value>
+  </data>
+  <data name="ImageEditor_FrameText" xml:space="preserve">
+    <value>çerçeve</value>
+  </data>
+  <data name="ImageEditor_FrameNone" xml:space="preserve">
+    <value>hiçbiri</value>
+  </data>
+  <data name="ImageEditor_FrameMat" xml:space="preserve">
+    <value>mat</value>
+  </data>
+  <data name="ImageEditor_FrameBevel" xml:space="preserve">
+    <value>eğim</value>
+  </data>
+  <data name="ImageEditor_FrameLine" xml:space="preserve">
+    <value>astar</value>
+  </data>
+  <data name="ImageEditor_FrameInset" xml:space="preserve">
+    <value>ek</value>
+  </data>
+  <data name="ImageEditor_FrameHook" xml:space="preserve">
+    <value>kanca</value>
+  </data>
+  <data name="ImageEditor_FrameColorTooltip" xml:space="preserve">
+    <value>renk</value>
+  </data>
+  <data name="ImageEditor_FrameSizeTooltip" xml:space="preserve">
+    <value>boyut</value>
+  </data>
+  <data name="ImageEditor_FrameOffsetTooltip" xml:space="preserve">
+    <value>telafi etmek</value>
+  </data>
+  <data name="ImageEditor_FrameRadiusTooltip" xml:space="preserve">
+    <value>yarıçap</value>
+  </data>
+  <data name="ImageEditor_FrameAmountTooltip" xml:space="preserve">
+    <value>miktar</value>
+  </data>
+  <data name="ImageEditor_ResizeWidthText" xml:space="preserve">
+    <value>K</value>
+  </data>
+  <data name="ImageEditor_ResizeHeightText" xml:space="preserve">
+    <value>H</value>
+  </data>
+  <data name="ImageEditor_FrameBorderTooltip" xml:space="preserve">
+    <value>Sınır</value>
+  </data>
+  <data name="ImageEditor_FrameBorderSolid" xml:space="preserve">
+    <value>Sağlam</value>
+  </data>
+  <data name="ImageEditor_FrameBorderDashed" xml:space="preserve">
+    <value>Kesikli</value>
+  </data>
+  <data name="ImageEditor_FrameBorderDotted" xml:space="preserve">
+    <value>Noktalı</value>
+  </data>
+  <data name="ImageEditor_FrameGradientTooltip" xml:space="preserve">
+    <value>Degrade renk</value>
   </data>
   <data name="Kanban_Items" xml:space="preserve">
     <value>ürün</value>
@@ -1875,86 +2265,98 @@
   <data name="Kanban_No" xml:space="preserve">
     <value>Hayır</value>
   </data>
+  <data name="Rich_Text_Editor" xml:space="preserve">
+    <value>Zengin metin editörü</value>
+  </data>
+  <data name="RichTextEditor_Markdown_Editor" xml:space="preserve">
+    <value>Markdown Editörü</value>
+  </data>
+  <data name="RichTextEditor_NumberFormatList" xml:space="preserve">
+    <value>Numaralı Liste</value>
+  </data>
   <data name="RichTextEditor_NumberFormatListNone" xml:space="preserve">
-    <value> Yok </value>
+    <value>Yok</value>
   </data>
   <data name="RichTextEditor_NumberFormatListNumber" xml:space="preserve">
-    <value> Numara </value>
+    <value>Numara</value>
   </data>
   <data name="RichTextEditor_NumberFormatListUpperAlpha" xml:space="preserve">
-    <value> Üst Alfa </value>
+    <value>Üst Alfa</value>
   </data>
   <data name="RichTextEditor_NumberFormatListLowerAlpha" xml:space="preserve">
-    <value> Alt Alfa </value>
+    <value>Alt Alfa</value>
   </data>
   <data name="RichTextEditor_NumberFormatListUpperRoman" xml:space="preserve">
-    <value> Yukarı Roma </value>
+    <value>Yukarı Roma</value>
   </data>
   <data name="RichTextEditor_NumberFormatListLowerRoman" xml:space="preserve">
-    <value> Aşağı Roma </value>
+    <value>Aşağı Roma</value>
   </data>
   <data name="RichTextEditor_NumberFormatListLowerGreek" xml:space="preserve">
-    <value> Aşağı Yunanca </value>
+    <value>Aşağı Yunanca</value>
+  </data>
+  <data name="RichTextEditor_BulletFormatList" xml:space="preserve">
+    <value>Maddeli liste</value>
   </data>
   <data name="RichTextEditor_BulletFormatListNone" xml:space="preserve">
-    <value> Yok </value>
+    <value>Yok</value>
   </data>
   <data name="RichTextEditor_BulletFormatListCircle" xml:space="preserve">
-    <value> Daire </value>
+    <value>Daire</value>
   </data>
   <data name="RichTextEditor_BulletFormatListSquare" xml:space="preserve">
-    <value> Meydan </value>
+    <value>Meydan</value>
   </data>
   <data name="RichTextEditor_BulletFormatListDisc" xml:space="preserve">
-    <value> Disk </value>
+    <value>Disk</value>
   </data>
   <data name="RichTextEditor_FormatsDropDownParagraph" xml:space="preserve">
-    <value> Paragraf </value>
+    <value>Paragraf</value>
   </data>
   <data name="RichTextEditor_FormatsDropDownCode" xml:space="preserve">
-    <value> Kodu </value>
+    <value>Kodu</value>
   </data>
   <data name="RichTextEditor_FormatsDropDownQuotation" xml:space="preserve">
-    <value> Teklif </value>
+    <value>Teklif</value>
   </data>
   <data name="RichTextEditor_FormatsDropDownHeading1" xml:space="preserve">
-    <value> Başlık 1 </value>
+    <value>Başlık 1</value>
   </data>
   <data name="RichTextEditor_FormatsDropDownHeading2" xml:space="preserve">
-    <value> Başlık 2 </value>
+    <value>Başlık 2</value>
   </data>
   <data name="RichTextEditor_FormatsDropDownHeading3" xml:space="preserve">
-    <value> Başlık 3 </value>
+    <value>Başlık 3</value>
   </data>
   <data name="RichTextEditor_FormatsDropDownHeading4" xml:space="preserve">
-    <value> Başlık  4 </value>
+    <value>Başlık  4</value>
   </data>
   <data name="RichTextEditor_FormatsDropDownHeading5" xml:space="preserve">
-    <value> Başlık  5 </value>
+    <value>Başlık  5</value>
   </data>
   <data name="RichTextEditor_FormatsDropDownHeading6" xml:space="preserve">
-    <value> Başlık   6 </value>
+    <value>Başlık   6</value>
   </data>
   <data name="RichTextEditor_FontNameSegoeUI" xml:space="preserve">
-    <value> Segoe kullanıcı arayüzü </value>
+    <value>Segoe UI</value>
   </data>
   <data name="RichTextEditor_FontNameArial" xml:space="preserve">
-    <value> Arial </value>
+    <value>Arial</value>
   </data>
   <data name="RichTextEditor_FontNameGeorgia" xml:space="preserve">
-    <value> Gürcistan </value>
+    <value>Georgia</value>
   </data>
   <data name="RichTextEditor_FontNameImpact" xml:space="preserve">
-    <value> Etki </value>
+    <value>Impact</value>
   </data>
   <data name="RichTextEditor_FontNameTahoma" xml:space="preserve">
-    <value> Tahoma </value>
+    <value>Tahoma</value>
   </data>
   <data name="RichTextEditor_FontNameTimesNewRoman" xml:space="preserve">
-    <value> Yeni zamanlar Roma </value>
+    <value>Times New Roman</value>
   </data>
   <data name="RichTextEditor_FontNameVerdana" xml:space="preserve">
-    <value> Verdana </value>
+    <value>Verdana</value>
   </data>
   <data name="RichTextEditor_Alignments" xml:space="preserve">
     <value>hizalamalar</value>
@@ -2160,6 +2562,33 @@
   <data name="RichTextEditor_Browse" xml:space="preserve">
     <value>Araştır</value>
   </data>
+  <data name="RichTextEditor_VideoDeviceUploadMessage" xml:space="preserve">
+    <value>Yüklemek için burayı tıklayın</value>
+  </data>
+  <data name="RichTextEditor_VideoUploadMessage" xml:space="preserve">
+    <value>Bir video dosyasını bırakın veya yüklemek için göz atın</value>
+  </data>
+  <data name="RichTextEditor_EmbedVideoUploadMessage" xml:space="preserve">
+    <value>Katıştırılmış Kodu buraya yapıştırın</value>
+  </data>
+  <data name="RichTextEditor_WebUrl" xml:space="preserve">
+    <value>Web URL'si</value>
+  </data>
+  <data name="RichTextEditor_EmbedUrl" xml:space="preserve">
+    <value>Gömülü Kod</value>
+  </data>
+  <data name="RichTextEditor_VideoWidth" xml:space="preserve">
+    <value>Genişlik</value>
+  </data>
+  <data name="RichTextEditor_VideoHeight" xml:space="preserve">
+    <value>Yükseklik</value>
+  </data>
+  <data name="RichTextEditor_AudioDeviceUploadMessage" xml:space="preserve">
+    <value>Yüklemek için burayı tıklayın</value>
+  </data>
+  <data name="RichTextEditor_AudioUploadMessage" xml:space="preserve">
+    <value>Bir ses dosyası bırakın veya yüklemek için göz atın</value>
+  </data>
   <data name="RichTextEditor_ImageUrl" xml:space="preserve">
     <value>http://example.com/image.png</value>
   </data>
@@ -2337,6 +2766,36 @@
   <data name="RichTextEditor_PasteDialogCancel" xml:space="preserve">
     <value>İptal etmek</value>
   </data>
+  <data name="RichTextEditor_Audio_Replace" xml:space="preserve">
+    <value>Yer değiştirmek</value>
+  </data>
+  <data name="RichTextEditor_Audio_Remove" xml:space="preserve">
+    <value>Kaldırmak</value>
+  </data>
+  <data name="RichTextEditor_Audio_Display" xml:space="preserve">
+    <value>Görüntülemek</value>
+  </data>
+  <data name="RichTextEditor_Video_Replace" xml:space="preserve">
+    <value>Yer değiştirmek</value>
+  </data>
+  <data name="RichTextEditor_Video_Align" xml:space="preserve">
+    <value>hizala</value>
+  </data>
+  <data name="RichTextEditor_Video_Remove" xml:space="preserve">
+    <value>Kaldırmak</value>
+  </data>
+  <data name="RichTextEditor_Video_Display" xml:space="preserve">
+    <value>Görüntülemek</value>
+  </data>
+  <data name="RichTextEditor_Video_Dimension" xml:space="preserve">
+    <value>Boyut</value>
+  </data>
+  <data name="RichTextEditor_Link_AriaLabel" xml:space="preserve">
+    <value>Yeni pencerede aç</value>
+  </data>
+  <data name="RichTextEditor_Image_Link_AriaLabel" xml:space="preserve">
+    <value>Yeni pencerede aç</value>
+  </data>
   <data name="DiagramComponent_X" xml:space="preserve">
     <value>X</value>
   </data>
@@ -2479,7 +2938,7 @@
     <value>İptal etmek</value>
   </data>
   <data name="Grid_EditFormTitle" xml:space="preserve">
-    <value>Ayrıntıları</value>
+    <value>Ayrıntıları </value>
   </data>
   <data name="Grid_AddFormTitle" xml:space="preserve">
     <value>Yeni Kayıt Ekle</value>
@@ -2515,7 +2974,7 @@
     <value>İle başlar</value>
   </data>
   <data name="Grid_EndsWith" xml:space="preserve">
-    <value>Şununla Bitiyor:</value>
+    <value>Şununla Bitiyor</value>
   </data>
   <data name="Grid_Contains" xml:space="preserve">
     <value>İçeren</value>
@@ -2579,6 +3038,12 @@
   </data>
   <data name="Grid_SortDescending" xml:space="preserve">
     <value>Azalan şekilde sırala</value>
+  </data>
+  <data name="Grid_SortedAscending" xml:space="preserve">
+    <value>Artan düzende sıralandı</value>
+  </data>
+  <data name="Grid_SortedDescending" xml:space="preserve">
+    <value>Azalan düzende sıralandı</value>
   </data>
   <data name="Grid_EditRecord" xml:space="preserve">
     <value>Kaydı Düzenle</value>
@@ -2658,6 +3123,84 @@
   <data name="Grid_UnGroupButtonARIA" xml:space="preserve">
     <value>Grubu Çöz Düğmesi</value>
   </data>
+  <data name="Grid_ColumnHeaderARIA" xml:space="preserve">
+    <value>Sütun başlığı</value>
+  </data>
+  <data name="Grid_FilterCheckboxARIA" xml:space="preserve">
+    <value>Filtre onay kutusu</value>
+  </data>
+  <data name="Grid_HeaderSelectionCheckBoxARIA" xml:space="preserve">
+    <value>Başlık onay kutusu</value>
+  </data>
+  <data name="Grid_Sort" xml:space="preserve">
+    <value>Çeşit</value>
+  </data>
+  <data name="Grid_Ascending" xml:space="preserve">
+    <value>Artan</value>
+  </data>
+  <data name="Grid_Descending" xml:space="preserve">
+    <value>Azalan</value>
+  </data>
+  <data name="Grid_None" xml:space="preserve">
+    <value>Yok</value>
+  </data>
+  <data name="Grid_TemplateColumnARIA" xml:space="preserve">
+    <value>şablon hücresidir</value>
+  </data>
+  <data name="Grid_SortDescription" xml:space="preserve">
+    <value>göndermek için ENTER tuşuna basın</value>
+  </data>
+  <data name="Grid_FilterDescription" xml:space="preserve">
+    <value>Filtre Menüsünü açmak için Alt Down tuşuna basın</value>
+  </data>
+  <data name="Grid_ColumnMenuDescription" xml:space="preserve">
+    <value>Sütun Menüsünü açmak için Alt Down tuşuna basın</value>
+  </data>
+  <data name="Grid_GroupDescription" xml:space="preserve">
+    <value>Gruplamak için Ctrl alanına basın</value>
+  </data>
+  <data name="Grid_GroupCaption" xml:space="preserve">
+    <value>grup altyazı hücresi</value>
+  </data>
+  <data name="Grid_ColumnHeaderUndefinedARIA" xml:space="preserve">
+    <value>sütun başlığı tanımlanmadı</value>
+  </data>
+  <data name="Grid_CommandColumnARIA" xml:space="preserve">
+    <value>Komuta Sütunu</value>
+  </data>
+  <data name="Grid_GroupedSortIcon" xml:space="preserve">
+    <value>gruplandırılmış sütunu sırala</value>
+  </data>
+  <data name="Grid_EmptyColumnHeaderUndefinedARIA" xml:space="preserve">
+    <value>boş Sütun Başlığı tanımsız</value>
+  </data>
+  <data name="Grid_Close" xml:space="preserve">
+    <value>kapat</value>
+  </data>
+  <data name="Grid_FilterOperator" xml:space="preserve">
+    <value>Filtre Operatörü</value>
+  </data>
+  <data name="Grid_FilterValue" xml:space="preserve">
+    <value>Süzgeç Değeri</value>
+  </data>
+  <data name="Pager_Page" xml:space="preserve">
+    <value>Page</value>
+  </data>
+  <data name="Pager_Pages" xml:space="preserve">
+    <value>Sayfalar</value>
+  </data>
+  <data name="Pager_Of" xml:space="preserve">
+    <value>nın-nin</value>
+  </data>
+  <data name="Pager_ExternalMessage" xml:space="preserve">
+    <value>Pager harici mesaj</value>
+  </data>
+  <data name="Pager_ShowPages" xml:space="preserve">
+    <value>Sayfalar</value>
+  </data>
+  <data name="Pager_PagerDropDownARIA" xml:space="preserve">
+    <value>Çağrı cihazı açılır menüsü</value>
+  </data>
   <data name="Pager_GotoPageARIA" xml:space="preserve">
     <value>Sayfaya git</value>
   </data>
@@ -2693,6 +3236,9 @@
   </data>
   <data name="Pager_All" xml:space="preserve">
     <value>Herşey</value>
+  </data>
+  <data name="Pager_Items" xml:space="preserve">
+    <value>ürün</value>
   </data>
   <data name="RecurrenceEditor_Count" xml:space="preserve">
     <value>Miktar</value>
@@ -2955,6 +3501,9 @@
   <data name="Schedule_Recurrence" xml:space="preserve">
     <value>yinelenme</value>
   </data>
+  <data name="Schedule_RecurringEvent" xml:space="preserve">
+    <value>Tekrar eden olay</value>
+  </data>
   <data name="Schedule_Repeat" xml:space="preserve">
     <value>Tekrar et</value>
   </data>
@@ -3070,427 +3619,430 @@
     <value>slayt gösterisi</value>
   </data>
   <data name="PdfViewer" xml:space="preserve">
-    <value> PDF Görüntüleyici </value>
+    <value>PDF Görüntüleyici</value>
   </data>
   <data name="PdfViewer_Cancel" xml:space="preserve">
-    <value> İptal etmek </value>
+    <value>İptal etmek</value>
   </data>
   <data name="PdfViewer_DownloadFile" xml:space="preserve">
-    <value> Dosyayı indir </value>
+    <value>Dosyayı indir</value>
   </data>
   <data name="PdfViewer_Download" xml:space="preserve">
-    <value> İndir </value>
+    <value>İndir</value>
   </data>
   <data name="PdfViewer_EnterPassword" xml:space="preserve">
-    <value> Bu belge şifre korumalıdır. Lütfen bir şifre girin.</value>
+    <value>Bu belge şifre korumalıdır. Lütfen bir şifre girin.</value>
   </data>
   <data name="PdfViewer_FileCorrupted" xml:space="preserve">
-    <value> Dosya bozuldu </value>
+    <value>Dosya bozuldu</value>
   </data>
   <data name="PdfViewer_FileCorruptedContent" xml:space="preserve">
-    <value> Dosya bozuk ve açılamıyor.</value>
+    <value>Dosya bozuk ve açılamıyor.</value>
+  </data>
+  <data name="PdfViewer_FitHeight" xml:space="preserve">
+    <value>Uygun yükseklik</value>
   </data>
   <data name="PdfViewer_FitPage" xml:space="preserve">
-    <value> Sayfaya Sığdır </value>
+    <value>Sayfaya Sığdır</value>
   </data>
   <data name="PdfViewer_FitWidth" xml:space="preserve">
-    <value> Genişliğe Sığdır </value>
+    <value>Genişliğe Sığdır</value>
   </data>
   <data name="PdfViewer_Automatic" xml:space="preserve">
-    <value> Otomatik </value>
+    <value>Otomatik</value>
   </data>
   <data name="PdfViewer_GoToFirstPage" xml:space="preserve">
-    <value> İlk sayfayı göster </value>
+    <value>İlk sayfayı göster</value>
   </data>
   <data name="PdfViewer_InvalidPassword" xml:space="preserve">
-    <value> Yanlış parola. Lütfen tekrar deneyin.</value>
+    <value>Yanlış parola. Lütfen tekrar deneyin.</value>
   </data>
   <data name="PdfViewer_NextPage" xml:space="preserve">
-    <value> Sonraki sayfayı göster </value>
+    <value>Sonraki sayfayı göster</value>
   </data>
   <data name="PdfViewer_PreviousPage" xml:space="preserve">
-    <value> Önceki sayfayı göster </value>
+    <value>Önceki sayfayı göster</value>
   </data>
   <data name="PdfViewer_OK" xml:space="preserve">
-    <value> tamam </value>
+    <value>tamam</value>
   </data>
   <data name="PdfViewer_Open" xml:space="preserve">
-    <value> Açık dosya </value>
+    <value>Açık dosya</value>
   </data>
   <data name="PdfViewer_PageNumber" xml:space="preserve">
-    <value> Geçerli sayfa numarası </value>
+    <value>Geçerli sayfa numarası</value>
   </data>
   <data name="PdfViewer_GoToLastPage" xml:space="preserve">
-    <value> Son sayfayı göster </value>
+    <value>Son sayfayı göster</value>
   </data>
   <data name="PdfViewer_Zoom" xml:space="preserve">
-    <value> yakınlaştırma </value>
+    <value>yakınlaştırma</value>
   </data>
   <data name="PdfViewer_ZoomIn" xml:space="preserve">
-    <value> Yakınlaştır </value>
+    <value>Yakınlaştır</value>
   </data>
   <data name="PdfViewer_ZoomOut" xml:space="preserve">
-    <value> Uzaklaştır </value>
+    <value>Uzaklaştır</value>
   </data>
   <data name="PdfViewer_PageThumbnails" xml:space="preserve">
-    <value> Sayfa küçük resimleri </value>
+    <value>Sayfa küçük resimleri</value>
   </data>
   <data name="PdfViewer_Bookmarks" xml:space="preserve">
-    <value> Yer imleri </value>
+    <value>Yer imleri</value>
   </data>
   <data name="PdfViewer_Print" xml:space="preserve">
-    <value> Dosya Yazdır </value>
+    <value>Dosya Yazdır</value>
   </data>
   <data name="PdfViewer_PasswordProtected" xml:space="preserve">
-    <value> Şifre gerekli </value>
+    <value>Şifre gerekli</value>
   </data>
   <data name="PdfViewer_Copy" xml:space="preserve">
-    <value> kopya </value>
+    <value>kopya</value>
   </data>
   <data name="PdfViewer_TextSelection" xml:space="preserve">
-    <value> Metin seçim aracı </value>
+    <value>Metin seçim aracı</value>
   </data>
   <data name="PdfViewer_Panning" xml:space="preserve">
-    <value> Kaydırma Modu </value>
+    <value>Kaydırma Modu</value>
   </data>
   <data name="PdfViewer_TextSearch" xml:space="preserve">
-    <value> Metin bul </value>
+    <value>Metin bul</value>
   </data>
   <data name="PdfViewer_Findindocument" xml:space="preserve">
-    <value> Belgede bul </value>
+    <value>Belgede bul</value>
   </data>
   <data name="PdfViewer_Matchcase" xml:space="preserve">
-    <value> Maç davası </value>
+    <value>Maç davası</value>
   </data>
   <data name="PdfViewer_Apply" xml:space="preserve">
-    <value> Uygulamak </value>
+    <value>Uygulamak</value>
   </data>
   <data name="PdfViewer_GoToPage" xml:space="preserve">
-    <value> Sayfaya git </value>
+    <value>Sayfaya git</value>
   </data>
   <data name="PdfViewer_Nomatches" xml:space="preserve">
-    <value> Görüntüleyici belgeyi aramayı bitirdi. Başka eşleşme bulunamadı </value>
+    <value>Görüntüleyici belgeyi aramayı bitirdi. Başka eşleşme bulunamadı</value>
   </data>
   <data name="PdfViewer_NoTextFound" xml:space="preserve">
-    <value> Metin Bulunamadı </value>
+    <value>Metin Bulunamadı</value>
   </data>
   <data name="PdfViewer_Undo" xml:space="preserve">
-    <value> Geri alma </value>
+    <value>Geri alma</value>
   </data>
   <data name="PdfViewer_Redo" xml:space="preserve">
-    <value> Yeniden </value>
+    <value>Yeniden</value>
   </data>
   <data name="PdfViewer_Annotation" xml:space="preserve">
-    <value> Ek açıklama ekleyin veya düzenleyin </value>
+    <value>Ek açıklama ekleyin veya düzenleyin</value>
   </data>
   <data name="PdfViewer_Highlight" xml:space="preserve">
-    <value> Metni vurgulamak </value>
+    <value>Metni vurgulamak</value>
   </data>
   <data name="PdfViewer_Underline" xml:space="preserve">
-    <value> Metnin Altını Çiz </value>
+    <value>Metnin Altını Çiz</value>
   </data>
   <data name="PdfViewer_Strikethrough" xml:space="preserve">
-    <value> Üstü Çizili Metin </value>
+    <value>Üstü Çizili Metin</value>
   </data>
   <data name="PdfViewer_Delete" xml:space="preserve">
-    <value> Ek açıklamayı sil </value>
+    <value>Ek açıklamayı sil</value>
   </data>
   <data name="PdfViewer_Opacity" xml:space="preserve">
-    <value> opaklık </value>
+    <value>opaklık</value>
   </data>
   <data name="PdfViewer_ColorEdit" xml:space="preserve">
-    <value> Rengi değiştir </value>
+    <value>Rengi değiştir</value>
   </data>
   <data name="PdfViewer_OpacityEdit" xml:space="preserve">
-    <value> Opaklığı Değiştir </value>
+    <value>Opaklığı Değiştir</value>
   </data>
   <data name="PdfViewer_HighlightContext" xml:space="preserve">
-    <value> Vurgulamak </value>
+    <value>Vurgulamak</value>
   </data>
   <data name="PdfViewer_UnderlineContext" xml:space="preserve">
-    <value> Altını çizmek </value>
+    <value>Altını çizmek</value>
   </data>
   <data name="PdfViewer_StrikethroughContext" xml:space="preserve">
-    <value> Saldırmak </value>
+    <value>üstü çizili</value>
   </data>
   <data name="PdfViewer_Servererror" xml:space="preserve">
-    <value> Web hizmeti dinlemiyor. PDF Viewer tüm özellikleri için web servisine bağlıdır. Devam etmek için lütfen web hizmetini başlatın.</value>
+    <value>Web hizmeti dinlemiyor. PDF Viewer tüm özellikleri için web servisine bağlıdır. Devam etmek için lütfen web hizmetini başlatın.</value>
   </data>
   <data name="PdfViewer_Clienterror" xml:space="preserve">
-    <value> İstemci tarafı hatası bulundu. Lütfen AjaxRequestSettings özelliğinde sağlanan özel başlıkları ve ServerActionSettings özelliğindeki web eylem yöntemlerini kontrol edin.</value>
+    <value>İstemci tarafı hatası bulundu. Lütfen AjaxRequestSettings özelliğinde sağlanan özel başlıkları ve ServerActionSettings özelliğindeki web eylem yöntemlerini kontrol edin.</value>
   </data>
   <data name="PdfViewer_OpenText" xml:space="preserve">
-    <value> Açık </value>
+    <value>Açık</value>
   </data>
   <data name="PdfViewer_FirstText" xml:space="preserve">
-    <value> İlk sayfa </value>
+    <value>İlk sayfa</value>
   </data>
   <data name="PdfViewer_PreviousText" xml:space="preserve">
-    <value> Önceki sayfa </value>
+    <value>Önceki sayfa</value>
   </data>
   <data name="PdfViewer_NextText" xml:space="preserve">
-    <value> Sonraki Sayfa </value>
+    <value>Sonraki Sayfa</value>
   </data>
   <data name="PdfViewer_LastText" xml:space="preserve">
-    <value> Son Sayfa </value>
+    <value>Son Sayfa</value>
   </data>
   <data name="PdfViewer_ZoomInText" xml:space="preserve">
-    <value> Yakınlaştır </value>
+    <value>Yakınlaştır</value>
   </data>
   <data name="PdfViewer_ZoomOutText" xml:space="preserve">
-    <value> Uzaklaştır </value>
+    <value>Uzaklaştır</value>
   </data>
   <data name="PdfViewer_SelectionText" xml:space="preserve">
-    <value> seçim </value>
+    <value>seçim</value>
   </data>
   <data name="PdfViewer_PanText" xml:space="preserve">
-    <value> Tava </value>
+    <value>Tava</value>
   </data>
   <data name="PdfViewer_PrintText" xml:space="preserve">
-    <value> Yazdır </value>
+    <value>Yazdır</value>
   </data>
   <data name="PdfViewer_SearchText" xml:space="preserve">
-    <value> Search </value>
+    <value>Search</value>
   </data>
   <data name="PdfViewer_AnnotationEditText" xml:space="preserve">
-    <value> Ek Açıklama Düzenle </value>
+    <value>Ek Açıklama Düzenle</value>
   </data>
   <data name="PdfViewer_LineThickness" xml:space="preserve">
-    <value> Hat kalınlığı </value>
+    <value>Hat kalınlığı</value>
   </data>
   <data name="PdfViewer_LineProperties" xml:space="preserve">
-    <value> Çizgi Özellikleri </value>
+    <value>Çizgi Özellikleri</value>
   </data>
   <data name="PdfViewer_StartArrow" xml:space="preserve">
-    <value> Başlat oku </value>
+    <value>Başlat oku</value>
   </data>
   <data name="PdfViewer_EndArrow" xml:space="preserve">
-    <value> Son Ok </value>
+    <value>Son Ok</value>
   </data>
   <data name="PdfViewer_LineStyle" xml:space="preserve">
-    <value> Çizgi Stili </value>
+    <value>Çizgi Stili</value>
   </data>
   <data name="PdfViewer_FillColor" xml:space="preserve">
-    <value> Dolgu Rengi </value>
+    <value>Dolgu Rengi</value>
   </data>
   <data name="PdfViewer_LineColor" xml:space="preserve">
-    <value> Çizgi rengi </value>
+    <value>Çizgi rengi</value>
   </data>
   <data name="PdfViewer_None" xml:space="preserve">
-    <value> Yok </value>
+    <value>Yok</value>
   </data>
   <data name="PdfViewer_OpenArrow" xml:space="preserve">
-    <value> Açık Ok </value>
+    <value>Açık Ok</value>
   </data>
   <data name="PdfViewer_ClosedArrow" xml:space="preserve">
-    <value> Kapalı Ok </value>
+    <value>Kapalı Ok</value>
   </data>
   <data name="PdfViewer_RoundArrow" xml:space="preserve">
-    <value> Yuvarlak Ok </value>
+    <value>Yuvarlak Ok</value>
   </data>
   <data name="PdfViewer_SquareArrow" xml:space="preserve">
-    <value> Kare Ok </value>
+    <value>Kare Ok</value>
   </data>
   <data name="PdfViewer_DiamondArrow" xml:space="preserve">
-    <value> Elmas Ok </value>
+    <value>Elmas Ok</value>
   </data>
   <data name="PdfViewer_Cut" xml:space="preserve">
-    <value> Kesmek </value>
+    <value>Kesmek</value>
   </data>
   <data name="PdfViewer_Paste" xml:space="preserve">
-    <value> Yapıştırmak </value>
+    <value>Yapıştırmak</value>
   </data>
   <data name="PdfViewer_DeleteContext" xml:space="preserve">
-    <value> Sil </value>
+    <value>Sil</value>
   </data>
   <data name="PdfViewer_Properties" xml:space="preserve">
-    <value> Özellikleri </value>
+    <value>Özellikleri</value>
   </data>
   <data name="PdfViewer_AddStamp" xml:space="preserve">
-    <value> Damga Ekle </value>
+    <value>Damga Ekle</value>
   </data>
   <data name="PdfViewer_AddShapes" xml:space="preserve">
-    <value> Şekil Ekle </value>
+    <value>Şekil Ekle</value>
   </data>
   <data name="PdfViewer_StrokeEdit" xml:space="preserve">
-    <value> Kontur Rengini Değiştir </value>
+    <value>Kontur Rengini Değiştir</value>
   </data>
   <data name="PdfViewer_ChangeThickness" xml:space="preserve">
-    <value> Kenarlık Kalınlığını Değiştirme </value>
+    <value>Kenarlık Kalınlığını Değiştirme</value>
   </data>
   <data name="PdfViewer_Addline" xml:space="preserve">
-    <value> Satır Ekle </value>
+    <value>Satır Ekle</value>
   </data>
   <data name="PdfViewer_AddArrow" xml:space="preserve">
-    <value> Ok Ekle </value>
+    <value>Ok Ekle</value>
   </data>
   <data name="PdfViewer_AddRectangle" xml:space="preserve">
-    <value> Dikdörtgen Ekle </value>
+    <value>Dikdörtgen Ekle</value>
   </data>
   <data name="PdfViewer_AddCircle" xml:space="preserve">
-    <value> Çevre Ekle </value>
+    <value>Çevre Ekle</value>
   </data>
   <data name="PdfViewer_AddPolygon" xml:space="preserve">
-    <value> Çokgen Ekle </value>
+    <value>Çokgen Ekle</value>
   </data>
   <data name="PdfViewer_AddComments" xml:space="preserve">
-    <value> Yorum ekle </value>
+    <value>Yorum ekle</value>
   </data>
   <data name="PdfViewer_Comments" xml:space="preserve">
-    <value> Yorumlar </value>
+    <value>Yorumlar</value>
   </data>
   <data name="PdfViewer_NoCommentsYet" xml:space="preserve">
-    <value> Henüz yorum yok </value>
+    <value>Henüz yorum yok</value>
   </data>
   <data name="PdfViewer_Accepted" xml:space="preserve">
-    <value> Kabul edilmiş </value>
+    <value>Kabul edilmiş</value>
   </data>
   <data name="PdfViewer_Completed" xml:space="preserve">
-    <value> Tamamlandı </value>
+    <value>Tamamlandı</value>
   </data>
   <data name="PdfViewer_Cancelled" xml:space="preserve">
-    <value> İptal edildi </value>
+    <value>İptal edildi</value>
   </data>
   <data name="PdfViewer_Rejected" xml:space="preserve">
-    <value> Reddedildi </value>
+    <value>Reddedildi</value>
   </data>
   <data name="PdfViewer_LeaderLength" xml:space="preserve">
-    <value> Lider Uzunluğu </value>
+    <value>Lider Uzunluğu</value>
   </data>
   <data name="PdfViewer_ScaleRatio" xml:space="preserve">
-    <value> Ölçek Oranı </value>
+    <value>Ölçek Oranı</value>
   </data>
   <data name="PdfViewer_Calibrate" xml:space="preserve">
-    <value> Kalibre </value>
+    <value>Kalibre</value>
   </data>
   <data name="PdfViewer_CalibrateDistance" xml:space="preserve">
-    <value> Mesafeyi Kalibre Et </value>
+    <value>Mesafeyi Kalibre Et</value>
   </data>
   <data name="PdfViewer_CalibratePerimeter" xml:space="preserve">
-    <value> Çevre Kalibrasyonu </value>
+    <value>Çevre Kalibrasyonu</value>
   </data>
   <data name="PdfViewer_CalibrateArea" xml:space="preserve">
-    <value> Alanı Kalibre Et </value>
+    <value>Alanı Kalibre Et</value>
   </data>
   <data name="PdfViewer_CalibrateRadius" xml:space="preserve">
-    <value> Yarıçapı Kalibre Et </value>
+    <value>Yarıçapı Kalibre Et</value>
   </data>
   <data name="PdfViewer_CalibrateVolume" xml:space="preserve">
-    <value> Hacmi Kalibre Et </value>
+    <value>Hacmi Kalibre Et</value>
   </data>
   <data name="PdfViewer_Depth" xml:space="preserve">
-    <value> derinlik </value>
+    <value>derinlik</value>
   </data>
   <data name="PdfViewer_Closed" xml:space="preserve">
-    <value> Kapalı </value>
+    <value>Kapalı</value>
   </data>
   <data name="PdfViewer_Round" xml:space="preserve">
-    <value> yuvarlak </value>
+    <value>yuvarlak</value>
   </data>
   <data name="PdfViewer_Square" xml:space="preserve">
-    <value> Meydan </value>
+    <value>Meydan</value>
   </data>
   <data name="PdfViewer_Diamond" xml:space="preserve">
-    <value> Elmas </value>
+    <value>Elmas</value>
   </data>
   <data name="PdfViewer_Edit" xml:space="preserve">
-    <value> Düzenle </value>
+    <value>Düzenle</value>
   </data>
   <data name="PdfViewer_Comment" xml:space="preserve">
-    <value> Yorum Yap </value>
+    <value>Yorum Yap</value>
   </data>
   <data name="PdfViewer_CommentPanel" xml:space="preserve">
-    <value> Yorum Paneli </value>
+    <value>Yorum Paneli</value>
   </data>
   <data name="PdfViewer_SetStatus" xml:space="preserve">
-    <value> Durumu Ayarla </value>
+    <value>Durumu Ayarla</value>
   </data>
   <data name="PdfViewer_Post" xml:space="preserve">
-    <value> İleti </value>
+    <value>İleti</value>
   </data>
   <data name="PdfViewer_Page" xml:space="preserve">
-    <value> Page </value>
+    <value>Page</value>
   </data>
   <data name="PdfViewer_AddComment" xml:space="preserve">
-    <value> Yorum ekle </value>
+    <value>Yorum ekle</value>
   </data>
   <data name="PdfViewer_AddReply" xml:space="preserve">
-    <value> Yanıt Ekle </value>
+    <value>Yanıt Ekle</value>
   </data>
   <data name="PdfViewer_ImportAnnotations" xml:space="preserve">
-    <value> Ek Açıklamaları İçe Aktar </value>
+    <value>Ek Açıklamaları İçe Aktar</value>
   </data>
   <data name="PdfViewer_ExportAnnotations" xml:space="preserve">
-    <value> Ek Açıklamaları Dışa Aktar </value>
+    <value>Ek Açıklamaları Dışa Aktar</value>
   </data>
   <data name="PdfViewer_Add" xml:space="preserve">
-    <value> Ekle </value>
+    <value>Ekle</value>
   </data>
   <data name="PdfViewer_Clear" xml:space="preserve">
-    <value> Açık </value>
+    <value>Açık</value>
   </data>
   <data name="PdfViewer_Bold" xml:space="preserve">
-    <value> cesur </value>
+    <value>cesur</value>
   </data>
   <data name="PdfViewer_Italic" xml:space="preserve">
-    <value> İtalik </value>
+    <value>İtalik</value>
   </data>
   <data name="PdfViewer_Strikethroughs" xml:space="preserve">
-    <value> Üstü çizili </value>
+    <value>Üstü çizili</value>
   </data>
   <data name="PdfViewer_Underlines" xml:space="preserve">
-    <value> Alt çizgiler </value>
+    <value>Alt çizgiler</value>
   </data>
   <data name="PdfViewer_Superscript" xml:space="preserve">
-    <value> Üst simge </value>
+    <value>Üst simge</value>
   </data>
   <data name="PdfViewer_Subscript" xml:space="preserve">
-    <value> Alt simge </value>
+    <value>Alt simge</value>
   </data>
   <data name="PdfViewer_AlignLeft" xml:space="preserve">
-    <value> Sola hizalamak </value>
+    <value>Sola hizalamak</value>
   </data>
   <data name="PdfViewer_AlignRight" xml:space="preserve">
-    <value> Sağa Hizala </value>
+    <value>Sağa Hizala</value>
   </data>
   <data name="PdfViewer_Center" xml:space="preserve">
-    <value> merkez </value>
+    <value>merkez</value>
   </data>
   <data name="PdfViewer_Justify" xml:space="preserve">
-    <value> haklı çıkarmak </value>
+    <value>haklı çıkarmak</value>
   </data>
   <data name="PdfViewer_FontColor" xml:space="preserve">
-    <value> Yazı rengi </value>
+    <value>Yazı rengi</value>
   </data>
   <data name="PdfViewer_TextAlign" xml:space="preserve">
-    <value> Metin hizalama </value>
+    <value>Metin hizalama</value>
   </data>
   <data name="PdfViewer_TextProperties" xml:space="preserve">
-    <value> Yazı stili </value>
+    <value>Yazı stili</value>
   </data>
   <data name="PdfViewer_DrawSignature" xml:space="preserve">
-    <value> İmza Çiz </value>
+    <value>İmza Çiz</value>
   </data>
   <data name="PdfViewer_Create" xml:space="preserve">
-    <value> Oluşturmak </value>
+    <value>Oluşturmak</value>
   </data>
   <data name="PdfViewer_FontFamily" xml:space="preserve">
-    <value> Font ailesi </value>
+    <value>Font ailesi</value>
   </data>
   <data name="PdfViewer_FontSize" xml:space="preserve">
-    <value> Yazı Boyutu </value>
+    <value>Yazı Boyutu</value>
   </data>
   <data name="PdfViewer_FreeText" xml:space="preserve">
-    <value> Ücretsiz Metin </value>
+    <value>Ücretsiz Metin</value>
   </data>
   <data name="PdfViewer_ImportFailed" xml:space="preserve">
-    <value> Geçersiz JSON dosya türü veya dosya adı; lütfen geçerli bir JSON dosyası seçin </value>
+    <value>Geçersiz JSON dosya türü veya dosya adı; lütfen geçerli bir JSON dosyası seçin</value>
   </data>
   <data name="PdfViewer_FileNotFound" xml:space="preserve">
-    <value> İçe aktarılan JSON dosyası istenen konumda bulunamadı </value>
+    <value>İçe aktarılan JSON dosyası istenen konumda bulunamadı</value>
   </data>
   <data name="PdfViewer_ExportFailed" xml:space="preserve">
-    <value> Ek açıklamaları dışa aktarma işlemi başarısız oldu; lütfen ek açıklamaların doğru bir şekilde eklendiğinden emin olun </value>
+    <value>Ek açıklamaları dışa aktarma işlemi başarısız oldu; lütfen ek açıklamaların doğru bir şekilde eklendiğinden emin olun</value>
   </data>
   <data name="PdfViewer_Draw_hand_Signature" xml:space="preserve">
     <value>ÇİZMEK</value>
@@ -3573,8 +4125,11 @@
   <data name="PdfViewer_SubmitForm" xml:space="preserve">
     <value>Formu gönder</value>
   </data>
+  <data name="PdfViewer_Of" xml:space="preserve">
+    <value>nın-nin</value>
+  </data>
   <data name="PdfViewer_Required_ServiceUrl_Error_Message" xml:space="preserve">
-    <value>Bu PDF görüntüleyici, PDF dosyalarını web hizmeti aracılığıyla işlemek için Sunucu tarafı işleme gerektirir. PDF görüntüleyiciye devam etmek için Hizmet URL'sini yapılandırmanız gerekir.</value>
+    <value>Bu PDF görüntüleyici, PDF dosyalarını web hizmeti aracılığıyla işlemek için Sunucu tarafı işleme gerektirir. PDF görüntüleyiciye devam etmek için Hizmet URL'sini yapılandırmanız gerekir</value>
   </data>
   <data name="PdfViewer_Close" xml:space="preserve">
     <value>kapat</value>
@@ -3766,7 +4321,7 @@
     <value>Sayfa numaralarını göster</value>
   </data>
   <data name="DocumentEditor_RightAlignPageNumbers" xml:space="preserve">
-    <value>Sayfa numaralarını sağa hizala</value>
+    <value>Sayfa numaralarını sağa hizala.</value>
   </data>
   <data name="DocumentEditor_Nothing" xml:space="preserve">
     <value>Hiçbir şey değil</value>
@@ -3955,7 +4510,7 @@
     <value>Başlamak</value>
   </data>
   <data name="DocumentEditor_RestartListAfter" xml:space="preserve">
-    <value>Listeyi şu tarihten sonra yeniden başlat:</value>
+    <value>Listeyi şu tarihten sonra yeniden başlat</value>
   </data>
   <data name="DocumentEditor_Position" xml:space="preserve">
     <value>Durum</value>
@@ -4162,7 +4717,7 @@
     <value>Kapat</value>
   </data>
   <data name="DocumentEditor_RestartAt" xml:space="preserve">
-    <value>Şuradan Yeniden Başlat:</value>
+    <value>Şuradan Yeniden Başlat</value>
   </data>
   <data name="DocumentEditor_Properties" xml:space="preserve">
     <value>Özellikleri</value>
@@ -4626,127 +5181,181 @@
   <data name="DocumentEditor_ScreenTip" xml:space="preserve">
        <value>Ekran İpucu metni</value>
 </data>
-<data name="DocumentEditor_KeepSource" xml:space="preserve">
+  <data name="DocumentEditor_KeepSource" xml:space="preserve">
        <value>Kaynak biçimlendirmesini koruyun</value>
 </data>
-<data name="DocumentEditor_DestinationFormat" xml:space="preserve">
+  <data name="DocumentEditor_DestinationFormat" xml:space="preserve">
        <value>Hedef biçimlendirmeyi eşleştir</value>
 </data>
-<data name="DocumentEditor_CommentsOnly" xml:space="preserve">
+  <data name="DocumentEditor_CommentsOnly" xml:space="preserve">
        <value>Bu bölgeye yalnızca yorum ekleyebilirsiniz.</value>
 </data>
-<data name="DocumentEditor_RowRange" xml:space="preserve">
-       <value>Satır sayısı 1 ile 32767 arasında olmalıdır.</value>
+  <data name="DocumentEditor_RowRange" xml:space="preserve">
+       <value>Satır sayısı 1 ile 32767 arasında olmalıdır</value>
 </data>
-<data name="DocumentEditor_ColumnRange" xml:space="preserve">
-       <value>Sütun sayısı 1 ile 63 arasında olmalıdır.</value>
+  <data name="DocumentEditor_ColumnRange" xml:space="preserve">
+       <value>Sütun sayısı 1 ile 63 arasında olmalıdır</value>
 </data>
-<data name="DocumentEditor_Information" xml:space="preserve">
+  <data name="DocumentEditor_Information" xml:space="preserve">
        <value>Bilgi</value>
 </data>
-<data name="DocumentEditor_Dot" xml:space="preserve">
+  <data name="DocumentEditor_Dot" xml:space="preserve">
        <value>Nokta</value>
 </data>
-<data name="DocumentEditor_DashSmallGap" xml:space="preserve">
+  <data name="DocumentEditor_DashSmallGap" xml:space="preserve">
        <value>Dash Küçük Boşluk</value>
 </data>
-<data name="DocumentEditor_DashDot" xml:space="preserve">
+  <data name="DocumentEditor_DashDot" xml:space="preserve">
        <value>Çizgi nokta</value>
 </data>
-<data name="DocumentEditor_ThinThickSmallGap" xml:space="preserve">
+  <data name="DocumentEditor_ThinThickSmallGap" xml:space="preserve">
        <value>İnce Kalın Küçük Boşluk</value>
 </data>
-<data name="DocumentEditor_ThickThinSmallGap" xml:space="preserve">
+  <data name="DocumentEditor_ThickThinSmallGap" xml:space="preserve">
        <value>Kalın İnce Küçük Boşluk</value>
 </data>
-<data name="DocumentEditor_ThickThinMediumGap" xml:space="preserve">
+  <data name="DocumentEditor_ThickThinMediumGap" xml:space="preserve">
        <value>Kalın İnce Orta Boşluk</value>
 </data>
-<data name="DocumentEditor_ThickThinLargeGap" xml:space="preserve">
+  <data name="DocumentEditor_ThickThinLargeGap" xml:space="preserve">
        <value>Kalın İnce Büyük Boşluk</value>
 </data>
-<data name="DocumentEditor_SingleWavy" xml:space="preserve">
+  <data name="DocumentEditor_SingleWavy" xml:space="preserve">
        <value>Tek Dalgalı</value>
 </data>
-<data name="DocumentEditor_DoubleWavy" xml:space="preserve">
+  <data name="DocumentEditor_DoubleWavy" xml:space="preserve">
        <value>Çift Dalgalı</value>
 </data>
-<data name="DocumentEditor_Inset" xml:space="preserve">
+  <data name="DocumentEditor_Inset" xml:space="preserve">
        <value>iç metin</value>
 </data>
-<data name="DocumentEditor_DashLargeGap" xml:space="preserve">
+  <data name="DocumentEditor_DashLargeGap" xml:space="preserve">
        <value>Dash Büyük Boşluk</value>
 </data>
-<data name="DocumentEditor_DashDotDot" xml:space="preserve">
+  <data name="DocumentEditor_DashDotDot" xml:space="preserve">
        <value>Çizgi Nokta Nokta</value>
 </data>
-<data name="DocumentEditor_Triple" xml:space="preserve">
+  <data name="DocumentEditor_Triple" xml:space="preserve">
        <value>Üçlü</value>
 </data>
-<data name="DocumentEditor_ThinThickThinSmallGap" xml:space="preserve">
+  <data name="DocumentEditor_ThinThickThinSmallGap" xml:space="preserve">
        <value>İnce Kalın İnce Küçük Boşluk</value>
 </data>
-<data name="DocumentEditor_ThinThickThinMediumGap" xml:space="preserve">
+  <data name="DocumentEditor_ThinThickThinMediumGap" xml:space="preserve">
        <value>İnce Kalın İnce Orta Boşluk</value>
 </data>
-<data name="DocumentEditor_ThinThickThinLargeGap" xml:space="preserve">
+  <data name="DocumentEditor_ThinThickThinLargeGap" xml:space="preserve">
        <value>İnce Kalın İnce Büyük Boşluk</value>
 </data>
-<data name="DocumentEditor_DashDotStroked" xml:space="preserve">
+  <data name="DocumentEditor_DashDotStroked" xml:space="preserve">
        <value>Çizgi Nokta Vuruşlu</value>
 </data>
-<data name="DocumentEditor_Engrave3D" xml:space="preserve">
+  <data name="DocumentEditor_Engrave3D" xml:space="preserve">
        <value>Gravür3D</value>
 </data>
-<data name="DocumentEditor_Thick" xml:space="preserve">
+  <data name="DocumentEditor_Thick" xml:space="preserve">
        <value>Kalın</value>
 </data>
-<data name="DocumentEditor_Outset" xml:space="preserve">
+  <data name="DocumentEditor_Outset" xml:space="preserve">
        <value>Başlangıç</value>
 </data>
-<data name="DocumentEditor_Emboss3D" xml:space="preserve">
+  <data name="DocumentEditor_Emboss3D" xml:space="preserve">
        <value>Kabartma3D</value>
 </data>
-<data name="DocumentEditor_ThinThickLargeGap" xml:space="preserve">
+  <data name="DocumentEditor_ThinThickLargeGap" xml:space="preserve">
        <value>İnce Kalın Büyük Boşluk</value>
 </data>
-<data name="DocumentEditor_ThinThickMediumGap" xml:space="preserve">
+  <data name="DocumentEditor_ThinThickMediumGap" xml:space="preserve">
        <value>İnce Kalın Orta Boşluk</value>
 </data>
-<data name="DocumentEditor_RegularText" xml:space="preserve">
+  <data name="DocumentEditor_RegularText" xml:space="preserve">
        <value>normal metin</value>
 </data>
-<data name="DocumentEditor_Date" xml:space="preserve">
+  <data name="DocumentEditor_Date" xml:space="preserve">
        <value>Tarih</value>
 </data>
-<data name="DocumentEditor_Uppercase" xml:space="preserve">
+  <data name="DocumentEditor_Uppercase" xml:space="preserve">
        <value>büyük harf</value>
 </data>
-<data name="DocumentEditor_Lowercase" xml:space="preserve">
+  <data name="DocumentEditor_Lowercase" xml:space="preserve">
        <value>küçük harf</value>
 </data>
-<data name="DocumentEditor_FirstCapital" xml:space="preserve">
+  <data name="DocumentEditor_FirstCapital" xml:space="preserve">
        <value>İlk Sermaye</value>
 </data>
-<data name="DocumentEditor_Titlecase" xml:space="preserve">
+  <data name="DocumentEditor_Titlecase" xml:space="preserve">
        <value>başlık</value>
 </data>
-<data name="DocumentEditor_MoveFrom" xml:space="preserve">
+  <data name="DocumentEditor_MoveFrom" xml:space="preserve">
        <value>Dan taşınmak</value>
 </data>
-<data name="DocumentEditor_MoveTo" xml:space="preserve">
+  <data name="DocumentEditor_MoveTo" xml:space="preserve">
        <value>Taşınmak</value>
 </data>
-<data name="DocumentEditor_Px" xml:space="preserve">
+  <data name="DocumentEditor_Px" xml:space="preserve">
        <value>piksel</value>
 </data>
-<data name="DocumentEditor_ReadOnlyProtection" xml:space="preserve">
+  <data name="DocumentEditor_ReadOnlyProtection" xml:space="preserve">
        <value>Bu bölgede düzenleme yapabilirsiniz.</value>
 </data>
-<data name="DocumentEditorContainer_RegularTooltip" xml:space="preserve">
+  <data name="DocumentEditor_SectionBreakNextPage" xml:space="preserve">
+<value>Bölüm Sonu (Sonraki Sayfa)</value>
+</data>
+  <data name="DocumentEditor_PageBreak" xml:space="preserve">
+<value>Sayfa sonu</value>
+</data>
+  <data name="DocumentEditor_ColumnBreak" xml:space="preserve">
+<value>Sütun Arası</value>
+</data>
+  <data name="DocumentEditor_One" xml:space="preserve">
+<value>Bir</value>
+</data>
+  <data name="DocumentEditor_Two" xml:space="preserve">
+<value>İki</value>
+</data>
+  <data name="DocumentEditor_Three" xml:space="preserve">
+<value>Üç</value>
+</data>
+  <data name="DocumentEditor_Presets" xml:space="preserve">
+<value>ön ayarlar</value>
+</data>
+  <data name="DocumentEditor_Columns" xml:space="preserve">
+<value>Sütunlar</value>
+</data>
+  <data name="DocumentEditor_SplitToColumns" xml:space="preserve">
+<value>Metninizi iki veya daha fazla sütuna ayırın</value>
+</data>
+  <data name="DocumentEditor_LineBetweenColumn" xml:space="preserve">
+<value>Sütun arasındaki çizgi</value>
+</data>
+  <data name="DocumentEditor_WidthAndSpacing" xml:space="preserve">
+<value>Genişlik ve Aralık</value>
+</data>
+  <data name="DocumentEditor_EqualColumnWidth" xml:space="preserve">
+<value>Eşit sütun genişliği</value>
+</data>
+  <data name="DocumentEditor_Column" xml:space="preserve">
+<value>Kolon</value>
+</data>
+  <data name="DocumentEditor_SectionBreakContinuous" xml:space="preserve">
+<value>Bölüm Arası (Sürekli)</value>
+</data>
+  <data name="DocumentEditor_PasteContentDialog" xml:space="preserve">
+  <value>Tarayıcının güvenlik politikası nedeniyle, sistem panosundan yapıştırma işlemi kısıtlanmıştır. Alternatif olarak klavye kısayolunu kullanın</value>
+</data>
+  <data name="DocumentEditor_PasteCheckBoxContentDialog" xml:space="preserve">
+  <value>tekrar gösterme</value>
+</data>
+  <data name="DocumentEditorContainer_Columns" xml:space="preserve">
+<value>Sütunlar</value>
+</data>
+  <data name="DocumentEditorContainer_ShowHiddenMarks" xml:space="preserve">
+<value>Boşluk, sekme, paragraf işaretleri ve sonlar gibi gizli karakterleri gösterin.(Ctrl + *)</value>
+</data>
+  <data name="DocumentEditorContainer_RegularTooltip" xml:space="preserve">
        <value>Düzenli</value>
 </data>
-<data name="DocumentEditorContainer_BoldItalicTooltip" xml:space="preserve">
+  <data name="DocumentEditorContainer_BoldItalicTooltip" xml:space="preserve">
        <value>Kalın italik</value>
 </data>
   <data name="DocumentEditorContainer_New" xml:space="preserve">
@@ -4815,12 +5424,6 @@
   <data name="DocumentEditorContainer_ByURL" xml:space="preserve">
     <value>URL ile</value>
   </data>
-  <data name="DocumentEditorContainer_PageBreak" xml:space="preserve">
-    <value>Sayfa sonu</value>
-  </data>
-  <data name="DocumentEditorContainer_SectionBreak" xml:space="preserve">
-    <value>Bölüm sonu</value>
-  </data>
   <data name="DocumentEditorContainer_HeaderAndFooter" xml:space="preserve">
     <value>Üstbilgi Altbilgi</value>
   </data>
@@ -4838,6 +5441,9 @@
   </data>
   <data name="DocumentEditorContainer_DifferentOddAndEvenPages" xml:space="preserve">
     <value>Farklı Tek ve Çift Sayfalar</value>
+  </data>
+  <data name="DocumentEditorContainer_LinkToPreviousPages" xml:space="preserve">
+    <value>Önceki Bağlantı</value>
   </data>
   <data name="DocumentEditorContainer_DifferentHeaderAndFooterForFirstPage" xml:space="preserve">
     <value>İlk sayfa için farklı üstbilgi ve altbilgi.</value>
@@ -4984,7 +5590,7 @@
     <value>İçindekiler'de sayfa numaralarını göster.</value>
   </data>
   <data name="DocumentEditorContainer_RightAlignPageNumbers" xml:space="preserve">
-    <value>Sayfa numaralarını sağa hizala</value>
+    <value>Sayfa numaralarını sağa hizala.</value>
   </data>
   <data name="DocumentEditorContainer_RightAlignPageNumbersInTableOfContents" xml:space="preserve">
     <value>İçindekiler bölümünde sayfa numaralarını sağa hizalayın.</value>
@@ -5107,7 +5713,7 @@
     <value>Dosyadan satır içi resim ekleyin.</value>
   </data>
   <data name="DocumentEditorContainer_InsertATableIntoTheDocument" xml:space="preserve">
-    <value>Belgeye tablo ekleme</value>
+    <value>Belgeye tablo ekleme.</value>
   </data>
   <data name="DocumentEditorContainer_CreateHyperlink" xml:space="preserve">
     <value>Web sayfalarına ve dosyalarına hızlı erişim için belgenizde bir bağlantı oluşturun (Ctrl + K).</value>
@@ -5164,7 +5770,10 @@
     <value>internet sayfası düzeni</value>
   </data>
   <data name="DocumentEditorContainer_ToggleBetweenTheInternalClipboardAndSystemClipboard" xml:space="preserve">
-    <value>Dahili pano ile sistem panosu arasında geçiş yapın. &#xD; Tarayıcı güvenlik ilkesi nedeniyle komut dosyası aracılığıyla sistem panosuna erişim reddedildi. Bunun yerine, &#xD; 1. İç panonun bileşen içinde kesmesini, kopyalanmasını ve yapıştırmasını etkinleştirebilirsiniz. &#xD; 2. Kesmek için klavye kısayollarını (Ctrl + X, Ctrl + C ve Ctrl + V) kullanabilirsiniz. , kopyala ve sistem panosu ile yapıştırın.</value>
+    <value>Dahili pano ile sistem panosu arasında geçiş yapın. 
+ Tarayıcı güvenlik ilkesi nedeniyle komut dosyası aracılığıyla sistem panosuna erişim reddedildi. Bunun yerine, 
+ 1. İç panonun bileşen içinde kesmesini, kopyalanmasını ve yapıştırmasını etkinleştirebilirsiniz. 
+ 2. Kesmek için klavye kısayollarını (Ctrl + X, Ctrl + C ve Ctrl + V) kullanabilirsiniz. , kopyala ve sistem panosu ile yapıştırın.</value>
   </data>
   <data name="DocumentEditorContainer_TextForm" xml:space="preserve">
     <value>Metin Formu</value>
@@ -5179,10 +5788,10 @@
     <value>Alanları Güncelle</value>
   </data>
   <data name="DocumentEditorContainer_UpdateCrossReferenceFields" xml:space="preserve">
-    <value>Çapraz referans alanlarını güncelleme</value>
+    <value>Çapraz referans alanlarını güncelleme.</value>
   </data>
   <data name="DocumentEditorContainer_Track_changes" xml:space="preserve">
-    <value>Belgede yapılan değişiklikleri takip edin</value>
+    <value>Belgede yapılan değişiklikleri takip edin.</value>
   </data>
   <data name="DocumentEditorContainer_TrackChanges" xml:space="preserve">
     <value>Parça değişiklikleri</value>
@@ -5216,5 +5825,299 @@
   </data>
   <data name="DocumentEditorContainer_FillingInForms" xml:space="preserve">
     <value>Formları doldurmak</value>
+  </data>
+  <data name="DocumentEditorContainer_Trackedchanges" xml:space="preserve">
+    <value>Izlenen değişiklikler</value>
+   </data>
+  <data name="DocumentEditorContainer_RemovedIgnoreExceptions" xml:space="preserve">
+    <value>Bu değişikliği belge korumasında yaparsanız, Word bu belgedeki tüm istisnaları yok sayar.</value>
+  </data>
+  <data name="DocumentEditor_RevisionsOnly" xml:space="preserve">
+    <value>Bu bölgede düzenleme yapabilirsiniz, ancak tüm değişiklikler izlenecektir</value>
+  </data>
+  <data name="DocumentEditor_UnsupportedFormat" xml:space="preserve">
+    <value>Seçtiğiniz dosya biçimi desteklenmiyor. Lütfen geçerli bir format seçin.</value>
+  </data>
+  <data name="DocumentEditor_InvalidFile" xml:space="preserve">
+    <value>Bu belge açılırken bir sorun oluştu</value>
+  </data>
+  <data name="DocumentEditorContainer_RemovedIgnore" xml:space="preserve">
+    <value>Yok sayılan istisnaları kaldırmak istiyor musunuz?</value>
+  </data>
+  <data name="DocumentEditorContainer_Yes" xml:space="preserve">
+    <value>Evet</value>
+  </data>
+  <data name="DocumentEditorContainer_No" xml:space="preserve">
+    <value>Numara</value>
+  </data>
+  <data name="DocumentEditorContainer_ShowPropertiesPane" xml:space="preserve">
+    <value>Özellikler bölmesini göster</value>
+  </data>
+  <data name="DocumentEditorContainer_HidePropertiesPane" xml:space="preserve">
+    <value>Özellikler bölmesini gizle</value>
+  </data>
+  <data name="DocumentEditorContainer_SectionBreakContinuous" xml:space="preserve">
+    <value>Sürekli</value>
+  </data>
+  <data name="DocumentEditorContainer_ColumnBreak" xml:space="preserve">
+    <value>Kolon</value>
+  </data>
+  <data name="DocumentEditorContainer_PageBreak" xml:space="preserve">
+    <value>Sayfa</value>
+  </data>
+  <data name="DocumentEditorContainer_SectionBreak" xml:space="preserve">
+    <value>Sonraki Sayfa</value>
+  </data>
+  <data name="DocumentEditorContainer_PageBreaks" xml:space="preserve">
+    <value>Sayfa Sonları</value>
+  </data>
+  <data name="DocumentEditorContainer_SectionBreaks" xml:space="preserve">
+    <value>Bölüm Sonları</value>
+  </data>
+  <data name="DocumentEditorContainer_UnsupportedHyperLink" xml:space="preserve">
+    <value>Bu sitenin adresi geçerli değil. Adresi kontrol edin ve tekrar deneyin.</value>
+  </data>
+  <data name="DocumentEditorContainer_Ok" xml:space="preserve">
+    <value>TAMAM</value>
+  </data>
+  <data name="Gantt_Touch_DialogTextOnClickingConnectorPoint" xml:space="preserve">
+    <value>Başka bir görev seçin</value>
+  </data>
+  <data name="Gantt_Touch_DialogTextOnSelectingTaskbar" xml:space="preserve">
+    <value>Konektör konumunu seçin</value>
+  </data>
+  <data name="Gantt_Touch_LeftButton" xml:space="preserve">
+    <value>Sol</value>
+  </data>
+  <data name="Gantt_Touch_RightButton" xml:space="preserve">
+    <value>Doğru</value>
+  </data>
+  <data name="PdfViewer_ExportXFDF" xml:space="preserve">
+    <value>Açıklamayı XFDF dosyasına aktar</value>
+  </data>
+  <data name="PdfViewer_ImportXFDF" xml:space="preserve">
+    <value>Ek açıklamaları XFDF dosyasından içe aktarın</value>
+  </data>
+  <data name="Predefined_Dialog_Title" xml:space="preserve">
+    <value>Bilgi</value>
+  </data>
+  <data name="PivotView_StackedLine" xml:space="preserve">
+    <value>Yığılmış Çizgi</value>
+  </data>
+  <data name="PivotView_StackedLine100" xml:space="preserve">
+    <value>100% Yığılmış Hat</value>
+  </data>
+  <data name="PivotView_None" xml:space="preserve">
+    <value>Hiçbiri</value>
+  </data>
+  <data name="Skeleton_Label" xml:space="preserve">
+    <value>Yükleniyor...</value>
+  </data>
+  <data name="Dialog_OK" xml:space="preserve">
+    <value>tamam</value>
+  </data>
+  <data name="Dialog_Cancel" xml:space="preserve">
+    <value>İptal etmek</value>
+  </data>
+  <data name="PivotView_DoNotShowSubtotals" xml:space="preserve">
+    <value>Alt toplamları gösterme</value>
+  </data>
+  <data name="PivotView_ShowColumnSubtotalsOnly" xml:space="preserve">
+    <value>Yalnızca ara toplam sütunlarını göster</value>
+  </data>
+  <data name="PivotView_ShowRowSubtotalsOnly" xml:space="preserve">
+    <value>Yalnızca ara toplam satırlarını göster</value>
+  </data>
+  <data name="PivotView_ShowSubtotals" xml:space="preserve">
+    <value>Alt toplamları göster</value>
+  </data>
+  <data name="PivotView_SubtotalsPosition" xml:space="preserve">
+    <value>ara toplamlar konumu</value>
+  </data>
+  <data name="PivotView_GrandTotalPositions" xml:space="preserve">
+    <value>Genel toplamlar konumu</value>
+  </data>
+  <data name="PivotView_Single" xml:space="preserve">
+    <value>Bekar</value>
+  </data>
+  <data name="PivotView_Auto" xml:space="preserve">
+    <value>Oto</value>
+  </data>
+  <data name="PivotView_RowPager" xml:space="preserve">
+    <value>Satır çağrı cihazı</value>
+  </data>
+  <data name="PivotView_RowsPerPage" xml:space="preserve">
+    <value>Sayfa başına satır</value>
+  </data>
+  <data name="PivotView_ColumnPager" xml:space="preserve">
+    <value>Sütun çağrı cihazı</value>
+  </data>
+  <data name="PivotView_ColumnsPerPage" xml:space="preserve">
+    <value>Sayfa başına sütun sayısı</value>
+  </data>
+  <data name="PivotView_GoToFirstPage" xml:space="preserve">
+    <value>ilk sayfaya git</value>
+  </data>
+  <data name="PivotView_GoToLastPage" xml:space="preserve">
+    <value>son sayfaya git</value>
+  </data>
+  <data name="PivotView_GoToNextPage" xml:space="preserve">
+    <value>sonraki sayfaya git</value>
+  </data>
+  <data name="PivotView_GoToPreviousPage" xml:space="preserve">
+    <value>Önceki sayfaya git</value>
+  </data>
+  <data name="Grid_ChooseTime" xml:space="preserve">
+    <value>Rezervasyon Saati</value>
+  </data>
+  <data name="Grid_TimeFilter" xml:space="preserve">
+    <value>Zaman Filtreleri</value>
+  </data>
+  <data name="DocumentEditor_SameAsPrevious" xml:space="preserve">
+    <value>Önceki ile aynı</value>
+  </data>
+  <data name="DocumentEditor_Section" xml:space="preserve">
+    <value>Bölüm</value>
+  </data>
+  <data name="DocumentEditor_OddPageHeader" xml:space="preserve">
+  <value>Garip Sayfa Başlığı</value>
+  </data>
+  <data name="DocumentEditor_OddPageFooter" xml:space="preserve">
+  <value>Tek Sayfa Altbilgisi</value>
+  </data>
+  <data name="DocumentEditor_EvenPageHeader" xml:space="preserve">
+  <value>Eşit Sayfa Başlığı</value>
+  </data>
+  <data name="DocumentEditor_EvenPageFooter" xml:space="preserve">
+  <value>Çift Sayfa Altbilgisi</value>
+  </data>
+  <data name="DocumentEditor_FirstPageHeader" xml:space="preserve">
+  <value>İlk Sayfa Başlığı</value>
+  </data>
+  <data name="DocumentEditor_FirstPageFooter" xml:space="preserve">
+  <value>İlk Sayfa Altbilgisi</value>
+  </data>
+  <data name="DocumentEditorContainer_AlternateText" xml:space="preserve">
+    <value>Alternatif metin</value>
+  </data>
+  <data name="DocumentEditor_And" xml:space="preserve">
+    <value>ve</value>
+  </data>
+  <data name="DocumentEditor_Title" xml:space="preserve">
+    <value>Başlık</value>
+  </data>
+  <data name="DocumentEditor_Description" xml:space="preserve">
+    <value>Tanım</value>
+  </data>
+  <data name="DocumentEditor_AltText" xml:space="preserve">
+    <value>eski metin</value>
+  </data>
+  <data name="ImageEditor_UnSupportedDialogOkContent" xml:space="preserve">
+    <value>tamam</value>
+  </data>
+  <data name="ImageEditor_UnSupportedDialogHeaderContent" xml:space="preserve">
+    <value>Desteklenmeyen dosya</value>
+  </data>
+  <data name="ImageEditor_UnSupportedDialogContent" xml:space="preserve">
+    <value>Bırakılan dosya desteklenmiyor.</value>
+  </data>
+  <data name="ImageEditor_DropText" xml:space="preserve">
+    <value>Resminizi buraya bırakın veya</value>
+  </data>
+  <data name="DocumentEditorContainer_TabStopPosition" xml:space="preserve">
+<value>Sekme durağı konumu</value>
+</data>
+<data name="DocumentEditorContainer_DefaultTabStops" xml:space="preserve">
+<value>Varsayılan sekme durakları</value>
+</data>
+<data name="DocumentEditorContainer_TabStopsCleared" xml:space="preserve">
+<value>Temizlenecek sekme durakları</value>
+</data>
+<data name="DocumentEditorContainer_Tabs" xml:space="preserve">
+<value>Sekmeler</value>
+</data>
+<data name="DocumentEditor_Set" xml:space="preserve">
+<value>Ayarlamak</value>
+</data>
+<data name="DocumentEditor_Clear" xml:space="preserve">
+<value>Temizlemek</value>
+</data>
+<data name="DocumentEditor_ClearAll" xml:space="preserve">
+<value>Hepsini temizle</value>
+</data>
+<data name="DocumentEditor_Decimal" xml:space="preserve">
+<value>Ondalık</value>
+</data>
+<data name="DocumentEditor_Bar" xml:space="preserve">
+<value>Çubuk</value>
+</data>
+<data name="DocumentEditorContainer_Alignment" xml:space="preserve">
+<value>Hizalama</value>
+</data>
+<data name="DocumentEditorContainer_Leader" xml:space="preserve">
+<value>Önder</value>
+</data>
+<data name="DocumentEditorContainer_All" xml:space="preserve">
+<value>Tüm</value>
+</data>
+<data name="DocumentEditor_BottomMargin" xml:space="preserve">
+<value>Alt Marj</value>
+</data>
+<data name="DocumentEditor_FirstLineIndent" xml:space="preserve">
+<value>İlk Satır Girintisi</value>
+</data>
+<data name="DocumentEditor_HangingIndent" xml:space="preserve">
+<value>Asılı girinti</value>
+</data>
+<data name="DocumentEditor_LeftIndent" xml:space="preserve">
+<value>Sol Girinti</value>
+</data>
+<data name="DocumentEditor_LeftMargin" xml:space="preserve">
+<value>Sol Kenar Boşluğu</value>
+</data>
+<data name="DocumentEditor_MoveTableColumn" xml:space="preserve">
+<value>Tablo Sütununu Taşı</value>
+</data>
+<data name="DocumentEditor_RightIndent" xml:space="preserve">
+<value>Sağ Girinti</value>
+</data>
+<data name="DocumentEditor_RightMargin" xml:space="preserve">
+<value>Sağ Kenar Boşluğu</value>
+</data>
+<data name="DocumentEditor_TopMargin" xml:space="preserve">
+<value>Üst boşluk</value>
+</data>
+<data name="DocumentEditor_LeftTab" xml:space="preserve">
+<value>Sol Sekme</value>
+</data>
+<data name="DocumentEditor_CenterTab" xml:space="preserve">
+<value>Orta Sekme</value>
+</data>
+<data name="DocumentEditor_RightTab" xml:space="preserve">
+<value>Sağ Sekme</value>
+</data>
+<data name="DocumentEditor_DecimalTab" xml:space="preserve">
+<value>Ondalık Sekmesi</value>
+</data>
+<data name="DocumentEditor_BarTab" xml:space="preserve">
+<value>Çubuk Sekmesi</value>
+</data>
+  <data name="ImageEditor_OkBtnTooltip" xml:space="preserve">
+    <value>Uygulamak</value>
+  </data>
+  <data name="ImageEditor_Annotation" xml:space="preserve">
+    <value>Ek Açıklama</value>
+  </data>
+  <data name="ImageEditor_CancelBtnTooltip" xml:space="preserve">
+    <value>At</value>
+  </data>
+  <data name="QueryBuilder_Null" xml:space="preserve">
+    <value>Boş mu</value>
+  </data>
+  <data name="QueryBuilder_NotNull" xml:space="preserve">
+    <value>Boş Değil</value>
+  </data>
+  <data name="ImageEditor_StraightenTooltip" xml:space="preserve">
+    <value>Düzelt</value>
   </data>
 </root>
