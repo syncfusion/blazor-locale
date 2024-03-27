@@ -198,6 +198,18 @@
   <data name="Mention_NoRecordsTemplate" xml:space="preserve">
     <value>لا توجد سجلات</value>
   </data>
+  <data name="DropDownTree_NoRecords" xml:space="preserve">
+    <value>لا توجد سجلات</value>
+  </data>
+  <data name="DropDownTree_RequestFailed" xml:space="preserve">
+    <value>الطلب فشل</value>
+  </data>
+  <data name="DropDownTree_SelectAll" xml:space="preserve">
+    <value>اختر الكل</value>
+  </data>
+  <data name="DropDownTree_UnSelectAll" xml:space="preserve">
+    <value>إلغاء تحديد الكل</value>
+  </data>
   <data name="MultiSelect_ActionFailureTemplate" xml:space="preserve">
     <value>الطلب فشل</value>
   </data>
@@ -467,6 +479,9 @@
   </data>
   <data name="Slider_IncrementTitle" xml:space="preserve">
     <value>تخفيض</value>
+  </data>
+  <data name="Stepper_Optional" xml:space="preserve">
+    <value>خياري</value>
   </data>
   <data name="Maps_ImageNotFound" xml:space="preserve">
     <value>الصورة غير موجودة</value>
@@ -776,6 +791,15 @@
   </data>
   <data name="Gantt_CriticalPath" xml:space="preserve">
     <value>المسار الحرج</value>
+  </data>
+  <data name="Gantt_Segment" xml:space="preserve">
+    <value>شرائح</value>
+  </data>
+  <data name="Gantt_SplitTask" xml:space="preserve">
+    <value>مهمة الانقسام</value>
+  </data>
+  <data name="Gantt_MergeTask" xml:space="preserve">
+    <value>مهمة الدمج</value>
   </data>
   <data name="FileManager_NewFolder" xml:space="preserve">
     <value>ملف جديد</value>
@@ -1224,6 +1248,21 @@
   <data name="Grid_ClearButton" xml:space="preserve">
     <value>واضح</value>
   </data>
+  <data name="Grid_IsNull" xml:space="preserve">
+    <value>Nul</value>
+  </data>
+  <data name="Grid_IsNotNull" xml:space="preserve">
+    <value>No nul</value>
+  </data>
+  <data name="Grid_IsEmpty" xml:space="preserve">
+    <value>Buit</value>
+  </data>
+  <data name="Grid_IsNotEmpty" xml:space="preserve">
+    <value>No està buit</value>
+  </data>
+  <data name="Grid_Like" xml:space="preserve">
+    <value>M'agrada</value>
+  </data>
   <data name="Grid_StartsWith" xml:space="preserve">
     <value>ابدا ب</value>
   </data>
@@ -1232,6 +1271,15 @@
   </data>
   <data name="Grid_Contains" xml:space="preserve">
     <value>يحتوي على</value>
+  </data>
+  <data name="Grid_DoesNotStartWith" xml:space="preserve">
+    <value>No comença amb</value>
+  </data>
+  <data name="Grid_DoesNotEndWith" xml:space="preserve">
+    <value>No acaba amb</value>
+  </data>
+  <data name="Grid_DoesNotContain" xml:space="preserve">
+    <value>no conté</value>
   </data>
   <data name="Grid_Equal" xml:space="preserve">
     <value>مساو</value>
@@ -1292,6 +1340,12 @@
   </data>
   <data name="Grid_SortDescending" xml:space="preserve">
     <value>ترتيب تنازلي</value>
+  </data>
+  <data name="Grid_SortedAscending" xml:space="preserve">
+    <value>مرتبة بترتيب تصاعدي</value>
+  </data>
+  <data name="Grid_SortedDescending" xml:space="preserve">
+    <value>مرتبة تنازليا</value>
   </data>
   <data name="Grid_EditRecord" xml:space="preserve">
     <value>تحرير السجل</value>
@@ -1433,6 +1487,9 @@
   </data>
   <data name="Grid_FilterValue" xml:space="preserve">
     <value>تصفية القيمة</value>
+  </data>
+ <data name="Grid_SelectRowARIA" xml:space="preserve">
+    <value>حدد الصف</value>
   </data>
   <data name="Pager_Page" xml:space="preserve">
     <value>الصفحة</value>
@@ -1751,6 +1808,9 @@
   </data>
   <data name="Schedule_Recurrence" xml:space="preserve">
     <value>تكرار</value>
+  </data>
+  <data name="Schedule_RecurringEvent" xml:space="preserve">
+    <value>حدث متكرر</value>
   </data>
   <data name="Schedule_Repeat" xml:space="preserve">
     <value>كرر</value>
@@ -2301,6 +2361,9 @@
   <data name="PivotView_LoadReport" xml:space="preserve">
     <value>حمل</value>
   </data>
+  <data name="PivotView_Loading" xml:space="preserve">
+    <value>جار التحميل...</value>
+  </data>
   <data name="PivotView_ManageRecords" xml:space="preserve">
     <value>إدارة السجلات</value>
   </data>
@@ -2770,10 +2833,10 @@
     <value>لون التعبئة</value>
   </data>
   <data name="ImageEditor_OkBtnTooltip" xml:space="preserve">
-    <value>نعم</value>
+    <value>تطبيق</value>
   </data>
   <data name="ImageEditor_CancelBtnTooltip" xml:space="preserve">
-    <value>يلغي</value>
+    <value>ينبذ</value>
   </data>
   <data name="ImageEditor_ResetBtnTooltip" xml:space="preserve">
     <value>إعادة ضبط</value>
@@ -2925,6 +2988,96 @@
   <data name="ImageEditor_DialogNoContent" xml:space="preserve">
     <value>لا</value>
   </data>
+  <data name="ImageEditor_ResizeText" xml:space="preserve">
+    <value>تغيير الحجم</value>
+  </data>
+  <data name="ImageEditor_ResizeWidth" xml:space="preserve">
+    <value>عرض</value>
+  </data>
+  <data name="ImageEditor_ResizeHeight" xml:space="preserve">
+    <value>ارتفاع</value>
+  </data>
+  <data name="ImageEditor_NonAspect_Tooltip" xml:space="preserve">
+    <value>الحفاظ على نسبة العرض إلى الارتفاع غير</value>
+  </data>
+  <data name="ImageEditor_Aspect_Tooltip" xml:space="preserve">
+    <value>الحفاظ على نسبة العرض إلى الارتفاع</value>
+  </data>
+  <data name="ImageEditor_HorizontalFlipBtnTooltip" xml:space="preserve">
+    <value>انعكاس أفقي</value>
+  </data>
+  <data name="ImageEditor_VerticalFlipBtnTooltip" xml:space="preserve">
+    <value>الوجه العمودي</value>
+  </data>
+  <data name="ImageEditor_TransparencyBtnTooltip" xml:space="preserve">
+    <value>الشفافية</value>
+  </data>
+  <data name="ImageEditor_DragText" xml:space="preserve">
+    <value>قم بسحب وإسقاط صورتك هنا أو</value>
+  </data>
+  <data name="ImageEditor_BrowseText" xml:space="preserve">
+    <value>تصفح هنا...</value>
+  </data>
+  <data name="ImageEditor_SupportText" xml:space="preserve">
+    <value>يدعم: </value>
+  </data>
+  <data name="ImageEditor_FrameText" xml:space="preserve">
+    <value>إطار</value>
+  </data>
+  <data name="ImageEditor_FrameNone" xml:space="preserve">
+    <value>لا أحد</value>
+  </data>
+  <data name="ImageEditor_FrameMat" xml:space="preserve">
+    <value>حصيرة</value>
+  </data>
+  <data name="ImageEditor_FrameBevel" xml:space="preserve">
+    <value>شطبة</value>
+  </data>
+  <data name="ImageEditor_FrameLine" xml:space="preserve">
+    <value>خط</value>
+  </data>
+  <data name="ImageEditor_FrameInset" xml:space="preserve">
+    <value>أقحم</value>
+  </data>
+  <data name="ImageEditor_FrameHook" xml:space="preserve">
+    <value>خطاف</value>
+  </data>
+  <data name="ImageEditor_FrameColorTooltip" xml:space="preserve">
+    <value>لون</value>
+  </data>
+  <data name="ImageEditor_FrameSizeTooltip" xml:space="preserve">
+    <value>مقاس</value>
+  </data>
+  <data name="ImageEditor_FrameOffsetTooltip" xml:space="preserve">
+    <value>عوض</value>
+  </data>
+  <data name="ImageEditor_FrameRadiusTooltip" xml:space="preserve">
+    <value>نصف القطر</value>
+  </data>
+  <data name="ImageEditor_FrameAmountTooltip" xml:space="preserve">
+    <value>كمية</value>
+  </data>
+  <data name="ImageEditor_ResizeWidthText" xml:space="preserve">
+    <value>دبليو</value>
+  </data>
+  <data name="ImageEditor_ResizeHeightText" xml:space="preserve">
+    <value>ح</value>
+  </data>
+  <data name="ImageEditor_FrameBorderTooltip" xml:space="preserve">
+    <value>حدود</value>
+  </data>
+  <data name="ImageEditor_FrameBorderSolid" xml:space="preserve">
+    <value>صلب</value>
+  </data>
+  <data name="ImageEditor_FrameBorderDashed" xml:space="preserve">
+    <value>متقطع</value>
+  </data>
+  <data name="ImageEditor_FrameBorderDotted" xml:space="preserve">
+    <value>منقط</value>
+  </data>
+  <data name="ImageEditor_FrameGradientTooltip" xml:space="preserve">
+    <value>التدرج اللوني</value>
+  </data>
   <data name="Kanban_Items" xml:space="preserve">
     <value>العناصر</value>
   </data>
@@ -3042,26 +3195,35 @@
   <data name="RichTextEditor_FormatsDropDownHeading6" xml:space="preserve">
     <value>عنوان 6</value>
   </data>
+  <data name="RichTextEditor_FormatsDropDownHeading7" xml:space="preserve">
+    <value>عنوان 7</value>
+  </data>
+  <data name="RichTextEditor_FormatsDropDownHeading8" xml:space="preserve">
+    <value>عنوان 8</value>
+  </data>
+  <data name="RichTextEditor_FormatsDropDownHeading9" xml:space="preserve">
+    <value>عنوان 9</value>
+  </data>
   <data name="RichTextEditor_FontNameSegoeUI" xml:space="preserve">
     <value>Segoe UI</value>
   </data>
   <data name="RichTextEditor_FontNameArial" xml:space="preserve">
-    <value>ارييل</value>
+    <value>Arial</value>
   </data>
   <data name="RichTextEditor_FontNameGeorgia" xml:space="preserve">
-    <value>(جورجيا)</value>
+    <value>Georgia</value>
   </data>
   <data name="RichTextEditor_FontNameImpact" xml:space="preserve">
-    <value>أثر</value>
+    <value>Impact</value>
   </data>
   <data name="RichTextEditor_FontNameTahoma" xml:space="preserve">
-    <value>من نوع تهامه كما</value>
+    <value>Tahoma</value>
   </data>
   <data name="RichTextEditor_FontNameTimesNewRoman" xml:space="preserve">
-    <value>تايمز نيو رومان</value>
+    <value>Times New Roman</value>
   </data>
   <data name="RichTextEditor_FontNameVerdana" xml:space="preserve">
-    <value>تم إنتاج خط فيردانا</value>
+    <value>Verdana</value>
   </data>
   <data name="RichTextEditor_Alignments" xml:space="preserve">
     <value>التحالفات</value>
@@ -3226,7 +3388,7 @@
     <value>أدخل العنوان</value>
   </data>
   <data name="RichTextEditor_LinkUrl" xml:space="preserve">
-    <value>http://example.com</value>
+    <value>https://example.com</value>
   </data>
   <data name="RichTextEditor_LinkOpenInNewWindow" xml:space="preserve">
     <value>افتح الرابط في نافذة جديدة</value>
@@ -3267,11 +3429,38 @@
   <data name="RichTextEditor_Browse" xml:space="preserve">
     <value>تصفح</value>
   </data>
+  <data name="RichTextEditor_VideoDeviceUploadMessage" xml:space="preserve">
+    <value>انقر هنا للتحميل</value>
+  </data>
+  <data name="RichTextEditor_VideoUploadMessage" xml:space="preserve">
+    <value>قم بإسقاط ملف فيديو أو تصفح للتحميل</value>
+  </data>
+  <data name="RichTextEditor_EmbedVideoUploadMessage" xml:space="preserve">
+    <value>الصق الكود المضمن هنا</value>
+  </data>
+  <data name="RichTextEditor_WebUrl" xml:space="preserve">
+    <value>عنوان URL للويب</value>
+  </data>
+  <data name="RichTextEditor_EmbedUrl" xml:space="preserve">
+    <value>الكود المضمن</value>
+  </data>
+  <data name="RichTextEditor_VideoWidth" xml:space="preserve">
+    <value>عرض</value>
+  </data>
+  <data name="RichTextEditor_VideoHeight" xml:space="preserve">
+    <value>ارتفاع</value>
+  </data>
+  <data name="RichTextEditor_AudioDeviceUploadMessage" xml:space="preserve">
+    <value>انقر هنا للتحميل</value>
+  </data>
+  <data name="RichTextEditor_AudioUploadMessage" xml:space="preserve">
+    <value>قم بإسقاط ملف صوتي أو تصفح للتحميل</value>
+  </data>
   <data name="RichTextEditor_ImageUrl" xml:space="preserve">
-    <value>http://example.com/image.png</value>
+    <value>https://example.com/image.png</value>
   </data>
   <data name="RichTextEditor_ImageCaption" xml:space="preserve">
-    <value>شرح</value>
+  <value>التسمية التوضيحية</value>
   </data>
   <data name="RichTextEditor_ImageSizeHeader" xml:space="preserve">
     <value>Iحجم الصورة</value>
@@ -3307,16 +3496,16 @@
     <value>عدد الصفوف</value>
   </data>
   <data name="RichTextEditor_TableRows" xml:space="preserve">
-    <value>صفوف الجدول</value>
+    <value>صف</value>
   </data>
   <data name="RichTextEditor_TableColumns" xml:space="preserve">
-    <value>أعمدة الجدول</value>
+    <value>عمود</value>
   </data>
   <data name="RichTextEditor_TableCellHorizontalAlign" xml:space="preserve">
     <value>خلية الجدول الأفقي محاذاة</value>
   </data>
   <data name="RichTextEditor_TableCellVerticalAlign" xml:space="preserve">
-    <value>خلية الجدول العمودي محاذاة</value>
+    <value>محاذاة عمودية</value>
   </data>
   <data name="RichTextEditor_CreateTable" xml:space="preserve">
     <value>اصنع جدول</value>
@@ -3325,10 +3514,10 @@
     <value>إزالة الجدول</value>
   </data>
   <data name="RichTextEditor_TableHeader" xml:space="preserve">
-    <value>رأس الجدول</value>
+    <value>مقدمة الصف</value>
   </data>
   <data name="RichTextEditor_TableRemove" xml:space="preserve">
-    <value>الجدول إزالة</value>
+    <value>حذف الجدول</value>
   </data>
   <data name="RichTextEditor_TableCellBackground" xml:space="preserve">
     <value>خلفية خلية الجدول</value>
@@ -3468,6 +3657,15 @@
   <data name="RichTextEditor_Video_Dimension" xml:space="preserve">
     <value>البعد</value>
   </data>
+  <data name="RichTextEditor_Link_AriaLabel" xml:space="preserve">
+    <value>افتح في نافذة جديدة</value>
+  </data>
+  <data name="RichTextEditor_Image_Link_AriaLabel" xml:space="preserve">
+    <value>افتح في نافذة جديدة</value>
+  </data>
+  <data name="RichTextEditor_Img_AltText_Unsupported" xml:space="preserve">
+    <value>تنسيق ملف غير معتمد</value>
+  </data>
   <data name="PdfViewer" xml:space="preserve">
     <value>PDF  عارض</value>
   </data>
@@ -3488,6 +3686,9 @@
   </data>
   <data name="PdfViewer_FileCorruptedContent" xml:space="preserve">
     <value>الملف تالف ولا يمكن فتحه.</value>
+  </data>
+  <data name="PdfViewer_FitHeight" xml:space="preserve">
+    <value>ارتفاع ملائم</value>
   </data>
   <data name="PdfViewer_FitPage" xml:space="preserve">
     <value>ملئ الصفحة</value>
@@ -4032,6 +4233,39 @@
   <data name="DocumentEditor_Justify" xml:space="preserve">
     <value>برر</value>
   </data>
+  <data name="DocumentEditor_OutlineLevel" xml:space="preserve">
+    <value>مستوى المخطط التفصيلي</value>
+  </data>
+    <data name="DocumentEditor_BodyText" xml:space="preserve">
+  <value>نص الجسم</value>
+    </data>
+  <data name="DocumentEditor_Level1" xml:space="preserve">
+    <value>المستوى 1</value>
+  </data>
+  <data name="DocumentEditor_Level2" xml:space="preserve">
+    <value>المستوي 2</value>
+  </data>
+  <data name="DocumentEditor_Level3" xml:space="preserve">
+    <value>مستوى 3</value>
+  </data>
+  <data name="DocumentEditor_Level4" xml:space="preserve">
+    <value>مستوى 4</value>
+  </data>
+  <data name="DocumentEditor_Level5" xml:space="preserve">
+    <value>مستوى 5</value>
+  </data>
+  <data name="DocumentEditor_Level6" xml:space="preserve">
+    <value>المستوى 6</value>
+  </data>
+  <data name="DocumentEditor_Level7" xml:space="preserve">
+    <value>المستوى 7</value>
+  </data>
+  <data name="DocumentEditor_Level8" xml:space="preserve">
+    <value>المستوى 8</value>
+  </data>
+  <data name="DocumentEditor_Level9" xml:space="preserve">
+    <value>المستوى 9</value>
+  </data>    
   <data name="DocumentEditor_IndentFromLeft" xml:space="preserve">
     <value>المسافة البادئة من اليسار</value>
   </data>
@@ -4214,6 +4448,15 @@
   </data>
   <data name="DocumentEditor_Heading6" xml:space="preserve">
     <value>العنوان 6</value>
+  </data>
+  <data name="DocumentEditor_Heading7" xml:space="preserve">
+    <value>العنوان 7</value>
+  </data>
+  <data name="DocumentEditor_Heading8" xml:space="preserve">
+    <value>العنوان 8</value>
+  </data>
+  <data name="DocumentEditor_Heading9" xml:space="preserve">
+    <value>العنوان 9</value>
   </data>
   <data name="DocumentEditor_ListParagraph" xml:space="preserve">
     <value>قائمة الفقرة</value>
@@ -4532,6 +4775,9 @@
   </data>
   <data name="DocumentEditor_Find" xml:space="preserve">
     <value>تجد</value>
+  </data>
+  <data name="DocumentEditor_Headings" xml:space="preserve">
+    <value>العناوين</value>
   </data>
   <data name="DocumentEditor_NoMatches" xml:space="preserve">
     <value>لا توجد مباريات</value>
@@ -5121,11 +5367,23 @@
   <data name="DocumentEditor_Date" xml:space="preserve">
        <value>تاريخ</value>
 </data>
-  <data name="DocumentEditor_Uppercase" xml:space="preserve">
-       <value>الأحرف الكبيرة</value>
-</data>
-  <data name="DocumentEditor_Lowercase" xml:space="preserve">
-       <value>أحرف صغيرة</value>
+<data name="DocumentEditorContainer_Changecase" xml:space="preserve">
+  <value>تغيير الحالة</value>
+  </data>
+  <data name="DocumentEditorContainer_Uppercase" xml:space="preserve">
+  <value>الأحرف الكبيرة</value>
+  </data>
+  <data name="DocumentEditorContainer_Lowercase" xml:space="preserve">
+  <value>أحرف صغيرة</value>
+  </data>
+  <data name="DocumentEditorContainer_SentenceCase" xml:space="preserve">
+  <value>حالة الجملة</value>
+  </data>
+  <data name="DocumentEditorContainer_CapitalizeEachWord" xml:space="preserve">
+  <value>تكبير كل كلمة</value>
+  </data>
+  <data name="DocumentEditorContainer_ToggleCase" xml:space="preserve">
+  <value>حالة تبديل</value>
 </data>
   <data name="DocumentEditor_FirstCapital" xml:space="preserve">
        <value>فيرست كابيتال</value>
@@ -5258,6 +5516,9 @@
   </data>
   <data name="DocumentEditorContainer_Find" xml:space="preserve">
     <value>تجد</value>
+  </data>
+  <data name="DocumentEditorContainer_Headings" xml:space="preserve">
+    <value>العناوين</value>
   </data>
   <data name="DocumentEditorContainer_LocalClipboard" xml:space="preserve">
     <value>الحافظة المحلية</value>
@@ -5849,5 +6110,143 @@
   </data>
   <data name="DocumentEditor_And" xml:space="preserve">
     <value>و</value>
+  </data>
+  <data name="DocumentEditor_Title" xml:space="preserve">
+    <value>عنوان</value>
+  </data>
+  <data name="DocumentEditor_Description" xml:space="preserve">
+    <value>وصف</value>
+  </data>
+  <data name="DocumentEditor_AltText" xml:space="preserve">
+    <value>نص بديل</value>
+  </data>
+  <data name="ImageEditor_UnSupportedDialogOkContent" xml:space="preserve">
+    <value>حسنا</value>
+  </data>
+  <data name="ImageEditor_UnSupportedDialogHeaderContent" xml:space="preserve">
+    <value>ملف غير مدعم</value>
+  </data>
+  <data name="ImageEditor_UnSupportedDialogContent" xml:space="preserve">
+    <value>الملف المسقط غير مدعوم.</value>
+  </data>
+  <data name="ImageEditor_DropText" xml:space="preserve">
+    <value>قم بإسقاط صورتك هنا أو</value>
+  </data>
+  <data name="DocumentEditorContainer_TabStopPosition" xml:space="preserve">
+<value>موضع توقف علامة التبويب</value>
+</data>
+<data name="DocumentEditorContainer_DefaultTabStops" xml:space="preserve">
+<value>علامات التبويب الافتراضية</value>
+</data>
+<data name="DocumentEditorContainer_TabStopsCleared" xml:space="preserve">
+<value>علامات التبويب المراد مسحها</value>
+</data>
+<data name="DocumentEditorContainer_Tabs" xml:space="preserve">
+<value>نوافذ التبويب</value>
+</data>
+<data name="DocumentEditor_Set" xml:space="preserve">
+<value>تعيين</value>
+</data>
+<data name="DocumentEditor_Clear" xml:space="preserve">
+<value>واضح</value>
+</data>
+<data name="DocumentEditor_ClearAll" xml:space="preserve">
+<value>امسح الكل</value>
+</data>
+<data name="DocumentEditor_Decimal" xml:space="preserve">
+<value>عدد عشري</value>
+</data>
+<data name="DocumentEditor_Bar" xml:space="preserve">
+<value>حاجِز</value>
+</data>
+<data name="DocumentEditorContainer_Alignment" xml:space="preserve">
+<value>تنسيق</value>
+</data>
+<data name="DocumentEditorContainer_Leader" xml:space="preserve">
+<value>قائد</value>
+</data>
+<data name="DocumentEditorContainer_All" xml:space="preserve">
+<value>الجميع</value>
+</data>
+<data name="DocumentEditor_BottomMargin" xml:space="preserve">
+<value>الهامش السفلي</value>
+</data>
+<data name="DocumentEditor_FirstLineIndent" xml:space="preserve">
+<value>الأولى المسافة البادئة للسطر</value>
+</data>
+<data name="DocumentEditor_HangingIndent" xml:space="preserve">
+<value>المسافة البادئة المعلقة</value>
+</data>
+<data name="DocumentEditor_LeftIndent" xml:space="preserve">
+<value>المسافة البادئة اليسرى</value>
+</data>
+<data name="DocumentEditor_LeftMargin" xml:space="preserve">
+<value>الهامش الأيسر</value>
+</data>
+<data name="DocumentEditor_MoveTableColumn" xml:space="preserve">
+<value>نقل عمود الجدول</value>
+</data>
+<data name="DocumentEditor_RightIndent" xml:space="preserve">
+<value>المسافة البادئة اليمنى</value>
+</data>
+<data name="DocumentEditor_RightMargin" xml:space="preserve">
+<value>الهامش الأيمن</value>
+</data>
+<data name="DocumentEditor_TopMargin" xml:space="preserve">
+<value>الهامش العلوي</value>
+</data>
+<data name="DocumentEditor_LeftTab" xml:space="preserve">
+<value>علامة التبويب اليسرى</value>
+</data>
+<data name="DocumentEditor_CenterTab" xml:space="preserve">
+<value>علامة التبويب المركزية</value>
+</data>
+<data name="DocumentEditor_RightTab" xml:space="preserve">
+<value>علامة التبويب اليمنى</value>
+</data>
+<data name="DocumentEditor_DecimalTab" xml:space="preserve">
+<value>علامة التبويب العشرية</value>
+</data>
+<data name="DocumentEditor_BarTab" xml:space="preserve">
+<value>شريط التبويب</value>
+</data>
+  <data name="ImageEditor_Annotation" xml:space="preserve">
+    <value>حاشية. ملاحظة</value>
+  </data>
+  <data name="QueryBuilder_Null" xml:space="preserve">
+    <value>باطل</value>
+  </data>
+  <data name="QueryBuilder_NotNull" xml:space="preserve">
+    <value>هو ليس لاشيء</value>
+  </data>
+  <data name="ImageEditor_StraightenTooltip" xml:space="preserve">
+    <value>تصويب</value>
+  </data>
+  <data name="PivotView_Combined" xml:space="preserve">
+    <value>مجموع</value>
+  </data>
+  <data name="QueryBuilder_NotStartsWith" xml:space="preserve">
+    <value>No comença amb</value>
+  </data>
+  <data name="QueryBuilder_NotEndsWith" xml:space="preserve">
+    <value>No acaba amb</value>
+  </data>
+  <data name="QueryBuilder_LockGroup" xml:space="preserve">
+    <value>قفل المجموعة</value>
+  </data>
+  <data name="QueryBuilder_UnlockGroup" xml:space="preserve">
+    <value>فتح المجموعة</value>
+  </data>
+  <data name="QueryBuilder_LockRule" xml:space="preserve">
+    <value>قاعدة القفل</value>
+  </data>
+  <data name="QueryBuilder_UnlockRule" xml:space="preserve">
+    <value>فتح القاعدة</value>
+  </data>
+  <data name="QueryBuilder_CloneGroup" xml:space="preserve">
+    <value>مجموعة استنساخ</value>
+  </data>
+  <data name="QueryBuilder_CloneRule" xml:space="preserve">
+    <value>قاعدة الاستنساخ</value>
   </data>
 </root>

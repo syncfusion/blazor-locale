@@ -195,6 +195,18 @@
   <data name="DropDownList_NoRecordsTemplate" xml:space="preserve">
     <value>Nenalezeny žádné záznamy</value>
   </data>
+  <data name="DropDownTree_NoRecords" xml:space="preserve">
+    <value>Nenalezeny žádné záznamy</value>
+  </data>
+  <data name="DropDownTree_RequestFailed" xml:space="preserve">
+    <value>Požadavek selhala</value>
+  </data>
+  <data name="DropDownTree_SelectAll" xml:space="preserve">
+    <value>Vybrat vše</value>
+  </data>
+  <data name="DropDownTree_UnSelectAll" xml:space="preserve">
+    <value>Odznačit vše</value>
+  </data>
   <data name="Mention_NoRecordsTemplate" xml:space="preserve">
     <value>Nenalezeny žádné záznamy</value>
   </data>
@@ -589,8 +601,10 @@
     <value>Pokles</value>
   </data>
   <data name="Slider_IncrementTitle" xml:space="preserve">
-    <value>Zvýšit</value>
-	
+    <value>Zvýšit</value>	
+  </data>
+  <data name="Stepper_Optional" xml:space="preserve">
+    <value>Volitelný</value>
   </data>
   <data name="Maps_ImageNotFound" xml:space="preserve">
     <value>Image Not Found</value>
@@ -900,6 +914,15 @@
   </data>
   <data name="Gantt_CriticalPath" xml:space="preserve">
     <value>Kritická cesta</value>
+  </data>
+  <data name="Gantt_Segment" xml:space="preserve">
+    <value>Segmenty</value>
+  </data>
+  <data name="Gantt_SplitTask" xml:space="preserve">
+    <value>Rozdělit úkol</value>
+  </data>
+  <data name="Gantt_MergeTask" xml:space="preserve">
+    <value>Sloučit úkol</value>
   </data>
   <data name="ColorPicker_Apply" xml:space="preserve">
     <value>Aplikovat</value>
@@ -1387,6 +1410,9 @@
   <data name="PivotView_LoadReport" xml:space="preserve">
     <value>Zatížení</value>
   </data>
+  <data name="PivotView_Loading" xml:space="preserve">
+    <value>Načítání...</value>
+  </data>
   <data name="PivotView_ManageRecords" xml:space="preserve">
     <value>Správa záznamů</value>
   </data>
@@ -1846,6 +1872,7 @@
   <data name="QueryBuilder_PlaceholderDateValue" xml:space="preserve">
     <value>Vyberte datum</value>
   </data>
+  
   <data name="QueryBuilder_StartsWith" xml:space="preserve">
     <value>Začíná s</value>
   </data>
@@ -1956,12 +1983,6 @@
   </data>
   <data name="ImageEditor_FillColorTooltip" xml:space="preserve">
     <value>Vyplň barvu</value>
-  </data>
-  <data name="ImageEditor_OkBtnTooltip" xml:space="preserve">
-    <value>OK</value>
-  </data>
-  <data name="ImageEditor_CancelBtnTooltip" xml:space="preserve">
-    <value>zrušení</value>
   </data>
   <data name="ImageEditor_ResetBtnTooltip" xml:space="preserve">
     <value>Resetovat</value>
@@ -2113,6 +2134,96 @@
   <data name="ImageEditor_DialogNoContent" xml:space="preserve">
     <value>Ne</value>
   </data>
+  <data name="ImageEditor_ResizeText" xml:space="preserve">
+    <value>změnit velikost</value>
+  </data>
+  <data name="ImageEditor_ResizeWidth" xml:space="preserve">
+    <value>šířka</value>
+  </data>
+  <data name="ImageEditor_ResizeHeight" xml:space="preserve">
+    <value>výška</value>
+  </data>
+  <data name="ImageEditor_NonAspect_Tooltip" xml:space="preserve">
+    <value>Zachovat jiný poměr stran</value>
+  </data>
+  <data name="ImageEditor_Aspect_Tooltip" xml:space="preserve">
+    <value>Zachovat poměr stran</value>
+  </data>
+  <data name="ImageEditor_HorizontalFlipBtnTooltip" xml:space="preserve">
+    <value>horizontální překlopení</value>
+  </data>
+  <data name="ImageEditor_VerticalFlipBtnTooltip" xml:space="preserve">
+    <value>vertikální překlopení</value>
+  </data>
+  <data name="ImageEditor_TransparencyBtnTooltip" xml:space="preserve">
+    <value>průhlednost</value>
+  </data>
+  <data name="ImageEditor_DragText" xml:space="preserve">
+    <value>Přetáhněte obrázek sem nebo</value>
+  </data>
+  <data name="ImageEditor_BrowseText" xml:space="preserve">
+    <value>Procházet zde...</value>
+  </data>
+  <data name="ImageEditor_SupportText" xml:space="preserve">
+    <value>Podporuje: </value>
+  </data>
+  <data name="ImageEditor_FrameText" xml:space="preserve">
+    <value>rám</value>
+  </data>
+  <data name="ImageEditor_FrameNone" xml:space="preserve">
+    <value>žádný</value>
+  </data>
+  <data name="ImageEditor_FrameMat" xml:space="preserve">
+    <value>rohož</value>
+  </data>
+  <data name="ImageEditor_FrameBevel" xml:space="preserve">
+    <value>úkos</value>
+  </data>
+  <data name="ImageEditor_FrameLine" xml:space="preserve">
+    <value>čára</value>
+  </data>
+  <data name="ImageEditor_FrameInset" xml:space="preserve">
+    <value>vložka</value>
+  </data>
+  <data name="ImageEditor_FrameHook" xml:space="preserve">
+    <value>háček</value>
+  </data>
+  <data name="ImageEditor_FrameColorTooltip" xml:space="preserve">
+    <value>barva</value>
+  </data>
+  <data name="ImageEditor_FrameSizeTooltip" xml:space="preserve">
+    <value>velikost</value>
+  </data>
+  <data name="ImageEditor_FrameOffsetTooltip" xml:space="preserve">
+    <value>offset</value>
+  </data>
+  <data name="ImageEditor_FrameRadiusTooltip" xml:space="preserve">
+    <value>poloměr</value>
+  </data>
+  <data name="ImageEditor_FrameAmountTooltip" xml:space="preserve">
+    <value>množství</value>
+  </data>
+  <data name="ImageEditor_ResizeWidthText" xml:space="preserve">
+    <value>W</value>
+  </data>
+  <data name="ImageEditor_ResizeHeightText" xml:space="preserve">
+    <value>H</value>
+  </data>
+  <data name="ImageEditor_FrameBorderTooltip" xml:space="preserve">
+    <value>okraj</value>
+  </data>
+  <data name="ImageEditor_FrameBorderSolid" xml:space="preserve">
+    <value>Pevný</value>
+  </data>
+  <data name="ImageEditor_FrameBorderDashed" xml:space="preserve">
+    <value>čárkovaná</value>
+  </data>
+  <data name="ImageEditor_FrameBorderDotted" xml:space="preserve">
+    <value>Tečkovaný</value>
+  </data>
+  <data name="ImageEditor_FrameGradientTooltip" xml:space="preserve">
+    <value>Barva přechodu</value>
+  </data>
   <data name="Kanban_Items" xml:space="preserve">
     <value>položek</value>
   </data>
@@ -2230,23 +2341,32 @@
   <data name="RichTextEditor_FormatsDropDownHeading6" xml:space="preserve">
     <value>nadpis 6</value>
   </data>
+  <data name="RichTextEditor_FormatsDropDownHeading7" xml:space="preserve">
+    <value>nadpis 7</value>
+  </data>
+  <data name="RichTextEditor_FormatsDropDownHeading8" xml:space="preserve">
+    <value>nadpis 8</value>
+  </data>
+  <data name="RichTextEditor_FormatsDropDownHeading9" xml:space="preserve">
+    <value>nadpis 9</value>
+  </data>
   <data name="RichTextEditor_FontNameSegoeUI" xml:space="preserve">
-    <value>uživatelské rozhraní segoe</value>
+    <value>Segoe UI</value>
   </data>
   <data name="RichTextEditor_FontNameArial" xml:space="preserve">
     <value>Arial</value>
   </data>
   <data name="RichTextEditor_FontNameGeorgia" xml:space="preserve">
-    <value>Gruzie</value>
+    <value>Georgia</value>
   </data>
   <data name="RichTextEditor_FontNameImpact" xml:space="preserve">
-    <value>dopad</value>
+    <value>Impact</value>
   </data>
   <data name="RichTextEditor_FontNameTahoma" xml:space="preserve">
     <value>Tahoma</value>
   </data>
   <data name="RichTextEditor_FontNameTimesNewRoman" xml:space="preserve">
-    <value>krát Nový římský</value>
+    <value>Times New Roman</value>
   </data>
   <data name="RichTextEditor_FontNameVerdana" xml:space="preserve">
     <value>Verdana</value>
@@ -2414,7 +2534,7 @@
     <value>Zadejte název</value>
   </data>
   <data name="RichTextEditor_LinkUrl" xml:space="preserve">
-    <value>http://example.com</value>
+    <value>https://example.com</value>
   </data>
   <data name="RichTextEditor_LinkOpenInNewWindow" xml:space="preserve">
     <value>Otevřete odkaz v novém okně</value>
@@ -2455,8 +2575,35 @@
   <data name="RichTextEditor_Browse" xml:space="preserve">
     <value>Procházet</value>
   </data>
+  <data name="RichTextEditor_VideoDeviceUploadMessage" xml:space="preserve">
+    <value>Kliknutím sem nahrajete</value>
+  </data>
+  <data name="RichTextEditor_VideoUploadMessage" xml:space="preserve">
+    <value>Přetáhněte soubor videa nebo jej nahrajte procházením</value>
+  </data>
+  <data name="RichTextEditor_EmbedVideoUploadMessage" xml:space="preserve">
+    <value>Sem vložte vložený kód</value>
+  </data>
+  <data name="RichTextEditor_WebUrl" xml:space="preserve">
+    <value>Webová adresa URL</value>
+  </data>
+  <data name="RichTextEditor_EmbedUrl" xml:space="preserve">
+    <value>Vložený kód</value>
+  </data>
+  <data name="RichTextEditor_VideoWidth" xml:space="preserve">
+    <value>šířka</value>
+  </data>
+  <data name="RichTextEditor_VideoHeight" xml:space="preserve">
+    <value>Výška</value>
+  </data>
+  <data name="RichTextEditor_AudioDeviceUploadMessage" xml:space="preserve">
+    <value>Kliknutím sem nahrajete</value>
+  </data>
+  <data name="RichTextEditor_AudioUploadMessage" xml:space="preserve">
+    <value>Přetáhněte zvukový soubor nebo jej nahrajte procházením</value>
+  </data>
   <data name="RichTextEditor_ImageUrl" xml:space="preserve">
-    <value>http://example.com/image.png</value>
+    <value>https://example.com/image.png</value>
   </data>
   <data name="RichTextEditor_ImageCaption" xml:space="preserve">
     <value>Titulek</value>
@@ -2495,16 +2642,16 @@
     <value>Počet řádků</value>
   </data>
   <data name="RichTextEditor_TableRows" xml:space="preserve">
-    <value>Řádky tabulky</value>
+    <value>Řádek</value>
   </data>
   <data name="RichTextEditor_TableColumns" xml:space="preserve">
-    <value>Sloupce tabulky</value>
+    <value>Sloupec</value>
   </data>
   <data name="RichTextEditor_TableCellHorizontalAlign" xml:space="preserve">
     <value>Horizontální zarovnání buňky tabulky</value>
   </data>
   <data name="RichTextEditor_TableCellVerticalAlign" xml:space="preserve">
-    <value>Svislé zarovnání buňky tabulky</value>
+    <value>Vertikální zarovnání</value>
   </data>
   <data name="RichTextEditor_CreateTable" xml:space="preserve">
     <value>Vytvořit tabulku</value>
@@ -2513,10 +2660,10 @@
     <value>Odebrat tabulku</value>
   </data>
   <data name="RichTextEditor_TableHeader" xml:space="preserve">
-    <value>Záhlaví tabulky</value>
+    <value>Řádek záhlaví</value>
   </data>
   <data name="RichTextEditor_TableRemove" xml:space="preserve">
-    <value>Tabulka odebrat</value>
+    <value>Smazat tabulku</value>
   </data>
   <data name="RichTextEditor_TableCellBackground" xml:space="preserve">
     <value>Pozadí buňky tabulky</value>
@@ -2655,6 +2802,15 @@
   </data>
   <data name="RichTextEditor_Video_Dimension" xml:space="preserve">
     <value>Dimenze</value>
+  </data>
+  <data name="RichTextEditor_Link_AriaLabel" xml:space="preserve">
+    <value>Otevři v novém okně</value>
+  </data>
+  <data name="RichTextEditor_Image_Link_AriaLabel" xml:space="preserve">
+    <value>Otevři v novém okně</value>
+  </data>
+  <data name="RichTextEditor_Img_AltText_Unsupported" xml:space="preserve">
+    <value>Nepodporovaný formát souboru</value>
   </data>
   <data name="DiagramComponent_X" xml:space="preserve">
     <value>X</value>
@@ -2923,6 +3079,12 @@
   <data name="Grid_SortDescending" xml:space="preserve">
     <value>Seřadit sestupně</value>
   </data>
+  <data name="Grid_SortedAscending" xml:space="preserve">
+    <value>Seřazeno vzestupně</value>
+  </data>
+  <data name="Grid_SortedDescending" xml:space="preserve">
+    <value>Seřazeno sestupně</value>
+  </data>
   <data name="Grid_EditRecord" xml:space="preserve">
     <value>Upravit záznam</value>
   </data>
@@ -3063,6 +3225,9 @@
   </data>
   <data name="Grid_FilterValue" xml:space="preserve">
     <value>Hodnota filtru</value>
+  </data>
+  <data name="Grid_SelectRowARIA" xml:space="preserve">
+    <value>Vyberte řádek</value>
   </data>
   <data name="Pager_Page" xml:space="preserve">
     <value>Stránka</value>
@@ -3382,6 +3547,9 @@
   <data name="Schedule_Recurrence" xml:space="preserve">
     <value>Opakování</value>
 	</data>
+  <data name="Schedule_RecurringEvent" xml:space="preserve">
+    <value>Opakující se událost</value>
+	</data>
   <data name="Schedule_Repeat" xml:space="preserve">
     <value>Opakovat</value>
 	</data>
@@ -3516,6 +3684,9 @@
   </data>
   <data name="PdfViewer_FileCorruptedContent" xml:space="preserve">
     <value>Soubor je poškozen a nelze jej otevřít.</value>
+  </data>
+  <data name="PdfViewer_FitHeight" xml:space="preserve">
+    <value>Přizpůsobit výšku</value>
   </data>
   <data name="PdfViewer_FitPage" xml:space="preserve">
     <value>přizpůsobit stránku</value>
@@ -4060,6 +4231,39 @@
   <data name="DocumentEditor_Justify" xml:space="preserve">
     <value>Ospravedlnit</value>
   </data>
+  <data name="DocumentEditor_OutlineLevel" xml:space="preserve">
+    <value>Úroveň obrysu</value>
+  </data>
+  <data name="DocumentEditor_BodyText" xml:space="preserve">
+    <value>Text těla</value>
+  </data>
+  <data name="DocumentEditor_Level1" xml:space="preserve">
+    <value>Úroveň 1</value>
+  </data>
+  <data name="DocumentEditor_Level2" xml:space="preserve">
+    <value>Úroveň 2</value>
+  </data>
+  <data name="DocumentEditor_Level3" xml:space="preserve">
+    <value>Úroveň 3</value>
+  </data>
+  <data name="DocumentEditor_Level4" xml:space="preserve">
+    <value>Úroveň 4</value>
+  </data>
+  <data name="DocumentEditor_Level5" xml:space="preserve">
+    <value>Úroveň 5</value>
+  </data>
+  <data name="DocumentEditor_Level6" xml:space="preserve">
+    <value>Úroveň 6</value>
+  </data>
+  <data name="DocumentEditor_Level7" xml:space="preserve">
+    <value>Úroveň 7</value>
+  </data>
+  <data name="DocumentEditor_Level8" xml:space="preserve">
+    <value>Úroveň 8</value>
+  </data>
+  <data name="DocumentEditor_Level9" xml:space="preserve">
+    <value>Úroveň 9</value>
+  </data>    
   <data name="DocumentEditor_IndentFromLeft" xml:space="preserve">
     <value>Odsazení zleva</value>
   </data>
@@ -4242,6 +4446,15 @@
   </data>
   <data name="DocumentEditor_Heading6" xml:space="preserve">
     <value>Okruh 6</value>
+  </data>
+  <data name="DocumentEditor_Heading7" xml:space="preserve">
+    <value>Okruh 7</value>
+  </data>
+  <data name="DocumentEditor_Heading8" xml:space="preserve">
+    <value>Okruh 8</value>
+  </data>
+  <data name="DocumentEditor_Heading9" xml:space="preserve">
+    <value>Okruh 9</value>
   </data>
   <data name="DocumentEditor_ListParagraph" xml:space="preserve">
     <value>Seznam odstavců</value>
@@ -4561,6 +4774,9 @@
   <data name="DocumentEditor_Find" xml:space="preserve">
     <value>Nalézt</value>
   </data>
+  <data name="DocumentEditor_Headings" xml:space="preserve">
+    <value>Nadpisy</value>
+    </data>
   <data name="DocumentEditor_NoMatches" xml:space="preserve">
     <value>Žádné shody</value>
   </data>
@@ -5149,11 +5365,23 @@
   <data name="DocumentEditor_Date" xml:space="preserve">
        <value>datum</value>
 </data>
-  <data name="DocumentEditor_Uppercase" xml:space="preserve">
-       <value>Velká písmena</value>
+<data name="DocumentEditorContainer_Changecase" xml:space="preserve">
+  <value>Změnit případ</value>
 </data>
-  <data name="DocumentEditor_Lowercase" xml:space="preserve">
-       <value>malá písmena</value>
+<data name="DocumentEditorContainer_Uppercase" xml:space="preserve">
+  <value>VELKÁ PÍSMENA</value>
+</data>
+<data name="DocumentEditorContainer_Lowercase" xml:space="preserve">
+  <value>Malá písmena</value>
+</data>
+<data name="DocumentEditorContainer_SentenceCase" xml:space="preserve">
+  <value>Případ věty</value>
+</data>
+<data name="DocumentEditorContainer_CapitalizeEachWord" xml:space="preserve">
+  <value>Kapitalizujte každé slovo</value>
+</data>
+<data name="DocumentEditorContainer_ToggleCase" xml:space="preserve">
+  <value>Přepnout případ</value>
 </data>
   <data name="DocumentEditor_FirstCapital" xml:space="preserve">
        <value>První hlavní město</value>
@@ -5286,6 +5514,9 @@
   </data>
   <data name="DocumentEditorContainer_Find" xml:space="preserve">
     <value>Nalézt</value>
+  </data>
+  <data name="DocumentEditorContainer_Headings" xml:space="preserve">
+    <value>Nadpisy</value>
   </data>
   <data name="DocumentEditorContainer_LocalClipboard" xml:space="preserve">
     <value>Místní schránka</value>
@@ -5874,5 +6105,149 @@
   </data>
   <data name="DocumentEditor_And" xml:space="preserve">
     <value>a</value>
+  </data>
+  <data name="DocumentEditor_Title" xml:space="preserve">
+    <value>Titul</value>
+  </data>
+  <data name="DocumentEditor_Description" xml:space="preserve">
+    <value>Popis</value>
+  </data>
+  <data name="DocumentEditor_AltText" xml:space="preserve">
+    <value>Alternativní text</value>
+  </data>
+  <data name="ImageEditor_UnSupportedDialogOkContent" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="ImageEditor_UnSupportedDialogHeaderContent" xml:space="preserve">
+    <value>Nepodporovaný soubor</value>
+  </data>
+  <data name="ImageEditor_UnSupportedDialogContent" xml:space="preserve">
+    <value>Zahozený soubor není podporován.</value>
+  </data>
+  <data name="ImageEditor_DropText" xml:space="preserve">
+    <value>Sem vložte svůj obrázek nebo</value>
+  </data>
+  <data name="DocumentEditorContainer_TabStopPosition" xml:space="preserve">
+<value>Poloha zarážky tabulátoru</value>
+</data>
+<data name="DocumentEditorContainer_DefaultTabStops" xml:space="preserve">
+<value>Výchozí zarážky tabulátoru</value>
+</data>
+<data name="DocumentEditorContainer_TabStopsCleared" xml:space="preserve">
+<value>Zarážky tabulátoru k vymazání</value>
+</data>
+<data name="DocumentEditorContainer_Tabs" xml:space="preserve">
+<value>Karty</value>
+</data>
+<data name="DocumentEditor_Set" xml:space="preserve">
+<value>Soubor</value>
+</data>
+<data name="DocumentEditor_Clear" xml:space="preserve">
+<value>Průhledná</value>
+</data>
+<data name="DocumentEditor_ClearAll" xml:space="preserve">
+<value>Vymazat vše</value>
+</data>
+<data name="DocumentEditor_Decimal" xml:space="preserve">
+<value>Desetinný</value>
+</data>
+<data name="DocumentEditor_Bar" xml:space="preserve">
+<value>Bar</value>
+</data>
+<data name="DocumentEditorContainer_Alignment" xml:space="preserve">
+<value>Zarovnání</value>
+</data>
+<data name="DocumentEditorContainer_Leader" xml:space="preserve">
+<value>Vůdce</value>
+</data>
+<data name="DocumentEditorContainer_All" xml:space="preserve">
+<value>Všechno</value>
+</data>
+<data name="DocumentEditor_BottomMargin" xml:space="preserve">
+<value>Dolní okraj</value>
+</data>
+<data name="DocumentEditor_FirstLineIndent" xml:space="preserve">
+<value>Odsazení prvního řádku</value>
+</data>
+<data name="DocumentEditor_HangingIndent" xml:space="preserve">
+<value>Předsazení odsazení</value>
+</data>
+<data name="DocumentEditor_LeftIndent" xml:space="preserve">
+<value>Levé odsazení</value>
+</data>
+<data name="DocumentEditor_LeftMargin" xml:space="preserve">
+<value>Levý okraj</value>
+</data>
+<data name="DocumentEditor_MoveTableColumn" xml:space="preserve">
+<value>Přesunout sloupec tabulky</value>
+</data>
+<data name="DocumentEditor_RightIndent" xml:space="preserve">
+<value>Pravé odsazení</value>
+</data>
+<data name="DocumentEditor_RightMargin" xml:space="preserve">
+<value>Pravý okraj</value>
+</data>
+<data name="DocumentEditor_TopMargin" xml:space="preserve">
+<value>Horní okraj</value>
+</data>
+<data name="DocumentEditor_LeftTab" xml:space="preserve">
+<value>Levá záložka</value>
+</data>
+<data name="DocumentEditor_CenterTab" xml:space="preserve">
+<value>Střed Tab</value>
+</data>
+<data name="DocumentEditor_RightTab" xml:space="preserve">
+<value>Pravá záložka</value>
+</data>
+<data name="DocumentEditor_DecimalTab" xml:space="preserve">
+<value>Desítková Tab</value>
+</data>
+<data name="DocumentEditor_BarTab" xml:space="preserve">
+<value>Bar Tab</value>
+</data>
+  <data name="ImageEditor_OkBtnTooltip" xml:space="preserve">
+    <value>Aplikovat</value>
+  </data>
+  <data name="ImageEditor_Annotation" xml:space="preserve">
+    <value>Anotace</value>
+  </data>
+  <data name="ImageEditor_CancelBtnTooltip" xml:space="preserve">
+    <value>Vyřadit</value>
+  </data>
+  <data name="QueryBuilder_Null" xml:space="preserve">
+    <value>Je Null</value>
+  </data>
+  <data name="QueryBuilder_NotNull" xml:space="preserve">
+    <value>Není Null</value>
+  </data>
+  <data name="ImageEditor_StraightenTooltip" xml:space="preserve">
+    <value>Narovnat</value>
+  </data>
+  <data name="PivotView_Combined" xml:space="preserve">
+    <value>Kombinovaný</value>
+  </data>
+  <data name="QueryBuilder_NotStartsWith" xml:space="preserve">
+    <value>Nezačíná s</value>
+  </data>
+  <data name="QueryBuilder_NotEndsWith" xml:space="preserve">
+    <value>Nekončí</value>
+  </data>
+  <data name="QueryBuilder_LockGroup" xml:space="preserve">
+    <value>Uzamknout skupinu</value>
+  </data>
+  <data name="QueryBuilder_UnlockGroup" xml:space="preserve">
+    <value>Odemknout skupinu</value>
+  </data>
+  <data name="QueryBuilder_LockRule" xml:space="preserve">
+    <value>Pravidlo zámku</value>
+  </data>
+  <data name="QueryBuilder_UnlockRule" xml:space="preserve">
+    <value>Odemknout pravidlo</value>
+  </data>
+  <data name="QueryBuilder_CloneGroup" xml:space="preserve">
+    <value>Klonovací skupina</value>
+  </data>
+  <data name="QueryBuilder_CloneRule" xml:space="preserve">
+    <value>Pravidlo klonování</value>
   </data>
 </root>

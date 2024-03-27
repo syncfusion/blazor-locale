@@ -195,6 +195,18 @@
   <data name="DropDownList_NoRecordsTemplate" xml:space="preserve">
     <value>Tidak ada catatan yang ditemukan</value>
   </data>
+  <data name="DropDownTree_NoRecords" xml:space="preserve">
+    <value>Tidak ada catatan yang ditemukan</value>
+  </data>
+  <data name="DropDownTree_RequestFailed" xml:space="preserve">
+    <value>Permintaan gagal</value>
+  </data>
+  <data name="DropDownTree_SelectAll" xml:space="preserve">
+    <value>Pilih Semua</value>
+  </data>
+  <data name="DropDownTree_UnSelectAll" xml:space="preserve">
+    <value>Batalkan Semua Pilihan</value>
+  </data>
   <data name="Mention_NoRecordsTemplate" xml:space="preserve">
     <value>Tidak ada catatan yang ditemukan</value>
   </data>
@@ -591,6 +603,9 @@
   <data name="Slider_IncrementTitle" xml:space="preserve">
     <value>Meningkat</value>
   </data>
+  <data name="Stepper_Optional" xml:space="preserve">
+    <value>Opsional</value>
+  </data>
   <data name="Maps_ImageNotFound" xml:space="preserve">
     <value>Gambar tidak ditemukan</value>
   </data>
@@ -899,6 +914,15 @@
   </data>
   <data name="Gantt_CriticalPath" xml:space="preserve">
     <value>Jalur Kritis</value>
+  </data>
+  <data name="Gantt_Segment" xml:space="preserve">
+    <value>Segmen</value>
+  </data>
+  <data name="Gantt_SplitTask" xml:space="preserve">
+    <value>Pisahkan Tugas</value>
+  </data>
+  <data name="Gantt_MergeTask" xml:space="preserve">
+    <value>Gabungkan Tugas</value>
   </data>
   <data name="ColorPicker_Apply" xml:space="preserve">
     <value>Menerapkan</value>
@@ -1385,6 +1409,9 @@
   </data>
   <data name="PivotView_LoadReport" xml:space="preserve">
     <value>Beban</value>
+  </data>
+  <data name="PivotView_Loading" xml:space="preserve">
+    <value>Memuat...</value>
   </data>
   <data name="PivotView_ManageRecords" xml:space="preserve">
     <value>Kelola Catatan</value>
@@ -1956,12 +1983,6 @@
   <data name="ImageEditor_FillColorTooltip" xml:space="preserve">
     <value>Isi Warna</value>
   </data>
-  <data name="ImageEditor_OkBtnTooltip" xml:space="preserve">
-    <value>baik</value>
-  </data>
-  <data name="ImageEditor_CancelBtnTooltip" xml:space="preserve">
-    <value>Membatalkan</value>
-  </data>
   <data name="ImageEditor_ResetBtnTooltip" xml:space="preserve">
     <value>Setel ulang</value>
   </data>
@@ -2112,6 +2133,96 @@
   <data name="ImageEditor_DialogNoContent" xml:space="preserve">
     <value>Tidak</value>
   </data>
+  <data name="ImageEditor_ResizeText" xml:space="preserve">
+    <value>mengubah ukuran</value>
+  </data>
+  <data name="ImageEditor_ResizeWidth" xml:space="preserve">
+    <value>lebar</value>
+  </data>
+  <data name="ImageEditor_ResizeHeight" xml:space="preserve">
+    <value>tinggi</value>
+  </data>
+  <data name="ImageEditor_NonAspect_Tooltip" xml:space="preserve">
+    <value>Pertahankan rasio non aspek</value>
+  </data>
+  <data name="ImageEditor_Aspect_Tooltip" xml:space="preserve">
+    <value>Pertahankan rasio aspek</value>
+  </data>
+  <data name="ImageEditor_HorizontalFlipBtnTooltip" xml:space="preserve">
+    <value>flip horisontal</value>
+  </data>
+  <data name="ImageEditor_VerticalFlipBtnTooltip" xml:space="preserve">
+    <value>balik vertikal</value>
+  </data>
+  <data name="ImageEditor_TransparencyBtnTooltip" xml:space="preserve">
+    <value>transparansi</value>
+  </data>
+  <data name="ImageEditor_DragText" xml:space="preserve">
+    <value>Seret dan letakkan gambar Anda di sini atau</value>
+  </data>
+  <data name="ImageEditor_BrowseText" xml:space="preserve">
+    <value>Telusuri di sini...</value>
+  </data>
+  <data name="ImageEditor_SupportText" xml:space="preserve">
+    <value>Mendukung: </value>
+  </data>
+  <data name="ImageEditor_FrameText" xml:space="preserve">
+    <value>bingkai</value>
+  </data>
+  <data name="ImageEditor_FrameNone" xml:space="preserve">
+    <value>tidak ada</value>
+  </data>
+  <data name="ImageEditor_FrameMat" xml:space="preserve">
+    <value>tikar</value>
+  </data>
+  <data name="ImageEditor_FrameBevel" xml:space="preserve">
+    <value>memiringkan</value>
+  </data>
+  <data name="ImageEditor_FrameLine" xml:space="preserve">
+    <value>garis</value>
+  </data>
+  <data name="ImageEditor_FrameInset" xml:space="preserve">
+    <value>sisipan</value>
+  </data>
+  <data name="ImageEditor_FrameHook" xml:space="preserve">
+    <value>kait</value>
+  </data>
+  <data name="ImageEditor_FrameColorTooltip" xml:space="preserve">
+    <value>warna</value>
+  </data>
+  <data name="ImageEditor_FrameSizeTooltip" xml:space="preserve">
+    <value>ukuran</value>
+  </data>
+  <data name="ImageEditor_FrameOffsetTooltip" xml:space="preserve">
+    <value>mengimbangi</value>
+  </data>
+  <data name="ImageEditor_FrameRadiusTooltip" xml:space="preserve">
+    <value>radius</value>
+  </data>
+  <data name="ImageEditor_FrameAmountTooltip" xml:space="preserve">
+    <value>jumlah</value>
+  </data>
+  <data name="ImageEditor_ResizeWidthText" xml:space="preserve">
+    <value>W</value>
+  </data>
+  <data name="ImageEditor_ResizeHeightText" xml:space="preserve">
+    <value>H</value>
+  </data>
+  <data name="ImageEditor_FrameBorderTooltip" xml:space="preserve">
+    <value>Berbatasan</value>
+  </data>
+  <data name="ImageEditor_FrameBorderSolid" xml:space="preserve">
+    <value>Padat</value>
+  </data>
+  <data name="ImageEditor_FrameBorderDashed" xml:space="preserve">
+    <value>Putus-putus</value>
+  </data>
+  <data name="ImageEditor_FrameBorderDotted" xml:space="preserve">
+    <value>Burik</value>
+  </data>
+  <data name="ImageEditor_FrameGradientTooltip" xml:space="preserve">
+    <value>Gradasi warna</value>
+  </data>
   <data name="Kanban_Items" xml:space="preserve">
     <value>barang</value>
   </data>
@@ -2229,6 +2340,15 @@
   <data name="RichTextEditor_FormatsDropDownHeading6" xml:space="preserve">
     <value>Judul   6</value>
   </data>
+  <data name="RichTextEditor_FormatsDropDownHeading7" xml:space="preserve">
+    <value>Judul   7</value>
+  </data>
+  <data name="RichTextEditor_FormatsDropDownHeading8" xml:space="preserve">
+    <value>Judul   8</value>
+  </data>
+  <data name="RichTextEditor_FormatsDropDownHeading9" xml:space="preserve">
+    <value>Judul   9</value>
+  </data>
   <data name="RichTextEditor_FontNameSegoeUI" xml:space="preserve">
     <value>Segoe UI</value>
   </data>
@@ -2239,13 +2359,13 @@
     <value>Georgia</value>
   </data>
   <data name="RichTextEditor_FontNameImpact" xml:space="preserve">
-    <value>Dampak</value>
+    <value>Impact</value>
   </data>
   <data name="RichTextEditor_FontNameTahoma" xml:space="preserve">
     <value>Tahoma</value>
   </data>
   <data name="RichTextEditor_FontNameTimesNewRoman" xml:space="preserve">
-    <value>Waktu baru roma</value>
+    <value>Times New Roman</value>
   </data>
   <data name="RichTextEditor_FontNameVerdana" xml:space="preserve">
     <value>Verdana</value>
@@ -2413,7 +2533,7 @@
     <value>Masukkan judul</value>
   </data>
   <data name="RichTextEditor_LinkUrl" xml:space="preserve">
-    <value>http://example.com</value>
+    <value>https://example.com</value>
   </data>
   <data name="RichTextEditor_LinkOpenInNewWindow" xml:space="preserve">
     <value>Buka Tautan di Jendela Baru</value>
@@ -2454,8 +2574,35 @@
   <data name="RichTextEditor_Browse" xml:space="preserve">
     <value>Telusuri</value>
   </data>
+  <data name="RichTextEditor_VideoDeviceUploadMessage" xml:space="preserve">
+    <value>Klik di sini untuk mengunggah</value>
+  </data>
+  <data name="RichTextEditor_VideoUploadMessage" xml:space="preserve">
+    <value>Letakkan file video atau jelajahi untuk mengunggah</value>
+  </data>
+  <data name="RichTextEditor_EmbedVideoUploadMessage" xml:space="preserve">
+    <value>Tempel Kode Tertanam di sini</value>
+  </data>
+  <data name="RichTextEditor_WebUrl" xml:space="preserve">
+    <value>URL web</value>
+  </data>
+  <data name="RichTextEditor_EmbedUrl" xml:space="preserve">
+    <value>Kode Tersemat</value>
+  </data>
+  <data name="RichTextEditor_VideoWidth" xml:space="preserve">
+    <value>Lebar</value>
+  </data>
+  <data name="RichTextEditor_VideoHeight" xml:space="preserve">
+    <value>Tinggi</value>
+  </data>
+  <data name="RichTextEditor_AudioDeviceUploadMessage" xml:space="preserve">
+    <value>Klik di sini untuk mengunggah</value>
+  </data>
+  <data name="RichTextEditor_AudioUploadMessage" xml:space="preserve">
+    <value>Letakkan file audio atau jelajahi untuk mengunggah</value>
+  </data>
   <data name="RichTextEditor_ImageUrl" xml:space="preserve">
-    <value>http://example.com/image.png</value>
+    <value>https://example.com/image.png</value>
   </data>
   <data name="RichTextEditor_ImageCaption" xml:space="preserve">
     <value>Keterangan</value>
@@ -2494,16 +2641,16 @@
     <value>Jumlah baris</value>
   </data>
   <data name="RichTextEditor_TableRows" xml:space="preserve">
-    <value>Baris Tabel</value>
+    <value>Baris</value>
   </data>
   <data name="RichTextEditor_TableColumns" xml:space="preserve">
-    <value>Kolom Tabel</value>
+    <value>Colonna</value>
   </data>
   <data name="RichTextEditor_TableCellHorizontalAlign" xml:space="preserve">
     <value>Table Cell Horizontal Align</value>
   </data>
   <data name="RichTextEditor_TableCellVerticalAlign" xml:space="preserve">
-    <value>Table Cell Vertical Align</value>
+    <value>Perataan Vertikal</value>
   </data>
   <data name="RichTextEditor_CreateTable" xml:space="preserve">
     <value>Buat tabel</value>
@@ -2512,10 +2659,10 @@
     <value>Hapus Table</value>
   </data>
   <data name="RichTextEditor_TableHeader" xml:space="preserve">
-    <value>Header Tabel</value>
+    <value>Baris Tajuk</value>
   </data>
   <data name="RichTextEditor_TableRemove" xml:space="preserve">
-    <value>Tabel Hapus</value>
+    <value>Hapus Tabel</value>
   </data>
   <data name="RichTextEditor_TableCellBackground" xml:space="preserve">
     <value>Latar Belakang Sel Meja</value>
@@ -2654,6 +2801,15 @@
   </data>
   <data name="RichTextEditor_Video_Dimension" xml:space="preserve">
     <value>Dimensi</value>
+  </data>
+  <data name="RichTextEditor_Link_AriaLabel" xml:space="preserve">
+    <value>Buka di jendela baru</value>
+  </data>
+  <data name="RichTextEditor_Image_Link_AriaLabel" xml:space="preserve">
+    <value>Buka di jendela baru</value>
+  </data>
+  <data name="RichTextEditor_Img_AltText_Unsupported" xml:space="preserve">
+    <value>Format file tidak didukung</value>
   </data>
   <data name="DiagramComponent_X" xml:space="preserve">
     <value>x</value>
@@ -2922,6 +3078,12 @@
   <data name="Grid_SortDescending" xml:space="preserve">
     <value>Sortir Descending</value>
   </data>
+  <data name="Grid_SortedAscending" xml:space="preserve">
+    <value>Diurutkan dalam urutan menaik</value>
+  </data>
+  <data name="Grid_SortedDescending" xml:space="preserve">
+    <value>Diurutkan dalam urutan menurun</value>
+  </data>
   <data name="Grid_EditRecord" xml:space="preserve">
     <value>Edit Rekam</value>
   </data>
@@ -3062,6 +3224,9 @@
   </data>
   <data name="Grid_FilterValue" xml:space="preserve">
     <value>Nilai Filter</value>
+  </data>
+  <data name="Grid_SelectRowARIA" xml:space="preserve">
+    <value>Pilih baris</value>
   </data>
   <data name="Pager_Page" xml:space="preserve">
     <value>Halaman</value>
@@ -3381,6 +3546,9 @@
   <data name="Schedule_Recurrence" xml:space="preserve">
     <value>Kambuh</value>
   </data>
+  <data name="Schedule_RecurringEvent" xml:space="preserve">
+    <value>Acara Berulang</value>
+  </data>
   <data name="Schedule_Repeat" xml:space="preserve">
     <value>Ulang</value>
   </data>
@@ -3515,6 +3683,9 @@
   </data>
   <data name="PdfViewer_FileCorruptedContent" xml:space="preserve">
     <value>File rusak dan tidak dapat dibuka.</value>
+  </data>
+  <data name="PdfViewer_FitHeight" xml:space="preserve">
+    <value>Cocok Tinggi</value>
   </data>
   <data name="PdfViewer_FitPage" xml:space="preserve">
     <value>Fit Page</value>
@@ -4059,6 +4230,39 @@
   <data name="DocumentEditor_Justify" xml:space="preserve">
     <value>Membenarkan</value>
   </data>
+  <data name="DocumentEditor_OutlineLevel" xml:space="preserve">
+    <value>Tingkat Garis Besar</value>
+  </data>
+  <data name="DocumentEditor_BodyText" xml:space="preserve">
+    <value>Teks Tubuh</value>
+  </data>
+  <data name="DocumentEditor_Level1" xml:space="preserve">
+    <value>Tingkat 1</value>
+  </data>
+  <data name="DocumentEditor_Level2" xml:space="preserve">
+    <value>Level 2</value>
+  </data>
+  <data name="DocumentEditor_Level3" xml:space="preserve">
+    <value>Tingkat 3</value>
+  </data>
+  <data name="DocumentEditor_Level4" xml:space="preserve">
+    <value>tingkat 4</value>
+  </data>
+  <data name="DocumentEditor_Level5" xml:space="preserve">
+    <value>tingkat 5</value>
+  </data>
+  <data name="DocumentEditor_Level6" xml:space="preserve">
+    <value>tingkat 6</value>
+  </data>
+  <data name="DocumentEditor_Level7" xml:space="preserve">
+    <value>tingkat 7</value>
+  </data>
+  <data name="DocumentEditor_Level8" xml:space="preserve">
+    <value>tingkat 8</value>
+  </data>
+  <data name="DocumentEditor_Level9" xml:space="preserve">
+    <value>tingkat 9</value>
+  </data>
   <data name="DocumentEditor_IndentFromLeft" xml:space="preserve">
     <value>Lekuk dari kiri</value>
   </data>
@@ -4241,6 +4445,15 @@
   </data>
   <data name="DocumentEditor_Heading6" xml:space="preserve">
     <value>Tajuk 6</value>
+  </data>
+  <data name="DocumentEditor_Heading7" xml:space="preserve">
+    <value>Tajuk 7</value>
+  </data>
+  <data name="DocumentEditor_Heading8" xml:space="preserve">
+    <value>Tajuk 8</value>
+  </data>
+  <data name="DocumentEditor_Heading9" xml:space="preserve">
+    <value>Tajuk 9</value>
   </data>
   <data name="DocumentEditor_ListParagraph" xml:space="preserve">
     <value>Daftar Paragraf</value>
@@ -4559,6 +4772,9 @@
   </data>
   <data name="DocumentEditor_Find" xml:space="preserve">
     <value>Temukan</value>
+  </data>
+  <data name="DocumentEditor_Headings" xml:space="preserve">
+    <value>Judul</value>
   </data>
   <data name="DocumentEditor_NoMatches" xml:space="preserve">
     <value>Tidak ada yang cocok</value>
@@ -5286,6 +5502,9 @@
   <data name="DocumentEditorContainer_Find" xml:space="preserve">
     <value>Temukan</value>
   </data>
+  <data name="DocumentEditorContainer_Headings" xml:space="preserve">
+    <value>Judul</value>
+  </data>
   <data name="DocumentEditorContainer_LocalClipboard" xml:space="preserve">
     <value>Papan Klip Lokal</value>
   </data>
@@ -5754,6 +5973,24 @@
   <data name="DocumentEditorContainer_Ok" xml:space="preserve">
     <value>OKE</value>
   </data>
+  <data name="DocumentEditorContainer_Changecase" xml:space="preserve">
+    <value>Ubah kasus</value>
+</data>
+<data name="DocumentEditorContainer_Uppercase" xml:space="preserve">
+    <value>HURUF BESAR</value>
+</data>
+<data name="DocumentEditorContainer_Lowercase" xml:space="preserve">
+     <value>Huruf kecil</value>
+</data>
+<data name="DocumentEditorContainer_SentenceCase" xml:space="preserve">
+     <value>Kasus kalimat</value>
+</data>
+<data name="DocumentEditorContainer_CapitalizeEachWord" xml:space="preserve">
+     <value>Gunakan huruf besar untuk Setiap Kata</value>
+</data>
+<data name="DocumentEditorContainer_ToggleCase" xml:space="preserve">
+     <value>Alihkan kasus</value>
+</data>
   <data name="Gantt_Touch_DialogTextOnClickingConnectorPoint" xml:space="preserve">
     <value>Pilih tugas lain</value>
   </data>
@@ -5873,5 +6110,149 @@
   </data>
   <data name="DocumentEditor_And" xml:space="preserve">
     <value>dan</value>
+  </data>
+  <data name="DocumentEditor_Title" xml:space="preserve">
+    <value>Judul</value>
+  </data>
+  <data name="DocumentEditor_Description" xml:space="preserve">
+    <value>Keterangan</value>
+  </data>
+  <data name="DocumentEditor_AltText" xml:space="preserve">
+    <value>Teks Alt</value>
+  </data>
+  <data name="ImageEditor_UnSupportedDialogOkContent" xml:space="preserve">
+    <value>baik</value>
+  </data>
+  <data name="ImageEditor_UnSupportedDialogHeaderContent" xml:space="preserve">
+    <value>Berkas tidak didukung</value>
+  </data>
+  <data name="ImageEditor_UnSupportedDialogContent" xml:space="preserve">
+    <value>File yang dijatuhkan tidak didukung.</value>
+  </data>
+  <data name="ImageEditor_DropText" xml:space="preserve">
+    <value>Letakkan gambar Anda di sini atau</value>
+  </data>
+   <data name="DocumentEditorContainer_TabStopPosition" xml:space="preserve">
+<value>Posisi tab berhenti</value>
+</data>
+<data name="DocumentEditorContainer_DefaultTabStops" xml:space="preserve">
+<value>Perhentian tab default</value>
+</data>
+<data name="DocumentEditorContainer_TabStopsCleared" xml:space="preserve">
+<value>Tab berhenti untuk dibersihkan</value>
+</data>
+<data name="DocumentEditorContainer_Tabs" xml:space="preserve">
+<value>tab</value>
+</data>
+<data name="DocumentEditor_Set" xml:space="preserve">
+<value>Mengatur</value>
+</data>
+<data name="DocumentEditor_Clear" xml:space="preserve">
+<value>Jernih</value>
+</data>
+<data name="DocumentEditor_ClearAll" xml:space="preserve">
+<value>Bersihkan semua</value>
+</data>
+<data name="DocumentEditor_Decimal" xml:space="preserve">
+<value>Desimal</value>
+</data>
+<data name="DocumentEditor_Bar" xml:space="preserve">
+<value>Batang</value>
+</data>
+<data name="DocumentEditorContainer_Alignment" xml:space="preserve">
+<value>Penyelarasan</value>
+</data>
+<data name="DocumentEditorContainer_Leader" xml:space="preserve">
+<value>Pemimpin</value>
+</data>
+<data name="DocumentEditorContainer_All" xml:space="preserve">
+<value>Semua</value>
+</data>
+<data name="DocumentEditor_BottomMargin" xml:space="preserve">
+<value>Margin Bawah</value>
+</data>
+<data name="DocumentEditor_FirstLineIndent" xml:space="preserve">
+<value>Indentasi Baris Pertama</value>
+</data>
+<data name="DocumentEditor_HangingIndent" xml:space="preserve">
+<value>Indentasi Gantung</value>
+</data>
+<data name="DocumentEditor_LeftIndent" xml:space="preserve">
+<value>Indentasi Kiri</value>
+</data>
+<data name="DocumentEditor_LeftMargin" xml:space="preserve">
+<value>Margin Kiri</value>
+</data>
+<data name="DocumentEditor_MoveTableColumn" xml:space="preserve">
+<value>Pindahkan Kolom Tabel</value>
+</data>
+<data name="DocumentEditor_RightIndent" xml:space="preserve">
+<value>Indentasi Kanan</value>
+</data>
+<data name="DocumentEditor_RightMargin" xml:space="preserve">
+<value>Margin Kanan</value>
+</data>
+<data name="DocumentEditor_TopMargin" xml:space="preserve">
+<value>Batas atas</value>
+</data>
+<data name="DocumentEditor_LeftTab" xml:space="preserve">
+<value>Tab Kiri</value>
+</data>
+<data name="DocumentEditor_CenterTab" xml:space="preserve">
+<value>Tab Tengah</value>
+</data>
+<data name="DocumentEditor_RightTab" xml:space="preserve">
+<value>Tab Kanan</value>
+</data>
+<data name="DocumentEditor_DecimalTab" xml:space="preserve">
+<value>Tab Desimal</value>
+</data>
+<data name="DocumentEditor_BarTab" xml:space="preserve">
+<value>Tab Batang</value>
+</data>
+  <data name="ImageEditor_OkBtnTooltip" xml:space="preserve">
+    <value>Menerapkan</value>
+  </data>
+  <data name="ImageEditor_Annotation" xml:space="preserve">
+    <value>Anotasi</value>
+  </data>
+  <data name="ImageEditor_CancelBtnTooltip" xml:space="preserve">
+    <value>Membuang</value>
+  </data>
+  <data name="QueryBuilder_Null" xml:space="preserve">
+    <value>Apakah Null</value>
+  </data>
+  <data name="QueryBuilder_NotNull" xml:space="preserve">
+    <value>Bukan Null</value>
+  </data>
+  <data name="ImageEditor_StraightenTooltip" xml:space="preserve">
+    <value>Meluruskan</value>
+  </data>
+  <data name="PivotView_Combined" xml:space="preserve">
+    <value>Gabungan</value>
+  </data>
+  <data name="QueryBuilder_NotStartsWith" xml:space="preserve">
+    <value>Tidak Dimulai Dengan</value>
+  </data>
+  <data name="QueryBuilder_NotEndsWith" xml:space="preserve">
+    <value>Tidak Berakhir Dengan</value>
+  </data>
+  <data name="QueryBuilder_LockGroup" xml:space="preserve">
+    <value>Grup Kunci</value>
+  </data>
+  <data name="QueryBuilder_UnlockGroup" xml:space="preserve">
+    <value>Buka Kunci Grup</value>
+  </data>
+  <data name="QueryBuilder_LockRule" xml:space="preserve">
+    <value>Aturan Kunci</value>
+  </data>
+  <data name="QueryBuilder_UnlockRule" xml:space="preserve">
+    <value>Buka Aturan</value>
+  </data>
+  <data name="QueryBuilder_CloneGroup" xml:space="preserve">
+    <value>Grup Klon</value>
+  </data>
+  <data name="QueryBuilder_CloneRule" xml:space="preserve">
+    <value>Aturan Klon</value>
   </data>
 </root>
