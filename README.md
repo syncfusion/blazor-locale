@@ -1,4 +1,4 @@
-# Localization 
+# Localization  
 
 Localization (L10N) is the process of adapting application components and content to the desired language with its corresponding region. This page shows you how to use the Localization feature in your application.
 
