@@ -195,6 +195,18 @@
   <data name="DropDownList_NoRecordsTemplate" xml:space="preserve">
     <value>записей не найдено</value>
   </data>
+  <data name="DropDownTree_NoRecords" xml:space="preserve">
+    <value>записей не найдено</value>
+  </data>
+  <data name="DropDownTree_RequestFailed" xml:space="preserve">
+    <value>Запрос не выполнен</value>
+  </data>
+  <data name="DropDownTree_SelectAll" xml:space="preserve">
+    <value>Выбрать все</value>
+  </data>
+  <data name="DropDownTree_UnSelectAll" xml:space="preserve">
+    <value>Снять все</value>
+  </data>
   <data name="Mention_NoRecordsTemplate" xml:space="preserve">
     <value>записей не найдено</value>
   </data>
@@ -591,6 +603,9 @@
   <data name="Slider_IncrementTitle" xml:space="preserve">
     <value>Увеличение</value>
   </data>
+  <data name="Stepper_Optional" xml:space="preserve">
+    <value>Необязательный</value>
+  </data>
   <data name="Maps_ImageNotFound" xml:space="preserve">
     <value>Изображение не найдено</value>
   </data>
@@ -705,6 +720,12 @@
   <data name="Gantt_Finish" xml:space="preserve">
     <value>Конец</value>
   </data>
+  <data name="Gantt_FS" xml:space="preserve">
+    <value>KH</value>
+  </data>
+  <data name="Gantt_FF" xml:space="preserve">
+    <value>KK</value>
+  </data>
   <data name="Gantt_From" xml:space="preserve">
     <value>Из</value>
   </data>
@@ -776,6 +797,12 @@
   </data>
   <data name="Gantt_Start" xml:space="preserve">
     <value>Начало</value>
+  </data>
+  <data name="Gantt_SS" xml:space="preserve">
+    <value>HH</value>
+  </data>
+  <data name="Gantt_SF" xml:space="preserve">
+    <value>HK</value>
   </data>
   <data name="Gantt_StartDate" xml:space="preserve">
     <value>Дата начала</value>
@@ -899,6 +926,18 @@
   </data>
   <data name="Gantt_CriticalPath" xml:space="preserve">
     <value>Критический путь</value>
+  </data>
+  <data name="Gantt_Segment" xml:space="preserve">
+    <value>Сегменты</value>
+  </data>
+  <data name="Gantt_SplitTask" xml:space="preserve">
+    <value>Разделить задачу</value>
+  </data>
+  <data name="Gantt_MergeTask" xml:space="preserve">
+    <value>объединить задачу</value>
+  </data>
+  <data name="Gantt_UnassignedTasks" xml:space="preserve">
+    <value>Неназначенные задачи</value>
   </data>
   <data name="ColorPicker_Apply" xml:space="preserve">
     <value>Подать заявление</value>
@@ -1755,6 +1794,9 @@
   <data name="PivotView_Top" xml:space="preserve">
     <value>Вершина</value>
   </data>
+  <data name="PivotView_ApplyToGrandTotal" xml:space="preserve">
+    <value>Применить к общему итогу</value>
+  </data>
   <data name="QueryBuilder_AddCondition" xml:space="preserve">
     <value>Добавить условие</value>
   </data>
@@ -1955,12 +1997,6 @@
   </data>
   <data name="ImageEditor_FillColorTooltip" xml:space="preserve">
     <value>Цвет заливки</value>
-  </data>
-  <data name="ImageEditor_OkBtnTooltip" xml:space="preserve">
-    <value>Ok</value>
-  </data>
-  <data name="ImageEditor_CancelBtnTooltip" xml:space="preserve">
-    <value>Отмена</value>
   </data>
   <data name="ImageEditor_ResetBtnTooltip" xml:space="preserve">
     <value>Сброс настроек</value>
@@ -2322,26 +2358,35 @@
   <data name="RichTextEditor_FormatsDropDownHeading6" xml:space="preserve">
     <value>Заголовок   6</value>
   </data>
+  <data name="RichTextEditor_FormatsDropDownHeading7" xml:space="preserve">
+    <value>Заголовок   7</value>
+  </data>
+  <data name="RichTextEditor_FormatsDropDownHeading8" xml:space="preserve">
+    <value>Заголовок   8</value>
+  </data>
+  <data name="RichTextEditor_FormatsDropDownHeading9" xml:space="preserve">
+    <value>Заголовок   9</value>
+  </data>
   <data name="RichTextEditor_FontNameSegoeUI" xml:space="preserve">
-    <value>Сегоэ Оторхин</value>
+    <value>Segoe UI</value>
   </data>
   <data name="RichTextEditor_FontNameArial" xml:space="preserve">
     <value>Arial</value>
   </data>
   <data name="RichTextEditor_FontNameGeorgia" xml:space="preserve">
-    <value>Грузия</value>
+    <value>Georgia</value>
   </data>
   <data name="RichTextEditor_FontNameImpact" xml:space="preserve">
-    <value>Влияние</value>
+    <value>Impact</value>
   </data>
   <data name="RichTextEditor_FontNameTahoma" xml:space="preserve">
-    <value>Тахома</value>
+    <value>Tahoma</value>
   </data>
   <data name="RichTextEditor_FontNameTimesNewRoman" xml:space="preserve">
-    <value>Раз новый Роман</value>
+    <value>Times New Roman</value>
   </data>
   <data name="RichTextEditor_FontNameVerdana" xml:space="preserve">
-    <value>Вердана</value>
+    <value>Verdana</value>
   </data>
   <data name="RichTextEditor_Alignments" xml:space="preserve">
     <value>Трассы</value>
@@ -2506,7 +2551,7 @@
     <value>Введите название</value>
   </data>
   <data name="RichTextEditor_LinkUrl" xml:space="preserve">
-    <value>http://example.com</value>
+    <value>https://example.com</value>
   </data>
   <data name="RichTextEditor_LinkOpenInNewWindow" xml:space="preserve">
     <value>Открыть ссылку в новом окне</value>
@@ -2575,10 +2620,10 @@
     <value>Перетащите аудиофайл или выберите папку для загрузки.</value>
   </data>
   <data name="RichTextEditor_ImageUrl" xml:space="preserve">
-    <value>http://example.com/image.png</value>
+    <value>https://example.com/image.png</value>
   </data>
   <data name="RichTextEditor_ImageCaption" xml:space="preserve">
-    <value>титр</value>
+    <value>Подпись</value>
   </data>
   <data name="RichTextEditor_ImageSizeHeader" xml:space="preserve">
     <value>Размер изображения</value>
@@ -2614,16 +2659,16 @@
     <value>Количество рядов</value>
   </data>
   <data name="RichTextEditor_TableRows" xml:space="preserve">
-    <value>Строки таблицы</value>
+    <value>Ряд</value>
   </data>
   <data name="RichTextEditor_TableColumns" xml:space="preserve">
-    <value>Столбцы таблицы</value>
+    <value>Столбец</value>
   </data>
   <data name="RichTextEditor_TableCellHorizontalAlign" xml:space="preserve">
     <value>Горизонтальное выравнивание ячейки таблицы</value>
   </data>
   <data name="RichTextEditor_TableCellVerticalAlign" xml:space="preserve">
-    <value>Ячейка таблицы по вертикали</value>
+    <value>Вертикальное выравнивание</value>
   </data>
   <data name="RichTextEditor_CreateTable" xml:space="preserve">
     <value>Создать таблицу</value>
@@ -2632,10 +2677,10 @@
     <value>Удалить таблицу</value>
   </data>
   <data name="RichTextEditor_TableHeader" xml:space="preserve">
-    <value>Заголовок таблицы</value>
+    <value>Заголовок строки</value>
   </data>
   <data name="RichTextEditor_TableRemove" xml:space="preserve">
-    <value>Стол Удалить</value>
+    <value>Удалить таблицу</value>
   </data>
   <data name="RichTextEditor_TableCellBackground" xml:space="preserve">
     <value>Фон ячейки таблицы</value>
@@ -2774,6 +2819,15 @@
   </data>
   <data name="RichTextEditor_Video_Dimension" xml:space="preserve">
     <value>Измерение</value>
+  </data>
+  <data name="RichTextEditor_Link_AriaLabel" xml:space="preserve">
+    <value>Открыть в новом окне</value>
+  </data>
+  <data name="RichTextEditor_Image_Link_AriaLabel" xml:space="preserve">
+    <value>Открыть в новом окне</value>
+  </data>
+  <data name="RichTextEditor_Img_AltText_Unsupported" xml:space="preserve">
+    <value>Неподдерживаемый формат файла</value>
   </data>
   <data name="DiagramComponent_X" xml:space="preserve">
     <value>Икс</value>
@@ -2946,6 +3000,21 @@
   <data name="Grid_ClearButton" xml:space="preserve">
     <value>ясно</value>
   </data>
+  <data name="Grid_IsNull" xml:space="preserve">
+    <value>Нулевой</value>
+  </data>
+  <data name="Grid_IsNotNull" xml:space="preserve">
+    <value>Не ноль</value>
+  </data>
+  <data name="Grid_IsEmpty" xml:space="preserve">
+    <value>пустой</value>
+  </data>
+  <data name="Grid_IsNotEmpty" xml:space="preserve">
+    <value>Не пусто</value>
+  </data>
+  <data name="Grid_Like" xml:space="preserve">
+    <value>Нравиться</value>
+  </data>
   <data name="Grid_StartsWith" xml:space="preserve">
     <value>Начинается с</value>
   </data>
@@ -2954,6 +3023,15 @@
   </data>
   <data name="Grid_Contains" xml:space="preserve">
     <value>Содержит</value>
+  </data>
+  <data name="Grid_DoesNotStartWith" xml:space="preserve">
+    <value>Не начинается с</value>
+  </data>
+  <data name="Grid_DoesNotEndWith" xml:space="preserve">
+    <value>Не заканчивается</value>
+  </data>
+  <data name="Grid_DoesNotContain" xml:space="preserve">
+    <value>Не содержит</value>
   </data>
   <data name="Grid_Equal" xml:space="preserve">
     <value>равных</value>
@@ -3015,6 +3093,12 @@
   <data name="Grid_SortDescending" xml:space="preserve">
     <value>Сортировать по убыванию</value>
   </data>
+  <data name="Grid_SortedAscending" xml:space="preserve">
+    <value>Отсортировано по возрастанию</value>
+  </data>
+  <data name="Grid_SortedDescending" xml:space="preserve">
+    <value>Отсортировано по убыванию</value>
+  </data>
   <data name="Grid_EditRecord" xml:space="preserve">
     <value>Редактировать запись</value>
   </data>
@@ -3026,6 +3110,9 @@
   </data>
   <data name="Grid_SelectAll" xml:space="preserve">
     <value>Выбрать все</value>
+  </data>
+  <data name="Grid_AddCurrentSelection" xml:space="preserve">
+    <value>Добавить текущий выбор в фильтр</value>
   </data>
   <data name="Grid_Blanks" xml:space="preserve">
     <value>Пробелы</value>
@@ -3149,6 +3236,9 @@
   </data>
   <data name="Grid_FilterValue" xml:space="preserve">
     <value>Значение фильтра</value>
+  </data>
+  <data name="Grid_SelectRowARIA" xml:space="preserve">
+    <value>Выберите строку</value>
   </data>
   <data name="Pager_Page" xml:space="preserve">
     <value>страница</value>
@@ -3438,6 +3528,9 @@
   <data name="Schedule_MoreDetails" xml:space="preserve">
     <value>Подробнее</value>
   </data>
+  <data name="Schedule_MoreEvents" xml:space="preserve">
+    <value>Больше событий</value>
+  </data>
   <data name="Schedule_NewEvent" xml:space="preserve">
     <value>Новое событие</value>
   </data>
@@ -3606,8 +3699,11 @@
   <data name="PdfViewer_FileCorruptedContent" xml:space="preserve">
     <value>Файл поврежден и не может быть открыт.</value>
   </data>
+  <data name="PdfViewer_FitHeight" xml:space="preserve">
+    <value>Подходит по высоте</value>
+  </data>
   <data name="PdfViewer_FitPage" xml:space="preserve">
-    <value>Fit Page</value>
+    <value>Подогнать страницу</value>
   </data>
   <data name="PdfViewer_FitWidth" xml:space="preserve">
     <value>Подходит ширина</value>
@@ -3684,11 +3780,17 @@
   <data name="PdfViewer_GoToPage" xml:space="preserve">
     <value>Перейти на страницу</value>
   </data>
-  <data name="PdfViewer_Nomatches" xml:space="preserve">
-    <value>Зритель завершил поиск документа. Больше совпадений не найдено</value>
+   <data name="PdfViewer_NoMatches" xml:space="preserve">
+   <value>Зритель завершил поиск документа. Совпадений не найдено.</value>
   </data>
-  <data name="PdfViewer_NoTextFound" xml:space="preserve">
-    <value>Текст не найден</value>
+  <data name="PdfViewer_NoMoreMatches" xml:space="preserve">
+   <value>Зритель завершил поиск документа. Больше совпадений не найдено.</value>
+  </data>
+  <data name="PdfViewer_NoSearchMatches" xml:space="preserve">
+   <value>Совпадений не найдено</value>
+  </data>
+  <data name="PdfViewer_NoMoreSearchMatches" xml:space="preserve">
+   <value>Больше совпадений не найдено</value>
   </data>
   <data name="PdfViewer_Undo" xml:space="preserve">
     <value>Отменить</value>
@@ -3734,6 +3836,9 @@
   </data>
   <data name="PdfViewer_Clienterror" xml:space="preserve">
     <value>Обнаружена ошибка на стороне клиента. Проверьте пользовательские заголовки, предоставленные в свойстве AjaxRequestSettings, и методы веб-действий в свойстве ServerActionSettings.</value>
+  </data>
+  <data name="PdfViewer_Corspolicyerror" xml:space="preserve">
+    <value>Доступ к документу ограничен политикой CORS. Пожалуйста, проверьте документ.</value>
   </data>
   <data name="PdfViewer_OpenText" xml:space="preserve">
     <value>открыто</value>
@@ -4149,6 +4254,39 @@
   <data name="DocumentEditor_Justify" xml:space="preserve">
     <value>обосновывать</value>
   </data>
+  <data name="DocumentEditor_OutlineLevel" xml:space="preserve">
+    <value>Уровень структуры</value>
+  </data>
+  <data name="DocumentEditor_BodyText" xml:space="preserve">
+    <value>Основной текст</value>
+  </data>
+  <data name="DocumentEditor_Level1" xml:space="preserve">
+    <value>1-й уровень</value>
+  </data>
+  <data name="DocumentEditor_Level2" xml:space="preserve">
+    <value>Уровень 2</value>
+  </data>
+  <data name="DocumentEditor_Level3" xml:space="preserve">
+    <value>Уровень 3</value>
+  </data>
+  <data name="DocumentEditor_Level4" xml:space="preserve">
+    <value>Уровень 4</value>
+  </data>
+  <data name="DocumentEditor_Level5" xml:space="preserve">
+    <value>Уровень 5</value>
+  </data>
+  <data name="DocumentEditor_Level6" xml:space="preserve">
+    <value>Уровень 6</value>
+  </data>
+  <data name="DocumentEditor_Level7" xml:space="preserve">
+    <value>Уровень 7</value>
+  </data>
+  <data name="DocumentEditor_Level8" xml:space="preserve">
+    <value>Уровень 8</value>
+  </data>
+  <data name="DocumentEditor_Level9" xml:space="preserve">
+    <value>Уровень 9</value>
+  </data>
   <data name="DocumentEditor_IndentFromLeft" xml:space="preserve">
     <value>Отступ слева</value>
   </data>
@@ -4331,6 +4469,15 @@
   </data>
   <data name="DocumentEditor_Heading6" xml:space="preserve">
     <value>Заголовок 6</value>
+  </data>
+  <data name="DocumentEditor_Heading7" xml:space="preserve">
+    <value>Заголовок 7</value>
+  </data>
+  <data name="DocumentEditor_Heading8" xml:space="preserve">
+    <value>Заголовок 8</value>
+  </data>
+  <data name="DocumentEditor_Heading9" xml:space="preserve">
+    <value>Заголовок 9</value>
   </data>
   <data name="DocumentEditor_ListParagraph" xml:space="preserve">
     <value>Список Абзац</value>
@@ -4649,6 +4796,9 @@
   </data>
   <data name="DocumentEditor_Find" xml:space="preserve">
     <value>найти</value>
+  </data>
+  <data name="DocumentEditor_Headings" xml:space="preserve">
+    <value>Заголовки</value>
   </data>
   <data name="DocumentEditor_NoMatches" xml:space="preserve">
     <value>Нет совпадений</value>
@@ -5376,6 +5526,9 @@
   <data name="DocumentEditorContainer_Find" xml:space="preserve">
     <value>найти</value>
   </data>
+  <data name="DocumentEditorContainer_Headings" xml:space="preserve">
+    <value>Заголовки</value>
+  </data>
   <data name="DocumentEditorContainer_LocalClipboard" xml:space="preserve">
     <value>Локальный буфер обмена</value>
   </data>
@@ -5847,6 +6000,24 @@
   <data name="DocumentEditorContainer_Ok" xml:space="preserve">
     <value>ХОРОШО</value>
   </data>
+  <data name="DocumentEditorContainer_Changecase" xml:space="preserve">
+    <value>Изменить регистр</value>
+</data>
+<data name="DocumentEditorContainer_Uppercase" xml:space="preserve">
+    <value>ВЕРХНИЙ РЕГИСТР</value>
+</data>
+<data name="DocumentEditorContainer_Lowercase" xml:space="preserve">
+    <value>строчные буквы</value>
+</data>
+<data name="DocumentEditorContainer_SentenceCase" xml:space="preserve">
+    <value>Случай предложения</value>
+</data>
+<data name="DocumentEditorContainer_CapitalizeEachWord" xml:space="preserve">
+    <value>Напишите каждое слово с заглавной буквы</value>
+</data>
+<data name="DocumentEditorContainer_ToggleCase" xml:space="preserve">
+    <value>Переключить регистр</value>
+</data> 
   <data name="Gantt_Touch_DialogTextOnClickingConnectorPoint" xml:space="preserve">
     <value>Выберите другую задачу</value>
   </data>
@@ -5993,5 +6164,197 @@
   </data>
   <data name="ImageEditor_DropText" xml:space="preserve">
     <value>Скиньте свое изображение сюда или</value>
+  </data>
+  <data name="DocumentEditorContainer_TabStopPosition" xml:space="preserve">
+<value>Позиция табуляции</value>
+</data>
+<data name="DocumentEditorContainer_DefaultTabStops" xml:space="preserve">
+<value>Позиции табуляции по умолчанию</value>
+</data>
+<data name="DocumentEditorContainer_TabStopsCleared" xml:space="preserve">
+<value>Позиции табуляции должны быть удалены</value>
+</data>
+<data name="DocumentEditorContainer_Tabs" xml:space="preserve">
+<value>Вкладки</value>
+</data>
+<data name="DocumentEditor_Set" xml:space="preserve">
+<value>Набор</value>
+</data>
+<data name="DocumentEditor_Clear" xml:space="preserve">
+<value>Прозрачный</value>
+</data>
+<data name="DocumentEditor_ClearAll" xml:space="preserve">
+<value>Очистить все</value>
+</data>
+<data name="DocumentEditor_Decimal" xml:space="preserve">
+<value>Десятичная дробь</value>
+</data>
+<data name="DocumentEditor_Bar" xml:space="preserve">
+<value>Бар</value>
+</data>
+<data name="DocumentEditorContainer_Alignment" xml:space="preserve">
+<value>Выравнивание</value>
+</data>
+<data name="DocumentEditorContainer_Leader" xml:space="preserve">
+<value>Лидер</value>
+</data>
+<data name="DocumentEditorContainer_All" xml:space="preserve">
+<value>Все</value>
+</data>
+<data name="DocumentEditor_BottomMargin" xml:space="preserve">
+<value>Нижнее поле</value>
+</data>
+<data name="DocumentEditor_FirstLineIndent" xml:space="preserve">
+<value>Отступ первой строки</value>
+</data>
+<data name="DocumentEditor_HangingIndent" xml:space="preserve">
+<value>Висячий отступ</value>
+</data>
+<data name="DocumentEditor_LeftIndent" xml:space="preserve">
+<value>Отступ слева</value>
+</data>
+<data name="DocumentEditor_LeftMargin" xml:space="preserve">
+<value>Левое поле</value>
+</data>
+<data name="DocumentEditor_MoveTableColumn" xml:space="preserve">
+<value>Переместить столбец таблицы</value>
+</data>
+<data name="DocumentEditor_RightIndent" xml:space="preserve">
+<value>Правый отступ</value>
+</data>
+<data name="DocumentEditor_RightMargin" xml:space="preserve">
+<value>Правое поле</value>
+</data>
+<data name="DocumentEditor_TopMargin" xml:space="preserve">
+<value>Верхнее поле</value>
+</data>
+<data name="DocumentEditor_LeftTab" xml:space="preserve">
+<value>Левая вкладка</value>
+</data>
+<data name="DocumentEditor_CenterTab" xml:space="preserve">
+<value>Центральная вкладка</value>
+</data>
+<data name="DocumentEditor_RightTab" xml:space="preserve">
+<value>Правая вкладка</value>
+</data>
+<data name="DocumentEditor_DecimalTab" xml:space="preserve">
+<value>Десятичная вкладка</value>
+</data>
+<data name="DocumentEditor_BarTab" xml:space="preserve">
+<value>Барная вкладка</value>
+</data>
+  <data name="ImageEditor_OkBtnTooltip" xml:space="preserve">
+    <value>Подать заявление</value>
+  </data>
+  <data name="ImageEditor_Annotation" xml:space="preserve">
+    <value>Заметка</value>
+  </data>
+  <data name="ImageEditor_CancelBtnTooltip" xml:space="preserve">
+    <value>Отказаться</value>
+  </data>
+  <data name="QueryBuilder_Null" xml:space="preserve">
+    <value>Нулевой</value>
+  </data>
+  <data name="QueryBuilder_NotNull" xml:space="preserve">
+    <value>Не является нулевым</value>
+  </data>
+  <data name="ImageEditor_StraightenTooltip" xml:space="preserve">
+    <value>Выпрямить</value>
+  </data>
+  <data name="PivotView_Combined" xml:space="preserve">
+    <value>Комбинированный</value>
+  </data>
+  <data name="QueryBuilder_NotStartsWith" xml:space="preserve">
+    <value>Не начинается с</value>
+  </data>
+  <data name="QueryBuilder_NotEndsWith" xml:space="preserve">
+    <value>Не заканчивается</value>
+  </data>
+  <data name="QueryBuilder_LockGroup" xml:space="preserve">
+    <value>Блокировка группы</value>
+  </data>
+  <data name="QueryBuilder_UnlockGroup" xml:space="preserve">
+    <value>Разблокировать группу</value>
+  </data>
+  <data name="QueryBuilder_LockRule" xml:space="preserve">
+    <value>Правило блокировки</value>
+  </data>
+  <data name="QueryBuilder_UnlockRule" xml:space="preserve">
+    <value>Разблокировать правило</value>
+  </data>
+  <data name="QueryBuilder_CloneGroup" xml:space="preserve">
+    <value>Группа клонов</value>
+  </data>
+  <data name="QueryBuilder_CloneRule" xml:space="preserve">
+    <value>Правило клонирования</value>
+  </data>
+  <data name="ImageEditor_SaveDialogHeader" xml:space="preserve">
+    <value>Сохранить как</value>
+  </data>
+  <data name="ImageEditor_SaveDialogClose" xml:space="preserve">
+    <value>близко</value>
+  </data>
+  <data name="ImageEditor_SaveDialogDownload" xml:space="preserve">
+    <value>Скачать</value>
+  </data>
+  <data name="ImageEditor_SaveImageSize" xml:space="preserve">
+    <value>Размер изображения:</value>
+  </data>
+  <data name="ImageEditor_SaveCustomBtnTooltip" xml:space="preserve">
+    <value>изготовленный на заказ</value>
+  </data>
+  <data name="ImageEditor_SaveImageQualityGood" xml:space="preserve">
+    <value>Хороший</value>
+  </data>
+  <data name="ImageEditor_SaveImageQualityGreat" xml:space="preserve">
+    <value>Большой</value>
+  </data>
+  <data name="ImageEditor_SaveImageQualityHighest" xml:space="preserve">
+    <value>Наибольший</value>
+  </data>
+  <data name="ImageEditor_SaveDialogImageQuality" xml:space="preserve">
+    <value>Качество</value>
+  </data>
+  <data name="ImageEditor_SaveInfoTooltip" xml:space="preserve">
+    <value>Параметр качества изображения доступен только для формата JPEG.</value>
+  </data>
+  <data name="ImageEditor_SaveDialogImageName" xml:space="preserve">
+    <value>Имя изображения</value>
+  </data>
+  <data name="ImageEditor_SaveDialogImageFormat" xml:space="preserve">
+    <value>Формат</value>
+  </data>
+  <data name="ImageEditor_ZOrderTooltip" xml:space="preserve">
+    <value>Z-порядок</value>
+  </data>
+  <data name="ImageEditor_BringToFront" xml:space="preserve">
+    <value>На передний план</value>
+  </data>
+  <data name="ImageEditor_BringForward" xml:space="preserve">
+    <value>Продвигать вперед</value>
+  </data>
+  <data name="ImageEditor_SendToBack" xml:space="preserve">
+    <value>Отправить Вернуться</value>
+  </data>
+  <data name="ImageEditor_SendBackward" xml:space="preserve">
+    <value>Отправить назад</value>
+  </data>
+  <data name="ImageEditor_OutlineColor" xml:space="preserve">
+    <value>Цвет контура</value>
+  </data>
+  <data name="ImageEditor_RectRadius" xml:space="preserve">
+    <value>Редактировать</value>
+  </data>
+  <data name="ImageEditor_Pixelate" xml:space="preserve">
+    <value>Пикселировать</value>
+  </data>
+  <data name="ImageEditor_Pixel_Size" xml:space="preserve">
+    <value>Размер пикселя</value>
+  </data>
+  <data name="ColorPicker_RecentColors" xml:space="preserve">
+    <value>Последние цвета</value>
+  </data>
+  <data name="AIAssistView_StopResponseText" xml:space="preserve">
+    <value>Перестаньте отвечать</value>
   </data>
 </root>

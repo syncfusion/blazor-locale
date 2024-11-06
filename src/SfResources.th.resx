@@ -195,6 +195,18 @@
   <data name="DropDownList_NoRecordsTemplate" xml:space="preserve">
     <value>ไม่พบบันทึก</value>
   </data>
+  <data name="DropDownTree_NoRecords" xml:space="preserve">
+    <value>ไม่พบบันทึก</value>
+  </data>
+  <data name="DropDownTree_RequestFailed" xml:space="preserve">
+    <value>คำขอล้มเหลว</value>
+  </data>
+  <data name="DropDownTree_SelectAll" xml:space="preserve">
+    <value>เลือกทั้งหมด</value>
+  </data>
+  <data name="DropDownTree_UnSelectAll" xml:space="preserve">
+    <value>ไม่เลือกทั้งหมด</value>
+  </data>
   <data name="Mention_NoRecordsTemplate" xml:space="preserve">
     <value>ไม่พบบันทึก</value>
   </data>
@@ -591,6 +603,9 @@
   <data name="Slider_IncrementTitle" xml:space="preserve">
     <value>เพิ่มขึ้น</value>
   </data>
+  <data name="Stepper_Optional" xml:space="preserve">
+    <value>ไม่จำเป็น</value>
+  </data>
   <data name="Maps_ImageNotFound" xml:space="preserve">
     <value>ไม่พบภาพ</value>
   </data>
@@ -705,6 +720,12 @@
   <data name="Gantt_Finish" xml:space="preserve">
     <value>เสร็จสิ้น</value>
   </data>
+  <data name="Gantt_FS" xml:space="preserve">
+    <value>เสร็จสิ้น เริ่ม</value>
+  </data>
+  <data name="Gantt_FF" xml:space="preserve">
+    <value>เสร็จสิ้น เสร็จสิ้น</value>
+  </data>
   <data name="Gantt_From" xml:space="preserve">
     <value>จาก</value>
   </data>
@@ -776,6 +797,12 @@
   </data>
   <data name="Gantt_Start" xml:space="preserve">
     <value>เริ่มต้น</value>
+  </data>
+  <data name="Gantt_SF" xml:space="preserve">
+    <value>เริ่ม เสร็จสิ้น</value>
+  </data>
+  <data name="Gantt_SS" xml:space="preserve">
+    <value>เริ่ม เริ่ม</value>
   </data>
   <data name="Gantt_StartDate" xml:space="preserve">
     <value>วันที่เริ่มต้น</value>
@@ -899,6 +926,18 @@
   </data>
   <data name="Gantt_CriticalPath" xml:space="preserve">
     <value>เส้นทางที่สำคัญ</value>
+  </data>
+  <data name="Gantt_Segment" xml:space="preserve">
+    <value>เซ็กเมนต์</value>
+  </data>
+  <data name="Gantt_SplitTask" xml:space="preserve">
+    <value>แยกงาน</value>
+  </data>
+  <data name="Gantt_MergeTask" xml:space="preserve">
+    <value>รวมงาน</value>
+  </data>
+  <data name="Gantt_UnassignedTasks" xml:space="preserve">
+    <value>งานที่ยังไม่ได้มอบหมาย</value>
   </data>
   <data name="ColorPicker_Apply" xml:space="preserve">
     <value>ใช้</value>
@@ -1755,6 +1794,9 @@
   <data name="PivotView_Top" xml:space="preserve">
     <value>สูงสุด</value>
   </data>
+  <data name="PivotView_ApplyToGrandTotal" xml:space="preserve">
+    <value>สมัครแกรนด์โททัล</value>
+  </data>
   <data name="QueryBuilder_AddCondition" xml:space="preserve">
     <value>เพิ่มเงื่อนไข</value>
   </data>
@@ -1955,12 +1997,6 @@
   </data>
   <data name="ImageEditor_FillColorTooltip" xml:space="preserve">
     <value>เติมสี</value>
-  </data>
-  <data name="ImageEditor_OkBtnTooltip" xml:space="preserve">
-    <value>ตกลง</value>
-  </data>
-  <data name="ImageEditor_CancelBtnTooltip" xml:space="preserve">
-    <value>ยกเลิก</value>
   </data>
   <data name="ImageEditor_ResetBtnTooltip" xml:space="preserve">
     <value>ตั้งค่าใหม่</value>
@@ -2319,26 +2355,35 @@
   <data name="RichTextEditor_FormatsDropDownHeading6" xml:space="preserve">
     <value>หัวเรื่อง   6</value>
   </data>
+  <data name="RichTextEditor_FormatsDropDownHeading7" xml:space="preserve">
+    <value>หัวเรื่อง   7</value>
+  </data>
+  <data name="RichTextEditor_FormatsDropDownHeading8" xml:space="preserve">
+    <value>หัวเรื่อง   8</value>
+  </data>
+  <data name="RichTextEditor_FormatsDropDownHeading9" xml:space="preserve">
+    <value>หัวเรื่อง   9</value>
+  </data>
   <data name="RichTextEditor_FontNameSegoeUI" xml:space="preserve">
     <value>Segoe UI</value>
   </data>
   <data name="RichTextEditor_FontNameArial" xml:space="preserve">
-    <value>อาเรียล</value>
+    <value>Arial</value>
   </data>
   <data name="RichTextEditor_FontNameGeorgia" xml:space="preserve">
-    <value>จอร์เจีย</value>
+    <value>Georgia</value>
   </data>
   <data name="RichTextEditor_FontNameImpact" xml:space="preserve">
-    <value>ผลกระทบ</value>
+    <value>Impact</value>
   </data>
   <data name="RichTextEditor_FontNameTahoma" xml:space="preserve">
-    <value>ทาโฮมา</value>
+    <value>Tahoma</value>
   </data>
   <data name="RichTextEditor_FontNameTimesNewRoman" xml:space="preserve">
-    <value>ครั้งใหม่โรมัน</value>
+    <value>Times New Roman</value>
   </data>
   <data name="RichTextEditor_FontNameVerdana" xml:space="preserve">
-    <value>เวอร์ดานา</value>
+    <value>Verdana</value>
   </data>
   <data name="RichTextEditor_Alignments" xml:space="preserve">
     <value>การจัดแนว</value>
@@ -2503,7 +2548,7 @@
     <value>ป้อนชื่อ</value>
   </data>
   <data name="RichTextEditor_LinkUrl" xml:space="preserve">
-    <value>http://example.com</value>
+    <value>https://example.com</value>
   </data>
   <data name="RichTextEditor_LinkOpenInNewWindow" xml:space="preserve">
     <value>เปิดลิงก์ในหน้าต่างใหม่</value>
@@ -2572,7 +2617,7 @@
     <value>วางไฟล์เสียงหรือเรียกดูเพื่ออัปโหลด</value>
   </data>
   <data name="RichTextEditor_ImageUrl" xml:space="preserve">
-    <value>http://example.com/image.png</value>
+    <value>https://example.com/image.png</value>
   </data>
   <data name="RichTextEditor_ImageCaption" xml:space="preserve">
     <value>คำบรรยายภาพ</value>
@@ -2611,16 +2656,16 @@
     <value>จำนวนแถว</value>
   </data>
   <data name="RichTextEditor_TableRows" xml:space="preserve">
-    <value>แถวของตาราง</value>
+    <value>แถว</value>
   </data>
   <data name="RichTextEditor_TableColumns" xml:space="preserve">
-    <value>คอลัมน์ตาราง</value>
+    <value>คอลัมน์</value>
   </data>
   <data name="RichTextEditor_TableCellHorizontalAlign" xml:space="preserve">
     <value>จัดเรียงแนวนอนของเซลล์ตาราง</value>
   </data>
   <data name="RichTextEditor_TableCellVerticalAlign" xml:space="preserve">
-    <value>จัดเรียงแนวตั้งของเซลล์ตาราง</value>
+    <value>จัดแนวตั้ง</value>
   </data>
   <data name="RichTextEditor_CreateTable" xml:space="preserve">
     <value>สร้างตาราง</value>
@@ -2629,7 +2674,7 @@
     <value>ลบตาราง</value>
   </data>
   <data name="RichTextEditor_TableHeader" xml:space="preserve">
-    <value>ส่วนหัวของตาราง</value>
+    <value>แถวส่วนหัว</value>
   </data>
   <data name="RichTextEditor_TableRemove" xml:space="preserve">
     <value>ลบตาราง</value>
@@ -2771,6 +2816,15 @@
   </data>
   <data name="RichTextEditor_Video_Dimension" xml:space="preserve">
     <value>มิติ</value>
+  </data>
+  <data name="RichTextEditor_Link_AriaLabel" xml:space="preserve">
+    <value>เปิดหน้าต่างใหม่</value>
+  </data>
+  <data name="RichTextEditor_Image_Link_AriaLabel" xml:space="preserve">
+    <value>เปิดหน้าต่างใหม่</value>
+  </data>
+  <data name="RichTextEditor_Img_AltText_Unsupported" xml:space="preserve">
+    <value></value>
   </data>
   <data name="DiagramComponent_X" xml:space="preserve">
     <value>X</value>
@@ -2946,6 +3000,21 @@
   <data name="Grid_ClearButton" xml:space="preserve">
     <value>ชัดเจน</value>
   </data>
+  <data name="Grid_IsNull" xml:space="preserve">
+    <value>โมฆะ</value>
+  </data>
+  <data name="Grid_IsNotNull" xml:space="preserve">
+    <value>ไม่เป็นโมฆะ</value>
+  </data>
+  <data name="Grid_IsEmpty" xml:space="preserve">
+    <value>ว่างเปล่า</value>
+  </data>
+  <data name="Grid_IsNotEmpty" xml:space="preserve">
+    <value>ไม่ว่างเปล่า</value>
+  </data>
+  <data name="Grid_Like" xml:space="preserve">
+    <value>ชอบ</value>
+  </data>
   <data name="Grid_StartsWith" xml:space="preserve">
     <value>เริ่มต้นด้วย</value>
   </data>
@@ -2954,6 +3023,15 @@
   </data>
   <data name="Grid_Contains" xml:space="preserve">
     <value>มี</value>
+  </data>
+  <data name="Grid_DoesNotStartWith" xml:space="preserve">
+    <value>ไม่ได้ขึ้นต้นด้วย</value>
+  </data>
+  <data name="Grid_DoesNotEndWith" xml:space="preserve">
+    <value>ไม่ได้จบลงด้วย</value>
+  </data>
+  <data name="Grid_DoesNotContain" xml:space="preserve">
+    <value>ไม่ได้มี</value>
   </data>
   <data name="Grid_Equal" xml:space="preserve">
     <value>เท่ากัน</value>
@@ -3015,6 +3093,12 @@
   <data name="Grid_SortDescending" xml:space="preserve">
     <value>เรียงลำดับจากมากไปน้อย</value>
   </data>
+  <data name="Grid_SortedAscending" xml:space="preserve">
+    <value>เรียงลำดับจากน้อยไปหามาก</value>
+  </data>
+  <data name="Grid_SortedDescending" xml:space="preserve">
+    <value>เรียงตามลำดับจากมากไปน้อย</value>
+  </data>
   <data name="Grid_EditRecord" xml:space="preserve">
     <value>แก้ไขบันทึก</value>
   </data>
@@ -3026,6 +3110,9 @@
   </data>
   <data name="Grid_SelectAll" xml:space="preserve">
     <value>เลือกทั้งหมด</value>
+  </data>
+  <data name="Grid_AddCurrentSelection" xml:space="preserve">
+    <value>เพิ่มการเลือกปัจจุบันเพื่อกรอง</value>
   </data>
   <data name="Grid_Blanks" xml:space="preserve">
     <value>ช่องว่าง</value>
@@ -3152,6 +3239,9 @@
   </data>
   <data name="Grid_FilterValue" xml:space="preserve">
     <value>แก้ไขค่าตัวกรอง</value>
+  </data>
+  <data name="Grid_SelectRowARIA" xml:space="preserve">
+    <value>เลือกแถว</value>
   </data>
   <data name="Pager_Page" xml:space="preserve">
     <value>หน้า</value>
@@ -3441,6 +3531,9 @@
   <data name="Schedule_MoreDetails" xml:space="preserve">
     <value>รายละเอียดเพิ่มเติม</value>
   </data>
+  <data name="Schedule_MoreEvents" xml:space="preserve">
+    <value>กิจกรรมเพิ่มเติม</value>
+  </data>
   <data name="Schedule_NewEvent" xml:space="preserve">
     <value>เหตุการณ์ใหม่</value>
   </data>
@@ -3609,6 +3702,9 @@
   <data name="PdfViewer_FileCorruptedContent" xml:space="preserve">
     <value>ไฟล์เสียหายและไม่สามารถเปิดได้.</value>
   </data>
+  <data name="PdfViewer_FitHeight" xml:space="preserve">
+    <value>พอดีกับความสูง</value>
+  </data>
   <data name="PdfViewer_FitPage" xml:space="preserve">
     <value>พอดีกับหน้า</value>
   </data>
@@ -3687,11 +3783,17 @@
   <data name="PdfViewer_GoToPage" xml:space="preserve">
     <value>ไปที่หน้า</value>
   </data>
-  <data name="PdfViewer_Nomatches" xml:space="preserve">
-    <value>Viewer ได้ค้นหาเอกสารเสร็จแล้ว ไม่พบข้อมูลที่ตรงกันอีก</value>
+  <data name="PdfViewer_NoMatches" xml:space="preserve">
+   <value>โปรแกรมดูได้ค้นหาเอกสารเสร็จแล้ว ไม่พบข้อมูลที่ตรงกัน</value>
   </data>
-  <data name="PdfViewer_NoTextFound" xml:space="preserve">
-    <value>ไม่พบข้อความ</value>
+  <data name="PdfViewer_NoMoreMatches" xml:space="preserve">
+   <value>ผู้ดูได้ค้นหาเอกสารเสร็จแล้ว ไม่พบข้อมูลที่ตรงกันอีกต่อไป</value>
+  </data>
+  <data name="PdfViewer_NoSearchMatches" xml:space="preserve">
+   <value>ไม่พบข้อมูลที่ตรงกัน</value>
+  </data>
+  <data name="PdfViewer_NoMoreSearchMatches" xml:space="preserve">
+   <value>ไม่พบรายการที่ตรงกันอีกต่อไป</value>
   </data>
   <data name="PdfViewer_Undo" xml:space="preserve">
     <value>เลิกทำ</value>
@@ -3737,6 +3839,9 @@
   </data>
   <data name="PdfViewer_Clienterror" xml:space="preserve">
     <value>พบข้อผิดพลาดฝั่งไคลเอ็นต์ โปรดตรวจสอบส่วนหัวที่กำหนดเองที่ให้ไว้ในคุณสมบัติ AjaxRequestSettings และวิธีการกระทำบนเว็บในคุณสมบัติ ServerActionSettings.</value>
+  </data>
+  <data name="PdfViewer_Corspolicyerror" xml:space="preserve">
+    <value>การเข้าถึงเอกสารถูกจำกัดเนื่องจากนโยบาย CORS กรุณาตรวจสอบเอกสาร</value>
   </data>
   <data name="PdfViewer_OpenText" xml:space="preserve">
     <value>เปิด</value>
@@ -4152,6 +4257,39 @@
   <data name="DocumentEditor_Justify" xml:space="preserve">
     <value>แสดงให้เห็นถึง</value>
   </data>
+  <data name="DocumentEditor_OutlineLevel" xml:space="preserve">
+    <value>ระดับเค้าร่าง</value>
+  </data>
+  <data name="DocumentEditor_BodyText" xml:space="preserve">
+    <value>ข้อความเนื้อหา</value>
+  </data>
+  <data name="DocumentEditor_Level1" xml:space="preserve">
+    <value>ระดับ 1</value>
+  </data>
+  <data name="DocumentEditor_Level2" xml:space="preserve">
+    <value>ระดับ 2</value>
+  </data>
+  <data name="DocumentEditor_Level3" xml:space="preserve">
+    <value>ระดับ 3</value>
+  </data>
+  <data name="DocumentEditor_Level4" xml:space="preserve">
+    <value>ระดับ 4</value>
+  </data>
+  <data name="DocumentEditor_Level5" xml:space="preserve">
+    <value>ระดับ 5</value>
+  </data>
+  <data name="DocumentEditor_Level6" xml:space="preserve">
+    <value>ระดับ 6</value>
+  </data>
+  <data name="DocumentEditor_Level7" xml:space="preserve">
+    <value>ระดับ 7</value>
+  </data>
+  <data name="DocumentEditor_Level8" xml:space="preserve">
+    <value>ระดับ 8</value>
+  </data>
+  <data name="DocumentEditor_Level9" xml:space="preserve">
+    <value>ระดับ 9</value>
+  </data>
   <data name="DocumentEditor_IndentFromLeft" xml:space="preserve">
     <value>เยื้องจากซ้าย</value>
   </data>
@@ -4334,6 +4472,15 @@
   </data>
   <data name="DocumentEditor_Heading6" xml:space="preserve">
     <value>หัวข้อ 6</value>
+  </data>
+  <data name="DocumentEditor_Heading7" xml:space="preserve">
+    <value>หัวข้อ 7</value>
+  </data>
+  <data name="DocumentEditor_Heading8" xml:space="preserve">
+    <value>หัวข้อ 8</value>
+  </data>
+  <data name="DocumentEditor_Heading9" xml:space="preserve">
+    <value>หัวข้อ 9</value>
   </data>
   <data name="DocumentEditor_ListParagraph" xml:space="preserve">
     <value>รายการย่อหน้า</value>
@@ -4652,6 +4799,9 @@
   </data>
   <data name="DocumentEditor_Find" xml:space="preserve">
     <value>หา</value>
+  </data>
+  <data name="DocumentEditor_Headings" xml:space="preserve">
+    <value>หัวเรื่อง</value>
   </data>
   <data name="DocumentEditor_NoMatches" xml:space="preserve">
     <value>ไม่ตรงกัน</value>
@@ -5379,6 +5529,9 @@
   <data name="DocumentEditorContainer_Find" xml:space="preserve">
     <value>หา</value>
   </data>
+  <data name="DocumentEditorContainer_Headings" xml:space="preserve">
+    <value>หัวเรื่อง</value>
+  </data>
   <data name="DocumentEditorContainer_LocalClipboard" xml:space="preserve">
     <value>คลิปบอร์ดท้องถิ่น</value>
   </data>
@@ -5847,6 +6000,24 @@
   <data name="DocumentEditorContainer_Ok" xml:space="preserve">
     <value>ตกลง</value>
   </data>
+  <data name="DocumentEditorContainer_Changecase" xml:space="preserve">
+    <value>เปลี่ยนกรณี</value>
+</data>
+<data name="DocumentEditorContainer_Uppercase" xml:space="preserve">
+    <value>ตัวพิมพ์ใหญ่</value>
+</data>
+<data name="DocumentEditorContainer_Lowercase" xml:space="preserve">
+    <value>ตัวพิมพ์เล็ก</value>
+</data>
+<data name="DocumentEditorContainer_SentenceCase" xml:space="preserve">
+    <value>กรณีประโยค</value>
+</data>
+<data name="DocumentEditorContainer_CapitalizeEachWord" xml:space="preserve">
+    <value>ใช้ตัวพิมพ์ใหญ่ในแต่ละคำ</value>
+</data>
+<data name="DocumentEditorContainer_ToggleCase" xml:space="preserve">
+  <value>สลับกรณี</value>
+</data>  
   <data name="Gantt_Touch_DialogTextOnClickingConnectorPoint" xml:space="preserve">
     <value>เลือกงานอื่น</value>
   </data>
@@ -5990,5 +6161,197 @@
   </data>
   <data name="ImageEditor_DropText" xml:space="preserve">
     <value>วางภาพของคุณที่นี่หรือ</value>
+  </data>
+  <data name="DocumentEditorContainer_TabStopPosition" xml:space="preserve">
+<value>ตำแหน่งแท็บหยุด</value>
+</data>
+<data name="DocumentEditorContainer_DefaultTabStops" xml:space="preserve">
+<value>แท็บเริ่มต้นหยุด</value>
+</data>
+<data name="DocumentEditorContainer_TabStopsCleared" xml:space="preserve">
+<value>แท็บหยุดที่จะล้าง</value>
+</data>
+<data name="DocumentEditorContainer_Tabs" xml:space="preserve">
+<value>แท็บ</value>
+</data>
+<data name="DocumentEditor_Set" xml:space="preserve">
+<value>ชุด</value>
+</data>
+<data name="DocumentEditor_Clear" xml:space="preserve">
+<value>ชัดเจน</value>
+</data>
+<data name="DocumentEditor_ClearAll" xml:space="preserve">
+<value>ลบทั้งหมด</value>
+</data>
+<data name="DocumentEditor_Decimal" xml:space="preserve">
+<value>ทศนิยม</value>
+</data>
+<data name="DocumentEditor_Bar" xml:space="preserve">
+<value>บาร์</value>
+</data>
+<data name="DocumentEditorContainer_Alignment" xml:space="preserve">
+<value>การจัดตำแหน่ง</value>
+</data>
+<data name="DocumentEditorContainer_Leader" xml:space="preserve">
+<value>ผู้นำ</value>
+</data>
+<data name="DocumentEditorContainer_All" xml:space="preserve">
+<value>ทั้งหมด</value>
+</data>
+<data name="DocumentEditor_BottomMargin" xml:space="preserve">
+<value>ขอบล่าง</value>
+</data>
+<data name="DocumentEditor_FirstLineIndent" xml:space="preserve">
+<value>เยื้องบรรทัดแรก</value>
+</data>
+<data name="DocumentEditor_HangingIndent" xml:space="preserve">
+<value>เยื้องแขวน</value>
+</data>
+<data name="DocumentEditor_LeftIndent" xml:space="preserve">
+<value>เยื้องซ้าย</value>
+</data>
+<data name="DocumentEditor_LeftMargin" xml:space="preserve">
+<value>ขอบซ้าย</value>
+</data>
+<data name="DocumentEditor_MoveTableColumn" xml:space="preserve">
+<value>ย้ายคอลัมน์ตาราง</value>
+</data>
+<data name="DocumentEditor_RightIndent" xml:space="preserve">
+<value>เยื้องขวา</value>
+</data>
+<data name="DocumentEditor_RightMargin" xml:space="preserve">
+<value>ขอบขวา</value>
+</data>
+<data name="DocumentEditor_TopMargin" xml:space="preserve">
+<value>ขอบบนสุด</value>
+</data>
+<data name="DocumentEditor_LeftTab" xml:space="preserve">
+<value>แท็บซ้าย</value>
+</data>
+<data name="DocumentEditor_CenterTab" xml:space="preserve">
+<value>แท็บศูนย์</value>
+</data>
+<data name="DocumentEditor_RightTab" xml:space="preserve">
+<value>แท็บขวา</value>
+</data>
+<data name="DocumentEditor_DecimalTab" xml:space="preserve">
+<value>แท็บทศนิยม</value>
+</data>
+<data name="DocumentEditor_BarTab" xml:space="preserve">
+<value>แท็บบาร์</value>
+</data>
+  <data name="ImageEditor_OkBtnTooltip" xml:space="preserve">
+    <value>ใช้</value>
+  </data>
+  <data name="ImageEditor_Annotation" xml:space="preserve">
+    <value>คำอธิบายประกอบ</value>
+  </data>
+  <data name="ImageEditor_CancelBtnTooltip" xml:space="preserve">
+    <value>ทิ้ง</value>
+  </data>
+  <data name="QueryBuilder_Null" xml:space="preserve">
+    <value>เป็นโมฆะ</value>
+  </data>
+  <data name="QueryBuilder_NotNull" xml:space="preserve">
+    <value>ไม่เป็นโมฆะ</value>
+  </data>
+  <data name="ImageEditor_StraightenTooltip" xml:space="preserve">
+    <value>ยืดตรง</value>
+  </data>
+  <data name="PivotView_Combined" xml:space="preserve">
+    <value>รวม</value>
+  </data>
+  <data name="QueryBuilder_NotStartsWith" xml:space="preserve">
+    <value>ไม่ได้ขึ้นต้นด้วย</value>
+  </data>
+  <data name="QueryBuilder_NotEndsWith" xml:space="preserve">
+    <value>ไม่ได้จบลงด้วย</value>
+  </data>
+  <data name="QueryBuilder_LockGroup" xml:space="preserve">
+    <value>ล็อคกลุ่ม</value>
+  </data>
+  <data name="QueryBuilder_UnlockGroup" xml:space="preserve">
+    <value>ปลดล็อคกลุ่ม</value>
+  </data>
+  <data name="QueryBuilder_LockRule" xml:space="preserve">
+    <value>กฎการล็อค</value>
+  </data>
+  <data name="QueryBuilder_UnlockRule" xml:space="preserve">
+    <value>ปลดล็อคกฎ</value>
+  </data>
+  <data name="QueryBuilder_CloneGroup" xml:space="preserve">
+    <value>กลุ่มโคลน</value>
+  </data>
+  <data name="QueryBuilder_CloneRule" xml:space="preserve">
+    <value>กฎการโคลน</value>
+  </data>
+  <data name="ImageEditor_SaveDialogHeader" xml:space="preserve">
+    <value>บันทึกเป็น</value>
+  </data>
+  <data name="ImageEditor_SaveDialogClose" xml:space="preserve">
+    <value>ปิด</value>
+  </data>
+  <data name="ImageEditor_SaveDialogDownload" xml:space="preserve">
+    <value>ดาวน์โหลด</value>
+  </data>
+  <data name="ImageEditor_SaveImageSize" xml:space="preserve">
+    <value>ขนาดรูปภาพ:</value>
+  </data>
+  <data name="ImageEditor_SaveCustomBtnTooltip" xml:space="preserve">
+    <value>กำหนดเอง</value>
+  </data>
+  <data name="ImageEditor_SaveImageQualityGood" xml:space="preserve">
+    <value>ดี</value>
+  </data>
+  <data name="ImageEditor_SaveImageQualityGreat" xml:space="preserve">
+    <value>ยอดเยี่ยม</value>
+  </data>
+  <data name="ImageEditor_SaveImageQualityHighest" xml:space="preserve">
+    <value>สูงสุด</value>
+  </data>
+  <data name="ImageEditor_SaveDialogImageQuality" xml:space="preserve">
+    <value>คุณภาพ</value>
+  </data>
+  <data name="ImageEditor_SaveInfoTooltip" xml:space="preserve">
+    <value>ตัวเลือกคุณภาพของภาพใช้ได้เฉพาะในรูปแบบ JPEG เท่านั้น</value>
+  </data>
+  <data name="ImageEditor_SaveDialogImageName" xml:space="preserve">
+    <value>ชื่อรูปภาพ</value>
+  </data>
+  <data name="ImageEditor_SaveDialogImageFormat" xml:space="preserve">
+    <value>รูปแบบ</value>
+  </data>
+  <data name="ImageEditor_ZOrderTooltip" xml:space="preserve">
+    <value>Z-Order</value>
+  </data>
+  <data name="ImageEditor_BringToFront" xml:space="preserve">
+    <value>นำมาไว้ข้างหน้า</value>
+  </data>
+  <data name="ImageEditor_BringForward" xml:space="preserve">
+    <value>นำไปสู่</value>
+  </data>
+  <data name="ImageEditor_SendToBack" xml:space="preserve">
+    <value>ส่งกลับ</value>
+  </data>
+  <data name="ImageEditor_SendBackward" xml:space="preserve">
+    <value>ส่งไปข้างหลัง</value>
+  </data>
+  <data name="ImageEditor_OutlineColor" xml:space="preserve">
+    <value>สีเค้าร่าง</value>
+  </data>
+  <data name="ImageEditor_RectRadius" xml:space="preserve">
+    <value>แก้ไข</value>
+  </data>
+  <data name="ImageEditor_Pixelate" xml:space="preserve">
+    <value>พิกเซล</value>
+  </data>
+  <data name="ImageEditor_Pixel_Size" xml:space="preserve">
+    <value>ขนาดพิกเซล</value>
+  </data>
+  <data name="ColorPicker_RecentColors" xml:space="preserve">
+    <value>สีล่าสุด</value>
+  </data>
+  <data name="AIAssistView_StopResponseText" xml:space="preserve">
+    <value>หยุดการตอบสนอง</value>
   </data>
 </root>

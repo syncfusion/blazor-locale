@@ -195,6 +195,18 @@
   <data name="DropDownList_NoRecordsTemplate" xml:space="preserve">
     <value>기록 없음</value>
   </data>
+  <data name="DropDownTree_NoRecords" xml:space="preserve">
+    <value>기록 없음</value>
+  </data>
+  <data name="DropDownTree_RequestFailed" xml:space="preserve">
+    <value>요청 실패</value>
+  </data>
+  <data name="DropDownTree_SelectAll" xml:space="preserve">
+    <value>모두 선택</value>
+  </data>
+  <data name="DropDownTree_UnSelectAll" xml:space="preserve">
+    <value>모두 선택 해제</value>
+  </data>
   <data name="Mention_NoRecordsTemplate" xml:space="preserve">
     <value>기록 없음</value>
   </data>
@@ -591,6 +603,9 @@
   <data name="Slider_IncrementTitle" xml:space="preserve">
     <value>증가하다</value>
   </data>
+  <data name="Stepper_Optional" xml:space="preserve">
+    <value>선택 과목</value>
+  </data>
   <data name="Maps_ImageNotFound" xml:space="preserve">
     <value>이미지를 찾을 수 없음</value>
   </data>
@@ -705,6 +720,12 @@
   <data name="Gantt_Finish" xml:space="preserve">
     <value>끝</value>
   </data>
+  <data name="Gantt_FS" xml:space="preserve">
+    <value>끝 스타트</value>
+  </data>
+  <data name="Gantt_FF" xml:space="preserve">
+    <value>끝 끝</value>
+  </data>
   <data name="Gantt_From" xml:space="preserve">
     <value>에서</value>
   </data>
@@ -776,6 +797,12 @@
   </data>
   <data name="Gantt_Start" xml:space="preserve">
     <value>스타트</value>
+  </data>
+  <data name="Gantt_SF" xml:space="preserve">
+    <value>스타트 료</value>
+  </data>
+  <data name="Gantt_SS" xml:space="preserve">
+    <value>스타트 스타트</value>
   </data>
   <data name="Gantt_StartDate" xml:space="preserve">
     <value>시작일</value>
@@ -899,6 +926,18 @@
   </data>
   <data name="Gantt_CriticalPath" xml:space="preserve">
     <value>중요한 경로</value>
+  </data>
+  <data name="Gantt_Segment" xml:space="preserve">
+    <value>세그먼트</value>
+  </data>
+  <data name="Gantt_SplitTask" xml:space="preserve">
+    <value>작업 분할</value>
+  </data>
+  <data name="Gantt_MergeTask" xml:space="preserve">
+    <value>작업 병합</value>
+  </data>
+  <data name="Gantt_UnassignedTasks" xml:space="preserve">
+    <value>할당되지 않은 작업</value>
   </data>
   <data name="ColorPicker_Apply" xml:space="preserve">
     <value>대다</value>
@@ -1758,6 +1797,9 @@
   <data name="PivotView_Top" xml:space="preserve">
     <value>맨 위</value>
   </data>
+  <data name="PivotView_ApplyToGrandTotal" xml:space="preserve">
+    <value>총계에 적용</value>
+  </data>
   <data name="QueryBuilder_AddCondition" xml:space="preserve">
     <value>조건 추가</value>
   </data>
@@ -1958,12 +2000,6 @@
   </data>
   <data name="ImageEditor_FillColorTooltip" xml:space="preserve">
     <value>채우기 색상</value>
-  </data>
-  <data name="ImageEditor_OkBtnTooltip" xml:space="preserve">
-    <value>확인</value>
-  </data>
-  <data name="ImageEditor_CancelBtnTooltip" xml:space="preserve">
-    <value>취소</value>
   </data>
   <data name="ImageEditor_ResetBtnTooltip" xml:space="preserve">
     <value>초기화</value>
@@ -2322,23 +2358,32 @@
   <data name="RichTextEditor_FormatsDropDownHeading6" xml:space="preserve">
     <value>제목   6</value>
   </data>
+  <data name="RichTextEditor_FormatsDropDownHeading7" xml:space="preserve">
+    <value>제목   7</value>
+  </data>
+  <data name="RichTextEditor_FormatsDropDownHeading8" xml:space="preserve">
+    <value>제목   8</value>
+  </data>
+  <data name="RichTextEditor_FormatsDropDownHeading9" xml:space="preserve">
+    <value>제목   9</value>
+  </data>
   <data name="RichTextEditor_FontNameSegoeUI" xml:space="preserve">
-    <value>せごえ 우이</value>
+    <value>Segoe UI</value>
   </data>
   <data name="RichTextEditor_FontNameArial" xml:space="preserve">
-    <value>굴림</value>
+    <value>Arial</value>
   </data>
   <data name="RichTextEditor_FontNameGeorgia" xml:space="preserve">
-    <value>그루지야</value>
+    <value>Georgia</value>
   </data>
   <data name="RichTextEditor_FontNameImpact" xml:space="preserve">
-    <value>타격</value>
+    <value>Impact</value>
   </data>
   <data name="RichTextEditor_FontNameTahoma" xml:space="preserve">
-    <value>타호 마</value>
+    <value>Tahoma</value>
   </data>
   <data name="RichTextEditor_FontNameTimesNewRoman" xml:space="preserve">
-    <value>새로운 시간 로마 인</value>
+    <value>Times New Roman</value>
   </data>
   <data name="RichTextEditor_FontNameVerdana" xml:space="preserve">
     <value>Verdana</value>
@@ -2506,7 +2551,7 @@
     <value>제목을 입력하십시오</value>
   </data>
   <data name="RichTextEditor_LinkUrl" xml:space="preserve">
-    <value>http://example.com</value>
+    <value>https://example.com</value>
   </data>
   <data name="RichTextEditor_LinkOpenInNewWindow" xml:space="preserve">
     <value>새 창에서 링크 열기</value>
@@ -2547,35 +2592,8 @@
   <data name="RichTextEditor_Browse" xml:space="preserve">
     <value>검색</value>
   </data>
-  <data name="RichTextEditor_VideoDeviceUploadMessage" xml:space="preserve">
-    <value>업로드하려면 여기를 클릭하세요.</value>
-  </data>
-  <data name="RichTextEditor_VideoUploadMessage" xml:space="preserve">
-    <value>비디오 파일을 드롭하거나 찾아 업로드하세요.</value>
-  </data>
-  <data name="RichTextEditor_EmbedVideoUploadMessage" xml:space="preserve">
-    <value>여기에 포함된 코드를 붙여넣으세요.</value>
-  </data>
-  <data name="RichTextEditor_WebUrl" xml:space="preserve">
-    <value>웹 URL</value>
-  </data>
-  <data name="RichTextEditor_EmbedUrl" xml:space="preserve">
-    <value>임베디드 코드</value>
-  </data>
-  <data name="RichTextEditor_VideoWidth" xml:space="preserve">
-    <value>너비</value>
-  </data>
-  <data name="RichTextEditor_VideoHeight" xml:space="preserve">
-    <value>키</value>
-  </data>
-  <data name="RichTextEditor_AudioDeviceUploadMessage" xml:space="preserve">
-    <value>업로드하려면 여기를 클릭하세요.</value>
-  </data>
-  <data name="RichTextEditor_AudioUploadMessage" xml:space="preserve">
-    <value>오디오 파일을 삭제하거나 업로드를 찾아보세요.</value>
-  </data>
   <data name="RichTextEditor_ImageUrl" xml:space="preserve">
-    <value>http://example.com/image.png</value>
+    <value>https://example.com/image.png</value>
   </data>
   <data name="RichTextEditor_ImageCaption" xml:space="preserve">
     <value>표제</value>
@@ -2614,16 +2632,16 @@
     <value>행 수</value>
   </data>
   <data name="RichTextEditor_TableRows" xml:space="preserve">
-    <value>테이블 행</value>
+    <value>열</value>
   </data>
   <data name="RichTextEditor_TableColumns" xml:space="preserve">
-    <value>테이블 열</value>
+    <value>열</value>
   </data>
   <data name="RichTextEditor_TableCellHorizontalAlign" xml:space="preserve">
     <value>테이블 셀 가로 정렬</value>
   </data>
   <data name="RichTextEditor_TableCellVerticalAlign" xml:space="preserve">
-    <value>테이블 셀 수직 정렬</value>
+    <value>수직 정렬</value>
   </data>
   <data name="RichTextEditor_CreateTable" xml:space="preserve">
     <value>테이블 만들기</value>
@@ -2632,10 +2650,10 @@
     <value>테이블 제거</value>
   </data>
   <data name="RichTextEditor_TableHeader" xml:space="preserve">
-    <value>테이블 헤더</value>
+    <value>헤더 행</value>
   </data>
   <data name="RichTextEditor_TableRemove" xml:space="preserve">
-    <value>테이블 제거</value>
+    <value>테이블 삭제</value>
   </data>
   <data name="RichTextEditor_TableCellBackground" xml:space="preserve">
     <value>테이블 셀 배경</value>
@@ -2774,6 +2792,15 @@
   </data>
   <data name="RichTextEditor_Video_Dimension" xml:space="preserve">
     <value>치수</value>
+  </data>
+  <data name="RichTextEditor_Link_AriaLabel" xml:space="preserve">
+    <value>새 창에서 열기</value>
+  </data>
+  <data name="RichTextEditor_Image_Link_AriaLabel" xml:space="preserve">
+    <value>새 창에서 열기</value>
+  </data>
+  <data name="RichTextEditor_Img_AltText_Unsupported" xml:space="preserve">
+    <value>지원되지 않는 파일 형식</value>
   </data>
   <data name="DiagramComponent_X" xml:space="preserve">
     <value>x</value>
@@ -2949,6 +2976,21 @@
   <data name="Grid_ClearButton" xml:space="preserve">
     <value>명확한</value>
   </data>
+  <data name="Grid_IsNull" xml:space="preserve">
+    <value>없는</value>
+  </data>
+  <data name="Grid_IsNotNull" xml:space="preserve">
+    <value>널이 아님</value>
+  </data>
+  <data name="Grid_IsEmpty" xml:space="preserve">
+    <value>빈</value>
+  </data>
+  <data name="Grid_IsNotEmpty" xml:space="preserve">
+    <value>비우지 않음</value>
+  </data>
+  <data name="Grid_Like" xml:space="preserve">
+    <value>좋다</value>
+  </data>
   <data name="Grid_StartsWith" xml:space="preserve">
     <value>로 시작</value>
   </data>
@@ -2957,6 +2999,15 @@
   </data>
   <data name="Grid_Contains" xml:space="preserve">
     <value>포함</value>
+  </data>
+  <data name="Grid_DoesNotStartWith" xml:space="preserve">
+    <value>다음으로 시작하지 않음</value>
+  </data>
+  <data name="Grid_DoesNotEndWith" xml:space="preserve">
+    <value>끝나지 않는다</value>
+  </data>
+  <data name="Grid_DoesNotContain" xml:space="preserve">
+    <value>포함되어 있지 않다</value>
   </data>
   <data name="Grid_Equal" xml:space="preserve">
     <value>같은</value>
@@ -3018,6 +3069,12 @@
   <data name="Grid_SortDescending" xml:space="preserve">
     <value>내림차순 정렬</value>
   </data>
+  <data name="Grid_SortedAscending" xml:space="preserve">
+    <value>오름차순으로 정렬됨</value>
+  </data>
+  <data name="Grid_SortedDescending" xml:space="preserve">
+    <value>내림차순으로 정렬됨</value>
+  </data>
   <data name="Grid_EditRecord" xml:space="preserve">
     <value>레코드 편집</value>
   </data>
@@ -3029,6 +3086,9 @@
   </data>
   <data name="Grid_SelectAll" xml:space="preserve">
     <value>모두 선택</value>
+  </data>
+  <data name="Grid_AddCurrentSelection" xml:space="preserve">
+    <value>필터에 현재 선택 항목 추가</value>
   </data>
   <data name="Grid_Blanks" xml:space="preserve">
     <value>공백</value>
@@ -3155,6 +3215,9 @@
   </data>
   <data name="Grid_FilterValue" xml:space="preserve">
     <value>필터 값 유형</value>
+  </data>
+  <data name="Grid_SelectRowARIA" xml:space="preserve">
+    <value>행 선택</value>
   </data>
   <data name="Pager_Page" xml:space="preserve">
     <value>페이지</value>
@@ -3444,6 +3507,9 @@
   <data name="Schedule_MoreDetails" xml:space="preserve">
     <value>자세한 내용은</value>
   </data>
+  <data name="Schedule_MoreEvents" xml:space="preserve">
+    <value>더 많은 이벤트</value>
+  </data>
   <data name="Schedule_NewEvent" xml:space="preserve">
     <value>새로운 이벤트</value>
   </data>
@@ -3612,6 +3678,9 @@
   <data name="PdfViewer_FileCorruptedContent" xml:space="preserve">
     <value>파일이 손상되어 열 수 없습니다.</value>
   </data>
+  <data name="PdfViewer_FitHeight" xml:space="preserve">
+    <value>맞는 높이</value>
+  </data>
   <data name="PdfViewer_FitPage" xml:space="preserve">
     <value>페이지 맞추기</value>
   </data>
@@ -3690,11 +3759,17 @@
   <data name="PdfViewer_GoToPage" xml:space="preserve">
     <value>페이지로 이동</value>
   </data>
-  <data name="PdfViewer_Nomatches" xml:space="preserve">
-    <value>뷰어가 문서 검색을 완료했습니다. 더 이상 일치하는 항목이 없습니다</value>
+  <data name="PdfViewer_NoMatches" xml:space="preserve">
+   <value>뷰어가 문서 검색을 완료했습니다. 더 이상 일치하는 항목이 없습니다</value> 
   </data>
-  <data name="PdfViewer_NoTextFound" xml:space="preserve">
-    <value>텍스트를 찾을 수 없습니다</value>
+  <data name="PdfViewer_NoMoreMatches" xml:space="preserve">
+   <value>뷰어가 문서 검색을 완료했습니다. 더 이상 일치하는 항목이 없습니다</value>
+  </data>
+  <data name="PdfViewer_NoSearchMatches" xml:space="preserve">
+   <value>일치하는 항목이 없습니다</value>
+  </data>
+  <data name="PdfViewer_NoMoreSearchMatches" xml:space="preserve">
+   <value>더 이상 일치하는 항목이 없습니다</value>
   </data>
   <data name="PdfViewer_Undo" xml:space="preserve">
     <value>실행 취소</value>
@@ -3740,6 +3815,9 @@
   </data>
   <data name="PdfViewer_Clienterror" xml:space="preserve">
     <value>클라이언트 측 오류가 발견되었습니다. ServerActionSettings 등록 정보에서 AjaxRequestSettings 등록 정보 및 웹 조치 메소드에 제공된 사용자 정의 헤더를 확인하십시오.</value>
+  </data>
+  <data name="PdfViewer_Corspolicyerror" xml:space="preserve">
+    <value>CORS 정책으로 인해 해당 문서에 대한 접근이 제한되어 있습니다. 문서를 확인해주세요.</value>
   </data>
   <data name="PdfViewer_OpenText" xml:space="preserve">
     <value>열다</value>
@@ -4155,6 +4233,39 @@
   <data name="DocumentEditor_Justify" xml:space="preserve">
     <value>신이 옳다고 하다</value>
   </data>
+  <data name="DocumentEditor_OutlineLevel" xml:space="preserve">
+    <value>개요 수준</value>
+  </data>
+  <data name="DocumentEditor_BodyText" xml:space="preserve">
+    <value>본문 텍스트</value>
+  </data>
+  <data name="DocumentEditor_Level1" xml:space="preserve">
+    <value>레벨 1</value>
+  </data>
+  <data name="DocumentEditor_Level2" xml:space="preserve">
+    <value>2 단계</value>
+  </data>
+  <data name="DocumentEditor_Level3" xml:space="preserve">
+    <value>레벨 3</value>
+  </data>
+  <data name="DocumentEditor_Level4" xml:space="preserve">
+    <value>레벨 4</value>
+  </data>
+  <data name="DocumentEditor_Level5" xml:space="preserve">
+    <value>레벨 5</value>
+  </data>
+  <data name="DocumentEditor_Level6" xml:space="preserve">
+    <value>레벨 6</value>
+  </data>
+  <data name="DocumentEditor_Level7" xml:space="preserve">
+    <value>레벨 7</value>
+  </data>
+  <data name="DocumentEditor_Level8" xml:space="preserve">
+    <value>레벨 8</value>
+  </data>
+  <data name="DocumentEditor_Level9" xml:space="preserve">
+    <value>레벨 9</value>
+  </data>
   <data name="DocumentEditor_IndentFromLeft" xml:space="preserve">
     <value>왼쪽에서 들여 쓰기</value>
   </data>
@@ -4337,6 +4448,15 @@
   </data>
   <data name="DocumentEditor_Heading6" xml:space="preserve">
     <value>제목 6</value>
+  </data>
+  <data name="DocumentEditor_Heading7" xml:space="preserve">
+    <value>제목 7</value>
+  </data>
+  <data name="DocumentEditor_Heading8" xml:space="preserve">
+    <value>제목 8</value>
+  </data>
+  <data name="DocumentEditor_Heading9" xml:space="preserve">
+    <value>제목 9</value>
   </data>
   <data name="DocumentEditor_ListParagraph" xml:space="preserve">
     <value>단락 목록</value>
@@ -4655,6 +4775,9 @@
   </data>
   <data name="DocumentEditor_Find" xml:space="preserve">
     <value>찾기</value>
+  </data>
+  <data name="DocumentEditor_Headings" xml:space="preserve">
+    <value>제목</value>
   </data>
   <data name="DocumentEditor_NoMatches" xml:space="preserve">
     <value>맞지 않는다</value>
@@ -5382,6 +5505,9 @@
   <data name="DocumentEditorContainer_Find" xml:space="preserve">
     <value>찾기</value>
   </data>
+  <data name="DocumentEditorContainer_Headings" xml:space="preserve">
+    <value>제목</value>
+  </data>
   <data name="DocumentEditorContainer_LocalClipboard" xml:space="preserve">
     <value>로컬 클립 보드</value>
   </data>
@@ -5850,6 +5976,24 @@
   <data name="DocumentEditorContainer_Ok" xml:space="preserve">
     <value>좋아요</value>
   </data>
+  <data name="DocumentEditorContainer_Changecase" xml:space="preserve">
+    <value>대소문자 변경</value>
+</data>
+<data name="DocumentEditorContainer_Uppercase" xml:space="preserve">
+    <value>대문자</value>
+</data>
+<data name="DocumentEditorContainer_Lowercase" xml:space="preserve">
+    <value>소문자</value>
+</data>
+<data name="DocumentEditorContainer_SentenceCase" xml:space="preserve">
+    <value>문장 사례</value>
+</data>
+<data name="DocumentEditorContainer_CapitalizeEachWord" xml:space="preserve">
+    <value>각 단어를 대문자로 표기하세요</value>
+</data>
+<data name="DocumentEditorContainer_ToggleCase" xml:space="preserve">
+    <value>케이스 전환</value>
+</data>
   <data name="Gantt_Touch_DialogTextOnClickingConnectorPoint" xml:space="preserve">
     <value>다른 작업 선택</value>
   </data>
@@ -5990,5 +6134,197 @@
   </data>
   <data name="ImageEditor_DropText" xml:space="preserve">
     <value>여기에 이미지를 놓거나</value>
+  </data>
+  <data name="DocumentEditorContainer_TabStopPosition" xml:space="preserve">
+<value>탭 정지 위치</value>
+</data>
+<data name="DocumentEditorContainer_DefaultTabStops" xml:space="preserve">
+<value>기본 탭 정지</value>
+</data>
+<data name="DocumentEditorContainer_TabStopsCleared" xml:space="preserve">
+<value>지워야 할 탭 정지</value>
+</data>
+<data name="DocumentEditorContainer_Tabs" xml:space="preserve">
+<value>탭</value>
+</data>
+<data name="DocumentEditor_Set" xml:space="preserve">
+<value>세트</value>
+</data>
+<data name="DocumentEditor_Clear" xml:space="preserve">
+<value>분명한</value>
+</data>
+<data name="DocumentEditor_ClearAll" xml:space="preserve">
+<value>모두 지우기</value>
+</data>
+<data name="DocumentEditor_Decimal" xml:space="preserve">
+<value>소수</value>
+</data>
+<data name="DocumentEditor_Bar" xml:space="preserve">
+<value>술집</value>
+</data>
+<data name="DocumentEditorContainer_Alignment" xml:space="preserve">
+<value>조정</value>
+</data>
+<data name="DocumentEditorContainer_Leader" xml:space="preserve">
+<value>지도자</value>
+</data>
+<data name="DocumentEditorContainer_All" xml:space="preserve">
+<value>모두</value>
+</data>
+<data name="DocumentEditor_BottomMargin" xml:space="preserve">
+<value>하단 여백</value>
+</data>
+<data name="DocumentEditor_FirstLineIndent" xml:space="preserve">
+<value>첫 줄 들여쓰기</value>
+</data>
+<data name="DocumentEditor_HangingIndent" xml:space="preserve">
+<value>내어 쓰기</value>
+</data>
+<data name="DocumentEditor_LeftIndent" xml:space="preserve">
+<value>왼쪽 들여쓰기</value>
+</data>
+<data name="DocumentEditor_LeftMargin" xml:space="preserve">
+<value>왼쪽 여백</value>
+</data>
+<data name="DocumentEditor_MoveTableColumn" xml:space="preserve">
+<value>테이블 열 이동</value>
+</data>
+<data name="DocumentEditor_RightIndent" xml:space="preserve">
+<value>오른쪽 들여쓰기</value>
+</data>
+<data name="DocumentEditor_RightMargin" xml:space="preserve">
+<value>오른쪽 여백</value>
+</data>
+<data name="DocumentEditor_TopMargin" xml:space="preserve">
+<value>상단 여백</value>
+</data>
+<data name="DocumentEditor_LeftTab" xml:space="preserve">
+<value>왼쪽 탭</value>
+</data>
+<data name="DocumentEditor_CenterTab" xml:space="preserve">
+<value>중앙 탭</value>
+</data>
+<data name="DocumentEditor_RightTab" xml:space="preserve">
+<value>오른쪽 탭</value>
+</data>
+<data name="DocumentEditor_DecimalTab" xml:space="preserve">
+<value>소수점 탭</value>
+</data>
+<data name="DocumentEditor_BarTab" xml:space="preserve">
+<value>바 탭</value>
+</data>
+  <data name="ImageEditor_OkBtnTooltip" xml:space="preserve">
+    <value>대다</value>
+  </data>
+  <data name="ImageEditor_Annotation" xml:space="preserve">
+    <value>주석</value>
+  </data>
+  <data name="ImageEditor_CancelBtnTooltip" xml:space="preserve">
+    <value>버리다</value>
+  </data>
+  <data name="QueryBuilder_Null" xml:space="preserve">
+    <value>Null임</value>
+  </data>
+  <data name="QueryBuilder_NotNull" xml:space="preserve">
+    <value>Null이 아님</value>
+  </data>
+  <data name="ImageEditor_StraightenTooltip" xml:space="preserve">
+    <value>바르게 되다</value>
+  </data>
+  <data name="PivotView_Combined" xml:space="preserve">
+    <value>결합</value>
+  </data>
+  <data name="QueryBuilder_NotStartsWith" xml:space="preserve">
+    <value>다음으로 시작하지 않음</value>
+  </data>
+  <data name="QueryBuilder_NotEndsWith" xml:space="preserve">
+    <value>끝나지 않는다</value>
+  </data>
+  <data name="QueryBuilder_LockGroup" xml:space="preserve">
+    <value>잠금 그룹</value>
+  </data>
+  <data name="QueryBuilder_UnlockGroup" xml:space="preserve">
+    <value>그룹 잠금 해제</value>
+  </data>
+  <data name="QueryBuilder_LockRule" xml:space="preserve">
+    <value>잠금 규칙</value>
+  </data>
+  <data name="QueryBuilder_UnlockRule" xml:space="preserve">
+    <value>잠금 해제 규칙</value>
+  </data>
+  <data name="QueryBuilder_CloneGroup" xml:space="preserve">
+    <value>클론 그룹</value>
+  </data>
+  <data name="QueryBuilder_CloneRule" xml:space="preserve">
+    <value>복제 규칙</value>
+  </data>
+  <data name="ImageEditor_SaveDialogHeader" xml:space="preserve">
+    <value>다른 이름으로 저장</value>
+  </data>
+  <data name="ImageEditor_SaveDialogClose" xml:space="preserve">
+    <value>닫기</value>
+  </data>
+  <data name="ImageEditor_SaveDialogDownload" xml:space="preserve">
+    <value>다운로드</value>
+  </data>
+  <data name="ImageEditor_SaveImageSize" xml:space="preserve">
+    <value>이미지 크기:</value>
+  </data>
+  <data name="ImageEditor_SaveCustomBtnTooltip" xml:space="preserve">
+    <value>커스텀</value>
+  </data>
+  <data name="ImageEditor_SaveImageQualityGood" xml:space="preserve">
+    <value>좋은</value>
+  </data>
+  <data name="ImageEditor_SaveImageQualityGreat" xml:space="preserve">
+    <value>엄청난</value>
+  </data>
+  <data name="ImageEditor_SaveImageQualityHighest" xml:space="preserve">
+    <value>제일 높은</value>
+  </data>
+  <data name="ImageEditor_SaveDialogImageQuality" xml:space="preserve">
+    <value>품질</value>
+  </data>
+  <data name="ImageEditor_SaveInfoTooltip" xml:space="preserve">
+    <value>이미지 품질 옵션은 JPEG 형식에만 사용할 수 있습니다.</value>
+  </data>
+  <data name="ImageEditor_SaveDialogImageName" xml:space="preserve">
+    <value>이미지 이름</value>
+  </data>
+  <data name="ImageEditor_SaveDialogImageFormat" xml:space="preserve">
+    <value>체재</value>
+  </data>
+  <data name="ImageEditor_ZOrderTooltip" xml:space="preserve">
+    <value>Z 순서</value>
+  </data>
+  <data name="ImageEditor_BringToFront" xml:space="preserve">
+    <value>앞으로 가져 오기</value>
+  </data>
+  <data name="ImageEditor_BringForward" xml:space="preserve">
+    <value>앞으로 가져</value>
+  </data>
+  <data name="ImageEditor_SendToBack" xml:space="preserve">
+    <value>다시 보내기</value>
+  </data>
+  <data name="ImageEditor_SendBackward" xml:space="preserve">
+    <value>뒤로 보내기</value>
+  </data>
+  <data name="ImageEditor_OutlineColor" xml:space="preserve">
+    <value>외곽선 색상</value>
+  </data>
+  <data name="ImageEditor_RectRadius" xml:space="preserve">
+    <value>수정</value>
+  </data>
+  <data name="ImageEditor_Pixelate" xml:space="preserve">
+    <value>픽셀화</value>
+  </data>
+  <data name="ImageEditor_Pixel_Size" xml:space="preserve">
+    <value>픽셀 크기</value>
+  </data>
+  <data name="ColorPicker_RecentColors" xml:space="preserve">
+    <value>최근 색상</value>
+  </data>
+  <data name="AIAssistView_StopResponseText" xml:space="preserve">
+    <value>응답 중지</value>
   </data>
 </root>

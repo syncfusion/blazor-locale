@@ -195,6 +195,18 @@
   <data name="DropDownList_NoRecordsTemplate" xml:space="preserve">
     <value>هیچ سابقه ای پیدا نشد</value>
   </data>
+  <data name="DropDownTree_NoRecords" xml:space="preserve">
+    <value>هیچ سابقه ای پیدا نشد</value>
+  </data>
+  <data name="DropDownTree_RequestFailed" xml:space="preserve">
+    <value>درخواست انجام نشد</value>
+  </data>
+  <data name="DropDownTree_SelectAll" xml:space="preserve">
+    <value>انتخاب همه</value>
+  </data>
+  <data name="DropDownTree_UnSelectAll" xml:space="preserve">
+    <value>همه را انتخاب کنید</value>
+  </data>
   <data name="Mention_NoRecordsTemplate" xml:space="preserve">
     <value>هیچ سابقه ای پیدا نشد</value>
   </data>
@@ -591,6 +603,9 @@
   <data name="Slider_IncrementTitle" xml:space="preserve">
     <value>ارزش افزوده</value>
   </data>
+  <data name="Stepper_Optional" xml:space="preserve">
+    <value>اختیاری</value>
+  </data>
   <data name="Maps_ImageNotFound" xml:space="preserve">
     <value>تصویر پیدا نشد</value>
   </data>
@@ -762,8 +777,20 @@
   <data name="Gantt_Start" xml:space="preserve">
     <value>شروع کنید</value>
   </data>
+  <data name="Gantt_SF" xml:space="preserve">
+    <value>شروع پایان</value>
+  </data>
+  <data name="Gantt_SS" xml:space="preserve">
+    <value>شروع شروع</value>
+  </data>
   <data name="Gantt_Finish" xml:space="preserve">
     <value>پایان</value>
+  </data>
+  <data name="Gantt_FF" xml:space="preserve">
+    <value>پایان پایان</value>
+  </data>
+  <data name="Gantt_FS" xml:space="preserve">
+    <value>پایان شروع</value>
   </data>
   <data name="Gantt_EnterValue" xml:space="preserve">
     <value>مقدار را وارد کنید</value>
@@ -899,6 +926,18 @@
   </data>
   <data name="Gantt_CriticalPath" xml:space="preserve">
     <value>مسیربحرانی</value>
+  </data>
+  <data name="Gantt_Segment" xml:space="preserve">
+    <value>بخش ها</value>
+  </data>
+  <data name="Gantt_SplitTask" xml:space="preserve">
+    <value>تقسیم کار</value>
+  </data>
+  <data name="Gantt_MergeTask" xml:space="preserve">
+    <value>ادغام وظیفه</value>
+  </data>
+  <data name="Gantt_UnassignedTasks" xml:space="preserve">
+    <value>وظایف تعیین نشده</value>
   </data>
   <data name="ColorPicker_Apply" xml:space="preserve">
     <value>درخواست دادن</value>
@@ -1758,6 +1797,9 @@
   <data name="PivotView_Top" xml:space="preserve">
     <value>بالا</value>
   </data>
+  <data name="PivotView_ApplyToGrandTotal" xml:space="preserve">
+    <value>برای گرند توتال درخواست دهید</value>
+  </data>
   <data name="QueryBuilder_AddCondition" xml:space="preserve">
     <value>شرط را اضافه کنید</value>
   </data>
@@ -1958,12 +2000,6 @@
   </data>
   <data name="ImageEditor_FillColorTooltip" xml:space="preserve">
     <value>Täyttöväri</value>
-  </data>
-  <data name="ImageEditor_OkBtnTooltip" xml:space="preserve">
-    <value>خوب</value>
-  </data>
-  <data name="ImageEditor_CancelBtnTooltip" xml:space="preserve">
-    <value>لغو</value>
   </data>
   <data name="ImageEditor_ResetBtnTooltip" xml:space="preserve">
     <value>تنظیم مجدد</value>
@@ -2322,26 +2358,35 @@
   <data name="RichTextEditor_FormatsDropDownHeading6" xml:space="preserve">
     <value>عنوان  6</value>
   </data>
+  <data name="RichTextEditor_FormatsDropDownHeading7" xml:space="preserve">
+    <value>عنوان 7</value>
+  </data>
+  <data name="RichTextEditor_FormatsDropDownHeading8" xml:space="preserve">
+    <value>عنوان 8</value>
+  </data>
+  <data name="RichTextEditor_FormatsDropDownHeading9" xml:space="preserve">
+    <value>عنوان 9</value>
+  </data>
   <data name="RichTextEditor_FontNameSegoeUI" xml:space="preserve">
-    <value>سگو اوتورین</value>
+    <value>Segoe UI</value>
   </data>
   <data name="RichTextEditor_FontNameArial" xml:space="preserve">
     <value>Arial</value>
   </data>
   <data name="RichTextEditor_FontNameGeorgia" xml:space="preserve">
-    <value>گرجستان</value>
+    <value>Georgia</value>
   </data>
   <data name="RichTextEditor_FontNameImpact" xml:space="preserve">
-    <value>تأثیر</value>
+    <value>Impact</value>
   </data>
   <data name="RichTextEditor_FontNameTahoma" xml:space="preserve">
-    <value>تاهوما</value>
+    <value>Tahoma</value>
   </data>
   <data name="RichTextEditor_FontNameTimesNewRoman" xml:space="preserve">
-    <value>ار  جدید رومی</value>
+    <value>Times New Roman</value>
   </data>
   <data name="RichTextEditor_FontNameVerdana" xml:space="preserve">
-    <value>وردانا</value>
+    <value>Verdana</value>
   </data>
   <data name="RichTextEditor_Alignments" xml:space="preserve">
     <value>ترازها</value>
@@ -2506,7 +2551,7 @@
     <value>عنوانی را وارد کنید</value>
   </data>
   <data name="RichTextEditor_LinkUrl" xml:space="preserve">
-    <value>http://example.com</value>
+    <value>https://example.com</value>
   </data>
   <data name="RichTextEditor_LinkOpenInNewWindow" xml:space="preserve">
     <value>پیوند در پنجره جدید را باز کنید</value>
@@ -2575,7 +2620,7 @@
     <value>یک فایل صوتی را رها کنید یا برای آپلود مرور کنید</value>
   </data>
   <data name="RichTextEditor_ImageUrl" xml:space="preserve">
-    <value>http://example.com/image.png</value>
+    <value>https://example.com/image.png</value>
   </data>
   <data name="RichTextEditor_ImageCaption" xml:space="preserve">
     <value>عنوان</value>
@@ -2614,16 +2659,16 @@
     <value>تعداد ردیف ها</value>
   </data>
   <data name="RichTextEditor_TableRows" xml:space="preserve">
-    <value>ردیف جدول</value>
+    <value>ردیف</value>
   </data>
   <data name="RichTextEditor_TableColumns" xml:space="preserve">
-    <value>ستون های جدول</value>
+    <value>ستون</value>
   </data>
   <data name="RichTextEditor_TableCellHorizontalAlign" xml:space="preserve">
     <value>جدول سلول تراز افقی</value>
   </data>
   <data name="RichTextEditor_TableCellVerticalAlign" xml:space="preserve">
-    <value>جدول سلول عمودی تراز</value>
+    <value>تراز عمودی</value>
   </data>
   <data name="RichTextEditor_CreateTable" xml:space="preserve">
     <value>ایجاد جدول</value>
@@ -2632,7 +2677,7 @@
     <value>حذف جدول</value>
   </data>
   <data name="RichTextEditor_TableHeader" xml:space="preserve">
-    <value>سرصفحه جدول</value>
+    <value>ردیف سرصفحه</value>
   </data>
   <data name="RichTextEditor_TableRemove" xml:space="preserve">
     <value>حذف جدول</value>
@@ -2775,6 +2820,15 @@
   <data name="RichTextEditor_Video_Dimension" xml:space="preserve">
     <value>بعد، ابعاد، اندازه</value>
   </data>
+  <data name="RichTextEditor_Link_AriaLabel" xml:space="preserve">
+    <value>باز کردن در پنجره جدید</value>
+  </data>
+  <data name="RichTextEditor_Image_Link_AriaLabel" xml:space="preserve">
+    <value>باز کردن در پنجره جدید</value>
+  </data>
+  <data name="RichTextEditor_Img_AltText_Unsupported" xml:space="preserve">
+    <value>فرمت فایل پشتیبانی نشده</value>
+  </data>
   <data name="Grid_EmptyRecord" xml:space="preserve">
     <value>هیچ پرونده‌ای برای نمایش نیست</value>
   </data>
@@ -2895,6 +2949,21 @@
   <data name="Grid_ClearButton" xml:space="preserve">
     <value>پاک کردن</value>
   </data>
+  <data name="Grid_IsNull" xml:space="preserve">
+    <value>خالی</value>
+  </data>
+  <data name="Grid_IsNotNull" xml:space="preserve">
+    <value>تهی نیست</value>
+  </data>
+  <data name="Grid_IsEmpty" xml:space="preserve">
+    <value>خالی</value>
+  </data>
+  <data name="Grid_IsNotEmpty" xml:space="preserve">
+    <value>خالی نیست</value>
+  </data>
+  <data name="Grid_Like" xml:space="preserve">
+    <value>پسندیدن</value>
+  </data>
   <data name="Grid_StartsWith" xml:space="preserve">
     <value>شروع می شود با</value>
   </data>
@@ -2903,6 +2972,15 @@
   </data>
   <data name="Grid_Contains" xml:space="preserve">
     <value>حاوی</value>
+  </data>
+  <data name="Grid_DoesNotStartWith" xml:space="preserve">
+    <value>با شروع نمی شود</value>
+  </data>
+  <data name="Grid_DoesNotEndWith" xml:space="preserve">
+    <value>به پایان نمی رسد</value>
+  </data>
+  <data name="Grid_DoesNotContain" xml:space="preserve">
+    <value>شامل نمی شود</value>
   </data>
   <data name="Grid_Equal" xml:space="preserve">
     <value>برابر</value>
@@ -2964,6 +3042,12 @@
   <data name="Grid_SortDescending" xml:space="preserve">
     <value>مرتب سازی نزولی</value>
   </data>
+  <data name="Grid_SortedAscending" xml:space="preserve">
+    <value>به ترتیب صعودی مرتب شده است</value>
+  </data>
+  <data name="Grid_SortedDescending" xml:space="preserve">
+    <value>به ترتیب نزولی مرتب شده است</value>
+  </data>
   <data name="Grid_EditRecord" xml:space="preserve">
     <value>ضبط را ویرایش کنید</value>
   </data>
@@ -2975,6 +3059,9 @@
   </data>
   <data name="Grid_SelectAll" xml:space="preserve">
     <value>انتخاب همه</value>
+  </data>
+  <data name="Grid_AddCurrentSelection" xml:space="preserve">
+    <value>انتخاب فعلی را به فیلتر اضافه کنید</value>
   </data>
   <data name="Grid_Blanks" xml:space="preserve">
     <value>جای خالی</value>
@@ -3101,6 +3188,9 @@
   </data>
   <data name="Grid_FilterValue" xml:space="preserve">
     <value>مقدار فیلتر</value>
+  </data>
+  <data name="Grid_SelectRowARIA" xml:space="preserve">
+    <value>ردیف را انتخاب کنید</value>
   </data>
   <data name="Pager_Page" xml:space="preserve">
     <value>صفحه</value>
@@ -3390,6 +3480,9 @@
   <data name="Schedule_MoreDetails" xml:space="preserve">
     <value>جزئیات بیشتر</value>
   </data>
+  <data name="Schedule_MoreEvents" xml:space="preserve">
+    <value>رویدادهای بیشتر</value>
+  </data>
   <data name="Schedule_NewEvent" xml:space="preserve">
     <value>رویداد جدید</value>
   </data>
@@ -3558,6 +3651,9 @@
   <data name="PdfViewer_FileCorruptedContent" xml:space="preserve">
     <value>Tiedosto on vioittunut, eikä sitä voi avata.</value>
   </data>
+  <data name="PdfViewer_FitHeight" xml:space="preserve">
+    <value>Sopiva korkeus</value>
+  </data>
   <data name="PdfViewer_FitPage" xml:space="preserve">
     <value>Sovita sivu</value>
   </data>
@@ -3636,11 +3732,17 @@
   <data name="PdfViewer_GoToPage" xml:space="preserve">
     <value>Mene sivulle</value>
   </data>
-  <data name="PdfViewer_Nomatches" xml:space="preserve">
-    <value>Katsoja on valmis etsimään asiakirjaa. Enemmän vastaavia ei löytynyt</value>
+  <data name="PdfViewer_NoMatches" xml:space="preserve">
+    <value>نمایشگر جستجوی سند را به پایان رسانده است. هیچ منطبقی پیدا نشد</value>
   </data>
-  <data name="PdfViewer_NoTextFound" xml:space="preserve">
-    <value>Tekstiä ei löytynyt</value>
+  <data name="PdfViewer_NoMoreMatches" xml:space="preserve">
+    <value>بیننده جستجوی سند را به پایان رسانده است. منطبق بیشتری یافت نشد</value>
+  </data>
+  <data name="PdfViewer_NoSearchMatches" xml:space="preserve">
+    <value>هیچ منطبق  یافت نشد</value>
+  </data>
+  <data name="PdfViewer_NoMoreSearchMatches" xml:space="preserve">
+    <value>هیچ منطبق دیگری یافت نشد</value>
   </data>
   <data name="PdfViewer_Undo" xml:space="preserve">
     <value>Kumoa</value>
@@ -3686,6 +3788,9 @@
   </data>
   <data name="PdfViewer_Clienterror" xml:space="preserve">
     <value>Asiakaspuolen virhe löytyy. Tarkista AjaxRequestSettings-ominaisuuden tarjoamat mukautetut otsikot ja ServerActionSettings-ominaisuuden verkkotoimintatavat.</value>
+  </data>
+  <data name="PdfViewer_Corspolicyerror" xml:space="preserve">
+    <value>دسترسی به سند به دلیل سیاست CORS محدود شده است. لطفا سند را بررسی کنید.</value>
   </data>
   <data name="PdfViewer_OpenText" xml:space="preserve">
     <value>Avata</value>
@@ -4101,6 +4206,39 @@
   <data name="DocumentEditor_Justify" xml:space="preserve">
     <value>توجیه</value>
   </data>
+  <data name="DocumentEditor_OutlineLevel" xml:space="preserve">
+    <value>سطح طرح کلی</value>
+  </data>
+  <data name="DocumentEditor_BodyText" xml:space="preserve">
+    <value>متن بدنه</value>
+  </data>
+  <data name="DocumentEditor_Level1" xml:space="preserve">
+    <value>سطح 1</value>
+  </data>
+  <data name="DocumentEditor_Level2" xml:space="preserve">
+    <value>سطح 2</value>
+  </data>
+  <data name="DocumentEditor_Level3" xml:space="preserve">
+    <value>سطح 3</value>
+  </data>
+  <data name="DocumentEditor_Level4" xml:space="preserve">
+    <value>سطح 4</value>
+  </data>
+  <data name="DocumentEditor_Level5" xml:space="preserve">
+    <value>سطح 5</value>
+  </data>
+  <data name="DocumentEditor_Level6" xml:space="preserve">
+    <value>سطح 6</value>
+  </data>
+  <data name="DocumentEditor_Level7" xml:space="preserve">
+    <value>سطح 7</value>
+  </data>
+  <data name="DocumentEditor_Level8" xml:space="preserve">
+    <value>سطح 8</value>
+  </data>
+  <data name="DocumentEditor_Level9" xml:space="preserve">
+    <value>سطح 9</value>
+  </data>
   <data name="DocumentEditor_IndentFromLeft" xml:space="preserve">
     <value>مورد از سمت چپ</value>
   </data>
@@ -4283,6 +4421,15 @@
   </data>
   <data name="DocumentEditor_Heading6" xml:space="preserve">
     <value>عنوان 6</value>
+  </data>
+  <data name="DocumentEditor_Heading7" xml:space="preserve">
+    <value>عنوان 7</value>
+  </data>
+  <data name="DocumentEditor_Heading8" xml:space="preserve">
+    <value>عنوان 8</value>
+  </data>
+  <data name="DocumentEditor_Heading9" xml:space="preserve">
+    <value>عنوان 9</value>
   </data>
   <data name="DocumentEditor_ListParagraph" xml:space="preserve">
     <value>لیست پاراگراف</value>
@@ -4601,6 +4748,9 @@
   </data>
   <data name="DocumentEditor_Find" xml:space="preserve">
     <value>پیدا کردن</value>
+  </data>
+  <data name="DocumentEditor_Headings" xml:space="preserve">
+    <value>سرفصل ها</value>
   </data>
   <data name="DocumentEditor_NoMatches" xml:space="preserve">
     <value>هیچ بازی</value>
@@ -5328,6 +5478,9 @@
   <data name="DocumentEditorContainer_Find" xml:space="preserve">
     <value>پیدا کردن</value>
   </data>
+  <data name="DocumentEditorContainer_Headings" xml:space="preserve">
+    <value>سرفصل ها</value>
+  </data>
   <data name="DocumentEditorContainer_LocalClipboard" xml:space="preserve">
     <value>کلیپ بورد محلی</value>
   </data>
@@ -5853,6 +6006,24 @@
   <data name="DocumentEditorContainer_Ok" xml:space="preserve">
     <value>خوب</value>
   </data>
+  <data name="DocumentEditorContainer_Changecase" xml:space="preserve">
+    <value>مورد را تغییر دهید</value>
+</data>
+<data name="DocumentEditorContainer_Uppercase" xml:space="preserve">
+    <value>حروف بزرگ</value>
+</data>
+<data name="DocumentEditorContainer_Lowercase" xml:space="preserve">
+    <value>حروف کوچک</value>
+</data>
+<data name="DocumentEditorContainer_SentenceCase" xml:space="preserve">
+     <value>مورد جمله</value>
+</data>
+<data name="DocumentEditorContainer_CapitalizeEachWord" xml:space="preserve">
+     <value>هر کلمه را با حروف بزرگ بنویسید</value>
+</data>
+<data name="DocumentEditorContainer_ToggleCase" xml:space="preserve">
+     <value>تغییر حالت</value>
+</data>
   <data name="Gantt_Touch_DialogTextOnClickingConnectorPoint" xml:space="preserve">
     <value>کار دیگری را انتخاب کنید</value>
   </data>
@@ -5990,5 +6161,197 @@
   </data>
   <data name="ImageEditor_DropText" xml:space="preserve">
     <value>تصویر خود را اینجا رها کنید یا</value>
+  </data>
+  <data name="DocumentEditorContainer_TabStopPosition" xml:space="preserve">
+<value>موقعیت توقف تب</value>
+</data>
+<data name="DocumentEditorContainer_DefaultTabStops" xml:space="preserve">
+<value>تب پیش فرض متوقف می شود</value>
+</data>
+<data name="DocumentEditorContainer_TabStopsCleared" xml:space="preserve">
+<value>تب متوقف می شود تا پاک شود</value>
+</data>
+<data name="DocumentEditorContainer_Tabs" xml:space="preserve">
+<value>زبانه ها</value>
+</data>
+<data name="DocumentEditor_Set" xml:space="preserve">
+<value>تنظیم</value>
+</data>
+<data name="DocumentEditor_Clear" xml:space="preserve">
+<value>پاک کردن</value>
+</data>
+<data name="DocumentEditor_ClearAll" xml:space="preserve">
+<value>همه را پاک کن</value>
+</data>
+<data name="DocumentEditor_Decimal" xml:space="preserve">
+<value>اعشاری</value>
+</data>
+<data name="DocumentEditor_Bar" xml:space="preserve">
+<value>بار</value>
+</data>
+<data name="DocumentEditorContainer_Alignment" xml:space="preserve">
+<value>هم ترازی</value>
+</data>
+<data name="DocumentEditorContainer_Leader" xml:space="preserve">
+<value>رهبر</value>
+</data>
+<data name="DocumentEditorContainer_All" xml:space="preserve">
+<value>همه</value>
+</data>
+<data name="DocumentEditor_BottomMargin" xml:space="preserve">
+<value>حاشیه پایین</value>
+</data>
+<data name="DocumentEditor_FirstLineIndent" xml:space="preserve">
+<value>تورفتگی خط اول</value>
+</data>
+<data name="DocumentEditor_HangingIndent" xml:space="preserve">
+<value>حلق آویز دندانه دار</value>
+</data>
+<data name="DocumentEditor_LeftIndent" xml:space="preserve">
+<value>تورفتگی سمت چپ</value>
+</data>
+<data name="DocumentEditor_LeftMargin" xml:space="preserve">
+<value>حاشیه چپ</value>
+</data>
+<data name="DocumentEditor_MoveTableColumn" xml:space="preserve">
+<value>حرکت ستون جدول</value>
+</data>
+<data name="DocumentEditor_RightIndent" xml:space="preserve">
+<value>تورفتگی راست</value>
+</data>
+<data name="DocumentEditor_RightMargin" xml:space="preserve">
+<value>حاشیه سمت راست</value>
+</data>
+<data name="DocumentEditor_TopMargin" xml:space="preserve">
+<value>حاشیه بالا</value>
+</data>
+<data name="DocumentEditor_LeftTab" xml:space="preserve">
+<value>برگه سمت چپ</value>
+</data>
+<data name="DocumentEditor_CenterTab" xml:space="preserve">
+<value>برگه مرکز</value>
+</data>
+<data name="DocumentEditor_RightTab" xml:space="preserve">
+<value>برگه سمت راست</value>
+</data>
+<data name="DocumentEditor_DecimalTab" xml:space="preserve">
+<value>برگه اعشاری</value>
+</data>
+<data name="DocumentEditor_BarTab" xml:space="preserve">
+<value>نوار نوار</value>
+</data>
+  <data name="ImageEditor_OkBtnTooltip" xml:space="preserve">
+    <value>درخواست دادن</value>
+  </data>
+  <data name="ImageEditor_Annotation" xml:space="preserve">
+    <value>یادداشت نویسی</value>
+  </data>
+  <data name="ImageEditor_CancelBtnTooltip" xml:space="preserve">
+    <value>دور انداختن</value>
+  </data>
+  <data name="QueryBuilder_Null" xml:space="preserve">
+    <value>پوچ است</value>
+  </data>
+  <data name="QueryBuilder_NotNull" xml:space="preserve">
+    <value>پوچ نیست</value>
+  </data>
+  <data name="ImageEditor_StraightenTooltip" xml:space="preserve">
+    <value>صاف کردن</value>
+  </data>
+  <data name="PivotView_Combined" xml:space="preserve">
+    <value>ترکیب شده</value>
+  </data>
+  <data name="QueryBuilder_NotStartsWith" xml:space="preserve">
+    <value>با شروع نمی شود</value>
+  </data>
+  <data name="QueryBuilder_NotEndsWith" xml:space="preserve">
+    <value>به پایان نمی رسد</value>
+  </data>
+  <data name="QueryBuilder_LockGroup" xml:space="preserve">
+    <value>گروه قفل</value>
+  </data>
+  <data name="QueryBuilder_UnlockGroup" xml:space="preserve">
+    <value>باز کردن قفل گروه</value>
+  </data>
+  <data name="QueryBuilder_LockRule" xml:space="preserve">
+    <value>قانون قفل</value>
+  </data>
+  <data name="QueryBuilder_UnlockRule" xml:space="preserve">
+    <value>قانون باز کردن قفل</value>
+  </data>
+  <data name="QueryBuilder_CloneGroup" xml:space="preserve">
+    <value>گروه کلون</value>
+  </data>
+  <data name="QueryBuilder_CloneRule" xml:space="preserve">
+    <value>قانون کلون</value>
+  </data>
+  <data name="ImageEditor_SaveDialogHeader" xml:space="preserve">
+    <value>ذخیره به عنوان</value>
+  </data>
+  <data name="ImageEditor_SaveDialogClose" xml:space="preserve">
+    <value>نزدیک</value>
+  </data>
+  <data name="ImageEditor_SaveDialogDownload" xml:space="preserve">
+    <value>دانلود</value>
+  </data>
+  <data name="ImageEditor_SaveImageSize" xml:space="preserve">
+    <value>اندازه تصویر:</value>
+  </data>
+  <data name="ImageEditor_SaveCustomBtnTooltip" xml:space="preserve">
+    <value>سفارشی</value>
+  </data>
+  <data name="ImageEditor_SaveImageQualityGood" xml:space="preserve">
+    <value>خوب</value>
+  </data>
+  <data name="ImageEditor_SaveImageQualityGreat" xml:space="preserve">
+    <value>عالی</value>
+  </data>
+  <data name="ImageEditor_SaveImageQualityHighest" xml:space="preserve">
+    <value>بالاترین</value>
+  </data>
+  <data name="ImageEditor_SaveDialogImageQuality" xml:space="preserve">
+    <value>کیفیت</value>
+  </data>
+  <data name="ImageEditor_SaveInfoTooltip" xml:space="preserve">
+    <value>گزینه کیفیت تصویر فقط برای فرمت JPEG موجود است</value>
+  </data>
+  <data name="ImageEditor_SaveDialogImageName" xml:space="preserve">
+    <value>نام تصویر</value>
+  </data>
+  <data name="ImageEditor_SaveDialogImageFormat" xml:space="preserve">
+    <value>قالب</value>
+  </data>
+  <data name="ImageEditor_ZOrderTooltip" xml:space="preserve">
+    <value>Z-Order</value>
+  </data>
+  <data name="ImageEditor_BringToFront" xml:space="preserve">
+    <value>به جلو بیاورید</value>
+  </data>
+  <data name="ImageEditor_BringForward" xml:space="preserve">
+    <value>به جلو بیاورید</value>
+  </data>
+  <data name="ImageEditor_SendToBack" xml:space="preserve">
+    <value>ارسال به عقب</value>
+  </data>
+  <data name="ImageEditor_SendBackward" xml:space="preserve">
+    <value>ارسال به عقب</value>
+  </data>
+  <data name="ImageEditor_OutlineColor" xml:space="preserve">
+    <value>رنگ طرح کلی</value>
+  </data>
+  <data name="ImageEditor_RectRadius" xml:space="preserve">
+    <value>ویرایش کنید</value>
+  </data>
+  <data name="ImageEditor_Pixelate" xml:space="preserve">
+    <value>پیکسلی</value>
+  </data>
+  <data name="ImageEditor_Pixel_Size" xml:space="preserve">
+    <value>اندازه پیکسل</value>
+  </data>
+  <data name="ColorPicker_RecentColors" xml:space="preserve">
+    <value>رنگ های اخیر</value>
+  </data>
+  <data name="AIAssistView_StopResponseText" xml:space="preserve">
+    <value>پاسخ دادن را متوقف کنید</value>
   </data>
 </root>

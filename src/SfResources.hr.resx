@@ -195,6 +195,18 @@
   <data name="DropDownList_NoRecordsTemplate" xml:space="preserve">
     <value>Nije pronađen nijedan zapis</value>
   </data>
+  <data name="DropDownTree_NoRecords" xml:space="preserve">
+    <value>Nije pronađen nijedan zapis</value>
+  </data>
+  <data name="DropDownTree_RequestFailed" xml:space="preserve">
+    <value>Zahtjev nije uspio</value>
+  </data>
+  <data name="DropDownTree_SelectAll" xml:space="preserve">
+    <value>Odaberi sve</value>
+  </data>
+  <data name="DropDownTree_UnSelectAll" xml:space="preserve">
+    <value>Poništi odabir svih</value>
+  </data>
   <data name="Mention_NoRecordsTemplate" xml:space="preserve">
     <value>Nije pronađen nijedan zapis</value>
   </data>
@@ -591,6 +603,9 @@
   <data name="Slider_IncrementTitle" xml:space="preserve">
     <value>Povećati</value>
   </data>
+  <data name="Stepper_Optional" xml:space="preserve">
+    <value>Neobavezno</value>
+  </data>
   <data name="Maps_ImageNotFound" xml:space="preserve">
     <value>Slika nije pronađena</value>
   </data>
@@ -705,6 +720,12 @@
   <data name="Gantt_Finish" xml:space="preserve">
     <value>Završi</value>
   </data>
+  <data name="Gantt_FS" xml:space="preserve">
+    <value>ZP</value>
+  </data>
+  <data name="Gantt_FF" xml:space="preserve">
+    <value>ZZ</value>
+  </data>
   <data name="Gantt_From" xml:space="preserve">
     <value>Iz</value>
   </data>
@@ -776,6 +797,12 @@
   </data>
   <data name="Gantt_Start" xml:space="preserve">
     <value>Početak</value>
+  </data>
+  <data name="Gantt_SS" xml:space="preserve">
+    <value>PP</value>
+  </data>
+  <data name="Gantt_SF" xml:space="preserve">
+    <value>PZ</value>
   </data>
   <data name="Gantt_StartDate" xml:space="preserve">
     <value>Početni datum</value>
@@ -899,6 +926,18 @@
   </data>
   <data name="Gantt_CriticalPath" xml:space="preserve">
     <value>Kritični put</value>
+  </data>
+  <data name="Gantt_Segment" xml:space="preserve">
+    <value>Segmenti</value>
+  </data>
+  <data name="Gantt_SplitTask" xml:space="preserve">
+    <value>Splitski zadatak</value>
+  </data>
+  <data name="Gantt_MergeTask" xml:space="preserve">
+    <value>Zadatak spajanja</value>
+  </data>
+  <data name="Gantt_UnassignedTasks" xml:space="preserve">
+    <value>Nedodijeljeni zadaci</value>
   </data>
   <data name="ColorPicker_Apply" xml:space="preserve">
     <value>primijeniti</value>
@@ -1755,6 +1794,9 @@
   <data name="PivotView_Top" xml:space="preserve">
     <value>Vrh</value>
   </data>
+  <data name="PivotView_ApplyToGrandTotal" xml:space="preserve">
+    <value>Primijeni na Ukupni zbroj</value>
+  </data>
   <data name="QueryBuilder_AddCondition" xml:space="preserve">
     <value>Dodajte uvjet</value>
   </data>
@@ -1955,12 +1997,6 @@
   </data>
   <data name="ImageEditor_FillColorTooltip" xml:space="preserve">
     <value>Fill Color</value>
-  </data>
-  <data name="ImageEditor_OkBtnTooltip" xml:space="preserve">
-    <value>u redu</value>
-  </data>
-  <data name="ImageEditor_CancelBtnTooltip" xml:space="preserve">
-    <value>Otkazati</value>
   </data>
   <data name="ImageEditor_ResetBtnTooltip" xml:space="preserve">
     <value>Reset</value>
@@ -2319,23 +2355,32 @@
   <data name="RichTextEditor_FormatsDropDownHeading6" xml:space="preserve">
     <value>Naslov   6</value>
   </data>
+  <data name="RichTextEditor_FormatsDropDownHeading7" xml:space="preserve">
+    <value>Naslov   7</value>
+  </data>
+  <data name="RichTextEditor_FormatsDropDownHeading8" xml:space="preserve">
+    <value>Naslov   8</value>
+  </data>
+  <data name="RichTextEditor_FormatsDropDownHeading9" xml:space="preserve">
+    <value>Naslov   9</value>
+  </data>
   <data name="RichTextEditor_FontNameSegoeUI" xml:space="preserve">
-    <value>Korisničko sučelje Segoe</value>
+    <value>Segoe UI</value>
   </data>
   <data name="RichTextEditor_FontNameArial" xml:space="preserve">
     <value>Arial</value>
   </data>
   <data name="RichTextEditor_FontNameGeorgia" xml:space="preserve">
-    <value>Gruzija</value>
+    <value>Georgia</value>
   </data>
   <data name="RichTextEditor_FontNameImpact" xml:space="preserve">
-    <value>Udarac</value>
+    <value>Impact</value>
   </data>
   <data name="RichTextEditor_FontNameTahoma" xml:space="preserve">
     <value>Tahoma</value>
   </data>
   <data name="RichTextEditor_FontNameTimesNewRoman" xml:space="preserve">
-    <value>Puta nova rimski</value>
+    <value>Times New Roman</value>
   </data>
   <data name="RichTextEditor_FontNameVerdana" xml:space="preserve">
     <value>Verdana</value>
@@ -2503,7 +2548,7 @@
     <value>Unesite naslov</value>
   </data>
   <data name="RichTextEditor_LinkUrl" xml:space="preserve">
-    <value>http://example.com</value>
+    <value>https://example.com</value>
   </data>
   <data name="RichTextEditor_LinkOpenInNewWindow" xml:space="preserve">
     <value>Otvorite vezu u novom prozoru</value>
@@ -2572,7 +2617,7 @@
     <value>Ispustite audio datoteku ili pregledajte za prijenos</value>
   </data>
   <data name="RichTextEditor_ImageUrl" xml:space="preserve">
-    <value>http://example.com/image.png</value>
+    <value>https://example.com/image.png</value>
   </data>
   <data name="RichTextEditor_ImageCaption" xml:space="preserve">
     <value>Naslov</value>
@@ -2611,16 +2656,16 @@
     <value>Broj redaka</value>
   </data>
   <data name="RichTextEditor_TableRows" xml:space="preserve">
-    <value>Redovi tablica</value>
+    <value>Red</value>
   </data>
   <data name="RichTextEditor_TableColumns" xml:space="preserve">
-    <value>Stupci tablice</value>
+    <value>Stupac</value>
   </data>
   <data name="RichTextEditor_TableCellHorizontalAlign" xml:space="preserve">
     <value>Vodoravno poravnavanje ćelije tablice</value>
   </data>
   <data name="RichTextEditor_TableCellVerticalAlign" xml:space="preserve">
-    <value>Vertikalno poravnajte ćeliju tablice</value>
+    <value>Okomito poravnanje</value>
   </data>
   <data name="RichTextEditor_CreateTable" xml:space="preserve">
     <value>Stvori tablicu</value>
@@ -2629,10 +2674,10 @@
     <value>Ukloni tablicu</value>
   </data>
   <data name="RichTextEditor_TableHeader" xml:space="preserve">
-    <value>Zaglavlje stola</value>
+    <value>Redak zaglavlja</value>
   </data>
   <data name="RichTextEditor_TableRemove" xml:space="preserve">
-    <value>Tablica Ukloni</value>
+    <value>Izbriši tablicu</value>
   </data>
   <data name="RichTextEditor_TableCellBackground" xml:space="preserve">
     <value>Pozadina ćelija tablice</value>
@@ -2771,6 +2816,15 @@
   </data>
   <data name="RichTextEditor_Video_Dimension" xml:space="preserve">
     <value>Dimenzija</value>
+  </data>
+  <data name="RichTextEditor_Link_AriaLabel" xml:space="preserve">
+    <value>Otvori u novom prozoru</value>
+  </data>
+  <data name="RichTextEditor_Image_Link_AriaLabel" xml:space="preserve">
+    <value>Otvori u novom prozoru</value>
+  </data>
+  <data name="RichTextEditor_Img_AltText_Unsupported" xml:space="preserve">
+    <value>Nepodržani format datoteke</value>
   </data>
   <data name="DiagramComponent_X" xml:space="preserve">
     <value>x</value>
@@ -2946,6 +3000,21 @@
   <data name="Grid_ClearButton" xml:space="preserve">
     <value>Čisto</value>
   </data>
+  <data name="Grid_IsNull" xml:space="preserve">
+    <value>Null</value>
+  </data>
+  <data name="Grid_IsNotNull" xml:space="preserve">
+    <value>Nije Null</value>
+  </data>
+  <data name="Grid_IsEmpty" xml:space="preserve">
+    <value>Prazan</value>
+  </data>
+  <data name="Grid_IsNotEmpty" xml:space="preserve">
+    <value>Nije prazno</value>
+  </data>
+  <data name="Grid_Like" xml:space="preserve">
+    <value>Kao</value>
+  </data>
   <data name="Grid_StartsWith" xml:space="preserve">
     <value>Počinje sa</value>
   </data>
@@ -2954,6 +3023,15 @@
   </data>
   <data name="Grid_Contains" xml:space="preserve">
     <value>sadrži</value>
+  </data>
+  <data name="Grid_DoesNotStartWith" xml:space="preserve">
+    <value>Ne počinje s</value>
+  </data>
+  <data name="Grid_DoesNotEndWith" xml:space="preserve">
+    <value>Ne završava se</value>
+  </data>
+  <data name="Grid_DoesNotContain" xml:space="preserve">
+    <value>Ne sadrži</value>
   </data>
   <data name="Grid_Equal" xml:space="preserve">
     <value>Jednak</value>
@@ -3015,6 +3093,12 @@
   <data name="Grid_SortDescending" xml:space="preserve">
     <value>Poredaj silazno</value>
   </data>
+  <data name="Grid_SortedAscending" xml:space="preserve">
+    <value>Poredano uzlaznim redoslijedom</value>
+  </data>
+  <data name="Grid_SortedDescending" xml:space="preserve">
+    <value>Poredano silaznim redoslijedom</value>
+  </data>
   <data name="Grid_EditRecord" xml:space="preserve">
     <value>Uređivanje zapisa</value>
   </data>
@@ -3026,6 +3110,9 @@
   </data>
   <data name="Grid_SelectAll" xml:space="preserve">
     <value>Odaberi sve</value>
+  </data>
+  <data name="Grid_AddCurrentSelection" xml:space="preserve">
+    <value>Dodaj trenutni odabir u filter</value>
   </data>
   <data name="Grid_Blanks" xml:space="preserve">
     <value>Blanks</value>
@@ -3152,6 +3239,9 @@
   </data>
   <data name="Grid_FilterValue" xml:space="preserve">
     <value>Vrijednost filtra</value>
+  </data>
+  <data name="Grid_SelectRowARIA" xml:space="preserve">
+    <value>Odaberite red</value>
   </data>
   <data name="Pager_Page" xml:space="preserve">
     <value>Stranica</value>
@@ -3441,6 +3531,9 @@
   <data name="Schedule_MoreDetails" xml:space="preserve">
     <value>Više detalja</value>
   </data>
+  <data name="Schedule_MoreEvents" xml:space="preserve">
+    <value>Više događaja</value>
+  </data>
   <data name="Schedule_NewEvent" xml:space="preserve">
     <value>Novi događaj</value>
   </data>
@@ -3609,6 +3702,9 @@
   <data name="PdfViewer_FileCorruptedContent" xml:space="preserve">
     <value>Datoteka je oštećena i ne može se otvoriti.</value>
   </data>
+  <data name="PdfViewer_FitHeight" xml:space="preserve">
+    <value>Fit Visina</value>
+  </data>
   <data name="PdfViewer_FitPage" xml:space="preserve">
     <value>Fit Stranica</value>
   </data>
@@ -3687,12 +3783,18 @@
   <data name="PdfViewer_GoToPage" xml:space="preserve">
     <value>Idi na stranicu</value>
   </data>
-  <data name="PdfViewer_Nomatches" xml:space="preserve">
-    <value>Preglednik je završio pretraživanje dokumenta. Više rezultata nije pronađeno</value>
-  </data>
-  <data name="PdfViewer_NoTextFound" xml:space="preserve">
-    <value>Nije pronađen tekst</value>
-  </data>
+  <data name="PdfViewer_NoMatches" xml:space="preserve">
+   <value>Preglednik je završio pretraživanje dokumenta. Nema rezultata pronađeno.</value>
+ </data>
+  <data name="PdfViewer_NoMoreMatches" xml:space="preserve">
+   <value>Preglednik je završio pretraživanje dokumenta. Više rezultata nije pronađeno.</value>
+ </data>
+ <data name="PdfViewer_NoSearchMatches" xml:space="preserve">
+   <value>Nema rezultata pronađeno</value>
+ </data>
+ <data name="PdfViewer_NoMoreSearchMatches" xml:space="preserve">
+   <value>Više rezultata nije pronađeno</value>
+ </data>
   <data name="PdfViewer_Undo" xml:space="preserve">
     <value>Poništi</value>
   </data>
@@ -3737,6 +3839,9 @@
   </data>
   <data name="PdfViewer_Clienterror" xml:space="preserve">
     <value>Pronađena je pogreška na strani klijenta. Provjerite prilagođena zaglavlja u entitetu AjaxRequestSettings i metode web akcije u entitetu ServerActionSettings.</value>
+  </data>
+  <data name="PdfViewer_Corspolicyerror" xml:space="preserve">
+    <value>Pristup dokumentu je ograničen zbog pravila CORS-a. Provjerite dokument.</value>
   </data>
   <data name="PdfViewer_OpenText" xml:space="preserve">
     <value>Otvorena</value>
@@ -4152,6 +4257,39 @@
   <data name="DocumentEditor_Justify" xml:space="preserve">
     <value>Opravdati</value>
   </data>
+  <data name="DocumentEditor_OutlineLevel" xml:space="preserve">
+    <value>Razina okvira</value>
+  </data>
+  <data name="DocumentEditor_BodyText" xml:space="preserve">
+    <value>Tijelo teksta</value>
+  </data>
+  <data name="DocumentEditor_Level1" xml:space="preserve">
+    <value>Razina 1</value>
+  </data>
+  <data name="DocumentEditor_Level2" xml:space="preserve">
+    <value>Razina 2</value>
+  </data>
+  <data name="DocumentEditor_Level3" xml:space="preserve">
+    <value>Razina 3</value>
+  </data>
+  <data name="DocumentEditor_Level4" xml:space="preserve">
+    <value>Razina 4</value>
+  </data>
+  <data name="DocumentEditor_Level5" xml:space="preserve">
+    <value>Razina 5</value>
+  </data>
+  <data name="DocumentEditor_Level6" xml:space="preserve">
+    <value>Razina 6</value>
+  </data>
+  <data name="DocumentEditor_Level7" xml:space="preserve">
+    <value>Razina 7</value>
+  </data>
+  <data name="DocumentEditor_Level8" xml:space="preserve">
+    <value>Razina 8</value>
+  </data>
+  <data name="DocumentEditor_Level9" xml:space="preserve">
+    <value>Razina 9</value>
+  </data>
   <data name="DocumentEditor_IndentFromLeft" xml:space="preserve">
     <value>Uvlaka s lijeve strane</value>
   </data>
@@ -4334,6 +4472,15 @@
   </data>
   <data name="DocumentEditor_Heading6" xml:space="preserve">
     <value>Naslov 6</value>
+  </data>
+  <data name="DocumentEditor_Heading7" xml:space="preserve">
+    <value>Naslov 7</value>
+  </data>
+  <data name="DocumentEditor_Heading8" xml:space="preserve">
+    <value>Naslov 8</value>
+  </data>
+  <data name="DocumentEditor_Heading9" xml:space="preserve">
+    <value>Naslov 9</value>
   </data>
   <data name="DocumentEditor_ListParagraph" xml:space="preserve">
     <value>Popis stavak</value>
@@ -4652,6 +4799,9 @@
   </data>
   <data name="DocumentEditor_Find" xml:space="preserve">
     <value>Pronaći</value>
+  </data>
+  <data name="DocumentEditor_Headings" xml:space="preserve">
+    <value>Naslovi</value>
   </data>
   <data name="DocumentEditor_NoMatches" xml:space="preserve">
     <value>Nema utakmica</value>
@@ -5379,6 +5529,9 @@
   <data name="DocumentEditorContainer_Find" xml:space="preserve">
     <value>Pronaći</value>
   </data>
+  <data name="DocumentEditorContainer_Headings" xml:space="preserve">
+    <value>Naslovi</value>
+  </data>
   <data name="DocumentEditorContainer_LocalClipboard" xml:space="preserve">
     <value>Lokalni međuspremnik</value>
   </data>
@@ -5847,6 +6000,24 @@
   <data name="DocumentEditorContainer_Ok" xml:space="preserve">
     <value>u redu</value>
   </data>
+  <data name="DocumentEditorContainer_Changecase" xml:space="preserve">
+    <value>Promjena velikih i malih slova</value>
+</data>
+<data name="DocumentEditorContainer_Uppercase" xml:space="preserve">
+    <value>VELIKA SLOVA</value>
+</data>
+<data name="DocumentEditorContainer_Lowercase" xml:space="preserve">
+     <value>mala slova</value>
+</data>
+<data name="DocumentEditorContainer_SentenceCase" xml:space="preserve">
+    <value>Padež rečenice</value>
+</data>
+<data name="DocumentEditorContainer_CapitalizeEachWord" xml:space="preserve">
+    <value>Napišite svaku riječ velikim slovima</value>
+</data>
+<data name="DocumentEditorContainer_ToggleCase" xml:space="preserve">
+    <value>Promjena velikih i velikih slova</value>
+</data>  
   <data name="Gantt_Touch_DialogTextOnClickingConnectorPoint" xml:space="preserve">
     <value>Odaberite drugi zadatak</value>
   </data>
@@ -5990,5 +6161,197 @@
   </data>
   <data name="ImageEditor_DropText" xml:space="preserve">
     <value>Ispustite svoju sliku ovdje ili</value>
+  </data>
+  <data name="DocumentEditorContainer_TabStopPosition" xml:space="preserve">
+<value>Položaj za zaustavljanje kartice</value>
+</data>
+<data name="DocumentEditorContainer_DefaultTabStops" xml:space="preserve">
+<value>Zadana tabulatorska mjesta</value>
+</data>
+<data name="DocumentEditorContainer_TabStopsCleared" xml:space="preserve">
+<value>Tabulatorske oznake koje treba izbrisati</value>
+</data>
+<data name="DocumentEditorContainer_Tabs" xml:space="preserve">
+<value>Kartice</value>
+</data>
+<data name="DocumentEditor_Set" xml:space="preserve">
+<value>set</value>
+</data>
+<data name="DocumentEditor_Clear" xml:space="preserve">
+<value>Čisto</value>
+</data>
+<data name="DocumentEditor_ClearAll" xml:space="preserve">
+<value>Očistiti sve</value>
+</data>
+<data name="DocumentEditor_Decimal" xml:space="preserve">
+<value>Decimal</value>
+</data>
+<data name="DocumentEditor_Bar" xml:space="preserve">
+<value>Bar</value>
+</data>
+<data name="DocumentEditorContainer_Alignment" xml:space="preserve">
+<value>Poravnanje</value>
+</data>
+<data name="DocumentEditorContainer_Leader" xml:space="preserve">
+<value>Vođa</value>
+</data>
+<data name="DocumentEditorContainer_All" xml:space="preserve">
+<value>svi</value>
+</data>
+<data name="DocumentEditor_BottomMargin" xml:space="preserve">
+<value>Donja margina</value>
+</data>
+<data name="DocumentEditor_FirstLineIndent" xml:space="preserve">
+<value>Uvlaka prvog retka</value>
+</data>
+<data name="DocumentEditor_HangingIndent" xml:space="preserve">
+<value>Viseća uvlaka</value>
+</data>
+<data name="DocumentEditor_LeftIndent" xml:space="preserve">
+<value>Lijeva uvlaka</value>
+</data>
+<data name="DocumentEditor_LeftMargin" xml:space="preserve">
+<value>Lijeva margina</value>
+</data>
+<data name="DocumentEditor_MoveTableColumn" xml:space="preserve">
+<value>Premjesti stupac tablice</value>
+</data>
+<data name="DocumentEditor_RightIndent" xml:space="preserve">
+<value>Desna uvlaka</value>
+</data>
+<data name="DocumentEditor_RightMargin" xml:space="preserve">
+<value>Desna margina</value>
+</data>
+<data name="DocumentEditor_TopMargin" xml:space="preserve">
+<value>Gornja margina</value>
+</data>
+<data name="DocumentEditor_LeftTab" xml:space="preserve">
+<value>Lijeva kartica</value>
+</data>
+<data name="DocumentEditor_CenterTab" xml:space="preserve">
+<value>Središnja kartica</value>
+</data>
+<data name="DocumentEditor_RightTab" xml:space="preserve">
+<value>Desna kartica</value>
+</data>
+<data name="DocumentEditor_DecimalTab" xml:space="preserve">
+<value>Decimalni tab</value>
+</data>
+<data name="DocumentEditor_BarTab" xml:space="preserve">
+<value>Kartica trake</value>
+</data>
+  <data name="ImageEditor_OkBtnTooltip" xml:space="preserve">
+    <value>primijeniti</value>
+  </data>
+  <data name="ImageEditor_Annotation" xml:space="preserve">
+    <value>Naziv datoteke</value>
+  </data>
+  <data name="ImageEditor_CancelBtnTooltip" xml:space="preserve">
+    <value>Odbaciti</value>
+  </data>
+  <data name="QueryBuilder_Null" xml:space="preserve">
+    <value>Je Null</value>
+  </data>
+  <data name="QueryBuilder_NotNull" xml:space="preserve">
+    <value>Nije Null</value>
+  </data>
+  <data name="ImageEditor_StraightenTooltip" xml:space="preserve">
+    <value>Ispraviti</value>
+  </data>
+  <data name="PivotView_Combined" xml:space="preserve">
+    <value>Kombinirano</value>
+  </data>
+  <data name="QueryBuilder_NotStartsWith" xml:space="preserve">
+    <value>Ne počinje s</value>
+  </data>
+  <data name="QueryBuilder_NotEndsWith" xml:space="preserve">
+    <value>Ne završava se</value>
+  </data>
+  <data name="QueryBuilder_LockGroup" xml:space="preserve">
+    <value>Zaključaj grupu</value>
+  </data>
+  <data name="QueryBuilder_UnlockGroup" xml:space="preserve">
+    <value>Otključaj grupu</value>
+  </data>
+  <data name="QueryBuilder_LockRule" xml:space="preserve">
+    <value>Pravilo zaključavanja</value>
+  </data>
+  <data name="QueryBuilder_UnlockRule" xml:space="preserve">
+    <value>Pravilo za otključavanje</value>
+  </data>
+  <data name="QueryBuilder_CloneGroup" xml:space="preserve">
+    <value>Grupa klonova</value>
+  </data>
+  <data name="QueryBuilder_CloneRule" xml:space="preserve">
+    <value>Pravilo kloniranja</value>
+  </data>
+  <data name="ImageEditor_SaveDialogHeader" xml:space="preserve">
+    <value>Spremi kao</value>
+  </data>
+  <data name="ImageEditor_SaveDialogClose" xml:space="preserve">
+    <value>Zatvoriti</value>
+  </data>
+  <data name="ImageEditor_SaveDialogDownload" xml:space="preserve">
+    <value>preuzimanje datoteka</value>
+  </data>
+  <data name="ImageEditor_SaveImageSize" xml:space="preserve">
+    <value>Veličina slike:</value>
+  </data>
+  <data name="ImageEditor_SaveCustomBtnTooltip" xml:space="preserve">
+    <value>Prilagođen</value>
+  </data>
+  <data name="ImageEditor_SaveImageQualityGood" xml:space="preserve">
+    <value>Dobro</value>
+  </data>
+  <data name="ImageEditor_SaveImageQualityGreat" xml:space="preserve">
+    <value>Sjajno</value>
+  </data>
+  <data name="ImageEditor_SaveImageQualityHighest" xml:space="preserve">
+    <value>Najviši</value>
+  </data>
+  <data name="ImageEditor_SaveDialogImageQuality" xml:space="preserve">
+    <value>Kvaliteta</value>
+  </data>
+  <data name="ImageEditor_SaveInfoTooltip" xml:space="preserve">
+    <value>Opcija kvalitete slike dostupna je samo za JPEG format</value>
+  </data>
+  <data name="ImageEditor_SaveDialogImageName" xml:space="preserve">
+    <value>Naziv slike</value>
+  </data>
+  <data name="ImageEditor_SaveDialogImageFormat" xml:space="preserve">
+    <value>Format</value>
+  </data>
+  <data name="ImageEditor_ZOrderTooltip" xml:space="preserve">
+    <value>Z-redoslijed</value>
+  </data>
+  <data name="ImageEditor_BringToFront" xml:space="preserve">
+    <value>Traer al frente</value>
+  </data>
+  <data name="ImageEditor_BringForward" xml:space="preserve">
+    <value>Iznijeti</value>
+  </data>
+  <data name="ImageEditor_SendToBack" xml:space="preserve">
+    <value>Poslati natrag</value>
+  </data>
+  <data name="ImageEditor_SendBackward" xml:space="preserve">
+    <value>Enviar atrás</value>
+  </data>
+  <data name="ImageEditor_OutlineColor" xml:space="preserve">
+    <value>Boja obrisa</value>
+  </data>
+  <data name="ImageEditor_RectRadius" xml:space="preserve">
+    <value>Urediti</value>
+  </data>
+  <data name="ImageEditor_Pixelate" xml:space="preserve">
+    <value>Pikselizirati</value>
+  </data>
+  <data name="ImageEditor_Pixel_Size" xml:space="preserve">
+    <value>Veličina piksela</value>
+  </data>
+  <data name="ColorPicker_RecentColors" xml:space="preserve">
+    <value>Najnovije boje</value>
+  </data>
+  <data name="AIAssistView_StopResponseText" xml:space="preserve">
+    <value>Prestanite reagirati</value>
   </data>
 </root>

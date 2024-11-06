@@ -195,6 +195,18 @@
   <data name="DropDownList_NoRecordsTemplate" xml:space="preserve">
     <value>沒有找到記錄</value>
   </data>
+   <data name="DropDownTree_NoRecords" xml:space="preserve">
+    <value>沒有找到記錄</value>
+  </data>
+  <data name="DropDownTree_RequestFailed" xml:space="preserve">
+    <value>請求失敗</value>
+  </data>
+  <data name="DropDownTree_SelectAll" xml:space="preserve">
+    <value>全選</value>
+  </data>
+  <data name="DropDownTree_UnSelectAll" xml:space="preserve">
+    <value>全部取消選擇</value>
+  </data>
   <data name="Mention_NoRecordsTemplate" xml:space="preserve">
     <value>沒有找到記錄</value>
   </data>
@@ -723,6 +735,9 @@
   <data name="Slider_IncrementTitle" xml:space="preserve">
     <value>增加</value>
   </data>
+  <data name="Stepper_Optional" xml:space="preserve">
+    <value>选修的</value>
+  </data>
   <data name="Chart_Zoom" xml:space="preserve">
     <value>飛漲</value>
   </data>
@@ -912,8 +927,20 @@
   <data name="Gantt_Start" xml:space="preserve">
     <value>開始</value>
   </data>
+  <data name="Gantt_SS" xml:space="preserve">
+    <value>開始 開始</value>
+  </data>
+  <data name="Gantt_SF" xml:space="preserve">
+    <value>開始 完</value>
+  </data>
   <data name="Gantt_Finish" xml:space="preserve">
     <value>完</value>
+  </data>
+  <data name="Gantt_FS" xml:space="preserve">
+    <value>完 開始</value>
+  </data>
+  <data name="Gantt_FF" xml:space="preserve">
+    <value>完 完</value>
   </data>
   <data name="Gantt_EnterValue" xml:space="preserve">
     <value>輸入值</value>
@@ -1049,6 +1076,18 @@
   </data>
   <data name="Gantt_CriticalPath" xml:space="preserve">
     <value>關鍵路徑</value>
+  </data>
+  <data name="Gantt_Segment" xml:space="preserve">
+    <value>段</value>
+  </data>
+  <data name="Gantt_SplitTask" xml:space="preserve">
+    <value>分割任務</value>
+  </data>
+  <data name="Gantt_MergeTask" xml:space="preserve">
+    <value>合併任務</value>
+  </data>
+  <data name="Gantt_UnassignedTasks" xml:space="preserve">
+    <value>未分配的任務</value>
   </data>
   <data name="DiagramComponent_X" xml:space="preserve">
     <value>X</value>
@@ -1224,6 +1263,21 @@
   <data name="Grid_ClearButton" xml:space="preserve">
     <value>明確</value>
   </data>
+  <data name="Grid_IsNull" xml:space="preserve">
+    <value>无效的</value>
+  </data>
+  <data name="Grid_IsNotNull" xml:space="preserve">
+    <value>不为空</value>
+  </data>
+  <data name="Grid_IsEmpty" xml:space="preserve">
+    <value>空的</value>
+  </data>
+  <data name="Grid_IsNotEmpty" xml:space="preserve">
+    <value>不是空的</value>
+  </data>
+  <data name="Grid_Like" xml:space="preserve">
+    <value>喜欢</value>
+  </data>
   <data name="Grid_StartsWith" xml:space="preserve">
     <value>以。。開始</value>
   </data>
@@ -1232,6 +1286,15 @@
   </data>
   <data name="Grid_Contains" xml:space="preserve">
     <value>包含</value>
+  </data>
+  <data name="Grid_DoesNotStartWith" xml:space="preserve">
+    <value>不开始于</value>
+  </data>
+  <data name="Grid_DoesNotEndWith" xml:space="preserve">
+    <value>不以</value>
+  </data>
+  <data name="Grid_DoesNotContain" xml:space="preserve">
+    <value>不含</value>
   </data>
   <data name="Grid_Equal" xml:space="preserve">
     <value>等於</value>
@@ -1293,6 +1356,12 @@
   <data name="Grid_SortDescending" xml:space="preserve">
     <value>降序排列</value>
   </data>
+  <data name="Grid_SortedAscending" xml:space="preserve">
+    <value>按升序排列</value>
+  </data>
+  <data name="Grid_SortedDescending" xml:space="preserve">
+    <value>按降序排列</value>
+  </data>
   <data name="Grid_EditRecord" xml:space="preserve">
     <value>編輯記錄</value>
   </data>
@@ -1304,6 +1373,9 @@
   </data>
   <data name="Grid_SelectAll" xml:space="preserve">
     <value>全選</value>
+  </data>
+  <data name="Grid_AddCurrentSelection" xml:space="preserve">
+    <value>将当前选择添加到过滤器</value>
   </data>
   <data name="Grid_Blanks" xml:space="preserve">
     <value>空白</value>
@@ -1430,6 +1502,9 @@
   </data>
   <data name="Grid_FilterValue" xml:space="preserve">
     <value>筛选值</value>
+  </data>
+  <data name="Grid_SelectRowARIA" xml:space="preserve">
+    <value>选择行</value>
   </data>
   <data name="Pager_Page" xml:space="preserve">
     <value>页</value>
@@ -1607,6 +1682,9 @@
   </data>
   <data name="Schedule_MoreDetails" xml:space="preserve">
     <value>更多細節</value>
+  </data>
+  <data name="Schedule_MoreEvents" xml:space="preserve">
+    <value>更多事件</value>
   </data>
   <data name="Schedule_NewEvent" xml:space="preserve">
     <value>新事件</value>
@@ -2673,6 +2751,9 @@
   <data name="PivotView_Top" xml:space="preserve">
     <value>最佳</value>
   </data>
+  <data name="PivotView_ApplyToGrandTotal" xml:space="preserve">
+    <value>应用到总计</value>
+  </data>
   <data name="Dialog_Close" xml:space="preserve">
     <value>關</value>
   </data>
@@ -2774,12 +2855,6 @@
   </data>
   <data name="ImageEditor_FillColorTooltip" xml:space="preserve">
     <value>填色</value>
-  </data>
-  <data name="ImageEditor_OkBtnTooltip" xml:space="preserve">
-    <value>好</value>
-  </data>
-  <data name="ImageEditor_CancelBtnTooltip" xml:space="preserve">
-    <value>取消</value>
   </data>
   <data name="ImageEditor_ResetBtnTooltip" xml:space="preserve">
     <value>重啟</value>
@@ -3138,26 +3213,35 @@
   <data name="RichTextEditor_FormatsDropDownHeading6" xml:space="preserve">
     <value>标题   6</value>
   </data>
+  <data name="RichTextEditor_FormatsDropDownHeading7" xml:space="preserve">
+    <value>标题   7</value>
+  </data>
+  <data name="RichTextEditor_FormatsDropDownHeading8" xml:space="preserve">
+    <value>标题   8</value>
+  </data>
+  <data name="RichTextEditor_FormatsDropDownHeading9" xml:space="preserve">
+    <value>标题   9</value>
+  </data>
   <data name="RichTextEditor_FontNameSegoeUI" xml:space="preserve">
-    <value>西古·奥托林</value>
+    <value>Segoe UI</value>
   </data>
   <data name="RichTextEditor_FontNameArial" xml:space="preserve">
-    <value>阿里亚尔</value>
+    <value>Arial</value>
   </data>
   <data name="RichTextEditor_FontNameGeorgia" xml:space="preserve">
-    <value>乔治亚州</value>
+    <value>Georgia</value>
   </data>
   <data name="RichTextEditor_FontNameImpact" xml:space="preserve">
-    <value>影响</value>
+    <value>Impact</value>
   </data>
   <data name="RichTextEditor_FontNameTahoma" xml:space="preserve">
-    <value>塔豪玛</value>
+    <value>Tahoma</value>
   </data>
   <data name="RichTextEditor_FontNameTimesNewRoman" xml:space="preserve">
-    <value>时代新古罗马</value>
+    <value>Times New Roman</value>
   </data>
   <data name="RichTextEditor_FontNameVerdana" xml:space="preserve">
-    <value>韦尔达纳</value>
+    <value>Verdana</value>
   </data>
   <data name="RichTextEditor_Alignments" xml:space="preserve">
     <value>對齊方式</value>
@@ -3322,7 +3406,7 @@
     <value>輸入標題</value>
   </data>
   <data name="RichTextEditor_LinkUrl" xml:space="preserve">
-    <value>http://example.com</value>
+    <value>https://example.com</value>
   </data>
   <data name="RichTextEditor_LinkOpenInNewWindow" xml:space="preserve">
     <value>在新窗口中打開鏈接</value>
@@ -3391,10 +3475,10 @@
     <value>拖放音频文件或浏览上传</value>
   </data>
   <data name="RichTextEditor_ImageUrl" xml:space="preserve">
-    <value>http://example.com/image.png</value>
+    <value>https://example.com/image.png</value>
   </data>
   <data name="RichTextEditor_ImageCaption" xml:space="preserve">
-    <value>字幕</value>
+    <value>标题</value>
   </data>
   <data name="RichTextEditor_ImageSizeHeader" xml:space="preserve">
     <value>圖片尺寸</value>
@@ -3430,16 +3514,16 @@
     <value>行數</value>
   </data>
   <data name="RichTextEditor_TableRows" xml:space="preserve">
-    <value>表格行</value>
+    <value>排</value>
   </data>
   <data name="RichTextEditor_TableColumns" xml:space="preserve">
-    <value>表格欄</value>
+    <value>柱子</value>
   </data>
   <data name="RichTextEditor_TableCellHorizontalAlign" xml:space="preserve">
     <value>表格單元格水平對齊</value>
   </data>
   <data name="RichTextEditor_TableCellVerticalAlign" xml:space="preserve">
-    <value>表格單元格垂直對齊</value>
+    <value>垂直对齐</value>
   </data>
   <data name="RichTextEditor_CreateTable" xml:space="preserve">
     <value>建立表格</value>
@@ -3448,10 +3532,10 @@
     <value>刪除表</value>
   </data>
   <data name="RichTextEditor_TableHeader" xml:space="preserve">
-    <value>表頭</value>
+    <value>标题行</value>
   </data>
   <data name="RichTextEditor_TableRemove" xml:space="preserve">
-    <value>表刪除</value>
+    <value>删除表</value>
   </data>
   <data name="RichTextEditor_TableCellBackground" xml:space="preserve">
     <value>表單元格背景</value>
@@ -3591,6 +3675,15 @@
   <data name="RichTextEditor_Video_Dimension" xml:space="preserve">
     <value>方面</value>
   </data>
+  <data name="RichTextEditor_Link_AriaLabel" xml:space="preserve">
+    <value>在新窗口中打开</value>
+  </data>
+  <data name="RichTextEditor_Image_Link_AriaLabel" xml:space="preserve">
+    <value>在新窗口中打开</value>
+  </data>
+  <data name="RichTextEditor_Img_AltText_Unsupported" xml:space="preserve">
+    <value>不支援的文件格式</value>
+  </data>
   <data name="PdfViewer" xml:space="preserve">
     <value>PDF查看器</value>
   </data>
@@ -3611,6 +3704,9 @@
   </data>
   <data name="PdfViewer_FileCorruptedContent" xml:space="preserve">
     <value>该文件已损坏，无法打开。</value>
+  </data>
+  <data name="PdfViewer_FitHeight" xml:space="preserve">
+    <value>适合高度</value>
   </data>
   <data name="PdfViewer_FitPage" xml:space="preserve">
     <value>适合页面</value>
@@ -3690,11 +3786,17 @@
   <data name="PdfViewer_GoToPage" xml:space="preserve">
     <value>转到页面</value>
   </data>
-  <data name="PdfViewer_Nomatches" xml:space="preserve">
-    <value>查看器已完成文档搜索。找不到更多匹配项</value>
+  <data name="PdfViewer_NoMatches" xml:space="preserve">
+   <value>查看者已完成文档搜索。未找到匹配项</value>
   </data>
-  <data name="PdfViewer_NoTextFound" xml:space="preserve">
-    <value>找不到文字</value>
+  <data name="PdfViewer_NoMoreMatches" xml:space="preserve">
+   <value>查看器已完成文档搜索。找不到更多匹配项</value>
+  </data>
+  <data name="PdfViewer_NoSearchMatches" xml:space="preserve">
+   <value>未找到匹配项</value>
+  </data>
+  <data name="PdfViewer_NoMoreSearchMatches" xml:space="preserve">
+   <value>没有找到更多匹配项</value>
   </data>
   <data name="PdfViewer_Undo" xml:space="preserve">
     <value>撤消</value>
@@ -3740,6 +3842,9 @@
   </data>
   <data name="PdfViewer_Clienterror" xml:space="preserve">
     <value>找到客户端错误。请检查AjaxRequestSettings属性中提供的自定义标头以及ServerActionSettings属性中的Web操作方法。</value>
+  </data>
+  <data name="PdfViewer_Corspolicyerror" xml:space="preserve">
+    <value>由于 CORS 政策，对该文档的访问受到限制。请检查文档。</value>
   </data>
   <data name="PdfViewer_OpenText" xml:space="preserve">
     <value>打开</value>
@@ -4155,6 +4260,39 @@
   <data name="DocumentEditor_Justify" xml:space="preserve">
     <value>證明</value>
   </data>
+  <data name="DocumentEditor_OutlineLevel" xml:space="preserve">
+    <value>大纲级别</value>
+  </data>
+  <data name="DocumentEditor_BodyText" xml:space="preserve">
+    <value>主体</value>
+  </data>
+  <data name="DocumentEditor_Level1" xml:space="preserve">
+    <value>1级</value>
+  </data>
+  <data name="DocumentEditor_Level2" xml:space="preserve">
+    <value>2级</value>
+  </data>
+  <data name="DocumentEditor_Level3" xml:space="preserve">
+    <value>3级</value>
+  </data>
+  <data name="DocumentEditor_Level4" xml:space="preserve">
+    <value>4级</value>
+  </data>
+  <data name="DocumentEditor_Level5" xml:space="preserve">
+    <value>5级</value>
+  </data>
+  <data name="DocumentEditor_Level6" xml:space="preserve">
+    <value>6级</value>
+  </data>
+  <data name="DocumentEditor_Level7" xml:space="preserve">
+    <value>7级</value>
+  </data>
+  <data name="DocumentEditor_Level8" xml:space="preserve">
+    <value>8级</value>
+  </data>
+  <data name="DocumentEditor_Level9" xml:space="preserve">
+    <value>9级</value>
+  </data>
   <data name="DocumentEditor_IndentFromLeft" xml:space="preserve">
     <value>從左縮進</value>
   </data>
@@ -4337,6 +4475,15 @@
   </data>
   <data name="DocumentEditor_Heading6" xml:space="preserve">
     <value>標題6</value>
+  </data>
+  <data name="DocumentEditor_Heading7" xml:space="preserve">
+    <value>標題7</value>
+  </data>
+  <data name="DocumentEditor_Heading8" xml:space="preserve">
+    <value>標題8</value>
+  </data>
+  <data name="DocumentEditor_Heading9" xml:space="preserve">
+    <value>標題9</value>
   </data>
   <data name="DocumentEditor_ListParagraph" xml:space="preserve">
     <value>列出段落</value>
@@ -4655,6 +4802,9 @@
   </data>
   <data name="DocumentEditor_Find" xml:space="preserve">
     <value>找</value>
+  </data>
+  <data name="DocumentEditor_Headings" xml:space="preserve">
+    <value>标题</value>
   </data>
   <data name="DocumentEditor_NoMatches" xml:space="preserve">
     <value>無匹配</value>
@@ -5382,6 +5532,9 @@
   <data name="DocumentEditorContainer_Find" xml:space="preserve">
     <value>找</value>
   </data>
+  <data name="DocumentEditorContainer_Headings" xml:space="preserve">
+    <value>标题</value>
+  </data>
   <data name="DocumentEditorContainer_LocalClipboard" xml:space="preserve">
     <value>本地剪貼板</value>
   </data>
@@ -5850,6 +6003,24 @@
   <data name="DocumentEditorContainer_Ok" xml:space="preserve">
     <value>好的</value>
   </data>
+  <data name="DocumentEditorContainer_Changecase" xml:space="preserve">
+    <value>更改大小写</value>
+</data>
+<data name="DocumentEditorContainer_Uppercase" xml:space="preserve">
+    <value>大写</value>
+</data>
+<data name="DocumentEditorContainer_Lowercase" xml:space="preserve">
+    <value>小写</value>
+</data>
+<data name="DocumentEditorContainer_SentenceCase" xml:space="preserve">
+    <value>句格</value>
+</data>
+<data name="DocumentEditorContainer_CapitalizeEachWord" xml:space="preserve">
+    <value>每个单词大写</value>
+</data>
+<data name="DocumentEditorContainer_ToggleCase" xml:space="preserve">
+    <value>切换大小写</value>
+</data>  
   <data name="Gantt_Touch_DialogTextOnClickingConnectorPoint" xml:space="preserve">
     <value>選擇另一個任務</value>
   </data>
@@ -5990,5 +6161,197 @@
   </data>
   <data name="ImageEditor_DropText" xml:space="preserve">
     <value>将您的图片拖放到此处或</value>
+  </data>
+  <data name="DocumentEditorContainer_TabStopPosition" xml:space="preserve">
+<value>制表位停止位置</value>
+</data>
+<data name="DocumentEditorContainer_DefaultTabStops" xml:space="preserve">
+<value>默认制表位</value>
+</data>
+<data name="DocumentEditorContainer_TabStopsCleared" xml:space="preserve">
+<value>要清除的制表位</value>
+</data>
+<data name="DocumentEditorContainer_Tabs" xml:space="preserve">
+<value>选项卡</value>
+</data>
+<data name="DocumentEditor_Set" xml:space="preserve">
+<value>放</value>
+</data>
+<data name="DocumentEditor_Clear" xml:space="preserve">
+<value>清除</value>
+</data>
+<data name="DocumentEditor_ClearAll" xml:space="preserve">
+<value>全部清除</value>
+</data>
+<data name="DocumentEditor_Decimal" xml:space="preserve">
+<value>十进制</value>
+</data>
+<data name="DocumentEditor_Bar" xml:space="preserve">
+<value>酒吧</value>
+</data>
+<data name="DocumentEditorContainer_Alignment" xml:space="preserve">
+<value>结盟</value>
+</data>
+<data name="DocumentEditorContainer_Leader" xml:space="preserve">
+<value>领导者</value>
+</data>
+<data name="DocumentEditorContainer_All" xml:space="preserve">
+<value>全部</value>
+</data>
+<data name="DocumentEditor_BottomMargin" xml:space="preserve">
+<value>下边距</value>
+</data>
+<data name="DocumentEditor_FirstLineIndent" xml:space="preserve">
+<value>首行缩进</value>
+</data>
+<data name="DocumentEditor_HangingIndent" xml:space="preserve">
+<value>悬挂缩进</value>
+</data>
+<data name="DocumentEditor_LeftIndent" xml:space="preserve">
+<value>左缩进</value>
+</data>
+<data name="DocumentEditor_LeftMargin" xml:space="preserve">
+<value>左边距</value>
+</data>
+<data name="DocumentEditor_MoveTableColumn" xml:space="preserve">
+<value>移动表列</value>
+</data>
+<data name="DocumentEditor_RightIndent" xml:space="preserve">
+<value>右缩进</value>
+</data>
+<data name="DocumentEditor_RightMargin" xml:space="preserve">
+<value>右边距</value>
+</data>
+<data name="DocumentEditor_TopMargin" xml:space="preserve">
+<value>上边距</value>
+</data>
+<data name="DocumentEditor_LeftTab" xml:space="preserve">
+<value>左标签</value>
+</data>
+<data name="DocumentEditor_CenterTab" xml:space="preserve">
+<value>中心选项卡</value>
+</data>
+<data name="DocumentEditor_RightTab" xml:space="preserve">
+<value>右选项卡</value>
+</data>
+<data name="DocumentEditor_DecimalTab" xml:space="preserve">
+<value>小数制表符</value>
+</data>
+<data name="DocumentEditor_BarTab" xml:space="preserve">
+<value>栏选项卡</value>
+</data>
+  <data name="ImageEditor_OkBtnTooltip" xml:space="preserve">
+    <value>應用</value>
+  </data>
+  <data name="ImageEditor_Annotation" xml:space="preserve">
+    <value>批注</value>
+  </data>
+  <data name="ImageEditor_CancelBtnTooltip" xml:space="preserve">
+    <value>丢弃</value>
+  </data>
+  <data name="QueryBuilder_Null" xml:space="preserve">
+    <value>一片空白</value>
+  </data>
+  <data name="QueryBuilder_NotNull" xml:space="preserve">
+    <value>不为空</value>
+  </data>
+  <data name="ImageEditor_StraightenTooltip" xml:space="preserve">
+    <value>拉直</value>
+  </data>
+  <data name="PivotView_Combined" xml:space="preserve">
+    <value>联合</value>
+  </data>
+  <data name="QueryBuilder_NotStartsWith" xml:space="preserve">
+    <value>不开始于</value>
+  </data>
+  <data name="QueryBuilder_NotEndsWith" xml:space="preserve">
+    <value>不以</value>
+  </data>
+  <data name="QueryBuilder_LockGroup" xml:space="preserve">
+    <value>锁集团</value>
+  </data>
+  <data name="QueryBuilder_UnlockGroup" xml:space="preserve">
+    <value>解锁组</value>
+  </data>
+  <data name="QueryBuilder_LockRule" xml:space="preserve">
+    <value>锁定规则</value>
+  </data>
+  <data name="QueryBuilder_UnlockRule" xml:space="preserve">
+    <value>解锁规则</value>
+  </data>
+  <data name="QueryBuilder_CloneGroup" xml:space="preserve">
+    <value>克隆组</value>
+  </data>
+  <data name="QueryBuilder_CloneRule" xml:space="preserve">
+    <value>克隆规则</value>
+  </data>
+  <data name="ImageEditor_SaveDialogHeader" xml:space="preserve">
+    <value>另存为</value>
+  </data>
+  <data name="ImageEditor_SaveDialogClose" xml:space="preserve">
+    <value>關</value>
+  </data>
+  <data name="ImageEditor_SaveDialogDownload" xml:space="preserve">
+    <value>下載</value>
+  </data>
+  <data name="ImageEditor_SaveImageSize" xml:space="preserve">
+    <value>图片大小：</value>
+  </data>
+  <data name="ImageEditor_SaveCustomBtnTooltip" xml:space="preserve">
+    <value>自订</value>
+  </data>
+  <data name="ImageEditor_SaveImageQualityGood" xml:space="preserve">
+    <value>好的</value>
+  </data>
+  <data name="ImageEditor_SaveImageQualityGreat" xml:space="preserve">
+    <value>伟大的</value>
+  </data>
+  <data name="ImageEditor_SaveImageQualityHighest" xml:space="preserve">
+    <value>最高</value>
+  </data>
+  <data name="ImageEditor_SaveDialogImageQuality" xml:space="preserve">
+    <value>质量</value>
+  </data>
+  <data name="ImageEditor_SaveInfoTooltip" xml:space="preserve">
+    <value>图像质量选项仅适用于 JPEG 格式</value>
+  </data>
+  <data name="ImageEditor_SaveDialogImageName" xml:space="preserve">
+    <value>图片名称</value>
+  </data>
+  <data name="ImageEditor_SaveDialogImageFormat" xml:space="preserve">
+    <value>格式</value>
+  </data>
+  <data name="ImageEditor_ZOrderTooltip" xml:space="preserve">
+    <value>Z 顺序</value>
+  </data>
+  <data name="ImageEditor_BringToFront" xml:space="preserve">
+    <value>向前走</value>
+  </data>
+  <data name="ImageEditor_BringForward" xml:space="preserve">
+    <value>向前进</value>
+  </data>
+  <data name="ImageEditor_SendToBack" xml:space="preserve">
+    <value>發送回</value>
+  </data>
+  <data name="ImageEditor_SendBackward" xml:space="preserve">
+    <value>向後發送</value>
+  </data>
+  <data name="ImageEditor_OutlineColor" xml:space="preserve">
+    <value>轮廓颜色</value>
+  </data>
+  <data name="ImageEditor_RectRadius" xml:space="preserve">
+    <value>纂</value>
+  </data>
+  <data name="ImageEditor_Pixelate" xml:space="preserve">
+    <value>像素化</value>
+  </data>
+  <data name="ImageEditor_Pixel_Size" xml:space="preserve">
+    <value>像素大小</value>
+  </data>
+  <data name="ColorPicker_RecentColors" xml:space="preserve">
+    <value>最近的颜色</value>
+  </data>
+  <data name="AIAssistView_StopResponseText" xml:space="preserve">
+    <value>停止回应</value>
   </data>
 </root>

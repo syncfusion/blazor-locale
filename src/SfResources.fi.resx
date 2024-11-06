@@ -195,6 +195,18 @@
   <data name="DropDownList_NoRecordsTemplate" xml:space="preserve">
     <value>Merkintöjä ei löydy</value>
   </data>
+  <data name="DropDownTree_NoRecords" xml:space="preserve">
+    <value>Merkintöjä ei löydy</value>
+  </data>
+  <data name="DropDownTree_RequestFailed" xml:space="preserve">
+    <value>Pyyntö epäonnistui</value>
+  </data>
+  <data name="DropDownTree_SelectAll" xml:space="preserve">
+    <value>Valitse kaikki</value>
+  </data>
+  <data name="DropDownTree_UnSelectAll" xml:space="preserve">
+    <value>Poista kaikki valinnat</value>
+  </data>
   <data name="Mention_NoRecordsTemplate" xml:space="preserve">
     <value>Merkintöjä ei löydy</value>
   </data>
@@ -591,6 +603,9 @@
   <data name="Slider_IncrementTitle" xml:space="preserve">
     <value>Lisääntyä</value>
   </data>
+  <data name="Stepper_Optional" xml:space="preserve">
+    <value>Valinnainen</value>
+  </data>
   <data name="Maps_ImageNotFound" xml:space="preserve">
     <value>Kuvaa ei löydy</value>
   </data>
@@ -760,10 +775,22 @@
     <value>viive</value>
   </data>
   <data name="Gantt_Start" xml:space="preserve">
-    <value>alkaa</value>
+    <value>Alkaa</value>
+  </data>
+  <data name="Gantt_SS" xml:space="preserve">
+    <value>AA</value>
+  </data>
+  <data name="Gantt_SF" xml:space="preserve">
+    <value>AS</value>
   </data>
   <data name="Gantt_Finish" xml:space="preserve">
     <value>Suorittaa loppuun</value>
+  </data>
+  <data name="Gantt_FS" xml:space="preserve">
+    <value>SA</value>
+  </data>
+  <data name="Gantt_FF" xml:space="preserve">
+    <value>SS</value>
   </data>
   <data name="Gantt_EnterValue" xml:space="preserve">
     <value>Kirjoita arvo</value>
@@ -899,6 +926,18 @@
   </data>
   <data name="Gantt_CriticalPath" xml:space="preserve">
     <value>Kriittinen polku</value>
+  </data>
+  <data name="Gantt_Segment" xml:space="preserve">
+    <value>Segmentit</value>
+  </data>
+  <data name="Gantt_SplitTask" xml:space="preserve">
+    <value>Jaa tehtävä</value>
+  </data>
+  <data name="Gantt_MergeTask" xml:space="preserve">
+    <value>Yhdistä tehtävä</value>
+  </data>
+  <data name="Gantt_UnassignedTasks" xml:space="preserve">
+    <value>Määrittämättömät tehtävät</value>
   </data>
   <data name="ColorPicker_Apply" xml:space="preserve">
     <value>Käytä</value>
@@ -1758,6 +1797,9 @@
   <data name="PivotView_Top" xml:space="preserve">
     <value>Yläosa</value>
   </data>
+  <data name="PivotView_ApplyToGrandTotal" xml:space="preserve">
+    <value>Hae Grand Totaliin</value>
+  </data>
   <data name="QueryBuilder_AddCondition" xml:space="preserve">
     <value>Lisää ehto</value>
   </data>
@@ -1958,12 +2000,6 @@
   </data>
   <data name="ImageEditor_FillColorTooltip" xml:space="preserve">
     <value>Täyttöväri</value>
-  </data>
-  <data name="ImageEditor_OkBtnTooltip" xml:space="preserve">
-    <value>kunnossa</value>
-  </data>
-  <data name="ImageEditor_CancelBtnTooltip" xml:space="preserve">
-    <value>Peruuttaa</value>
   </data>
   <data name="ImageEditor_ResetBtnTooltip" xml:space="preserve">
     <value>Nollaa</value>
@@ -2322,8 +2358,17 @@
   <data name="RichTextEditor_FormatsDropDownHeading6" xml:space="preserve">
     <value>Otsikko  6</value>
   </data>
+  <data name="RichTextEditor_FormatsDropDownHeading7" xml:space="preserve">
+    <value>Otsikko  7</value>
+  </data>
+  <data name="RichTextEditor_FormatsDropDownHeading8" xml:space="preserve">
+    <value>Otsikko  8</value>
+  </data>
+  <data name="RichTextEditor_FormatsDropDownHeading9" xml:space="preserve">
+    <value>Otsikko  9</value>
+  </data>
   <data name="RichTextEditor_FontNameSegoeUI" xml:space="preserve">
-    <value>segoe-käyttöliittymä</value>
+    <value>Segoe UI</value>
   </data>
   <data name="RichTextEditor_FontNameArial" xml:space="preserve">
     <value>Arial</value>
@@ -2332,13 +2377,13 @@
     <value>Georgia</value>
   </data>
   <data name="RichTextEditor_FontNameImpact" xml:space="preserve">
-    <value>Vaikutus</value>
+    <value>Impact</value>
   </data>
   <data name="RichTextEditor_FontNameTahoma" xml:space="preserve">
     <value>Tahoma</value>
   </data>
   <data name="RichTextEditor_FontNameTimesNewRoman" xml:space="preserve">
-    <value>Ajat uudet roomalainen</value>
+    <value>Times New Roman</value>
   </data>
   <data name="RichTextEditor_FontNameVerdana" xml:space="preserve">
     <value>Verdana</value>
@@ -2506,7 +2551,7 @@
     <value>Kirjoita otsikko</value>
   </data>
   <data name="RichTextEditor_LinkUrl" xml:space="preserve">
-    <value>http://example.com</value>
+    <value>https://example.com</value>
   </data>
   <data name="RichTextEditor_LinkOpenInNewWindow" xml:space="preserve">
     <value>Avaa linkki uudessa ikkunassa</value>
@@ -2575,10 +2620,10 @@
     <value>Pudota äänitiedosto tai lataa se selaamalla</value>
   </data>
   <data name="RichTextEditor_ImageUrl" xml:space="preserve">
-    <value>http://example.com/image.png</value>
+    <value>https://example.com/image.png</value>
   </data>
   <data name="RichTextEditor_ImageCaption" xml:space="preserve">
-    <value>kuvateksti</value>
+    <value>Kuvateksti</value>
   </data>
   <data name="RichTextEditor_ImageSizeHeader" xml:space="preserve">
     <value>Kuvan koko</value>
@@ -2614,16 +2659,16 @@
     <value>Rivien määrä</value>
   </data>
   <data name="RichTextEditor_TableRows" xml:space="preserve">
-    <value>Taulukkorivit</value>
+    <value>Rivi</value>
   </data>
   <data name="RichTextEditor_TableColumns" xml:space="preserve">
-    <value>Taulukon sarakkeet</value>
+    <value>Sarake</value>
   </data>
   <data name="RichTextEditor_TableCellHorizontalAlign" xml:space="preserve">
     <value>Pöytäsolujen vaakasuuntainen kohdistus</value>
   </data>
   <data name="RichTextEditor_TableCellVerticalAlign" xml:space="preserve">
-    <value>Pöytäsolun pystysuuntainen kohdistus</value>
+    <value>Pystysuuntainen tasaus</value>
   </data>
   <data name="RichTextEditor_CreateTable" xml:space="preserve">
     <value>Luo taulukko</value>
@@ -2632,10 +2677,10 @@
     <value>Poista taulukko</value>
   </data>
   <data name="RichTextEditor_TableHeader" xml:space="preserve">
-    <value>Pöydän otsikko</value>
+    <value>Otsikkorivi</value>
   </data>
   <data name="RichTextEditor_TableRemove" xml:space="preserve">
-    <value>Taulukko Poista</value>
+    <value>Poista taulukko</value>
   </data>
   <data name="RichTextEditor_TableCellBackground" xml:space="preserve">
     <value>Taulukon solujen tausta</value>
@@ -2774,6 +2819,15 @@
   </data>
   <data name="RichTextEditor_Video_Dimension" xml:space="preserve">
     <value>Ulottuvuus</value>
+  </data>
+  <data name="RichTextEditor_Link_AriaLabel" xml:space="preserve">
+    <value>Avaa uudessa ikkunassa</value>
+  </data>
+  <data name="RichTextEditor_Image_Link_AriaLabel" xml:space="preserve">
+    <value>Avaa uudessa ikkunassa</value>
+  </data>
+  <data name="RichTextEditor_Img_AltText_Unsupported" xml:space="preserve">
+    <value>Tiedostomuotoa ei tueta</value>
   </data>
   <data name="DiagramComponent_X" xml:space="preserve">
     <value>X</value>
@@ -2949,6 +3003,21 @@
   <data name="Grid_ClearButton" xml:space="preserve">
     <value>Asia selvä</value>
   </data>
+  <data name="Grid_IsNull" xml:space="preserve">
+    <value>Tyhjä</value>
+  </data>
+  <data name="Grid_IsNotNull" xml:space="preserve">
+    <value>Ei tyhjä</value>
+  </data>
+  <data name="Grid_IsEmpty" xml:space="preserve">
+    <value>Tyhjä</value>
+  </data>
+  <data name="Grid_IsNotEmpty" xml:space="preserve">
+    <value>Ei tyhjä</value>
+  </data>
+  <data name="Grid_Like" xml:space="preserve">
+    <value>Kuten</value>
+  </data>
   <data name="Grid_StartsWith" xml:space="preserve">
     <value>Alkaa</value>
   </data>
@@ -2957,6 +3026,15 @@
   </data>
   <data name="Grid_Contains" xml:space="preserve">
     <value>Sisältää</value>
+  </data>
+  <data name="Grid_DoesNotStartWith" xml:space="preserve">
+    <value>Ei aloita</value>
+  </data>
+  <data name="Grid_DoesNotEndWith" xml:space="preserve">
+    <value>Ei lopu</value>
+  </data>
+  <data name="Grid_DoesNotContain" xml:space="preserve">
+    <value>Ei sisällä</value>
   </data>
   <data name="Grid_Equal" xml:space="preserve">
     <value>Yhtä suuri</value>
@@ -3018,6 +3096,12 @@
   <data name="Grid_SortDescending" xml:space="preserve">
     <value>Järjestä laskevasti</value>
   </data>
+  <data name="Grid_SortedAscending" xml:space="preserve">
+    <value>Lajiteltu nousevaan järjestykseen</value>
+  </data>
+  <data name="Grid_SortedDescending" xml:space="preserve">
+    <value>Lajiteltu laskevaan järjestykseen</value>
+  </data>
   <data name="Grid_EditRecord" xml:space="preserve">
     <value>Muokkaa tietuetta</value>
   </data>
@@ -3029,6 +3113,9 @@
   </data>
   <data name="Grid_SelectAll" xml:space="preserve">
     <value>Valitse kaikki</value>
+  </data>
+  <data name="Grid_AddCurrentSelection" xml:space="preserve">
+    <value>Lisää nykyinen valinta suodattimeen</value>
   </data>
   <data name="Grid_Blanks" xml:space="preserve">
     <value>aihioita</value>
@@ -3155,6 +3242,9 @@
   </data>
   <data name="Grid_FilterValue" xml:space="preserve">
     <value>Filter value</value>
+  </data>
+  <data name="Grid_SelectRowARIA" xml:space="preserve">
+    <value>Valitse rivi</value>
   </data>
   <data name="Pager_Page" xml:space="preserve">
     <value>Sivu</value>
@@ -3444,6 +3534,9 @@
   <data name="Schedule_MoreDetails" xml:space="preserve">
     <value>Lisätietoja</value>
   </data>
+  <data name="Schedule_MoreEvents" xml:space="preserve">
+    <value>Lisää tapahtumia</value>
+  </data>
   <data name="Schedule_NewEvent" xml:space="preserve">
     <value>Uusi tapahtuma</value>
   </data>
@@ -3612,6 +3705,9 @@
   <data name="PdfViewer_FileCorruptedContent" xml:space="preserve">
     <value>Tiedosto on vioittunut, eikä sitä voi avata.</value>
   </data>
+  <data name="PdfViewer_FitHeight" xml:space="preserve">
+    <value>Sopiva korkeus</value>
+  </data>
   <data name="PdfViewer_FitPage" xml:space="preserve">
     <value>Sovita sivu</value>
   </data>
@@ -3690,11 +3786,17 @@
   <data name="PdfViewer_GoToPage" xml:space="preserve">
     <value>Mene sivulle</value>
   </data>
-  <data name="PdfViewer_Nomatches" xml:space="preserve">
-    <value>Katsoja on valmis etsimään asiakirjaa. Enemmän vastaavia ei löytynyt</value>
+  <data name="PdfViewer_NoMatches" xml:space="preserve">
+    <value>Katsoja on valmis etsimään asiakirjaa. Vastaavia ei löytynyt.</value>
   </data>
-  <data name="PdfViewer_NoTextFound" xml:space="preserve">
-    <value>Tekstiä ei löytynyt</value>
+   <data name="PdfViewer_NoMoreMatches" xml:space="preserve">
+    <value>Katsoja on valmis etsimään asiakirjaa. Enemmän vastaavia ei löytynyt.</value>
+  </data>
+  <data name="PdfViewer_NoSearchMatches" xml:space="preserve">
+    <value>Vastaavia ei löytynyt</value>
+  </data>
+  <data name="PdfViewer_NoMoreSearchMatches" xml:space="preserve">
+    <value>Enemmän vastaavia ei löytynyt</value>
   </data>
   <data name="PdfViewer_Undo" xml:space="preserve">
     <value>Kumoa</value>
@@ -3740,6 +3842,9 @@
   </data>
   <data name="PdfViewer_Clienterror" xml:space="preserve">
     <value>Asiakaspuolen virhe löytyy. Tarkista AjaxRequestSettings-ominaisuuden tarjoamat mukautetut otsikot ja ServerActionSettings-ominaisuuden verkkotoimintatavat.</value>
+  </data>
+  <data name="PdfViewer_Corspolicyerror" xml:space="preserve">
+    <value>Pääsy asiakirjaan on rajoitettu CORS-käytännön vuoksi. Tarkista asiakirja.</value>
   </data>
   <data name="PdfViewer_OpenText" xml:space="preserve">
     <value>Avata</value>
@@ -4152,6 +4257,39 @@
   <data name="DocumentEditor_Justify" xml:space="preserve">
     <value>Perustella</value>
   </data>
+  <data name="DocumentEditor_OutlineLevel" xml:space="preserve">
+    <value>Outline Level</value>
+  </data>
+  <data name="DocumentEditor_BodyText" xml:space="preserve">
+    <value>Leipäteksti</value>
+  </data>
+  <data name="DocumentEditor_Level1" xml:space="preserve">
+    <value>Taso 1</value>
+  </data>
+  <data name="DocumentEditor_Level2" xml:space="preserve">
+    <value>Taso 2</value>
+  </data>
+  <data name="DocumentEditor_Level3" xml:space="preserve">
+    <value>Taso 3</value>
+  </data>
+  <data name="DocumentEditor_Level4" xml:space="preserve">
+    <value>Taso 4</value>
+  </data>
+  <data name="DocumentEditor_Level5" xml:space="preserve">
+    <value>Taso 5</value>
+  </data>
+  <data name="DocumentEditor_Level6" xml:space="preserve">
+    <value>Taso 6</value>
+  </data>
+  <data name="DocumentEditor_Level7" xml:space="preserve">
+    <value>Taso 7</value>
+  </data>
+  <data name="DocumentEditor_Level8" xml:space="preserve">
+    <value>Taso 8</value>
+  </data>
+  <data name="DocumentEditor_Level9" xml:space="preserve">
+    <value>Taso 9</value>
+  </data> 
   <data name="DocumentEditor_IndentFromLeft" xml:space="preserve">
     <value>Sisennys vasemmalta</value>
   </data>
@@ -4334,6 +4472,15 @@
   </data>
   <data name="DocumentEditor_Heading6" xml:space="preserve">
     <value>Otsake 6</value>
+  </data>
+  <data name="DocumentEditor_Heading7" xml:space="preserve">
+    <value>Otsake 7</value>
+  </data>
+  <data name="DocumentEditor_Heading8" xml:space="preserve">
+    <value>Otsake 8</value>
+  </data>
+  <data name="DocumentEditor_Heading9" xml:space="preserve">
+    <value>Otsake 9</value>
   </data>
   <data name="DocumentEditor_ListParagraph" xml:space="preserve">
     <value>Lista kappale</value>
@@ -4652,6 +4799,9 @@
   </data>
   <data name="DocumentEditor_Find" xml:space="preserve">
     <value>löytö</value>
+  </data>
+  <data name="DocumentEditor_Headings" xml:space="preserve">
+    <value>Otsikot</value>
   </data>
   <data name="DocumentEditor_NoMatches" xml:space="preserve">
     <value>Ei tuloksia</value>
@@ -5379,6 +5529,9 @@
   <data name="DocumentEditorContainer_Find" xml:space="preserve">
     <value>löytö</value>
   </data>
+  <data name="DocumentEditorContainer_Headings" xml:space="preserve">
+    <value>Otsikot</value>
+  </data>
   <data name="DocumentEditorContainer_LocalClipboard" xml:space="preserve">
     <value>Paikallinen leikepöytä</value>
   </data>
@@ -5846,6 +5999,24 @@
   <data name="DocumentEditorContainer_Ok" xml:space="preserve">
     <value>OK</value>
   </data>
+  <data name="DocumentEditorContainer_Changecase" xml:space="preserve">
+    <value>Vaihda kirjainkokoa</value>
+</data>
+<data name="DocumentEditorContainer_Uppercase" xml:space="preserve">
+    <value>SUURI KIRJAIT</value>
+</data>
+<data name="DocumentEditorContainer_Lowercase" xml:space="preserve">
+    <value>Pienet kirjaimet</value>
+</data>
+<data name="DocumentEditorContainer_SentenceCase" xml:space="preserve">
+    <value>Lausetapaus</value>
+</data>
+<data name="DocumentEditorContainer_CapitalizeEachWord" xml:space="preserve">
+    <value>Kirjoita jokainen sana isoilla kirjaimilla</value>
+</data>
+<data name="DocumentEditorContainer_ToggleCase" xml:space="preserve">
+    <value>Vaihda tapaus</value>
+</data>  
   <data name="Gantt_Touch_DialogTextOnClickingConnectorPoint" xml:space="preserve">
     <value>Valitse toinen tehtävä</value>
   </data>
@@ -5989,5 +6160,197 @@
   </data>
   <data name="ImageEditor_DropText" xml:space="preserve">
     <value>Pudota kuvasi tähän tai</value>
+  </data>
+  <data name="DocumentEditorContainer_TabStopPosition" xml:space="preserve">
+<value>Kielekkeen pysäytysasento</value>
+</data>
+<data name="DocumentEditorContainer_DefaultTabStops" xml:space="preserve">
+<value>Oletussarkain pysähtyy</value>
+</data>
+<data name="DocumentEditorContainer_TabStopsCleared" xml:space="preserve">
+<value>Tyhjennettävät sarkaimet</value>
+</data>
+<data name="DocumentEditorContainer_Tabs" xml:space="preserve">
+<value>Välilehdet</value>
+</data>
+<data name="DocumentEditor_Set" xml:space="preserve">
+<value>Aseta</value>
+</data>
+<data name="DocumentEditor_Clear" xml:space="preserve">
+<value>Asia selvä</value>
+</data>
+<data name="DocumentEditor_ClearAll" xml:space="preserve">
+<value>Tyhjennä</value>
+</data>
+<data name="DocumentEditor_Decimal" xml:space="preserve">
+<value>Desimaali</value>
+</data>
+<data name="DocumentEditor_Bar" xml:space="preserve">
+<value>Baari</value>
+</data>
+<data name="DocumentEditorContainer_Alignment" xml:space="preserve">
+<value>Tasaus</value>
+</data>
+<data name="DocumentEditorContainer_Leader" xml:space="preserve">
+<value>Johtaja</value>
+</data>
+<data name="DocumentEditorContainer_All" xml:space="preserve">
+<value>Kaikki</value>
+</data>
+<data name="DocumentEditor_BottomMargin" xml:space="preserve">
+<value>Alamarginaali</value>
+</data>
+<data name="DocumentEditor_FirstLineIndent" xml:space="preserve">
+<value>Ensimmäisen rivin sisennys</value>
+</data>
+<data name="DocumentEditor_HangingIndent" xml:space="preserve">
+<value>Riippuva sisennys</value>
+</data>
+<data name="DocumentEditor_LeftIndent" xml:space="preserve">
+<value>Vasen sisennys</value>
+</data>
+<data name="DocumentEditor_LeftMargin" xml:space="preserve">
+<value>Vasen marginaali</value>
+</data>
+<data name="DocumentEditor_MoveTableColumn" xml:space="preserve">
+<value>Siirrä taulukon sarake</value>
+</data>
+<data name="DocumentEditor_RightIndent" xml:space="preserve">
+<value>Oikea sisennys</value>
+</data>
+<data name="DocumentEditor_RightMargin" xml:space="preserve">
+<value>Oikea marginaali</value>
+</data>
+<data name="DocumentEditor_TopMargin" xml:space="preserve">
+<value>Ylämarginaali</value>
+</data>
+<data name="DocumentEditor_LeftTab" xml:space="preserve">
+<value>Vasen välilehti</value>
+</data>
+<data name="DocumentEditor_CenterTab" xml:space="preserve">
+<value>Keski-välilehti</value>
+</data>
+<data name="DocumentEditor_RightTab" xml:space="preserve">
+<value>Oikea välilehti</value>
+</data>
+<data name="DocumentEditor_DecimalTab" xml:space="preserve">
+<value>Desimaalisarkain</value>
+</data>
+<data name="DocumentEditor_BarTab" xml:space="preserve">
+<value>Baari-välilehti</value>
+</data>
+  <data name="ImageEditor_OkBtnTooltip" xml:space="preserve">
+    <value>Käytä</value>
+  </data>
+  <data name="ImageEditor_Annotation" xml:space="preserve">
+    <value>Huomautus</value>
+  </data>
+  <data name="ImageEditor_CancelBtnTooltip" xml:space="preserve">
+    <value>Hävitä</value>
+  </data>
+  <data name="QueryBuilder_Null" xml:space="preserve">
+    <value>On Nolla</value>
+  </data>
+  <data name="QueryBuilder_NotNull" xml:space="preserve">
+    <value>Ei ole Nolla</value>
+  </data>
+  <data name="ImageEditor_StraightenTooltip" xml:space="preserve">
+    <value>Suoristaa</value>
+  </data>
+  <data name="PivotView_Combined" xml:space="preserve">
+    <value>Yhdistetty</value>
+  </data>
+  <data name="QueryBuilder_NotStartsWith" xml:space="preserve">
+    <value>Ei aloita</value>
+  </data>
+  <data name="QueryBuilder_NotEndsWith" xml:space="preserve">
+    <value>Ei lopu</value>
+  </data>
+  <data name="QueryBuilder_LockGroup" xml:space="preserve">
+    <value>Lukitusryhmä</value>
+  </data>
+  <data name="QueryBuilder_UnlockGroup" xml:space="preserve">
+    <value>Avaa ryhmän lukitus</value>
+  </data>
+  <data name="QueryBuilder_LockRule" xml:space="preserve">
+    <value>Lukitussääntö</value>
+  </data>
+  <data name="QueryBuilder_UnlockRule" xml:space="preserve">
+    <value>Avaa sääntö</value>
+  </data>
+  <data name="QueryBuilder_CloneGroup" xml:space="preserve">
+    <value>Klooniryhmä</value>
+  </data>
+  <data name="QueryBuilder_CloneRule" xml:space="preserve">
+    <value>Kloonaussääntö</value>
+  </data>
+  <data name="ImageEditor_SaveDialogHeader" xml:space="preserve">
+    <value>Tallenna nimellä</value>
+  </data>
+  <data name="ImageEditor_SaveDialogClose" xml:space="preserve">
+    <value>kiinni</value>
+  </data>
+  <data name="ImageEditor_SaveDialogDownload" xml:space="preserve">
+    <value>ladata</value>
+  </data>
+  <data name="ImageEditor_SaveImageSize" xml:space="preserve">
+    <value>Kuvan koko:</value>
+  </data>
+  <data name="ImageEditor_SaveCustomBtnTooltip" xml:space="preserve">
+    <value>Mukautettu</value>
+  </data>
+  <data name="ImageEditor_SaveImageQualityGood" xml:space="preserve">
+    <value>Hyvä</value>
+  </data>
+  <data name="ImageEditor_SaveImageQualityGreat" xml:space="preserve">
+    <value>Loistava</value>
+  </data>
+  <data name="ImageEditor_SaveImageQualityHighest" xml:space="preserve">
+    <value>Korkein</value>
+  </data>
+  <data name="ImageEditor_SaveDialogImageQuality" xml:space="preserve">
+    <value>Laatu</value>
+  </data>
+  <data name="ImageEditor_SaveInfoTooltip" xml:space="preserve">
+    <value>Kuvanlaatuvaihtoehto on käytettävissä vain JPEG-muodossa</value>
+  </data>
+  <data name="ImageEditor_SaveDialogImageName" xml:space="preserve">
+    <value>Kuvan nimi</value>
+  </data>
+  <data name="ImageEditor_SaveDialogImageFormat" xml:space="preserve">
+    <value>Muoto</value>
+  </data>
+  <data name="ImageEditor_ZOrderTooltip" xml:space="preserve">
+    <value>Z-tilaus</value>
+  </data>
+  <data name="ImageEditor_BringToFront" xml:space="preserve">
+    <value>Tuo eteen</value>
+  </data>
+  <data name="ImageEditor_BringForward" xml:space="preserve">
+    <value>Tuoda esiin</value>
+  </data>
+  <data name="ImageEditor_SendToBack" xml:space="preserve">
+    <value>Lähetä takaisin</value>
+  </data>
+  <data name="ImageEditor_SendBackward" xml:space="preserve">
+    <value>Lähetä takaperin</value>
+  </data>
+  <data name="ImageEditor_OutlineColor" xml:space="preserve">
+    <value>Ääriviivan väri</value>
+  </data>
+  <data name="ImageEditor_RectRadius" xml:space="preserve">
+    <value>Muokkaa</value>
+  </data>
+  <data name="ImageEditor_Pixelate" xml:space="preserve">
+    <value>Pikseloi</value>
+  </data>
+  <data name="ImageEditor_Pixel_Size" xml:space="preserve">
+    <value>Pikselin koko</value>
+  </data>
+  <data name="ColorPicker_RecentColors" xml:space="preserve">
+    <value>Viimeaikaiset värit</value>
+  </data>
+  <data name="AIAssistView_StopResponseText" xml:space="preserve">
+    <value>Lopeta vastaaminen</value>
   </data>
 </root>
