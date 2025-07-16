@@ -1,17 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
-  <!-- 
-    Microsoft ResX Schema 
-    
+  <!--
+    Microsoft ResX Schema
+
     Version 2.0
-    
-    The primary goals of this format is to allow a simple XML format 
-    that is mostly human readable. The generation and parsing of the 
-    various data types are done through the TypeConverter classes 
+
+    The primary goals of this format is to allow a simple XML format
+    that is mostly human readable. The generation and parsing of the
+    various data types are done through the TypeConverter classes
     associated with the data types.
-    
+
     Example:
-    
+
     ... ado.net/XML headers & schema ...
     <resheader name="resmimetype">text/microsoft-resx</resheader>
     <resheader name="version">2.0</resheader>
@@ -26,36 +26,36 @@
         <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
         <comment>This is a comment</comment>
     </data>
-                
-    There are any number of "resheader" rows that contain simple 
+
+    There are any number of "resheader" rows that contain simple
     name/value pairs.
-    
-    Each data row contains a name, and value. The row also contains a 
-    type or mimetype. Type corresponds to a .NET class that support 
-    text/value conversion through the TypeConverter architecture. 
-    Classes that don't support this are serialized and stored with the 
+
+    Each data row contains a name, and value. The row also contains a
+    type or mimetype. Type corresponds to a .NET class that support
+    text/value conversion through the TypeConverter architecture.
+    Classes that don't support this are serialized and stored with the
     mimetype set.
-    
-    The mimetype is used for serialized objects, and tells the 
-    ResXResourceReader how to depersist the object. This is currently not 
+
+    The mimetype is used for serialized objects, and tells the
+    ResXResourceReader how to depersist the object. This is currently not
     extensible. For a given mimetype the value must be set accordingly:
-    
-    Note - application/x-microsoft.net.object.binary.base64 is the format 
-    that the ResXResourceWriter will generate, however the reader can 
+
+    Note - application/x-microsoft.net.object.binary.base64 is the format
+    that the ResXResourceWriter will generate, however the reader can
     read any of the formats listed below.
-    
+
     mimetype: application/x-microsoft.net.object.binary.base64
-    value   : The object must be serialized with 
+    value   : The object must be serialized with
             : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
             : and then encoded with base64 encoding.
-    
+
     mimetype: application/x-microsoft.net.object.soap.base64
-    value   : The object must be serialized with 
+    value   : The object must be serialized with
             : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
             : and then encoded with base64 encoding.
 
     mimetype: application/x-microsoft.net.object.bytearray.base64
-    value   : The object must be serialized into a byte array 
+    value   : The object must be serialized into a byte array
             : using a System.ComponentModel.TypeConverter
             : and then encoded with base64 encoding.
     -->
@@ -777,8 +777,20 @@
   <data name="Gantt_Start" xml:space="preserve">
     <value>comienzo</value>
   </data>
+  <data name="Gantt_SS" xml:space="preserve">
+    <value>CC</value>
+  </data>
+  <data name="Gantt_SF" xml:space="preserve">
+    <value>CT</value>
+  </data>
   <data name="Gantt_Finish" xml:space="preserve">
     <value>Terminar</value>
+  </data>
+  <data name="Gantt_FS" xml:space="preserve">
+    <value>TC</value>
+  </data>
+  <data name="Gantt_FF" xml:space="preserve">
+    <value>TT</value>
   </data>
   <data name="Gantt_EnterValue" xml:space="preserve">
     <value>Ingrese el valor</value>
@@ -1156,7 +1168,7 @@
     <value>Columna</value>
   </data>
   <data name="PivotView_ColumnAxisWatermark" xml:space="preserve">
-    <value>Coloca la columna aquí</value>
+    <value>Soltar columna aquí</value>
   </data>
   <data name="PivotView_Columns" xml:space="preserve">
     <value>Columnas</value>
@@ -1324,7 +1336,7 @@
     <value>Filtrar</value>
   </data>
   <data name="PivotView_FilterAxisWatermark" xml:space="preserve">
-    <value>Suelta el filtro aquí</value>
+    <value>Soltar filtro aquí</value>
   </data>
   <data name="PivotView_Filtered" xml:space="preserve">
     <value>Filtrado</value>
@@ -1570,7 +1582,7 @@
     <value>Fila</value>
   </data>
   <data name="PivotView_RowAxisWatermark" xml:space="preserve">
-    <value>Drop row aquí</value>
+    <value>Soltar fila aquí</value>
   </data>
   <data name="PivotView_Rows" xml:space="preserve">
     <value>Filas</value>
@@ -1781,6 +1793,9 @@
   </data>
   <data name="PivotView_Top" xml:space="preserve">
     <value>Cima</value>
+  </data>
+  <data name="PivotView_ApplyToGrandTotal" xml:space="preserve">
+    <value>Aplicar a Gran Total</value>
   </data>
   <data name="QueryBuilder_AddCondition" xml:space="preserve">
     <value>Agregar condición</value>
@@ -2275,7 +2290,7 @@
     <value>Editora de rebajas</value>
   </data>
   <data name="RichTextEditor_NumberFormatList" xml:space="preserve">
-    <value>Lista numerada</value>
+    <value>Lista de formatos de números</value>
   </data>
   <data name="RichTextEditor_NumberFormatListNone" xml:space="preserve">
     <value>Ninguna</value>
@@ -2299,7 +2314,7 @@
     <value>Griega inferior</value>
   </data>
   <data name="RichTextEditor_BulletFormatList" xml:space="preserve">
-    <value>Lista con viñetas</value>
+    <value>Lista de formatos de viñetas</value>
   </data>
   <data name="RichTextEditor_BulletFormatListNone" xml:space="preserve">
     <value>Ninguna</value>
@@ -2931,6 +2946,9 @@
   <data name="Grid_Save" xml:space="preserve">
     <value>Guardar</value>
   </data>
+  <data name="Grid_Back" xml:space="preserve">
+    <value>Atrás</value>
+  </data>
   <data name="Grid_Item" xml:space="preserve">
     <value>articulo</value>
   </data>
@@ -3127,7 +3145,7 @@
     <value>Filtros de fecha y hora</value>
   </data>
   <data name="Grid_MatchCase" xml:space="preserve">
-    <value>Match Case</value>
+    <value>Coincidir mayúsculas y minúsculas</value>
   </data>
   <data name="Grid_Between" xml:space="preserve">
     <value>Entre</value>
@@ -3198,6 +3216,9 @@
   <data name="Grid_ColumnMenuDescription" xml:space="preserve">
     <value>¡Pulse Alt Down para abrir el menú de columna</value>
   </data>
+  <data name="Grid_ColumnMenu" xml:space="preserve">
+    <value>Menú de columna</value>
+  </data>
   <data name="Grid_GroupDescription" xml:space="preserve">
     <value>Pulse Ctrl + espacio para agrupar</value>
   </data>
@@ -3207,14 +3228,8 @@
   <data name="Grid_ColumnHeaderUndefinedARIA" xml:space="preserve">
     <value>encabezado de columna indefinido</value>
   </data>
-  <data name="Grid_CommandColumnARIA" xml:space="preserve">
-    <value>¡Es la Columna de Comando</value>
-  </data>
   <data name="Grid_GroupedSortIcon" xml:space="preserve">
     <value>ordenar la columna agrupada</value>
-  </data>
-  <data name="Grid_EmptyColumnHeaderUndefinedARIA" xml:space="preserve">
-    <value>encabezado de columna vacío indefinido</value>
   </data>
   <data name="Grid_Close" xml:space="preserve">
     <value>cerrar</value>
@@ -3702,6 +3717,228 @@
   <data name="PdfViewer_GoToFirstPage" xml:space="preserve">
     <value>Mostrar primera página</value>
   </data>
+  <data name="PdfViewer_NavigateToFirstPage" xml:space="preserve">
+    <value>Ir a la primera página</value>
+  </data>
+  <data name="PdfViewer_NavigateToPreviousPage" xml:space="preserve">
+    <value>Ir a la página anterior</value>
+  </data>
+  <data name="PdfViewer_NavigateToNextPage" xml:space="preserve">
+    <value>Ir a la siguiente página</value>
+  </data>
+  <data name="PdfViewer_NavigateToLastPage" xml:space="preserve">
+    <value>Ir a la última página</value>
+  </data>
+  <data name="PdfViewer_GoToPageNumberTextBox" xml:space="preserve">
+    <value>Ir al cuadro de texto del número de página</value>
+  </data>
+  <data name="PdfViewer_PageZoomOut" xml:space="preserve">
+    <value>Reducir zoom de página</value>
+  </data>
+  <data name="PdfViewer_PageZoomIn" xml:space="preserve">
+    <value>Aumentar zoom de página</value>
+  </data>
+  <data name="PdfViewer_ZoomRatioCombo" xml:space="preserve">
+    <value>Combo de relación de zoom</value>
+  </data>
+  <data name="PdfViewer_SubmitFormField" xml:space="preserve">
+    <value>Enviar botón de formulario. Haga clic en este botón para guardar los valores de los campos del formulario como un archivo JSON.</value>
+  </data>
+  <data name="PdfViewer_SearchPageText" xml:space="preserve">
+    <value>Buscar texto</value>
+  </data>
+  <data name="PdfViewer_ShapesDropDownButton" xml:space="preserve">
+    <value>Botón de menú desplegable de formas</value>
+  </data>
+  <data name="PdfViewer_ShapesDropDownPopupOpened" xml:space="preserve">
+    <value>Menú desplegable de formas abierto</value>
+  </data>
+  <data name="PdfViewer_ShapesLineMenuItem" xml:space="preserve">
+    <value>Elemento de menú de línea 1 de 5</value>
+  </data>
+  <data name="PdfViewer_ShapesArrowMenuItem" xml:space="preserve">
+    <value>Elemento de menú de flecha 2 de 5</value>
+  </data>
+  <data name="PdfViewer_ShapesRectangleMenuItem" xml:space="preserve">
+    <value>Elemento de menú de rectángulo 3 de 5</value>
+  </data>
+  <data name="PdfViewer_ShapesCircleMenuItem" xml:space="preserve">
+    <value>Elemento de menú de círculo 4 de 5</value>
+  </data>
+  <data name="PdfViewer_ShapesPolygonMenuItem" xml:space="preserve">
+    <value>Elemento de menú de polígono 5 de 5</value>
+  </data>
+  <data name="PdfViewer_CalibrateShapesDropdownButton" xml:space="preserve">
+    <value>Botón de menú desplegable para calibrar formas</value>
+  </data>
+  <data name="PdfViewer_CalibrateShapesDropDownPopupOpened" xml:space="preserve">
+    <value>Menú desplegable para calibrar formas abierto</value>
+  </data>
+  <data name="PdfViewer_DistanceMenuItem" xml:space="preserve">
+    <value>Elemento de menú de distancia 1 de 5</value>
+  </data>
+  <data name="PdfViewer_PerimeterMenuItem" xml:space="preserve">
+    <value>Elemento de menú de perímetro 2 de 5</value>
+  </data>
+  <data name="PdfViewer_AreaMenuItem" xml:space="preserve">
+    <value>Elemento de menú de área 3 de 5</value>
+  </data>
+  <data name="PdfViewer_RadiusMenuItem" xml:space="preserve">
+    <value>Elemento de menú de radio 4 de 5</value>
+  </data>
+  <data name="PdfViewer_VolumeMenuItem" xml:space="preserve">
+    <value>Elemento de menú de volumen 5 de 5</value>
+  </data>
+  <data name="PdfViewer_StampDropdownButtonCollapsed" xml:space="preserve">
+    <value>Botón de menú desplegable de sello, colapsado</value>
+  </data>
+  <data name="PdfViewer_DynamicStampMenuItem" xml:space="preserve">
+    <value>Sello dinámico 1 de 4</value>
+  </data>
+  <data name="PdfViewer_ApprovedStampMenuItem" xml:space="preserve">
+    <value>Sello aprobado 1 de 6</value>
+  </data>
+  <data name="PdfViewer_NotApprovedStampMenuItem" xml:space="preserve">
+    <value>Sello no aprobado 3 de 6</value>
+  </data>
+  <data name="PdfViewer_ConfidentialStampMenuItem" xml:space="preserve">
+    <value>Sello confidencial 2 de 6</value>
+  </data>
+  <data name="PdfViewer_ReceivedStampMenuItem" xml:space="preserve">
+    <value>Sello recibido 4 de 6</value>
+  </data>
+  <data name="PdfViewer_ReviewedStampMenuItem" xml:space="preserve">
+    <value>Sello revisado 5 de 6</value>
+  </data>
+  <data name="PdfViewer_RevisedStampMenuItem" xml:space="preserve">
+    <value>Sello revisado 6 de 6</value>
+  </data>
+  <data name="PdfViewer_SignHereDynamicStampMenuItem" xml:space="preserve">
+    <value>Sello Firmar aquí 2 de 4</value>
+  </data>
+  <data name="PdfViewer_AcceptedStampMenuItem" xml:space="preserve">
+    <value>Sello aceptado 1 de 5</value>
+  </data>
+  <data name="PdfViewer_InitialHereStampMenuItem" xml:space="preserve">
+    <value>Sello Inicial aquí 2 de 5</value>
+  </data>
+  <data name="PdfViewer_RejectedStampMenuItem" xml:space="preserve">
+    <value>Sello rechazado 3 de 5</value>
+  </data>
+  <data name="PdfViewer_SignHereStampMenuItem" xml:space="preserve">
+    <value>Sello Firmar aquí 4 de 5</value>
+  </data>
+  <data name="PdfViewer_WitnessStampMenuItem" xml:space="preserve">
+    <value>Sello Testigo 5 de 5</value>
+  </data>
+  <data name="PdfViewer_StandardBusinessStampMenuItem" xml:space="preserve">
+    <value>Sello de negocio estándar 3 de 4</value>
+  </data>
+  <data name="PdfViewer_ApprovedBusinesStampMenuItem" xml:space="preserve">
+    <value>Sello aprobado 1 de 12</value>
+  </data>
+  <data name="PdfViewer_CompletedBusinessStampMenuItem" xml:space="preserve">
+    <value>Sello completado 2 de 12</value>
+  </data>
+  <data name="PdfViewer_ConfidentialBusinessStampMenuItem" xml:space="preserve">
+    <value>Sello confidencial 3 de 12</value>
+  </data>
+  <data name="PdfViewer_DraftBusinessStampMenuItem" xml:space="preserve">
+    <value>Sello borrador 4 de 12</value>
+  </data>
+  <data name="PdfViewer_FinalBuinessStampMenuItem" xml:space="preserve">
+    <value>Sello final 5 de 12</value>
+  </data>
+  <data name="PdfViewer_ForCommentBusinessStampMenuItem" xml:space="preserve">
+    <value>Sello para comentario 6 de 12</value>
+  </data>
+  <data name="PdfViewer_ForPublicReleaseBusinessStampMenuItem" xml:space="preserve">
+    <value>Sello para liberación pública 7 de 12</value>
+  </data>
+  <data name="PdfViewer_InformationOnlyBusinessStampMenuItem" xml:space="preserve">
+    <value>Sello solo para información 8 de 12</value>
+  </data>
+  <data name="PdfViewer_NotApprovedBusinessStampMenuItem" xml:space="preserve">
+    <value>Sello no aprobado 9 de 12</value>
+  </data>
+  <data name="PdfViewer_NotForPublicReleaseBusinessStampMenuItem" xml:space="preserve">
+    <value>Sello no para liberación pública 10 de 12</value>
+  </data>
+  <data name="PdfViewer_PreliminaryResultsBusinessStampMenuItem" xml:space="preserve">
+    <value>Sello de resultados preliminares 11 de 12</value>
+  </data>
+  <data name="PdfViewer_VoidBusinessStampMenuItem" xml:space="preserve">
+    <value>Sello nulo 12 de 12</value>
+  </data>
+  <data name="PdfViewer_CustomStampMenuItem" xml:space="preserve">
+    <value>Sello personalizado 4 de 4</value>
+  </data>
+  <data name="PdfViewer_InsertSignature" xml:space="preserve">
+    <value>Insertar firma</value>
+  </data>
+  <data name="PdfViewer_DrawFreehand" xml:space="preserve">
+    <value>Dibujar a mano alzada</value>
+  </data>
+  <data name="PdfViewer_FontFamilyComboEdit" xml:space="preserve">
+    <value>Edición de combinación de fuentes</value>
+  </data>
+  <data name="PdfViewer_FontSizeComboEdit" xml:space="preserve">
+    <value>Edición de combinación de tamaño de fuente</value>
+  </data>
+  <data name="PdfViewer_FontColorComboEdit" xml:space="preserve">
+    <value>Edición de combinación de color de fuente</value>
+  </data>
+  <data name="PdfViewer_TextAlignComboEdit" xml:space="preserve">
+    <value>Edición de combinación de alineación de texto</value>
+  </data>
+  <data name="PdfViewer_TextAlignToolbarPopupOpened" xml:space="preserve">
+    <value>Popup de la barra de herramientas de alineación de texto abierto</value>
+  </data>
+  <data name="PdfViewer_AlignLeftMenuItem" xml:space="preserve">
+    <value>Alinear a la izquierda ítem de menú 1 de 4</value>
+  </data>
+  <data name="PdfViewer_AlignRightMenuItem" xml:space="preserve">
+    <value>Alinear a la derecha ítem de menú 2 de 4</value>
+  </data>
+  <data name="PdfViewer_AlignCenterMenuItem" xml:space="preserve">
+    <value>Alinear al centro ítem de menú 3 de 4</value>
+  </data>
+  <data name="PdfViewer_JustifyMenuItem" xml:space="preserve">
+    <value>Justificar ítem de menú 4 de 4</value>
+  </data>
+  <data name="PdfViewer_TextPropertiesComboEdit" xml:space="preserve">
+    <value>Edición de combinación de propiedades de texto</value>
+  </data>
+  <data name="PdfViewer_TextPropertyToolbarPopupOpened" xml:space="preserve">
+    <value>Popup de la barra de herramientas de propiedades de texto abierto</value>
+  </data>
+  <data name="PdfViewer_BoldIconMenuItem" xml:space="preserve">
+    <value>Ícono de negrita ítem de menú 1 de 4</value>
+  </data>
+  <data name="PdfViewer_ItalicIconMenuItem" xml:space="preserve">
+    <value>Ícono de cursiva ítem de menú 2 de 4</value>
+  </data>
+  <data name="PdfViewer_StrikeOutIconMenuItem" xml:space="preserve">
+    <value>Ícono de tachado ítem de menú 3 de 4</value>
+  </data>
+  <data name="PdfViewer_UnderlineIconMenuItem" xml:space="preserve">
+    <value>Ícono de subrayado ítem de menú 4 de 4</value>
+  </data>
+  <data name="PdfViewer_FillColorComboEdit" xml:space="preserve">
+    <value>Edición de combinación de color de relleno</value>
+  </data>
+  <data name="PdfViewer_StrokeColorComboEdit" xml:space="preserve">
+    <value>Edición de combinación de color de trazo</value>
+  </data>
+  <data name="PdfViewer_ThicknessSlider" xml:space="preserve">
+    <value>Control deslizante de grosor</value>
+  </data>
+  <data name="PdfViewer_OpacitySlider" xml:space="preserve">
+    <value>Control deslizante de opacidad</value>
+  </data>
+  <data name="PdfViewer_CloseAnnotationToolbarButton" xml:space="preserve">
+    <value>Cerrar botón de barra de herramientas de anotación</value>
+  </data>
   <data name="PdfViewer_InvalidPassword" xml:space="preserve">
     <value>Contraseña incorrecta. Inténtalo de nuevo.</value>
   </data>
@@ -3768,11 +4005,17 @@
   <data name="PdfViewer_GoToPage" xml:space="preserve">
     <value>Ir a la página</value>
   </data>
-  <data name="PdfViewer_Nomatches" xml:space="preserve">
-    <value>El visor ha terminado de buscar el documento. No se encontraron más coincidencias</value>
+  <data name="PdfViewer_NoMatches" xml:space="preserve">
+    <value>El espectador ha terminado de buscar el documento. No se encontraron coincidencias.</value>
   </data>
-  <data name="PdfViewer_NoTextFound" xml:space="preserve">
-    <value>No se encontró texto</value>
+  <data name="PdfViewer_NoMoreMatches" xml:space="preserve">
+    <value>El visor ha terminado de buscar el documento. No se encontraron más coincidencias.</value>
+  </data>
+  <data name="PdfViewer_NoSearchMatches" xml:space="preserve">
+    <value>No se encontraron coincidencias</value>
+  </data>
+  <data name="PdfViewer_NoMoreSearchMatches" xml:space="preserve">
+    <value> No se encontraron más coincidencias</value>
   </data>
   <data name="PdfViewer_Undo" xml:space="preserve">
     <value>Deshacer</value>
@@ -3791,6 +4034,9 @@
   </data>
   <data name="PdfViewer_Strikethrough" xml:space="preserve">
     <value>Texto tachado</value>
+  </data>
+  <data name="PdfViewer_Squiggly" xml:space="preserve">
+    <value>Texto ondulado</value>
   </data>
   <data name="PdfViewer_Delete" xml:space="preserve">
     <value>Eliminar anotación</value>
@@ -3813,11 +4059,17 @@
   <data name="PdfViewer_StrikethroughContext" xml:space="preserve">
     <value>tachado</value>
   </data>
+  <data name="PdfViewer_SquigglyContext" xml:space="preserve">
+    <value>Ondulado</value>
+  </data>
   <data name="PdfViewer_Servererror" xml:space="preserve">
-    <value>El servicio web no está escuchando. PDF Viewer depende del servicio web para todas sus características. Inicie el servicio web para continuar.</value>
+    <value>Algo salió mal. Inténtalo de nuevo o actualiza la página.</value>
   </data>
   <data name="PdfViewer_Clienterror" xml:space="preserve">
     <value>Se ha encontrado un error del lado del cliente. Compruebe los encabezados personalizados proporcionados en la propiedad AjaxRequestSettings y los métodos de acción web en la propiedad ServerActionSettings.</value>
+  </data>
+  <data name="PdfViewer_Corspolicyerror" xml:space="preserve">
+    <value>El acceso al documento está restringido debido a la política CORS. Por favor revisa el documento.</value>
   </data>
   <data name="PdfViewer_OpenText" xml:space="preserve">
     <value>Abierta</value>
@@ -3854,6 +4106,147 @@
   </data>
   <data name="PdfViewer_AnnotationEditText" xml:space="preserve">
     <value>Editar anotación</value>
+  </data>
+  <data name="PdfViewer_FormDesigner" xml:space="preserve">
+    <value>Agregar o editar campos del formulario</value>
+  </data>
+  <data name="PdfViewer_FormDesignerText" xml:space="preserve">
+    <value>Editar campos del formulario</value>
+  </data>
+  <data name="PdfViewer_Textbox" xml:space="preserve">
+    <value>Cuadro de texto</value>
+  </data>
+  <data name="PdfViewer_Password" xml:space="preserve">
+    <value>Contraseña</value>
+  </data>
+  <data name="PdfViewer_Checkbox" xml:space="preserve">
+  <value>Casilla de verificación</value>
+  </data>
+  <data name="PdfViewer_RadioButton" xml:space="preserve">
+    <value>Botón de opción</value>
+  </data>
+  <data name="PdfViewer_DropDown" xml:space="preserve">
+    <value>Desplegable</value>
+  </data>
+  <data name="PdfViewer_ListBox" xml:space="preserve">
+    <value>Caja de lista</value>
+  </data>
+  <data name="PdfViewer_Button" xml:space="preserve">
+    <value>Botón</value>
+  </data>
+  <data name="PdfViewer_DeleteFormField" xml:space="preserve">
+    <value>Eliminar campo del formulario</value>
+  </data>
+  <data name="PdfViewer_Signature" xml:space="preserve">
+    <value>Firma</value>
+  </data>
+  <data name="PdfViewer_Initial" xml:space="preserve">
+    <value>Inicial</value>
+  </data>
+  <data name="PdfViewer_Save" xml:space="preserve">
+    <value>Guardar</value>
+  </data>
+  <data name="PdfViewer_General" xml:space="preserve">
+    <value>General</value>
+  </data>
+  <data name="PdfViewer_Appearance" xml:space="preserve">
+    <value>Apariencia</value>
+  </data>
+  <data name="PdfViewer_Options" xml:space="preserve">
+    <value>Opciones</value>
+  </data>
+  <data name="PdfViewer_Name" xml:space="preserve">
+    <value>Nombre</value>
+  </data>
+  <data name="PdfViewer_Tooltip" xml:space="preserve">
+    <value>Tooltip</value>
+  </data>
+  <data name="PdfViewer_Value" xml:space="preserve">
+    <value>Valor</value>
+  </data>
+  <data name="PdfViewer_Visibility" xml:space="preserve">
+    <value>Visibilidad del campo</value>
+  </data>
+  <data name="PdfViewer_ReadOnly" xml:space="preserve">
+    <value>Solo lectura</value>
+  </data>
+  <data name="PdfViewer_Checked" xml:space="preserve">
+    <value>Marcado</value>
+  </data>
+  <data name="PdfViewer_Selected" xml:space="preserve">
+    <value>Seleccionado</value>
+  </data>
+  <data name="PdfViewer_Required" xml:space="preserve">
+    <value>Requerido</value>
+  </data>
+  <data name="PdfViewer_Multiline" xml:space="preserve">
+    <value>Multilínea</value>
+  </data>
+  <data name="PdfViewer_Format" xml:space="preserve">
+    <value>Formato</value>
+  </data>
+  <data name="PdfViewer_MaxLength" xml:space="preserve">
+    <value>Longitud máxima</value>
+  </data>
+  <data name="PdfViewer_Fill" xml:space="preserve">
+    <value>Llenar</value>
+  </data>
+  <data name="PdfViewer_Border" xml:space="preserve">
+    <value>Borde</value>
+  </data>
+  <data name="PdfViewer_Thickness" xml:space="preserve">
+    <value>Grosor</value>
+  </data>
+  <data name="PdfViewer_ItemName" xml:space="preserve">
+    <value>Nombre del ítem</value>
+  </data>
+  <data name="PdfViewer_ItemValue" xml:space="preserve">
+    <value>Valor del ítem</value>
+  </data>
+  <data name="PdfViewer_ItemList" xml:space="preserve">
+    <value>Lista de ítems</value>
+  </data>
+  <data name="PdfViewer_Up" xml:space="preserve">
+    <value>Arriba</value>
+  </data>
+  <data name="PdfViewer_Down" xml:space="preserve">
+    <value>Abajo</value>
+  </data>
+  <data name="PdfViewer_BorderThickness" xml:space="preserve">
+    <value>Grosor del borde</value>
+  </data>
+  <data name="PdfViewer_FontStyle" xml:space="preserve">
+    <value>Estilo de fuente</value>
+  </data>
+  <data name="PdfViewer_Alignment" xml:space="preserve">
+    <value>Alineación</value>
+  </data>
+  <data name="PdfViewer_BorderColor" xml:space="preserve">
+    <value>Color del borde</value>
+  </data>
+  <data name="PdfViewer_Visible" xml:space="preserve">
+    <value>Visible</value>
+  </data>
+  <data name="PdfViewer_VisibleNotPrintable" xml:space="preserve">
+    <value>Visible no imprimible</value>
+  </data>
+  <data name="PdfViewer_HiddenPrintable" xml:space="preserve">
+    <value>Oculto imprimible</value>
+  </data>
+  <data name="PdfViewer_Hidden" xml:space="preserve">
+    <value>Oculto</value>
+  </data>
+  <data name="PdfViewer_Helvetica" xml:space="preserve">
+    <value>Helvetica</value>
+  </data>
+  <data name="PdfViewer_Courier" xml:space="preserve">
+    <value>Courier</value>
+  </data>
+  <data name="PdfViewer_Symbol" xml:space="preserve">
+    <value>Símbolo</value>
+  </data>
+  <data name="PdfViewer_TimesNewRoman" xml:space="preserve">
+    <value>Times New Roman</value>
   </data>
   <data name="PdfViewer_LineThickness" xml:space="preserve">
     <value>Grosor de la línea</value>
@@ -4107,6 +4500,9 @@
   <data name="PdfViewer_Save_Signature" xml:space="preserve">
     <value>Guardar firma</value>
   </data>
+  <data name="PdfViewer_Save_Initial" xml:space="preserve">
+    <value>Guardar inicial</value>
+  </data>
   <data name="PdfViewer_Enter_Signature_as_Name" xml:space="preserve">
     <value>Introduzca su nombre</value>
   </data>
@@ -4185,8 +4581,32 @@
   <data name="PdfViewer_HandwrittenSignatureDialogHeaderText" xml:space="preserve">
     <value>Agregar firma</value>
   </data>
+  <data name="PdfViewer_HandwrittenInitialDialogHeaderText" xml:space="preserve">
+    <value>Agregar inicial</value>
+  </data>
   <data name="PdfViewer_DrawInk" xml:space="preserve">
     <value>dibujar tinta</value>
+  </data>
+  <data name="PdfViewer_PromptPlaceholder" xml:space="preserve">
+    <value>Escribe tu solicitud para obtener ayuda...</value>
+  </data>
+  <data name="PdfViewer_AIAssistHeader" xml:space="preserve">
+    <value>Asistente de IA</value>
+  </data>
+  <data name="PdfViewer_AIAssistBannerTitle" xml:space="preserve">
+    <value>Asistencia de IA</value>
+  </data>
+  <data name="PdfViewer_AIAssistBannerSubtitle" xml:space="preserve">
+    <value>Tu compañero de IA diario</value>
+  </data>
+  <data name="PdfViewer_ErrorDialogHeader" xml:space="preserve">
+    <value>Error del servicio de IA</value>
+  </data>
+  <data name="PdfViewer_CredentialErrorContent" xml:space="preserve">
+    <value>No se proporcionaron las credenciales, o son incorrectas o inválidas. Por favor, verifica e introduce las credenciales correctas e inténtalo de nuevo.</value>
+  </data>
+  <data name="PdfViewer_ConnectionLostErrorContent" xml:space="preserve">
+    <value>Se ha perdido la conexión con el servicio de IA. Por favor, verifica tu conexión de red e inténtalo de nuevo.</value>
   </data>
   <data name="DocumentEditor_Table" xml:space="preserve">
     <value>Mesa</value>
@@ -4265,7 +4685,7 @@
   </data>
   <data name="DocumentEditor_Level9" xml:space="preserve">
     <value>Nivel 9</value>
-  </data>    
+  </data>
   <data name="DocumentEditor_IndentFromLeft" xml:space="preserve">
     <value>Sangría desde la izquierda</value>
   </data>
@@ -5869,9 +6289,9 @@
     <value>diseño web</value>
   </data>
   <data name="DocumentEditorContainer_ToggleBetweenTheInternalClipboardAndSystemClipboard" xml:space="preserve">
-    <value>Alterne entre el portapapeles interno y el portapapeles del sistema. 
- El acceso al portapapeles del sistema a través del script está denegado debido a la política de seguridad de los navegadores. En su lugar, 
- 1. Puede habilitar el portapapeles interno para cortar, copiar y pegar dentro del componente. 
+    <value>Alterne entre el portapapeles interno y el portapapeles del sistema.
+ El acceso al portapapeles del sistema a través del script está denegado debido a la política de seguridad de los navegadores. En su lugar,
+ 1. Puede habilitar el portapapeles interno para cortar, copiar y pegar dentro del componente.
  2. Puede usar los atajos de teclado (Ctrl + X, Ctrl + C y Ctrl + V) para cortar , copie y pegue con el portapapeles del sistema.</value>
   </data>
   <data name="DocumentEditorContainer_TextForm" xml:space="preserve">
@@ -5982,19 +6402,19 @@
   <data name="DocumentEditorContainer_Changecase" xml:space="preserve">
     <value>Cambiar caso</value>
 </data>
-<data name="DocumentEditorContainer_Uppercase" xml:space="preserve">
+  <data name="DocumentEditorContainer_Uppercase" xml:space="preserve">
     <value>MAYÚSCULAS</value>
 </data>
-<data name="DocumentEditorContainer_Lowercase" xml:space="preserve">
+  <data name="DocumentEditorContainer_Lowercase" xml:space="preserve">
     <value>Minúsculas</value>
 </data>
-<data name="DocumentEditorContainer_SentenceCase" xml:space="preserve">
+  <data name="DocumentEditorContainer_SentenceCase" xml:space="preserve">
     <value>Caso de sentencia</value>
 </data>
-<data name="DocumentEditorContainer_CapitalizeEachWord" xml:space="preserve">
+  <data name="DocumentEditorContainer_CapitalizeEachWord" xml:space="preserve">
     <value>Ponga en mayúscula cada palabra</value>
 </data>
-<data name="DocumentEditorContainer_ToggleCase" xml:space="preserve">
+  <data name="DocumentEditorContainer_ToggleCase" xml:space="preserve">
     <value>Caso de palanca</value>
 </data>
   <data name="Gantt_Touch_DialogTextOnClickingConnectorPoint" xml:space="preserve">
@@ -6141,79 +6561,79 @@
   <data name="DocumentEditorContainer_TabStopPosition" xml:space="preserve">
 <value>Posición de tabulación</value>
 </data>
-<data name="DocumentEditorContainer_DefaultTabStops" xml:space="preserve">
+  <data name="DocumentEditorContainer_DefaultTabStops" xml:space="preserve">
 <value>Tabulaciones predeterminadas</value>
 </data>
-<data name="DocumentEditorContainer_TabStopsCleared" xml:space="preserve">
+  <data name="DocumentEditorContainer_TabStopsCleared" xml:space="preserve">
 <value>Tabulaciones que deben borrarse</value>
 </data>
-<data name="DocumentEditorContainer_Tabs" xml:space="preserve">
+  <data name="DocumentEditorContainer_Tabs" xml:space="preserve">
 <value>Pestañas</value>
 </data>
-<data name="DocumentEditor_Set" xml:space="preserve">
+  <data name="DocumentEditor_Set" xml:space="preserve">
 <value>Colocar</value>
 </data>
-<data name="DocumentEditor_Clear" xml:space="preserve">
+  <data name="DocumentEditor_Clear" xml:space="preserve">
 <value>Claro</value>
 </data>
-<data name="DocumentEditor_ClearAll" xml:space="preserve">
+  <data name="DocumentEditor_ClearAll" xml:space="preserve">
 <value>Limpiar todo</value>
 </data>
-<data name="DocumentEditor_Decimal" xml:space="preserve">
+  <data name="DocumentEditor_Decimal" xml:space="preserve">
 <value>Decimal</value>
 </data>
-<data name="DocumentEditor_Bar" xml:space="preserve">
+  <data name="DocumentEditor_Bar" xml:space="preserve">
 <value>Bar</value>
 </data>
-<data name="DocumentEditorContainer_Alignment" xml:space="preserve">
+  <data name="DocumentEditorContainer_Alignment" xml:space="preserve">
 <value>Alineación</value>
 </data>
-<data name="DocumentEditorContainer_Leader" xml:space="preserve">
+  <data name="DocumentEditorContainer_Leader" xml:space="preserve">
 <value>Líder</value>
 </data>
-<data name="DocumentEditorContainer_All" xml:space="preserve">
+  <data name="DocumentEditorContainer_All" xml:space="preserve">
 <value>Todo</value>
 </data>
-<data name="DocumentEditor_BottomMargin" xml:space="preserve">
+  <data name="DocumentEditor_BottomMargin" xml:space="preserve">
 <value>Margen inferior</value>
 </data>
-<data name="DocumentEditor_FirstLineIndent" xml:space="preserve">
+  <data name="DocumentEditor_FirstLineIndent" xml:space="preserve">
 <value>Incidente de primera linea</value>
 </data>
-<data name="DocumentEditor_HangingIndent" xml:space="preserve">
+  <data name="DocumentEditor_HangingIndent" xml:space="preserve">
 <value>Sangría francesa</value>
 </data>
-<data name="DocumentEditor_LeftIndent" xml:space="preserve">
+  <data name="DocumentEditor_LeftIndent" xml:space="preserve">
 <value>Sangría izquierda</value>
 </data>
-<data name="DocumentEditor_LeftMargin" xml:space="preserve">
+  <data name="DocumentEditor_LeftMargin" xml:space="preserve">
 <value>Margen izquierdo</value>
 </data>
-<data name="DocumentEditor_MoveTableColumn" xml:space="preserve">
+  <data name="DocumentEditor_MoveTableColumn" xml:space="preserve">
 <value>Mover columna de tabla</value>
 </data>
-<data name="DocumentEditor_RightIndent" xml:space="preserve">
+  <data name="DocumentEditor_RightIndent" xml:space="preserve">
 <value>Sangría derecha</value>
 </data>
-<data name="DocumentEditor_RightMargin" xml:space="preserve">
+  <data name="DocumentEditor_RightMargin" xml:space="preserve">
 <value>Margen derecho</value>
 </data>
-<data name="DocumentEditor_TopMargin" xml:space="preserve">
+  <data name="DocumentEditor_TopMargin" xml:space="preserve">
 <value>Margen superior</value>
 </data>
-<data name="DocumentEditor_LeftTab" xml:space="preserve">
+  <data name="DocumentEditor_LeftTab" xml:space="preserve">
 <value>Pestaña izquierda</value>
 </data>
-<data name="DocumentEditor_CenterTab" xml:space="preserve">
+  <data name="DocumentEditor_CenterTab" xml:space="preserve">
 <value>Pestaña central</value>
 </data>
-<data name="DocumentEditor_RightTab" xml:space="preserve">
+  <data name="DocumentEditor_RightTab" xml:space="preserve">
 <value>Pestaña derecha</value>
 </data>
-<data name="DocumentEditor_DecimalTab" xml:space="preserve">
+  <data name="DocumentEditor_DecimalTab" xml:space="preserve">
 <value>Tabulación decimal</value>
 </data>
-<data name="DocumentEditor_BarTab" xml:space="preserve">
+  <data name="DocumentEditor_BarTab" xml:space="preserve">
 <value>Pestaña de la barra</value>
 </data>
   <data name="ImageEditor_OkBtnTooltip" xml:space="preserve">
@@ -6311,5 +6731,1712 @@
   </data>
   <data name="ImageEditor_SendBackward" xml:space="preserve">
     <value>Enviar atrás</value>
+  </data>
+  <data name="ImageEditor_OutlineColor" xml:space="preserve">
+    <value>Color del contorno</value>
+  </data>
+  <data name="ImageEditor_RectRadius" xml:space="preserve">
+    <value>Redactar</value>
+  </data>
+  <data name="ImageEditor_Pixelate" xml:space="preserve">
+    <value>Pixelar</value>
+  </data>
+  <data name="ImageEditor_Pixel_Size" xml:space="preserve">
+    <value>Tamaño de píxel</value>
+  </data>
+  <data name="ColorPicker_RecentColors" xml:space="preserve">
+    <value>Colores recientes</value>
+  </data>
+  <data name="ImageEditor_Support_AND" xml:space="preserve">
+    <value>y</value>
+  </data>
+  <data name="AIAssistView_StopResponseText" xml:space="preserve">
+    <value>Dejar de responder</value>
+  </data>
+  <data name="ChatUI_MultipleUsersTyping" xml:space="preserve">
+    <value>{0}, {1} y {2} otras están escribiendo</value>
+  </data>
+  <data name="ChatUI_OneUserTyping" xml:space="preserve">
+    <value>{0} está escribiendo</value>
+  </data>
+  <data name="ChatUI_TwoUserTyping" xml:space="preserve">
+    <value>{0} y {1} están escribiendo</value>
+  </data>
+  <data name="ChatUI_ThreeUserTyping" xml:space="preserve">
+    <value>{0}, {1} y {2} otras están escribiendo</value>
+  </data>
+  <data name="Spreadsheet_InvalidPassword" xml:space="preserve">
+    <value>Contraseña incorrecta. Por favor, inténtelo de nuevo.</value>
+  </data>
+  <data name="Spreadsheet_Delete" xml:space="preserve">
+    <value>Eliminar</value>
+  </data>
+  <data name="Spreadsheet_Duplicate" xml:space="preserve">
+    <value>Duplicar</value>
+  </data>
+  <data name="Spreadsheet_Rename" xml:space="preserve">
+    <value>Cambiar nombre</value>
+  </data>
+  <data name="Spreadsheet_MoveRight" xml:space="preserve">
+    <value>Mover a la derecha</value>
+  </data>
+  <data name="Spreadsheet_MoveLeft" xml:space="preserve">
+    <value>Mover a la izquierda</value>
+  </data>
+  <data name="Spreadsheet_Copy" xml:space="preserve">
+    <value>Copiar</value>
+  </data>
+  <data name="Spreadsheet_Cut" xml:space="preserve">
+    <value>Cortar</value>
+  </data>
+  <data name="Spreadsheet_Paste" xml:space="preserve">
+    <value>Pegar</value>
+  </data>
+  <data name="Spreadsheet_InsertLeft" xml:space="preserve">
+    <value>Insertar columna a la izquierda</value>
+  </data>
+  <data name="Spreadsheet_InsertRight" xml:space="preserve">
+    <value>Insertar columna a la derecha</value>
+  </data>
+  <data name="Spreadsheet_InsertRowsAbove" xml:space="preserve">
+    <value>Insertar filas encima</value>
+  </data>
+  <data name="Spreadsheet_InsertRowsBelow" xml:space="preserve">
+    <value>Insertar filas debajo</value>
+  </data>
+  <data name="Spreadsheet_Sort" xml:space="preserve">
+    <value>Ordenar</value>
+  </data>
+  <data name="Spreadsheet_ClearAll" xml:space="preserve">
+    <value>Borrar todo</value>
+  </data>
+  <data name="Spreadsheet_ClearFormats" xml:space="preserve">
+    <value>Borrar formatos</value>
+  </data>
+  <data name="Spreadsheet_ClearContents" xml:space="preserve">
+    <value>Borrar contenidos</value>
+  </data>
+  <data name="Spreadsheet_ClearHyperlinks" xml:space="preserve">
+    <value>Borrar hipervínculos</value>
+  </data>
+  <data name="Spreadsheet_Clear" xml:space="preserve">
+    <value>Borrar</value>
+  </data>
+  <data name="Spreadsheet_Home" xml:space="preserve">
+    <value>Inicio</value>
+  </data>
+  <data name="Spreadsheet_Link" xml:space="preserve">
+    <value>Enlace</value>
+  </data>
+  <data name="Spreadsheet_File" xml:space="preserve">
+    <value>Archivo</value>
+  </data>
+  <data name="Spreadsheet_Image" xml:space="preserve">
+    <value>Imagen</value>
+  </data>
+  <data name="Spreadsheet_New" xml:space="preserve">
+    <value>Nuevo</value>
+  </data>
+  <data name="Spreadsheet_Open" xml:space="preserve">
+    <value>Abrir</value>
+  </data>
+  <data name="Spreadsheet_ABS" xml:space="preserve">
+    <value>Devuelve el valor absoluto de un número</value>
+  </data>
+  <data name="Spreadsheet_ACOS" xml:space="preserve">
+    <value>Devuelve el arcocoseno de un número</value>
+  </data>
+  <data name="Spreadsheet_ACOSH" xml:space="preserve">
+    <value>Devuelve el coseno hiperbólico inverso de un número</value>
+  </data>
+  <data name="Spreadsheet_ADDRESS" xml:space="preserve">
+    <value>Devuelve una referencia como texto a una celda</value>
+  </data>
+  <data name="Spreadsheet_ANDFormula" xml:space="preserve">
+    <value>Devuelve VERDADERO si todos sus argumentos son VERDADEROS</value>
+  </data>
+    <data name="Spreadsheet_AREAS" xml:space="preserve">
+    <value>Devuelve el número de áreas en una referencia</value>
+  </data>
+  <data name="Spreadsheet_ARRAYTOTEXT" xml:space="preserve">
+    <value>Devuelve la representación de texto de una matriz</value>
+  </data>
+  <data name="Spreadsheet_ASC" xml:space="preserve">
+    <value>Convierte caracteres de ancho completo a caracteres de medio ancho en una cadena</value>
+  </data>
+  <data name="Spreadsheet_ASIN" xml:space="preserve">
+    <value>Devuelve el arcoseno de un número</value>
+  </data>
+  <data name="Spreadsheet_ASINH" xml:space="preserve">
+    <value>Devuelve el seno hiperbólico inverso de un número</value>
+  </data>
+  <data name="Spreadsheet_ATAN" xml:space="preserve">
+    <value>Devuelve el arcotangente de un número</value>
+  </data>
+  <data name="Spreadsheet_ATAN2" xml:space="preserve">
+    <value>Devuelve el arcotangente a partir de las coordenadas x e y</value>
+  </data>
+  <data name="Spreadsheet_ATANH" xml:space="preserve">
+    <value>Devuelve la tangente hiperbólica inversa de un número</value>
+  </data>
+  <data name="Spreadsheet_AVEDEV" xml:space="preserve">
+    <value>Devuelve el promedio de las desviaciones absolutas respecto a la media</value>
+  </data>
+  <data name="Spreadsheet_AVERAGE" xml:space="preserve">
+    <value>Devuelve el promedio de sus argumentos</value>
+  </data>
+  <data name="Spreadsheet_AVERAGEA" xml:space="preserve">
+    <value>Devuelve el promedio de sus argumentos</value>
+  </data>
+  <data name="Spreadsheet_AVERAGEIF" xml:space="preserve">
+    <value>Devuelve el promedio de celdas que cumplen un criterio</value>
+  </data>
+  <data name="Spreadsheet_AVERAGEIFS" xml:space="preserve">
+    <value>Devuelve el promedio de celdas que cumplen múltiples criterios</value>
+  </data>
+  <data name="Spreadsheet_BESSELI" xml:space="preserve">
+    <value>Devuelve la función Bessel modificada In(x)</value>
+  </data>
+  <data name="Spreadsheet_BESSELJ" xml:space="preserve">
+    <value>Devuelve la función Bessel Jn(x)</value>
+  </data>
+  <data name="Spreadsheet_BESSELK" xml:space="preserve">
+    <value>Devuelve la función Bessel modificada Kn(x)</value>
+  </data>
+  <data name="Spreadsheet_BESSELY" xml:space="preserve">
+    <value>Devuelve la función Bessel Yn(x)</value>
+  </data>
+  <data name="Spreadsheet_BIN2DEC" xml:space="preserve">
+    <value>Convierte un número binario a decimal</value>
+  </data>
+  <data name="Spreadsheet_BIN2HEX" xml:space="preserve">
+    <value>Convierte un número binario a hexadecimal</value>
+  </data>
+  <data name="Spreadsheet_BIN2OCT" xml:space="preserve">
+    <value>Convierte un número binario a octal</value>
+  </data>
+  <data name="Spreadsheet_BINOMDIST" xml:space="preserve">
+    <value>Devuelve la probabilidad de distribución binomial individual</value>
+  </data>
+  <data name="Spreadsheet_BYCOL" xml:space="preserve">
+    <value>Aplica LAMBDA a cada columna y devuelve una matriz de los resultados</value>
+  </data>
+  <data name="Spreadsheet_BYROW" xml:space="preserve">
+    <value>Aplica LAMBDA a cada fila y devuelve una matriz de los resultados</value>
+  </data>
+  <data name="Spreadsheet_CEILING" xml:space="preserve">
+    <value>Redondea un número al entero o múltiplo más cercano</value>
+  </data>
+  <data name="Spreadsheet_CELL" xml:space="preserve">
+    <value>Devuelve información sobre el formato, ubicación o contenido</value>
+  </data>
+  <data name="Spreadsheet_CHAR" xml:space="preserve">
+    <value>Devuelve el carácter especificado por el número de código</value>
+  </data>
+  <data name="Spreadsheet_CHIDIST" xml:space="preserve">
+    <value>Devuelve la probabilidad de una cola de la distribución chi-cuadrado</value>
+  </data>
+  <data name="Spreadsheet_CHIINV" xml:space="preserve">
+    <value>Devuelve el inverso de la distribución chi-cuadrado</value>
+  </data>
+  <data name="Spreadsheet_CHITEST" xml:space="preserve">
+    <value>Devuelve la prueba de independencia</value>
+  </data>
+  <data name="Spreadsheet_CHOOSE" xml:space="preserve">
+    <value>Elige un valor de una lista de valores</value>
+  </data>
+  <data name="Spreadsheet_CHOOSECOLS" xml:space="preserve">
+    <value>Devuelve las columnas especificadas de una matriz</value>
+  </data>
+  <data name="Spreadsheet_CHOOSEROWS" xml:space="preserve">
+    <value>Devuelve las filas especificadas de una matriz</value>
+  </data>
+  <data name="Spreadsheet_CLEAN" xml:space="preserve">
+    <value>Elimina todos los caracteres no imprimibles del texto</value>
+  </data>
+  <data name="Spreadsheet_CODE" xml:space="preserve">
+    <value>Devuelve un código numérico para el primer carácter de una cadena de texto</value>
+  </data>
+  <data name="Spreadsheet_COLUMN" xml:space="preserve">
+    <value>Devuelve el número de columna de una referencia</value>
+  </data>
+  <data name="Spreadsheet_COLUMNS" xml:space="preserve">
+    <value>Devuelve el número de columnas en una referencia</value>
+  </data>
+  <data name="Spreadsheet_COMBIN" xml:space="preserve">
+    <value>Devuelve el número de combinaciones para un número determinado de objetos</value>
+  </data>
+  <data name="Spreadsheet_COMPLEX" xml:space="preserve">
+    <value>Convierte coeficientes reales e imaginarios en un número complejo</value>
+  </data>
+  <data name="Spreadsheet_CONCAT" xml:space="preserve">
+    <value>Combina el texto de varios rangos y/o cadenas</value>
+  </data>
+  <data name="Spreadsheet_CONCATENATE" xml:space="preserve">
+    <value>Une varios elementos de texto en un solo elemento de texto</value>
+  </data>
+  <data name="Spreadsheet_CONFIDENCE" xml:space="preserve">
+    <value>Devuelve el intervalo de confianza para la media de una población</value>
+  </data>
+  <data name="Spreadsheet_CONVERT" xml:space="preserve">
+    <value>Convierte un número de un sistema de medida a otro</value>
+  </data>
+  <data name="Spreadsheet_CORREL" xml:space="preserve">
+    <value>Devuelve el coeficiente de correlación entre dos conjuntos de datos</value>
+  </data>
+  <data name="Spreadsheet_COS" xml:space="preserve">
+    <value>Devuelve el coseno de un número</value>
+  </data>
+  <data name="Spreadsheet_COSH" xml:space="preserve">
+    <value>Devuelve el coseno hiperbólico de un número</value>
+  </data>
+  <data name="Spreadsheet_COUNT" xml:space="preserve">
+    <value>Cuenta cuántos números hay en la lista de argumentos</value>
+  </data>
+  <data name="Spreadsheet_COUNTA" xml:space="preserve">
+    <value>Cuenta cuántos valores hay en la lista de argumentos</value>
+  </data>
+  <data name="Spreadsheet_COUNTBLANK" xml:space="preserve">
+    <value>Cuenta el número de celdas en blanco dentro de un rango</value>
+  </data>
+  <data name="Spreadsheet_COUNTIF" xml:space="preserve">
+    <value>Cuenta las celdas que cumplen con un criterio dado</value>
+  </data>
+  <data name="Spreadsheet_COVAR" xml:space="preserve">
+    <value>Devuelve la covarianza, el promedio de los productos de las desviaciones emparejadas</value>
+  </data>
+  <data name="Spreadsheet_CRITBINOM" xml:space="preserve">
+    <value>Devuelve el valor más pequeño para la distribución binomial acumulativa</value>
+  </data>
+  <data name="Spreadsheet_CUMIPMT" xml:space="preserve">
+    <value>Devuelve el interés acumulado pagado entre dos períodos</value>
+  </data>
+  <data name="Spreadsheet_CUMPRINC" xml:space="preserve">
+    <value>Devuelve el capital acumulado pagado de un préstamo entre dos períodos</value>
+  </data>
+  <data name="Spreadsheet_DATE" xml:space="preserve">
+    <value>Devuelve el número de serie de una fecha determinada</value>
+  </data>
+  <data name="Spreadsheet_DATEVALUE" xml:space="preserve">
+    <value>Convierte una fecha en forma de texto a un número de serie</value>
+  </data>
+  <data name="Spreadsheet_DAY" xml:space="preserve">
+    <value>Convierte un número de serie a un día del mes</value>
+  </data>
+  <data name="Spreadsheet_DAYS360" xml:space="preserve">
+    <value>Calcula el número de días entre dos fechas basándose en un año de 360 días</value>
+  </data>
+  <data name="Spreadsheet_DB" xml:space="preserve">
+    <value>Devuelve la depreciación de un activo mediante el método de saldo decreciente fijo</value>
+  </data>
+  <data name="Spreadsheet_DDB" xml:space="preserve">
+    <value>Devuelve la depreciación de un activo mediante el método de saldo decreciente doble</value>
+  </data>
+  <data name="Spreadsheet_DEC2BIN" xml:space="preserve">
+    <value>Convierte un número decimal a binario</value>
+  </data>
+  <data name="Spreadsheet_DECHEX" xml:space="preserve">
+    <value>Convierte un número decimal a hexadecimal</value>
+  </data>
+  <data name="Spreadsheet_DEC2OCT" xml:space="preserve">
+    <value>Convierte un número decimal a octal</value>
+  </data>
+  <data name="Spreadsheet_DEGREES" xml:space="preserve">
+    <value>Convierte radianes a grados</value>
+  </data>
+  <data name="Spreadsheet_DELTA" xml:space="preserve">
+    <value>Comprueba si dos valores son iguales</value>
+  </data>
+  <data name="Spreadsheet_DEVSQ" xml:space="preserve">
+    <value>Devuelve la suma de los cuadrados de las desviaciones</value>
+  </data>
+  <data name="Spreadsheet_DISC" xml:space="preserve">
+    <value>Devuelve la tasa de descuento de un valor financiero</value>
+  </data>
+  <data name="Spreadsheet_DOLLAR" xml:space="preserve">
+    <value>Convierte un número a texto, utilizando el formato de moneda $ (dólar)</value>
+  </data>
+  <data name="Spreadsheet_DOLLARDE" xml:space="preserve">
+    <value>Convierte un precio de dólar fraccional a decimal</value>
+  </data>
+  <data name="Spreadsheet_DOLLARFR" xml:space="preserve">
+    <value>Convierte un precio de dólar decimal a fraccional</value>
+  </data>
+  <data name="Spreadsheet_DURATION" xml:space="preserve">
+    <value>Devuelve la duración anual de un valor con pagos de interés periódicos</value>
+  </data>
+  <data name="Spreadsheet_EDATE" xml:space="preserve">
+    <value>Devuelve la fecha que está un número de meses antes/después de la fecha inicial</value>
+  </data>
+  <data name="Spreadsheet_EFFECT" xml:space="preserve">
+    <value>Devuelve la tasa de interés anual efectiva</value>
+  </data>
+  <data name="Spreadsheet_EOMONTH" xml:space="preserve">
+    <value>Devuelve el último día del mes antes/después de un número específico de meses</value>
+  </data>
+  <data name="Spreadsheet_ERF" xml:space="preserve">
+    <value>Devuelve la función de error</value>
+  </data>
+  <data name="Spreadsheet_ERFC" xml:space="preserve">
+    <value>Devuelve la función de error complementaria</value>
+  </data>
+  <data name="Spreadsheet_ERRORTYPE" xml:space="preserve">
+    <value>Devuelve un número correspondiente a un tipo de error</value>
+  </data>
+  <data name="Spreadsheet_EVEN" xml:space="preserve">
+    <value>Redondea un número al entero par más cercano por exceso</value>
+  </data>
+  <data name="Spreadsheet_EXACT" xml:space="preserve">
+    <value>Comprueba si dos valores de texto son idénticos</value>
+  </data>
+  <data name="Spreadsheet_EXP" xml:space="preserve">
+    <value>Devuelve e elevado a la potencia de un número determinado</value>
+  </data>
+  <data name="Spreadsheet_EXPONDIST" xml:space="preserve">
+    <value>Devuelve la distribución exponencial</value>
+  </data>
+  <data name="Spreadsheet_FACT" xml:space="preserve">
+    <value>Devuelve el factorial de un número</value>
+  </data>
+  <data name="Spreadsheet_FACTDOUBLE" xml:space="preserve">
+    <value>Devuelve el factorial doble de un número</value>
+  </data>
+  <data name="Spreadsheet_FDIST" xml:space="preserve">
+    <value>Devuelve la distribución de probabilidad F</value>
+  </data>
+  <data name="Spreadsheet_FIND" xml:space="preserve">
+    <value>Busca un valor de texto dentro de otro (distingue mayúsculas y minúsculas)</value>
+  </data>
+  <data name="Spreadsheet_FINDB" xml:space="preserve">
+    <value>Busca un valor de texto dentro de otro (distingue mayúsculas y minúsculas)</value>
+  </data>
+  <data name="Spreadsheet_FINV" xml:space="preserve">
+    <value>Devuelve la inversa de la distribución de probabilidad F</value>
+  </data>
+  <data name="Spreadsheet_FISHER" xml:space="preserve">
+    <value>Devuelve la transformación de Fisher</value>
+  </data>
+  <data name="Spreadsheet_FISHERINV" xml:space="preserve">
+    <value>Devuelve la inversa de la transformación de Fisher</value>
+  </data>
+  <data name="Spreadsheet_FIXED" xml:space="preserve">
+    <value>Formatea un número como texto con un número fijo de decimales</value>
+  </data>
+  <data name="Spreadsheet_FLOOR" xml:space="preserve">
+    <value>Redondea un número hacia abajo, hacia cero</value>
+  </data>
+  <data name="Spreadsheet_FORECAST" xml:space="preserve">
+    <value>Devuelve un valor a lo largo de una tendencia lineal</value>
+  </data>
+  <data name="Spreadsheet_FV" xml:space="preserve">
+    <value>Devuelve el valor futuro de una inversión</value>
+  </data>
+  <data name="Spreadsheet_FVSCHEDULE" xml:space="preserve">
+    <value>Devuelve el valor futuro después de tasas de interés compuesto</value>
+  </data>
+  <data name="Spreadsheet_GAMMADIST" xml:space="preserve">
+    <value>Devuelve la distribución gamma</value>
+  </data>
+  <data name="Spreadsheet_GAMMAINV" xml:space="preserve">
+    <value>Devuelve el inverso de la distribución acumulativa gamma</value>
+  </data>
+  <data name="Spreadsheet_GAMMALN" xml:space="preserve">
+    <value>Devuelve el logaritmo natural de la función gamma, Γ(x)</value>
+  </data>
+  <data name="Spreadsheet_GCD" xml:space="preserve">
+    <value>Devuelve el máximo común divisor</value>
+  </data>
+  <data name="Spreadsheet_GEOMEAN" xml:space="preserve">
+    <value>Devuelve la media geométrica</value>
+  </data>
+  <data name="Spreadsheet_GESTEP" xml:space="preserve">
+    <value>Comprueba si un número es mayor que un valor umbral</value>
+  </data>
+  <data name="Spreadsheet_GROWTH" xml:space="preserve">
+    <value>Devuelve valores a lo largo de una tendencia exponencial</value>
+  </data>
+  <data name="Spreadsheet_HARMEAN" xml:space="preserve">
+    <value>Devuelve la media armónica</value>
+  </data>
+  <data name="Spreadsheet_HEX2BIN" xml:space="preserve">
+    <value>Convierte un número hexadecimal a binario</value>
+  </data>
+  <data name="Spreadsheet_HEX2DEC" xml:space="preserve">
+    <value>Convierte un número hexadecimal a decimal</value>
+  </data>
+  <data name="Spreadsheet_HEX2OCT" xml:space="preserve">
+    <value>Convierte un número hexadecimal a octal</value>
+  </data>
+  <data name="Spreadsheet_HLOOKUP" xml:space="preserve">
+    <value>Busca en la fila superior de una matriz y devuelve el valor de la celda indicada</value>
+  </data>
+  <data name="Spreadsheet_HOUR" xml:space="preserve">
+    <value>Convierte un número de serie en una hora</value>
+  </data>
+  <data name="Spreadsheet_HYPERLINKFormula" xml:space="preserve">
+    <value>Crea un acceso directo para abrir un documento en la red/internet</value>
+  </data>
+  <data name="Spreadsheet_HYPGEOMDIST" xml:space="preserve">
+    <value>Devuelve la distribución hipergeométrica</value>
+  </data>
+  <data name="Spreadsheet_IF" xml:space="preserve">
+    <value>Especifica una prueba lógica a realizar</value>
+  </data>
+  <data name="Spreadsheet_IFERROR" xml:space="preserve">
+    <value>Devuelve un valor especificado si una fórmula se evalúa como error</value>
+  </data>
+  <data name="Spreadsheet_IFS" xml:space="preserve">
+    <value>Devuelve el valor correspondiente a la primera condición VERDADERA</value>
+  </data>
+  <data name="Spreadsheet_IMABS" xml:space="preserve">
+    <value>Devuelve el valor absoluto (módulo) de un número complejo</value>
+  </data>
+  <data name="Spreadsheet_IMAGINARY" xml:space="preserve">
+    <value>Devuelve el coeficiente imaginario de un número complejo</value>
+  </data>
+  <data name="Spreadsheet_IMARGUMENT" xml:space="preserve">
+    <value>Devuelve el argumento theta, un ángulo expresado en radianes</value>
+  </data>
+  <data name="Spreadsheet_IMCONJUGATE" xml:space="preserve">
+    <value>Devuelve el conjugado complejo de un número complejo</value>
+  </data>
+  <data name="Spreadsheet_IMCOS" xml:space="preserve">
+    <value>Devuelve el coseno de un número complejo</value>
+  </data>
+  <data name="Spreadsheet_IMDIV" xml:space="preserve">
+    <value>Devuelve el cociente de dos números complejos</value>
+  </data>
+  <data name="Spreadsheet_IMEXP" xml:space="preserve">
+    <value>Devuelve el exponencial de un número complejo</value>
+  </data>
+  <data name="Spreadsheet_IMLN" xml:space="preserve">
+    <value>Devuelve el logaritmo natural de un número complejo</value>
+  </data>
+  <data name="Spreadsheet_IMLOG10" xml:space="preserve">
+    <value>Devuelve el logaritmo en base 10 de un número complejo</value>
+  </data>
+  <data name="Spreadsheet_IMLOG2" xml:space="preserve">
+    <value>Devuelve el logaritmo en base 2 de un número complejo</value>
+  </data>
+  <data name="Spreadsheet_IMPOWER" xml:space="preserve">
+    <value>Devuelve un número complejo elevado a una potencia entera</value>
+  </data>
+  <data name="Spreadsheet_IMPRODUCT" xml:space="preserve">
+    <value>Devuelve el producto de 2 a 29 números complejos</value>
+  </data>
+  <data name="Spreadsheet_IMREAL" xml:space="preserve">
+    <value>Devuelve el coeficiente real de un número complejo</value>
+  </data>
+  <data name="Spreadsheet_IMSIN" xml:space="preserve">
+    <value>Devuelve el seno de un número complejo</value>
+  </data>
+  <data name="Spreadsheet_IMSQRT" xml:space="preserve">
+    <value>Devuelve la raíz cuadrada de un número complejo</value>
+  </data>
+  <data name="Spreadsheet_IMSUB" xml:space="preserve">
+    <value>Devuelve la diferencia entre dos números complejos</value>
+  </data>
+  <data name="Spreadsheet_IMSUM" xml:space="preserve">
+    <value>Devuelve la suma de números complejos</value>
+  </data>
+  <data name="Spreadsheet_INDEX" xml:space="preserve">
+    <value>Utiliza un índice para elegir un valor de una referencia o matriz</value>
+  </data>
+  <data name="Spreadsheet_INDIRECT" xml:space="preserve">
+    <value>Devuelve una referencia indicada por un valor de texto</value>
+  </data>
+  <data name="Spreadsheet_INFO" xml:space="preserve">
+    <value>Devuelve información sobre el entorno operativo actual</value>
+  </data>
+  <data name="Spreadsheet_INT" xml:space="preserve">
+    <value>Redondea un número hacia abajo hasta el entero más próximo</value>
+  </data>
+  <data name="Spreadsheet_INTERCEPT" xml:space="preserve">
+    <value>Devuelve la intersección de la línea de regresión lineal</value>
+  </data>
+  <data name="Spreadsheet_INTRATE" xml:space="preserve">
+    <value>Devuelve el tipo de interés de un valor totalmente invertido</value>
+  </data>
+  <data name="Spreadsheet_IPMT" xml:space="preserve">
+    <value>Devuelve el pago de intereses de una inversión para un período dado</value>
+  </data>
+  <data name="Spreadsheet_IRR" xml:space="preserve">
+    <value>Devuelve la tasa interna de retorno para una serie de flujos de caja</value>
+  </data>
+  <data name="Spreadsheet_ISBLANK" xml:space="preserve">
+    <value>Devuelve VERDADERO si el valor está en blanco</value>
+  </data>
+  <data name="Spreadsheet_ISERR" xml:space="preserve">
+    <value>Devuelve VERDADERO si el valor es cualquier valor de error excepto #N/A</value>
+  </data>
+  <data name="Spreadsheet_ISERROR" xml:space="preserve">
+    <value>Devuelve VERDADERO si el valor es cualquier valor de error</value>
+  </data>
+  <data name="Spreadsheet_ISEVEN" xml:space="preserve">
+    <value>Devuelve VERDADERO si el número es par</value>
+  </data>
+  <data name="Spreadsheet_ISLOGICAL" xml:space="preserve">
+    <value>Devuelve VERDADERO si el valor es un valor lógico</value>
+  </data>
+  <data name="Spreadsheet_ISNA" xml:space="preserve">
+    <value>Devuelve VERDADERO si el valor es el valor de error #N/A</value>
+  </data>
+  <data name="Spreadsheet_ISNONTEXT" xml:space="preserve">
+    <value>Devuelve VERDADERO si el valor no es texto</value>
+  </data>
+  <data name="Spreadsheet_ISNUMBER" xml:space="preserve">
+    <value>Devuelve VERDADERO si el valor es un número</value>
+  </data>
+  <data name="Spreadsheet_ISODD" xml:space="preserve">
+    <value>Devuelve VERDADERO si el número es impar</value>
+  </data>
+  <data name="Spreadsheet_ISPMT" xml:space="preserve">
+    <value>Calcula el interés pagado durante el período de inversión</value>
+  </data>
+  <data name="Spreadsheet_ISREF" xml:space="preserve">
+    <value>Devuelve VERDADERO si el valor es una referencia</value>
+  </data>
+  <data name="Spreadsheet_ISTEXT" xml:space="preserve">
+    <value>Devuelve VERDADERO si el valor es texto</value>
+  </data>
+  <data name="Spreadsheet_KURT" xml:space="preserve">
+    <value>Devuelve la curtosis de un conjunto de datos</value>
+  </data>
+  <data name="Spreadsheet_LAMBDA" xml:space="preserve">
+    <value>Permite utilizar parámetros y lógica de fórmula propios</value>
+  </data>
+  <data name="Spreadsheet_LARGE" xml:space="preserve">
+    <value>Devuelve el k-ésimo valor más grande en un conjunto de datos</value>
+  </data>
+  <data name="Spreadsheet_LCM" xml:space="preserve">
+    <value>Devuelve el mínimo común múltiplo</value>
+  </data>
+  <data name="Spreadsheet_LEFT" xml:space="preserve">
+    <value>Devuelve los caracteres situados más a la izquierda de un valor de texto</value>
+  </data>
+  <data name="Spreadsheet_LEFTB" xml:space="preserve">
+    <value>Devuelve los caracteres situados más a la izquierda de un valor de texto</value>
+  </data>
+  <data name="Spreadsheet_LEN" xml:space="preserve">
+    <value>Devuelve el número de caracteres de una cadena de texto</value>
+  </data>
+  <data name="Spreadsheet_LENB" xml:space="preserve">
+    <value>Devuelve el número de caracteres de una cadena de texto</value>
+  </data>
+  <data name="Spreadsheet_LET" xml:space="preserve">
+    <value>Devuelve el resultado de una fórmula que puede utilizar variables</value>
+  </data>
+  <data name="Spreadsheet_LN" xml:space="preserve">
+    <value>Devuelve el logaritmo natural de un número</value>
+  </data>
+  <data name="Spreadsheet_LOG" xml:space="preserve">
+    <value>Devuelve el logaritmo de un número en una base específica</value>
+  </data>
+  <data name="Spreadsheet_LOG10" xml:space="preserve">
+    <value>Devuelve el logaritmo en base 10 de un número</value>
+  </data>
+  <data name="Spreadsheet_LOGEST" xml:space="preserve">
+    <value>Devuelve los parámetros de una tendencia exponencial</value>
+  </data>
+  <data name="Spreadsheet_LOGINV" xml:space="preserve">
+    <value>Devuelve el inverso de la distribución logarítmico-normal</value>
+  </data>
+  <data name="Spreadsheet_LOGNORMDIST" xml:space="preserve">
+    <value>Devuelve la distribución logarítmico-normal acumulativa</value>
+  </data>
+  <data name="Spreadsheet_LOOKUP" xml:space="preserve">
+    <value>Busca valores en un vector o matriz</value>
+  </data>
+  <data name="Spreadsheet_LOWER" xml:space="preserve">
+    <value>Convierte texto a minúsculas</value>
+  </data>
+  <data name="Spreadsheet_MATCH" xml:space="preserve">
+    <value>Busca valores en una referencia o matriz</value>
+  </data>
+  <data name="Spreadsheet_MAX" xml:space="preserve">
+    <value>Devuelve el valor máximo de una lista de argumentos</value>
+  </data>
+  <data name="Spreadsheet_MAXA" xml:space="preserve">
+    <value>Devuelve el valor máximo de una lista de argumentos, incluyendo números, texto y valores lógicos</value>
+  </data>
+  <data name="Spreadsheet_MAXIFS" xml:space="preserve">
+    <value>Devuelve el valor máximo entre las celdas que cumplen los criterios</value>
+  </data>
+  <data name="Spreadsheet_MDETERM" xml:space="preserve">
+    <value>Devuelve el determinante de una matriz</value>
+  </data>
+  <data name="Spreadsheet_MEDIAN" xml:space="preserve">
+    <value>Devuelve la mediana de los números dados</value>
+  </data>
+  <data name="Spreadsheet_MID" xml:space="preserve">
+    <value>Devuelve caracteres de un texto a partir de una posición</value>
+  </data>
+  <data name="Spreadsheet_MIDB" xml:space="preserve">
+    <value>Devuelve un número específico de caracteres de una cadena de texto a partir de la posición que especifique</value>
+  </data>
+  <data name="Spreadsheet_MIN" xml:space="preserve">
+    <value>Devuelve el valor mínimo de una lista de argumentos</value>
+  </data>
+  <data name="Spreadsheet_MINA" xml:space="preserve">
+    <value>Devuelve el valor más pequeño de una lista de argumentos, incluyendo números, texto y valores lógicos</value>
+  </data>
+  <data name="Spreadsheet_MINIFS" xml:space="preserve">
+    <value>Devuelve el valor mínimo entre las celdas que cumplen los criterios</value>
+  </data>
+  <data name="Spreadsheet_MINUTE" xml:space="preserve">
+    <value>Convierte un número de serie en un minuto</value>
+  </data>
+  <data name="Spreadsheet_MINVERSE" xml:space="preserve">
+    <value>Devuelve la matriz inversa de una matriz</value>
+  </data>
+  <data name="Spreadsheet_MIRR" xml:space="preserve">
+    <value>Devuelve TIR con diferentes tasas de financiación</value>
+  </data>
+  <data name="Spreadsheet_MMULT" xml:space="preserve">
+    <value>Devuelve el producto matricial de dos matrices</value>
+  </data>
+  <data name="Spreadsheet_MOD" xml:space="preserve">
+    <value>Devuelve el resto de una división</value>
+  </data>
+  <data name="Spreadsheet_MODE" xml:space="preserve">
+    <value>Devuelve el valor más común en un conjunto de datos</value>
+  </data>
+  <data name="Spreadsheet_MONTH" xml:space="preserve">
+    <value>Convierte un número de serie en un mes</value>
+  </data>
+  <data name="Spreadsheet_MROUND" xml:space="preserve">
+    <value>Devuelve un número redondeado al múltiplo deseado</value>
+  </data>
+  <data name="Spreadsheet_MULTINOMIAL" xml:space="preserve">
+    <value>Devuelve el multinomio de un conjunto de números</value>
+  </data>
+  <data name="Spreadsheet_N" xml:space="preserve">
+    <value>Devuelve un valor convertido a número</value>
+  </data>
+  <data name="Spreadsheet_NA" xml:space="preserve">
+    <value>Devuelve el valor de error #N/A</value>
+  </data>
+  <data name="Spreadsheet_NEGBINOMDIST" xml:space="preserve">
+    <value>Devuelve la distribución binomial negativa</value>
+  </data>
+  <data name="Spreadsheet_NETWORKDAYS" xml:space="preserve">
+    <value>Devuelve el número de días laborables completos entre dos fechas</value>
+  </data>
+  <data name="Spreadsheet_NORMDIST" xml:space="preserve">
+    <value>Devuelve la distribución normal acumulativa</value>
+  </data>
+  <data name="Spreadsheet_NORMINV" xml:space="preserve">
+    <value>Devuelve el inverso de la distribución acumulativa normal</value>
+  </data>
+  <data name="Spreadsheet_NORMSDIST" xml:space="preserve">
+    <value>Devuelve la distribución acumulativa normal estándar</value>
+  </data>
+  <data name="Spreadsheet_NORMSINV" xml:space="preserve">
+    <value>Devuelve el inverso de la distribución acumulativa normal estándar</value>
+  </data>
+  <data name="Spreadsheet_NOT" xml:space="preserve">
+    <value>Invierte la lógica de su argumento</value>
+  </data>
+  <data name="Spreadsheet_NOW" xml:space="preserve">
+    <value>Devuelve el número de serie de la fecha y hora actuales</value>
+  </data>
+  <data name="Spreadsheet_NPER" xml:space="preserve">
+    <value>Devuelve el número de períodos para una inversión</value>
+  </data>
+  <data name="Spreadsheet_NPV" xml:space="preserve">
+    <value>Devuelve el valor actual neto basado en flujos de efectivo</value>
+  </data>
+  <data name="Spreadsheet_OCT2BIN" xml:space="preserve">
+    <value>Convierte un número octal a binario</value>
+  </data>
+  <data name="Spreadsheet_OCT2DEC" xml:space="preserve">
+    <value>Convierte un número octal a decimal</value>
+  </data>
+  <data name="Spreadsheet_OCT2HEX" xml:space="preserve">
+    <value>Convierte un número octal a hexadecimal</value>
+  </data>
+  <data name="Spreadsheet_ODD" xml:space="preserve">
+    <value>Redondea un número hacia arriba al entero impar más cercano</value>
+  </data>
+  <data name="Spreadsheet_OFFSET" xml:space="preserve">
+    <value>Devuelve una referencia desplazada desde una referencia dada</value>
+  </data>
+  <data name="Spreadsheet_ORFormula" xml:space="preserve">
+    <value>Devuelve VERDADERO si algún argumento es VERDADERO</value>
+  </data>
+  <data name="Spreadsheet_PEARSON" xml:space="preserve">
+    <value>Devuelve el coeficiente de correlación del momento producto de Pearson</value>
+  </data>
+  <data name="Spreadsheet_PERCENTILE" xml:space="preserve">
+    <value>Devuelve el percentil k-ésimo de valores en un rango</value>
+  </data>
+  <data name="Spreadsheet_PERCENTRANK" xml:space="preserve">
+    <value>Devuelve el rango porcentual de un valor en un conjunto de datos</value>
+  </data>
+  <data name="Spreadsheet_PERMUT" xml:space="preserve">
+    <value>Devuelve el número de permutaciones para un número dado de objetos</value>
+  </data>
+  <data name="Spreadsheet_PI" xml:space="preserve">
+    <value>Devuelve el valor de pi</value>
+  </data>
+  <data name="Spreadsheet_PMT" xml:space="preserve">
+    <value>Devuelve el pago periódico para una anualidad</value>
+  </data>
+  <data name="Spreadsheet_POISSON" xml:space="preserve">
+    <value>Devuelve la distribución de Poisson</value>
+  </data>
+    <data name="Spreadsheet_POWER" xml:space="preserve">
+    <value>Devuelve el resultado de un número elevado a una potencia</value>
+  </data>
+  <data name="Spreadsheet_PPMT" xml:space="preserve">
+    <value>Devuelve el pago del capital de una inversión durante un período determinado</value>
+  </data>
+  <data name="Spreadsheet_PROB" xml:space="preserve">
+    <value>Devuelve la probabilidad de valores entre límites</value>
+  </data>
+  <data name="Spreadsheet_PRODUCT" xml:space="preserve">
+    <value>Multiplica sus argumentos</value>
+  </data>
+  <data name="Spreadsheet_PROPER" xml:space="preserve">
+    <value>Pone en mayúscula la primera letra de cada palabra de un valor de texto</value>
+  </data>
+  <data name="Spreadsheet_PV" xml:space="preserve">
+    <value>Devuelve el valor actual de una inversión</value>
+  </data>
+  <data name="Spreadsheet_QUARTILE" xml:space="preserve">
+    <value>Devuelve el cuartil de un conjunto de datos</value>
+  </data>
+  <data name="Spreadsheet_QUOTIENT" xml:space="preserve">
+    <value>Devuelve la parte entera de una división</value>
+  </data>
+  <data name="Spreadsheet_RADIANS" xml:space="preserve">
+    <value>Convierte grados en radianes</value>
+  </data>
+  <data name="Spreadsheet_RAND" xml:space="preserve">
+    <value>Devuelve un número aleatorio entre 0 y 1</value>
+  </data>
+  <data name="Spreadsheet_RANDBETWEEN" xml:space="preserve">
+    <value>Devuelve un número aleatorio entre los números que especifique</value>
+  </data>
+  <data name="Spreadsheet_RANK" xml:space="preserve">
+    <value>Devuelve el rango de un número en una lista de números</value>
+  </data>
+  <data name="Spreadsheet_RATE" xml:space="preserve">
+    <value>Devuelve la tasa de interés por período de una anualidad</value>
+  </data>
+  <data name="Spreadsheet_RECEIVED" xml:space="preserve">
+    <value>Devuelve la cantidad recibida al vencimiento del título valor</value>
+  </data>
+  <data name="Spreadsheet_REPLACE" xml:space="preserve">
+    <value>Reemplaza caracteres dentro de un texto</value>
+  </data>
+  <data name="Spreadsheet_REPLACEB" xml:space="preserve">
+    <value>Reemplaza caracteres dentro de un texto</value>
+  </data>
+  <data name="Spreadsheet_REPT" xml:space="preserve">
+    <value>Repite el texto un número determinado de veces</value>
+  </data>
+  <data name="Spreadsheet_RIGHT" xml:space="preserve">
+    <value>Devuelve los caracteres más a la derecha de un valor de texto</value>
+  </data>
+  <data name="Spreadsheet_RIGHTB" xml:space="preserve">
+    <value>Devuelve los caracteres más a la derecha de un valor de texto</value>
+  </data>
+  <data name="Spreadsheet_ROMAN" xml:space="preserve">
+    <value>Convierte un número arábigo en romano, como texto</value>
+  </data>
+  <data name="Spreadsheet_ROUND" xml:space="preserve">
+    <value>Redondea un número a un número especificado de dígitos</value>
+  </data>
+  <data name="Spreadsheet_ROUNDDOWN" xml:space="preserve">
+    <value>Redondea un número hacia abajo, hacia cero</value>
+  </data>
+  <data name="Spreadsheet_ROUNDUP" xml:space="preserve">
+    <value>Redondea un número hacia arriba, alejándose de cero</value>
+  </data>
+  <data name="Spreadsheet_ROW" xml:space="preserve">
+    <value>Devuelve el número de fila de una referencia</value>
+  </data>
+  <data name="Spreadsheet_ROWS" xml:space="preserve">
+    <value>Devuelve el número de filas de una referencia</value>
+  </data>
+  <data name="Spreadsheet_RSQ" xml:space="preserve">
+    <value>Devuelve el cuadrado del coeficiente de correlación del momento producto de Pearson</value>
+  </data>
+  <data name="Spreadsheet_SEARCHFormula" xml:space="preserve">
+    <value>Busca un valor de texto dentro de otro (no distingue entre mayúsculas y minúsculas)</value>
+  </data>
+  <data name="Spreadsheet_SEARCHB" xml:space="preserve">
+    <value>Busca un valor de texto dentro de otro (no distingue entre mayúsculas y minúsculas)</value>
+  </data>
+  <data name="Spreadsheet_SECOND" xml:space="preserve">
+    <value>Convierte un número de serie a segundos</value>
+  </data>
+  <data name="Spreadsheet_SERIESSUM" xml:space="preserve">
+    <value>Devuelve la suma de una serie de potencias basada en la fórmula</value>
+  </data>
+  <data name="Spreadsheet_SIGN" xml:space="preserve">
+    <value>Devuelve el signo de un número</value>
+  </data>
+  <data name="Spreadsheet_SIN" xml:space="preserve">
+    <value>Devuelve el seno del ángulo dado</value>
+  </data>
+  <data name="Spreadsheet_SINH" xml:space="preserve">
+    <value>Devuelve el seno hiperbólico de un número</value>
+  </data>
+  <data name="Spreadsheet_SKEW" xml:space="preserve">
+    <value>Devuelve la asimetría de una distribución</value>
+  </data>
+  <data name="Spreadsheet_SLN" xml:space="preserve">
+    <value>Devuelve la depreciación lineal de un activo para un período</value>
+  </data>
+  <data name="Spreadsheet_SLOPE" xml:space="preserve">
+    <value>Devuelve la pendiente de la línea de regresión lineal</value>
+  </data>
+  <data name="Spreadsheet_SORTFormula" xml:space="preserve">
+    <value>Devuelve los valores del rango de celdas en orden ascendente o descendente</value>
+  </data>
+  <data name="Spreadsheet_SMALL" xml:space="preserve">
+    <value>Devuelve el k-ésimo valor más pequeño en un conjunto de datos</value>
+  </data>
+  <data name="Spreadsheet_SQRT" xml:space="preserve">
+    <value>Devuelve una raíz cuadrada positiva</value>
+  </data>
+  <data name="Spreadsheet_SQRTPI" xml:space="preserve">
+    <value>Devuelve la raíz cuadrada de (número * pi)</value>
+  </data>
+  <data name="Spreadsheet_STANDARDIZE" xml:space="preserve">
+    <value>Devuelve un valor normalizado</value>
+  </data>
+  <data name="Spreadsheet_STDEV" xml:space="preserve">
+    <value>Estima la desviación estándar basada en una muestra</value>
+  </data>
+  <data name="Spreadsheet_STDEVA" xml:space="preserve">
+    <value>Estima la desviación estándar basada en una muestra, incluyendo números, texto y valores lógicos</value>
+  </data>
+  <data name="Spreadsheet_STDEVP" xml:space="preserve">
+    <value>Calcula la desviación estándar basada en toda la población</value>
+  </data>
+  <data name="Spreadsheet_STDEVPA" xml:space="preserve">
+    <value>Calcula la desviación estándar basada en toda la población, incluyendo números, texto y valores lógicos</value>
+  </data>
+  <data name="Spreadsheet_STEYX" xml:space="preserve">
+    <value>Devuelve el error estándar del valor y previsto para cada x en la regresión</value>
+  </data>
+  <data name="Spreadsheet_SUBSTITUTE" xml:space="preserve">
+    <value>Sustituye texto nuevo por texto antiguo en una cadena de texto</value>
+  </data>
+  <data name="Spreadsheet_SUBTOTAL" xml:space="preserve">
+    <value>Devuelve un subtotal en una lista o base de datos</value>
+  </data>
+  <data name="Spreadsheet_SUM" xml:space="preserve">
+    <value>Suma sus argumentos</value>
+  </data>
+  <data name="Spreadsheet_SUMIF" xml:space="preserve">
+    <value>Suma las celdas especificadas por un criterio dado</value>
+  </data>
+  <data name="Spreadsheet_SUMPRODUCT" xml:space="preserve">
+    <value>Devuelve la suma de los productos de los componentes correspondientes de la matriz</value>
+  </data>
+  <data name="Spreadsheet_SUMSQ" xml:space="preserve">
+    <value>Devuelve la suma de los cuadrados de los argumentos</value>
+  </data>
+  <data name="Spreadsheet_SUMX2MY2" xml:space="preserve">
+    <value>Devuelve la suma de la diferencia de cuadrados de los valores correspondientes en dos matrices</value>
+  </data>
+  <data name="Spreadsheet_SUMX2PY2" xml:space="preserve">
+    <value>Devuelve la suma de la suma de cuadrados de los valores correspondientes en dos matrices</value>
+  </data>
+  <data name="Spreadsheet_SUMXMY2" xml:space="preserve">
+    <value>Devuelve la suma de cuadrados de diferencias de los valores correspondientes en dos matrices</value>
+  </data>
+  <data name="Spreadsheet_SWITCH" xml:space="preserve">
+    <value>Devuelve el resultado que coincide con el primer valor verdadero</value>
+  </data>
+  <data name="Spreadsheet_SYD" xml:space="preserve">
+    <value>Devuelve la depreciación por suma de dígitos de los años</value>
+  </data>
+  <data name="Spreadsheet_T" xml:space="preserve">
+    <value>Convierte sus argumentos a texto</value>
+  </data>
+  <data name="Spreadsheet_TAN" xml:space="preserve">
+    <value>Devuelve la tangente de un número</value>
+  </data>
+  <data name="Spreadsheet_TANH" xml:space="preserve">
+    <value>Devuelve la tangente hiperbólica de un número</value>
+  </data>
+  <data name="Spreadsheet_TEXTFormula" xml:space="preserve">
+    <value>Formatea un número y lo convierte en texto</value>
+  </data>
+  <data name="Spreadsheet_TEXTBEFORE" xml:space="preserve">
+    <value>Devuelve el texto que aparece antes de un carácter dado</value>
+  </data>
+  <data name="Spreadsheet_TEXTJOIN" xml:space="preserve">
+    <value>Combina texto con delimitador</value>
+  </data>
+  <data name="Spreadsheet_TEXTSPLIT" xml:space="preserve">
+    <value>Divide el texto de la celda entre filas o columnas</value>
+  </data>
+  <data name="Spreadsheet_TIMEFormula" xml:space="preserve">
+    <value>Devuelve el número de serie de una hora determinada</value>
+  </data>
+  <data name="Spreadsheet_TIMEVALUE" xml:space="preserve">
+    <value>Convierte una hora en forma de texto a un número de serie</value>
+  </data>
+  <data name="Spreadsheet_TOCOL" xml:space="preserve">
+    <value>Transforma una matriz en una sola columna</value>
+  </data>
+  <data name="Spreadsheet_TODAYFormula" xml:space="preserve">
+    <value>Devuelve el número de serie de la fecha de hoy</value>
+  </data>
+  <data name="Spreadsheet_TOROW" xml:space="preserve">
+    <value>Transforma una matriz en una sola fila</value>
+  </data>
+  <data name="Spreadsheet_TRANSPOSE" xml:space="preserve">
+    <value>Devuelve la transposición de una matriz</value>
+  </data>
+  <data name="Spreadsheet_TRIM" xml:space="preserve">
+    <value>Elimina espacios del texto</value>
+  </data>
+  <data name="Spreadsheet_TRIMMEAN" xml:space="preserve">
+    <value>Devuelve la media del interior de un conjunto de datos</value>
+  </data>
+  <data name="Spreadsheet_TRUNC" xml:space="preserve">
+    <value>Trunca un número a un entero</value>
+  </data>
+  <data name="Spreadsheet_TYPE" xml:space="preserve">
+    <value>Devuelve un número que indica el tipo de datos de un valor</value>
+  </data>
+  <data name="Spreadsheet_UNIQUE" xml:space="preserve">
+    <value>Devuelve la lista de valores únicos presentes dentro de una lista o rango</value>
+  </data>
+  <data name="Spreadsheet_UPPER" xml:space="preserve">
+    <value>Convierte texto a mayúsculas</value>
+  </data>
+  <data name="Spreadsheet_VALUEFormula" xml:space="preserve">
+    <value>Convierte un argumento de texto a un número</value>
+  </data>
+  <data name="Spreadsheet_VALUETOTEXT" xml:space="preserve">
+    <value>Devuelve el texto de cualquier valor especificado</value>
+  </data>
+  <data name="Spreadsheet_VAR" xml:space="preserve">
+    <value>Estima la varianza basada en una muestra</value>
+  </data>
+  <data name="Spreadsheet_VARA" xml:space="preserve">
+    <value>Estima la varianza basada en una muestra, incluidos números, texto y valores lógicos</value>
+  </data>
+  <data name="Spreadsheet_VARP" xml:space="preserve">
+    <value>Calcula la varianza basada en toda la población</value>
+  </data>
+  <data name="Spreadsheet_VARPA" xml:space="preserve">
+    <value>Calcula la varianza de población incluyendo todos los valores</value>
+  </data>
+  <data name="Spreadsheet_VDB" xml:space="preserve">
+    <value>Devuelve la depreciación de activos para período parcial</value>
+  </data>
+  <data name="Spreadsheet_VLOOKUP" xml:space="preserve">
+    <value>Busca valor en la primera columna y devuelve celda en la misma fila</value>
+  </data>
+  <data name="Spreadsheet_WEEKDAY" xml:space="preserve">
+    <value>Convierte un número de serie a un día de la semana</value>
+  </data>
+  <data name="Spreadsheet_WEEKNUM" xml:space="preserve">
+    <value>Devuelve el número de semana dentro del año</value>
+  </data>
+  <data name="Spreadsheet_WEIBULL" xml:space="preserve">
+    <value>Devuelve la distribución de Weibull</value>
+  </data>
+  <data name="Spreadsheet_WORKDAY" xml:space="preserve">
+    <value>Devuelve la fecha después de los días laborables especificados</value>
+  </data>
+  <data name="Spreadsheet_XIRR" xml:space="preserve">
+    <value>Devuelve la TIR para flujos de efectivo no periódicos</value>
+  </data>
+  <data name="Spreadsheet_XLOOKUP" xml:space="preserve">
+    <value>Devuelve el valor de la primera coincidencia o aproximada</value>
+  </data>
+  <data name="Spreadsheet_XMATCH" xml:space="preserve">
+    <value>Devuelve la posición del valor en un rango</value>
+  </data>
+  <data name="Spreadsheet_YEAR" xml:space="preserve">
+    <value>Convierte un número de serie a un año</value>
+  </data>
+  <data name="Spreadsheet_YEARFRAC" xml:space="preserve">
+    <value>Devuelve la fracción de año entre fechas</value>
+  </data>
+  <data name="Spreadsheet_ZTEST" xml:space="preserve">
+    <value>Devuelve el valor de probabilidad de una cola de una prueba z</value>
+  </data>
+  <data name="Spreadsheet_FALSE" xml:space="preserve">
+    <value>Devuelve el valor lógico FALSO</value>
+  </data>
+  <data name="Spreadsheet_TRUE" xml:space="preserve">
+    <value>Devuelve el valor lógico VERDADERO</value>
+  </data>
+  <data name="Spreadsheet_function" xml:space="preserve">
+    <value>Función a realizar</value>
+  </data>
+  <data name="Spreadsheet_operation" xml:space="preserve">
+    <value>operación</value>
+  </data>
+  <data name="Spreadsheet_Formulas" xml:space="preserve">
+    <value>Fórmulas</value>
+  </data>
+  <data name="Spreadsheet_CalculationOption" xml:space="preserve">
+    <value>Opción de cálculo</value>
+  </data>
+  <data name="Spreadsheet_Automatic" xml:space="preserve">
+    <value>Automático</value>
+  </data>
+  <data name="Spreadsheet_Manual" xml:space="preserve">
+    <value>Manual</value>
+  </data>
+  <data name="Spreadsheet_CalculateSheet" xml:space="preserve">
+    <value>Calcular hoja</value>
+  </data>
+  <data name="Spreadsheet_Calculatebook" xml:space="preserve">
+    <value>Calcular libro</value>
+  </data>
+  <data name="Spreadsheet_Description" xml:space="preserve">
+      <value>Descripción</value>
+  </data>
+  <data name="Spreadsheet_PickCategory" xml:space="preserve">
+      <value>Escoge una categoría</value>
+  </data>
+  <data name="Spreadsheet_AllUsers" xml:space="preserve">
+    <value>Permitir a todos los usuarios de esta hoja de cálculo</value>
+  </data>
+  <data name="Spreadsheet_RequiredPassword" xml:space="preserve">
+    <value>Ingrese la contraseña si es necesario</value>
+  </data>
+  <data name="Spreadsheet_SelectLockedCells" xml:space="preserve">
+    <value>Seleccionar celdas protegidas</value>
+  </data>
+  <data name="Spreadsheet_SelectUnLockedCells" xml:space="preserve">
+    <value>Seleccionar celdas desbloqueadas</value>
+  </data>
+  <data name="Spreadsheet_FormatCells" xml:space="preserve">
+    <value>Formato de celdas</value>
+  </data>
+  <data name="Spreadsheet_FormatColumns" xml:space="preserve">
+    <value>Formato de columnas</value>
+  </data>
+  <data name="Spreadsheet_FormatRows" xml:space="preserve">
+    <value>Formato de filas</value>
+  </data>
+  <data name="Spreadsheet_InsertColumns" xml:space="preserve">
+    <value>Insertar columnas</value>
+  </data>
+  <data name="Spreadsheet_InsertRows" xml:space="preserve">
+    <value>Insertar filas</value>
+  </data>
+  <data name="Spreadsheet_InsertHyperlinks" xml:space="preserve">
+    <value>Insertar hipervínculos</value>
+  </data>
+  <data name="Spreadsheet_UnlockedRanges" xml:space="preserve">
+    <value>Rangos desbloqueados</value>
+  </data>
+  <data name="Spreadsheet_RangeName" xml:space="preserve">
+    <value>Nombre del rango</value>
+  </data>
+  <data name="Spreadsheet_RangeValue" xml:space="preserve">
+    <value>Valor del rango</value>
+  </data>
+  <data name="Spreadsheet_AddRange" xml:space="preserve">
+    <value>Agregar rango</value>
+  </data>
+  <data name="Spreadsheet_UpdateRange" xml:space="preserve">
+    <value>Actualizar rango</value>
+  </data>
+  <data name="Spreadsheet_EnterRangeName" xml:space="preserve">
+    <value>Ingresa el nombre del rango</value>
+  </data>
+  <data name="Spreadsheet_Password" xml:space="preserve">
+    <value>Contraseña</value>
+  </data>
+  <data name="Spreadsheet_EnterPassword" xml:space="preserve">
+    <value>Ingresa la contraseña</value>
+  </data>
+  <data name="Spreadsheet_ConfirmPassword" xml:space="preserve">
+    <value>Confirmar contraseña</value>
+  </data>
+  <data name="Spreadsheet_ProtectError" xml:space="preserve">
+    <value>La hoja está protegida. Algunas partes pueden ser de solo lectura y no se pueden cambiar</value>
+  </data>
+  <data name="Spreadsheet_SelectedRange" xml:space="preserve">
+    <value>No puedes filtrar una celda vacía. Seleccione una celda en el rango de datos y vuelva a intentarlo.</value>
+  </data>
+  <data name="Spreadsheet_SingleCell" xml:space="preserve">
+    <value>Seleccione una sola celda en un rango e inténtelo de nuevo.</value>
+  </data>
+  <data name="Spreadsheet_Review" xml:space="preserve">
+    <value>Revisar</value>
+  </data>
+  <data name="Spreadsheet_Protection" xml:space="preserve">
+    <value>Protección</value>
+  </data>
+  <data name="Spreadsheet_ProtectSheet" xml:space="preserve">
+    <value>Proteger hoja</value>
+  </data>
+  <data name="Spreadsheet_UnprotectSheet" xml:space="preserve">
+    <value>Desproteger hoja</value>
+  </data>
+  <data name="Spreadsheet_Protectbook" xml:space="preserve">
+    <value>Proteger libro</value>
+  </data>
+  <data name="Spreadsheet_Unprotectbook" xml:space="preserve">
+    <value>Desproteger libro</value>
+  </data>
+  <data name="Spreadsheet_BookError" xml:space="preserve">
+    <value>Error al proteger el libro de trabajo: </value>
+  </data>
+  <data name="Spreadsheet_IncorrectPassword" xml:space="preserve">
+    <value>Contraseña incorrecta</value>
+  </data>
+  <data name="Spreadsheet_PasswordOptional" xml:space="preserve">
+    <value>Ingrese la contraseña</value>
+  </data>
+  <data name="Spreadsheet_PasswordMatch" xml:space="preserve">
+    <value>Las contraseñas no coinciden</value>
+  </data>
+  <data name="Spreadsheet_ManageProtection" xml:space="preserve">
+    <value>Administrar protección</value>
+  </data>
+  <data name="Spreadsheet_UnlockRange" xml:space="preserve">
+    <value>Desbloquear rango</value>
+  </data>
+  <data name="Spreadsheet_SheetOptions" xml:space="preserve">
+    <value>Opciones de hoja</value>
+  </data>
+  <data name="Spreadsheet_FilterValue" xml:space="preserve">
+    <value>Valor de filtro</value>
+  </data>
+  <data name="Spreadsheet_Filter" xml:space="preserve">
+    <value>Filtro</value>
+  </data>
+  <data name="Spreadsheet_ClearFilterFrom" xml:space="preserve">
+    <value>Borrar filtro de</value>
+  </data>
+  <data name="Spreadsheet_Reapply" xml:space="preserve">
+    <value>Volver a aplicar</value>
+  </data>
+  <data name="Spreadsheet_FilterByCellValue" xml:space="preserve">
+    <value>Filtrar por valor de celda seleccionada</value>
+  </data>
+  <data name="Spreadsheet_NoResult" xml:space="preserve">
+    <value>Sin resultado</value>
+  </data>
+  <data name="Spreadsheet_Blanks" xml:space="preserve">
+    <value>Espacios en blanco</value>
+  </data>
+  <data name="Spreadsheet_Search" xml:space="preserve">
+    <value>Buscar</value>
+  </data>
+  <data name="Spreadsheet_SelectAll" xml:space="preserve">
+    <value>Seleccionar todo</value>
+  </data>
+  <data name="Spreadsheet_AddCurrentSelectionFilter" xml:space="preserve">
+    <value>Agregar selección actual al filtro</value>
+  </data>
+  <data name="Spreadsheet_AND" xml:space="preserve">
+    <value>Y</value>
+  </data>
+  <data name="Spreadsheet_OR" xml:space="preserve">
+    <value>O</value>
+  </data>
+  <data name="Spreadsheet_MatchCase" xml:space="preserve">
+    <value>Coincidir mayúsculas y minúsculas</value>
+  </data>
+  <data name="Spreadsheet_StartsWith" xml:space="preserve">
+    <value>Comienza con</value>
+  </data>
+  <data name="Spreadsheet_DoesNotStartWith" xml:space="preserve">
+    <value>No comienza con</value>
+  </data>
+  <data name="Spreadsheet_EndsWith" xml:space="preserve">
+    <value>Termina con</value>
+  </data>
+  <data name="Spreadsheet_DoesNotEndWith" xml:space="preserve">
+    <value>No termina con</value>
+  </data>
+  <data name="Spreadsheet_Equal" xml:space="preserve">
+    <value>Igual</value>
+  </data>
+  <data name="Spreadsheet_NotEqual" xml:space="preserve">
+    <value>No igual</value>
+  </data>
+  <data name="Spreadsheet_Contains" xml:space="preserve">
+    <value>Contiene</value>
+  </data>
+  <data name="Spreadsheet_DoesNotContain" xml:space="preserve">
+    <value>No contiene</value>
+  </data>
+  <data name="Spreadsheet_LessThan" xml:space="preserve">
+    <value>Menor que</value>
+  </data>
+  <data name="Spreadsheet_LessThanOrEqual" xml:space="preserve">
+    <value>Menor o igual que</value>
+  </data>
+  <data name="Spreadsheet_GreaterThan" xml:space="preserve">
+    <value>Mayor que</value>
+  </data>
+  <data name="Spreadsheet_GreaterThanOrEqual" xml:space="preserve">
+    <value>Mayor o igual que</value>
+  </data>
+  <data name="Spreadsheet_Between" xml:space="preserve">
+    <value>Entre</value>
+  </data>
+  <data name="Spreadsheet_CustomFilter" xml:space="preserve">
+    <value>Filtro personalizado</value>
+  </data>
+  <data name="Spreadsheet_FilterOperator" xml:space="preserve">
+    <value>Operador de filtro</value>
+  </data>
+  <data name="Spreadsheet_ClearFilter" xml:space="preserve">
+    <value>Borrar filtro</value>
+  </data>
+  <data name="Spreadsheet_NumberFilter" xml:space="preserve">
+    <value>Filtro de números</value>
+  </data>
+  <data name="Spreadsheet_TextFilter" xml:space="preserve">
+    <value>Filtro de texto</value>
+  </data>
+  <data name="Spreadsheet_DateFilter" xml:space="preserve">
+    <value>Filtro de fecha</value>
+  </data>
+  <data name="Spreadsheet_TimeFilter" xml:space="preserve">
+    <value>Filtro de hora</value>
+  </data>
+  <data name="Spreadsheet_DateTimeFilter" xml:space="preserve">
+    <value>Filtro de fecha y hora</value>
+  </data>
+  <data name="Spreadsheet_CustomFilterDatePlaceHolder" xml:space="preserve">
+    <value>Marcador de posición de fecha de filtro personalizado</value>
+  </data>
+  <data name="Spreadsheet_SortAscending" xml:space="preserve">
+    <value>Ascendente</value>
+  </data>
+  <data name="Spreadsheet_SortDescending" xml:space="preserve">
+    <value>Descendente</value>
+  </data>
+  <data name="Spreadsheet_Tomorrow" xml:space="preserve">
+    <value>Mañana</value>
+  </data>
+  <data name="Spreadsheet_Today" xml:space="preserve">
+    <value>Hoy</value>
+  </data>
+  <data name="Spreadsheet_Yesterday" xml:space="preserve">
+    <value>Ayer</value>
+  </data>
+  <data name="Spreadsheet_NextWeek" xml:space="preserve">
+    <value>Próxima semana</value>
+  </data>
+  <data name="Spreadsheet_ThisWeek" xml:space="preserve">
+    <value>Esta semana</value>
+  </data>
+  <data name="Spreadsheet_LastWeek" xml:space="preserve">
+    <value>Semana pasada</value>
+  </data>
+  <data name="Spreadsheet_NextMonth" xml:space="preserve">
+    <value>Próximo mes</value>
+  </data>
+  <data name="Spreadsheet_ThisMonth" xml:space="preserve">
+    <value>Este mes</value>
+  </data>
+  <data name="Spreadsheet_LastMonth" xml:space="preserve">
+    <value>Mes pasado</value>
+  </data>
+  <data name="Spreadsheet_NextQuater" xml:space="preserve">
+    <value>Próximo trimestre</value>
+  </data>
+  <data name="Spreadsheet_ThisQuater" xml:space="preserve">
+    <value>Este trimestre</value>
+  </data>
+  <data name="Spreadsheet_LastQuater" xml:space="preserve">
+    <value>Último trimestre</value>
+  </data>
+  <data name="Spreadsheet_NextYear" xml:space="preserve">
+    <value>Próximo año</value>
+  </data>
+  <data name="Spreadsheet_ThisYear" xml:space="preserve">
+    <value>Este año</value>
+  </data>
+  <data name="Spreadsheet_LastYear" xml:space="preserve">
+    <value>Año pasado</value>
+  </data>
+  <data name="Spreadsheet_DeleteWarning" xml:space="preserve">
+    <value>No puedes deshacer la hoja eliminada y puedes perder algunos datos.</value>
+  </data>
+  <data name="Spreadsheet_CopyCut" xml:space="preserve">
+    <value>Esto no funcionará con tu selección actual. Asegúrate de que las áreas de copia no se superpongan.</value>
+  </data>
+  <data name="Spreadsheet_MultiRange" xml:space="preserve">
+    <value>Esta acción no se puede realizar en la selección de múltiples rangos</value>
+  </data>
+  <data name="Spreadsheet_SingleRange" xml:space="preserve">
+    <value>Seleccione un solo rango y vuelva a intentarlo</value>
+  </data>
+  <data name="Spreadsheet_WorkBook" xml:space="preserve">
+    <value>Los cambios no guardados se perderán. ¿Está seguro de que desea crear un nuevo libro de trabajo?</value>
+  </data>
+  <data name="Spreadsheet_DeleteSheet" xml:space="preserve">
+    <value>¿Está seguro de que desea eliminar esta hoja?</value>
+  </data>
+  <data name="Spreadsheet_Spreadsheet" xml:space="preserve">
+    <value>Hoja de cálculo</value>
+  </data>
+  <data name="Spreadsheet_ExcelExport" xml:space="preserve">
+    <value>Exportación Excel</value>
+  </data>
+  <data name="Spreadsheet_SaveAs" xml:space="preserve">
+    <value>Guardar como</value>
+  </data>
+  <data name="Spreadsheet_MicrosoftExcel" xml:space="preserve">
+    <value>Microsoft Excel</value>
+  </data>
+  <data name="Spreadsheet_MicrosoftExcel972003" xml:space="preserve">
+    <value>Microsoft Excel 97-2003</value>
+  </data>
+  <data name="Spreadsheet_FileName" xml:space="preserve">
+    <value>Nombre del archivo</value>
+  </data>
+  <data name="Spreadsheet_Save" xml:space="preserve">
+    <value>Guardar</value>
+  </data>
+  <data name="Spreadsheet_Bold" xml:space="preserve">
+    <value>Negrita</value>
+  </data>
+  <data name="Spreadsheet_Italic" xml:space="preserve">
+    <value>Cursiva</value>
+  </data>
+  <data name="Spreadsheet_Strikethrough" xml:space="preserve">
+    <value>Tachado</value>
+  </data>
+  <data name="Spreadsheet_Underline" xml:space="preserve">
+    <value>Subrayado</value>
+  </data>
+  <data name="Spreadsheet_FontColor" xml:space="preserve">
+    <value>Color de fuente</value>
+  </data>
+  <data name="Spreadsheet_BackgroundColor" xml:space="preserve">
+    <value>Color de fondo</value>
+  </data>
+  <data name="Spreadsheet_VerticalAlignment" xml:space="preserve">
+    <value>Alineación vertical</value>
+  </data>
+  <data name="Spreadsheet_HorizontalAlignment" xml:space="preserve">
+    <value>Alineación horizontal</value>
+  </data>
+  <data name="Spreadsheet_WrapText" xml:space="preserve">
+    <value>Ajustar texto</value>
+  </data>
+  <data name="Spreadsheet_Hyperlink" xml:space="preserve">
+    <value>Hipervínculo</value>
+  </data>
+  <data name="Spreadsheet_InvalidLinkAddress" xml:space="preserve">
+    <value>La dirección de este sitio no es válida. Compruebe la dirección e inténtelo de nuevo.</value>
+  </data>
+  <data name="Spreadsheet_LinkOpenFailed" xml:space="preserve">
+    <value>No se puede abrir el enlace</value>
+  </data>
+  <data name="Spreadsheet_LinkReferenceMissing" xml:space="preserve">
+    <value>Este enlace tiene una referencia en el libro que puede no existir.</value>
+  </data>
+  <data name="Spreadsheet_Update" xml:space="preserve">
+    <value>Actualizar</value>
+  </data>
+  <data name="Spreadsheet_Cancel" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="Spreadsheet_InsertLink" xml:space="preserve">
+    <value>Insertar el link</value>
+  </data>
+  <data name="Spreadsheet_EditLink" xml:space="preserve">
+    <value>Editar enlace</value>
+  </data>
+  <data name="Spreadsheet_EditHyperlink" xml:space="preserve">
+    <value>Editar hipervínculo</value>
+  </data>
+  <data name="Spreadsheet_OpenHyperlink" xml:space="preserve">
+    <value>Abrir hipervínculo</value>
+  </data>
+  <data name="Spreadsheet_RemoveHyperlink" xml:space="preserve">
+    <value>Eliminar hipervínculo</value>
+  </data>
+  <data name="Spreadsheet_Insert" xml:space="preserve">
+    <value>Insertar</value>
+  </data>
+  <data name="Spreadsheet_NameBox" xml:space="preserve">
+    <value>Casilla de nombre</value>
+  </data>
+  <data name="Spreadsheet_InsertFunction" xml:space="preserve">
+    <value>Función de insertar</value>
+  </data>
+  <data name="Spreadsheet_FormulaBar" xml:space="preserve">
+    <value>Barra de fórmula</value>
+  </data>
+  <data name="Spreadsheet_ExpandFormulaBar" xml:space="preserve">
+    <value>Expandir la barra de fórmula</value>
+  </data>
+  <data name="Spreadsheet_CollapseFormulaBar" xml:space="preserve">
+    <value>Barra de fórmula de colapso</value>
+  </data>
+  <data name="Spreadsheet_InvalidNameSyntax" xml:space="preserve">
+    <value>La sintaxis de este nombre es incorrecta</value>
+  </data>
+  <data name="Spreadsheet_InvalidNameRule1" xml:space="preserve">
+    <value>Comienza con una letra, guión bajo o barra invertida</value>
+  </data>
+  <data name="Spreadsheet_InvalidNameRule2" xml:space="preserve">
+    <value>Los caracteres restantes solo contienen alfabetos, números, puntos o guiones bajos</value>
+  </data>
+  <data name="Spreadsheet_InvalidNameRule3" xml:space="preserve">
+    <value>No utiliza espacios ni caracteres prohibidos</value>
+  </data>
+  <data name="Spreadsheet_NameExists" xml:space="preserve">
+    <value>Este nombre ya existe.</value>
+  </data>
+  <data name="Spreadsheet_RangeNotFound" xml:space="preserve">
+    <value>El rango seleccionado no está en esta hoja.</value>
+  </data>
+  <data name="Spreadsheet_NoDataInRange" xml:space="preserve">
+    <value>El rango seleccionado no contiene datos.</value>
+  </data>
+  <data name="Spreadsheet_CellReference" xml:space="preserve">
+    <value>Nombre no válido, el nombre no puede ser una referencia de celda.</value>
+  </data>
+  <data name="Spreadsheet_NameRequired" xml:space="preserve">
+    <value>El nombre es obligatorio</value>
+  </data>
+  <data name="Spreadsheet_RangeRequired" xml:space="preserve">
+    <value>El rango es obligatorio</value>
+  </data>
+  <data name="Spreadsheet_InvalidRangeFormat" xml:space="preserve">
+    <value>Formato de rango no válido. Usa un formato como A1:B10 o A1:B10, C1:D5</value>
+  </data>
+  <data name="Spreadsheet_Scope" xml:space="preserve">
+    <value>Ámbito</value>
+  </data>
+  <data name="Spreadsheet_ManageNames" xml:space="preserve">
+    <value>Administrar nombres</value>
+  </data>
+  <data name="Spreadsheet_NameManager" xml:space="preserve">
+    <value>Administrador de nombres</value>
+  </data>
+  <data name="Spreadsheet_NoRecords" xml:space="preserve">
+    <value>Sin registros</value>
+  </data>
+  <data name="Spreadsheet_Undo" xml:space="preserve">
+    <value>Deshacer</value>
+  </data>
+  <data name="Spreadsheet_Redo" xml:space="preserve">
+    <value>Rehacer</value>
+  </data>
+  <data name="Spreadsheet_FontSize" xml:space="preserve">
+    <value>Tamaño de fuente</value>
+  </data>
+  <data name="RichTextEditor_InlineCode" xml:space="preserve">
+    <value>Código en línea</value>
+  </data>
+  <data name="RichTextEditor_SlashMenuHeading1" xml:space="preserve">
+    <value>Título 1</value>
+</data>
+<data name="RichTextEditor_SlashMenuHeading2" xml:space="preserve">
+    <value>Título 2</value>
+</data>
+<data name="RichTextEditor_SlashMenuHeading3" xml:space="preserve">
+    <value>Título 3</value>
+</data>
+<data name="RichTextEditor_SlashMenuHeading4" xml:space="preserve">
+    <value>Título 4</value>
+</data>
+<data name="RichTextEditor_SlashMenuParagraph" xml:space="preserve">
+    <value>Párrafo</value>
+</data>
+<data name="RichTextEditor_SlashMenuBlockQuote" xml:space="preserve">
+    <value>cita en bloque</value>
+</data>
+<data name="RichTextEditor_SlashMenuOrderedList" xml:space="preserve">
+    <value>Lista ordenada</value>
+</data>
+<data name="RichTextEditor_SlashMenuUnorderedList" xml:space="preserve">
+    <value>Lista desordenada</value>
+</data>
+<data name="RichTextEditor_SlashMenuCodeBlock" xml:space="preserve">
+    <value>Bloque de código</value>
+</data>
+<data name="RichTextEditor_SlashMenuTable" xml:space="preserve">
+    <value>Mesa</value>
+</data>
+<data name="RichTextEditor_SlashMenuImage" xml:space="preserve">
+    <value>Imagen</value>
+</data>
+<data name="RichTextEditor_SlashMenuAudio" xml:space="preserve">
+    <value>Audio</value>
+</data>
+<data name="RichTextEditor_SlashMenuVideo" xml:space="preserve">
+    <value>Video</value>
+</data>
+<data name="RichTextEditor_SlashMenuLink" xml:space="preserve">
+    <value>Enlace</value>
+</data>
+<data name="RichTextEditor_SlashMenuHeading1Description" xml:space="preserve">
+    <value>Úselo para un encabezado o título de nivel superior.</value>
+</data>
+<data name="RichTextEditor_SlashMenuHeading2Description" xml:space="preserve">
+    <value>Utilice esto para secciones clave.</value>
+</data>
+<data name="RichTextEditor_SlashMenuHeading3Description" xml:space="preserve">
+    <value>Úselo para subsecciones y encabezados de grupos.</value>
+</data>
+<data name="RichTextEditor_SlashMenuHeading4Description" xml:space="preserve">
+    <value>Utilice esto para los puntos clave de los subtemas.</value>
+</data>
+<data name="RichTextEditor_SlashMenuParagraphDescription" xml:space="preserve">
+    <value>Escritura con párrafos.</value>
+</data>
+<data name="RichTextEditor_SlashMenuBlockQuoteDescription" xml:space="preserve">
+    <value>Crea una cotización o cita.</value>
+</data>
+<data name="RichTextEditor_SlashMenuOrderedListDescription" xml:space="preserve">
+    <value>Crea una lista ordenada.</value>
+</data>
+<data name="RichTextEditor_SlashMenuUnorderedListDescription" xml:space="preserve">
+    <value>Crea una lista desordenada.</value>
+</data>
+<data name="RichTextEditor_SlashMenuCodeBlockDescription" xml:space="preserve">
+    <value>Cree un bloque de código preformateado.</value>
+</data>
+<data name="RichTextEditor_SlashMenuTableDescription" xml:space="preserve">
+    <value>Insertar una tabla.</value>
+</data>
+<data name="RichTextEditor_SlashMenuImageDescription" xml:space="preserve">
+    <value>Inserta una imagen.</value>
+</data>
+<data name="RichTextEditor_SlashMenuAudioDescription" xml:space="preserve">
+    <value>Inserta un audio.</value>
+</data>
+<data name="RichTextEditor_SlashMenuVideoDescription" xml:space="preserve">
+    <value>Insertar un vídeo.</value>
+</data>
+<data name="RichTextEditor_SlashMenuLinkDescription" xml:space="preserve">
+    <value>Insertar un enlace.</value>
+</data>
+<data name="RichTextEditor_HorizontalLine" xml:space="preserve">
+    <value>Línea Horizontal</value>
+</data>
+  <data name="RichTextEditor_CodeBlock" xml:space="preserve">
+    <value>Insertar bloque de código</value>
+  </data>
+  <data name="SpeechToText_Aborted_Error" xml:space="preserve">
+    <value>El reconocimiento de voz fue abortado.</value>
+  </data>
+  <data name="SpeechToText_AudioCapture_Error" xml:space="preserve">
+    <value>No se detectó un micrófono. Asegúrate de que tu micrófono esté conectado.</value>
+  </data>
+  <data name="SpeechToText_Default_Error" xml:space="preserve">
+    <value>Ocurrió un error desconocido.</value>
+  </data>
+  <data name="SpeechToText_Network_Error" xml:space="preserve">
+    <value>Ocurrió un error de red. Verifica tu conexión a internet.</value>
+  </data>
+  <data name="SpeechToText_NoSpeech_Error" xml:space="preserve">
+    <value>No se detectó voz. Por favor, habla al micrófono.</value>
+  </data>
+  <data name="SpeechToText_NotAllowed_Error" xml:space="preserve">
+    <value>Acceso al micrófono denegado. Permite los permisos de micrófono.</value>
+  </data>
+  <data name="SpeechToText_ServiceNotAllowed_Error" xml:space="preserve">
+    <value>El servicio de reconocimiento de voz no está permitido en este contexto.</value>
+  </data>
+  <data name="SpeechToText_UnsupportedBrowser_Error" xml:space="preserve">
+    <value>El navegador no admite la API de SpeechRecognition.</value>
+  </data>
+  <data name="SpeechToText_Start_AriaLabel" xml:space="preserve">
+    <value>Presiona para comenzar a hablar y transcribir tus palabras</value>
+  </data>
+  <data name="SpeechToText_Stop_AriaLabel" xml:space="preserve">
+    <value>Presiona para dejar de hablar y finalizar la transcripción</value>
+  </data>
+  <data name="SpeechToText_Start_TooltipText" xml:space="preserve">
+    <value>Comenzar a escuchar</value>
+  </data>
+  <data name="SpeechToText_Stop_TooltipText" xml:space="preserve">
+    <value>Dejar de escuchar</value>
+  </data>
+  <data name="PdfViewer_SolidStyle" xml:space="preserve">
+    <value>Sólido</value>
+  </data>
+  <data name="PdfViewer_DashedStyle" xml:space="preserve">
+    <value>Discontinuo</value>
+  </data>
+  <data name="PdfViewer_DottedStyle" xml:space="preserve">
+    <value>Punteado</value>
+  </data>
+  <data name="PdfViewer_MarkForRedaction" xml:space="preserve">
+    <value>Marcar para redactar</value>
+  </data>
+  <data name="PdfViewer_RedactPages" xml:space="preserve">
+      <value>Redactar páginas</value>
+  </data>
+  <data name="PdfViewer_RedactionPanel" xml:space="preserve">
+      <value>Panel de redacción</value>
+  </data>
+  <data name="PdfViewer_Redact" xml:space="preserve">
+      <value>Redactar</value>
+  </data>
+  <data name="PdfViewer_Redaction" xml:space="preserve">
+      <value>Redacción</value>
+  </data>
+  <data name="PdfViewer_OverlayText" xml:space="preserve">
+      <value>Texto superpuesto</value>
+  </data>
+  <data name="PdfViewer_RepeatText" xml:space="preserve">
+      <value>Repetir texto</value>
+  </data>
+  <data name="PdfViewer_UseOverlayText" xml:space="preserve">
+      <value>Usar texto superpuesto</value>
+  </data>
+  <data name="PdfViewer_OutlineColor" xml:space="preserve">
+      <value>Color del contorno</value>
+  </data>
+  <data name="PdfViewer_FillOpacity" xml:space="preserve">
+      <value>Opacidad de relleno</value>
+  </data>
+  <data name="PdfViewer_MarkPageRange" xml:space="preserve">
+    <value>Marcar rango de páginas</value>
+  </data>
+  <data name="PdfViewer_CurrentPage" xml:space="preserve">
+    <value>Página actual</value>
+  </data>
+  <data name="PdfViewer_OddPagesOnly" xml:space="preserve">
+    <value>Solo páginas impares</value>
+  </data>
+  <data name="PdfViewer_EvenPagesOnly" xml:space="preserve">
+    <value>Solo páginas pares</value>
+  </data>
+  <data name="PdfViewer_SpecificPages" xml:space="preserve">
+    <value>Páginas específicas</value>
+  </data>
+  <data name="PdfViewer_PageRange" xml:space="preserve">
+    <value>Rango de páginas</value>
+  </data>
+  <data name="PdfViewer_RedactionConfirmation" xml:space="preserve">
+    <value>Todo el contenido marcado para redacción será eliminado permanentemente del documento. Esta acción no se puede deshacer.</value>
+  </data>
+  <data name="PdfViewer_RedactHeader" xml:space="preserve">
+    <value>Aplicar redacción</value>
+  </data>
+  <data name="Spreadsheet_CollapseRibbonTab" xml:space="preserve">
+    <value>Barra de herramientas de colapso</value>
+  </data>
+  <data name="Spreadsheet_ExpandRibbonTab" xml:space="preserve">
+    <value>Expandir la barra de herramientas</value>
+  </data>
+  <data name="RichTextEditor_FormatPainter" xml:space="preserve">
+    <value>Pincel de formato</value>
+  </data>
+  <data name="DataForm_SubmitContent" xml:space="preserve">
+    <value>Enviar</value>
   </data>
 </root>
