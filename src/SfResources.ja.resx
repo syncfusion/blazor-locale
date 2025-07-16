@@ -1,17 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
-  <!-- 
-    Microsoft ResX Schema 
-    
+  <!--
+    Microsoft ResX Schema
+
     Version 2.0
-    
-    The primary goals of this format is to allow a simple XML format 
-    that is mostly human readable. The generation and parsing of the 
-    various data types are done through the TypeConverter classes 
+
+    The primary goals of this format is to allow a simple XML format
+    that is mostly human readable. The generation and parsing of the
+    various data types are done through the TypeConverter classes
     associated with the data types.
-    
+
     Example:
-    
+
     ... ado.net/XML headers & schema ...
     <resheader name="resmimetype">text/microsoft-resx</resheader>
     <resheader name="version">2.0</resheader>
@@ -26,36 +26,36 @@
         <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
         <comment>This is a comment</comment>
     </data>
-                
-    There are any number of "resheader" rows that contain simple 
+
+    There are any number of "resheader" rows that contain simple
     name/value pairs.
-    
-    Each data row contains a name, and value. The row also contains a 
-    type or mimetype. Type corresponds to a .NET class that support 
-    text/value conversion through the TypeConverter architecture. 
-    Classes that don't support this are serialized and stored with the 
+
+    Each data row contains a name, and value. The row also contains a
+    type or mimetype. Type corresponds to a .NET class that support
+    text/value conversion through the TypeConverter architecture.
+    Classes that don't support this are serialized and stored with the
     mimetype set.
-    
-    The mimetype is used for serialized objects, and tells the 
-    ResXResourceReader how to depersist the object. This is currently not 
+
+    The mimetype is used for serialized objects, and tells the
+    ResXResourceReader how to depersist the object. This is currently not
     extensible. For a given mimetype the value must be set accordingly:
-    
-    Note - application/x-microsoft.net.object.binary.base64 is the format 
-    that the ResXResourceWriter will generate, however the reader can 
+
+    Note - application/x-microsoft.net.object.binary.base64 is the format
+    that the ResXResourceWriter will generate, however the reader can
     read any of the formats listed below.
-    
+
     mimetype: application/x-microsoft.net.object.binary.base64
-    value   : The object must be serialized with 
+    value   : The object must be serialized with
             : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
             : and then encoded with base64 encoding.
-    
+
     mimetype: application/x-microsoft.net.object.soap.base64
-    value   : The object must be serialized with 
+    value   : The object must be serialized with
             : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
             : and then encoded with base64 encoding.
 
     mimetype: application/x-microsoft.net.object.bytearray.base64
-    value   : The object must be serialized into a byte array 
+    value   : The object must be serialized into a byte array
             : using a System.ComponentModel.TypeConverter
             : and then encoded with base64 encoding.
     -->
@@ -2293,7 +2293,7 @@
     <value>マークダウンエディター</value>
   </data>
   <data name="RichTextEditor_NumberFormatList" xml:space="preserve">
-    <value>番号付きリスト</value>
+    <value>数字形式のリスト</value>
   </data>
   <data name="RichTextEditor_NumberFormatListNone" xml:space="preserve">
     <value>無し</value>
@@ -2317,7 +2317,7 @@
     <value>下ギリシャ語</value>
   </data>
   <data name="RichTextEditor_BulletFormatList" xml:space="preserve">
-    <value>箇条書きリスト</value>
+    <value>箇条書き書式リスト</value>
   </data>
   <data name="RichTextEditor_BulletFormatListNone" xml:space="preserve">
     <value>無し</value>
@@ -2949,6 +2949,9 @@
   <data name="Grid_Save" xml:space="preserve">
     <value>セーブ</value>
   </data>
+  <data name="Grid_Back" xml:space="preserve">
+    <value>戻る</value>
+  </data>
   <data name="Grid_Item" xml:space="preserve">
     <value>項目</value>
   </data>
@@ -3216,6 +3219,9 @@
   <data name="Grid_ColumnMenuDescription" xml:space="preserve">
     <value>Alt Downを押して列メニューを開きます</value>
   </data>
+  <data name="Grid_ColumnMenu" xml:space="preserve">
+    <value>列メニュー</value>
+  </data>
   <data name="Grid_GroupDescription" xml:space="preserve">
     <value>Ctrlスペースを押してグループ化します</value>
   </data>
@@ -3225,14 +3231,8 @@
   <data name="Grid_ColumnHeaderUndefinedARIA" xml:space="preserve">
     <value>列ヘッダーが定義されていません</value>
   </data>
-  <data name="Grid_CommandColumnARIA" xml:space="preserve">
-    <value>はコマンド列です</value>
-  </data>
   <data name="Grid_GroupedSortIcon" xml:space="preserve">
     <value>グループ化された列を並べ替えます</value>
-  </data>
-  <data name="Grid_EmptyColumnHeaderUndefinedARIA" xml:space="preserve">
-    <value>空の列ヘッダーが定義されていません</value>
   </data>
   <data name="Grid_Close" xml:space="preserve">
     <value>了い</value>
@@ -4038,6 +4038,9 @@
   <data name="PdfViewer_Strikethrough" xml:space="preserve">
     <value>取り消し線付きのテキスト</value>
   </data>
+  <data name="PdfViewer_Squiggly" xml:space="preserve">
+    <value>波状のテキスト</value>
+  </data>
   <data name="PdfViewer_Delete" xml:space="preserve">
     <value>注釈を削除</value>
   </data>
@@ -4059,8 +4062,11 @@
   <data name="PdfViewer_StrikethroughContext" xml:space="preserve">
     <value>取り消し線</value>
   </data>
+  <data name="PdfViewer_SquigglyContext" xml:space="preserve">
+    <value>波状</value>
+  </data>
   <data name="PdfViewer_Servererror" xml:space="preserve">
-    <value>Webサービスはリッスンしていません。 PDF Viewerは、そのすべての機能をWebサービスに依存しています。続行するには、Webサービスを開始してください.</value>
+    <value>何か問題が発生しました。もう一度試すか、ページを更新してください.</value>
   </data>
   <data name="PdfViewer_Clienterror" xml:space="preserve">
     <value>クライアント側のエラーが見つかりました。 AjaxRequestSettingsプロパティで提供されるカスタムヘッダーと、ServerActionSettingsプロパティでWebアクションメソッドを確認してください。</value>
@@ -4103,6 +4109,147 @@
   </data>
   <data name="PdfViewer_AnnotationEditText" xml:space="preserve">
     <value>注釈を編集</value>
+  </data>
+  <data name="PdfViewer_FormDesigner" xml:space="preserve">
+    <value>フォームフィールドを追加または編集</value>
+  </data>
+  <data name="PdfViewer_FormDesignerText" xml:space="preserve">
+    <value>フォームフィールドを編集</value>
+  </data>
+  <data name="PdfViewer_Textbox" xml:space="preserve">
+    <value>テキストボックス</value>
+  </data>
+  <data name="PdfViewer_Password" xml:space="preserve">
+    <value>パスワード</value>
+  </data>
+  <data name="PdfViewer_Checkbox" xml:space="preserve">
+    <value>チェックボックス</value>
+  </data>
+  <data name="PdfViewer_RadioButton" xml:space="preserve">
+    <value>ラジオボタン</value>
+  </data>
+  <data name="PdfViewer_DropDown" xml:space="preserve">
+    <value>ドロップダウン</value>
+  </data>
+  <data name="PdfViewer_ListBox" xml:space="preserve">
+    <value>リストボックス</value>
+  </data>
+  <data name="PdfViewer_Button" xml:space="preserve">
+    <value>ボタン</value>
+  </data>
+  <data name="PdfViewer_DeleteFormField" xml:space="preserve">
+    <value>フォームフィールドを削除</value>
+  </data>
+  <data name="PdfViewer_Signature" xml:space="preserve">
+    <value>署名</value>
+  </data>
+  <data name="PdfViewer_Initial" xml:space="preserve">
+    <value>イニシャル</value>
+  </data>
+  <data name="PdfViewer_Save" xml:space="preserve">
+    <value>保存</value>
+  </data>
+  <data name="PdfViewer_General" xml:space="preserve">
+    <value>一般</value>
+  </data>
+  <data name="PdfViewer_Appearance" xml:space="preserve">
+    <value>外観</value>
+  </data>
+  <data name="PdfViewer_Options" xml:space="preserve">
+    <value>オプション</value>
+  </data>
+  <data name="PdfViewer_Name" xml:space="preserve">
+    <value>名前</value>
+  </data>
+  <data name="PdfViewer_Tooltip" xml:space="preserve">
+    <value>ツールチップ</value>
+  </data>
+  <data name="PdfViewer_Value" xml:space="preserve">
+    <value>値</value>
+  </data>
+  <data name="PdfViewer_Visibility" xml:space="preserve">
+    <value>表示</value>
+  </data>
+  <data name="PdfViewer_ReadOnly" xml:space="preserve">
+    <value>読み取り専用</value>
+  </data>
+  <data name="PdfViewer_Checked" xml:space="preserve">
+    <value>選択済み</value>
+  </data>
+  <data name="PdfViewer_Selected" xml:space="preserve">
+    <value>選択された</value>
+  </data>
+  <data name="PdfViewer_Required" xml:space="preserve">
+    <value>必須</value>
+  </data>
+  <data name="PdfViewer_Multiline" xml:space="preserve">
+    <value>複数行</value>
+  </data>
+  <data name="PdfViewer_Format" xml:space="preserve">
+    <value>書式</value>
+  </data>
+  <data name="PdfViewer_MaxLength" xml:space="preserve">
+    <value>最大長</value>
+  </data>
+  <data name="PdfViewer_Fill" xml:space="preserve">
+    <value>塗りつぶし</value>
+  </data>
+  <data name="PdfViewer_Border" xml:space="preserve">
+    <value>境界線</value>
+  </data>
+  <data name="PdfViewer_Thickness" xml:space="preserve">
+    <value>厚さ</value>
+  </data>
+  <data name="PdfViewer_ItemName" xml:space="preserve">
+    <value>アイテム名</value>
+  </data>
+  <data name="PdfViewer_ItemValue" xml:space="preserve">
+    <value>アイテムの値</value>
+  </data>
+  <data name="PdfViewer_ItemList" xml:space="preserve">
+    <value>アイテムリスト</value>
+  </data>
+  <data name="PdfViewer_Up" xml:space="preserve">
+    <value>上</value>
+  </data>
+  <data name="PdfViewer_Down" xml:space="preserve">
+    <value>下</value>
+  </data>
+  <data name="PdfViewer_BorderThickness" xml:space="preserve">
+    <value>境界線の太さ</value>
+  </data>
+  <data name="PdfViewer_FontStyle" xml:space="preserve">
+    <value>フォントスタイル</value>
+  </data>
+  <data name="PdfViewer_Alignment" xml:space="preserve">
+    <value>配置</value>
+  </data>
+  <data name="PdfViewer_BorderColor" xml:space="preserve">
+    <value>境界線の色</value>
+  </data>
+  <data name="PdfViewer_Visible" xml:space="preserve">
+    <value>表示</value>
+  </data>
+  <data name="PdfViewer_VisibleNotPrintable" xml:space="preserve">
+    <value>表示されるが印刷されない</value>
+  </data>
+  <data name="PdfViewer_HiddenPrintable" xml:space="preserve">
+    <value>非表示だが印刷可能</value>
+  </data>
+  <data name="PdfViewer_Hidden" xml:space="preserve">
+    <value>非表示</value>
+  </data>
+  <data name="PdfViewer_Helvetica" xml:space="preserve">
+    <value>ヘルベチカ</value>
+  </data>
+  <data name="PdfViewer_Courier" xml:space="preserve">
+    <value>クーリエ</value>
+  </data>
+  <data name="PdfViewer_Symbol" xml:space="preserve">
+    <value>シンボル</value>
+  </data>
+  <data name="PdfViewer_TimesNewRoman" xml:space="preserve">
+    <value>タイムズニューローマン</value>
   </data>
   <data name="PdfViewer_LineThickness" xml:space="preserve">
     <value>線の太さ</value>
@@ -4356,6 +4503,9 @@
   <data name="PdfViewer_Save_Signature" xml:space="preserve">
     <value>署名を保存</value>
   </data>
+  <data name="PdfViewer_Save_Initial" xml:space="preserve">
+    <value>初期値を保存する</value>
+  </data>
   <data name="PdfViewer_Enter_Signature_as_Name" xml:space="preserve">
     <value>あなたの名前を入力してください</value>
   </data>
@@ -4434,8 +4584,32 @@
   <data name="PdfViewer_HandwrittenSignatureDialogHeaderText" xml:space="preserve">
     <value>署名を追加する</value>
   </data>
+  <data name="PdfViewer_HandwrittenInitialDialogHeaderText" xml:space="preserve">
+    <value>初期値を追加</value>
+  </data>
   <data name="PdfViewer_DrawInk" xml:space="preserve">
     <value>اインクを引く</value>
+  </data>
+  <data name="PdfViewer_PromptPlaceholder" xml:space="preserve">
+    <value>サポートが必要な内容を入力してください...</value>
+  </data>
+  <data name="PdfViewer_AIAssistHeader" xml:space="preserve">
+    <value>AIアシスト</value>
+  </data>
+  <data name="PdfViewer_AIAssistBannerTitle" xml:space="preserve">
+    <value>AIサポート</value>
+  </data>
+  <data name="PdfViewer_AIAssistBannerSubtitle" xml:space="preserve">
+    <value>毎日使えるAIアシスタント</value>
+  </data>
+  <data name="PdfViewer_ErrorDialogHeader" xml:space="preserve">
+    <value>AIサービスエラー</value>
+  </data>
+  <data name="PdfViewer_CredentialErrorContent" xml:space="preserve">
+    <value>認証情報が未入力、誤っている、または無効です。内容を確認し、正しい認証情報を入力して再試行してください。</value>
+  </data>
+  <data name="PdfViewer_ConnectionLostErrorContent" xml:space="preserve">
+    <value>AIサービスへの接続が失われました。ネットワーク接続を確認してから再試行してください。</value>
   </data>
   <data name="DocumentEditor_Table" xml:space="preserve">
     <value>テーブル</value>
@@ -6228,19 +6402,19 @@
   <data name="DocumentEditorContainer_Changecase" xml:space="preserve">
     <value>大文字と小文字を変更する</value>
 </data>
-<data name="DocumentEditorContainer_Uppercase" xml:space="preserve">
+  <data name="DocumentEditorContainer_Uppercase" xml:space="preserve">
     <value>大文字</value>
 </data>
-<data name="DocumentEditorContainer_Lowercase" xml:space="preserve">
+  <data name="DocumentEditorContainer_Lowercase" xml:space="preserve">
     <value>小文字</value>
 </data>
-<data name="DocumentEditorContainer_SentenceCase" xml:space="preserve">
+  <data name="DocumentEditorContainer_SentenceCase" xml:space="preserve">
     <value>文例</value>
 </data>
-<data name="DocumentEditorContainer_CapitalizeEachWord" xml:space="preserve">
+  <data name="DocumentEditorContainer_CapitalizeEachWord" xml:space="preserve">
     <value>各単語を大文字にします</value>
 </data>
-<data name="DocumentEditorContainer_ToggleCase" xml:space="preserve">
+  <data name="DocumentEditorContainer_ToggleCase" xml:space="preserve">
     <value>トグルケース</value>
 </data>
   <data name="Gantt_Touch_DialogTextOnClickingConnectorPoint" xml:space="preserve">
@@ -6387,79 +6561,79 @@
   <data name="DocumentEditorContainer_TabStopPosition" xml:space="preserve">
 <value>タブ停止位置</value>
 </data>
-<data name="DocumentEditorContainer_DefaultTabStops" xml:space="preserve">
+  <data name="DocumentEditorContainer_DefaultTabStops" xml:space="preserve">
 <value>デフォルトのタブストップ</value>
 </data>
-<data name="DocumentEditorContainer_TabStopsCleared" xml:space="preserve">
+  <data name="DocumentEditorContainer_TabStopsCleared" xml:space="preserve">
 <value>タブストップをクリアする</value>
 </data>
-<data name="DocumentEditorContainer_Tabs" xml:space="preserve">
+  <data name="DocumentEditorContainer_Tabs" xml:space="preserve">
 <value>タブ</value>
 </data>
-<data name="DocumentEditor_Set" xml:space="preserve">
+  <data name="DocumentEditor_Set" xml:space="preserve">
 <value>セット</value>
 </data>
-<data name="DocumentEditor_Clear" xml:space="preserve">
+  <data name="DocumentEditor_Clear" xml:space="preserve">
 <value>クリア</value>
 </data>
-<data name="DocumentEditor_ClearAll" xml:space="preserve">
+  <data name="DocumentEditor_ClearAll" xml:space="preserve">
 <value>すべてクリア</value>
 </data>
-<data name="DocumentEditor_Decimal" xml:space="preserve">
+  <data name="DocumentEditor_Decimal" xml:space="preserve">
 <value>10進数</value>
 </data>
-<data name="DocumentEditor_Bar" xml:space="preserve">
+  <data name="DocumentEditor_Bar" xml:space="preserve">
 <value>バー</value>
 </data>
-<data name="DocumentEditorContainer_Alignment" xml:space="preserve">
+  <data name="DocumentEditorContainer_Alignment" xml:space="preserve">
 <value>位置合わせ</value>
 </data>
-<data name="DocumentEditorContainer_Leader" xml:space="preserve">
+  <data name="DocumentEditorContainer_Leader" xml:space="preserve">
 <value>リーダー</value>
 </data>
-<data name="DocumentEditorContainer_All" xml:space="preserve">
+  <data name="DocumentEditorContainer_All" xml:space="preserve">
 <value>全て</value>
 </data>
-<data name="DocumentEditor_BottomMargin" xml:space="preserve">
+  <data name="DocumentEditor_BottomMargin" xml:space="preserve">
 <value>下マージン</value>
 </data>
-<data name="DocumentEditor_FirstLineIndent" xml:space="preserve">
+  <data name="DocumentEditor_FirstLineIndent" xml:space="preserve">
 <value>最初の行のインデント</value>
 </data>
-<data name="DocumentEditor_HangingIndent" xml:space="preserve">
+  <data name="DocumentEditor_HangingIndent" xml:space="preserve">
 <value>ハンギングインデント</value>
 </data>
-<data name="DocumentEditor_LeftIndent" xml:space="preserve">
+  <data name="DocumentEditor_LeftIndent" xml:space="preserve">
 <value>左インデント</value>
 </data>
-<data name="DocumentEditor_LeftMargin" xml:space="preserve">
+  <data name="DocumentEditor_LeftMargin" xml:space="preserve">
 <value>左マージン</value>
 </data>
-<data name="DocumentEditor_MoveTableColumn" xml:space="preserve">
+  <data name="DocumentEditor_MoveTableColumn" xml:space="preserve">
 <value>テーブル列の移動</value>
 </data>
-<data name="DocumentEditor_RightIndent" xml:space="preserve">
+  <data name="DocumentEditor_RightIndent" xml:space="preserve">
 <value>右インデント</value>
 </data>
-<data name="DocumentEditor_RightMargin" xml:space="preserve">
+  <data name="DocumentEditor_RightMargin" xml:space="preserve">
 <value>右マージン</value>
 </data>
-<data name="DocumentEditor_TopMargin" xml:space="preserve">
+  <data name="DocumentEditor_TopMargin" xml:space="preserve">
 <value>トップマージン</value>
 </data>
-<data name="DocumentEditor_LeftTab" xml:space="preserve">
+  <data name="DocumentEditor_LeftTab" xml:space="preserve">
 <value>左タブ</value>
 </data>
-<data name="DocumentEditor_CenterTab" xml:space="preserve">
+  <data name="DocumentEditor_CenterTab" xml:space="preserve">
 <value>中央タブ</value>
 </data>
-<data name="DocumentEditor_RightTab" xml:space="preserve">
+  <data name="DocumentEditor_RightTab" xml:space="preserve">
 <value>右タブ</value>
 </data>
-<data name="DocumentEditor_DecimalTab" xml:space="preserve">
+  <data name="DocumentEditor_DecimalTab" xml:space="preserve">
 <value>小数タブ</value>
 </data>
-<data name="DocumentEditor_BarTab" xml:space="preserve">
+  <data name="DocumentEditor_BarTab" xml:space="preserve">
 <value>バータブ</value>
 </data>
   <data name="ImageEditor_OkBtnTooltip" xml:space="preserve">
@@ -6578,5 +6752,1913 @@
   </data>
   <data name="AIAssistView_StopResponseText" xml:space="preserve">
     <value>応答を停止する</value>
+  </data>
+  <data name="ChatUI_MultipleUsersTyping" xml:space="preserve">
+    <value>{0}、{1}、他 {2} 人が入力中です</value>
+  </data>
+  <data name="ChatUI_OneUserTyping" xml:space="preserve">
+    <value>{0} が入力中です</value>
+  </data>
+  <data name="ChatUI_TwoUserTyping" xml:space="preserve">
+    <value>{0} と {1} が入力中です</value>
+  </data>
+  <data name="ChatUI_ThreeUserTyping" xml:space="preserve">
+    <value>{0}、{1}、他 {2} 人が入力中です</value>
+  </data>
+  <data name="Spreadsheet_InvalidPassword" xml:space="preserve">
+    <value>Password errata. Si prega di riprovare.</value>
+  </data>
+  <data name="Spreadsheet_Delete" xml:space="preserve">
+    <value>削除</value>
+  </data>
+  <data name="Spreadsheet_Duplicate" xml:space="preserve">
+    <value>複製</value>
+  </data>
+  <data name="Spreadsheet_Rename" xml:space="preserve">
+    <value>名前の変更</value>
+  </data>
+  <data name="Spreadsheet_MoveRight" xml:space="preserve">
+    <value>右に移動</value>
+  </data>
+  <data name="Spreadsheet_MoveLeft" xml:space="preserve">
+    <value>左に移動</value>
+  </data>
+  <data name="Spreadsheet_Copy" xml:space="preserve">
+    <value>コピー</value>
+  </data>
+  <data name="Spreadsheet_Cut" xml:space="preserve">
+    <value>切り取り</value>
+  </data>
+  <data name="Spreadsheet_Paste" xml:space="preserve">
+    <value>貼り付け</value>
+  </data>
+  <data name="Spreadsheet_InsertLeft" xml:space="preserve">
+    <value>左に列を挿入</value>
+  </data>
+  <data name="Spreadsheet_InsertRight" xml:space="preserve">
+    <value>右に列を挿入</value>
+  </data>
+  <data name="Spreadsheet_InsertRowsAbove" xml:space="preserve">
+    <value>上に行を挿入</value>
+  </data>
+  <data name="Spreadsheet_InsertRowsBelow" xml:space="preserve">
+    <value>下に行を挿入</value>
+  </data>
+  <data name="Spreadsheet_Sort" xml:space="preserve">
+    <value>並べ替え</value>
+  </data>
+  <data name="Spreadsheet_ClearAll" xml:space="preserve">
+    <value>すべてクリア</value>
+  </data>
+  <data name="Spreadsheet_ClearFormats" xml:space="preserve">
+    <value>書式のクリア</value>
+  </data>
+  <data name="Spreadsheet_ClearContents" xml:space="preserve">
+    <value>内容のクリア</value>
+  </data>
+  <data name="Spreadsheet_ClearHyperlinks" xml:space="preserve">
+    <value>ハイパーリンクのクリア</value>
+  </data>
+  <data name="Spreadsheet_Clear" xml:space="preserve">
+    <value>クリア</value>
+  </data>
+  <data name="Spreadsheet_Home" xml:space="preserve">
+    <value>ホーム</value>
+  </data>
+  <data name="Spreadsheet_Link" xml:space="preserve">
+    <value>リンク</value>
+  </data>
+  <data name="Spreadsheet_File" xml:space="preserve">
+    <value>ファイル</value>
+  </data>
+  <data name="Spreadsheet_Image" xml:space="preserve">
+    <value>画像</value>
+  </data>
+  <data name="Spreadsheet_New" xml:space="preserve">
+    <value>新規</value>
+  </data>
+  <data name="Spreadsheet_Open" xml:space="preserve">
+    <value>開く</value>
+  </data>
+  <data name="Spreadsheet_ABS" xml:space="preserve">
+    <value>数値の絶対値を返します</value>
+  </data>
+  <data name="Spreadsheet_ACOS" xml:space="preserve">
+    <value>数値の逆余弦を返します</value>
+  </data>
+  <data name="Spreadsheet_ACOSH" xml:space="preserve">
+    <value>数値の逆双曲線余弦を返します</value>
+  </data>
+  <data name="Spreadsheet_ADDRESS" xml:space="preserve">
+    <value>セルへの参照をテキストとして返します</value>
+  </data>
+  <data name="Spreadsheet_ANDFormula" xml:space="preserve">
+    <value>すべての引数がTRUEの場合、TRUEを返します</value>
+  </data>
+    <data name="Spreadsheet_AREAS" xml:space="preserve">
+    <value>参照内の領域数を返します</value>
+  </data>
+  <data name="Spreadsheet_ARRAYTOTEXT" xml:space="preserve">
+    <value>配列のテキスト表現を返します</value>
+  </data>
+  <data name="Spreadsheet_ASC" xml:space="preserve">
+    <value>文字列内の全角文字を半角文字に変換します</value>
+  </data>
+  <data name="Spreadsheet_ASIN" xml:space="preserve">
+    <value>数値のアークサインを返します</value>
+  </data>
+  <data name="Spreadsheet_ASINH" xml:space="preserve">
+    <value>数値の逆双曲線正弦を返します</value>
+  </data>
+  <data name="Spreadsheet_ATAN" xml:space="preserve">
+    <value>数値のアークタンジェントを返します</value>
+  </data>
+  <data name="Spreadsheet_ATAN2" xml:space="preserve">
+    <value>x座標とy座標からアークタンジェントを返します</value>
+  </data>
+  <data name="Spreadsheet_ATANH" xml:space="preserve">
+    <value>数値の逆双曲線正接を返します</value>
+  </data>
+  <data name="Spreadsheet_AVEDEV" xml:space="preserve">
+    <value>平均値からの絶対偏差の平均を返します</value>
+  </data>
+  <data name="Spreadsheet_AVERAGE" xml:space="preserve">
+    <value>引数の平均値を返します</value>
+  </data>
+  <data name="Spreadsheet_AVERAGEA" xml:space="preserve">
+    <value>引数の平均値を返します</value>
+  </data>
+  <data name="Spreadsheet_AVERAGEIF" xml:space="preserve">
+    <value>条件を満たすセルの平均値を返します</value>
+  </data>
+  <data name="Spreadsheet_AVERAGEIFS" xml:space="preserve">
+    <value>複数の条件を満たすセルの平均値を返します</value>
+  </data>
+  <data name="Spreadsheet_BESSELI" xml:space="preserve">
+    <value>修正ベッセル関数 In(x) を返します</value>
+  </data>
+  <data name="Spreadsheet_BESSELJ" xml:space="preserve">
+    <value>ベッセル関数 Jn(x) を返します</value>
+  </data>
+  <data name="Spreadsheet_BESSELK" xml:space="preserve">
+    <value>修正ベッセル関数 Kn(x) を返します</value>
+  </data>
+  <data name="Spreadsheet_BESSELY" xml:space="preserve">
+    <value>ベッセル関数 Yn(x) を返します</value>
+  </data>
+  <data name="Spreadsheet_BIN2DEC" xml:space="preserve">
+    <value>二進数を十進数に変換します</value>
+  </data>
+  <data name="Spreadsheet_BIN2HEX" xml:space="preserve">
+    <value>二進数を十六進数に変換します</value>
+  </data>
+  <data name="Spreadsheet_BIN2OCT" xml:space="preserve">
+    <value>二進数を八進数に変換します</value>
+  </data>
+  <data name="Spreadsheet_BINOMDIST" xml:space="preserve">
+    <value>個別項の二項分布確率を返します</value>
+  </data>
+  <data name="Spreadsheet_BYCOL" xml:space="preserve">
+    <value>各列にLAMBDAを適用し、結果の配列を返します</value>
+  </data>
+  <data name="Spreadsheet_BYROW" xml:space="preserve">
+    <value>各行にLAMBDAを適用し、結果の配列を返します</value>
+  </data>
+  <data name="Spreadsheet_CEILING" xml:space="preserve">
+    <value>数値を最も近い整数または倍数に切り上げます</value>
+  </data>
+  <data name="Spreadsheet_CELL" xml:space="preserve">
+    <value>書式、位置、または内容に関する情報を返します</value>
+  </data>
+  <data name="Spreadsheet_CHAR" xml:space="preserve">
+    <value>コード番号で指定された文字を返します</value>
+  </data>
+  <data name="Spreadsheet_CHIDIST" xml:space="preserve">
+    <value>カイ二乗分布の片側確率を返します</value>
+  </data>
+  <data name="Spreadsheet_CHIINV" xml:space="preserve">
+    <value>カイ二乗分布の逆関数を返します</value>
+  </data>
+  <data name="Spreadsheet_CHITEST" xml:space="preserve">
+    <value>独立性の検定を返します</value>
+  </data>
+  <data name="Spreadsheet_CHOOSE" xml:space="preserve">
+    <value>値のリストから値を選択します</value>
+  </data>
+  <data name="Spreadsheet_CHOOSECOLS" xml:space="preserve">
+    <value>配列から指定された列を返します</value>
+  </data>
+  <data name="Spreadsheet_CHOOSEROWS" xml:space="preserve">
+    <value>配列から指定された行を返します</value>
+  </data>
+  <data name="Spreadsheet_CLEAN" xml:space="preserve">
+    <value>テキストから印刷できない文字をすべて削除します</value>
+  </data>
+  <data name="Spreadsheet_CODE" xml:space="preserve">
+    <value>テキスト文字列の最初の文字の数値コードを返します</value>
+  </data>
+  <data name="Spreadsheet_COLUMN" xml:space="preserve">
+    <value>参照の列番号を返します</value>
+  </data>
+  <data name="Spreadsheet_COLUMNS" xml:space="preserve">
+    <value>参照の列数を返します</value>
+  </data>
+  <data name="Spreadsheet_COMBIN" xml:space="preserve">
+    <value>指定された数のオブジェクトの組み合わせの数を返します</value>
+  </data>
+  <data name="Spreadsheet_COMPLEX" xml:space="preserve">
+    <value>実数係数と虚数係数を複素数に変換します</value>
+  </data>
+  <data name="Spreadsheet_CONCAT" xml:space="preserve">
+    <value>複数の範囲や文字列のテキストを結合します</value>
+  </data>
+  <data name="Spreadsheet_CONCATENATE" xml:space="preserve">
+    <value>複数のテキスト項目を1つのテキスト項目に結合します</value>
+  </data>
+  <data name="Spreadsheet_CONFIDENCE" xml:space="preserve">
+    <value>母集団平均の信頼区間を返します</value>
+  </data>
+  <data name="Spreadsheet_CONVERT" xml:space="preserve">
+    <value>ある測定システムから別の測定システムへ数値を変換します</value>
+  </data>
+  <data name="Spreadsheet_CORREL" xml:space="preserve">
+    <value>2 つのデータ セット間の相関係数を返します</value>
+  </data>
+  <data name="Spreadsheet_COS" xml:space="preserve">
+    <value>数値のコサインを返します</value>
+  </data>
+  <data name="Spreadsheet_COSH" xml:space="preserve">
+    <value>数値の双曲線コサインを返します</value>
+  </data>
+  <data name="Spreadsheet_COUNT" xml:space="preserve">
+    <value>引数リスト内の数値の個数をカウントします</value>
+  </data>
+  <data name="Spreadsheet_COUNTA" xml:space="preserve">
+    <value>引数リスト内の値の個数をカウントします</value>
+  </data>
+  <data name="Spreadsheet_COUNTBLANK" xml:space="preserve">
+    <value>範囲内の空白セルの数をカウントします</value>
+  </data>
+  <data name="Spreadsheet_COUNTIF" xml:space="preserve">
+    <value>指定された条件を満たすセルをカウントします</value>
+  </data>
+  <data name="Spreadsheet_COVAR" xml:space="preserve">
+    <value>共分散（対になった偏差の積の平均）を返します</value>
+  </data>
+  <data name="Spreadsheet_CRITBINOM" xml:space="preserve">
+    <value>累積二項分布の最小値を返します</value>
+  </data>
+  <data name="Spreadsheet_CUMIPMT" xml:space="preserve">
+    <value>2 つの期間の間に支払われた累積利息を返します</value>
+  </data>
+  <data name="Spreadsheet_CUMPRINC" xml:space="preserve">
+    <value>2 つの期間の間のローンに対して支払われた累積元金を返します</value>
+  </data>
+  <data name="Spreadsheet_DATE" xml:space="preserve">
+    <value>特定の日付のシリアル値を返します</value>
+  </data>
+  <data name="Spreadsheet_DATEVALUE" xml:space="preserve">
+    <value>テキスト形式の日付をシリアル値に変換します</value>
+  </data>
+  <data name="Spreadsheet_DAY" xml:space="preserve">
+    <value>シリアル値を月の日に変換します</value>
+  </data>
+  <data name="Spreadsheet_DAYS360" xml:space="preserve">
+    <value>360日年をベースにして2つの日付間の日数を計算します</value>
+  </data>
+  <data name="Spreadsheet_DB" xml:space="preserve">
+    <value>定率法を使用して資産の減価償却費を返します</value>
+  </data>
+  <data name="Spreadsheet_DDB" xml:space="preserve">
+    <value>倍率定率法を使用して資産の減価償却費を返します</value>
+  </data>
+  <data name="Spreadsheet_DEC2BIN" xml:space="preserve">
+    <value>10進数を2進数に変換します</value>
+  </data>
+  <data name="Spreadsheet_DECHEX" xml:space="preserve">
+    <value>10進数を16進数に変換します</value>
+  </data>
+  <data name="Spreadsheet_DEC2OCT" xml:space="preserve">
+    <value>10進数を8進数に変換します</value>
+  </data>
+  <data name="Spreadsheet_DEGREES" xml:space="preserve">
+    <value>ラジアンを度に変換します</value>
+  </data>
+  <data name="Spreadsheet_DELTA" xml:space="preserve">
+    <value>2つの値が等しいかどうかをテストします</value>
+  </data>
+  <data name="Spreadsheet_DEVSQ" xml:space="preserve">
+    <value>偏差の平方和を返します</value>
+  </data>
+  <data name="Spreadsheet_DISC" xml:space="preserve">
+    <value>証券の割引率を返します</value>
+  </data>
+  <data name="Spreadsheet_DOLLAR" xml:space="preserve">
+    <value>数値を $ (ドル) 通貨形式のテキストに変換します</value>
+  </data>
+  <data name="Spreadsheet_DOLLARDE" xml:space="preserve">
+    <value>分数表示のドル価格を10進数に変換します</value>
+  </data>
+  <data name="Spreadsheet_DOLLARFR" xml:space="preserve">
+    <value>10進数表示のドル価格を分数に変換します</value>
+  </data>
+  <data name="Spreadsheet_DURATION" xml:space="preserve">
+    <value>定期的な利払いがある証券の年間デュレーションを返します</value>
+  </data>
+  <data name="Spreadsheet_EDATE" xml:space="preserve">
+    <value>開始日から指定した月数前/後の日付を返します</value>
+  </data>
+  <data name="Spreadsheet_EFFECT" xml:space="preserve">
+    <value>実効年利率を返します</value>
+  </data>
+  <data name="Spreadsheet_EOMONTH" xml:space="preserve">
+    <value>指定した月数前/後の月の最終日を返します</value>
+  </data>
+  <data name="Spreadsheet_ERF" xml:space="preserve">
+    <value>誤差関数を返します</value>
+  </data>
+  <data name="Spreadsheet_ERFC" xml:space="preserve">
+    <value>相補誤差関数を返します</value>
+  </data>
+  <data name="Spreadsheet_ERRORTYPE" xml:space="preserve">
+    <value>エラータイプに対応する数値を返します</value>
+  </data>
+  <data name="Spreadsheet_EVEN" xml:space="preserve">
+    <value>数値を最も近い偶数の整数に切り上げます</value>
+  </data>
+  <data name="Spreadsheet_EXACT" xml:space="preserve">
+    <value>2つのテキスト値が同一であるかどうかを確認します</value>
+  </data>
+  <data name="Spreadsheet_EXP" xml:space="preserve">
+    <value>eの指定した数値乗を返します</value>
+  </data>
+  <data name="Spreadsheet_EXPONDIST" xml:space="preserve">
+    <value>指数分布を返します</value>
+  </data>
+  <data name="Spreadsheet_FACT" xml:space="preserve">
+    <value>数値の階乗を返します</value>
+  </data>
+  <data name="Spreadsheet_FACTDOUBLE" xml:space="preserve">
+    <value>数値の二重階乗を返します</value>
+  </data>
+  <data name="Spreadsheet_FDIST" xml:space="preserve">
+    <value>F確率分布を返します</value>
+  </data>
+  <data name="Spreadsheet_FIND" xml:space="preserve">
+    <value>あるテキスト値を別のテキスト値の中から検索します（大文字と小文字を区別）</value>
+  </data>
+  <data name="Spreadsheet_FINDB" xml:space="preserve">
+    <value>あるテキスト値を別のテキスト値の中から検索します（大文字と小文字を区別）</value>
+  </data>
+  <data name="Spreadsheet_FINV" xml:space="preserve">
+    <value>F確率分布の逆関数を返します</value>
+  </data>
+  <data name="Spreadsheet_FISHER" xml:space="preserve">
+    <value>フィッシャー変換を返します</value>
+  </data>
+  <data name="Spreadsheet_FISHERINV" xml:space="preserve">
+    <value>フィッシャー変換の逆関数を返します</value>
+  </data>
+  <data name="Spreadsheet_FIXED" xml:space="preserve">
+    <value>数値を固定小数点数のテキストとして書式設定します</value>
+  </data>
+  <data name="Spreadsheet_FLOOR" xml:space="preserve">
+    <value>数値を0に向かって切り下げます</value>
+  </data>
+  <data name="Spreadsheet_FORECAST" xml:space="preserve">
+    <value>線形トレンドに沿った値を返します</value>
+  </data>
+  <data name="Spreadsheet_FV" xml:space="preserve">
+    <value>投資の将来価値を返します</value>
+  </data>
+  <data name="Spreadsheet_FVSCHEDULE" xml:space="preserve">
+    <value>複利計算後の将来価値を返します</value>
+  </data>
+  <data name="Spreadsheet_GAMMADIST" xml:space="preserve">
+    <value>ガンマ分布を返します</value>
+  </data>
+  <data name="Spreadsheet_GAMMAINV" xml:space="preserve">
+    <value>ガンマ累積分布の逆関数を返します</value>
+  </data>
+  <data name="Spreadsheet_GAMMALN" xml:space="preserve">
+    <value>ガンマ関数Γ(x)の自然対数を返します</value>
+  </data>
+  <data name="Spreadsheet_GCD" xml:space="preserve">
+    <value>最大公約数を返します</value>
+  </data>
+  <data name="Spreadsheet_GEOMEAN" xml:space="preserve">
+    <value>幾何平均を返します</value>
+  </data>
+  <data name="Spreadsheet_GESTEP" xml:space="preserve">
+    <value>数値がしきい値より大きいかどうかをテストします</value>
+  </data>
+  <data name="Spreadsheet_GROWTH" xml:space="preserve">
+    <value>指数関数的トレンドに沿った値を返します</value>
+  </data>
+  <data name="Spreadsheet_HARMEAN" xml:space="preserve">
+    <value>調和平均を返します</value>
+  </data>
+  <data name="Spreadsheet_HEX2BIN" xml:space="preserve">
+    <value>16進数を2進数に変換します</value>
+  </data>
+  <data name="Spreadsheet_HEX2DEC" xml:space="preserve">
+    <value>16進数を10進数に変換します</value>
+  </data>
+  <data name="Spreadsheet_HEX2OCT" xml:space="preserve">
+    <value>16進数を8進数に変換します</value>
+  </data>
+  <data name="Spreadsheet_HLOOKUP" xml:space="preserve">
+    <value>配列の最上行で検索し、指定されたセルの値を返します</value>
+  </data>
+  <data name="Spreadsheet_HOUR" xml:space="preserve">
+    <value>シリアル値を時間に変換します</value>
+  </data>
+  <data name="Spreadsheet_HYPERLINKFormula" xml:space="preserve">
+    <value>ネットワーク/インターネット上のドキュメントを開くショートカットを作成します</value>
+  </data>
+  <data name="Spreadsheet_HYPGEOMDIST" xml:space="preserve">
+    <value>超幾何分布を返します</value>
+  </data>
+  <data name="Spreadsheet_IF" xml:space="preserve">
+    <value>実行する論理テストを指定します</value>
+  </data>
+  <data name="Spreadsheet_IFERROR" xml:space="preserve">
+    <value>数式がエラーと評価される場合、指定された値を返します</value>
+  </data>
+  <data name="Spreadsheet_IFS" xml:space="preserve">
+    <value>最初のTRUE条件に対応する値を返します</value>
+  </data>
+  <data name="Spreadsheet_IMABS" xml:space="preserve">
+    <value>複素数の絶対値（モジュラス）を返します</value>
+  </data>
+  <data name="Spreadsheet_IMAGINARY" xml:space="preserve">
+    <value>複素数の虚数係数を返します</value>
+  </data>
+  <data name="Spreadsheet_IMARGUMENT" xml:space="preserve">
+    <value>ラジアンで表される角度であるシータ引数を返します</value>
+  </data>
+  <data name="Spreadsheet_IMCONJUGATE" xml:space="preserve">
+    <value>複素数の複素共役を返します</value>
+  </data>
+  <data name="Spreadsheet_IMCOS" xml:space="preserve">
+    <value>複素数のコサインを返します</value>
+  </data>
+  <data name="Spreadsheet_IMDIV" xml:space="preserve">
+    <value>2つの複素数の商を返します</value>
+  </data>
+  <data name="Spreadsheet_IMEXP" xml:space="preserve">
+    <value>複素数の指数関数を返します</value>
+  </data>
+  <data name="Spreadsheet_IMLN" xml:space="preserve">
+    <value>複素数の自然対数を返します</value>
+  </data>
+  <data name="Spreadsheet_IMLOG10" xml:space="preserve">
+    <value>複素数の10を底とする対数を返します</value>
+  </data>
+  <data name="Spreadsheet_IMLOG2" xml:space="preserve">
+    <value>複素数の2を底とする対数を返します</value>
+  </data>
+  <data name="Spreadsheet_IMPOWER" xml:space="preserve">
+    <value>複素数の整数乗を返します</value>
+  </data>
+  <data name="Spreadsheet_IMPRODUCT" xml:space="preserve">
+    <value>2から29までの複素数の積を返します</value>
+  </data>
+  <data name="Spreadsheet_IMREAL" xml:space="preserve">
+    <value>複素数の実数係数を返します</value>
+  </data>
+  <data name="Spreadsheet_IMSIN" xml:space="preserve">
+    <value>複素数のサインを返します</value>
+  </data>
+  <data name="Spreadsheet_IMSQRT" xml:space="preserve">
+    <value>複素数の平方根を返します</value>
+  </data>
+  <data name="Spreadsheet_IMSUB" xml:space="preserve">
+    <value>2 つの複素数の差を返します</value>
+  </data>
+  <data name="Spreadsheet_IMSUM" xml:space="preserve">
+    <value>複素数の合計を返します</value>
+  </data>
+  <data name="Spreadsheet_INDEX" xml:space="preserve">
+    <value>インデックスを使用して、参照または配列から値を選択します</value>
+  </data>
+  <data name="Spreadsheet_INDIRECT" xml:space="preserve">
+    <value>テキスト値で示される参照を返します</value>
+  </data>
+  <data name="Spreadsheet_INFO" xml:space="preserve">
+    <value>現在の操作環境に関する情報を返します</value>
+  </data>
+  <data name="Spreadsheet_INT" xml:space="preserve">
+    <value>数値を最も近い整数に切り捨てます</value>
+  </data>
+  <data name="Spreadsheet_INTERCEPT" xml:space="preserve">
+    <value>線形回帰直線の切片を返します</value>
+  </data>
+  <data name="Spreadsheet_INTRATE" xml:space="preserve">
+    <value>全額投資された証券の金利を返します</value>
+  </data>
+  <data name="Spreadsheet_IPMT" xml:space="preserve">
+    <value>特定の期間の投資に対する利息の支払いを返します</value>
+  </data>
+  <data name="Spreadsheet_IRR" xml:space="preserve">
+    <value>一連のキャッシュフローの内部収益率を返します</value>
+  </data>
+  <data name="Spreadsheet_ISBLANK" xml:space="preserve">
+    <value>値が空白の場合に TRUE を返します</value>
+  </data>
+  <data name="Spreadsheet_ISERR" xml:space="preserve">
+    <value>#N/A 以外のエラー値の場合に TRUE を返します</value>
+  </data>
+  <data name="Spreadsheet_ISERROR" xml:space="preserve">
+    <value>値が任意のエラー値の場合に TRUE を返します</value>
+  </data>
+  <data name="Spreadsheet_ISEVEN" xml:space="preserve">
+    <value>数値が偶数の場合に TRUE を返します</value>
+  </data>
+  <data name="Spreadsheet_ISLOGICAL" xml:space="preserve">
+    <value>値が論理値の場合に TRUE を返します</value>
+  </data>
+  <data name="Spreadsheet_ISNA" xml:space="preserve">
+    <value>値がエラー値 #N/A の場合に TRUE を返します</value>
+  </data>
+  <data name="Spreadsheet_ISNONTEXT" xml:space="preserve">
+    <value>値がテキストでない場合に TRUE を返します</value>
+  </data>
+  <data name="Spreadsheet_ISNUMBER" xml:space="preserve">
+    <value>値が数値の場合に TRUE を返します</value>
+  </data>
+  <data name="Spreadsheet_ISODD" xml:space="preserve">
+    <value>数値が奇数の場合に TRUE を返します</value>
+  </data>
+  <data name="Spreadsheet_ISPMT" xml:space="preserve">
+    <value>投資期間中に支払われる利息を計算します</value>
+  </data>
+  <data name="Spreadsheet_ISREF" xml:space="preserve">
+    <value>値が参照の場合に TRUE を返します</value>
+  </data>
+  <data name="Spreadsheet_ISTEXT" xml:space="preserve">
+    <value>値がテキストの場合に TRUE を返します</value>
+  </data>
+  <data name="Spreadsheet_KURT" xml:space="preserve">
+    <value>データセットの尖度を返します</value>
+  </data>
+  <data name="Spreadsheet_LAMBDA" xml:space="preserve">
+    <value>独自の数式パラメータとロジックを使用できるようにします</value>
+  </data>
+  <data name="Spreadsheet_LARGE" xml:space="preserve">
+    <value>データセット内のk番目に大きい値を返します</value>
+  </data>
+  <data name="Spreadsheet_LCM" xml:space="preserve">
+    <value>最小公倍数を返します</value>
+  </data>
+  <data name="Spreadsheet_LEFT" xml:space="preserve">
+    <value>テキスト値から左端の文字を返します</value>
+  </data>
+  <data name="Spreadsheet_LEFTB" xml:space="preserve">
+    <value>テキスト値から左端の文字を返します</value>
+  </data>
+  <data name="Spreadsheet_LEN" xml:space="preserve">
+    <value>テキスト文字列内の文字数を返します</value>
+  </data>
+  <data name="Spreadsheet_LENB" xml:space="preserve">
+    <value>テキスト文字列内の文字数を返します</value>
+  </data>
+  <data name="Spreadsheet_LET" xml:space="preserve">
+    <value>変数を使用できる数式の結果を返します</value>
+  </data>
+  <data name="Spreadsheet_LN" xml:space="preserve">
+    <value>数値の自然対数を返します</value>
+  </data>
+  <data name="Spreadsheet_LOG" xml:space="preserve">
+    <value>指定した底による数値の対数を返します</value>
+  </data>
+  <data name="Spreadsheet_LOG10" xml:space="preserve">
+    <value>数値の10を底とする対数を返します</value>
+  </data>
+  <data name="Spreadsheet_LOGEST" xml:space="preserve">
+    <value>指数曲線のパラメータを返します</value>
+  </data>
+  <data name="Spreadsheet_LOGINV" xml:space="preserve">
+    <value>対数正規分布の逆関数を返します</value>
+  </data>
+  <data name="Spreadsheet_LOGNORMDIST" xml:space="preserve">
+    <value>累積対数正規分布を返します</value>
+  </data>
+  <data name="Spreadsheet_LOOKUP" xml:space="preserve">
+    <value>ベクトルまたは配列内の値を検索します</value>
+  </data>
+  <data name="Spreadsheet_LOWER" xml:space="preserve">
+    <value>テキストを小文字に変換します</value>
+  </data>
+  <data name="Spreadsheet_MATCH" xml:space="preserve">
+    <value>参照または配列内の値を検索します</value>
+  </data>
+  <data name="Spreadsheet_MAX" xml:space="preserve">
+    <value>引数リストの最大値を返します</value>
+  </data>
+  <data name="Spreadsheet_MAXA" xml:space="preserve">
+    <value>数値、テキスト、論理値を含む引数リストの最大値を返します</value>
+  </data>
+  <data name="Spreadsheet_MAXIFS" xml:space="preserve">
+    <value>条件を満たすセル間の最大値を返します</value>
+  </data>
+  <data name="Spreadsheet_MDETERM" xml:space="preserve">
+    <value>配列の行列式を返します</value>
+  </data>
+  <data name="Spreadsheet_MEDIAN" xml:space="preserve">
+    <value>指定された数値の中央値を返します</value>
+  </data>
+  <data name="Spreadsheet_MID" xml:space="preserve">
+    <value>指定された位置からテキストの文字を返します</value>
+  </data>
+  <data name="Spreadsheet_MIDB" xml:space="preserve">
+    <value>指定した位置から始まるテキスト文字列から特定の数の文字を返します</value>
+  </data>
+  <data name="Spreadsheet_MIN" xml:space="preserve">
+    <value>引数リストの最小値を返します</value>
+  </data>
+  <data name="Spreadsheet_MINA" xml:space="preserve">
+    <value>数値、テキスト、論理値を含む引数リスト内の最小値を返します</value>
+  </data>
+  <data name="Spreadsheet_MINIFS" xml:space="preserve">
+    <value>条件を満たすセルの中の最小値を返します</value>
+  </data>
+  <data name="Spreadsheet_MINUTE" xml:space="preserve">
+    <value>シリアル値を分に変換します</value>
+  </data>
+  <data name="Spreadsheet_MINVERSE" xml:space="preserve">
+    <value>配列の逆行列を返します</value>
+  </data>
+  <data name="Spreadsheet_MIRR" xml:space="preserve">
+    <value>異なる資金調達率でのIRRを返します</value>
+  </data>
+  <data name="Spreadsheet_MMULT" xml:space="preserve">
+    <value>2つの配列の行列積を返します</value>
+  </data>
+  <data name="Spreadsheet_MOD" xml:space="preserve">
+    <value>除算の余りを返します</value>
+  </data>
+  <data name="Spreadsheet_MODE" xml:space="preserve">
+    <value>データセットで最も頻度の高い値を返します</value>
+  </data>
+  <data name="Spreadsheet_MONTH" xml:space="preserve">
+    <value>シリアル値を月に変換します</value>
+  </data>
+  <data name="Spreadsheet_MROUND" xml:space="preserve">
+    <value>希望の倍数に丸められた数値を返します</value>
+  </data>
+  <data name="Spreadsheet_MULTINOMIAL" xml:space="preserve">
+    <value>一連の数値の多項係数を返します</value>
+  </data>
+  <data name="Spreadsheet_N" xml:space="preserve">
+    <value>数値に変換された値を返します</value>
+  </data>
+  <data name="Spreadsheet_NA" xml:space="preserve">
+    <value>エラー値 #N/A を返します</value>
+  </data>
+  <data name="Spreadsheet_NEGBINOMDIST" xml:space="preserve">
+    <value>負の二項分布を返します</value>
+  </data>
+  <data name="Spreadsheet_NETWORKDAYS" xml:space="preserve">
+    <value>二つの日付の間の営業日数を返します</value>
+  </data>
+  <data name="Spreadsheet_NORMDIST" xml:space="preserve">
+    <value>正規累積分布を返します</value>
+  </data>
+  <data name="Spreadsheet_NORMINV" xml:space="preserve">
+    <value>正規累積分布の逆関数を返します</value>
+  </data>
+  <data name="Spreadsheet_NORMSDIST" xml:space="preserve">
+    <value>標準正規累積分布を返します</value>
+  </data>
+  <data name="Spreadsheet_NORMSINV" xml:space="preserve">
+    <value>標準正規累積分布の逆関数を返します</value>
+  </data>
+  <data name="Spreadsheet_NOT" xml:space="preserve">
+    <value>引数の論理を反転させます</value>
+  </data>
+  <data name="Spreadsheet_NOW" xml:space="preserve">
+    <value>現在の日付と時刻のシリアル値を返します</value>
+  </data>
+  <data name="Spreadsheet_NPER" xml:space="preserve">
+    <value>投資の期間数を返します</value>
+  </data>
+  <data name="Spreadsheet_NPV" xml:space="preserve">
+    <value>キャッシュフローに基づく現在の正味価値を返します</value>
+  </data>
+  <data name="Spreadsheet_OCT2BIN" xml:space="preserve">
+    <value>8進数を2進数に変換します</value>
+  </data>
+  <data name="Spreadsheet_OCT2DEC" xml:space="preserve">
+    <value>8進数を10進数に変換します</value>
+  </data>
+  <data name="Spreadsheet_OCT2HEX" xml:space="preserve">
+    <value>8進数を16進数に変換します</value>
+  </data>
+  <data name="Spreadsheet_ODD" xml:space="preserve">
+    <value>最も近い奇数の整数に切り上げます</value>
+  </data>
+  <data name="Spreadsheet_OFFSET" xml:space="preserve">
+    <value>指定された参照からのオフセット参照を返します</value>
+  </data>
+  <data name="Spreadsheet_ORFormula" xml:space="preserve">
+    <value>いずれかの引数がTRUEの場合、TRUEを返します</value>
+  </data>
+  <data name="Spreadsheet_PEARSON" xml:space="preserve">
+    <value>ピアソンの積率相関係数を返します</value>
+  </data>
+  <data name="Spreadsheet_PERCENTILE" xml:space="preserve">
+    <value>範囲内の値のk番目のパーセンタイルを返します</value>
+  </data>
+  <data name="Spreadsheet_PERCENTRANK" xml:space="preserve">
+    <value>データセット内の値のパーセンテージランクを返します</value>
+  </data>
+  <data name="Spreadsheet_PERMUT" xml:space="preserve">
+    <value>指定された数のオブジェクトに対する順列の数を返します</value>
+  </data>
+  <data name="Spreadsheet_PI" xml:space="preserve">
+    <value>円周率の値を返します</value>
+  </data>
+  <data name="Spreadsheet_PMT" xml:space="preserve">
+    <value>年金の定期的な支払いを返します</value>
+  </data>
+  <data name="Spreadsheet_POISSON" xml:space="preserve">
+    <value>ポアソン分布を返します</value>
+  </data>
+  <data name="Spreadsheet_POWER" xml:space="preserve">
+    <value>数値のべき乗の結果を返します</value>
+  </data>
+  <data name="Spreadsheet_PPMT" xml:space="preserve">
+    <value>指定した期間の投資元本に対する支払いを返します</value>
+  </data>
+  <data name="Spreadsheet_PROB" xml:space="preserve">
+    <value>限界の間の値の確率を返します</value>
+  </data>
+  <data name="Spreadsheet_PRODUCT" xml:space="preserve">
+    <value>その引数を乗算します</value>
+  </data>
+  <data name="Spreadsheet_PROPER" xml:space="preserve">
+    <value>テキスト値の各単語の最初の文字を大文字にします</value>
+  </data>
+  <data name="Spreadsheet_PV" xml:space="preserve">
+    <value>投資の現在価値を返します</value>
+  </data>
+  <data name="Spreadsheet_QUARTILE" xml:space="preserve">
+    <value>データセットの四分位数を返します</value>
+  </data>
+  <data name="Spreadsheet_QUOTIENT" xml:space="preserve">
+    <value>除算の整数部分を返します</value>
+  </data>
+  <data name="Spreadsheet_RADIANS" xml:space="preserve">
+    <value>度数をラジアンに変換します</value>
+  </data>
+  <data name="Spreadsheet_RAND" xml:space="preserve">
+    <value>0 と 1 の間のランダムな数値を返します</value>
+  </data>
+  <data name="Spreadsheet_RANDBETWEEN" xml:space="preserve">
+    <value>指定した数値の間のランダムな数値を返します</value>
+  </data>
+  <data name="Spreadsheet_RANK" xml:space="preserve">
+    <value>数値のリスト内での数値の順位を返します</value>
+  </data>
+  <data name="Spreadsheet_RATE" xml:space="preserve">
+    <value>年金の期間あたりの利率を返します</value>
+  </data>
+  <data name="Spreadsheet_RECEIVED" xml:space="preserve">
+    <value>証券の満期時に受け取る金額を返します</value>
+  </data>
+  <data name="Spreadsheet_REPLACE" xml:space="preserve">
+    <value>テキスト内の文字を置き換えます</value>
+  </data>
+  <data name="Spreadsheet_REPLACEB" xml:space="preserve">
+    <value>テキスト内の文字を置き換えます</value>
+  </data>
+  <data name="Spreadsheet_REPT" xml:space="preserve">
+    <value>テキストを指定回数繰り返します</value>
+  </data>
+  <data name="Spreadsheet_RIGHT" xml:space="preserve">
+    <value>テキスト値から右端の文字を返します</value>
+  </data>
+  <data name="Spreadsheet_RIGHTB" xml:space="preserve">
+    <value>テキスト値から右端の文字を返します</value>
+  </data>
+  <data name="Spreadsheet_ROMAN" xml:space="preserve">
+    <value>アラビア数字をローマ数字に、テキストとして変換します</value>
+  </data>
+  <data name="Spreadsheet_ROUND" xml:space="preserve">
+    <value>数値を指定した桁数に丸めます</value>
+  </data>
+  <data name="Spreadsheet_ROUNDDOWN" xml:space="preserve">
+    <value>数値を切り捨てます（ゼロに向かって丸めます）</value>
+  </data>
+  <data name="Spreadsheet_ROUNDUP" xml:space="preserve">
+    <value>数値を切り上げます（ゼロから離れる方向に丸めます）</value>
+  </data>
+  <data name="Spreadsheet_ROW" xml:space="preserve">
+    <value>参照の行番号を返します</value>
+  </data>
+  <data name="Spreadsheet_ROWS" xml:space="preserve">
+    <value>参照内の行数を返します</value>
+  </data>
+  <data name="Spreadsheet_RSQ" xml:space="preserve">
+    <value>ピアソン積率相関係数の二乗を返します</value>
+  </data>
+  <data name="Spreadsheet_SEARCHFormula" xml:space="preserve">
+    <value>あるテキスト値内で別のテキスト値を検索します（大文字と小文字は区別されません）</value>
+  </data>
+  <data name="Spreadsheet_SEARCHB" xml:space="preserve">
+    <value>あるテキスト値内で別のテキスト値を検索します（大文字と小文字は区別されません）</value>
+  </data>
+  <data name="Spreadsheet_SECOND" xml:space="preserve">
+    <value>シリアル値を秒に変換します</value>
+  </data>
+  <data name="Spreadsheet_SERIESSUM" xml:space="preserve">
+    <value>数式に基づいて累乗級数の和を返します</value>
+  </data>
+  <data name="Spreadsheet_SIGN" xml:space="preserve">
+    <value>数値の符号を返します</value>
+  </data>
+  <data name="Spreadsheet_SIN" xml:space="preserve">
+    <value>指定された角度のサイン（正弦）を返します</value>
+  </data>
+  <data name="Spreadsheet_SINH" xml:space="preserve">
+    <value>数値の双曲線正弦を返します</value>
+  </data>
+  <data name="Spreadsheet_SKEW" xml:space="preserve">
+    <value>分布の歪度を返します</value>
+  </data>
+  <data name="Spreadsheet_SLN" xml:space="preserve">
+    <value>資産の1期あたりの定額法による減価償却費を返します</value>
+  </data>
+  <data name="Spreadsheet_SLOPE" xml:space="preserve">
+    <value>線形回帰直線の傾きを返します</value>
+  </data>
+  <data name="Spreadsheet_SORTFormula" xml:space="preserve">
+    <value>セル範囲の値を昇順または降順で返します</value>
+  </data>
+  <data name="Spreadsheet_SMALL" xml:space="preserve">
+    <value>データセット内のk番目に小さい値を返します</value>
+  </data>
+  <data name="Spreadsheet_SQRT" xml:space="preserve">
+    <value>正の平方根を返します</value>
+  </data>
+  <data name="Spreadsheet_SQRTPI" xml:space="preserve">
+    <value>(数値 * π)の平方根を返します</value>
+  </data>
+  <data name="Spreadsheet_STANDARDIZE" xml:space="preserve">
+    <value>正規化された値を返します</value>
+  </data>
+  <data name="Spreadsheet_STDEV" xml:space="preserve">
+    <value>サンプルに基づいて標準偏差を推定します</value>
+  </data>
+  <data name="Spreadsheet_STDEVA" xml:space="preserve">
+    <value>数値、テキスト、および論理値を含むサンプルに基づいて標準偏差を推定します</value>
+  </data>
+  <data name="Spreadsheet_STDEVP" xml:space="preserve">
+    <value>母集団全体に基づいて標準偏差を計算します</value>
+  </data>
+  <data name="Spreadsheet_STDEVPA" xml:space="preserve">
+    <value>数値、テキスト、および論理値を含む母集団全体に基づいて標準偏差を計算します</value>
+  </data>
+  <data name="Spreadsheet_STEYX" xml:space="preserve">
+    <value>回帰における各xに対する予測y値の標準誤差を返します</value>
+  </data>
+  <data name="Spreadsheet_SUBSTITUTE" xml:space="preserve">
+    <value>テキスト文字列内の古いテキストを新しいテキストに置き換えます</value>
+  </data>
+  <data name="Spreadsheet_SUBTOTAL" xml:space="preserve">
+    <value>リストまたはデータベース内の小計を返します</value>
+  </data>
+  <data name="Spreadsheet_SUM" xml:space="preserve">
+    <value>引数を合計します</value>
+  </data>
+  <data name="Spreadsheet_SUMIF" xml:space="preserve">
+    <value>指定された条件によって指定されたセルを合計します</value>
+  </data>
+  <data name="Spreadsheet_SUMPRODUCT" xml:space="preserve">
+    <value>対応する配列コンポーネントの積の合計を返します</value>
+  </data>
+  <data name="Spreadsheet_SUMSQ" xml:space="preserve">
+    <value>引数の2乗の合計を返します</value>
+  </data>
+  <data name="Spreadsheet_SUMX2MY2" xml:space="preserve">
+    <value>2つの配列内の対応する値の2乗の差の合計を返します</value>
+  </data>
+  <data name="Spreadsheet_SUMX2PY2" xml:space="preserve">
+    <value>2つの配列内の対応する値の2乗の和の合計を返します</value>
+  </data>
+  <data name="Spreadsheet_SUMXMY2" xml:space="preserve">
+    <value>2つの配列内の対応する値の差の2乗の合計を返します</value>
+  </data>
+  <data name="Spreadsheet_SWITCH" xml:space="preserve">
+    <value>最初のtrueの値に一致する結果を返します</value>
+  </data>
+  <data name="Spreadsheet_SYD" xml:space="preserve">
+    <value>級数法による減価償却費を返します</value>
+  </data>
+  <data name="Spreadsheet_T" xml:space="preserve">
+    <value>引数をテキストに変換します</value>
+  </data>
+  <data name="Spreadsheet_TAN" xml:space="preserve">
+    <value>数値のタンジェント（正接）を返します</value>
+  </data>
+  <data name="Spreadsheet_TANH" xml:space="preserve">
+    <value>数値の双曲線正接を返します</value>
+  </data>
+  <data name="Spreadsheet_TEXTFormula" xml:space="preserve">
+    <value>数値を書式設定してテキストに変換します</value>
+  </data>
+  <data name="Spreadsheet_TEXTBEFORE" xml:space="preserve">
+    <value>指定された文字の前に出現するテキストを返します</value>
+  </data>
+  <data name="Spreadsheet_TEXTJOIN" xml:space="preserve">
+    <value>区切り文字を使用してテキストを結合します</value>
+  </data>
+  <data name="Spreadsheet_TEXTSPLIT" xml:space="preserve">
+    <value>セルのテキストを行または列に分割します</value>
+  </data>
+  <data name="Spreadsheet_TIMEFormula" xml:space="preserve">
+    <value>特定の時刻のシリアル値を返します</value>
+  </data>
+  <data name="Spreadsheet_TIMEVALUE" xml:space="preserve">
+    <value>テキスト形式の時刻をシリアル値に変換します</value>
+  </data>
+  <data name="Spreadsheet_TOCOL" xml:space="preserve">
+    <value>配列を単一の列に変換します</value>
+  </data>
+  <data name="Spreadsheet_TODAYFormula" xml:space="preserve">
+    <value>今日の日付のシリアル値を返します</value>
+  </data>
+  <data name="Spreadsheet_TOROW" xml:space="preserve">
+    <value>配列を単一の行に変換します</value>
+  </data>
+  <data name="Spreadsheet_TRANSPOSE" xml:space="preserve">
+    <value>配列の転置を返します</value>
+  </data>
+  <data name="Spreadsheet_TRIM" xml:space="preserve">
+    <value>テキストから空白を削除します</value>
+  </data>
+  <data name="Spreadsheet_TRIMMEAN" xml:space="preserve">
+    <value>データセットの内部の平均値を返します</value>
+  </data>
+  <data name="Spreadsheet_TRUNC" xml:space="preserve">
+    <value>数値を整数に切り捨てます</value>
+  </data>
+  <data name="Spreadsheet_TYPE" xml:space="preserve">
+    <value>値のデータ型を示す数値を返します</value>
+  </data>
+  <data name="Spreadsheet_UNIQUE" xml:space="preserve">
+    <value>リストまたは範囲内の一意の値のリストを返します</value>
+  </data>
+  <data name="Spreadsheet_UPPER" xml:space="preserve">
+    <value>テキストを大文字に変換します</value>
+  </data>
+  <data name="Spreadsheet_VALUEFormula" xml:space="preserve">
+    <value>テキスト引数を数値に変換します</value>
+  </data>
+  <data name="Spreadsheet_VALUETOTEXT" xml:space="preserve">
+    <value>指定された値からテキストを返します</value>
+  </data>
+  <data name="Spreadsheet_VAR" xml:space="preserve">
+    <value>サンプルに基づく分散を推定します</value>
+  </data>
+  <data name="Spreadsheet_VARA" xml:space="preserve">
+    <value>数値、テキスト、論理値を含むサンプルに基づく分散を推定します</value>
+  </data>
+  <data name="Spreadsheet_VARP" xml:space="preserve">
+    <value>母集団全体に基づいて分散を計算します</value>
+  </data>
+  <data name="Spreadsheet_VARPA" xml:space="preserve">
+    <value>すべての値を含む母集団の分散を計算します</value>
+  </data>
+  <data name="Spreadsheet_VDB" xml:space="preserve">
+    <value>部分期間の資産減価償却を返します</value>
+  </data>
+  <data name="Spreadsheet_VLOOKUP" xml:space="preserve">
+    <value>最初の列で値を検索し、同じ行のセルを返します</value>
+  </data>
+  <data name="Spreadsheet_WEEKDAY" xml:space="preserve">
+    <value>シリアル値を曜日に変換します</value>
+  </data>
+  <data name="Spreadsheet_WEEKNUM" xml:space="preserve">
+    <value>年内の週番号を返します</value>
+  </data>
+  <data name="Spreadsheet_WEIBULL" xml:space="preserve">
+    <value>ワイブル分布を返します</value>
+  </data>
+  <data name="Spreadsheet_WORKDAY" xml:space="preserve">
+    <value>指定された営業日数後の日付を返します</value>
+  </data>
+  <data name="Spreadsheet_XIRR" xml:space="preserve">
+    <value>非定期的なキャッシュフローのIRRを返します</value>
+  </data>
+  <data name="Spreadsheet_XLOOKUP" xml:space="preserve">
+    <value>最初または近似一致の値を返します</value>
+  </data>
+  <data name="Spreadsheet_XMATCH" xml:space="preserve">
+    <value>範囲内の値の位置を返します</value>
+  </data>
+  <data name="Spreadsheet_YEAR" xml:space="preserve">
+    <value>シリアル値を年に変換します</value>
+  </data>
+  <data name="Spreadsheet_YEARFRAC" xml:space="preserve">
+    <value>日付間の年の割合を返します</value>
+  </data>
+  <data name="Spreadsheet_ZTEST" xml:space="preserve">
+    <value>z検定の片側確率値を返します</value>
+  </data>
+  <data name="Spreadsheet_FALSE" xml:space="preserve">
+    <value>論理値FALSEを返します</value>
+  </data>
+  <data name="Spreadsheet_TRUE" xml:space="preserve">
+    <value>論理値TRUEを返します</value>
+  </data>
+  <data name="Spreadsheet_function" xml:space="preserve">
+    <value>実行する機能</value>
+  </data>
+  <data name="Spreadsheet_operation" xml:space="preserve">
+    <value>操作</value>
+  </data>
+  <data name="Spreadsheet_Formulas" xml:space="preserve">
+    <value>数式</value>
+  </data>
+  <data name="Spreadsheet_CalculationOption" xml:space="preserve">
+    <value>計算オプション</value>
+  </data>
+  <data name="Spreadsheet_Automatic" xml:space="preserve">
+    <value>自動</value>
+  </data>
+  <data name="Spreadsheet_Manual" xml:space="preserve">
+    <value>手動</value>
+  </data>
+  <data name="Spreadsheet_CalculateSheet" xml:space="preserve">
+    <value>シートを計算</value>
+  </data>
+  <data name="Spreadsheet_Calculatebook" xml:space="preserve">
+    <value>ワークブックを計算</value>
+  </data>
+  <data name="Spreadsheet_Description" xml:space="preserve">
+      <value>説明</value>
+  </data>
+  <data name="Spreadsheet_PickCategory" xml:space="preserve">
+      <value>カテゴリを選択</value>
+  </data>
+  <data name="Spreadsheet_AllUsers" xml:space="preserve">
+    <value>このワークシートのすべてのユーザーに許可する</value>
+  </data>
+  <data name="Spreadsheet_RequiredPassword" xml:space="preserve">
+    <value>必要に応じてパスワードを入力してください</value>
+  </data>
+  <data name="Spreadsheet_SelectLockedCells" xml:space="preserve">
+    <value>ロックされたセルを選択</value>
+  </data>
+  <data name="Spreadsheet_SelectUnLockedCells" xml:space="preserve">
+    <value>ロック解除されたセルを選択</value>
+  </data>
+  <data name="Spreadsheet_FormatCells" xml:space="preserve">
+    <value>セルの書式設定</value>
+  </data>
+  <data name="Spreadsheet_FormatColumns" xml:space="preserve">
+    <value>列の書式設定</value>
+  </data>
+  <data name="Spreadsheet_FormatRows" xml:space="preserve">
+    <value>行の書式設定</value>
+  </data>
+  <data name="Spreadsheet_InsertColumns" xml:space="preserve">
+    <value>列を挿入</value>
+  </data>
+  <data name="Spreadsheet_InsertRows" xml:space="preserve">
+    <value>行を挿入</value>
+  </data>
+  <data name="Spreadsheet_InsertHyperlinks" xml:space="preserve">
+    <value>ハイパーリンクを挿入</value>
+  </data>
+  <data name="Spreadsheet_UnlockedRanges" xml:space="preserve">
+    <value>ロック解除された範囲</value>
+  </data>
+  <data name="Spreadsheet_RangeName" xml:space="preserve">
+    <value>範囲名</value>
+  </data>
+  <data name="Spreadsheet_RangeValue" xml:space="preserve">
+    <value>範囲の値</value>
+  </data>
+  <data name="Spreadsheet_AddRange" xml:space="preserve">
+    <value>範囲を追加</value>
+  </data>
+  <data name="Spreadsheet_UpdateRange" xml:space="preserve">
+    <value>範囲を更新</value>
+  </data>
+  <data name="Spreadsheet_EnterRangeName" xml:space="preserve">
+    <value>範囲名を入力</value>
+  </data>
+  <data name="Spreadsheet_Password" xml:space="preserve">
+    <value>パスワード</value>
+  </data>
+  <data name="Spreadsheet_EnterPassword" xml:space="preserve">
+    <value>パスワードを入力</value>
+  </data>
+  <data name="Spreadsheet_ConfirmPassword" xml:space="preserve">
+    <value>パスワードを確認</value>
+  </data>
+  <data name="Spreadsheet_ProtectError" xml:space="preserve">
+    <value>シートは保護されています。一部は表示専用で変更できない場合があります</value>
+  </data>
+  <data name="Spreadsheet_SelectedRange" xml:space="preserve">
+    <value>空のセルをフィルタリングすることはできません。データ範囲内のセルを選択して、もう一度お試しください。</value>
+  </data>
+  <data name="Spreadsheet_SingleCell" xml:space="preserve">
+    <value>範囲内の単一のセルを選択して、もう一度お試しください。</value>
+  </data>
+  <data name="Spreadsheet_Review" xml:space="preserve">
+    <value>レビュー</value>
+  </data>
+  <data name="Spreadsheet_Protection" xml:space="preserve">
+    <value>保護</value>
+  </data>
+  <data name="Spreadsheet_ProtectSheet" xml:space="preserve">
+    <value>シートの保護</value>
+  </data>
+  <data name="Spreadsheet_UnprotectSheet" xml:space="preserve">
+    <value>シートの保護を解除</value>
+  </data>
+  <data name="Spreadsheet_Protectbook" xml:space="preserve">
+    <value>ブックを保護</value>
+  </data>
+  <data name="Spreadsheet_Unprotectbook" xml:space="preserve">
+    <value>ブックの保護を解除</value>
+  </data>
+  <data name="Spreadsheet_BookError" xml:space="preserve">
+    <value>ブックの保護に失敗しました: </value>
+  </data>
+  <data name="Spreadsheet_IncorrectPassword" xml:space="preserve">
+    <value>パスワードが正しくありません</value>
+  </data>
+  <data name="Spreadsheet_PasswordOptional" xml:space="preserve">
+    <value>パスワードを入力してください</value>
+  </data>
+  <data name="Spreadsheet_PasswordMatch" xml:space="preserve">
+    <value>パスワードが一致しません</value>
+  </data>
+  <data name="Spreadsheet_ManageProtection" xml:space="preserve">
+    <value>保護の管理</value>
+  </data>
+  <data name="Spreadsheet_UnlockRange" xml:space="preserve">
+    <value>範囲のロック解除</value>
+  </data>
+  <data name="Spreadsheet_SheetOptions" xml:space="preserve">
+    <value>シートオプション</value>
+  </data>
+  <data name="Spreadsheet_EnterValue" xml:space="preserve">
+    <value>値を入力</value>
+  </data>
+  <data name="Spreadsheet_FilterValue" xml:space="preserve">
+    <value>フィルタの値</value>
+  </data>
+  <data name="Spreadsheet_Filter" xml:space="preserve">
+    <value>フィルタ</value>
+  </data>
+  <data name="Spreadsheet_ClearFilterFrom" xml:space="preserve">
+    <value>フィルタをクリアする</value>
+  </data>
+  <data name="Spreadsheet_Reapply" xml:space="preserve">
+    <value>再適用</value>
+  </data>
+  <data name="Spreadsheet_FilterByCellValue" xml:space="preserve">
+    <value>選択されたセルの値でフィルタする</value>
+  </data>
+  <data name="Spreadsheet_NoResult" xml:space="preserve">
+    <value>結果がありません</value>
+  </data>
+  <data name="Spreadsheet_Blanks" xml:space="preserve">
+    <value>空白</value>
+  </data>
+  <data name="Spreadsheet_Search" xml:space="preserve">
+    <value>検索</value>
+  </data>
+  <data name="Spreadsheet_SelectAll" xml:space="preserve">
+    <value>すべて選択</value>
+  </data>
+  <data name="Spreadsheet_AddCurrentSelectionFilter" xml:space="preserve">
+    <value>現在の選択をフィルターに追加</value>
+  </data>
+  <data name="Spreadsheet_AND" xml:space="preserve">
+    <value>AND</value>
+  </data>
+  <data name="Spreadsheet_OR" xml:space="preserve">
+    <value>OR</value>
+  </data>
+  <data name="Spreadsheet_MatchCase" xml:space="preserve">
+    <value>大/小文字を区別</value>
+  </data>
+  <data name="Spreadsheet_StartsWith" xml:space="preserve">
+    <value>で始まる</value>
+  </data>
+  <data name="Spreadsheet_DoesNotStartWith" xml:space="preserve">
+    <value>で始まらない</value>
+  </data>
+  <data name="Spreadsheet_EndsWith" xml:space="preserve">
+    <value>で終わる</value>
+  </data>
+  <data name="Spreadsheet_DoesNotEndWith" xml:space="preserve">
+    <value>で終わらない</value>
+  </data>
+  <data name="Spreadsheet_Equal" xml:space="preserve">
+    <value>等しい</value>
+  </data>
+  <data name="Spreadsheet_NotEqual" xml:space="preserve">
+    <value>等しくない</value>
+  </data>
+  <data name="Spreadsheet_Contains" xml:space="preserve">
+    <value>含む</value>
+  </data>
+  <data name="Spreadsheet_DoesNotContain" xml:space="preserve">
+    <value>含まない</value>
+  </data>
+  <data name="Spreadsheet_LessThan" xml:space="preserve">
+    <value>未満</value>
+  </data>
+  <data name="Spreadsheet_LessThanOrEqual" xml:space="preserve">
+    <value>以下</value>
+  </data>
+  <data name="Spreadsheet_GreaterThan" xml:space="preserve">
+    <value>より大きい</value>
+  </data>
+  <data name="Spreadsheet_GreaterThanOrEqual" xml:space="preserve">
+    <value>以上</value>
+  </data>
+  <data name="Spreadsheet_Between" xml:space="preserve">
+    <value>の間</value>
+  </data>
+  <data name="Spreadsheet_CustomFilter" xml:space="preserve">
+    <value>カスタムフィルタ</value>
+  </data>
+  <data name="Spreadsheet_FilterOperator" xml:space="preserve">
+    <value>フィルタ演算子</value>
+  </data>
+  <data name="Spreadsheet_ClearFilter" xml:space="preserve">
+    <value>フィルタをクリア</value>
+  </data>
+  <data name="Spreadsheet_NumberFilter" xml:space="preserve">
+    <value>数値フィルタ</value>
+  </data>
+  <data name="Spreadsheet_TextFilter" xml:space="preserve">
+    <value>テキストフィルタ</value>
+  </data>
+  <data name="Spreadsheet_DateFilter" xml:space="preserve">
+    <value>日付フィルタ</value>
+  </data>
+  <data name="Spreadsheet_TimeFilter" xml:space="preserve">
+    <value>時間フィルタ</value>
+  </data>
+  <data name="Spreadsheet_DateTimeFilter" xml:space="preserve">
+    <value>日時フィルタ</value>
+  </data>
+  <data name="Spreadsheet_CustomFilterDatePlaceHolder" xml:space="preserve">
+    <value>カスタムフィルタの日付プレースホルダ</value>
+  </data>
+  <data name="Spreadsheet_SortAscending" xml:space="preserve">
+    <value>昇順</value>
+  </data>
+  <data name="Spreadsheet_SortDescending" xml:space="preserve">
+    <value>降順</value>
+  </data>
+  <data name="Spreadsheet_Tomorrow" xml:space="preserve">
+    <value>明日</value>
+  </data>
+  <data name="Spreadsheet_Today" xml:space="preserve">
+    <value>今日</value>
+  </data>
+  <data name="Spreadsheet_Yesterday" xml:space="preserve">
+    <value>昨日</value>
+  </data>
+  <data name="Spreadsheet_NextWeek" xml:space="preserve">
+    <value>来週</value>
+  </data>
+  <data name="Spreadsheet_ThisWeek" xml:space="preserve">
+    <value>今週</value>
+  </data>
+  <data name="Spreadsheet_LastWeek" xml:space="preserve">
+    <value>先週</value>
+  </data>
+  <data name="Spreadsheet_NextMonth" xml:space="preserve">
+    <value>来月</value>
+  </data>
+  <data name="Spreadsheet_ThisMonth" xml:space="preserve">
+    <value>今月</value>
+  </data>
+  <data name="Spreadsheet_LastMonth" xml:space="preserve">
+    <value>先月</value>
+  </data>
+  <data name="Spreadsheet_NextQuater" xml:space="preserve">
+    <value>次の四半期</value>
+  </data>
+  <data name="Spreadsheet_ThisQuater" xml:space="preserve">
+    <value>今四半期</value>
+  </data>
+  <data name="Spreadsheet_LastQuater" xml:space="preserve">
+    <value>前四半期</value>
+  </data>
+  <data name="Spreadsheet_NextYear" xml:space="preserve">
+    <value>来年</value>
+  </data>
+  <data name="Spreadsheet_ThisYear" xml:space="preserve">
+    <value>今年</value>
+  </data>
+  <data name="Spreadsheet_LastYear" xml:space="preserve">
+    <value>昨年</value>
+  </data>
+  <data name="Spreadsheet_DeleteWarning" xml:space="preserve">
+    <value>削除したシートは元に戻せず、一部のデータが失われる可能性があります。</value>
+  </data>
+  <data name="Spreadsheet_CopyCut" xml:space="preserve">
+    <value>これは現在の選択では機能しません。コピー領域が重複していないことを確認してください。</value>
+  </data>
+  <data name="Spreadsheet_MultiRange" xml:space="preserve">
+    <value>この操作は複数範囲選択で実行することはできません</value>
+  </data>
+  <data name="Spreadsheet_SingleRange" xml:space="preserve">
+    <value>単一の範囲を選択してもう一度やり直してください</value>
+  </data>
+  <data name="Spreadsheet_WorkBook" xml:space="preserve">
+    <value>保存されていない変更は失われます。新しいワークブックを作成してもよろしいですか？</value>
+  </data>
+  <data name="Spreadsheet_DeleteSheet" xml:space="preserve">
+    <value>このシートを削除してもよろしいですか？</value>
+  </data>
+  <data name="Spreadsheet_Spreadsheet" xml:space="preserve">
+    <value>スプレッドシート</value>
+  </data>
+  <data name="Spreadsheet_RenameSheet" xml:space="preserve">
+    <value>シートの名前を変更</value>
+  </data>
+  <data name="Spreadsheet_RenameSheetTo" xml:space="preserve">
+    <value>シートの名前を変更して</value>
+  </data>
+  <data name="Spreadsheet_EnterName" xml:space="preserve">
+    <value>シート名を入力</value>
+  </data>
+  <data name="Spreadsheet_SaveAs" xml:space="preserve">
+    <value>名前を付けて保存</value>
+  </data>
+  <data name="Spreadsheet_MicrosoftExcel" xml:space="preserve">
+    <value>Microsoft Excel</value>
+  </data>
+  <data name="Spreadsheet_MicrosoftExcel972003" xml:space="preserve">
+    <value>Microsoft Excel 97-2003</value>
+  </data>
+  <data name="Spreadsheet_FileName" xml:space="preserve">
+    <value>ファイル名</value>
+  </data>
+  <data name="Spreadsheet_Save" xml:space="preserve">
+    <value>保存</value>
+  </data>
+  <data name="Spreadsheet_Bold" xml:space="preserve">
+    <value>太字</value>
+  </data>
+  <data name="Spreadsheet_Italic" xml:space="preserve">
+    <value>斜体</value>
+  </data>
+  <data name="Spreadsheet_Strikethrough" xml:space="preserve">
+    <value>取り消し線</value>
+  </data>
+  <data name="Spreadsheet_Underline" xml:space="preserve">
+    <value>下線</value>
+  </data>
+  <data name="Spreadsheet_FontColor" xml:space="preserve">
+    <value>フォントの色</value>
+  </data>
+  <data name="Spreadsheet_BackgroundColor" xml:space="preserve">
+    <value>背景色</value>
+  </data>
+  <data name="Spreadsheet_VerticalAlignment" xml:space="preserve">
+    <value>垂直方向の配置</value>
+  </data>
+  <data name="Spreadsheet_HorizontalAlignment" xml:space="preserve">
+    <value>水平方向の配置</value>
+  </data>
+  <data name="Spreadsheet_WrapText" xml:space="preserve">
+    <value>文字の折り返し</value>
+  </data>
+  <data name="Spreadsheet_ExcelExport" xml:space="preserve">
+    <value>Excelエクスポート</value>
+  </data>
+  <data name="Spreadsheet_Insert" xml:space="preserve">
+    <value>インサート</value>
+  </data>
+  <data name="Spreadsheet_Hyperlink" xml:space="preserve">
+    <value>ハイパーリンク</value>
+  </data>
+  <data name="Spreadsheet_InvalidLinkAddress" xml:space="preserve">
+    <value>このサイトのアドレスは有効ではありません。アドレスを確認して、もう一度お試しください。</value>
+  </data>
+  <data name="Spreadsheet_LinkOpenFailed" xml:space="preserve">
+    <value>リンクを開くことができません</value>
+  </data>
+  <data name="Spreadsheet_LinkReferenceMissing" xml:space="preserve">
+    <value>このリンクには、ブックに存在しない参照があります。</value>
+  </data>
+  <data name="Spreadsheet_Update" xml:space="preserve">
+    <value>更新</value>
+  </data>
+  <data name="Spreadsheet_Cancel" xml:space="preserve">
+    <value>キャンセル</value>
+  </data>
+  <data name="Spreadsheet_InsertLink" xml:space="preserve">
+    <value>リンクを挿入</value>
+  </data>
+  <data name="Spreadsheet_EditLink" xml:space="preserve">
+    <value>リンクを編集</value>
+  </data>
+  <data name="Spreadsheet_EditHyperlink" xml:space="preserve">
+    <value>ハイパーリンクを編集</value>
+  </data>
+  <data name="Spreadsheet_OpenHyperlink" xml:space="preserve">
+    <value>ハイパーリンクを開く</value>
+  </data>
+  <data name="Spreadsheet_RemoveHyperlink" xml:space="preserve">
+    <value>ハイパーリンクを削除</value>
+  </data>
+  <data name="Spreadsheet_NameBox" xml:space="preserve">
+    <value>名前ボックス</value>
+  </data>
+  <data name="Spreadsheet_InsertFunction" xml:space="preserve">
+    <value>関数を挿入します</value>
+  </data>
+  <data name="Spreadsheet_FormulaBar" xml:space="preserve">
+    <value>フォーミュラバー</value>
+  </data>
+  <data name="Spreadsheet_ExpandFormulaBar" xml:space="preserve">
+    <value>フォーミュラバーを拡張します</value>
+  </data>
+  <data name="Spreadsheet_CollapseFormulaBar" xml:space="preserve">
+    <value>崩壊フォーミュラバー</value>
+  </data>
+  <data name="Spreadsheet_InvalidNameSyntax" xml:space="preserve">
+    <value>この名前の構文は無効です</value>
+  </data>
+  <data name="Spreadsheet_InvalidNameRule1" xml:space="preserve">
+    <value>文字、アンダースコア、またはバックスラッシュで始まる</value>
+  </data>
+  <data name="Spreadsheet_InvalidNameRule2" xml:space="preserve">
+    <value>残りの文字には文字、数字、ドット、またはアンダースコアのみが含まれます</value>
+  </data>
+  <data name="Spreadsheet_InvalidNameRule3" xml:space="preserve">
+    <value>スペースや禁止文字を使用しない</value>
+  </data>
+  <data name="Spreadsheet_NameExists" xml:space="preserve">
+    <value>この名前は既に存在します。</value>
+  </data>
+  <data name="Spreadsheet_RangeNotFound" xml:space="preserve">
+    <value>選択した範囲はこのシートにありません。</value>
+  </data>
+  <data name="Spreadsheet_NoDataInRange" xml:space="preserve">
+    <value>選択した範囲にデータがありません。</value>
+  </data>
+  <data name="Spreadsheet_CellReference" xml:space="preserve">
+    <value>無効な名前です。名前はセル参照にすることはできません。</value>
+  </data>
+  <data name="Spreadsheet_NameRequired" xml:space="preserve">
+    <value>名前は必須です</value>
+  </data>
+  <data name="Spreadsheet_RangeRequired" xml:space="preserve">
+    <value>範囲は必須です</value>
+  </data>
+  <data name="Spreadsheet_InvalidRangeFormat" xml:space="preserve">
+    <value>無効な範囲形式です。A1:B10 や A1:B10, C1:D5 の形式を使用してください</value>
+  </data>
+  <data name="Spreadsheet_Scope" xml:space="preserve">
+    <value>スコープ</value>
+  </data>
+  <data name="Spreadsheet_ManageNames" xml:space="preserve">
+    <value>名前の管理</value>
+  </data>
+  <data name="Spreadsheet_NameManager" xml:space="preserve">
+    <value>名前マネージャー</value>
+  </data>
+  <data name="Spreadsheet_NoRecords" xml:space="preserve">
+    <value>レコードなし</value>
+  </data>
+  <data name="Spreadsheet_Undo" xml:space="preserve">
+    <value>元に戻す</value>
+  </data>
+  <data name="Spreadsheet_Redo" xml:space="preserve">
+    <value>やり直し</value>
+  </data>
+  <data name="Spreadsheet_FontSize" xml:space="preserve">
+    <value>フォントサイズ</value>
+  </data>
+  <data name="RichTextEditor_InlineCode" xml:space="preserve">
+    <value>インラインコード</value>
+  </data>
+  <data name="RichTextEditor_SlashMenuHeading1" xml:space="preserve">
+    <value>見出し1</value>
+</data>
+<data name="RichTextEditor_SlashMenuHeading2" xml:space="preserve">
+    <value>見出し2</value>
+</data>
+<data name="RichTextEditor_SlashMenuHeading3" xml:space="preserve">
+    <value>見出し 3</value>
+</data>
+<data name="RichTextEditor_SlashMenuHeading4" xml:space="preserve">
+    <value>見出し 4</value>
+</data>
+<data name="RichTextEditor_SlashMenuParagraph" xml:space="preserve">
+    <value>段落</value>
+</data>
+<data name="RichTextEditor_SlashMenuBlockQuote" xml:space="preserve">
+    <value>ブロッククォート</value>
+</data>
+<data name="RichTextEditor_SlashMenuOrderedList" xml:space="preserve">
+    <value>順序付きリスト</value>
+</data>
+<data name="RichTextEditor_SlashMenuUnorderedList" xml:space="preserve">
+    <value>順序なしリスト</value>
+</data>
+<data name="RichTextEditor_SlashMenuCodeBlock" xml:space="preserve">
+    <value>コードブロック</value>
+</data>
+<data name="RichTextEditor_SlashMenuTable" xml:space="preserve">
+    <value>テーブル</value>
+</data>
+<data name="RichTextEditor_SlashMenuImage" xml:space="preserve">
+    <value>画像</value>
+</data>
+<data name="RichTextEditor_SlashMenuAudio" xml:space="preserve">
+    <value>オーディオ</value>
+</data>
+<data name="RichTextEditor_SlashMenuVideo" xml:space="preserve">
+    <value>ビデオ</value>
+</data>
+<data name="RichTextEditor_SlashMenuLink" xml:space="preserve">
+    <value>リンク</value>
+</data>
+<data name="RichTextEditor_SlashMenuHeading1Description" xml:space="preserve">
+    <value>これをトップレベルの見出しまたはタイトルに使用します。</value>
+</data>
+<data name="RichTextEditor_SlashMenuHeading2Description" xml:space="preserve">
+    <value>重要なセクションにこれを使用します。</value>
+</data>
+<data name="RichTextEditor_SlashMenuHeading3Description" xml:space="preserve">
+    <value>これをサブセクションとグループの見出しに使用します。</value>
+</data>
+<data name="RichTextEditor_SlashMenuHeading4Description" xml:space="preserve">
+    <value>サブトピックの要点を説明するためにこれを使用します。</value>
+</data>
+<data name="RichTextEditor_SlashMenuParagraphDescription" xml:space="preserve">
+    <value>段落を使って書く。</value>
+</data>
+<data name="RichTextEditor_SlashMenuBlockQuoteDescription" xml:space="preserve">
+    <value>引用または引用を作成します。</value>
+</data>
+<data name="RichTextEditor_SlashMenuOrderedListDescription" xml:space="preserve">
+    <value>順序付きリストを作成します。</value>
+</data>
+<data name="RichTextEditor_SlashMenuUnorderedListDescription" xml:space="preserve">
+    <value>順序なしリストを作成します。</value>
+</data>
+<data name="RichTextEditor_SlashMenuCodeBlockDescription" xml:space="preserve">
+    <value>フォーマット済みのコード ブロックを作成します。</value>
+</data>
+<data name="RichTextEditor_SlashMenuTableDescription" xml:space="preserve">
+    <value>テーブルを挿入します。</value>
+</data>
+<data name="RichTextEditor_SlashMenuImageDescription" xml:space="preserve">
+    <value>画像を挿入します。</value>
+</data>
+<data name="RichTextEditor_SlashMenuAudioDescription" xml:space="preserve">
+    <value>音声を挿入します。</value>
+</data>
+<data name="RichTextEditor_SlashMenuVideoDescription" xml:space="preserve">
+    <value>ビデオを挿入します。</value>
+</data>
+<data name="RichTextEditor_SlashMenuLinkDescription" xml:space="preserve">
+    <value>リンクを挿入します。</value>
+</data>
+<data name="RichTextEditor_HorizontalLine" xml:space="preserve">
+    <value>水平線</value>
+</data>
+  <data name="RichTextEditor_CodeBlock" xml:space="preserve">
+    <value>コードブロックを挿入</value>
+  </data>
+  <data name="Spreadsheet_Bold" xml:space="preserve">
+    <value>大胆な</value>
+  </data>
+  <data name="Spreadsheet_Italic" xml:space="preserve">
+    <value>イタリック</value>
+  </data>
+  <data name="Spreadsheet_Underline" xml:space="preserve">
+    <value>下線</value>
+  </data>
+  <data name="Spreadsheet_Strikethrough" xml:space="preserve">
+    <value>取り消し線</value>
+  </data>
+  <data name="Spreadsheet_Font" xml:space="preserve">
+    <value>フォント</value>
+  </data>
+  <data name="Spreadsheet_Clear" xml:space="preserve">
+    <value>晴れ</value>
+  </data>
+  <data name="Spreadsheet_Image" xml:space="preserve">
+    <value>画像</value>
+  </data>
+  <data name="Spreadsheet_Link" xml:space="preserve">
+    <value>リンク</value>
+  </data>
+  <data name="Spreadsheet_New" xml:space="preserve">
+    <value>新着</value>
+  </data>
+  <data name="Spreadsheet_Clipboard" xml:space="preserve">
+    <value>クリップボード</value>
+  </data>
+  <data name="Spreadsheet_ChangeCase" xml:space="preserve">
+    <value>ケースを変更します</value>
+  </data>
+  <data name="Spreadsheet_Open" xml:space="preserve">
+    <value>開いた</value>
+  </data>
+  <data name="Spreadsheet_Print" xml:space="preserve">
+    <value>印刷する</value>
+  </data>
+  <data name="Spreadsheet_Text" xml:space="preserve">
+    <value>テキスト</value>
+  </data>
+  <data name="Spreadsheet_Value" xml:space="preserve">
+    <value>値</value>
+  </data>
+  <data name="Spreadsheet_AlignLeft" xml:space="preserve">
+    <value>左揃え</value>
+  </data>
+  <data name="Spreadsheet_AlignRight" xml:space="preserve">
+    <value>右揃え</value>
+  </data>
+  <data name="Spreadsheet_AlignCenter" xml:space="preserve">
+    <value>中央揃え</value>
+  </data>
+  <data name="Spreadsheet_Justify" xml:space="preserve">
+    <value>正当化する</value>
+  </data>
+  <data name="Spreadsheet_ClearAll" xml:space="preserve">
+    <value>すべてクリア</value>
+  </data>
+  <data name="Spreadsheet_Descending" xml:space="preserve">
+    <value>降順</value>
+  </data>
+  <data name="Spreadsheet_Ascending" xml:space="preserve">
+    <value>上昇</value>
+  </data>
+  <data name="Spreadsheet_Home" xml:space="preserve">
+    <value>家</value>
+  </data>
+  <data name="Spreadsheet_CustomSort" xml:space="preserve">
+    <value>税関</value>
+  </data>
+  <data name="Spreadsheet_ClearHyperlinks" xml:space="preserve">
+    <value>クリアハイパーリンク</value>
+  </data>
+  <data name="Spreadsheet_ClearFormats" xml:space="preserve">
+    <value>クリアフォーマット</value>
+  </data>
+  <data name="Spreadsheet_ClearContents" xml:space="preserve">
+    <value>クリアコンテンツ</value>
+  </data>
+  <data name="Spreadsheet_KeepTextOnly" xml:space="preserve">
+    <value>テキストのみを保持します</value>
+  </data>
+  <data name="Spreadsheet_KeepSourceFormat" xml:space="preserve">
+    <value>ソース形式を保持します</value>
+  </data>
+  <data name="Spreadsheet_MergeFormat" xml:space="preserve">
+    <value>マージフォーマット</value>
+  </data>
+  <data name="Spreadsheet_SaveAs" xml:space="preserve">
+    <value>ASを保存します</value>
+  </data>
+  <data name="Spreadsheet_Arial" xml:space="preserve">
+    <value>Arial</value>
+  </data>
+  <data name="Spreadsheet_Currency" xml:space="preserve">
+    <value>通貨</value>
+  </data>
+  <data name="Spreadsheet_Custom" xml:space="preserve">
+    <value>カスタム</value>
+  </data>
+  <data name="Spreadsheet_General" xml:space="preserve">
+    <value>全般</value>
+  </data>
+  <data name="Spreadsheet_Number" xml:space="preserve">
+    <value>数</value>
+  </data>
+  <data name="Spreadsheet_Percentage" xml:space="preserve">
+    <value>パーセンテージ</value>
+  </data>
+  <data name="Spreadsheet_TimesNewRoman" xml:space="preserve">
+    <value>Times New Roman</value>
+  </data>
+  <data name="Spreadsheet_Verdana" xml:space="preserve">
+    <value>Verdana</value>
+  </data>
+  <data name="Spreadsheet_SegoeUI" xml:space="preserve">
+    <value>Segoe UI</value>
+  </data>
+  <data name="Spreadsheet_Impact" xml:space="preserve">
+    <value>Impact</value>
+  </data>
+  <data name="Spreadsheet_Georgia" xml:space="preserve">
+    <value>Georgia</value>
+  </data>
+  <data name="Spreadsheet_Windings" xml:space="preserve">
+    <value>巻線</value>
+  </data>
+  <data name="Spreadsheet_Symbol" xml:space="preserve">
+    <value>シンボル</value>
+  </data>
+  <data name="Spreadsheet_Time" xml:space="preserve">
+    <value>時間</value>
+  </data>
+  <data name="Spreadsheet_ShortDate" xml:space="preserve">
+    <value>短い日付</value>
+  </data>
+  <data name="Spreadsheet_SegoePrint" xml:space="preserve">
+    <value>セゴープリント</value>
+  </data>
+  <data name="Spreadsheet_SegoeScript" xml:space="preserve">
+    <value>Segoeスクリプト</value>
+  </data>
+  <data name="Spreadsheet_Scientific" xml:space="preserve">
+    <value>科学的</value>
+  </data>
+  <data name="Spreadsheet_LongDate" xml:space="preserve">
+    <value>長い日付</value>
+  </data>
+  <data name="Spreadsheet_Fraction" xml:space="preserve">
+    <value>分数</value>
+  </data>
+  <data name="Spreadsheet_CourierNew" xml:space="preserve">
+    <value>Courier New</value>
+  </data>
+  <data name="Spreadsheet_Calibri" xml:space="preserve">
+    <value>カリブリ</value>
+  </data>
+  <data name="Spreadsheet_Cambria" xml:space="preserve">
+    <value>カンブリア</value>
+  </data>
+  <data name="Spreadsheet_CambriaMath" xml:space="preserve">
+    <value>カンブリア数学</value>
+  </data>
+  <data name="Spreadsheet_Candara" xml:space="preserve">
+    <value>カンダラ</value>
+  </data>
+  <data name="Spreadsheet_Accounting" xml:space="preserve">
+    <value>会計</value>
+  </data>
+  <data name="Spreadsheet_Algerian" xml:space="preserve">
+    <value>アルジェリア</value>
+  </data>
+  <data name="Spreadsheet_DataOperations" xml:space="preserve">
+    <value>データ操作</value>
+  </data>
+  <data name="Spreadsheet_DownloadPDF" xml:space="preserve">
+    <value>PDFとしてダウンロードします</value>
+  </data>
+  <data name="Spreadsheet_Filter" xml:space="preserve">
+    <value>フィルタ</value>
+  </data>
+  <data name="Spreadsheet_File" xml:space="preserve">
+    <value>ファイル</value>
+  </data>
+  <data name="Spreadsheet_Sort" xml:space="preserve">
+    <value>ソート</value>
+  </data>
+  <data name="Spreadsheet_AlignBottom" xml:space="preserve">
+    <value>下揃え</value>
+  </data>
+  <data name="Spreadsheet_AlignMiddle" xml:space="preserve">
+    <value>中央揃え</value>
+  </data>
+  <data name="Spreadsheet_AlignTop" xml:space="preserve">
+    <value>上揃え</value>
+  </data>
+  <data name="Spreadsheet_InsertLeft" xml:space="preserve">
+    <value>左に列を挿入します</value>
+  </data>
+  <data name="Spreadsheet_InsertRight" xml:space="preserve">
+    <value>列を右に挿入します</value>
+  </data>
+  <data name="Spreadsheet_InsertRowsAbove" xml:space="preserve">
+    <value>上に行を挿入</value>
+  </data>
+  <data name="Spreadsheet_InsertRowBelow" xml:space="preserve">
+    <value>下に行を挿入</value>
+  </data>
+  <data name="SpeechToText_Aborted_Error" xml:space="preserve">
+    <value>音声認識が中止されました。</value>
+  </data>
+  <data name="SpeechToText_AudioCapture_Error" xml:space="preserve">
+    <value>マイクが検出されません。マイクが接続されていることを確認してください。</value>
+  </data>
+  <data name="SpeechToText_Default_Error" xml:space="preserve">
+    <value>不明なエラーが発生しました。</value>
+  </data>
+  <data name="SpeechToText_Network_Error" xml:space="preserve">
+    <value>ネットワークエラーが発生しました。インターネット接続を確認してください。</value>
+  </data>
+  <data name="SpeechToText_NoSpeech_Error" xml:space="preserve">
+    <value>発話が検出されませんでした。マイクに向かって話してください。</value>
+  </data>
+  <data name="SpeechToText_NotAllowed_Error" xml:space="preserve">
+    <value>マイクへのアクセスが拒否されました。マイクの使用許可を与えてください。</value>
+  </data>
+  <data name="SpeechToText_ServiceNotAllowed_Error" xml:space="preserve">
+    <value>このコンテキストでは音声認識サービスが許可されていません。</value>
+  </data>
+  <data name="SpeechToText_UnsupportedBrowser_Error" xml:space="preserve">
+    <value>ブラウザはSpeechRecognition APIをサポートしていません。</value>
+  </data>
+  <data name="SpeechToText_Start_AriaLabel" xml:space="preserve">
+    <value>話して言葉を文字起こしするには押してください</value>
+  </data>
+  <data name="SpeechToText_Stop_AriaLabel" xml:space="preserve">
+    <value>話すのを止めて文字起こしを終了するには押してください</value>
+  </data>
+  <data name="SpeechToText_Start_TooltipText" xml:space="preserve">
+    <value>リスニングを開始</value>
+  </data>
+  <data name="SpeechToText_Stop_TooltipText" xml:space="preserve">
+    <value>リスニングを停止</value>
+  </data>
+  <data name="PdfViewer_SolidStyle" xml:space="preserve">
+    <value>固体</value>
+  </data>
+  <data name="PdfViewer_DashedStyle" xml:space="preserve">
+    <value>破線</value>
+  </data>
+  <data name="PdfViewer_DottedStyle" xml:space="preserve">
+    <value>点在</value>
+  </data>
+  <data name="PdfViewer_MarkForRedaction" xml:space="preserve">
+    <value>編集対象にマーク</value>
+  </data>
+  <data name="PdfViewer_RedactPages" xml:space="preserve">
+      <value>ページを編集</value>
+  </data>
+  <data name="PdfViewer_RedactionPanel" xml:space="preserve">
+      <value>編集パネル</value>
+  </data>
+  <data name="PdfViewer_Redact" xml:space="preserve">
+      <value>編集</value>
+  </data>
+  <data name="PdfViewer_Redaction" xml:space="preserve">
+      <value>編集処理</value>
+  </data>
+  <data name="PdfViewer_OverlayText" xml:space="preserve">
+      <value>オーバーレイテキスト</value>
+  </data>
+  <data name="PdfViewer_RepeatText" xml:space="preserve">
+      <value>テキストを繰り返す</value>
+  </data>
+  <data name="PdfViewer_UseOverlayText" xml:space="preserve">
+      <value>オーバーレイテキストを使用</value>
+  </data>
+  <data name="PdfViewer_OutlineColor" xml:space="preserve">
+      <value>アウトラインカラー</value>
+  </data>
+  <data name="PdfViewer_FillOpacity" xml:space="preserve">
+      <value>塗りの不透明度</value>
+  </data>
+  <data name="PdfViewer_MarkPageRange" xml:space="preserve">
+    <value>ページ範囲をマーク</value>
+  </data>
+  <data name="PdfViewer_CurrentPage" xml:space="preserve">
+    <value>現在のページ</value>
+  </data>
+  <data name="PdfViewer_OddPagesOnly" xml:space="preserve">
+    <value>奇数ページのみ</value>
+  </data>
+  <data name="PdfViewer_EvenPagesOnly" xml:space="preserve">
+    <value>偶数ページのみ</value>
+  </data>
+  <data name="PdfViewer_SpecificPages" xml:space="preserve">
+    <value>特定のページ</value>
+  </data>
+  <data name="PdfViewer_PageRange" xml:space="preserve">
+    <value>ページ範囲</value>
+  </data>
+  <data name="PdfViewer_RedactionConfirmation" xml:space="preserve">
+    <value>墨消し用にマークされたすべてのコンテンツは、ドキュメントから永久に削除されます。この操作は元に戻せません。</value>
+  </data>
+  <data name="PdfViewer_RedactHeader" xml:space="preserve">
+    <value>墨消しを適用</value>
+  </data>
+  <data name="Spreadsheet_CollapseRibbonTab" xml:space="preserve">
+    <value>崩壊ツールバー</value>
+  </data>
+  <data name="Spreadsheet_ExpandRibbonTab" xml:space="preserve">
+    <value>ツールバーを拡張します</value>
+  </data>
+  <data name="RichTextEditor_FormatPainter" xml:space="preserve">
+    <value>書式のコピー</value>
+  </data>
+  <data name="DataForm_SubmitContent" xml:space="preserve">
+    <value>送信</value>
   </data>
 </root>

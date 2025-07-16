@@ -1,17 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
-  <!-- 
-    Microsoft ResX Schema 
-    
+  <!--
+    Microsoft ResX Schema
+
     Version 2.0
-    
-    The primary goals of this format is to allow a simple XML format 
-    that is mostly human readable. The generation and parsing of the 
-    various data types are done through the TypeConverter classes 
+
+    The primary goals of this format is to allow a simple XML format
+    that is mostly human readable. The generation and parsing of the
+    various data types are done through the TypeConverter classes
     associated with the data types.
-    
+
     Example:
-    
+
     ... ado.net/XML headers & schema ...
     <resheader name="resmimetype">text/microsoft-resx</resheader>
     <resheader name="version">2.0</resheader>
@@ -26,36 +26,36 @@
         <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
         <comment>This is a comment</comment>
     </data>
-                
-    There are any number of "resheader" rows that contain simple 
+
+    There are any number of "resheader" rows that contain simple
     name/value pairs.
-    
-    Each data row contains a name, and value. The row also contains a 
-    type or mimetype. Type corresponds to a .NET class that support 
-    text/value conversion through the TypeConverter architecture. 
-    Classes that don't support this are serialized and stored with the 
+
+    Each data row contains a name, and value. The row also contains a
+    type or mimetype. Type corresponds to a .NET class that support
+    text/value conversion through the TypeConverter architecture.
+    Classes that don't support this are serialized and stored with the
     mimetype set.
-    
-    The mimetype is used for serialized objects, and tells the 
-    ResXResourceReader how to depersist the object. This is currently not 
+
+    The mimetype is used for serialized objects, and tells the
+    ResXResourceReader how to depersist the object. This is currently not
     extensible. For a given mimetype the value must be set accordingly:
-    
-    Note - application/x-microsoft.net.object.binary.base64 is the format 
-    that the ResXResourceWriter will generate, however the reader can 
+
+    Note - application/x-microsoft.net.object.binary.base64 is the format
+    that the ResXResourceWriter will generate, however the reader can
     read any of the formats listed below.
-    
+
     mimetype: application/x-microsoft.net.object.binary.base64
-    value   : The object must be serialized with 
+    value   : The object must be serialized with
             : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
             : and then encoded with base64 encoding.
-    
+
     mimetype: application/x-microsoft.net.object.soap.base64
-    value   : The object must be serialized with 
+    value   : The object must be serialized with
             : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
             : and then encoded with base64 encoding.
 
     mimetype: application/x-microsoft.net.object.bytearray.base64
-    value   : The object must be serialized into a byte array 
+    value   : The object must be serialized into a byte array
             : using a System.ComponentModel.TypeConverter
             : and then encoded with base64 encoding.
     -->
@@ -195,7 +195,7 @@
   <data name="DropDownList_NoRecordsTemplate" xml:space="preserve">
     <value>Kayıt bulunamadı</value>
   </data>
-   <data name="DropDownTree_NoRecords" xml:space="preserve">
+  <data name="DropDownTree_NoRecords" xml:space="preserve">
     <value>Kayıt bulunamadı</value>
   </data>
   <data name="DropDownTree_RequestFailed" xml:space="preserve">
@@ -2290,7 +2290,7 @@
     <value>Markdown Editörü</value>
   </data>
   <data name="RichTextEditor_NumberFormatList" xml:space="preserve">
-    <value>Numaralı Liste</value>
+    <value>Sayı Formatı Liste</value>
   </data>
   <data name="RichTextEditor_NumberFormatListNone" xml:space="preserve">
     <value>Yok</value>
@@ -2314,7 +2314,7 @@
     <value>Aşağı Yunanca</value>
   </data>
   <data name="RichTextEditor_BulletFormatList" xml:space="preserve">
-    <value>Maddeli liste</value>
+    <value>Madde işareti formatı listesi</value>
   </data>
   <data name="RichTextEditor_BulletFormatListNone" xml:space="preserve">
     <value>Yok</value>
@@ -3213,6 +3213,9 @@
   <data name="Grid_ColumnMenuDescription" xml:space="preserve">
     <value>Sütun Menüsünü açmak için Alt Down tuşuna basın</value>
   </data>
+  <data name="Grid_ColumnMenu" xml:space="preserve">
+    <value>Sütun Menüsü</value>
+  </data>
   <data name="Grid_GroupDescription" xml:space="preserve">
     <value>Gruplamak için Ctrl alanına basın</value>
   </data>
@@ -3222,14 +3225,8 @@
   <data name="Grid_ColumnHeaderUndefinedARIA" xml:space="preserve">
     <value>sütun başlığı tanımlanmadı</value>
   </data>
-  <data name="Grid_CommandColumnARIA" xml:space="preserve">
-    <value>Komuta Sütunu</value>
-  </data>
   <data name="Grid_GroupedSortIcon" xml:space="preserve">
     <value>gruplandırılmış sütunu sırala</value>
-  </data>
-  <data name="Grid_EmptyColumnHeaderUndefinedARIA" xml:space="preserve">
-    <value>boş Sütun Başlığı tanımsız</value>
   </data>
   <data name="Grid_Close" xml:space="preserve">
     <value>kapat</value>
@@ -4035,6 +4032,9 @@
   <data name="PdfViewer_Strikethrough" xml:space="preserve">
     <value>Üstü Çizili Metin</value>
   </data>
+  <data name="PdfViewer_Squiggly" xml:space="preserve">
+    <value>Dalgalı metin</value>
+  </data>
   <data name="PdfViewer_Delete" xml:space="preserve">
     <value>Ek açıklamayı sil</value>
   </data>
@@ -4056,8 +4056,11 @@
   <data name="PdfViewer_StrikethroughContext" xml:space="preserve">
     <value>üstü çizili</value>
   </data>
+  <data name="PdfViewer_SquigglyContext" xml:space="preserve">
+    <value>Dalgalı</value>
+  </data>
   <data name="PdfViewer_Servererror" xml:space="preserve">
-    <value>Web hizmeti dinlemiyor. PDF Viewer tüm özellikleri için web servisine bağlıdır. Devam etmek için lütfen web hizmetini başlatın.</value>
+    <value>Bir şeyler ters gitti. Lütfen tekrar deneyin veya sayfayı yenileyin.</value>
   </data>
   <data name="PdfViewer_Clienterror" xml:space="preserve">
     <value>İstemci tarafı hatası bulundu. Lütfen AjaxRequestSettings özelliğinde sağlanan özel başlıkları ve ServerActionSettings özelliğindeki web eylem yöntemlerini kontrol edin.</value>
@@ -4100,6 +4103,147 @@
   </data>
   <data name="PdfViewer_AnnotationEditText" xml:space="preserve">
     <value>Ek Açıklama Düzenle</value>
+  </data>
+  <data name="PdfViewer_FormDesigner" xml:space="preserve">
+    <value>Form Alanlarını Ekle veya Düzenle</value>
+  </data>
+  <data name="PdfViewer_FormDesignerText" xml:space="preserve">
+    <value>Form Alanlarını Düzenle</value>
+  </data>
+  <data name="PdfViewer_Textbox" xml:space="preserve">
+    <value>Metin Kutusu</value>
+  </data>
+  <data name="PdfViewer_Password" xml:space="preserve">
+    <value>Parola</value>
+  </data>
+  <data name="PdfViewer_Checkbox" xml:space="preserve">
+    <value>Onay Kutusu</value>
+  </data>
+  <data name="PdfViewer_RadioButton" xml:space="preserve">
+    <value>Radyo Düğmesi</value>
+  </data>
+  <data name="PdfViewer_DropDown" xml:space="preserve">
+    <value>Açılır Liste</value>
+  </data>
+  <data name="PdfViewer_ListBox" xml:space="preserve">
+    <value>Liste Kutusu</value>
+  </data>
+  <data name="PdfViewer_Button" xml:space="preserve">
+    <value>Düğme</value>
+  </data>
+  <data name="PdfViewer_DeleteFormField" xml:space="preserve">
+    <value>Form Alanını Sil</value>
+  </data>
+  <data name="PdfViewer_Signature" xml:space="preserve">
+    <value>İmza</value>
+  </data>
+  <data name="PdfViewer_Initial" xml:space="preserve">
+    <value>İlk harfler</value>
+  </data>
+  <data name="PdfViewer_Save" xml:space="preserve">
+    <value>Kaydet</value>
+  </data>
+  <data name="PdfViewer_General" xml:space="preserve">
+    <value>Genel</value>
+  </data>
+  <data name="PdfViewer_Appearance" xml:space="preserve">
+    <value>Görünüm</value>
+  </data>
+  <data name="PdfViewer_Options" xml:space="preserve">
+    <value>Seçenekler</value>
+  </data>
+  <data name="PdfViewer_Name" xml:space="preserve">
+    <value>Ad</value>
+  </data>
+  <data name="PdfViewer_Tooltip" xml:space="preserve">
+    <value>Bilgi balonu</value>
+  </data>
+  <data name="PdfViewer_Value" xml:space="preserve">
+    <value>Değer</value>
+  </data>
+  <data name="PdfViewer_Visibility" xml:space="preserve">
+    <value>Görünürlük</value>
+  </data>
+  <data name="PdfViewer_ReadOnly" xml:space="preserve">
+    <value>Sadece okunabilir</value>
+  </data>
+  <data name="PdfViewer_Checked" xml:space="preserve">
+    <value>İşaretli</value>
+  </data>
+  <data name="PdfViewer_Selected" xml:space="preserve">
+    <value>Seçili</value>
+  </data>
+  <data name="PdfViewer_Required" xml:space="preserve">
+    <value>Zorunlu</value>
+  </data>
+  <data name="PdfViewer_Multiline" xml:space="preserve">
+    <value>Birden fazla satır</value>
+  </data>
+  <data name="PdfViewer_Format" xml:space="preserve">
+    <value>Format</value>
+  </data>
+  <data name="PdfViewer_MaxLength" xml:space="preserve">
+    <value>Maksimum uzunluk</value>
+  </data>
+  <data name="PdfViewer_Fill" xml:space="preserve">
+    <value>Doldur</value>
+  </data>
+  <data name="PdfViewer_Border" xml:space="preserve">
+    <value>Sınır</value>
+  </data>
+  <data name="PdfViewer_Thickness" xml:space="preserve">
+    <value>Kalınlık</value>
+  </data>
+  <data name="PdfViewer_ItemName" xml:space="preserve">
+    <value>Öğe Adı</value>
+  </data>
+  <data name="PdfViewer_ItemValue" xml:space="preserve">
+    <value>Öğe Değeri</value>
+  </data>
+  <data name="PdfViewer_ItemList" xml:space="preserve">
+    <value>Öğe Listesi</value>
+  </data>
+  <data name="PdfViewer_Up" xml:space="preserve">
+    <value>Yukarı</value>
+  </data>
+  <data name="PdfViewer_Down" xml:space="preserve">
+    <value>Aşağı</value>
+  </data>
+  <data name="PdfViewer_BorderThickness" xml:space="preserve">
+    <value>Sınır Kalınlığı</value>
+  </data>
+  <data name="PdfViewer_FontStyle" xml:space="preserve">
+    <value>Yazı Tipi Stili</value>
+  </data>
+  <data name="PdfViewer_Alignment" xml:space="preserve">
+    <value>Hizalama</value>
+  </data>
+  <data name="PdfViewer_BorderColor" xml:space="preserve">
+    <value>Sınır Rengi</value>
+  </data>
+  <data name="PdfViewer_Visible" xml:space="preserve">
+    <value>Görünür</value>
+  </data>
+  <data name="PdfViewer_VisibleNotPrintable" xml:space="preserve">
+    <value>Görünür ancak yazdırılamaz</value>
+  </data>
+  <data name="PdfViewer_HiddenPrintable" xml:space="preserve">
+    <value>Gizli, yazdırılabilir</value>
+  </data>
+  <data name="PdfViewer_Hidden" xml:space="preserve">
+    <value>Gizli</value>
+  </data>
+  <data name="PdfViewer_Helvetica" xml:space="preserve">
+    <value>Helvetica</value>
+  </data>
+  <data name="PdfViewer_Courier" xml:space="preserve">
+    <value>Courier</value>
+  </data>
+  <data name="PdfViewer_Symbol" xml:space="preserve">
+    <value>Simge</value>
+  </data>
+  <data name="PdfViewer_TimesNewRoman" xml:space="preserve">
+    <value>Times New Roman</value>
   </data>
   <data name="PdfViewer_LineThickness" xml:space="preserve">
     <value>Hat kalınlığı</value>
@@ -4353,6 +4497,9 @@
   <data name="PdfViewer_Save_Signature" xml:space="preserve">
     <value>İmzayı Kaydet</value>
   </data>
+  <data name="PdfViewer_Save_Initial" xml:space="preserve">
+    <value>Başlangıç Kaydet</value>
+  </data>
   <data name="PdfViewer_Enter_Signature_as_Name" xml:space="preserve">
     <value>Adınızı giriniz</value>
   </data>
@@ -4431,8 +4578,32 @@
   <data name="PdfViewer_HandwrittenSignatureDialogHeaderText" xml:space="preserve">
     <value>imza ekle</value>
   </data>
+  <data name="PdfViewer_HandwrittenInitialDialogHeaderText" xml:space="preserve">
+    <value>Başlangıç Ekle</value>
+  </data>
   <data name="PdfViewer_DrawInk" xml:space="preserve">
     <value>mürekkep çiz</value>
+  </data>
+  <data name="PdfViewer_PromptPlaceholder" xml:space="preserve">
+    <value>Yardım almak için isteğinizi yazın...</value>
+  </data>
+  <data name="PdfViewer_AIAssistHeader" xml:space="preserve">
+    <value>Yapay Zekâ Asistanı</value>
+  </data>
+  <data name="PdfViewer_AIAssistBannerTitle" xml:space="preserve">
+    <value>Yapay Zekâ Desteği</value>
+  </data>
+  <data name="PdfViewer_AIAssistBannerSubtitle" xml:space="preserve">
+    <value>Günlük yapay zekâ yardımcınız</value>
+  </data>
+  <data name="PdfViewer_ErrorDialogHeader" xml:space="preserve">
+    <value>Yapay Zekâ Hizmeti Hatası</value>
+  </data>
+  <data name="PdfViewer_CredentialErrorContent" xml:space="preserve">
+    <value>Kimlik bilgileri sağlanmadı, hatalı veya geçersiz. Lütfen doğru bilgileri girerek tekrar deneyin.</value>
+  </data>
+  <data name="PdfViewer_ConnectionLostErrorContent" xml:space="preserve">
+    <value>Yapay zekâ hizmetiyle bağlantı kesildi. Lütfen ağ bağlantınızı kontrol edip tekrar deneyin.</value>
   </data>
   <data name="DocumentEditor_Table" xml:space="preserve">
     <value>tablo</value>
@@ -6112,9 +6283,9 @@
     <value>internet sayfası düzeni</value>
   </data>
   <data name="DocumentEditorContainer_ToggleBetweenTheInternalClipboardAndSystemClipboard" xml:space="preserve">
-    <value>Dahili pano ile sistem panosu arasında geçiş yapın. 
- Tarayıcı güvenlik ilkesi nedeniyle komut dosyası aracılığıyla sistem panosuna erişim reddedildi. Bunun yerine, 
- 1. İç panonun bileşen içinde kesmesini, kopyalanmasını ve yapıştırmasını etkinleştirebilirsiniz. 
+    <value>Dahili pano ile sistem panosu arasında geçiş yapın.
+ Tarayıcı güvenlik ilkesi nedeniyle komut dosyası aracılığıyla sistem panosuna erişim reddedildi. Bunun yerine,
+ 1. İç panonun bileşen içinde kesmesini, kopyalanmasını ve yapıştırmasını etkinleştirebilirsiniz.
  2. Kesmek için klavye kısayollarını (Ctrl + X, Ctrl + C ve Ctrl + V) kullanabilirsiniz. , kopyala ve sistem panosu ile yapıştırın.</value>
   </data>
   <data name="DocumentEditorContainer_TextForm" xml:space="preserve">
@@ -6225,21 +6396,21 @@
   <data name="DocumentEditorContainer_Changecase" xml:space="preserve">
     <value>Büyük/küçük harf değiştir</value>
 </data>
-<data name="DocumentEditorContainer_Uppercase" xml:space="preserve">
+  <data name="DocumentEditorContainer_Uppercase" xml:space="preserve">
     <value>BÜYÜK HARF</value>
 </data>
-<data name="DocumentEditorContainer_Lowercase" xml:space="preserve">
+  <data name="DocumentEditorContainer_Lowercase" xml:space="preserve">
     <value>Küçük harf</value>
 </data>
-<data name="DocumentEditorContainer_SentenceCase" xml:space="preserve">
+  <data name="DocumentEditorContainer_SentenceCase" xml:space="preserve">
     <value>Cümle durumu</value>
 </data>
-<data name="DocumentEditorContainer_CapitalizeEachWord" xml:space="preserve">
+  <data name="DocumentEditorContainer_CapitalizeEachWord" xml:space="preserve">
     <value>Her Kelimenin Büyük Harfini Yaz</value>
 </data>
-<data name="DocumentEditorContainer_ToggleCase" xml:space="preserve">
+  <data name="DocumentEditorContainer_ToggleCase" xml:space="preserve">
     <value>Büyük/küçük harf arasında geçiş yap</value>
-</data> 
+</data>
   <data name="Gantt_Touch_DialogTextOnClickingConnectorPoint" xml:space="preserve">
     <value>Başka bir görev seçin</value>
   </data>
@@ -6387,79 +6558,79 @@
   <data name="DocumentEditorContainer_TabStopPosition" xml:space="preserve">
 <value>Sekme durağı konumu</value>
 </data>
-<data name="DocumentEditorContainer_DefaultTabStops" xml:space="preserve">
+  <data name="DocumentEditorContainer_DefaultTabStops" xml:space="preserve">
 <value>Varsayılan sekme durakları</value>
 </data>
-<data name="DocumentEditorContainer_TabStopsCleared" xml:space="preserve">
+  <data name="DocumentEditorContainer_TabStopsCleared" xml:space="preserve">
 <value>Temizlenecek sekme durakları</value>
 </data>
-<data name="DocumentEditorContainer_Tabs" xml:space="preserve">
+  <data name="DocumentEditorContainer_Tabs" xml:space="preserve">
 <value>Sekmeler</value>
 </data>
-<data name="DocumentEditor_Set" xml:space="preserve">
+  <data name="DocumentEditor_Set" xml:space="preserve">
 <value>Ayarlamak</value>
 </data>
-<data name="DocumentEditor_Clear" xml:space="preserve">
+  <data name="DocumentEditor_Clear" xml:space="preserve">
 <value>Temizlemek</value>
 </data>
-<data name="DocumentEditor_ClearAll" xml:space="preserve">
+  <data name="DocumentEditor_ClearAll" xml:space="preserve">
 <value>Hepsini temizle</value>
 </data>
-<data name="DocumentEditor_Decimal" xml:space="preserve">
+  <data name="DocumentEditor_Decimal" xml:space="preserve">
 <value>Ondalık</value>
 </data>
-<data name="DocumentEditor_Bar" xml:space="preserve">
+  <data name="DocumentEditor_Bar" xml:space="preserve">
 <value>Çubuk</value>
 </data>
-<data name="DocumentEditorContainer_Alignment" xml:space="preserve">
+  <data name="DocumentEditorContainer_Alignment" xml:space="preserve">
 <value>Hizalama</value>
 </data>
-<data name="DocumentEditorContainer_Leader" xml:space="preserve">
+  <data name="DocumentEditorContainer_Leader" xml:space="preserve">
 <value>Önder</value>
 </data>
-<data name="DocumentEditorContainer_All" xml:space="preserve">
+  <data name="DocumentEditorContainer_All" xml:space="preserve">
 <value>Tüm</value>
 </data>
-<data name="DocumentEditor_BottomMargin" xml:space="preserve">
+  <data name="DocumentEditor_BottomMargin" xml:space="preserve">
 <value>Alt Marj</value>
 </data>
-<data name="DocumentEditor_FirstLineIndent" xml:space="preserve">
+  <data name="DocumentEditor_FirstLineIndent" xml:space="preserve">
 <value>İlk Satır Girintisi</value>
 </data>
-<data name="DocumentEditor_HangingIndent" xml:space="preserve">
+  <data name="DocumentEditor_HangingIndent" xml:space="preserve">
 <value>Asılı girinti</value>
 </data>
-<data name="DocumentEditor_LeftIndent" xml:space="preserve">
+  <data name="DocumentEditor_LeftIndent" xml:space="preserve">
 <value>Sol Girinti</value>
 </data>
-<data name="DocumentEditor_LeftMargin" xml:space="preserve">
+  <data name="DocumentEditor_LeftMargin" xml:space="preserve">
 <value>Sol Kenar Boşluğu</value>
 </data>
-<data name="DocumentEditor_MoveTableColumn" xml:space="preserve">
+  <data name="DocumentEditor_MoveTableColumn" xml:space="preserve">
 <value>Tablo Sütununu Taşı</value>
 </data>
-<data name="DocumentEditor_RightIndent" xml:space="preserve">
+  <data name="DocumentEditor_RightIndent" xml:space="preserve">
 <value>Sağ Girinti</value>
 </data>
-<data name="DocumentEditor_RightMargin" xml:space="preserve">
+  <data name="DocumentEditor_RightMargin" xml:space="preserve">
 <value>Sağ Kenar Boşluğu</value>
 </data>
-<data name="DocumentEditor_TopMargin" xml:space="preserve">
+  <data name="DocumentEditor_TopMargin" xml:space="preserve">
 <value>Üst boşluk</value>
 </data>
-<data name="DocumentEditor_LeftTab" xml:space="preserve">
+  <data name="DocumentEditor_LeftTab" xml:space="preserve">
 <value>Sol Sekme</value>
 </data>
-<data name="DocumentEditor_CenterTab" xml:space="preserve">
+  <data name="DocumentEditor_CenterTab" xml:space="preserve">
 <value>Orta Sekme</value>
 </data>
-<data name="DocumentEditor_RightTab" xml:space="preserve">
+  <data name="DocumentEditor_RightTab" xml:space="preserve">
 <value>Sağ Sekme</value>
 </data>
-<data name="DocumentEditor_DecimalTab" xml:space="preserve">
+  <data name="DocumentEditor_DecimalTab" xml:space="preserve">
 <value>Ondalık Sekmesi</value>
 </data>
-<data name="DocumentEditor_BarTab" xml:space="preserve">
+  <data name="DocumentEditor_BarTab" xml:space="preserve">
 <value>Çubuk Sekmesi</value>
 </data>
   <data name="ImageEditor_OkBtnTooltip" xml:space="preserve">
@@ -6578,5 +6749,1910 @@
   </data>
   <data name="AIAssistView_StopResponseText" xml:space="preserve">
     <value>Yanıt Vermeyi Durdur</value>
+  </data>
+  <data name="ChatUI_MultipleUsersTyping" xml:space="preserve">
+    <value>{0}, {1} ve {2} kişi daha yazıyor</value>
+  </data>
+  <data name="ChatUI_OneUserTyping" xml:space="preserve">
+    <value>{0} yazıyor</value>
+  </data>
+  <data name="ChatUI_TwoUserTyping" xml:space="preserve">
+    <value>{0} ve {1} yazıyor</value>
+  </data>
+  <data name="ChatUI_ThreeUserTyping" xml:space="preserve">
+    <value>{0}, {1} ve {2} kişi daha yazıyor</value>
+  </data>
+  <data name="Spreadsheet_InvalidPassword" xml:space="preserve">
+    <value>Yanlış şifre. Lütfen tekrar deneyin.</value>
+  </data>
+  <data name="Spreadsheet_Delete" xml:space="preserve">
+    <value>Sil</value>
+  </data>
+  <data name="Spreadsheet_Duplicate" xml:space="preserve">
+    <value>Çoğalt</value>
+  </data>
+  <data name="Spreadsheet_Rename" xml:space="preserve">
+    <value>Yeniden Adlandır</value>
+  </data>
+  <data name="Spreadsheet_MoveRight" xml:space="preserve">
+    <value>Sağa Taşı</value>
+  </data>
+  <data name="Spreadsheet_MoveLeft" xml:space="preserve">
+    <value>Sola Taşı</value>
+  </data>
+  <data name="Spreadsheet_Copy" xml:space="preserve">
+    <value>Kopyala</value>
+  </data>
+  <data name="Spreadsheet_Cut" xml:space="preserve">
+    <value>Kes</value>
+  </data>
+  <data name="Spreadsheet_Paste" xml:space="preserve">
+    <value>Yapıştır</value>
+  </data>
+  <data name="Spreadsheet_InsertLeft" xml:space="preserve">
+    <value>Sola sütun ekle</value>
+  </data>
+  <data name="Spreadsheet_InsertRight" xml:space="preserve">
+    <value>Sağa sütun ekle</value>
+  </data>
+  <data name="Spreadsheet_InsertRowsAbove" xml:space="preserve">
+    <value>Üste Satırlar Ekle</value>
+  </data>
+  <data name="Spreadsheet_InsertRowsBelow" xml:space="preserve">
+    <value>Alta Satırlar Ekle</value>
+  </data>
+  <data name="Spreadsheet_Sort" xml:space="preserve">
+    <value>Sırala</value>
+  </data>
+  <data name="Spreadsheet_ClearAll" xml:space="preserve">
+    <value>Tümünü Temizle</value>
+  </data>
+  <data name="Spreadsheet_ClearFormats" xml:space="preserve">
+    <value>Biçimlendirmeleri Temizle</value>
+  </data>
+  <data name="Spreadsheet_ClearContents" xml:space="preserve">
+    <value>İçeriği Temizle</value>
+  </data>
+  <data name="Spreadsheet_ClearHyperlinks" xml:space="preserve">
+    <value>Köprüleri Temizle</value>
+  </data>
+  <data name="Spreadsheet_Clear" xml:space="preserve">
+    <value>Temizle</value>
+  </data>
+  <data name="Spreadsheet_Home" xml:space="preserve">
+    <value>Ana Sayfa</value>
+  </data>
+  <data name="Spreadsheet_Link" xml:space="preserve">
+    <value>Bağlantı</value>
+  </data>
+  <data name="Spreadsheet_File" xml:space="preserve">
+    <value>Dosya</value>
+  </data>
+  <data name="Spreadsheet_Image" xml:space="preserve">
+    <value>Görüntü</value>
+  </data>
+  <data name="Spreadsheet_New" xml:space="preserve">
+    <value>Yeni</value>
+  </data>
+  <data name="Spreadsheet_Open" xml:space="preserve">
+    <value>Aç</value>
+  </data>
+  <data name="Spreadsheet_ABS" xml:space="preserve">
+    <value>Bir sayının mutlak değerini döndürür</value>
+  </data>
+  <data name="Spreadsheet_ACOS" xml:space="preserve">
+    <value>Bir sayının ark kosinüsünü döndürür</value>
+  </data>
+  <data name="Spreadsheet_ACOSH" xml:space="preserve">
+    <value>Bir sayının ters hiperbolik kosinüsünü döndürür</value>
+  </data>
+  <data name="Spreadsheet_ADDRESS" xml:space="preserve">
+    <value>Bir hücreye metin olarak bir referans döndürür</value>
+  </data>
+  <data name="Spreadsheet_ANDFormula" xml:space="preserve">
+    <value>Tüm bağımsız değişkenleri DOĞRU ise DOĞRU değerini döndürür</value>
+  </data>
+    <data name="Spreadsheet_AREAS" xml:space="preserve">
+    <value>Bir referanstaki alan sayısını verir</value>
+  </data>
+  <data name="Spreadsheet_ARRAYTOTEXT" xml:space="preserve">
+    <value>Bir dizinin metin temsilini verir</value>
+  </data>
+  <data name="Spreadsheet_ASC" xml:space="preserve">
+    <value>Bir dizede tam genişlikli karakterleri yarım genişlikli karakterlere dönüştürür</value>
+  </data>
+  <data name="Spreadsheet_ASIN" xml:space="preserve">
+    <value>Bir sayının ark sinüsünü verir</value>
+  </data>
+  <data name="Spreadsheet_ASINH" xml:space="preserve">
+    <value>Bir sayının ters hiperbolik sinüsünü verir</value>
+  </data>
+  <data name="Spreadsheet_ATAN" xml:space="preserve">
+    <value>Bir sayının ark tanjantını verir</value>
+  </data>
+  <data name="Spreadsheet_ATAN2" xml:space="preserve">
+    <value>X ve y koordinatlarından ark tanjantını verir</value>
+  </data>
+  <data name="Spreadsheet_ATANH" xml:space="preserve">
+    <value>Bir sayının ters hiperbolik tanjantını verir</value>
+  </data>
+  <data name="Spreadsheet_AVEDEV" xml:space="preserve">
+    <value>Ortalamadan mutlak sapmaların ortalamasını verir</value>
+  </data>
+  <data name="Spreadsheet_AVERAGE" xml:space="preserve">
+    <value>Argümanlarının ortalamasını verir</value>
+  </data>
+  <data name="Spreadsheet_AVERAGEA" xml:space="preserve">
+    <value>Argümanlarının ortalamasını döndürür</value>
+  </data>
+  <data name="Spreadsheet_AVERAGEIF" xml:space="preserve">
+    <value>Bir ölçütü karşılayan hücrelerin ortalamasını döndürür</value>
+  </data>
+  <data name="Spreadsheet_AVERAGEIFS" xml:space="preserve">
+    <value>Birden çok ölçütü karşılayan hücrelerin ortalamasını döndürür</value>
+  </data>
+  <data name="Spreadsheet_BESSELI" xml:space="preserve">
+    <value>Değiştirilmiş Bessel fonksiyonu In(x)'i döndürür</value>
+  </data>
+  <data name="Spreadsheet_BESSELJ" xml:space="preserve">
+    <value>Bessel fonksiyonu Jn(x)'i döndürür</value>
+  </data>
+  <data name="Spreadsheet_BESSELK" xml:space="preserve">
+    <value>Değiştirilmiş Bessel fonksiyonu Kn(x)'i döndürür</value>
+  </data>
+  <data name="Spreadsheet_BESSELY" xml:space="preserve">
+    <value>Bessel fonksiyonu Yn(x)'i döndürür</value>
+  </data>
+  <data name="Spreadsheet_BIN2DEC" xml:space="preserve">
+    <value>İkili bir sayıyı ondalık sayıya dönüştürür</value>
+  </data>
+  <data name="Spreadsheet_BIN2HEX" xml:space="preserve">
+    <value>İkili bir sayıyı onaltılık sayıya dönüştürür</value>
+  </data>
+  <data name="Spreadsheet_BIN2OCT" xml:space="preserve">
+    <value>İkili bir sayıyı sekizlik sayıya dönüştürür</value>
+  </data>
+  <data name="Spreadsheet_BINOMDIST" xml:space="preserve">
+    <value>Binom dağılımının olasılığını döndürür</value>
+  </data>
+  <data name="Spreadsheet_BYCOL" xml:space="preserve">
+    <value>Her sütuna bir LAMBDA uygular ve sonuçların dizisini döndürür</value>
+  </data>
+  <data name="Spreadsheet_BYROW" xml:space="preserve">
+    <value>Her satıra bir LAMBDA uygular ve sonuçların dizisini döndürür</value>
+  </data>
+  <data name="Spreadsheet_CEILING" xml:space="preserve">
+    <value>Bir sayıyı en yakın tam sayıya veya katına yuvarlar</value>
+  </data>
+  <data name="Spreadsheet_CELL" xml:space="preserve">
+    <value>Biçimlendirme, konum veya içerik hakkında bilgi döndürür</value>
+  </data>
+  <data name="Spreadsheet_CHAR" xml:space="preserve">
+    <value>Kod numarasıyla belirtilen karakteri döndürür</value>
+  </data>
+  <data name="Spreadsheet_CHIDIST" xml:space="preserve">
+    <value>Ki-kare dağılımının tek kuyruklu olasılığını döndürür</value>
+  </data>
+  <data name="Spreadsheet_CHIINV" xml:space="preserve">
+    <value>Ki-kare dağılımının tersini döndürür</value>
+  </data>
+  <data name="Spreadsheet_CHITEST" xml:space="preserve">
+    <value>Bağımsızlık testini döndürür</value>
+  </data>
+  <data name="Spreadsheet_CHOOSE" xml:space="preserve">
+    <value>Bir değer listesinden bir değer seçer</value>
+  </data>
+  <data name="Spreadsheet_CHOOSECOLS" xml:space="preserve">
+    <value>Bir diziden belirtilen sütunları döndürür</value>
+  </data>
+  <data name="Spreadsheet_CHOOSEROWS" xml:space="preserve">
+    <value>Bir diziden belirtilen satırları döndürür</value>
+  </data>
+  <data name="Spreadsheet_CLEAN" xml:space="preserve">
+    <value>Metinden yazdırılamayan tüm karakterleri kaldırır</value>
+  </data>
+  <data name="Spreadsheet_CODE" xml:space="preserve">
+    <value>Bir metin dizisindeki ilk karakter için sayısal kod döndürür</value>
+  </data>
+  <data name="Spreadsheet_COLUMN" xml:space="preserve">
+    <value>Bir referansın sütun numarasını döndürür</value>
+  </data>
+  <data name="Spreadsheet_COLUMNS" xml:space="preserve">
+    <value>Bir referanstaki sütun sayısını döndürür</value>
+  </data>
+  <data name="Spreadsheet_COMBIN" xml:space="preserve">
+    <value>Belirli sayıda nesne için kombinasyon sayısını döndürür</value>
+  </data>
+  <data name="Spreadsheet_COMPLEX" xml:space="preserve">
+    <value>Gerçek ve sanal katsayıları karmaşık bir sayıya dönüştürür</value>
+  </data>
+  <data name="Spreadsheet_CONCAT" xml:space="preserve">
+    <value>Birden çok aralık ve/veya diziden gelen metni birleştirir</value>
+  </data>
+  <data name="Spreadsheet_CONCATENATE" xml:space="preserve">
+    <value>Birkaç metin öğesini bir metin öğesinde birleştirir</value>
+  </data>
+  <data name="Spreadsheet_CONFIDENCE" xml:space="preserve">
+    <value>Nüfus ortalaması için güven aralığını döndürür</value>
+  </data>
+  <data name="Spreadsheet_CONVERT" xml:space="preserve">
+    <value>Bir sayıyı bir ölçüm sisteminden başka bir ölçüm sistemine dönüştürür</value>
+  </data>
+  <data name="Spreadsheet_CORREL" xml:space="preserve">
+    <value>İki veri kümesi arasındaki korelasyon katsayısını verir</value>
+  </data>
+  <data name="Spreadsheet_COS" xml:space="preserve">
+    <value>Bir sayının kosinüsünü verir</value>
+  </data>
+  <data name="Spreadsheet_COSH" xml:space="preserve">
+    <value>Bir sayının hiperbolik kosinüsünü verir</value>
+  </data>
+  <data name="Spreadsheet_COUNT" xml:space="preserve">
+    <value>Bağımsız değişkenler listesinde kaç sayı olduğunu sayar</value>
+  </data>
+  <data name="Spreadsheet_COUNTA" xml:space="preserve">
+    <value>Bağımsız değişkenler listesinde kaç değer olduğunu sayar</value>
+  </data>
+  <data name="Spreadsheet_COUNTBLANK" xml:space="preserve">
+    <value>Bir aralık içindeki boş hücre sayısını sayar</value>
+  </data>
+  <data name="Spreadsheet_COUNTIF" xml:space="preserve">
+    <value>Verilen ölçütleri karşılayan hücreleri sayar</value>
+  </data>
+  <data name="Spreadsheet_COVAR" xml:space="preserve">
+    <value>Eşleştirilmiş sapmaların çarpımlarının ortalaması olan kovaryansı verir</value>
+  </data>
+  <data name="Spreadsheet_CRITBINOM" xml:space="preserve">
+    <value>Kümülatif binom dağılımı için en küçük değeri verir</value>
+  </data>
+  <data name="Spreadsheet_CUMIPMT" xml:space="preserve">
+    <value>İki dönem arasında ödenen kümülatif faizi verir</value>
+  </data>
+  <data name="Spreadsheet_CUMPRINC" xml:space="preserve">
+    <value>İki dönem arasında bir kredi için ödenen kümülatif anaparayı verir</value>
+  </data>
+  <data name="Spreadsheet_DATE" xml:space="preserve">
+    <value>Belirli bir tarihin seri numarasını verir</value>
+  </data>
+  <data name="Spreadsheet_DATEVALUE" xml:space="preserve">
+    <value>Metin biçimindeki bir tarihi seri numarasına dönüştürür</value>
+  </data>
+  <data name="Spreadsheet_DAY" xml:space="preserve">
+    <value>Bir seri numarasını ayın gününe dönüştürür</value>
+  </data>
+  <data name="Spreadsheet_DAYS360" xml:space="preserve">
+    <value>360 günlük bir yıla göre iki tarih arasındaki gün sayısını hesaplar</value>
+  </data>
+  <data name="Spreadsheet_DB" xml:space="preserve">
+    <value>Sabit azalan bakiye yöntemini kullanarak varlık amortismanını döndürür</value>
+  </data>
+  <data name="Spreadsheet_DDB" xml:space="preserve">
+    <value>Çift azalan bakiye yöntemini kullanarak varlık amortismanını döndürür</value>
+  </data>
+  <data name="Spreadsheet_DEC2BIN" xml:space="preserve">
+    <value>Bir ondalık sayıyı ikili sayıya dönüştürür</value>
+  </data>
+  <data name="Spreadsheet_DECHEX" xml:space="preserve">
+    <value>Bir ondalık sayıyı onaltılık sayıya dönüştürür</value>
+  </data>
+  <data name="Spreadsheet_DEC2OCT" xml:space="preserve">
+    <value>Bir ondalık sayıyı sekizli sayıya dönüştürür</value>
+  </data>
+  <data name="Spreadsheet_DEGREES" xml:space="preserve">
+    <value>Radyanları derecelere dönüştürür</value>
+  </data>
+  <data name="Spreadsheet_DELTA" xml:space="preserve">
+    <value>İki değerin eşit olup olmadığını test eder</value>
+  </data>
+  <data name="Spreadsheet_DEVSQ" xml:space="preserve">
+    <value>Sapmaların karelerinin toplamını döndürür</value>
+  </data>
+  <data name="Spreadsheet_DISC" xml:space="preserve">
+    <value>Bir menkul kıymetin iskonto oranını döndürür</value>
+  </data>
+  <data name="Spreadsheet_DOLLAR" xml:space="preserve">
+    <value>$ (dolar) para birimi biçimini kullanarak bir sayıyı metne dönüştürür</value>
+  </data>
+  <data name="Spreadsheet_DOLLARDE" xml:space="preserve">
+    <value>Kesirli dolar fiyatını ondalık sayıya dönüştürür</value>
+  </data>
+  <data name="Spreadsheet_DOLLARFR" xml:space="preserve">
+    <value>Ondalık dolar fiyatını kesirli fiyata dönüştürür</value>
+  </data>
+  <data name="Spreadsheet_DURATION" xml:space="preserve">
+    <value>Periyodik faiz ödemeleri olan bir menkul kıymetin yıllık süresini döndürür</value>
+  </data>
+  <data name="Spreadsheet_EDATE" xml:space="preserve">
+    <value>Başlangıç tarihinden belirtilen ay kadar önce/sonra olan tarihi döndürür</value>
+  </data>
+  <data name="Spreadsheet_EFFECT" xml:space="preserve">
+    <value>Etkin yıllık faiz oranını döndürür</value>
+  </data>
+  <data name="Spreadsheet_EOMONTH" xml:space="preserve">
+    <value>Belirtilen ay sayısı kadar önce/sonra olan ayın son gününü döndürür</value>
+  </data>
+  <data name="Spreadsheet_ERF" xml:space="preserve">
+    <value>Hata fonksiyonunu döndürür</value>
+  </data>
+  <data name="Spreadsheet_ERFC" xml:space="preserve">
+    <value>Tamamlayıcı hata fonksiyonunu verir</value>
+  </data>
+  <data name="Spreadsheet_ERRORTYPE" xml:space="preserve">
+    <value>Bir hata türüne karşılık gelen bir sayı döndürür</value>
+  </data>
+  <data name="Spreadsheet_EVEN" xml:space="preserve">
+    <value>Bir sayıyı en yakın çift tamsayıya yukarı yuvarlar</value>
+  </data>
+  <data name="Spreadsheet_EXACT" xml:space="preserve">
+    <value>İki metin değerinin aynı olup olmadığını kontrol eder</value>
+  </data>
+  <data name="Spreadsheet_EXP" xml:space="preserve">
+    <value>e'nin belirli bir sayının kuvvetini verir</value>
+  </data>
+  <data name="Spreadsheet_EXPONDIST" xml:space="preserve">
+    <value>Üstel dağılımı verir</value>
+  </data>
+  <data name="Spreadsheet_FACT" xml:space="preserve">
+    <value>Bir sayının faktöriyelini verir</value>
+  </data>
+  <data name="Spreadsheet_FACTDOUBLE" xml:space="preserve">
+    <value>Bir sayının çift faktöriyelini verir</value>
+  </data>
+  <data name="Spreadsheet_FDIST" xml:space="preserve">
+    <value>F olasılık dağılımını verir</value>
+  </data>
+  <data name="Spreadsheet_FIND" xml:space="preserve">
+    <value>Bir metin değerini diğeri içinde bulur (büyük/küçük harf duyarlı)</value>
+  </data>
+  <data name="Spreadsheet_FINDB" xml:space="preserve">
+    <value>Bir metin değerini diğeri içinde bulur (büyük/küçük harf duyarlı)</value>
+  </data>
+  <data name="Spreadsheet_FINV" xml:space="preserve">
+    <value>F olasılık dağılımının tersini verir</value>
+  </data>
+  <data name="Spreadsheet_FISHER" xml:space="preserve">
+    <value>Fisher dönüşümünü verir</value>
+  </data>
+  <data name="Spreadsheet_FISHERINV" xml:space="preserve">
+    <value>Fisher dönüşümünün tersini verir</value>
+  </data>
+  <data name="Spreadsheet_FIXED" xml:space="preserve">
+    <value>Bir sayıyı sabit sayıda ondalık basamağı olan metin olarak biçimlendirir</value>
+  </data>
+  <data name="Spreadsheet_FLOOR" xml:space="preserve">
+    <value>Bir sayıyı sıfıra doğru aşağı yuvarlar</value>
+  </data>
+  <data name="Spreadsheet_FORECAST" xml:space="preserve">
+    <value>Doğrusal bir eğilim boyunca bir değer döndürür</value>
+  </data>
+  <data name="Spreadsheet_FV" xml:space="preserve">
+    <value>Bir yatırımın gelecekteki değerini döndürür</value>
+  </data>
+  <data name="Spreadsheet_FVSCHEDULE" xml:space="preserve">
+    <value>Bileşik faiz oranlarından sonraki gelecekteki değeri döndürür</value>
+  </data>
+  <data name="Spreadsheet_GAMMADIST" xml:space="preserve">
+    <value>Gamma dağılımını döndürür</value>
+  </data>
+  <data name="Spreadsheet_GAMMAINV" xml:space="preserve">
+    <value>Kümülatif gamma dağılımının tersini döndürür</value>
+  </data>
+  <data name="Spreadsheet_GAMMALN" xml:space="preserve">
+    <value>Gamma fonksiyonunun doğal logaritmasını döndürür, Γ(x)</value>
+  </data>
+  <data name="Spreadsheet_GCD" xml:space="preserve">
+    <value>En büyük ortak böleni döndürür</value>
+  </data>
+  <data name="Spreadsheet_GEOMEAN" xml:space="preserve">
+    <value>Geometrik ortalamayı döndürür</value>
+  </data>
+  <data name="Spreadsheet_GESTEP" xml:space="preserve">
+    <value>Bir sayının eşik değerinden büyük olup olmadığını test eder</value>
+  </data>
+  <data name="Spreadsheet_GROWTH" xml:space="preserve">
+    <value>Üstel bir eğilim boyunca değerleri döndürür</value>
+  </data>
+  <data name="Spreadsheet_HARMEAN" xml:space="preserve">
+    <value>Harmonik ortalamayı döndürür</value>
+  </data>
+  <data name="Spreadsheet_HEX2BIN" xml:space="preserve">
+    <value>Onaltılık bir sayıyı ikili sayıya dönüştürür</value>
+  </data>
+  <data name="Spreadsheet_HEX2DEC" xml:space="preserve">
+    <value>Onaltılık bir sayıyı ondalık sayıya dönüştürür</value>
+  </data>
+  <data name="Spreadsheet_HEX2OCT" xml:space="preserve">
+    <value>Onaltılık bir sayıyı sekizli sayıya dönüştürür</value>
+  </data>
+  <data name="Spreadsheet_HLOOKUP" xml:space="preserve">
+    <value>Bir dizinin en üst satırında arar ve belirtilen hücrenin değerini döndürür</value>
+  </data>
+  <data name="Spreadsheet_HOUR" xml:space="preserve">
+    <value>Seri numarasını bir saate dönüştürür</value>
+  </data>
+  <data name="Spreadsheet_HYPERLINKFormula" xml:space="preserve">
+    <value>Ağ/internet üzerinde belge açmak için kısayol oluşturur</value>
+  </data>
+  <data name="Spreadsheet_HYPGEOMDIST" xml:space="preserve">
+    <value>Hipergeometrik dağılımı döndürür</value>
+  </data>
+  <data name="Spreadsheet_IF" xml:space="preserve">
+    <value>Yapılacak mantıksal testi belirtir</value>
+  </data>
+  <data name="Spreadsheet_IFERROR" xml:space="preserve">
+    <value>Bir formül hata değerlendirirse belirtilen değeri döndürür</value>
+  </data>
+  <data name="Spreadsheet_IFS" xml:space="preserve">
+    <value>İlk DOĞRU koşuluna karşılık gelen değeri döndürür</value>
+  </data>
+  <data name="Spreadsheet_IMABS" xml:space="preserve">
+    <value>Karmaşık bir sayının mutlak değerini (modülünü) döndürür</value>
+  </data>
+  <data name="Spreadsheet_IMAGINARY" xml:space="preserve">
+    <value>Karmaşık bir sayının sanal katsayısını döndürür</value>
+  </data>
+  <data name="Spreadsheet_IMARGUMENT" xml:space="preserve">
+    <value>Radyan cinsinden ifade edilen bir açı olan teta argümanını döndürür</value>
+  </data>
+  <data name="Spreadsheet_IMCONJUGATE" xml:space="preserve">
+    <value>Karmaşık bir sayının eşleniğini döndürür</value>
+  </data>
+  <data name="Spreadsheet_IMCOS" xml:space="preserve">
+    <value>Karmaşık bir sayının kosinüsünü döndürür</value>
+  </data>
+  <data name="Spreadsheet_IMDIV" xml:space="preserve">
+    <value>İki karmaşık sayının bölümünü döndürür</value>
+  </data>
+  <data name="Spreadsheet_IMEXP" xml:space="preserve">
+    <value>Karmaşık bir sayının üstelini döndürür</value>
+  </data>
+  <data name="Spreadsheet_IMLN" xml:space="preserve">
+    <value>Karmaşık bir sayının doğal logaritmasını döndürür</value>
+  </data>
+  <data name="Spreadsheet_IMLOG10" xml:space="preserve">
+    <value>Karmaşık bir sayının 10 tabanında logaritmasını döndürür</value>
+  </data>
+  <data name="Spreadsheet_IMLOG2" xml:space="preserve">
+    <value>Karmaşık bir sayının 2 tabanında logaritmasını döndürür</value>
+  </data>
+  <data name="Spreadsheet_IMPOWER" xml:space="preserve">
+    <value>Bir karmaşık sayının tamsayı kuvvetini döndürür</value>
+  </data>
+  <data name="Spreadsheet_IMPRODUCT" xml:space="preserve">
+    <value>2'den 29'a kadar karmaşık sayıların çarpımını döndürür</value>
+  </data>
+  <data name="Spreadsheet_IMREAL" xml:space="preserve">
+    <value>Karmaşık bir sayının gerçek katsayısını döndürür</value>
+  </data>
+  <data name="Spreadsheet_IMSIN" xml:space="preserve">
+    <value>Karmaşık bir sayının sinüsünü döndürür</value>
+  </data>
+  <data name="Spreadsheet_IMSQRT" xml:space="preserve">
+    <value>Karmaşık bir sayının karekökünü döndürür</value>
+  </data>
+  <data name="Spreadsheet_IMSUB" xml:space="preserve">
+    <value>İki karmaşık sayı arasındaki farkı döndürür</value>
+  </data>
+  <data name="Spreadsheet_IMSUM" xml:space="preserve">
+    <value>Karmaşık sayıların toplamını döndürür</value>
+  </data>
+  <data name="Spreadsheet_INDEX" xml:space="preserve">
+    <value>Bir başvuru veya diziden değer seçmek için dizin kullanır</value>
+  </data>
+  <data name="Spreadsheet_INDIRECT" xml:space="preserve">
+    <value>Metin değeri ile belirtilen bir başvuru döndürür</value>
+  </data>
+  <data name="Spreadsheet_INFO" xml:space="preserve">
+    <value>Geçerli işletim ortamı hakkında bilgi döndürür</value>
+  </data>
+  <data name="Spreadsheet_INT" xml:space="preserve">
+    <value>Bir sayıyı en yakın tam sayıya aşağı yuvarlar</value>
+  </data>
+  <data name="Spreadsheet_INTERCEPT" xml:space="preserve">
+    <value>Doğrusal regresyon çizgisinin kesişimini döndürür</value>
+  </data>
+  <data name="Spreadsheet_INTRATE" xml:space="preserve">
+    <value>Tamamen yatırım yapılmış bir menkul kıymet için faiz oranını döndürür</value>
+  </data>
+  <data name="Spreadsheet_IPMT" xml:space="preserve">
+    <value>Belirli bir dönem için bir yatırımın faiz ödemesini döndürür</value>
+  </data>
+  <data name="Spreadsheet_IRR" xml:space="preserve">
+    <value>Bir dizi nakit akışı için iç getiri oranını döndürür</value>
+  </data>
+  <data name="Spreadsheet_ISBLANK" xml:space="preserve">
+    <value>Değer boşsa TRUE döndürür</value>
+  </data>
+  <data name="Spreadsheet_ISERR" xml:space="preserve">
+    <value>Değer #YOK dışında herhangi bir hata değeriyse TRUE döndürür</value>
+  </data>
+  <data name="Spreadsheet_ISERROR" xml:space="preserve">
+    <value>Değer herhangi bir hata değeriyse TRUE döndürür</value>
+  </data>
+  <data name="Spreadsheet_ISEVEN" xml:space="preserve">
+    <value>Sayı çiftse TRUE döndürür</value>
+  </data>
+  <data name="Spreadsheet_ISLOGICAL" xml:space="preserve">
+    <value>Değer mantıksal bir değerse TRUE döndürür</value>
+  </data>
+  <data name="Spreadsheet_ISNA" xml:space="preserve">
+    <value>Değer #YOK hata değeriyse TRUE döndürür</value>
+  </data>
+  <data name="Spreadsheet_ISNONTEXT" xml:space="preserve">
+    <value>Değer metin değilse TRUE döndürür</value>
+  </data>
+  <data name="Spreadsheet_ISNUMBER" xml:space="preserve">
+    <value>Değer bir sayıysa TRUE döndürür</value>
+  </data>
+  <data name="Spreadsheet_ISODD" xml:space="preserve">
+    <value>Sayı tekse TRUE döndürür</value>
+  </data>
+  <data name="Spreadsheet_ISPMT" xml:space="preserve">
+    <value>Yatırım süresi boyunca ödenen faizi hesaplar</value>
+  </data>
+  <data name="Spreadsheet_ISREF" xml:space="preserve">
+    <value>Değer bir başvuruysa TRUE döndürür</value>
+  </data>
+  <data name="Spreadsheet_ISTEXT" xml:space="preserve">
+    <value>Değer metinse TRUE döndürür</value>
+  </data>
+  <data name="Spreadsheet_KURT" xml:space="preserve">
+    <value>Bir veri kümesinin basıklığını döndürür</value>
+  </data>
+  <data name="Spreadsheet_LAMBDA" xml:space="preserve">
+    <value>Kendi formül parametrelerini ve mantığını kullanmaya izin verir</value>
+  </data>
+  <data name="Spreadsheet_LARGE" xml:space="preserve">
+    <value>Bir veri kümesindeki k. en büyük değeri döndürür</value>
+  </data>
+  <data name="Spreadsheet_LCM" xml:space="preserve">
+    <value>En küçük ortak katı döndürür</value>
+  </data>
+  <data name="Spreadsheet_LEFT" xml:space="preserve">
+    <value>Bir metin değerinden en soldaki karakterleri döndürür</value>
+  </data>
+  <data name="Spreadsheet_LEFTB" xml:space="preserve">
+    <value>Bir metin değerinden en soldaki karakterleri döndürür</value>
+  </data>
+  <data name="Spreadsheet_LEN" xml:space="preserve">
+    <value>Bir metin dizesindeki karakter sayısını döndürür</value>
+  </data>
+  <data name="Spreadsheet_LENB" xml:space="preserve">
+    <value>Bir metin dizesindeki karakter sayısını döndürür</value>
+  </data>
+  <data name="Spreadsheet_LET" xml:space="preserve">
+    <value>Değişkenleri kullanabilen bir formülün sonucunu döndürür</value>
+  </data>
+  <data name="Spreadsheet_LN" xml:space="preserve">
+    <value>Bir sayının doğal logaritmasını döndürür</value>
+  </data>
+  <data name="Spreadsheet_LOG" xml:space="preserve">
+    <value>Belirtilen bir tabana göre bir sayının logaritmasını döndürür</value>
+  </data>
+  <data name="Spreadsheet_LOG10" xml:space="preserve">
+    <value>Bir sayının 10 tabanında logaritmasını döndürür</value>
+  </data>
+  <data name="Spreadsheet_LOGEST" xml:space="preserve">
+    <value>Bir üstel eğilimin parametrelerini döndürür</value>
+  </data>
+  <data name="Spreadsheet_LOGINV" xml:space="preserve">
+    <value>Log-normal dağılımın tersini döndürür</value>
+  </data>
+  <data name="Spreadsheet_LOGNORMDIST" xml:space="preserve">
+    <value>Kümülatif log-normal dağılımı döndürür</value>
+  </data>
+  <data name="Spreadsheet_LOOKUP" xml:space="preserve">
+    <value>Bir vektör veya dizideki değerleri arar</value>
+  </data>
+  <data name="Spreadsheet_LOWER" xml:space="preserve">
+    <value>Metni küçük harfe dönüştürür</value>
+  </data>
+  <data name="Spreadsheet_MATCH" xml:space="preserve">
+    <value>Bir başvuru veya dizideki değerleri arar</value>
+  </data>
+  <data name="Spreadsheet_MAX" xml:space="preserve">
+    <value>Bir bağımsız değişken listesindeki maksimum değeri döndürür</value>
+  </data>
+  <data name="Spreadsheet_MAXA" xml:space="preserve">
+    <value>Sayılar, metin ve mantıksal değerler dahil olmak üzere bir bağımsız değişken listesindeki maksimum değeri döndürür</value>
+  </data>
+  <data name="Spreadsheet_MAXIFS" xml:space="preserve">
+    <value>Kriterleri karşılayan hücreler arasındaki maksimum değeri döndürür</value>
+  </data>
+  <data name="Spreadsheet_MDETERM" xml:space="preserve">
+    <value>Bir dizinin matris determinantını döndürür</value>
+  </data>
+  <data name="Spreadsheet_MEDIAN" xml:space="preserve">
+    <value>Verilen sayıların medyanını döndürür</value>
+  </data>
+  <data name="Spreadsheet_MID" xml:space="preserve">
+    <value>Metinden belirtilen konumdan başlayarak karakterler döndürür</value>
+  </data>
+  <data name="Spreadsheet_MIDB" xml:space="preserve">
+    <value>Belirttiğiniz konumdan başlayarak bir metin dizisinden belirli sayıda karakter döndürür</value>
+  </data>
+  <data name="Spreadsheet_MIN" xml:space="preserve">
+    <value>Bir bağımsız değişken listesindeki minimum değeri döndürür</value>
+  </data>
+  <data name="Spreadsheet_MINA" xml:space="preserve">
+    <value>Bir bağımsız değişken listesindeki sayılar, metin ve mantıksal değerler dahil olmak üzere en küçük değeri döndürür</value>
+  </data>
+  <data name="Spreadsheet_MINIFS" xml:space="preserve">
+    <value>Kriterleri karşılayan hücreler arasındaki minimum değeri döndürür</value>
+  </data>
+  <data name="Spreadsheet_MINUTE" xml:space="preserve">
+    <value>Bir seri numarayı dakikaya dönüştürür</value>
+  </data>
+  <data name="Spreadsheet_MINVERSE" xml:space="preserve">
+    <value>Bir dizinin matris tersini döndürür</value>
+  </data>
+  <data name="Spreadsheet_MIRR" xml:space="preserve">
+    <value>Farklı finansman oranlarıyla IRR döndürür</value>
+  </data>
+  <data name="Spreadsheet_MMULT" xml:space="preserve">
+    <value>İki dizinin matris çarpımını döndürür</value>
+  </data>
+  <data name="Spreadsheet_MOD" xml:space="preserve">
+    <value>Bölme işleminden kalanı döndürür</value>
+  </data>
+  <data name="Spreadsheet_MODE" xml:space="preserve">
+    <value>Veri kümesindeki en yaygın değeri döndürür</value>
+  </data>
+  <data name="Spreadsheet_MONTH" xml:space="preserve">
+    <value>Bir seri numarayı aya dönüştürür</value>
+  </data>
+  <data name="Spreadsheet_MROUND" xml:space="preserve">
+    <value>İstenen katına yuvarlanmış bir sayı döndürür</value>
+  </data>
+  <data name="Spreadsheet_MULTINOMIAL" xml:space="preserve">
+    <value>Bir sayı kümesinin çok terimli katsayısını döndürür</value>
+  </data>
+  <data name="Spreadsheet_N" xml:space="preserve">
+    <value>Bir sayıya dönüştürülmüş bir değer döndürür</value>
+  </data>
+  <data name="Spreadsheet_NA" xml:space="preserve">
+    <value>#YOK hata değerini döndürür</value>
+  </data>
+  <data name="Spreadsheet_NEGBINOMDIST" xml:space="preserve">
+    <value>Negatif binom dağılımını döndürür</value>
+  </data>
+  <data name="Spreadsheet_NETWORKDAYS" xml:space="preserve">
+    <value>İki tarih arasındaki tam iş günü sayısını döndürür</value>
+  </data>
+  <data name="Spreadsheet_NORMDIST" xml:space="preserve">
+    <value>Normal birikimli dağılımı döndürür</value>
+  </data>
+  <data name="Spreadsheet_NORMINV" xml:space="preserve">
+    <value>Normal kümülatif dağılımın tersini döndürür</value>
+  </data>
+  <data name="Spreadsheet_NORMSDIST" xml:space="preserve">
+    <value>Standart normal kümülatif dağılımı döndürür</value>
+  </data>
+  <data name="Spreadsheet_NORMSINV" xml:space="preserve">
+    <value>Standart normal kümülatif dağılımın tersini döndürür</value>
+  </data>
+  <data name="Spreadsheet_NOT" xml:space="preserve">
+    <value>Bağımsız değişkeninin mantığını tersine çevirir</value>
+  </data>
+  <data name="Spreadsheet_NOW" xml:space="preserve">
+    <value>Geçerli tarih ve saatin seri numarasını döndürür</value>
+  </data>
+  <data name="Spreadsheet_NPER" xml:space="preserve">
+    <value>Bir yatırım için dönem sayısını döndürür</value>
+  </data>
+  <data name="Spreadsheet_NPV" xml:space="preserve">
+    <value>Nakit akışlarına dayalı net bugünkü değeri döndürür</value>
+  </data>
+  <data name="Spreadsheet_OCT2BIN" xml:space="preserve">
+    <value>Bir sekizlik sayıyı ikiliğe dönüştürür</value>
+  </data>
+  <data name="Spreadsheet_OCT2DEC" xml:space="preserve">
+    <value>Bir sekizlik sayıyı ondalığa dönüştürür</value>
+  </data>
+  <data name="Spreadsheet_OCT2HEX" xml:space="preserve">
+    <value>Bir sekizlik sayıyı on altılığa dönüştürür</value>
+  </data>
+  <data name="Spreadsheet_ODD" xml:space="preserve">
+    <value>Bir sayıyı en yakın tek tamsayıya yuvarlar</value>
+  </data>
+  <data name="Spreadsheet_OFFSET" xml:space="preserve">
+    <value>Belirli bir referanstan ofset bir referans döndürür</value>
+  </data>
+  <data name="Spreadsheet_ORFormula" xml:space="preserve">
+    <value>Herhangi bir bağımsız değişken DOĞRU ise DOĞRU döndürür</value>
+  </data>
+  <data name="Spreadsheet_PEARSON" xml:space="preserve">
+    <value>Pearson çarpım momenti korelasyon katsayısını döndürür</value>
+  </data>
+  <data name="Spreadsheet_PERCENTILE" xml:space="preserve">
+    <value>Bir aralıktaki değerlerin k. yüzdeliğini döndürür</value>
+  </data>
+  <data name="Spreadsheet_PERCENTRANK" xml:space="preserve">
+    <value>Bir veri kümesindeki bir değerin yüzdelik sıralamasını döndürür</value>
+  </data>
+  <data name="Spreadsheet_PERMUT" xml:space="preserve">
+    <value>Belirli sayıda nesne için permütasyon sayısını döndürür</value>
+  </data>
+  <data name="Spreadsheet_PI" xml:space="preserve">
+    <value>Pi değerini döndürür</value>
+  </data>
+  <data name="Spreadsheet_PMT" xml:space="preserve">
+    <value>Bir yıllık gelir için periyodik ödemeyi döndürür</value>
+  </data>
+  <data name="Spreadsheet_POISSON" xml:space="preserve">
+    <value>Poisson dağılımını döndürür</value>
+  </data>
+  <data name="Spreadsheet_POWER" xml:space="preserve">
+    <value>Bir sayının üssünü alarak sonucunu döndürür</value>
+  </data>
+  <data name="Spreadsheet_PPMT" xml:space="preserve">
+    <value>Belirli bir dönem için bir yatırımın anapara geri ödemesini döndürür</value>
+  </data>
+  <data name="Spreadsheet_PROB" xml:space="preserve">
+    <value>Sınırlar arasındaki değerlerin olasılığını döndürür</value>
+  </data>
+  <data name="Spreadsheet_PRODUCT" xml:space="preserve">
+    <value>Bağımsız değişkenlerini çarpar</value>
+  </data>
+  <data name="Spreadsheet_PROPER" xml:space="preserve">
+    <value>Bir metin değerindeki her sözcüğün ilk harfini büyük yapar</value>
+  </data>
+  <data name="Spreadsheet_PV" xml:space="preserve">
+    <value>Bir yatırımın bugünkü değerini döndürür</value>
+  </data>
+  <data name="Spreadsheet_QUARTILE" xml:space="preserve">
+    <value>Bir veri kümesinin çeyreğini döndürür</value>
+  </data>
+  <data name="Spreadsheet_QUOTIENT" xml:space="preserve">
+    <value>Bir bölme işleminin tamsayı kısmını döndürür</value>
+  </data>
+  <data name="Spreadsheet_RADIANS" xml:space="preserve">
+    <value>Dereceleri radyanlara dönüştürür</value>
+  </data>
+  <data name="Spreadsheet_RAND" xml:space="preserve">
+    <value>0 ile 1 arasında rastgele bir sayı döndürür</value>
+  </data>
+  <data name="Spreadsheet_RANDBETWEEN" xml:space="preserve">
+    <value>Belirttiğiniz sayılar arasında rastgele bir sayı döndürür</value>
+  </data>
+  <data name="Spreadsheet_RANK" xml:space="preserve">
+    <value>Bir sayının bir sayı listesindeki sıralamasını döndürür</value>
+  </data>
+  <data name="Spreadsheet_RATE" xml:space="preserve">
+    <value>Bir anüitenin dönem başına faiz oranını döndürür</value>
+  </data>
+  <data name="Spreadsheet_RECEIVED" xml:space="preserve">
+    <value>Menkul kıymetin vadesi geldiğinde alınan tutarı döndürür</value>
+  </data>
+  <data name="Spreadsheet_REPLACE" xml:space="preserve">
+    <value>Metin içindeki karakterleri değiştirir</value>
+  </data>
+  <data name="Spreadsheet_REPLACEB" xml:space="preserve">
+    <value>Metin içindeki karakterleri değiştirir</value>
+  </data>
+  <data name="Spreadsheet_REPT" xml:space="preserve">
+    <value>Metni belirli sayıda kez tekrar eder</value>
+  </data>
+  <data name="Spreadsheet_RIGHT" xml:space="preserve">
+    <value>Bir metin değerinden en sağdaki karakterleri döndürür</value>
+  </data>
+  <data name="Spreadsheet_RIGHTB" xml:space="preserve">
+    <value>Bir metin değerinden en sağdaki karakterleri döndürür</value>
+  </data>
+  <data name="Spreadsheet_ROMAN" xml:space="preserve">
+    <value>Arap rakamını Roma rakamına, metin olarak dönüştürür</value>
+  </data>
+  <data name="Spreadsheet_ROUND" xml:space="preserve">
+    <value>Bir sayıyı belirtilen basamak sayısına yuvarlar</value>
+  </data>
+  <data name="Spreadsheet_ROUNDDOWN" xml:space="preserve">
+    <value>Bir sayıyı aşağı, sıfıra doğru yuvarlar</value>
+  </data>
+  <data name="Spreadsheet_ROUNDUP" xml:space="preserve">
+    <value>Bir sayıyı yukarı, sıfırdan uzağa yuvarlar</value>
+  </data>
+  <data name="Spreadsheet_ROW" xml:space="preserve">
+    <value>Bir başvurunun satır numarasını döndürür</value>
+  </data>
+  <data name="Spreadsheet_ROWS" xml:space="preserve">
+    <value>Bir başvuruda bulunan satır sayısını döndürür</value>
+  </data>
+  <data name="Spreadsheet_RSQ" xml:space="preserve">
+    <value>Pearson ürün tutarı korelasyon katsayısının karesini döndürür</value>
+  </data>
+  <data name="Spreadsheet_SEARCHFormula" xml:space="preserve">
+    <value>Bir metin değerini diğerinin içinde bulur (büyük/küçük harfe duyarlı değil)</value>
+  </data>
+  <data name="Spreadsheet_SEARCHB" xml:space="preserve">
+    <value>Bir metin değerini diğerinin içinde bulur (büyük/küçük harfe duyarlı değil)</value>
+  </data>
+  <data name="Spreadsheet_SECOND" xml:space="preserve">
+    <value>Seri numarasını saniyeye dönüştürür</value>
+  </data>
+  <data name="Spreadsheet_SERIESSUM" xml:space="preserve">
+    <value>Formüle dayalı bir kuvvet serisinin toplamını döndürür</value>
+  </data>
+  <data name="Spreadsheet_SIGN" xml:space="preserve">
+    <value>Bir sayının işaretini döndürür</value>
+  </data>
+  <data name="Spreadsheet_SIN" xml:space="preserve">
+    <value>Verilen açının sinüsünü döndürür</value>
+  </data>
+  <data name="Spreadsheet_SINH" xml:space="preserve">
+    <value>Bir sayının hiperbolik sinüsünü döndürür</value>
+  </data>
+  <data name="Spreadsheet_SKEW" xml:space="preserve">
+    <value>Bir dağılımın çarpıklığını döndürür</value>
+  </data>
+  <data name="Spreadsheet_SLN" xml:space="preserve">
+    <value>Bir varlığın bir dönem için doğrusal amortismanını döndürür</value>
+  </data>
+  <data name="Spreadsheet_SLOPE" xml:space="preserve">
+    <value>Doğrusal regresyon çizgisinin eğimini döndürür</value>
+  </data>
+  <data name="Spreadsheet_SORTFormula" xml:space="preserve">
+    <value>Hücre aralığı değerlerini artan veya azalan sırada döndürür</value>
+  </data>
+  <data name="Spreadsheet_SMALL" xml:space="preserve">
+    <value>Veri kümesindeki k. en küçük değeri döndürür</value>
+  </data>
+  <data name="Spreadsheet_SQRT" xml:space="preserve">
+    <value>Pozitif kare kökü döndürür</value>
+  </data>
+  <data name="Spreadsheet_SQRTPI" xml:space="preserve">
+    <value>(sayı * pi)'nin kare kökünü döndürür</value>
+  </data>
+  <data name="Spreadsheet_STANDARDIZE" xml:space="preserve">
+    <value>Normalleştirilmiş bir değer döndürür</value>
+  </data>
+  <data name="Spreadsheet_STDEV" xml:space="preserve">
+    <value>Bir örneğe dayalı standart sapmayı tahmin eder</value>
+  </data>
+  <data name="Spreadsheet_STDEVA" xml:space="preserve">
+    <value>Sayılar, metin ve mantıksal değerler dahil olmak üzere bir örneğe dayalı standart sapmayı tahmin eder</value>
+  </data>
+  <data name="Spreadsheet_STDEVP" xml:space="preserve">
+    <value>Tüm popülasyona dayalı standart sapmayı hesaplar</value>
+  </data>
+  <data name="Spreadsheet_STDEVPA" xml:space="preserve">
+    <value>Sayılar, metin ve mantıksal değerler dahil olmak üzere tüm popülasyona dayalı standart sapmayı hesaplar</value>
+  </data>
+  <data name="Spreadsheet_STEYX" xml:space="preserve">
+    <value>Regresyonda her x için tahmin edilen y değerinin standart hatasını döndürür</value>
+  </data>
+  <data name="Spreadsheet_SUBSTITUTE" xml:space="preserve">
+    <value>Bir metin dizesindeki eski metni yenisiyle değiştirir</value>
+  </data>
+  <data name="Spreadsheet_SUBTOTAL" xml:space="preserve">
+    <value>Bir liste veya veritabanında bir ara toplam döndürür</value>
+  </data>
+  <data name="Spreadsheet_SUM" xml:space="preserve">
+    <value>Bağımsız değişkenlerini toplar</value>
+  </data>
+  <data name="Spreadsheet_SUMIF" xml:space="preserve">
+    <value>Belirli bir ölçüte göre belirtilen hücreleri toplar</value>
+  </data>
+  <data name="Spreadsheet_SUMPRODUCT" xml:space="preserve">
+    <value>Karşılık gelen dizi bileşenlerinin çarpımlarının toplamını döndürür</value>
+  </data>
+  <data name="Spreadsheet_SUMSQ" xml:space="preserve">
+    <value>Bağımsız değişkenlerin karelerinin toplamını döndürür</value>
+  </data>
+  <data name="Spreadsheet_SUMX2MY2" xml:space="preserve">
+    <value>İki dizideki karşılık gelen değerlerin karelerinin farkının toplamını döndürür</value>
+  </data>
+  <data name="Spreadsheet_SUMX2PY2" xml:space="preserve">
+    <value>İki dizideki karşılık gelen değerlerin karelerinin toplamının toplamını döndürür</value>
+  </data>
+  <data name="Spreadsheet_SUMXMY2" xml:space="preserve">
+    <value>İki dizideki karşılık gelen değerlerin farklarının karelerinin toplamını döndürür</value>
+  </data>
+  <data name="Spreadsheet_SWITCH" xml:space="preserve">
+    <value>İlk doğru değere uyan sonucu döndürür</value>
+  </data>
+  <data name="Spreadsheet_SYD" xml:space="preserve">
+    <value>Yıl rakamları toplamı amortismanını döndürür</value>
+  </data>
+  <data name="Spreadsheet_T" xml:space="preserve">
+    <value>Bağımsız değişkenlerini metne dönüştürür</value>
+  </data>
+  <data name="Spreadsheet_TAN" xml:space="preserve">
+    <value>Bir sayının tanjantını döndürür</value>
+  </data>
+  <data name="Spreadsheet_TANH" xml:space="preserve">
+    <value>Bir sayının hiperbolik tanjantını döndürür</value>
+  </data>
+  <data name="Spreadsheet_TEXTFormula" xml:space="preserve">
+    <value>Bir sayıyı biçimlendirir ve metne dönüştürür</value>
+  </data>
+  <data name="Spreadsheet_TEXTBEFORE" xml:space="preserve">
+    <value>Belirli bir karakterden önce meydana gelen metni döndürür</value>
+  </data>
+  <data name="Spreadsheet_TEXTJOIN" xml:space="preserve">
+    <value>Metni ayırıcı ile birleştirir</value>
+  </data>
+  <data name="Spreadsheet_TEXTSPLIT" xml:space="preserve">
+    <value>Hücre metnini satırlar veya sütunlar arasında böler</value>
+  </data>
+  <data name="Spreadsheet_TIMEFormula" xml:space="preserve">
+    <value>Belirli bir zamanın seri numarasını döndürür</value>
+  </data>
+  <data name="Spreadsheet_TIMEVALUE" xml:space="preserve">
+    <value>Metin biçimindeki bir saati seri numaraya dönüştürür</value>
+  </data>
+  <data name="Spreadsheet_TOCOL" xml:space="preserve">
+    <value>Bir diziyi tek sütuna dönüştürür</value>
+  </data>
+  <data name="Spreadsheet_TODAYFormula" xml:space="preserve">
+    <value>Bugünün tarihinin seri numarasını döndürür</value>
+  </data>
+  <data name="Spreadsheet_TOROW" xml:space="preserve">
+    <value>Bir diziyi tek satıra dönüştürür</value>
+  </data>
+  <data name="Spreadsheet_TRANSPOSE" xml:space="preserve">
+    <value>Bir dizinin transpozunu döndürür</value>
+  </data>
+  <data name="Spreadsheet_TRIM" xml:space="preserve">
+    <value>Metinden boşlukları kaldırır</value>
+  </data>
+  <data name="Spreadsheet_TRIMMEAN" xml:space="preserve">
+    <value>Bir veri kümesinin iç kısmının ortalamasını döndürür</value>
+  </data>
+  <data name="Spreadsheet_TRUNC" xml:space="preserve">
+    <value>Bir sayıyı tam sayıya keser</value>
+  </data>
+  <data name="Spreadsheet_TYPE" xml:space="preserve">
+    <value>Bir değerin veri türünü belirten bir sayı döndürür</value>
+  </data>
+  <data name="Spreadsheet_UNIQUE" xml:space="preserve">
+    <value>Bir liste veya aralık içinde bulunan benzersiz değerlerin listesini döndürür</value>
+  </data>
+  <data name="Spreadsheet_UPPER" xml:space="preserve">
+    <value>Metni büyük harfe dönüştürür</value>
+  </data>
+  <data name="Spreadsheet_VALUEFormula" xml:space="preserve">
+    <value>Bir metin argümanını sayıya dönüştürür</value>
+  </data>
+  <data name="Spreadsheet_VALUETOTEXT" xml:space="preserve">
+    <value>Belirtilen herhangi bir değerden metni döndürür</value>
+  </data>
+  <data name="Spreadsheet_VAR" xml:space="preserve">
+    <value>Bir örneğe dayalı varyansı tahmin eder</value>
+  </data>
+  <data name="Spreadsheet_VARA" xml:space="preserve">
+    <value>Sayılar, metin ve mantıksal değerler dahil bir örneğe dayalı varyansı tahmin eder</value>
+  </data>
+  <data name="Spreadsheet_VARP" xml:space="preserve">
+    <value>Tüm popülasyona dayalı varyansı hesaplar</value>
+  </data>
+  <data name="Spreadsheet_VARPA" xml:space="preserve">
+    <value>Tüm değerleri içeren popülasyon varyansını hesaplar</value>
+  </data>
+  <data name="Spreadsheet_VDB" xml:space="preserve">
+    <value>Kısmi dönem için varlık amortismanını döndürür</value>
+  </data>
+  <data name="Spreadsheet_VLOOKUP" xml:space="preserve">
+    <value>İlk sütunda değer arar ve aynı satırdaki hücreyi döndürür</value>
+  </data>
+  <data name="Spreadsheet_WEEKDAY" xml:space="preserve">
+    <value>Bir seri numarayı haftanın gününe dönüştürür</value>
+  </data>
+  <data name="Spreadsheet_WEEKNUM" xml:space="preserve">
+    <value>Yıl içindeki hafta numarasını döndürür</value>
+  </data>
+  <data name="Spreadsheet_WEIBULL" xml:space="preserve">
+    <value>Weibull dağılımını döndürür</value>
+  </data>
+  <data name="Spreadsheet_WORKDAY" xml:space="preserve">
+    <value>Belirtilen iş günlerinden sonraki tarihi döndürür</value>
+  </data>
+  <data name="Spreadsheet_XIRR" xml:space="preserve">
+    <value>Periyodik olmayan nakit akışları için IRR döndürür</value>
+  </data>
+  <data name="Spreadsheet_XLOOKUP" xml:space="preserve">
+    <value>İlk veya yaklaşık eşleşmenin değerini döndürür</value>
+  </data>
+  <data name="Spreadsheet_XMATCH" xml:space="preserve">
+    <value>Aralıktaki değerin konumunu döndürür</value>
+  </data>
+  <data name="Spreadsheet_YEAR" xml:space="preserve">
+    <value>Bir seri numarayı yıla dönüştürür</value>
+  </data>
+  <data name="Spreadsheet_YEARFRAC" xml:space="preserve">
+    <value>Tarihler arasındaki yıl kesrini döndürür</value>
+  </data>
+  <data name="Spreadsheet_ZTEST" xml:space="preserve">
+    <value>Bir z-testinin tek kuyruklu olasılık değerini döndürür</value>
+  </data>
+  <data name="Spreadsheet_FALSE" xml:space="preserve">
+    <value>FALSE mantıksal değerini döndürür</value>
+  </data>
+  <data name="Spreadsheet_TRUE" xml:space="preserve">
+    <value>TRUE mantıksal değerini döndürür</value>
+  </data>
+  <data name="Spreadsheet_function" xml:space="preserve">
+    <value>Gerçekleştirilecek işlev</value>
+  </data>
+  <data name="Spreadsheet_operation" xml:space="preserve">
+    <value>işlem</value>
+  </data>
+  <data name="Spreadsheet_Formulas" xml:space="preserve">
+    <value>Formüller</value>
+  </data>
+  <data name="Spreadsheet_CalculationOption" xml:space="preserve">
+    <value>Hesaplama Seçeneği</value>
+  </data>
+  <data name="Spreadsheet_Automatic" xml:space="preserve">
+    <value>Otomatik</value>
+  </data>
+  <data name="Spreadsheet_Manual" xml:space="preserve">
+    <value>Manuel</value>
+  </data>
+  <data name="Spreadsheet_CalculateSheet" xml:space="preserve">
+    <value>Sayfayı Hesapla</value>
+  </data>
+  <data name="Spreadsheet_Calculatebook" xml:space="preserve">
+    <value>Çalışma Kitabını Hesapla</value>
+  </data>
+  <data name="Spreadsheet_Description" xml:space="preserve">
+      <value>Açıklama</value>
+  </data>
+  <data name="Spreadsheet_PickCategory" xml:space="preserve">
+      <value>Bir kategori seçin</value>
+  </data>
+  <data name="Spreadsheet_AllUsers" xml:space="preserve">
+    <value>Bu çalışma sayfasının tüm kullanıcılarına izin ver</value>
+  </data>
+  <data name="Spreadsheet_RequiredPassword" xml:space="preserve">
+    <value>Gerekirse şifreyi girin</value>
+  </data>
+  <data name="Spreadsheet_SelectLockedCells" xml:space="preserve">
+    <value>Kitlenmiş Hücreleri Seç</value>
+  </data>
+  <data name="Spreadsheet_SelectUnLockedCells" xml:space="preserve">
+    <value>Açılmış Hücreleri Seç</value>
+  </data>
+  <data name="Spreadsheet_FormatCells" xml:space="preserve">
+    <value>Hücreleri Biçimlendir</value>
+  </data>
+  <data name="Spreadsheet_FormatColumns" xml:space="preserve">
+    <value>Sütunları Biçimlendir</value>
+  </data>
+  <data name="Spreadsheet_FormatRows" xml:space="preserve">
+    <value>Satırları Biçimlendir</value>
+  </data>
+  <data name="Spreadsheet_InsertColumns" xml:space="preserve">
+    <value>Sütun Ekle</value>
+  </data>
+  <data name="Spreadsheet_InsertRows" xml:space="preserve">
+    <value>Satır Ekle</value>
+  </data>
+  <data name="Spreadsheet_InsertHyperlinks" xml:space="preserve">
+    <value>Bilgisayar Bağlantıları Ekle</value>
+  </data>
+  <data name="Spreadsheet_UnlockedRanges" xml:space="preserve">
+    <value>Açılmış Aralıklar</value>
+  </data>
+  <data name="Spreadsheet_RangeName" xml:space="preserve">
+    <value>Aralık Adı</value>
+  </data>
+  <data name="Spreadsheet_RangeValue" xml:space="preserve">
+    <value>Aralık Değeri</value>
+  </data>
+  <data name="Spreadsheet_AddRange" xml:space="preserve">
+    <value>Aralık Ekle</value>
+  </data>
+  <data name="Spreadsheet_UpdateRange" xml:space="preserve">
+    <value>Aralık Güncelle</value>
+  </data>
+  <data name="Spreadsheet_EnterRangeName" xml:space="preserve">
+    <value>Aralık Adı Girin</value>
+  </data>
+  <data name="Spreadsheet_Password" xml:space="preserve">
+    <value>Şifre</value>
+  </data>
+  <data name="Spreadsheet_EnterPassword" xml:space="preserve">
+    <value>Şifreyi Girin</value>
+  </data>
+  <data name="Spreadsheet_ConfirmPassword" xml:space="preserve">
+    <value>Şifreyi Onayla</value>
+  </data>
+  <data name="Spreadsheet_ProtectError" xml:space="preserve">
+    <value>Sayfa korumalıdır. Bazı bölümler salt görüntülenebilir olabilir ve değiştirilemez</value>
+  </data>
+  <data name="Spreadsheet_SelectedRange" xml:space="preserve">
+    <value>Boş hücreyi filtreleyemezsiniz. Veri aralığındaki bir hücreyi seçin ve tekrar deneyin.</value>
+  </data>
+  <data name="Spreadsheet_SingleCell" xml:space="preserve">
+    <value>Bir aralıkta tek bir hücre seçin ve tekrar deneyin.</value>
+  </data>
+  <data name="Spreadsheet_Review" xml:space="preserve">
+    <value>İnceleme</value>
+  </data>
+  <data name="Spreadsheet_Protection" xml:space="preserve">
+    <value>Koruma</value>
+  </data>
+  <data name="Spreadsheet_ProtectSheet" xml:space="preserve">
+    <value>Sayfayı Koru</value>
+  </data>
+  <data name="Spreadsheet_UnprotectSheet" xml:space="preserve">
+    <value>Sayfa Korumasını Kaldır</value>
+  </data>
+  <data name="Spreadsheet_Protectbook" xml:space="preserve">
+    <value>Çalışma Kitabını Koru</value>
+  </data>
+  <data name="Spreadsheet_Unprotectbook" xml:space="preserve">
+    <value>Çalışma kitabı korumasını kaldır</value>
+  </data>
+  <data name="Spreadsheet_BookError" xml:space="preserve">
+    <value>Çalışma kitabı korunamadı: </value>
+  </data>
+  <data name="Spreadsheet_IncorrectPassword" xml:space="preserve">
+    <value>Yanlış şifre</value>
+  </data>
+  <data name="Spreadsheet_PasswordOptional" xml:space="preserve">
+    <value>Şifreyi girin</value>
+  </data>
+  <data name="Spreadsheet_PasswordMatch" xml:space="preserve">
+    <value>Parolalar eşleşmiyor</value>
+  </data>
+  <data name="Spreadsheet_ManageProtection" xml:space="preserve">
+    <value>Korumayı Yönet</value>
+  </data>
+  <data name="Spreadsheet_UnlockRange" xml:space="preserve">
+    <value>Aralık Kilidini Aç</value>
+  </data>
+  <data name="Spreadsheet_SheetOptions" xml:space="preserve">
+    <value>Sayfa Seçenekleri</value>
+  </data>
+  <data name="Spreadsheet_Search" xml:space="preserve">
+    <value>Arama</value>
+  </data>
+  <data name="Spreadsheet_SelectAll" xml:space="preserve">
+    <value>Tümünü seç</value>
+  </data>
+  <data name="Spreadsheet_AddCurrentSelectionFilter" xml:space="preserve">
+    <value>Geçerli seçimi filtreye ekle</value>
+  </data>
+  <data name="Spreadsheet_ShowRowsWhere" xml:space="preserve">
+    <value>Sıraları göster</value>
+  </data>
+  <data name="Spreadsheet_AND" xml:space="preserve">
+    <value>Ve</value>
+  </data>
+  <data name="Spreadsheet_OR" xml:space="preserve">
+    <value>Veya</value>
+  </data>
+  <data name="Spreadsheet_MatchCase" xml:space="preserve">
+    <value>Harf uyumu</value>
+  </data>
+  <data name="Spreadsheet_ChooseTime" xml:space="preserve">
+    <value>Zaman seç</value>
+  </data>
+  <data name="Spreadsheet_CustomFilterDatePlaceHolder" xml:space="preserve">
+    <value>Özel filtre tarihi</value>
+  </data>
+  <data name="Spreadsheet_StartsWith" xml:space="preserve">
+    <value>İle başlar</value>
+  </data>
+  <data name="Spreadsheet_DoesNotStartWith" xml:space="preserve">
+    <value>İle başlamaz</value>
+  </data>
+  <data name="Spreadsheet_EndsWith" xml:space="preserve">
+    <value>İle biter</value>
+  </data>
+  <data name="Spreadsheet_DoesNotEndWith" xml:space="preserve">
+    <value>İle bitmez</value>
+  </data>
+  <data name="Spreadsheet_Contains" xml:space="preserve">
+    <value>İçerir</value>
+  </data>
+  <data name="Spreadsheet_DoesNotContain" xml:space="preserve">
+    <value>İçermez</value>
+  </data>
+  <data name="Spreadsheet_Equal" xml:space="preserve">
+    <value>Eşittir</value>
+  </data>
+  <data name="Spreadsheet_NotEqual" xml:space="preserve">
+    <value>Eşit değil</value>
+  </data>
+  <data name="Spreadsheet_LessThan" xml:space="preserve">
+    <value>Küçüktür</value>
+  </data>
+  <data name="Spreadsheet_LessThanOrEqual" xml:space="preserve">
+    <value>Küçük veya eşittir</value>
+  </data>
+  <data name="Spreadsheet_GreaterThan" xml:space="preserve">
+    <value>Büyüktür</value>
+  </data>
+  <data name="Spreadsheet_GreaterThanOrEqual" xml:space="preserve">
+    <value>Büyük veya eşittir</value>
+  </data>
+  <data name="Spreadsheet_Between" xml:space="preserve">
+    <value>Arasında</value>
+  </data>
+  <data name="Spreadsheet_CustomFilter" xml:space="preserve">
+    <value>Özel filtre</value>
+  </data>
+  <data name="Spreadsheet_FilterOperator" xml:space="preserve">
+    <value>Filtre operatörü</value>
+  </data>
+  <data name="Spreadsheet_ClearFilter" xml:space="preserve">
+    <value>Filtreyi temizle</value>
+  </data>
+  <data name="Spreadsheet_NumberFilter" xml:space="preserve">
+    <value>Sayı filtresi</value>
+  </data>
+  <data name="Spreadsheet_TextFilter" xml:space="preserve">
+    <value>Metin filtresi</value>
+  </data>
+  <data name="Spreadsheet_DateFilter" xml:space="preserve">
+    <value>Tarih filtresi</value>
+  </data>
+  <data name="Spreadsheet_TimeFilter" xml:space="preserve">
+    <value>Zaman filtresi</value>
+  </data>
+  <data name="Spreadsheet_DateTimeFilter" xml:space="preserve">
+    <value>Tarih ve zaman filtresi</value>
+  </data>
+  <data name="Spreadsheet_CustomSort" xml:space="preserve">
+    <value>Özel sıralama</value>
+  </data>
+  <data name="Spreadsheet_SortDescending" xml:space="preserve">
+    <value>Azalan sıralama</value>
+  </data>
+  <data name="Spreadsheet_SortAscending" xml:space="preserve">
+    <value>Artan sıralama</value>
+  </data>
+  <data name="Spreadsheet_ClearFilterFrom" xml:space="preserve">
+    <value>Filtreyi temizle</value>
+  </data>
+  <data name="Spreadsheet_FilterByCellValue" xml:space="preserve">
+    <value>Hücre değerine göre filtrele</value>
+  </data>
+  <data name="Spreadsheet_Tomorrow" xml:space="preserve">
+    <value>Yarın</value>
+  </data>
+  <data name="Spreadsheet_Today" xml:space="preserve">
+    <value>Bugün</value>
+  </data>
+  <data name="Spreadsheet_Yesterday" xml:space="preserve">
+    <value>Dün</value>
+  </data>
+  <data name="Spreadsheet_NextWeek" xml:space="preserve">
+    <value>Geçen hafta</value>
+  </data>
+  <data name="Spreadsheet_ThisWeek" xml:space="preserve">
+    <value>Bu hafta</value>
+  </data>
+  <data name="Spreadsheet_LastWeek" xml:space="preserve">
+    <value>Geçen hafta</value>
+  </data>
+  <data name="Spreadsheet_NextMonth" xml:space="preserve">
+    <value>Gelecek ay</value>
+  </data>
+  <data name="Spreadsheet_ThisMonth" xml:space="preserve">
+    <value>Bu ay</value>
+  </data>
+  <data name="Spreadsheet_LastMonth" xml:space="preserve">
+    <value>Geçen ay</value>
+  </data>
+  <data name="Spreadsheet_NextQuater" xml:space="preserve">
+    <value>Gelecek çeyrek</value>
+  </data>
+  <data name="Spreadsheet_ThisQuater" xml:space="preserve">
+    <value>Bu çeyrek</value>
+  </data>
+  <data name="Spreadsheet_LastQuater" xml:space="preserve">
+    <value>Geçen çeyrek</value>
+  </data>
+  <data name="Spreadsheet_NextYear" xml:space="preserve">
+    <value>Gelecek yıl</value>
+  </data>
+  <data name="Spreadsheet_ThisYear" xml:space="preserve">
+    <value>Bu yıl</value>
+  </data>
+  <data name="Spreadsheet_LastYear" xml:space="preserve">
+    <value>Geçen yıl</value>
+  </data>
+  <data name="Spreadsheet_Blanks" xml:space="preserve">
+    <value>Boş</value>
+  </data>
+  <data name="Spreadsheet_DeleteWarning" xml:space="preserve">
+    <value>Silinen sayfayı geri alamazsınız ve bazı verileri kaybedebilirsiniz.</value>
+  </data>
+  <data name="Spreadsheet_CopyCut" xml:space="preserve">
+    <value>Bu, mevcut seçiminizle çalışmayacaktır. Kopyalama alanlarının çakışmadığından emin olun.</value>
+  </data>
+  <data name="Spreadsheet_MultiRange" xml:space="preserve">
+    <value>Bu işlem birden fazla aralık seçimi üzerinde yapılamaz</value>
+  </data>
+  <data name="Spreadsheet_SingleRange" xml:space="preserve">
+    <value>Tek bir aralık seçin ve tekrar deneyin</value>
+  </data>
+  <data name="Spreadsheet_WorkBook" xml:space="preserve">
+    <value>Kaydedilmemiş değişiklikler kaybolacak. Yeni bir çalışma kitabı oluşturmak istediğinizden emin misiniz?</value>
+  </data>
+  <data name="Spreadsheet_DeleteSheet" xml:space="preserve">
+    <value>Bu sayfayı silmek istediğinizden emin misiniz?</value>
+  </data>
+  <data name="Spreadsheet_Spreadsheet" xml:space="preserve">
+    <value>Hesap Tablosu</value>
+  </data>
+  <data name="Spreadsheet_RenameSheet" xml:space="preserve">
+    <value>Sayfa Adını Değiştir</value>
+  </data>
+  <data name="Spreadsheet_RenameSheetTo" xml:space="preserve">
+    <value>Sayfanın adını değiştir</value>
+  </data>
+  <data name="Spreadsheet_EnterName" xml:space="preserve">
+    <value>Sayfanın adını girin</value>
+  </data>
+  <data name="Spreadsheet_SaveAs" xml:space="preserve">
+    <value>Farklı Kaydet</value>
+  </data>
+  <data name="Spreadsheet_MicrosoftExcel" xml:space="preserve">
+    <value>Microsoft Excel</value>
+  </data>
+  <data name="Spreadsheet_MicrosoftExcel972003" xml:space="preserve">
+    <value>Microsoft Excel 97-2003</value>
+  </data>
+  <data name="Spreadsheet_FileName" xml:space="preserve">
+    <value>Dosya adı</value>
+  </data>
+  <data name="Spreadsheet_Save" xml:space="preserve">
+    <value>Kaydet</value>
+  </data>
+  <data name="Spreadsheet_Bold" xml:space="preserve">
+    <value>Kalın</value>
+  </data>
+  <data name="Spreadsheet_Italic" xml:space="preserve">
+    <value>İtalik</value>
+  </data>
+  <data name="Spreadsheet_Strikethrough" xml:space="preserve">
+    <value>Üstü çizili</value>
+  </data>
+  <data name="Spreadsheet_Underline" xml:space="preserve">
+    <value>Altı çizili</value>
+  </data>
+  <data name="Spreadsheet_FontColor" xml:space="preserve">
+    <value>Yazı rengi</value>
+  </data>
+  <data name="Spreadsheet_BackgroundColor" xml:space="preserve">
+    <value>Arka plan rengi</value>
+  </data>
+  <data name="Spreadsheet_VerticalAlignment" xml:space="preserve">
+    <value>Dikey hizalama</value>
+  </data>
+  <data name="Spreadsheet_HorizontalAlignment" xml:space="preserve">
+    <value>Yatay hizalama</value>
+  </data>
+  <data name="Spreadsheet_WrapText" xml:space="preserve">
+    <value>Metni Kaydır</value>
+  </data>
+  <data name="Spreadsheet_ExcelExport" xml:space="preserve">
+    <value>Excel Dışa Aktarma</value>
+  </data>
+  <data name="Spreadsheet_Insert" xml:space="preserve">
+    <value>Ekle</value>
+  </data>
+  <data name="Spreadsheet_Hyperlink" xml:space="preserve">
+    <value>Köprü</value>
+  </data>
+  <data name="Spreadsheet_InvalidLinkAddress" xml:space="preserve">
+    <value>Bu sitenin adresi geçerli değil. Adresi kontrol edin ve tekrar deneyin.</value>
+  </data>
+  <data name="Spreadsheet_LinkOpenFailed" xml:space="preserve">
+    <value>Bağlantı açılamıyor</value>
+  </data>
+  <data name="Spreadsheet_LinkReferenceMissing" xml:space="preserve">
+    <value>Bu bağlantının, çalışma kitabında var olmayabilecek bir referansı var.</value>
+  </data>
+  <data name="Spreadsheet_Update" xml:space="preserve">
+    <value>Güncelleme</value>
+  </data>
+  <data name="Spreadsheet_Cancel" xml:space="preserve">
+    <value>İptal</value>
+  </data>
+  <data name="Spreadsheet_InsertLink" xml:space="preserve">
+    <value>Bağlantı Ekle</value>
+  </data>
+  <data name="Spreadsheet_EditLink" xml:space="preserve">
+    <value>Bağlantıyı Düzenle</value>
+  </data>
+  <data name="Spreadsheet_EditHyperlink" xml:space="preserve">
+    <value>Köprüyü Düzenle</value>
+  </data>
+  <data name="Spreadsheet_OpenHyperlink" xml:space="preserve">
+    <value>Köprüyü Aç</value>
+  </data>
+  <data name="Spreadsheet_RemoveHyperlink" xml:space="preserve">
+    <value>Köprüyü Kaldır</value>
+  </data>
+  <data name="Spreadsheet_NameBox" xml:space="preserve">
+    <value>İsim kutusu</value>
+  </data>
+  <data name="Spreadsheet_InsertFunction" xml:space="preserve">
+    <value>İşlev ekle</value>
+  </data>
+  <data name="Spreadsheet_FormulaBar" xml:space="preserve">
+    <value>Formül çubuğu</value>
+  </data>
+  <data name="Spreadsheet_ExpandFormulaBar" xml:space="preserve">
+    <value>Formül çubuğunu genişletin</value>
+  </data>
+  <data name="Spreadsheet_CollapseFormulaBar" xml:space="preserve">
+    <value>Çökme formül çubuğu</value>
+  </data>
+  <data name="RichTextEditor_InlineCode" xml:space="preserve">
+    <value>Satır İçi Kod</value>
+  </data>
+  <data name="RichTextEditor_SlashMenuHeading1" xml:space="preserve">
+    <value>Başlık 1</value>
+</data>
+<data name="RichTextEditor_SlashMenuHeading2" xml:space="preserve">
+    <value>Başlık 2</value>
+</data>
+<data name="RichTextEditor_SlashMenuHeading3" xml:space="preserve">
+    <value>Başlık 3</value>
+</data>
+<data name="RichTextEditor_SlashMenuHeading4" xml:space="preserve">
+    <value>Başlık 4</value>
+</data>
+<data name="RichTextEditor_SlashMenuParagraph" xml:space="preserve">
+    <value>Paragraf</value>
+</data>
+<data name="RichTextEditor_SlashMenuBlockQuote" xml:space="preserve">
+    <value>Blok alıntı</value>
+</data>
+<data name="RichTextEditor_SlashMenuOrderedList" xml:space="preserve">
+    <value>Sıralı Liste</value>
+</data>
+<data name="RichTextEditor_SlashMenuUnorderedList" xml:space="preserve">
+    <value>Sırasız Liste</value>
+</data>
+<data name="RichTextEditor_SlashMenuCodeBlock" xml:space="preserve">
+    <value>KodBloğu</value>
+</data>
+<data name="RichTextEditor_SlashMenuTable" xml:space="preserve">
+    <value>Masa</value>
+</data>
+<data name="RichTextEditor_SlashMenuImage" xml:space="preserve">
+    <value>Resim</value>
+</data>
+<data name="RichTextEditor_SlashMenuAudio" xml:space="preserve">
+    <value>Ses</value>
+</data>
+<data name="RichTextEditor_SlashMenuVideo" xml:space="preserve">
+    <value>Video</value>
+</data>
+<data name="RichTextEditor_SlashMenuLink" xml:space="preserve">
+    <value>Bağlantı</value>
+</data>
+<data name="RichTextEditor_SlashMenuHeading1Description" xml:space="preserve">
+    <value>Bunu üst düzey bir başlık veya başlık için kullanın.</value>
+</data>
+<data name="RichTextEditor_SlashMenuHeading2Description" xml:space="preserve">
+    <value>Anahtar bölümler için bunu kullanın.</value>
+</data>
+<data name="RichTextEditor_SlashMenuHeading3Description" xml:space="preserve">
+    <value>Bunu alt bölümler ve grup başlıkları için kullanın.</value>
+</data>
+<data name="RichTextEditor_SlashMenuHeading4Description" xml:space="preserve">
+    <value>Alt konuların önemli noktaları için bunu kullanın.</value>
+</data>
+<data name="RichTextEditor_SlashMenuParagraphDescription" xml:space="preserve">
+    <value>Paragraflarla yazma.</value>
+</data>
+<data name="RichTextEditor_SlashMenuBlockQuoteDescription" xml:space="preserve">
+    <value>Bir alıntı veya alıntı oluşturun.</value>
+</data>
+<data name="RichTextEditor_SlashMenuOrderedListDescription" xml:space="preserve">
+    <value>Sıralı bir liste oluşturun.</value>
+</data>
+<data name="RichTextEditor_SlashMenuUnorderedListDescription" xml:space="preserve">
+    <value>Sırasız bir liste oluşturun.</value>
+</data>
+<data name="RichTextEditor_SlashMenuCodeBlockDescription" xml:space="preserve">
+    <value>Önceden biçimlendirilmiş bir kod bloğu oluşturun.</value>
+</data>
+<data name="RichTextEditor_SlashMenuTableDescription" xml:space="preserve">
+    <value>Bir tablo ekleyin.</value>
+</data>
+<data name="RichTextEditor_SlashMenuImageDescription" xml:space="preserve">
+    <value>Bir resim ekleyin.</value>
+</data>
+<data name="RichTextEditor_SlashMenuAudioDescription" xml:space="preserve">
+    <value>Bir ses ekleyin.</value>
+</data>
+<data name="RichTextEditor_SlashMenuVideoDescription" xml:space="preserve">
+    <value>Bir video ekleyin.</value>
+</data>
+<data name="RichTextEditor_SlashMenuLinkDescription" xml:space="preserve">
+    <value>Bir bağlantı ekleyin.</value>
+</data>
+<data name="RichTextEditor_HorizontalLine" xml:space="preserve">
+    <value>Yatay Çizgi</value>
+</data>
+  <data name="RichTextEditor_CodeBlock" xml:space="preserve">
+    <value>Kod Bloğu Ekle</value>
+  </data>
+  <data name="Spreadsheet_Bold" xml:space="preserve">
+    <value>cesur</value>
+  </data>
+  <data name="Spreadsheet_Italic" xml:space="preserve">
+    <value>İtalik</value>
+  </data>
+  <data name="Spreadsheet_Underline" xml:space="preserve">
+    <value>Altını çizmek</value>
+  </data>
+  <data name="Spreadsheet_Strikethrough" xml:space="preserve">
+    <value>Üstü çizili</value>
+  </data>
+  <data name="Spreadsheet_Font" xml:space="preserve">
+    <value>Yazı tipi</value>
+  </data>
+  <data name="Spreadsheet_Clear" xml:space="preserve">
+    <value>Temizlemek</value>
+  </data>
+  <data name="Spreadsheet_Image" xml:space="preserve">
+    <value>görüntü</value>
+  </data>
+  <data name="Spreadsheet_Link" xml:space="preserve">
+    <value>bağlantı</value>
+  </data>
+  <data name="Spreadsheet_New" xml:space="preserve">
+    <value>Yeni</value>
+  </data>
+  <data name="Spreadsheet_Clipboard" xml:space="preserve">
+    <value>Pano</value>
+  </data>
+  <data name="Spreadsheet_ChangeCase" xml:space="preserve">
+    <value>Değişim davası</value>
+  </data>
+  <data name="Spreadsheet_Open" xml:space="preserve">
+    <value>Açık</value>
+  </data>
+  <data name="Spreadsheet_Print" xml:space="preserve">
+    <value>Yazdır</value>
+  </data>
+  <data name="Spreadsheet_Text" xml:space="preserve">
+    <value>Metin</value>
+  </data>
+  <data name="Spreadsheet_Value" xml:space="preserve">
+    <value>değer</value>
+  </data>
+  <data name="Spreadsheet_AlignLeft" xml:space="preserve">
+    <value>Sola hizalamak</value>
+  </data>
+  <data name="Spreadsheet_AlignRight" xml:space="preserve">
+    <value>Sağa Hizala</value>
+  </data>
+  <data name="Spreadsheet_AlignCenter" xml:space="preserve">
+    <value>Merkezi hizalama</value>
+  </data>
+  <data name="Spreadsheet_Justify" xml:space="preserve">
+    <value>haklı çıkarmak</value>
+  </data>
+  <data name="Spreadsheet_ClearAll" xml:space="preserve">
+    <value>Hepsini temizle</value>
+  </data>
+  <data name="Spreadsheet_Descending" xml:space="preserve">
+    <value>Azalan</value>
+  </data>
+  <data name="Spreadsheet_Ascending" xml:space="preserve">
+    <value>Artan</value>
+  </data>
+  <data name="Spreadsheet_Home" xml:space="preserve">
+    <value>Ev</value>
+  </data>
+  <data name="Spreadsheet_CustomSort" xml:space="preserve">
+    <value>Gümrük</value>
+  </data>
+  <data name="Spreadsheet_ClearHyperlinks" xml:space="preserve">
+    <value>Temiz köprüler</value>
+  </data>
+  <data name="Spreadsheet_ClearFormats" xml:space="preserve">
+    <value>Formatları Temizle</value>
+  </data>
+  <data name="Spreadsheet_ClearContents" xml:space="preserve">
+    <value>Net içerik</value>
+  </data>
+  <data name="Spreadsheet_KeepTextOnly" xml:space="preserve">
+    <value>Yalnızca metni saklayın</value>
+  </data>
+  <data name="Spreadsheet_KeepSourceFormat" xml:space="preserve">
+    <value>Kaynak formatını saklayın</value>
+  </data>
+  <data name="Spreadsheet_MergeFormat" xml:space="preserve">
+    <value>Birleştirme biçimi</value>
+  </data>
+  <data name="Spreadsheet_Reapply" xml:space="preserve">
+    <value>Yeniden uygulamak</value>
+  </data>
+  <data name="Spreadsheet_SaveAs" xml:space="preserve">
+    <value>Tasarruf etmek</value>
+  </data>
+  <data name="Spreadsheet_Arial" xml:space="preserve">
+    <value>Arial</value>
+  </data>
+  <data name="Spreadsheet_Currency" xml:space="preserve">
+    <value>Para birimi</value>
+  </data>
+  <data name="Spreadsheet_Custom" xml:space="preserve">
+    <value>görenek</value>
+  </data>
+  <data name="Spreadsheet_General" xml:space="preserve">
+    <value>Genel</value>
+  </data>
+  <data name="Spreadsheet_Number" xml:space="preserve">
+    <value>Numara</value>
+  </data>
+  <data name="Spreadsheet_Percentage" xml:space="preserve">
+    <value>Yüzde</value>
+  </data>
+  <data name="Spreadsheet_TimesNewRoman" xml:space="preserve">
+    <value>Times New Roman</value>
+  </data>
+  <data name="Spreadsheet_Verdana" xml:space="preserve">
+    <value>Verdana</value>
+  </data>
+  <data name="Spreadsheet_SegoeUI" xml:space="preserve">
+    <value>Segoe UI</value>
+  </data>
+  <data name="Spreadsheet_Impact" xml:space="preserve">
+    <value>Impact</value>
+  </data>
+  <data name="Spreadsheet_Georgia" xml:space="preserve">
+    <value>Georgia</value>
+  </data>
+  <data name="Spreadsheet_Windings" xml:space="preserve">
+    <value>Sarma</value>
+  </data>
+  <data name="Spreadsheet_Symbol" xml:space="preserve">
+    <value>Sembol</value>
+  </data>
+  <data name="Spreadsheet_Time" xml:space="preserve">
+    <value>Zaman</value>
+  </data>
+  <data name="Spreadsheet_ShortDate" xml:space="preserve">
+    <value>Kısa tarih</value>
+  </data>
+  <data name="Spreadsheet_SegoePrint" xml:space="preserve">
+    <value>Segoe Baskı</value>
+  </data>
+  <data name="Spreadsheet_SegoeScript" xml:space="preserve">
+    <value>Segoe senaryosu</value>
+  </data>
+  <data name="Spreadsheet_Scientific" xml:space="preserve">
+    <value>İlmi</value>
+  </data>
+  <data name="Spreadsheet_LongDate" xml:space="preserve">
+    <value>Uzun randevu</value>
+  </data>
+  <data name="Spreadsheet_Fraction" xml:space="preserve">
+    <value>Fraksiyon</value>
+  </data>
+  <data name="Spreadsheet_CourierNew" xml:space="preserve">
+    <value>Kurye YENİ</value>
+  </data>
+  <data name="Spreadsheet_Calibri" xml:space="preserve">
+    <value>Kalibri</value>
+  </data>
+  <data name="Spreadsheet_Cambria" xml:space="preserve">
+    <value>Cambria</value>
+  </data>
+  <data name="Spreadsheet_CambriaMath" xml:space="preserve">
+    <value>Cambria matematik</value>
+  </data>
+  <data name="Spreadsheet_Candara" xml:space="preserve">
+    <value>Candara</value>
+  </data>
+  <data name="Spreadsheet_Accounting" xml:space="preserve">
+    <value>Muhasebe</value>
+  </data>
+  <data name="Spreadsheet_Algerian" xml:space="preserve">
+    <value>Cezayir</value>
+  </data>
+  <data name="Spreadsheet_DataOperations" xml:space="preserve">
+    <value>Veri işlemleri</value>
+  </data>
+  <data name="Spreadsheet_DownloadPDF" xml:space="preserve">
+    <value>PDF olarak indirin</value>
+  </data>
+  <data name="Spreadsheet_Filter" xml:space="preserve">
+    <value>filtre</value>
+  </data>
+  <data name="Spreadsheet_File" xml:space="preserve">
+    <value>Dosya</value>
+  </data>
+  <data name="Spreadsheet_Sort" xml:space="preserve">
+    <value>Çeşit</value>
+  </data>
+  <data name="Spreadsheet_AlignBottom" xml:space="preserve">
+    <value>Alta Hizala</value>
+  </data>
+  <data name="Spreadsheet_AlignMiddle" xml:space="preserve">
+    <value>Ortaya Hizala</value>
+  </data>
+  <data name="Spreadsheet_AlignTop" xml:space="preserve">
+    <value>Üste Hizala</value>
+  </data>
+  <data name="Spreadsheet_InsertLeft" xml:space="preserve">
+    <value>Sola sütun ekle</value>
+  </data>
+  <data name="Spreadsheet_InsertRight" xml:space="preserve">
+    <value>Sağdaki sütun ekleyin</value>
+  </data>
+  <data name="Spreadsheet_InsertRowsAbove" xml:space="preserve">
+    <value>Yukarıdaki satırları ekle</value>
+  </data>
+  <data name="Spreadsheet_InsertRowBelow" xml:space="preserve">
+    <value>Aşağıya satır ekle</value>
+  </data>
+  <data name="Spreadsheet_InvalidNameSyntax" xml:space="preserve">
+    <value>Bu adın sözdizimi geçersiz</value>
+  </data>
+  <data name="Spreadsheet_InvalidNameRule1" xml:space="preserve">
+    <value>Bir harf, alt çizgi veya ters eğik çizgi ile başlayın</value>
+  </data>
+  <data name="Spreadsheet_InvalidNameRule2" xml:space="preserve">
+    <value>Kalan karakterler yalnızca harf, rakam, nokta veya alt çizgi içerir</value>
+  </data>
+  <data name="Spreadsheet_InvalidNameRule3" xml:space="preserve">
+    <value>Boşluk veya yasak karakterler kullanmayın</value>
+  </data>
+  <data name="Spreadsheet_NameExists" xml:space="preserve">
+    <value>Bu isim zaten mevcut.</value>
+  </data>
+  <data name="Spreadsheet_RangeNotFound" xml:space="preserve">
+    <value>Seçilen aralık bu sayfada yok.</value>
+  </data>
+  <data name="Spreadsheet_NoDataInRange" xml:space="preserve">
+    <value>Seçilen aralıkta veri yok.</value>
+  </data>
+  <data name="Spreadsheet_CellReference" xml:space="preserve">
+    <value>Geçersiz ad, ad bir hücre referansı olamaz.</value>
+  </data>
+  <data name="Spreadsheet_NameRequired" xml:space="preserve">
+    <value>İsim gereklidir</value>
+  </data>
+  <data name="Spreadsheet_RangeRequired" xml:space="preserve">
+    <value>Aralık gereklidir</value>
+  </data>
+  <data name="Spreadsheet_InvalidRangeFormat" xml:space="preserve">
+    <value>Geçersiz aralık biçimi. A1:B10 veya A1:B10, C1:D5 gibi bir biçim kullanın</value>
+  </data>
+  <data name="Spreadsheet_Scope" xml:space="preserve">
+    <value>Kapsam</value>
+  </data>
+  <data name="Spreadsheet_ManageNames" xml:space="preserve">
+    <value>İsimleri Yönet</value>
+  </data>
+  <data name="Spreadsheet_NameManager" xml:space="preserve">
+    <value>İsim Yöneticisi</value>
+  </data>
+  <data name="Spreadsheet_NoRecords" xml:space="preserve">
+    <value>Kayıt Yok</value>
+  </data>
+  <data name="Spreadsheet_Undo" xml:space="preserve">
+    <value>Geri al</value>
+  </data>
+  <data name="Spreadsheet_Redo" xml:space="preserve">
+    <value>Yinele</value>
+  </data>
+  <data name="Spreadsheet_FontSize" xml:space="preserve">
+    <value>Yazı tipi boyutu</value>
+  </data>
+  <data name="SpeechToText_Aborted_Error" xml:space="preserve">
+    <value>Konuşma tanıma işlemi iptal edildi.</value>
+  </data>
+  <data name="SpeechToText_AudioCapture_Error" xml:space="preserve">
+    <value>Mikrofon algılanmadı. Mikrofonunuzun bağlı olduğundan emin olun.</value>
+  </data>
+  <data name="SpeechToText_Default_Error" xml:space="preserve">
+    <value>Bilinmeyen bir hata oluştu.</value>
+  </data>
+  <data name="SpeechToText_Network_Error" xml:space="preserve">
+    <value>Bir ağ hatası oluştu. İnternet bağlantınızı kontrol edin.</value>
+  </data>
+  <data name="SpeechToText_NoSpeech_Error" xml:space="preserve">
+    <value>Konuşma algılanmadı. Lütfen mikrofona konuşun.</value>
+  </data>
+  <data name="SpeechToText_NotAllowed_Error" xml:space="preserve">
+    <value>Mikrofon erişimi reddedildi. Mikrofon izinlerini verin.</value>
+  </data>
+  <data name="SpeechToText_ServiceNotAllowed_Error" xml:space="preserve">
+    <value>Konuşma tanıma hizmetine bu bağlamda izin verilmiyor.</value>
+  </data>
+  <data name="SpeechToText_UnsupportedBrowser_Error" xml:space="preserve">
+    <value>Tarayıcı SpeechRecognition API'sini desteklemiyor.</value>
+  </data>
+  <data name="SpeechToText_Start_AriaLabel" xml:space="preserve">
+    <value>Konuşmaya başlamak ve kelimelerinizi çevirmek için basın</value>
+  </data>
+  <data name="SpeechToText_Stop_AriaLabel" xml:space="preserve">
+    <value>Konuşmayı durdurmak ve çeviriyi sonlandırmak için basın</value>
+  </data>
+  <data name="SpeechToText_Start_TooltipText" xml:space="preserve">
+    <value>Dinlemeyi başlat</value>
+  </data>
+  <data name="SpeechToText_Stop_TooltipText" xml:space="preserve">
+    <value>Dinlemeyi durdur</value>
+  </data>
+  <data name="PdfViewer_SolidStyle" xml:space="preserve">
+    <value>Sağlam</value>
+  </data>
+  <data name="PdfViewer_DashedStyle" xml:space="preserve">
+    <value>Kesikli</value>
+  </data>
+  <data name="PdfViewer_DottedStyle" xml:space="preserve">
+    <value>Noktalı</value>
+  </data>
+  <data name="PdfViewer_MarkForRedaction" xml:space="preserve">
+    <value>Sansür için işaretle</value>
+  </data>
+  <data name="PdfViewer_RedactPages" xml:space="preserve">
+      <value>Sayfaları sansürle</value>
+  </data>
+  <data name="PdfViewer_RedactionPanel" xml:space="preserve">
+      <value>Sansür paneli</value>
+  </data>
+  <data name="PdfViewer_Redact" xml:space="preserve">
+      <value>Sansürle</value>
+  </data>
+  <data name="PdfViewer_Redaction" xml:space="preserve">
+      <value>Sansür</value>
+  </data>
+  <data name="PdfViewer_OverlayText" xml:space="preserve">
+      <value>Bindirme metni</value>
+  </data>
+  <data name="PdfViewer_RepeatText" xml:space="preserve">
+      <value>Metni tekrarla</value>
+  </data>
+  <data name="PdfViewer_UseOverlayText" xml:space="preserve">
+      <value>Bindirme metni kullan</value>
+  </data>
+  <data name="PdfViewer_OutlineColor" xml:space="preserve">
+      <value>Çerçeve rengi</value>
+  </data>
+  <data name="PdfViewer_FillOpacity" xml:space="preserve">
+      <value>Dolgu opaklığı</value>
+  </data>
+  <data name="PdfViewer_MarkPageRange" xml:space="preserve">
+      <value>Sayfa Aralığını İşaretle</value>
+  </data>
+  <data name="PdfViewer_CurrentPage" xml:space="preserve">
+      <value>Mevcut Sayfa</value>
+  </data>
+  <data name="PdfViewer_OddPagesOnly" xml:space="preserve">
+      <value>Sadece Tek Sayfalar</value>
+  </data>
+  <data name="PdfViewer_EvenPagesOnly" xml:space="preserve">
+      <value>Sadece Çift Sayfalar</value>
+  </data>
+  <data name="PdfViewer_SpecificPages" xml:space="preserve">
+      <value>Belirli Sayfalar</value>
+  </data>
+  <data name="PdfViewer_PageRange" xml:space="preserve">
+      <value>Sayfa Aralığı</value>
+  </data>
+  <data name="PdfViewer_RedactionConfirmation" xml:space="preserve">
+    <value>Sansür için işaretlenmiş tüm içerikler belgede kalıcı olarak kaldırılacaktır. Bu işlem geri alınamaz.</value>
+  </data>
+  <data name="PdfViewer_RedactHeader" xml:space="preserve">
+    <value>Sansürü Uygula</value>
+  </data>
+  <data name="Spreadsheet_CollapseRibbonTab" xml:space="preserve">
+    <value>Çökme araç çubuğu</value>
+  </data>
+  <data name="Spreadsheet_ExpandRibbonTab" xml:space="preserve">
+    <value>Araç Çubuğunu Genişlet</value>
+  </data>
+  <data name="RichTextEditor_FormatPainter" xml:space="preserve">
+    <value>Biçim Boyacısı</value>
+  </data>
+  <data name="DataForm_SubmitContent" xml:space="preserve">
+    <value>Gönder</value>
   </data>
 </root>
