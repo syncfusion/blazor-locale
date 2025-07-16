@@ -1,17 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
-  <!-- 
-    Microsoft ResX Schema 
-    
+  <!--
+    Microsoft ResX Schema
+
     Version 2.0
-    
-    The primary goals of this format is to allow a simple XML format 
-    that is mostly human readable. The generation and parsing of the 
-    various data types are done through the TypeConverter classes 
+
+    The primary goals of this format is to allow a simple XML format
+    that is mostly human readable. The generation and parsing of the
+    various data types are done through the TypeConverter classes
     associated with the data types.
-    
+
     Example:
-    
+
     ... ado.net/XML headers & schema ...
     <resheader name="resmimetype">text/microsoft-resx</resheader>
     <resheader name="version">2.0</resheader>
@@ -26,36 +26,36 @@
         <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
         <comment>This is a comment</comment>
     </data>
-                
-    There are any number of "resheader" rows that contain simple 
+
+    There are any number of "resheader" rows that contain simple
     name/value pairs.
-    
-    Each data row contains a name, and value. The row also contains a 
-    type or mimetype. Type corresponds to a .NET class that support 
-    text/value conversion through the TypeConverter architecture. 
-    Classes that don't support this are serialized and stored with the 
+
+    Each data row contains a name, and value. The row also contains a
+    type or mimetype. Type corresponds to a .NET class that support
+    text/value conversion through the TypeConverter architecture.
+    Classes that don't support this are serialized and stored with the
     mimetype set.
-    
-    The mimetype is used for serialized objects, and tells the 
-    ResXResourceReader how to depersist the object. This is currently not 
+
+    The mimetype is used for serialized objects, and tells the
+    ResXResourceReader how to depersist the object. This is currently not
     extensible. For a given mimetype the value must be set accordingly:
-    
-    Note - application/x-microsoft.net.object.binary.base64 is the format 
-    that the ResXResourceWriter will generate, however the reader can 
+
+    Note - application/x-microsoft.net.object.binary.base64 is the format
+    that the ResXResourceWriter will generate, however the reader can
     read any of the formats listed below.
-    
+
     mimetype: application/x-microsoft.net.object.binary.base64
-    value   : The object must be serialized with 
+    value   : The object must be serialized with
             : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
             : and then encoded with base64 encoding.
-    
+
     mimetype: application/x-microsoft.net.object.soap.base64
-    value   : The object must be serialized with 
+    value   : The object must be serialized with
             : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
             : and then encoded with base64 encoding.
 
     mimetype: application/x-microsoft.net.object.bytearray.base64
-    value   : The object must be serialized into a byte array 
+    value   : The object must be serialized into a byte array
             : using a System.ComponentModel.TypeConverter
             : and then encoded with base64 encoding.
     -->
@@ -4578,11 +4578,32 @@
   <data name="PdfViewer_HandwrittenSignatureDialogHeaderText" xml:space="preserve">
     <value>Pridajte podpis</value>
   </data>
-  <data name="PdfViewer_HandwrittenInitialDialogHeaderText" xml:space="preserve">  
+  <data name="PdfViewer_HandwrittenInitialDialogHeaderText" xml:space="preserve">
     <value>Pridať iniciály</value>
   </data>
   <data name="PdfViewer_DrawInk" xml:space="preserve">
     <value>Nakreslite atrament</value>
+  </data>
+  <data name="PdfViewer_PromptPlaceholder" xml:space="preserve">
+    <value>Napíšte svoju požiadavku na asistenciu...</value>
+  </data>
+  <data name="PdfViewer_AIAssistHeader" xml:space="preserve">
+    <value>Asistent AI</value>
+  </data>
+  <data name="PdfViewer_AIAssistBannerTitle" xml:space="preserve">
+    <value>Podpora AI</value>
+  </data>
+  <data name="PdfViewer_AIAssistBannerSubtitle" xml:space="preserve">
+    <value>Váš každodenný AI pomocník</value>
+  </data>
+  <data name="PdfViewer_ErrorDialogHeader" xml:space="preserve">
+    <value>Chyba služby AI</value>
+  </data>
+  <data name="PdfViewer_CredentialErrorContent" xml:space="preserve">
+    <value>Prihlasovacie údaje neboli zadané, sú nesprávne alebo neplatné. Skontrolujte a zadajte správne údaje a skúste to znova.</value>
+  </data>
+  <data name="PdfViewer_ConnectionLostErrorContent" xml:space="preserve">
+    <value>Pripojenie k službe AI bolo prerušené. Skontrolujte svoje internetové pripojenie a skúste to znova.</value>
   </data>
   <data name="DocumentEditor_Table" xml:space="preserve">
     <value>stôl</value>
@@ -6262,9 +6283,9 @@
     <value>Webové rozloženie</value>
   </data>
   <data name="DocumentEditorContainer_ToggleBetweenTheInternalClipboardAndSystemClipboard" xml:space="preserve">
-    <value>Prepínanie medzi internou schránkou a systémovou schránkou. 
- Z dôvodu bezpečnostných pravidiel prehliadača je prístup do systémovej schránky prostredníctvom skriptu zamietnutý. Namiesto toho, 
- 1. Môžete povoliť vystrihnutie, kopírovanie a prilepenie vnútornej schránky do komponentu. 
+    <value>Prepínanie medzi internou schránkou a systémovou schránkou.
+ Z dôvodu bezpečnostných pravidiel prehliadača je prístup do systémovej schránky prostredníctvom skriptu zamietnutý. Namiesto toho,
+ 1. Môžete povoliť vystrihnutie, kopírovanie a prilepenie vnútornej schránky do komponentu.
  2. Na vystrihnutie môžete použiť klávesové skratky (Ctrl + X, Ctrl + C a Ctrl + V). , skopírujte a prilepte do systémovej schránky.</value>
   </data>
   <data name="DocumentEditorContainer_TextForm" xml:space="preserve">
@@ -6744,8 +6765,1580 @@
   <data name="ChatUI_ThreeUserTyping" xml:space="preserve">
     <value>{0}, {1} a ďalší ({2}) píšu</value>
   </data>
+  <data name="Spreadsheet_InvalidPassword" xml:space="preserve">
+    <value>Neplatné heslo. Skúste znova.</value>
+  </data>
+  <data name="Spreadsheet_Delete" xml:space="preserve">
+    <value>Odstrániť</value>
+  </data>
+  <data name="Spreadsheet_Duplicate" xml:space="preserve">
+    <value>Duplikovať</value>
+  </data>
+  <data name="Spreadsheet_Rename" xml:space="preserve">
+    <value>Premenovať</value>
+  </data>
+  <data name="Spreadsheet_MoveRight" xml:space="preserve">
+    <value>Presunúť doprava</value>
+  </data>
+  <data name="Spreadsheet_MoveLeft" xml:space="preserve">
+    <value>Presunúť doľava</value>
+  </data>
+  <data name="Spreadsheet_Copy" xml:space="preserve">
+    <value>Kopírovať</value>
+  </data>
+  <data name="Spreadsheet_Cut" xml:space="preserve">
+    <value>Vystrihnúť</value>
+  </data>
+  <data name="Spreadsheet_Paste" xml:space="preserve">
+    <value>Prilepiť</value>
+  </data>
+  <data name="Spreadsheet_InsertLeft" xml:space="preserve">
+    <value>Vložiť stĺpec vľavo</value>
+  </data>
+  <data name="Spreadsheet_InsertRight" xml:space="preserve">
+    <value>Vložiť stĺpec vpravo</value>
+  </data>
+  <data name="Spreadsheet_InsertRowsAbove" xml:space="preserve">
+    <value>Vložiť riadky nad</value>
+  </data>
+  <data name="Spreadsheet_InsertRowsBelow" xml:space="preserve">
+    <value>Vložiť riadky pod</value>
+  </data>
+  <data name="Spreadsheet_Sort" xml:space="preserve">
+    <value>Zoradiť</value>
+  </data>
+  <data name="Spreadsheet_ClearAll" xml:space="preserve">
+    <value>Vymazať všetko</value>
+  </data>
+  <data name="Spreadsheet_ClearFormats" xml:space="preserve">
+    <value>Vymazať formáty</value>
+  </data>
+  <data name="Spreadsheet_ClearContents" xml:space="preserve">
+    <value>Vymazať obsah</value>
+  </data>
+  <data name="Spreadsheet_ClearHyperlinks" xml:space="preserve">
+    <value>Vymazať hypertextové odkazy</value>
+  </data>
+  <data name="Spreadsheet_Clear" xml:space="preserve">
+    <value>Vymazať</value>
+  </data>
+  <data name="Spreadsheet_Home" xml:space="preserve">
+    <value>Domov</value>
+  </data>
+  <data name="Spreadsheet_Link" xml:space="preserve">
+    <value>Odkaz</value>
+  </data>
+  <data name="Spreadsheet_File" xml:space="preserve">
+    <value>Súbor</value>
+  </data>
+  <data name="Spreadsheet_Image" xml:space="preserve">
+    <value>Obrázok</value>
+  </data>
+  <data name="Spreadsheet_New" xml:space="preserve">
+    <value>Nový</value>
+  </data>
+  <data name="Spreadsheet_Open" xml:space="preserve">
+    <value>Otvoriť</value>
+  </data>
+  <data name="Spreadsheet_ABS" xml:space="preserve">
+    <value>Vráti absolútnu hodnotu čísla</value>
+  </data>
+  <data name="Spreadsheet_ACOS" xml:space="preserve">
+    <value>Vráti oblúkový kosínus čísla</value>
+  </data>
+  <data name="Spreadsheet_ACOSH" xml:space="preserve">
+    <value>Vráti inverzný hyperbolický kosínus čísla</value>
+  </data>
+  <data name="Spreadsheet_ADDRESS" xml:space="preserve">
+    <value>Vráti odkaz ako text na bunku</value>
+  </data>
+  <data name="Spreadsheet_ANDFormula" xml:space="preserve">
+    <value>Vráti PRAVDA, ak sú všetky jeho argumenty PRAVDA</value>
+  </data>
+    <data name="Spreadsheet_AREAS" xml:space="preserve">
+    <value>Vráti počet oblastí v odkaze</value>
+  </data>
+  <data name="Spreadsheet_ARRAYTOTEXT" xml:space="preserve">
+    <value>Vráti textovú reprezentáciu poľa</value>
+  </data>
+  <data name="Spreadsheet_ASC" xml:space="preserve">
+    <value>Konvertuje znaky plnej šírky na znaky polovičnej šírky v reťazci</value>
+  </data>
+  <data name="Spreadsheet_ASIN" xml:space="preserve">
+    <value>Vráti arkus sínus čísla</value>
+  </data>
+  <data name="Spreadsheet_ASINH" xml:space="preserve">
+    <value>Vráti inverzný hyperbolický sínus čísla</value>
+  </data>
+  <data name="Spreadsheet_ATAN" xml:space="preserve">
+    <value>Vráti arkus tangens čísla</value>
+  </data>
+  <data name="Spreadsheet_ATAN2" xml:space="preserve">
+    <value>Vráti arkus tangens zo súradníc x a y</value>
+  </data>
+  <data name="Spreadsheet_ATANH" xml:space="preserve">
+    <value>Vráti inverzný hyperbolický tangens čísla</value>
+  </data>
+  <data name="Spreadsheet_AVEDEV" xml:space="preserve">
+    <value>Vráti priemer absolútnych odchýlok od priemeru</value>
+  </data>
+  <data name="Spreadsheet_AVERAGE" xml:space="preserve">
+    <value>Vráti priemer argumentov</value>
+  </data>
+  <data name="Spreadsheet_AVERAGEA" xml:space="preserve">
+    <value>Vráti priemer svojich argumentov</value>
+  </data>
+  <data name="Spreadsheet_AVERAGEIF" xml:space="preserve">
+    <value>Vráti priemer buniek spĺňajúcich kritérium</value>
+  </data>
+  <data name="Spreadsheet_AVERAGEIFS" xml:space="preserve">
+    <value>Vráti priemer buniek spĺňajúcich viaceré kritériá</value>
+  </data>
+  <data name="Spreadsheet_BESSELI" xml:space="preserve">
+    <value>Vráti modifikovanú Besselovu funkciu In(x)</value>
+  </data>
+  <data name="Spreadsheet_BESSELJ" xml:space="preserve">
+    <value>Vráti Besselovu funkciu Jn(x)</value>
+  </data>
+  <data name="Spreadsheet_BESSELK" xml:space="preserve">
+    <value>Vráti modifikovanú Besselovu funkciu Kn(x)</value>
+  </data>
+  <data name="Spreadsheet_BESSELY" xml:space="preserve">
+    <value>Vráti Besselovu funkciu Yn(x)</value>
+  </data>
+  <data name="Spreadsheet_BIN2DEC" xml:space="preserve">
+    <value>Prevádza binárne číslo na desatinné</value>
+  </data>
+  <data name="Spreadsheet_BIN2HEX" xml:space="preserve">
+    <value>Prevádza binárne číslo na šestnástkové</value>
+  </data>
+  <data name="Spreadsheet_BIN2OCT" xml:space="preserve">
+    <value>Prevádza binárne číslo na osmičkové</value>
+  </data>
+  <data name="Spreadsheet_BINOMDIST" xml:space="preserve">
+    <value>Vráti pravdepodobnosť binomického rozdelenia</value>
+  </data>
+  <data name="Spreadsheet_BYCOL" xml:space="preserve">
+    <value>Aplikuje LAMBDA na každý stĺpec a vráti pole výsledkov</value>
+  </data>
+  <data name="Spreadsheet_BYROW" xml:space="preserve">
+    <value>Aplikuje LAMBDA na každý riadok a vráti pole výsledkov</value>
+  </data>
+  <data name="Spreadsheet_CEILING" xml:space="preserve">
+    <value>Zaokrúhluje číslo na najbližšie celé číslo alebo násobok</value>
+  </data>
+  <data name="Spreadsheet_CELL" xml:space="preserve">
+    <value>Vráti informácie o formátovaní, umiestnení alebo obsahu</value>
+  </data>
+  <data name="Spreadsheet_CHAR" xml:space="preserve">
+    <value>Vráti znak určený číslom kódu</value>
+  </data>
+  <data name="Spreadsheet_CHIDIST" xml:space="preserve">
+    <value>Vráti jednostrannú pravdepodobnosť chi-kvadrát rozdelenia</value>
+  </data>
+  <data name="Spreadsheet_CHIINV" xml:space="preserve">
+    <value>Vráti inverznú hodnotu chi-kvadrát rozdelenia</value>
+  </data>
+  <data name="Spreadsheet_CHITEST" xml:space="preserve">
+    <value>Vráti test nezávislosti</value>
+  </data>
+  <data name="Spreadsheet_CHOOSE" xml:space="preserve">
+    <value>Vyberie hodnotu zo zoznamu hodnôt</value>
+  </data>
+  <data name="Spreadsheet_CHOOSECOLS" xml:space="preserve">
+    <value>Vráti zadané stĺpce z poľa</value>
+  </data>
+  <data name="Spreadsheet_CHOOSEROWS" xml:space="preserve">
+    <value>Vráti zadané riadky z poľa</value>
+  </data>
+  <data name="Spreadsheet_CLEAN" xml:space="preserve">
+    <value>Odstráni z textu všetky netlačiteľné znaky</value>
+  </data>
+  <data name="Spreadsheet_CODE" xml:space="preserve">
+    <value>Vráti číselný kód pre prvý znak v textovom reťazci</value>
+  </data>
+  <data name="Spreadsheet_COLUMN" xml:space="preserve">
+    <value>Vráti číslo stĺpca odkazu</value>
+  </data>
+  <data name="Spreadsheet_COLUMNS" xml:space="preserve">
+    <value>Vráti počet stĺpcov v odkaze</value>
+  </data>
+  <data name="Spreadsheet_COMBIN" xml:space="preserve">
+    <value>Vráti počet kombinácií pre daný počet objektov</value>
+  </data>
+  <data name="Spreadsheet_COMPLEX" xml:space="preserve">
+    <value>Prevádza reálne a imaginárne koeficienty na komplexné číslo</value>
+  </data>
+  <data name="Spreadsheet_CONCAT" xml:space="preserve">
+    <value>Kombinuje text z viacerých rozsahov a/alebo reťazcov</value>
+  </data>
+  <data name="Spreadsheet_CONCATENATE" xml:space="preserve">
+    <value>Spojí niekoľko textových položiek do jednej textovej položky</value>
+  </data>
+  <data name="Spreadsheet_CONFIDENCE" xml:space="preserve">
+    <value>Vráti interval spoľahlivosti pre priemer populácie</value>
+  </data>
+  <data name="Spreadsheet_CONVERT" xml:space="preserve">
+    <value>Prevádza číslo z jedného systému merania do iného</value>
+  </data>
+  <data name="Spreadsheet_CORREL" xml:space="preserve">
+    <value>Vráti korelačný koeficient medzi dvoma množinami údajov</value>
+  </data>
+  <data name="Spreadsheet_COS" xml:space="preserve">
+    <value>Vráti kosínus čísla</value>
+  </data>
+  <data name="Spreadsheet_COSH" xml:space="preserve">
+    <value>Vráti hyperbolický kosínus čísla</value>
+  </data>
+  <data name="Spreadsheet_COUNT" xml:space="preserve">
+    <value>Počíta, koľko čísel je v zozname argumentov</value>
+  </data>
+  <data name="Spreadsheet_COUNTA" xml:space="preserve">
+    <value>Počíta, koľko hodnôt je v zozname argumentov</value>
+  </data>
+  <data name="Spreadsheet_COUNTBLANK" xml:space="preserve">
+    <value>Počíta počet prázdnych buniek v rozsahu</value>
+  </data>
+  <data name="Spreadsheet_COUNTIF" xml:space="preserve">
+    <value>Počíta bunky, ktoré spĺňajú dané kritériá</value>
+  </data>
+  <data name="Spreadsheet_COVAR" xml:space="preserve">
+    <value>Vráti kovarianciu, priemer súčinov párových odchýlok</value>
+  </data>
+  <data name="Spreadsheet_CRITBINOM" xml:space="preserve">
+    <value>Vráti najmenšiu hodnotu pre kumulatívne binomické rozdelenie</value>
+  </data>
+  <data name="Spreadsheet_CUMIPMT" xml:space="preserve">
+    <value>Vráti kumulatívny úrok zaplatený medzi dvoma obdobiami</value>
+  </data>
+  <data name="Spreadsheet_CUMPRINC" xml:space="preserve">
+    <value>Vráti kumulatívnu istinu zaplatenú pri pôžičke medzi dvoma obdobiami</value>
+  </data>
+  <data name="Spreadsheet_DATE" xml:space="preserve">
+    <value>Vráti sériové číslo konkrétneho dátumu</value>
+  </data>
+  <data name="Spreadsheet_DATEVALUE" xml:space="preserve">
+    <value>Prevádza dátum vo forme textu na sériové číslo</value>
+  </data>
+  <data name="Spreadsheet_DAY" xml:space="preserve">
+    <value>Prevádza sériové číslo na deň v mesiaci</value>
+  </data>
+  <data name="Spreadsheet_DAYS360" xml:space="preserve">
+    <value>Vypočíta počet dní medzi dvoma dátumami na základe 360-dňového roka</value>
+  </data>
+  <data name="Spreadsheet_DB" xml:space="preserve">
+    <value>Vráti odpis majetku pomocou metódy fixného klesajúceho zostatku</value>
+  </data>
+  <data name="Spreadsheet_DDB" xml:space="preserve">
+    <value>Vráti odpis majetku pomocou metódy dvojitého klesajúceho zostatku</value>
+  </data>
+  <data name="Spreadsheet_DEC2BIN" xml:space="preserve">
+    <value>Prevádza desatinné číslo na binárne</value>
+  </data>
+  <data name="Spreadsheet_DECHEX" xml:space="preserve">
+    <value>Prevádza desatinné číslo na hexadecimálne</value>
+  </data>
+  <data name="Spreadsheet_DEC2OCT" xml:space="preserve">
+    <value>Prevádza desatinné číslo na osmičkové</value>
+  </data>
+  <data name="Spreadsheet_DEGREES" xml:space="preserve">
+    <value>Prevádza radiány na stupne</value>
+  </data>
+  <data name="Spreadsheet_DELTA" xml:space="preserve">
+    <value>Testuje, či sú dve hodnoty rovnaké</value>
+  </data>
+  <data name="Spreadsheet_DEVSQ" xml:space="preserve">
+    <value>Vráti súčet štvorcov odchýlok</value>
+  </data>
+  <data name="Spreadsheet_DISC" xml:space="preserve">
+    <value>Vráti diskontnú sadzbu cenného papiera</value>
+  </data>
+  <data name="Spreadsheet_DOLLAR" xml:space="preserve">
+    <value>Prevádza číslo na text pomocou formátu meny $ (dolár)</value>
+  </data>
+  <data name="Spreadsheet_DOLLARDE" xml:space="preserve">
+    <value>Prevádza zlomkovú cenu dolára na desatinnú</value>
+  </data>
+  <data name="Spreadsheet_DOLLARFR" xml:space="preserve">
+    <value>Prevádza desatinnú cenu dolára na zlomkovú</value>
+  </data>
+  <data name="Spreadsheet_DURATION" xml:space="preserve">
+    <value>Vráti ročné trvanie cenného papiera s pravidelnými úrokovými platbami</value>
+  </data>
+  <data name="Spreadsheet_EDATE" xml:space="preserve">
+    <value>Vráti dátum, ktorý je o zadaný počet mesiacov pred/po počiatočnom dátume</value>
+  </data>
+  <data name="Spreadsheet_EFFECT" xml:space="preserve">
+    <value>Vráti efektívnu ročnú úrokovú sadzbu</value>
+  </data>
+  <data name="Spreadsheet_EOMONTH" xml:space="preserve">
+    <value>Vráti posledný deň mesiaca pred/po zadanom počte mesiacov</value>
+  </data>
+  <data name="Spreadsheet_ERF" xml:space="preserve">
+    <value>Vráti chybovú funkciu</value>
+  </data>
+  <data name="Spreadsheet_ERFC" xml:space="preserve">
+    <value>Vráti doplnkovú chybovú funkciu</value>
+  </data>
+  <data name="Spreadsheet_ERRORTYPE" xml:space="preserve">
+    <value>Vráti číslo zodpovedajúce typu chyby</value>
+  </data>
+  <data name="Spreadsheet_EVEN" xml:space="preserve">
+    <value>Zaokrúhli číslo nahor na najbližšie párne celé číslo</value>
+  </data>
+  <data name="Spreadsheet_EXACT" xml:space="preserve">
+    <value>Kontroluje, či sú dve textové hodnoty identické</value>
+  </data>
+  <data name="Spreadsheet_EXP" xml:space="preserve">
+    <value>Vráti e umocnené na zadané číslo</value>
+  </data>
+  <data name="Spreadsheet_EXPONDIST" xml:space="preserve">
+    <value>Vráti exponenciálne rozdelenie</value>
+  </data>
+  <data name="Spreadsheet_FACT" xml:space="preserve">
+    <value>Vráti faktoriál čísla</value>
+  </data>
+  <data name="Spreadsheet_FACTDOUBLE" xml:space="preserve">
+    <value>Vráti dvojitý faktoriál čísla</value>
+  </data>
+  <data name="Spreadsheet_FDIST" xml:space="preserve">
+    <value>Vráti F rozdelenie pravdepodobnosti</value>
+  </data>
+  <data name="Spreadsheet_FIND" xml:space="preserve">
+    <value>Nájde jednu textovú hodnotu vo vnútri inej (rozlišuje veľké a malé písmená)</value>
+  </data>
+  <data name="Spreadsheet_FINDB" xml:space="preserve">
+    <value>Nájde jednu textovú hodnotu vo vnútri inej (rozlišuje veľké a malé písmená)</value>
+  </data>
+  <data name="Spreadsheet_FINV" xml:space="preserve">
+    <value>Vráti inverznú hodnotu k F rozdeleniu pravdepodobnosti</value>
+  </data>
+  <data name="Spreadsheet_FISHER" xml:space="preserve">
+    <value>Vráti Fisherovu transformáciu</value>
+  </data>
+  <data name="Spreadsheet_FISHERINV" xml:space="preserve">
+    <value>Vráti inverznú hodnota k Fisherovej transformácii</value>
+  </data>
+  <data name="Spreadsheet_FIXED" xml:space="preserve">
+    <value>Formátuje číslo ako text s pevným počtom desatinných miest</value>
+  </data>
+  <data name="Spreadsheet_FLOOR" xml:space="preserve">
+    <value>Zaokrúhli číslo nadol, smerom k nule</value>
+  </data>
+  <data name="Spreadsheet_FORECAST" xml:space="preserve">
+    <value>Vráti hodnotu pozdĺž lineárneho trendu</value>
+  </data>
+  <data name="Spreadsheet_FV" xml:space="preserve">
+    <value>Vráti budúcu hodnotu investície</value>
+  </data>
+  <data name="Spreadsheet_FVSCHEDULE" xml:space="preserve">
+    <value>Vráti budúcu hodnotu po zložených úrokových sadzbách</value>
+  </data>
+  <data name="Spreadsheet_GAMMADIST" xml:space="preserve">
+    <value>Vráti gama rozdelenie</value>
+  </data>
+  <data name="Spreadsheet_GAMMAINV" xml:space="preserve">
+    <value>Vráti inverznú hodnotu kumulatívneho gama rozdelenia</value>
+  </data>
+  <data name="Spreadsheet_GAMMALN" xml:space="preserve">
+    <value>Vráti prirodzený logaritmus gama funkcie, Γ(x)</value>
+  </data>
+  <data name="Spreadsheet_GCD" xml:space="preserve">
+    <value>Vráti najväčší spoločný deliteľ</value>
+  </data>
+  <data name="Spreadsheet_GEOMEAN" xml:space="preserve">
+    <value>Vráti geometrický priemer</value>
+  </data>
+  <data name="Spreadsheet_GESTEP" xml:space="preserve">
+    <value>Testuje, či je číslo väčšie ako prahová hodnota</value>
+  </data>
+  <data name="Spreadsheet_GROWTH" xml:space="preserve">
+    <value>Vráti hodnoty pozdĺž exponenciálneho trendu</value>
+  </data>
+  <data name="Spreadsheet_HARMEAN" xml:space="preserve">
+    <value>Vráti harmonický priemer</value>
+  </data>
+  <data name="Spreadsheet_HEX2BIN" xml:space="preserve">
+    <value>Konvertuje hexadecimálne číslo na binárne</value>
+  </data>
+  <data name="Spreadsheet_HEX2DEC" xml:space="preserve">
+    <value>Konvertuje hexadecimálne číslo na decimálne</value>
+  </data>
+  <data name="Spreadsheet_HEX2OCT" xml:space="preserve">
+    <value>Konvertuje hexadecimálne číslo na oktálne</value>
+  </data>
+  <data name="Spreadsheet_HLOOKUP" xml:space="preserve">
+    <value>Vyhľadá v hornom riadku poľa a vráti hodnotu uvedenej bunky</value>
+  </data>
+  <data name="Spreadsheet_HOUR" xml:space="preserve">
+    <value>Konvertuje sériové číslo na hodinu</value>
+  </data>
+  <data name="Spreadsheet_HYPERLINKFormula" xml:space="preserve">
+    <value>Vytvorí skratku na otvorenie dokumentu v sieti/internete</value>
+  </data>
+  <data name="Spreadsheet_HYPGEOMDIST" xml:space="preserve">
+    <value>Vráti hypergeometrické rozdelenie</value>
+  </data>
+  <data name="Spreadsheet_IF" xml:space="preserve">
+    <value>Špecifikuje logický test na vykonanie</value>
+  </data>
+  <data name="Spreadsheet_IFERROR" xml:space="preserve">
+    <value>Vráti zadanú hodnotu, ak vzorec vyhodnotí chybu</value>
+  </data>
+  <data name="Spreadsheet_IFS" xml:space="preserve">
+    <value>Vráti hodnotu zodpovedajúcu prvej podmienke PRAVDA</value>
+  </data>
+  <data name="Spreadsheet_IMABS" xml:space="preserve">
+    <value>Vráti absolútnu hodnotu (modul) komplexného čísla</value>
+  </data>
+  <data name="Spreadsheet_IMAGINARY" xml:space="preserve">
+    <value>Vráti imaginárny koeficient komplexného čísla</value>
+  </data>
+  <data name="Spreadsheet_IMARGUMENT" xml:space="preserve">
+    <value>Vráti argument théta, uhol vyjadrený v radiánoch</value>
+  </data>
+  <data name="Spreadsheet_IMCONJUGATE" xml:space="preserve">
+    <value>Vráti komplexný konjugát komplexného čísla</value>
+  </data>
+  <data name="Spreadsheet_IMCOS" xml:space="preserve">
+    <value>Vráti kosínus komplexného čísla</value>
+  </data>
+  <data name="Spreadsheet_IMDIV" xml:space="preserve">
+    <value>Vráti podiel dvoch komplexných čísel</value>
+  </data>
+  <data name="Spreadsheet_IMEXP" xml:space="preserve">
+    <value>Vráti exponenciál komplexného čísla</value>
+  </data>
+  <data name="Spreadsheet_IMLN" xml:space="preserve">
+    <value>Vráti prirodzený logaritmus komplexného čísla</value>
+  </data>
+  <data name="Spreadsheet_IMLOG10" xml:space="preserve">
+    <value>Vráti logaritmus so základom 10 komplexného čísla</value>
+  </data>
+  <data name="Spreadsheet_IMLOG2" xml:space="preserve">
+    <value>Vráti logaritmus so základom 2 komplexného čísla</value>
+  </data>
+  <data name="Spreadsheet_IMPOWER" xml:space="preserve">
+    <value>Vráti komplexné číslo umocnené na celé číslo</value>
+  </data>
+  <data name="Spreadsheet_IMPRODUCT" xml:space="preserve">
+    <value>Vráti súčin 2 až 29 komplexných čísel</value>
+  </data>
+  <data name="Spreadsheet_IMREAL" xml:space="preserve">
+    <value>Vráti reálny koeficient komplexného čísla</value>
+  </data>
+  <data name="Spreadsheet_IMSIN" xml:space="preserve">
+    <value>Vráti sínus komplexného čísla</value>
+  </data>
+  <data name="Spreadsheet_IMSQRT" xml:space="preserve">
+    <value>Vráti druhú odmocninu komplexného čísla</value>
+  </data>
+  <data name="Spreadsheet_IMSUB" xml:space="preserve">
+    <value>Vráti rozdiel medzi dvomi komplexnými číslami</value>
+  </data>
+  <data name="Spreadsheet_IMSUM" xml:space="preserve">
+    <value>Vráti súčet komplexných čísel</value>
+  </data>
+  <data name="Spreadsheet_INDEX" xml:space="preserve">
+    <value>Použije index na výber hodnoty z odkazu alebo poľa</value>
+  </data>
+  <data name="Spreadsheet_INDIRECT" xml:space="preserve">
+    <value>Vráti odkaz označený textovou hodnotou</value>
+  </data>
+  <data name="Spreadsheet_INFO" xml:space="preserve">
+    <value>Vráti informácie o aktuálnom operačnom prostredí</value>
+  </data>
+  <data name="Spreadsheet_INT" xml:space="preserve">
+    <value>Zaokrúhli číslo nadol na najbližšie celé číslo</value>
+  </data>
+  <data name="Spreadsheet_INTERCEPT" xml:space="preserve">
+    <value>Vráti priesečník lineárnej regresnej priamky</value>
+  </data>
+  <data name="Spreadsheet_INTRATE" xml:space="preserve">
+    <value>Vráti úrokovú sadzbu pre plne investovaný cenný papier</value>
+  </data>
+  <data name="Spreadsheet_IPMT" xml:space="preserve">
+    <value>Vráti platbu úrokov za investíciu pre dané obdobie</value>
+  </data>
+  <data name="Spreadsheet_IRR" xml:space="preserve">
+    <value>Vráti vnútornú mieru návratnosti pre sériu peňažných tokov</value>
+  </data>
+  <data name="Spreadsheet_ISBLANK" xml:space="preserve">
+    <value>Vráti PRAVDA, ak je hodnota prázdna</value>
+  </data>
+  <data name="Spreadsheet_ISERR" xml:space="preserve">
+    <value>Vráti PRAVDA, ak je hodnota ľubovoľná chybová hodnota okrem #N/A</value>
+  </data>
+  <data name="Spreadsheet_ISERROR" xml:space="preserve">
+    <value>Vráti PRAVDA, ak je hodnota ľubovoľná chybová hodnota</value>
+  </data>
+  <data name="Spreadsheet_ISEVEN" xml:space="preserve">
+    <value>Vráti PRAVDA, ak je číslo párne</value>
+  </data>
+  <data name="Spreadsheet_ISLOGICAL" xml:space="preserve">
+    <value>Vráti PRAVDA, ak je hodnota logická hodnota</value>
+  </data>
+  <data name="Spreadsheet_ISNA" xml:space="preserve">
+    <value>Vráti PRAVDA, ak je hodnota chybová hodnota #N/A</value>
+  </data>
+  <data name="Spreadsheet_ISNONTEXT" xml:space="preserve">
+    <value>Vráti PRAVDA, ak hodnota nie je text</value>
+  </data>
+  <data name="Spreadsheet_ISNUMBER" xml:space="preserve">
+    <value>Vráti PRAVDA, ak je hodnota číslo</value>
+  </data>
+  <data name="Spreadsheet_ISODD" xml:space="preserve">
+    <value>Vráti PRAVDA, ak je číslo nepárne</value>
+  </data>
+  <data name="Spreadsheet_ISPMT" xml:space="preserve">
+    <value>Vypočíta úroky zaplatené počas investičného obdobia</value>
+  </data>
+  <data name="Spreadsheet_ISREF" xml:space="preserve">
+    <value>Vráti PRAVDA, ak je hodnota odkaz</value>
+  </data>
+  <data name="Spreadsheet_ISTEXT" xml:space="preserve">
+    <value>Vráti PRAVDA, ak je hodnota text</value>
+  </data>
+  <data name="Spreadsheet_KURT" xml:space="preserve">
+    <value>Vráti špicatosť množiny údajov</value>
+  </data>
+  <data name="Spreadsheet_LAMBDA" xml:space="preserve">
+    <value>Umožňuje použiť vlastné parametre vzorca a logiku</value>
+  </data>
+  <data name="Spreadsheet_LARGE" xml:space="preserve">
+    <value>Vráti k-tú najväčšiu hodnotu v dátovej množine</value>
+  </data>
+  <data name="Spreadsheet_LCM" xml:space="preserve">
+    <value>Vráti najmenší spoločný násobok</value>
+  </data>
+  <data name="Spreadsheet_LEFT" xml:space="preserve">
+    <value>Vráti znaky najviac vľavo z textovej hodnoty</value>
+  </data>
+  <data name="Spreadsheet_LEFTB" xml:space="preserve">
+    <value>Vráti znaky najviac vľavo z textovej hodnoty</value>
+  </data>
+  <data name="Spreadsheet_LEN" xml:space="preserve">
+    <value>Vráti počet znakov v textovom reťazci</value>
+  </data>
+  <data name="Spreadsheet_LENB" xml:space="preserve">
+    <value>Vráti počet znakov v textovom reťazci</value>
+  </data>
+  <data name="Spreadsheet_LET" xml:space="preserve">
+    <value>Vráti výsledok vzorca, ktorý môže používať premenné</value>
+  </data>
+  <data name="Spreadsheet_LN" xml:space="preserve">
+    <value>Vráti prirodzený logaritmus čísla</value>
+  </data>
+  <data name="Spreadsheet_LOG" xml:space="preserve">
+    <value>Vráti logaritmus čísla so zadaným základom</value>
+  </data>
+  <data name="Spreadsheet_LOG10" xml:space="preserve">
+    <value>Vráti logaritmus čísla so základom 10</value>
+  </data>
+  <data name="Spreadsheet_LOGEST" xml:space="preserve">
+    <value>Vráti parametre exponenciálneho trendu</value>
+  </data>
+  <data name="Spreadsheet_LOGINV" xml:space="preserve">
+    <value>Vráti inverzné hodnoty logaritmicky normálneho rozloženia</value>
+  </data>
+  <data name="Spreadsheet_LOGNORMDIST" xml:space="preserve">
+    <value>Vráti kumulatívne logaritmicky normálne rozloženie</value>
+  </data>
+  <data name="Spreadsheet_LOOKUP" xml:space="preserve">
+    <value>Vyhľadá hodnoty vo vektore alebo poli</value>
+  </data>
+  <data name="Spreadsheet_LOWER" xml:space="preserve">
+    <value>Konvertuje text na malé písmená</value>
+  </data>
+  <data name="Spreadsheet_MATCH" xml:space="preserve">
+    <value>Vyhľadá hodnoty v odkaze alebo poli</value>
+  </data>
+  <data name="Spreadsheet_MAX" xml:space="preserve">
+    <value>Vráti maximálnu hodnotu v zozname argumentov</value>
+  </data>
+  <data name="Spreadsheet_MAXA" xml:space="preserve">
+    <value>Vráti maximálnu hodnotu v zozname argumentov vrátane čísel, textu a logických hodnôt</value>
+  </data>
+  <data name="Spreadsheet_MAXIFS" xml:space="preserve">
+    <value>Vráti maximálnu hodnotu medzi bunkami spĺňajúcimi kritériá</value>
+  </data>
+  <data name="Spreadsheet_MDETERM" xml:space="preserve">
+    <value>Vráti determinant matice poľa</value>
+  </data>
+  <data name="Spreadsheet_MEDIAN" xml:space="preserve">
+    <value>Vráti medián zadaných čísel</value>
+  </data>
+  <data name="Spreadsheet_MID" xml:space="preserve">
+    <value>Vráti znaky z textu od zadanej pozície</value>
+  </data>
+  <data name="Spreadsheet_MIDB" xml:space="preserve">
+    <value>Vráti konkrétny počet znakov z textového reťazca, začínajúc pozíciou, ktorú určíte</value>
+  </data>
+  <data name="Spreadsheet_MIN" xml:space="preserve">
+    <value>Vráti minimálnu hodnotu v zozname argumentov</value>
+  </data>
+  <data name="Spreadsheet_MINA" xml:space="preserve">
+    <value>Vráti najmenšiu hodnotu v zozname argumentov, vrátane čísiel, textu a logických hodnôt</value>
+  </data>
+  <data name="Spreadsheet_MINIFS" xml:space="preserve">
+    <value>Vráti minimálnu hodnotu medzi bunkami spĺňajúcimi kritériá</value>
+  </data>
+  <data name="Spreadsheet_MINUTE" xml:space="preserve">
+    <value>Prevádza sériové číslo na minúty</value>
+  </data>
+  <data name="Spreadsheet_MINVERSE" xml:space="preserve">
+    <value>Vráti inverznú maticu poľa</value>
+  </data>
+  <data name="Spreadsheet_MIRR" xml:space="preserve">
+    <value>Vráti IRR s rôznymi mierami financovania</value>
+  </data>
+  <data name="Spreadsheet_MMULT" xml:space="preserve">
+    <value>Vráti maticový súčin dvoch polí</value>
+  </data>
+  <data name="Spreadsheet_MOD" xml:space="preserve">
+    <value>Vráti zvyšok po delení</value>
+  </data>
+  <data name="Spreadsheet_MODE" xml:space="preserve">
+    <value>Vráti najčastejšiu hodnotu v súbore údajov</value>
+  </data>
+  <data name="Spreadsheet_MONTH" xml:space="preserve">
+    <value>Prevádza sériové číslo na mesiac</value>
+  </data>
+  <data name="Spreadsheet_MROUND" xml:space="preserve">
+    <value>Vráti číslo zaokrúhlené na požadovaný násobok</value>
+  </data>
+  <data name="Spreadsheet_MULTINOMIAL" xml:space="preserve">
+    <value>Vráti multinomiál množiny čísel</value>
+  </data>
+  <data name="Spreadsheet_N" xml:space="preserve">
+    <value>Vráti hodnotu prevedenú na číslo</value>
+  </data>
+  <data name="Spreadsheet_NA" xml:space="preserve">
+    <value>Vráti chybovú hodnotu #N/A</value>
+  </data>
+  <data name="Spreadsheet_NEGBINOMDIST" xml:space="preserve">
+    <value>Vráti negatívne binomické rozdelenie</value>
+  </data>
+  <data name="Spreadsheet_NETWORKDAYS" xml:space="preserve">
+    <value>Vráti počet celých pracovných dní medzi dvoma dátumami</value>
+  </data>
+  <data name="Spreadsheet_NORMDIST" xml:space="preserve">
+    <value>Vráti normálne kumulatívne rozdelenie</value>
+  </data>
+  <data name="Spreadsheet_NORMINV" xml:space="preserve">
+    <value>Vráti inverznú hodnotu normálneho kumulatívneho rozdelenia</value>
+  </data>
+  <data name="Spreadsheet_NORMSDIST" xml:space="preserve">
+    <value>Vráti štandardné normálne kumulatívne rozdelenie</value>
+  </data>
+  <data name="Spreadsheet_NORMSINV" xml:space="preserve">
+    <value>Vráti inverznú hodnotu štandardného normálneho kumulatívneho rozdelenia</value>
+  </data>
+  <data name="Spreadsheet_NOT" xml:space="preserve">
+    <value>Obráti logiku svojho argumentu</value>
+  </data>
+  <data name="Spreadsheet_NOW" xml:space="preserve">
+    <value>Vráti sériové číslo aktuálneho dátumu a času</value>
+  </data>
+  <data name="Spreadsheet_NPER" xml:space="preserve">
+    <value>Vráti počet období pre investíciu</value>
+  </data>
+  <data name="Spreadsheet_NPV" xml:space="preserve">
+    <value>Vráti čistú súčasnú hodnotu na základe peňažných tokov</value>
+  </data>
+  <data name="Spreadsheet_OCT2BIN" xml:space="preserve">
+    <value>Konvertuje osmičkové číslo na binárne</value>
+  </data>
+  <data name="Spreadsheet_OCT2DEC" xml:space="preserve">
+    <value>Konvertuje osmičkové číslo na desiatové</value>
+  </data>
+  <data name="Spreadsheet_OCT2HEX" xml:space="preserve">
+    <value>Konvertuje osmičkové číslo na šestnástkové</value>
+  </data>
+  <data name="Spreadsheet_ODD" xml:space="preserve">
+    <value>Zaokrúhli číslo na najbližšie nepárne celé číslo</value>
+  </data>
+  <data name="Spreadsheet_OFFSET" xml:space="preserve">
+    <value>Vráti odkaz posunutý od daného odkazu</value>
+  </data>
+  <data name="Spreadsheet_ORFormula" xml:space="preserve">
+    <value>Vráti hodnotu PRAVDA, ak je ľubovoľný argument PRAVDA</value>
+  </data>
+  <data name="Spreadsheet_PEARSON" xml:space="preserve">
+    <value>Vráti Pearsonov korelačný koeficient</value>
+  </data>
+  <data name="Spreadsheet_PERCENTILE" xml:space="preserve">
+    <value>Vráti k-ty percentil hodnôt v rozsahu</value>
+  </data>
+  <data name="Spreadsheet_PERCENTRANK" xml:space="preserve">
+    <value>Vráti percentuálne poradie hodnoty v súbore údajov</value>
+  </data>
+  <data name="Spreadsheet_PERMUT" xml:space="preserve">
+    <value>Vráti počet permutácií pre daný počet objektov</value>
+  </data>
+  <data name="Spreadsheet_PI" xml:space="preserve">
+    <value>Vráti hodnotu pí</value>
+  </data>
+  <data name="Spreadsheet_PMT" xml:space="preserve">
+    <value>Vráti periodickú platbu anuity</value>
+  </data>
+  <data name="Spreadsheet_POISSON" xml:space="preserve">
+    <value>Vráti Poissonovo rozdelenie</value>
+  </data>
+  <data name="Spreadsheet_POWER" xml:space="preserve">
+    <value>Vráti výsledok čísla umocneného na určitú mocninu</value>
+  </data>
+  <data name="Spreadsheet_PPMT" xml:space="preserve">
+    <value>Vráti platbu istiny pre investíciu za dané obdobie</value>
+  </data>
+  <data name="Spreadsheet_PROB" xml:space="preserve">
+    <value>Vráti pravdepodobnosť hodnôt medzi limitmi</value>
+  </data>
+  <data name="Spreadsheet_PRODUCT" xml:space="preserve">
+    <value>Násobí svoje argumenty</value>
+  </data>
+  <data name="Spreadsheet_PROPER" xml:space="preserve">
+    <value>Zmení prvé písmeno v každom slove textovej hodnoty na veľké</value>
+  </data>
+  <data name="Spreadsheet_PV" xml:space="preserve">
+    <value>Vráti súčasnú hodnotu investície</value>
+  </data>
+  <data name="Spreadsheet_QUARTILE" xml:space="preserve">
+    <value>Vráti kvartil dátového súboru</value>
+  </data>
+  <data name="Spreadsheet_QUOTIENT" xml:space="preserve">
+    <value>Vráti celočíselnú časť delenia</value>
+  </data>
+  <data name="Spreadsheet_RADIANS" xml:space="preserve">
+    <value>Konvertuje stupne na radiány</value>
+  </data>
+  <data name="Spreadsheet_RAND" xml:space="preserve">
+    <value>Vráti náhodné číslo medzi 0 a 1</value>
+  </data>
+  <data name="Spreadsheet_RANDBETWEEN" xml:space="preserve">
+    <value>Vráti náhodné číslo medzi určenými číslami</value>
+  </data>
+  <data name="Spreadsheet_RANK" xml:space="preserve">
+    <value>Vráti poradie čísla v zozname čísel</value>
+  </data>
+  <data name="Spreadsheet_RATE" xml:space="preserve">
+    <value>Vráti úrokovú sadzbu za obdobie anuity</value>
+  </data>
+  <data name="Spreadsheet_RECEIVED" xml:space="preserve">
+    <value>Vráti sumu prijatú pri splatnosti cenného papiera</value>
+  </data>
+  <data name="Spreadsheet_REPLACE" xml:space="preserve">
+    <value>Nahrádza znaky v texte</value>
+  </data>
+  <data name="Spreadsheet_REPLACEB" xml:space="preserve">
+    <value>Nahrádza znaky v texte</value>
+  </data>
+  <data name="Spreadsheet_REPT" xml:space="preserve">
+    <value>Opakuje text daný počet krát</value>
+  </data>
+  <data name="Spreadsheet_RIGHT" xml:space="preserve">
+    <value>Vráti znaky najviac vpravo z textovej hodnoty</value>
+  </data>
+  <data name="Spreadsheet_RIGHTB" xml:space="preserve">
+    <value>Vráti znaky najviac vpravo z textovej hodnoty</value>
+  </data>
+  <data name="Spreadsheet_ROMAN" xml:space="preserve">
+    <value>Konvertuje arabské číslo na rímske, ako text</value>
+  </data>
+  <data name="Spreadsheet_ROUND" xml:space="preserve">
+    <value>Zaokrúhľuje číslo na určený počet číslic</value>
+  </data>
+  <data name="Spreadsheet_ROUNDDOWN" xml:space="preserve">
+    <value>Zaokrúhľuje číslo nadol, smerom k nule</value>
+  </data>
+  <data name="Spreadsheet_ROUNDUP" xml:space="preserve">
+    <value>Zaokrúhľuje číslo nahor, smerom od nuly</value>
+  </data>
+  <data name="Spreadsheet_ROW" xml:space="preserve">
+    <value>Vráti číslo riadku odkazu</value>
+  </data>
+  <data name="Spreadsheet_ROWS" xml:space="preserve">
+    <value>Vráti počet riadkov v odkaze</value>
+  </data>
+  <data name="Spreadsheet_RSQ" xml:space="preserve">
+    <value>Vráti druhú mocninu Pearsonovho koeficientu korelácie produktového momentu</value>
+  </data>
+  <data name="Spreadsheet_SEARCHFormula" xml:space="preserve">
+    <value>Nájde jednu textovú hodnotu v inej (nerozlišuje veľkosť písmen)</value>
+  </data>
+  <data name="Spreadsheet_SEARCHB" xml:space="preserve">
+    <value>Nájde jednu textovú hodnotu v inej (nerozlišuje veľkosť písmen)</value>
+  </data>
+  <data name="Spreadsheet_SECOND" xml:space="preserve">
+    <value>Konvertuje sériové číslo na sekundy</value>
+  </data>
+  <data name="Spreadsheet_SERIESSUM" xml:space="preserve">
+    <value>Vráti súčet mocninového radu založený na vzorci</value>
+  </data>
+  <data name="Spreadsheet_SIGN" xml:space="preserve">
+    <value>Vráti znamienko čísla</value>
+  </data>
+  <data name="Spreadsheet_SIN" xml:space="preserve">
+    <value>Vráti sínus daného uhla</value>
+  </data>
+  <data name="Spreadsheet_SINH" xml:space="preserve">
+    <value>Vráti hyperbolický sínus čísla</value>
+  </data>
+  <data name="Spreadsheet_SKEW" xml:space="preserve">
+    <value>Vráti šikmosť distribúcie</value>
+  </data>
+  <data name="Spreadsheet_SLN" xml:space="preserve">
+    <value>Vráti lineárny odpis majetku za jedno obdobie</value>
+  </data>
+  <data name="Spreadsheet_SLOPE" xml:space="preserve">
+    <value>Vráti smernica lineárnej regresnej priamky</value>
+  </data>
+  <data name="Spreadsheet_SORTFormula" xml:space="preserve">
+    <value>Vráti hodnoty rozsahu buniek vo vzostupnom alebo zostupnom poradí</value>
+  </data>
+  <data name="Spreadsheet_SMALL" xml:space="preserve">
+    <value>Vráti k-tú najmenšiu hodnotu v súbore údajov</value>
+  </data>
+  <data name="Spreadsheet_SQRT" xml:space="preserve">
+    <value>Vráti kladnú druhú odmocninu</value>
+  </data>
+  <data name="Spreadsheet_SQRTPI" xml:space="preserve">
+    <value>Vráti druhú odmocninu z (číslo * pí)</value>
+  </data>
+  <data name="Spreadsheet_STANDARDIZE" xml:space="preserve">
+    <value>Vráti normalizovanú hodnotu</value>
+  </data>
+  <data name="Spreadsheet_STDEV" xml:space="preserve">
+    <value>Odhadne štandardnú odchýlku na základe vzorky</value>
+  </data>
+  <data name="Spreadsheet_STDEVA" xml:space="preserve">
+    <value>Odhadne štandardnú odchýlku na základe vzorky, vrátane čísel, textu a logických hodnôt</value>
+  </data>
+  <data name="Spreadsheet_STDEVP" xml:space="preserve">
+    <value>Vypočíta štandardnú odchýlku na základe celej populácie</value>
+  </data>
+  <data name="Spreadsheet_STDEVPA" xml:space="preserve">
+    <value>Vypočíta štandardnú odchýlku na základe celej populácie, vrátane čísel, textu a logických hodnôt</value>
+  </data>
+  <data name="Spreadsheet_STEYX" xml:space="preserve">
+    <value>Vráti štandardnú chybu predpovedanej hodnoty y pre každé x v regresii</value>
+  </data>
+  <data name="Spreadsheet_SUBSTITUTE" xml:space="preserve">
+    <value>Nahradí nový text za starý text v textovom reťazci</value>
+  </data>
+  <data name="Spreadsheet_SUBTOTAL" xml:space="preserve">
+    <value>Vráti medzisúčet v zozname alebo databáze</value>
+  </data>
+  <data name="Spreadsheet_SUM" xml:space="preserve">
+    <value>Sčíta svoje argumenty</value>
+  </data>
+  <data name="Spreadsheet_SUMIF" xml:space="preserve">
+    <value>Sčíta bunky určené daným kritériom</value>
+  </data>
+  <data name="Spreadsheet_SUMPRODUCT" xml:space="preserve">
+    <value>Vráti súčet súčinov zodpovedajúcich prvkov poľa</value>
+  </data>
+  <data name="Spreadsheet_SUMSQ" xml:space="preserve">
+    <value>Vráti súčet štvorcov argumentov</value>
+  </data>
+  <data name="Spreadsheet_SUMX2MY2" xml:space="preserve">
+    <value>Vráti súčet rozdielu štvorcov zodpovedajúcich hodnôt v dvoch poliach</value>
+  </data>
+  <data name="Spreadsheet_SUMX2PY2" xml:space="preserve">
+    <value>Vráti súčet súčtu štvorcov zodpovedajúcich hodnôt v dvoch poliach</value>
+  </data>
+  <data name="Spreadsheet_SUMXMY2" xml:space="preserve">
+    <value>Vráti súčet štvorcov rozdielov zodpovedajúcich hodnôt v dvoch poliach</value>
+  </data>
+  <data name="Spreadsheet_SWITCH" xml:space="preserve">
+    <value>Vráti výsledok zodpovedajúci prvej pravdivej hodnote</value>
+  </data>
+  <data name="Spreadsheet_SYD" xml:space="preserve">
+    <value>Vráti numerický odpis metódou súčtu rokov</value>
+  </data>
+  <data name="Spreadsheet_T" xml:space="preserve">
+    <value>Konvertuje svoje argumenty na text</value>
+  </data>
+  <data name="Spreadsheet_TAN" xml:space="preserve">
+    <value>Vráti tangens čísla</value>
+  </data>
+  <data name="Spreadsheet_TANH" xml:space="preserve">
+    <value>Vráti hyperbolický tangens čísla</value>
+  </data>
+  <data name="Spreadsheet_TEXTFormula" xml:space="preserve">
+    <value>Formátuje číslo a konvertuje ho na text</value>
+  </data>
+  <data name="Spreadsheet_TEXTBEFORE" xml:space="preserve">
+    <value>Vráti text, ktorý sa vyskytuje pred daným znakom</value>
+  </data>
+  <data name="Spreadsheet_TEXTJOIN" xml:space="preserve">
+    <value>Kombinuje text s oddeľovačom</value>
+  </data>
+  <data name="Spreadsheet_TEXTSPLIT" xml:space="preserve">
+    <value>Rozdelí text bunky na riadky alebo stĺpce</value>
+  </data>
+  <data name="Spreadsheet_TIMEFormula" xml:space="preserve">
+    <value>Vráti sériové číslo konkrétneho času</value>
+  </data>
+  <data name="Spreadsheet_TIMEVALUE" xml:space="preserve">
+    <value>Prevádza čas vo forme textu na sériové číslo</value>
+  </data>
+  <data name="Spreadsheet_TOCOL" xml:space="preserve">
+    <value>Transformuje pole do jedného stĺpca</value>
+  </data>
+  <data name="Spreadsheet_TODAYFormula" xml:space="preserve">
+    <value>Vráti sériové číslo dnešného dátumu</value>
+  </data>
+  <data name="Spreadsheet_TOROW" xml:space="preserve">
+    <value>Transformuje pole do jedného riadka</value>
+  </data>
+  <data name="Spreadsheet_TRANSPOSE" xml:space="preserve">
+    <value>Vráti transponované pole</value>
+  </data>
+  <data name="Spreadsheet_TRIM" xml:space="preserve">
+    <value>Odstráni medzery z textu</value>
+  </data>
+  <data name="Spreadsheet_TRIMMEAN" xml:space="preserve">
+    <value>Vráti priemer vnútra súboru údajov</value>
+  </data>
+  <data name="Spreadsheet_TRUNC" xml:space="preserve">
+    <value>Orezáva číslo na celé číslo</value>
+  </data>
+  <data name="Spreadsheet_TYPE" xml:space="preserve">
+    <value>Vráti číslo označujúce dátový typ hodnoty</value>
+  </data>
+  <data name="Spreadsheet_UNIQUE" xml:space="preserve">
+    <value>Vráti zoznam jedinečných hodnôt prítomných v zozname alebo rozsahu</value>
+  </data>
+  <data name="Spreadsheet_UPPER" xml:space="preserve">
+    <value>Prevádza text na veľké písmená</value>
+  </data>
+  <data name="Spreadsheet_VALUEFormula" xml:space="preserve">
+    <value>Prevádza textový argument na číslo</value>
+  </data>
+  <data name="Spreadsheet_VALUETOTEXT" xml:space="preserve">
+    <value>Vráti text z akejkoľvek zadanej hodnoty</value>
+  </data>
+  <data name="Spreadsheet_VAR" xml:space="preserve">
+    <value>Odhaduje rozptyl na základe vzorky</value>
+  </data>
+  <data name="Spreadsheet_VARA" xml:space="preserve">
+    <value>Odhaduje rozptyl na základe vzorky vrátane čísel, textu a logických hodnôt</value>
+  </data>
+  <data name="Spreadsheet_VARP" xml:space="preserve">
+    <value>Vypočíta rozptyl na základe celej populácie</value>
+  </data>
+  <data name="Spreadsheet_VARPA" xml:space="preserve">
+    <value>Vypočíta rozptyl populácie vrátane všetkých hodnôt</value>
+  </data>
+  <data name="Spreadsheet_VDB" xml:space="preserve">
+    <value>Vráti odpisy majetku za čiastkové obdobie</value>
+  </data>
+  <data name="Spreadsheet_VLOOKUP" xml:space="preserve">
+    <value>Vyhľadá hodnotu v prvom stĺpci a vráti bunku v rovnakom riadku</value>
+  </data>
+  <data name="Spreadsheet_WEEKDAY" xml:space="preserve">
+    <value>Prevádza sériové číslo na deň v týždni</value>
+  </data>
+  <data name="Spreadsheet_WEEKNUM" xml:space="preserve">
+    <value>Vráti číslo týždňa v roku</value>
+  </data>
+  <data name="Spreadsheet_WEIBULL" xml:space="preserve">
+    <value>Vráti Weibullovo rozdelenie</value>
+  </data>
+  <data name="Spreadsheet_WORKDAY" xml:space="preserve">
+    <value>Vráti dátum po zadaných pracovných dňoch</value>
+  </data>
+  <data name="Spreadsheet_XIRR" xml:space="preserve">
+    <value>Vráti IRR pre neperiodické peňažné toky</value>
+  </data>
+  <data name="Spreadsheet_XLOOKUP" xml:space="preserve">
+    <value>Vráti hodnotu prvej alebo približnej zhody</value>
+  </data>
+  <data name="Spreadsheet_XMATCH" xml:space="preserve">
+    <value>Vráti pozíciu hodnoty v rozsahu</value>
+  </data>
+  <data name="Spreadsheet_YEAR" xml:space="preserve">
+    <value>Prevádza sériové číslo na rok</value>
+  </data>
+  <data name="Spreadsheet_YEARFRAC" xml:space="preserve">
+    <value>Vráti zlomok roka medzi dátumami</value>
+  </data>
+  <data name="Spreadsheet_ZTEST" xml:space="preserve">
+    <value>Vráti jednostrannú pravdepodobnostnú hodnotu z-testu</value>
+  </data>
+  <data name="Spreadsheet_FALSE" xml:space="preserve">
+    <value>Vráti logickú hodnotu FALSE</value>
+  </data>
+  <data name="Spreadsheet_TRUE" xml:space="preserve">
+    <value>Vráti logickú hodnotu TRUE</value>
+  </data>
+  <data name="Spreadsheet_function" xml:space="preserve">
+    <value>Funkcia na vykonanie</value>
+  </data>
+  <data name="Spreadsheet_operation" xml:space="preserve">
+    <value>operácia</value>
+  </data>
+  <data name="Spreadsheet_Formulas" xml:space="preserve">
+    <value>Vzorce</value>
+  </data>
+  <data name="Spreadsheet_CalculationOption" xml:space="preserve">
+    <value>Možnosť výpočtu</value>
+  </data>
+  <data name="Spreadsheet_Automatic" xml:space="preserve">
+    <value>Automatický</value>
+  </data>
+  <data name="Spreadsheet_Manual" xml:space="preserve">
+    <value>Manuálny</value>
+  </data>
+  <data name="Spreadsheet_CalculateSheet" xml:space="preserve">
+    <value>Vypočítať hárok</value>
+  </data>
+  <data name="Spreadsheet_Calculatebook" xml:space="preserve">
+    <value>Vypočítať zošit</value>
+  </data>
+  <data name="Spreadsheet_Description" xml:space="preserve">
+      <value>Popis</value>
+  </data>
+  <data name="Spreadsheet_PickCategory" xml:space="preserve">
+      <value>Vyberte kategóriu</value>
+  </data>
+  <data name="Spreadsheet_AllUsers" xml:space="preserve">
+    <value>Povoliť všetkým používateľom tohto hárku</value>
+  </data>
+  <data name="Spreadsheet_RequiredPassword" xml:space="preserve">
+    <value>Zadajte heslo, ak je to potrebné</value>
+  </data>
+  <data name="Spreadsheet_SelectLockedCells" xml:space="preserve">
+    <value>Vyberte uzamknuté bunky</value>
+  </data>
+  <data name="Spreadsheet_SelectUnLockedCells" xml:space="preserve">
+    <value>Vyberte odomknuté bunky</value>
+  </data>
+  <data name="Spreadsheet_FormatCells" xml:space="preserve">
+    <value>Formátovať bunky</value>
+  </data>
+  <data name="Spreadsheet_FormatColumns" xml:space="preserve">
+    <value>Formátovať stĺpce</value>
+  </data>
+  <data name="Spreadsheet_FormatRows" xml:space="preserve">
+    <value>Formátovať riadky</value>
+  </data>
+  <data name="Spreadsheet_InsertColumns" xml:space="preserve">
+    <value>Vložiť stĺpce</value>
+  </data>
+  <data name="Spreadsheet_InsertRows" xml:space="preserve">
+    <value>Vložiť riadky</value>
+  </data>
+  <data name="Spreadsheet_InsertHyperlinks" xml:space="preserve">
+    <value>Vložiť hypertextové odkazy</value>
+  </data>
+  <data name="Spreadsheet_UnlockedRanges" xml:space="preserve">
+    <value>Odomknuté rozsahy</value>
+  </data>
+  <data name="Spreadsheet_RangeName" xml:space="preserve">
+    <value>Názov rozsahu</value>
+  </data>
+  <data name="Spreadsheet_RangeValue" xml:space="preserve">
+    <value>Hodnota rozsahu</value>
+  </data>
+  <data name="Spreadsheet_AddRange" xml:space="preserve">
+    <value>Pridať rozsah</value>
+  </data>
+  <data name="Spreadsheet_UpdateRange" xml:space="preserve">
+    <value>Aktualizovať rozsah</value>
+  </data>
+  <data name="Spreadsheet_EnterRangeName" xml:space="preserve">
+    <value>Zadajte názov rozsahu</value>
+  </data>
+  <data name="Spreadsheet_Password" xml:space="preserve">
+    <value>Heslo</value>
+  </data>
+  <data name="Spreadsheet_EnterPassword" xml:space="preserve">
+    <value>Zadajte heslo</value>
+  </data>
+  <data name="Spreadsheet_ConfirmPassword" xml:space="preserve">
+    <value>Potvrdiť heslo</value>
+  </data>
+  <data name="Spreadsheet_ProtectError" xml:space="preserve">
+    <value>Hárok je chránený. Niektoré časti môžu byť iba na čítanie a nemožno ich meniť</value>
+  </data>
+  <data name="Spreadsheet_SelectedRange" xml:space="preserve">
+    <value>Prázdnu bunku nemôžete filtrovať. Vyberte bunku v rozsahu údajov a skúste to znova.</value>
+  </data>
+  <data name="Spreadsheet_SingleCell" xml:space="preserve">
+    <value>Vyberte jednu bunku v rozsahu a skúste to znova.</value>
+  </data>
+  <data name="Spreadsheet_Review" xml:space="preserve">
+    <value>Revízia</value>
+  </data>
+  <data name="Spreadsheet_Protection" xml:space="preserve">
+    <value>Ochrana</value>
+  </data>
+  <data name="Spreadsheet_ProtectSheet" xml:space="preserve">
+    <value>Chrániť hárok</value>
+  </data>
+  <data name="Spreadsheet_UnprotectSheet" xml:space="preserve">
+    <value>Zrušiť ochranu hárku</value>
+  </data>
+  <data name="Spreadsheet_Protectbook" xml:space="preserve">
+    <value>Chrániť zošit</value>
+  </data>
+  <data name="Spreadsheet_Unprotectbook" xml:space="preserve">
+    <value>Zrušiť ochranu zošita</value>
+  </data>
+  <data name="Spreadsheet_BookError" xml:space="preserve">
+    <value>Nepodarilo sa ochrániť zošit: </value>
+  </data>
+  <data name="Spreadsheet_IncorrectPassword" xml:space="preserve">
+    <value>Nesprávne heslo</value>
+  </data>
+  <data name="Spreadsheet_PasswordOptional" xml:space="preserve">
+    <value>Zadajte heslo</value>
+  </data>
+  <data name="Spreadsheet_PasswordMatch" xml:space="preserve">
+    <value>Heslá sa nezhodujú</value>
+  </data>
+  <data name="Spreadsheet_ManageProtection" xml:space="preserve">
+    <value>Spravovať ochranu</value>
+  </data>
+  <data name="Spreadsheet_UnlockRange" xml:space="preserve">
+    <value>Odomknúť rozsah</value>
+  </data>
+  <data name="Spreadsheet_SheetOptions" xml:space="preserve">
+    <value>Možnosti hárku</value>
+  </data>
+  <data name="Spreadsheet_EnterValue" xml:space="preserve">
+    <value>Zadajte hodnotu</value>
+  </data>
+  <data name="Spreadsheet_FilterValue" xml:space="preserve">
+    <value>Hodnota filtra</value>
+  </data>
+  <data name="Spreadsheet_Filter" xml:space="preserve">
+    <value>Filter</value>
+  </data>
+  <data name="Spreadsheet_ClearFilterFrom" xml:space="preserve">
+    <value>Vymazať filter z</value>
+  </data>
+  <data name="Spreadsheet_Reapply" xml:space="preserve">
+    <value>Opätovne použiť</value>
+  </data>
+  <data name="Spreadsheet_FilterByCellValue" xml:space="preserve">
+    <value>Filter podľa hodnoty vybratej bunky</value>
+  </data>
+  <data name="Spreadsheet_NoResult" xml:space="preserve">
+    <value>Žiadny výsledok</value>
+  </data>
+  <data name="Spreadsheet_Blanks" xml:space="preserve">
+    <value>Prázdne</value>
+  </data>
+  <data name="Spreadsheet_Search" xml:space="preserve">
+    <value>Vyhľadávanie</value>
+  </data>
+  <data name="Spreadsheet_SelectAll" xml:space="preserve">
+    <value>Vybrať všetko</value>
+  </data>
+  <data name="Spreadsheet_AddCurrentSelectionFilter" xml:space="preserve">
+    <value>Pridať aktuálny výber do filtra</value>
+  </data>
+  <data name="Spreadsheet_AND" xml:space="preserve">
+    <value>A</value>
+  </data>
+  <data name="Spreadsheet_OR" xml:space="preserve">
+    <value>ALEBO</value>
+  </data>
+  <data name="Spreadsheet_MatchCase" xml:space="preserve">
+    <value>Rozlišovať malé a veľké písmená</value>
+  </data>
+  <data name="Spreadsheet_StartsWith" xml:space="preserve">
+    <value>Začína s</value>
+  </data>
+  <data name="Spreadsheet_DoesNotStartWith" xml:space="preserve">
+    <value>Nezačína s</value>
+  </data>
+  <data name="Spreadsheet_EndsWith" xml:space="preserve">
+    <value>Končí s</value>
+  </data>
+  <data name="Spreadsheet_DoesNotEndWith" xml:space="preserve">
+    <value>Nekončí s</value>
+  </data>
+  <data name="Spreadsheet_Equal" xml:space="preserve">
+    <value>Rovná sa</value>
+  </data>
+  <data name="Spreadsheet_NotEqual" xml:space="preserve">
+    <value>Nerovná sa</value>
+  </data>
+  <data name="Spreadsheet_Contains" xml:space="preserve">
+    <value>Obsahuje</value>
+  </data>
+  <data name="Spreadsheet_DoesNotContain" xml:space="preserve">
+    <value>Neobsahuje</value>
+  </data>
+  <data name="Spreadsheet_LessThan" xml:space="preserve">
+    <value>Menej ako</value>
+  </data>
+  <data name="Spreadsheet_LessThanOrEqual" xml:space="preserve">
+    <value>Menej alebo rovné</value>
+  </data>
+  <data name="Spreadsheet_GreaterThan" xml:space="preserve">
+    <value>Väčšie ako</value>
+  </data>
+  <data name="Spreadsheet_GreaterThanOrEqual" xml:space="preserve">
+    <value>Väčšie alebo rovné</value>
+  </data>
+  <data name="Spreadsheet_Between" xml:space="preserve">
+    <value>Medzi</value>
+  </data>
+  <data name="Spreadsheet_CustomFilter" xml:space="preserve">
+    <value>Vlastný filter</value>
+  </data>
+  <data name="Spreadsheet_FilterOperator" xml:space="preserve">
+    <value>Operátor filtra</value>
+  </data>
+  <data name="Spreadsheet_ClearFilter" xml:space="preserve">
+    <value>Vymazať filter</value>
+  </data>
+  <data name="Spreadsheet_NumberFilter" xml:space="preserve">
+    <value>Číslo filtra</value>
+  </data>
+  <data name="Spreadsheet_TextFilter" xml:space="preserve">
+    <value>Textový filter</value>
+  </data>
+  <data name="Spreadsheet_DateFilter" xml:space="preserve">
+    <value>Filter dátumu</value>
+  </data>
+  <data name="Spreadsheet_TimeFilter" xml:space="preserve">
+    <value>Filter času</value>
+  </data>
+  <data name="Spreadsheet_DateTimeFilter" xml:space="preserve">
+    <value>Filter dátumu a času</value>
+  </data>
+  <data name="Spreadsheet_CustomFilterDatePlaceHolder" xml:space="preserve">
+    <value>Zaplniteľ dátumu vlastného filtra</value>
+  </data>
+  <data name="Spreadsheet_SortAscending" xml:space="preserve">
+    <value>Začínať</value>
+  </data>
+  <data name="Spreadsheet_SortDescending" xml:space="preserve">
+    <value>Končia</value>
+  </data>
+  <data name="Spreadsheet_Tomorrow" xml:space="preserve">
+    <value>Zajtra</value>
+  </data>
+  <data name="Spreadsheet_Today" xml:space="preserve">
+    <value>Dnes</value>
+  </data>
+  <data name="Spreadsheet_Yesterday" xml:space="preserve">
+    <value>Včera</value>
+  </data>
+  <data name="Spreadsheet_NextWeek" xml:space="preserve">
+    <value>Budúci týždeň</value>
+  </data>
+  <data name="Spreadsheet_ThisWeek" xml:space="preserve">
+    <value>Tento týždeň</value>
+  </data>
+  <data name="Spreadsheet_LastWeek" xml:space="preserve">
+    <value>Minulý týždeň</value>
+  </data>
+  <data name="Spreadsheet_NextMonth" xml:space="preserve">
+    <value>Nasledujúci mesiac</value>
+  </data>
+  <data name="Spreadsheet_ThisMonth" xml:space="preserve">
+    <value>Tento mesiac</value>
+  </data>
+  <data name="Spreadsheet_LastMonth" xml:space="preserve">
+    <value>Minulý mesiac</value>
+  </data>
+  <data name="Spreadsheet_NextQuater" xml:space="preserve">
+    <value>Nasledujúci štvrťrok</value>
+  </data>
+  <data name="Spreadsheet_ThisQuater" xml:space="preserve">
+    <value>Tento štvrťrok</value>
+  </data>
+  <data name="Spreadsheet_LastQuater" xml:space="preserve">
+    <value>Minulý štvrťrok</value>
+  </data>
+  <data name="Spreadsheet_NextYear" xml:space="preserve">
+    <value>Budúci rok</value>
+  </data>
+  <data name="Spreadsheet_ThisYear" xml:space="preserve">
+    <value>Tento rok</value>
+  </data>
+  <data name="Spreadsheet_LastYear" xml:space="preserve">
+    <value>Minulý rok</value>
+  </data>
+  <data name="Spreadsheet_DeleteWarning" xml:space="preserve">
+    <value>Odstránený hárok nemôžete vrátiť späť a môžete prísť o niektoré údaje.</value>
+  </data>
+  <data name="Spreadsheet_CopyCut" xml:space="preserve">
+    <value>S aktuálnym výberom to nebude fungovať. Uistite sa, že sa oblasti kopírovania neprekrývajú.</value>
+  </data>
+  <data name="Spreadsheet_MultiRange" xml:space="preserve">
+    <value>Túto akciu nie je možné vykonať pri výbere viacerých rozsahov</value>
+  </data>
+  <data name="Spreadsheet_SingleRange" xml:space="preserve">
+    <value>Vyberte jeden rozsah a skúste to znova</value>
+  </data>
+  <data name="Spreadsheet_WorkBook" xml:space="preserve">
+    <value>Neuložené zmeny budú stratené. Naozaj chcete vytvoriť nový zošit?</value>
+  </data>
+  <data name="Spreadsheet_DeleteSheet" xml:space="preserve">
+    <value>Určite chcete tento list zmazať?</value>
+  </data>
+  <data name="Spreadsheet_Spreadsheet" xml:space="preserve">
+    <value>Tabuľka</value>
+  </data>
+  <data name="Spreadsheet_RenameSheet" xml:space="preserve">
+    <value>Premenovať hárok</value>
+  </data>
+  <data name="Spreadsheet_RenameSheetTo" xml:space="preserve">
+    <value>Premenovať hárok na</value>
+  </data>
+  <data name="Spreadsheet_EnterName" xml:space="preserve">
+    <value>Zadajte názov hárku</value>
+  </data>
+  <data name="Spreadsheet_SaveAs" xml:space="preserve">
+    <value>Uložiť ako</value>
+  </data>
+  <data name="Spreadsheet_MicrosoftExcel" xml:space="preserve">
+    <value>Microsoft Excel</value>
+  </data>
+  <data name="Spreadsheet_MicrosoftExcel972003" xml:space="preserve">
+    <value>Microsoft Excel 97-2003</value>
+  </data>
+  <data name="Spreadsheet_FileName" xml:space="preserve">
+    <value>Názov súboru</value>
+  </data>
+  <data name="Spreadsheet_Save" xml:space="preserve">
+    <value>Uložiť</value>
+  </data>
+  <data name="Spreadsheet_Bold" xml:space="preserve">
+    <value>Tučné</value>
+  </data>
+  <data name="Spreadsheet_Italic" xml:space="preserve">
+    <value>Kurzíva</value>
+  </data>
+  <data name="Spreadsheet_Strikethrough" xml:space="preserve">
+    <value>Prečiarknuté</value>
+  </data>
+  <data name="Spreadsheet_Underline" xml:space="preserve">
+    <value>Podčiarknuté</value>
+  </data>
+  <data name="Spreadsheet_FontColor" xml:space="preserve">
+    <value>Farba písma</value>
+  </data>
+  <data name="Spreadsheet_BackgroundColor" xml:space="preserve">
+    <value>Farba pozadia</value>
+  </data>
+  <data name="Spreadsheet_VerticalAlignment" xml:space="preserve">
+    <value>Vertikálne zarovnanie</value>
+  </data>
+  <data name="Spreadsheet_HorizontalAlignment" xml:space="preserve">
+    <value>Horizontálne zarovnanie</value>
+  </data>
+  <data name="Spreadsheet_WrapText" xml:space="preserve">
+    <value>Zalomiť text</value>
+  </data>
+  <data name="Spreadsheet_ExcelExport" xml:space="preserve">
+    <value>Export do Excelu</value>
+  </data>
+  <data name="Spreadsheet_Insert" xml:space="preserve">
+    <value>insert</value>
+  </data>
+  <data name="Spreadsheet_Hyperlink" xml:space="preserve">
+    <value>hypertextový odkaz</value>
+  </data>
+  <data name="Spreadsheet_InvalidLinkAddress" xml:space="preserve">
+    <value>Adresa tejto stránky je neplatná. Skontrolujte adresu a skúste to znova.</value>
+  </data>
+  <data name="Spreadsheet_LinkOpenFailed" xml:space="preserve">
+    <value>Nie je možné otvoriť odkaz</value>
+  </data>
+  <data name="Spreadsheet_LinkReferenceMissing" xml:space="preserve">
+    <value>Tento odkaz obsahuje odkaz v zošite, ktorý nemusí existovať.</value>
+  </data>
+  <data name="Spreadsheet_Update" xml:space="preserve">
+    <value>aktualizovať</value>
+  </data>
+  <data name="Spreadsheet_Cancel" xml:space="preserve">
+    <value>Zrušiť</value>
+  </data>
+  <data name="Spreadsheet_InsertLink" xml:space="preserve">
+    <value>Vložte odkaz</value>
+  </data>
+  <data name="Spreadsheet_EditLink" xml:space="preserve">
+    <value>Upraviť odkaz</value>
+  </data>
+  <data name="Spreadsheet_EditHyperlink" xml:space="preserve">
+    <value>Upraviť hypertextový odkaz</value>
+  </data>
+  <data name="Spreadsheet_OpenHyperlink" xml:space="preserve">
+    <value>Otvorte hypertextový odkaz</value>
+  </data>
+  <data name="Spreadsheet_RemoveHyperlink" xml:space="preserve">
+    <value>Odstráňte hypertextový odkaz</value>
+  </data>
+  <data name="Spreadsheet_NameBox" xml:space="preserve">
+    <value>Názov</value>
+  </data>
+  <data name="Spreadsheet_InsertFunction" xml:space="preserve">
+    <value>Funkcia</value>
+  </data>
+  <data name="Spreadsheet_FormulaBar" xml:space="preserve">
+    <value>Vzorca</value>
+  </data>
+  <data name="Spreadsheet_ExpandFormulaBar" xml:space="preserve">
+    <value>Rozšíriť lištu</value>
+  </data>
+  <data name="Spreadsheet_CollapseFormulaBar" xml:space="preserve">
+    <value>Kolapsová lišta</value>
+  </data>
+  <data name="Spreadsheet_InvalidNameSyntax" xml:space="preserve">
+    <value>Syntax tohto názvu je neplatná</value>
+  </data>
+  <data name="Spreadsheet_InvalidNameRule1" xml:space="preserve">
+    <value>Začnite písmenom, podčiarknutím alebo spätným lomítkom</value>
+  </data>
+  <data name="Spreadsheet_InvalidNameRule2" xml:space="preserve">
+    <value>Zvyšné znaky obsahujú iba písmená, číslice, bodky alebo podčiarkovníky</value>
+  </data>
+  <data name="Spreadsheet_InvalidNameRule3" xml:space="preserve">
+    <value>Nepoužívajte medzery ani zakázané znaky</value>
+  </data>
+  <data name="Spreadsheet_NameExists" xml:space="preserve">
+    <value>Tento názov už existuje.</value>
+  </data>
+  <data name="Spreadsheet_RangeNotFound" xml:space="preserve">
+    <value>Vybraný rozsah nie je v tomto hárku.</value>
+  </data>
+  <data name="Spreadsheet_NoDataInRange" xml:space="preserve">
+    <value>Vo vybranom rozsahu nie sú žiadne údaje.</value>
+  </data>
+  <data name="Spreadsheet_CellReference" xml:space="preserve">
+    <value>Neplatný názov, názov nemôže byť odkazom na bunku.</value>
+  </data>
+  <data name="Spreadsheet_NameRequired" xml:space="preserve">
+    <value>Meno je povinné</value>
+  </data>
+  <data name="Spreadsheet_RangeRequired" xml:space="preserve">
+    <value>Rozsah je povinný</value>
+  </data>
+  <data name="Spreadsheet_InvalidRangeFormat" xml:space="preserve">
+    <value>Neplatný formát rozsahu. Použite formát ako A1:B10 alebo A1:B10, C1:D5</value>
+  </data>
+  <data name="Spreadsheet_Scope" xml:space="preserve">
+    <value>Rozsah</value>
+  </data>
+  <data name="Spreadsheet_ManageNames" xml:space="preserve">
+    <value>Spravovať názvy</value>
+  </data>
+  <data name="Spreadsheet_NameManager" xml:space="preserve">
+    <value>Správca názvov</value>
+  </data>
+  <data name="Spreadsheet_NoRecords" xml:space="preserve">
+    <value>Žiadne záznamy</value>
+  </data>
+  <data name="Spreadsheet_Undo" xml:space="preserve">
+    <value>Späť</value>
+  </data>
+  <data name="Spreadsheet_Redo" xml:space="preserve">
+    <value>Znovu</value>
+  </data>
+  <data name="Spreadsheet_FontSize" xml:space="preserve">
+    <value>Veľkosť písma</value>
+  </data>
   <data name="RichTextEditor_InlineCode" xml:space="preserve">
     <value>Vložený kód</value>
+  </data>
+  <data name="RichTextEditor_SlashMenuHeading1" xml:space="preserve">
+    <value>Nadpis 1</value>
+</data>
+<data name="RichTextEditor_SlashMenuHeading2" xml:space="preserve">
+    <value>Nadpis 2</value>
+</data>
+<data name="RichTextEditor_SlashMenuHeading3" xml:space="preserve">
+    <value>Nadpis 3</value>
+</data>
+<data name="RichTextEditor_SlashMenuHeading4" xml:space="preserve">
+    <value>Nadpis 4</value>
+</data>
+<data name="RichTextEditor_SlashMenuParagraph" xml:space="preserve">
+    <value>Odsek</value>
+</data>
+<data name="RichTextEditor_SlashMenuBlockQuote" xml:space="preserve">
+    <value>Blockquote</value>
+</data>
+<data name="RichTextEditor_SlashMenuOrderedList" xml:space="preserve">
+    <value>Objednaný zoznam</value>
+</data>
+<data name="RichTextEditor_SlashMenuUnorderedList" xml:space="preserve">
+    <value>Neusporiadaný zoznam</value>
+</data>
+<data name="RichTextEditor_SlashMenuCodeBlock" xml:space="preserve">
+    <value>CodeBlock</value>
+</data>
+<data name="RichTextEditor_SlashMenuTable" xml:space="preserve">
+    <value>Tabuľka</value>
+</data>
+<data name="RichTextEditor_SlashMenuImage" xml:space="preserve">
+    <value>Obrázok</value>
+</data>
+<data name="RichTextEditor_SlashMenuAudio" xml:space="preserve">
+    <value>Zvuk</value>
+</data>
+<data name="RichTextEditor_SlashMenuVideo" xml:space="preserve">
+    <value>Video</value>
+</data>
+<data name="RichTextEditor_SlashMenuLink" xml:space="preserve">
+    <value>Odkaz</value>
+</data>
+<data name="RichTextEditor_SlashMenuHeading1Description" xml:space="preserve">
+    <value>Použite to pre nadpis alebo nadpis najvyššej úrovne.</value>
+</data>
+<data name="RichTextEditor_SlashMenuHeading2Description" xml:space="preserve">
+    <value>Použite to pre kľúčové sekcie.</value>
+</data>
+<data name="RichTextEditor_SlashMenuHeading3Description" xml:space="preserve">
+    <value>Použite to pre podsekcie a nadpisy skupín.</value>
+</data>
+<data name="RichTextEditor_SlashMenuHeading4Description" xml:space="preserve">
+    <value>Použite to pre kľúčové body podtém.</value>
+</data>
+<data name="RichTextEditor_SlashMenuParagraphDescription" xml:space="preserve">
+    <value>Písanie s odsekmi.</value>
+</data>
+<data name="RichTextEditor_SlashMenuBlockQuoteDescription" xml:space="preserve">
+    <value>Vytvorte citát alebo citáciu.</value>
+</data>
+<data name="RichTextEditor_SlashMenuOrderedListDescription" xml:space="preserve">
+    <value>Vytvorte usporiadaný zoznam.</value>
+</data>
+<data name="RichTextEditor_SlashMenuUnorderedListDescription" xml:space="preserve">
+    <value>Vytvorte neusporiadaný zoznam.</value>
+</data>
+<data name="RichTextEditor_SlashMenuCodeBlockDescription" xml:space="preserve">
+    <value>Vytvorte predformátovaný blok kódu.</value>
+</data>
+<data name="RichTextEditor_SlashMenuTableDescription" xml:space="preserve">
+    <value>Vložte tabuľku.</value>
+</data>
+<data name="RichTextEditor_SlashMenuImageDescription" xml:space="preserve">
+    <value>Vložte obrázok.</value>
+</data>
+<data name="RichTextEditor_SlashMenuAudioDescription" xml:space="preserve">
+    <value>Vložte zvuk.</value>
+</data>
+<data name="RichTextEditor_SlashMenuVideoDescription" xml:space="preserve">
+    <value>Vložte video.</value>
+</data>
+<data name="RichTextEditor_SlashMenuLinkDescription" xml:space="preserve">
+    <value>Vložte odkaz.</value>
+</data>
+<data name="RichTextEditor_HorizontalLine" xml:space="preserve">
+    <value>Vodorovná Čiara</value>
+</data>
+  <data name="RichTextEditor_CodeBlock" xml:space="preserve">
+    <value>Vložiť blok kódu</value>
   </data>
   <data name="SpeechToText_Aborted_Error" xml:space="preserve">
     <value>Rozpoznávanie reči bolo prerušené.</value>
@@ -6791,5 +8384,71 @@
   </data>
   <data name="PdfViewer_DottedStyle" xml:space="preserve">
     <value>Bodkovaný</value>
+  </data>
+  <data name="PdfViewer_MarkForRedaction" xml:space="preserve">
+    <value>Označiť na redakciu</value>
+  </data>
+  <data name="PdfViewer_RedactPages" xml:space="preserve">
+      <value>Redigovať strany</value>
+  </data>
+  <data name="PdfViewer_RedactionPanel" xml:space="preserve">
+      <value>Panel redakcie</value>
+  </data>
+  <data name="PdfViewer_Redact" xml:space="preserve">
+      <value>Redigovať</value>
+  </data>
+  <data name="PdfViewer_Redaction" xml:space="preserve">
+      <value>Redakcia</value>
+  </data>
+  <data name="PdfViewer_OverlayText" xml:space="preserve">
+      <value>Prekryvný text</value>
+  </data>
+  <data name="PdfViewer_RepeatText" xml:space="preserve">
+      <value>Opakovať text</value>
+  </data>
+  <data name="PdfViewer_UseOverlayText" xml:space="preserve">
+      <value>Použiť prekryvný text</value>
+  </data>
+  <data name="PdfViewer_OutlineColor" xml:space="preserve">
+      <value>Farba obrysu</value>
+  </data>
+  <data name="PdfViewer_FillOpacity" xml:space="preserve">
+      <value>Nepriehľadnosť výplne</value>
+  </data>
+  <data name="PdfViewer_MarkPageRange" xml:space="preserve">
+      <value>Označiť Rozsah Stránok</value>
+  </data>
+  <data name="PdfViewer_CurrentPage" xml:space="preserve">
+      <value>Aktuálna Stránka</value>
+  </data>
+  <data name="PdfViewer_OddPagesOnly" xml:space="preserve">
+      <value>Iba Nepárne Stránky</value>
+  </data>
+  <data name="PdfViewer_EvenPagesOnly" xml:space="preserve">
+      <value>Iba Párne Stránky</value>
+  </data>
+  <data name="PdfViewer_SpecificPages" xml:space="preserve">
+      <value>Špecifické Stránky</value>
+  </data>
+  <data name="PdfViewer_PageRange" xml:space="preserve">
+      <value>Rozsah Stránok</value>
+  </data>
+  <data name="PdfViewer_RedactionConfirmation" xml:space="preserve">
+    <value>Všetok obsah označený na redakciu bude trvalo odstránený z dokumentu. Táto akcia sa nedá vrátiť späť.</value>
+  </data>
+  <data name="PdfViewer_RedactHeader" xml:space="preserve">
+    <value>Použiť redakciu</value>
+  </data>
+  <data name="Spreadsheet_CollapseRibbonTab" xml:space="preserve">
+    <value>Panel s nástrojmi</value>
+  </data>
+  <data name="Spreadsheet_ExpandRibbonTab" xml:space="preserve">
+    <value>Rozšíriť panel s nástrojmi</value>
+  </data>
+  <data name="RichTextEditor_FormatPainter" xml:space="preserve">
+    <value>Štetec formátovania</value>
+  </data>
+  <data name="DataForm_SubmitContent" xml:space="preserve">
+    <value>Odoslať</value>
   </data>
 </root>
