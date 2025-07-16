@@ -1,17 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
-  <!-- 
-    Microsoft ResX Schema 
-    
+  <!--
+    Microsoft ResX Schema
+
     Version 2.0
-    
-    The primary goals of this format is to allow a simple XML format 
-    that is mostly human readable. The generation and parsing of the 
-    various data types are done through the TypeConverter classes 
+
+    The primary goals of this format is to allow a simple XML format
+    that is mostly human readable. The generation and parsing of the
+    various data types are done through the TypeConverter classes
     associated with the data types.
-    
+
     Example:
-    
+
     ... ado.net/XML headers & schema ...
     <resheader name="resmimetype">text/microsoft-resx</resheader>
     <resheader name="version">2.0</resheader>
@@ -26,36 +26,36 @@
         <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
         <comment>This is a comment</comment>
     </data>
-                
-    There are any number of "resheader" rows that contain simple 
+
+    There are any number of "resheader" rows that contain simple
     name/value pairs.
-    
-    Each data row contains a name, and value. The row also contains a 
-    type or mimetype. Type corresponds to a .NET class that support 
-    text/value conversion through the TypeConverter architecture. 
-    Classes that don't support this are serialized and stored with the 
+
+    Each data row contains a name, and value. The row also contains a
+    type or mimetype. Type corresponds to a .NET class that support
+    text/value conversion through the TypeConverter architecture.
+    Classes that don't support this are serialized and stored with the
     mimetype set.
-    
-    The mimetype is used for serialized objects, and tells the 
-    ResXResourceReader how to depersist the object. This is currently not 
+
+    The mimetype is used for serialized objects, and tells the
+    ResXResourceReader how to depersist the object. This is currently not
     extensible. For a given mimetype the value must be set accordingly:
-    
-    Note - application/x-microsoft.net.object.binary.base64 is the format 
-    that the ResXResourceWriter will generate, however the reader can 
+
+    Note - application/x-microsoft.net.object.binary.base64 is the format
+    that the ResXResourceWriter will generate, however the reader can
     read any of the formats listed below.
-    
+
     mimetype: application/x-microsoft.net.object.binary.base64
-    value   : The object must be serialized with 
+    value   : The object must be serialized with
             : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
             : and then encoded with base64 encoding.
-    
+
     mimetype: application/x-microsoft.net.object.soap.base64
-    value   : The object must be serialized with 
+    value   : The object must be serialized with
             : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
             : and then encoded with base64 encoding.
 
     mimetype: application/x-microsoft.net.object.bytearray.base64
-    value   : The object must be serialized into a byte array 
+    value   : The object must be serialized into a byte array
             : using a System.ComponentModel.TypeConverter
             : and then encoded with base64 encoding.
     -->
@@ -4590,6 +4590,27 @@
   <data name="PdfViewer_DrawInk" xml:space="preserve">
     <value>ارسم بالحبر</value>
   </data>
+  <data name="PdfViewer_PromptPlaceholder" xml:space="preserve">
+    <value>اكتب طلبك للحصول على المساعدة...</value>
+  </data>
+  <data name="PdfViewer_AIAssistHeader" xml:space="preserve">
+    <value>مساعد الذكاء الاصطناعي</value>
+  </data>
+  <data name="PdfViewer_AIAssistBannerTitle" xml:space="preserve">
+    <value>مساعدة الذكاء الاصطناعي</value>
+  </data>
+  <data name="PdfViewer_AIAssistBannerSubtitle" xml:space="preserve">
+    <value>رفيقك اليومي من الذكاء الاصطناعي</value>
+  </data>
+  <data name="PdfViewer_ErrorDialogHeader" xml:space="preserve">
+    <value>خطأ في خدمة الذكاء الاصطناعي</value>
+  </data>
+  <data name="PdfViewer_CredentialErrorContent" xml:space="preserve">
+    <value>لم يتم تقديم بيانات الاعتماد، أو أنها غير صحيحة أو غير صالحة. يرجى التحقق وإدخال بيانات الاعتماد الصحيحة ثم المحاولة مرة أخرى.</value>
+  </data>
+  <data name="PdfViewer_ConnectionLostErrorContent" xml:space="preserve">
+    <value>تم فقد الاتصال بخدمة الذكاء الاصطناعي. يرجى التحقق من اتصال الشبكة والمحاولة مرة أخرى.</value>
+  </data>
   <data name="DocumentEditor_Table" xml:space="preserve">
     <value>الطاولة</value>
   </data>
@@ -6286,9 +6307,9 @@
     <value>تخطيط ويب</value>
   </data>
   <data name="DocumentEditorContainer_ToggleBetweenTheInternalClipboardAndSystemClipboard" xml:space="preserve">
-    <value>التبديل بين الحافظة الداخلية وحافظة النظام. 
- تم رفض الوصول إلى حافظة النظام من خلال البرنامج النصي بسبب سياسة أمان المتصفحات. بدلاً من ذلك ، 
- 1. يمكنك تمكين الحافظة الداخلية من القص والنسخ واللصق داخل المكون. 
+    <value>التبديل بين الحافظة الداخلية وحافظة النظام.
+ تم رفض الوصول إلى حافظة النظام من خلال البرنامج النصي بسبب سياسة أمان المتصفحات. بدلاً من ذلك ،
+ 1. يمكنك تمكين الحافظة الداخلية من القص والنسخ واللصق داخل المكون.
  2. يمكنك استخدام اختصارات لوحة المفاتيح (Ctrl + X و Ctrl + C و Ctrl + V) للقص ونسخ ولصق مع حافظة النظام.</value>
   </data>
   <data name="DocumentEditorContainer_TextForm" xml:space="preserve">
@@ -6744,8 +6765,1580 @@
   <data name="ChatUI_ThreeUserTyping" xml:space="preserve">
     <value>{0} و{1} و{2} آخرون يكتبون</value>
   </data>
+  <data name="Spreadsheet_InvalidPassword" xml:space="preserve">
+    <value>كلمة المرور غير صحيحة. حاول مرة أخرى.</value>
+  </data>
+  <data name="Spreadsheet_Delete" xml:space="preserve">
+    <value>حذف</value>
+  </data>
+  <data name="Spreadsheet_Duplicate" xml:space="preserve">
+    <value>تكرار</value>
+  </data>
+  <data name="Spreadsheet_Rename" xml:space="preserve">
+    <value>إعادة تسمية</value>
+  </data>
+  <data name="Spreadsheet_MoveRight" xml:space="preserve">
+    <value>تحريك لليمين</value>
+  </data>
+  <data name="Spreadsheet_MoveLeft" xml:space="preserve">
+    <value>تحريك لليسار</value>
+  </data>
+  <data name="Spreadsheet_Copy" xml:space="preserve">
+    <value>نسخ</value>
+  </data>
+  <data name="Spreadsheet_Cut" xml:space="preserve">
+    <value>قص</value>
+  </data>
+  <data name="Spreadsheet_Paste" xml:space="preserve">
+    <value>لصق</value>
+  </data>
+  <data name="Spreadsheet_InsertLeft" xml:space="preserve">
+    <value>إدراج عمود إلى اليسار</value>
+  </data>
+  <data name="Spreadsheet_InsertRight" xml:space="preserve">
+    <value>إدراج عمود إلى اليمين</value>
+  </data>
+  <data name="Spreadsheet_InsertRowsAbove" xml:space="preserve">
+    <value>إدراج صفوف للأعلى</value>
+  </data>
+  <data name="Spreadsheet_InsertRowsBelow" xml:space="preserve">
+    <value>إدراج صفوف للأسفل</value>
+  </data>
+  <data name="Spreadsheet_Sort" xml:space="preserve">
+    <value>فرز</value>
+  </data>
+  <data name="Spreadsheet_ClearAll" xml:space="preserve">
+    <value>مسح الكل</value>
+  </data>
+  <data name="Spreadsheet_ClearFormats" xml:space="preserve">
+    <value>مسح التنسيقات</value>
+  </data>
+  <data name="Spreadsheet_ClearContents" xml:space="preserve">
+    <value>مسح المحتويات</value>
+  </data>
+  <data name="Spreadsheet_ClearHyperlinks" xml:space="preserve">
+    <value>مسح الارتباطات التشعبية</value>
+  </data>
+  <data name="Spreadsheet_Clear" xml:space="preserve">
+    <value>مسح</value>
+  </data>
+  <data name="Spreadsheet_Home" xml:space="preserve">
+    <value>الرئيسية</value>
+  </data>
+  <data name="Spreadsheet_Link" xml:space="preserve">
+    <value>رابط</value>
+  </data>
+  <data name="Spreadsheet_File" xml:space="preserve">
+    <value>ملف</value>
+  </data>
+  <data name="Spreadsheet_Image" xml:space="preserve">
+    <value>صورة</value>
+  </data>
+  <data name="Spreadsheet_New" xml:space="preserve">
+    <value>جديد</value>
+  </data>
+  <data name="Spreadsheet_Open" xml:space="preserve">
+    <value>فتح</value>
+  </data>
+  <data name="Spreadsheet_ABS" xml:space="preserve">
+    <value>يُرجع القيمة المطلقة لرقم</value>
+  </data>
+  <data name="Spreadsheet_ACOS" xml:space="preserve">
+    <value>يُرجع قوس جيب التمام لرقم</value>
+  </data>
+  <data name="Spreadsheet_ACOSH" xml:space="preserve">
+    <value>يُرجع قوس جيب التمام الزائدي العكسي لرقم</value>
+  </data>
+  <data name="Spreadsheet_ADDRESS" xml:space="preserve">
+    <value>يُرجع مرجعًا كنص إلى خلية</value>
+  </data>
+  <data name="Spreadsheet_ANDFormula" xml:space="preserve">
+    <value>يُرجع TRUE إذا كانت كل وسيطاته TRUE</value>
+  </data>
+    <data name="Spreadsheet_AREAS" xml:space="preserve">
+    <value>يُرجع عدد المناطق في مرجع</value>
+  </data>
+  <data name="Spreadsheet_ARRAYTOTEXT" xml:space="preserve">
+    <value>يُرجع التمثيل النصي لمصفوفة</value>
+  </data>
+  <data name="Spreadsheet_ASC" xml:space="preserve">
+    <value>يحول الأحرف كاملة العرض إلى أحرف نصف عرض في سلسلة</value>
+  </data>
+  <data name="Spreadsheet_ASIN" xml:space="preserve">
+    <value>يُرجع قوس الجيب لرقم</value>
+  </data>
+  <data name="Spreadsheet_ASINH" xml:space="preserve">
+    <value>يُرجع مقلوب الجيب الزائدي لرقم</value>
+  </data>
+  <data name="Spreadsheet_ATAN" xml:space="preserve">
+    <value>يُرجع قوس الظل لرقم</value>
+  </data>
+  <data name="Spreadsheet_ATAN2" xml:space="preserve">
+    <value>يُرجع قوس الظل من إحداثيات س و ص</value>
+  </data>
+  <data name="Spreadsheet_ATANH" xml:space="preserve">
+    <value>يُرجع مقلوب الظل الزائدي لرقم</value>
+  </data>
+  <data name="Spreadsheet_AVEDEV" xml:space="preserve">
+    <value>يُرجع متوسط الانحرافات المطلقة عن المتوسط</value>
+  </data>
+  <data name="Spreadsheet_AVERAGE" xml:space="preserve">
+    <value>يُرجع متوسط وسيطاته</value>
+  </data>
+  <data name="Spreadsheet_AVERAGEA" xml:space="preserve">
+    <value>يعيد متوسط وسيطاته</value>
+  </data>
+  <data name="Spreadsheet_AVERAGEIF" xml:space="preserve">
+    <value>يعيد متوسط الخلايا التي تستوفي معياراً</value>
+  </data>
+  <data name="Spreadsheet_AVERAGEIFS" xml:space="preserve">
+    <value>يعيد متوسط الخلايا التي تستوفي معايير متعددة</value>
+  </data>
+  <data name="Spreadsheet_BESSELI" xml:space="preserve">
+    <value>يعيد دالة بيسل المعدلة In(x)</value>
+  </data>
+  <data name="Spreadsheet_BESSELJ" xml:space="preserve">
+    <value>يعيد دالة بيسل Jn(x)</value>
+  </data>
+  <data name="Spreadsheet_BESSELK" xml:space="preserve">
+    <value>يعيد دالة بيسل المعدلة Kn(x)</value>
+  </data>
+  <data name="Spreadsheet_BESSELY" xml:space="preserve">
+    <value>يعيد دالة بيسل Yn(x)</value>
+  </data>
+  <data name="Spreadsheet_BIN2DEC" xml:space="preserve">
+    <value>يحول رقماً ثنائياً إلى عشري</value>
+  </data>
+  <data name="Spreadsheet_BIN2HEX" xml:space="preserve">
+    <value>يحول رقماً ثنائياً إلى ست عشري</value>
+  </data>
+  <data name="Spreadsheet_BIN2OCT" xml:space="preserve">
+    <value>يحول رقماً ثنائياً إلى ثماني</value>
+  </data>
+  <data name="Spreadsheet_BINOMDIST" xml:space="preserve">
+    <value>يعيد احتمالية التوزيع الحدي ذي الحدين</value>
+  </data>
+  <data name="Spreadsheet_BYCOL" xml:space="preserve">
+    <value>يطبق LAMBDA على كل عمود ويعيد مصفوفة النتائج</value>
+  </data>
+  <data name="Spreadsheet_BYROW" xml:space="preserve">
+    <value>يطبق LAMBDA على كل صف ويعيد مصفوفة النتائج</value>
+  </data>
+  <data name="Spreadsheet_CEILING" xml:space="preserve">
+    <value>يقرب رقماً إلى أقرب عدد صحيح أو مضاعف</value>
+  </data>
+  <data name="Spreadsheet_CELL" xml:space="preserve">
+    <value>يعيد معلومات عن التنسيق أو الموقع أو المحتويات</value>
+  </data>
+  <data name="Spreadsheet_CHAR" xml:space="preserve">
+    <value>يعيد الحرف المحدد برقم الكود</value>
+  </data>
+  <data name="Spreadsheet_CHIDIST" xml:space="preserve">
+    <value>يُرجع الاحتمال أحادي الطرف لتوزيع مربع كاي</value>
+  </data>
+  <data name="Spreadsheet_CHIINV" xml:space="preserve">
+    <value>يُرجع مقلوب توزيع مربع كاي</value>
+  </data>
+  <data name="Spreadsheet_CHITEST" xml:space="preserve">
+    <value>يُرجع اختبار الاستقلالية</value>
+  </data>
+  <data name="Spreadsheet_CHOOSE" xml:space="preserve">
+    <value>يختار قيمة من قائمة القيم</value>
+  </data>
+  <data name="Spreadsheet_CHOOSECOLS" xml:space="preserve">
+    <value>يُرجع الأعمدة المحددة من مصفوفة</value>
+  </data>
+  <data name="Spreadsheet_CHOOSEROWS" xml:space="preserve">
+    <value>يُرجع الصفوف المحددة من مصفوفة</value>
+  </data>
+  <data name="Spreadsheet_CLEAN" xml:space="preserve">
+    <value>يزيل جميع الأحرف غير القابلة للطباعة من النص</value>
+  </data>
+  <data name="Spreadsheet_CODE" xml:space="preserve">
+    <value>يُرجع رمزًا رقميًا للحرف الأول في سلسلة نصية</value>
+  </data>
+  <data name="Spreadsheet_COLUMN" xml:space="preserve">
+    <value>يُرجع رقم العمود لمرجع</value>
+  </data>
+  <data name="Spreadsheet_COLUMNS" xml:space="preserve">
+    <value>يُرجع عدد الأعمدة في مرجع</value>
+  </data>
+  <data name="Spreadsheet_COMBIN" xml:space="preserve">
+    <value>يُرجع عدد التوافقات لعدد معين من العناصر</value>
+  </data>
+  <data name="Spreadsheet_COMPLEX" xml:space="preserve">
+    <value>يحول المعاملات الحقيقية والتخيلية إلى رقم مركب</value>
+  </data>
+  <data name="Spreadsheet_CONCAT" xml:space="preserve">
+    <value>يجمع النص من نطاقات و/أو سلاسل متعددة</value>
+  </data>
+  <data name="Spreadsheet_CONCATENATE" xml:space="preserve">
+    <value>يربط عدة عناصر نصية في عنصر نصي واحد</value>
+  </data>
+  <data name="Spreadsheet_CONFIDENCE" xml:space="preserve">
+    <value>يُرجع فاصل الثقة لمتوسط المجتمع</value>
+  </data>
+  <data name="Spreadsheet_CONVERT" xml:space="preserve">
+    <value>يحول رقمًا من نظام قياس إلى آخر</value>
+  </data>
+  <data name="Spreadsheet_CORREL" xml:space="preserve">
+    <value>يُرجع معامل الارتباط بين مجموعتي بيانات</value>
+  </data>
+  <data name="Spreadsheet_COS" xml:space="preserve">
+    <value>يُرجع جيب التمام (كوسين) لرقم</value>
+  </data>
+  <data name="Spreadsheet_COSH" xml:space="preserve">
+    <value>يُرجع جيب التمام الزائدي (كوسين زائدي) لرقم</value>
+  </data>
+  <data name="Spreadsheet_COUNT" xml:space="preserve">
+    <value>يحسب عدد الأرقام الموجودة في قائمة الوسيطات</value>
+  </data>
+  <data name="Spreadsheet_COUNTA" xml:space="preserve">
+    <value>يحسب عدد القيم الموجودة في قائمة الوسيطات</value>
+  </data>
+  <data name="Spreadsheet_COUNTBLANK" xml:space="preserve">
+    <value>يحسب عدد الخلايا الفارغة ضمن نطاق</value>
+  </data>
+  <data name="Spreadsheet_COUNTIF" xml:space="preserve">
+    <value>يحسب الخلايا التي تطابق المعايير المحددة</value>
+  </data>
+  <data name="Spreadsheet_COVAR" xml:space="preserve">
+    <value>يُرجع التباين المشترك، وهو متوسط منتجات الانحرافات المقترنة</value>
+  </data>
+  <data name="Spreadsheet_CRITBINOM" xml:space="preserve">
+    <value>يُرجع أصغر قيمة للتوزيع الحدين التراكمي</value>
+  </data>
+  <data name="Spreadsheet_CUMIPMT" xml:space="preserve">
+    <value>يُرجع الفائدة التراكمية المدفوعة بين فترتين</value>
+  </data>
+  <data name="Spreadsheet_CUMPRINC" xml:space="preserve">
+    <value>يُرجع المبلغ الأساسي التراكمي المدفوع لقرض بين فترتين</value>
+  </data>
+  <data name="Spreadsheet_DATE" xml:space="preserve">
+    <value>يُرجع الرقم التسلسلي لتاريخ معين</value>
+  </data>
+  <data name="Spreadsheet_DATEVALUE" xml:space="preserve">
+    <value>يحول التاريخ على شكل نص إلى رقم تسلسلي</value>
+  </data>
+  <data name="Spreadsheet_DAY" xml:space="preserve">
+    <value>يحول الرقم التسلسلي إلى يوم من الشهر</value>
+  </data>
+  <data name="Spreadsheet_DAYS360" xml:space="preserve">
+    <value>يحسب عدد الأيام بين تاريخين على أساس سنة من 360 يوم</value>
+  </data>
+  <data name="Spreadsheet_DB" xml:space="preserve">
+    <value>يعيد استهلاك الأصول باستخدام الرصيد المتناقص الثابت</value>
+  </data>
+  <data name="Spreadsheet_DDB" xml:space="preserve">
+    <value>يعيد استهلاك الأصول باستخدام الرصيد المتناقص المزدوج</value>
+  </data>
+  <data name="Spreadsheet_DEC2BIN" xml:space="preserve">
+    <value>يحول الرقم العشري إلى ثنائي</value>
+  </data>
+  <data name="Spreadsheet_DECHEX" xml:space="preserve">
+    <value>يحول الرقم العشري إلى سداسي عشري</value>
+  </data>
+  <data name="Spreadsheet_DEC2OCT" xml:space="preserve">
+    <value>يحول الرقم العشري إلى ثماني</value>
+  </data>
+  <data name="Spreadsheet_DEGREES" xml:space="preserve">
+    <value>يحول الزوايا من الراديان إلى الدرجات</value>
+  </data>
+  <data name="Spreadsheet_DELTA" xml:space="preserve">
+    <value>يختبر ما إذا كانت قيمتان متساويتان</value>
+  </data>
+  <data name="Spreadsheet_DEVSQ" xml:space="preserve">
+    <value>يعيد مجموع مربعات الانحرافات</value>
+  </data>
+  <data name="Spreadsheet_DISC" xml:space="preserve">
+    <value>يعيد معدل الخصم للورقة المالية</value>
+  </data>
+  <data name="Spreadsheet_DOLLAR" xml:space="preserve">
+    <value>يحول الرقم إلى نص، باستخدام تنسيق العملة $ (دولار)</value>
+  </data>
+  <data name="Spreadsheet_DOLLARDE" xml:space="preserve">
+    <value>يحول سعر الدولار الكسري إلى عشري</value>
+  </data>
+  <data name="Spreadsheet_DOLLARFR" xml:space="preserve">
+    <value>يحول سعر الدولار العشري إلى كسري</value>
+  </data>
+  <data name="Spreadsheet_DURATION" xml:space="preserve">
+    <value>يعيد المدة السنوية للورقة المالية ذات مدفوعات الفائدة الدورية</value>
+  </data>
+  <data name="Spreadsheet_EDATE" xml:space="preserve">
+    <value>يعيد التاريخ الذي يكون بعد/قبل تاريخ البداية بعدد شهور محدد</value>
+  </data>
+  <data name="Spreadsheet_EFFECT" xml:space="preserve">
+    <value>يعيد معدل الفائدة السنوي الفعال</value>
+  </data>
+  <data name="Spreadsheet_EOMONTH" xml:space="preserve">
+    <value>يعيد آخر يوم من الشهر قبل/بعد عدد أشهر محدد</value>
+  </data>
+  <data name="Spreadsheet_ERF" xml:space="preserve">
+    <value>يعيد دالة الخطأ</value>
+  </data>
+  <data name="Spreadsheet_ERFC" xml:space="preserve">
+    <value>يُرجع دالة الخطأ التكميلية</value>
+  </data>
+  <data name="Spreadsheet_ERRORTYPE" xml:space="preserve">
+    <value>يُرجع رقمًا يتوافق مع نوع الخطأ</value>
+  </data>
+  <data name="Spreadsheet_EVEN" xml:space="preserve">
+    <value>يقرب الرقم لأعلى إلى أقرب عدد صحيح زوجي</value>
+  </data>
+  <data name="Spreadsheet_EXACT" xml:space="preserve">
+    <value>يتحقق مما إذا كانت قيمتا النص متطابقتين</value>
+  </data>
+  <data name="Spreadsheet_EXP" xml:space="preserve">
+    <value>يُرجع e مرفوعة إلى قوة رقم معين</value>
+  </data>
+  <data name="Spreadsheet_EXPONDIST" xml:space="preserve">
+    <value>يُرجع التوزيع الأسي</value>
+  </data>
+  <data name="Spreadsheet_FACT" xml:space="preserve">
+    <value>يُرجع مضروب رقم</value>
+  </data>
+  <data name="Spreadsheet_FACTDOUBLE" xml:space="preserve">
+    <value>يُرجع المضروب المزدوج لرقم</value>
+  </data>
+  <data name="Spreadsheet_FDIST" xml:space="preserve">
+    <value>يُرجع توزيع احتمالية F</value>
+  </data>
+  <data name="Spreadsheet_FIND" xml:space="preserve">
+    <value>يبحث عن قيمة نصية داخل أخرى (حساس لحالة الأحرف)</value>
+  </data>
+  <data name="Spreadsheet_FINDB" xml:space="preserve">
+    <value>يبحث عن قيمة نصية داخل أخرى (حساس لحالة الأحرف)</value>
+  </data>
+  <data name="Spreadsheet_FINV" xml:space="preserve">
+    <value>يُرجع معكوس توزيع احتمالية F</value>
+  </data>
+  <data name="Spreadsheet_FISHER" xml:space="preserve">
+    <value>يُرجع تحويل فيشر</value>
+  </data>
+  <data name="Spreadsheet_FISHERINV" xml:space="preserve">
+    <value>يُرجع معكوس تحويل فيشر</value>
+  </data>
+  <data name="Spreadsheet_FIXED" xml:space="preserve">
+    <value>يُنسق رقمًا كنص بعدد ثابت من الكسور العشرية</value>
+  </data>
+  <data name="Spreadsheet_FLOOR" xml:space="preserve">
+    <value>يُقرب الرقم لأسفل، باتجاه الصفر</value>
+  </data>
+  <data name="Spreadsheet_FORECAST" xml:space="preserve">
+    <value>يُرجع قيمة على طول اتجاه خطي</value>
+  </data>
+  <data name="Spreadsheet_FV" xml:space="preserve">
+    <value>يُرجع القيمة المستقبلية للاستثمار</value>
+  </data>
+  <data name="Spreadsheet_FVSCHEDULE" xml:space="preserve">
+    <value>يُرجع القيمة المستقبلية بعد معدلات الفائدة المركبة</value>
+  </data>
+  <data name="Spreadsheet_GAMMADIST" xml:space="preserve">
+    <value>يُرجع توزيع جاما</value>
+  </data>
+  <data name="Spreadsheet_GAMMAINV" xml:space="preserve">
+    <value>يُرجع مقلوب التوزيع التراكمي لجاما</value>
+  </data>
+  <data name="Spreadsheet_GAMMALN" xml:space="preserve">
+    <value>يُرجع اللوغاريتم الطبيعي لدالة جاما، Γ(x)</value>
+  </data>
+  <data name="Spreadsheet_GCD" xml:space="preserve">
+    <value>يُرجع القاسم المشترك الأكبر</value>
+  </data>
+  <data name="Spreadsheet_GEOMEAN" xml:space="preserve">
+    <value>يُرجع المتوسط الهندسي</value>
+  </data>
+  <data name="Spreadsheet_GESTEP" xml:space="preserve">
+    <value>يختبر ما إذا كان الرقم أكبر من قيمة الحد</value>
+  </data>
+  <data name="Spreadsheet_GROWTH" xml:space="preserve">
+    <value>يُرجع قيماً على طول اتجاه أسي</value>
+  </data>
+  <data name="Spreadsheet_HARMEAN" xml:space="preserve">
+    <value>يُرجع المتوسط التوافقي</value>
+  </data>
+  <data name="Spreadsheet_HEX2BIN" xml:space="preserve">
+    <value>يحول رقماً سداسي عشري إلى ثنائي</value>
+  </data>
+  <data name="Spreadsheet_HEX2DEC" xml:space="preserve">
+    <value>يحول رقماً سداسي عشري إلى عشري</value>
+  </data>
+  <data name="Spreadsheet_HEX2OCT" xml:space="preserve">
+    <value>يحول رقماً سداسي عشري إلى ثماني</value>
+  </data>
+  <data name="Spreadsheet_HLOOKUP" xml:space="preserve">
+    <value>يبحث في الصف العلوي من مصفوفة ويُرجع قيمة الخلية المشار إليها</value>
+  </data>
+  <data name="Spreadsheet_HOUR" xml:space="preserve">
+    <value>يحول رقماً تسلسلياً إلى ساعة</value>
+  </data>
+  <data name="Spreadsheet_HYPERLINKFormula" xml:space="preserve">
+    <value>ينشئ اختصاراً لفتح مستند على الشبكة/الإنترنت</value>
+  </data>
+  <data name="Spreadsheet_HYPGEOMDIST" xml:space="preserve">
+    <value>يُرجع التوزيع فوق الهندسي</value>
+  </data>
+  <data name="Spreadsheet_IF" xml:space="preserve">
+    <value>يحدد اختباراً منطقياً للتنفيذ</value>
+  </data>
+  <data name="Spreadsheet_IFERROR" xml:space="preserve">
+    <value>يُرجع قيمة محددة إذا قيّمت الصيغة إلى خطأ</value>
+  </data>
+  <data name="Spreadsheet_IFS" xml:space="preserve">
+    <value>يُرجع قيمة مقابلة للشرط الأول الصحيح</value>
+  </data>
+  <data name="Spreadsheet_IMABS" xml:space="preserve">
+    <value>يُرجع القيمة المطلقة (المعامل) لعدد مركب</value>
+  </data>
+  <data name="Spreadsheet_IMAGINARY" xml:space="preserve">
+    <value>يُرجع المعامل التخيلي لعدد مركب</value>
+  </data>
+  <data name="Spreadsheet_IMARGUMENT" xml:space="preserve">
+    <value>يُرجع الوسيط theta، زاوية معبر عنها بالراديان</value>
+  </data>
+  <data name="Spreadsheet_IMCONJUGATE" xml:space="preserve">
+    <value>يُرجع المرافق المركب لعدد مركب</value>
+  </data>
+  <data name="Spreadsheet_IMCOS" xml:space="preserve">
+    <value>يُرجع جيب التمام لعدد مركب</value>
+  </data>
+  <data name="Spreadsheet_IMDIV" xml:space="preserve">
+    <value>يُرجع حاصل قسمة عددين مركبين</value>
+  </data>
+  <data name="Spreadsheet_IMEXP" xml:space="preserve">
+    <value>يُرجع الأس لعدد مركب</value>
+  </data>
+  <data name="Spreadsheet_IMLN" xml:space="preserve">
+    <value>يُرجع اللوغاريتم الطبيعي لعدد مركب</value>
+  </data>
+  <data name="Spreadsheet_IMLOG10" xml:space="preserve">
+    <value>يُرجع لوغاريتم الأساس 10 لعدد مركب</value>
+  </data>
+  <data name="Spreadsheet_IMLOG2" xml:space="preserve">
+    <value>يُرجع لوغاريتم الأساس 2 لعدد مركب</value>
+  </data>
+  <data name="Spreadsheet_IMPOWER" xml:space="preserve">
+    <value>يُرجع عدداً مركباً مرفوعاً لأس صحيح</value>
+  </data>
+  <data name="Spreadsheet_IMPRODUCT" xml:space="preserve">
+    <value>يُرجع حاصل ضرب من 2 إلى 29 عدداً مركباً</value>
+  </data>
+  <data name="Spreadsheet_IMREAL" xml:space="preserve">
+    <value>يُرجع المعامل الحقيقي لعدد مركب</value>
+  </data>
+  <data name="Spreadsheet_IMSIN" xml:space="preserve">
+    <value>يُرجع جيب عدد مركب</value>
+  </data>
+  <data name="Spreadsheet_IMSQRT" xml:space="preserve">
+    <value>يُرجع الجذر التربيعي لعدد مركب</value>
+  </data>
+  <data name="Spreadsheet_IMSUB" xml:space="preserve">
+    <value>يُرجع الفرق بين رقمين مركبين</value>
+  </data>
+  <data name="Spreadsheet_IMSUM" xml:space="preserve">
+    <value>يُرجع مجموع الأرقام المركبة</value>
+  </data>
+  <data name="Spreadsheet_INDEX" xml:space="preserve">
+    <value>يستخدم فهرساً لاختيار قيمة من مرجع أو مصفوفة</value>
+  </data>
+  <data name="Spreadsheet_INDIRECT" xml:space="preserve">
+    <value>يُرجع مرجعاً مشاراً إليه بقيمة نصية</value>
+  </data>
+  <data name="Spreadsheet_INFO" xml:space="preserve">
+    <value>يُرجع معلومات عن بيئة التشغيل الحالية</value>
+  </data>
+  <data name="Spreadsheet_INT" xml:space="preserve">
+    <value>يقرب رقماً لأسفل إلى أقرب عدد صحيح</value>
+  </data>
+  <data name="Spreadsheet_INTERCEPT" xml:space="preserve">
+    <value>يُرجع تقاطع خط الانحدار الخطي</value>
+  </data>
+  <data name="Spreadsheet_INTRATE" xml:space="preserve">
+    <value>يُرجع معدل الفائدة للأوراق المالية المستثمرة بالكامل</value>
+  </data>
+  <data name="Spreadsheet_IPMT" xml:space="preserve">
+    <value>يُرجع دفعة الفائدة لاستثمار لفترة معينة</value>
+  </data>
+  <data name="Spreadsheet_IRR" xml:space="preserve">
+    <value>يُرجع معدل العائد الداخلي لسلسلة من التدفقات النقدية</value>
+  </data>
+  <data name="Spreadsheet_ISBLANK" xml:space="preserve">
+    <value>يُرجع TRUE إذا كانت القيمة فارغة</value>
+  </data>
+  <data name="Spreadsheet_ISERR" xml:space="preserve">
+    <value>يُرجع TRUE إذا كانت القيمة أي قيمة خطأ باستثناء #N/A</value>
+  </data>
+  <data name="Spreadsheet_ISERROR" xml:space="preserve">
+    <value>يُرجع TRUE إذا كانت القيمة أي قيمة خطأ</value>
+  </data>
+  <data name="Spreadsheet_ISEVEN" xml:space="preserve">
+    <value>يُرجع TRUE إذا كان الرقم زوجياً</value>
+  </data>
+  <data name="Spreadsheet_ISLOGICAL" xml:space="preserve">
+    <value>يُرجع TRUE إذا كانت القيمة قيمة منطقية</value>
+  </data>
+  <data name="Spreadsheet_ISNA" xml:space="preserve">
+    <value>يُرجع TRUE إذا كانت القيمة هي قيمة الخطأ #N/A</value>
+  </data>
+  <data name="Spreadsheet_ISNONTEXT" xml:space="preserve">
+    <value>يُرجع TRUE إذا كانت القيمة ليست نصاً</value>
+  </data>
+  <data name="Spreadsheet_ISNUMBER" xml:space="preserve">
+    <value>يُرجع TRUE إذا كانت القيمة رقماً</value>
+  </data>
+  <data name="Spreadsheet_ISODD" xml:space="preserve">
+    <value>يُرجع TRUE إذا كان الرقم فردياً</value>
+  </data>
+  <data name="Spreadsheet_ISPMT" xml:space="preserve">
+    <value>يحسب الفائدة المدفوعة خلال فترة الاستثمار</value>
+  </data>
+  <data name="Spreadsheet_ISREF" xml:space="preserve">
+    <value>يُرجع TRUE إذا كانت القيمة مرجعاً</value>
+  </data>
+  <data name="Spreadsheet_ISTEXT" xml:space="preserve">
+    <value>يُرجع TRUE إذا كانت القيمة نصاً</value>
+  </data>
+  <data name="Spreadsheet_KURT" xml:space="preserve">
+    <value>يُرجع تفلطح مجموعة بيانات</value>
+  </data>
+  <data name="Spreadsheet_LAMBDA" xml:space="preserve">
+    <value>يسمح باستخدام معلمات الصيغة والمنطق الخاصة</value>
+  </data>
+  <data name="Spreadsheet_LARGE" xml:space="preserve">
+    <value>يُرجع القيمة الأكبر الترتيب k في مجموعة بيانات</value>
+  </data>
+  <data name="Spreadsheet_LCM" xml:space="preserve">
+    <value>يُرجع المضاعف المشترك الأصغر</value>
+  </data>
+  <data name="Spreadsheet_LEFT" xml:space="preserve">
+    <value>يُرجع الأحرف الأقصى يسارًا من قيمة نصية</value>
+  </data>
+  <data name="Spreadsheet_LEFTB" xml:space="preserve">
+    <value>يُرجع الأحرف الأقصى يسارًا من قيمة نصية</value>
+  </data>
+  <data name="Spreadsheet_LEN" xml:space="preserve">
+    <value>يُرجع عدد الأحرف في سلسلة نصية</value>
+  </data>
+  <data name="Spreadsheet_LENB" xml:space="preserve">
+    <value>يُرجع عدد الأحرف في سلسلة نصية</value>
+  </data>
+  <data name="Spreadsheet_LET" xml:space="preserve">
+    <value>يُرجع نتيجة صيغة يمكنها استخدام المتغيرات</value>
+  </data>
+  <data name="Spreadsheet_LN" xml:space="preserve">
+    <value>يُرجع اللوغاريتم الطبيعي لرقم</value>
+  </data>
+  <data name="Spreadsheet_LOG" xml:space="preserve">
+    <value>يُرجع لوغاريتم رقم بأساس محدد</value>
+  </data>
+  <data name="Spreadsheet_LOG10" xml:space="preserve">
+    <value>يُرجع لوغاريتم رقم بالأساس 10</value>
+  </data>
+  <data name="Spreadsheet_LOGEST" xml:space="preserve">
+    <value>يُرجع معلمات الاتجاه الأسي</value>
+  </data>
+  <data name="Spreadsheet_LOGINV" xml:space="preserve">
+    <value>يُرجع معكوس التوزيع اللوغاريتمي العادي</value>
+  </data>
+  <data name="Spreadsheet_LOGNORMDIST" xml:space="preserve">
+    <value>يُرجع التوزيع اللوغاريتمي العادي التراكمي</value>
+  </data>
+  <data name="Spreadsheet_LOOKUP" xml:space="preserve">
+    <value>يبحث عن قيم في متجه أو مصفوفة</value>
+  </data>
+  <data name="Spreadsheet_LOWER" xml:space="preserve">
+    <value>يحول النص إلى أحرف صغيرة</value>
+  </data>
+  <data name="Spreadsheet_MATCH" xml:space="preserve">
+    <value>يبحث عن قيم في مرجع أو مصفوفة</value>
+  </data>
+  <data name="Spreadsheet_MAX" xml:space="preserve">
+    <value>يُرجع القيمة القصوى في قائمة الوسيطات</value>
+  </data>
+  <data name="Spreadsheet_MAXA" xml:space="preserve">
+    <value>يُرجع القيمة القصوى في قائمة الوسيطات، بما في ذلك الأرقام والنصوص والقيم المنطقية</value>
+  </data>
+  <data name="Spreadsheet_MAXIFS" xml:space="preserve">
+    <value>يُرجع القيمة القصوى بين الخلايا التي تستوفي المعايير</value>
+  </data>
+  <data name="Spreadsheet_MDETERM" xml:space="preserve">
+    <value>يُرجع محدد المصفوفة لمجموعة</value>
+  </data>
+  <data name="Spreadsheet_MEDIAN" xml:space="preserve">
+    <value>يُرجع الوسيط للأرقام المُعطاة</value>
+  </data>
+  <data name="Spreadsheet_MID" xml:space="preserve">
+    <value>يُرجع أحرفًا من نص بدءًا من موضع معين</value>
+  </data>
+  <data name="Spreadsheet_MIDB" xml:space="preserve">
+    <value>يُرجع عددًا محددًا من الأحرف من سلسلة نصية بدءًا من الموضع الذي تحدده</value>
+  </data>
+  <data name="Spreadsheet_MIN" xml:space="preserve">
+    <value>يُرجع القيمة الدنيا في قائمة من الوسيطات</value>
+  </data>
+  <data name="Spreadsheet_MINA" xml:space="preserve">
+    <value>يُرجع أصغر قيمة في قائمة من الوسيطات، بما في ذلك الأرقام والنص والقيم المنطقية</value>
+  </data>
+  <data name="Spreadsheet_MINIFS" xml:space="preserve">
+    <value>يُرجع الحد الأدنى للقيم بين الخلايا التي تستوفي المعايير</value>
+  </data>
+  <data name="Spreadsheet_MINUTE" xml:space="preserve">
+    <value>يحوّل رقماً تسلسلياً إلى دقيقة</value>
+  </data>
+  <data name="Spreadsheet_MINVERSE" xml:space="preserve">
+    <value>يُرجع مصفوفة معكوسة لصفيف</value>
+  </data>
+  <data name="Spreadsheet_MIRR" xml:space="preserve">
+    <value>يُرجع IRR بمعدلات تمويل مختلفة</value>
+  </data>
+  <data name="Spreadsheet_MMULT" xml:space="preserve">
+    <value>يُرجع ناتج ضرب مصفوفتين</value>
+  </data>
+  <data name="Spreadsheet_MOD" xml:space="preserve">
+    <value>يُرجع باقي القسمة</value>
+  </data>
+  <data name="Spreadsheet_MODE" xml:space="preserve">
+    <value>يُرجع القيمة الأكثر شيوعًا في مجموعة البيانات</value>
+  </data>
+  <data name="Spreadsheet_MONTH" xml:space="preserve">
+    <value>يحوّل رقماً تسلسلياً إلى شهر</value>
+  </data>
+  <data name="Spreadsheet_MROUND" xml:space="preserve">
+    <value>يُرجع رقمًا مقربًا إلى المضاعف المطلوب</value>
+  </data>
+  <data name="Spreadsheet_MULTINOMIAL" xml:space="preserve">
+    <value>يُرجع المعامل متعدد الحدود لمجموعة من الأرقام</value>
+  </data>
+  <data name="Spreadsheet_N" xml:space="preserve">
+    <value>يُرجع قيمة محولة إلى رقم</value>
+  </data>
+  <data name="Spreadsheet_NA" xml:space="preserve">
+    <value>يُرجع قيمة الخطأ #N/A</value>
+  </data>
+  <data name="Spreadsheet_NEGBINOMDIST" xml:space="preserve">
+    <value>يُرجع التوزيع الحدي السالب</value>
+  </data>
+  <data name="Spreadsheet_NETWORKDAYS" xml:space="preserve">
+    <value>يُرجع عدد أيام العمل الكاملة بين تاريخين</value>
+  </data>
+  <data name="Spreadsheet_NORMDIST" xml:space="preserve">
+    <value>يُرجع التوزيع التراكمي الطبيعي</value>
+  </data>
+  <data name="Spreadsheet_NORMINV" xml:space="preserve">
+    <value>يُرجع معكوس التوزيع التراكمي الطبيعي</value>
+  </data>
+  <data name="Spreadsheet_NORMSDIST" xml:space="preserve">
+    <value>يُرجع التوزيع التراكمي الطبيعي المعياري</value>
+  </data>
+  <data name="Spreadsheet_NORMSINV" xml:space="preserve">
+    <value>يُرجع معكوس التوزيع التراكمي الطبيعي المعياري</value>
+  </data>
+  <data name="Spreadsheet_NOT" xml:space="preserve">
+    <value>يعكس منطق الوسيطة</value>
+  </data>
+  <data name="Spreadsheet_NOW" xml:space="preserve">
+    <value>يُرجع الرقم التسلسلي للتاريخ والوقت الحاليين</value>
+  </data>
+  <data name="Spreadsheet_NPER" xml:space="preserve">
+    <value>يُرجع عدد الفترات لاستثمار</value>
+  </data>
+  <data name="Spreadsheet_NPV" xml:space="preserve">
+    <value>يُرجع صافي القيمة الحالية بناءً على التدفقات النقدية</value>
+  </data>
+  <data name="Spreadsheet_OCT2BIN" xml:space="preserve">
+    <value>يحول رقماً ثمانياً إلى ثنائي</value>
+  </data>
+  <data name="Spreadsheet_OCT2DEC" xml:space="preserve">
+    <value>يحول رقماً ثمانياً إلى عشري</value>
+  </data>
+  <data name="Spreadsheet_OCT2HEX" xml:space="preserve">
+    <value>يحول رقماً ثمانياً إلى سداسي عشري</value>
+  </data>
+  <data name="Spreadsheet_ODD" xml:space="preserve">
+    <value>يقرب رقماً إلى أقرب عدد صحيح فردي</value>
+  </data>
+  <data name="Spreadsheet_OFFSET" xml:space="preserve">
+    <value>يُرجع مرجعاً بإزاحة من مرجع معين</value>
+  </data>
+  <data name="Spreadsheet_ORFormula" xml:space="preserve">
+    <value>يُرجع TRUE إذا كانت أي وسيطة TRUE</value>
+  </data>
+  <data name="Spreadsheet_PEARSON" xml:space="preserve">
+    <value>يُرجع معامل ارتباط بيرسون للعزوم</value>
+  </data>
+  <data name="Spreadsheet_PERCENTILE" xml:space="preserve">
+    <value>يُرجع المئين k في نطاق من القيم</value>
+  </data>
+  <data name="Spreadsheet_PERCENTRANK" xml:space="preserve">
+    <value>يُرجع الرتبة المئوية للقيمة في مجموعة بيانات</value>
+  </data>
+  <data name="Spreadsheet_PERMUT" xml:space="preserve">
+    <value>يُرجع عدد التباديل لعدد معين من الكائنات</value>
+  </data>
+  <data name="Spreadsheet_PI" xml:space="preserve">
+    <value>يُرجع قيمة باي</value>
+  </data>
+  <data name="Spreadsheet_PMT" xml:space="preserve">
+    <value>يُرجع الدفعة الدورية لمعاش سنوي</value>
+  </data>
+  <data name="Spreadsheet_POISSON" xml:space="preserve">
+    <value>يُرجع توزيع بواسون</value>
+  </data>
+  <data name="Spreadsheet_POWER" xml:space="preserve">
+    <value>يُرجع نتيجة رفع رقم إلى أس</value>
+  </data>
+  <data name="Spreadsheet_PPMT" xml:space="preserve">
+    <value>يُرجع الدفعة على المبلغ الأساسي لاستثمار لفترة معينة</value>
+  </data>
+  <data name="Spreadsheet_PROB" xml:space="preserve">
+    <value>يُرجع احتمالية القيم بين الحدود</value>
+  </data>
+  <data name="Spreadsheet_PRODUCT" xml:space="preserve">
+    <value>يضرب وسيطاتها</value>
+  </data>
+  <data name="Spreadsheet_PROPER" xml:space="preserve">
+    <value>يحوّل الحرف الأول في كل كلمة من قيمة نصية إلى حرف كبير</value>
+  </data>
+  <data name="Spreadsheet_PV" xml:space="preserve">
+    <value>يُرجع القيمة الحالية للاستثمار</value>
+  </data>
+  <data name="Spreadsheet_QUARTILE" xml:space="preserve">
+    <value>يُرجع الرُبيع لمجموعة بيانات</value>
+  </data>
+  <data name="Spreadsheet_QUOTIENT" xml:space="preserve">
+    <value>يُرجع الجزء الصحيح من عملية قسمة</value>
+  </data>
+  <data name="Spreadsheet_RADIANS" xml:space="preserve">
+    <value>يحوّل الدرجات إلى راديان</value>
+  </data>
+  <data name="Spreadsheet_RAND" xml:space="preserve">
+    <value>يُرجع رقمًا عشوائيًا بين 0 و1</value>
+  </data>
+  <data name="Spreadsheet_RANDBETWEEN" xml:space="preserve">
+    <value>يُرجع رقمًا عشوائيًا بين الأرقام التي تحددها</value>
+  </data>
+  <data name="Spreadsheet_RANK" xml:space="preserve">
+    <value>يُرجع ترتيب رقم في قائمة أرقام</value>
+  </data>
+  <data name="Spreadsheet_RATE" xml:space="preserve">
+    <value>يُرجع سعر الفائدة لكل فترة من مُستحق دوري</value>
+  </data>
+  <data name="Spreadsheet_RECEIVED" xml:space="preserve">
+    <value>يُرجع المبلغ المستلم عند استحقاق الضمان</value>
+  </data>
+  <data name="Spreadsheet_REPLACE" xml:space="preserve">
+    <value>يستبدل أحرفًا داخل النص</value>
+  </data>
+  <data name="Spreadsheet_REPLACEB" xml:space="preserve">
+    <value>يستبدل أحرفًا داخل النص</value>
+  </data>
+  <data name="Spreadsheet_REPT" xml:space="preserve">
+    <value>يكرر النص عددًا معينًا من المرات</value>
+  </data>
+  <data name="Spreadsheet_RIGHT" xml:space="preserve">
+    <value>يُرجع الأحرف الموجودة في أقصى اليمين من قيمة نصية</value>
+  </data>
+  <data name="Spreadsheet_RIGHTB" xml:space="preserve">
+    <value>يُرجع الأحرف الموجودة في أقصى اليمين من قيمة نصية</value>
+  </data>
+  <data name="Spreadsheet_ROMAN" xml:space="preserve">
+    <value>يحوّل الرقم العربي إلى روماني، كنص</value>
+  </data>
+  <data name="Spreadsheet_ROUND" xml:space="preserve">
+    <value>يقرّب رقمًا إلى عدد محدد من الخانات</value>
+  </data>
+  <data name="Spreadsheet_ROUNDDOWN" xml:space="preserve">
+    <value>يقرّب رقمًا لأسفل، باتجاه الصفر</value>
+  </data>
+  <data name="Spreadsheet_ROUNDUP" xml:space="preserve">
+    <value>يقرّب رقمًا لأعلى، بعيدًا عن الصفر</value>
+  </data>
+  <data name="Spreadsheet_ROW" xml:space="preserve">
+    <value>يُرجع رقم الصف لمرجع</value>
+  </data>
+  <data name="Spreadsheet_ROWS" xml:space="preserve">
+    <value>يُرجع عدد الصفوف في مرجع</value>
+  </data>
+  <data name="Spreadsheet_RSQ" xml:space="preserve">
+    <value>يُرجع مربع معامل الارتباط لحظة المنتج بيرسون</value>
+  </data>
+  <data name="Spreadsheet_SEARCHFormula" xml:space="preserve">
+    <value>يبحث عن قيمة نصية داخل قيمة أخرى (غير حساس لحالة الأحرف)</value>
+  </data>
+  <data name="Spreadsheet_SEARCHB" xml:space="preserve">
+    <value>يبحث عن قيمة نصية داخل قيمة أخرى (غير حساس لحالة الأحرف)</value>
+  </data>
+  <data name="Spreadsheet_SECOND" xml:space="preserve">
+    <value>يحوّل رقمًا تسلسليًا إلى ثانية</value>
+  </data>
+  <data name="Spreadsheet_SERIESSUM" xml:space="preserve">
+    <value>يُرجع مجموع متسلسلة أسية استنادًا إلى الصيغة</value>
+  </data>
+  <data name="Spreadsheet_SIGN" xml:space="preserve">
+    <value>يُرجع إشارة العدد</value>
+  </data>
+  <data name="Spreadsheet_SIN" xml:space="preserve">
+    <value>يُرجع جيب الزاوية المُعطاة</value>
+  </data>
+  <data name="Spreadsheet_SINH" xml:space="preserve">
+    <value>يُرجع جيب القطع الزائد للعدد</value>
+  </data>
+  <data name="Spreadsheet_SKEW" xml:space="preserve">
+    <value>يُرجع الالتواء لتوزيع إحصائي</value>
+  </data>
+  <data name="Spreadsheet_SLN" xml:space="preserve">
+    <value>يُرجع الاستهلاك بطريقة القسط الثابت للأصل لفترة واحدة</value>
+  </data>
+  <data name="Spreadsheet_SLOPE" xml:space="preserve">
+    <value>يُرجع ميل خط الانحدار الخطي</value>
+  </data>
+  <data name="Spreadsheet_SORTFormula" xml:space="preserve">
+    <value>يُرجع قيم نطاق الخلية بترتيب تصاعدي أو تنازلي</value>
+  </data>
+  <data name="Spreadsheet_SMALL" xml:space="preserve">
+    <value>يُرجع القيمة الأصغر الـ k في مجموعة بيانات</value>
+  </data>
+  <data name="Spreadsheet_SQRT" xml:space="preserve">
+    <value>يُرجع الجذر التربيعي الموجب</value>
+  </data>
+  <data name="Spreadsheet_SQRTPI" xml:space="preserve">
+    <value>يُرجع الجذر التربيعي لـ (العدد * ط)</value>
+  </data>
+  <data name="Spreadsheet_STANDARDIZE" xml:space="preserve">
+    <value>يُرجع قيمة معيارية</value>
+  </data>
+  <data name="Spreadsheet_STDEV" xml:space="preserve">
+    <value>يُقدر الانحراف المعياري بناءً على عينة</value>
+  </data>
+  <data name="Spreadsheet_STDEVA" xml:space="preserve">
+    <value>يُقدر الانحراف المعياري بناءً على عينة، بما في ذلك الأرقام والنصوص والقيم المنطقية</value>
+  </data>
+  <data name="Spreadsheet_STDEVP" xml:space="preserve">
+    <value>يحسب الانحراف المعياري بناءً على السكان بأكمله</value>
+  </data>
+  <data name="Spreadsheet_STDEVPA" xml:space="preserve">
+    <value>يحسب الانحراف المعياري بناءً على السكان بأكمله، بما في ذلك الأرقام والنصوص والقيم المنطقية</value>
+  </data>
+  <data name="Spreadsheet_STEYX" xml:space="preserve">
+    <value>يُرجع الخطأ المعياري للقيمة y المتوقعة لكل x في الانحدار</value>
+  </data>
+  <data name="Spreadsheet_SUBSTITUTE" xml:space="preserve">
+    <value>يستبدل نصًا جديدًا بنص قديم في سلسلة نصية</value>
+  </data>
+  <data name="Spreadsheet_SUBTOTAL" xml:space="preserve">
+    <value>يُرجع المجموع الفرعي في قائمة أو قاعدة بيانات</value>
+  </data>
+  <data name="Spreadsheet_SUM" xml:space="preserve">
+    <value>يجمع الوسيطات</value>
+  </data>
+  <data name="Spreadsheet_SUMIF" xml:space="preserve">
+    <value>يجمع الخلايا المحددة بمعيار معين</value>
+  </data>
+  <data name="Spreadsheet_SUMPRODUCT" xml:space="preserve">
+    <value>يُرجع مجموع حواصل ضرب مكونات المصفوفة المقابلة</value>
+  </data>
+  <data name="Spreadsheet_SUMSQ" xml:space="preserve">
+    <value>يُرجع مجموع مربعات الوسيطات</value>
+  </data>
+  <data name="Spreadsheet_SUMX2MY2" xml:space="preserve">
+    <value>يُرجع مجموع الفرق لمربعات القيم المقابلة في مصفوفتين</value>
+  </data>
+  <data name="Spreadsheet_SUMX2PY2" xml:space="preserve">
+    <value>يُرجع مجموع مربعات القيم المقابلة في مصفوفتين</value>
+  </data>
+  <data name="Spreadsheet_SUMXMY2" xml:space="preserve">
+    <value>يُرجع مجموع مربعات الاختلافات للقيم المقابلة في مصفوفتين</value>
+  </data>
+  <data name="Spreadsheet_SWITCH" xml:space="preserve">
+    <value>يُرجع النتيجة المطابقة لأول قيمة صحيحة</value>
+  </data>
+  <data name="Spreadsheet_SYD" xml:space="preserve">
+    <value>يُرجع استهلاك مجموع أرقام السنوات</value>
+  </data>
+  <data name="Spreadsheet_T" xml:space="preserve">
+    <value>يحول وسيطاته إلى نص</value>
+  </data>
+  <data name="Spreadsheet_TAN" xml:space="preserve">
+    <value>يُرجع ظل الزاوية لعدد</value>
+  </data>
+  <data name="Spreadsheet_TANH" xml:space="preserve">
+    <value>يُرجع ظل القطع الزائد لعدد</value>
+  </data>
+  <data name="Spreadsheet_TEXTFormula" xml:space="preserve">
+    <value>ينسق رقماً ويحوله إلى نص</value>
+  </data>
+  <data name="Spreadsheet_TEXTBEFORE" xml:space="preserve">
+    <value>يُرجع النص الذي يظهر قبل حرف معين</value>
+  </data>
+  <data name="Spreadsheet_TEXTJOIN" xml:space="preserve">
+    <value>يدمج النص باستخدام فاصل</value>
+  </data>
+  <data name="Spreadsheet_TEXTSPLIT" xml:space="preserve">
+    <value>يقسم نص الخلية عبر الصفوف أو الأعمدة</value>
+  </data>
+  <data name="Spreadsheet_TIMEFormula" xml:space="preserve">
+    <value>يُرجع الرقم التسلسلي لوقت معين</value>
+  </data>
+  <data name="Spreadsheet_TIMEVALUE" xml:space="preserve">
+    <value>يحول الوقت في شكل نص إلى رقم تسلسلي</value>
+  </data>
+  <data name="Spreadsheet_TOCOL" xml:space="preserve">
+    <value>يحول مصفوفة إلى عمود واحد</value>
+  </data>
+  <data name="Spreadsheet_TODAYFormula" xml:space="preserve">
+    <value>يُرجع الرقم التسلسلي لتاريخ اليوم</value>
+  </data>
+  <data name="Spreadsheet_TOROW" xml:space="preserve">
+    <value>يحول مصفوفة إلى صف واحد</value>
+  </data>
+  <data name="Spreadsheet_TRANSPOSE" xml:space="preserve">
+    <value>يُرجع المصفوفة المنقولة</value>
+  </data>
+  <data name="Spreadsheet_TRIM" xml:space="preserve">
+    <value>يزيل المسافات من النص</value>
+  </data>
+  <data name="Spreadsheet_TRIMMEAN" xml:space="preserve">
+    <value>يُرجع المتوسط الداخلي لمجموعة بيانات</value>
+  </data>
+  <data name="Spreadsheet_TRUNC" xml:space="preserve">
+    <value>يقطع الرقم إلى رقم صحيح</value>
+  </data>
+  <data name="Spreadsheet_TYPE" xml:space="preserve">
+    <value>يُرجع رقمًا يشير إلى نوع البيانات لقيمة</value>
+  </data>
+  <data name="Spreadsheet_UNIQUE" xml:space="preserve">
+    <value>يُرجع قائمة القيم الفريدة الموجودة داخل قائمة أو نطاق</value>
+  </data>
+  <data name="Spreadsheet_UPPER" xml:space="preserve">
+    <value>يحول النص إلى أحرف كبيرة</value>
+  </data>
+  <data name="Spreadsheet_VALUEFormula" xml:space="preserve">
+    <value>يحول وسيطة نصية إلى رقم</value>
+  </data>
+  <data name="Spreadsheet_VALUETOTEXT" xml:space="preserve">
+    <value>يُرجع النص من أي قيمة محددة</value>
+  </data>
+  <data name="Spreadsheet_VAR" xml:space="preserve">
+    <value>يقدر التباين بناءً على عينة</value>
+  </data>
+  <data name="Spreadsheet_VARA" xml:space="preserve">
+    <value>يقدر التباين بناءً على عينة، بما في ذلك الأرقام والنص والقيم المنطقية</value>
+  </data>
+  <data name="Spreadsheet_VARP" xml:space="preserve">
+    <value>يحسب التباين بناءً على المجتمع الإحصائي بأكمله</value>
+  </data>
+  <data name="Spreadsheet_VARPA" xml:space="preserve">
+    <value>يحسب تباين المجتمع الإحصائي بما في ذلك جميع القيم</value>
+  </data>
+  <data name="Spreadsheet_VDB" xml:space="preserve">
+    <value>يُرجع استهلاك الأصول لفترة جزئية</value>
+  </data>
+  <data name="Spreadsheet_VLOOKUP" xml:space="preserve">
+    <value>يبحث عن قيمة في العمود الأول ويُرجع الخلية في نفس الصف</value>
+  </data>
+  <data name="Spreadsheet_WEEKDAY" xml:space="preserve">
+    <value>يحول رقمًا تسلسليًا إلى يوم من أيام الأسبوع</value>
+  </data>
+  <data name="Spreadsheet_WEEKNUM" xml:space="preserve">
+    <value>يُرجع رقم الأسبوع ضمن السنة</value>
+  </data>
+  <data name="Spreadsheet_WEIBULL" xml:space="preserve">
+    <value>يُرجع توزيع ويبول</value>
+  </data>
+  <data name="Spreadsheet_WORKDAY" xml:space="preserve">
+    <value>يُرجع التاريخ بعد أيام العمل المحددة</value>
+  </data>
+  <data name="Spreadsheet_XIRR" xml:space="preserve">
+    <value>يُرجع معدل العائد الداخلي للتدفقات النقدية غير الدورية</value>
+  </data>
+  <data name="Spreadsheet_XLOOKUP" xml:space="preserve">
+    <value>يُرجع قيمة المطابقة الأولى أو التقريبية</value>
+  </data>
+  <data name="Spreadsheet_XMATCH" xml:space="preserve">
+    <value>يُرجع موضع القيمة في النطاق</value>
+  </data>
+  <data name="Spreadsheet_YEAR" xml:space="preserve">
+    <value>يحول رقمًا تسلسليًا إلى سنة</value>
+  </data>
+  <data name="Spreadsheet_YEARFRAC" xml:space="preserve">
+    <value>يُرجع كسر السنة بين التواريخ</value>
+  </data>
+  <data name="Spreadsheet_ZTEST" xml:space="preserve">
+    <value>يُرجع قيمة الاحتمال ذات الذيل الواحد لاختبار z</value>
+  </data>
+  <data name="Spreadsheet_FALSE" xml:space="preserve">
+    <value>يُرجع القيمة المنطقية FALSE</value>
+  </data>
+  <data name="Spreadsheet_TRUE" xml:space="preserve">
+    <value>يُرجع القيمة المنطقية TRUE</value>
+  </data>
+  <data name="Spreadsheet_function" xml:space="preserve">
+    <value>وظيفة للتنفيذ</value>
+  </data>
+  <data name="Spreadsheet_operation" xml:space="preserve">
+    <value>عملية</value>
+  </data>
+  <data name="Spreadsheet_Formulas" xml:space="preserve">
+    <value>الصيغ</value>
+  </data>
+  <data name="Spreadsheet_CalculationOption" xml:space="preserve">
+    <value>خيار الحساب</value>
+  </data>
+  <data name="Spreadsheet_Automatic" xml:space="preserve">
+    <value>تلقائي</value>
+  </data>
+  <data name="Spreadsheet_Manual" xml:space="preserve">
+    <value>يدوي</value>
+  </data>
+  <data name="Spreadsheet_CalculateSheet" xml:space="preserve">
+    <value>حساب الورقة</value>
+  </data>
+  <data name="Spreadsheet_Calculatebook" xml:space="preserve">
+    <value>حساب المصنف</value>
+  </data>
+  <data name="Spreadsheet_Description" xml:space="preserve">
+    <value>وصف</value>
+  </data>
+  <data name="Spreadsheet_PickCategory" xml:space="preserve">
+      <value>اختر فئة</value>
+  </data>
+  <data name="Spreadsheet_AllUsers" xml:space="preserve">
+    <value>السماح لجميع مستخدمي ورقة العمل هذه بـ</value>
+  </data>
+  <data name="Spreadsheet_RequiredPassword" xml:space="preserve">
+    <value>أدخل كلمة المرور إذا كانت مطلوبة</value>
+  </data>
+  <data name="Spreadsheet_SelectLockedCells" xml:space="preserve">
+    <value>اختر الخلايا المقفلة</value>
+  </data>
+  <data name="Spreadsheet_SelectUnLockedCells" xml:space="preserve">
+    <value>اختر الخلايا غير المقفلة</value>
+  </data>
+  <data name="Spreadsheet_FormatCells" xml:space="preserve">
+    <value>تنسيق الخلايا</value>
+  </data>
+  <data name="Spreadsheet_FormatColumns" xml:space="preserve">
+    <value>تنسيق الأعمدة</value>
+  </data>
+  <data name="Spreadsheet_FormatRows" xml:space="preserve">
+    <value>تنسيق الصفوف</value>
+  </data>
+  <data name="Spreadsheet_InsertColumns" xml:space="preserve">
+    <value>إدراج أعمدة</value>
+  </data>
+  <data name="Spreadsheet_InsertRows" xml:space="preserve">
+    <value>إدراج صفوف</value>
+  </data>
+  <data name="Spreadsheet_InsertHyperlinks" xml:space="preserve">
+    <value>إدراج روابط تشعبية</value>
+  </data>
+  <data name="Spreadsheet_UnlockedRanges" xml:space="preserve">
+    <value>النطاقات غير المقفلة</value>
+  </data>
+  <data name="Spreadsheet_RangeName" xml:space="preserve">
+    <value>اسم النطاق</value>
+  </data>
+  <data name="Spreadsheet_RangeValue" xml:space="preserve">
+    <value>قيمة النطاق</value>
+  </data>
+  <data name="Spreadsheet_AddRange" xml:space="preserve">
+    <value>إضافة نطاق</value>
+  </data>
+  <data name="Spreadsheet_UpdateRange" xml:space="preserve">
+    <value>تحديث النطاق</value>
+  </data>
+  <data name="Spreadsheet_EnterRangeName" xml:space="preserve">
+    <value>أدخل اسم النطاق</value>
+  </data>
+  <data name="Spreadsheet_Password" xml:space="preserve">
+    <value>كلمة المرور</value>
+  </data>
+  <data name="Spreadsheet_EnterPassword" xml:space="preserve">
+    <value>أدخل كلمة المرور</value>
+  </data>
+  <data name="Spreadsheet_ConfirmPassword" xml:space="preserve">
+    <value>تأكيد كلمة المرور</value>
+  </data>
+  <data name="Spreadsheet_ProtectError" xml:space="preserve">
+    <value>الورقة محمية. قد تكون بعض الأجزاء للقراءة فقط ولا يمكن تغييرها</value>
+  </data>
+  <data name="Spreadsheet_SelectedRange" xml:space="preserve">
+    <value>لا يمكنك تصفية خلية فارغة. حدد خلية في نطاق البيانات وحاول مرة أخرى.</value>
+  </data>
+  <data name="Spreadsheet_SingleCell" xml:space="preserve">
+    <value>حدد خلية واحدة في نطاق وحاول مرة أخرى.</value>
+  </data>
+  <data name="Spreadsheet_Review" xml:space="preserve">
+    <value>مراجعة</value>
+  </data>
+  <data name="Spreadsheet_Protection" xml:space="preserve">
+    <value>حماية</value>
+  </data>
+  <data name="Spreadsheet_ProtectSheet" xml:space="preserve">
+    <value>حماية الورقة</value>
+  </data>
+  <data name="Spreadsheet_UnprotectSheet" xml:space="preserve">
+    <value>إلغاء حماية الورقة</value>
+  </data>
+  <data name="Spreadsheet_Protectbook" xml:space="preserve">
+    <value>حماية المصنف</value>
+  </data>
+  <data name="Spreadsheet_Unprotectbook" xml:space="preserve">
+    <value>إلغاء حماية المصنف</value>
+  </data>
+  <data name="Spreadsheet_BookError" xml:space="preserve">
+    <value>فشل في حماية المصنف: </value>
+  </data>
+  <data name="Spreadsheet_IncorrectPassword" xml:space="preserve">
+    <value>كلمة مرور غير صحيحة</value>
+  </data>
+  <data name="Spreadsheet_PasswordOptional" xml:space="preserve">
+    <value>أدخل كلمة المرور</value>
+  </data>
+  <data name="Spreadsheet_PasswordMatch" xml:space="preserve">
+    <value>كلمات المرور غير متطابقة</value>
+  </data>
+  <data name="Spreadsheet_ManageProtection" xml:space="preserve">
+    <value>إدارة الحماية</value>
+  </data>
+  <data name="Spreadsheet_UnlockRange" xml:space="preserve">
+    <value>إلغاء قفل النطاق</value>
+  </data>
+  <data name="Spreadsheet_SheetOptions" xml:space="preserve">
+    <value>خيارات الورقة</value>
+  </data>
+  <data name="Spreadsheet_EnterValue" xml:space="preserve">
+    <value>أدخل القيمة</value>
+  </data>
+  <data name="Spreadsheet_FilterValue" xml:space="preserve">
+    <value>قيمة التصفية</value>
+  </data>
+  <data name="Spreadsheet_Filter" xml:space="preserve">
+    <value>منقي</value>
+  </data>
+  <data name="Spreadsheet_ClearFilterFrom" xml:space="preserve">
+    <value>مسح التصفية من</value>
+  </data>
+  <data name="Spreadsheet_Reapply" xml:space="preserve">
+    <value>إعادة تطبيق</value>
+  </data>
+  <data name="Spreadsheet_FilterByCellValue" xml:space="preserve">
+    <value>تصفية حسب قيمة الخلية المحددة</value>
+  </data>
+  <data name="Spreadsheet_NoResult" xml:space="preserve">
+    <value>لا توجد نتائج</value>
+  </data>
+  <data name="Spreadsheet_Blanks" xml:space="preserve">
+    <value>فراغات</value>
+  </data>
+  <data name="Spreadsheet_Search" xml:space="preserve">
+    <value>بحث</value>
+  </data>
+  <data name="Spreadsheet_SelectAll" xml:space="preserve">
+    <value>اختر الكل</value>
+  </data>
+  <data name="Spreadsheet_AddCurrentSelectionFilter" xml:space="preserve">
+    <value>إضافة التحديد الحالي إلى المرشح</value>
+  </data>
+  <data name="Spreadsheet_AND" xml:space="preserve">
+    <value>و</value>
+  </data>
+  <data name="Spreadsheet_OR" xml:space="preserve">
+    <value>أو</value>
+  </data>
+  <data name="Spreadsheet_MatchCase" xml:space="preserve">
+    <value>مطابقة حالة الأحرف</value>
+  </data>
+  <data name="Spreadsheet_StartsWith" xml:space="preserve">
+    <value>يبدأ بـ</value>
+  </data>
+  <data name="Spreadsheet_DoesNotStartWith" xml:space="preserve">
+    <value>لا يبدأ بـ</value>
+  </data>
+  <data name="Spreadsheet_EndsWith" xml:space="preserve">
+    <value>ينتهي بـ</value>
+  </data>
+  <data name="Spreadsheet_DoesNotEndWith" xml:space="preserve">
+    <value>لا ينتهي بـ</value>
+  </data>
+  <data name="Spreadsheet_Equal" xml:space="preserve">
+    <value>يساوي</value>
+  </data>
+  <data name="Spreadsheet_NotEqual" xml:space="preserve">
+    <value>لا يساوي</value>
+  </data>
+  <data name="Spreadsheet_Contains" xml:space="preserve">
+    <value>يحتوي على</value>
+  </data>
+  <data name="Spreadsheet_DoesNotContain" xml:space="preserve">
+    <value>لا يحتوي على</value>
+  </data>
+  <data name="Spreadsheet_LessThan" xml:space="preserve">
+    <value>أقل من</value>
+  </data>
+  <data name="Spreadsheet_LessThanOrEqual" xml:space="preserve">
+    <value>أقل من أو يساوي</value>
+  </data>
+  <data name="Spreadsheet_GreaterThan" xml:space="preserve">
+    <value>أكبر من</value>
+  </data>
+  <data name="Spreadsheet_GreaterThanOrEqual" xml:space="preserve">
+    <value>أكبر من أو يساوي</value>
+  </data>
+  <data name="Spreadsheet_Between" xml:space="preserve">
+    <value>بين</value>
+  </data>
+  <data name="Spreadsheet_CustomFilter" xml:space="preserve">
+    <value>تصفية مخصصة</value>
+  </data>
+  <data name="Spreadsheet_FilterOperator" xml:space="preserve">
+    <value>مشغل التصفية</value>
+  </data>
+  <data name="Spreadsheet_ClearFilter" xml:space="preserve">
+    <value>مسح التصفية</value>
+  </data>
+  <data name="Spreadsheet_NumberFilter" xml:space="preserve">
+    <value>تصفية الأرقام</value>
+  </data>
+  <data name="Spreadsheet_TextFilter" xml:space="preserve">
+    <value>تصفية النص</value>
+  </data>
+  <data name="Spreadsheet_DateFilter" xml:space="preserve">
+    <value>تصفية التاريخ</value>
+  </data>
+  <data name="Spreadsheet_TimeFilter" xml:space="preserve">
+    <value>تصفية الوقت</value>
+  </data>
+  <data name="Spreadsheet_DateTimeFilter" xml:space="preserve">
+    <value>تصفية التاريخ والوقت</value>
+  </data>
+  <data name="Spreadsheet_CustomFilterDatePlaceHolder" xml:space="preserve">
+    <value>عنصر نائب لتاريخ التصفية المخصص</value>
+  </data>
+  <data name="Spreadsheet_SortAscending" xml:space="preserve">
+    <value>تصاعدي</value>
+  </data>
+  <data name="Spreadsheet_SortDescending" xml:space="preserve">
+    <value>تنازلي</value>
+  </data>
+  <data name="Spreadsheet_Tomorrow" xml:space="preserve">
+    <value>غدا</value>
+  </data>
+  <data name="Spreadsheet_Today" xml:space="preserve">
+    <value>اليوم</value>
+  </data>
+  <data name="Spreadsheet_Yesterday" xml:space="preserve">
+    <value>أمس</value>
+  </data>
+  <data name="Spreadsheet_NextWeek" xml:space="preserve">
+    <value>الأسبوع القادم</value>
+  </data>
+  <data name="Spreadsheet_ThisWeek" xml:space="preserve">
+    <value>هذا الاسبوع</value>
+  </data>
+  <data name="Spreadsheet_LastWeek" xml:space="preserve">
+    <value>الأسبوع الماضي</value>
+  </data>
+  <data name="Spreadsheet_NextMonth" xml:space="preserve">
+    <value>الشهر القادم</value>
+  </data>
+  <data name="Spreadsheet_ThisMonth" xml:space="preserve">
+    <value>هذا الشهر</value>
+  </data>
+  <data name="Spreadsheet_LastMonth" xml:space="preserve">
+    <value>الشهر الماضي</value>
+  </data>
+  <data name="Spreadsheet_NextQuater" xml:space="preserve">
+    <value>الربع القادم</value>
+  </data>
+  <data name="Spreadsheet_ThisQuater" xml:space="preserve">
+    <value>هذا الربع</value>
+  </data>
+  <data name="Spreadsheet_LastQuater" xml:space="preserve">
+    <value>الربع الأخير</value>
+  </data>
+  <data name="Spreadsheet_NextYear" xml:space="preserve">
+    <value>العام القادم</value>
+  </data>
+  <data name="Spreadsheet_ThisYear" xml:space="preserve">
+    <value>هذا العام</value>
+  </data>
+  <data name="Spreadsheet_LastYear" xml:space="preserve">
+    <value>العام الماضي</value>
+  </data>
+  <data name="Spreadsheet_DeleteWarning" xml:space="preserve">
+    <value>لا يمكنك التراجع عن الورقة المحذوفة، وقد تفقد بعض البيانات.</value>
+  </data>
+  <data name="Spreadsheet_CopyCut" xml:space="preserve">
+    <value>لن يعمل هذا مع تحديدك الحالي. تأكد من أن مناطق النسخ لا تتداخل.</value>
+  </data>
+  <data name="Spreadsheet_MultiRange" xml:space="preserve">
+    <value>لا يمكن تنفيذ هذا الإجراء على تحديد نطاق متعدد</value>
+  </data>
+  <data name="Spreadsheet_SingleRange" xml:space="preserve">
+    <value>اختر نطاقًا واحدًا وحاول مرة أخرى</value>
+  </data>
+  <data name="Spreadsheet_WorkBook" xml:space="preserve">
+    <value>ستفقد التغييرات غير المحفوظة. هل أنت متأكد أنك تريد إنشاء مصنف جديد؟</value>
+  </data>
+  <data name="Spreadsheet_DeleteSheet" xml:space="preserve">
+    <value>هل أنت متأكد أنك تريد حذف هذه الورقة؟</value>
+  </data>
+  <data name="Spreadsheet_Spreadsheet" xml:space="preserve">
+    <value>جدول</value>
+  </data>
+  <data name="Spreadsheet_RenameSheet" xml:space="preserve">
+    <value>إعادة تسمية الورقة</value>
+  </data>
+  <data name="Spreadsheet_RenameSheetTo" xml:space="preserve">
+    <value>إعادة تسمية الورقة إلى</value>
+  </data>
+  <data name="Spreadsheet_EnterName" xml:space="preserve">
+    <value>أدخل اسم الورقة</value>
+  </data>
+  <data name="Spreadsheet_SaveAs" xml:space="preserve">
+    <value>حفظ باسم</value>
+  </data>
+  <data name="Spreadsheet_MicrosoftExcel" xml:space="preserve">
+    <value>مايكروسوفت إكسل</value>
+  </data>
+  <data name="Spreadsheet_MicrosoftExcel972003" xml:space="preserve">
+    <value>مايكروسوفت إكسل 97-2003</value>
+  </data>
+  <data name="Spreadsheet_FileName" xml:space="preserve">
+    <value>اسم الملف</value>
+  </data>
+  <data name="Spreadsheet_Save" xml:space="preserve">
+    <value>حفظ</value>
+  </data>
+  <data name="Spreadsheet_Bold" xml:space="preserve">
+    <value>غامق</value>
+  </data>
+  <data name="Spreadsheet_Italic" xml:space="preserve">
+    <value>مائل</value>
+  </data>
+  <data name="Spreadsheet_Strikethrough" xml:space="preserve">
+    <value>يتوسطه خط</value>
+  </data>
+  <data name="Spreadsheet_Underline" xml:space="preserve">
+    <value>تحته خط</value>
+  </data>
+  <data name="Spreadsheet_FontColor" xml:space="preserve">
+    <value>لون الخط</value>
+  </data>
+  <data name="Spreadsheet_BackgroundColor" xml:space="preserve">
+    <value>لون الخلفية</value>
+  </data>
+  <data name="Spreadsheet_VerticalAlignment" xml:space="preserve">
+    <value>المحاذاة العمودية</value>
+  </data>
+  <data name="Spreadsheet_HorizontalAlignment" xml:space="preserve">
+    <value>المحاذاة الأفقية</value>
+  </data>
+  <data name="Spreadsheet_WrapText" xml:space="preserve">
+    <value>التفاف النص</value>
+  </data>
+  <data name="Spreadsheet_ExcelExport" xml:space="preserve">
+    <value>اكسل التصدير</value>
+  </data>
+  <data name="Spreadsheet_Hyperlink" xml:space="preserve">
+    <value>الارتباط التشعبي</value>
+  </data>
+  <data name="Spreadsheet_InvalidLinkAddress" xml:space="preserve">
+    <value>عنوان هذا الموقع غير صالح. تحقق من العنوان وحاول مرة أخرى.</value>
+  </data>
+  <data name="Spreadsheet_LinkOpenFailed" xml:space="preserve">
+    <value>لا يمكن فتح الرابط</value>
+  </data>
+  <data name="Spreadsheet_LinkReferenceMissing" xml:space="preserve">
+    <value>يحتوي هذا الرابط على مرجع في المصنف قد لا يكون موجودًا.</value>
+  </data>
+  <data name="Spreadsheet_Update" xml:space="preserve">
+    <value>تحديث</value>
+  </data>
+  <data name="Spreadsheet_Cancel" xml:space="preserve">
+    <value>إلغاء</value>
+  </data>
+  <data name="Spreadsheet_InsertLink" xml:space="preserve">
+    <value>إدراج رابط</value>
+  </data>
+  <data name="Spreadsheet_EditLink" xml:space="preserve">
+    <value>تحرير الرابط</value>
+  </data>
+  <data name="Spreadsheet_EditHyperlink" xml:space="preserve">
+    <value>تحرير الرابط التشعبي</value>
+  </data>
+  <data name="Spreadsheet_OpenHyperlink" xml:space="preserve">
+    <value>افتح الرابط التشعبي</value>
+  </data>
+  <data name="Spreadsheet_RemoveHyperlink" xml:space="preserve">
+    <value>إزالة الارتباط التشعبي</value>
+  </data>
+  <data name="Spreadsheet_Insert" xml:space="preserve">
+    <value>إدراج</value>
+  </data>
+  <data name="Spreadsheet_NameBox" xml:space="preserve">
+    <value>مربع الاسم</value>
+  </data>
+  <data name="Spreadsheet_InsertFunction" xml:space="preserve">
+    <value>أدخل وظيفة</value>
+  </data>
+  <data name="Spreadsheet_FormulaBar" xml:space="preserve">
+    <value>شريط الصيغة</value>
+  </data>
+  <data name="Spreadsheet_CollapseFormulaBar" xml:space="preserve">
+    <value>انهيار شريط الصيغة</value>
+  </data>
+  <data name="Spreadsheet_ExpandFormulaBar" xml:space="preserve">
+    <value>توسيع شريط الصيغة</value>
+  </data>
+  <data name="Spreadsheet_InvalidNameSyntax" xml:space="preserve">
+    <value>بناء الجملة لهذا الاسم غير صحيح</value>
+  </data>
+  <data name="Spreadsheet_InvalidNameRule1" xml:space="preserve">
+    <value>يبدأ بحرف أو شرطة سفلية أو شرطة مائلة للخلف</value>
+  </data>
+  <data name="Spreadsheet_InvalidNameRule2" xml:space="preserve">
+    <value>تحتوي الأحرف المتبقية على أحرف أبجدية أو أرقام أو فترات أو شرطات سفلية فقط</value>
+  </data>
+  <data name="Spreadsheet_InvalidNameRule3" xml:space="preserve">
+    <value>لا تستخدم المسافة أو الأحرف المحظورة</value>
+  </data>
+  <data name="Spreadsheet_NameExists" xml:space="preserve">
+    <value>هذا الاسم موجود بالفعل.</value>
+  </data>
+  <data name="Spreadsheet_RangeNotFound" xml:space="preserve">
+    <value>النطاق المحدد غير موجود في هذه الورقة.</value>
+  </data>
+  <data name="Spreadsheet_NoDataInRange" xml:space="preserve">
+    <value>النطاق المحدد لا يحتوي على بيانات.</value>
+  </data>
+  <data name="Spreadsheet_CellReference" xml:space="preserve">
+    <value>اسم غير صالح، لا يمكن أن يكون الاسم مرجع خلية.</value>
+  </data>
+  <data name="Spreadsheet_NameRequired" xml:space="preserve">
+    <value>الاسم مطلوب</value>
+  </data>
+  <data name="Spreadsheet_RangeRequired" xml:space="preserve">
+    <value>النطاق مطلوب</value>
+  </data>
+  <data name="Spreadsheet_InvalidRangeFormat" xml:space="preserve">
+    <value>تنسيق النطاق غير صالح. استخدم تنسيقًا مثل A1:B10 أو A1:B10, C1:D5</value>
+  </data>
+  <data name="Spreadsheet_Scope" xml:space="preserve">
+    <value>النطاق</value>
+  </data>
+  <data name="Spreadsheet_ManageNames" xml:space="preserve">
+    <value>إدارة الأسماء</value>
+  </data>
+  <data name="Spreadsheet_NameManager" xml:space="preserve">
+    <value>مدير الاسماء</value>
+  </data>
+  <data name="Spreadsheet_NoRecords" xml:space="preserve">
+    <value>لا توجد سجلات</value>
+  </data>
+  <data name="Spreadsheet_Undo" xml:space="preserve">
+    <value>تراجع</value>
+  </data>
+  <data name="Spreadsheet_Redo" xml:space="preserve">
+    <value>إعادة</value>
+  </data>
+  <data name="Spreadsheet_FontSize" xml:space="preserve">
+    <value>حجم الخط</value>
+  </data>
   <data name="RichTextEditor_InlineCode" xml:space="preserve">
     <value>الكود المضمّن</value>
+  </data>
+  <data name="RichTextEditor_SlashMenuHeading1" xml:space="preserve">
+    <value>العنوان 1</value>
+  </data>
+  <data name="RichTextEditor_SlashMenuHeading2" xml:space="preserve">
+    <value>العنوان 2</value>
+  </data>
+  <data name="RichTextEditor_SlashMenuHeading3" xml:space="preserve">
+    <value>العنوان 3</value>
+  </data>
+  <data name="RichTextEditor_SlashMenuHeading4" xml:space="preserve">
+    <value>العنوان4</value>
+  </data>
+  <data name="RichTextEditor_SlashMenuParagraph" xml:space="preserve">
+    <value>فقرة</value>
+  </data>
+  <data name="RichTextEditor_SlashMenuBlockQuote" xml:space="preserve">
+    <value>اقتباس</value>
+  </data>
+  <data name="RichTextEditor_SlashMenuOrderedList" xml:space="preserve">
+    <value>قائمة مرتبة</value>
+  </data>
+  <data name="RichTextEditor_SlashMenuUnorderedList" xml:space="preserve">
+    <value>قائمة غير مرتبة</value>
+  </data>
+  <data name="RichTextEditor_SlashMenuCodeBlock" xml:space="preserve">
+    <value>CodeBlock</value>
+  </data>
+  <data name="RichTextEditor_SlashMenuTable" xml:space="preserve">
+    <value>طاولة</value>
+  </data>
+  <data name="RichTextEditor_SlashMenuImage" xml:space="preserve">
+    <value>صورة</value>
+  </data>
+  <data name="RichTextEditor_SlashMenuAudio" xml:space="preserve">
+    <value>صوتي</value>
+  </data>
+  <data name="RichTextEditor_SlashMenuVideo" xml:space="preserve">
+    <value>فيديو</value>
+  </data>
+  <data name="RichTextEditor_SlashMenuLink" xml:space="preserve">
+    <value>وصلة</value>
+  </data>
+  <data name="RichTextEditor_SlashMenuHeading1Description" xml:space="preserve">
+    <value>استخدم هذا لعنوان أو عنوان المستوى الأعلى.</value>
+  </data>
+  <data name="RichTextEditor_SlashMenuHeading2Description" xml:space="preserve">
+    <value>استخدم هذا للأقسام الرئيسية.</value>
+  </data>
+  <data name="RichTextEditor_SlashMenuHeading3Description" xml:space="preserve">
+    <value>استخدم هذا للأقسام الفرعية وعناوين المجموعة.</value>
+  </data>
+  <data name="RichTextEditor_SlashMenuHeading4Description" xml:space="preserve">
+    <value>استخدم هذا للنقاط الرئيسية للموضوعات الفرعية.</value>
+  </data>
+  <data name="RichTextEditor_SlashMenuParagraphDescription" xml:space="preserve">
+    <value>الكتابة بالفقرات.</value>
+  </data>
+  <data name="RichTextEditor_SlashMenuBlockQuoteDescription" xml:space="preserve">
+    <value>إنشاء اقتباس أو الاقتباس.</value>
+  </data>
+  <data name="RichTextEditor_SlashMenuOrderedListDescription" xml:space="preserve">
+    <value>إنشاء قائمة مرتبة.</value>
+  </data>
+  <data name="RichTextEditor_SlashMenuUnorderedListDescription" xml:space="preserve">
+    <value>إنشاء قائمة غير مرتبة.</value>
+  </data>
+  <data name="RichTextEditor_SlashMenuCodeBlockDescription" xml:space="preserve">
+    <value>إنشاء كتلة تعليمات برمجية منسقة مسبقًا."</value>
+  </data>
+  <data name="RichTextEditor_SlashMenuTableDescription" xml:space="preserve">
+    <value>أدخل جدولاً.</value>
+  </data>
+  <data name="RichTextEditor_SlashMenuImageDescription" xml:space="preserve">
+    <value>أدخل صورة.</value>
+  </data>
+  <data name="RichTextEditor_SlashMenuAudioDescription" xml:space="preserve">
+    <value>أدخل مقطع صوتي.</value>
+  </data>
+  <data name="RichTextEditor_SlashMenuVideoDescription" xml:space="preserve">
+    <value>أدخل مقطع فيديو.</value>
+  </data>
+  <data name="RichTextEditor_SlashMenuLinkDescription" xml:space="preserve">
+    <value>أدخل رابطا.</value>
+  </data>
+  <data name="RichTextEditor_HorizontalLine" xml:space="preserve">
+    <value>خط أفقي</value>
+  </data>
+  <data name="RichTextEditor_CodeBlock" xml:space="preserve">
+    <value>إدراج كتلة التعليمات البرمجية</value>
   </data>
   <data name="SpeechToText_Aborted_Error" xml:space="preserve">
     <value>تم إحباط التعرف على الكلام.</value>
@@ -6791,5 +8384,71 @@
   </data>
   <data name="PdfViewer_DottedStyle" xml:space="preserve">
     <value>منقط</value>
+  </data>
+  <data name="PdfViewer_MarkForRedaction" xml:space="preserve">
+    <value>تحديد للمراجعة</value>
+  </data>
+  <data name="PdfViewer_RedactPages" xml:space="preserve">
+      <value>تنقيح الصفحات</value>
+  </data>
+  <data name="PdfViewer_RedactionPanel" xml:space="preserve">
+      <value>لوحة التنقيح</value>
+  </data>
+  <data name="PdfViewer_Redact" xml:space="preserve">
+      <value>تنقيح</value>
+  </data>
+  <data name="PdfViewer_Redaction" xml:space="preserve">
+      <value>التنقيح</value>
+  </data>
+  <data name="PdfViewer_OverlayText" xml:space="preserve">
+      <value>نص التراكب</value>
+  </data>
+  <data name="PdfViewer_RepeatText" xml:space="preserve">
+      <value>تكرار النص</value>
+  </data>
+  <data name="PdfViewer_UseOverlayText" xml:space="preserve">
+      <value>استخدام نص التراكب</value>
+  </data>
+  <data name="PdfViewer_OutlineColor" xml:space="preserve">
+      <value>لون الإطار</value>
+  </data>
+  <data name="PdfViewer_FillOpacity" xml:space="preserve">
+      <value>شفافية التعبئة</value>
+  </data>
+  <data name="PdfViewer_MarkPageRange" xml:space="preserve">
+    <value>تحديد نطاق الصفحات</value>
+  </data>
+  <data name="PdfViewer_CurrentPage" xml:space="preserve">
+    <value>الصفحة الحالية</value>
+  </data>
+  <data name="PdfViewer_OddPagesOnly" xml:space="preserve">
+    <value>الصفحات الفردية فقط</value>
+  </data>
+  <data name="PdfViewer_EvenPagesOnly" xml:space="preserve">
+    <value>الصفحات الزوجية فقط</value>
+  </data>
+  <data name="PdfViewer_SpecificPages" xml:space="preserve">
+    <value>صفحات محددة</value>
+  </data>
+  <data name="PdfViewer_PageRange" xml:space="preserve">
+    <value>نطاق الصفحات</value>
+  </data>
+  <data name="PdfViewer_RedactionConfirmation" xml:space="preserve">
+    <value>سيتم إزالة جميع المحتويات المحددة للحذف بشكل دائم من الوثيقة. لا يمكن التراجع عن هذا الإجراء.</value>
+  </data>
+  <data name="PdfViewer_RedactHeader" xml:space="preserve">
+    <value>تطبيق الحذف</value>
+  </data>
+  <data name="Spreadsheet_CollapseRibbonTab" xml:space="preserve">
+    <value>شريط أدوات الانهيار</value>
+  </data>
+  <data name="Spreadsheet_ExpandRibbonTab" xml:space="preserve">
+    <value>توسيع شريط الأدوات</value>
+  </data>
+  <data name="RichTextEditor_FormatPainter" xml:space="preserve">
+    <value>نسّاخ التنسيق</value>
+  </data>
+  <data name="DataForm_SubmitContent" xml:space="preserve">
+    <value>يُقدِّم</value>
   </data>
 </root>
