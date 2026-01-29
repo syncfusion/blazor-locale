@@ -933,11 +933,23 @@
   <data name="Gantt_SplitTask" xml:space="preserve">
     <value>Tách nhiệm vụ</value>
   </data>
+    <data name="Gantt_WbsCode" xml:space="preserve">
+    <value>Mã cấu trúc phân rã công việc</value>
+  </data>
+    <data name="Gantt_WbsPredecessor" xml:space="preserve">
+    <value>Công việc tiền nhiệm trong cấu trúc phân rã công việc</value>
+  </data>
   <data name="Gantt_MergeTask" xml:space="preserve">
     <value>Hợp nhất nhiệm vụ</value>
   </data>
   <data name="Gantt_UnassignedTasks" xml:space="preserve">
     <value>Nhiệm vụ chưa được giao</value>
+  </data>
+  <data name="Gantt_Undo" xml:space="preserve">
+    <value>Hoàn tác</value>
+  </data>
+  <data name="Gantt_Redo" xml:space="preserve">
+    <value>Làm lại</value>
   </data>
   <data name="ColorPicker_Apply" xml:space="preserve">
     <value>Ứng dụng</value>
@@ -2374,13 +2386,13 @@
     <value>Georgia</value>
   </data>
   <data name="RichTextEditor_FontNameImpact" xml:space="preserve">
-    <value>Impact</value>
+    <value>Tác động</value>
   </data>
   <data name="RichTextEditor_FontNameTahoma" xml:space="preserve">
     <value>Tahoma</value>
   </data>
   <data name="RichTextEditor_FontNameTimesNewRoman" xml:space="preserve">
-    <value>Times New Roman</value>
+    <value>Thời gian mới La Mã</value>
   </data>
   <data name="RichTextEditor_FontNameVerdana" xml:space="preserve">
     <value>Verdana</value>
@@ -2679,6 +2691,18 @@
   <data name="RichTextEditor_TableRemove" xml:space="preserve">
     <value>Xóa bảng</value>
   </data>
+  <data name="RichTextEditor_TableCell" xml:space="preserve">
+    <value>Ô bảng</value>
+  </data>
+  <data name="RichTextEditor_TableCellMerge" xml:space="preserve">
+    <value>Hợp nhất các ô</value>
+  </data>
+  <data name="RichTextEditor_TableCellHorizontalSplit" xml:space="preserve">
+    <value>Chia ngang</value>
+  </data>
+  <data name="RichTextEditor_TableCellVerticalSplit" xml:space="preserve">
+    <value>Chia dọc</value>
+  </data>
   <data name="RichTextEditor_TableCellBackground" xml:space="preserve">
     <value>Bảng nền di động</value>
   </data>
@@ -2825,6 +2849,48 @@
   </data>
   <data name="RichTextEditor_Img_AltText_Unsupported" xml:space="preserve">
     <value>Định dạng tập tin không được hỗ trợ</value>
+  </data>
+  <data name="RichTextEditor_ImportDeviceUploadMessage" xml:space="preserve">
+    <value>Nhấn vào đây để tải lên</value>
+  </data>
+  <data name="RichTextEditor_ImportUploadMessage" xml:space="preserve">
+    <value>Kéo hoặc duyệt để chọn một tài liệu Word</value>
+  </data>
+  <data name="RichTextEditor_ImportHeader" xml:space="preserve">
+    <value>Nhập khẩu từ Word</value>
+  </data>
+  <data name="RichTextEditor_DialogImport" xml:space="preserve">
+    <value>Chèn vào</value>
+  </data>
+  <data name="RichTextEditor_VideoHeader" xml:space="preserve">
+    <value>Chèn video</value>
+  </data>
+  <data name="RichTextEditor_EditVideoHeader" xml:space="preserve">
+    <value>Chỉnh sửa video</value>
+  </data>
+  <data name="RichTextEditor_AudioHeader" xml:space="preserve">
+    <value>Chèn Âm thanh</value>
+  </data>
+  <data name="RichTextEditor_EditAudioHeader" xml:space="preserve">
+    <value>Chỉnh sửa âm thanh</value>
+  </data>
+  <data name="RichTextEditor_Import_From_Word" xml:space="preserve">
+    <value>Nhập từ Word</value>
+  </data>
+  <data name="RichTextEditor_Export_To_Word" xml:space="preserve">
+    <value>Xuất sang Word</value>
+  </data>
+  <data name="RichTextEditor_Export_To_PDF" xml:space="preserve">
+    <value>Xuất ra PDF</value>
+  </data>
+  <data name="RichTextEditor_Audio" xml:space="preserve">
+    <value>Chèn Âm thanh</value>
+  </data>
+  <data name="RichTextEditor_Video" xml:space="preserve">
+    <value>Chèn video</value>
+  </data>
+  <data name="RichTextEditor_Default" xml:space="preserve">
+    <value>Mặc định</value>
   </data>
   <data name="DiagramComponent_X" xml:space="preserve">
     <value>X</value>
@@ -4572,6 +4638,57 @@
   <data name="PdfViewer_Of" xml:space="preserve">
     <value>của</value>
   </data>
+  <data name="PdfViewer_OrganizePages" xml:space="preserve">
+    <value>Sayfaları düzenle</value>
+  </data>
+  <data name="PdfViewer_Pages" xml:space="preserve">
+    <value>Sayfalar</value>
+  </data>
+  <data name="PdfViewer_RotateLeft" xml:space="preserve">
+    <value>Sola döndür</value>
+  </data>
+  <data name="PdfViewer_RotateRight" xml:space="preserve">
+    <value>Sağa döndür</value>
+  </data>
+  <data name="PdfViewer_DuplicatePages" xml:space="preserve">
+    <value>Sayfaları çoğalt</value>
+  </data>
+  <data name="PdfViewer_DeletePages" xml:space="preserve">
+    <value>Sayfaları sil</value>
+  </data>
+  <data name="PdfViewer_PageZoom" xml:space="preserve">
+    <value>Sayfa yakınlaştırma</value>
+  </data>
+  <data name="PdfViewer_SelectAll" xml:space="preserve">
+    <value>Tümünü seç</value>
+  </data>
+  <data name="PdfViewer_ImportDocument" xml:space="preserve">
+    <value>Belgeyi içe aktar</value>
+  </data>
+  <data name="PdfViewer_ExtractDocument" xml:space="preserve">
+    <value>Trích xuất tài liệu</value>
+  </data>
+  <data name="PdfViewer_Total" xml:space="preserve">
+    <value>Toplam</value>
+  </data>
+  <data name="PdfViewer_SaveAs" xml:space="preserve">
+    <value>Farklı kaydet</value>
+  </data>
+  <data name="PdfViewer_InsertLeft" xml:space="preserve">
+    <value>Sola ekle</value>
+  </data>
+  <data name="PdfViewer_InsertRight" xml:space="preserve">
+    <value>Sağa ekle</value>
+  </data>
+  <data name="PdfViewer_DuplicatePage" xml:space="preserve">
+    <value>Sayfayı çoğalt</value>
+  </data>
+  <data name="PdfViewer_DeletePage" xml:space="preserve">
+    <value>Sayfayı sil</value>
+  </data>
+  <data name="PdfViewer_AllPagesDelete" xml:space="preserve">
+    <value>Tüm sayfalar silinemez çünkü belgede en az bir sayfa kalmalıdır</value>
+  </data>
   <data name="PdfViewer_Required_ServiceUrl_Error_Message" xml:space="preserve">
     <value>Trình xem PDF này yêu cầu xử lý phía Máy chủ để hiển thị các tệp PDF thông qua dịch vụ web. Bạn phải định cấu hình URL dịch vụ để tiếp tục với Trình xem PDF</value>
   </data>
@@ -4603,10 +4720,58 @@
     <value>Lỗi dịch vụ AI</value>
   </data>
   <data name="PdfViewer_CredentialErrorContent" xml:space="preserve">
-    <value>Thông tin xác thực chưa được cung cấp, không chính xác hoặc không hợp lệ. Vui lòng kiểm tra và nhập lại thông tin chính xác, sau đó thử lại.</value>
+    <value>Thông tin xác thực chưa được cung cấp, không chính xác hoặc không hợp lệ. Vui lòng nhập thông tin xác thực chính xác và thử lại.</value>
   </data>
   <data name="PdfViewer_ConnectionLostErrorContent" xml:space="preserve">
     <value>Kết nối với dịch vụ AI đã bị mất. Vui lòng kiểm tra kết nối mạng của bạn và thử lại.</value>
+  </data>
+  <data name="PdfViewer_UnSupportedDialogContent" xml:space="preserve">
+    <value>Tệp này không hỗ trợ các tính năng AI tạo sinh vì nó trống hoặc không chứa đủ văn bản. Vui lòng thử tệp khác.</value>
+  </data>
+  <data name="SmartPdfViewer_TimeOutErrorHeader" xml:space="preserve">
+    <value>Yêu cầu quá thời gian</value>
+  </data>
+  <data name="SmartPdfViewer_TimeOutErrorContent" xml:space="preserve">
+    <value>Yêu cầu tìm kiếm của bạn mất nhiều thời gian hơn dự kiến và đã vượt quá thời gian cho phép.</value>
+  </data>
+  <data name="SmartPdfViewer_DisClaimerContent" xml:space="preserve">
+    <value>Câu trả lời do trí tuệ nhân tạo tạo ra có thể không chính xác hoặc gây hiểu lầm. Vui lòng kiểm tra kỹ các câu trả lời và nguồn thông tin.</value>
+  </data>
+  <data name="SmartPdfViewer_RedactionToolTip" xml:space="preserve">
+    <value>Xóa thông minh</value>
+  </data>
+  <data name="SmartPdfViewer_RedactHeader" xml:space="preserve">
+    <value>Chọn mẫu</value>
+  </data>
+  <data name="SmartPdfViewer_CancelRedact" xml:space="preserve">
+    <value>Hủy</value>
+  </data>
+  <data name="SmartPdfViewer_ApplyRedact" xml:space="preserve">
+    <value>Biên tập</value>
+  </data>
+  <data name="SmartPdfViewer_ScanRedact" xml:space="preserve">
+    <value>Quét</value>
+  </data>
+  <data name="SmartPdfViewer_SmartFillToolTip" xml:space="preserve">
+    <value>Điền mẫu thông minh</value>
+  </data>
+  <data name="SmartPdfViewer_SmartFillText" xml:space="preserve">
+    <value>Điền thông minh</value>
+  </data>
+  <data name="SmartPdfViewer_AIAssistanceToolTip" xml:space="preserve">
+    <value>Hỗ trợ AI</value>
+  </data>
+  <data name="SmartPdfViewer_RedactOptionsHeader" xml:space="preserve">
+    <value>Chọn dữ liệu cần làm mờ</value>
+  </data>
+  <data name="SmartPdfViewer_NoInformationErrorContent" xml:space="preserve">
+    <value>Không tìm thấy thông tin nhạy cảm trong tài liệu.</value>
+  </data>
+  <data name="SmartPdfViewer_NoInformationErrorContentHeader" xml:space="preserve">
+    <value>Không tìm thấy dữ liệu nhạy cảm</value>
+  </data>
+  <data name="SmartPdfViewer_RedactDisclaimer" xml:space="preserve">
+    <value>Thông tin được phát hiện bởi trí tuệ nhân tạo có thể không chính xác. Vui lòng kiểm tra kết quả trước khi sử dụng.</value>
   </data>
   <data name="DocumentEditor_Table" xml:space="preserve">
     <value>Bàn</value>
@@ -5447,6 +5612,9 @@
   </data>
   <data name="DocumentEditor_UnderlineErrors" xml:space="preserve">
     <value>Lỗi gạch chân</value>
+  </data>
+  <data name="DocumentEditor_MoreSuggestions" xml:space="preserve">
+    <value>Đề xuất khác</value>
   </data>
   <data name="DocumentEditor_Ignore" xml:space="preserve">
     <value>Làm lơ</value>
@@ -8040,13 +8208,13 @@
   <data name="Spreadsheet_LastMonth" xml:space="preserve">
     <value>Tháng trước</value>
   </data>
-  <data name="Spreadsheet_NextQuater" xml:space="preserve">
+  <data name="Spreadsheet_NextQuarter" xml:space="preserve">
     <value>Quý sau</value>
   </data>
-  <data name="Spreadsheet_ThisQuater" xml:space="preserve">
+  <data name="Spreadsheet_ThisQuarter" xml:space="preserve">
     <value>Quý này</value>
   </data>
-  <data name="Spreadsheet_LastQuater" xml:space="preserve">
+  <data name="Spreadsheet_LastQuarter" xml:space="preserve">
     <value>Quý trước</value>
   </data>
   <data name="Spreadsheet_NextYear" xml:space="preserve">
@@ -8241,11 +8409,308 @@
   <data name="Spreadsheet_FontSize" xml:space="preserve">
     <value>Cỡ chữ</value>
   </data>
-  <data name="RichTextEditor_InlineCode" xml:space="preserve">
-    <value>Mã nội tuyến</value>
+  <data name="Spreadsheet_DataLimitExceed" xml:space="preserve">
+    <value>Dữ liệu tệp quá lớn và mất nhiều thời gian hơn để xử lý, bạn có muốn tiếp tục không?</value>
   </data>
-  <data name="RichTextEditor_SlashMenuHeading1" xml:space="preserve">
-    <value>Tiêu đề 1</value>
+  <data name="Spreadsheet_FileLimitExceed" xml:space="preserve">
+    <value>Kích thước tệp quá lớn và mất nhiều thời gian hơn để xử lý, bạn có muốn tiếp tục không?</value>
+  </data>
+  <data name="Spreadsheet_PasswordPrompt" xml:space="preserve">
+    <value>được bảo vệ</value>
+  </data>
+  <data name="Spreadsheet_UnsupportedFile" xml:space="preserve">
+    <value>Tệp không được hỗ trợ</value>
+  </data>
+  <data name="Spreadsheet_View" xml:space="preserve">
+    <value>Xem</value>
+  </data>
+  <data name="Spreadsheet_Borders" xml:space="preserve">
+    <value>Đường viền</value>
+  </data>
+  <data name="Spreadsheet_RightBorder" xml:space="preserve">
+    <value>Đường viền phải</value>
+  </data>
+  <data name="Spreadsheet_BottomBorder" xml:space="preserve">
+    <value>Đường viền dưới</value>
+  </data>
+  <data name="Spreadsheet_TopBorder" xml:space="preserve">
+    <value>Đường viền trên</value>
+  </data>
+  <data name="Spreadsheet_LeftBorder" xml:space="preserve">
+    <value>Đường viền trái</value>
+  </data>
+  <data name="Spreadsheet_NoBorder" xml:space="preserve">
+    <value>Không có đường viền</value>
+  </data>
+  <data name="Spreadsheet_AllBorders" xml:space="preserve">
+    <value>Tất cả đường viền</value>
+  </data>
+  <data name="Spreadsheet_OutsideBorders" xml:space="preserve">
+    <value>Đường viền ngoài</value>
+  </data>
+  <data name="Spreadsheet_InsideBorders" xml:space="preserve">
+    <value>Đường viền trong</value>
+  </data>
+  <data name="Spreadsheet_HorizontalBorders" xml:space="preserve">
+    <value>Đường viền ngang</value>
+  </data>
+  <data name="Spreadsheet_VerticalBorders" xml:space="preserve">
+    <value>Đường viền dọc</value>
+  </data>
+  <data name="Spreadsheet_BorderColor" xml:space="preserve">
+    <value>Màu đường viền</value>
+  </data>
+  <data name="Spreadsheet_BorderStyle" xml:space="preserve">
+    <value>Kiểu đường viền</value>
+  </data>
+  <data name="Spreadsheet_Thin" xml:space="preserve">
+    <value>Mỏng</value>
+  </data>
+  <data name="Spreadsheet_Medium" xml:space="preserve">
+    <value>Trung bình</value>
+  </data>
+  <data name="Spreadsheet_Thick" xml:space="preserve">
+    <value>Dày</value>
+  </data>
+  <data name="Spreadsheet_Dotted" xml:space="preserve">
+    <value>Chấm</value>
+  </data>
+  <data name="Spreadsheet_Dashed" xml:space="preserve">
+    <value>Nét đứt</value>
+  </data>
+  <data name="Spreadsheet_Double" xml:space="preserve">
+    <value>Kép</value>
+  </data>
+  <data name="Spreadsheet_ShowGridlines" xml:space="preserve">
+    <value>Hiển thị đường lưới</value>
+  </data>
+  <data name="Spreadsheet_HideGridlines" xml:space="preserve">
+    <value>Ẩn đường lưới</value>
+  </data>
+  <data name="Spreadsheet_WebPage" xml:space="preserve">
+    <value>Trang Web</value>
+  </data>
+  <data name="Spreadsheet_ThisDocument" xml:space="preserve">
+    <value>Tài liệu này</value>
+  </data>
+  <data name="Spreadsheet_DisplayText" xml:space="preserve">
+    <value>Văn bản hiển thị</value>
+  </data>
+  <data name="Spreadsheet_Url" xml:space="preserve">
+    <value>URL</value>
+  </data>
+  <data name="Spreadsheet_Sheet" xml:space="preserve">
+    <value>Trang tính</value>
+  </data>
+  <data name="Spreadsheet_ReferenceCell" xml:space="preserve">
+    <value>Tham chiếu ô</value>
+  </data>
+  <data name="Spreadsheet_DownloadPDF" xml:space="preserve">
+    <value>Tải xuống dưới dạng PDF</value>
+  </data>
+  <data name="Spreadsheet_DataOperations" xml:space="preserve">
+    <value>Thao tác dữ liệu</value>
+  </data>
+  <data name="Spreadsheet_General" xml:space="preserve">
+    <value>Chung</value>
+  </data>
+  <data name="Spreadsheet_Number" xml:space="preserve">
+    <value>Số</value>
+  </data>
+  <data name="Spreadsheet_Currency" xml:space="preserve">
+    <value>Tiền tệ</value>
+  </data>
+  <data name="Spreadsheet_Accounting" xml:space="preserve">
+    <value>Kế toán</value>
+  </data>
+  <data name="Spreadsheet_ShortDate" xml:space="preserve">
+    <value>Ngày ngắn</value>
+  </data>
+  <data name="Spreadsheet_LongDate" xml:space="preserve">
+    <value>Ngày dài</value>
+  </data>
+  <data name="Spreadsheet_Time" xml:space="preserve">
+    <value>Thời gian</value>
+  </data>
+  <data name="Spreadsheet_Percentage" xml:space="preserve">
+    <value>Tỷ lệ phần trăm</value>
+  </data>
+  <data name="Spreadsheet_Fraction" xml:space="preserve">
+    <value>Phân số</value>
+  </data>
+  <data name="Spreadsheet_Scientific" xml:space="preserve">
+    <value>Khoa học</value>
+  </data>
+  <data name="Spreadsheet_Custom" xml:space="preserve">
+    <value>Tùy chỉnh</value>
+  </data>
+  <data name="Spreadsheet_NumberFormat" xml:space="preserve">
+    <value>Định dạng số</value>
+  </data>
+  <data name="Spreadsheet_Algerian" xml:space="preserve">
+    <value>Algerian</value>
+  </data>
+  <data name="Spreadsheet_Arial" xml:space="preserve">
+    <value>Arial</value>
+  </data>
+  <data name="Spreadsheet_Calibri" xml:space="preserve">
+    <value>Calibri</value>
+  </data>
+  <data name="Spreadsheet_Cambria" xml:space="preserve">
+    <value>Cambria</value>
+  </data>
+  <data name="Spreadsheet_CambriaMath" xml:space="preserve">
+    <value>Cambria Math</value>
+  </data>
+  <data name="Spreadsheet_CourierNew" xml:space="preserve">
+    <value>Courier New</value>
+  </data>
+  <data name="Spreadsheet_Candara" xml:space="preserve">
+    <value>Candara</value>
+  </data>
+  <data name="Spreadsheet_Georgia" xml:space="preserve">
+    <value>Georgia</value>
+  </data>
+  <data name="Spreadsheet_Impact" xml:space="preserve">
+    <value>Impact</value>
+  </data>
+  <data name="Spreadsheet_SegoePrint" xml:space="preserve">
+    <value>Segoe Print</value>
+  </data>
+  <data name="Spreadsheet_SegoeScript" xml:space="preserve">
+    <value>Segoe Script</value>
+  </data>
+  <data name="Spreadsheet_SegoeUI" xml:space="preserve">
+    <value>Segoe UI</value>
+  </data>
+  <data name="Spreadsheet_Symbol" xml:space="preserve">
+    <value>Symbol</value>
+  </data>
+  <data name="Spreadsheet_TimesNewRoman" xml:space="preserve">
+    <value>Times New Roman</value>
+  </data>
+  <data name="Spreadsheet_Verdana" xml:space="preserve">
+    <value>Verdana</value>
+  </data>
+  <data name="Spreadsheet_Windings" xml:space="preserve">
+    <value>Windings</value>
+  </data>
+  <data name="Spreadsheet_KeepSourceFormat" xml:space="preserve">
+    <value>Giữ định dạng nguồn</value>
+  </data>
+  <data name="Spreadsheet_MergeFormat" xml:space="preserve">
+    <value>Hợp nhất định dạng</value>
+  </data>
+  <data name="Spreadsheet_KeepTextOnly" xml:space="preserve">
+    <value>Chỉ giữ lại văn bản</value>
+  </data>
+  <data name="Spreadsheet_Ascending" xml:space="preserve">
+    <value>Tăng dần</value>
+  </data>
+  <data name="Spreadsheet_Descending" xml:space="preserve">
+    <value>Giảm dần</value>
+  </data>
+  <data name="Spreadsheet_Print" xml:space="preserve">
+    <value>In</value>
+  </data>
+  <data name="Spreadsheet_Text" xml:space="preserve">
+    <value>Văn bản</value>
+  </data>
+  <data name="Spreadsheet_Reapply" xml:space="preserve">
+    <value>Áp dụng lại</value>
+  </data>
+  <data name="Spreadsheet_Value" xml:space="preserve">
+    <value>Giá trị</value>
+  </data>
+  <data name="Spreadsheet_InsertRowBelow" xml:space="preserve">
+    <value>Chèn hàng bên dưới</value>
+  </data>
+  <data name="Spreadsheet_Hide" xml:space="preserve">
+    <value>Ẩn</value>
+  </data>
+  <data name="Spreadsheet_OkButton" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="Spreadsheet_FilterValue" xml:space="preserve">
+    <value>Giá trị bộ lọc</value>
+  </data>
+    <data name="Spreadsheet_Filter" xml:space="preserve">
+      <value>Lọc</value>
+    </data>
+  <data name="Spreadsheet_Font" xml:space="preserve">
+    <value>Phông chữ</value>
+  </data>
+  <data name="Spreadsheet_NoResult" xml:space="preserve">
+    <value>Không có kết quả</value>
+  </data>
+  <data name="Spreadsheet_AlignLeft" xml:space="preserve">
+    <value>Căn trái</value>
+  </data>
+  <data name="Spreadsheet_AlignCenter" xml:space="preserve">
+    <value>Căn giữa</value>
+  </data>
+  <data name="Spreadsheet_AlignRight" xml:space="preserve">
+    <value>Căn phải</value>
+  </data>
+  <data name="Spreadsheet_Justify" xml:space="preserve">
+    <value>Căn đều</value>
+  </data>
+  <data name="Spreadsheet_AlignTop" xml:space="preserve">
+    <value>Căn trên</value>
+  </data>
+  <data name="Spreadsheet_AlignMiddle" xml:space="preserve">
+    <value>Căn giữa</value>
+  </data>
+  <data name="Spreadsheet_AlignBottom" xml:space="preserve">
+    <value>Căn dưới</value>
+  </data>
+  <data name="Spreadsheet_ChangeCase" xml:space="preserve">
+    <value>Thay đổi trường hợp</value>
+  </data>
+  <data name="Spreadsheet_Clipboard" xml:space="preserve">
+    <value>Bảng tạm</value>
+  </data>
+  <data name="Spreadsheet_EnterValue" xml:space="preserve">
+    <value>Nhập giá trị</value>
+  </data>
+  <data name="Spreadsheet_FillSeries" xml:space="preserve">
+    <value>Điền Chuỗi</value>
+  </data>
+  <data name="Spreadsheet_FillFormattingOnly" xml:space="preserve">
+    <value>Chỉ Điền Định Dạng</value>
+  </data>
+  <data name="Spreadsheet_FillWithoutFormatting" xml:space="preserve">
+    <value>Điền Không Có Định Dạng</value>
+  </data>
+  <data name="Spreadsheet_CopyCells" xml:space="preserve">
+    <value>Sao chép Ô</value>
+  </data>
+  <data name="Spreadsheet_MergeCell" xml:space="preserve">
+    <value>Hợp nhất ô</value>
+  </data>
+  <data name="Spreadsheet_MergeCellDialog" xml:space="preserve">
+    <value>Hợp nhất các ô chỉ giữ lại giá trị ở trên cùng bên trái và loại bỏ các giá trị khác.</value>
+  </data>
+  <data name="Spreadsheet_MergeCellSize" xml:space="preserve">
+    <value>Để làm được điều này, tất cả các ô hợp nhất phải có cùng kích thước.</value>
+  </data>
+  <data name="Spreadsheet_MergeCenter" xml:space="preserve">
+    <value>Hợp nhất &amp; Căn giữa</value>
+  </data>
+  <data name="Spreadsheet_MergeAcross" xml:space="preserve">
+    <value>Hợp nhất qua</value>
+  </data>
+  <data name="Spreadsheet_MergeCells" xml:space="preserve">
+    <value>Hợp nhất các ô</value>
+  </data>
+  <data name="Spreadsheet_UnMergeCells" xml:space="preserve">
+    <value>Tách các ô</value>
+  </data>
+<data name="RichTextEditor_InlineCode" xml:space="preserve">
+  <value>Mã nội tuyến</value>
+</data>
+<data name="RichTextEditor_SlashMenuHeading1" xml:space="preserve">
+  <value>Tiêu đề 1</value>
 </data>
 <data name="RichTextEditor_SlashMenuHeading2" xml:space="preserve">
     <value>Tiêu đề 2</value>
@@ -8439,10 +8904,172 @@
   <data name="Spreadsheet_ExpandRibbonTab" xml:space="preserve">
     <value>Mở rộng thanh công cụ</value>
   </data>
+   <data name="Spreadsheet_InvalidFileNameMessage" xml:space="preserve">
+    <value>Sử dụng tên không bao gồm các ký tự này: \ / : * ? " |</value>
+  </data>
+  <data name="Spreadsheet_EmptyFileName" xml:space="preserve">
+    <value>Tên tệp không thể để trống.</value>
+  </data>
+  <data name="Spreadsheet_CircularReference" xml:space="preserve">
+    <value>Chúng tôi phát hiện bạn đã nhập một công thức có tham chiếu vòng.</value>
+  </data>
   <data name="RichTextEditor_FormatPainter" xml:space="preserve">
     <value>Cọ định dạng</value>
   </data>
+  <data name="RichTextEditor_LineHeight" xml:space="preserve">
+    <value>Chiều cao dòng</value>
+  </data>
   <data name="DataForm_SubmitContent" xml:space="preserve">
     <value>Gửi</value>
+  </data>
+  <data name="AssistView_FileSize_Failure" xml:space="preserve">
+    <value>Tải lên thất bại: Kích thước tệp quá lớn</value>
+  </data>
+  <data name="ChatUI_Forwarded_Message" xml:space="preserve">
+    <value>Đã chuyển tiếp</value>
+  </data>
+  <data name="ChatUI_MentionNoRecord" xml:space="preserve">
+    <value>Không tìm thấy bản ghi nào</value>
+  </data>
+  <data name="ChatUI_Send" xml:space="preserve">
+    <value>Gửi</value>
+  </data>
+  <data name="ChatUI_Attachments" xml:space="preserve">
+    <value>Đính kèm tập tin</value>
+  </data>
+  <data name="ChatUI_Download" xml:space="preserve">
+    <value>Tải xuống</value>
+  </data>
+  <data name="ChatUI_Close" xml:space="preserve">
+    <value>Đóng</value>
+  </data>
+  <data name="ChatUI_FileUploadFailure" xml:space="preserve">
+    <value>Đã đạt giới hạn tải lên: Tối đa cho phép {0} tệp. Hãy xóa các tệp dư để tiếp tục tải lên</value>
+  </data>
+  <data name="ChatUI_FilePreview" xml:space="preserve">
+    <value>Không có bản xem trước</value>
+  </data>
+  <data name="ChatUI_FileSizeFailure" xml:space="preserve">
+    <value>Tải lên không thành công: kích thước của {0} tệp quá lớn</value>
+  </data>
+  <data name="AIAssistView_FileCountFailure" xml:space="preserve">
+    <value>Đã đạt giới hạn tải lên: Tối đa cho phép {0} tệp. Hãy xóa các tệp dư để tiếp tục tải lên</value>
+  </data>
+  <data name="AssistView_Send" xml:space="preserve">
+    <value>Gửi</value>
+  </data>
+  <data name="AssistView_Attachments" xml:space="preserve">
+    <value>Đính kèm tập tin</value>
+  </data>
+  <data name="AssistView_Clear" xml:space="preserve">
+    <value>Xóa</value>
+  </data>
+  <data name="BlockEditor_Paragraph" xml:space="preserve">
+      <value>Viết gì đó hoặc '/' để sử dụng lệnh.</value>
+  </data>
+  <data name="BlockEditor_Heading1" xml:space="preserve">
+      <value>Tiêu đề 1</value>
+  </data>
+  <data name="BlockEditor_Heading2" xml:space="preserve">
+      <value>Tiêu đề 2</value>
+  </data>
+  <data name="BlockEditor_Heading3" xml:space="preserve">
+      <value>Tiêu đề 3</value>
+  </data>
+  <data name="BlockEditor_Heading4" xml:space="preserve">
+      <value>Tiêu đề 4</value>
+  </data>
+  <data name="BlockEditor_CollapsibleParagraph" xml:space="preserve">
+      <value>Đoạn văn có thể thu gọn</value>
+  </data>
+  <data name="BlockEditor_CollapsibleHeading1" xml:space="preserve">
+      <value>Tiêu đề có thể thu gọn 1</value>
+  </data>
+  <data name="BlockEditor_CollapsibleHeading2" xml:space="preserve">
+      <value>Tiêu đề có thể thu gọn 2</value>
+  </data>
+  <data name="BlockEditor_CollapsibleHeading3" xml:space="preserve">
+      <value>Tiêu đề có thể thu gọn 3</value>
+  </data>
+  <data name="BlockEditor_CollapsibleHeading4" xml:space="preserve">
+      <value>Tiêu đề có thể thu gọn 4</value>
+  </data>
+  <data name="BlockEditor_BulletList" xml:space="preserve">
+      <value>Thêm mục</value>
+  </data>
+  <data name="BlockEditor_NumberedList" xml:space="preserve">
+      <value>Thêm mục</value>
+  </data>
+  <data name="BlockEditor_Checklist" xml:space="preserve">
+      <value>Nhiệm vụ</value>
+  </data>
+  <data name="BlockEditor_Quote" xml:space="preserve">
+      <value>Viết trích dẫn</value>
+  </data>
+  <data name="BlockEditor_Callout" xml:space="preserve">
+      <value>Viết ghi chú</value>
+  </data>
+  <data name="BlockEditor_AddIconTooltip" xml:space="preserve">
+      <value>Nhấn để chèn bên dưới</value>
+  </data>
+  <data name="BlockEditor_DragIconTooltipActionMenu" xml:space="preserve">
+      <value>Nhấn để mở</value>
+  </data>
+  <data name="BlockEditor_DragIconTooltip" xml:space="preserve">
+      <value>(Giữ để kéo)</value>
+  </data>
+  <data name="BlockEditor_InsertLink" xml:space="preserve">
+      <value>Chèn liên kết</value>
+  </data>
+  <data name="BlockEditor_LinkText" xml:space="preserve">
+      <value>Văn bản</value>
+  </data>
+  <data name="BlockEditor_LinkTextPlaceholder" xml:space="preserve">
+      <value>Văn bản liên kết</value>
+  </data>
+  <data name="BlockEditor_LinkUrl" xml:space="preserve">
+      <value>URL</value>
+  </data>
+  <data name="BlockEditor_LinkUrlPlaceholder" xml:space="preserve">
+      <value>https://vidu.com</value>
+  </data>
+  <data name="BlockEditor_LinkTitle" xml:space="preserve">
+      <value>Tiêu đề</value>
+  </data>
+  <data name="BlockEditor_LinkTitlePlaceholder" xml:space="preserve">
+      <value>Tiêu đề liên kết</value>
+  </data>
+  <data name="BlockEditor_LinkOpenInNewWindow" xml:space="preserve">
+      <value>Mở trong cửa sổ mới</value>
+  </data>
+  <data name="BlockEditor_LinkInsert" xml:space="preserve">
+      <value>Chèn</value>
+  </data>
+  <data name="BlockEditor_LinkRemove" xml:space="preserve">
+      <value>Xóa</value>
+  </data>
+  <data name="BlockEditor_LinkCancel" xml:space="preserve">
+      <value>Hủy</value>
+  </data>
+  <data name="BlockEditor_CodeCopyTooltip" xml:space="preserve">
+      <value>Sao chép mã</value>
+  </data>
+  <data name="DocumentEditorContainer_CommentsCloseHeader" xml:space="preserve">
+    <value>Nhận xét chưa được lưu</value>
+  </data>
+  <data name="DocumentEditorContainer_CommentsCloseContent" xml:space="preserve">
+    <value>Bạn có những bình luận chưa được đăng. Nếu bạn rời khỏi trang này, chúng sẽ bị loại bỏ</value>
+  </data>
+  <data name="DocumentEditorContainer_KeepEditing" xml:space="preserve">
+    <value>Tiếp tục chỉnh sửa</value>
+  </data>
+  <data name="DocumentEditorContainer_DiscardComments" xml:space="preserve">
+    <value>Hủy nhận xét</value>
+  </data>
+  <data name="DocumentEditor_Resolved" xml:space="preserve">
+    <value>Đã giải quyết</value>
+  </data>
+  <data name="DocumentEditor_CommentMark" xml:space="preserve">
+    <value>Bấm vào để xem bình luận này</value>
   </data>
 </root>

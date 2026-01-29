@@ -1,17 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
-  <!-- 
-    Microsoft ResX Schema 
-    
+  <!--
+    Microsoft ResX Schema
+
     Version 2.0
-    
-    The primary goals of this format is to allow a simple XML format 
-    that is mostly human readable. The generation and parsing of the 
-    various data types are done through the TypeConverter classes 
+
+    The primary goals of this format is to allow a simple XML format
+    that is mostly human readable. The generation and parsing of the
+    various data types are done through the TypeConverter classes
     associated with the data types.
-    
+
     Example:
-    
+
     ... ado.net/XML headers & schema ...
     <resheader name="resmimetype">text/microsoft-resx</resheader>
     <resheader name="version">2.0</resheader>
@@ -26,36 +26,36 @@
         <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
         <comment>This is a comment</comment>
     </data>
-                
-    There are any number of "resheader" rows that contain simple 
+
+    There are any number of "resheader" rows that contain simple
     name/value pairs.
-    
-    Each data row contains a name, and value. The row also contains a 
-    type or mimetype. Type corresponds to a .NET class that support 
-    text/value conversion through the TypeConverter architecture. 
-    Classes that don't support this are serialized and stored with the 
+
+    Each data row contains a name, and value. The row also contains a
+    type or mimetype. Type corresponds to a .NET class that support
+    text/value conversion through the TypeConverter architecture.
+    Classes that don't support this are serialized and stored with the
     mimetype set.
-    
-    The mimetype is used for serialized objects, and tells the 
-    ResXResourceReader how to depersist the object. This is currently not 
+
+    The mimetype is used for serialized objects, and tells the
+    ResXResourceReader how to depersist the object. This is currently not
     extensible. For a given mimetype the value must be set accordingly:
-    
-    Note - application/x-microsoft.net.object.binary.base64 is the format 
-    that the ResXResourceWriter will generate, however the reader can 
+
+    Note - application/x-microsoft.net.object.binary.base64 is the format
+    that the ResXResourceWriter will generate, however the reader can
     read any of the formats listed below.
-    
+
     mimetype: application/x-microsoft.net.object.binary.base64
-    value   : The object must be serialized with 
+    value   : The object must be serialized with
             : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
             : and then encoded with base64 encoding.
-    
+
     mimetype: application/x-microsoft.net.object.soap.base64
-    value   : The object must be serialized with 
+    value   : The object must be serialized with
             : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
             : and then encoded with base64 encoding.
 
     mimetype: application/x-microsoft.net.object.bytearray.base64
-    value   : The object must be serialized into a byte array 
+    value   : The object must be serialized into a byte array
             : using a System.ComponentModel.TypeConverter
             : and then encoded with base64 encoding.
     -->
@@ -686,6 +686,9 @@
   </data>
   <data name="DocumentEditor_Row" xml:space="preserve">
     <value>Row</value>
+  </data>
+  <data name="DocumentEditorContainer_Column" xml:space="preserve">
+    <value>Column</value>
   </data>
   <data name="DocumentEditor_Cell" xml:space="preserve">
     <value>Cell</value>
@@ -1550,6 +1553,12 @@
   </data>
   <data name="DocumentEditor_UnderlineErrors" xml:space="preserve">
     <value>Underline errors</value>
+  </data>
+  <data name="DocumentEditor_MoreSuggestions" xml:space="preserve">
+    <value>More Suggestions</value>
+  </data>
+  <data name="DocumentEditor_NoSuggestions" xml:space="preserve">
+    <value>No Suggestions</value>
   </data>
   <data name="DocumentEditor_Ignore" xml:space="preserve">
     <value>Ignore</value>
@@ -2417,7 +2426,7 @@
   </data>
   <data name="DocumentEditorContainer_ToggleBetweenTheInternalClipboardAndSystemClipboard" xml:space="preserve">
     <value>Toggle between the internal clipboard and system clipboard.
-Access to system clipboard through script is denied due to browsers security policy. Instead, 
+Access to system clipboard through script is denied due to browsers security policy. Instead,
  1. You can enable internal clipboard to cut, copy and paste within the component.
  2. You can use the keyboard shortcuts (Ctrl+X, Ctrl+C and Ctrl+V) to cut, copy and paste with system clipboard.</value>
   </data>
@@ -2506,7 +2515,7 @@ Access to system clipboard through script is denied due to browsers security pol
     <value>UPPERCASE</value>
   </data>
   <data name="DocumentEditorContainer_Lowercase" xml:space="preserve">
-    <value>Lowercase</value>
+    <value>lowercase</value>
   </data>
   <data name="DocumentEditorContainer_SentenceCase" xml:space="preserve">
     <value>Sentence case</value>
@@ -2515,7 +2524,19 @@ Access to system clipboard through script is denied due to browsers security pol
     <value>Capitalize Each Word</value>
   </data>
   <data name="DocumentEditorContainer_ToggleCase" xml:space="preserve">
-    <value>Toggle case</value>
+    <value>tOGGLE cASE</value>
+  </data>
+  <data name="DocumentEditorContainer_DiscardComments" xml:space="preserve">
+    <value>Discard comments</value>
+  </data>
+  <data name="DocumentEditorContainer_KeepEditing" xml:space="preserve">
+    <value>Keep editing</value>
+  </data>
+  <data name="DocumentEditorContainer_CommentsCloseHeader" xml:space="preserve">
+    <value>Unsaved comments</value>
+  </data>
+  <data name="DocumentEditorContainer_CommentsCloseContent" xml:space="preserve">
+    <value>You have comments that haven't been posted yet. If you leave this page, they'll be discarded</value>
   </data>
   <data name="PivotView_AddCondition" xml:space="preserve">
     <value>Add Condition</value>
@@ -4038,6 +4059,18 @@ Access to system clipboard through script is denied due to browsers security pol
   <data name="RichTextEditor_TableRemove" xml:space="preserve">
     <value>Delete</value>
   </data>
+  <data name="RichTextEditor_TableCell" xml:space="preserve">
+    <value>Table Cells</value>
+  </data>
+  <data name="RichTextEditor_TableCellMerge" xml:space="preserve">
+    <value>Merge cells</value>
+  </data>
+  <data name="RichTextEditor_TableCellHorizontalSplit" xml:space="preserve">
+    <value>Horizontal split</value>
+  </data>
+  <data name="RichTextEditor_TableCellVerticalSplit" xml:space="preserve">
+    <value>Vertical split</value>
+  </data>
   <data name="RichTextEditor_TableCellBackground" xml:space="preserve">
     <value>Table Cell Background</value>
   </data>
@@ -4157,6 +4190,48 @@ Access to system clipboard through script is denied due to browsers security pol
   </data>
   <data name="RichTextEditor_Image_Link_AriaLabel" xml:space="preserve">
     <value>Open in new window</value>
+  </data>
+  <data name="RichTextEditor_ImportDeviceUploadMessage" xml:space="preserve">
+    <value>Click here to upload</value>
+  </data>
+  <data name="RichTextEditor_ImportUploadMessage" xml:space="preserve">
+    <value>Drop or browse a Word document</value>
+  </data>
+  <data name="RichTextEditor_ImportHeader" xml:space="preserve">
+    <value>Import Word</value>
+  </data>
+  <data name="RichTextEditor_DialogImport" xml:space="preserve">
+    <value>Insert</value>
+  </data>
+  <data name="RichTextEditor_VideoHeader" xml:space="preserve">
+    <value>Insert Video</value>
+  </data>
+  <data name="RichTextEditor_EditVideoHeader" xml:space="preserve">
+    <value>Edit Video</value>
+  </data>
+  <data name="RichTextEditor_AudioHeader" xml:space="preserve">
+    <value>Insert Audio</value>
+  </data>
+  <data name="RichTextEditor_EditAudioHeader" xml:space="preserve">
+    <value>Edit Audio</value>
+  </data>
+  <data name="RichTextEditor_Import_From_Word" xml:space="preserve">
+    <value>Import From Word</value>
+  </data>
+  <data name="RichTextEditor_Export_To_Word" xml:space="preserve">
+    <value>Export To Word</value>
+  </data>
+  <data name="RichTextEditor_Export_To_PDF" xml:space="preserve">
+    <value>Export To Pdf</value>
+  </data>
+  <data name="RichTextEditor_Audio" xml:space="preserve">
+    <value>Insert Audio</value>
+  </data>
+  <data name="RichTextEditor_Video" xml:space="preserve">
+    <value>Insert Video</value>
+  </data>
+  <data name="RichTextEditor_Default" xml:space="preserve">
+    <value>Default</value>
   </data>
   <data name="PdfViewer" xml:space="preserve">
     <value>PDF Viewer</value>
@@ -5070,6 +5145,57 @@ Access to system clipboard through script is denied due to browsers security pol
   <data name="PdfViewer_Of" xml:space="preserve">
     <value>of</value>
   </data>
+  <data name="PdfViewer_OrganizePages" xml:space="preserve">
+    <value>Organize Pages</value>
+  </data>
+  <data name="PdfViewer_Pages" xml:space="preserve">
+    <value>Pages</value>
+  </data>
+  <data name="PdfViewer_RotateLeft" xml:space="preserve">
+    <value>Rotate Left</value>
+  </data>
+  <data name="PdfViewer_RotateRight" xml:space="preserve">
+    <value>Rotate Right</value>
+  </data>
+  <data name="PdfViewer_DuplicatePages" xml:space="preserve">
+    <value>Duplicate Pages</value>
+  </data>
+  <data name="PdfViewer_DeletePages" xml:space="preserve">
+    <value>Delete Pages</value>
+  </data>
+  <data name="PdfViewer_PageZoom" xml:space="preserve">
+    <value>Page Zoom</value>
+  </data>
+  <data name="PdfViewer_SelectAll" xml:space="preserve">
+    <value>Select All</value>
+  </data>
+  <data name="PdfViewer_ImportDocument" xml:space="preserve">
+    <value>Import Document</value>
+  </data>
+  <data name="PdfViewer_ExtractDocument" xml:space="preserve">
+      <value>Extract Document</value>
+  </data>
+  <data name="PdfViewer_Total" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="PdfViewer_SaveAs" xml:space="preserve">
+    <value>Save As</value>
+  </data>
+  <data name="PdfViewer_InsertLeft" xml:space="preserve">
+    <value>Insert Left</value>
+  </data>
+  <data name="PdfViewer_InsertRight" xml:space="preserve">
+    <value>Insert Right</value>
+  </data>
+  <data name="PdfViewer_DuplicatePage" xml:space="preserve">
+    <value>Duplicate Page</value>
+  </data>
+  <data name="PdfViewer_DeletePage" xml:space="preserve">
+    <value>Delete Page</value>
+  </data>
+  <data name="PdfViewer_AllPagesDelete" xml:space="preserve">
+    <value>All pages cannot be deleted as at least one page must remain in the document.</value>
+  </data>
   <data name="PdfViewer_PromptPlaceholder" xml:space="preserve">
     <value>Type your prompt for assistance...</value>
   </data>
@@ -5086,12 +5212,60 @@ Access to system clipboard through script is denied due to browsers security pol
   <value>AI Service Error</value>
   </data>
   <data name="PdfViewer_CredentialErrorContent" xml:space="preserve">
-    <value>The credentials were not provided, or incorrect or invalid. Please check and enter the correct credentials and try again.</value>
+    <value>The credentials were not provided, incorrect, or invalid. Please enter the correct credentials and try again.</value>
   </data>
   <data name="PdfViewer_ConnectionLostErrorContent" xml:space="preserve">
     <value>The connection to the AI service has been lost. Please check your network connection and try again.</value>
   </data>
-    <data name="FileManager_NewFolder" xml:space="preserve">
+  <data name="PdfViewer_UnSupportedDialogContent" xml:space="preserve">
+    <value>This file doesn't support generative AI features because it's blank or doesn't contain enough text. Please try a different file.</value>
+  </data>
+  <data name="SmartPdfViewer_TimeOutErrorHeader" xml:space="preserve">
+    <value>Request Timeout</value>
+  </data>
+  <data name="SmartPdfViewer_TimeOutErrorContent" xml:space="preserve">
+    <value>Your search request took longer than expected and exceeded the maximum allowed time.</value>
+  </data>
+  <data name="SmartPdfViewer_DisClaimerContent" xml:space="preserve">
+    <value>AI-generated responses may be inaccurate or misleading. Be sure to double-check responses and sources.</value>
+  </data>
+  <data name="SmartPdfViewer_RedactionToolTip" xml:space="preserve">
+    <value>Smart Redaction</value>
+  </data>
+  <data name="SmartPdfViewer_RedactHeader" xml:space="preserve">
+    <value>Select the Pattern</value>
+  </data>
+  <data name="SmartPdfViewer_CancelRedact" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="SmartPdfViewer_ApplyRedact" xml:space="preserve">
+    <value>Redact</value>
+  </data>
+  <data name="SmartPdfViewer_ScanRedact" xml:space="preserve">
+    <value>Scan</value>
+  </data>
+  <data name="SmartPdfViewer_SmartFillToolTip" xml:space="preserve">
+    <value>Smart Form Fill</value>
+  </data>
+  <data name="SmartPdfViewer_SmartFillText" xml:space="preserve">
+    <value>Smart Fill</value>
+  </data>
+  <data name="SmartPdfViewer_AIAssistanceToolTip" xml:space="preserve">
+    <value>AI Assistance</value>
+  </data>
+  <data name="SmartPdfViewer_RedactOptionsHeader" xml:space="preserve">
+    <value>Select Data to Redact</value>
+  </data>
+  <data name="SmartPdfViewer_NoInformationErrorContent" xml:space="preserve">
+    <value>No sensitive information was found in the document.</value>
+  </data>
+  <data name="SmartPdfViewer_NoInformationErrorContentHeader" xml:space="preserve">
+    <value>No Sensitive Data Found</value>
+  </data>
+  <data name="SmartPdfViewer_RedactDisclaimer" xml:space="preserve">
+    <value>AI-detected information may not be accurate. Please verify results before use.</value>
+  </data>
+  <data name="FileManager_NewFolder" xml:space="preserve">
     <value>New folder</value>
   </data>
   <data name="FileManager_Upload" xml:space="preserve">
@@ -5358,6 +5532,12 @@ Access to system clipboard through script is denied due to browsers security pol
   <data name="FileManager_AccessMessage" xml:space="preserve">
     <value>{0} is not accessible. you need permission to perform the {1} action.</value>
   </data>
+  <data name="FileManager_FolderUploadAccessMessage" xml:space="preserve">
+    <value>{0} is not accessible. you need permission to perform the {1} action.</value>
+  </data>
+  <data name="FileManager_FileUploadAccessMessage" xml:space="preserve">
+    <value>{0} is not accessible. you need permission to perform the {1} action.</value>
+  </data>
   <data name="FileManager_NetworkError" xml:space="preserve">
     <value>NetworkError: Failed to send on XMLHTTPRequest: Failed to load</value>
   </data>
@@ -5503,7 +5683,7 @@ Access to system clipboard through script is denied due to browsers security pol
     <value>Offset</value>
   </data>
   <data name="Gantt_OkText" xml:space="preserve">
-    <value>Ok</value>
+    <value>OK</value>
   </data>
   <data name="Gantt_PrevTimeSpan" xml:space="preserve">
     <value>Previous timespan</value>
@@ -5685,11 +5865,23 @@ Access to system clipboard through script is denied due to browsers security pol
   <data name="Gantt_SplitTask" xml:space="preserve">
     <value>Split Task</value>
   </data>
+   <data name="Gantt_WbsCode" xml:space="preserve">
+    <value>WBS Code</value>
+  </data>
+  <data name="Gantt_WbsPredecessor" xml:space="preserve">
+    <value>WBS Predecessor</value>
+  </data>
   <data name="Gantt_MergeTask" xml:space="preserve">
     <value>Merge Task</value>
   </data>
   <data name="Gantt_UnassignedTasks" xml:space="preserve">
     <value>Unassigned Tasks</value>
+  </data>
+  <data name="Gantt_Undo" xml:space="preserve">
+    <value>Undo</value>
+  </data>
+  <data name="Gantt_Redo" xml:space="preserve">
+    <value>Redo</value>
   </data>
   <data name="Spreadsheet_InvalidPassword" xml:space="preserve">
     <value>Incorrect Password. Please try again.</value>
@@ -6909,14 +7101,14 @@ Access to system clipboard through script is denied due to browsers security pol
   <data name="Spreadsheet_LastMonth" xml:space="preserve">
     <value>Last Month</value>
   </data>
-  <data name="Spreadsheet_NextQuater" xml:space="preserve">
-    <value>Next Quater</value>
+  <data name="Spreadsheet_NextQuarter" xml:space="preserve">
+    <value>Next Quarter</value>
   </data>
-  <data name="Spreadsheet_ThisQuater" xml:space="preserve">
-    <value>This Quater</value>
+  <data name="Spreadsheet_ThisQuarter" xml:space="preserve">
+    <value>This Quarter</value>
   </data>
-  <data name="Spreadsheet_LastQuater" xml:space="preserve">
-    <value>Last Quater</value>
+  <data name="Spreadsheet_LastQuarter" xml:space="preserve">
+    <value>Last Quarter</value>
   </data>
   <data name="Spreadsheet_NextYear" xml:space="preserve">
     <value>Next Year</value>
@@ -7013,6 +7205,9 @@ Access to system clipboard through script is denied due to browsers security pol
   </data>
   <data name="Spreadsheet_Custom" xml:space="preserve">
     <value>Custom</value>
+  </data>
+  <data name="Spreadsheet_NumberFormat" xml:space="preserve">
+    <value>Number Format</value>
   </data>
   <data name="Spreadsheet_Algerian" xml:space="preserve">
     <value>Algerian</value>
@@ -7319,6 +7514,105 @@ Access to system clipboard through script is denied due to browsers security pol
   </data>
   <data name="Spreadsheet_FontSize" xml:space="preserve">
     <value>Font Size</value>
+  </data>
+   <data name="Spreadsheet_DataLimitExceed" xml:space="preserve">
+    <value>File data is too large and it takes more time to process, do you want to continue?</value>
+  </data>
+   <data name="Spreadsheet_FileLimitExceed" xml:space="preserve">
+    <value>File size is too large and it takes more time to process, do you want to continue?</value>
+  </data>
+   <data name="Spreadsheet_PasswordPrompt" xml:space="preserve">
+    <value>is protected</value>
+  </data>
+  <data name="Spreadsheet_UnsupportedFile" xml:space="preserve">
+    <value>Unsupported File</value>
+  </data>
+  <data name="Spreadsheet_View" xml:space="preserve">
+    <value>View</value>
+  </data>
+  <data name="Spreadsheet_Borders" xml:space="preserve">
+    <value>Borders</value>
+  </data>
+  <data name="Spreadsheet_RightBorder" xml:space="preserve">
+    <value>Right Border</value>
+  </data>
+  <data name="Spreadsheet_BottomBorder" xml:space="preserve">
+    <value>Bottom Border</value>
+  </data>
+  <data name="Spreadsheet_TopBorder" xml:space="preserve">
+    <value>Top Border</value>
+  </data>
+  <data name="Spreadsheet_LeftBorder" xml:space="preserve">
+    <value>Left Border</value>
+  </data>
+  <data name="Spreadsheet_NoBorder" xml:space="preserve">
+    <value>No Border</value>
+  </data>
+  <data name="Spreadsheet_AllBorders" xml:space="preserve">
+    <value>All Borders</value>
+  </data>
+  <data name="Spreadsheet_OutsideBorders" xml:space="preserve">
+    <value>Outside Borders</value>
+  </data>
+  <data name="Spreadsheet_InsideBorders" xml:space="preserve">
+    <value>Inside Borders</value>
+  </data>
+  <data name="Spreadsheet_HorizontalBorders" xml:space="preserve">
+    <value>Horizontal Borders</value>
+  </data>
+  <data name="Spreadsheet_VerticalBorders" xml:space="preserve">
+    <value>Vertical Borders</value>
+  </data>
+  <data name="Spreadsheet_BorderColor" xml:space="preserve">
+    <value>Border Color</value>
+  </data>
+  <data name="Spreadsheet_BorderStyle" xml:space="preserve">
+    <value>Border Style</value>
+  </data>
+  <data name="Spreadsheet_Thin" xml:space="preserve">
+    <value>Thin</value>
+  </data>
+  <data name="Spreadsheet_Medium" xml:space="preserve">
+    <value>Medium</value>
+  </data>
+  <data name="Spreadsheet_Thick" xml:space="preserve">
+    <value>Thick</value>
+  </data>
+  <data name="Spreadsheet_Dotted" xml:space="preserve">
+    <value>Dotted</value>
+  </data>
+  <data name="Spreadsheet_Dashed" xml:space="preserve">
+    <value>Dashed</value>
+  </data>
+  <data name="Spreadsheet_Double" xml:space="preserve">
+    <value>Double</value>
+  </data>
+  <data name="Spreadsheet_ShowGridlines" xml:space="preserve">
+    <value>Show Gridlines</value>
+  </data>
+  <data name="Spreadsheet_HideGridlines" xml:space="preserve">
+    <value>Hide Gridlines</value>
+  </data>
+  <data name="Spreadsheet_MergeCell" xml:space="preserve">
+    <value>Merge Cell</value>
+  </data>
+  <data name="Spreadsheet_MergeCellDialog" xml:space="preserve">
+    <value>Merge cells only keeps the upper-left value and discards other values.</value>
+  </data>
+  <data name="Spreadsheet_MergeCellSize" xml:space="preserve">
+    <value>To do this, All merged cells need to be the same size.</value>
+  </data>
+  <data name="Spreadsheet_MergeCenter" xml:space="preserve">
+    <value>Merge &amp; Centre</value>
+  </data>
+  <data name="Spreadsheet_MergeAcross" xml:space="preserve">
+    <value>Merge Across</value>
+  </data>
+  <data name="Spreadsheet_MergeCells" xml:space="preserve">
+    <value>Merge Cells</value>
+  </data>
+  <data name="Spreadsheet_UnMergeCells" xml:space="preserve">
+    <value>Unmerge Cells</value>
   </data>
   <data name="Grid_EmptyRecord" xml:space="preserve">
     <value>No records to display</value>
@@ -8409,6 +8703,45 @@ Access to system clipboard through script is denied due to browsers security pol
   <data name="Spreadsheet_Sort" xml:space="preserve">
     <value>Sort</value>
   </data>
+  <data name="Spreadsheet_InvalidFileNameMessage" xml:space="preserve">
+   <value>Use a name that doesn't include these characters: \ / : * ? " |</value>
+  </data>
+	<data name="Spreadsheet_EmptyFileName" xml:space="preserve">
+    <value>File name cannot be empty.</value>
+  </data>
+  <data name="Spreadsheet_WebPage" xml:space="preserve">
+    <value>Web Page</value>
+  </data>
+  <data name="Spreadsheet_ThisDocument" xml:space="preserve">
+    <value>This Document</value>
+  </data>
+  <data name="Spreadsheet_DisplayText" xml:space="preserve">
+    <value>Display Text</value>
+  </data>
+  <data name="Spreadsheet_Url" xml:space="preserve">
+    <value>Url</value>
+  </data>
+  <data name="Spreadsheet_Sheet" xml:space="preserve">
+    <value>Sheet</value>
+  </data>
+  <data name="Spreadsheet_ReferenceCell" xml:space="preserve">
+    <value>Cell Reference</value>
+  </data>
+  <data name="Spreadsheet_CircularReference" xml:space="preserve">
+    <value>We found that you typed a formula with a circular reference.</value>
+  </data>
+  <data name="Spreadsheet_FillSeries" xml:space="preserve">
+    <value>Fill Series</value>
+  </data>
+  <data name="Spreadsheet_FillFormattingOnly" xml:space="preserve">
+    <value>Fill Formatting Only</value>
+  </data>
+  <data name="Spreadsheet_FillWithoutFormatting" xml:space="preserve">
+    <value>Fill Without Formatting</value>
+  </data>
+  <data name="Spreadsheet_CopyCells" xml:space="preserve">
+    <value>Copy Cells</value>
+  </data>
   <data name="PivotView_ApplyToGrandTotal" xml:space="preserve">
     <value>Apply to Grand Total</value>
   </data>
@@ -8466,6 +8799,9 @@ Access to system clipboard through script is denied due to browsers security pol
   <data name="RichTextEditor_SlashMenuUnorderedList" xml:space="preserve">
     <value>Unordered List</value>
   </data>
+  <data name="RichTextEditor_SlashMenuCheckList" xml:space="preserve">
+    <value>Checklist</value>
+  </data>
   <data name="RichTextEditor_SlashMenuCodeBlock" xml:space="preserve">
     <value>CodeBlock</value>
   </data>
@@ -8507,6 +8843,9 @@ Access to system clipboard through script is denied due to browsers security pol
   </data>
   <data name="RichTextEditor_SlashMenuUnorderedListDescription" xml:space="preserve">
     <value>Create an unordered list.</value>
+  </data>
+  <data name="RichTextEditor_SlashMenuChecklistDescription" xml:space="preserve">
+    <value>Add checklist.</value>
   </data>
   <data name="RichTextEditor_SlashMenuCodeBlockDescription" xml:space="preserve">
     <value>Create a preformatted code block.</value>
@@ -8634,10 +8973,157 @@ Access to system clipboard through script is denied due to browsers security pol
   <data name="PdfViewer_RedactHeader" xml:space="preserve">
     <value>Apply Redaction</value>
   </data>
+  <data name="RichTextEditor_InsertTableRowTitle" xml:space="preserve">
+    <value>Enter a whole number from 1 to 100</value>
+  </data>
+  <data name="RichTextEditor_InsertTableColumnTitle" xml:space="preserve">
+    <value>Enter a whole number from 1 to 50</value>
+  </data>
+  <data name="RichTextEditor_LineHeight" xml:space="preserve">
+    <value>Line Height</value>
+  </data>
   <data name="AssistView_FileSize_Failure" xml:space="preserve">
-    <value>Upload failed: File size is too large</value>
+    <value>Upload failed: {0} files size is too large</value>
+  </data>
+  <data name="AssistView_Send" xml:space="preserve">
+    <value>Send</value>
+  </data>
+  <data name="AssistView_Attachments" xml:space="preserve">
+    <value>Attach File</value>
+  </data>
+  <data name="AssistView_Clear" xml:space="preserve">
+    <value>Clear</value>
   </data>
   <data name="ChatUI_Forwarded_Message" xml:space="preserve">
     <value>Forwarded</value>
+  </data>
+  <data name="ChatUI_MentionNoRecord" xml:space="preserve">
+    <value>No records found</value>
+  </data>
+  <data name="ChatUI_Send" xml:space="preserve">
+    <value>Send</value>
+  </data>
+  <data name="ChatUI_Attachments" xml:space="preserve">
+    <value>Attach File</value>
+  </data>
+  <data name="ChatUI_Download" xml:space="preserve">
+    <value>Download</value>
+  </data>
+  <data name="ChatUI_Close" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="ChatUI_FileUploadFailure" xml:space="preserve">
+    <value>Upload limit reached: Maximum {0} files allowed. Remove extra files to proceed uploading</value>
+  </data>
+  <data name="ChatUI_FilePreview" xml:space="preserve">
+    <value>No Preview Available</value>
+  </data>
+  <data name="BlockEditor_Paragraph" xml:space="preserve">
+    <value>Write something or ‘/’ for commands.</value>
+  </data>
+  <data name="BlockEditor_Heading1" xml:space="preserve">
+    <value>Heading 1</value>
+  </data>
+  <data name="BlockEditor_Heading2" xml:space="preserve">
+    <value>Heading 2</value>
+  </data>
+  <data name="BlockEditor_Heading3" xml:space="preserve">
+    <value>Heading 3</value>
+  </data>
+  <data name="BlockEditor_Heading4" xml:space="preserve">
+    <value>Heading 4</value>
+  </data>
+  <data name="BlockEditor_CollapsibleParagraph" xml:space="preserve">
+    <value>Collapsible Paragraph</value>
+  </data>
+  <data name="BlockEditor_CollapsibleHeading1" xml:space="preserve">
+    <value>Collapsible Heading 1</value>
+  </data>
+  <data name="BlockEditor_CollapsibleHeading2" xml:space="preserve">
+    <value>Collapsible Heading 2</value>
+  </data>
+  <data name="BlockEditor_CollapsibleHeading3" xml:space="preserve">
+    <value>Collapsible Heading 3</value>
+  </data>
+  <data name="BlockEditor_CollapsibleHeading4" xml:space="preserve">
+    <value>Collapsible Heading 4</value>
+  </data>
+  <data name="BlockEditor_BulletList" xml:space="preserve">
+    <value>Add item</value>
+  </data>
+  <data name="BlockEditor_NumberedList" xml:space="preserve">
+    <value>Add item</value>
+  </data>
+  <data name="BlockEditor_Checklist" xml:space="preserve">
+    <value>Todo</value>
+  </data>
+  <data name="BlockEditor_Quote" xml:space="preserve">
+    <value>Write a quote</value>
+  </data>
+  <data name="BlockEditor_Callout" xml:space="preserve">
+    <value>Write a callout</value>
+  </data>
+  <data name="BlockEditor_AddIconTooltip" xml:space="preserve">
+    <value>Click to insert below</value>
+  </data>
+  <data name="BlockEditor_DragIconTooltipActionMenu" xml:space="preserve">
+    <value>Click to open</value>
+  </data>
+  <data name="BlockEditor_DragIconTooltip" xml:space="preserve">
+    <value>(Hold to drag)</value>
+  </data>
+  <data name="BlockEditor_InsertLink" xml:space="preserve">
+    <value>Insert Link</value>
+  </data>
+  <data name="BlockEditor_LinkText" xml:space="preserve">
+    <value>Text</value>
+  </data>
+  <data name="BlockEditor_LinkTextPlaceholder" xml:space="preserve">
+    <value>Link text</value>
+  </data>
+  <data name="BlockEditor_LinkUrl" xml:space="preserve">
+    <value>URL</value>
+  </data>
+  <data name="BlockEditor_LinkUrlPlaceholder" xml:space="preserve">
+    <value>https://example.com</value>
+  </data>
+  <data name="BlockEditor_LinkTitle" xml:space="preserve">
+    <value>Title</value>
+  </data>
+  <data name="BlockEditor_LinkTitlePlaceholder" xml:space="preserve">
+    <value>Link title</value>
+  </data>
+  <data name="BlockEditor_LinkOpenInNewWindow" xml:space="preserve">
+    <value>Open in new window</value>
+  </data>
+  <data name="BlockEditor_LinkInsert" xml:space="preserve">
+    <value>Insert</value>
+  </data>
+  <data name="BlockEditor_LinkRemove" xml:space="preserve">
+    <value>Remove</value>
+  </data>
+  <data name="BlockEditor_LinkCancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="BlockEditor_CodeCopyTooltip" xml:space="preserve">
+    <value>Copy code</value>
+  </data>
+  <data name="DocumentEditorContainer_CommentsCloseHeader" xml:space="preserve">
+    <value>Unsaved comments</value>
+  </data>
+  <data name="DocumentEditorContainer_CommentsCloseContent" xml:space="preserve">
+    <value>You have comments that haven't been posted yet. If you leave this page, they'll be discarded</value>
+  </data>
+  <data name="DocumentEditorContainer_KeepEditing" xml:space="preserve">
+    <value>Keep editing</value>
+  </data>
+  <data name="DocumentEditorContainer_DiscardComments" xml:space="preserve">
+    <value>Discard comments</value>
+  </data>
+  <data name="DocumentEditor_Resolved" xml:space="preserve">
+    <value>Resolved</value>
+  </data>
+  <data name="DocumentEditor_CommentMark" xml:space="preserve">
+    <value>Click to see this comment</value>
   </data>
 </root>

@@ -1524,6 +1524,9 @@
   <data name="DocumentEditor_UnderlineErrors" xml:space="preserve">
     <value>Destaca els errors</value>
   </data>
+  <data name="DocumentEditor_MoreSuggestions" xml:space="preserve">
+    <value>Més suggeriments</value>
+  </data>
   <data name="DocumentEditor_Ignore" xml:space="preserve">
     <value>Ignora</value>
   </data>
@@ -3676,16 +3679,16 @@ S'ha denegat l'accés al porta-retalls del sistema mitjançant script a causa de
     <value>Arial</value>
   </data>
   <data name="RichTextEditor_FontNameGeorgia" xml:space="preserve">
-    <value>Georgia</value>
+    <value>Geòrgia</value>
   </data>
   <data name="RichTextEditor_FontNameImpact" xml:space="preserve">
-    <value>Impact</value>
+    <value>Impacte</value>
   </data>
   <data name="RichTextEditor_FontNameTahoma" xml:space="preserve">
     <value>Tahoma</value>
   </data>
   <data name="RichTextEditor_FontNameTimesNewRoman" xml:space="preserve">
-    <value>Times New Roman</value>
+    <value>temps nova romana</value>
   </data>
   <data name="RichTextEditor_FontNameVerdana" xml:space="preserve">
     <value>Verdana</value>
@@ -3956,6 +3959,18 @@ S'ha denegat l'accés al porta-retalls del sistema mitjançant script a causa de
   </data>
   <data name="RichTextEditor_TableRemove" xml:space="preserve">
     <value>Smazat tabulku</value>
+  </data>
+  <data name="RichTextEditor_TableCell" xml:space="preserve">
+    <value>Cel·les de la taula</value>
+  </data>
+  <data name="RichTextEditor_TableCellMerge" xml:space="preserve">
+    <value>Fusionar cel·les</value>
+  </data>
+  <data name="RichTextEditor_TableCellHorizontalSplit" xml:space="preserve">
+    <value>Divisió horitzontal</value>
+  </data>
+  <data name="RichTextEditor_TableCellVerticalSplit" xml:space="preserve">
+    <value>Divisió vertical</value>
   </data>
   <data name="RichTextEditor_TableCellBackground" xml:space="preserve">
     <value>Fons de la cel·la de la taula</value>
@@ -4996,13 +5011,112 @@ S'ha denegat l'accés al porta-retalls del sistema mitjançant script a causa de
     <value>Error del servei d'IA</value>
   </data>
   <data name="PdfViewer_CredentialErrorContent" xml:space="preserve">
-    <value>Les credencials no s’han proporcionat, són incorrectes o no són vàlides. Comprova-les i torna-ho a intentar.</value>
+    <value>Les credencials no s'han proporcionat, són incorrectes o no són vàlides. Si us plau, introduïu les credencials correctes i torneu-ho a intentar.</value>
   </data>
   <data name="PdfViewer_ConnectionLostErrorContent" xml:space="preserve">
     <value>S’ha perdut la connexió amb el servei d'IA. Comprova la teva connexió a la xarxa i torna-ho a intentar.</value>
   </data>
+  <data name="PdfViewer_UnSupportedDialogContent" xml:space="preserve">
+    <value>Aquest fitxer no admet funcions d'IA generativa perquè està en blanc o no conté prou text. Si us plau, proveu amb un altre fitxer.</value>
+  </data>
+  <data name="SmartPdfViewer_TimeOutErrorHeader" xml:space="preserve">
+    <value>Temps d'espera excedit</value>
+  </data>
+  <data name="SmartPdfViewer_TimeOutErrorContent" xml:space="preserve">
+    <value>La teva sol·licitud de cerca ha trigat més del previst i ha superat el temps màxim permès.</value>
+  </data>
+  <data name="SmartPdfViewer_DisClaimerContent" xml:space="preserve">
+    <value>Les respostes generades per la intel·ligència artificial poden ser inexactes o enganyoses. Assegura’t de verificar dues vegades les respostes i les fonts.</value>
+  </data>
+  <data name="SmartPdfViewer_RedactionToolTip" xml:space="preserve">
+    <value>Redacció Intel·ligent</value>
+  </data>
+  <data name="SmartPdfViewer_RedactHeader" xml:space="preserve">
+    <value>Selecciona el Patró</value>
+  </data>
+  <data name="SmartPdfViewer_CancelRedact" xml:space="preserve">
+    <value>Cancel·la</value>
+  </data>
+  <data name="SmartPdfViewer_ApplyRedact" xml:space="preserve">
+    <value>Redactar</value>
+  </data>
+  <data name="SmartPdfViewer_ScanRedact" xml:space="preserve">
+    <value>escanejar</value>
+  </data>
+  <data name="SmartPdfViewer_SmartFillToolTip" xml:space="preserve">
+    <value>Ompliment de formulari intel·ligent</value>
+  </data>
+  <data name="SmartPdfViewer_SmartFillText" xml:space="preserve">
+    <value>Omplir automàticament</value>
+  </data>
+  <data name="SmartPdfViewer_AIAssistanceToolTip" xml:space="preserve">
+    <value>Assistència amb IA</value>
+  </data>
+  <data name="SmartPdfViewer_RedactOptionsHeader" xml:space="preserve">
+    <value>Selecciona les dades a ocultar</value>
+  </data>
+  <data name="SmartPdfViewer_NoInformationErrorContent" xml:space="preserve">
+    <value>No s'ha trobat informació sensible en el document.</value>
+  </data>
+  <data name="SmartPdfViewer_NoInformationErrorContentHeader" xml:space="preserve">
+    <value>No s'ha trobat informació sensible</value>
+  </data>
+  <data name="SmartPdfViewer_RedactDisclaimer" xml:space="preserve">
+    <value>La informació detectada per la IA pot no ser precisa. Verifiqueu els resultats abans de fer-los servir.</value>
+  </data>
   <data name="PdfViewer_Of" xml:space="preserve">
     <value>ueno</value>
+  </data>
+  <data name="PdfViewer_OrganizePages" xml:space="preserve">
+    <value>Organitza les pàgines</value>
+  </data>
+  <data name="PdfViewer_Pages" xml:space="preserve">
+    <value>Pàgines</value>
+  </data>
+  <data name="PdfViewer_RotateLeft" xml:space="preserve">
+    <value>Gira a l'esquerra</value>
+  </data>
+  <data name="PdfViewer_RotateRight" xml:space="preserve">
+    <value>Gira a la dreta</value>
+  </data>
+  <data name="PdfViewer_DuplicatePages" xml:space="preserve">
+    <value>Duplica les pàgines</value>
+  </data>
+  <data name="PdfViewer_DeletePages" xml:space="preserve">
+    <value>Suprimeix les pàgines</value>
+  </data>
+  <data name="PdfViewer_PageZoom" xml:space="preserve">
+    <value>Zoom de pàgina</value>
+  </data>
+  <data name="PdfViewer_SelectAll" xml:space="preserve">
+    <value>Selecciona-ho tot</value>
+  </data>
+  <data name="PdfViewer_ImportDocument" xml:space="preserve">
+    <value>Importa el document</value>
+  </data>
+  <data name="PdfViewer_ExtractDocument" xml:space="preserve">
+    <value>Extreu el document</value>
+  </data>
+  <data name="PdfViewer_Total" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="PdfViewer_SaveAs" xml:space="preserve">
+    <value>Desa com</value>
+  </data>
+  <data name="PdfViewer_InsertLeft" xml:space="preserve">
+    <value>Insereix a l'esquerra</value>
+  </data>
+  <data name="PdfViewer_InsertRight" xml:space="preserve">
+    <value>Insereix a la dreta</value>
+  </data>
+  <data name="PdfViewer_DuplicatePage" xml:space="preserve">
+    <value>Duplica la pàgina</value>
+  </data>
+  <data name="PdfViewer_DeletePage" xml:space="preserve">
+    <value>Suprimeix la pàgina</value>
+  </data>
+  <data name="PdfViewer_AllPagesDelete" xml:space="preserve">
+    <value>No es poden suprimir totes les pàgines, ja que ha de quedar almenys una pàgina al document.</value>
   </data>
   <data name="FileManager_NewFolder" xml:space="preserve">
     <value>Carpeta nova</value>
@@ -5598,11 +5712,23 @@ S'ha denegat l'accés al porta-retalls del sistema mitjançant script a causa de
   <data name="Gantt_SplitTask" xml:space="preserve">
     <value>Tasca dividida</value>
   </data>
+  <data name="Gantt_WbsCode" xml:space="preserve">
+    <value>Codi de l'estructura de desglossament del treball</value>
+  </data>
+  <data name="Gantt_WbsPredecessor" xml:space="preserve">
+    <value>Predecessor de l'estructura de desglossament del treball</value>
+  </data>
   <data name="Gantt_MergeTask" xml:space="preserve">
     <value>Combina la tasca</value>
   </data>
   <data name="Gantt_UnassignedTasks" xml:space="preserve">
     <value>Compiti non assegnati</value>
+  </data>
+  <data name="Gantt_Undo" xml:space="preserve">
+    <value>Desfer</value>
+  </data>
+  <data name="Gantt_Redo" xml:space="preserve">
+    <value>Refer</value>
   </data>
   <data name="Grid_EmptyRecord" xml:space="preserve">
     <value>No hi ha registres per mostrar</value>
@@ -6393,6 +6519,48 @@ S'ha denegat l'accés al porta-retalls del sistema mitjançant script a causa de
   <data name="RichTextEditor_Img_AltText_Unsupported" xml:space="preserve">
     <value>Format de fitxer no compatible</value>
   </data>
+    <data name="RichTextEditor_ImportDeviceUploadMessage" xml:space="preserve">
+    <value>Fes clic aquí per pujar</value>
+  </data>
+  <data name="RichTextEditor_ImportUploadMessage" xml:space="preserve">
+    <value>Arrossegueu o navegueu un document de Word</value>
+  </data>
+  <data name="RichTextEditor_ImportHeader" xml:space="preserve">
+    <value>Importa Word</value>
+  </data>
+  <data name="RichTextEditor_DialogImport" xml:space="preserve">
+    <value>Insereix</value>
+  </data>
+  <data name="RichTextEditor_VideoHeader" xml:space="preserve">
+    <value>Insereix vídeo</value>
+  </data>
+  <data name="RichTextEditor_EditVideoHeader" xml:space="preserve">
+    <value>Edita vídeo</value>
+  </data>
+  <data name="RichTextEditor_AudioHeader" xml:space="preserve">
+    <value>Insereix àudio</value>
+  </data>
+  <data name="RichTextEditor_EditAudioHeader" xml:space="preserve">
+    <value>Edita àudio</value>
+  </data>
+  <data name="RichTextEditor_Import_From_Word" xml:space="preserve">
+    <value>Importar do Word</value>
+  </data>
+  <data name="RichTextEditor_Export_To_Word" xml:space="preserve">
+    <value>Exportar para Word</value>
+  </data>
+  <data name="RichTextEditor_Export_To_PDF" xml:space="preserve">
+    <value>Exportar para PDF</value>
+  </data>
+  <data name="RichTextEditor_Audio" xml:space="preserve">
+    <value>Inserir Áudio</value>
+  </data>
+  <data name="RichTextEditor_Video" xml:space="preserve">
+    <value>Inserir Video</value>
+  </data>
+  <data name="RichTextEditor_Default" xml:space="preserve">
+    <value>Per defecte</value>
+  </data>
   <data name="Message_Close" xml:space="preserve">
     <value>Tancar</value>
   </data>
@@ -6556,83 +6724,83 @@ S'ha denegat l'accés al porta-retalls del sistema mitjançant script a causa de
     <value>Codi incrustat</value>
   </data>
   <data name="DocumentEditorContainer_TabStopPosition" xml:space="preserve">
-<value>Posició de parada de pestanya</value>
-</data>
-  <data name="DocumentEditorContainer_DefaultTabStops" xml:space="preserve">
-<value>Tabulacions per defecte</value>
-</data>
-  <data name="DocumentEditorContainer_TabStopsCleared" xml:space="preserve">
-<value>Les tabulacions s'han d'esborrar</value>
-</data>
-  <data name="DocumentEditorContainer_Tabs" xml:space="preserve">
-<value>Pestanyes</value>
-</data>
-  <data name="DocumentEditor_Set" xml:space="preserve">
-<value>Conjunt</value>
-</data>
-  <data name="DocumentEditor_Clear" xml:space="preserve">
-<value>Clar</value>
-</data>
-  <data name="DocumentEditor_ClearAll" xml:space="preserve">
-<value>Esborra-ho tot</value>
-</data>
-  <data name="DocumentEditor_Decimal" xml:space="preserve">
-<value>Decimal</value>
-</data>
-  <data name="DocumentEditor_Bar" xml:space="preserve">
-<value>Bar</value>
-</data>
-  <data name="DocumentEditorContainer_Alignment" xml:space="preserve">
-<value>Alineació</value>
-</data>
-  <data name="DocumentEditorContainer_Leader" xml:space="preserve">
-<value>Líder</value>
-</data>
-  <data name="DocumentEditorContainer_All" xml:space="preserve">
-<value>Tots</value>
-</data>
-  <data name="DocumentEditor_BottomMargin" xml:space="preserve">
-<value>Marge inferior</value>
-</data>
-  <data name="DocumentEditor_FirstLineIndent" xml:space="preserve">
-<value>Sagnat de la primera línia</value>
-</data>
-  <data name="DocumentEditor_HangingIndent" xml:space="preserve">
-<value>Sagnat penjant</value>
-</data>
-  <data name="DocumentEditor_LeftIndent" xml:space="preserve">
-<value>Sagnat esquerra</value>
-</data>
-  <data name="DocumentEditor_LeftMargin" xml:space="preserve">
-<value>Marge esquerre</value>
-</data>
+  <value>Posició de parada de pestanya</value>
+  </data>
+    <data name="DocumentEditorContainer_DefaultTabStops" xml:space="preserve">
+  <value>Tabulacions per defecte</value>
+  </data>
+    <data name="DocumentEditorContainer_TabStopsCleared" xml:space="preserve">
+  <value>Les tabulacions s'han d'esborrar</value>
+  </data>
+    <data name="DocumentEditorContainer_Tabs" xml:space="preserve">
+  <value>Pestanyes</value>
+  </data>
+    <data name="DocumentEditor_Set" xml:space="preserve">
+  <value>Conjunt</value>
+  </data>
+    <data name="DocumentEditor_Clear" xml:space="preserve">
+  <value>Clar</value>
+  </data>
+    <data name="DocumentEditor_ClearAll" xml:space="preserve">
+  <value>Esborra-ho tot</value>
+  </data>
+    <data name="DocumentEditor_Decimal" xml:space="preserve">
+  <value>Decimal</value>
+  </data>
+    <data name="DocumentEditor_Bar" xml:space="preserve">
+  <value>Bar</value>
+  </data>
+    <data name="DocumentEditorContainer_Alignment" xml:space="preserve">
+  <value>Alineació</value>
+  </data>
+    <data name="DocumentEditorContainer_Leader" xml:space="preserve">
+  <value>Líder</value>
+  </data>
+    <data name="DocumentEditorContainer_All" xml:space="preserve">
+  <value>Tots</value>
+  </data>
+    <data name="DocumentEditor_BottomMargin" xml:space="preserve">
+  <value>Marge inferior</value>
+  </data>
+    <data name="DocumentEditor_FirstLineIndent" xml:space="preserve">
+  <value>Sagnat de la primera línia</value>
+  </data>
+    <data name="DocumentEditor_HangingIndent" xml:space="preserve">
+  <value>Sagnat penjant</value>
+  </data>
+    <data name="DocumentEditor_LeftIndent" xml:space="preserve">
+  <value>Sagnat esquerra</value>
+  </data>
+    <data name="DocumentEditor_LeftMargin" xml:space="preserve">
+  <value>Marge esquerre</value>
+  </data>
   <data name="DocumentEditor_MoveTableColumn" xml:space="preserve">
-<value>Mou la columna de la taula</value>
-</data>
+    <value>Mou la columna de la taula</value>
+  </data>
   <data name="DocumentEditor_RightIndent" xml:space="preserve">
-<value>Sagnat dret</value>
-</data>
+    <value>Sagnat dret</value>
+  </data>
   <data name="DocumentEditor_RightMargin" xml:space="preserve">
-<value>Marge dret</value>
-</data>
+    <value>Marge dret</value>
+  </data>
   <data name="DocumentEditor_TopMargin" xml:space="preserve">
-<value>Marge superior</value>
-</data>
+    <value>Marge superior</value>
+  </data>
   <data name="DocumentEditor_LeftTab" xml:space="preserve">
-<value>Pestanya esquerra</value>
-</data>
+    <value>Pestanya esquerra</value>
+  </data>
   <data name="DocumentEditor_CenterTab" xml:space="preserve">
-<value>Pestanya central</value>
-</data>
+    <value>Pestanya central</value>
+  </data>
   <data name="DocumentEditor_RightTab" xml:space="preserve">
-<value>Pestanya dreta</value>
-</data>
+    <value>Pestanya dreta</value>
+  </data>
   <data name="DocumentEditor_DecimalTab" xml:space="preserve">
-<value>Tabulació decimal</value>
-</data>
+    <value>Tabulació decimal</value>
+  </data>
   <data name="DocumentEditor_BarTab" xml:space="preserve">
-<value>Pestanya de la barra</value>
-</data>
+    <value>Pestanya de la barra</value>
+  </data>
   <data name="ImageEditor_OkBtnTooltip" xml:space="preserve">
     <value>Aplicar</value>
   </data>
@@ -8049,13 +8217,13 @@ S'ha denegat l'accés al porta-retalls del sistema mitjançant script a causa de
   <data name="Spreadsheet_LastMonth" xml:space="preserve">
     <value>Mes passat</value>
   </data>
-  <data name="Spreadsheet_NextQuater" xml:space="preserve">
+  <data name="Spreadsheet_NextQuarter" xml:space="preserve">
     <value>Trimestre vinent</value>
   </data>
-  <data name="Spreadsheet_ThisQuater" xml:space="preserve">
+  <data name="Spreadsheet_ThisQuarter" xml:space="preserve">
     <value>Aquest trimestre</value>
   </data>
-  <data name="Spreadsheet_LastQuater" xml:space="preserve">
+  <data name="Spreadsheet_LastQuarter" xml:space="preserve">
     <value>Trimestre passat</value>
   </data>
   <data name="Spreadsheet_NextYear" xml:space="preserve">
@@ -8247,96 +8415,234 @@ S'ha denegat l'accés al porta-retalls del sistema mitjançant script a causa de
   <data name="Spreadsheet_FontSize" xml:space="preserve">
     <value>Mida de la font</value>
   </data>
+  <data name="Spreadsheet_Text" xml:space="preserve">
+  <value>Text</value>
+</data>
+<data name="Spreadsheet_Time" xml:space="preserve">
+  <value>Temps</value>
+</data>
+<data name="Spreadsheet_Font" xml:space="preserve">
+  <value>Font</value>
+</data>
+  <data name="Spreadsheet_DataLimitExceed" xml:space="preserve">
+    <value>Les dades del fitxer són massa grans i triguen més a processar-se, voleu continuar?</value>
+  </data>
+  <data name="Spreadsheet_FileLimitExceed" xml:space="preserve">
+    <value>La mida del fitxer és massa gran i triga més a processar-se, voleu continuar?</value>
+  </data>
+  <data name="Spreadsheet_PasswordPrompt" xml:space="preserve">
+    <value>està protegit</value>
+  </data>
+  <data name="Spreadsheet_UnsupportedFile" xml:space="preserve">
+    <value>Fitxer no compatible</value>
+  </data>
+  <data name="Spreadsheet_View" xml:space="preserve">
+    <value>Vista</value>
+  </data>
+  <data name="Spreadsheet_Borders" xml:space="preserve">
+    <value>Vores</value>
+  </data>
+  <data name="Spreadsheet_RightBorder" xml:space="preserve">
+    <value>Vora dreta</value>
+  </data>
+  <data name="Spreadsheet_BottomBorder" xml:space="preserve">
+    <value>Vora inferior</value>
+  </data>
+  <data name="Spreadsheet_TopBorder" xml:space="preserve">
+    <value>Vora superior</value>
+  </data>
+  <data name="Spreadsheet_LeftBorder" xml:space="preserve">
+    <value>Vora esquerra</value>
+  </data>
+  <data name="Spreadsheet_NoBorder" xml:space="preserve">
+    <value>Sense vores</value>
+  </data>
+  <data name="Spreadsheet_AllBorders" xml:space="preserve">
+    <value>Totes les vores</value>
+  </data>
+  <data name="Spreadsheet_OutsideBorders" xml:space="preserve">
+    <value>Vores exteriors</value>
+  </data>
+  <data name="Spreadsheet_InsideBorders" xml:space="preserve">
+    <value>Vores interiors</value>
+  </data>
+  <data name="Spreadsheet_HorizontalBorders" xml:space="preserve">
+    <value>Vores horitzontals</value>
+  </data>
+  <data name="Spreadsheet_VerticalBorders" xml:space="preserve">
+    <value>Vores verticals</value>
+  </data>
+  <data name="Spreadsheet_BorderColor" xml:space="preserve">
+    <value>Color de la vora</value>
+  </data>
+  <data name="Spreadsheet_BorderStyle" xml:space="preserve">
+    <value>Estil de la vora</value>
+  </data>
+  <data name="Spreadsheet_Thin" xml:space="preserve">
+    <value>Fina</value>
+  </data>
+  <data name="Spreadsheet_Medium" xml:space="preserve">
+    <value>Mitjana</value>
+  </data>
+  <data name="Spreadsheet_Thick" xml:space="preserve">
+    <value>Grossa</value>
+  </data>
+  <data name="Spreadsheet_Dotted" xml:space="preserve">
+    <value>Puntejada</value>
+  </data>
+  <data name="Spreadsheet_Dashed" xml:space="preserve">
+    <value>Discontinua</value>
+  </data>
+  <data name="Spreadsheet_Double" xml:space="preserve">
+    <value>Doble</value>
+  </data>
+  <data name="Spreadsheet_ShowGridlines" xml:space="preserve">
+    <value>Mostra línies de graella</value>
+  </data>
+  <data name="Spreadsheet_HideGridlines" xml:space="preserve">
+    <value>Amaga línies de graella</value>
+  </data>
+  <data name="Spreadsheet_WebPage" xml:space="preserve">
+    <value>Pàgina web</value>
+  </data>
+  <data name="Spreadsheet_ThisDocument" xml:space="preserve">
+    <value>Aquest document</value>
+  </data>
+  <data name="Spreadsheet_DisplayText" xml:space="preserve">
+    <value>Text de visualització</value>
+  </data>
+  <data name="Spreadsheet_Url" xml:space="preserve">
+    <value>URL</value>
+  </data>
+  <data name="Spreadsheet_Sheet" xml:space="preserve">
+    <value>Full</value>
+  </data>
+  <data name="Spreadsheet_ReferenceCell" xml:space="preserve">
+    <value>Referència de cel·la</value>
+  </data>
+  <data name="Spreadsheet_FillSeries" xml:space="preserve">
+    <value>Emplenar sèrie</value>
+  </data>
+  <data name="Spreadsheet_FillFormattingOnly" xml:space="preserve">
+    <value>Emplenar només el format</value>
+  </data>
+  <data name="Spreadsheet_FillWithoutFormatting" xml:space="preserve">
+    <value>Emplenar sense format</value>
+  </data>
+  <data name="Spreadsheet_CopyCells" xml:space="preserve">
+    <value>Copiar cel·les</value>
+  </data>
+  <data name="Spreadsheet_MergeCell" xml:space="preserve">
+    <value>Fusionar cel·la</value>
+  </data>
+  <data name="Spreadsheet_MergeCellDialog" xml:space="preserve">
+    <value>Fusionar celles només manté el valor superior esquerre i descarta altres valors.</value>
+  </data>
+  <data name="Spreadsheet_MergeCellSize" xml:space="preserve">
+    <value>Per fer-ho, totes les celles combinades han de tenir la mateixa mida.</value>
+  </data>
+  <data name="Spreadsheet_MergeCenter" xml:space="preserve">
+    <value>Fusionar i centrar</value>
+  </data>
+  <data name="Spreadsheet_MergeAcross" xml:space="preserve">
+    <value>Fusionar a través</value>
+  </data>
+  <data name="Spreadsheet_MergeCells" xml:space="preserve">
+    <value>Fusionar celles</value>
+  </data>
+  <data name="Spreadsheet_UnMergeCells" xml:space="preserve">
+    <value>Desfusionar celles</value>
+  </data>
   <data name="RichTextEditor_InlineCode" xml:space="preserve">
     <value>Codi en línia</value>
   </data>
   <data name="RichTextEditor_SlashMenuHeading1" xml:space="preserve">
     <value>Títol 1</value>
-</data>
-<data name="RichTextEditor_SlashMenuHeading2" xml:space="preserve">
-    <value>Títol 2</value>
-</data>
-<data name="RichTextEditor_SlashMenuHeading3" xml:space="preserve">
-    <value>Títol 3</value>
-</data>
-<data name="RichTextEditor_SlashMenuHeading4" xml:space="preserve">
-    <value>Títol 4</value>
-</data>
-<data name="RichTextEditor_SlashMenuParagraph" xml:space="preserve">
-    <value>Paràgraf</value>
-</data>
-<data name="RichTextEditor_SlashMenuBlockQuote" xml:space="preserve">
-    <value>Bloc de cita</value>
-</data>
-<data name="RichTextEditor_SlashMenuOrderedList" xml:space="preserve">
-    <value>Llista ordenada</value>
-</data>
-<data name="RichTextEditor_SlashMenuUnorderedList" xml:space="preserve">
-    <value>Llista desordenada</value>
-</data>
-<data name="RichTextEditor_SlashMenuCodeBlock" xml:space="preserve">
-    <value>Bloc de codi</value>
-</data>
-<data name="RichTextEditor_SlashMenuTable" xml:space="preserve">
-    <value>Taula</value>
-</data>
-<data name="RichTextEditor_SlashMenuImage" xml:space="preserve">
-    <value>Imatge</value>
-</data>
-<data name="RichTextEditor_SlashMenuAudio" xml:space="preserve">
-    <value>Àudio</value>
-</data>
-<data name="RichTextEditor_SlashMenuVideo" xml:space="preserve">
-    <value>Vídeo</value>
-</data>
-<data name="RichTextEditor_SlashMenuLink" xml:space="preserve">
-    <value>Enllaç</value>
-</data>
-<data name="RichTextEditor_SlashMenuHeading1Description" xml:space="preserve">
-    <value>Utilitzeu això per a un títol o títol de nivell superior.</value>
-</data>
-<data name="RichTextEditor_SlashMenuHeading2Description" xml:space="preserve">
-    <value>Utilitzeu això per a seccions clau.</value>
-</data>
-<data name="RichTextEditor_SlashMenuHeading3Description" xml:space="preserve">
-    <value>Utilitzeu això per a subseccions i títols de grups.</value>
-</data>
-<data name="RichTextEditor_SlashMenuHeading4Description" xml:space="preserve">
-    <value>Utilitzeu això per als punts clau dels subtemes.</value>
-</data>
-<data name="RichTextEditor_SlashMenuParagraphDescription" xml:space="preserve">
-    <value>Escriptura amb paràgrafs.</value>
-</data>
-<data name="RichTextEditor_SlashMenuBlockQuoteDescription" xml:space="preserve">
-    <value>Creeu una cita o cita.</value>
-</data>
-<data name="RichTextEditor_SlashMenuOrderedListDescription" xml:space="preserve">
-    <value>Creeu una llista ordenada.</value>
-</data>
-<data name="RichTextEditor_SlashMenuUnorderedListDescription" xml:space="preserve">
-    <value>Creeu una llista desordenada.</value>
-</data>
-<data name="RichTextEditor_SlashMenuCodeBlockDescription" xml:space="preserve">
-    <value>Creeu un bloc de codi pre-formatat.</value>
-</data>
-<data name="RichTextEditor_SlashMenuTableDescription" xml:space="preserve">
-    <value>Insereix una taula.</value>
-</data>
-<data name="RichTextEditor_SlashMenuImageDescription" xml:space="preserve">
-    <value>Insereix una imatge.</value>
-</data>
-<data name="RichTextEditor_SlashMenuAudioDescription" xml:space="preserve">
-    <value>Insereix un àudio.</value>
-</data>
-<data name="RichTextEditor_SlashMenuVideoDescription" xml:space="preserve">
-    <value>Insereix un vídeo.</value>
-</data>
-<data name="RichTextEditor_SlashMenuLinkDescription" xml:space="preserve">
-    <value>Insereix un enllaç.</value>
-</data>
-<data name="RichTextEditor_HorizontalLine" xml:space="preserve">
-    <value>Línia Horitzontal</value>
-</data>
+  </data>
+  <data name="RichTextEditor_SlashMenuHeading2" xml:space="preserve">
+      <value>Títol 2</value>
+  </data>
+  <data name="RichTextEditor_SlashMenuHeading3" xml:space="preserve">
+      <value>Títol 3</value>
+  </data>
+  <data name="RichTextEditor_SlashMenuHeading4" xml:space="preserve">
+      <value>Títol 4</value>
+  </data>
+  <data name="RichTextEditor_SlashMenuParagraph" xml:space="preserve">
+      <value>Paràgraf</value>
+  </data>
+  <data name="RichTextEditor_SlashMenuBlockQuote" xml:space="preserve">
+      <value>Bloc de cita</value>
+  </data>
+  <data name="RichTextEditor_SlashMenuOrderedList" xml:space="preserve">
+      <value>Llista ordenada</value>
+  </data>
+  <data name="RichTextEditor_SlashMenuUnorderedList" xml:space="preserve">
+      <value>Llista desordenada</value>
+  </data>
+  <data name="RichTextEditor_SlashMenuCodeBlock" xml:space="preserve">
+      <value>Bloc de codi</value>
+  </data>
+  <data name="RichTextEditor_SlashMenuTable" xml:space="preserve">
+      <value>Taula</value>
+  </data>
+  <data name="RichTextEditor_SlashMenuImage" xml:space="preserve">
+      <value>Imatge</value>
+  </data>
+  <data name="RichTextEditor_SlashMenuAudio" xml:space="preserve">
+      <value>Àudio</value>
+  </data>
+  <data name="RichTextEditor_SlashMenuVideo" xml:space="preserve">
+      <value>Vídeo</value>
+  </data>
+  <data name="RichTextEditor_SlashMenuLink" xml:space="preserve">
+      <value>Enllaç</value>
+  </data>
+  <data name="RichTextEditor_SlashMenuHeading1Description" xml:space="preserve">
+      <value>Utilitzeu això per a un títol o títol de nivell superior.</value>
+  </data>
+  <data name="RichTextEditor_SlashMenuHeading2Description" xml:space="preserve">
+      <value>Utilitzeu això per a seccions clau.</value>
+  </data>
+  <data name="RichTextEditor_SlashMenuHeading3Description" xml:space="preserve">
+      <value>Utilitzeu això per a subseccions i títols de grups.</value>
+  </data>
+  <data name="RichTextEditor_SlashMenuHeading4Description" xml:space="preserve">
+      <value>Utilitzeu això per als punts clau dels subtemes.</value>
+  </data>
+  <data name="RichTextEditor_SlashMenuParagraphDescription" xml:space="preserve">
+      <value>Escriptura amb paràgrafs.</value>
+  </data>
+  <data name="RichTextEditor_SlashMenuBlockQuoteDescription" xml:space="preserve">
+      <value>Creeu una cita o cita.</value>
+  </data>
+  <data name="RichTextEditor_SlashMenuOrderedListDescription" xml:space="preserve">
+      <value>Creeu una llista ordenada.</value>
+  </data>
+  <data name="RichTextEditor_SlashMenuUnorderedListDescription" xml:space="preserve">
+      <value>Creeu una llista desordenada.</value>
+  </data>
+  <data name="RichTextEditor_SlashMenuCodeBlockDescription" xml:space="preserve">
+      <value>Creeu un bloc de codi pre-formatat.</value>
+  </data>
+  <data name="RichTextEditor_SlashMenuTableDescription" xml:space="preserve">
+      <value>Insereix una taula.</value>
+  </data>
+  <data name="RichTextEditor_SlashMenuImageDescription" xml:space="preserve">
+      <value>Insereix una imatge.</value>
+  </data>
+  <data name="RichTextEditor_SlashMenuAudioDescription" xml:space="preserve">
+      <value>Insereix un àudio.</value>
+  </data>
+  <data name="RichTextEditor_SlashMenuVideoDescription" xml:space="preserve">
+      <value>Insereix un vídeo.</value>
+  </data>
+  <data name="RichTextEditor_SlashMenuLinkDescription" xml:space="preserve">
+      <value>Insereix un enllaç.</value>
+  </data>
+  <data name="RichTextEditor_HorizontalLine" xml:space="preserve">
+      <value>Línia Horitzontal</value>
+  </data>
   <data name="RichTextEditor_CodeBlock" xml:space="preserve">
     <value>Insérer un bloc de code</value>
   </data>
@@ -8445,10 +8751,325 @@ S'ha denegat l'accés al porta-retalls del sistema mitjançant script a causa de
   <data name="Spreadsheet_ExpandRibbonTab" xml:space="preserve">
     <value>Expandiu la barra d’eines</value>
   </data>
+  <data name="Spreadsheet_InvalidFileNameMessage" xml:space="preserve">
+    <value>Utilitzeu un nom que no inclogui aquests caràcters: \ / : * ? " |</value>
+  </data>
+  <data name="Spreadsheet_EmptyFileName" xml:space="preserve">
+   <value>El nom del fitxer no pot estar buit.</value>
+  </data>
+  <data name="Spreadsheet_Algerian" xml:space="preserve">
+    <value>Algerià</value>
+  </data>
+    <data name="Spreadsheet_AlignBottom" xml:space="preserve">
+    <value>Alinea a la part inferior</value>
+  </data>
+  <data name="Spreadsheet_AlignCenter" xml:space="preserve">
+    <value>AlinearCentre</value>
+  </data>
+    <data name="Spreadsheet_AlignLeft" xml:space="preserve">
+    <value>Alinea a l'esquerra</value>
+  </data>
+   <data name="Spreadsheet_AlignRight" xml:space="preserve">
+    <value>Alinea a la dreta</value>
+  </data>
+  <data name="Spreadsheet_AlignTop" xml:space="preserve">
+    <value>Alinea a la part superior</value>
+  </data>
+  <data name="Spreadsheet_AlignMiddle" xml:space="preserve">
+    <value>Alinea al mig</value>
+  </data>
+    <data name="Spreadsheet_Arial" xml:space="preserve">
+    <value>Arial</value>
+  </data>
+    <data name="Spreadsheet_Ascending" xml:space="preserve">
+    <value>Ascendent</value>
+  </data>
+  <data name="Spreadsheet_Descending" xml:space="preserve">
+    <value>Descendent</value>
+  </data>
+  <data name="Spreadsheet_Calibri" xml:space="preserve">
+    <value>Calibres</value>
+  </data>
+  <data name="Spreadsheet_Cambria" xml:space="preserve">
+    <value>Càmbria</value>
+  </data>
+  <data name="Spreadsheet_CambriaMath" xml:space="preserve">
+    <value>CambriaMath</value>
+  </data>
+  <data name="Spreadsheet_CourierNew" xml:space="preserve">
+    <value>MissatgeriaNou</value>
+  </data>
+  <data name="Spreadsheet_Candara" xml:space="preserve">
+    <value>Candara</value>
+  </data>
+  <data name="Spreadsheet_ChangeCase" xml:space="preserve">
+    <value>Canvia de cas</value>
+  </data>
+  <data name="Spreadsheet_ChooseTime" xml:space="preserve">
+    <value>Tria l'hora</value>
+  </data>
+  <data name="Spreadsheet_Hide" xml:space="preserve">
+    <value>Amaga</value>
+  </data>
+  <data name="Spreadsheet_OkButton" xml:space="preserve">
+    <value>D'acord</value>
+  </data>
+  <data name="Spreadsheet_Number" xml:space="preserve">
+    <value>Número</value>
+  </data>
+  <data name="Spreadsheet_Georgia" xml:space="preserve">
+    <value>Geòrgia</value>
+  </data>
+  <data name="Spreadsheet_Value" xml:space="preserve">
+    <value>Valor</value>
+  </data>
+  <data name="Spreadsheet_Clipboard" xml:space="preserve">
+    <value>Porta-retalls</value>
+  </data>
+    <data name="Spreadsheet_Currency" xml:space="preserve">
+    <value>moneda</value>
+  </data>
+    <data name="Spreadsheet_Custom" xml:space="preserve">
+    <value>Personalitzat</value>
+  </data>
+  <data name="Spreadsheet_NumberFormat" xml:space="preserve">
+    <value>Format de número</value>
+  </data>
+    <data name="Spreadsheet_CustomSort" xml:space="preserve">
+    <value>Ordenació personalitzada</value>
+  </data>
+    <data name="Spreadsheet_DataOperations" xml:space="preserve">
+    <value>Operacions de dades</value>
+  </data>
+    <data name="Spreadsheet_DownloadPDF" xml:space="preserve">
+    <value>Descarrega el PDF</value>
+  </data>
+    <data name="Spreadsheet_Fraction" xml:space="preserve">
+    <value>Fracció</value>
+  </data>
+  <data name="Spreadsheet_General" xml:space="preserve">
+    <value>General</value>
+  </data>
+    <data name="Spreadsheet_Impact" xml:space="preserve">
+    <value>Impacte</value>
+  </data>
+  <data name="Spreadsheet_Justify" xml:space="preserve">
+    <value>Justificar</value>
+  </data>
+  <data name="Spreadsheet_InsertRowBelow" xml:space="preserve">
+    <value>Insereix una fila a sota</value>
+  </data>
+    <data name="Spreadsheet_KeepSourceFormat" xml:space="preserve">
+    <value>Mantenir el format font</value>
+  </data>
+  <data name="Spreadsheet_MergeFormat" xml:space="preserve">
+    <value>Format de fusió</value>
+  </data>
+  <data name="Spreadsheet_KeepTextOnly" xml:space="preserve">
+    <value>Mantenir només text</value>
+  </data>
+  <data name="Spreadsheet_ShortDate" xml:space="preserve">
+    <value>Data curta</value>
+  </data>
+  <data name="Spreadsheet_LongDate" xml:space="preserve">
+    <value>Data llarga</value>
+  </data>
+  <data name="Spreadsheet_Percentage" xml:space="preserve">
+    <value>Percentatge</value>
+  </data>
+    <data name="Spreadsheet_Print" xml:space="preserve">
+    <value>Imprimeix</value>
+  </data>
+  <data name="Spreadsheet_Scientific" xml:space="preserve">
+    <value>Científic</value>
+  </data>
+    <data name="Spreadsheet_SegoePrint" xml:space="preserve">
+    <value>SegoePrint</value>
+  </data>
+  <data name="Spreadsheet_SegoeScript" xml:space="preserve">
+    <value>Escriptura Segoe</value>
+  </data>
+  <data name="Spreadsheet_SegoeUI" xml:space="preserve">
+    <value>SegoeUI</value>
+  </data>
+  <data name="Spreadsheet_ShowRowsWhere" xml:space="preserve">
+    <value>MostrarFilesOn</value>
+  </data>
+  <data name="Spreadsheet_Symbol" xml:space="preserve">
+    <value>Símbol</value>
+  </data>
+  <data name="Spreadsheet_TimesNewRoman" xml:space="preserve">
+    <value>Times New Roman</value>
+  </data>
+  <data name="Spreadsheet_Verdana" xml:space="preserve">
+    <value>Verdana</value>
+  </data>
+  <data name="Spreadsheet_Windings" xml:space="preserve">
+    <value>Enrotllaments</value>
+  </data>
+  <data name="Spreadsheet_Accounting" xml:space="preserve">
+    <value>Comptabilitat</value>
+  </data>
+  <data name="Spreadsheet_CircularReference" xml:space="preserve">
+    <value>Hem detectat que heu escrit una fórmula amb una referència circular.</value>
+  </data>
   <data name="RichTextEditor_FormatPainter" xml:space="preserve">
     <value>Copiar format</value>
   </data>
+  <data name="RichTextEditor_LineHeight" xml:space="preserve">
+    <value>alçada de línia</value>
+  </data>
   <data name="DataForm_SubmitContent" xml:space="preserve">
     <value>Envia</value>
+  </data>
+  <data name="AssistView_FileSize_Failure" xml:space="preserve">
+    <value>Ha fallat la càrrega: La mida del fitxer és massa gran</value>
+  </data>
+  <data name="ChatUI_Forwarded_Message" xml:space="preserve">
+    <value>Reenviat</value>
+  </data>
+  <data name="ChatUI_MentionNoRecord" xml:space="preserve">
+    <value>No s'han trobat registres</value>
+  </data>
+  <data name="ChatUI_Send" xml:space="preserve">
+    <value>Enviar</value>
+  </data>
+  <data name="ChatUI_Attachments" xml:space="preserve">
+    <value>Adjuntar fitxer</value>
+  </data>
+  <data name="ChatUI_Download" xml:space="preserve">
+    <value>Descarregar</value>
+  </data>
+  <data name="ChatUI_Close" xml:space="preserve">
+    <value>Tanca</value>
+  </data>
+  <data name="ChatUI_FileUploadFailure" xml:space="preserve">
+    <value>S'ha assolit el límit de càrrega: màxim {0} fitxers permesos. Elimina els fitxers sobrants per continuar la càrrega</value>
+  </data>
+  <data name="ChatUI_FilePreview" xml:space="preserve">
+    <value>No hi ha vista prèvia disponible</value>
+  </data>
+  <data name="ChatUI_FileSizeFailure" xml:space="preserve">
+    <value>La càrrega ha fallat: la mida de {0} fitxers és massa gran</value>
+  </data>
+  <data name="AIAssistView_FileCountFailure" xml:space="preserve">
+    <value>S'ha assolit el límit de càrrega: màxim {0} fitxers permesos. Elimina els fitxers sobrants per continuar la càrrega</value>
+  </data>
+  <data name="AssistView_Send" xml:space="preserve">
+    <value>Enviar</value>
+  </data>
+  <data name="AssistView_Attachments" xml:space="preserve">
+    <value>Adjuntar fitxer</value>
+  </data>
+  <data name="AssistView_Clear" xml:space="preserve">
+    <value>Netejar</value>
+  </data>
+  <data name="BlockEditor_Paragraph" xml:space="preserve">
+    <value>Escriu alguna cosa o '/' per a comandes.</value>
+  </data>
+  <data name="BlockEditor_Heading1" xml:space="preserve">
+    <value>Títol 1</value>
+  </data>
+  <data name="BlockEditor_Heading2" xml:space="preserve">
+    <value>Títol 2</value>
+  </data>
+  <data name="BlockEditor_Heading3" xml:space="preserve">
+    <value>Títol 3</value>
+  </data>
+  <data name="BlockEditor_Heading4" xml:space="preserve">
+    <value>Títol 4</value>
+  </data>
+  <data name="BlockEditor_CollapsibleParagraph" xml:space="preserve">
+    <value>Paràgraf plegable</value>
+  </data>
+  <data name="BlockEditor_CollapsibleHeading1" xml:space="preserve">
+    <value>Títol plegable 1</value>
+  </data>
+  <data name="BlockEditor_CollapsibleHeading2" xml:space="preserve">
+    <value>Títol plegable 2</value>
+  </data>
+  <data name="BlockEditor_CollapsibleHeading3" xml:space="preserve">
+    <value>Títol plegable 3</value>
+  </data>
+  <data name="BlockEditor_CollapsibleHeading4" xml:space="preserve">
+    <value>Títol plegable 4</value>
+  </data>
+  <data name="BlockEditor_BulletList" xml:space="preserve">
+    <value>Afegeix element</value>
+  </data>
+  <data name="BlockEditor_NumberedList" xml:space="preserve">
+    <value>Afegeix element</value>
+  </data>
+  <data name="BlockEditor_Checklist" xml:space="preserve">
+    <value>Tasca</value>
+  </data>
+  <data name="BlockEditor_Quote" xml:space="preserve">
+    <value>Escriu una cita</value>
+  </data>
+  <data name="BlockEditor_Callout" xml:space="preserve">
+    <value>Escriu un destacat</value>
+  </data>
+  <data name="BlockEditor_AddIconTooltip" xml:space="preserve">
+    <value>Clica per inserir a sota</value>
+  </data>
+  <data name="BlockEditor_DragIconTooltipActionMenu" xml:space="preserve">
+    <value>Clica per obrir</value>
+  </data>
+  <data name="BlockEditor_DragIconTooltip" xml:space="preserve">
+    <value>(Mantén premut per arrossegar)</value>
+  </data>
+  <data name="BlockEditor_InsertLink" xml:space="preserve">
+    <value>Insereix enllaç</value>
+  </data>
+  <data name="BlockEditor_LinkText" xml:space="preserve">
+    <value>Text</value>
+  </data>
+  <data name="BlockEditor_LinkTextPlaceholder" xml:space="preserve">
+    <value>Text de l'enllaç</value>
+  </data>
+  <data name="BlockEditor_LinkUrl" xml:space="preserve">
+    <value>URL</value>
+  </data>
+  <data name="BlockEditor_LinkUrlPlaceholder" xml:space="preserve">
+    <value>https://exemple.com</value>
+  </data>
+  <data name="BlockEditor_LinkTitle" xml:space="preserve">
+    <value>Títol</value>
+  </data>
+  <data name="BlockEditor_LinkTitlePlaceholder" xml:space="preserve">
+    <value>Títol de l'enllaç</value>
+  </data>
+  <data name="BlockEditor_LinkOpenInNewWindow" xml:space="preserve">
+    <value>Obre en una finestra nova</value>
+  </data>
+  <data name="BlockEditor_LinkInsert" xml:space="preserve">
+    <value>Insereix</value>
+  </data>
+  <data name="BlockEditor_LinkRemove" xml:space="preserve">
+    <value>Elimina</value>
+  </data>
+  <data name="BlockEditor_LinkCancel" xml:space="preserve">
+    <value>Cancel·la</value>
+  </data>
+  <data name="BlockEditor_CodeCopyTooltip" xml:space="preserve">
+    <value>Copia el codi</value>
+  </data>
+  <data name="DocumentEditorContainer_CommentsCloseHeader" xml:space="preserve">
+    <value>Comentaris no desats</value>
+  </data>
+  <data name="DocumentEditorContainer_CommentsCloseContent" xml:space="preserve">
+    <value>Teniu comentaris que encara no s'han publicat. Si abandones aquesta pàgina, seran descartats</value>
+  </data>
+  <data name="DocumentEditorContainer_KeepEditing" xml:space="preserve">
+    <value>Continua editant</value>
+  </data>
+  <data name="DocumentEditorContainer_DiscardComments" xml:space="preserve">
+    <value>Descartar comentaris</value>
+  </data>
+  <data name="DocumentEditor_Resolved" xml:space="preserve">
+    <value>Solucionat</value>
+  </data>
+  <data name="DocumentEditor_CommentMark" xml:space="preserve">
+    <value>Fes clic per veure aquest comentari</value>
   </data>
 </root>

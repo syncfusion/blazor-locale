@@ -933,11 +933,23 @@
   <data name="Gantt_SplitTask" xml:space="preserve">
     <value>مهمة الانقسام</value>
   </data>
+  <data name="Gantt_WbsCode" xml:space="preserve">
+    <value>رمز هيكل تقسيم العمل</value>
+  </data>
+  <data name="Gantt_WbsPredecessor" xml:space="preserve">
+    <value>السلف في هيكل تقسيم العمل</value>
+  </data>
   <data name="Gantt_MergeTask" xml:space="preserve">
     <value>مهمة الدمج</value>
   </data>
   <data name="Gantt_UnassignedTasks" xml:space="preserve">
     <value>المهام غير المعينة</value>
+  </data>
+    <data name="Gantt_Undo" xml:space="preserve">
+    <value>تراجع</value>
+  </data>
+  <data name="Gantt_Redo" xml:space="preserve">
+    <value>إعادة</value>
   </data>
   <data name="ColorPicker_Apply" xml:space="preserve">
     <value>تطبيق</value>
@@ -2368,25 +2380,25 @@
     <value>عنوان 9</value>
   </data>
   <data name="RichTextEditor_FontNameSegoeUI" xml:space="preserve">
-    <value>Segoe UI</value>
+    <value>سيغو يو</value>
   </data>
   <data name="RichTextEditor_FontNameArial" xml:space="preserve">
-    <value>Arial</value>
+    <value>آريال</value>
   </data>
   <data name="RichTextEditor_FontNameGeorgia" xml:space="preserve">
-    <value>Georgia</value>
+    <value>جورجيا</value>
   </data>
   <data name="RichTextEditor_FontNameImpact" xml:space="preserve">
-    <value>Impact</value>
+    <value>أثر</value>
   </data>
   <data name="RichTextEditor_FontNameTahoma" xml:space="preserve">
     <value>Tahoma</value>
   </data>
   <data name="RichTextEditor_FontNameTimesNewRoman" xml:space="preserve">
-    <value>Times New Roman</value>
+    <value>تايمز نيو رومان</value>
   </data>
   <data name="RichTextEditor_FontNameVerdana" xml:space="preserve">
-    <value>Verdana</value>
+    <value>فاردنا</value>
   </data>
   <data name="RichTextEditor_Alignments" xml:space="preserve">
     <value>التحالفات</value>
@@ -2682,6 +2694,18 @@
   <data name="RichTextEditor_TableRemove" xml:space="preserve">
     <value>حذف الجدول</value>
   </data>
+  <data name="RichTextEditor_TableCell" xml:space="preserve">
+    <value>خلايا الجدول</value>
+  </data>
+  <data name="RichTextEditor_TableCellMerge" xml:space="preserve">
+    <value>دمج الخلايا</value>
+  </data>
+  <data name="RichTextEditor_TableCellHorizontalSplit" xml:space="preserve">
+    <value>الانقسام الأفقي</value>
+  </data>
+  <data name="RichTextEditor_TableCellVerticalSplit" xml:space="preserve">
+    <value>الانقسام العمودي</value>
+  </data>
   <data name="RichTextEditor_TableCellBackground" xml:space="preserve">
     <value>خلفية خلية الجدول</value>
   </data>
@@ -2828,6 +2852,48 @@
   </data>
   <data name="RichTextEditor_Img_AltText_Unsupported" xml:space="preserve">
     <value>تنسيق ملف غير معتمد</value>
+  </data>
+  <data name="RichTextEditor_ImportDeviceUploadMessage" xml:space="preserve">
+    <value>انقر هنا للرفع</value>
+  </data>
+  <data name="RichTextEditor_ImportUploadMessage" xml:space="preserve">
+    <value>اسحب أو تصفح مستند Word</value>
+  </data>
+  <data name="RichTextEditor_ImportHeader" xml:space="preserve">
+    <value>استيراد Word</value>
+  </data>
+  <data name="RichTextEditor_DialogImport" xml:space="preserve">
+    <value>أدرج</value>
+  </data>
+  <data name="RichTextEditor_VideoHeader" xml:space="preserve">
+    <value>إدراج فيديو</value>
+  </data>
+  <data name="RichTextEditor_EditVideoHeader" xml:space="preserve">
+    <value>تحرير الفيديو</value>
+  </data>
+  <data name="RichTextEditor_AudioHeader" xml:space="preserve">
+    <value>أدخل الصوت</value>
+  </data>
+  <data name="RichTextEditor_EditAudioHeader" xml:space="preserve">
+    <value>تحرير الصوت</value>
+  </data>
+  <data name="RichTextEditor_Import_From_Word" xml:space="preserve">
+    <value>استيراد من ورد</value>
+  </data>
+  <data name="RichTextEditor_Export_To_Word" xml:space="preserve">
+    <value>تصدير إلى ورد</value>
+  </data>
+  <data name="RichTextEditor_Export_To_PDF" xml:space="preserve">
+    <value>تصدير إلى PDF</value>
+  </data>
+  <data name="RichTextEditor_Audio" xml:space="preserve">
+    <value>أدخل الصوت</value>
+  </data>
+  <data name="RichTextEditor_Video" xml:space="preserve">
+    <value>إدراج فيديو</value>
+  </data>
+  <data name="RichTextEditor_Default" xml:space="preserve">
+    <value>افتراضي</value>
   </data>
   <data name="DiagramComponent_X" xml:space="preserve">
     <value>X</value>
@@ -4578,6 +4644,57 @@
   <data name="PdfViewer_Of" xml:space="preserve">
     <value>من</value>
   </data>
+  <data name="PdfViewer_OrganizePages" xml:space="preserve">
+    <value>تنظيم الصفحات</value>
+  </data>
+  <data name="PdfViewer_Pages" xml:space="preserve">
+    <value>الصفحات</value>
+  </data>
+  <data name="PdfViewer_RotateLeft" xml:space="preserve">
+    <value>تدوير لليسار</value>
+  </data>
+  <data name="PdfViewer_RotateRight" xml:space="preserve">
+    <value>تدوير لليمين</value>
+  </data>
+  <data name="PdfViewer_DuplicatePages" xml:space="preserve">
+    <value>نسخ الصفحات</value>
+  </data>
+  <data name="PdfViewer_DeletePages" xml:space="preserve">
+    <value>حذف الصفحات</value>
+  </data>
+  <data name="PdfViewer_PageZoom" xml:space="preserve">
+    <value>تكبير الصفحة</value>
+  </data>
+  <data name="PdfViewer_SelectAll" xml:space="preserve">
+    <value>تحديد الكل</value>
+  </data>
+  <data name="PdfViewer_ImportDocument" xml:space="preserve">
+    <value>استيراد المستند</value>
+  </data>
+  <data name="PdfViewer_ExtractDocument" xml:space="preserve">
+    <value>استخراج المستند</value>
+  </data>
+  <data name="PdfViewer_Total" xml:space="preserve">
+    <value>الإجمالي</value>
+  </data>
+  <data name="PdfViewer_SaveAs" xml:space="preserve">
+    <value>حفظ باسم</value>
+  </data>
+  <data name="PdfViewer_InsertLeft" xml:space="preserve">
+    <value>إدراج إلى اليسار</value>
+  </data>
+  <data name="PdfViewer_InsertRight" xml:space="preserve">
+    <value>إدراج إلى اليمين</value>
+  </data>
+  <data name="PdfViewer_DuplicatePage" xml:space="preserve">
+    <value>نسخ الصفحة</value>
+  </data>
+  <data name="PdfViewer_DeletePage" xml:space="preserve">
+    <value>حذف الصفحة</value>
+  </data>
+  <data name="PdfViewer_AllPagesDelete" xml:space="preserve">
+    <value>لا يمكن حذف جميع الصفحات لأنه يجب أن تبقى صفحة واحدة على الأقل في المستند.</value>
+  </data>
   <data name="PdfViewer_Required_ServiceUrl_Error_Message" xml:space="preserve">
     <value>يتطلب عارض PDF هذا معالجة من جانب الخادم لعرض ملفات PDF من خلال خدمة الويب. يجب عليك تكوين عنوان URL للخدمة لمتابعة استخدام عارض PDF</value>
   </data>
@@ -4609,10 +4726,58 @@
     <value>خطأ في خدمة الذكاء الاصطناعي</value>
   </data>
   <data name="PdfViewer_CredentialErrorContent" xml:space="preserve">
-    <value>لم يتم تقديم بيانات الاعتماد، أو أنها غير صحيحة أو غير صالحة. يرجى التحقق وإدخال بيانات الاعتماد الصحيحة ثم المحاولة مرة أخرى.</value>
+    <value>لم يتم تقديم بيانات الاعتماد أو كانت غير صحيحة أو غير صالحة. يرجى إدخال بيانات الاعتماد الصحيحة والمحاولة مرة أخرى.</value>
   </data>
   <data name="PdfViewer_ConnectionLostErrorContent" xml:space="preserve">
     <value>تم فقد الاتصال بخدمة الذكاء الاصطناعي. يرجى التحقق من اتصال الشبكة والمحاولة مرة أخرى.</value>
+  </data>
+  <data name="PdfViewer_UnSupportedDialogContent" xml:space="preserve">
+    <value>هذا الملف لا يدعم ميزات الذكاء الاصطناعي التوليدي لأنه فارغ أو لا يحتوي على نص كافٍ. يرجى تجربة ملف آخر.</value>
+  </data>
+  <data name="SmartPdfViewer_TimeOutErrorHeader" xml:space="preserve">
+    <value>انتهت مهلة الطلب</value>
+  </data>
+  <data name="SmartPdfViewer_TimeOutErrorContent" xml:space="preserve">
+    <value>استغرقت عملية البحث وقتًا أطول من المتوقع وتجاوزت الحد الزمني المسموح به.</value>
+  </data>
+  <data name="SmartPdfViewer_DisClaimerContent" xml:space="preserve">
+    <value>قد تكون الردود التي يتم إنشاؤها بواسطة الذكاء الاصطناعي غير دقيقة أو مضللة. تأكد من التحقق المزدوج من الردود والمصادر.</value>
+  </data>
+  <data name="SmartPdfViewer_RedactionToolTip" xml:space="preserve">
+      <value>تحرير ذكي</value>
+  </data>
+  <data name="SmartPdfViewer_RedactHeader" xml:space="preserve">
+      <value>اختر النمط</value>
+  </data>
+  <data name="SmartPdfViewer_CancelRedact" xml:space="preserve">
+      <value>إلغاء</value>
+  </data>
+  <data name="SmartPdfViewer_ApplyRedact" xml:space="preserve">
+      <value>تحرير</value>
+  </data>
+  <data name="SmartPdfViewer_ScanRedact" xml:space="preserve">
+      <value>مسح</value>
+  </data>
+  <data name="SmartPdfViewer_SmartFillToolTip" xml:space="preserve">
+    <value>تعبئة النموذج الذكية</value>
+  </data>
+  <data name="SmartPdfViewer_SmartFillText" xml:space="preserve">
+    <value>تعبئة ذكية</value>
+  </data>
+  <data name="SmartPdfViewer_AIAssistanceToolTip" xml:space="preserve">
+    <value>المساعدة الذكية</value>
+  </data>
+  <data name="SmartPdfViewer_RedactOptionsHeader" xml:space="preserve">
+    <value>حدد البيانات لإخفائها</value>
+  </data>
+  <data name="SmartPdfViewer_NoInformationErrorContent" xml:space="preserve">
+    <value>لم يتم العثور على معلومات حساسة في المستند.</value>
+  </data>
+  <data name="SmartPdfViewer_NoInformationErrorContentHeader" xml:space="preserve">
+    <value>لم يتم العثور على بيانات حساسة</value>
+  </data>
+  <data name="SmartPdfViewer_RedactDisclaimer" xml:space="preserve">
+     <value>قد تكون المعلومات التي تم اكتشافها بواسطة الذكاء الاصطناعي غير دقيقة. يُرجى التحقق من النتائج قبل الاستخدام.</value>
   </data>
   <data name="DocumentEditor_Table" xml:space="preserve">
     <value>الطاولة</value>
@@ -5453,6 +5618,9 @@
   </data>
   <data name="DocumentEditor_UnderlineErrors" xml:space="preserve">
     <value>تسطير الأخطاء</value>
+  </data>
+  <data name="DocumentEditor_MoreSuggestions" xml:space="preserve">
+    <value>المزيد من الاقتراحات</value>
   </data>
   <data name="DocumentEditor_Ignore" xml:space="preserve">
     <value>تجاهل</value>
@@ -6795,12 +6963,6 @@
   <data name="Spreadsheet_Paste" xml:space="preserve">
     <value>لصق</value>
   </data>
-  <data name="Spreadsheet_InsertLeft" xml:space="preserve">
-    <value>إدراج عمود إلى اليسار</value>
-  </data>
-  <data name="Spreadsheet_InsertRight" xml:space="preserve">
-    <value>إدراج عمود إلى اليمين</value>
-  </data>
   <data name="Spreadsheet_InsertRowsAbove" xml:space="preserve">
     <value>إدراج صفوف للأعلى</value>
   </data>
@@ -6822,26 +6984,185 @@
   <data name="Spreadsheet_ClearHyperlinks" xml:space="preserve">
     <value>مسح الارتباطات التشعبية</value>
   </data>
-  <data name="Spreadsheet_Clear" xml:space="preserve">
-    <value>مسح</value>
-  </data>
   <data name="Spreadsheet_Home" xml:space="preserve">
     <value>الرئيسية</value>
   </data>
   <data name="Spreadsheet_Link" xml:space="preserve">
     <value>رابط</value>
   </data>
-  <data name="Spreadsheet_File" xml:space="preserve">
-    <value>ملف</value>
-  </data>
   <data name="Spreadsheet_Image" xml:space="preserve">
     <value>صورة</value>
   </data>
-  <data name="Spreadsheet_New" xml:space="preserve">
-    <value>جديد</value>
+  <data name="Spreadsheet_InsertLeft" xml:space="preserve">
+  <value>أدخل العمود إلى اليسار</value>
+  </data>
+  <data name="Spreadsheet_InsertRight" xml:space="preserve">
+    <value>أدخل العمود إلى اليمين</value>
+  </data>
+  <data name="Spreadsheet_File" xml:space="preserve">
+    <value>ملف</value>
+  </data>
+  <data name="Spreadsheet_DownloadPDF" xml:space="preserve">
+    <value>تنزيل كملف PDF</value>
+  </data>
+  <data name="Spreadsheet_DataOperations" xml:space="preserve">
+    <value>عمليات البيانات</value>
+  </data>
+  <data name="Spreadsheet_General" xml:space="preserve">
+    <value>عام</value>
+  </data>
+  <data name="Spreadsheet_Number" xml:space="preserve">
+    <value>رقم</value>
+  </data>
+  <data name="Spreadsheet_Currency" xml:space="preserve">
+    <value>عملة</value>
+  </data>
+  <data name="Spreadsheet_Accounting" xml:space="preserve">
+    <value>محاسبة</value>
+  </data>
+  <data name="Spreadsheet_ShortDate" xml:space="preserve">
+    <value>تاريخ قصير</value>
+  </data>
+  <data name="Spreadsheet_LongDate" xml:space="preserve">
+    <value>تاريخ طويل</value>
+  </data>
+  <data name="Spreadsheet_Time" xml:space="preserve">
+    <value>وقت</value>
+  </data>
+  <data name="Spreadsheet_Font" xml:space="preserve">
+    <value>خط</value>
+  </data>
+  <data name="Spreadsheet_Percentage" xml:space="preserve">
+    <value>نسبة مئوية</value>
+  </data>
+  <data name="Spreadsheet_Fraction" xml:space="preserve">
+    <value>جزء</value>
+  </data>
+  <data name="Spreadsheet_Scientific" xml:space="preserve">
+    <value>علمي</value>
+  </data>
+  <data name="Spreadsheet_Custom" xml:space="preserve">
+    <value>مخصص</value>
+  </data>
+  <data name="Spreadsheet_NumberFormat" xml:space="preserve">
+    <value>تنسيق الأرقام</value>
+  </data>
+  <data name="Spreadsheet_Algerian" xml:space="preserve">
+    <value>جزائري</value>
+  </data>
+  <data name="Spreadsheet_Arial" xml:space="preserve">
+    <value>Arial</value>
+  </data>
+  <data name="Spreadsheet_Calibri" xml:space="preserve">
+    <value>Calibri</value>
+  </data>
+  <data name="Spreadsheet_Cambria" xml:space="preserve">
+    <value>Cambria</value>
+  </data>
+  <data name="Spreadsheet_CambriaMath" xml:space="preserve">
+    <value>Cambria Math</value>
+  </data>
+  <data name="Spreadsheet_CourierNew" xml:space="preserve">
+    <value>Courier New</value>
+  </data>
+  <data name="Spreadsheet_Candara" xml:space="preserve">
+    <value>Candara</value>
+  </data>
+  <data name="Spreadsheet_Georgia" xml:space="preserve">
+    <value>Georgia</value>
+  </data>
+  <data name="Spreadsheet_Impact" xml:space="preserve">
+    <value>Impact</value>
+  </data>
+  <data name="Spreadsheet_SegoePrint" xml:space="preserve">
+    <value>Segoe Print</value>
+  </data>
+  <data name="Spreadsheet_SegoeScript" xml:space="preserve">
+    <value>Segoe Script</value>
+  </data>
+  <data name="Spreadsheet_SegoeUI" xml:space="preserve">
+    <value>Segoe UI</value>
+  </data>
+  <data name="Spreadsheet_Symbol" xml:space="preserve">
+    <value>رمز</value>
+  </data>
+  <data name="Spreadsheet_TimesNewRoman" xml:space="preserve">
+    <value>Times New Roman</value>
+  </data>
+  <data name="Spreadsheet_Verdana" xml:space="preserve">
+    <value>Verdana</value>
+  </data>
+  <data name="Spreadsheet_Windings" xml:space="preserve">
+    <value>Windings</value>
+  </data>
+  <data name="Spreadsheet_ChangeCase" xml:space="preserve">
+    <value>تغيير حالة الأحرف</value>
+  </data>
+  <data name="Spreadsheet_KeepSourceFormat" xml:space="preserve">
+    <value>الحفاظ على تنسيق المصدر</value>
+  </data>
+  <data name="Spreadsheet_MergeFormat" xml:space="preserve">
+    <value>دمج التنسيق</value>
+  </data>
+  <data name="Spreadsheet_KeepTextOnly" xml:space="preserve">
+    <value>الاحتفاظ بالنص فقط</value>
+  </data>
+  <data name="Spreadsheet_Ascending" xml:space="preserve">
+    <value>تصاعدي</value>
+  </data>
+  <data name="Spreadsheet_Descending" xml:space="preserve">
+    <value>تنازلي</value>
+  </data>
+  <data name="Spreadsheet_CustomSort" xml:space="preserve">
+    <value>فرز مخصص</value>
+  </data>
+  <data name="Spreadsheet_Clear" xml:space="preserve">
+    <value>مسح</value>
   </data>
   <data name="Spreadsheet_Open" xml:space="preserve">
     <value>فتح</value>
+  </data>
+  <data name="Spreadsheet_SaveAs" xml:space="preserve">
+    <value>حفظ باسم</value>
+  </data>
+  <data name="Spreadsheet_Print" xml:space="preserve">
+    <value>طباعة</value>
+  </data>
+  <data name="Spreadsheet_Text" xml:space="preserve">
+    <value>نص</value>
+  </data>
+  <data name="Spreadsheet_Value" xml:space="preserve">
+    <value>قيمة</value>
+  </data>
+  <data name="Spreadsheet_AlignLeft" xml:space="preserve">
+    <value>محاذاة إلى اليسار</value>
+  </data>
+  <data name="Spreadsheet_AlignCenter" xml:space="preserve">
+    <value>محاذاة إلى المركز</value>
+  </data>
+  <data name="Spreadsheet_AlignRight" xml:space="preserve">
+    <value>محاذاة إلى اليمين</value>
+  </data>
+  <data name="Spreadsheet_Justify" xml:space="preserve">
+    <value>ضبط</value>
+  </data>
+  <data name="Spreadsheet_AlignTop" xml:space="preserve">
+    <value>محاذاة للأعلى</value>
+  </data>
+  <data name="Spreadsheet_Clipboard" xml:space="preserve">
+    <value>حافظة</value>
+  </data>
+  <data name="Spreadsheet_AlignMiddle" xml:space="preserve">
+    <value>محاذاة للوسط</value>
+  </data>
+  <data name="Spreadsheet_AlignBottom" xml:space="preserve">
+    <value>محاذاة للأسفل</value>
+  </data>
+  <data name="Spreadsheet_ChooseTime" xml:space="preserve">
+    <value>اختر الوقت</value>
+  </data>
+  <data name="Spreadsheet_New" xml:space="preserve">
+    <value>جديد</value>
   </data>
   <data name="Spreadsheet_ABS" xml:space="preserve">
     <value>يُرجع القيمة المطلقة لرقم</value>
@@ -7710,6 +8031,12 @@
   <data name="Spreadsheet_TYPE" xml:space="preserve">
     <value>يُرجع رقمًا يشير إلى نوع البيانات لقيمة</value>
   </data>
+  <data name="Spreadsheet_Hide" xml:space="preserve">
+    <value>إخفاء</value>
+  </data>
+  <data name="Spreadsheet_OkButton" xml:space="preserve">
+    <value>موافق</value>
+  </data>
   <data name="Spreadsheet_UNIQUE" xml:space="preserve">
     <value>يُرجع قائمة القيم الفريدة الموجودة داخل قائمة أو نطاق</value>
   </data>
@@ -8052,13 +8379,13 @@
   <data name="Spreadsheet_LastMonth" xml:space="preserve">
     <value>الشهر الماضي</value>
   </data>
-  <data name="Spreadsheet_NextQuater" xml:space="preserve">
+  <data name="Spreadsheet_NextQuarter" xml:space="preserve">
     <value>الربع القادم</value>
   </data>
-  <data name="Spreadsheet_ThisQuater" xml:space="preserve">
+  <data name="Spreadsheet_ThisQuarter" xml:space="preserve">
     <value>هذا الربع</value>
   </data>
-  <data name="Spreadsheet_LastQuater" xml:space="preserve">
+  <data name="Spreadsheet_LastQuarter" xml:space="preserve">
     <value>الربع الأخير</value>
   </data>
   <data name="Spreadsheet_NextYear" xml:space="preserve">
@@ -8097,11 +8424,14 @@
   <data name="Spreadsheet_RenameSheetTo" xml:space="preserve">
     <value>إعادة تسمية الورقة إلى</value>
   </data>
+  <data name="Spreadsheet_ShowRowsWhere" xml:space="preserve">
+    <value>إظهار الصفوف حيث</value>
+  </data>
   <data name="Spreadsheet_EnterName" xml:space="preserve">
     <value>أدخل اسم الورقة</value>
   </data>
-  <data name="Spreadsheet_SaveAs" xml:space="preserve">
-    <value>حفظ باسم</value>
+  <data name="Spreadsheet_InsertRowBelow" xml:space="preserve">
+    <value>أدخل صفًا أدناه</value>
   </data>
   <data name="Spreadsheet_MicrosoftExcel" xml:space="preserve">
     <value>مايكروسوفت إكسل</value>
@@ -8249,6 +8579,117 @@
   </data>
   <data name="Spreadsheet_FontSize" xml:space="preserve">
     <value>حجم الخط</value>
+  </data>
+  <data name="Spreadsheet_DataLimitExceed" xml:space="preserve">
+    <value>بيانات الملف كبيرة جدًا وتستغرق وقتًا أطول للمعالجة، هل تريد المتابعة؟</value>
+  </data>
+  <data name="Spreadsheet_FileLimitExceed" xml:space="preserve">
+    <value>حجم الملف كبير جدًا ويستغرق وقتًا أطول للمعالجة، هل تريد المتابعة؟</value>
+  </data>
+  <data name="Spreadsheet_PasswordPrompt" xml:space="preserve">
+    <value>محمي</value>
+  </data>
+  <data name="Spreadsheet_UnsupportedFile" xml:space="preserve">
+    <value>ملف غير مدعوم</value>
+  </data>
+  <data name="Spreadsheet_View" xml:space="preserve">
+    <value>عرض</value>
+  </data>
+  <data name="Spreadsheet_Borders" xml:space="preserve">
+    <value>الحدود</value>
+  </data>
+  <data name="Spreadsheet_RightBorder" xml:space="preserve">
+    <value>الحد الأيمن</value>
+  </data>
+  <data name="Spreadsheet_BottomBorder" xml:space="preserve">
+    <value>الحد السفلي</value>
+  </data>
+  <data name="Spreadsheet_FillSeries" xml:space="preserve">
+    <value>إكمال السلسلة</value>
+  </data>
+  <data name="Spreadsheet_FillFormattingOnly" xml:space="preserve">
+    <value>إكمال التنسيق فقط</value>
+  </data>
+  <data name="Spreadsheet_FillWithoutFormatting" xml:space="preserve">
+    <value>إكمال بدون تنسيق</value>
+  </data>
+  <data name="Spreadsheet_CopyCells" xml:space="preserve">
+    <value>نسخ الخلايا</value>
+  </data>
+  <data name="Spreadsheet_TopBorder" xml:space="preserve">
+    <value>الحد العلوي</value>
+  </data>
+  <data name="Spreadsheet_LeftBorder" xml:space="preserve">
+    <value>الحد الأيسر</value>
+  </data>
+  <data name="Spreadsheet_NoBorder" xml:space="preserve">
+    <value>بلا حدود</value>
+  </data>
+  <data name="Spreadsheet_AllBorders" xml:space="preserve">
+    <value>كل الحدود</value>
+  </data>
+  <data name="Spreadsheet_OutsideBorders" xml:space="preserve">
+    <value>الحدود الخارجية</value>
+  </data>
+  <data name="Spreadsheet_InsideBorders" xml:space="preserve">
+    <value>الحدود الداخلية</value>
+  </data>
+  <data name="Spreadsheet_HorizontalBorders" xml:space="preserve">
+    <value>الحدود الأفقية</value>
+  </data>
+  <data name="Spreadsheet_VerticalBorders" xml:space="preserve">
+    <value>الحدود العمودية</value>
+  </data>
+  <data name="Spreadsheet_BorderColor" xml:space="preserve">
+    <value>لون الحدود</value>
+  </data>
+  <data name="Spreadsheet_BorderStyle" xml:space="preserve">
+    <value>نمط الحدود</value>
+  </data>
+  <data name="Spreadsheet_Thin" xml:space="preserve">
+    <value>رفيع</value>
+  </data>
+  <data name="Spreadsheet_Medium" xml:space="preserve">
+    <value>متوسط</value>
+  </data>
+  <data name="Spreadsheet_Thick" xml:space="preserve">
+    <value>سميك</value>
+  </data>
+  <data name="Spreadsheet_Dotted" xml:space="preserve">
+    <value>منقط</value>
+  </data>
+  <data name="Spreadsheet_Dashed" xml:space="preserve">
+    <value>متقطع</value>
+  </data>
+  <data name="Spreadsheet_Double" xml:space="preserve">
+    <value>مزدوج</value>
+  </data>
+  <data name="Spreadsheet_ShowGridlines" xml:space="preserve">
+    <value>إظهار خطوط الشبكة</value>
+  </data>
+  <data name="Spreadsheet_HideGridlines" xml:space="preserve">
+    <value>إخفاء خطوط الشبكة</value>
+  </data>
+  <data name="Spreadsheet_MergeCell" xml:space="preserve">
+    <value>دمج الخلية</value>
+  </data>
+    <data name="Spreadsheet_MergeCellDialog" xml:space="preserve">
+    <value>دمج الخلايا يحتفظ فقط بالقيمة العلوية اليسرى ويرفض القيم الأخرى.</value>
+  </data>
+  <data name="Spreadsheet_MergeCellSize" xml:space="preserve">
+    <value>للقيام بذلك، جميع الخلايا المدمجة يجب أن تكون بنفس الحجم.</value>
+  </data>
+  <data name="Spreadsheet_MergeCenter" xml:space="preserve">
+    <value>دمج والمركز</value>
+  </data>
+  <data name="Spreadsheet_MergeAcross" xml:space="preserve">
+    <value>دمج عبر</value>
+  </data>
+  <data name="Spreadsheet_MergeCells" xml:space="preserve">
+    <value>دمج الخلايا</value>
+  </data>
+  <data name="Spreadsheet_UnMergeCells" xml:space="preserve">
+    <value>فك دمج الخلايا</value>
   </data>
   <data name="RichTextEditor_InlineCode" xml:space="preserve">
     <value>الكود المضمّن</value>
@@ -8448,10 +8889,190 @@
   <data name="Spreadsheet_ExpandRibbonTab" xml:space="preserve">
     <value>توسيع شريط الأدوات</value>
   </data>
+  <data name="Spreadsheet_InvalidFileNameMessage" xml:space="preserve">
+    <value>استخدم اسماً لا يتضمن هذه الأحرف: \ / : * ? " |</value>
+  </data>
+  <data name="Spreadsheet_EmptyFileName" xml:space="preserve">
+    <value>لا يمكن أن يكون اسم الملف فارغاً.</value>
+  </data>
+  <data name="Spreadsheet_WebPage" xml:space="preserve">
+    <value>صفحة ويب</value>
+  </data>
+  <data name="Spreadsheet_ThisDocument" xml:space="preserve">
+    <value>هذا المستند</value>
+  </data>
+  <data name="Spreadsheet_DisplayText" xml:space="preserve">
+    <value>نص العرض</value>
+  </data>
+  <data name="Spreadsheet_Url" xml:space="preserve">
+    <value>الرابط</value>
+  </data>
+  <data name="Spreadsheet_Sheet" xml:space="preserve">
+    <value>ورقة</value>
+  </data>
+  <data name="Spreadsheet_ReferenceCell" xml:space="preserve">
+    <value>مرجع الخلية</value>
+  </data>
+  <data name="Spreadsheet_CircularReference" xml:space="preserve">
+    <value>لقد وجدنا أنك كتبت صيغة تحتوي على مرجع دائري.</value>
+  </data>
   <data name="RichTextEditor_FormatPainter" xml:space="preserve">
     <value>نسّاخ التنسيق</value>
   </data>
+  <data name="RichTextEditor_LineHeight" xml:space="preserve">
+    <value>ارتفاع السطر</value>
+  </data>
   <data name="DataForm_SubmitContent" xml:space="preserve">
     <value>يُقدِّم</value>
+  </data>
+  <data name="AssistView_FileSize_Failure" xml:space="preserve">
+    <value>فشل التحميل: حجم الملف كبير جدًا</value>
+  </data>
+  <data name="ChatUI_Forwarded_Message" xml:space="preserve">
+    <value>تم التوجيه</value>
+  </data>
+  <data name="ChatUI_MentionNoRecord" xml:space="preserve">
+    <value>لم يتم العثور على سجلات</value>
+  </data>
+  <data name="ChatUI_Send" xml:space="preserve">
+    <value>إرسال</value>
+  </data>
+  <data name="ChatUI_Attachments" xml:space="preserve">
+    <value>إرفاق ملف</value>
+  </data>
+  <data name="ChatUI_Download" xml:space="preserve">
+    <value>تنزيل</value>
+  </data>
+  <data name="ChatUI_Close" xml:space="preserve">
+    <value>إغلاق</value>
+  </data>
+  <data name="ChatUI_FileUploadFailure" xml:space="preserve">
+    <value>تم بلوغ حد الرفع: الحد الأقصى المسموح {0} ملفات. يرجى إزالة الملفات الزائدة للمتابعة في الرفع</value>
+  </data>
+  <data name="ChatUI_FilePreview" xml:space="preserve">
+    <value>لا تتوفر معاينة</value>
+  </data>
+  <data name="ChatUI_FileSizeFailure" xml:space="preserve">
+    <value>فشل الرفع: حجم {0} ملفًا كبير جدًا</value>
+  </data>
+  <data name="AIAssistView_FileCountFailure" xml:space="preserve">
+    <value>تم بلوغ حد الرفع: الحد الأقصى المسموح {0} ملفات. يرجى إزالة الملفات الزائدة للمتابعة في الرفع</value>
+  </data>
+  <data name="AssistView_Send" xml:space="preserve">
+    <value>إرسال</value>
+  </data>
+  <data name="AssistView_Attachments" xml:space="preserve">
+    <value>إرفاق ملف</value>
+  </data>
+  <data name="AssistView_Clear" xml:space="preserve">
+    <value>مسح</value>
+  </data>
+  <data name="BlockEditor_Paragraph" xml:space="preserve">
+    <value>اكتب شيئًا أو '/' للأوامر</value>
+  </data>
+  <data name="BlockEditor_Heading1" xml:space="preserve">
+    <value>عنوان 1</value>
+  </data>
+  <data name="BlockEditor_Heading2" xml:space="preserve">
+    <value>عنوان 2</value>
+  </data>
+  <data name="BlockEditor_Heading3" xml:space="preserve">
+    <value>عنوان 3</value>
+  </data>
+  <data name="BlockEditor_Heading4" xml:space="preserve">
+    <value>عنوان 4</value>
+  </data>
+  <data name="BlockEditor_CollapsibleParagraph" xml:space="preserve">
+    <value>فقرة قابلة للطي</value>
+  </data>
+  <data name="BlockEditor_CollapsibleHeading1" xml:space="preserve">
+    <value>عنوان قابل للطي 1</value>
+  </data>
+  <data name="BlockEditor_CollapsibleHeading2" xml:space="preserve">
+    <value>عنوان قابل للطي 2</value>
+  </data>
+  <data name="BlockEditor_CollapsibleHeading3" xml:space="preserve">
+    <value>عنوان قابل للطي 3</value>
+  </data>
+  <data name="BlockEditor_CollapsibleHeading4" xml:space="preserve">
+    <value>عنوان قابل للطي 4</value>
+  </data>
+  <data name="BlockEditor_BulletList" xml:space="preserve">
+    <value>إضافة عنصر</value>
+  </data>
+  <data name="BlockEditor_NumberedList" xml:space="preserve">
+    <value>إضافة عنصر</value>
+  </data>
+  <data name="BlockEditor_Checklist" xml:space="preserve">
+    <value>مهمة</value>
+  </data>
+  <data name="BlockEditor_Quote" xml:space="preserve">
+    <value>اكتب اقتباسًا</value>
+  </data>
+  <data name="BlockEditor_Callout" xml:space="preserve">
+    <value>اكتب تنبيهًا</value>
+  </data>
+  <data name="BlockEditor_AddIconTooltip" xml:space="preserve">
+    <value>انقر للإدراج أدناه</value>
+  </data>
+  <data name="BlockEditor_DragIconTooltipActionMenu" xml:space="preserve">
+    <value>انقر للفتح</value>
+  </data>
+  <data name="BlockEditor_DragIconTooltip" xml:space="preserve">
+    <value>(اضغط مع الاستمرار للسحب)</value>
+  </data>
+  <data name="BlockEditor_InsertLink" xml:space="preserve">
+    <value>إدراج رابط</value>
+  </data>
+  <data name="BlockEditor_LinkText" xml:space="preserve">
+    <value>نص</value>
+  </data>
+  <data name="BlockEditor_LinkTextPlaceholder" xml:space="preserve">
+    <value>نص الرابط</value>
+  </data>
+  <data name="BlockEditor_LinkUrl" xml:space="preserve">
+    <value>عنوان URL</value>
+  </data>
+  <data name="BlockEditor_LinkUrlPlaceholder" xml:space="preserve">
+    <value>https://example.com</value>
+  </data>
+  <data name="BlockEditor_LinkTitle" xml:space="preserve">
+    <value>عنوان</value>
+  </data>
+  <data name="BlockEditor_LinkTitlePlaceholder" xml:space="preserve">
+    <value>عنوان الرابط</value>
+  </data>
+  <data name="BlockEditor_LinkOpenInNewWindow" xml:space="preserve">
+    <value>فتح في نافذة جديدة</value>
+  </data>
+  <data name="BlockEditor_LinkInsert" xml:space="preserve">
+    <value>إدراج</value>
+  </data>
+  <data name="BlockEditor_LinkRemove" xml:space="preserve">
+    <value>إزالة</value>
+  </data>
+  <data name="BlockEditor_LinkCancel" xml:space="preserve">
+    <value>إلغاء</value>
+  </data>
+  <data name="BlockEditor_CodeCopyTooltip" xml:space="preserve">
+    <value>نسخ الكود</value>
+  </data>
+  <data name="DocumentEditorContainer_CommentsCloseHeader" xml:space="preserve">
+    <value>التعليقات غير المحفوظة</value>
+  </data>
+  <data name="DocumentEditorContainer_CommentsCloseContent" xml:space="preserve">
+    <value>لديك تعليقات لم يتم نشرها بعد. إذا تركت هذه الصفحة، فسيتم التخلص منها</value>
+  </data>
+  <data name="DocumentEditorContainer_KeepEditing" xml:space="preserve">
+    <value>استمر في التحرير</value>
+  </data>
+  <data name="DocumentEditorContainer_DiscardComments" xml:space="preserve">
+    <value>تجاهل التعليقات</value>
+  </data>
+  <data name="DocumentEditor_Resolved" xml:space="preserve">
+    <value>تم الحل</value>
+  </data>
+  <data name="DocumentEditor_CommentMark" xml:space="preserve">
+    <value>انقر لرؤية هذا التعليق</value>
   </data>
 </root>

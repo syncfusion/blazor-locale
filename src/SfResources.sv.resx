@@ -933,11 +933,23 @@
   <data name="Gantt_SplitTask" xml:space="preserve">
     <value>Dela upp uppgift</value>
   </data>
+  <data name="Gantt_WbsCode" xml:space="preserve">
+    <value>Kod för arbetsnedbrytningsstruktur </value>
+  </data>
+  <data name="Gantt_WbsPredecessor" xml:space="preserve">
+    <value>Föregångare i arbetsnedbrytningsstrukturen</value>
+  </data>
   <data name="Gantt_MergeTask" xml:space="preserve">
     <value>Slå samman uppgift</value>
   </data>
   <data name="Gantt_UnassignedTasks" xml:space="preserve">
     <value>Otilldelade uppgifter</value>
+  </data>
+  <data name="Gantt_Undo" xml:space="preserve">
+    <value>Ångra</value>
+  </data>
+  <data name="Gantt_Redo" xml:space="preserve">
+    <value>Gör om</value>
   </data>
   <data name="ColorPicker_Apply" xml:space="preserve">
     <value>Tillämpa</value>
@@ -2371,10 +2383,10 @@
     <value>Arial</value>
   </data>
   <data name="RichTextEditor_FontNameGeorgia" xml:space="preserve">
-    <value>Georgia</value>
+    <value>Georgien</value>
   </data>
   <data name="RichTextEditor_FontNameImpact" xml:space="preserve">
-    <value>Impact</value>
+    <value>Påverkan</value>
   </data>
   <data name="RichTextEditor_FontNameTahoma" xml:space="preserve">
     <value>Tahoma</value>
@@ -2679,6 +2691,18 @@
   <data name="RichTextEditor_TableRemove" xml:space="preserve">
     <value>Ta bort tabell</value>
   </data>
+  <data name="RichTextEditor_TableCell" xml:space="preserve">
+    <value>Tabellceller</value>
+  </data>
+  <data name="RichTextEditor_TableCellMerge" xml:space="preserve">
+    <value>Slå samman celler</value>
+  </data>
+  <data name="RichTextEditor_TableCellHorizontalSplit" xml:space="preserve">
+    <value>Horisontell delad</value>
+  </data>
+  <data name="RichTextEditor_TableCellVerticalSplit" xml:space="preserve">
+    <value>Vertikal split</value>
+  </data>
   <data name="RichTextEditor_TableCellBackground" xml:space="preserve">
     <value>Tabellcellbakgrund</value>
   </data>
@@ -2825,6 +2849,48 @@
   </data>
   <data name="RichTextEditor_Img_AltText_Unsupported" xml:space="preserve">
     <value>Filformat som inte stöds</value>
+  </data>
+  <data name="RichTextEditor_ImportDeviceUploadMessage" xml:space="preserve">
+    <value>Klicka här för att ladda upp</value>
+  </data>
+  <data name="RichTextEditor_ImportUploadMessage" xml:space="preserve">
+    <value>Dra eller bläddra en Word-dokument</value>
+  </data>
+  <data name="RichTextEditor_ImportHeader" xml:space="preserve">
+    <value>Importera ord</value>
+  </data>
+  <data name="RichTextEditor_DialogImport" xml:space="preserve">
+    <value>Infoga</value>
+  </data>
+  <data name="RichTextEditor_VideoHeader" xml:space="preserve">
+    <value>Sätt in video</value>
+  </data>
+  <data name="RichTextEditor_EditVideoHeader" xml:space="preserve">
+    <value>Redigera video</value>
+  </data>
+  <data name="RichTextEditor_AudioHeader" xml:space="preserve">
+    <value>Sätt in ljud</value>
+  </data>
+  <data name="RichTextEditor_EditAudioHeader" xml:space="preserve">
+    <value>Redigera ljud</value>
+  </data>
+  <data name="RichTextEditor_Import_From_Word" xml:space="preserve">
+    <value>Importera från Word</value>
+  </data>
+  <data name="RichTextEditor_Export_To_Word" xml:space="preserve">
+    <value>Exportera till Word</value>
+  </data>
+  <data name="RichTextEditor_Export_To_PDF" xml:space="preserve">
+    <value>Exportera till PDF</value>
+  </data>
+  <data name="RichTextEditor_Audio" xml:space="preserve">
+    <value>Sätt in ljud</value>
+  </data>
+  <data name="RichTextEditor_Video" xml:space="preserve">
+    <value>Sätt in ljud</value>
+  </data>
+  <data name="RichTextEditor_Default" xml:space="preserve">
+    <value>Standard</value>
   </data>
   <data name="DiagramComponent_X" xml:space="preserve">
     <value>X</value>
@@ -4572,6 +4638,57 @@
   <data name="PdfViewer_Of" xml:space="preserve">
     <value>av</value>
   </data>
+  <data name="PdfViewer_OrganizePages" xml:space="preserve">
+    <value>Organisera sidor</value>
+  </data>
+  <data name="PdfViewer_Pages" xml:space="preserve">
+    <value>Sidor</value>
+  </data>
+  <data name="PdfViewer_RotateLeft" xml:space="preserve">
+    <value>Rotera åt vänster</value>
+  </data>
+  <data name="PdfViewer_RotateRight" xml:space="preserve">
+    <value>Rotera åt höger</value>
+  </data>
+  <data name="PdfViewer_DuplicatePages" xml:space="preserve">
+    <value>Duplicera sidor</value>
+  </data>
+  <data name="PdfViewer_DeletePages" xml:space="preserve">
+    <value>Ta bort sidor</value>
+  </data>
+  <data name="PdfViewer_PageZoom" xml:space="preserve">
+    <value>Sidzoom</value>
+  </data>
+  <data name="PdfViewer_SelectAll" xml:space="preserve">
+    <value>Markera alla</value>
+  </data>
+  <data name="PdfViewer_ImportDocument" xml:space="preserve">
+    <value>Importera dokument</value>
+  </data>
+  <data name="PdfViewer_ExtractDocument" xml:space="preserve">
+    <value>Extrahera dokument</value>
+  </data>
+  <data name="PdfViewer_Total" xml:space="preserve">
+    <value>Totalt</value>
+  </data>
+  <data name="PdfViewer_SaveAs" xml:space="preserve">
+    <value>Spara som</value>
+  </data>
+  <data name="PdfViewer_InsertLeft" xml:space="preserve">
+    <value>Infoga till vänster</value>
+  </data>
+  <data name="PdfViewer_InsertRight" xml:space="preserve">
+    <value>Infoga till höger</value>
+  </data>
+  <data name="PdfViewer_DuplicatePage" xml:space="preserve">
+    <value>Duplicera sida</value>
+  </data>
+  <data name="PdfViewer_DeletePage" xml:space="preserve">
+    <value>Ta bort sida</value>
+  </data>
+  <data name="PdfViewer_AllPagesDelete" xml:space="preserve">
+    <value>Det går inte att ta bort alla sidor eftersom minst en sida måste finnas kvar i dokumentet</value>
+  </data>
   <data name="PdfViewer_Required_ServiceUrl_Error_Message" xml:space="preserve">
     <value>Denna PDF-visare kräver bearbetning på serversidan för att rendera PDF-filerna via webbtjänsten. Du måste konfigurera tjänstens URL för att fortsätta med PDF-visaren</value>
   </data>
@@ -4603,10 +4720,58 @@
     <value>AI-tjänstfel</value>
   </data>
   <data name="PdfViewer_CredentialErrorContent" xml:space="preserve">
-    <value>Inloggningsuppgifterna angavs inte, var felaktiga eller ogiltiga. Kontrollera och ange korrekta uppgifter och försök igen.</value>
+    <value>Uppgifterna angavs inte, är felaktiga eller ogiltiga. Ange korrekta uppgifter och försök igen.</value>
   </data>
   <data name="PdfViewer_ConnectionLostErrorContent" xml:space="preserve">
     <value>Anslutningen till AI-tjänsten har förlorats. Kontrollera din nätverksanslutning och försök igen.</value>
+  </data>
+  <data name="PdfViewer_UnSupportedDialogContent" xml:space="preserve">
+    <value>Den här filen stöder inte generativa AI-funktioner eftersom den är tom eller inte innehåller tillräckligt med text. Försök med en annan fil.</value>
+  </data>
+  <data name="SmartPdfViewer_TimeOutErrorHeader" xml:space="preserve">
+    <value>Begäran tog för lång tid</value>
+  </data>
+  <data name="SmartPdfViewer_TimeOutErrorContent" xml:space="preserve">
+    <value>Din sökbegäran tog längre tid än förväntat och överskred den maximalt tillåtna tiden.</value>
+  </data>
+  <data name="SmartPdfViewer_DisClaimerContent" xml:space="preserve">
+    <value>Svar som genereras av artificiell intelligens kan vara felaktiga eller vilseledande. Kontrollera alltid svaren och källorna noggrant.</value>
+  </data>
+  <data name="SmartPdfViewer_RedactionToolTip" xml:space="preserve">
+    <value>Smart redigering</value>
+  </data>
+  <data name="SmartPdfViewer_RedactHeader" xml:space="preserve">
+    <value>Välj mönstret</value>
+  </data>
+  <data name="SmartPdfViewer_CancelRedact" xml:space="preserve">
+    <value>Avbryt</value>
+  </data>
+  <data name="SmartPdfViewer_ApplyRedact" xml:space="preserve">
+    <value>Redigera</value>
+  </data>
+  <data name="SmartPdfViewer_ScanRedact" xml:space="preserve">
+    <value>Skanna</value>
+  </data>
+  <data name="SmartPdfViewer_SmartFillToolTip" xml:space="preserve">
+    <value>Smart formulärifyllning</value>
+  </data>
+  <data name="SmartPdfViewer_SmartFillText" xml:space="preserve">
+    <value>Smart fyllning</value>
+  </data>
+  <data name="SmartPdfViewer_AIAssistanceToolTip" xml:space="preserve">
+    <value>AI-assistans</value>
+  </data>
+  <data name="SmartPdfViewer_RedactOptionsHeader" xml:space="preserve">
+    <value>Välj data att redigera</value>
+  </data>
+  <data name="SmartPdfViewer_NoInformationErrorContent" xml:space="preserve">
+    <value>Ingen känslig information hittades i dokumentet.</value>
+  </data>
+  <data name="SmartPdfViewer_NoInformationErrorContentHeader" xml:space="preserve">
+    <value>Ingen känslig data hittades</value>
+  </data>
+  <data name="SmartPdfViewer_RedactDisclaimer" xml:space="preserve">
+    <value>Information som upptäckts av artificiell intelligens kan vara felaktig. Vänligen kontrollera resultaten innan användning.</value>
   </data>
   <data name="DocumentEditor_Table" xml:space="preserve">
     <value>Tabell</value>
@@ -5447,6 +5612,9 @@
   </data>
   <data name="DocumentEditor_UnderlineErrors" xml:space="preserve">
     <value>Understrek fel</value>
+  </data>
+  <data name="DocumentEditor_MoreSuggestions" xml:space="preserve">
+    <value>Mer förslag</value>
   </data>
   <data name="DocumentEditor_Ignore" xml:space="preserve">
     <value>Ignorera</value>
@@ -7932,6 +8100,12 @@
   <data name="Spreadsheet_ChooseTime" xml:space="preserve">
     <value>Välj tid</value>
   </data>
+  <data name="Spreadsheet_Clipboard" xml:space="preserve">
+    <value>Urklipp</value>
+  </data>
+  <data name="Spreadsheet_EnterValue" xml:space="preserve">
+    <value>Ange värde</value>
+  </data>
   <data name="Spreadsheet_CustomFilterDatePlaceHolder" xml:space="preserve">
     <value>Anpassad filterdatum</value>
   </data>
@@ -7980,12 +8154,18 @@
   <data name="Spreadsheet_FilterOperator" xml:space="preserve">
     <value>Filteroperator</value>
   </data>
+  <data name="Spreadsheet_FilterValue" xml:space="preserve">
+  <value>Filtervärde</value>
+</data>
   <data name="Spreadsheet_ClearFilter" xml:space="preserve">
     <value>Rensa filter</value>
   </data>
   <data name="Spreadsheet_NumberFilter" xml:space="preserve">
     <value>Numerisk filter</value>
   </data>
+  <data name="Spreadsheet_Font" xml:space="preserve">
+  <value>Teckensnitt</value>
+</data>
   <data name="Spreadsheet_TextFilter" xml:space="preserve">
     <value>Textfilter</value>
   </data>
@@ -8040,13 +8220,13 @@
   <data name="Spreadsheet_LastMonth" xml:space="preserve">
     <value>Förra månaden</value>
   </data>
-  <data name="Spreadsheet_NextQuater" xml:space="preserve">
+  <data name="Spreadsheet_NextQuarter" xml:space="preserve">
     <value>Nästa kvartal</value>
   </data>
-  <data name="Spreadsheet_ThisQuater" xml:space="preserve">
+  <data name="Spreadsheet_ThisQuarter" xml:space="preserve">
     <value>Detta kvartal</value>
   </data>
-  <data name="Spreadsheet_LastQuater" xml:space="preserve">
+  <data name="Spreadsheet_LastQuarter" xml:space="preserve">
     <value>Förra kvartalet</value>
   </data>
   <data name="Spreadsheet_NextYear" xml:space="preserve">
@@ -8241,11 +8421,296 @@
   <data name="Spreadsheet_FontSize" xml:space="preserve">
     <value>Teckenstorlek</value>
   </data>
-  <data name="RichTextEditor_InlineCode" xml:space="preserve">
-    <value>Infogad kod</value>
+  <data name="Spreadsheet_DataLimitExceed" xml:space="preserve">
+    <value>Fildata är för stora och det tar längre tid att bearbeta, vill du fortsätta?</value>
   </data>
-  <data name="RichTextEditor_SlashMenuHeading1" xml:space="preserve">
-    <value>Rubrik 1</value>
+  <data name="Spreadsheet_FileLimitExceed" xml:space="preserve">
+    <value>Filstorleken är för stor och det tar längre tid att bearbeta, vill du fortsätta?</value>
+  </data>
+  <data name="Spreadsheet_PasswordPrompt" xml:space="preserve">
+    <value>är skyddad</value>
+  </data>
+  <data name="Spreadsheet_UnsupportedFile" xml:space="preserve">
+    <value>Ej stödd fil</value>
+  </data>
+  <data name="Spreadsheet_View" xml:space="preserve">
+    <value>Visa</value>
+  </data>
+  <data name="Spreadsheet_Borders" xml:space="preserve">
+    <value>Kanter</value>
+  </data>
+  <data name="Spreadsheet_RightBorder" xml:space="preserve">
+    <value>Höger kant</value>
+  </data>
+  <data name="Spreadsheet_BottomBorder" xml:space="preserve">
+    <value>Nedre kant</value>
+  </data>
+  <data name="Spreadsheet_TopBorder" xml:space="preserve">
+    <value>Övre kant</value>
+  </data>
+  <data name="Spreadsheet_LeftBorder" xml:space="preserve">
+    <value>Vänster kant</value>
+  </data>
+  <data name="Spreadsheet_NoBorder" xml:space="preserve">
+    <value>Ingen kant</value>
+  </data>
+  <data name="Spreadsheet_AllBorders" xml:space="preserve">
+    <value>Alla kanter</value>
+  </data>
+  <data name="Spreadsheet_OutsideBorders" xml:space="preserve">
+    <value>Yttre kanter</value>
+  </data>
+  <data name="Spreadsheet_InsideBorders" xml:space="preserve">
+    <value>Inre kanter</value>
+  </data>
+  <data name="Spreadsheet_HorizontalBorders" xml:space="preserve">
+    <value>Vågräta kanter</value>
+  </data>
+  <data name="Spreadsheet_VerticalBorders" xml:space="preserve">
+    <value>Lodräta kanter</value>
+  </data>
+  <data name="Spreadsheet_BorderColor" xml:space="preserve">
+    <value>Kantfärg</value>
+  </data>
+  <data name="Spreadsheet_BorderStyle" xml:space="preserve">
+    <value>Kantstil</value>
+  </data>
+  <data name="Spreadsheet_Thin" xml:space="preserve">
+    <value>Tunn</value>
+  </data>
+  <data name="Spreadsheet_Medium" xml:space="preserve">
+    <value>Medel</value>
+  </data>
+  <data name="Spreadsheet_Thick" xml:space="preserve">
+    <value>Tjock</value>
+  </data>
+  <data name="Spreadsheet_Dotted" xml:space="preserve">
+    <value>Prickad</value>
+  </data>
+  <data name="Spreadsheet_Dashed" xml:space="preserve">
+    <value>Streckad</value>
+  </data>
+  <data name="Spreadsheet_Double" xml:space="preserve">
+    <value>Dubbel</value>
+  </data>
+  <data name="Spreadsheet_ShowGridlines" xml:space="preserve">
+    <value>Visa rutnät</value>
+  </data>
+  <data name="Spreadsheet_HideGridlines" xml:space="preserve">
+    <value>Dölj rutnät</value>
+  </data>
+  <data name="Spreadsheet_WebPage" xml:space="preserve">
+    <value>Webbsida</value>
+  </data>
+  <data name="Spreadsheet_ThisDocument" xml:space="preserve">
+    <value>Detta dokument</value>
+  </data>
+  <data name="Spreadsheet_DisplayText" xml:space="preserve">
+    <value>Visningstekst</value>
+  </data>
+  <data name="Spreadsheet_Url" xml:space="preserve">
+    <value>URL</value>
+  </data>
+  <data name="Spreadsheet_Sheet" xml:space="preserve">
+    <value>Kalkylblad</value>
+  </data>
+  <data name="Spreadsheet_ReferenceCell" xml:space="preserve">
+    <value>Cellreferens</value>
+  </data>
+  <data name="Spreadsheet_DownloadPDF" xml:space="preserve">
+    <value>Ladda ner som PDF</value>
+  </data>
+  <data name="Spreadsheet_DataOperations" xml:space="preserve">
+    <value>Dataåtgärder</value>
+  </data>
+  <data name="Spreadsheet_General" xml:space="preserve">
+    <value>Allmänt</value>
+  </data>
+  <data name="Spreadsheet_Number" xml:space="preserve">
+    <value>Tal</value>
+  </data>
+  <data name="Spreadsheet_Currency" xml:space="preserve">
+    <value>Valuta</value>
+  </data>
+  <data name="Spreadsheet_Accounting" xml:space="preserve">
+    <value>Redovisning</value>
+  </data>
+  <data name="Spreadsheet_ShortDate" xml:space="preserve">
+    <value>Kort datum</value>
+  </data>
+  <data name="Spreadsheet_LongDate" xml:space="preserve">
+    <value>Långt datum</value>
+  </data>
+  <data name="Spreadsheet_Time" xml:space="preserve">
+    <value>Tid</value>
+  </data>
+  <data name="Spreadsheet_Percentage" xml:space="preserve">
+    <value>Procent</value>
+  </data>
+  <data name="Spreadsheet_Fraction" xml:space="preserve">
+    <value>Bråk</value>
+  </data>
+  <data name="Spreadsheet_Scientific" xml:space="preserve">
+    <value>Vetenskapligt</value>
+  </data>
+  <data name="Spreadsheet_Custom" xml:space="preserve">
+    <value>Anpassat</value>
+  </data>
+  <data name="Spreadsheet_NumberFormat" xml:space="preserve">
+    <value>Talformat</value>
+  </data>
+  <data name="Spreadsheet_Algerian" xml:space="preserve">
+    <value>Algerian</value>
+  </data>
+  <data name="Spreadsheet_Arial" xml:space="preserve">
+    <value>Arial</value>
+  </data>
+  <data name="Spreadsheet_Calibri" xml:space="preserve">
+    <value>Calibri</value>
+  </data>
+  <data name="Spreadsheet_Cambria" xml:space="preserve">
+    <value>Cambria</value>
+  </data>
+  <data name="Spreadsheet_CambriaMath" xml:space="preserve">
+    <value>Cambria Math</value>
+  </data>
+  <data name="Spreadsheet_CourierNew" xml:space="preserve">
+    <value>Courier New</value>
+  </data>
+  <data name="Spreadsheet_Candara" xml:space="preserve">
+    <value>Candara</value>
+  </data>
+  <data name="Spreadsheet_Georgia" xml:space="preserve">
+    <value>Georgia</value>
+  </data>
+  <data name="Spreadsheet_Impact" xml:space="preserve">
+    <value>Impact</value>
+  </data>
+  <data name="Spreadsheet_SegoePrint" xml:space="preserve">
+    <value>Segoe Print</value>
+  </data>
+  <data name="Spreadsheet_SegoeScript" xml:space="preserve">
+    <value>Segoe Script</value>
+  </data>
+  <data name="Spreadsheet_SegoeUI" xml:space="preserve">
+    <value>Segoe UI</value>
+  </data>
+  <data name="Spreadsheet_Symbol" xml:space="preserve">
+    <value>Symbol</value>
+  </data>
+  <data name="Spreadsheet_TimesNewRoman" xml:space="preserve">
+    <value>Times New Roman</value>
+  </data>
+  <data name="Spreadsheet_Verdana" xml:space="preserve">
+    <value>Verdana</value>
+  </data>
+  <data name="Spreadsheet_Windings" xml:space="preserve">
+    <value>Windings</value>
+  </data>
+  <data name="Spreadsheet_KeepSourceFormat" xml:space="preserve">
+    <value>Behåll källformat</value>
+  </data>
+  <data name="Spreadsheet_MergeFormat" xml:space="preserve">
+    <value>Sammanfoga format</value>
+  </data>
+  <data name="Spreadsheet_KeepTextOnly" xml:space="preserve">
+    <value>Behåll endast text</value>
+  </data>
+  <data name="Spreadsheet_Ascending" xml:space="preserve">
+    <value>Stigande</value>
+  </data>
+  <data name="Spreadsheet_Descending" xml:space="preserve">
+    <value>Fallande</value>
+  </data>
+  <data name="Spreadsheet_Print" xml:space="preserve">
+    <value>Skriv ut</value>
+  </data>
+  <data name="Spreadsheet_Text" xml:space="preserve">
+    <value>Text</value>
+  </data>
+  <data name="Spreadsheet_Value" xml:space="preserve">
+    <value>Värde</value>
+  </data>
+  <data name="Spreadsheet_AlignLeft" xml:space="preserve">
+    <value>Vänsterjustera</value>
+  </data>
+  <data name="Spreadsheet_AlignCenter" xml:space="preserve">
+    <value>Centrera</value>
+  </data>
+  <data name="Spreadsheet_Reapply" xml:space="preserve">
+    <value>Ansök igen</value>
+  </data>
+  <data name="Spreadsheet_Hide" xml:space="preserve">
+    <value>Dölj</value>
+  </data>
+  <data name="Spreadsheet_OkButton" xml:space="preserve">
+    <value>OK</value>
+  </data>
+    <data name="Spreadsheet_Filter" xml:space="preserve">
+      <value>Filtrera</value>
+    </data>
+  <data name="Spreadsheet_AlignRight" xml:space="preserve">
+    <value>Högerjustera</value>
+  </data>
+  <data name="Spreadsheet_InsertRowBelow" xml:space="preserve">
+    <value>Infoga rad nedanför</value>
+  </data>
+  <data name="Spreadsheet_Justify" xml:space="preserve">
+    <value>Justera</value>
+  </data>
+  <data name="Spreadsheet_NoResult" xml:space="preserve">
+    <value>Inget resultat</value>
+  </data>
+  <data name="Spreadsheet_AlignTop" xml:space="preserve">
+    <value>Justera överkant</value>
+  </data>
+  <data name="Spreadsheet_AlignMiddle" xml:space="preserve">
+    <value>Justera mitten</value>
+  </data>
+  <data name="Spreadsheet_AlignBottom" xml:space="preserve">
+    <value>Justera nederkant</value>
+  </data>
+  <data name="Spreadsheet_ChangeCase" xml:space="preserve">
+    <value>Ändra fall</value>
+  </data>
+  <data name="Spreadsheet_FillSeries" xml:space="preserve">
+    <value>Fyll serie</value>
+  </data>
+  <data name="Spreadsheet_FillFormattingOnly" xml:space="preserve">
+    <value>Fyll endast formatering</value>
+  </data>
+  <data name="Spreadsheet_FillWithoutFormatting" xml:space="preserve">
+    <value>Fyll utan formatering</value>
+  </data>
+  <data name="Spreadsheet_CopyCells" xml:space="preserve">
+    <value>Kopiera celler</value>
+  </data>
+  <data name="Spreadsheet_MergeCell" xml:space="preserve">
+    <value>Sammanfoga cell</value>
+  </data>
+  <data name="Spreadsheet_MergeCellDialog" xml:space="preserve">
+    <value>Sammanfogning av celler behåller bara det övre vänstra värdet och förkastas andra värden.</value>
+  </data>
+  <data name="Spreadsheet_MergeCellSize" xml:space="preserve">
+    <value>För att göra det måste alla sammanfogade celler ha samma storlek.</value>
+  </data>
+  <data name="Spreadsheet_MergeCenter" xml:space="preserve">
+    <value>Sammanfoga &amp; Centrera</value>
+  </data>
+  <data name="Spreadsheet_MergeAcross" xml:space="preserve">
+    <value>Sammanfoga över</value>
+  </data>
+  <data name="Spreadsheet_MergeCells" xml:space="preserve">
+    <value>Sammanfoga celler</value>
+  </data>
+  <data name="Spreadsheet_UnMergeCells" xml:space="preserve">
+    <value>Skilj celler</value>
+  </data>
+<data name="RichTextEditor_InlineCode" xml:space="preserve">
+  <value>Infogad kod</value>
+</data>
+<data name="RichTextEditor_SlashMenuHeading1" xml:space="preserve">
+  <value>Rubrik 1</value>
 </data>
 <data name="RichTextEditor_SlashMenuHeading2" xml:space="preserve">
     <value>Rubrik 2</value>
@@ -8439,10 +8904,172 @@
   <data name="Spreadsheet_ExpandRibbonTab" xml:space="preserve">
     <value>Expandera verktygsfältet</value>
   </data>
+  <data name="Spreadsheet_InvalidFileNameMessage" xml:space="preserve">
+    <value>Använd ett namn som inte innehåller dessa tecken: \ / : * ? " |</value>
+  </data>
+  <data name="Spreadsheet_EmptyFileName" xml:space="preserve">
+    <value>Filnamnet kan inte vara tomt.</value>
+  </data>
+  <data name="Spreadsheet_CircularReference" xml:space="preserve">
+    <value>Vi upptäckte att du skrev en formel med en cirkelreferens.</value>
+  </data>
   <data name="RichTextEditor_FormatPainter" xml:space="preserve">
     <value>Formateringspensel</value>
   </data>
+  <data name="RichTextEditor_LineHeight" xml:space="preserve">
+    <value>Radavstånd</value>
+  </data>
   <data name="DataForm_SubmitContent" xml:space="preserve">
     <value>Skicka</value>
+  </data>
+  <data name="AssistView_FileSize_Failure" xml:space="preserve">
+    <value>Uppladdningen misslyckades: Filstorleken är för stor</value>
+  </data>
+  <data name="ChatUI_Forwarded_Message" xml:space="preserve">
+    <value>Vidarebefordrat</value>
+  </data>
+  <data name="ChatUI_MentionNoRecord" xml:space="preserve">
+    <value>Inga poster hittades</value>
+  </data>
+  <data name="ChatUI_Send" xml:space="preserve">
+    <value>Skicka</value>
+  </data>
+  <data name="ChatUI_Attachments" xml:space="preserve">
+    <value>Bifoga fil</value>
+  </data>
+  <data name="ChatUI_Download" xml:space="preserve">
+    <value>Ladda ned</value>
+  </data>
+  <data name="ChatUI_Close" xml:space="preserve">
+    <value>Stäng</value>
+  </data>
+  <data name="ChatUI_FileUploadFailure" xml:space="preserve">
+    <value>Uppladdningsgränsen har nåtts: högst {0} filer tillåtna. Ta bort extra filer för att fortsätta uppladdningen</value>
+  </data>
+  <data name="ChatUI_FilePreview" xml:space="preserve">
+    <value>Ingen förhandsvisning tillgänglig</value>
+  </data>
+  <data name="ChatUI_FileSizeFailure" xml:space="preserve">
+    <value>Uppladdningen misslyckades: storleken på {0} filer är för stor</value>
+  </data>
+  <data name="AIAssistView_FileCountFailure" xml:space="preserve">
+    <value>Uppladdningsgränsen har nåtts: högst {0} filer tillåtna. Ta bort extra filer för att fortsätta uppladdningen</value>
+  </data>
+  <data name="AssistView_Send" xml:space="preserve">
+    <value>Skicka</value>
+  </data>
+  <data name="AssistView_Attachments" xml:space="preserve">
+    <value>Bifoga fil</value>
+  </data>
+  <data name="AssistView_Clear" xml:space="preserve">
+    <value>Rensa</value>
+  </data>
+  <data name="BlockEditor_Paragraph" xml:space="preserve">
+      <value>Skriv något eller '/' för kommandon.</value>
+  </data>
+  <data name="BlockEditor_Heading1" xml:space="preserve">
+      <value>Rubrik 1</value>
+  </data>
+  <data name="BlockEditor_Heading2" xml:space="preserve">
+      <value>Rubrik 2</value>
+  </data>
+  <data name="BlockEditor_Heading3" xml:space="preserve">
+      <value>Rubrik 3</value>
+  </data>
+  <data name="BlockEditor_Heading4" xml:space="preserve">
+      <value>Rubrik 4</value>
+  </data>
+  <data name="BlockEditor_CollapsibleParagraph" xml:space="preserve">
+      <value>Vikbart stycke</value>
+  </data>
+  <data name="BlockEditor_CollapsibleHeading1" xml:space="preserve">
+      <value>Vikbar rubrik 1</value>
+  </data>
+  <data name="BlockEditor_CollapsibleHeading2" xml:space="preserve">
+      <value>Vikbar rubrik 2</value>
+  </data>
+  <data name="BlockEditor_CollapsibleHeading3" xml:space="preserve">
+      <value>Vikbar rubrik 3</value>
+  </data>
+  <data name="BlockEditor_CollapsibleHeading4" xml:space="preserve">
+      <value>Vikbar rubrik 4</value>
+  </data>
+  <data name="BlockEditor_BulletList" xml:space="preserve">
+      <value>Lägg till objekt</value>
+  </data>
+  <data name="BlockEditor_NumberedList" xml:space="preserve">
+      <value>Lägg till objekt</value>
+  </data>
+  <data name="BlockEditor_Checklist" xml:space="preserve">
+      <value>Uppgift</value>
+  </data>
+  <data name="BlockEditor_Quote" xml:space="preserve">
+      <value>Skriv ett citat</value>
+  </data>
+  <data name="BlockEditor_Callout" xml:space="preserve">
+      <value>Skriv en notering</value>
+  </data>
+  <data name="BlockEditor_AddIconTooltip" xml:space="preserve">
+      <value>Klicka för att infoga nedan</value>
+  </data>
+  <data name="BlockEditor_DragIconTooltipActionMenu" xml:space="preserve">
+      <value>Klicka för att öppna</value>
+  </data>
+  <data name="BlockEditor_DragIconTooltip" xml:space="preserve">
+      <value>(Håll för att dra)</value>
+  </data>
+  <data name="BlockEditor_InsertLink" xml:space="preserve">
+      <value>Infoga länk</value>
+  </data>
+  <data name="BlockEditor_LinkText" xml:space="preserve">
+      <value>Text</value>
+  </data>
+  <data name="BlockEditor_LinkTextPlaceholder" xml:space="preserve">
+      <value>Länktext</value>
+  </data>
+  <data name="BlockEditor_LinkUrl" xml:space="preserve">
+      <value>URL</value>
+  </data>
+  <data name="BlockEditor_LinkUrlPlaceholder" xml:space="preserve">
+      <value>https://exempel.com</value>
+  </data>
+  <data name="BlockEditor_LinkTitle" xml:space="preserve">
+      <value>Rubrik</value>
+  </data>
+  <data name="BlockEditor_LinkTitlePlaceholder" xml:space="preserve">
+      <value>Länkrubrik</value>
+  </data>
+  <data name="BlockEditor_LinkOpenInNewWindow" xml:space="preserve">
+      <value>Öppna i nytt fönster</value>
+  </data>
+  <data name="BlockEditor_LinkInsert" xml:space="preserve">
+      <value>Infoga</value>
+  </data>
+  <data name="BlockEditor_LinkRemove" xml:space="preserve">
+      <value>Ta bort</value>
+  </data>
+  <data name="BlockEditor_LinkCancel" xml:space="preserve">
+      <value>Avbryt</value>
+  </data>
+  <data name="BlockEditor_CodeCopyTooltip" xml:space="preserve">
+      <value>Kopiera kod</value>
+  </data>
+  <data name="DocumentEditorContainer_CommentsCloseHeader" xml:space="preserve">
+    <value>Osparade kommentarer</value>
+  </data>
+  <data name="DocumentEditorContainer_CommentsCloseContent" xml:space="preserve">
+    <value>Du har kommentarer som inte har postats ännu. Om du lämnar den här sidan kommer de att kasseras</value>
+  </data>
+  <data name="DocumentEditorContainer_KeepEditing" xml:space="preserve">
+    <value>Fortsätt redigera</value>
+  </data>
+  <data name="DocumentEditorContainer_DiscardComments" xml:space="preserve">
+    <value>Släng kommentarer</value>
+  </data>
+  <data name="DocumentEditor_Resolved" xml:space="preserve">
+    <value>Löst</value>
+  </data>
+  <data name="DocumentEditor_CommentMark" xml:space="preserve">
+    <value>Klicka för att se den här kommentaren</value>
   </data>
 </root>

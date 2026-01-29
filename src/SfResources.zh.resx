@@ -1083,11 +1083,23 @@
   <data name="Gantt_SplitTask" xml:space="preserve">
     <value>分割任務</value>
   </data>
+  <data name="Gantt_WbsCode" xml:space="preserve">
+    <value>工作分解结构代码</value>
+  </data>
+  <data name="Gantt_WbsPredecessor" xml:space="preserve">
+    <value>工作分解结构中的前身</value>
+  </data>
   <data name="Gantt_MergeTask" xml:space="preserve">
     <value>合併任務</value>
   </data>
   <data name="Gantt_UnassignedTasks" xml:space="preserve">
     <value>未分配的任務</value>
+  </data>
+  <data name="Gantt_Undo" xml:space="preserve">
+    <value>撤销</value>
+  </data>
+  <data name="Gantt_Redo" xml:space="preserve">
+    <value>重做</value>
   </data>
   <data name="DiagramComponent_X" xml:space="preserve">
     <value>X</value>
@@ -3226,22 +3238,22 @@
     <value>Segoe UI</value>
   </data>
   <data name="RichTextEditor_FontNameArial" xml:space="preserve">
-    <value>Arial</value>
+    <value>無襯線字體</value>
   </data>
   <data name="RichTextEditor_FontNameGeorgia" xml:space="preserve">
-    <value>Georgia</value>
+    <value>喬治亞</value>
   </data>
   <data name="RichTextEditor_FontNameImpact" xml:space="preserve">
-    <value>Impact</value>
+    <value>影響</value>
   </data>
   <data name="RichTextEditor_FontNameTahoma" xml:space="preserve">
-    <value>Tahoma</value>
+    <value>塔霍馬</value>
   </data>
   <data name="RichTextEditor_FontNameTimesNewRoman" xml:space="preserve">
-    <value>Times New Roman</value>
+    <value>新羅馬字體</value>
   </data>
   <data name="RichTextEditor_FontNameVerdana" xml:space="preserve">
-    <value>Verdana</value>
+    <value>維達</value>
   </data>
   <data name="RichTextEditor_Alignments" xml:space="preserve">
     <value>對齊方式</value>
@@ -3537,6 +3549,18 @@
   <data name="RichTextEditor_TableRemove" xml:space="preserve">
     <value>删除表</value>
   </data>
+  <data name="RichTextEditor_TableCell" xml:space="preserve">
+    <value>表格单元格</value>
+  </data>
+  <data name="RichTextEditor_TableCellMerge" xml:space="preserve">
+    <value>合并单元格</value>
+  </data>
+  <data name="RichTextEditor_TableCellHorizontalSplit" xml:space="preserve">
+    <value>水平分割</value>
+  </data>
+  <data name="RichTextEditor_TableCellVerticalSplit" xml:space="preserve">
+    <value>垂直分割</value>
+  </data>
   <data name="RichTextEditor_TableCellBackground" xml:space="preserve">
     <value>表單元格背景</value>
   </data>
@@ -3683,6 +3707,48 @@
   </data>
   <data name="RichTextEditor_Img_AltText_Unsupported" xml:space="preserve">
     <value>不支援的文件格式</value>
+  </data>
+  <data name="RichTextEditor_ImportDeviceUploadMessage" xml:space="preserve">
+    <value>点击这里上传</value>
+  </data>
+  <data name="RichTextEditor_ImportUploadMessage" xml:space="preserve">
+    <value>拖放或浏览一个Word文档</value>
+  </data>
+  <data name="RichTextEditor_ImportHeader" xml:space="preserve">
+    <value>导入单词</value>
+  </data>
+  <data name="RichTextEditor_DialogImport" xml:space="preserve">
+    <value>插入</value>
+  </data>
+  <data name="RichTextEditor_VideoHeader" xml:space="preserve">
+    <value>插入视频</value>
+  </data>
+  <data name="RichTextEditor_EditVideoHeader" xml:space="preserve">
+    <value>编辑视频</value>
+  </data>
+  <data name="RichTextEditor_AudioHeader" xml:space="preserve">
+    <value>插入音频</value>
+  </data>
+  <data name="RichTextEditor_EditAudioHeader" xml:space="preserve">
+    <value>编辑音频</value>
+  </data>
+  <data name="RichTextEditor_Import_From_Word" xml:space="preserve">
+    <value>从Word导入</value>
+  </data>
+  <data name="RichTextEditor_Export_To_Word" xml:space="preserve">
+    <value>导出到Word</value>
+  </data>
+  <data name="RichTextEditor_Export_To_PDF" xml:space="preserve">
+    <value>导出为PDF</value>
+  </data>
+  <data name="RichTextEditor_Audio" xml:space="preserve">
+    <value>插入音频</value>
+  </data>
+  <data name="RichTextEditor_Video" xml:space="preserve">
+    <value>插入视频</value>
+  </data>
+  <data name="RichTextEditor_Default" xml:space="preserve">
+    <value>Default</value>
   </data>
   <data name="PdfViewer" xml:space="preserve">
     <value>PDF查看器</value>
@@ -4575,6 +4641,57 @@
   <data name="PdfViewer_Of" xml:space="preserve">
     <value>的</value>
   </data>
+  <data name="PdfViewer_OrganizePages" xml:space="preserve">
+    <value>整理页面</value>
+  </data>
+  <data name="PdfViewer_Pages" xml:space="preserve">
+    <value>页面</value>
+  </data>
+  <data name="PdfViewer_RotateLeft" xml:space="preserve">
+    <value>向左旋转</value>
+  </data>
+  <data name="PdfViewer_RotateRight" xml:space="preserve">
+    <value>向右旋转</value>
+  </data>
+  <data name="PdfViewer_DuplicatePages" xml:space="preserve">
+    <value>复制页面</value>
+  </data>
+  <data name="PdfViewer_DeletePages" xml:space="preserve">
+    <value>删除页面</value>
+  </data>
+  <data name="PdfViewer_PageZoom" xml:space="preserve">
+    <value>页面缩放</value>
+  </data>
+  <data name="PdfViewer_SelectAll" xml:space="preserve">
+    <value>全选</value>
+  </data>
+  <data name="PdfViewer_ImportDocument" xml:space="preserve">
+    <value>导入文档</value>
+  </data>
+  <data name="PdfViewer_ExtractDocument" xml:space="preserve">
+    <value>提取文档</value>
+  </data>
+  <data name="PdfViewer_Total" xml:space="preserve">
+    <value>总计</value>
+  </data>
+  <data name="PdfViewer_SaveAs" xml:space="preserve">
+    <value>另存为</value>
+  </data>
+  <data name="PdfViewer_InsertLeft" xml:space="preserve">
+    <value>插入到左侧</value>
+  </data>
+  <data name="PdfViewer_InsertRight" xml:space="preserve">
+    <value>插入到右侧</value>
+  </data>
+  <data name="PdfViewer_DuplicatePage" xml:space="preserve">
+    <value>复制页面</value>
+  </data>
+  <data name="PdfViewer_DeletePage" xml:space="preserve">
+    <value>删除页面</value>
+  </data>
+  <data name="PdfViewer_AllPagesDelete" xml:space="preserve">
+    <value>无法删除所有页面，因为文档中必须至少保留一页</value>
+  </data>
   <data name="PdfViewer_Required_ServiceUrl_Error_Message" xml:space="preserve">
     <value>此 PDF 查看器需要服务器端处理才能通过 Web 服务呈现 PDF 文件。您必须配置服务 URL 才能继续使用 PDF 查看器</value>
   </data>
@@ -4606,10 +4723,58 @@
     <value>AI 服务错误</value>
   </data>
   <data name="PdfViewer_CredentialErrorContent" xml:space="preserve">
-    <value>未提供凭据，或凭据不正确或无效。请检查并输入正确的凭据，然后重试。</value>
+    <value>未提供凭据，凭据不正确或无效。请输入正确的凭据并重试。</value>
   </data>
   <data name="PdfViewer_ConnectionLostErrorContent" xml:space="preserve">
     <value>与 AI 服务的连接已中断。请检查您的网络连接并重试。</value>
+  </data>
+  <data name="PdfViewer_UnSupportedDialogContent" xml:space="preserve">
+    <value>该文件不支持生成式 AI 功能，因为它为空或不包含足够的文本。请尝试其他文件。</value>
+  </data>
+  <data name="SmartPdfViewer_TimeOutErrorHeader" xml:space="preserve">
+    <value>请求超时</value>
+  </data>
+  <data name="SmartPdfViewer_TimeOutErrorContent" xml:space="preserve">
+    <value>您的搜索请求耗时超过预期，已超出允许的最长时间。</value>
+  </data>
+  <data name="SmartPdfViewer_DisClaimerContent" xml:space="preserve">
+    <value>由人工智能生成的回答可能不准确或具有误导性。请务必仔细核实回答内容和信息来源。</value>
+  </data>
+  <data name="SmartPdfViewer_RedactionToolTip" xml:space="preserve">
+    <value>智能编辑</value>
+  </data>
+  <data name="SmartPdfViewer_RedactHeader" xml:space="preserve">
+    <value>择文</value>
+  </data>
+  <data name="SmartPdfViewer_CancelRedact" xml:space="preserve">
+    <value>罢之</value>
+  </data>
+  <data name="SmartPdfViewer_ApplyRedact" xml:space="preserve">
+    <value>编辑</value>
+  </data>
+  <data name="SmartPdfViewer_ScanRedact" xml:space="preserve">
+    <value>扫描</value>
+  </data>
+  <data name="SmartPdfViewer_SmartFillToolTip" xml:space="preserve">
+    <value>智能表单填</value>
+  </data>
+  <data name="SmartPdfViewer_SmartFillText" xml:space="preserve">
+    <value>智能充之</value>
+  </data>
+  <data name="SmartPdfViewer_AIAssistanceToolTip" xml:space="preserve">
+    <value>AI辅助</value>
+  </data>
+  <data name="SmartPdfViewer_RedactOptionsHeader" xml:space="preserve">
+    <value>选择要编辑的数据</value>
+  </data>
+  <data name="SmartPdfViewer_NoInformationErrorContent" xml:space="preserve">
+    <value>在文件中未发现敏感信息。</value>
+  </data>
+  <data name="SmartPdfViewer_NoInformationErrorContentHeader" xml:space="preserve">
+    <value>未发现敏感数据</value>
+  </data>
+  <data name="SmartPdfViewer_RedactDisclaimer" xml:space="preserve">
+    <value>由人工智能检测的信息可能不准确。请在使用前核实结果。</value>
   </data>
   <data name="DocumentEditor_Table" xml:space="preserve">
     <value>表</value>
@@ -5450,6 +5615,9 @@
   </data>
   <data name="DocumentEditor_UnderlineErrors" xml:space="preserve">
     <value>下劃線錯誤</value>
+  </data>
+  <data name="DocumentEditor_MoreSuggestions" xml:space="preserve">
+    <value>更多建议</value>
   </data>
   <data name="DocumentEditor_Ignore" xml:space="preserve">
     <value>忽視</value>
@@ -8052,13 +8220,13 @@
   <data name="Spreadsheet_LastMonth" xml:space="preserve">
     <value>上个月</value>
   </data>
-  <data name="Spreadsheet_NextQuater" xml:space="preserve">
+  <data name="Spreadsheet_NextQuarter" xml:space="preserve">
     <value>下一个季度</value>
   </data>
-  <data name="Spreadsheet_ThisQuater" xml:space="preserve">
+  <data name="Spreadsheet_ThisQuarter" xml:space="preserve">
     <value>这个季度</value>
   </data>
-  <data name="Spreadsheet_LastQuater" xml:space="preserve">
+  <data name="Spreadsheet_LastQuarter" xml:space="preserve">
     <value>上个季度</value>
   </data>
   <data name="Spreadsheet_NextYear" xml:space="preserve">
@@ -8253,11 +8421,296 @@
   <data name="Spreadsheet_FontSize" xml:space="preserve">
     <value>字体大小</value>
   </data>
-  <data name="RichTextEditor_InlineCode" xml:space="preserve">
-    <value>内联代码</value>
+  <data name="Spreadsheet_DataLimitExceed" xml:space="preserve">
+    <value>文件数据太大，处理需要更多时间，是否要继续？</value>
   </data>
-  <data name="RichTextEditor_SlashMenuHeading1" xml:space="preserve">
-    <value>标题 1</value>
+  <data name="Spreadsheet_FileLimitExceed" xml:space="preserve">
+    <value>文件太大，处理需要更多时间，是否要继续？</value>
+  </data>
+  <data name="Spreadsheet_PasswordPrompt" xml:space="preserve">
+    <value>受保护</value>
+  </data>
+  <data name="Spreadsheet_UnsupportedFile" xml:space="preserve">
+    <value>不受支持的文件</value>
+  </data>
+  <data name="Spreadsheet_View" xml:space="preserve">
+    <value>视图</value>
+  </data>
+  <data name="Spreadsheet_Borders" xml:space="preserve">
+    <value>边框</value>
+  </data>
+  <data name="Spreadsheet_RightBorder" xml:space="preserve">
+    <value>右边框</value>
+  </data>
+  <data name="Spreadsheet_BottomBorder" xml:space="preserve">
+    <value>下边框</value>
+  </data>
+  <data name="Spreadsheet_TopBorder" xml:space="preserve">
+    <value>上边框</value>
+  </data>
+  <data name="Spreadsheet_LeftBorder" xml:space="preserve">
+    <value>左边框</value>
+  </data>
+  <data name="Spreadsheet_NoBorder" xml:space="preserve">
+    <value>无边框</value>
+  </data>
+  <data name="Spreadsheet_AllBorders" xml:space="preserve">
+    <value>所有边框</value>
+  </data>
+  <data name="Spreadsheet_OutsideBorders" xml:space="preserve">
+    <value>外边框</value>
+  </data>
+  <data name="Spreadsheet_InsideBorders" xml:space="preserve">
+    <value>内边框</value>
+  </data>
+  <data name="Spreadsheet_HorizontalBorders" xml:space="preserve">
+    <value>水平边框</value>
+  </data>
+  <data name="Spreadsheet_VerticalBorders" xml:space="preserve">
+    <value>垂直边框</value>
+  </data>
+  <data name="Spreadsheet_BorderColor" xml:space="preserve">
+    <value>边框颜色</value>
+  </data>
+  <data name="Spreadsheet_BorderStyle" xml:space="preserve">
+    <value>边框样式</value>
+  </data>
+  <data name="Spreadsheet_Thin" xml:space="preserve">
+    <value>细</value>
+  </data>
+  <data name="Spreadsheet_Medium" xml:space="preserve">
+    <value>中等</value>
+  </data>
+  <data name="Spreadsheet_Thick" xml:space="preserve">
+    <value>粗</value>
+  </data>
+  <data name="Spreadsheet_Dotted" xml:space="preserve">
+    <value>点线</value>
+  </data>
+  <data name="Spreadsheet_Dashed" xml:space="preserve">
+    <value>虚线</value>
+  </data>
+  <data name="Spreadsheet_Double" xml:space="preserve">
+    <value>双线</value>
+  </data>
+  <data name="Spreadsheet_ShowGridlines" xml:space="preserve">
+    <value>显示网格线</value>
+  </data>
+  <data name="Spreadsheet_HideGridlines" xml:space="preserve">
+    <value>隐藏网格线</value>
+  </data>
+  <data name="Spreadsheet_WebPage" xml:space="preserve">
+    <value>网页</value>
+  </data>
+  <data name="Spreadsheet_ThisDocument" xml:space="preserve">
+    <value>此文档</value>
+  </data>
+  <data name="Spreadsheet_DisplayText" xml:space="preserve">
+    <value>显示文本</value>
+  </data>
+  <data name="Spreadsheet_Url" xml:space="preserve">
+    <value>网址</value>
+  </data>
+  <data name="Spreadsheet_Sheet" xml:space="preserve">
+    <value>工作表</value>
+  </data>
+  <data name="Spreadsheet_ReferenceCell" xml:space="preserve">
+    <value>单元格引用</value>
+  </data>
+  <data name="Spreadsheet_DownloadPDF" xml:space="preserve">
+    <value>下载为 PDF</value>
+  </data>
+  <data name="Spreadsheet_DataOperations" xml:space="preserve">
+    <value>数据操作</value>
+  </data>
+  <data name="Spreadsheet_General" xml:space="preserve">
+    <value>常规</value>
+  </data>
+  <data name="Spreadsheet_Number" xml:space="preserve">
+    <value>数字</value>
+  </data>
+  <data name="Spreadsheet_Currency" xml:space="preserve">
+    <value>货币</value>
+  </data>
+  <data name="Spreadsheet_Accounting" xml:space="preserve">
+    <value>会计</value>
+  </data>
+  <data name="Spreadsheet_ShortDate" xml:space="preserve">
+    <value>短日期</value>
+  </data>
+  <data name="Spreadsheet_LongDate" xml:space="preserve">
+    <value>长日期</value>
+  </data>
+  <data name="Spreadsheet_Time" xml:space="preserve">
+    <value>时间</value>
+  </data>
+  <data name="Spreadsheet_Percentage" xml:space="preserve">
+    <value>百分比</value>
+  </data>
+  <data name="Spreadsheet_Fraction" xml:space="preserve">
+    <value>分数</value>
+  </data>
+  <data name="Spreadsheet_Scientific" xml:space="preserve">
+    <value>科学记数</value>
+  </data>
+  <data name="Spreadsheet_Custom" xml:space="preserve">
+    <value>自定义</value>
+  </data>
+  <data name="Spreadsheet_NumberFormat" xml:space="preserve">
+    <value>数字格式</value>
+  </data>
+  <data name="Spreadsheet_Algerian" xml:space="preserve">
+    <value>Algerian</value>
+  </data>
+  <data name="Spreadsheet_Arial" xml:space="preserve">
+    <value>Arial</value>
+  </data>
+  <data name="Spreadsheet_Calibri" xml:space="preserve">
+    <value>Calibri</value>
+  </data>
+  <data name="Spreadsheet_Cambria" xml:space="preserve">
+    <value>Cambria</value>
+  </data>
+  <data name="Spreadsheet_CambriaMath" xml:space="preserve">
+    <value>Cambria Math</value>
+  </data>
+  <data name="Spreadsheet_CourierNew" xml:space="preserve">
+    <value>Courier New</value>
+  </data>
+  <data name="Spreadsheet_Candara" xml:space="preserve">
+    <value>Candara</value>
+  </data>
+  <data name="Spreadsheet_Georgia" xml:space="preserve">
+    <value>Georgia</value>
+  </data>
+  <data name="Spreadsheet_Impact" xml:space="preserve">
+    <value>Impact</value>
+  </data>
+  <data name="Spreadsheet_SegoePrint" xml:space="preserve">
+    <value>Segoe Print</value>
+  </data>
+  <data name="Spreadsheet_SegoeScript" xml:space="preserve">
+    <value>Segoe Script</value>
+  </data>
+  <data name="Spreadsheet_SegoeUI" xml:space="preserve">
+    <value>Segoe UI</value>
+  </data>
+  <data name="Spreadsheet_Symbol" xml:space="preserve">
+    <value>Symbol</value>
+  </data>
+  <data name="Spreadsheet_TimesNewRoman" xml:space="preserve">
+    <value>Times New Roman</value>
+  </data>
+  <data name="Spreadsheet_Verdana" xml:space="preserve">
+    <value>Verdana</value>
+  </data>
+  <data name="Spreadsheet_Windings" xml:space="preserve">
+    <value>Windings</value>
+  </data>
+  <data name="Spreadsheet_KeepSourceFormat" xml:space="preserve">
+    <value>保留源格式</value>
+  </data>
+  <data name="Spreadsheet_MergeFormat" xml:space="preserve">
+    <value>合并格式</value>
+  </data>
+  <data name="Spreadsheet_KeepTextOnly" xml:space="preserve">
+    <value>仅保留文本</value>
+  </data>
+  <data name="Spreadsheet_ChangeCase" xml:space="preserve">
+    <value>更改大小写</value>
+  </data>
+  <data name="Spreadsheet_Print" xml:space="preserve">
+    <value>打印</value>
+  </data>
+  <data name="Spreadsheet_Text" xml:space="preserve">
+    <value>文本</value>
+  </data>
+  <data name="Spreadsheet_InsertRowBelow" xml:space="preserve">
+    <value>在下方插入行</value>
+  </data>
+  <data name="Spreadsheet_Hide" xml:space="preserve">
+    <value>隐藏</value>
+  </data>
+  <data name="Spreadsheet_OkButton" xml:space="preserve">
+    <value>确定</value>
+  </data>
+  <data name="Spreadsheet_FilterValue" xml:space="preserve">
+    <value>筛选值</value>
+  </data>
+  <data name="Spreadsheet_NoResult" xml:space="preserve">
+    <value>无结果</value>
+  </data>
+  <data name="Spreadsheet_Font" xml:space="preserve">
+    <value>字体</value>
+  </data>
+  <data name="Spreadsheet_Value" xml:space="preserve">
+    <value>值</value>
+  </data>
+  <data name="Spreadsheet_AlignLeft" xml:space="preserve">
+    <value>左对齐</value>
+  </data>
+  <data name="Spreadsheet_AlignCenter" xml:space="preserve">
+    <value>居中对齐</value>
+  </data>
+  <data name="Spreadsheet_AlignRight" xml:space="preserve">
+    <value>右对齐</value>
+  </data>
+  <data name="Spreadsheet_Justify" xml:space="preserve">
+    <value>两端对齐</value>
+  </data>
+  <data name="Spreadsheet_AlignTop" xml:space="preserve">
+    <value>顶端对齐</value>
+  </data>
+  <data name="Spreadsheet_AlignMiddle" xml:space="preserve">
+    <value>居中对齐</value>
+  </data>
+  <data name="Spreadsheet_Clipboard" xml:space="preserve">
+    <value>剪贴板</value>
+  </data>
+  <data name="Spreadsheet_EnterValue" xml:space="preserve">
+    <value>输入值</value>
+  </data>
+  <data name="Spreadsheet_AlignBottom" xml:space="preserve">
+    <value>底端对齐</value>
+  </data>
+  <data name="Spreadsheet_FillSeries" xml:space="preserve">
+    <value>填充序列</value>
+  </data>
+  <data name="Spreadsheet_FillFormattingOnly" xml:space="preserve">
+    <value>仅填充格式</value>
+  </data>
+  <data name="Spreadsheet_FillWithoutFormatting" xml:space="preserve">
+    <value>填充但不带格式</value>
+  </data>
+  <data name="Spreadsheet_CopyCells" xml:space="preserve">
+    <value>复制单元格</value>
+  </data>
+  <data name="Spreadsheet_MergeCell" xml:space="preserve">
+    <value>合并单元格</value>
+  </data>
+  <data name="Spreadsheet_MergeCellDialog" xml:space="preserve">
+    <value>合并单元格仅保留左上角值，放弃其他值。</value>
+  </data>
+  <data name="Spreadsheet_MergeCellSize" xml:space="preserve">
+    <value>要执行此操作，所有合并的单元格必须大小相同。</value>
+  </data>
+  <data name="Spreadsheet_MergeCenter" xml:space="preserve">
+    <value>合并 &amp; 居中</value>
+  </data>
+  <data name="Spreadsheet_MergeAcross" xml:space="preserve">
+    <value>跨行合并</value>
+  </data>
+  <data name="Spreadsheet_MergeCells" xml:space="preserve">
+    <value>合并单元格</value>
+  </data>
+  <data name="Spreadsheet_UnMergeCells" xml:space="preserve">
+    <value>取消合并单元格</value>
+  </data>
+<data name="RichTextEditor_InlineCode" xml:space="preserve">
+  <value>内联代码</value>
+</data>
+<data name="RichTextEditor_SlashMenuHeading1" xml:space="preserve">
+  <value>标题 1</value>
 </data>
 <data name="RichTextEditor_SlashMenuHeading2" xml:space="preserve">
     <value>标题 2</value>
@@ -8451,10 +8904,172 @@
   <data name="Spreadsheet_ExpandRibbonTab" xml:space="preserve">
     <value>扩展工具栏</value>
   </data>
+  <data name="Spreadsheet_InvalidFileNameMessage" xml:space="preserve">
+    <value>请使用不包含这些字符的名称：\ / : * ? " |</value>
+  </data>
+  <data name="Spreadsheet_EmptyFileName" xml:space="preserve">
+   <value>文件名不能为空。</value>
+  </data>
+  <data name="Spreadsheet_CircularReference" xml:space="preserve">
+    <value>我们发现您输入了包含循环引用的公式。</value>
+  </data>
   <data name="RichTextEditor_FormatPainter" xml:space="preserve">
     <value>格式刷</value>
   </data>
+  <data name="RichTextEditor_LineHeight" xml:space="preserve">
+    <value>行高</value>
+  </data>
   <data name="DataForm_SubmitContent" xml:space="preserve">
     <value>提交</value>
+  </data>
+  <data name="AssistView_FileSize_Failure" xml:space="preserve">
+    <value>上传失败：文件大小过大</value>
+  </data>
+  <data name="ChatUI_Forwarded_Message" xml:space="preserve">
+    <value>已转发</value>
+  </data>
+  <data name="ChatUI_MentionNoRecord" xml:space="preserve">
+    <value>未找到记录</value>
+  </data>
+  <data name="ChatUI_Send" xml:space="preserve">
+    <value>发送</value>
+  </data>
+  <data name="ChatUI_Attachments" xml:space="preserve">
+    <value>附加文件</value>
+  </data>
+  <data name="ChatUI_Download" xml:space="preserve">
+    <value>下载</value>
+  </data>
+  <data name="ChatUI_Close" xml:space="preserve">
+    <value>关闭</value>
+  </data>
+  <data name="ChatUI_FileUploadFailure" xml:space="preserve">
+    <value>已达到上传限制：最多允许 {0} 个文件。请移除多余文件以继续上传</value>
+  </data>
+  <data name="ChatUI_FilePreview" xml:space="preserve">
+    <value>无可用预览</value>
+  </data>
+  <data name="ChatUI_FileSizeFailure" xml:space="preserve">
+    <value>上传失败：{0} 个文件的大小过大</value>
+  </data>
+  <data name="AIAssistView_FileCountFailure" xml:space="preserve">
+    <value>已达到上传限制：最多允许 {0} 个文件。请移除多余文件以继续上传</value>
+  </data>
+  <data name="AssistView_Send" xml:space="preserve">
+    <value>发送</value>
+  </data>
+  <data name="AssistView_Attachments" xml:space="preserve">
+    <value>附加文件</value>
+  </data>
+  <data name="AssistView_Clear" xml:space="preserve">
+    <value>清除</value>
+  </data>
+  <data name="BlockEditor_Paragraph" xml:space="preserve">
+      <value>输入内容或使用 '/' 调出命令。</value>
+  </data>
+  <data name="BlockEditor_Heading1" xml:space="preserve">
+      <value>标题 1</value>
+  </data>
+  <data name="BlockEditor_Heading2" xml:space="preserve">
+      <value>标题 2</value>
+  </data>
+  <data name="BlockEditor_Heading3" xml:space="preserve">
+      <value>标题 3</value>
+  </data>
+  <data name="BlockEditor_Heading4" xml:space="preserve">
+      <value>标题 4</value>
+  </data>
+  <data name="BlockEditor_CollapsibleParagraph" xml:space="preserve">
+      <value>可折叠段落</value>
+  </data>
+  <data name="BlockEditor_CollapsibleHeading1" xml:space="preserve">
+      <value>可折叠标题 1</value>
+  </data>
+  <data name="BlockEditor_CollapsibleHeading2" xml:space="preserve">
+      <value>可折叠标题 2</value>
+  </data>
+  <data name="BlockEditor_CollapsibleHeading3" xml:space="preserve">
+      <value>可折叠标题 3</value>
+  </data>
+  <data name="BlockEditor_CollapsibleHeading4" xml:space="preserve">
+      <value>可折叠标题 4</value>
+  </data>
+  <data name="BlockEditor_BulletList" xml:space="preserve">
+      <value>添加项目</value>
+  </data>
+  <data name="BlockEditor_NumberedList" xml:space="preserve">
+      <value>添加项目</value>
+  </data>
+  <data name="BlockEditor_Checklist" xml:space="preserve">
+      <value>任务</value>
+  </data>
+  <data name="BlockEditor_Quote" xml:space="preserve">
+      <value>输入引用</value>
+  </data>
+  <data name="BlockEditor_Callout" xml:space="preserve">
+      <value>输入备注</value>
+  </data>
+  <data name="BlockEditor_AddIconTooltip" xml:space="preserve">
+      <value>点击在下方插入</value>
+  </data>
+  <data name="BlockEditor_DragIconTooltipActionMenu" xml:space="preserve">
+      <value>点击打开</value>
+  </data>
+  <data name="BlockEditor_DragIconTooltip" xml:space="preserve">
+      <value>（长按拖动）</value>
+  </data>
+  <data name="BlockEditor_InsertLink" xml:space="preserve">
+      <value>插入链接</value>
+  </data>
+  <data name="BlockEditor_LinkText" xml:space="preserve">
+      <value>文本</value>
+  </data>
+  <data name="BlockEditor_LinkTextPlaceholder" xml:space="preserve">
+      <value>链接文本</value>
+  </data>
+  <data name="BlockEditor_LinkUrl" xml:space="preserve">
+      <value>URL</value>
+  </data>
+  <data name="BlockEditor_LinkUrlPlaceholder" xml:space="preserve">
+      <value>https://example.com</value>
+  </data>
+  <data name="BlockEditor_LinkTitle" xml:space="preserve">
+      <value>标题</value>
+  </data>
+  <data name="BlockEditor_LinkTitlePlaceholder" xml:space="preserve">
+      <value>链接标题</value>
+  </data>
+  <data name="BlockEditor_LinkOpenInNewWindow" xml:space="preserve">
+      <value>在新窗口打开</value>
+  </data>
+  <data name="BlockEditor_LinkInsert" xml:space="preserve">
+      <value>插入</value>
+  </data>
+  <data name="BlockEditor_LinkRemove" xml:space="preserve">
+      <value>删除</value>
+  </data>
+  <data name="BlockEditor_LinkCancel" xml:space="preserve">
+      <value>取消</value>
+  </data>
+  <data name="BlockEditor_CodeCopyTooltip" xml:space="preserve">
+      <value>复制代码</value>
+  </data>
+  <data name="DocumentEditorContainer_CommentsCloseHeader" xml:space="preserve">
+    <value>未保存的评论</value>
+  </data>
+  <data name="DocumentEditorContainer_CommentsCloseContent" xml:space="preserve">
+    <value>您还有尚未发布的评论。如果您离开此页面，它们将被丢弃</value>
+  </data>
+  <data name="DocumentEditorContainer_KeepEditing" xml:space="preserve">
+    <value>继续编辑</value>
+  </data>
+  <data name="DocumentEditorContainer_DiscardComments" xml:space="preserve">
+    <value>丢弃评论</value>
+  </data>
+  <data name="DocumentEditor_Resolved" xml:space="preserve">
+    <value>已解决</value>
+  </data>
+  <data name="DocumentEditor_CommentMark" xml:space="preserve">
+    <value>点击查看这条评论</value>
   </data>
 </root>

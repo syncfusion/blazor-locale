@@ -933,11 +933,23 @@
   <data name="Gantt_SplitTask" xml:space="preserve">
     <value>Rozdeliť úlohu</value>
   </data>
+  <data name="Gantt_WbsCode" xml:space="preserve">
+    <value>Kód štruktúry členenia prác </value>
+  </data>
+  <data name="Gantt_WbsPredecessor" xml:space="preserve">
+    <value>Predchodca v štruktúre rozdelenia práce</value>
+  </data>
   <data name="Gantt_MergeTask" xml:space="preserve">
     <value>Zlúčiť úlohu</value>
   </data>
   <data name="Gantt_UnassignedTasks" xml:space="preserve">
     <value>Nepriradené úlohy</value>
+  </data>
+  <data name="Gantt_Undo" xml:space="preserve">
+    <value>Vrátiť späť</value>
+  </data>
+  <data name="Gantt_Redo" xml:space="preserve">
+    <value>Znova</value>
   </data>
   <data name="ColorPicker_Apply" xml:space="preserve">
     <value>platiť</value>
@@ -2371,16 +2383,16 @@
     <value>Arial</value>
   </data>
   <data name="RichTextEditor_FontNameGeorgia" xml:space="preserve">
-    <value>Georgia</value>
+    <value>Gruzínsko</value>
   </data>
   <data name="RichTextEditor_FontNameImpact" xml:space="preserve">
-    <value>Impact</value>
+    <value>Dopad</value>
   </data>
   <data name="RichTextEditor_FontNameTahoma" xml:space="preserve">
     <value>Tahoma</value>
   </data>
   <data name="RichTextEditor_FontNameTimesNewRoman" xml:space="preserve">
-    <value>Times New Roman</value>
+    <value>Časy nového Ríma</value>
   </data>
   <data name="RichTextEditor_FontNameVerdana" xml:space="preserve">
     <value>Verdana</value>
@@ -2679,6 +2691,18 @@
   <data name="RichTextEditor_TableRemove" xml:space="preserve">
     <value>Odstrániť tabuľku</value>
   </data>
+  <data name="RichTextEditor_TableCell" xml:space="preserve">
+    <value>Bunky tabuľky</value>
+  </data>
+  <data name="RichTextEditor_TableCellMerge" xml:space="preserve">
+    <value>Zlúčiť bunky</value>
+  </data>
+  <data name="RichTextEditor_TableCellHorizontalSplit" xml:space="preserve">
+    <value>Horizontálne rozdelenie</value>
+  </data>
+  <data name="RichTextEditor_TableCellVerticalSplit" xml:space="preserve">
+    <value>Vertikálne rozdelenie</value>
+  </data>
   <data name="RichTextEditor_TableCellBackground" xml:space="preserve">
     <value>Pozadie bunky tabuľky</value>
   </data>
@@ -2825,6 +2849,48 @@
   </data>
   <data name="RichTextEditor_Img_AltText_Unsupported" xml:space="preserve">
     <value>Nepodporovaný formát súboru</value>
+  </data>
+  <data name="RichTextEditor_ImportDeviceUploadMessage" xml:space="preserve">
+    <value>Kliknite sem pre nahratie</value>
+  </data>
+  <data name="RichTextEditor_ImportUploadMessage" xml:space="preserve">
+    <value>Presuňte alebo prehľadajte dokument vo formáte Word</value>
+  </data>
+  <data name="RichTextEditor_ImportHeader" xml:space="preserve">
+    <value>Importovať slovo</value>
+  </data>
+  <data name="RichTextEditor_DialogImport" xml:space="preserve">
+    <value>Vložte</value>
+  </data>
+  <data name="RichTextEditor_VideoHeader" xml:space="preserve">
+    <value>Vstavi video</value>
+  </data>
+  <data name="RichTextEditor_EditVideoHeader" xml:space="preserve">
+    <value>Uredi video</value>
+  </data>
+  <data name="RichTextEditor_AudioHeader" xml:space="preserve">
+    <value>Vstavite zvok</value>
+  </data>
+  <data name="RichTextEditor_EditAudioHeader" xml:space="preserve">
+    <value>Uredi zvok</value>
+  </data>
+  <data name="RichTextEditor_Import_From_Word" xml:space="preserve">
+    <value>Uvozi iz Worda</value>
+  </data>
+  <data name="RichTextEditor_Export_To_Word" xml:space="preserve">
+    <value>Izvozi v Word</value>
+  </data>
+  <data name="RichTextEditor_Export_To_PDF" xml:space="preserve">
+    <value>Izvozi v PDF</value>
+  </data>
+  <data name="RichTextEditor_Audio" xml:space="preserve">
+    <value>Vstavite zvok</value>
+  </data>
+  <data name="RichTextEditor_Video" xml:space="preserve">
+    <value>Vstavi video</value>
+  </data>
+  <data name="RichTextEditor_Default" xml:space="preserve">
+    <value>Výchozí</value>
   </data>
   <data name="DiagramComponent_X" xml:space="preserve">
     <value>X</value>
@@ -4572,6 +4638,57 @@
   <data name="PdfViewer_Of" xml:space="preserve">
     <value>z</value>
   </data>
+  <data name="PdfViewer_OrganizePages" xml:space="preserve">
+    <value>Usporiadať stránky</value>
+  </data>
+  <data name="PdfViewer_Pages" xml:space="preserve">
+    <value>Stránky</value>
+  </data>
+  <data name="PdfViewer_RotateLeft" xml:space="preserve">
+    <value>Otočiť doľava</value>
+  </data>
+  <data name="PdfViewer_RotateRight" xml:space="preserve">
+    <value>Otočiť doprava</value>
+  </data>
+  <data name="PdfViewer_DuplicatePages" xml:space="preserve">
+    <value>Duplikovať stránky</value>
+  </data>
+  <data name="PdfViewer_DeletePages" xml:space="preserve">
+    <value>Odstrániť stránky</value>
+  </data>
+  <data name="PdfViewer_PageZoom" xml:space="preserve">
+    <value>Priblíženie stránky</value>
+  </data>
+  <data name="PdfViewer_SelectAll" xml:space="preserve">
+    <value>Vybrať všetko</value>
+  </data>
+  <data name="PdfViewer_ImportDocument" xml:space="preserve">
+    <value>Importovať dokument</value>
+  </data>
+  <data name="PdfViewer_ExtractDocument" xml:space="preserve">
+    <value>Extrahovať dokument</value>
+  </data>
+  <data name="PdfViewer_Total" xml:space="preserve">
+    <value>Celkovo</value>
+  </data>
+  <data name="PdfViewer_SaveAs" xml:space="preserve">
+    <value>Uložiť ako</value>
+  </data>
+  <data name="PdfViewer_InsertLeft" xml:space="preserve">
+    <value>Vložiť naľavo</value>
+  </data>
+  <data name="PdfViewer_InsertRight" xml:space="preserve">
+    <value>Vložiť napravo</value>
+  </data>
+  <data name="PdfViewer_DuplicatePage" xml:space="preserve">
+    <value>Duplikovať stránku</value>
+  </data>
+  <data name="PdfViewer_DeletePage" xml:space="preserve">
+    <value>Odstrániť stránku</value>
+  </data>
+  <data name="PdfViewer_AllPagesDelete" xml:space="preserve">
+    <value>Nie je možné odstrániť všetky stránky, pretože v dokumente musí zostať aspoň jedna stránka</value>
+  </data>
   <data name="PdfViewer_Required_ServiceUrl_Error_Message" xml:space="preserve">
     <value>Tento prehliadač PDF vyžaduje na vykreslenie súborov PDF prostredníctvom webovej služby spracovanie na strane servera. Ak chcete pokračovať v prehliadači PDF, musíte nakonfigurovať adresu URL služby</value>
   </data>
@@ -4603,10 +4720,58 @@
     <value>Chyba služby AI</value>
   </data>
   <data name="PdfViewer_CredentialErrorContent" xml:space="preserve">
-    <value>Prihlasovacie údaje neboli zadané, sú nesprávne alebo neplatné. Skontrolujte a zadajte správne údaje a skúste to znova.</value>
+    <value>Prihlasovacie údaje neboli poskytnuté, sú nesprávne alebo neplatné. Prosím, zadajte správne prihlasovacie údaje a skúste to znova.</value>
   </data>
   <data name="PdfViewer_ConnectionLostErrorContent" xml:space="preserve">
     <value>Pripojenie k službe AI bolo prerušené. Skontrolujte svoje internetové pripojenie a skúste to znova.</value>
+  </data>
+  <data name="PdfViewer_UnSupportedDialogContent" xml:space="preserve">
+    <value>Tento súbor nepodporuje funkcie generatívnej umelej inteligencie, pretože je prázdny alebo neobsahuje dostatok textu. Skúste iný súbor.</value>
+  </data>
+  <data name="SmartPdfViewer_TimeOutErrorHeader" xml:space="preserve">
+    <value>Časový limit požiadavky vypršal</value>
+  </data>
+  <data name="SmartPdfViewer_TimeOutErrorContent" xml:space="preserve">
+    <value>Vaša požiadavka na vyhľadávanie trvala dlhšie, než sa očakávalo, a prekročila maximálny povolený čas.</value>
+  </data>
+  <data name="SmartPdfViewer_DisClaimerContent" xml:space="preserve">
+    <value>Odpovede generované umelou inteligenciou môžu byť nepresné alebo zavádzajúce. Nezabudnite si odpovede a zdroje dôkladne overiť.</value>
+  </data>
+  <data name="SmartPdfViewer_RedactionToolTip" xml:space="preserve">
+    <value>Inteligentné redakcie</value>
+  </data>
+  <data name="SmartPdfViewer_RedactHeader" xml:space="preserve">
+    <value>Vyberte vzor</value>
+  </data>
+  <data name="SmartPdfViewer_CancelRedact" xml:space="preserve">
+    <value>Zrušiť</value>
+  </data>
+  <data name="SmartPdfViewer_ApplyRedact" xml:space="preserve">
+    <value>Redigovať</value>
+  </data>
+  <data name="SmartPdfViewer_ScanRedact" xml:space="preserve">
+    <value>Skenovať</value>
+  </data>
+  <data name="SmartPdfViewer_SmartFillToolTip" xml:space="preserve">
+    <value>Inteligentné vyplnenie formulára</value>
+  </data>
+  <data name="SmartPdfViewer_SmartFillText" xml:space="preserve">
+    <value>Inteligentné vyplnenie</value>
+  </data>
+  <data name="SmartPdfViewer_AIAssistanceToolTip" xml:space="preserve">
+    <value>Pomoc AI</value>
+  </data>
+  <data name="SmartPdfViewer_RedactOptionsHeader" xml:space="preserve">
+    <value>Vyberte údaje na redigovanie</value>
+  </data>
+  <data name="SmartPdfViewer_NoInformationErrorContent" xml:space="preserve">
+    <value>V dokumente neboli nájdené žiadne citlivé informácie.</value>
+  </data>
+  <data name="SmartPdfViewer_NoInformationErrorContentHeader" xml:space="preserve">
+    <value>Nenašli sa žiadne citlivé údaje</value>
+  </data>
+  <data name="SmartPdfViewer_RedactDisclaimer" xml:space="preserve">
+    <value>Informácie zistené umelou inteligenciou nemusia byť presné. Pred použitím si prosím overte výsledky.</value>
   </data>
   <data name="DocumentEditor_Table" xml:space="preserve">
     <value>stôl</value>
@@ -5447,6 +5612,9 @@
   </data>
   <data name="DocumentEditor_UnderlineErrors" xml:space="preserve">
     <value>Podčiarknite chyby</value>
+  </data>
+  <data name="DocumentEditor_MoreSuggestions" xml:space="preserve">
+    <value>Viac návrhov</value>
   </data>
   <data name="DocumentEditor_Ignore" xml:space="preserve">
     <value>Ignorovať</value>
@@ -8052,13 +8220,13 @@
   <data name="Spreadsheet_LastMonth" xml:space="preserve">
     <value>Minulý mesiac</value>
   </data>
-  <data name="Spreadsheet_NextQuater" xml:space="preserve">
+  <data name="Spreadsheet_NextQuarter" xml:space="preserve">
     <value>Nasledujúci štvrťrok</value>
   </data>
-  <data name="Spreadsheet_ThisQuater" xml:space="preserve">
+  <data name="Spreadsheet_ThisQuarter" xml:space="preserve">
     <value>Tento štvrťrok</value>
   </data>
-  <data name="Spreadsheet_LastQuater" xml:space="preserve">
+  <data name="Spreadsheet_LastQuarter" xml:space="preserve">
     <value>Minulý štvrťrok</value>
   </data>
   <data name="Spreadsheet_NextYear" xml:space="preserve">
@@ -8250,11 +8418,302 @@
   <data name="Spreadsheet_FontSize" xml:space="preserve">
     <value>Veľkosť písma</value>
   </data>
-  <data name="RichTextEditor_InlineCode" xml:space="preserve">
-    <value>Vložený kód</value>
+  <data name="Spreadsheet_DataLimitExceed" xml:space="preserve">
+    <value>Údaje súboru sú príliš veľké a ich spracovanie trvá dlhšie, chcete pokračovať?</value>
   </data>
-  <data name="RichTextEditor_SlashMenuHeading1" xml:space="preserve">
-    <value>Nadpis 1</value>
+  <data name="Spreadsheet_FileLimitExceed" xml:space="preserve">
+    <value>Veľkosť súboru je príliš veľká a jeho spracovanie trvá dlhšie, chcete pokračovať?</value>
+  </data>
+  <data name="Spreadsheet_PasswordPrompt" xml:space="preserve">
+    <value>je chránený</value>
+  </data>
+  <data name="Spreadsheet_UnsupportedFile" xml:space="preserve">
+    <value>Nepodporovaný súbor</value>
+  </data>
+  <data name="Spreadsheet_View" xml:space="preserve">
+    <value>Zobrazenie</value>
+  </data>
+  <data name="Spreadsheet_Borders" xml:space="preserve">
+    <value>Orámovanie</value>
+  </data>
+  <data name="Spreadsheet_RightBorder" xml:space="preserve">
+    <value>Pravé orámovanie</value>
+  </data>
+  <data name="Spreadsheet_BottomBorder" xml:space="preserve">
+    <value>Spodné orámovanie</value>
+  </data>
+  <data name="Spreadsheet_TopBorder" xml:space="preserve">
+    <value>Horné orámovanie</value>
+  </data>
+  <data name="Spreadsheet_LeftBorder" xml:space="preserve">
+    <value>Ľavé orámovanie</value>
+  </data>
+  <data name="Spreadsheet_NoBorder" xml:space="preserve">
+    <value>Bez orámovania</value>
+  </data>
+  <data name="Spreadsheet_AllBorders" xml:space="preserve">
+    <value>Všetky orámovania</value>
+  </data>
+  <data name="Spreadsheet_OutsideBorders" xml:space="preserve">
+    <value>Vonkajšie orámovania</value>
+  </data>
+  <data name="Spreadsheet_InsideBorders" xml:space="preserve">
+    <value>Vnútorné orámovania</value>
+  </data>
+  <data name="Spreadsheet_HorizontalBorders" xml:space="preserve">
+    <value>Vodorovné orámovania</value>
+  </data>
+  <data name="Spreadsheet_VerticalBorders" xml:space="preserve">
+    <value>Zvislé orámovania</value>
+  </data>
+  <data name="Spreadsheet_BorderColor" xml:space="preserve">
+    <value>Farba orámovania</value>
+  </data>
+  <data name="Spreadsheet_BorderStyle" xml:space="preserve">
+    <value>Štýl orámovania</value>
+  </data>
+  <data name="Spreadsheet_Thin" xml:space="preserve">
+    <value>Tenký</value>
+  </data>
+  <data name="Spreadsheet_Medium" xml:space="preserve">
+    <value>Stredný</value>
+  </data>
+  <data name="Spreadsheet_Thick" xml:space="preserve">
+    <value>Hrubý</value>
+  </data>
+  <data name="Spreadsheet_Dotted" xml:space="preserve">
+    <value>Bodkovaný</value>
+  </data>
+  <data name="Spreadsheet_Dashed" xml:space="preserve">
+    <value>Čiarkovaný</value>
+  </data>
+  <data name="Spreadsheet_Double" xml:space="preserve">
+    <value>Dvojitý</value>
+  </data>
+  <data name="Spreadsheet_ShowGridlines" xml:space="preserve">
+    <value>Zobraziť mriežkové čiary</value>
+  </data>
+  <data name="Spreadsheet_HideGridlines" xml:space="preserve">
+    <value>Skryť mriežkové čiary</value>
+  </data>
+  <data name="Spreadsheet_WebPage" xml:space="preserve">
+    <value>Webová stránka</value>
+  </data>
+  <data name="Spreadsheet_ThisDocument" xml:space="preserve">
+    <value>Tento dokument</value>
+  </data>
+  <data name="Spreadsheet_DisplayText" xml:space="preserve">
+    <value>Zobrazovaný text</value>
+  </data>
+  <data name="Spreadsheet_Url" xml:space="preserve">
+    <value>URL</value>
+  </data>
+  <data name="Spreadsheet_Sheet" xml:space="preserve">
+    <value>List</value>
+  </data>
+  <data name="Spreadsheet_ReferenceCell" xml:space="preserve">
+    <value>Odkaz na bunku</value>
+  </data>
+  <data name="Spreadsheet_DownloadPDF" xml:space="preserve">
+    <value>Stiahnuť ako PDF</value>
+  </data>
+  <data name="Spreadsheet_DataOperations" xml:space="preserve">
+    <value>Dátové operácie</value>
+  </data>
+  <data name="Spreadsheet_General" xml:space="preserve">
+    <value>Všeobecné</value>
+  </data>
+  <data name="Spreadsheet_Number" xml:space="preserve">
+    <value>Číslo</value>
+  </data>
+  <data name="Spreadsheet_Currency" xml:space="preserve">
+    <value>Mena</value>
+  </data>
+  <data name="Spreadsheet_Accounting" xml:space="preserve">
+    <value>Účtovníctvo</value>
+  </data>
+  <data name="Spreadsheet_ShortDate" xml:space="preserve">
+    <value>Krátky dátum</value>
+  </data>
+  <data name="Spreadsheet_LongDate" xml:space="preserve">
+    <value>Dlhý dátum</value>
+  </data>
+  <data name="Spreadsheet_Time" xml:space="preserve">
+    <value>Čas</value>
+  </data>
+  <data name="Spreadsheet_Percentage" xml:space="preserve">
+    <value>Percento</value>
+  </data>
+  <data name="Spreadsheet_Fraction" xml:space="preserve">
+    <value>Zlomok</value>
+  </data>
+  <data name="Spreadsheet_Scientific" xml:space="preserve">
+    <value>Vedecký</value>
+  </data>
+  <data name="Spreadsheet_Custom" xml:space="preserve">
+    <value>Vlastné</value>
+  </data>
+  <data name="Spreadsheet_NumberFormat" xml:space="preserve">
+    <value>Formát čísla</value>
+  </data>
+  <data name="Spreadsheet_Algerian" xml:space="preserve">
+    <value>Algerian</value>
+  </data>
+  <data name="Spreadsheet_Arial" xml:space="preserve">
+    <value>Arial</value>
+  </data>
+  <data name="Spreadsheet_Calibri" xml:space="preserve">
+    <value>Calibri</value>
+  </data>
+  <data name="Spreadsheet_Cambria" xml:space="preserve">
+    <value>Cambria</value>
+  </data>
+  <data name="Spreadsheet_CambriaMath" xml:space="preserve">
+    <value>Cambria Math</value>
+  </data>
+  <data name="Spreadsheet_CourierNew" xml:space="preserve">
+    <value>Courier New</value>
+  </data>
+  <data name="Spreadsheet_Candara" xml:space="preserve">
+    <value>Candara</value>
+  </data>
+  <data name="Spreadsheet_Georgia" xml:space="preserve">
+    <value>Georgia</value>
+  </data>
+  <data name="Spreadsheet_Impact" xml:space="preserve">
+    <value>Impact</value>
+  </data>
+  <data name="Spreadsheet_SegoePrint" xml:space="preserve">
+    <value>Segoe Print</value>
+  </data>
+  <data name="Spreadsheet_SegoeScript" xml:space="preserve">
+    <value>Segoe Script</value>
+  </data>
+  <data name="Spreadsheet_SegoeUI" xml:space="preserve">
+    <value>Segoe UI</value>
+  </data>
+  <data name="Spreadsheet_Symbol" xml:space="preserve">
+    <value>Symbol</value>
+  </data>
+  <data name="Spreadsheet_TimesNewRoman" xml:space="preserve">
+    <value>Times New Roman</value>
+  </data>
+  <data name="Spreadsheet_Verdana" xml:space="preserve">
+    <value>Verdana</value>
+  </data>
+  <data name="Spreadsheet_Windings" xml:space="preserve">
+    <value>Windings</value>
+  </data>
+  <data name="Spreadsheet_KeepSourceFormat" xml:space="preserve">
+    <value>Ponechať formátovanie zdroja</value>
+  </data>
+  <data name="Spreadsheet_MergeFormat" xml:space="preserve">
+    <value>Zlúčiť formátovanie</value>
+  </data>
+  <data name="Spreadsheet_KeepTextOnly" xml:space="preserve">
+    <value>Ponechať len text</value>
+  </data>
+  <data name="Spreadsheet_Ascending" xml:space="preserve">
+    <value>Vzostupne</value>
+  </data>
+  <data name="Spreadsheet_Descending" xml:space="preserve">
+    <value>Zostupne</value>
+  </data>
+  <data name="Spreadsheet_CustomSort" xml:space="preserve">
+    <value>Vlastné triedenie</value>
+  </data>
+  <data name="Spreadsheet_Print" xml:space="preserve">
+    <value>Tlačiť</value>
+  </data>
+  <data name="Spreadsheet_Text" xml:space="preserve">
+    <value>Text</value>
+  </data>
+  <data name="Spreadsheet_InsertRowBelow" xml:space="preserve">
+    <value>Vložiť riadok pod</value>
+  </data>
+  <data name="Spreadsheet_Hide" xml:space="preserve">
+    <value>Skryť</value>
+  </data>
+  <data name="Spreadsheet_OkButton" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="Spreadsheet_Font" xml:space="preserve">
+    <value>Písmo</value>
+  </data>
+  <data name="Spreadsheet_ShowRowsWhere" xml:space="preserve">
+    <value>Zobraziť riadky, kde</value>
+  </data>
+  <data name="Spreadsheet_Value" xml:space="preserve">
+    <value>Hodnota</value>
+  </data>
+  <data name="Spreadsheet_AlignLeft" xml:space="preserve">
+    <value>Zarovnať vľavo</value>
+  </data>
+  <data name="Spreadsheet_AlignCenter" xml:space="preserve">
+    <value>Zarovnať na stred</value>
+  </data>
+  <data name="Spreadsheet_AlignRight" xml:space="preserve">
+    <value>Zarovnať vpravo</value>
+  </data>
+  <data name="Spreadsheet_Justify" xml:space="preserve">
+    <value>Zarovnať do bloku</value>
+  </data>
+  <data name="Spreadsheet_AlignTop" xml:space="preserve">
+    <value>Zarovnať nahor</value>
+  </data>
+  <data name="Spreadsheet_AlignMiddle" xml:space="preserve">
+    <value>Zarovnať na stred</value>
+  </data>
+  <data name="Spreadsheet_AlignBottom" xml:space="preserve">
+    <value>Zarovnať nadol</value>
+  </data>
+  <data name="Spreadsheet_ChooseTime" xml:space="preserve">
+    <value>Vyberte čas</value>
+  </data>
+  <data name="Spreadsheet_ChangeCase" xml:space="preserve">
+    <value>Zmeniť prípad</value>
+  </data>
+  <data name="Spreadsheet_Clipboard" xml:space="preserve">
+    <value>Schránka</value>
+  </data>geo
+  <data name="Spreadsheet_FillSeries" xml:space="preserve">
+    <value>Vyplniť sériu</value>
+  </data>
+  <data name="Spreadsheet_FillFormattingOnly" xml:space="preserve">
+    <value>Vyplniť len formátovanie</value>
+  </data>
+  <data name="Spreadsheet_FillWithoutFormatting" xml:space="preserve">
+    <value>Vyplniť bez formátovania</value>
+  </data>
+  <data name="Spreadsheet_CopyCells" xml:space="preserve">
+    <value>Kopírovať bunky</value>
+  </data>
+  <data name="Spreadsheet_MergeCell" xml:space="preserve">
+    <value>Zlúčiť bunku</value>
+  </data>
+  <data name="Spreadsheet_MergeCellDialog" xml:space="preserve">
+    <value>Zlučovanie buniek zachováva iba hodnotu v ľavom hornom rohu a zahodí ďalšie hodnoty.</value>
+  </data>
+  <data name="Spreadsheet_MergeCellSize" xml:space="preserve">
+    <value>Aby ste to urobili, všetky zlúčené bunky musia mať rovnakú veľkosť.</value>
+  </data>
+  <data name="Spreadsheet_MergeCenter" xml:space="preserve">
+    <value>Zlúčiť &amp; Stred</value>
+  </data>
+  <data name="Spreadsheet_MergeAcross" xml:space="preserve">
+    <value>Zlúčiť cez</value>
+  </data>
+  <data name="Spreadsheet_MergeCells" xml:space="preserve">
+    <value>Zlúčiť bunky</value>
+  </data>
+  <data name="Spreadsheet_UnMergeCells" xml:space="preserve">
+    <value>Rozdeliť bunky</value>
+  </data>
+<data name="RichTextEditor_InlineCode" xml:space="preserve">
+  <value>Vložený kód</value>
+</data>
+<data name="RichTextEditor_SlashMenuHeading1" xml:space="preserve">
+  <value>Nadpis 1</value>
 </data>
 <data name="RichTextEditor_SlashMenuHeading2" xml:space="preserve">
     <value>Nadpis 2</value>
@@ -8448,10 +8907,172 @@
   <data name="Spreadsheet_ExpandRibbonTab" xml:space="preserve">
     <value>Rozšíriť panel s nástrojmi</value>
   </data>
+  <data name="Spreadsheet_InvalidFileNameMessage" xml:space="preserve">
+    <value>Použite názov, ktorý neobsahuje tieto znaky: \ / : * ? "  |</value>
+  </data>
+  <data name="Spreadsheet_CircularReference" xml:space="preserve">
+    <value>Zistili sme, že ste zadali vzorec s kruhovým odkazom.</value>
+  </data>
+  <data name="Spreadsheet_EmptyFileName" xml:space="preserve">
+   <value>Názov súboru nesmie byť prázdny.</value>
+  </data>
   <data name="RichTextEditor_FormatPainter" xml:space="preserve">
     <value>Štetec formátovania</value>
   </data>
+  <data name="RichTextEditor_LineHeight" xml:space="preserve">
+    <value>Výška riadku</value>
+  </data>
   <data name="DataForm_SubmitContent" xml:space="preserve">
     <value>Odoslať</value>
+  </data>
+  <data name="AssistView_FileSize_Failure" xml:space="preserve">
+    <value>Nahrávanie zlyhalo: Veľkosť súboru je príliš veľká</value>
+  </data>
+  <data name="ChatUI_Forwarded_Message" xml:space="preserve">
+    <value>Preposlané</value>
+  </data>
+  <data name="ChatUI_MentionNoRecord" xml:space="preserve">
+    <value>Neboli nájdené žiadne záznamy</value>
+  </data>
+  <data name="ChatUI_Send" xml:space="preserve">
+    <value>Odoslať</value>
+  </data>
+  <data name="ChatUI_Attachments" xml:space="preserve">
+    <value>Priložiť súbor</value>
+  </data>
+  <data name="ChatUI_Download" xml:space="preserve">
+    <value>Stiahnuť</value>
+  </data>
+  <data name="ChatUI_Close" xml:space="preserve">
+    <value>Zavrieť</value>
+  </data>
+  <data name="ChatUI_FileUploadFailure" xml:space="preserve">
+    <value>Dosiahnutý limit nahrávania: povolených je maximálne {0} súborov. Odstráňte nadbytočné súbory, aby ste mohli pokračovať v nahrávaní</value>
+  </data>
+  <data name="ChatUI_FilePreview" xml:space="preserve">
+    <value>Náhľad nie je k dispozícii</value>
+  </data>
+  <data name="ChatUI_FileSizeFailure" xml:space="preserve">
+    <value>Nahrávanie zlyhalo: veľkosť {0} súborov je príliš veľká</value>
+  </data>
+  <data name="AIAssistView_FileCountFailure" xml:space="preserve">
+    <value>Dosiahnutý limit nahrávania: povolených je maximálne {0} súborov. Odstráňte nadbytočné súbory, aby ste mohli pokračovať v nahrávaní</value>
+  </data>
+  <data name="AssistView_Send" xml:space="preserve">
+    <value>Odoslať</value>
+  </data>
+  <data name="AssistView_Attachments" xml:space="preserve">
+    <value>Priložiť súbor</value>
+  </data>
+  <data name="AssistView_Clear" xml:space="preserve">
+    <value>Vymazať</value>
+  </data>
+  <data name="BlockEditor_Paragraph" xml:space="preserve">
+      <value>Napíšte niečo alebo '/' pre príkazy.</value>
+  </data>
+  <data name="BlockEditor_Heading1" xml:space="preserve">
+      <value>Nadpis 1</value>
+  </data>
+  <data name="BlockEditor_Heading2" xml:space="preserve">
+      <value>Nadpis 2</value>
+  </data>
+  <data name="BlockEditor_Heading3" xml:space="preserve">
+      <value>Nadpis 3</value>
+  </data>
+  <data name="BlockEditor_Heading4" xml:space="preserve">
+      <value>Nadpis 4</value>
+  </data>
+  <data name="BlockEditor_CollapsibleParagraph" xml:space="preserve">
+      <value>Zbaliteľný odsek</value>
+  </data>
+  <data name="BlockEditor_CollapsibleHeading1" xml:space="preserve">
+      <value>Zbaliteľný nadpis 1</value>
+  </data>
+  <data name="BlockEditor_CollapsibleHeading2" xml:space="preserve">
+      <value>Zbaliteľný nadpis 2</value>
+  </data>
+  <data name="BlockEditor_CollapsibleHeading3" xml:space="preserve">
+      <value>Zbaliteľný nadpis 3</value>
+  </data>
+  <data name="BlockEditor_CollapsibleHeading4" xml:space="preserve">
+      <value>Zbaliteľný nadpis 4</value>
+  </data>
+  <data name="BlockEditor_BulletList" xml:space="preserve">
+      <value>Pridať položku</value>
+  </data>
+  <data name="BlockEditor_NumberedList" xml:space="preserve">
+      <value>Pridať položku</value>
+  </data>
+  <data name="BlockEditor_Checklist" xml:space="preserve">
+      <value>Úloha</value>
+  </data>
+  <data name="BlockEditor_Quote" xml:space="preserve">
+      <value>Napíšte citát</value>
+  </data>
+  <data name="BlockEditor_Callout" xml:space="preserve">
+      <value>Napíšte poznámku</value>
+  </data>
+  <data name="BlockEditor_AddIconTooltip" xml:space="preserve">
+      <value>Kliknite pre vloženie nižšie</value>
+  </data>
+  <data name="BlockEditor_DragIconTooltipActionMenu" xml:space="preserve">
+      <value>Kliknite pre otvorenie</value>
+  </data>
+  <data name="BlockEditor_DragIconTooltip" xml:space="preserve">
+      <value>(Podržte pre presun)</value>
+  </data>
+  <data name="BlockEditor_InsertLink" xml:space="preserve">
+      <value>Vložiť odkaz</value>
+  </data>
+  <data name="BlockEditor_LinkText" xml:space="preserve">
+      <value>Text</value>
+  </data>
+  <data name="BlockEditor_LinkTextPlaceholder" xml:space="preserve">
+      <value>Text odkazu</value>
+  </data>
+  <data name="BlockEditor_LinkUrl" xml:space="preserve">
+      <value>URL</value>
+  </data>
+  <data name="BlockEditor_LinkUrlPlaceholder" xml:space="preserve">
+      <value>https://priklad.com</value>
+  </data>
+  <data name="BlockEditor_LinkTitle" xml:space="preserve">
+      <value>Názov</value>
+  </data>
+  <data name="BlockEditor_LinkTitlePlaceholder" xml:space="preserve">
+      <value>Názov odkazu</value>
+  </data>
+  <data name="BlockEditor_LinkOpenInNewWindow" xml:space="preserve">
+      <value>Otvoriť v novom okne</value>
+  </data>
+  <data name="BlockEditor_LinkInsert" xml:space="preserve">
+      <value>Vložiť</value>
+  </data>
+  <data name="BlockEditor_LinkRemove" xml:space="preserve">
+      <value>Odstrániť</value>
+  </data>
+  <data name="BlockEditor_LinkCancel" xml:space="preserve">
+      <value>Zrušiť</value>
+  </data>
+  <data name="BlockEditor_CodeCopyTooltip" xml:space="preserve">
+      <value>Kopírovať kód</value>
+  </data>
+  <data name="DocumentEditorContainer_CommentsCloseHeader" xml:space="preserve">
+    <value>Neuložené komentáre</value>
+  </data>
+  <data name="DocumentEditorContainer_CommentsCloseContent" xml:space="preserve">
+    <value>Máte komentáre, ktoré ešte neboli uverejnené. Ak opustíte túto stránku, budú zahodené</value>
+  </data>
+  <data name="DocumentEditorContainer_KeepEditing" xml:space="preserve">
+    <value>Pokračujte v úpravách</value>
+  </data>
+  <data name="DocumentEditorContainer_DiscardComments" xml:space="preserve">
+    <value>Zahodiť komentáre</value>
+  </data>
+  <data name="DocumentEditor_Resolved" xml:space="preserve">
+    <value>Vyriešené</value>
+  </data>
+  <data name="DocumentEditor_CommentMark" xml:space="preserve">
+    <value>Kliknutím zobrazíte tento komentár</value>
   </data>
 </root>
