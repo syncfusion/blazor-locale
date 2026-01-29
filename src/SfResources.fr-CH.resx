@@ -1083,11 +1083,23 @@
   <data name="Gantt_SplitTask" xml:space="preserve">
     <value>Tâche fractionnée</value>
   </data>
+  <data name="Gantt_WbsCode" xml:space="preserve">
+    <value>Code de la structure de répartition du travail</value>
+  </data>
+  <data name="Gantt_WbsPredecessor" xml:space="preserve">
+    <value>Prédécesseur dans la structure de répartition du travail</value>
+  </data>
   <data name="Gantt_MergeTask" xml:space="preserve">
     <value>Fusionner la tâche</value>
   </data>
   <data name="Gantt_UnassignedTasks" xml:space="preserve">
     <value>Tâches non attribuées</value>
+  </data>
+  <data name="Gantt_Undo" xml:space="preserve">
+    <value>Annuler</value>
+  </data>
+  <data name="Gantt_Redo" xml:space="preserve">
+    <value>Rétablir</value>
   </data>
   <data name="PivotView_NumberFormat_ExampleWatermark" xml:space="preserve">
     <value>Exemple: C, P, 0000%, ### 0. ## 0 #, etc.</value>
@@ -2422,7 +2434,7 @@
     <value>Répéter sur</value>
   </data>
   <data name="RecurrenceEditor_OnDay" xml:space="preserve">
-    <value>journée</value>
+    <value>jour</value>
   </data>
   <data name="RecurrenceEditor_Repeat" xml:space="preserve">
     <value>Répéter</value>
@@ -2653,7 +2665,7 @@
     <value>sauvegarder</value>
   </data>
   <data name="Schedule_SelectedItems" xml:space="preserve">
-    <value>Éléments sélectionnés</value>
+    <value>Articles sélectionnés</value>
   </data>
   <data name="Schedule_SearchTimezone" xml:space="preserve">
     <value>Fuseau horaire de recherche</value>
@@ -3226,10 +3238,10 @@
     <value>Segoe UI</value>
   </data>
   <data name="RichTextEditor_FontNameArial" xml:space="preserve">
-    <value>Arial</value>
+    <value>Ariel</value>
   </data>
   <data name="RichTextEditor_FontNameGeorgia" xml:space="preserve">
-    <value>Georgia</value>
+    <value>Géorgie</value>
   </data>
   <data name="RichTextEditor_FontNameImpact" xml:space="preserve">
     <value>Impact</value>
@@ -3537,6 +3549,18 @@
   <data name="RichTextEditor_TableRemove" xml:space="preserve">
     <value>Supprimer le tableau</value>
   </data>
+  <data name="RichTextEditor_TableCell" xml:space="preserve">
+    <value>Cellules du tableau</value>
+  </data>
+  <data name="RichTextEditor_TableCellMerge" xml:space="preserve">
+    <value>Fusionner les cellules</value>
+  </data>
+  <data name="RichTextEditor_TableCellHorizontalSplit" xml:space="preserve">
+    <value>Division horizontale</value>
+  </data>
+  <data name="RichTextEditor_TableCellVerticalSplit" xml:space="preserve">
+    <value>Division verticale</value>
+  </data>
   <data name="RichTextEditor_TableCellBackground" xml:space="preserve">
     <value>Fond de cellule de tableau</value>
   </data>
@@ -3683,6 +3707,48 @@
   </data>
   <data name="RichTextEditor_Img_AltText_Unsupported" xml:space="preserve">
     <value>Format de fichier non pris en charge</value>
+  </data>
+  <data name="RichTextEditor_ImportDeviceUploadMessage" xml:space="preserve">
+    <value>Cliquez ici pour téléverser</value>
+  </data>
+  <data name="RichTextEditor_ImportUploadMessage" xml:space="preserve">
+    <value>Déposez ou parcourez un document Word</value>
+  </data>
+  <data name="RichTextEditor_ImportHeader" xml:space="preserve">
+    <value>Importer Word</value>
+  </data>
+  <data name="RichTextEditor_DialogImport" xml:space="preserve">
+    <value>Insérer</value>
+  </data>
+  <data name="RichTextEditor_VideoHeader" xml:space="preserve">
+    <value>Insérer une vidéo</value>
+  </data>
+  <data name="RichTextEditor_EditVideoHeader" xml:space="preserve">
+    <value>Éditer une vidéo</value>
+  </data>
+  <data name="RichTextEditor_AudioHeader" xml:space="preserve">
+    <value>Insérer l'audio</value>
+  </data>
+  <data name="RichTextEditor_EditAudioHeader" xml:space="preserve">
+    <value>Éditer l'audio</value>
+  </data>
+  <data name="RichTextEditor_Import_From_Word" xml:space="preserve">
+    <value>Importer depuis Word</value>
+  </data>
+  <data name="RichTextEditor_Export_To_Word" xml:space="preserve">
+    <value>Exporter vers Word</value>
+  </data>
+  <data name="RichTextEditor_Export_To_PDF" xml:space="preserve">
+    <value>Exporter en PDF</value>
+  </data>
+  <data name="RichTextEditor_Audio" xml:space="preserve">
+    <value>Insérer l'audio</value>
+  </data>
+  <data name="RichTextEditor_Video" xml:space="preserve">
+    <value>Insérer une vidéo</value>
+  </data>
+  <data name="RichTextEditor_Default" xml:space="preserve">
+    <value>Par défaut</value>
   </data>
   <data name="PdfViewer" xml:space="preserve">
     <value>Visionneuse PDF</value>
@@ -4575,6 +4641,57 @@
   <data name="PdfViewer_Of" xml:space="preserve">
     <value>de</value>
   </data>
+  <data name="PdfViewer_OrganizePages" xml:space="preserve">
+    <value>Organiser les pages</value>
+  </data>
+  <data name="PdfViewer_Pages" xml:space="preserve">
+    <value>Pages</value>
+  </data>
+  <data name="PdfViewer_RotateLeft" xml:space="preserve">
+    <value>Faire pivoter à gauche</value>
+  </data>
+  <data name="PdfViewer_RotateRight" xml:space="preserve">
+    <value>Faire pivoter à droite</value>
+  </data>
+  <data name="PdfViewer_DuplicatePages" xml:space="preserve">
+    <value>Dupliquer les pages</value>
+  </data>
+  <data name="PdfViewer_DeletePages" xml:space="preserve">
+    <value>Supprimer les pages</value>
+  </data>
+  <data name="PdfViewer_PageZoom" xml:space="preserve">
+    <value>Zoom sur la page</value>
+  </data>
+  <data name="PdfViewer_SelectAll" xml:space="preserve">
+    <value>Tout sélectionner</value>
+  </data>
+  <data name="PdfViewer_ImportDocument" xml:space="preserve">
+    <value>Importer le document</value>
+  </data>
+  <data name="PdfViewer_ExtractDocument" xml:space="preserve">
+    <value>Extraire le document</value>
+  </data>
+  <data name="PdfViewer_Total" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="PdfViewer_SaveAs" xml:space="preserve">
+    <value>Enregistrer sous</value>
+  </data>
+  <data name="PdfViewer_InsertLeft" xml:space="preserve">
+    <value>Insérer à gauche</value>
+  </data>
+  <data name="PdfViewer_InsertRight" xml:space="preserve">
+    <value>Insérer à droite</value>
+  </data>
+  <data name="PdfViewer_DuplicatePage" xml:space="preserve">
+    <value>Dupliquer la page</value>
+  </data>
+  <data name="PdfViewer_DeletePage" xml:space="preserve">
+    <value>Supprimer la page</value>
+  </data>
+  <data name="PdfViewer_AllPagesDelete" xml:space="preserve">
+    <value>Impossible de supprimer toutes les pages car au moins une page doit rester dans le document.</value>
+  </data>
   <data name="PdfViewer_Required_ServiceUrl_Error_Message" xml:space="preserve">
     <value>Cette visionneuse PDF nécessite un traitement côté serveur pour afficher les fichiers PDF via le service Web. Vous devez configurer l'URL du service pour continuer avec la visionneuse PDF</value>
   </data>
@@ -4606,10 +4723,58 @@
     <value>Erreur du service IA</value>
   </data>
   <data name="PdfViewer_CredentialErrorContent" xml:space="preserve">
-    <value>Les identifiants n’ont pas été fournis, ou sont incorrects ou non valides. Veuillez les vérifier et réessayer.</value>
+    <value>Les identifiants n’ont pas été fournis, incorrects ou non valides. Veuillez entrer les identifiants corrects et réessayer.</value>
   </data>
   <data name="PdfViewer_ConnectionLostErrorContent" xml:space="preserve">
     <value>La connexion au service IA a été perdue. Veuillez vérifier votre connexion réseau et réessayer.</value>
+  </data>
+  <data name="PdfViewer_UnSupportedDialogContent" xml:space="preserve">
+    <value>Ce fichier ne prend pas en charge les fonctionnalités d'IA générative car il est vide ou ne contient pas assez de texte. Veuillez essayer un autre fichier.</value>
+  </data>
+  <data name="SmartPdfViewer_TimeOutErrorHeader" xml:space="preserve">
+    <value>Délai d’attente dépassé</value>
+  </data>
+  <data name="SmartPdfViewer_TimeOutErrorContent" xml:space="preserve">
+    <value>Votre requête de recherche a pris plus de temps que prévu et a dépassé le délai autorisé.</value>
+  </data>
+  <data name="SmartPdfViewer_DisClaimerContent" xml:space="preserve">
+    <value>Les réponses générées par l’intelligence artificielle peuvent être inexactes ou trompeuses. Veillez à vérifier soigneusement les réponses et les sources.</value>
+  </data>
+  <data name="SmartPdfViewer_RedactionToolTip" xml:space="preserve">
+      <value>Rédaction Intelligente</value>
+  </data>
+  <data name="SmartPdfViewer_RedactHeader" xml:space="preserve">
+      <value>Sélectionnez le modèle</value>
+  </data>
+  <data name="SmartPdfViewer_CancelRedact" xml:space="preserve">
+      <value>Annuler</value>
+  </data>
+  <data name="SmartPdfViewer_ApplyRedact" xml:space="preserve">
+      <value>Rédiger</value>
+  </data>
+  <data name="SmartPdfViewer_ScanRedact" xml:space="preserve">
+      <value>Scanner</value>
+  </data>
+  <data name="SmartPdfViewer_SmartFillToolTip" xml:space="preserve">
+    <value>Remplissage intelligent de formulaire</value>
+  </data>
+  <data name="SmartPdfViewer_SmartFillText" xml:space="preserve">
+    <value>Remplissage intelligent</value>
+  </data>
+  <data name="SmartPdfViewer_AIAssistanceToolTip" xml:space="preserve">
+    <value>Assistance IA</value>
+  </data>
+  <data name="SmartPdfViewer_RedactOptionsHeader" xml:space="preserve">
+    <value>Sélectionner les données à masquer</value>
+  </data>
+  <data name="SmartPdfViewer_NoInformationErrorContent" xml:space="preserve">
+    <value>Aucune information sensible n’a été trouvée dans le document.</value>
+  </data>
+  <data name="SmartPdfViewer_NoInformationErrorContentHeader" xml:space="preserve">
+    <value>Aucune donnée sensible trouvée</value>
+  </data>
+  <data name="SmartPdfViewer_RedactDisclaimer" xml:space="preserve">
+    <value>Les informations détectées par l’intelligence artificielle peuvent être inexactes. Veuillez vérifier les résultats avant utilisation.</value>
   </data>
   <data name="DocumentEditor_Table" xml:space="preserve">
     <value>Table</value>
@@ -4625,30 +4790,6 @@
   </data>
   <data name="DocumentEditor_Cancel" xml:space="preserve">
     <value>Annuler</value>
-  </data>
-  <data name="DocumentEditor_UpperCaseLetter" xml:space="preserve">
-    <value>A, B, C, ...</value>
-  </data>
-  <data name="DocumentEditor_LowerCaseLetter" xml:space="preserve">
-    <value>a, b, c, ...</value>
-  </data>
-  <data name="DocumentEditor_UpperCaseRoman" xml:space="preserve">
-    <value>I, II, III, ...</value>
-  </data>
-  <data name="DocumentEditor_LowerCaseRoman" xml:space="preserve">
-    <value>i, ii, iii, ...</value>
-  </data>
-  <data name="DocumentEditor_Apply" xml:space="preserve">
-    <value>Appliquer</value>
-  </data>
-  <data name="DocumentEditor_Endnotes" xml:space="preserve">
-    <value>Note de fin</value>
-  </data>
-  <data name="DocumentEditor_Footnotes" xml:space="preserve">
-    <value>Note de bas de page</value>
-  </data>
-  <data name="DocumentEditor_NumberFormat_Alert" xml:space="preserve">
-    <value>La valeur NumberFormat doit être comprise entre</value>
   </data>
   <data name="DocumentEditor_Size" xml:space="preserve">
     <value>Taille</value>
@@ -5475,6 +5616,9 @@
   <data name="DocumentEditor_UnderlineErrors" xml:space="preserve">
     <value>Souligner les erreurs</value>
   </data>
+  <data name="DocumentEditor_MoreSuggestions" xml:space="preserve">
+    <value>Plus de suggestions</value>
+  </data>
   <data name="DocumentEditor_Ignore" xml:space="preserve">
     <value>Ignorer</value>
   </data>
@@ -5578,7 +5722,7 @@
     <value>Champ de formulaire déroulant</value>
   </data>
   <data name="DocumentEditor_DropDownItems" xml:space="preserve">
-    <value>élément déroulants</value>
+    <value>Articles déroulants</value>
   </data>
   <data name="DocumentEditor_ItemsInDropDownList" xml:space="preserve">
     <value>Éléments dans la liste déroulante</value>
@@ -7941,12 +8085,6 @@
   <data name="Spreadsheet_Filter" xml:space="preserve">
     <value>Filtre</value>
   </data>
-  <data name="Spreadsheet_Ascending" xml:space="preserve">
-    <value>Croissant</value>
-  </data>
-  <data name="Spreadsheet_Descending" xml:space="preserve">
-    <value>Décroissant</value>
-  </data>
   <data name="Spreadsheet_ClearFilterFrom" xml:space="preserve">
     <value>Effacer le filtre de</value>
   </data>
@@ -8079,13 +8217,13 @@
   <data name="Spreadsheet_LastMonth" xml:space="preserve">
     <value>Mois dernier</value>
   </data>
-  <data name="Spreadsheet_NextQuater" xml:space="preserve">
+  <data name="Spreadsheet_NextQuarter" xml:space="preserve">
     <value>Trimestre prochain</value>
   </data>
-  <data name="Spreadsheet_ThisQuater" xml:space="preserve">
+  <data name="Spreadsheet_ThisQuarter" xml:space="preserve">
     <value>Ce trimestre</value>
   </data>
-  <data name="Spreadsheet_LastQuater" xml:space="preserve">
+  <data name="Spreadsheet_LastQuarter" xml:space="preserve">
     <value>Trimestre dernier</value>
   </data>
   <data name="Spreadsheet_NextYear" xml:space="preserve">
@@ -8276,6 +8414,297 @@
   </data>
   <data name="Spreadsheet_FontSize" xml:space="preserve">
     <value>Taille de police</value>
+  </data>
+  <data name="Spreadsheet_DataLimitExceed" xml:space="preserve">
+    <value>Les données du fichier sont trop volumineuses et leur traitement prend plus de temps, voulez-vous continuer ?</value>
+  </data>
+  <data name="Spreadsheet_FileLimitExceed" xml:space="preserve">
+    <value>La taille du fichier est trop grande et son traitement prend plus de temps, voulez-vous continuer ?</value>
+  </data>
+  <data name="Spreadsheet_PasswordPrompt" xml:space="preserve">
+    <value>est protégé</value>
+  </data>
+  <data name="Spreadsheet_UnsupportedFile" xml:space="preserve">
+    <value>Fichier non pris en charge</value>
+  </data>
+  <data name="Spreadsheet_View" xml:space="preserve">
+    <value>Affichage</value>
+  </data>
+  <data name="Spreadsheet_Borders" xml:space="preserve">
+    <value>Bordures</value>
+  </data>
+  <data name="Spreadsheet_RightBorder" xml:space="preserve">
+    <value>Bordure droite</value>
+  </data>
+  <data name="Spreadsheet_BottomBorder" xml:space="preserve">
+    <value>Bordure inférieure</value>
+  </data>
+  <data name="Spreadsheet_TopBorder" xml:space="preserve">
+    <value>Bordure supérieure</value>
+  </data>
+  <data name="Spreadsheet_LeftBorder" xml:space="preserve">
+    <value>Bordure gauche</value>
+  </data>
+  <data name="Spreadsheet_NoBorder" xml:space="preserve">
+    <value>Aucune bordure</value>
+  </data>
+  <data name="Spreadsheet_AllBorders" xml:space="preserve">
+    <value>Toutes les bordures</value>
+  </data>
+  <data name="Spreadsheet_OutsideBorders" xml:space="preserve">
+    <value>Bordures extérieures</value>
+  </data>
+  <data name="Spreadsheet_InsideBorders" xml:space="preserve">
+    <value>Bordures intérieures</value>
+  </data>
+  <data name="Spreadsheet_HorizontalBorders" xml:space="preserve">
+    <value>Bordures horizontales</value>
+  </data>
+  <data name="Spreadsheet_VerticalBorders" xml:space="preserve">
+    <value>Bordures verticales</value>
+  </data>
+  <data name="Spreadsheet_BorderColor" xml:space="preserve">
+    <value>Couleur de bordure</value>
+  </data>
+  <data name="Spreadsheet_BorderStyle" xml:space="preserve">
+    <value>Style de bordure</value>
+  </data>
+  <data name="Spreadsheet_Thin" xml:space="preserve">
+    <value>Fin</value>
+  </data>
+  <data name="Spreadsheet_Medium" xml:space="preserve">
+    <value>Moyen</value>
+  </data>
+  <data name="Spreadsheet_Thick" xml:space="preserve">
+    <value>Épais</value>
+  </data>
+  <data name="Spreadsheet_Dotted" xml:space="preserve">
+    <value>Pointillé</value>
+  </data>
+  <data name="Spreadsheet_Dashed" xml:space="preserve">
+    <value>Tiret</value>
+  </data>
+  <data name="Spreadsheet_Double" xml:space="preserve">
+    <value>Double</value>
+  </data>
+  <data name="Spreadsheet_ShowGridlines" xml:space="preserve">
+    <value>Afficher les lignes de grille</value>
+  </data>
+  <data name="Spreadsheet_HideGridlines" xml:space="preserve">
+    <value>Masquer les lignes de grille</value>
+  </data>
+  <data name="Spreadsheet_WebPage" xml:space="preserve">
+    <value>Page Web</value>
+  </data>
+  <data name="Spreadsheet_ThisDocument" xml:space="preserve">
+    <value>Ce document</value>
+  </data>
+  <data name="Spreadsheet_DisplayText" xml:space="preserve">
+    <value>Texte d'affichage</value>
+  </data>
+  <data name="Spreadsheet_Url" xml:space="preserve">
+    <value>URL</value>
+  </data>
+  <data name="Spreadsheet_Sheet" xml:space="preserve">
+    <value>Feuille</value>
+  </data>
+  <data name="Spreadsheet_ReferenceCell" xml:space="preserve">
+    <value>Référence de cellule</value>
+  </data>
+  <data name="Spreadsheet_DownloadPDF" xml:space="preserve">
+    <value>Télécharger en tant que PDF</value>
+  </data>
+  <data name="Spreadsheet_DataOperations" xml:space="preserve">
+    <value>Opérations sur les données</value>
+  </data>
+  <data name="Spreadsheet_General" xml:space="preserve">
+    <value>Général</value>
+  </data>
+  <data name="Spreadsheet_Number" xml:space="preserve">
+    <value>Nombre</value>
+  </data>
+  <data name="Spreadsheet_Currency" xml:space="preserve">
+    <value>Devise</value>
+  </data>
+  <data name="Spreadsheet_Accounting" xml:space="preserve">
+    <value>Comptabilité</value>
+  </data>
+  <data name="Spreadsheet_ShortDate" xml:space="preserve">
+    <value>Date courte</value>
+  </data>
+  <data name="Spreadsheet_LongDate" xml:space="preserve">
+    <value>Date longue</value>
+  </data>
+  <data name="Spreadsheet_Time" xml:space="preserve">
+    <value>Heure</value>
+  </data>
+  <data name="Spreadsheet_Percentage" xml:space="preserve">
+    <value>Pourcentage</value>
+  </data>
+  <data name="Spreadsheet_Fraction" xml:space="preserve">
+    <value>Fraction</value>
+  </data>
+  <data name="Spreadsheet_Scientific" xml:space="preserve">
+    <value>Scientifique</value>
+  </data>
+  <data name="Spreadsheet_Custom" xml:space="preserve">
+    <value>Personnalisé</value>
+  </data>
+  <data name="Spreadsheet_NumberFormat" xml:space="preserve">
+    <value>Format de nombre</value>
+  </data>
+  <data name="Spreadsheet_Algerian" xml:space="preserve">
+    <value>Algérien</value>
+  </data>
+  <data name="Spreadsheet_Arial" xml:space="preserve">
+    <value>Arial</value>
+  </data>
+  <data name="Spreadsheet_Calibri" xml:space="preserve">
+    <value>Calibri</value>
+  </data>
+  <data name="Spreadsheet_Cambria" xml:space="preserve">
+    <value>Cambria</value>
+  </data>
+  <data name="Spreadsheet_CambriaMath" xml:space="preserve">
+    <value>Cambria Math</value>
+  </data>
+  <data name="Spreadsheet_CourierNew" xml:space="preserve">
+    <value>Courier New</value>
+  </data>
+  <data name="Spreadsheet_Candara" xml:space="preserve">
+    <value>Candara</value>
+  </data>
+  <data name="Spreadsheet_Georgia" xml:space="preserve">
+    <value>Georgia</value>
+  </data>
+  <data name="Spreadsheet_Impact" xml:space="preserve">
+    <value>Impact</value>
+  </data>
+  <data name="Spreadsheet_SegoePrint" xml:space="preserve">
+    <value>Segoe Print</value>
+  </data>
+  <data name="Spreadsheet_SegoeScript" xml:space="preserve">
+    <value>Segoe Script</value>
+  </data>
+  <data name="Spreadsheet_SegoeUI" xml:space="preserve">
+    <value>Segoe UI</value>
+  </data>
+  <data name="Spreadsheet_Symbol" xml:space="preserve">
+    <value>Symbole</value>
+  </data>
+  <data name="Spreadsheet_TimesNewRoman" xml:space="preserve">
+    <value>Times New Roman</value>
+  </data>
+  <data name="Spreadsheet_Verdana" xml:space="preserve">
+    <value>Verdana</value>
+  </data>
+  <data name="Spreadsheet_Windings" xml:space="preserve">
+    <value>Windings</value>
+  </data>
+  <data name="Spreadsheet_KeepSourceFormat" xml:space="preserve">
+    <value>Conserver le format source</value>
+  </data>
+  <data name="Spreadsheet_MergeFormat" xml:space="preserve">
+    <value>Fusionner le format</value>
+  </data>
+  <data name="Spreadsheet_KeepTextOnly" xml:space="preserve">
+    <value>Conserver le texte uniquement</value>
+  </data>
+  <data name="Spreadsheet_Ascending" xml:space="preserve">
+    <value>Ascendant</value>
+  </data>
+  <data name="Spreadsheet_Descending" xml:space="preserve">
+    <value>Descendant</value>
+  </data>
+  <data name="Spreadsheet_CustomSort" xml:space="preserve">
+    <value>Tri personnalisé</value>
+  </data>
+  <data name="Spreadsheet_ShowRowsWhere" xml:space="preserve">
+    <value>Afficher les lignes où</value>
+  </data>
+  <data name="Spreadsheet_Hide" xml:space="preserve">
+    <value>Masquer</value>
+  </data>
+  <data name="Spreadsheet_OkButton" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="Spreadsheet_Font" xml:space="preserve">
+    <value>Police</value>
+  </data>
+  <data name="Spreadsheet_Print" xml:space="preserve">
+    <value>Imprimer</value>
+  </data>
+  <data name="Spreadsheet_InsertRowBelow" xml:space="preserve">
+    <value>Insérer une ligne en dessous</value>
+  </data>
+  <data name="Spreadsheet_Text" xml:space="preserve">
+    <value>Texte</value>
+  </data>
+  <data name="Spreadsheet_Value" xml:space="preserve">
+    <value>Valeur</value>
+  </data>
+  <data name="Spreadsheet_AlignLeft" xml:space="preserve">
+    <value>Aligner à gauche</value>
+  </data>
+  <data name="Spreadsheet_AlignCenter" xml:space="preserve">
+    <value>Aligner au centre</value>
+  </data>
+  <data name="Spreadsheet_AlignRight" xml:space="preserve">
+    <value>Aligner à droite</value>
+  </data>
+  <data name="Spreadsheet_Justify" xml:space="preserve">
+    <value>Justifier</value>
+  </data>
+  <data name="Spreadsheet_AlignTop" xml:space="preserve">
+    <value>Aligner en haut</value>
+  </data>
+  <data name="Spreadsheet_Clipboard" xml:space="preserve">
+    <value>Presse-papiers</value>
+  </data>
+  <data name="Spreadsheet_AlignMiddle" xml:space="preserve">
+    <value>Aligner au milieu</value>
+  </data>
+  <data name="Spreadsheet_AlignBottom" xml:space="preserve">
+    <value>Aligner en bas</value>
+  </data>
+  <data name="Spreadsheet_ChooseTime" xml:space="preserve">
+    <value>Choisir l'heure</value>
+  </data>
+  <data name="Spreadsheet_ChangeCase" xml:space="preserve">
+    <value>Changer la casse</value>
+  </data>
+  <data name="Spreadsheet_FillSeries" xml:space="preserve">
+	<value>Täytä sarja</value>
+  </data>
+  <data name="Spreadsheet_FillFormattingOnly" xml:space="preserve">
+   <value>Täytä vain muotoilu</value>
+  </data>
+  <data name="Spreadsheet_FillWithoutFormatting" xml:space="preserve">
+   <value>Täytä ilman muotoilua</value>
+  </data>
+  <data name="Spreadsheet_CopyCells" xml:space="preserve">
+   <value>Kopioi solut</value>
+  </data>
+  <data name="Spreadsheet_MergeCell" xml:space="preserve">
+    <value>Fusionner la cellule</value>
+  </data>
+  <data name="Spreadsheet_MergeCellDialog" xml:space="preserve">
+    <value>La fusion de cellules ne conserve que la valeur en haut à gauche et rejette les autres valeurs.</value>
+  </data>
+  <data name="Spreadsheet_MergeCellSize" xml:space="preserve">
+    <value>Pour ce faire, toutes les cellules fusionnées doivent avoir la même taille.</value>
+  </data>
+  <data name="Spreadsheet_MergeCenter" xml:space="preserve">
+    <value>Fusionner &amp; Centrer</value>
+  </data>
+  <data name="Spreadsheet_MergeAcross" xml:space="preserve">
+    <value>Fusionner à travers</value>
+  </data>
+  <data name="Spreadsheet_MergeCells" xml:space="preserve">
+    <value>Fusionner les cellules</value>
+  </data>
+  <data name="Spreadsheet_UnMergeCells" xml:space="preserve">
+    <value>Fractionner les cellules</value>
   </data>
   <data name="RichTextEditor_InlineCode" xml:space="preserve">
     <value>Code en ligne</value>
@@ -8475,10 +8904,172 @@
   <data name="Spreadsheet_ExpandRibbonTab" xml:space="preserve">
     <value>Développer la barre d'outils</value>
   </data>
+  <data name="Spreadsheet_InvalidFileNameMessage" xml:space="preserve">
+   <value>Utilisez un nom qui n'inclut pas ces caractères : \ / : * ? " |</value>
+  </data>
+  <data name="Spreadsheet_EmptyFileName" xml:space="preserve">
+   <value>Le nom de fichier ne peut pas être vide.</value>
+  </data>
+  <data name="Spreadsheet_CircularReference" xml:space="preserve">
+    <value>Nous avons constaté que vous avez saisi une formule avec une référence circulaire.</value>
+  </data>
   <data name="RichTextEditor_FormatPainter" xml:space="preserve">
     <value>Pinceau de format</value>
   </data>
+  <data name="RichTextEditor_LineHeight" xml:space="preserve">
+    <value>HauteurDeLigne</value>
+  </data>
   <data name="DataForm_SubmitContent" xml:space="preserve">
     <value>Soumettre</value>
+  </data>
+  <data name="AssistView_FileSize_Failure" xml:space="preserve">
+    <value>Échec du téléchargement: La taille du fichier est trop grande</value>
+  </data>
+  <data name="ChatUI_Forwarded_Message" xml:space="preserve">
+    <value>Transféré</value>
+  </data>
+  <data name="ChatUI_MentionNoRecord" xml:space="preserve">
+    <value>Aucun enregistrement trouvé</value>
+  </data>
+  <data name="ChatUI_Send" xml:space="preserve">
+    <value>Envoyer</value>
+  </data>
+  <data name="ChatUI_Attachments" xml:space="preserve">
+    <value>Joindre un fichier</value>
+  </data>
+  <data name="ChatUI_Download" xml:space="preserve">
+    <value>Télécharger</value>
+  </data>
+  <data name="ChatUI_Close" xml:space="preserve">
+    <value>Fermer</value>
+  </data>
+  <data name="ChatUI_FileUploadFailure" xml:space="preserve">
+    <value>Limite d’envoi atteinte : maximum {0} fichiers autorisés. Supprimez les fichiers supplémentaires pour poursuivre l’envoi</value>
+  </data>
+  <data name="ChatUI_FilePreview" xml:space="preserve">
+    <value>Aucun aperçu disponible</value>
+  </data>
+  <data name="ChatUI_FileSizeFailure" xml:space="preserve">
+    <value>Échec de l’envoi : la taille de {0} fichiers est trop grande</value>
+  </data>
+  <data name="AIAssistView_FileCountFailure" xml:space="preserve">
+    <value>Limite d’envoi atteinte : maximum {0} fichiers autorisés. Supprimez les fichiers supplémentaires pour poursuivre l’envoi</value>
+  </data>
+  <data name="AssistView_Send" xml:space="preserve">
+    <value>Envoyer</value>
+  </data>
+  <data name="AssistView_Attachments" xml:space="preserve">
+    <value>Joindre un fichier</value>
+  </data>
+  <data name="AssistView_Clear" xml:space="preserve">
+    <value>Effacer</value>
+  </data>
+  <data name="BlockEditor_Paragraph" xml:space="preserve">
+      <value>Écrivez quelque chose ou '/' pour les commandes.</value>
+  </data>
+  <data name="BlockEditor_Heading1" xml:space="preserve">
+      <value>Titre 1</value>
+  </data>
+  <data name="BlockEditor_Heading2" xml:space="preserve">
+      <value>Titre 2</value>
+  </data>
+  <data name="BlockEditor_Heading3" xml:space="preserve">
+      <value>Titre 3</value>
+  </data>
+  <data name="BlockEditor_Heading4" xml:space="preserve">
+      <value>Titre 4</value>
+  </data>
+  <data name="BlockEditor_CollapsibleParagraph" xml:space="preserve">
+      <value>Paragraphe rétractable</value>
+  </data>
+  <data name="BlockEditor_CollapsibleHeading1" xml:space="preserve">
+      <value>Titre rétractable 1</value>
+  </data>
+  <data name="BlockEditor_CollapsibleHeading2" xml:space="preserve">
+      <value>Titre rétractable 2</value>
+  </data>
+  <data name="BlockEditor_CollapsibleHeading3" xml:space="preserve">
+      <value>Titre rétractable 3</value>
+  </data>
+  <data name="BlockEditor_CollapsibleHeading4" xml:space="preserve">
+      <value>Titre rétractable 4</value>
+  </data>
+  <data name="BlockEditor_BulletList" xml:space="preserve">
+      <value>Ajouter un élément</value>
+  </data>
+  <data name="BlockEditor_NumberedList" xml:space="preserve">
+      <value>Ajouter un élément</value>
+  </data>
+  <data name="BlockEditor_Checklist" xml:space="preserve">
+      <value>Tâche</value>
+  </data>
+  <data name="BlockEditor_Quote" xml:space="preserve">
+      <value>Écrire une citation</value>
+  </data>
+  <data name="BlockEditor_Callout" xml:space="preserve">
+      <value>Écrire une note</value>
+  </data>
+  <data name="BlockEditor_AddIconTooltip" xml:space="preserve">
+      <value>Cliquez pour insérer ci-dessous</value>
+  </data>
+  <data name="BlockEditor_DragIconTooltipActionMenu" xml:space="preserve">
+      <value>Cliquez pour ouvrir</value>
+  </data>
+  <data name="BlockEditor_DragIconTooltip" xml:space="preserve">
+      <value>(Maintenez pour glisser)</value>
+  </data>
+  <data name="BlockEditor_InsertLink" xml:space="preserve">
+      <value>Insérer un lien</value>
+  </data>
+  <data name="BlockEditor_LinkText" xml:space="preserve">
+      <value>Texte</value>
+  </data>
+  <data name="BlockEditor_LinkTextPlaceholder" xml:space="preserve">
+      <value>Texte du lien</value>
+  </data>
+  <data name="BlockEditor_LinkUrl" xml:space="preserve">
+      <value>URL</value>
+  </data>
+  <data name="BlockEditor_LinkUrlPlaceholder" xml:space="preserve">
+      <value>https://exemple.com</value>
+  </data>
+  <data name="BlockEditor_LinkTitle" xml:space="preserve">
+      <value>Titre</value>
+  </data>
+  <data name="BlockEditor_LinkTitlePlaceholder" xml:space="preserve">
+      <value>Titre du lien</value>
+  </data>
+  <data name="BlockEditor_LinkOpenInNewWindow" xml:space="preserve">
+      <value>Ouvrir dans une nouvelle fenêtre</value>
+  </data>
+  <data name="BlockEditor_LinkInsert" xml:space="preserve">
+      <value>Insérer</value>
+  </data>
+  <data name="BlockEditor_LinkRemove" xml:space="preserve">
+      <value>Supprimer</value>
+  </data>
+  <data name="BlockEditor_LinkCancel" xml:space="preserve">
+      <value>Annuler</value>
+  </data>
+  <data name="BlockEditor_CodeCopyTooltip" xml:space="preserve">
+      <value>Copier le code</value>
+  </data>
+  <data name="DocumentEditorContainer_CommentsCloseHeader" xml:space="preserve">
+    <value>Commentaires non enregistrés</value>
+  </data>
+  <data name="DocumentEditorContainer_CommentsCloseContent" xml:space="preserve">
+    <value>Vous avez des commentaires qui n'ont pas encore été publiés. Si vous quittez cette page, ils seront supprimés</value>
+  </data>
+  <data name="DocumentEditorContainer_KeepEditing" xml:space="preserve">
+    <value>Continuer à éditer</value>
+  </data>
+  <data name="DocumentEditorContainer_DiscardComments" xml:space="preserve">
+    <value>Supprimer les commentaires</value>
+  </data>
+  <data name="DocumentEditor_Resolved" xml:space="preserve">
+    <value>Résolu</value>
+  </data>
+  <data name="DocumentEditor_CommentMark" xml:space="preserve">
+    <value>Cliquez pour voir ce commentaire</value>
   </data>
 </root>

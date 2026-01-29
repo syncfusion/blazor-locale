@@ -933,11 +933,23 @@
   <data name="Gantt_SplitTask" xml:space="preserve">
     <value>แยกงาน</value>
   </data>
+  <data name="Gantt_WbsCode" xml:space="preserve">
+    <value>รหัสโครงสร้างการแบ่งงาน</value>
+  </data>
+  <data name="Gantt_WbsPredecessor" xml:space="preserve">
+    <value>งานก่อนหน้าในโครงสร้างการแบ่งงาน</value>
+  </data>
   <data name="Gantt_MergeTask" xml:space="preserve">
     <value>รวมงาน</value>
   </data>
   <data name="Gantt_UnassignedTasks" xml:space="preserve">
     <value>งานที่ยังไม่ได้มอบหมาย</value>
+  </data>
+  <data name="Gantt_Undo" xml:space="preserve">
+    <value>เลิกทำ</value>
+  </data>
+  <data name="Gantt_Redo" xml:space="preserve">
+    <value>ทำซ้ำ</value>
   </data>
   <data name="ColorPicker_Apply" xml:space="preserve">
     <value>ใช้</value>
@@ -2365,25 +2377,25 @@
     <value>หัวเรื่อง   9</value>
   </data>
   <data name="RichTextEditor_FontNameSegoeUI" xml:space="preserve">
-    <value>Segoe UI</value>
+    <value>เซโก้ ยูไอ</value>
   </data>
   <data name="RichTextEditor_FontNameArial" xml:space="preserve">
-    <value>Arial</value>
+    <value>อาเรียล</value>
   </data>
   <data name="RichTextEditor_FontNameGeorgia" xml:space="preserve">
-    <value>Georgia</value>
+    <value>จอร์เจีย</value>
   </data>
   <data name="RichTextEditor_FontNameImpact" xml:space="preserve">
-    <value>Impact</value>
+    <value>ผลกระทบ</value>
   </data>
   <data name="RichTextEditor_FontNameTahoma" xml:space="preserve">
-    <value>Tahoma</value>
+    <value>ทามู</value>
   </data>
   <data name="RichTextEditor_FontNameTimesNewRoman" xml:space="preserve">
-    <value>Times New Roman</value>
+    <value>ไทม์ส นิว โรมา</value>
   </data>
   <data name="RichTextEditor_FontNameVerdana" xml:space="preserve">
-    <value>Verdana</value>
+    <value>เวอร์ดานา</value>
   </data>
   <data name="RichTextEditor_Alignments" xml:space="preserve">
     <value>การจัดแนว</value>
@@ -2679,6 +2691,18 @@
   <data name="RichTextEditor_TableRemove" xml:space="preserve">
     <value>ลบตาราง</value>
   </data>
+  <data name="RichTextEditor_TableCell" xml:space="preserve">
+    <value>เซลล์ตาราง</value>
+  </data>
+  <data name="RichTextEditor_TableCellMerge" xml:space="preserve">
+    <value>ผสานเซลล์</value>
+  </data>
+  <data name="RichTextEditor_TableCellHorizontalSplit" xml:space="preserve">
+    <value>แยกแนวนอน</value>
+  </data>
+  <data name="RichTextEditor_TableCellVerticalSplit" xml:space="preserve">
+    <value>แยกแนวตั้ง</value>
+  </data>
   <data name="RichTextEditor_TableCellBackground" xml:space="preserve">
     <value>พื้นหลังของเซลล์ตาราง</value>
   </data>
@@ -2825,6 +2849,48 @@
   </data>
   <data name="RichTextEditor_Img_AltText_Unsupported" xml:space="preserve">
     <value></value>
+  </data>
+  <data name="RichTextEditor_ImportDeviceUploadMessage" xml:space="preserve">
+    <value>คลิกที่นี่เพื่ออัปโหลด</value>
+  </data>
+  <data name="RichTextEditor_ImportUploadMessage" xml:space="preserve">
+    <value>ลากหรือลงไปยังเอกสาร Word</value>
+  </data>
+  <data name="RichTextEditor_ImportHeader" xml:space="preserve">
+    <value>นำเข้าคำ</value>
+  </data>
+  <data name="RichTextEditor_DialogImport" xml:space="preserve">
+    <value>แทรก</value>
+  </data>
+  <data name="RichTextEditor_VideoHeader" xml:space="preserve">
+    <value>แทรกวิดีโอ</value>
+  </data>
+  <data name="RichTextEditor_EditVideoHeader" xml:space="preserve">
+    <value>แก้ไขวิดีโอ</value>
+  </data>
+  <data name="RichTextEditor_AudioHeader" xml:space="preserve">
+    <value>แทรกเสียง</value>
+  </data>
+  <data name="RichTextEditor_EditAudioHeader" xml:space="preserve">
+    <value>แก้ไขเสียง</value>
+  </data>
+  <data name="RichTextEditor_Import_From_Word" xml:space="preserve">
+    <value>นำเข้าจาก Word</value>
+  </data>
+  <data name="RichTextEditor_Export_To_Word" xml:space="preserve">
+    <value>ส่งออกไปยัง Word</value>
+  </data>
+  <data name="RichTextEditor_Export_To_PDF" xml:space="preserve">
+    <value>ส่งออกเป็น PDF</value>
+  </data>
+  <data name="RichTextEditor_Audio" xml:space="preserve">
+    <value>แทรกเสียง</value>
+  </data>
+  <data name="RichTextEditor_Video" xml:space="preserve">
+    <value>แทรกวิดีโอ</value>
+  </data>
+  <data name="RichTextEditor_Default" xml:space="preserve">
+    <value>ค่าเริ่มต้น</value>
   </data>
   <data name="DiagramComponent_X" xml:space="preserve">
     <value>X</value>
@@ -4572,6 +4638,57 @@
   <data name="PdfViewer_Of" xml:space="preserve">
     <value>ของ</value>
   </data>
+  <data name="PdfViewer_OrganizePages" xml:space="preserve">
+    <value>จัดระเบียบหน้า</value>
+  </data>
+  <data name="PdfViewer_Pages" xml:space="preserve">
+    <value>หน้า</value>
+  </data>
+  <data name="PdfViewer_RotateLeft" xml:space="preserve">
+    <value>หมุนไปทางซ้าย</value>
+  </data>
+  <data name="PdfViewer_RotateRight" xml:space="preserve">
+    <value>หมุนไปทางขวา</value>
+  </data>
+  <data name="PdfViewer_DuplicatePages" xml:space="preserve">
+    <value>ทำสำเนาหน้า</value>
+  </data>
+  <data name="PdfViewer_DeletePages" xml:space="preserve">
+    <value>ลบหน้า</value>
+  </data>
+  <data name="PdfViewer_PageZoom" xml:space="preserve">
+    <value>ซูมหน้า</value>
+  </data>
+  <data name="PdfViewer_SelectAll" xml:space="preserve">
+    <value>เลือกทั้งหมด</value>
+  </data>
+  <data name="PdfViewer_ImportDocument" xml:space="preserve">
+    <value>นำเข้าเอกสาร</value>
+  </data>
+  <data name="PdfViewer_ExtractDocument" xml:space="preserve">
+    <value>แยกเอกสาร</value>
+  </data>
+  <data name="PdfViewer_Total" xml:space="preserve">
+    <value>รวม</value>
+  </data>
+  <data name="PdfViewer_SaveAs" xml:space="preserve">
+    <value>บันทึกเป็น</value>
+  </data>
+  <data name="PdfViewer_InsertLeft" xml:space="preserve">
+    <value>แทรกทางซ้าย</value>
+  </data>
+  <data name="PdfViewer_InsertRight" xml:space="preserve">
+    <value>แทรกทางขวา</value>
+  </data>
+  <data name="PdfViewer_DuplicatePage" xml:space="preserve">
+    <value>ทำสำเนาหน้าเดียว</value>
+  </data>
+  <data name="PdfViewer_DeletePage" xml:space="preserve">
+    <value>ลบหน้าเดียว</value>
+  </data>
+  <data name="PdfViewer_AllPagesDelete" xml:space="preserve">
+    <value>ไม่สามารถลบทุกหน้าได้ เนื่องจากต้องมีอย่างน้อยหนึ่งหน้าในเอกสาร</value>
+  </data>
   <data name="PdfViewer_Required_ServiceUrl_Error_Message" xml:space="preserve">
     <value>โปรแกรมดู PDF นี้ต้องใช้การประมวลผลฝั่งเซิร์ฟเวอร์เพื่อแสดงไฟล์ PDF ผ่านบริการเว็บ คุณต้องกำหนดค่า URL ของบริการเพื่อดำเนินการกับโปรแกรมดู PDF</value>
   </data>
@@ -4603,10 +4720,58 @@
     <value>ข้อผิดพลาดของบริการ AI</value>
   </data>
   <data name="PdfViewer_CredentialErrorContent" xml:space="preserve">
-    <value>ไม่มีการระบุข้อมูลรับรอง หรือข้อมูลไม่ถูกต้องหรือไม่สามารถใช้งานได้ กรุณาตรวจสอบและป้อนข้อมูลที่ถูกต้อง แล้วลองใหม่อีกครั้ง</value>
+    <value>ข้อมูลรับรองไม่ได้รับการระบุ ไม่ถูกต้อง หรือไม่สามารถใช้งานได้ กรุณาใส่ข้อมูลรับรองที่ถูกต้องและลองใหม่อีกครั้ง</value>
   </data>
   <data name="PdfViewer_ConnectionLostErrorContent" xml:space="preserve">
     <value>การเชื่อมต่อกับบริการ AI ถูกตัด กรุณาตรวจสอบการเชื่อมต่อเครือข่ายของคุณและลองใหม่อีกครั้ง</value>
+  </data>
+  <data name="PdfViewer_UnSupportedDialogContent" xml:space="preserve">
+    <value>ไฟล์นี้ไม่รองรับคุณสมบัติ AI สร้างสรรค์เนื่องจากไฟล์ว่างหรือมีข้อความไม่เพียงพอ กรุณาลองใช้ไฟล์อื่น</value>
+  </data>
+  <data name="SmartPdfViewer_TimeOutErrorHeader" xml:space="preserve">
+    <value>หมดเวลาการร้องขอ</value>
+  </data>
+  <data name="SmartPdfViewer_TimeOutErrorContent" xml:space="preserve">
+    <value>คำขอค้นหาของคุณใช้เวลานานกว่าที่คาดไว้และเกินเวลาที่อนุญาตสูงสุด</value>
+  </data>
+  <data name="SmartPdfViewer_DisClaimerContent" xml:space="preserve">
+    <value>คำตอบที่สร้างโดยปัญญาประดิษฐ์อาจไม่ถูกต้องหรือทำให้เข้าใจผิดได้ โปรดตรวจสอบคำตอบและแหล่งข้อมูลอย่างรอบคอบ</value>
+  </data>
+  <data name="SmartPdfViewer_RedactionToolTip" xml:space="preserve">
+    <value>การแก้ไขข้อมูลอัจฉริยะ</value>
+  </data>
+  <data name="SmartPdfViewer_RedactHeader" xml:space="preserve">
+    <value>เลือกแบบ</value>
+  </data>
+  <data name="SmartPdfViewer_CancelRedact" xml:space="preserve">
+    <value>ยกเลิก</value>
+  </data>
+  <data name="SmartPdfViewer_ApplyRedact" xml:space="preserve">
+    <value>แก้ไข</value>
+  </data>
+  <data name="SmartPdfViewer_ScanRedact" xml:space="preserve">
+    <value>สแกน</value>
+  </data>
+  <data name="SmartPdfViewer_SmartFillToolTip" xml:space="preserve">
+    <value>แบบฟอร์มอัจฉริยะ</value>
+  </data>
+  <data name="SmartPdfViewer_SmartFillText" xml:space="preserve">
+    <value>การเติมข้อมูลอัจฉริยะ</value>
+  </data>
+  <data name="SmartPdfViewer_AIAssistanceToolTip" xml:space="preserve">
+    <value>ความช่วยเหลือจาก AI</value>
+  </data>
+  <data name="SmartPdfViewer_RedactOptionsHeader" xml:space="preserve">
+    <value>เลือกข้อมูลที่ต้องการปกปิด</value>
+  </data>
+  <data name="SmartPdfViewer_NoInformationErrorContent" xml:space="preserve">
+    <value>ไม่พบข้อมูลที่ละเอียดอ่อนในเอกสาร</value>
+  </data>
+  <data name="SmartPdfViewer_NoInformationErrorContentHeader" xml:space="preserve">
+    <value>ไม่พบข้อมูลที่เป็นความลับ</value>
+  </data>
+  <data name="SmartPdfViewer_RedactDisclaimer" xml:space="preserve">
+    <value>ข้อมูลที่ตรวจพบโดยปัญญาประดิษฐ์อาจไม่ถูกต้อง กรุณาตรวจสอบผลลัพธ์ก่อนใช้งาน</value>
   </data>
   <data name="DocumentEditor_Table" xml:space="preserve">
     <value>โต๊ะ</value>
@@ -5447,6 +5612,9 @@
   </data>
   <data name="DocumentEditor_UnderlineErrors" xml:space="preserve">
     <value>ขีดเส้นใต้ข้อผิดพลาด</value>
+  </data>
+  <data name="DocumentEditor_MoreSuggestions" xml:space="preserve">
+    <value>คำแนะนำเพิ่มเติม</value>
   </data>
   <data name="DocumentEditor_Ignore" xml:space="preserve">
     <value>ไม่สนใจ</value>
@@ -6810,17 +6978,17 @@
   <data name="Spreadsheet_ClearAll" xml:space="preserve">
     <value>ล้างทั้งหมด</value>
   </data>
+  <data name="Spreadsheet_Clear" xml:space="preserve">
+    <value>ล้าง</value>
+  </data>
   <data name="Spreadsheet_ClearFormats" xml:space="preserve">
-    <value>ล้างการจัดรูปแบบ</value>
+    <value>ล้างรูปแบบ</value>
   </data>
   <data name="Spreadsheet_ClearContents" xml:space="preserve">
     <value>ล้างเนื้อหา</value>
   </data>
   <data name="Spreadsheet_ClearHyperlinks" xml:space="preserve">
-    <value>ล้างการเชื่อมโยง</value>
-  </data>
-  <data name="Spreadsheet_Clear" xml:space="preserve">
-    <value>ล้าง</value>
+    <value>ล้างการเชื่อมโยงหลายมิติ</value>
   </data>
   <data name="Spreadsheet_Home" xml:space="preserve">
     <value>หน้าหลัก</value>
@@ -7938,6 +8106,12 @@
   <data name="Spreadsheet_StartsWith" xml:space="preserve">
     <value>ขึ้นต้นด้วย</value>
   </data>
+  <data name="Spreadsheet_EmptyFileName" xml:space="preserve">
+  <value>ชื่อไฟล์ต้องไม่เว้นว่าง</value>
+</data>
+  <data name="Spreadsheet_EnterValue" xml:space="preserve">
+    <value>ป้อนค่า</value>
+  </data>
   <data name="Spreadsheet_DoesNotStartWith" xml:space="preserve">
     <value>ไม่ขึ้นต้นด้วย</value>
   </data>
@@ -8040,13 +8214,13 @@
   <data name="Spreadsheet_LastMonth" xml:space="preserve">
     <value>เดือนที่แล้ว</value>
   </data>
-  <data name="Spreadsheet_NextQuater" xml:space="preserve">
+  <data name="Spreadsheet_NextQuarter" xml:space="preserve">
     <value>ไตรมาสหน้า</value>
   </data>
-  <data name="Spreadsheet_ThisQuater" xml:space="preserve">
+  <data name="Spreadsheet_ThisQuarter" xml:space="preserve">
     <value>ไตรมาสนี้</value>
   </data>
-  <data name="Spreadsheet_LastQuater" xml:space="preserve">
+  <data name="Spreadsheet_LastQuarter" xml:space="preserve">
     <value>ไตรมาสที่แล้ว</value>
   </data>
   <data name="Spreadsheet_NextYear" xml:space="preserve">
@@ -8241,6 +8415,123 @@
   <data name="Spreadsheet_FontSize" xml:space="preserve">
     <value>ขนาดแบบอักษร</value>
   </data>
+  <data name="Spreadsheet_DataLimitExceed" xml:space="preserve">
+    <value>ข้อมูลไฟล์มีขนาดใหญ่เกินไปและใช้เวลาในการประมวลผลนานขึ้น คุณต้องการดำเนินการต่อหรือไม่</value>
+  </data>
+  <data name="Spreadsheet_FileLimitExceed" xml:space="preserve">
+    <value>ขนาดไฟล์ใหญ่เกินไปและใช้เวลาในการประมวลผลนานขึ้น คุณต้องการดำเนินการต่อหรือไม่</value>
+  </data>
+  <data name="Spreadsheet_PasswordPrompt" xml:space="preserve">
+    <value>ได้รับการป้องกัน</value>
+  </data>
+  <data name="Spreadsheet_UnsupportedFile" xml:space="preserve">
+    <value>ไฟล์ที่ไม่ได้รับการรองรับ</value>
+  </data>
+  <data name="Spreadsheet_View" xml:space="preserve">
+    <value>มุมมอง</value>
+  </data>
+  <data name="Spreadsheet_Borders" xml:space="preserve">
+    <value>เส้นขอบ</value>
+  </data>
+  <data name="Spreadsheet_RightBorder" xml:space="preserve">
+    <value>เส้นขอบขวา</value>
+  </data>
+  <data name="Spreadsheet_BottomBorder" xml:space="preserve">
+    <value>เส้นขอบล่าง</value>
+  </data>
+  <data name="Spreadsheet_TopBorder" xml:space="preserve">
+    <value>เส้นขอบบน</value>
+  </data>
+  <data name="Spreadsheet_LeftBorder" xml:space="preserve">
+    <value>เส้นขอบซ้าย</value>
+  </data>
+  <data name="Spreadsheet_NoBorder" xml:space="preserve">
+    <value>ไม่มีเส้นขอบ</value>
+  </data>
+  <data name="Spreadsheet_AllBorders" xml:space="preserve">
+    <value>เส้นขอบทั้งหมด</value>
+  </data>
+  <data name="Spreadsheet_OutsideBorders" xml:space="preserve">
+    <value>เส้นขอบด้านนอก</value>
+  </data>
+  <data name="Spreadsheet_InsideBorders" xml:space="preserve">
+    <value>เส้นขอบด้านใน</value>
+  </data>
+  <data name="Spreadsheet_HorizontalBorders" xml:space="preserve">
+    <value>เส้นขอบแนวนอน</value>
+  </data>
+  <data name="Spreadsheet_VerticalBorders" xml:space="preserve">
+    <value>เส้นขอบแนวตั้ง</value>
+  </data>
+  <data name="Spreadsheet_BorderColor" xml:space="preserve">
+    <value>สีเส้นขอบ</value>
+  </data>
+  <data name="Spreadsheet_BorderStyle" xml:space="preserve">
+    <value>รูปแบบเส้นขอบ</value>
+  </data>
+  <data name="Spreadsheet_Thin" xml:space="preserve">
+    <value>บาง</value>
+  </data>
+  <data name="Spreadsheet_Medium" xml:space="preserve">
+    <value>ปานกลาง</value>
+  </data>
+  <data name="Spreadsheet_Thick" xml:space="preserve">
+    <value>หนา</value>
+  </data>
+  <data name="Spreadsheet_Dotted" xml:space="preserve">
+    <value>ประ</value>
+  </data>
+  <data name="Spreadsheet_Dashed" xml:space="preserve">
+    <value>เส้นประ</value>
+  </data>
+  <data name="Spreadsheet_Double" xml:space="preserve">
+    <value>คู่</value>
+  </data>
+  <data name="Spreadsheet_ShowGridlines" xml:space="preserve">
+    <value>แสดงเส้นตาราง</value>
+  </data>
+  <data name="Spreadsheet_HideGridlines" xml:space="preserve">
+    <value>ซ่อนเส้นตาราง</value>
+  </data>
+  <data name="Spreadsheet_WebPage" xml:space="preserve">
+    <value>เว็บเพจ</value>
+  </data>
+  <data name="Spreadsheet_ThisDocument" xml:space="preserve">
+    <value>เอกสารนี้</value>
+  </data>
+  <data name="Spreadsheet_DisplayText" xml:space="preserve">
+    <value>ข้อความแสดง</value>
+  </data>
+  <data name="Spreadsheet_Url" xml:space="preserve">
+    <value>URL</value>
+  </data>
+  <data name="Spreadsheet_Sheet" xml:space="preserve">
+    <value>แผ่นงาน</value>
+  </data>
+  <data name="Spreadsheet_ReferenceCell" xml:space="preserve">
+    <value>การอ้างอิงเซลล์</value>
+  </data>
+  <data name="Spreadsheet_MergeCell" xml:space="preserve">
+    <value>รวมเซลล์</value>
+  </data>
+  <data name="Spreadsheet_MergeCellDialog" xml:space="preserve">
+    <value>การรวมเซลล์จะเก็บเพียงค่าด้านซ้ายบนเท่านั้นและทิ้งค่าอื่นๆ</value>
+  </data>
+  <data name="Spreadsheet_MergeCellSize" xml:space="preserve">
+    <value>ในการทำเช่นนี้ เซลล์ที่รวมทั้งหมดจะต้องมีขนาดเท่ากัน</value>
+  </data>
+  <data name="Spreadsheet_MergeCenter" xml:space="preserve">
+    <value>รวม &amp; ศูนย์กลาง</value>
+  </data>
+  <data name="Spreadsheet_MergeAcross" xml:space="preserve">
+    <value>รวมข้ามไป</value>
+  </data>
+  <data name="Spreadsheet_MergeCells" xml:space="preserve">
+    <value>รวมเซลล์</value>
+  </data>
+  <data name="Spreadsheet_UnMergeCells" xml:space="preserve">
+    <value>ยกเลิกการรวมเซลล์</value>
+  </data>
   <data name="RichTextEditor_InlineCode" xml:space="preserve">
     <value>รหัสอินไลน์</value>
   </data>
@@ -8334,41 +8625,14 @@
   <data name="RichTextEditor_CodeBlock" xml:space="preserve">
     <value>การแทรกบล็อคโค้ด</value>
   </data>
-  <data name="Spreadsheet_Bold" xml:space="preserve">
-    <value>กล้า</value>
-  </data>
-  <data name="Spreadsheet_Italic" xml:space="preserve">
-    <value>ตัวเอียง</value>
-  </data>
-  <data name="Spreadsheet_Underline" xml:space="preserve">
-    <value>ขีดเส้นใต้</value>
-  </data>
-  <data name="Spreadsheet_Strikethrough" xml:space="preserve">
-    <value>ขีดฆ่า</value>
-  </data>
   <data name="Spreadsheet_Font" xml:space="preserve">
     <value>ตัวอักษร</value>
-  </data>
-  <data name="Spreadsheet_Clear" xml:space="preserve">
-    <value>ชัดเจน</value>
-  </data>
-  <data name="Spreadsheet_Image" xml:space="preserve">
-    <value>ภาพ</value>
-  </data>
-  <data name="Spreadsheet_Link" xml:space="preserve">
-    <value>ลิงค์</value>
-  </data>
-  <data name="Spreadsheet_New" xml:space="preserve">
-    <value>ใหม่</value>
   </data>
   <data name="Spreadsheet_Clipboard" xml:space="preserve">
     <value>คลิปบอร์ด</value>
   </data>
   <data name="Spreadsheet_ChangeCase" xml:space="preserve">
     <value>เปลี่ยนเคส</value>
-  </data>
-  <data name="Spreadsheet_Open" xml:space="preserve">
-    <value>เปิด</value>
   </data>
   <data name="Spreadsheet_Print" xml:space="preserve">
     <value>พิมพ์</value>
@@ -8391,29 +8655,11 @@
   <data name="Spreadsheet_Justify" xml:space="preserve">
     <value>แสดงให้เห็นถึง</value>
   </data>
-  <data name="Spreadsheet_ClearAll" xml:space="preserve">
-    <value>ลบทั้งหมด</value>
-  </data>
   <data name="Spreadsheet_Descending" xml:space="preserve">
     <value>Descending</value>
   </data>
   <data name="Spreadsheet_Ascending" xml:space="preserve">
     <value>จากน้อยไปมาก</value>
-  </data>
-  <data name="Spreadsheet_Home" xml:space="preserve">
-    <value>บ้าน</value>
-  </data>
-  <data name="Spreadsheet_CustomSort" xml:space="preserve">
-    <value>ศุลกากร</value>
-  </data>
-  <data name="Spreadsheet_ClearHyperlinks" xml:space="preserve">
-    <value>ไฮเปอร์ลิงก์ที่ชัดเจน</value>
-  </data>
-  <data name="Spreadsheet_ClearFormats" xml:space="preserve">
-    <value>รูปแบบที่ชัดเจน</value>
-  </data>
-  <data name="Spreadsheet_ClearContents" xml:space="preserve">
-    <value>เนื้อหาที่ชัดเจน</value>
   </data>
   <data name="Spreadsheet_KeepTextOnly" xml:space="preserve">
     <value>เก็บข้อความเท่านั้น</value>
@@ -8427,9 +8673,6 @@
   <data name="Spreadsheet_Reapply" xml:space="preserve">
     <value>นำกลับมาใช้ใหม่</value>
   </data>
-  <data name="Spreadsheet_SaveAs" xml:space="preserve">
-    <value>ประหยัด</value>
-  </data>
   <data name="Spreadsheet_Arial" xml:space="preserve">
     <value>Arial</value>
   </data>
@@ -8438,6 +8681,9 @@
   </data>
   <data name="Spreadsheet_Custom" xml:space="preserve">
     <value>กำหนดเอง</value>
+  </data>
+  <data name="Spreadsheet_NumberFormat" xml:space="preserve">
+    <value>รูปแบบตัวเลข</value>
   </data>
   <data name="Spreadsheet_General" xml:space="preserve">
     <value>ทั่วไป</value>
@@ -8520,12 +8766,6 @@
   <data name="Spreadsheet_Filter" xml:space="preserve">
     <value>กรอง</value>
   </data>
-  <data name="Spreadsheet_File" xml:space="preserve">
-    <value>ไฟล์</value>
-  </data>
-  <data name="Spreadsheet_File_Duplicate[1]" xml:space="preserve">
-    <value>ประเภท</value>
-  </data>
   <data name="Spreadsheet_AlignBottom" xml:space="preserve">
     <value>จัดเรียงด้านล่าง</value>
   </data>
@@ -8535,17 +8775,35 @@
   <data name="Spreadsheet_AlignTop" xml:space="preserve">
     <value>จัดเรียงด้านบน</value>
   </data>
-  <data name="Spreadsheet_InsertLeft" xml:space="preserve">
-    <value>แทรกคอลัมน์ไปทางซ้าย</value>
+  <data name="Spreadsheet_Hide" xml:space="preserve">
+    <value>ซ่อน</value>
   </data>
-  <data name="Spreadsheet_InsertRight" xml:space="preserve">
-    <value>แทรกคอลัมน์ไปทางขวา</value>
+  <data name="Spreadsheet_FilterValue" xml:space="preserve">
+    <value>ค่าตัวกรอง</value>
   </data>
-  <data name="Spreadsheet_InsertRowsAbove" xml:space="preserve">
-   <value>แทรกแถวด้านบน</value>
+  <data name="Spreadsheet_OkButton" xml:space="preserve">
+    <value>ตกลง</value>
+  </data>
+  <data name="Spreadsheet_InvalidFileNameMessage" xml:space="preserve">
+    <value>ใช้ชื่อที่ไม่มีอักขระเหล่านี้: \ / : * ? " |</value>
   </data>
   <data name="Spreadsheet_InsertRowBelow" xml:space="preserve">
     <value>แทรกแถวด้านล่าง</value>
+  </data>
+  <data name="Spreadsheet_NoResult" xml:space="preserve">
+    <value>ไม่มีผลลัพธ์</value>
+  </data>
+  <data name="Spreadsheet_FillSeries" xml:space="preserve">
+    <value>เติมชุดข้อมูล</value>
+  </data>
+  <data name="Spreadsheet_FillFormattingOnly" xml:space="preserve">
+    <value>เติมเฉพาะรูปแบบ</value>
+  </data>
+  <data name="Spreadsheet_FillWithoutFormatting" xml:space="preserve">
+    <value>เติมโดยไม่ใช้รูปแบบ</value>
+  </data>
+  <data name="Spreadsheet_CopyCells" xml:space="preserve">
+    <value>คัดลอกเซลล์</value>
   </data>
   <data name="SpeechToText_Aborted_Error" xml:space="preserve">
     <value>การรู้จำเสียงพูดถูกยกเลิก</value>
@@ -8652,10 +8910,166 @@
   <data name="Spreadsheet_ExpandRibbonTab" xml:space="preserve">
     <value>ขยายแถบเครื่องมือ</value>
   </data>
+  <data name="Spreadsheet_CircularReference" xml:space="preserve">
+    <value>เราพบว่าคุณพิมพ์สูตรที่มีการอ้างอิงแบบวนรอบ</value>
+  </data>
   <data name="RichTextEditor_FormatPainter" xml:space="preserve">
     <value>แปรงรูปแบบ</value>
   </data>
+  <data name="RichTextEditor_LineHeight" xml:space="preserve">
+    <value>ความสูงบรรทัด</value>
+  </data>
   <data name="DataForm_SubmitContent" xml:space="preserve">
     <value>ส่ง</value>
+  </data>
+  <data name="AssistView_FileSize_Failure" xml:space="preserve">
+    <value>การอัปโหลดล้มเหลว: ขนาดไฟล์ใหญ่เกินไป</value>
+  </data>
+  <data name="ChatUI_Forwarded_Message" xml:space="preserve">
+    <value>ส่งต่อแล้ว</value>
+  </data>
+  <data name="ChatUI_MentionNoRecord" xml:space="preserve">
+    <value>ไม่พบข้อมูล</value>
+  </data>
+  <data name="ChatUI_Send" xml:space="preserve">
+    <value>ส่ง</value>
+  </data>
+  <data name="ChatUI_Attachments" xml:space="preserve">
+    <value>แนบไฟล์</value>
+  </data>
+  <data name="ChatUI_Download" xml:space="preserve">
+    <value>ดาวน์โหลด</value>
+  </data>
+  <data name="ChatUI_Close" xml:space="preserve">
+    <value>ปิด</value>
+  </data>
+  <data name="ChatUI_FileUploadFailure" xml:space="preserve">
+    <value>ถึงขีดจำกัดการอัปโหลด: อนุญาตสูงสุด {0} ไฟล์ ลบไฟล์ส่วนเกินเพื่อดำเนินการอัปโหลดต่อ</value>
+  </data>
+  <data name="ChatUI_FilePreview" xml:space="preserve">
+    <value>ไม่มีตัวอย่างให้แสดง</value>
+  </data>
+  <data name="ChatUI_FileSizeFailure" xml:space="preserve">
+    <value>อัปโหลดล้มเหลว: ขนาดของไฟล์ {0} ไฟล์ใหญ่เกินไป</value>
+  </data>
+  <data name="AIAssistView_FileCountFailure" xml:space="preserve">
+    <value>ถึงขีดจำกัดการอัปโหลด: อนุญาตสูงสุด {0} ไฟล์ ลบไฟล์ส่วนเกินเพื่อดำเนินการอัปโหลดต่อ</value>
+  </data>
+  <data name="AssistView_Send" xml:space="preserve">
+    <value>ส่ง</value>
+  </data>
+  <data name="AssistView_Attachments" xml:space="preserve">
+    <value>แนบไฟล์</value>
+  </data>
+  <data name="AssistView_Clear" xml:space="preserve">
+    <value>ล้าง</value>
+  </data>
+  <data name="BlockEditor_Paragraph" xml:space="preserve">
+      <value>เขียนบางอย่างหรือ '/' สำหรับคำสั่ง</value>
+  </data>
+  <data name="BlockEditor_Heading1" xml:space="preserve">
+      <value>หัวข้อ 1</value>
+  </data>
+  <data name="BlockEditor_Heading2" xml:space="preserve">
+      <value>หัวข้อ 2</value>
+  </data>
+  <data name="BlockEditor_Heading3" xml:space="preserve">
+      <value>หัวข้อ 3</value>
+  </data>
+  <data name="BlockEditor_Heading4" xml:space="preserve">
+      <value>หัวข้อ 4</value>
+  </data>
+  <data name="BlockEditor_CollapsibleParagraph" xml:space="preserve">
+      <value>ย่อ-ขยายย่อหน้า</value>
+  </data>
+  <data name="BlockEditor_CollapsibleHeading1" xml:space="preserve">
+      <value>ย่อ-ขยายหัวข้อ 1</value>
+  </data>
+  <data name="BlockEditor_CollapsibleHeading2" xml:space="preserve">
+      <value>ย่อ-ขยายหัวข้อ 2</value>
+  </data>
+  <data name="BlockEditor_CollapsibleHeading3" xml:space="preserve">
+      <value>ย่อ-ขยายหัวข้อ 3</value>
+  </data>
+  <data name="BlockEditor_CollapsibleHeading4" xml:space="preserve">
+      <value>ย่อ-ขยายหัวข้อ 4</value>
+  </data>
+  <data name="BlockEditor_BulletList" xml:space="preserve">
+      <value>เพิ่มรายการ</value>
+  </data>
+  <data name="BlockEditor_NumberedList" xml:space="preserve">
+      <value>เพิ่มรายการ</value>
+  </data>
+  <data name="BlockEditor_Checklist" xml:space="preserve">
+      <value>งาน</value>
+  </data>
+  <data name="BlockEditor_Quote" xml:space="preserve">
+      <value>เขียนคำพูด</value>
+  </data>
+  <data name="BlockEditor_Callout" xml:space="preserve">
+      <value>เขียนบันทึก</value>
+  </data>
+  <data name="BlockEditor_AddIconTooltip" xml:space="preserve">
+      <value>คลิกเพื่อแทรกด้านล่าง</value>
+  </data>
+  <data name="BlockEditor_DragIconTooltipActionMenu" xml:space="preserve">
+      <value>คลิกเพื่อเปิด</value>
+  </data>
+  <data name="BlockEditor_DragIconTooltip" xml:space="preserve">
+      <value>(กดค้างเพื่อลาก)</value>
+  </data>
+  <data name="BlockEditor_InsertLink" xml:space="preserve">
+      <value>แทรกลิงก์</value>
+  </data>
+  <data name="BlockEditor_LinkText" xml:space="preserve">
+      <value>ข้อความ</value>
+  </data>
+  <data name="BlockEditor_LinkTextPlaceholder" xml:space="preserve">
+      <value>ข้อความลิงก์</value>
+  </data>
+  <data name="BlockEditor_LinkUrl" xml:space="preserve">
+      <value>URL</value>
+  </data>
+  <data name="BlockEditor_LinkUrlPlaceholder" xml:space="preserve">
+      <value>https://example.com</value>
+  </data>
+  <data name="BlockEditor_LinkTitle" xml:space="preserve">
+      <value>ชื่อ</value>
+  </data>
+  <data name="BlockEditor_LinkTitlePlaceholder" xml:space="preserve">
+      <value>ชื่อลิงก์</value>
+  </data>
+  <data name="BlockEditor_LinkOpenInNewWindow" xml:space="preserve">
+      <value>เปิดในหน้าต่างใหม่</value>
+  </data>
+  <data name="BlockEditor_LinkInsert" xml:space="preserve">
+      <value>แทรก</value>
+  </data>
+  <data name="BlockEditor_LinkRemove" xml:space="preserve">
+      <value>ลบ</value>
+  </data>
+  <data name="BlockEditor_LinkCancel" xml:space="preserve">
+      <value>ยกเลิก</value>
+  </data>
+  <data name="BlockEditor_CodeCopyTooltip" xml:space="preserve">
+      <value>คัดลอกโค้ด</value>
+  </data>
+  <data name="DocumentEditorContainer_CommentsCloseHeader" xml:space="preserve">
+    <value>ความคิดเห็นที่ยังไม่ได้บันทึก</value>
+  </data>
+  <data name="DocumentEditorContainer_CommentsCloseContent" xml:space="preserve">
+    <value>คุณมีความคิดเห็นที่ยังไม่ได้โพสต์ หากคุณออกจากหน้านี้ พวกเขาจะถูกละทิ้ง</value>
+  </data>
+  <data name="DocumentEditorContainer_KeepEditing" xml:space="preserve">
+    <value>แก้ไขต่อไป</value>
+  </data>
+  <data name="DocumentEditorContainer_DiscardComments" xml:space="preserve">
+    <value>ยกเลิกความคิดเห็น</value>
+  </data>
+  <data name="DocumentEditor_Resolved" xml:space="preserve">
+    <value>แก้ไขแล้ว</value>
+  </data>
+  <data name="DocumentEditor_CommentMark" xml:space="preserve">
+    <value>คลิกเพื่อดูความคิดเห็นนี้</value>
   </data>
 </root>

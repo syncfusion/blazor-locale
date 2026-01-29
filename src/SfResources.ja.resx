@@ -247,7 +247,7 @@
     <value>キャンセル</value>
   </data>
   <data name="Uploader_Clear" xml:space="preserve">
-    <value>晴れ</value>
+    <value>クリア</value>
   </data>
   <data name="Uploader_Delete" xml:space="preserve">
     <value>ファイルを削除する</value>
@@ -933,11 +933,23 @@
   <data name="Gantt_SplitTask" xml:space="preserve">
     <value>タスクの分割</value>
   </data>
+  <data name="Gantt_WbsCode" xml:space="preserve">
+    <value>作業分解構成コード </value>
+  </data>
+  <data name="Gantt_WbsPredecessor" xml:space="preserve">
+    <value>作業分解構成の先行タスク</value>
+  </data>
   <data name="Gantt_MergeTask" xml:space="preserve">
     <value>タスクのマージ</value>
   </data>
   <data name="Gantt_UnassignedTasks" xml:space="preserve">
     <value>割り当てられていないタスク</value>
+  </data>
+  <data name="Gantt_Undo" xml:space="preserve">
+    <value>元に戻す</value>
+  </data>
+  <data name="Gantt_Redo" xml:space="preserve">
+    <value>やり直し</value>
   </data>
   <data name="ColorPicker_Apply" xml:space="preserve">
     <value>適用する</value>
@@ -1153,10 +1165,10 @@
     <value>チャート</value>
   </data>
   <data name="PivotView_Clear" xml:space="preserve">
-    <value>晴れ</value>
+    <value>クリア</value>
   </data>
   <data name="PivotView_ClearFilter" xml:space="preserve">
-    <value>晴れ</value>
+    <value>クリア</value>
   </data>
   <data name="PivotView_Close" xml:space="preserve">
     <value>閉じる</value>
@@ -2368,25 +2380,25 @@
     <value>見出し   9</value>
   </data>
   <data name="RichTextEditor_FontNameSegoeUI" xml:space="preserve">
-    <value>Segoe UI</value>
+    <value>セゴエ UI</value>
   </data>
   <data name="RichTextEditor_FontNameArial" xml:space="preserve">
-    <value>Arial</value>
+    <value>アリアル</value>
   </data>
   <data name="RichTextEditor_FontNameGeorgia" xml:space="preserve">
-    <value>Georgia</value>
+    <value>ジョージア</value>
   </data>
   <data name="RichTextEditor_FontNameImpact" xml:space="preserve">
-    <value>Impact</value>
+    <value>影響</value>
   </data>
   <data name="RichTextEditor_FontNameTahoma" xml:space="preserve">
-    <value>Tahoma</value>
+    <value>タホマ</value>
   </data>
   <data name="RichTextEditor_FontNameTimesNewRoman" xml:space="preserve">
-    <value>Times New Roman</value>
+    <value>タイムズ ニューロマン</value>
   </data>
   <data name="RichTextEditor_FontNameVerdana" xml:space="preserve">
-    <value>Verdana</value>
+    <value>ヴァーダナ</value>
   </data>
   <data name="RichTextEditor_Alignments" xml:space="preserve">
     <value>アライメント</value>
@@ -2682,6 +2694,18 @@
   <data name="RichTextEditor_TableRemove" xml:space="preserve">
     <value>テーブルの削除</value>
   </data>
+  <data name="RichTextEditor_TableCell" xml:space="preserve">
+    <value>表のセル</value>
+  </data>
+  <data name="RichTextEditor_TableCellMerge" xml:space="preserve">
+    <value>セルを結合する</value>
+  </data>
+  <data name="RichTextEditor_TableCellHorizontalSplit" xml:space="preserve">
+    <value>水平分割</value>
+  </data>
+  <data name="RichTextEditor_TableCellVerticalSplit" xml:space="preserve">
+    <value>垂直分割</value>
+  </data>
   <data name="RichTextEditor_TableCellBackground" xml:space="preserve">
     <value>テーブルセルの背景</value>
   </data>
@@ -2828,6 +2852,48 @@
   </data>
   <data name="RichTextEditor_Img_AltText_Unsupported" xml:space="preserve">
     <value>サポートされていないファイル形式です</value>
+  </data>
+  <data name="RichTextEditor_ImportDeviceUploadMessage" xml:space="preserve">
+    <value>ここをクリックしてアップロード</value>
+  </data>
+  <data name="RichTextEditor_ImportUploadMessage" xml:space="preserve">
+    <value>Word文書をドロップするか、参照してください。</value>
+  </data>
+  <data name="RichTextEditor_ImportHeader" xml:space="preserve">
+    <value>ワードをインポートする</value>
+  </data>
+  <data name="RichTextEditor_DialogImport" xml:space="preserve">
+    <value>挿入する</value>
+  </data>
+  <data name="RichTextEditor_VideoHeader" xml:space="preserve">
+    <value>ビデオを挿入</value>
+  </data>
+  <data name="RichTextEditor_EditVideoHeader" xml:space="preserve">
+    <value>ビデオを編集する</value>
+  </data>
+  <data name="RichTextEditor_AudioHeader" xml:space="preserve">
+    <value>音声を挿入してください</value>
+  </data>
+  <data name="RichTextEditor_EditAudioHeader" xml:space="preserve">
+    <value>オーディオを編集する</value>
+  </data>
+  <data name="RichTextEditor_Import_From_Word" xml:space="preserve">
+    <value>Wordからインポートする</value>
+  </data>
+  <data name="RichTextEditor_Export_To_Word" xml:space="preserve">
+    <value>Wordにエクスポート</value>
+  </data>
+  <data name="RichTextEditor_Export_To_PDF" xml:space="preserve">
+    <value>PDFにエクスポート</value>
+  </data>
+  <data name="RichTextEditor_Audio" xml:space="preserve">
+    <value>音声を挿入してください</value>
+  </data>
+  <data name="RichTextEditor_Video" xml:space="preserve">
+    <value>ビデオを挿入</value>
+  </data>
+  <data name="RichTextEditor_Default" xml:space="preserve">
+    <value>デフォルト</value>
   </data>
   <data name="DiagramComponent_X" xml:space="preserve">
     <value>X</value>
@@ -3004,7 +3070,7 @@
     <value>フィルタ</value>
   </data>
   <data name="Grid_ClearButton" xml:space="preserve">
-    <value>晴れ</value>
+    <value>クリア</value>
   </data>
   <data name="Grid_IsNull" xml:space="preserve">
     <value>ヌル</value>
@@ -4426,7 +4492,7 @@
     <value>追加</value>
   </data>
   <data name="PdfViewer_Clear" xml:space="preserve">
-    <value>晴れ</value>
+    <value>クリア</value>
   </data>
   <data name="PdfViewer_Bold" xml:space="preserve">
     <value>大胆な</value>
@@ -4578,6 +4644,57 @@
   <data name="PdfViewer_Of" xml:space="preserve">
     <value>の</value>
   </data>
+  <data name="PdfViewer_OrganizePages" xml:space="preserve">
+    <value>ページを整理</value>
+  </data>
+  <data name="PdfViewer_Pages" xml:space="preserve">
+    <value>ページ</value>
+  </data>
+  <data name="PdfViewer_RotateLeft" xml:space="preserve">
+    <value>左に回転</value>
+  </data>
+  <data name="PdfViewer_RotateRight" xml:space="preserve">
+    <value>右に回転</value>
+  </data>
+  <data name="PdfViewer_DuplicatePages" xml:space="preserve">
+    <value>ページを複製</value>
+  </data>
+  <data name="PdfViewer_DeletePages" xml:space="preserve">
+    <value>ページを削除</value>
+  </data>
+  <data name="PdfViewer_PageZoom" xml:space="preserve">
+    <value>ページズーム</value>
+  </data>
+  <data name="PdfViewer_SelectAll" xml:space="preserve">
+    <value>すべて選択</value>
+  </data>
+  <data name="PdfViewer_ImportDocument" xml:space="preserve">
+    <value>ドキュメントをインポート</value>
+  </data>
+  <data name="PdfViewer_ExtractDocument" xml:space="preserve">
+    <value>ドキュメントを抽出</value>
+  </data>
+  <data name="PdfViewer_Total" xml:space="preserve">
+    <value>合計</value>
+  </data>
+  <data name="PdfViewer_SaveAs" xml:space="preserve">
+    <value>名前を付けて保存</value>
+  </data>
+  <data name="PdfViewer_InsertLeft" xml:space="preserve">
+    <value>左に挿入</value>
+  </data>
+  <data name="PdfViewer_InsertRight" xml:space="preserve">
+    <value>右に挿入</value>
+  </data>
+  <data name="PdfViewer_DuplicatePage" xml:space="preserve">
+    <value>ページを複製</value>
+  </data>
+  <data name="PdfViewer_DeletePage" xml:space="preserve">
+    <value>ページを削除</value>
+  </data>
+  <data name="PdfViewer_AllPagesDelete" xml:space="preserve">
+    <value>ドキュメントには少なくとも1ページが必要なため、すべてのページを削除することはできません。</value>
+  </data>
   <data name="PdfViewer_Required_ServiceUrl_Error_Message" xml:space="preserve">
     <value>このPDFビューアでは、Webサービスを介してPDFファイルをレンダリングするためにサーバー側の処理が必要です。 PDFビューアを続行するには、サービスURLを構成する必要があります</value>
   </data>
@@ -4609,10 +4726,58 @@
     <value>AIサービスエラー</value>
   </data>
   <data name="PdfViewer_CredentialErrorContent" xml:space="preserve">
-    <value>認証情報が未入力、誤っている、または無効です。内容を確認し、正しい認証情報を入力して再試行してください。</value>
+    <value>認証情報が提供されていないか、間違っているか、無効です。正しい認証情報を入力して、もう一度お試しください。</value>
   </data>
   <data name="PdfViewer_ConnectionLostErrorContent" xml:space="preserve">
     <value>AIサービスへの接続が失われました。ネットワーク接続を確認してから再試行してください。</value>
+  </data>
+  <data name="PdfViewer_UnSupportedDialogContent" xml:space="preserve">
+    <value>このファイルは、生成AI機能をサポートしていません。空白であるか、十分なテキストが含まれていない可能性があります。別のファイルをお試しください。</value>
+  </data>
+  <data name="SmartPdfViewer_TimeOutErrorHeader" xml:space="preserve">
+    <value>リクエストのタイムアウト</value>
+  </data>
+  <data name="SmartPdfViewer_TimeOutErrorContent" xml:space="preserve">
+    <value>検索リクエストに予想以上の時間がかかり、許容されている最大時間を超えました。</value>
+  </data>
+  <data name="SmartPdfViewer_DisClaimerContent" xml:space="preserve">
+    <value>AI によって生成された回答は、不正確または誤解を招く可能性があります。回答や情報源を必ず再確認してください。</value>
+  </data>
+  <data name="SmartPdfViewer_RedactionToolTip" xml:space="preserve">
+    <value>スマートリダクション</value>
+  </data>
+  <data name="SmartPdfViewer_RedactHeader" xml:space="preserve">
+    <value>パターンを選択してください</value>
+  </data>
+  <data name="SmartPdfViewer_CancelRedact" xml:space="preserve">
+    <value>キャンセル</value>
+  </data>
+  <data name="SmartPdfViewer_ApplyRedact" xml:space="preserve">
+    <value>修正する</value>
+  </data>
+  <data name="SmartPdfViewer_ScanRedact" xml:space="preserve">
+    <value>スキャン</value>
+  </data>
+  <data name="SmartPdfViewer_SmartFillToolTip" xml:space="preserve">
+    <value>スマートフォーム入力</value>
+  </data>
+  <data name="SmartPdfViewer_SmartFillText" xml:space="preserve">
+    <value>スマートフィル</value>
+  </data>
+  <data name="SmartPdfViewer_AIAssistanceToolTip" xml:space="preserve">
+    <value>AI支援</value>
+  </data>
+  <data name="SmartPdfViewer_RedactOptionsHeader" xml:space="preserve">
+    <value>マスクするデータを選択</value>
+  </data>
+  <data name="SmartPdfViewer_NoInformationErrorContent" xml:space="preserve">
+    <value>文書に機密情報は見つかりませんでした。</value>
+  </data>
+  <data name="SmartPdfViewer_NoInformationErrorContentHeader" xml:space="preserve">
+    <value>機密データが見つかりませんでした</value>
+  </data>
+  <data name="SmartPdfViewer_RedactDisclaimer" xml:space="preserve">
+    <value>AI によって検出された情報は正確でない可能性があります。ご使用の前に結果を確認してください。</value>
   </data>
   <data name="DocumentEditor_Table" xml:space="preserve">
     <value>テーブル</value>
@@ -5453,6 +5618,9 @@
   </data>
   <data name="DocumentEditor_UnderlineErrors" xml:space="preserve">
     <value>エラーに下線を引く</value>
+  </data>
+  <data name="DocumentEditor_MoreSuggestions" xml:space="preserve">
+    <value>より多くの提案</value>
   </data>
   <data name="DocumentEditor_Ignore" xml:space="preserve">
     <value>無視する</value>
@@ -8052,13 +8220,13 @@
   <data name="Spreadsheet_LastMonth" xml:space="preserve">
     <value>先月</value>
   </data>
-  <data name="Spreadsheet_NextQuater" xml:space="preserve">
+  <data name="Spreadsheet_NextQuarter" xml:space="preserve">
     <value>次の四半期</value>
   </data>
-  <data name="Spreadsheet_ThisQuater" xml:space="preserve">
+  <data name="Spreadsheet_ThisQuarter" xml:space="preserve">
     <value>今四半期</value>
   </data>
-  <data name="Spreadsheet_LastQuater" xml:space="preserve">
+  <data name="Spreadsheet_LastQuarter" xml:space="preserve">
     <value>前四半期</value>
   </data>
   <data name="Spreadsheet_NextYear" xml:space="preserve">
@@ -8115,17 +8283,20 @@
   <data name="Spreadsheet_Save" xml:space="preserve">
     <value>保存</value>
   </data>
-  <data name="Spreadsheet_Bold" xml:space="preserve">
-    <value>太字</value>
-  </data>
-  <data name="Spreadsheet_Italic" xml:space="preserve">
-    <value>斜体</value>
-  </data>
-  <data name="Spreadsheet_Strikethrough" xml:space="preserve">
-    <value>取り消し線</value>
-  </data>
   <data name="Spreadsheet_Underline" xml:space="preserve">
     <value>下線</value>
+  </data>
+  <data name="Spreadsheet_Hide" xml:space="preserve">
+    <value>非表示</value>
+  </data>
+  <data name="Spreadsheet_OkButton" xml:space="preserve">
+    <value>はい</value>
+  </data>
+    <data name="Spreadsheet_ShowRowsWhere" xml:space="preserve">
+    <value>行を表示する場所</value>
+  </data>
+  <data name="Spreadsheet_InvalidFileNameMessage" xml:space="preserve">
+    <value>次の文字を含まない名前を使用してください: \ / : * ? " |</value>
   </data>
   <data name="Spreadsheet_FontColor" xml:space="preserve">
     <value>フォントの色</value>
@@ -8250,6 +8421,123 @@
   <data name="Spreadsheet_FontSize" xml:space="preserve">
     <value>フォントサイズ</value>
   </data>
+  <data name="Spreadsheet_DataLimitExceed" xml:space="preserve">
+    <value>ファイルデータが大きすぎて処理に時間がかかります。続行しますか？</value>
+  </data>
+  <data name="Spreadsheet_FileLimitExceed" xml:space="preserve">
+    <value>ファイルサイズが大きすぎて処理に時間がかかります。続行しますか？</value>
+  </data>
+  <data name="Spreadsheet_PasswordPrompt" xml:space="preserve">
+    <value>は保護されています</value>
+  </data>
+  <data name="Spreadsheet_UnsupportedFile" xml:space="preserve">
+    <value>サポートされていないファイル</value>
+  </data>
+  <data name="Spreadsheet_View" xml:space="preserve">
+    <value>表示</value>
+  </data>
+  <data name="Spreadsheet_Borders" xml:space="preserve">
+    <value>枠線</value>
+  </data>
+  <data name="Spreadsheet_RightBorder" xml:space="preserve">
+    <value>右の枠線</value>
+  </data>
+  <data name="Spreadsheet_BottomBorder" xml:space="preserve">
+    <value>下の枠線</value>
+  </data>
+  <data name="Spreadsheet_TopBorder" xml:space="preserve">
+    <value>上の枠線</value>
+  </data>
+  <data name="Spreadsheet_LeftBorder" xml:space="preserve">
+    <value>左の枠線</value>
+  </data>
+  <data name="Spreadsheet_NoBorder" xml:space="preserve">
+    <value>枠線なし</value>
+  </data>
+  <data name="Spreadsheet_AllBorders" xml:space="preserve">
+    <value>すべての枠線</value>
+  </data>
+  <data name="Spreadsheet_OutsideBorders" xml:space="preserve">
+    <value>外側の枠線</value>
+  </data>
+  <data name="Spreadsheet_InsideBorders" xml:space="preserve">
+    <value>内側の枠線</value>
+  </data>
+  <data name="Spreadsheet_HorizontalBorders" xml:space="preserve">
+    <value>水平の枠線</value>
+  </data>
+  <data name="Spreadsheet_VerticalBorders" xml:space="preserve">
+    <value>垂直の枠線</value>
+  </data>
+  <data name="Spreadsheet_BorderColor" xml:space="preserve">
+    <value>枠線の色</value>
+  </data>
+  <data name="Spreadsheet_BorderStyle" xml:space="preserve">
+    <value>枠線のスタイル</value>
+  </data>
+  <data name="Spreadsheet_Thin" xml:space="preserve">
+    <value>細い</value>
+  </data>
+  <data name="Spreadsheet_Medium" xml:space="preserve">
+    <value>中</value>
+  </data>
+  <data name="Spreadsheet_Thick" xml:space="preserve">
+    <value>太い</value>
+  </data>
+  <data name="Spreadsheet_Dotted" xml:space="preserve">
+    <value>点線</value>
+  </data>
+  <data name="Spreadsheet_Dashed" xml:space="preserve">
+    <value>破線</value>
+  </data>
+  <data name="Spreadsheet_Double" xml:space="preserve">
+    <value>二重線</value>
+  </data>
+  <data name="Spreadsheet_ShowGridlines" xml:space="preserve">
+    <value>グリッド線を表示</value>
+  </data>
+  <data name="Spreadsheet_HideGridlines" xml:space="preserve">
+    <value>グリッド線を非表示</value>
+  </data>
+  <data name="Spreadsheet_WebPage" xml:space="preserve">
+    <value>Webページ</value>
+  </data>
+  <data name="Spreadsheet_ThisDocument" xml:space="preserve">
+    <value>このドキュメント</value>
+  </data>
+  <data name="Spreadsheet_DisplayText" xml:space="preserve">
+    <value>表示テキスト</value>
+  </data>
+  <data name="Spreadsheet_Url" xml:space="preserve">
+    <value>URL</value>
+  </data>
+  <data name="Spreadsheet_Sheet" xml:space="preserve">
+    <value>シート</value>
+  </data>
+  <data name="Spreadsheet_ReferenceCell" xml:space="preserve">
+    <value>セル参照</value>
+  </data>
+  <data name="Spreadsheet_MergeCell" xml:space="preserve">
+    <value>セルの結合</value>
+  </data>
+  <data name="Spreadsheet_MergeCellDialog" xml:space="preserve">
+    <value>セルを結合すると、左上の値のみが保持され、他の値は破棄されます。</value>
+  </data>
+  <data name="Spreadsheet_MergeCellSize" xml:space="preserve">
+    <value>これを行うには、結合されたすべてのセルのサイズが同じである必要があります。</value>
+  </data>
+  <data name="Spreadsheet_MergeCenter" xml:space="preserve">
+    <value>セルを結合して中央揃え</value>
+  </data>
+  <data name="Spreadsheet_MergeAcross" xml:space="preserve">
+    <value>セルを横方向に結合</value>
+  </data>
+  <data name="Spreadsheet_MergeCells" xml:space="preserve">
+    <value>セルを結合</value>
+  </data>
+  <data name="Spreadsheet_UnMergeCells" xml:space="preserve">
+    <value>セルの結合を解除</value>
+  </data>
   <data name="RichTextEditor_InlineCode" xml:space="preserve">
     <value>インラインコード</value>
   </data>
@@ -8358,26 +8646,11 @@
   <data name="Spreadsheet_Font" xml:space="preserve">
     <value>フォント</value>
   </data>
-  <data name="Spreadsheet_Clear" xml:space="preserve">
-    <value>晴れ</value>
-  </data>
-  <data name="Spreadsheet_Image" xml:space="preserve">
-    <value>画像</value>
-  </data>
-  <data name="Spreadsheet_Link" xml:space="preserve">
-    <value>リンク</value>
-  </data>
-  <data name="Spreadsheet_New" xml:space="preserve">
-    <value>新着</value>
-  </data>
   <data name="Spreadsheet_Clipboard" xml:space="preserve">
     <value>クリップボード</value>
   </data>
   <data name="Spreadsheet_ChangeCase" xml:space="preserve">
     <value>ケースを変更します</value>
-  </data>
-  <data name="Spreadsheet_Open" xml:space="preserve">
-    <value>開いた</value>
   </data>
   <data name="Spreadsheet_Print" xml:space="preserve">
     <value>印刷する</value>
@@ -8400,29 +8673,14 @@
   <data name="Spreadsheet_Justify" xml:space="preserve">
     <value>正当化する</value>
   </data>
-  <data name="Spreadsheet_ClearAll" xml:space="preserve">
-    <value>すべてクリア</value>
-  </data>
   <data name="Spreadsheet_Descending" xml:space="preserve">
     <value>降順</value>
   </data>
   <data name="Spreadsheet_Ascending" xml:space="preserve">
     <value>上昇</value>
   </data>
-  <data name="Spreadsheet_Home" xml:space="preserve">
-    <value>家</value>
-  </data>
   <data name="Spreadsheet_CustomSort" xml:space="preserve">
     <value>税関</value>
-  </data>
-  <data name="Spreadsheet_ClearHyperlinks" xml:space="preserve">
-    <value>クリアハイパーリンク</value>
-  </data>
-  <data name="Spreadsheet_ClearFormats" xml:space="preserve">
-    <value>クリアフォーマット</value>
-  </data>
-  <data name="Spreadsheet_ClearContents" xml:space="preserve">
-    <value>クリアコンテンツ</value>
   </data>
   <data name="Spreadsheet_KeepTextOnly" xml:space="preserve">
     <value>テキストのみを保持します</value>
@@ -8433,9 +8691,6 @@
   <data name="Spreadsheet_MergeFormat" xml:space="preserve">
     <value>マージフォーマット</value>
   </data>
-  <data name="Spreadsheet_SaveAs" xml:space="preserve">
-    <value>ASを保存します</value>
-  </data>
   <data name="Spreadsheet_Arial" xml:space="preserve">
     <value>Arial</value>
   </data>
@@ -8444,6 +8699,9 @@
   </data>
   <data name="Spreadsheet_Custom" xml:space="preserve">
     <value>カスタム</value>
+  </data>
+  <data name="Spreadsheet_NumberFormat" xml:space="preserve">
+    <value>数値の書式設定</value>
   </data>
   <data name="Spreadsheet_General" xml:space="preserve">
     <value>全般</value>
@@ -8523,35 +8781,35 @@
   <data name="Spreadsheet_DownloadPDF" xml:space="preserve">
     <value>PDFとしてダウンロードします</value>
   </data>
-  <data name="Spreadsheet_Filter" xml:space="preserve">
-    <value>フィルタ</value>
-  </data>
-  <data name="Spreadsheet_File" xml:space="preserve">
-    <value>ファイル</value>
-  </data>
-  <data name="Spreadsheet_Sort" xml:space="preserve">
-    <value>ソート</value>
-  </data>
   <data name="Spreadsheet_AlignBottom" xml:space="preserve">
     <value>下揃え</value>
+  </data>
+  <data name="Spreadsheet_ChooseTime" xml:space="preserve">
+    <value>Válasszon időt</value>
   </data>
   <data name="Spreadsheet_AlignMiddle" xml:space="preserve">
     <value>中央揃え</value>
   </data>
+  <data name="Spreadsheet_EmptyFileName" xml:space="preserve">
+    <value>ファイル名を空にすることはできません。</value>
+  </data>
   <data name="Spreadsheet_AlignTop" xml:space="preserve">
     <value>上揃え</value>
   </data>
-  <data name="Spreadsheet_InsertLeft" xml:space="preserve">
-    <value>左に列を挿入します</value>
-  </data>
-  <data name="Spreadsheet_InsertRight" xml:space="preserve">
-    <value>列を右に挿入します</value>
-  </data>
-  <data name="Spreadsheet_InsertRowsAbove" xml:space="preserve">
-    <value>上に行を挿入</value>
-  </data>
   <data name="Spreadsheet_InsertRowBelow" xml:space="preserve">
     <value>下に行を挿入</value>
+  </data>
+  <data name="Spreadsheet_FillSeries" xml:space="preserve">
+    <value>連続データの入力</value>
+  </data>
+  <data name="Spreadsheet_FillFormattingOnly" xml:space="preserve">
+    <value>書式のみ入力</value>
+  </data>
+  <data name="Spreadsheet_FillWithoutFormatting" xml:space="preserve">
+    <value>書式なしで入力</value>
+  </data>
+  <data name="Spreadsheet_CopyCells" xml:space="preserve">
+    <value>セルをコピー</value>
   </data>
   <data name="SpeechToText_Aborted_Error" xml:space="preserve">
     <value>音声認識が中止されました。</value>
@@ -8658,10 +8916,166 @@
   <data name="Spreadsheet_ExpandRibbonTab" xml:space="preserve">
     <value>ツールバーを拡張します</value>
   </data>
+  <data name="Spreadsheet_CircularReference" xml:space="preserve">
+    <value>循環参照を含む数式が入力されています。</value>
+  </data>
   <data name="RichTextEditor_FormatPainter" xml:space="preserve">
     <value>書式のコピー</value>
   </data>
+  <data name="RichTextEditor_LineHeight" xml:space="preserve">
+    <value>ライン高さ</value>
+  </data>
   <data name="DataForm_SubmitContent" xml:space="preserve">
     <value>送信</value>
+  </data>
+  <data name="AssistView_FileSize_Failure" xml:space="preserve">
+    <value>アップロードに失敗しました：ファイルサイズが大きすぎます</value>
+  </data>
+  <data name="ChatUI_Forwarded_Message" xml:space="preserve">
+    <value>転送済み</value>
+  </data>
+  <data name="ChatUI_MentionNoRecord" xml:space="preserve">
+    <value>レコードが見つかりません</value>
+  </data>
+  <data name="ChatUI_Send" xml:space="preserve">
+    <value>送信</value>
+  </data>
+  <data name="ChatUI_Attachments" xml:space="preserve">
+    <value>ファイルを添付</value>
+  </data>
+  <data name="ChatUI_Download" xml:space="preserve">
+    <value>ダウンロード</value>
+  </data>
+  <data name="ChatUI_Close" xml:space="preserve">
+    <value>閉じる</value>
+  </data>
+  <data name="ChatUI_FileUploadFailure" xml:space="preserve">
+    <value>アップロード上限に達しました。最大 {0} 個のファイルが許可されています。アップロードを続行するには余分なファイルを削除してください</value>
+  </data>
+  <data name="ChatUI_FilePreview" xml:space="preserve">
+    <value>プレビューは利用できません</value>
+  </data>
+  <data name="ChatUI_FileSizeFailure" xml:space="preserve">
+    <value>アップロードに失敗しました: {0} 個のファイルのサイズが大きすぎます</value>
+  </data>
+  <data name="AIAssistView_FileCountFailure" xml:space="preserve">
+    <value>アップロード上限に達しました。最大 {0} 個のファイルが許可されています。アップロードを続行するには余分なファイルを削除してください</value>
+  </data>
+  <data name="AssistView_Send" xml:space="preserve">
+    <value>送信</value>
+  </data>
+  <data name="AssistView_Attachments" xml:space="preserve">
+    <value>ファイルを添付</value>
+  </data>
+  <data name="AssistView_Clear" xml:space="preserve">
+    <value>クリア</value>
+  </data>
+  <data name="BlockEditor_Paragraph" xml:space="preserve">
+      <value>何か入力するか、'/' でコマンド。</value>
+  </data>
+  <data name="BlockEditor_Heading1" xml:space="preserve">
+      <value>見出し 1</value>
+  </data>
+  <data name="BlockEditor_Heading2" xml:space="preserve">
+      <value>見出し 2</value>
+  </data>
+  <data name="BlockEditor_Heading3" xml:space="preserve">
+      <value>見出し 3</value>
+  </data>
+  <data name="BlockEditor_Heading4" xml:space="preserve">
+      <value>見出し 4</value>
+  </data>
+  <data name="BlockEditor_CollapsibleParagraph" xml:space="preserve">
+      <value>折りたたみ可能な段落</value>
+  </data>
+  <data name="BlockEditor_CollapsibleHeading1" xml:space="preserve">
+      <value>折りたたみ可能な見出し 1</value>
+  </data>
+  <data name="BlockEditor_CollapsibleHeading2" xml:space="preserve">
+      <value>折りたたみ可能な見出し 2</value>
+  </data>
+  <data name="BlockEditor_CollapsibleHeading3" xml:space="preserve">
+      <value>折りたたみ可能な見出し 3</value>
+  </data>
+  <data name="BlockEditor_CollapsibleHeading4" xml:space="preserve">
+      <value>折りたたみ可能な見出し 4</value>
+  </data>
+  <data name="BlockEditor_BulletList" xml:space="preserve">
+      <value>項目を追加</value>
+  </data>
+  <data name="BlockEditor_NumberedList" xml:space="preserve">
+      <value>項目を追加</value>
+  </data>
+  <data name="BlockEditor_Checklist" xml:space="preserve">
+      <value>タスク</value>
+  </data>
+  <data name="BlockEditor_Quote" xml:space="preserve">
+      <value>引用を入力</value>
+  </data>
+  <data name="BlockEditor_Callout" xml:space="preserve">
+      <value>注釈を入力</value>
+  </data>
+  <data name="BlockEditor_AddIconTooltip" xml:space="preserve">
+      <value>クリックして下に挿入</value>
+  </data>
+  <data name="BlockEditor_DragIconTooltipActionMenu" xml:space="preserve">
+      <value>クリックして開く</value>
+  </data>
+  <data name="BlockEditor_DragIconTooltip" xml:space="preserve">
+      <value>（ドラッグするには長押し）</value>
+  </data>
+  <data name="BlockEditor_InsertLink" xml:space="preserve">
+      <value>リンクを挿入</value>
+  </data>
+  <data name="BlockEditor_LinkText" xml:space="preserve">
+      <value>テキスト</value>
+  </data>
+  <data name="BlockEditor_LinkTextPlaceholder" xml:space="preserve">
+      <value>リンクテキスト</value>
+  </data>
+  <data name="BlockEditor_LinkUrl" xml:space="preserve">
+      <value>URL</value>
+  </data>
+  <data name="BlockEditor_LinkUrlPlaceholder" xml:space="preserve">
+      <value>https://example.com</value>
+  </data>
+  <data name="BlockEditor_LinkTitle" xml:space="preserve">
+      <value>タイトル</value>
+  </data>
+  <data name="BlockEditor_LinkTitlePlaceholder" xml:space="preserve">
+      <value>リンクのタイトル</value>
+  </data>
+  <data name="BlockEditor_LinkOpenInNewWindow" xml:space="preserve">
+      <value>新しいウィンドウで開く</value>
+  </data>
+  <data name="BlockEditor_LinkInsert" xml:space="preserve">
+      <value>挿入</value>
+  </data>
+  <data name="BlockEditor_LinkRemove" xml:space="preserve">
+      <value>削除</value>
+  </data>
+  <data name="BlockEditor_LinkCancel" xml:space="preserve">
+      <value>キャンセル</value>
+  </data>
+  <data name="BlockEditor_CodeCopyTooltip" xml:space="preserve">
+      <value>コードをコピー</value>
+  </data>
+  <data name="DocumentEditorContainer_CommentsCloseHeader" xml:space="preserve">
+    <value>未保存のコメント</value>
+  </data>
+  <data name="DocumentEditorContainer_CommentsCloseContent" xml:space="preserve">
+    <value>まだ投稿されていないコメントがあります。このページを離れると、それらは破棄されます</value>
+  </data>
+  <data name="DocumentEditorContainer_KeepEditing" xml:space="preserve">
+    <value>編集を続ける</value>
+  </data>
+  <data name="DocumentEditorContainer_DiscardComments" xml:space="preserve">
+    <value>コメントを破棄する</value>
+  </data>
+  <data name="DocumentEditor_Resolved" xml:space="preserve">
+    <value>解決済み</value>
+  </data>
+  <data name="DocumentEditor_CommentMark" xml:space="preserve">
+    <value>クリックするとこのコメントが表示されます</value>
   </data>
 </root>

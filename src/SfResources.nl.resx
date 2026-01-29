@@ -930,6 +930,12 @@
   <data name="Gantt_Segment" xml:space="preserve">
     <value>Segmenten</value>
   </data>
+  <data name="Gantt_WbsCode" xml:space="preserve">
+    <value>Code van de werkverdelingsstructuur</value>
+  </data>
+  <data name="Gantt_WbsPredecessor" xml:space="preserve">
+    <value>Werkverdelingsstructuur Voorganger</value>
+  </data>
   <data name="Gantt_SplitTask" xml:space="preserve">
     <value>Gesplitste taak</value>
   </data>
@@ -938,6 +944,12 @@
   </data>
   <data name="Gantt_UnassignedTasks" xml:space="preserve">
     <value>Niet-toegewezen taken</value>
+  </data>
+  <data name="Gantt_Undo" xml:space="preserve">
+    <value>Ongedaan maken</value>
+  </data>
+  <data name="Gantt_Redo" xml:space="preserve">
+    <value>Opnieuw</value>
   </data>
   <data name="ColorPicker_Apply" xml:space="preserve">
     <value>Toepassen</value>
@@ -2374,7 +2386,7 @@
     <value>Arial</value>
   </data>
   <data name="RichTextEditor_FontNameGeorgia" xml:space="preserve">
-    <value>Georgia</value>
+    <value>Georgië</value>
   </data>
   <data name="RichTextEditor_FontNameImpact" xml:space="preserve">
     <value>Impact</value>
@@ -2682,6 +2694,18 @@
   <data name="RichTextEditor_TableRemove" xml:space="preserve">
     <value>Tabel verwijderen</value>
   </data>
+  <data name="RichTextEditor_TableCell" xml:space="preserve">
+    <value>Tabelcellen</value>
+  </data>
+  <data name="RichTextEditor_TableCellMerge" xml:space="preserve">
+    <value>Cellen samenvoegen</value>
+  </data>
+  <data name="RichTextEditor_TableCellHorizontalSplit" xml:space="preserve">
+    <value>Horizontale splitsing</value>
+  </data>
+  <data name="RichTextEditor_TableCellVerticalSplit" xml:space="preserve">
+    <value>Verticale splitsing</value>
+  </data>
   <data name="RichTextEditor_TableCellBackground" xml:space="preserve">
     <value>Achtergrond van tabelcellen</value>
   </data>
@@ -2828,6 +2852,48 @@
   </data>
   <data name="RichTextEditor_Img_AltText_Unsupported" xml:space="preserve">
     <value>Niet ondersteund bestandsformaat</value>
+  </data>
+  <data name="RichTextEditor_ImportDeviceUploadMessage" xml:space="preserve">
+    <value>Klik hier om te uploaden</value>
+  </data>
+  <data name="RichTextEditor_ImportUploadMessage" xml:space="preserve">
+    <value>Sleep of blader een Word-document</value>
+  </data>
+  <data name="RichTextEditor_ImportHeader" xml:space="preserve">
+    <value>Importeer woord</value>
+  </data>
+  <data name="RichTextEditor_DialogImport" xml:space="preserve">
+    <value>Invoegen</value>
+  </data>
+  <data name="RichTextEditor_VideoHeader" xml:space="preserve">
+    <value>Video invoegen</value>
+  </data>
+  <data name="RichTextEditor_EditVideoHeader" xml:space="preserve">
+    <value>Video bewerken</value>
+  </data>
+  <data name="RichTextEditor_AudioHeader" xml:space="preserve">
+    <value>Voeg audio in</value>
+  </data>
+  <data name="RichTextEditor_EditAudioHeader" xml:space="preserve">
+    <value>Bewerken Audio</value>
+  </data>
+  <data name="RichTextEditor_Import_From_Word" xml:space="preserve">
+    <value>Importeren vanuit Word</value>
+  </data>
+  <data name="RichTextEditor_Export_To_Word" xml:space="preserve">
+    <value>Exporteer naar Word</value>
+  </data>
+  <data name="RichTextEditor_Export_To_PDF" xml:space="preserve">
+    <value>Exporteer naar Pdf</value>
+  </data>
+  <data name="RichTextEditor_Audio" xml:space="preserve">
+    <value>Voeg audio in</value>
+  </data>
+  <data name="RichTextEditor_Video" xml:space="preserve">
+    <value>Video invoegen</value>
+  </data>
+  <data name="RichTextEditor_Default" xml:space="preserve">
+    <value>Standaard</value>
   </data>
   <data name="DiagramComponent_X" xml:space="preserve">
     <value>X</value>
@@ -4578,11 +4644,62 @@
   <data name="PdfViewer_Of" xml:space="preserve">
     <value>van</value>
   </data>
+  <data name="PdfViewer_OrganizePages" xml:space="preserve">
+    <value>Pagina's ordenen</value>
+  </data>
+  <data name="PdfViewer_Pages" xml:space="preserve">
+    <value>Pagina's</value>
+  </data>
+  <data name="PdfViewer_RotateLeft" xml:space="preserve">
+    <value>Draai naar links</value>
+  </data>
+  <data name="PdfViewer_RotateRight" xml:space="preserve">
+    <value>Draai naar rechts</value>
+  </data>
+  <data name="PdfViewer_DuplicatePages" xml:space="preserve">
+    <value>Pagina's dupliceren</value>
+  </data>
+  <data name="PdfViewer_DeletePages" xml:space="preserve">
+    <value>Pagina's verwijderen</value>
+  </data>
+  <data name="PdfViewer_PageZoom" xml:space="preserve">
+    <value>Pagina zoom</value>
+  </data>
+  <data name="PdfViewer_SelectAll" xml:space="preserve">
+    <value>Alles selecteren</value>
+  </data>
+  <data name="PdfViewer_ImportDocument" xml:space="preserve">
+    <value>Document importeren</value>
+  </data>
+  <data name="PdfViewer_ExtractDocument" xml:space="preserve">
+    <value>Document extraheren</value>
+  </data>
+  <data name="PdfViewer_Total" xml:space="preserve">
+    <value>Totaal</value>
+  </data>
+  <data name="PdfViewer_SaveAs" xml:space="preserve">
+    <value>Opslaan als</value>
+  </data>
+  <data name="PdfViewer_InsertLeft" xml:space="preserve">
+    <value>Links invoegen</value>
+  </data>
+  <data name="PdfViewer_InsertRight" xml:space="preserve">
+    <value>Rechts invoegen</value>
+  </data>
+  <data name="PdfViewer_DuplicatePage" xml:space="preserve">
+    <value>Pagina dupliceren</value>
+  </data>
+  <data name="PdfViewer_DeletePage" xml:space="preserve">
+    <value>Pagina verwijderen</value>
+  </data>
+  <data name="PdfViewer_AllPagesDelete" xml:space="preserve">
+    <value>Alle pagina's kunnen niet worden verwijderd omdat er minimaal één pagina in het document moet blijven.</value>
+  </data>
   <data name="PdfViewer_Required_ServiceUrl_Error_Message" xml:space="preserve">
     <value>Deze PDF-viewer vereist verwerking aan de serverzijde om de PDF-bestanden via de webservice weer te geven. U moet de service-URL configureren om door te gaan met de PDF-viewer</value>
   </data>
   <data name="PdfViewer_Close" xml:space="preserve">
-    <value>Dichtbij</value>
+    <value>Sluiten</value>
   </data>
   <data name="PdfViewer_HandwrittenSignatureDialogHeaderText" xml:space="preserve">
     <value>Handtekening toevoegen</value>
@@ -4609,10 +4726,58 @@
     <value>AI-servicefout</value>
   </data>
   <data name="PdfViewer_CredentialErrorContent" xml:space="preserve">
-    <value>De inloggegevens zijn niet opgegeven, onjuist of ongeldig. Controleer je gegevens en probeer het opnieuw.</value>
+    <value>De inloggegevens zijn niet opgegeven, onjuist of ongeldig. Voer de juiste inloggegevens in en probeer het opnieuw.</value>
   </data>
   <data name="PdfViewer_ConnectionLostErrorContent" xml:space="preserve">
     <value>De verbinding met de AI-service is verbroken. Controleer je netwerkverbinding en probeer het opnieuw.</value>
+  </data>
+   <data name="PdfViewer_UnSupportedDialogContent" xml:space="preserve">
+    <value>Dit bestand ondersteunt geen generatieve AI-functies omdat het leeg is of onvoldoende tekst bevat. Probeer een ander bestand.</value>
+  </data>
+  <data name="SmartPdfViewer_TimeOutErrorHeader" xml:space="preserve">
+    <value>Verzoek verlopen</value>
+  </data>
+  <data name="SmartPdfViewer_TimeOutErrorContent" xml:space="preserve">
+    <value>Je zoekverzoek duurde langer dan verwacht en overschreed de maximaal toegestane tijd.</value>
+  </data>
+  <data name="SmartPdfViewer_DisClaimerContent" xml:space="preserve">
+    <value>Door AI gegenereerde antwoorden kunnen onnauwkeurig of misleidend zijn. Controleer de antwoorden en bronnen altijd zorgvuldig.</value>
+  </data>
+  <data name="SmartPdfViewer_RedactionToolTip" xml:space="preserve">
+    <value>Slimme Redactie</value>
+  </data>
+  <data name="SmartPdfViewer_RedactHeader" xml:space="preserve">
+    <value>Selecteer het patroon</value>
+  </data>
+  <data name="SmartPdfViewer_CancelRedact" xml:space="preserve">
+    <value>Annuleren</value>
+  </data>
+  <data name="SmartPdfViewer_ApplyRedact" xml:space="preserve">
+    <value>Redigeer</value>
+  </data>
+  <data name="SmartPdfViewer_ScanRedact" xml:space="preserve">
+    <value>Scannen</value>
+  </data>
+  <data name="SmartPdfViewer_SmartFillToolTip" xml:space="preserve">
+    <value>Slimme formulierinvoer</value>
+  </data>
+  <data name="SmartPdfViewer_SmartFillText" xml:space="preserve">
+    <value>Slimme invulling</value>
+  </data>
+  <data name="SmartPdfViewer_AIAssistanceToolTip" xml:space="preserve">
+    <value>AI-ondersteuning</value>
+  </data>
+  <data name="SmartPdfViewer_RedactOptionsHeader" xml:space="preserve">
+    <value>Selecteer gegevens om te verbergen</value>
+  </data>
+  <data name="SmartPdfViewer_NoInformationErrorContent" xml:space="preserve">
+    <value>Er zijn geen gevoelige gegevens in het document gevonden.</value>
+  </data>
+  <data name="SmartPdfViewer_NoInformationErrorContentHeader" xml:space="preserve">
+    <value>Geen gevoelige gegevens gevonden</value>
+  </data>
+  <data name="SmartPdfViewer_RedactDisclaimer" xml:space="preserve">
+    <value>Door kunstmatige intelligentie gedetecteerde informatie kan onnauwkeurig zijn. Controleer alstublieft de resultaten vóór gebruik.</value>
   </data>
   <data name="DocumentEditor_Table" xml:space="preserve">
     <value>Tabel</value>
@@ -5453,6 +5618,9 @@
   </data>
   <data name="DocumentEditor_UnderlineErrors" xml:space="preserve">
     <value>Onderstreep fouten</value>
+  </data>
+   <data name="DocumentEditor_MoreSuggestions" xml:space="preserve">
+    <value>Meer Suggesties</value>
   </data>
   <data name="DocumentEditor_Ignore" xml:space="preserve">
     <value>Negeren</value>
@@ -8052,13 +8220,13 @@
   <data name="Spreadsheet_LastMonth" xml:space="preserve">
     <value>Vorige maand</value>
   </data>
-  <data name="Spreadsheet_NextQuater" xml:space="preserve">
+  <data name="Spreadsheet_NextQuarter" xml:space="preserve">
     <value>Volgend kwartaal</value>
   </data>
-  <data name="Spreadsheet_ThisQuater" xml:space="preserve">
+  <data name="Spreadsheet_ThisQuarter" xml:space="preserve">
     <value>Dit kwartaal</value>
   </data>
-  <data name="Spreadsheet_LastQuater" xml:space="preserve">
+  <data name="Spreadsheet_LastQuarter" xml:space="preserve">
     <value>Vorig kwartaal</value>
   </data>
   <data name="Spreadsheet_NextYear" xml:space="preserve">
@@ -8250,11 +8418,302 @@
   <data name="Spreadsheet_FontSize" xml:space="preserve">
     <value>Lettergrootte</value>
   </data>
-  <data name="RichTextEditor_InlineCode" xml:space="preserve">
-    <value>Code in lijn</value>
+  <data name="Spreadsheet_DataLimitExceed" xml:space="preserve">
+    <value>De bestandsgegevens zijn te groot en het verwerken duurt langer. Wilt u doorgaan?</value>
   </data>
-  <data name="RichTextEditor_SlashMenuHeading1" xml:space="preserve">
-    <value>Kop 1</value>
+  <data name="Spreadsheet_FileLimitExceed" xml:space="preserve">
+    <value>De bestandsgrootte is te groot en het verwerken duurt langer. Wilt u doorgaan?</value>
+  </data>
+  <data name="Spreadsheet_PasswordPrompt" xml:space="preserve">
+    <value>is beveiligd</value>
+  </data>
+  <data name="Spreadsheet_UnsupportedFile" xml:space="preserve">
+    <value>Niet-ondersteund bestand</value>
+  </data>
+  <data name="Spreadsheet_View" xml:space="preserve">
+    <value>Weergave</value>
+  </data>
+  <data name="Spreadsheet_Borders" xml:space="preserve">
+    <value>Randen</value>
+  </data>
+  <data name="Spreadsheet_RightBorder" xml:space="preserve">
+    <value>Rechter rand</value>
+  </data>
+  <data name="Spreadsheet_BottomBorder" xml:space="preserve">
+    <value>Onderrand</value>
+  </data>
+  <data name="Spreadsheet_TopBorder" xml:space="preserve">
+    <value>Bovenrand</value>
+  </data>
+  <data name="Spreadsheet_LeftBorder" xml:space="preserve">
+    <value>Linker rand</value>
+  </data>
+  <data name="Spreadsheet_NoBorder" xml:space="preserve">
+    <value>Geen randen</value>
+  </data>
+  <data name="Spreadsheet_AllBorders" xml:space="preserve">
+    <value>Alle randen</value>
+  </data>
+  <data name="Spreadsheet_OutsideBorders" xml:space="preserve">
+    <value>Buitenranden</value>
+  </data>
+  <data name="Spreadsheet_InsideBorders" xml:space="preserve">
+    <value>Binnenranden</value>
+  </data>
+  <data name="Spreadsheet_HorizontalBorders" xml:space="preserve">
+    <value>Horizontale randen</value>
+  </data>
+  <data name="Spreadsheet_VerticalBorders" xml:space="preserve">
+    <value>Verticale randen</value>
+  </data>
+  <data name="Spreadsheet_BorderColor" xml:space="preserve">
+    <value>Randkleur</value>
+  </data>
+  <data name="Spreadsheet_BorderStyle" xml:space="preserve">
+    <value>Randstijl</value>
+  </data>
+  <data name="Spreadsheet_Thin" xml:space="preserve">
+    <value>Dun</value>
+  </data>
+  <data name="Spreadsheet_Medium" xml:space="preserve">
+    <value>Middel</value>
+  </data>
+  <data name="Spreadsheet_Thick" xml:space="preserve">
+    <value>Dik</value>
+  </data>
+  <data name="Spreadsheet_Dotted" xml:space="preserve">
+    <value>Gestippeld</value>
+  </data>
+  <data name="Spreadsheet_Dashed" xml:space="preserve">
+    <value>Gestreep</value>
+  </data>
+  <data name="Spreadsheet_Double" xml:space="preserve">
+    <value>Dubbel</value>
+  </data>
+  <data name="Spreadsheet_ShowGridlines" xml:space="preserve">
+    <value>Roosterlijnen weergeven</value>
+  </data>
+  <data name="Spreadsheet_HideGridlines" xml:space="preserve">
+    <value>Roosterlijnen verbergen</value>
+  </data>
+  <data name="Spreadsheet_WebPage" xml:space="preserve">
+    <value>Webpagina</value>
+  </data>
+  <data name="Spreadsheet_ThisDocument" xml:space="preserve">
+    <value>Dit document</value>
+  </data>
+  <data name="Spreadsheet_DisplayText" xml:space="preserve">
+    <value>Weergavetekst</value>
+  </data>
+  <data name="Spreadsheet_Url" xml:space="preserve">
+    <value>URL</value>
+  </data>
+  <data name="Spreadsheet_Sheet" xml:space="preserve">
+    <value>Blad</value>
+  </data>
+  <data name="Spreadsheet_ReferenceCell" xml:space="preserve">
+    <value>Celverwijzing</value>
+  </data>
+  <data name="Spreadsheet_DownloadPDF" xml:space="preserve">
+    <value>Downloaden als PDF</value>
+  </data>
+  <data name="Spreadsheet_DataOperations" xml:space="preserve">
+    <value>Gegevensbewerkingen</value>
+  </data>
+  <data name="Spreadsheet_General" xml:space="preserve">
+    <value>Algemeen</value>
+  </data>
+  <data name="Spreadsheet_Number" xml:space="preserve">
+    <value>Getal</value>
+  </data>
+  <data name="Spreadsheet_Currency" xml:space="preserve">
+    <value>Valuta</value>
+  </data>
+  <data name="Spreadsheet_Accounting" xml:space="preserve">
+    <value>Financieel</value>
+  </data>
+  <data name="Spreadsheet_ShortDate" xml:space="preserve">
+    <value>Korte datumnotatie</value>
+  </data>
+  <data name="Spreadsheet_LongDate" xml:space="preserve">
+    <value>Lange datumnotatie</value>
+  </data>
+  <data name="Spreadsheet_Time" xml:space="preserve">
+    <value>Tijd</value>
+  </data>
+  <data name="Spreadsheet_Percentage" xml:space="preserve">
+    <value>Percentage</value>
+  </data>
+  <data name="Spreadsheet_Fraction" xml:space="preserve">
+    <value>Breuk</value>
+  </data>
+  <data name="Spreadsheet_Scientific" xml:space="preserve">
+    <value>Wetenschappelijk</value>
+  </data>
+  <data name="Spreadsheet_Custom" xml:space="preserve">
+    <value>Aangepast</value>
+  </data>
+  <data name="Spreadsheet_NumberFormat" xml:space="preserve">
+    <value>Getalnotatie</value>
+  </data>
+  <data name="Spreadsheet_Algerian" xml:space="preserve">
+    <value>Algerian</value>
+  </data>
+  <data name="Spreadsheet_Arial" xml:space="preserve">
+    <value>Arial</value>
+  </data>
+  <data name="Spreadsheet_Calibri" xml:space="preserve">
+    <value>Calibri</value>
+  </data>
+  <data name="Spreadsheet_Cambria" xml:space="preserve">
+    <value>Cambria</value>
+  </data>
+  <data name="Spreadsheet_CambriaMath" xml:space="preserve">
+    <value>Cambria Math</value>
+  </data>
+  <data name="Spreadsheet_CourierNew" xml:space="preserve">
+    <value>Courier New</value>
+  </data>
+  <data name="Spreadsheet_Candara" xml:space="preserve">
+    <value>Candara</value>
+  </data>
+  <data name="Spreadsheet_Georgia" xml:space="preserve">
+    <value>Georgia</value>
+  </data>
+  <data name="Spreadsheet_Impact" xml:space="preserve">
+    <value>Impact</value>
+  </data>
+  <data name="Spreadsheet_SegoePrint" xml:space="preserve">
+    <value>Segoe Print</value>
+  </data>
+  <data name="Spreadsheet_SegoeScript" xml:space="preserve">
+    <value>Segoe Script</value>
+  </data>
+  <data name="Spreadsheet_SegoeUI" xml:space="preserve">
+    <value>Segoe UI</value>
+  </data>
+  <data name="Spreadsheet_Symbol" xml:space="preserve">
+    <value>Symbol</value>
+  </data>
+  <data name="Spreadsheet_TimesNewRoman" xml:space="preserve">
+    <value>Times New Roman</value>
+  </data>
+  <data name="Spreadsheet_Verdana" xml:space="preserve">
+    <value>Verdana</value>
+  </data>
+  <data name="Spreadsheet_Windings" xml:space="preserve">
+    <value>Windings</value>
+  </data>
+  <data name="Spreadsheet_KeepSourceFormat" xml:space="preserve">
+    <value>Bronopmaak behouden</value>
+  </data>
+  <data name="Spreadsheet_MergeFormat" xml:space="preserve">
+    <value>Opmaak samenvoegen</value>
+  </data>
+  <data name="Spreadsheet_KeepTextOnly" xml:space="preserve">
+    <value>Alleen tekst behouden</value>
+  </data>
+  <data name="Spreadsheet_Ascending" xml:space="preserve">
+    <value>Oplopend</value>
+  </data>
+  <data name="Spreadsheet_Descending" xml:space="preserve">
+    <value>Aflopend</value>
+  </data>
+  <data name="Spreadsheet_CustomSort" xml:space="preserve">
+    <value>Aangepast sorteren</value>
+  </data>
+  <data name="Spreadsheet_Print" xml:space="preserve">
+    <value>Afdrukken</value>
+  </data>
+  <data name="Spreadsheet_Text" xml:space="preserve">
+    <value>Tekst</value>
+  </data>
+  <data name="Spreadsheet_Hide" xml:space="preserve">
+    <value>Verbergen</value>
+  </data>
+  <data name="Spreadsheet_Font" xml:space="preserve">
+    <value>Lettertype</value>
+  </data>
+  <data name="Spreadsheet_OkButton" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="Spreadsheet_ShowRowsWhere" xml:space="preserve">
+    <value>Rijen weergeven waar</value>
+  </data>
+  <data name="Spreadsheet_InsertRowBelow" xml:space="preserve">
+    <value>Rij hieronder invoegen</value>
+  </data>
+  <data name="Spreadsheet_Value" xml:space="preserve">
+    <value>Waarde</value>
+  </data>
+  <data name="Spreadsheet_AlignLeft" xml:space="preserve">
+    <value>Links uitlijnen</value>
+  </data>
+  <data name="Spreadsheet_AlignCenter" xml:space="preserve">
+    <value>Centreren</value>
+  </data>
+  <data name="Spreadsheet_AlignRight" xml:space="preserve">
+    <value>Rechts uitlijnen</value>
+  </data>
+  <data name="Spreadsheet_Justify" xml:space="preserve">
+    <value>Uitvullen</value>
+  </data>
+  <data name="Spreadsheet_AlignTop" xml:space="preserve">
+    <value>Boven uitlijnen</value>
+  </data>
+  <data name="Spreadsheet_AlignMiddle" xml:space="preserve">
+    <value>Midden uitlijnen</value>
+  </data>
+  <data name="Spreadsheet_Clipboard" xml:space="preserve">
+    <value>Klembord</value>
+  </data>
+  <data name="Spreadsheet_AlignBottom" xml:space="preserve">
+    <value>Onder uitlijnen</value>
+  </data>
+  <data name="Spreadsheet_ChooseTime" xml:space="preserve">
+    <value>Kies tijd</value>
+  </data>
+  <data name="Spreadsheet_ChangeCase" xml:space="preserve">
+    <value>Hoofdlettergebruik wijzigen</value>
+  </data>
+  <data name="Spreadsheet_FillSeries" xml:space="preserve">
+    <value>Reeks vullen</value>
+  </data>
+  <data name="Spreadsheet_FillFormattingOnly" xml:space="preserve">
+    <value>Alleen opmaak vullen</value>
+  </data>
+  <data name="Spreadsheet_FillWithoutFormatting" xml:space="preserve">
+    <value>Vullen zonder opmaak</value>
+  </data>
+  <data name="Spreadsheet_CopyCells" xml:space="preserve">
+    <value>Cellen kopiëren</value>
+  </data>
+  <data name="Spreadsheet_MergeCell" xml:space="preserve">
+    <value>Cel samenvoegen</value>
+  </data>
+  <data name="Spreadsheet_MergeCellDialog" xml:space="preserve">
+    <value>Het samenvoegen van cellen behoudt alleen de waarde linksboven en gooit andere waarden weg.</value>
+  </data>
+  <data name="Spreadsheet_MergeCellSize" xml:space="preserve">
+    <value>Daarvoor moeten alle samengevoegde cellen dezelfde grootte hebben.</value>
+  </data>
+  <data name="Spreadsheet_MergeCenter" xml:space="preserve">
+    <value>Samenvoegen &amp; Centreren</value>
+  </data>
+  <data name="Spreadsheet_MergeAcross" xml:space="preserve">
+    <value>Samenvoegen over</value>
+  </data>
+  <data name="Spreadsheet_MergeCells" xml:space="preserve">
+    <value>Cellen samenvoegen</value>
+  </data>
+  <data name="Spreadsheet_UnMergeCells" xml:space="preserve">
+    <value>Cellen splitsen</value>
+  </data>
+<data name="RichTextEditor_InlineCode" xml:space="preserve">
+  <value>Code in lijn</value>
+</data>
+<data name="RichTextEditor_SlashMenuHeading1" xml:space="preserve">
+  <value>Kop 1</value>
 </data>
 <data name="RichTextEditor_SlashMenuHeading2" xml:space="preserve">
     <value>Rubriek 2</value>
@@ -8448,10 +8907,172 @@
   <data name="Spreadsheet_ExpandRibbonTab" xml:space="preserve">
     <value>Vouw de werkbalk uit</value>
   </data>
+  <data name="Spreadsheet_InvalidFileNameMessage" xml:space="preserve">
+    <value>Gebruik een naam die deze tekens niet bevat: \ / : * ? " |</value>
+  </data>
+  <data name="Spreadsheet_EmptyFileName" xml:space="preserve">
+   <value>Bestandsnaam mag niet leeg zijn.</value>
+  </data>
+  <data name="Spreadsheet_CircularReference" xml:space="preserve">
+    <value>We hebben vastgesteld dat u een formule met een cirkelverwijzing hebt getypt.</value>
+  </data>
   <data name="RichTextEditor_FormatPainter" xml:space="preserve">
     <value>Opmaak penseel</value>
   </data>
+  <data name="RichTextEditor_LineHeight" xml:space="preserve">
+    <value>Lijnhoogte</value>
+  </data>
   <data name="DataForm_SubmitContent" xml:space="preserve">
     <value>Verzenden</value>
+  </data>
+  <data name="AssistView_FileSize_Failure" xml:space="preserve">
+    <value>Upload mislukt: Bestandsgrootte is te groot</value>
+  </data>
+  <data name="ChatUI_Forwarded_Message" xml:space="preserve">
+    <value>Doorgestuurd</value>
+  </data>
+  <data name="ChatUI_MentionNoRecord" xml:space="preserve">
+    <value>Geen records gevonden</value>
+  </data>
+  <data name="ChatUI_Send" xml:space="preserve">
+    <value>Verzenden</value>
+  </data>
+  <data name="ChatUI_Attachments" xml:space="preserve">
+    <value>Bestand bijvoegen</value>
+  </data>
+  <data name="ChatUI_Download" xml:space="preserve">
+    <value>Downloaden</value>
+  </data>
+  <data name="ChatUI_Close" xml:space="preserve">
+    <value>Sluiten</value>
+  </data>
+  <data name="ChatUI_FileUploadFailure" xml:space="preserve">
+    <value>Uploadlimiet bereikt: maximaal {0} bestanden toegestaan. Verwijder extra bestanden om door te gaan met uploaden</value>
+  </data>
+  <data name="ChatUI_FilePreview" xml:space="preserve">
+    <value>Geen voorbeeld beschikbaar</value>
+  </data>
+  <data name="ChatUI_FileSizeFailure" xml:space="preserve">
+    <value>Uploaden mislukt: de grootte van {0} bestanden is te groot</value>
+  </data>
+  <data name="AIAssistView_FileCountFailure" xml:space="preserve">
+    <value>Uploadlimiet bereikt: maximaal {0} bestanden toegestaan. Verwijder extra bestanden om door te gaan met uploaden</value>
+  </data>
+  <data name="AssistView_Send" xml:space="preserve">
+    <value>Verzenden</value>
+  </data>
+  <data name="AssistView_Attachments" xml:space="preserve">
+    <value>Bestand bijvoegen</value>
+  </data>
+  <data name="AssistView_Clear" xml:space="preserve">
+    <value>Wissen</value>
+  </data>
+  <data name="BlockEditor_Paragraph" xml:space="preserve">
+      <value>Schrijf iets of '/' voor commando's.</value>
+  </data>
+  <data name="BlockEditor_Heading1" xml:space="preserve">
+      <value>Kop 1</value>
+  </data>
+  <data name="BlockEditor_Heading2" xml:space="preserve">
+      <value>Kop 2</value>
+  </data>
+  <data name="BlockEditor_Heading3" xml:space="preserve">
+      <value>Kop 3</value>
+  </data>
+  <data name="BlockEditor_Heading4" xml:space="preserve">
+      <value>Kop 4</value>
+  </data>
+  <data name="BlockEditor_CollapsibleParagraph" xml:space="preserve">
+      <value>Inklapbare alinea</value>
+  </data>
+  <data name="BlockEditor_CollapsibleHeading1" xml:space="preserve">
+      <value>Inklapbare kop 1</value>
+  </data>
+  <data name="BlockEditor_CollapsibleHeading2" xml:space="preserve">
+      <value>Inklapbare kop 2</value>
+  </data>
+  <data name="BlockEditor_CollapsibleHeading3" xml:space="preserve">
+      <value>Inklapbare kop 3</value>
+  </data>
+  <data name="BlockEditor_CollapsibleHeading4" xml:space="preserve">
+      <value>Inklapbare kop 4</value>
+  </data>
+  <data name="BlockEditor_BulletList" xml:space="preserve">
+      <value>Item toevoegen</value>
+  </data>
+  <data name="BlockEditor_NumberedList" xml:space="preserve">
+      <value>Item toevoegen</value>
+  </data>
+  <data name="BlockEditor_Checklist" xml:space="preserve">
+      <value>Taak</value>
+  </data>
+  <data name="BlockEditor_Quote" xml:space="preserve">
+      <value>Schrijf een citaat</value>
+  </data>
+  <data name="BlockEditor_Callout" xml:space="preserve">
+      <value>Schrijf een opmerking</value>
+  </data>
+  <data name="BlockEditor_AddIconTooltip" xml:space="preserve">
+      <value>Klik om hieronder in te voegen</value>
+  </data>
+  <data name="BlockEditor_DragIconTooltipActionMenu" xml:space="preserve">
+      <value>Klik om te openen</value>
+  </data>
+  <data name="BlockEditor_DragIconTooltip" xml:space="preserve">
+      <value>(Houd vast om te slepen)</value>
+  </data>
+  <data name="BlockEditor_InsertLink" xml:space="preserve">
+      <value>Link invoegen</value>
+  </data>
+  <data name="BlockEditor_LinkText" xml:space="preserve">
+      <value>Tekst</value>
+  </data>
+  <data name="BlockEditor_LinkTextPlaceholder" xml:space="preserve">
+      <value>Linktekst</value>
+  </data>
+  <data name="BlockEditor_LinkUrl" xml:space="preserve">
+      <value>URL</value>
+  </data>
+  <data name="BlockEditor_LinkUrlPlaceholder" xml:space="preserve">
+      <value>https://voorbeeld.com</value>
+  </data>
+  <data name="BlockEditor_LinkTitle" xml:space="preserve">
+      <value>Titel</value>
+  </data>
+  <data name="BlockEditor_LinkTitlePlaceholder" xml:space="preserve">
+      <value>Linktitel</value>
+  </data>
+  <data name="BlockEditor_LinkOpenInNewWindow" xml:space="preserve">
+      <value>Openen in nieuw venster</value>
+  </data>
+  <data name="BlockEditor_LinkInsert" xml:space="preserve">
+      <value>Invoegen</value>
+  </data>
+  <data name="BlockEditor_LinkRemove" xml:space="preserve">
+      <value>Verwijderen</value>
+  </data>
+  <data name="BlockEditor_LinkCancel" xml:space="preserve">
+      <value>Annuleren</value>
+  </data>
+  <data name="BlockEditor_CodeCopyTooltip" xml:space="preserve">
+      <value>Code kopiëren</value>
+  </data>
+  <data name="DocumentEditorContainer_CommentsCloseHeader" xml:space="preserve">
+    <value>Niet-opgeslagen opmerkingen</value>
+  </data>
+  <data name="DocumentEditorContainer_CommentsCloseContent" xml:space="preserve">
+    <value>Je hebt reacties die nog niet zijn geplaatst. Als u deze pagina verlaat, worden ze verwijderd</value>
+  </data>
+  <data name="DocumentEditorContainer_KeepEditing" xml:space="preserve">
+    <value>Blijf bewerken</value>
+  </data>
+  <data name="DocumentEditorContainer_DiscardComments" xml:space="preserve">
+    <value>Negeer opmerkingen</value>
+  </data>
+  <data name="DocumentEditor_Resolved" xml:space="preserve">
+    <value>Opgelost</value>
+  </data>
+  <data name="DocumentEditor_CommentMark" xml:space="preserve">
+    <value>Klik om deze reactie te zien</value>
   </data>
 </root>

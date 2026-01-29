@@ -933,11 +933,23 @@
   <data name="Gantt_SplitTask" xml:space="preserve">
     <value>Splitski zadatak</value>
   </data>
+  <data name="Gantt_WbsCode" xml:space="preserve">
+    <value>Kod strukture raščlambe posla</value>
+  </data>
+  <data name="Gantt_WbsPredecessor" xml:space="preserve">
+    <value>Prethodnik strukture raščlambe posla</value>
+  </data>
   <data name="Gantt_MergeTask" xml:space="preserve">
     <value>Zadatak spajanja</value>
   </data>
   <data name="Gantt_UnassignedTasks" xml:space="preserve">
     <value>Nedodijeljeni zadaci</value>
+  </data>
+  <data name="Gantt_Undo" xml:space="preserve">
+    <value>Poništi</value>
+  </data>
+  <data name="Gantt_Redo" xml:space="preserve">
+    <value>Ponovi</value>
   </data>
   <data name="ColorPicker_Apply" xml:space="preserve">
     <value>primijeniti</value>
@@ -2374,13 +2386,13 @@
     <value>Georgia</value>
   </data>
   <data name="RichTextEditor_FontNameImpact" xml:space="preserve">
-    <value>Impact</value>
+    <value>Vpliv</value>
   </data>
   <data name="RichTextEditor_FontNameTahoma" xml:space="preserve">
     <value>Tahoma</value>
   </data>
   <data name="RichTextEditor_FontNameTimesNewRoman" xml:space="preserve">
-    <value>Times New Roman</value>
+    <value>Časovna nova romana</value>
   </data>
   <data name="RichTextEditor_FontNameVerdana" xml:space="preserve">
     <value>Verdana</value>
@@ -2679,6 +2691,18 @@
   <data name="RichTextEditor_TableRemove" xml:space="preserve">
     <value>Izbriši tablicu</value>
   </data>
+  <data name="RichTextEditor_TableCell" xml:space="preserve">
+    <value>Ćelije tablice</value>
+  </data>
+  <data name="RichTextEditor_TableCellMerge" xml:space="preserve">
+    <value>Spoji ćelije</value>
+  </data>
+  <data name="RichTextEditor_TableCellHorizontalSplit" xml:space="preserve">
+    <value>Horizontalni rascjep</value>
+  </data>
+  <data name="RichTextEditor_TableCellVerticalSplit" xml:space="preserve">
+    <value>Vertikalni rascjep</value>
+  </data>
   <data name="RichTextEditor_TableCellBackground" xml:space="preserve">
     <value>Pozadina ćelija tablice</value>
   </data>
@@ -2825,6 +2849,48 @@
   </data>
   <data name="RichTextEditor_Img_AltText_Unsupported" xml:space="preserve">
     <value>Nepodržani format datoteke</value>
+  </data>
+  <data name="RichTextEditor_ImportDeviceUploadMessage" xml:space="preserve">
+    <value>Kliknite ovde da otpremite</value>
+  </data>
+  <data name="RichTextEditor_ImportUploadMessage" xml:space="preserve">
+    <value>Prevuci ili pretraži Word dokument</value>
+  </data>
+  <data name="RichTextEditor_ImportHeader" xml:space="preserve">
+    <value>Uvezi reč</value>
+  </data>
+  <data name="RichTextEditor_DialogImport" xml:space="preserve">
+    <value>Umetni</value>
+  </data>
+  <data name="RichTextEditor_VideoHeader" xml:space="preserve">
+    <value>Vstavite video</value>
+  </data>
+  <data name="RichTextEditor_EditVideoHeader" xml:space="preserve">
+    <value>Uredi video</value>
+  </data>
+  <data name="RichTextEditor_AudioHeader" xml:space="preserve">
+    <value>Vstavite zvok</value>
+  </data>
+  <data name="RichTextEditor_EditAudioHeader" xml:space="preserve">
+    <value>Uredi zvok</value>
+  </data>
+  <data name="RichTextEditor_Import_From_Word" xml:space="preserve">
+    <value>Uvozi iz Worda</value>
+  </data>
+  <data name="RichTextEditor_Export_To_Word" xml:space="preserve">
+    <value>Izvozi v Word</value>
+  </data>
+  <data name="RichTextEditor_Export_To_PDF" xml:space="preserve">
+    <value>Izvozi v PDF</value>
+  </data>
+  <data name="RichTextEditor_Audio" xml:space="preserve">
+    <value>Vstavite zvok</value>
+  </data>
+  <data name="RichTextEditor_Video" xml:space="preserve">
+    <value>Vstavi video</value>
+  </data>
+  <data name="RichTextEditor_Default" xml:space="preserve">
+    <value>predeterminado</value>
   </data>
   <data name="DiagramComponent_X" xml:space="preserve">
     <value>x</value>
@@ -4575,6 +4641,57 @@
   <data name="PdfViewer_Of" xml:space="preserve">
     <value>od</value>
   </data>
+  <data name="PdfViewer_OrganizePages" xml:space="preserve">
+    <value>Organiziraj stranice</value>
+  </data>
+  <data name="PdfViewer_Pages" xml:space="preserve">
+    <value>Stranice</value>
+  </data>
+  <data name="PdfViewer_RotateLeft" xml:space="preserve">
+    <value>Rotiraj ulijevo</value>
+  </data>
+  <data name="PdfViewer_RotateRight" xml:space="preserve">
+    <value>Rotiraj udesno</value>
+  </data>
+  <data name="PdfViewer_DuplicatePages" xml:space="preserve">
+    <value>Dupliciraj stranice</value>
+  </data>
+  <data name="PdfViewer_DeletePages" xml:space="preserve">
+    <value>Izbriši stranice</value>
+  </data>
+  <data name="PdfViewer_PageZoom" xml:space="preserve">
+    <value>Zumiranje stranice</value>
+  </data>
+  <data name="PdfViewer_SelectAll" xml:space="preserve">
+    <value>Odaberi sve</value>
+  </data>
+  <data name="PdfViewer_ImportDocument" xml:space="preserve">
+    <value>Uvezi dokument</value>
+  </data>
+  <data name="PdfViewer_ExtractDocument" xml:space="preserve">
+    <value>Izvuci dokument</value>
+  </data>
+  <data name="PdfViewer_Total" xml:space="preserve">
+    <value>Ukupno</value>
+  </data>
+  <data name="PdfViewer_SaveAs" xml:space="preserve">
+    <value>Spremi kao</value>
+  </data>
+  <data name="PdfViewer_InsertLeft" xml:space="preserve">
+    <value>Umetni lijevo</value>
+  </data>
+  <data name="PdfViewer_InsertRight" xml:space="preserve">
+    <value>Umetni desno</value>
+  </data>
+  <data name="PdfViewer_DuplicatePage" xml:space="preserve">
+    <value>Dupliciraj stranicu</value>
+  </data>
+  <data name="PdfViewer_DeletePage" xml:space="preserve">
+    <value>Izbriši stranicu</value>
+  </data>
+  <data name="PdfViewer_AllPagesDelete" xml:space="preserve">
+    <value>Nije moguće izbrisati sve stranice jer barem jedna mora ostati u dokumentu.</value>
+  </data>
   <data name="PdfViewer_Required_ServiceUrl_Error_Message" xml:space="preserve">
     <value>Ovaj PDF preglednik zahtijeva obradu na strani servera za prikazivanje PDF datoteka putem web usluge. Morate konfigurirati URL usluge da biste nastavili s PDF preglednikom</value>
   </data>
@@ -4606,10 +4723,58 @@
     <value>Pogreška AI servisa</value>
   </data>
   <data name="PdfViewer_CredentialErrorContent" xml:space="preserve">
-    <value>Podaci za prijavu nisu uneseni, netočni su ili nevažeći. Provjerite podatke i pokušajte ponovno.</value>
+    <value>Podaci za prijavu nisu uneseni, netočni su ili nevažeći. Molimo unesite točne podatke i pokušajte ponovno.</value>
   </data>
   <data name="PdfViewer_ConnectionLostErrorContent" xml:space="preserve">
     <value>Veza s AI servisom je izgubljena. Provjerite svoju mrežnu vezu i pokušajte ponovno.</value>
+  </data>
+  <data name="PdfViewer_UnSupportedDialogContent" xml:space="preserve">
+    <value>Ova datoteka ne podržava značajke generativne umjetne inteligencije jer je prazna ili ne sadrži dovoljno teksta. Pokušajte s drugom datotekom.</value>
+  </data>
+  <data name="SmartPdfViewer_TimeOutErrorHeader" xml:space="preserve">
+    <value>Zahtjev je istekao</value>
+  </data>
+  <data name="SmartPdfViewer_TimeOutErrorContent" xml:space="preserve">
+    <value>Vaš zahtjev za pretraživanje trajao je duže od očekivanog i premašio dopušteno vrijeme.</value>
+  </data>
+  <data name="SmartPdfViewer_DisClaimerContent" xml:space="preserve">
+    <value>Odgovori koje generira umjetna inteligencija mogu biti netočni ili dovesti u zabludu. Obavezno dvaput provjerite odgovore i izvore.</value>
+  </data>
+  <data name="SmartPdfViewer_RedactionToolTip" xml:space="preserve">
+    <value>Pametno uređivanje</value>
+  </data>
+  <data name="SmartPdfViewer_RedactHeader" xml:space="preserve">
+    <value>Odaberite obrazac</value>
+  </data>
+  <data name="SmartPdfViewer_CancelRedact" xml:space="preserve">
+    <value>Otkaži</value>
+  </data>
+  <data name="SmartPdfViewer_ApplyRedact" xml:space="preserve">
+    <value>Izmijeni</value>
+  </data>
+  <data name="SmartPdfViewer_ScanRedact" xml:space="preserve">
+    <value>Skeniraj</value>
+  </data>
+  <data name="SmartPdfViewer_SmartFillToolTip" xml:space="preserve">
+    <value>Pametno ispunjavanje obrazaca</value>
+  </data>
+  <data name="SmartPdfViewer_SmartFillText" xml:space="preserve">
+    <value>Pametno popunjavanje</value>
+  </data>
+  <data name="SmartPdfViewer_AIAssistanceToolTip" xml:space="preserve">
+    <value>Pomoć uz AI</value>
+  </data>
+  <data name="SmartPdfViewer_RedactOptionsHeader" xml:space="preserve">
+    <value>Odaberite podatke za skrivanje</value>
+  </data>
+  <data name="SmartPdfViewer_NoInformationErrorContent" xml:space="preserve">
+    <value>U dokumentu nisu pronađene osjetljive informacije.</value>
+  </data>
+  <data name="SmartPdfViewer_NoInformationErrorContentHeader" xml:space="preserve">
+    <value>Nisu pronađeni osjetljivi podaci</value>
+  </data>
+  <data name="SmartPdfViewer_RedactDisclaimer" xml:space="preserve">
+    <value>Informacije otkrivene pomoću umjetne inteligencije možda nisu točne. Molimo provjerite rezultate prije upotrebe.</value>
   </data>
   <data name="DocumentEditor_Table" xml:space="preserve">
     <value>Stol</value>
@@ -5450,6 +5615,9 @@
   </data>
   <data name="DocumentEditor_UnderlineErrors" xml:space="preserve">
     <value>Podcrtajte pogreške</value>
+  </data>
+  <data name="DocumentEditor_MoreSuggestions" xml:space="preserve">
+    <value>Još prijedloga</value>
   </data>
   <data name="DocumentEditor_Ignore" xml:space="preserve">
     <value>Zanemariti</value>
@@ -6813,6 +6981,33 @@
   <data name="Spreadsheet_ClearAll" xml:space="preserve">
     <value>Očisti sve</value>
   </data>
+  <data name="Spreadsheet_Hide" xml:space="preserve">
+  <value>Sakriti</value>
+</data>
+<data name="Spreadsheet_Text" xml:space="preserve">
+  <value>Tekst</value>
+</data>
+<data name="Spreadsheet_Time" xml:space="preserve">
+  <value>Vrijeme</value>
+</data>
+<data name="Spreadsheet_Font" xml:space="preserve">
+  <value>Font</value>
+</data>
+<data name="Spreadsheet_OkButton" xml:space="preserve">
+  <value>U redu</value>
+</data>
+  <data name="Spreadsheet_Value" xml:space="preserve">
+    <value>Vrijednost</value>
+  </data>
+  <data name="Spreadsheet_Number" xml:space="preserve">
+  <value>Broj</value>
+</data>
+<data name="Spreadsheet_Georgia" xml:space="preserve">
+  <value>Gruzija</value>
+</data>
+  <data name="Spreadsheet_Clipboard" xml:space="preserve">
+    <value>Međuspremnik</value>
+  </data>
   <data name="Spreadsheet_ClearFormats" xml:space="preserve">
     <value>Očisti formate</value>
   </data>
@@ -8052,13 +8247,13 @@
   <data name="Spreadsheet_LastMonth" xml:space="preserve">
     <value>Prošli mjesec</value>
   </data>
-  <data name="Spreadsheet_NextQuater" xml:space="preserve">
+  <data name="Spreadsheet_NextQuarter" xml:space="preserve">
     <value>Sljedeći kvartal</value>
   </data>
-  <data name="Spreadsheet_ThisQuater" xml:space="preserve">
+  <data name="Spreadsheet_ThisQuarter" xml:space="preserve">
     <value>Ovaj kvartal</value>
   </data>
-  <data name="Spreadsheet_LastQuater" xml:space="preserve">
+  <data name="Spreadsheet_LastQuarter" xml:space="preserve">
     <value>Prošli kvartal</value>
   </data>
   <data name="Spreadsheet_NextYear" xml:space="preserve">
@@ -8249,6 +8444,135 @@
   </data>
   <data name="Spreadsheet_FontSize" xml:space="preserve">
     <value>Veličina fonta</value>
+  </data>
+  <data name="Spreadsheet_DataLimitExceed" xml:space="preserve">
+    <value>Podaci datoteke su preveliki i obrada traje dulje. Želite li nastaviti?</value>
+  </data>
+  <data name="Spreadsheet_FileLimitExceed" xml:space="preserve">
+    <value>Veličina datoteke je prevelika i obrada traje dulje. Želite li nastaviti?</value>
+  </data>
+  <data name="Spreadsheet_PasswordPrompt" xml:space="preserve">
+    <value>je zaštićen</value>
+  </data>
+  <data name="Spreadsheet_UnsupportedFile" xml:space="preserve">
+    <value>Nepodržana datoteka</value>
+  </data>
+  <data name="Spreadsheet_View" xml:space="preserve">
+    <value>Nézet</value>
+  </data>
+  <data name="Spreadsheet_Borders" xml:space="preserve">
+    <value>Szegélyek</value>
+  </data>
+  <data name="Spreadsheet_RightBorder" xml:space="preserve">
+    <value>Jobb szegély</value>
+  </data>
+  <data name="Spreadsheet_BottomBorder" xml:space="preserve">
+    <value>Alsó szegély</value>
+  </data>
+  <data name="Spreadsheet_TopBorder" xml:space="preserve">
+    <value>Felső szegély</value>
+  </data>
+  <data name="Spreadsheet_LeftBorder" xml:space="preserve">
+    <value>Bal szegély</value>
+  </data>
+  <data name="Spreadsheet_NoBorder" xml:space="preserve">
+    <value>Nincs szegély</value>
+  </data>
+  <data name="Spreadsheet_AllBorders" xml:space="preserve">
+    <value>Minden szegély</value>
+  </data>
+  <data name="Spreadsheet_OutsideBorders" xml:space="preserve">
+    <value>Külső szegélyek</value>
+  </data>
+  <data name="Spreadsheet_InsideBorders" xml:space="preserve">
+    <value>Belső szegélyek</value>
+  </data>
+  <data name="Spreadsheet_HorizontalBorders" xml:space="preserve">
+    <value>Vízszintes szegélyek</value>
+  </data>
+  <data name="Spreadsheet_VerticalBorders" xml:space="preserve">
+    <value>Függőleges szegélyek</value>
+  </data>
+  <data name="Spreadsheet_BorderColor" xml:space="preserve">
+    <value>Szegély színe</value>
+  </data>
+  <data name="Spreadsheet_BorderStyle" xml:space="preserve">
+    <value>Szegély stílusa</value>
+  </data>
+  <data name="Spreadsheet_Thin" xml:space="preserve">
+    <value>Vékony</value>
+  </data>
+  <data name="Spreadsheet_Medium" xml:space="preserve">
+    <value>Közepes</value>
+  </data>
+  <data name="Spreadsheet_Thick" xml:space="preserve">
+    <value>Vastag</value>
+  </data>
+  <data name="Spreadsheet_Dotted" xml:space="preserve">
+    <value>Pontozott</value>
+  </data>
+  <data name="Spreadsheet_Dashed" xml:space="preserve">
+    <value>Szaggatott</value>
+  </data>
+  <data name="Spreadsheet_Double" xml:space="preserve">
+    <value>Dupla</value>
+  </data>
+  <data name="Spreadsheet_ShowGridlines" xml:space="preserve">
+    <value>Rácsvonalak megjelenítése</value>
+  </data>
+  <data name="Spreadsheet_HideGridlines" xml:space="preserve">
+    <value>Rácsvonalak elrejtése</value>
+  </data>
+  <data name="Spreadsheet_WebPage" xml:space="preserve">
+    <value>Web stranica</value>
+  </data>
+  <data name="Spreadsheet_ThisDocument" xml:space="preserve">
+    <value>Ovaj dokument</value>
+  </data>
+  <data name="Spreadsheet_DisplayText" xml:space="preserve">
+    <value>Tekst za prikaz</value>
+  </data>
+  <data name="Spreadsheet_Url" xml:space="preserve">
+    <value>URL</value>
+  </data>
+  <data name="Spreadsheet_Sheet" xml:space="preserve">
+    <value>List</value>
+  </data>
+  <data name="Spreadsheet_ReferenceCell" xml:space="preserve">
+    <value>Referenca ćelije</value>
+  </data>
+  <data name="Spreadsheet_FillSeries" xml:space="preserve">
+    <value>Ispuni niz</value>
+  </data>
+  <data name="Spreadsheet_FillFormattingOnly" xml:space="preserve">
+    <value>Ispuni samo oblikovanje</value>
+  </data>
+  <data name="Spreadsheet_FillWithoutFormatting" xml:space="preserve">
+    <value>Ispuni bez oblikovanja</value>
+  </data>
+  <data name="Spreadsheet_CopyCells" xml:space="preserve">
+    <value>Kopiraj ćelije</value>
+  </data>
+  <data name="Spreadsheet_MergeCell" xml:space="preserve">
+    <value>Spajanje ćelije</value>
+  </data>
+  <data name="Spreadsheet_MergeCellDialog" xml:space="preserve">
+    <value>Spajanje ćelija zadržava samo gornju lijevu vrijednost i odbacuje ostale vrijednosti.</value>
+  </data>
+  <data name="Spreadsheet_MergeCellSize" xml:space="preserve">
+    <value>Da biste to učinili, sve spojene ćelije moraju biti iste veličine.</value>
+  </data>
+  <data name="Spreadsheet_MergeCenter" xml:space="preserve">
+    <value>Spajanje &amp; Centar</value>
+  </data>
+  <data name="Spreadsheet_MergeAcross" xml:space="preserve">
+    <value>Spajanje preko</value>
+  </data>
+  <data name="Spreadsheet_MergeCells" xml:space="preserve">
+    <value>Spajanje ćelija</value>
+  </data>
+  <data name="Spreadsheet_UnMergeCells" xml:space="preserve">
+    <value>Odvajanje ćelija</value>
   </data>
   <data name="RichTextEditor_InlineCode" xml:space="preserve">
     <value>Umetnuti kod</value>
@@ -8448,10 +8772,307 @@
   <data name="Spreadsheet_ExpandRibbonTab" xml:space="preserve">
     <value>Proširite alatnu traku</value>
   </data>
+  <data name="Spreadsheet_InvalidFileNameMessage" xml:space="preserve">
+    <value>Koristite ime koje ne uključuje ove znakove: \ / : * ? " |</value>
+  </data>
+  <data name="Spreadsheet_EmptyFileName" xml:space="preserve">
+   <value>Naziv datoteke ne može biti prazan.</value>
+  </data>
+  <data name="Spreadsheet_Algerian" xml:space="preserve">
+    <value>alžirski</value>
+  </data>
+    <data name="Spreadsheet_AlignCenter" xml:space="preserve">
+    <value>PoravnajCentar</value>
+  </data>
+    <data name="Spreadsheet_AlignLeft" xml:space="preserve">
+    <value>Poravnaj lijevo</value>
+  </data>
+   <data name="Spreadsheet_AlignRight" xml:space="preserve">
+    <value>Poravnaj desno</value>
+  </data>
+  <data name="Spreadsheet_AlignTop" xml:space="preserve">
+    <value>PoravnajVrh</value>
+  </data>
+  <data name="Spreadsheet_AlignMiddle" xml:space="preserve">
+    <value>PoravnajSredinu</value>
+  </data>
+    <data name="Spreadsheet_Arial" xml:space="preserve">
+    <value>Arial</value>
+  </data>
+    <data name="Spreadsheet_Ascending" xml:space="preserve">
+    <value>Uzlazno</value>
+  </data>
+  <data name="Spreadsheet_Descending" xml:space="preserve">
+    <value>Silazni</value>
+  </data>
+  <data name="Spreadsheet_Calibri" xml:space="preserve">
+    <value>Kalibri</value>
+  </data>
+  <data name="Spreadsheet_Cambria" xml:space="preserve">
+    <value>Kambrija</value>
+  </data>
+  <data name="Spreadsheet_CambriaMath" xml:space="preserve">
+    <value>CambriaMath</value>
+  </data>
+  <data name="Spreadsheet_CourierNew" xml:space="preserve">
+    <value>KurirNovo</value>
+  </data>
+  <data name="Spreadsheet_Candara" xml:space="preserve">
+    <value>Candara</value>
+  </data>
+  <data name="Spreadsheet_ChangeCase" xml:space="preserve">
+    <value>PromijeniVelikuIme</value>
+  </data>
+    <data name="Spreadsheet_ChooseTime" xml:space="preserve">
+    <value>OdaberiteVrijeme</value>
+  </data>
+    <data name="Spreadsheet_Currency" xml:space="preserve">
+    <value>Valuta</value>
+  </data>
+    <data name="Spreadsheet_Custom" xml:space="preserve">
+    <value>Običaj</value>
+  </data>
+  <data name="Spreadsheet_NumberFormat" xml:space="preserve">
+    <value>Oblik broja</value>
+  </data>
+    <data name="Spreadsheet_CustomSort" xml:space="preserve">
+    <value>Prilagođeno sortiranje</value>
+  </data>
+    <data name="Spreadsheet_DataOperations" xml:space="preserve">
+    <value>Operacije s podacima</value>
+  </data>
+    <data name="Spreadsheet_DownloadPDF" xml:space="preserve">
+    <value>Preuzmi PDF</value>
+  </data>
+    <data name="Spreadsheet_Fraction" xml:space="preserve">
+    <value>Frakcija</value>
+  </data>
+  <data name="Spreadsheet_General" xml:space="preserve">
+    <value>General</value>
+  </data>
+    <data name="Spreadsheet_Impact" xml:space="preserve">
+    <value>Utjecaj</value>
+  </data>
+  <data name="Spreadsheet_Justify" xml:space="preserve">
+    <value>Opravdati</value>
+  </data>
+  <data name="Spreadsheet_InsertRowBelow" xml:space="preserve">
+    <value>Umetni redak ispod</value>
+  </data>
+    <data name="Spreadsheet_KeepSourceFormat" xml:space="preserve">
+    <value>KeepSourceFormat</value>
+  </data>
+  <data name="Spreadsheet_MergeFormat" xml:space="preserve">
+    <value>Format spajanja</value>
+  </data>
+  <data name="Spreadsheet_KeepTextOnly" xml:space="preserve">
+    <value>ZadržiSamoTekst</value>
+  </data>
+  <data name="Spreadsheet_ShortDate" xml:space="preserve">
+    <value>KratkiDatum</value>
+  </data>
+  <data name="Spreadsheet_LongDate" xml:space="preserve">
+    <value>DugiDatum</value>
+  </data>
+  <data name="Spreadsheet_Percentage" xml:space="preserve">
+    <value>Postotak</value>
+  </data>
+    <data name="Spreadsheet_Print" xml:space="preserve">
+    <value>Ispis</value>
+  </data>
+  <data name="Spreadsheet_Scientific" xml:space="preserve">
+    <value>Znanstveni</value>
+  </data>
+    <data name="Spreadsheet_SegoePrint" xml:space="preserve">
+    <value>Segoe Print</value>
+  </data>
+  <data name="Spreadsheet_SegoeScript" xml:space="preserve">
+    <value>Segoe skripta</value>
+  </data>
+  <data name="Spreadsheet_SegoeUI" xml:space="preserve">
+    <value>SegoeUI</value>
+  </data>
+  <data name="Spreadsheet_ShowRowsWhere" xml:space="preserve">
+    <value>PrikažiRedoveGdje</value>
+  </data>
+  <data name="Spreadsheet_Symbol" xml:space="preserve">
+    <value>Simbol</value>
+  </data>
+  <data name="Spreadsheet_TimesNewRoman" xml:space="preserve">
+    <value>Times New Roman</value>
+  </data>
+  <data name="Spreadsheet_Verdana" xml:space="preserve">
+    <value>Verdana</value>
+  </data>
+  <data name="Spreadsheet_Windings" xml:space="preserve">
+    <value>Namotaji</value>
+  </data>
+  <data name="Spreadsheet_Accounting" xml:space="preserve">
+    <value>Računovodstvo</value>
+  </data>
+  <data name="Spreadsheet_AlignBottom" xml:space="preserve">
+    <value>Poravnaj dno</value>
+  </data>
+  <data name="Spreadsheet_CircularReference" xml:space="preserve">
+    <value>Utvrdili smo da ste upisali formulu s kružnom referencom.</value>
+  </data>
   <data name="RichTextEditor_FormatPainter" xml:space="preserve">
     <value>Četka za format</value>
   </data>
+  <data name="RichTextEditor_LineHeight" xml:space="preserve">
+    <value>VisinaLinije</value>
+  </data>
   <data name="DataForm_SubmitContent" xml:space="preserve">
     <value>Pošalji</value>
+  </data>
+  <data name="AssistView_FileSize_Failure" xml:space="preserve">
+    <value>Prijenos nije uspio: Veličina datoteke je prevelika</value>
+  </data>
+  <data name="ChatUI_Forwarded_Message" xml:space="preserve">
+    <value>Proslijeđeno</value>
+  </data>
+  <data name="ChatUI_MentionNoRecord" xml:space="preserve">
+    <value>Nije pronađen nijedan zapis</value>
+  </data>
+  <data name="ChatUI_Send" xml:space="preserve">
+    <value>Pošalji</value>
+  </data>
+  <data name="ChatUI_Attachments" xml:space="preserve">
+    <value>Priloži datoteku</value>
+  </data>
+  <data name="ChatUI_Download" xml:space="preserve">
+    <value>Preuzmi</value>
+  </data>
+  <data name="ChatUI_Close" xml:space="preserve">
+    <value>Zatvori</value>
+  </data>
+  <data name="ChatUI_FileUploadFailure" xml:space="preserve">
+    <value>Dosegnuto je ograničenje prijenosa: dopušteno je najviše {0} datoteka. Uklonite dodatne datoteke kako biste nastavili s prijenosom</value>
+  </data>
+  <data name="ChatUI_FilePreview" xml:space="preserve">
+    <value>Pregled nije dostupan</value>
+  </data>
+  <data name="ChatUI_FileSizeFailure" xml:space="preserve">
+    <value>Prijenos nije uspio: veličina {0} datoteka je prevelika</value>
+  </data>
+  <data name="AIAssistView_FileCountFailure" xml:space="preserve">
+    <value>Dosegnuto je ograničenje prijenosa: dopušteno je najviše {0} datoteka. Uklonite dodatne datoteke kako biste nastavili s prijenosom</value>
+  </data>
+  <data name="AssistView_Send" xml:space="preserve">
+    <value>Pošalji</value>
+  </data>
+  <data name="AssistView_Attachments" xml:space="preserve">
+    <value>Priloži datoteku</value>
+  </data>
+  <data name="AssistView_Clear" xml:space="preserve">
+    <value>Očisti</value>
+  </data>
+  <data name="BlockEditor_Paragraph" xml:space="preserve">
+      <value>Napišite nešto ili '/' za naredbe.</value>
+  </data>
+  <data name="BlockEditor_Heading1" xml:space="preserve">
+      <value>Naslov 1</value>
+  </data>
+  <data name="BlockEditor_Heading2" xml:space="preserve">
+      <value>Naslov 2</value>
+  </data>
+  <data name="BlockEditor_Heading3" xml:space="preserve">
+      <value>Naslov 3</value>
+  </data>
+  <data name="BlockEditor_Heading4" xml:space="preserve">
+      <value>Naslov 4</value>
+  </data>
+  <data name="BlockEditor_CollapsibleParagraph" xml:space="preserve">
+      <value>Sklopivi odlomak</value>
+  </data>
+  <data name="BlockEditor_CollapsibleHeading1" xml:space="preserve">
+      <value>Sklopivi naslov 1</value>
+  </data>
+  <data name="BlockEditor_CollapsibleHeading2" xml:space="preserve">
+      <value>Sklopivi naslov 2</value>
+  </data>
+  <data name="BlockEditor_CollapsibleHeading3" xml:space="preserve">
+      <value>Sklopivi naslov 3</value>
+  </data>
+  <data name="BlockEditor_CollapsibleHeading4" xml:space="preserve">
+      <value>Sklopivi naslov 4</value>
+  </data>
+  <data name="BlockEditor_BulletList" xml:space="preserve">
+      <value>Dodaj stavku</value>
+  </data>
+  <data name="BlockEditor_NumberedList" xml:space="preserve">
+      <value>Dodaj stavku</value>
+  </data>
+  <data name="BlockEditor_Checklist" xml:space="preserve">
+      <value>Zadatak</value>
+  </data>
+  <data name="BlockEditor_Quote" xml:space="preserve">
+      <value>Napišite citat</value>
+  </data>
+  <data name="BlockEditor_Callout" xml:space="preserve">
+      <value>Napišite napomenu</value>
+  </data>
+  <data name="BlockEditor_AddIconTooltip" xml:space="preserve">
+      <value>Kliknite za umetanje ispod</value>
+  </data>
+  <data name="BlockEditor_DragIconTooltipActionMenu" xml:space="preserve">
+      <value>Kliknite za otvaranje</value>
+  </data>
+  <data name="BlockEditor_DragIconTooltip" xml:space="preserve">
+      <value>(Držite za povlačenje)</value>
+  </data>
+  <data name="BlockEditor_InsertLink" xml:space="preserve">
+      <value>Umetni poveznicu</value>
+  </data>
+  <data name="BlockEditor_LinkText" xml:space="preserve">
+      <value>Tekst</value>
+  </data>
+  <data name="BlockEditor_LinkTextPlaceholder" xml:space="preserve">
+      <value>Tekst poveznice</value>
+  </data>
+  <data name="BlockEditor_LinkUrl" xml:space="preserve">
+      <value>URL</value>
+  </data>
+  <data name="BlockEditor_LinkUrlPlaceholder" xml:space="preserve">
+      <value>https://primjer.com</value>
+  </data>
+  <data name="BlockEditor_LinkTitle" xml:space="preserve">
+      <value>Naslov</value>
+  </data>
+  <data name="BlockEditor_LinkTitlePlaceholder" xml:space="preserve">
+      <value>Naslov poveznice</value>
+  </data>
+  <data name="BlockEditor_LinkOpenInNewWindow" xml:space="preserve">
+      <value>Otvori u novom prozoru</value>
+  </data>
+  <data name="BlockEditor_LinkInsert" xml:space="preserve">
+      <value>Umetni</value>
+  </data>
+  <data name="BlockEditor_LinkRemove" xml:space="preserve">
+      <value>Ukloni</value>
+  </data>
+  <data name="BlockEditor_LinkCancel" xml:space="preserve">
+      <value>Otkaži</value>
+  </data>
+  <data name="BlockEditor_CodeCopyTooltip" xml:space="preserve">
+      <value>Kopiraj kod</value>
+  </data>
+  <data name="DocumentEditorContainer_CommentsCloseHeader" xml:space="preserve">
+    <value>Nespremljeni komentari</value>
+  </data>
+  <data name="DocumentEditorContainer_CommentsCloseContent" xml:space="preserve">
+    <value>Imate komentare koji još nisu objavljeni. Ako napustite ovu stranicu, oni će biti odbačeni</value>
+  </data>
+  <data name="DocumentEditorContainer_KeepEditing" xml:space="preserve">
+    <value>Nastavite s uređivanjem</value>
+  </data>
+  <data name="DocumentEditorContainer_DiscardComments" xml:space="preserve">
+    <value>Odbaci komentare</value>
+  </data>
+  <data name="DocumentEditor_Resolved" xml:space="preserve">
+    <value>Riješeno</value>
+  </data>
+  <data name="DocumentEditor_CommentMark" xml:space="preserve">
+    <value>Kliknite da vidite ovaj komentar</value>
   </data>
 </root>

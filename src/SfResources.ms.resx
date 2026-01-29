@@ -1,17 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
-  <!-- 
-    Microsoft ResX Schema 
-    
+  <!--
+    Microsoft ResX Schema
+
     Version 2.0
-    
-    The primary goals of this format is to allow a simple XML format 
-    that is mostly human readable. The generation and parsing of the 
-    various data types are done through the TypeConverter classes 
+
+    The primary goals of this format is to allow a simple XML format
+    that is mostly human readable. The generation and parsing of the
+    various data types are done through the TypeConverter classes
     associated with the data types.
-    
+
     Example:
-    
+
     ... ado.net/XML headers & schema ...
     <resheader name="resmimetype">text/microsoft-resx</resheader>
     <resheader name="version">2.0</resheader>
@@ -26,36 +26,36 @@
         <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
         <comment>This is a comment</comment>
     </data>
-                
-    There are any number of "resheader" rows that contain simple 
+
+    There are any number of "resheader" rows that contain simple
     name/value pairs.
-    
-    Each data row contains a name, and value. The row also contains a 
-    type or mimetype. Type corresponds to a .NET class that support 
-    text/value conversion through the TypeConverter architecture. 
-    Classes that don't support this are serialized and stored with the 
+
+    Each data row contains a name, and value. The row also contains a
+    type or mimetype. Type corresponds to a .NET class that support
+    text/value conversion through the TypeConverter architecture.
+    Classes that don't support this are serialized and stored with the
     mimetype set.
-    
-    The mimetype is used for serialized objects, and tells the 
-    ResXResourceReader how to depersist the object. This is currently not 
+
+    The mimetype is used for serialized objects, and tells the
+    ResXResourceReader how to depersist the object. This is currently not
     extensible. For a given mimetype the value must be set accordingly:
-    
-    Note - application/x-microsoft.net.object.binary.base64 is the format 
-    that the ResXResourceWriter will generate, however the reader can 
+
+    Note - application/x-microsoft.net.object.binary.base64 is the format
+    that the ResXResourceWriter will generate, however the reader can
     read any of the formats listed below.
-    
+
     mimetype: application/x-microsoft.net.object.binary.base64
-    value   : The object must be serialized with 
+    value   : The object must be serialized with
             : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
             : and then encoded with base64 encoding.
-    
+
     mimetype: application/x-microsoft.net.object.soap.base64
-    value   : The object must be serialized with 
+    value   : The object must be serialized with
             : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
             : and then encoded with base64 encoding.
 
     mimetype: application/x-microsoft.net.object.bytearray.base64
-    value   : The object must be serialized into a byte array 
+    value   : The object must be serialized into a byte array
             : using a System.ComponentModel.TypeConverter
             : and then encoded with base64 encoding.
     -->
@@ -933,11 +933,23 @@
   <data name="Gantt_SplitTask" xml:space="preserve">
     <value>Pisah Tugas</value>
   </data>
+  <data name="Gantt_WbsCode" xml:space="preserve">
+    <value>Kod Struktur Pecahan Kerja</value>
+  </data>
+  <data name="Gantt_WbsPredecessor" xml:space="preserve">
+    <value>Pendahulu Struktur Pecahan Kerja</value>
+  </data>
   <data name="Gantt_MergeTask" xml:space="preserve">
     <value>Gabungkan Tugas</value>
   </data>
   <data name="Gantt_UnassignedTasks" xml:space="preserve">
     <value>Tugas yang Belum Ditugaskan</value>
+  </data>
+  <data name="Gantt_Undo" xml:space="preserve">
+    <value>Nyahcara</value>
+  </data>
+  <data name="Gantt_Redo" xml:space="preserve">
+    <value>Buat semula</value>
   </data>
   <data name="ColorPicker_Apply" xml:space="preserve">
     <value>대다</value>
@@ -2377,7 +2389,7 @@
     <value>Georgia</value>
   </data>
   <data name="RichTextEditor_FontNameImpact" xml:space="preserve">
-    <value>Impact</value>
+    <value>Dampak</value>
   </data>
   <data name="RichTextEditor_FontNameTahoma" xml:space="preserve">
     <value>Tahoma</value>
@@ -2682,6 +2694,18 @@
   <data name="RichTextEditor_TableRemove" xml:space="preserve">
     <value>테이블 삭제</value>
   </data>
+  <data name="RichTextEditor_TableCell" xml:space="preserve">
+    <value>Sel Jadual</value>
+  </data>
+  <data name="RichTextEditor_TableCellMerge" xml:space="preserve">
+    <value>Cantumkan sel</value>
+  </data>
+  <data name="RichTextEditor_TableCellHorizontalSplit" xml:space="preserve">
+    <value>Pembahagian mendatar</value>
+  </data>
+  <data name="RichTextEditor_TableCellVerticalSplit" xml:space="preserve">
+    <value>Pemisahan menegak</value>
+  </data>
   <data name="RichTextEditor_TableCellBackground" xml:space="preserve">
     <value>테이블 셀 배경</value>
   </data>
@@ -2828,6 +2852,48 @@
   </data>
   <data name="RichTextEditor_Img_AltText_Unsupported" xml:space="preserve">
     <value>Format fail tidak disokong</value>
+  </data>
+  <data name="RichTextEditor_ImportDeviceUploadMessage" xml:space="preserve">
+    <value>Klik di sini untuk memuat naik</value>
+  </data>
+  <data name="RichTextEditor_ImportUploadMessage" xml:space="preserve">
+    <value>Seret atau telusuri dokumen Word</value>
+  </data>
+  <data name="RichTextEditor_ImportHeader" xml:space="preserve">
+    <value>Import Kata</value>
+  </data>
+  <data name="RichTextEditor_DialogImport" xml:space="preserve">
+    <value>Masukkan</value>
+  </data>
+  <data name="RichTextEditor_VideoHeader" xml:space="preserve">
+    <value>Masukkan Video</value>
+  </data>
+  <data name="RichTextEditor_EditVideoHeader" xml:space="preserve">
+    <value>mengedit video</value>
+  </data>
+  <data name="RichTextEditor_AudioHeader" xml:space="preserve">
+    <value>Masukkan Audio</value>
+  </data>
+  <data name="RichTextEditor_EditAudioHeader" xml:space="preserve">
+    <value>mengedit Audio</value>
+  </data>
+  <data name="RichTextEditor_Import_From_Word" xml:space="preserve">
+    <value>Impor Dari Word</value>
+  </data>
+  <data name="RichTextEditor_Export_To_Word" xml:space="preserve">
+    <value>Ekspor ke Word</value>
+  </data>
+  <data name="RichTextEditor_Export_To_PDF" xml:space="preserve">
+    <value>Ekspor ke PDF</value>
+  </data>
+  <data name="RichTextEditor_Audio" xml:space="preserve">
+    <value>Masukkan Audio</value>
+  </data>
+  <data name="RichTextEditor_Video" xml:space="preserve">
+    <value>Masukkan Video</value>
+  </data>
+  <data name="RichTextEditor_Default" xml:space="preserve">
+    <value>Default</value>
   </data>
   <data name="DiagramComponent_X" xml:space="preserve">
     <value>X</value>
@@ -4578,6 +4644,57 @@
   <data name="PdfViewer_Of" xml:space="preserve">
     <value>daripada</value>
   </data>
+  <data name="PdfViewer_OrganizePages" xml:space="preserve">
+    <value>Susun Halaman</value>
+  </data>
+  <data name="PdfViewer_Pages" xml:space="preserve">
+    <value>Halaman</value>
+  </data>
+  <data name="PdfViewer_RotateLeft" xml:space="preserve">
+    <value>Pusing ke kiri</value>
+  </data>
+  <data name="PdfViewer_RotateRight" xml:space="preserve">
+    <value>Pusing ke kanan</value>
+  </data>
+  <data name="PdfViewer_DuplicatePages" xml:space="preserve">
+    <value>Gandakan Halaman</value>
+  </data>
+  <data name="PdfViewer_DeletePages" xml:space="preserve">
+    <value>Padam Halaman</value>
+  </data>
+  <data name="PdfViewer_PageZoom" xml:space="preserve">
+    <value>Zum Halaman</value>
+  </data>
+  <data name="PdfViewer_SelectAll" xml:space="preserve">
+    <value>Pilih Semua</value>
+  </data>
+  <data name="PdfViewer_ImportDocument" xml:space="preserve">
+    <value>Import Dokumen</value>
+  </data>
+  <data name="PdfViewer_ExtractDocument" xml:space="preserve">
+    <value>Ekstrak dokumen</value>
+  </data>
+  <data name="PdfViewer_Total" xml:space="preserve">
+    <value>Jumlah</value>
+  </data>
+  <data name="PdfViewer_SaveAs" xml:space="preserve">
+    <value>Simpan Sebagai</value>
+  </data>
+  <data name="PdfViewer_InsertLeft" xml:space="preserve">
+    <value>Masukkan ke Kiri</value>
+  </data>
+  <data name="PdfViewer_InsertRight" xml:space="preserve">
+    <value>Masukkan ke Kanan</value>
+  </data>
+  <data name="PdfViewer_DuplicatePage" xml:space="preserve">
+    <value>Gandakan Halaman</value>
+  </data>
+  <data name="PdfViewer_DeletePage" xml:space="preserve">
+    <value>Padam Halaman</value>
+  </data>
+  <data name="PdfViewer_AllPagesDelete" xml:space="preserve">
+    <value>Tidak boleh padam semua halaman kerana sekurang-kurangnya satu halaman mesti kekal dalam dokumen.</value>
+  </data>
   <data name="PdfViewer_Required_ServiceUrl_Error_Message" xml:space="preserve">
     <value>Pemapar PDF ini memerlukan pemprosesan bahagian pelayan untuk memaparkan fail PDF melalui perkhidmatan web. Anda mesti mengkonfigurasi URL Perkhidmatan untuk meneruskan dengan pemapar PDF</value>
   </data>
@@ -4609,10 +4726,58 @@
     <value>Ralat Perkhidmatan AI</value>
   </data>
   <data name="PdfViewer_CredentialErrorContent" xml:space="preserve">
-    <value>Keluar masuk tidak diberikan, salah, atau tidak sah. Sila semak dan masukkan kelayakan yang betul kemudian cuba lagi.</value>
+    <value>Kelayakan tidak diberikan, tidak tepat, atau tidak sah. Sila masukkan kelayakan yang betul dan cuba lagi.</value>
   </data>
   <data name="PdfViewer_ConnectionLostErrorContent" xml:space="preserve">
     <value>Sambungan ke perkhidmatan AI telah terputus. Sila semak sambungan rangkaian anda dan cuba lagi.</value>
+  </data>
+  <data name="PdfViewer_UnSupportedDialogContent" xml:space="preserve">
+    <value>Fail ini tidak menyokong ciri AI generatif kerana ia kosong atau tidak mengandungi teks yang mencukupi. Sila cuba fail lain.</value>
+  </data>
+  <data name="SmartPdfViewer_TimeOutErrorHeader" xml:space="preserve">
+    <value>Permintaan Tamat Masa</value>
+  </data>
+  <data name="SmartPdfViewer_TimeOutErrorContent" xml:space="preserve">
+    <value>Permintaan carian anda mengambil masa lebih lama daripada jangkaan dan telah melebihi had masa yang dibenarkan.</value>
+  </data>
+  <data name="SmartPdfViewer_DisClaimerContent" xml:space="preserve">
+    <value>Jawapan yang dijana oleh kecerdasan buatan mungkin tidak tepat atau mengelirukan. Pastikan anda menyemak semula jawapan dan sumbernya.</value>
+  </data>
+  <data name="SmartPdfViewer_RedactionToolTip" xml:space="preserve">
+    <value>Penyuntingan Pintar</value>
+  </data>
+  <data name="SmartPdfViewer_RedactHeader" xml:space="preserve">
+    <value>Pilih Pola</value>
+  </data>
+  <data name="SmartPdfViewer_CancelRedact" xml:space="preserve">
+    <value>Batalkan</value>
+  </data>
+  <data name="SmartPdfViewer_ApplyRedact" xml:space="preserve">
+    <value>Merah</value>
+  </data>
+  <data name="SmartPdfViewer_ScanRedact" xml:space="preserve">
+    <value>Imbas</value>
+  </data>
+  <data name="SmartPdfViewer_SmartFillToolTip" xml:space="preserve">
+    <value>Isi Borang Pintar</value>
+  </data>
+  <data name="SmartPdfViewer_SmartFillText" xml:space="preserve">
+    <value>Isian Pintar</value>
+  </data>
+  <data name="SmartPdfViewer_AIAssistanceToolTip" xml:space="preserve">
+    <value>Bantuan AI</value>
+  </data>
+  <data name="SmartPdfViewer_RedactOptionsHeader" xml:space="preserve">
+    <value>Pilih data untuk disembunyikan</value>
+  </data>
+  <data name="SmartPdfViewer_NoInformationErrorContent" xml:space="preserve">
+    <value>Tiada maklumat sensitif ditemui dalam dokumen tersebut.</value>
+  </data>
+  <data name="SmartPdfViewer_NoInformationErrorContentHeader" xml:space="preserve">
+    <value>Tiada data sensitif ditemui</value>
+  </data>
+  <data name="SmartPdfViewer_RedactDisclaimer" xml:space="preserve">
+    <value>Maklumat yang dikesan oleh kecerdasan buatan mungkin tidak tepat. Sila sahkan keputusan sebelum digunakan.</value>
   </data>
   <data name="DocumentEditor_Table" xml:space="preserve">
     <value>Jadual</value>
@@ -5454,6 +5619,9 @@
   <data name="DocumentEditor_UnderlineErrors" xml:space="preserve">
     <value>Garis bawah kesalahan</value>
   </data>
+  <data name="DocumentEditor_MoreSuggestions" xml:space="preserve">
+    <value>Lebih Banyak Cadangan</value>
+  </data>
   <data name="DocumentEditor_Ignore" xml:space="preserve">
     <value>Abai</value>
   </data>
@@ -6292,9 +6460,9 @@
     <value>Susunatur web</value>
   </data>
   <data name="DocumentEditorContainer_ToggleBetweenTheInternalClipboardAndSystemClipboard" xml:space="preserve">
-    <value>Togol antara clipboard dalaman dan papan klip sistem. 
- Akses ke clipboard sistem melalui skrip ditolak kerana dasar keselamatan penyemak imbas. Sebaliknya, 
- 1. Anda boleh mendayakan papan klip dalaman untuk memotong, menyalin dan tampal dalam komponen. 
+    <value>Togol antara clipboard dalaman dan papan klip sistem.
+ Akses ke clipboard sistem melalui skrip ditolak kerana dasar keselamatan penyemak imbas. Sebaliknya,
+ 1. Anda boleh mendayakan papan klip dalaman untuk memotong, menyalin dan tampal dalam komponen.
  2. Anda boleh menggunakan pintasan papan kekunci (Ctrl + X, Ctrl + C dan Ctrl + V) untuk memotong , salin dan tampal dengan papan klip sistem.</value>
   </data>
   <data name="DocumentEditorContainer_TextForm" xml:space="preserve">
@@ -6534,7 +6702,7 @@
   <data name="DocumentEditor_FirstPageFooter" xml:space="preserve">
   <value>Pengaki Halaman Pertama</value>
   </data>
-  <data name="DocumentEditorContainer_AlternateText" xml:space="preserve"> 
+  <data name="DocumentEditorContainer_AlternateText" xml:space="preserve">
     <value>Teks Alternatif</value>
   </data>
   <data name="DocumentEditor_And" xml:space="preserve">
@@ -8262,13 +8430,13 @@
   <data name="Spreadsheet_LastMonth" xml:space="preserve">
     <value>Bulan lepas</value>
   </data>
-  <data name="Spreadsheet_NextQuater" xml:space="preserve">
+  <data name="Spreadsheet_NextQuarter" xml:space="preserve">
     <value>Suku berikutnya</value>
   </data>
-  <data name="Spreadsheet_ThisQuater" xml:space="preserve">
+  <data name="Spreadsheet_ThisQuarter" xml:space="preserve">
     <value>Suku ini</value>
   </data>
-  <data name="Spreadsheet_LastQuater" xml:space="preserve">
+  <data name="Spreadsheet_LastQuarter" xml:space="preserve">
     <value>Suku lepas</value>
   </data>
   <data name="Spreadsheet_NextYear" xml:space="preserve">
@@ -8370,10 +8538,541 @@
   <data name="Spreadsheet_FontSize" xml:space="preserve">
     <value>Saiz Fon</value>
   </data>
+  <data name="Spreadsheet_DataLimitExceed" xml:space="preserve">
+    <value>Data fail terlalu besar dan mengambil lebih banyak masa untuk diproses, adakah anda mahu meneruskan?</value>
+  </data>
+  <data name="Spreadsheet_FileLimitExceed" xml:space="preserve">
+    <value>Saiz fail terlalu besar dan mengambil lebih banyak masa untuk diproses, adakah anda mahu meneruskan?</value>
+  </data>
+  <data name="Spreadsheet_PasswordPrompt" xml:space="preserve">
+    <value>dilindungi</value>
+  </data>
+  <data name="Spreadsheet_UnsupportedFile" xml:space="preserve">
+    <value>Fail tidak disokong</value>
+  </data>
+  <data name="Spreadsheet_View" xml:space="preserve">
+    <value>Paparan</value>
+  </data>
+  <data name="Spreadsheet_Borders" xml:space="preserve">
+    <value>Sempadan</value>
+  </data>
+  <data name="Spreadsheet_RightBorder" xml:space="preserve">
+    <value>Sempadan Kanan</value>
+  </data>
+  <data name="Spreadsheet_BottomBorder" xml:space="preserve">
+    <value>Sempadan Bawah</value>
+  </data>
+  <data name="Spreadsheet_TopBorder" xml:space="preserve">
+    <value>Sempadan Atas</value>
+  </data>
+  <data name="Spreadsheet_LeftBorder" xml:space="preserve">
+    <value>Sempadan Kiri</value>
+  </data>
+  <data name="Spreadsheet_NoBorder" xml:space="preserve">
+    <value>Tanpa Sempadan</value>
+  </data>
+  <data name="Spreadsheet_AllBorders" xml:space="preserve">
+    <value>Semua Sempadan</value>
+  </data>
+  <data name="Spreadsheet_OutsideBorders" xml:space="preserve">
+    <value>Sempadan Luar</value>
+  </data>
+  <data name="Spreadsheet_InsideBorders" xml:space="preserve">
+    <value>Sempadan Dalam</value>
+  </data>
+  <data name="Spreadsheet_HorizontalBorders" xml:space="preserve">
+    <value>Sempadan Mendatar</value>
+  </data>
+  <data name="Spreadsheet_VerticalBorders" xml:space="preserve">
+    <value>Sempadan Menegak</value>
+  </data>
+  <data name="Spreadsheet_BorderColor" xml:space="preserve">
+    <value>Warna Sempadan</value>
+  </data>
+  <data name="Spreadsheet_BorderStyle" xml:space="preserve">
+    <value>Gaya Sempadan</value>
+  </data>
+  <data name="Spreadsheet_Thin" xml:space="preserve">
+    <value>Tipis</value>
+  </data>
+  <data name="Spreadsheet_Medium" xml:space="preserve">
+    <value>Sederhana</value>
+  </data>
+  <data name="Spreadsheet_Thick" xml:space="preserve">
+    <value>Tebal</value>
+  </data>
+  <data name="Spreadsheet_Dotted" xml:space="preserve">
+    <value>Bertitik</value>
+  </data>
+  <data name="Spreadsheet_Dashed" xml:space="preserve">
+    <value>Putus-putus</value>
+  </data>
+  <data name="Spreadsheet_Double" xml:space="preserve">
+    <value>Ganda</value>
+  </data>
+  <data name="Spreadsheet_ShowGridlines" xml:space="preserve">
+    <value>Tunjukkan Garis Grid</value>
+  </data>
+  <data name="Spreadsheet_HideGridlines" xml:space="preserve">
+    <value>Sembunyikan Garis Grid</value>
+  </data>
+  <data name="Spreadsheet_WebPage" xml:space="preserve">
+    <value>Halaman Web</value>
+  </data>
+  <data name="Spreadsheet_ThisDocument" xml:space="preserve">
+    <value>Dokumen Ini</value>
+  </data>
+  <data name="Spreadsheet_DisplayText" xml:space="preserve">
+    <value>Teks Paparan</value>
+  </data>
+  <data name="Spreadsheet_Url" xml:space="preserve">
+    <value>URL</value>
+  </data>
+  <data name="Spreadsheet_Sheet" xml:space="preserve">
+    <value>Helaian</value>
+  </data>
+  <data name="Spreadsheet_ReferenceCell" xml:space="preserve">
+    <value>Rujukan Sel</value>
+  </data>
+  <data name="Spreadsheet_DownloadPDF" xml:space="preserve">
+    <value>Muat turun sebagai PDF</value>
+  </data>
+  <data name="Spreadsheet_DataOperations" xml:space="preserve">
+    <value>Operasi Data</value>
+  </data>
+  <data name="Spreadsheet_General" xml:space="preserve">
+    <value>Umum</value>
+  </data>
+  <data name="Spreadsheet_Number" xml:space="preserve">
+    <value>Nombor</value>
+  </data>
+  <data name="Spreadsheet_Currency" xml:space="preserve">
+    <value>Mata Wang</value>
+  </data>
+  <data name="Spreadsheet_Accounting" xml:space="preserve">
+    <value>Perakaunan</value>
+  </data>
+  <data name="Spreadsheet_ShortDate" xml:space="preserve">
+    <value>Tarikh Pendek</value>
+  </data>
+  <data name="Spreadsheet_LongDate" xml:space="preserve">
+    <value>Tarikh Panjang</value>
+  </data>
+  <data name="Spreadsheet_Time" xml:space="preserve">
+    <value>Masa</value>
+  </data>
+  <data name="Spreadsheet_Percentage" xml:space="preserve">
+    <value>Peratusan</value>
+  </data>
+  <data name="Spreadsheet_Fraction" xml:space="preserve">
+    <value>Pecahan</value>
+  </data>
+  <data name="Spreadsheet_Scientific" xml:space="preserve">
+    <value>Saintifik</value>
+  </data>
+  <data name="Spreadsheet_Custom" xml:space="preserve">
+    <value>Tersuai</value>
+  </data>
+  <data name="Spreadsheet_NumberFormat" xml:space="preserve">
+    <value>Format Nombor</value>
+  </data>
+  <data name="Spreadsheet_Algerian" xml:space="preserve">
+    <value>Algeria</value>
+  </data>
+  <data name="Spreadsheet_Arial" xml:space="preserve">
+    <value>Arial</value>
+  </data>
+  <data name="Spreadsheet_Calibri" xml:space="preserve">
+    <value>Calibri</value>
+  </data>
+  <data name="Spreadsheet_Cambria" xml:space="preserve">
+    <value>Cambria</value>
+  </data>
+  <data name="Spreadsheet_CambriaMath" xml:space="preserve">
+    <value>Cambria Math</value>
+  </data>
+  <data name="Spreadsheet_CourierNew" xml:space="preserve">
+    <value>Courier New</value>
+  </data>
+  <data name="Spreadsheet_Candara" xml:space="preserve">
+    <value>Candara</value>
+  </data>
+  <data name="Spreadsheet_Georgia" xml:space="preserve">
+    <value>Georgia</value>
+  </data>
+  <data name="Spreadsheet_Impact" xml:space="preserve">
+    <value>Impact</value>
+  </data>
+  <data name="Spreadsheet_SegoePrint" xml:space="preserve">
+    <value>Segoe Print</value>
+  </data>
+  <data name="Spreadsheet_SegoeScript" xml:space="preserve">
+    <value>Segoe Script</value>
+  </data>
+  <data name="Spreadsheet_SegoeUI" xml:space="preserve">
+    <value>Segoe UI</value>
+  </data>
+  <data name="Spreadsheet_Symbol" xml:space="preserve">
+    <value>Simbol</value>
+  </data>
+  <data name="Spreadsheet_TimesNewRoman" xml:space="preserve">
+    <value>Times New Roman</value>
+  </data>
+  <data name="Spreadsheet_Verdana" xml:space="preserve">
+    <value>Verdana</value>
+  </data>
+  <data name="Spreadsheet_Windings" xml:space="preserve">
+    <value>Windings</value>
+  </data>
+  <data name="Spreadsheet_KeepSourceFormat" xml:space="preserve">
+    <value>Kekalkan Format Sumber</value>
+  </data>
+  <data name="Spreadsheet_MergeFormat" xml:space="preserve">
+    <value>Gabungkan Format</value>
+  </data>
+  <data name="Spreadsheet_KeepTextOnly" xml:space="preserve">
+    <value>Kekalkan Teks Sahaja</value>
+  </data>
+  <data name="Spreadsheet_Ascending" xml:space="preserve">
+    <value>Menaik</value>
+  </data>
+  <data name="Spreadsheet_Descending" xml:space="preserve">
+    <value>Menurun</value>
+  </data>
+  <data name="Spreadsheet_CustomSort" xml:space="preserve">
+    <value>Isih Tersuai</value>
+  </data>
+  <data name="Spreadsheet_SaveAs" xml:space="preserve">
+    <value>Simpan Sebagai</value>
+  </data>
+  <data name="Spreadsheet_Print" xml:space="preserve">
+    <value>Cetak</value>
+  </data>
+  <data name="Spreadsheet_Text" xml:space="preserve">
+    <value>Teks</value>
+  </data>
+  <data name="Spreadsheet_Value" xml:space="preserve">
+    <value>Nilai</value>
+  </data>
+  <data name="Spreadsheet_InsertFunction" xml:space="preserve">
+    <value>Masukkan Fungsi</value>
+  </data>
+  <data name="Spreadsheet_Insert" xml:space="preserve">
+    <value>Masukkan</value>
+  </data>
+  <data name="Spreadsheet_MicrosoftExcel" xml:space="preserve">
+    <value>Microsoft Excel</value>
+  </data>
+  <data name="Spreadsheet_MicrosoftExcel972003" xml:space="preserve">
+    <value>Microsoft Excel 97-2003</value>
+  </data>
+  <data name="Spreadsheet_MultiRange" xml:space="preserve">
+    <value>Tindakan ini tidak boleh dilakukan pada pemilihan berbilang julat</value>
+  </data>
+  <data name="Spreadsheet_NameBox" xml:space="preserve">
+    <value>Kotak Nama</value>
+  </data>
+  <data name="Spreadsheet_OpenHyperlink" xml:space="preserve">
+    <value>Buka Hiperpautan</value>
+  </data>
+  <data name="Spreadsheet_RemoveHyperlink" xml:space="preserve">
+    <value>Alih Keluar Hiperpautan</value>
+  </data>
+  <data name="Spreadsheet_Save" xml:space="preserve">
+    <value>Simpan</value>
+  </data>
+  <data name="Spreadsheet_Spreadsheet" xml:space="preserve">
+    <value>Hamparan</value>
+  </data>
+  <data name="Spreadsheet_InsertLink" xml:space="preserve">
+    <value>Insert Link</value>
+  </data>
+  <data name="Spreadsheet_Font" xml:space="preserve">
+    <value>Fon</value>
+  </data>
+  <data name="Spreadsheet_Hide" xml:space="preserve">
+    <value>Sembunyi</value>
+  </data>
+  <data name="Spreadsheet_OkButton" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="Spreadsheet_ShowRowsWhere" xml:space="preserve">
+    <value>Tunjukkan Baris Di Mana</value>
+  </data>
+  <data name="Spreadsheet_InsertRowBelow" xml:space="preserve">
+    <value>Sisipkan Baris Di Bawah</value>
+  </data>
+  <data name="Spreadsheet_SingleRange" xml:space="preserve">
+    <value>Pilih satu julat dan cuba lagi</value>
+  </data>
+  <data name="Spreadsheet_RenameSheet" xml:space="preserve">
+    <value>Namakan Semula Helaian</value>
+  </data>
+  <data name="Spreadsheet_RenameSheetTo" xml:space="preserve">
+    <value>Namakan semula helaian kepada</value>
+  </data>
+  <data name="Spreadsheet_AlignLeft" xml:space="preserve">
+    <value>Jajarkan Kiri</value>
+  </data>
+  <data name="Spreadsheet_AlignCenter" xml:space="preserve">
+    <value>Jajarkan Tengah</value>
+  </data>
+  <data name="Spreadsheet_AlignRight" xml:space="preserve">
+    <value>Jajarkan Kanan</value>
+  </data>
+  <data name="Spreadsheet_Justify" xml:space="preserve">
+    <value>Justifikasi</value>
+  </data>
+  <data name="Spreadsheet_AlignTop" xml:space="preserve">
+    <value>Jajarkan Atas</value>
+  </data>
+  <data name="Spreadsheet_CollapseFormulaBar" xml:space="preserve">
+    <value>Runtuhkan Bar Formula</value>
+  </data>
+    <data name="Spreadsheet_WorkBook" xml:space="preserve">
+      <value>Buku Kerja</value>
+    </data>
+  <data name="Spreadsheet_DeleteSheet" xml:space="preserve">
+    <value>Padam Helaian</value>
+  </data>
+  <data name="Spreadsheet_ExpandFormulaBar" xml:space="preserve">
+    <value>Expand Formula Bar</value>
+  </data>
+    <data name="Spreadsheet_FileName" xml:space="preserve">
+      <value>Nama Fail</value>
+    </data>
+    <data name="Spreadsheet_FormulaBar" xml:space="preserve">
+      <value>Formula Bar</value>
+    </data>
+    <data name="Spreadsheet_Hyperlink" xml:space="preserve">
+      <value>Hiperpautan</value>
+    </data>
+  <data name="Spreadsheet_Clipboard" xml:space="preserve">
+    <value>Papan keratan</value>
+  </data>
+    <data name="Spreadsheet_EditLink" xml:space="preserve">
+      <value>EditLink</value>
+    </data>
+    <data name="Spreadsheet_EditHyperlink" xml:space="preserve">
+      <value>EditHyperlink</value>
+    </data>
+  <data name="Spreadsheet_AlignMiddle" xml:space="preserve">
+    <value>Jajarkan Tengah</value>
+  </data>
+  <data name="Spreadsheet_EnterName" xml:space="preserve">
+    <value>MasukkanNama</value>
+  </data>
+    <data name="Spreadsheet_ExcelExport" xml:space="preserve">
+      <value>Excel Export</value>
+    </data>
+  <data name="Spreadsheet_AlignBottom" xml:space="preserve">
+    <value>Jajarkan Bawah</value>
+  </data>
+  <data name="Spreadsheet_ChooseTime" xml:space="preserve">
+    <value>Pilih Masa</value>
+  </data>
+  <data name="Spreadsheet_ChangeCase" xml:space="preserve">
+    <value>Tukar Kes</value>
+  </data>
+  <data name="Spreadsheet_InvalidFileNameMessage" xml:space="preserve">
+    <value>Gunakan nama yang tidak termasuk aksara ini: \ / : * ? " |</value>
+  </data>
+  <data name="Spreadsheet_EmptyFileName" xml:space="preserve">
+   <value>Nama fail tidak boleh kosong.</value>
+  </data>
+  <data name="Spreadsheet_CircularReference" xml:space="preserve">
+    <value>Kami mendapati anda menaip formula dengan rujukan bulat.</value>
+  </data>
+  <data name="Spreadsheet_FillSeries" xml:space="preserve">
+    <value>Isi Siri</value>
+  </data>
+  <data name="Spreadsheet_FillFormattingOnly" xml:space="preserve">
+    <value>Isi Format Sahaja</value>
+  </data>
+  <data name="Spreadsheet_FillWithoutFormatting" xml:space="preserve">
+    <value>Isi Tanpa Pemformatan</value>
+  </data>
+  <data name="Spreadsheet_CopyCells" xml:space="preserve">
+    <value>Salin Sel</value>
+  </data>
+  <data name="Spreadsheet_MergeCell" xml:space="preserve">
+    <value>Gabung Sel</value>
+  </data>
+  <data name="Spreadsheet_MergeCellDialog" xml:space="preserve">
+    <value>Menggabung sel hanya menyimpan nilai kiri atas dan membuang nilai lain.</value>
+  </data>
+  <data name="Spreadsheet_MergeCellSize" xml:space="preserve">
+    <value>Untuk melakukan ini, semua sel yang digabung mesti mempunyai saiz yang sama.</value>
+  </data>
+  <data name="Spreadsheet_MergeCenter" xml:space="preserve">
+    <value>Gabung &amp; Tengah</value>
+  </data>
+  <data name="Spreadsheet_MergeAcross" xml:space="preserve">
+    <value>Gabung Di Merentas</value>
+  </data>
+  <data name="Spreadsheet_MergeCells" xml:space="preserve">
+    <value>Gabung Sel</value>
+  </data>
+  <data name="Spreadsheet_UnMergeCells" xml:space="preserve">
+    <value>Pisahkan Sel</value>
+  </data>
   <data name="RichTextEditor_FormatPainter" xml:space="preserve">
     <value>Pemudah Format</value>
   </data>
+  <data name="RichTextEditor_LineHeight" xml:space="preserve">
+    <value>Tinggi Garis</value>
+  </data>
   <data name="DataForm_SubmitContent" xml:space="preserve">
     <value>Hantar</value>
+  </data>
+  <data name="AssistView_FileSize_Failure" xml:space="preserve">
+    <value>Muat naik gagal: Saiz fail terlalu besar</value>
+  </data>
+  <data name="ChatUI_Forwarded_Message" xml:space="preserve">
+    <value>Dimajukan</value>
+  </data>
+  <data name="ChatUI_MentionNoRecord" xml:space="preserve">
+    <value>Tiada rekod ditemui</value>
+  </data>
+  <data name="ChatUI_Send" xml:space="preserve">
+    <value>Hantar</value>
+  </data>
+  <data name="ChatUI_Attachments" xml:space="preserve">
+    <value>Lampirkan Fail</value>
+  </data>
+  <data name="ChatUI_Download" xml:space="preserve">
+    <value>Muat turun</value>
+  </data>
+  <data name="ChatUI_Close" xml:space="preserve">
+    <value>Tutup</value>
+  </data>
+  <data name="ChatUI_FileUploadFailure" xml:space="preserve">
+    <value>Had muat naik dicapai: Maksimum {0} fail dibenarkan. Alih keluar fail tambahan untuk meneruskan muat naik</value>
+  </data>
+  <data name="ChatUI_FilePreview" xml:space="preserve">
+    <value>Pratonton tidak tersedia</value>
+  </data>
+  <data name="ChatUI_FileSizeFailure" xml:space="preserve">
+    <value>Muat naik gagal: saiz {0} fail terlalu besar</value>
+  </data>
+  <data name="AIAssistView_FileCountFailure" xml:space="preserve">
+    <value>Had muat naik dicapai: Maksimum {0} fail dibenarkan. Alih keluar fail tambahan untuk meneruskan muat naik</value>
+  </data>
+  <data name="AssistView_Send" xml:space="preserve">
+    <value>Hantar</value>
+  </data>
+  <data name="AssistView_Attachments" xml:space="preserve">
+    <value>Lampirkan Fail</value>
+  </data>
+  <data name="AssistView_Clear" xml:space="preserve">
+    <value>Kosongkan</value>
+  </data>
+  <data name="BlockEditor_Paragraph" xml:space="preserve">
+      <value>Tulis sesuatu atau '/' untuk arahan.</value>
+  </data>
+  <data name="BlockEditor_Heading1" xml:space="preserve">
+      <value>Tajuk 1</value>
+  </data>
+  <data name="BlockEditor_Heading2" xml:space="preserve">
+      <value>Tajuk 2</value>
+  </data>
+  <data name="BlockEditor_Heading3" xml:space="preserve">
+      <value>Tajuk 3</value>
+  </data>
+  <data name="BlockEditor_Heading4" xml:space="preserve">
+      <value>Tajuk 4</value>
+  </data>
+  <data name="BlockEditor_CollapsibleParagraph" xml:space="preserve">
+      <value>Perenggan boleh dilipat</value>
+  </data>
+  <data name="BlockEditor_CollapsibleHeading1" xml:space="preserve">
+      <value>Tajuk boleh dilipat 1</value>
+  </data>
+  <data name="BlockEditor_CollapsibleHeading2" xml:space="preserve">
+      <value>Tajuk boleh dilipat 2</value>
+  </data>
+  <data name="BlockEditor_CollapsibleHeading3" xml:space="preserve">
+      <value>Tajuk boleh dilipat 3</value>
+  </data>
+  <data name="BlockEditor_CollapsibleHeading4" xml:space="preserve">
+      <value>Tajuk boleh dilipat 4</value>
+  </data>
+  <data name="BlockEditor_BulletList" xml:space="preserve">
+      <value>Tambah item</value>
+  </data>
+  <data name="BlockEditor_NumberedList" xml:space="preserve">
+      <value>Tambah item</value>
+  </data>
+  <data name="BlockEditor_Checklist" xml:space="preserve">
+      <value>Tugasan</value>
+  </data>
+  <data name="BlockEditor_Quote" xml:space="preserve">
+      <value>Tulis petikan</value>
+  </data>
+  <data name="BlockEditor_Callout" xml:space="preserve">
+      <value>Tulis nota</value>
+  </data>
+  <data name="BlockEditor_AddIconTooltip" xml:space="preserve">
+      <value>Klik untuk menyisipkan di bawah</value>
+  </data>
+  <data name="BlockEditor_DragIconTooltipActionMenu" xml:space="preserve">
+      <value>Klik untuk membuka</value>
+  </data>
+  <data name="BlockEditor_DragIconTooltip" xml:space="preserve">
+      <value>(Tahan untuk seret)</value>
+  </data>
+  <data name="BlockEditor_InsertLink" xml:space="preserve">
+      <value>Sisipkan pautan</value>
+  </data>
+  <data name="BlockEditor_LinkText" xml:space="preserve">
+      <value>Teks</value>
+  </data>
+  <data name="BlockEditor_LinkTextPlaceholder" xml:space="preserve">
+      <value>Teks pautan</value>
+  </data>
+  <data name="BlockEditor_LinkUrl" xml:space="preserve">
+      <value>URL</value>
+  </data>
+  <data name="BlockEditor_LinkUrlPlaceholder" xml:space="preserve">
+      <value>https://contoh.com</value>
+  </data>
+  <data name="BlockEditor_LinkTitle" xml:space="preserve">
+      <value>Tajuk</value>
+  </data>
+  <data name="BlockEditor_LinkTitlePlaceholder" xml:space="preserve">
+      <value>Tajuk pautan</value>
+  </data>
+  <data name="BlockEditor_LinkOpenInNewWindow" xml:space="preserve">
+      <value>Buka di tetingkap baru</value>
+  </data>
+  <data name="BlockEditor_LinkInsert" xml:space="preserve">
+      <value>Sisipkan</value>
+  </data>
+  <data name="BlockEditor_LinkRemove" xml:space="preserve">
+      <value>Buang</value>
+  </data>
+  <data name="BlockEditor_LinkCancel" xml:space="preserve">
+      <value>Batal</value>
+  </data>
+  <data name="BlockEditor_CodeCopyTooltip" xml:space="preserve">
+      <value>Salin kod</value>
+  </data>
+  <data name="DocumentEditorContainer_CommentsCloseHeader" xml:space="preserve">
+    <value>Komen yang tidak disimpan</value>
+  </data>
+  <data name="DocumentEditorContainer_CommentsCloseContent" xml:space="preserve">
+    <value>Anda mempunyai komen yang belum disiarkan. Sekiranya anda meninggalkan halaman ini, mereka akan dibuang</value>
+  </data>
+  <data name="DocumentEditorContainer_KeepEditing" xml:space="preserve">
+    <value>Teruskan penyuntingan</value>
+  </data>
+  <data name="DocumentEditorContainer_DiscardComments" xml:space="preserve">
+    <value>Buang komen</value>
+  </data>
+  <data name="DocumentEditor_Resolved" xml:space="preserve">
+    <value>Diselesaikan</value>
+  </data>
+  <data name="DocumentEditor_CommentMark" xml:space="preserve">
+    <value>Klik untuk melihat komen ini</value>
   </data>
 </root>

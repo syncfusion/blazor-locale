@@ -933,11 +933,23 @@
   <data name="Gantt_SplitTask" xml:space="preserve">
     <value>작업 분할</value>
   </data>
+   <data name="Gantt_WbsCode" xml:space="preserve">
+    <value>작업 분류 구조 코드</value>
+  </data>
+   <data name="Gantt_WbsPredecessor" xml:space="preserve">
+    <value>작업 분할 구조 전임자</value>
+  </data>
   <data name="Gantt_MergeTask" xml:space="preserve">
     <value>작업 병합</value>
   </data>
   <data name="Gantt_UnassignedTasks" xml:space="preserve">
     <value>할당되지 않은 작업</value>
+  </data>
+  <data name="Gantt_Undo" xml:space="preserve">
+    <value>실행 취소</value>
+  </data>
+  <data name="Gantt_Redo" xml:space="preserve">
+    <value>다시 실행</value>
   </data>
   <data name="ColorPicker_Apply" xml:space="preserve">
     <value>대다</value>
@@ -2368,25 +2380,25 @@
     <value>제목   9</value>
   </data>
   <data name="RichTextEditor_FontNameSegoeUI" xml:space="preserve">
-    <value>Segoe UI</value>
+    <value>세고 UI</value>
   </data>
   <data name="RichTextEditor_FontNameArial" xml:space="preserve">
-    <value>Arial</value>
+    <value>아리얼</value>
   </data>
   <data name="RichTextEditor_FontNameGeorgia" xml:space="preserve">
-    <value>Georgia</value>
+    <value>조지아</value>
   </data>
   <data name="RichTextEditor_FontNameImpact" xml:space="preserve">
-    <value>Impact</value>
+    <value>영향</value>
   </data>
   <data name="RichTextEditor_FontNameTahoma" xml:space="preserve">
-    <value>Tahoma</value>
+    <value>타호마</value>
   </data>
   <data name="RichTextEditor_FontNameTimesNewRoman" xml:space="preserve">
-    <value>Times New Roman</value>
+    <value>타임스 뉴 로마논</value>
   </data>
   <data name="RichTextEditor_FontNameVerdana" xml:space="preserve">
-    <value>Verdana</value>
+    <value>버다나</value>
   </data>
   <data name="RichTextEditor_Alignments" xml:space="preserve">
     <value>정렬</value>
@@ -2655,6 +2667,18 @@
   <data name="RichTextEditor_TableRemove" xml:space="preserve">
     <value>테이블 삭제</value>
   </data>
+  <data name="RichTextEditor_TableCell" xml:space="preserve">
+    <value>테이블 셀</value>
+  </data>
+  <data name="RichTextEditor_TableCellMerge" xml:space="preserve">
+    <value>셀 병합</value>
+  </data>
+  <data name="RichTextEditor_TableCellHorizontalSplit" xml:space="preserve">
+    <value>수평 분할</value>
+  </data>
+  <data name="RichTextEditor_TableCellVerticalSplit" xml:space="preserve">
+    <value>수직 분할</value>
+  </data>
   <data name="RichTextEditor_TableCellBackground" xml:space="preserve">
     <value>테이블 셀 배경</value>
   </data>
@@ -2801,6 +2825,48 @@
   </data>
   <data name="RichTextEditor_Img_AltText_Unsupported" xml:space="preserve">
     <value>지원되지 않는 파일 형식</value>
+  </data>
+  <data name="RichTextEditor_ImportDeviceUploadMessage" xml:space="preserve">
+    <value>여기를 클릭하여 업로드</value>
+  </data>
+  <data name="RichTextEditor_ImportUploadMessage" xml:space="preserve">
+    <value>Word 문서를 드롭하거나 찾아보세요</value>
+  </data>
+  <data name="RichTextEditor_ImportHeader" xml:space="preserve">
+    <value>단어 가져오기</value>
+  </data>
+  <data name="RichTextEditor_DialogImport" xml:space="preserve">
+    <value>삽입하다</value>
+  </data>
+  <data name="RichTextEditor_VideoHeader" xml:space="preserve">
+    <value>비디오 삽입</value>
+  </data>
+  <data name="RichTextEditor_EditVideoHeader" xml:space="preserve">
+    <value>비디오 편집하기</value>
+  </data>
+  <data name="RichTextEditor_AudioHeader" xml:space="preserve">
+    <value>오디오 삽입</value>
+  </data>
+  <data name="RichTextEditor_EditAudioHeader" xml:space="preserve">
+    <value>오디오 편집</value>
+  </data>
+  <data name="RichTextEditor_Import_From_Word" xml:space="preserve">
+    <value>워드에서 가져오기</value>
+  </data>
+  <data name="RichTextEditor_Export_To_Word" xml:space="preserve">
+    <value>워드로 내보내기</value>
+  </data>
+  <data name="RichTextEditor_Export_To_PDF" xml:space="preserve">
+    <value>PDF로 내보내기</value>
+  </data>
+  <data name="RichTextEditor_Audio" xml:space="preserve">
+    <value>오디오 삽입</value>
+  </data>
+  <data name="RichTextEditor_Video" xml:space="preserve">
+    <value>비디오 삽입</value>
+  </data>
+  <data name="RichTextEditor_Default" xml:space="preserve">
+    <value>기본</value>
   </data>
   <data name="DiagramComponent_X" xml:space="preserve">
     <value>x</value>
@@ -4551,6 +4617,57 @@
   <data name="PdfViewer_Of" xml:space="preserve">
     <value>의</value>
   </data>
+  <data name="PdfViewer_OrganizePages" xml:space="preserve">
+    <value>페이지 정리</value>
+  </data>
+  <data name="PdfViewer_Pages" xml:space="preserve">
+    <value>페이지</value>
+  </data>
+  <data name="PdfViewer_RotateLeft" xml:space="preserve">
+    <value>왼쪽으로 회전</value>
+  </data>
+  <data name="PdfViewer_RotateRight" xml:space="preserve">
+    <value>오른쪽으로 회전</value>
+  </data>
+  <data name="PdfViewer_DuplicatePages" xml:space="preserve">
+    <value>페이지 복제</value>
+  </data>
+  <data name="PdfViewer_DeletePages" xml:space="preserve">
+    <value>페이지 삭제</value>
+  </data>
+  <data name="PdfViewer_PageZoom" xml:space="preserve">
+    <value>페이지 확대</value>
+  </data>
+  <data name="PdfViewer_SelectAll" xml:space="preserve">
+    <value>전체 선택</value>
+  </data>
+  <data name="PdfViewer_ImportDocument" xml:space="preserve">
+    <value>문서 가져오기</value>
+  </data>
+  <data name="PdfViewer_ExtractDocument" xml:space="preserve">
+    <value>문서 추출</value>
+  </data>
+  <data name="PdfViewer_Total" xml:space="preserve">
+    <value>총합</value>
+  </data>
+  <data name="PdfViewer_SaveAs" xml:space="preserve">
+    <value>다른 이름으로 저장</value>
+  </data>
+  <data name="PdfViewer_InsertLeft" xml:space="preserve">
+    <value>왼쪽에 삽입</value>
+  </data>
+  <data name="PdfViewer_InsertRight" xml:space="preserve">
+    <value>오른쪽에 삽입</value>
+  </data>
+  <data name="PdfViewer_DuplicatePage" xml:space="preserve">
+    <value>페이지 복제</value>
+  </data>
+  <data name="PdfViewer_DeletePage" xml:space="preserve">
+    <value>페이지 삭제</value>
+  </data>
+  <data name="PdfViewer_AllPagesDelete" xml:space="preserve">
+    <value>문서에는 최소한 한 페이지가 있어야 하므로 모든 페이지를 삭제할 수 없습니다.</value>
+  </data>
   <data name="PdfViewer_Required_ServiceUrl_Error_Message" xml:space="preserve">
     <value>이 PDF 뷰어는 웹 서비스를 통해 PDF 파일을 렌더링하기 위해 서버 측 처리가 필요합니다. PDF 뷰어를 계속 진행하려면 서비스 URL을 구성해야 합니다</value>
   </data>
@@ -4579,10 +4696,58 @@
     <value>AI 서비스 오류</value>
   </data>
   <data name="PdfViewer_CredentialErrorContent" xml:space="preserve">
-    <value>자격 증명이 제공되지 않았거나, 잘못되었거나, 유효하지 않습니다. 올바른 자격 증명을 확인하고 다시 시도하세요.</value>
+    <value>자격 증명이 제공되지 않았거나, 올바르지 않거나, 유효하지 않습니다. 올바른 자격 증명을 입력한 후 다시 시도해 주세요.</value>
   </data>
   <data name="PdfViewer_ConnectionLostErrorContent" xml:space="preserve">
     <value>AI 서비스와의 연결이 끊어졌습니다. 네트워크 연결을 확인하고 다시 시도하세요.</value>
+  </data>
+  <data name="PdfViewer_UnSupportedDialogContent" xml:space="preserve">
+    <value>이 파일은 생성형 AI 기능을 지원하지 않습니다. 파일이 비어 있거나 텍스트가 충분하지 않을 수 있습니다. 다른 파일을 시도해 주세요.</value>
+  </data>
+  <data name="SmartPdfViewer_TimeOutErrorHeader" xml:space="preserve">
+    <value>요청 시간 초과</value>
+  </data>
+  <data name="SmartPdfViewer_TimeOutErrorContent" xml:space="preserve">
+    <value>검색 요청이 예상보다 오래 걸려 허용된 최대 시간을 초과했습니다.</value>
+  </data>
+  <data name="SmartPdfViewer_DisClaimerContent" xml:space="preserve">
+    <value>AI가 생성한 응답은 부정확하거나 오해를 일으킬 수 있습니다. 응답과 출처를 반드시 다시 확인하세요.</value>
+  </data>
+  <data name="SmartPdfViewer_RedactionToolTip" xml:space="preserve">
+    <value>스마트 검열</value>
+  </data>
+  <data name="SmartPdfViewer_RedactHeader" xml:space="preserve">
+    <value>패턴을 선택하세요</value>
+  </data>
+  <data name="SmartPdfViewer_CancelRedact" xml:space="preserve">
+    <value>취소</value>
+  </data>
+  <data name="SmartPdfViewer_ApplyRedact" xml:space="preserve">
+    <value>작성하다</value>
+  </data>
+  <data name="SmartPdfViewer_ScanRedact" xml:space="preserve">
+    <value>스캔</value>
+  </data>
+  <data name="SmartPdfViewer_SmartFillToolTip" xml:space="preserve">
+    <value>스마트 양식 작성</value>
+  </data>
+  <data name="SmartPdfViewer_SmartFillText" xml:space="preserve">
+    <value>스마트 필</value>
+  </data>
+  <data name="SmartPdfViewer_AIAssistanceToolTip" xml:space="preserve">
+    <value>AI 지원</value>
+  </data>
+  <data name="SmartPdfViewer_RedactOptionsHeader" xml:space="preserve">
+    <value>숨길 데이터를 선택하세요</value>
+  </data>
+  <data name="SmartPdfViewer_NoInformationErrorContent" xml:space="preserve">
+    <value>문서에서 민감한 정보가 발견되지 않았습니다.</value>
+  </data>
+  <data name="SmartPdfViewer_NoInformationErrorContentHeader" xml:space="preserve">
+    <value>민감한 데이터가 발견되지 않았습니다</value>
+  </data>
+  <data name="SmartPdfViewer_RedactDisclaimer" xml:space="preserve">
+    <value>인공지능이 감지한 정보는 정확하지 않을 수 있습니다. 사용 전에 결과를 확인해 주시기 바랍니다.</value>
   </data>
   <data name="PdfViewer_Close" xml:space="preserve">
     <value>닫기</value>
@@ -5426,6 +5591,9 @@
   </data>
   <data name="DocumentEditor_UnderlineErrors" xml:space="preserve">
     <value>밑줄 오류</value>
+  </data>
+  <data name="DocumentEditor_MoreSuggestions" xml:space="preserve">
+    <value>더 많은 제안</value>
   </data>
   <data name="DocumentEditor_Ignore" xml:space="preserve">
     <value>무시</value>
@@ -7711,8 +7879,7 @@
     <value>부분 기간에 대한 자산 감가상각을 반환합니다</value>
   </data>
   <data name="Spreadsheet_VLOOKUP" xml:space="preserve">
-    <value>첫 번째
- 열에서 값을 검색하고 같은 행의 셀을 반환합니다</value>
+    <value>첫 번째열에서 값을 검색하고 같은 행의 셀을 반환합니다</value>
   </data>
   <data name="Spreadsheet_WEEKDAY" xml:space="preserve">
     <value>일련 번호를 요일로 변환합니다</value>
@@ -8026,13 +8193,13 @@
   <data name="Spreadsheet_LastMonth" xml:space="preserve">
     <value>지난 달</value>
   </data>
-  <data name="Spreadsheet_NextQuater" xml:space="preserve">
+  <data name="Spreadsheet_NextQuarter" xml:space="preserve">
     <value>다음 분기</value>
   </data>
-  <data name="Spreadsheet_ThisQuater" xml:space="preserve">
+  <data name="Spreadsheet_ThisQuarter" xml:space="preserve">
     <value>이번 분기</value>
   </data>
-  <data name="Spreadsheet_LastQuater" xml:space="preserve">
+  <data name="Spreadsheet_LastQuarter" xml:space="preserve">
     <value>지난 분기</value>
   </data>
   <data name="Spreadsheet_NextYear" xml:space="preserve">
@@ -8223,6 +8390,297 @@
   </data>
   <data name="Spreadsheet_FontSize" xml:space="preserve">
     <value>글꼴 크기</value>
+  </data>
+  <data name="Spreadsheet_DataLimitExceed" xml:space="preserve">
+    <value>파일 데이터가 너무 커서 처리하는 데 더 많은 시간이 걸립니다. 계속하시겠습니까?</value>
+  </data>
+  <data name="Spreadsheet_FileLimitExceed" xml:space="preserve">
+    <value>파일 크기가 너무 커서 처리하는 데 더 많은 시간이 걸립니다. 계속하시겠습니까?</value>
+  </data>
+  <data name="Spreadsheet_PasswordPrompt" xml:space="preserve">
+    <value>는 보호되어 있습니다</value>
+  </data>
+  <data name="Spreadsheet_UnsupportedFile" xml:space="preserve">
+    <value>지원되지 않는 파일</value>
+  </data>
+  <data name="Spreadsheet_View" xml:space="preserve">
+    <value>보기</value>
+  </data>
+  <data name="Spreadsheet_Borders" xml:space="preserve">
+    <value>테두리</value>
+  </data>
+  <data name="Spreadsheet_RightBorder" xml:space="preserve">
+    <value>오른쪽 테두리</value>
+  </data>
+  <data name="Spreadsheet_BottomBorder" xml:space="preserve">
+    <value>아래쪽 테두리</value>
+  </data>
+  <data name="Spreadsheet_TopBorder" xml:space="preserve">
+    <value>위쪽 테두리</value>
+  </data>
+  <data name="Spreadsheet_LeftBorder" xml:space="preserve">
+    <value>왼쪽 테두리</value>
+  </data>
+  <data name="Spreadsheet_NoBorder" xml:space="preserve">
+    <value>테두리 없음</value>
+  </data>
+  <data name="Spreadsheet_AllBorders" xml:space="preserve">
+    <value>모든 테두리</value>
+  </data>
+  <data name="Spreadsheet_OutsideBorders" xml:space="preserve">
+    <value>외부 테두리</value>
+  </data>
+  <data name="Spreadsheet_InsideBorders" xml:space="preserve">
+    <value>내부 테두리</value>
+  </data>
+  <data name="Spreadsheet_HorizontalBorders" xml:space="preserve">
+    <value>수평 테두리</value>
+  </data>
+  <data name="Spreadsheet_VerticalBorders" xml:space="preserve">
+    <value>수직 테두리</value>
+  </data>
+  <data name="Spreadsheet_BorderColor" xml:space="preserve">
+    <value>테두리 색상</value>
+  </data>
+  <data name="Spreadsheet_BorderStyle" xml:space="preserve">
+    <value>테두리 스타일</value>
+  </data>
+  <data name="Spreadsheet_Thin" xml:space="preserve">
+    <value>얇은</value>
+  </data>
+  <data name="Spreadsheet_Medium" xml:space="preserve">
+    <value>중간</value>
+  </data>
+  <data name="Spreadsheet_Thick" xml:space="preserve">
+    <value>두꺼운</value>
+  </data>
+  <data name="Spreadsheet_Dotted" xml:space="preserve">
+    <value>점선</value>
+  </data>
+  <data name="Spreadsheet_Dashed" xml:space="preserve">
+    <value>파선</value>
+  </data>
+  <data name="Spreadsheet_Double" xml:space="preserve">
+    <value>이중선</value>
+  </data>
+  <data name="Spreadsheet_ShowGridlines" xml:space="preserve">
+    <value>눈금선 표시</value>
+  </data>
+  <data name="Spreadsheet_HideGridlines" xml:space="preserve">
+    <value>눈금선 숨기기</value>
+  </data>
+  <data name="Spreadsheet_WebPage" xml:space="preserve">
+    <value>웹 페이지</value>
+  </data>
+  <data name="Spreadsheet_ThisDocument" xml:space="preserve">
+    <value>이 문서</value>
+  </data>
+  <data name="Spreadsheet_DisplayText" xml:space="preserve">
+    <value>표시 텍스트</value>
+  </data>
+  <data name="Spreadsheet_Url" xml:space="preserve">
+    <value>URL</value>
+  </data>
+  <data name="Spreadsheet_Sheet" xml:space="preserve">
+    <value>시트</value>
+  </data>
+  <data name="Spreadsheet_ReferenceCell" xml:space="preserve">
+    <value>셀 참조</value>
+  </data>
+  <data name="Spreadsheet_DownloadPDF" xml:space="preserve">
+    <value>PDF로 다운로드</value>
+  </data>
+  <data name="Spreadsheet_DataOperations" xml:space="preserve">
+    <value>데이터 작업</value>
+  </data>
+  <data name="Spreadsheet_General" xml:space="preserve">
+    <value>일반</value>
+  </data>
+  <data name="Spreadsheet_Number" xml:space="preserve">
+    <value>숫자</value>
+  </data>
+  <data name="Spreadsheet_Currency" xml:space="preserve">
+    <value>통화</value>
+  </data>
+  <data name="Spreadsheet_Accounting" xml:space="preserve">
+    <value>회계</value>
+  </data>
+  <data name="Spreadsheet_ShortDate" xml:space="preserve">
+    <value>간단한 날짜</value>
+  </data>
+  <data name="Spreadsheet_LongDate" xml:space="preserve">
+    <value>자세한 날짜</value>
+  </data>
+  <data name="Spreadsheet_Time" xml:space="preserve">
+    <value>시간</value>
+  </data>
+  <data name="Spreadsheet_Percentage" xml:space="preserve">
+    <value>백분율</value>
+  </data>
+  <data name="Spreadsheet_Fraction" xml:space="preserve">
+    <value>분수</value>
+  </data>
+  <data name="Spreadsheet_Scientific" xml:space="preserve">
+    <value>과학</value>
+  </data>
+  <data name="Spreadsheet_Custom" xml:space="preserve">
+    <value>사용자 지정</value>
+  </data>
+  <data name="Spreadsheet_NumberFormat" xml:space="preserve">
+    <value>숫자 형식</value>
+  </data>
+  <data name="Spreadsheet_Algerian" xml:space="preserve">
+    <value>알제리</value>
+  </data>
+  <data name="Spreadsheet_Arial" xml:space="preserve">
+    <value>Arial</value>
+  </data>
+  <data name="Spreadsheet_Calibri" xml:space="preserve">
+    <value>Calibri</value>
+  </data>
+  <data name="Spreadsheet_Cambria" xml:space="preserve">
+    <value>Cambria</value>
+  </data>
+  <data name="Spreadsheet_CambriaMath" xml:space="preserve">
+    <value>Cambria Math</value>
+  </data>
+  <data name="Spreadsheet_CourierNew" xml:space="preserve">
+    <value>Courier New</value>
+  </data>
+  <data name="Spreadsheet_Candara" xml:space="preserve">
+    <value>Candara</value>
+  </data>
+  <data name="Spreadsheet_Georgia" xml:space="preserve">
+    <value>Georgia</value>
+  </data>
+  <data name="Spreadsheet_Impact" xml:space="preserve">
+    <value>Impact</value>
+  </data>
+  <data name="Spreadsheet_SegoePrint" xml:space="preserve">
+    <value>Segoe Print</value>
+  </data>
+  <data name="Spreadsheet_SegoeScript" xml:space="preserve">
+    <value>Segoe Script</value>
+  </data>
+  <data name="Spreadsheet_SegoeUI" xml:space="preserve">
+    <value>Segoe UI</value>
+  </data>
+  <data name="Spreadsheet_Symbol" xml:space="preserve">
+    <value>기호</value>
+  </data>
+  <data name="Spreadsheet_TimesNewRoman" xml:space="preserve">
+    <value>Times New Roman</value>
+  </data>
+  <data name="Spreadsheet_Verdana" xml:space="preserve">
+    <value>Verdana</value>
+  </data>
+  <data name="Spreadsheet_Windings" xml:space="preserve">
+    <value>Windings</value>
+  </data>
+  <data name="Spreadsheet_KeepSourceFormat" xml:space="preserve">
+    <value>원본 형식 유지</value>
+  </data>
+  <data name="Spreadsheet_MergeFormat" xml:space="preserve">
+    <value>서식 병합</value>
+  </data>
+  <data name="Spreadsheet_KeepTextOnly" xml:space="preserve">
+    <value>텍스트만 유지</value>
+  </data>
+  <data name="Spreadsheet_Ascending" xml:space="preserve">
+    <value>오름차순</value>
+  </data>
+  <data name="Spreadsheet_Descending" xml:space="preserve">
+    <value>내림차순</value>
+  </data>
+  <data name="Spreadsheet_CustomSort" xml:space="preserve">
+    <value>사용자 지정 정렬</value>
+  </data>
+  <data name="Spreadsheet_Print" xml:space="preserve">
+    <value>인쇄</value>
+  </data>
+  <data name="Spreadsheet_Text" xml:space="preserve">
+    <value>텍스트</value>
+  </data>
+  <data name="Spreadsheet_Hide" xml:space="preserve">
+    <value>숨기기</value>
+  </data>
+  <data name="Spreadsheet_OkButton" xml:space="preserve">
+    <value>확인</value>
+  </data>
+  <data name="Spreadsheet_ShowRowsWhere" xml:space="preserve">
+    <value>행 표시 위치</value>
+  </data>
+  <data name="Spreadsheet_Font" xml:space="preserve">
+    <value>글꼴</value>
+  </data>
+  <data name="Spreadsheet_InsertRowBelow" xml:space="preserve">
+    <value>아래에 행 삽입</value>
+  </data>
+  <data name="Spreadsheet_Value" xml:space="preserve">
+    <value>값</value>
+  </data>
+  <data name="Spreadsheet_AlignLeft" xml:space="preserve">
+    <value>왼쪽 맞춤</value>
+  </data>
+  <data name="Spreadsheet_AlignCenter" xml:space="preserve">
+    <value>가운데 맞춤</value>
+  </data>
+  <data name="Spreadsheet_AlignRight" xml:space="preserve">
+    <value>오른쪽 맞춤</value>
+  </data>
+  <data name="Spreadsheet_Justify" xml:space="preserve">
+    <value>양쪽 맞춤</value>
+  </data>
+  <data name="Spreadsheet_Clipboard" xml:space="preserve">
+    <value>클립보드</value>
+  </data>
+  <data name="Spreadsheet_AlignTop" xml:space="preserve">
+    <value>위쪽 맞춤</value>
+  </data>
+  <data name="Spreadsheet_AlignMiddle" xml:space="preserve">
+    <value>가운데 맞춤</value>
+  </data>
+  <data name="Spreadsheet_AlignBottom" xml:space="preserve">
+    <value>아래쪽 맞춤</value>
+  </data>
+  <data name="Spreadsheet_ChooseTime" xml:space="preserve">
+    <value>시간 선택</value>
+  </data>
+  <data name="Spreadsheet_ChangeCase" xml:space="preserve">
+    <value>대소문자 변경</value>
+  </data>
+  <data name="Spreadsheet_FillSeries" xml:space="preserve">
+    <value>연속 채우기</value>
+  </data>
+  <data name="Spreadsheet_FillFormattingOnly" xml:space="preserve">
+    <value>서식만 채우기</value>
+  </data>
+  <data name="Spreadsheet_FillWithoutFormatting" xml:space="preserve">
+    <value>서식 없이 채우기</value>
+  </data>
+  <data name="Spreadsheet_CopyCells" xml:space="preserve">
+    <value>셀 복사</value>
+  </data>
+  <data name="Spreadsheet_MergeCell" xml:space="preserve">
+    <value>셀 병합</value>
+  </data>
+  <data name="Spreadsheet_MergeCellDialog" xml:space="preserve">
+    <value>셀 병합은 왼쪽 위의 값만 유지하고 다른 값은 버립니다.</value>
+  </data>
+  <data name="Spreadsheet_MergeCellSize" xml:space="preserve">
+    <value>이 작업을 수행하려면 병합된 모든 셀의 크기가 같아야 합니다.</value>
+  </data>
+  <data name="Spreadsheet_MergeCenter" xml:space="preserve">
+    <value>셀 병합 및 가운데 맞춤</value>
+  </data>
+  <data name="Spreadsheet_MergeAcross" xml:space="preserve">
+    <value>가로 병합</value>
+  </data>
+  <data name="Spreadsheet_MergeCells" xml:space="preserve">
+    <value>셀 병합</value>
+  </data>
+  <data name="Spreadsheet_UnMergeCells" xml:space="preserve">
+    <value>셀 분리</value>
   </data>
   <data name="RichTextEditor_InlineCode" xml:space="preserve">
     <value>인라인코드</value>
@@ -8422,10 +8880,172 @@
   <data name="Spreadsheet_ExpandRibbonTab" xml:space="preserve">
     <value>도구 모음을 확장하십시오</value>
   </data>
+  <data name="Spreadsheet_InvalidFileNameMessage" xml:space="preserve">
+    <value>다음 문자가 포함되지 않은 이름을 사용하세요: \ / : * ? " |</value>
+  </data>
+  <data name="Spreadsheet_EmptyFileName" xml:space="preserve">
+   <value>파일 이름은 비워둘 수 없습니다.</value>
+  </data>
+  <data name="Spreadsheet_CircularReference" xml:space="preserve">
+    <value>순환 참조가 포함된 수식을 입력한 것을 확인했습니다.</value>
+  </data>
   <data name="RichTextEditor_FormatPainter" xml:space="preserve">
     <value>서식 복사</value>
   </data>
+  <data name="RichTextEditor_LineHeight" xml:space="preserve">
+    <value>라인 높이</value>
+  </data>
   <data name="DataForm_SubmitContent" xml:space="preserve">
     <value>제출</value>
+  </data>
+  <data name="AssistView_FileSize_Failure" xml:space="preserve">
+    <value>업로드 실패: 파일 크기가 너무 큽니다</value>
+  </data>
+  <data name="ChatUI_Forwarded_Message" xml:space="preserve">
+    <value>전달됨</value>
+  </data>
+  <data name="ChatUI_MentionNoRecord" xml:space="preserve">
+    <value>레코드를 찾을 수 없음</value>
+  </data>
+  <data name="ChatUI_Send" xml:space="preserve">
+    <value>보내기</value>
+  </data>
+  <data name="ChatUI_Attachments" xml:space="preserve">
+    <value>파일 첨부</value>
+  </data>
+  <data name="ChatUI_Download" xml:space="preserve">
+    <value>다운로드</value>
+  </data>
+  <data name="ChatUI_Close" xml:space="preserve">
+    <value>닫기</value>
+  </data>
+  <data name="ChatUI_FileUploadFailure" xml:space="preserve">
+    <value>업로드 한도에 도달했습니다: 최대 {0}개의 파일이 허용됩니다. 업로드를 계속하려면 추가 파일을 제거하세요</value>
+  </data>
+  <data name="ChatUI_FilePreview" xml:space="preserve">
+    <value>미리 보기를 사용할 수 없음</value>
+  </data>
+  <data name="ChatUI_FileSizeFailure" xml:space="preserve">
+    <value>업로드 실패: {0}개의 파일 크기가 너무 큽니다</value>
+  </data>
+  <data name="AIAssistView_FileCountFailure" xml:space="preserve">
+    <value>업로드 한도에 도달했습니다: 최대 {0}개의 파일이 허용됩니다. 업로드를 계속하려면 추가 파일을 제거하세요</value>
+  </data>
+  <data name="AssistView_Send" xml:space="preserve">
+    <value>보내기</value>
+  </data>
+  <data name="AssistView_Attachments" xml:space="preserve">
+    <value>파일 첨부</value>
+  </data>
+  <data name="AssistView_Clear" xml:space="preserve">
+    <value>지우기</value>
+  </data>
+  <data name="BlockEditor_Paragraph" xml:space="preserve">
+      <value>무언가를 작성하거나 '/'로 명령어를 입력하세요.</value>
+  </data>
+  <data name="BlockEditor_Heading1" xml:space="preserve">
+      <value>제목 1</value>
+  </data>
+  <data name="BlockEditor_Heading2" xml:space="preserve">
+      <value>제목 2</value>
+  </data>
+  <data name="BlockEditor_Heading3" xml:space="preserve">
+      <value>제목 3</value>
+  </data>
+  <data name="BlockEditor_Heading4" xml:space="preserve">
+      <value>제목 4</value>
+  </data>
+  <data name="BlockEditor_CollapsibleParagraph" xml:space="preserve">
+      <value>접을 수 있는 단락</value>
+  </data>
+  <data name="BlockEditor_CollapsibleHeading1" xml:space="preserve">
+      <value>접을 수 있는 제목 1</value>
+  </data>
+  <data name="BlockEditor_CollapsibleHeading2" xml:space="preserve">
+      <value>접을 수 있는 제목 2</value>
+  </data>
+  <data name="BlockEditor_CollapsibleHeading3" xml:space="preserve">
+      <value>접을 수 있는 제목 3</value>
+  </data>
+  <data name="BlockEditor_CollapsibleHeading4" xml:space="preserve">
+      <value>접을 수 있는 제목 4</value>
+  </data>
+  <data name="BlockEditor_BulletList" xml:space="preserve">
+      <value>항목 추가</value>
+  </data>
+  <data name="BlockEditor_NumberedList" xml:space="preserve">
+      <value>항목 추가</value>
+  </data>
+  <data name="BlockEditor_Checklist" xml:space="preserve">
+      <value>할 일</value>
+  </data>
+  <data name="BlockEditor_Quote" xml:space="preserve">
+      <value>인용문 작성</value>
+  </data>
+  <data name="BlockEditor_Callout" xml:space="preserve">
+      <value>주석 작성</value>
+  </data>
+  <data name="BlockEditor_AddIconTooltip" xml:space="preserve">
+      <value>아래에 삽입하려면 클릭</value>
+  </data>
+  <data name="BlockEditor_DragIconTooltipActionMenu" xml:space="preserve">
+      <value>열려면 클릭</value>
+  </data>
+  <data name="BlockEditor_DragIconTooltip" xml:space="preserve">
+      <value>(드래그하려면 길게 누르기)</value>
+  </data>
+  <data name="BlockEditor_InsertLink" xml:space="preserve">
+      <value>링크 삽입</value>
+  </data>
+  <data name="BlockEditor_LinkText" xml:space="preserve">
+      <value>텍스트</value>
+  </data>
+  <data name="BlockEditor_LinkTextPlaceholder" xml:space="preserve">
+      <value>링크 텍스트</value>
+  </data>
+  <data name="BlockEditor_LinkUrl" xml:space="preserve">
+      <value>URL</value>
+  </data>
+  <data name="BlockEditor_LinkUrlPlaceholder" xml:space="preserve">
+      <value>https://example.com</value>
+  </data>
+  <data name="BlockEditor_LinkTitle" xml:space="preserve">
+      <value>제목</value>
+  </data>
+  <data name="BlockEditor_LinkTitlePlaceholder" xml:space="preserve">
+      <value>링크 제목</value>
+  </data>
+  <data name="BlockEditor_LinkOpenInNewWindow" xml:space="preserve">
+      <value>새 창에서 열기</value>
+  </data>
+  <data name="BlockEditor_LinkInsert" xml:space="preserve">
+      <value>삽입</value>
+  </data>
+  <data name="BlockEditor_LinkRemove" xml:space="preserve">
+      <value>제거</value>
+  </data>
+  <data name="BlockEditor_LinkCancel" xml:space="preserve">
+      <value>취소</value>
+  </data>
+  <data name="BlockEditor_CodeCopyTooltip" xml:space="preserve">
+      <value>코드 복사</value>
+  </data>
+  <data name="DocumentEditorContainer_CommentsCloseHeader" xml:space="preserve">
+    <value>저장되지 않은 댓글</value>
+  </data>
+  <data name="DocumentEditorContainer_CommentsCloseContent" xml:space="preserve">
+    <value>아직 게시되지 않은 댓글이 있습니다. 이 페이지를 떠나면 삭제됩니다.</value>
+  </data>
+  <data name="DocumentEditorContainer_KeepEditing" xml:space="preserve">
+    <value>계속 수정하세요</value>
+  </data>
+  <data name="DocumentEditorContainer_DiscardComments" xml:space="preserve">
+    <value>댓글 삭제</value>
+  </data>
+  <data name="DocumentEditor_Resolved" xml:space="preserve">
+    <value>해결됨</value>
+  </data>
+  <data name="DocumentEditor_CommentMark" xml:space="preserve">
+    <value>이 댓글을 보려면 클릭하세요.</value>
   </data>
 </root>

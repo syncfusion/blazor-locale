@@ -933,11 +933,23 @@
   <data name="Gantt_SplitTask" xml:space="preserve">
     <value>Jaa tehtävä</value>
   </data>
+  <data name="Gantt_WbsCode" xml:space="preserve">
+    <value>Työn jaottelurakenteen koodi</value>
+  </data>
+  <data name="Gantt_WbsPredecessor" xml:space="preserve">
+    <value>Edeltäjä työn jaottelurakenteessa</value>
+  </data>
   <data name="Gantt_MergeTask" xml:space="preserve">
     <value>Yhdistä tehtävä</value>
   </data>
   <data name="Gantt_UnassignedTasks" xml:space="preserve">
     <value>Määrittämättömät tehtävät</value>
+  </data>
+  <data name="Gantt_Undo" xml:space="preserve">
+    <value>Kumoa</value>
+  </data>
+  <data name="Gantt_Redo" xml:space="preserve">
+    <value>Tee uudelleen</value>
   </data>
   <data name="ColorPicker_Apply" xml:space="preserve">
     <value>Käytä</value>
@@ -2374,10 +2386,10 @@
     <value>Arial</value>
   </data>
   <data name="RichTextEditor_FontNameGeorgia" xml:space="preserve">
-    <value>Georgia</value>
+    <value>Gruusia</value>
   </data>
   <data name="RichTextEditor_FontNameImpact" xml:space="preserve">
-    <value>Impact</value>
+    <value>Mõju</value>
   </data>
   <data name="RichTextEditor_FontNameTahoma" xml:space="preserve">
     <value>Tahoma</value>
@@ -2682,6 +2694,18 @@
   <data name="RichTextEditor_TableRemove" xml:space="preserve">
     <value>Poista taulukko</value>
   </data>
+  <data name="RichTextEditor_TableCell" xml:space="preserve">
+    <value>Taulukon solut</value>
+  </data>
+  <data name="RichTextEditor_TableCellMerge" xml:space="preserve">
+    <value>Yhdistä solut</value>
+  </data>
+  <data name="RichTextEditor_TableCellHorizontalSplit" xml:space="preserve">
+    <value>Vaakasuora jako</value>
+  </data>
+  <data name="RichTextEditor_TableCellVerticalSplit" xml:space="preserve">
+    <value>Pystysuuntainen jako</value>
+  </data>
   <data name="RichTextEditor_TableCellBackground" xml:space="preserve">
     <value>Taulukon solujen tausta</value>
   </data>
@@ -2828,6 +2852,48 @@
   </data>
   <data name="RichTextEditor_Img_AltText_Unsupported" xml:space="preserve">
     <value>Tiedostomuotoa ei tueta</value>
+  </data>
+  <data name="RichTextEditor_ImportDeviceUploadMessage" xml:space="preserve">
+    <value>klikkaa tästä ladataksesi</value>
+  </data>
+  <data name="RichTextEditor_ImportUploadMessage" xml:space="preserve">
+    <value>Vedä tai selaa Word-asiakirjaa</value>
+  </data>
+  <data name="RichTextEditor_ImportHeader" xml:space="preserve">
+    <value>Tuo Word</value>
+  </data>
+  <data name="RichTextEditor_DialogImport" xml:space="preserve">
+    <value>Lisää</value>
+  </data>
+  <data name="RichTextEditor_VideoHeader" xml:space="preserve">
+    <value>Lisää video</value>
+  </data>
+  <data name="RichTextEditor_EditVideoHeader" xml:space="preserve">
+    <value>Muokkaa videota</value>
+  </data>
+  <data name="RichTextEditor_AudioHeader" xml:space="preserve">
+    <value>Lisää ääni</value>
+  </data>
+  <data name="RichTextEditor_EditAudioHeader" xml:space="preserve">
+    <value>Muokkaa ääntä</value>
+  </data>
+  <data name="RichTextEditor_Import_From_Word" xml:space="preserve">
+    <value>Tuonti Wordista</value>
+  </data>
+  <data name="RichTextEditor_Export_To_Word" xml:space="preserve">
+    <value>Vie Wordiin</value>
+  </data>
+  <data name="RichTextEditor_Export_To_PDF" xml:space="preserve">
+    <value>Vie PDF-muotoon</value>
+  </data>
+  <data name="RichTextEditor_Audio" xml:space="preserve">
+    <value>Lisää ääni</value>
+  </data>
+  <data name="RichTextEditor_Video" xml:space="preserve">
+    <value>Lisää video</value>
+  </data>
+  <data name="RichTextEditor_Default" xml:space="preserve">
+    <value>oletus</value>
   </data>
   <data name="DiagramComponent_X" xml:space="preserve">
     <value>X</value>
@@ -4606,10 +4672,58 @@
     <value>AI-palvelun virhe</value>
   </data>
   <data name="PdfViewer_CredentialErrorContent" xml:space="preserve">
-    <value>Tunnistetietoja ei annettu tai ne ovat virheellisiä tai kelpaamattomia. Tarkista tiedot ja yritä uudelleen.</value>
+    <value>Tunnistetietoja ei annettu, ne olivat virheellisiä tai epäkelpoja. Anna oikeat tunnistetiedot ja yritä uudelleen.</value>
   </data>
   <data name="PdfViewer_ConnectionLostErrorContent" xml:space="preserve">
     <value>Yhteys AI-palveluun katkesi. Tarkista verkkoyhteytesi ja yritä uudelleen.</value>
+  </data>
+  <data name="PdfViewer_UnSupportedDialogContent" xml:space="preserve">
+    <value>Tämä tiedosto ei tue generatiivisen tekoälyn ominaisuuksia, koska se on tyhjä tai ei sisällä tarpeeksi tekstiä. Yritä toista tiedostoa.</value>
+  </data>
+  <data name="SmartPdfViewer_TimeOutErrorHeader" xml:space="preserve">
+    <value>Pyyntö aikakatkaistiin</value>
+  </data>
+  <data name="SmartPdfViewer_TimeOutErrorContent" xml:space="preserve">
+    <value>Hakupyyntösi kesti odotettua kauemmin ja ylitti sallitun aikarajan.</value>
+  </data>
+  <data name="SmartPdfViewer_DisClaimerContent" xml:space="preserve">
+    <value>Tekoälyn tuottamat vastaukset voivat olla epätarkkoja tai harhaanjohtavia. Muista tarkistaa vastaukset ja lähteet huolellisesti.</value>
+  </data>
+  <data name="SmartPdfViewer_RedactionToolTip" xml:space="preserve">
+    <value>Älykäs salaus</value>
+  </data>
+  <data name="SmartPdfViewer_RedactHeader" xml:space="preserve">
+    <value>Valitse kuvio</value>
+  </data>
+  <data name="SmartPdfViewer_CancelRedact" xml:space="preserve">
+    <value>Peru</value>
+  </data>
+  <data name="SmartPdfViewer_ApplyRedact" xml:space="preserve">
+    <value>Punaa</value>
+  </data>
+  <data name="SmartPdfViewer_ScanRedact" xml:space="preserve">
+    <value>Skannaa</value>
+  </data>
+  <data name="SmartPdfViewer_SmartFillToolTip" xml:space="preserve">
+    <value>Älykäs lomaketäyttö</value>
+  </data>
+  <data name="SmartPdfViewer_SmartFillText" xml:space="preserve">
+    <value>Älykäs täyttö</value>
+  </data>
+  <data name="SmartPdfViewer_AIAssistanceToolTip" xml:space="preserve">
+    <value>tekoälyavustus</value>
+  </data>
+  <data name="SmartPdfViewer_RedactOptionsHeader" xml:space="preserve">
+    <value>Valitse tiedot peitettäväksi</value>
+  </data>
+  <data name="SmartPdfViewer_NoInformationErrorContent" xml:space="preserve">
+    <value>Asiakirjasta ei löytynyt arkaluonteista tietoa.</value>
+  </data>
+  <data name="SmartPdfViewer_NoInformationErrorContentHeader" xml:space="preserve">
+    <value>Arkaluonteisia tietoja ei löytynyt</value>
+  </data>
+  <data name="SmartPdfViewer_RedactDisclaimer" xml:space="preserve">
+    <value>Tekoälyn havaitsema tieto ei välttämättä ole tarkkaa. Tarkista tulokset ennen käyttöä.</value>
   </data>
   <data name="DocumentEditor_Table" xml:space="preserve">
     <value>Pöytä</value>
@@ -5450,6 +5564,9 @@
   </data>
   <data name="DocumentEditor_UnderlineErrors" xml:space="preserve">
     <value>Alleviivattu virheitä</value>
+  </data>
+  <data name="DocumentEditor_MoreSuggestions" xml:space="preserve">
+    <value>Lisää ehdotuksia</value>
   </data>
   <data name="DocumentEditor_Ignore" xml:space="preserve">
     <value>Jättää huomiotta</value>
@@ -6538,6 +6655,57 @@
   </data>
   <data name="PdfViewer_Of" xml:space="preserve">
     <value>of</value>
+  </data>
+  <data name="PdfViewer_OrganizePages" xml:space="preserve">
+    <value>Järjestä sivut</value>
+  </data>
+  <data name="PdfViewer_Pages" xml:space="preserve">
+    <value>Sivut</value>
+  </data>
+  <data name="PdfViewer_RotateLeft" xml:space="preserve">
+    <value>Kierrä vasemmalle</value>
+  </data>
+  <data name="PdfViewer_RotateRight" xml:space="preserve">
+    <value>Kierrä oikealle</value>
+  </data>
+  <data name="PdfViewer_DuplicatePages" xml:space="preserve">
+    <value>Monista sivut</value>
+  </data>
+  <data name="PdfViewer_DeletePages" xml:space="preserve">
+    <value>Poista sivut</value>
+  </data>
+  <data name="PdfViewer_PageZoom" xml:space="preserve">
+    <value>Sivun zoomaus</value>
+  </data>
+  <data name="PdfViewer_SelectAll" xml:space="preserve">
+    <value>Valitse kaikki</value>
+  </data>
+  <data name="PdfViewer_ImportDocument" xml:space="preserve">
+    <value>Tuo asiakirja</value>
+  </data>
+  <data name="PdfViewer_ExtractDocument" xml:space="preserve">
+    <value>Poimi asiakirja</value>
+  </data>
+  <data name="PdfViewer_Total" xml:space="preserve">
+    <value>Yhteensä</value>
+  </data>
+  <data name="PdfViewer_SaveAs" xml:space="preserve">
+    <value>Tallenna nimellä</value>
+  </data>
+  <data name="PdfViewer_InsertLeft" xml:space="preserve">
+    <value>Lisää vasemmalle</value>
+  </data>
+  <data name="PdfViewer_InsertRight" xml:space="preserve">
+    <value>Lisää oikealle</value>
+  </data>
+  <data name="PdfViewer_DuplicatePage" xml:space="preserve">
+    <value>Monista sivu</value>
+  </data>
+  <data name="PdfViewer_DeletePage" xml:space="preserve">
+    <value>Poista sivu</value>
+  </data>
+  <data name="PdfViewer_AllPagesDelete" xml:space="preserve">
+    <value>Kaikkia sivuja ei voi poistaa, koska asiakirjassa on oltava vähintään yksi sivu.</value>
   </data>
   <data name="DocumentEditor_Title" xml:space="preserve">
     <value>Otsikko</value>
@@ -7862,6 +8030,30 @@
   <data name="Spreadsheet_ConfirmPassword" xml:space="preserve">
     <value>Varmista salasana</value>
   </data>
+  <data name="Spreadsheet_Hide" xml:space="preserve">
+    <value>Piilota</value>
+  </data>
+  <data name="Spreadsheet_Text" xml:space="preserve">
+    <value>Teksti</value>
+  </data>
+  <data name="Spreadsheet_Time" xml:space="preserve">
+    <value>Aika</value>
+  </data>
+  <data name="Spreadsheet_Font" xml:space="preserve">
+    <value>Fontti</value>
+  </data>
+  <data name="Spreadsheet_OkButton" xml:space="preserve">
+    <value>OK</value>
+  </data>
+    <data name="Spreadsheet_Number" xml:space="preserve">
+    <value>Numero</value>
+  </data>
+  <data name="Spreadsheet_Georgia" xml:space="preserve">
+    <value>Georgia</value>
+  </data>
+  <data name="Spreadsheet_Value" xml:space="preserve">
+    <value>Arvo</value>
+  </data>
   <data name="Spreadsheet_ProtectError" xml:space="preserve">
     <value>Taulukko on suojattu. Jotkin osat saattavat olla vain luku -tilassa eikä niitä voi muuttaa</value>
   </data>
@@ -8051,13 +8243,13 @@
   <data name="Spreadsheet_LastMonth" xml:space="preserve">
     <value>Viime kuukausi</value>
   </data>
-  <data name="Spreadsheet_NextQuater" xml:space="preserve">
+  <data name="Spreadsheet_NextQuarter" xml:space="preserve">
     <value>Seuraava neljännes</value>
   </data>
-  <data name="Spreadsheet_ThisQuater" xml:space="preserve">
+  <data name="Spreadsheet_ThisQuarter" xml:space="preserve">
     <value>Tämä neljännes</value>
   </data>
-  <data name="Spreadsheet_LastQuater" xml:space="preserve">
+  <data name="Spreadsheet_LastQuarter" xml:space="preserve">
     <value>Viime neljännes</value>
   </data>
   <data name="Spreadsheet_NextYear" xml:space="preserve">
@@ -8249,6 +8441,123 @@
   <data name="Spreadsheet_FontSize" xml:space="preserve">
     <value>Fonttikoko</value>
   </data>
+  <data name="Spreadsheet_DataLimitExceed" xml:space="preserve">
+    <value>Tiedoston data on liian suuri ja sen käsittely kestää kauemmin, haluatko jatkaa?</value>
+  </data>
+  <data name="Spreadsheet_FileLimitExceed" xml:space="preserve">
+    <value>Tiedoston koko on liian suuri ja sen käsittely kestää kauemmin, haluatko jatkaa?</value>
+  </data>
+  <data name="Spreadsheet_PasswordPrompt" xml:space="preserve">
+    <value>on suojattu</value>
+  </data>
+  <data name="Spreadsheet_UnsupportedFile" xml:space="preserve">
+    <value>Tuettu tiedosto</value>
+  </data>
+  <data name="Spreadsheet_View" xml:space="preserve">
+    <value>Näytä</value>
+  </data>
+  <data name="Spreadsheet_Borders" xml:space="preserve">
+    <value>Reunat</value>
+  </data>
+  <data name="Spreadsheet_RightBorder" xml:space="preserve">
+    <value>Oikea reuna</value>
+  </data>
+  <data name="Spreadsheet_BottomBorder" xml:space="preserve">
+    <value>Alareuna</value>
+  </data>
+  <data name="Spreadsheet_TopBorder" xml:space="preserve">
+    <value>Yläreuna</value>
+  </data>
+  <data name="Spreadsheet_LeftBorder" xml:space="preserve">
+    <value>Vasemm reuna</value>
+  </data>
+  <data name="Spreadsheet_NoBorder" xml:space="preserve">
+    <value>Ei reunaa</value>
+  </data>
+  <data name="Spreadsheet_AllBorders" xml:space="preserve">
+    <value>Kaikki reunat</value>
+  </data>
+  <data name="Spreadsheet_OutsideBorders" xml:space="preserve">
+    <value>Ulkoiset reunat</value>
+  </data>
+  <data name="Spreadsheet_InsideBorders" xml:space="preserve">
+    <value>Sisäiset reunat</value>
+  </data>
+  <data name="Spreadsheet_HorizontalBorders" xml:space="preserve">
+    <value>Vaakareunat</value>
+  </data>
+  <data name="Spreadsheet_VerticalBorders" xml:space="preserve">
+    <value>Pystyreunat</value>
+  </data>
+  <data name="Spreadsheet_BorderColor" xml:space="preserve">
+    <value>Reunan väri</value>
+  </data>
+  <data name="Spreadsheet_BorderStyle" xml:space="preserve">
+    <value>Reunan tyyli</value>
+  </data>
+  <data name="Spreadsheet_Thin" xml:space="preserve">
+    <value>Ohut</value>
+  </data>
+  <data name="Spreadsheet_Medium" xml:space="preserve">
+    <value>Keskitaso</value>
+  </data>
+  <data name="Spreadsheet_Thick" xml:space="preserve">
+    <value>Paksu</value>
+  </data>
+  <data name="Spreadsheet_Dotted" xml:space="preserve">
+    <value>Pisteviiva</value>
+  </data>
+  <data name="Spreadsheet_Dashed" xml:space="preserve">
+    <value>Katkoviiva</value>
+  </data>
+  <data name="Spreadsheet_Double" xml:space="preserve">
+    <value>Kaksoisviiva</value>
+  </data>
+  <data name="Spreadsheet_ShowGridlines" xml:space="preserve">
+    <value>Näytä ruudukon viivat</value>
+  </data>
+  <data name="Spreadsheet_HideGridlines" xml:space="preserve">
+    <value>Piilota ruudukon viivat</value>
+  </data>
+  <data name="Spreadsheet_WebPage" xml:space="preserve">
+    <value>Verkkosivu</value>
+  </data>
+  <data name="Spreadsheet_ThisDocument" xml:space="preserve">
+    <value>Tämä asiakirja</value>
+  </data>
+  <data name="Spreadsheet_DisplayText" xml:space="preserve">
+    <value>Näyttöteksti</value>
+  </data>
+  <data name="Spreadsheet_Url" xml:space="preserve">
+    <value>URL</value>
+  </data>
+  <data name="Spreadsheet_Sheet" xml:space="preserve">
+    <value>Taulukko</value>
+  </data>
+  <data name="Spreadsheet_ReferenceCell" xml:space="preserve">
+    <value>Soluviite</value>
+  </data>
+  <data name="Spreadsheet_MergeCell" xml:space="preserve">
+    <value>Yhdistä solu</value>
+  </data>
+  <data name="Spreadsheet_MergeCellDialog" xml:space="preserve">
+    <value>Solujen yhdistäminen säilyttää vain vasemman yläkulman arvon ja hylkää muut arvot.</value>
+  </data>
+  <data name="Spreadsheet_MergeCellSize" xml:space="preserve">
+    <value>Tätä varten kaikilla yhdistettyillä soluilla on oltava sama koko.</value>
+  </data>
+  <data name="Spreadsheet_MergeCenter" xml:space="preserve">
+    <value>Yhdistä ja keskitä</value>
+  </data>
+  <data name="Spreadsheet_MergeAcross" xml:space="preserve">
+    <value>Yhdistä poikittain</value>
+  </data>
+  <data name="Spreadsheet_MergeCells" xml:space="preserve">
+    <value>Yhdistä solut</value>
+  </data>
+  <data name="Spreadsheet_UnMergeCells" xml:space="preserve">
+    <value>Pura solujen yhdistäminen</value>
+  </data>
   <data name="RichTextEditor_InlineCode" xml:space="preserve">
     <value>Sisäinen koodi</value>
   </data>
@@ -8378,6 +8687,18 @@
   <data name="SpeechToText_Stop_TooltipText" xml:space="preserve">
     <value>Lopeta kuuntelu</value>
   </data>
+  <data name="Spreadsheet_FillSeries" xml:space="preserve">
+   <value>Täytä sarja</value>
+  </data>
+  <data name="Spreadsheet_FillFormattingOnly" xml:space="preserve">
+    <value>Täytä vain muotoilu</value>
+  </data>
+  <data name="Spreadsheet_FillWithoutFormatting" xml:space="preserve">
+    <value>Täytä ilman muotoilua</value>
+  </data>
+  <data name="Spreadsheet_CopyCells" xml:space="preserve">
+    <value>Kopioi solut</value>
+  </data>
   <data name="PdfViewer_SolidStyle" xml:space="preserve">
     <value>Kiinteä</value>
   </data>
@@ -8447,10 +8768,310 @@
   <data name="Spreadsheet_ExpandRibbonTab" xml:space="preserve">
     <value>Laajenna työkalurivi</value>
   </data>
+  <data name="Spreadsheet_InvalidFileNameMessage" xml:space="preserve">
+    <value>Käytä nimeä, joka ei sisällä näitä merkkejä: \ / : * ? " |</value>
+  </data>
+  <data name="Spreadsheet_EmptyFileName" xml:space="preserve">
+   <value>Tiedostonimi ei voi olla tyhjä.</value>
+  </data>
+  <data name="Spreadsheet_Algerian" xml:space="preserve">
+    <value>Algerialainen</value>
+  </data>
+  <data name="Spreadsheet_AlignCenter" xml:space="preserve">
+    <value>TasaaKeskus</value>
+  </data>
+    <data name="Spreadsheet_AlignLeft" xml:space="preserve">
+    <value>Tasaa vasemmalle</value>
+  </data>
+   <data name="Spreadsheet_AlignRight" xml:space="preserve">
+    <value>Tasaa oikealle</value>
+  </data>
+  <data name="Spreadsheet_AlignTop" xml:space="preserve">
+    <value>TasaaYlös</value>
+  </data>
+  <data name="Spreadsheet_AlignMiddle" xml:space="preserve">
+    <value>TasaaKeskitasolle</value>
+  </data>
+    <data name="Spreadsheet_Arial" xml:space="preserve">
+    <value>Arial</value>
+  </data>
+    <data name="Spreadsheet_Ascending" xml:space="preserve">
+    <value>Nouseva</value>
+  </data>
+  <data name="Spreadsheet_Descending" xml:space="preserve">
+    <value>Laskeva</value>
+  </data>
+  <data name="Spreadsheet_Calibri" xml:space="preserve">
+    <value>Calibri</value>
+  </data>
+  <data name="Spreadsheet_Cambria" xml:space="preserve">
+    <value>Cambria</value>
+  </data>
+  <data name="Spreadsheet_CambriaMath" xml:space="preserve">
+    <value>CambriaMath</value>
+  </data>
+  <data name="Spreadsheet_CourierNew" xml:space="preserve">
+    <value>CourierNew</value>
+  </data>
+  <data name="Spreadsheet_Candara" xml:space="preserve">
+    <value>Candara</value>
+  </data>
+  <data name="Spreadsheet_ChangeCase" xml:space="preserve">
+    <value>Muuta kirjainkokoa</value>
+  </data>
+    <data name="Spreadsheet_ChooseTime" xml:space="preserve">
+    <value>ValitseAika</value>
+  </data>
+  <data name="Spreadsheet_Clipboard" xml:space="preserve">
+    <value>Leikepöytä</value>
+  </data>
+    <data name="Spreadsheet_Currency" xml:space="preserve">
+    <value>Valuutta</value>
+  </data>
+    <data name="Spreadsheet_Custom" xml:space="preserve">
+    <value>Mukautettu</value>
+  </data>
+  <data name="Spreadsheet_NumberFormat" xml:space="preserve">
+    <value>Lukumuoto</value>
+  </data>
+    <data name="Spreadsheet_CustomSort" xml:space="preserve">
+    <value>Mukautettu lajittelu</value>
+  </data>
+    <data name="Spreadsheet_DataOperations" xml:space="preserve">
+    <value>DataOperations</value>
+  </data>
+    <data name="Spreadsheet_DownloadPDF" xml:space="preserve">
+    <value>Lataa PDF-tiedosto</value>
+  </data>
+    <data name="Spreadsheet_Fraction" xml:space="preserve">
+    <value>Murtoluku</value>
+  </data>
+  <data name="Spreadsheet_General" xml:space="preserve">
+    <value>Yleistä</value>
+  </data>
+    <data name="Spreadsheet_Impact" xml:space="preserve">
+    <value>Vaikutus</value>
+  </data>
+  <data name="Spreadsheet_Justify" xml:space="preserve">
+    <value>Perustella</value>
+  </data>
+  <data name="Spreadsheet_InsertRowBelow" xml:space="preserve">
+    <value>Lisää rivi alapuolelle</value>
+  </data>
+    <data name="Spreadsheet_KeepSourceFormat" xml:space="preserve">
+    <value>Säilytä Lähdemuoto</value>
+  </data>
+  <data name="Spreadsheet_MergeFormat" xml:space="preserve">
+    <value>Yhdistämismuoto</value>
+  </data>
+  <data name="Spreadsheet_KeepTextOnly" xml:space="preserve">
+    <value>Pidä vain teksti</value>
+  </data>
+  <data name="Spreadsheet_ShortDate" xml:space="preserve">
+    <value>Lyhytpäivämäärä</value>
+  </data>
+  <data name="Spreadsheet_LongDate" xml:space="preserve">
+    <value>Pitkäpäivämäärä</value>
+  </data>
+  <data name="Spreadsheet_Percentage" xml:space="preserve">
+    <value>Prosenttiosuus</value>
+  </data>
+    <data name="Spreadsheet_Print" xml:space="preserve">
+    <value>Painaa</value>
+  </data>
+  <data name="Spreadsheet_Scientific" xml:space="preserve">
+    <value>Tieteellinen</value>
+  </data>
+    <data name="Spreadsheet_SegoePrint" xml:space="preserve">
+    <value>Segoe-tuloste</value>
+  </data>
+  <data name="Spreadsheet_SegoeScript" xml:space="preserve">
+    <value>Segoe-skripti</value>
+  </data>
+  <data name="Spreadsheet_SegoeUI" xml:space="preserve">
+    <value>SegoeUI</value>
+  </data>
+  <data name="Spreadsheet_ShowRowsWhere" xml:space="preserve">
+    <value>NäytäRivitMissä</value>
+  </data>
+  <data name="Spreadsheet_Symbol" xml:space="preserve">
+    <value>Symboli</value>
+  </data>
+  <data name="Spreadsheet_TimesNewRoman" xml:space="preserve">
+    <value>Times New Roman</value>
+  </data>
+  <data name="Spreadsheet_Verdana" xml:space="preserve">
+    <value>Verdana</value>
+  </data>
+  <data name="Spreadsheet_Windings" xml:space="preserve">
+    <value>Käämitykset</value>
+  </data>
+  <data name="Spreadsheet_Accounting" xml:space="preserve">
+    <value>Kirjanpito</value>
+  </data>
+  <data name="Spreadsheet_AlignBottom" xml:space="preserve">
+    <value>Tasaa alas</value>
+  </data>
+  <data name="Spreadsheet_CircularReference" xml:space="preserve">
+    <value>Havaitsimme, että kirjoitit kaavan, jossa on syklinen viittaus.</value>
+  </data>
   <data name="RichTextEditor_FormatPainter" xml:space="preserve">
     <value>Muotoilumaali</value>
   </data>
+  <data name="RichTextEditor_LineHeight" xml:space="preserve">
+    <value>Rivikorkeus</value>
+  </data>
   <data name="DataForm_SubmitContent" xml:space="preserve">
     <value>Lähetä</value>
+  </data>
+  <data name="AssistView_FileSize_Failure" xml:space="preserve">
+    <value>Lataus epäonnistui: Tiedoston koko on liian suuri</value>
+  </data>
+  <data name="ChatUI_Forwarded_Message" xml:space="preserve">
+    <value>Välitetty</value>
+  </data>
+  <data name="ChatUI_MentionNoRecord" xml:space="preserve">
+    <value>Tietueita ei löytynyt</value>
+  </data>
+  <data name="ChatUI_Send" xml:space="preserve">
+    <value>Lähetä</value>
+  </data>
+  <data name="ChatUI_Attachments" xml:space="preserve">
+    <value>Liitä tiedosto</value>
+  </data>
+  <data name="ChatUI_Download" xml:space="preserve">
+    <value>Lataa</value>
+  </data>
+  <data name="ChatUI_Close" xml:space="preserve">
+    <value>Sulje</value>
+  </data>
+  <data name="ChatUI_FileUploadFailure" xml:space="preserve">
+    <value>Lähetysraja saavutettu: enintään {0} tiedostoa sallittu. Poista ylimääräiset tiedostot jatkaaksesi lähettämistä</value>
+  </data>
+  <data name="ChatUI_FilePreview" xml:space="preserve">
+    <value>Esikatselua ei ole saatavilla</value>
+  </data>
+  <data name="ChatUI_FileSizeFailure" xml:space="preserve">
+    <value>Lähetys epäonnistui: {0} tiedoston koko on liian suuri</value>
+  </data>
+  <data name="AIAssistView_FileCountFailure" xml:space="preserve">
+    <value>Lähetysraja saavutettu: enintään {0} tiedostoa sallittu. Poista ylimääräiset tiedostot jatkaaksesi lähettämistä</value>
+  </data>
+  <data name="AssistView_Send" xml:space="preserve">
+    <value>Lähetä</value>
+  </data>
+  <data name="AssistView_Attachments" xml:space="preserve">
+    <value>Liitä tiedosto</value>
+  </data>
+  <data name="AssistView_Clear" xml:space="preserve">
+    <value>Tyhjennä</value>
+  </data>
+  <data name="BlockEditor_Paragraph" xml:space="preserve">
+      <value>Kirjoita jotain tai '/' komennoille.</value>
+  </data>
+  <data name="BlockEditor_Heading1" xml:space="preserve">
+      <value>Otsikko 1</value>
+  </data>
+  <data name="BlockEditor_Heading2" xml:space="preserve">
+      <value>Otsikko 2</value>
+  </data>
+  <data name="BlockEditor_Heading3" xml:space="preserve">
+      <value>Otsikko 3</value>
+  </data>
+  <data name="BlockEditor_Heading4" xml:space="preserve">
+      <value>Otsikko 4</value>
+  </data>
+  <data name="BlockEditor_CollapsibleParagraph" xml:space="preserve">
+      <value>Taittuva kappale</value>
+  </data>
+  <data name="BlockEditor_CollapsibleHeading1" xml:space="preserve">
+      <value>Taittuva otsikko 1</value>
+  </data>
+  <data name="BlockEditor_CollapsibleHeading2" xml:space="preserve">
+      <value>Taittuva otsikko 2</value>
+  </data>
+  <data name="BlockEditor_CollapsibleHeading3" xml:space="preserve">
+      <value>Taittuva otsikko 3</value>
+  </data>
+  <data name="BlockEditor_CollapsibleHeading4" xml:space="preserve">
+      <value>Taittuva otsikko 4</value>
+  </data>
+  <data name="BlockEditor_BulletList" xml:space="preserve">
+      <value>Lisää kohde</value>
+  </data>
+  <data name="BlockEditor_NumberedList" xml:space="preserve">
+      <value>Lisää kohde</value>
+  </data>
+  <data name="BlockEditor_Checklist" xml:space="preserve">
+      <value>Tehtävä</value>
+  </data>
+  <data name="BlockEditor_Quote" xml:space="preserve">
+      <value>Kirjoita lainaus</value>
+  </data>
+  <data name="BlockEditor_Callout" xml:space="preserve">
+      <value>Kirjoita korostus</value>
+  </data>
+  <data name="BlockEditor_AddIconTooltip" xml:space="preserve">
+      <value>Napsauta lisätäksesi alapuolelle</value>
+  </data>
+  <data name="BlockEditor_DragIconTooltipActionMenu" xml:space="preserve">
+      <value>Napsauta avataksesi</value>
+  </data>
+  <data name="BlockEditor_DragIconTooltip" xml:space="preserve">
+      <value>(Pidä pohjassa vetääksesi)</value>
+  </data>
+  <data name="BlockEditor_InsertLink" xml:space="preserve">
+      <value>Lisää linkki</value>
+  </data>
+  <data name="BlockEditor_LinkText" xml:space="preserve">
+      <value>Teksti</value>
+  </data>
+  <data name="BlockEditor_LinkTextPlaceholder" xml:space="preserve">
+      <value>Linkin teksti</value>
+  </data>
+  <data name="BlockEditor_LinkUrl" xml:space="preserve">
+      <value>URL</value>
+  </data>
+  <data name="BlockEditor_LinkUrlPlaceholder" xml:space="preserve">
+      <value>https://esimerkki.com</value>
+  </data>
+  <data name="BlockEditor_LinkTitle" xml:space="preserve">
+      <value>Otsikko</value>
+  </data>
+  <data name="BlockEditor_LinkTitlePlaceholder" xml:space="preserve">
+      <value>Linkin otsikko</value>
+  </data>
+  <data name="BlockEditor_LinkOpenInNewWindow" xml:space="preserve">
+      <value>Avaa uudessa ikkunassa</value>
+  </data>
+  <data name="BlockEditor_LinkInsert" xml:space="preserve">
+      <value>Lisää</value>
+  </data>
+  <data name="BlockEditor_LinkRemove" xml:space="preserve">
+      <value>Poista</value>
+  </data>
+  <data name="BlockEditor_LinkCancel" xml:space="preserve">
+      <value>Peruuta</value>
+  </data>
+  <data name="BlockEditor_CodeCopyTooltip" xml:space="preserve">
+      <value>Kopioi koodi</value>
+  </data>
+  <data name="DocumentEditorContainer_CommentsCloseHeader" xml:space="preserve">
+    <value>Tallentamattomat kommentit</value>
+  </data>
+  <data name="DocumentEditorContainer_CommentsCloseContent" xml:space="preserve">
+    <value>Sinulla on kommentteja, joita ei ole vielä lähetetty. Jos poistut tältä sivulta, ne hylätään</value>
+  </data>
+  <data name="DocumentEditorContainer_KeepEditing" xml:space="preserve">
+    <value>Jatka muokkaamista</value>
+  </data>
+  <data name="DocumentEditorContainer_DiscardComments" xml:space="preserve">
+    <value>Hylkää kommentit</value>
+  </data>
+  <data name="DocumentEditor_Resolved" xml:space="preserve">
+    <value>Ratkaistu</value>
+  </data>
+  <data name="DocumentEditor_CommentMark" xml:space="preserve">
+    <value>Napsauta nähdäksesi tämän kommentin</value>
   </data>
 </root>

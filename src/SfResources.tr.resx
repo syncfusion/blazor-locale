@@ -933,11 +933,23 @@
   <data name="Gantt_SplitTask" xml:space="preserve">
     <value>Segmentler</value>
   </data>
+  <data name="Gantt_WbsCode" xml:space="preserve">
+    <value>İş Kırılım Yapısı Kodu</value>
+  </data>
+  <data name="Gantt_WbsPredecessor" xml:space="preserve">
+    <value>İş Kırılım Yapısındaki Önceki Görev</value>
+  </data>
   <data name="Gantt_MergeTask" xml:space="preserve">
     <value>Görevi Birleştir</value>
   </data>
   <data name="Gantt_UnassignedTasks" xml:space="preserve">
     <value>Atanmamış Görevler</value>
+  </data>
+  <data name="Gantt_Undo" xml:space="preserve">
+    <value>Geri al</value>
+  </data>
+  <data name="Gantt_Redo" xml:space="preserve">
+    <value>Yeniden yap</value>
   </data>
   <data name="ColorPicker_Apply" xml:space="preserve">
     <value>Uygulamak</value>
@@ -2371,10 +2383,10 @@
     <value>Arial</value>
   </data>
   <data name="RichTextEditor_FontNameGeorgia" xml:space="preserve">
-    <value>Georgia</value>
+    <value>Gürcistan</value>
   </data>
   <data name="RichTextEditor_FontNameImpact" xml:space="preserve">
-    <value>Impact</value>
+    <value>Etkileşim</value>
   </data>
   <data name="RichTextEditor_FontNameTahoma" xml:space="preserve">
     <value>Tahoma</value>
@@ -2679,6 +2691,18 @@
   <data name="RichTextEditor_TableRemove" xml:space="preserve">
     <value>Tabloyu Sil</value>
   </data>
+  <data name="RichTextEditor_TableCell" xml:space="preserve">
+    <value>Masa Hücreleri</value>
+  </data>
+  <data name="RichTextEditor_TableCellMerge" xml:space="preserve">
+    <value>Hücreleri birleştir</value>
+  </data>
+  <data name="RichTextEditor_TableCellHorizontalSplit" xml:space="preserve">
+    <value>Yatay bölme</value>
+  </data>
+  <data name="RichTextEditor_TableCellVerticalSplit" xml:space="preserve">
+    <value>Dikey bölme</value>
+  </data>
   <data name="RichTextEditor_TableCellBackground" xml:space="preserve">
     <value>Tablo hücre arka planı</value>
   </data>
@@ -2825,6 +2849,48 @@
   </data>
   <data name="RichTextEditor_Img_AltText_Unsupported" xml:space="preserve">
     <value>Desteklenmeyen dosya formatı</value>
+  </data>
+  <data name="RichTextEditor_ImportDeviceUploadMessage" xml:space="preserve">
+    <value>Buraya tıklayarak yükleyin</value>
+  </data>
+  <data name="RichTextEditor_ImportUploadMessage" xml:space="preserve">
+    <value>Bir Word belgesini bırakın veya gezinin</value>
+  </data>
+  <data name="RichTextEditor_ImportHeader" xml:space="preserve">
+    <value>Kelime İçe Aktar</value>
+  </data>
+  <data name="RichTextEditor_DialogImport" xml:space="preserve">
+    <value>Ekle</value>
+  </data>
+  <data name="RichTextEditor_VideoHeader" xml:space="preserve">
+    <value>Video Ekle</value>
+  </data>
+  <data name="RichTextEditor_EditVideoHeader" xml:space="preserve">
+    <value>Videoyu Düzenle</value>
+  </data>
+  <data name="RichTextEditor_AudioHeader" xml:space="preserve">
+    <value>Ses Ekle</value>
+  </data>
+  <data name="RichTextEditor_EditAudioHeader" xml:space="preserve">
+    <value>Ses Düzenle</value>
+  </data>
+  <data name="RichTextEditor_Import_From_Word" xml:space="preserve">
+    <value>Word'den İçe Aktar</value>
+  </data>
+  <data name="RichTextEditor_Export_To_Word" xml:space="preserve">
+    <value>Word'e Aktar</value>
+  </data>
+  <data name="RichTextEditor_Export_To_PDF" xml:space="preserve">
+    <value>PDF'e Aktar</value>
+  </data>
+  <data name="RichTextEditor_Audio" xml:space="preserve">
+    <value>Ses Ekle</value>
+  </data>
+  <data name="RichTextEditor_Video" xml:space="preserve">
+    <value>Video Ekle</value>
+  </data>
+  <data name="RichTextEditor_Default" xml:space="preserve">
+    <value>Varsayılan</value>
   </data>
   <data name="DiagramComponent_X" xml:space="preserve">
     <value>X</value>
@@ -4572,6 +4638,57 @@
   <data name="PdfViewer_Of" xml:space="preserve">
     <value>nın-nin</value>
   </data>
+  <data name="PdfViewer_OrganizePages" xml:space="preserve">
+    <value>Sayfaları düzenle</value>
+  </data>
+  <data name="PdfViewer_Pages" xml:space="preserve">
+    <value>Sayfalar</value>
+  </data>
+  <data name="PdfViewer_RotateLeft" xml:space="preserve">
+    <value>Sola döndür</value>
+  </data>
+  <data name="PdfViewer_RotateRight" xml:space="preserve">
+    <value>Sağa döndür</value>
+  </data>
+  <data name="PdfViewer_DuplicatePages" xml:space="preserve">
+    <value>Sayfaları çoğalt</value>
+  </data>
+  <data name="PdfViewer_DeletePages" xml:space="preserve">
+    <value>Sayfaları sil</value>
+  </data>
+  <data name="PdfViewer_PageZoom" xml:space="preserve">
+    <value>Sayfa yakınlaştırma</value>
+  </data>
+  <data name="PdfViewer_SelectAll" xml:space="preserve">
+    <value>Tümünü seç</value>
+  </data>
+  <data name="PdfViewer_ImportDocument" xml:space="preserve">
+    <value>Belgeyi içe aktar</value>
+  </data>
+  <data name="PdfViewer_ExtractDocument" xml:space="preserve">
+    <value>Belgeyi çıkar</value>
+  </data>
+  <data name="PdfViewer_Total" xml:space="preserve">
+    <value>Toplam</value>
+  </data>
+  <data name="PdfViewer_SaveAs" xml:space="preserve">
+    <value>Farklı kaydet</value>
+  </data>
+  <data name="PdfViewer_InsertLeft" xml:space="preserve">
+    <value>Sola ekle</value>
+  </data>
+  <data name="PdfViewer_InsertRight" xml:space="preserve">
+    <value>Sağa ekle</value>
+  </data>
+  <data name="PdfViewer_DuplicatePage" xml:space="preserve">
+    <value>Sayfayı çoğalt</value>
+  </data>
+  <data name="PdfViewer_DeletePage" xml:space="preserve">
+    <value>Sayfayı sil</value>
+  </data>
+  <data name="PdfViewer_AllPagesDelete" xml:space="preserve">
+    <value>Tüm sayfalar silinemez çünkü belgede en az bir sayfa kalmalıdır</value>
+  </data>
   <data name="PdfViewer_Required_ServiceUrl_Error_Message" xml:space="preserve">
     <value>Bu PDF görüntüleyici, PDF dosyalarını web hizmeti aracılığıyla işlemek için Sunucu tarafı işleme gerektirir. PDF görüntüleyiciye devam etmek için Hizmet URL'sini yapılandırmanız gerekir</value>
   </data>
@@ -4603,11 +4720,60 @@
     <value>Yapay Zekâ Hizmeti Hatası</value>
   </data>
   <data name="PdfViewer_CredentialErrorContent" xml:space="preserve">
-    <value>Kimlik bilgileri sağlanmadı, hatalı veya geçersiz. Lütfen doğru bilgileri girerek tekrar deneyin.</value>
+    <value>Kimlik bilgileri sağlanmadı, yanlış veya geçersiz. Lütfen doğru kimlik bilgilerini girin ve tekrar deneyin.</value>
   </data>
   <data name="PdfViewer_ConnectionLostErrorContent" xml:space="preserve">
     <value>Yapay zekâ hizmetiyle bağlantı kesildi. Lütfen ağ bağlantınızı kontrol edip tekrar deneyin.</value>
   </data>
+  <data name="PdfViewer_UnSupportedDialogContent" xml:space="preserve">
+    <value>Bu dosya, boş olduğu veya yeterli metin içermediği için üretken yapay zeka özelliklerini desteklemiyor. Lütfen başka bir dosya deneyin.</value>
+  </data>
+  <data name="SmartPdfViewer_TimeOutErrorHeader" xml:space="preserve">
+    <value>İstek zaman aşımına uğradı</value>
+  </data>
+  <data name="SmartPdfViewer_TimeOutErrorContent" xml:space="preserve">
+    <value>Arama isteğiniz beklenenden uzun sürdü ve izin verilen maksimum süreyi aştı.</value>
+  </data>
+  <data name="SmartPdfViewer_DisClaimerContent" xml:space="preserve">
+    <value>Yapay zeka tarafından oluşturulan yanıtlar hatalı veya yanıltıcı olabilir. Lütfen yanıtları ve kaynakları dikkatlice kontrol edin.</value>
+  </data>
+  <data name="SmartPdfViewer_RedactionToolTip" xml:space="preserve">
+    <value>Akıllı Kısıtlama</value>
+  </data>
+  <data name="SmartPdfViewer_RedactHeader" xml:space="preserve">
+    <value>Deseni Seçin</value>
+  </data>
+  <data name="SmartPdfViewer_CancelRedact" xml:space="preserve">
+    <value>İptal et</value>
+  </data>
+  <data name="SmartPdfViewer_ApplyRedact" xml:space="preserve">
+    <value>Düzelt</value>
+  </data>
+  <data name="SmartPdfViewer_ScanRedact" xml:space="preserve">
+    <value>Tarama</value>
+  </data>
+  <data name="SmartPdfViewer_SmartFillToolTip" xml:space="preserve">
+    <value>Akıllı Form Doldurma</value>
+  </data>
+  <data name="SmartPdfViewer_SmartFillText" xml:space="preserve">
+    <value>Akıllı Doldurma</value>
+  </data>
+  <data name="SmartPdfViewer_AIAssistanceToolTip" xml:space="preserve">
+    <value>Yapay Zekâ Yardımı</value>
+  </data>
+  <data name="SmartPdfViewer_RedactOptionsHeader" xml:space="preserve">
+    <value>Gizlenecek Verileri Seçin</value>
+  </data>
+  <data name="SmartPdfViewer_NoInformationErrorContent" xml:space="preserve">
+    <value>Belgede hassas bir bilgiye rastlanmadı.</value>
+  </data>
+  <data name="SmartPdfViewer_NoInformationErrorContentHeader" xml:space="preserve">
+    <value>Hassas Veri Bulunamadı</value>
+  </data>
+  <data name="SmartPdfViewer_RedactDisclaimer" xml:space="preserve">
+  <value>Yapay zeka tarafından tespit edilen bilgiler doğru olmayabilir. Lütfen kullanmadan önce sonuçları doğrulayın.</value>
+</data>
+
   <data name="DocumentEditor_Table" xml:space="preserve">
     <value>tablo</value>
   </data>
@@ -5447,6 +5613,9 @@
   </data>
   <data name="DocumentEditor_UnderlineErrors" xml:space="preserve">
     <value>Altı çizili hatalar</value>
+  </data>
+  <data name="DocumentEditor_MoreSuggestions" xml:space="preserve">
+    <value>Daha Fazla Öneri</value>
   </data>
   <data name="DocumentEditor_Ignore" xml:space="preserve">
     <value>Aldırmamak</value>
@@ -7935,6 +8104,21 @@
   <data name="Spreadsheet_CustomFilterDatePlaceHolder" xml:space="preserve">
     <value>Özel filtre tarihi</value>
   </data>
+  <data name="Spreadsheet_Hide" xml:space="preserve">
+  <value>Gizle</value>
+</data>
+<data name="Spreadsheet_OkButton" xml:space="preserve">
+  <value>Tamam</value>
+</data>
+<data name="Spreadsheet_FilterValue" xml:space="preserve">
+  <value>Filtre Değeri</value>
+</data>
+  <data name="Spreadsheet_EnterValue" xml:space="preserve">
+    <value>Değer Girin</value>
+  </data>
+  <data name="Spreadsheet_NoResult" xml:space="preserve">
+    <value>Sonuç yok</value>
+  </data>
   <data name="Spreadsheet_StartsWith" xml:space="preserve">
     <value>İle başlar</value>
   </data>
@@ -8040,13 +8224,13 @@
   <data name="Spreadsheet_LastMonth" xml:space="preserve">
     <value>Geçen ay</value>
   </data>
-  <data name="Spreadsheet_NextQuater" xml:space="preserve">
+  <data name="Spreadsheet_NextQuarter" xml:space="preserve">
     <value>Gelecek çeyrek</value>
   </data>
-  <data name="Spreadsheet_ThisQuater" xml:space="preserve">
+  <data name="Spreadsheet_ThisQuarter" xml:space="preserve">
     <value>Bu çeyrek</value>
   </data>
-  <data name="Spreadsheet_LastQuater" xml:space="preserve">
+  <data name="Spreadsheet_LastQuarter" xml:space="preserve">
     <value>Geçen çeyrek</value>
   </data>
   <data name="Spreadsheet_NextYear" xml:space="preserve">
@@ -8280,41 +8464,14 @@
   <data name="RichTextEditor_CodeBlock" xml:space="preserve">
     <value>Kod Bloğu Ekle</value>
   </data>
-  <data name="Spreadsheet_Bold" xml:space="preserve">
-    <value>cesur</value>
-  </data>
-  <data name="Spreadsheet_Italic" xml:space="preserve">
-    <value>İtalik</value>
-  </data>
-  <data name="Spreadsheet_Underline" xml:space="preserve">
-    <value>Altını çizmek</value>
-  </data>
-  <data name="Spreadsheet_Strikethrough" xml:space="preserve">
-    <value>Üstü çizili</value>
-  </data>
   <data name="Spreadsheet_Font" xml:space="preserve">
     <value>Yazı tipi</value>
-  </data>
-  <data name="Spreadsheet_Clear" xml:space="preserve">
-    <value>Temizlemek</value>
-  </data>
-  <data name="Spreadsheet_Image" xml:space="preserve">
-    <value>görüntü</value>
-  </data>
-  <data name="Spreadsheet_Link" xml:space="preserve">
-    <value>bağlantı</value>
-  </data>
-  <data name="Spreadsheet_New" xml:space="preserve">
-    <value>Yeni</value>
   </data>
   <data name="Spreadsheet_Clipboard" xml:space="preserve">
     <value>Pano</value>
   </data>
   <data name="Spreadsheet_ChangeCase" xml:space="preserve">
     <value>Değişim davası</value>
-  </data>
-  <data name="Spreadsheet_Open" xml:space="preserve">
-    <value>Açık</value>
   </data>
   <data name="Spreadsheet_Print" xml:space="preserve">
     <value>Yazdır</value>
@@ -8337,29 +8494,11 @@
   <data name="Spreadsheet_Justify" xml:space="preserve">
     <value>haklı çıkarmak</value>
   </data>
-  <data name="Spreadsheet_ClearAll" xml:space="preserve">
-    <value>Hepsini temizle</value>
-  </data>
   <data name="Spreadsheet_Descending" xml:space="preserve">
     <value>Azalan</value>
   </data>
   <data name="Spreadsheet_Ascending" xml:space="preserve">
     <value>Artan</value>
-  </data>
-  <data name="Spreadsheet_Home" xml:space="preserve">
-    <value>Ev</value>
-  </data>
-  <data name="Spreadsheet_CustomSort" xml:space="preserve">
-    <value>Gümrük</value>
-  </data>
-  <data name="Spreadsheet_ClearHyperlinks" xml:space="preserve">
-    <value>Temiz köprüler</value>
-  </data>
-  <data name="Spreadsheet_ClearFormats" xml:space="preserve">
-    <value>Formatları Temizle</value>
-  </data>
-  <data name="Spreadsheet_ClearContents" xml:space="preserve">
-    <value>Net içerik</value>
   </data>
   <data name="Spreadsheet_KeepTextOnly" xml:space="preserve">
     <value>Yalnızca metni saklayın</value>
@@ -8373,9 +8512,6 @@
   <data name="Spreadsheet_Reapply" xml:space="preserve">
     <value>Yeniden uygulamak</value>
   </data>
-  <data name="Spreadsheet_SaveAs" xml:space="preserve">
-    <value>Tasarruf etmek</value>
-  </data>
   <data name="Spreadsheet_Arial" xml:space="preserve">
     <value>Arial</value>
   </data>
@@ -8384,6 +8520,9 @@
   </data>
   <data name="Spreadsheet_Custom" xml:space="preserve">
     <value>görenek</value>
+  </data>
+  <data name="Spreadsheet_NumberFormat" xml:space="preserve">
+    <value>Sayı Biçimi</value>
   </data>
   <data name="Spreadsheet_General" xml:space="preserve">
     <value>Genel</value>
@@ -8466,12 +8605,6 @@
   <data name="Spreadsheet_Filter" xml:space="preserve">
     <value>filtre</value>
   </data>
-  <data name="Spreadsheet_File" xml:space="preserve">
-    <value>Dosya</value>
-  </data>
-  <data name="Spreadsheet_Sort" xml:space="preserve">
-    <value>Çeşit</value>
-  </data>
   <data name="Spreadsheet_AlignBottom" xml:space="preserve">
     <value>Alta Hizala</value>
   </data>
@@ -8480,15 +8613,6 @@
   </data>
   <data name="Spreadsheet_AlignTop" xml:space="preserve">
     <value>Üste Hizala</value>
-  </data>
-  <data name="Spreadsheet_InsertLeft" xml:space="preserve">
-    <value>Sola sütun ekle</value>
-  </data>
-  <data name="Spreadsheet_InsertRight" xml:space="preserve">
-    <value>Sağdaki sütun ekleyin</value>
-  </data>
-  <data name="Spreadsheet_InsertRowsAbove" xml:space="preserve">
-    <value>Yukarıdaki satırları ekle</value>
   </data>
   <data name="Spreadsheet_InsertRowBelow" xml:space="preserve">
     <value>Aşağıya satır ekle</value>
@@ -8546,6 +8670,135 @@
   </data>
   <data name="Spreadsheet_FontSize" xml:space="preserve">
     <value>Yazı tipi boyutu</value>
+  </data>
+  <data name="Spreadsheet_DataLimitExceed" xml:space="preserve">
+    <value>Dosya verileri çok büyük ve işlenmesi daha fazla zaman alıyor, devam etmek istiyor musunuz?</value>
+  </data>
+  <data name="Spreadsheet_FileLimitExceed" xml:space="preserve">
+    <value>Dosya boyutu çok büyük ve işlenmesi daha fazla zaman alıyor, devam etmek istiyor musunuz?</value>
+  </data>
+  <data name="Spreadsheet_PasswordPrompt" xml:space="preserve">
+    <value>korunuyor</value>
+  </data>
+  <data name="Spreadsheet_UnsupportedFile" xml:space="preserve">
+    <value>Desteklenmeyen dosya</value>
+  </data>
+  <data name="Spreadsheet_View" xml:space="preserve">
+    <value>Görünüm</value>
+  </data>
+  <data name="Spreadsheet_Borders" xml:space="preserve">
+    <value>Kenarlıklar</value>
+  </data>
+  <data name="Spreadsheet_RightBorder" xml:space="preserve">
+    <value>Sağ Kenarlık</value>
+  </data>
+  <data name="Spreadsheet_BottomBorder" xml:space="preserve">
+    <value>Alt Kenarlık</value>
+  </data>
+  <data name="Spreadsheet_TopBorder" xml:space="preserve">
+    <value>Üst Kenarlık</value>
+  </data>
+  <data name="Spreadsheet_LeftBorder" xml:space="preserve">
+    <value>Sol Kenarlık</value>
+  </data>
+  <data name="Spreadsheet_NoBorder" xml:space="preserve">
+    <value>Kenarlık Yok</value>
+  </data>
+  <data name="Spreadsheet_AllBorders" xml:space="preserve">
+    <value>Tüm Kenarlıklar</value>
+  </data>
+  <data name="Spreadsheet_OutsideBorders" xml:space="preserve">
+    <value>Dış Kenarlıklar</value>
+  </data>
+  <data name="Spreadsheet_InsideBorders" xml:space="preserve">
+    <value>İç Kenarlıklar</value>
+  </data>
+  <data name="Spreadsheet_HorizontalBorders" xml:space="preserve">
+    <value>Yatay Kenarlıklar</value>
+  </data>
+  <data name="Spreadsheet_VerticalBorders" xml:space="preserve">
+    <value>Dikey Kenarlıklar</value>
+  </data>
+  <data name="Spreadsheet_BorderColor" xml:space="preserve">
+    <value>Kenarlık Rengi</value>
+  </data>
+  <data name="Spreadsheet_BorderStyle" xml:space="preserve">
+    <value>Kenarlık Stili</value>
+  </data>
+  <data name="Spreadsheet_Thin" xml:space="preserve">
+    <value>İnce</value>
+  </data>
+  <data name="Spreadsheet_Medium" xml:space="preserve">
+    <value>Orta</value>
+  </data>
+  <data name="Spreadsheet_Thick" xml:space="preserve">
+    <value>Kalın</value>
+  </data>
+  <data name="Spreadsheet_Dotted" xml:space="preserve">
+    <value>Noktalı</value>
+  </data>
+  <data name="Spreadsheet_Dashed" xml:space="preserve">
+    <value>Kesik Çizgili</value>
+  </data>
+  <data name="Spreadsheet_Double" xml:space="preserve">
+    <value>Çift</value>
+  </data>
+  <data name="Spreadsheet_ShowGridlines" xml:space="preserve">
+    <value>Izgara Çizgilerini Göster</value>
+  </data>
+  <data name="Spreadsheet_HideGridlines" xml:space="preserve">
+    <value>Izgara Çizgilerini Gizle</value>
+  </data>
+  <data name="Spreadsheet_WebPage" xml:space="preserve">
+    <value>Web Sayfası</value>
+  </data>
+  <data name="Spreadsheet_ThisDocument" xml:space="preserve">
+    <value>Bu Belge</value>
+  </data>
+  <data name="Spreadsheet_DisplayText" xml:space="preserve">
+    <value>Görüntü Metni</value>
+  </data>
+  <data name="Spreadsheet_Url" xml:space="preserve">
+    <value>URL</value>
+  </data>
+  <data name="Spreadsheet_Sheet" xml:space="preserve">
+    <value>Sayfa</value>
+  </data>
+  <data name="Spreadsheet_ReferenceCell" xml:space="preserve">
+    <value>Hücre Başvurusu</value>
+  </data>
+  <data name="Spreadsheet_FillSeries" xml:space="preserve">
+    <value>Seriyi Doldur</value>
+  </data>
+  <data name="Spreadsheet_FillFormattingOnly" xml:space="preserve">
+    <value>Yalnızca Biçimlendirmeyi Doldur</value>
+  </data>
+  <data name="Spreadsheet_FillWithoutFormatting" xml:space="preserve">
+    <value>Biçimlendirme Olmadan Doldur</value>
+  </data>
+  <data name="Spreadsheet_CopyCells" xml:space="preserve">
+    <value>Hücreleri Kopyala</value>
+  </data>
+  <data name="Spreadsheet_MergeCell" xml:space="preserve">
+    <value>Hücreyi Birleştir</value>
+  </data>
+  <data name="Spreadsheet_MergeCellDialog" xml:space="preserve">
+    <value>Hücreleri birleştirmek yalnızca sol üst değeri korur ve diğer değerleri atar.</value>
+  </data>
+  <data name="Spreadsheet_MergeCellSize" xml:space="preserve">
+    <value>Bunu yapmak için, birleştirilmiş tüm hücreler aynı boyutta olmalıdır.</value>
+  </data>
+  <data name="Spreadsheet_MergeCenter" xml:space="preserve">
+    <value>Birleştir &amp; Ortala</value>
+  </data>
+  <data name="Spreadsheet_MergeAcross" xml:space="preserve">
+    <value>Arasından Birleştir</value>
+  </data>
+  <data name="Spreadsheet_MergeCells" xml:space="preserve">
+    <value>Hücreleri Birleştir</value>
+  </data>
+  <data name="Spreadsheet_UnMergeCells" xml:space="preserve">
+    <value>Hücreleri Ayır</value>
   </data>
   <data name="SpeechToText_Aborted_Error" xml:space="preserve">
     <value>Konuşma tanıma işlemi iptal edildi.</value>
@@ -8652,10 +8905,172 @@
   <data name="Spreadsheet_ExpandRibbonTab" xml:space="preserve">
     <value>Araç Çubuğunu Genişlet</value>
   </data>
+  <data name="Spreadsheet_InvalidFileNameMessage" xml:space="preserve">
+    <value>Bu karakterleri içermeyen bir isim kullanın: \ / : * ? " |</value>
+  </data>
+  <data name="Spreadsheet_EmptyFileName" xml:space="preserve">
+    <value>Dosya adı boş olamaz.</value>
+  </data>
+  <data name="Spreadsheet_CircularReference" xml:space="preserve">
+    <value>Döngüsel başvuru içeren bir formül yazdığınızı tespit ettik.</value>
+  </data>
   <data name="RichTextEditor_FormatPainter" xml:space="preserve">
     <value>Biçim Boyacısı</value>
   </data>
+  <data name="RichTextEditor_LineHeight" xml:space="preserve">
+    <value>SorMagasság</value>
+  </data>
   <data name="DataForm_SubmitContent" xml:space="preserve">
     <value>Gönder</value>
+  </data>
+  <data name="AssistView_FileSize_Failure" xml:space="preserve">
+    <value>Yükleme başarısız: Dosya boyutu çok büyük</value>
+  </data>
+  <data name="ChatUI_Forwarded_Message" xml:space="preserve">
+    <value>İletildi</value>
+  </data>
+  <data name="ChatUI_MentionNoRecord" xml:space="preserve">
+    <value>Kayıt bulunamadı</value>
+  </data>
+  <data name="ChatUI_Send" xml:space="preserve">
+    <value>Gönder</value>
+  </data>
+  <data name="ChatUI_Attachments" xml:space="preserve">
+    <value>Dosya Ekle</value>
+  </data>
+  <data name="ChatUI_Download" xml:space="preserve">
+    <value>İndir</value>
+  </data>
+  <data name="ChatUI_Close" xml:space="preserve">
+    <value>Kapat</value>
+  </data>
+  <data name="ChatUI_FileUploadFailure" xml:space="preserve">
+    <value>Yükleme sınırına ulaşıldı: En fazla {0} dosyaya izin veriliyor. Yüklemeye devam etmek için ekstra dosyaları kaldırın</value>
+  </data>
+  <data name="ChatUI_FilePreview" xml:space="preserve">
+    <value>Önizleme mevcut değil</value>
+  </data>
+  <data name="ChatUI_FileSizeFailure" xml:space="preserve">
+    <value>Yükleme başarısız: {0} dosyanın boyutu çok büyük</value>
+  </data>
+  <data name="AIAssistView_FileCountFailure" xml:space="preserve">
+    <value>Yükleme sınırına ulaşıldı: En fazla {0} dosyaya izin veriliyor. Yüklemeye devam etmek için ekstra dosyaları kaldırın</value>
+  </data>
+  <data name="AssistView_Send" xml:space="preserve">
+    <value>Gönder</value>
+  </data>
+  <data name="AssistView_Attachments" xml:space="preserve">
+    <value>Dosya Ekle</value>
+  </data>
+  <data name="AssistView_Clear" xml:space="preserve">
+    <value>Temizle</value>
+  </data>
+  <data name="BlockEditor_Paragraph" xml:space="preserve">
+      <value>Bir şey yazın veya komutlar için '/'.</value>
+  </data>
+  <data name="BlockEditor_Heading1" xml:space="preserve">
+      <value>Başlık 1</value>
+  </data>
+  <data name="BlockEditor_Heading2" xml:space="preserve">
+      <value>Başlık 2</value>
+  </data>
+  <data name="BlockEditor_Heading3" xml:space="preserve">
+      <value>Başlık 3</value>
+  </data>
+  <data name="BlockEditor_Heading4" xml:space="preserve">
+      <value>Başlık 4</value>
+  </data>
+  <data name="BlockEditor_CollapsibleParagraph" xml:space="preserve">
+      <value>Katlanabilir Paragraf</value>
+  </data>
+  <data name="BlockEditor_CollapsibleHeading1" xml:space="preserve">
+      <value>Katlanabilir Başlık 1</value>
+  </data>
+  <data name="BlockEditor_CollapsibleHeading2" xml:space="preserve">
+      <value>Katlanabilir Başlık 2</value>
+  </data>
+  <data name="BlockEditor_CollapsibleHeading3" xml:space="preserve">
+      <value>Katlanabilir Başlık 3</value>
+  </data>
+  <data name="BlockEditor_CollapsibleHeading4" xml:space="preserve">
+      <value>Katlanabilir Başlık 4</value>
+  </data>
+  <data name="BlockEditor_BulletList" xml:space="preserve">
+      <value>Öge ekle</value>
+  </data>
+  <data name="BlockEditor_NumberedList" xml:space="preserve">
+      <value>Öge ekle</value>
+  </data>
+  <data name="BlockEditor_Checklist" xml:space="preserve">
+      <value>Görev</value>
+  </data>
+  <data name="BlockEditor_Quote" xml:space="preserve">
+      <value>Alıntı yaz</value>
+  </data>
+  <data name="BlockEditor_Callout" xml:space="preserve">
+      <value>Not yaz</value>
+  </data>
+  <data name="BlockEditor_AddIconTooltip" xml:space="preserve">
+      <value>Aşağıya eklemek için tıklayın</value>
+  </data>
+  <data name="BlockEditor_DragIconTooltipActionMenu" xml:space="preserve">
+      <value>Açmak için tıklayın</value>
+  </data>
+  <data name="BlockEditor_DragIconTooltip" xml:space="preserve">
+      <value>(Sürüklemek için basılı tutun)</value>
+  </data>
+  <data name="BlockEditor_InsertLink" xml:space="preserve">
+      <value>Bağlantı ekle</value>
+  </data>
+  <data name="BlockEditor_LinkText" xml:space="preserve">
+      <value>Metin</value>
+  </data>
+  <data name="BlockEditor_LinkTextPlaceholder" xml:space="preserve">
+      <value>Bağlantı metni</value>
+  </data>
+  <data name="BlockEditor_LinkUrl" xml:space="preserve">
+      <value>URL</value>
+  </data>
+  <data name="BlockEditor_LinkUrlPlaceholder" xml:space="preserve">
+      <value>https://ornek.com</value>
+  </data>
+  <data name="BlockEditor_LinkTitle" xml:space="preserve">
+      <value>Başlık</value>
+  </data>
+  <data name="BlockEditor_LinkTitlePlaceholder" xml:space="preserve">
+      <value>Bağlantı başlığı</value>
+  </data>
+  <data name="BlockEditor_LinkOpenInNewWindow" xml:space="preserve">
+      <value>Yeni pencerede aç</value>
+  </data>
+  <data name="BlockEditor_LinkInsert" xml:space="preserve">
+      <value>Ekle</value>
+  </data>
+  <data name="BlockEditor_LinkRemove" xml:space="preserve">
+      <value>Kaldır</value>
+  </data>
+  <data name="BlockEditor_LinkCancel" xml:space="preserve">
+      <value>İptal</value>
+  </data>
+  <data name="BlockEditor_CodeCopyTooltip" xml:space="preserve">
+      <value>Kodu kopyala</value>
+  </data>
+  <data name="DocumentEditorContainer_CommentsCloseHeader" xml:space="preserve">
+    <value>Kaydedilmemiş yorumlar</value>
+  </data>
+  <data name="DocumentEditorContainer_CommentsCloseContent" xml:space="preserve">
+    <value>Henüz yayınlanmamış yorumlarınız var. Bu sayfadan ayrılırsanız silinecekler</value>
+  </data>
+  <data name="DocumentEditorContainer_KeepEditing" xml:space="preserve">
+    <value>Düzenlemeye devam et</value>
+  </data>
+  <data name="DocumentEditorContainer_DiscardComments" xml:space="preserve">
+    <value>Yorumları sil</value>
+  </data>
+  <data name="DocumentEditor_Resolved" xml:space="preserve">
+    <value>Çözüldü</value>
+  </data>
+  <data name="DocumentEditor_CommentMark" xml:space="preserve">
+    <value>Bu yorumu görmek için tıklayın</value>
   </data>
 </root>

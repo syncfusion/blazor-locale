@@ -933,11 +933,23 @@
   <data name="Gantt_SplitTask" xml:space="preserve">
     <value>Feladat felosztása</value>
   </data>
+  <data name="Gantt_WbsCode" xml:space="preserve">
+    <value>Munkalebontási struktúra kód</value>
+  </data>
+  <data name="Gantt_WbsPredecessor" xml:space="preserve">
+    <value>Előd a munkalebontási struktúrában</value>
+  </data>
   <data name="Gantt_MergeTask" xml:space="preserve">
     <value>Feladat egyesítése</value>
   </data>
   <data name="Gantt_UnassignedTasks" xml:space="preserve">
     <value>Hozzá nem rendelt feladatok</value>
+  </data>
+  <data name="Gantt_Undo" xml:space="preserve">
+    <value>Visszavonás</value>
+  </data>
+  <data name="Gantt_Redo" xml:space="preserve">
+    <value>Újra</value>
   </data>
   <data name="ColorPicker_Apply" xml:space="preserve">
     <value>Alkalmaz</value>
@@ -2374,10 +2386,10 @@
     <value>Arial</value>
   </data>
   <data name="RichTextEditor_FontNameGeorgia" xml:space="preserve">
-    <value>Georgia</value>
+    <value>Grúzia</value>
   </data>
   <data name="RichTextEditor_FontNameImpact" xml:space="preserve">
-    <value>Impact</value>
+    <value>Hatás</value>
   </data>
   <data name="RichTextEditor_FontNameTahoma" xml:space="preserve">
     <value>Tahoma</value>
@@ -2682,6 +2694,18 @@
   <data name="RichTextEditor_TableRemove" xml:space="preserve">
     <value>Táblázat törlése</value>
   </data>
+  <data name="RichTextEditor_TableCell" xml:space="preserve">
+    <value>Táblázat cellák</value>
+  </data>
+  <data name="RichTextEditor_TableCellMerge" xml:space="preserve">
+    <value>Cellák egyesítése</value>
+  </data>
+  <data name="RichTextEditor_TableCellHorizontalSplit" xml:space="preserve">
+    <value>Vízszintes felosztás</value>
+  </data>
+  <data name="RichTextEditor_TableCellVerticalSplit" xml:space="preserve">
+    <value>Függőleges felosztás</value>
+  </data>
   <data name="RichTextEditor_TableCellBackground" xml:space="preserve">
     <value>Táblázat cella háttér</value>
   </data>
@@ -2828,6 +2852,48 @@
   </data>
   <data name="RichTextEditor_Img_AltText_Unsupported" xml:space="preserve">
     <value>Nem támogatott fájlformátum</value>
+  </data>
+  <data name="RichTextEditor_ImportDeviceUploadMessage" xml:space="preserve">
+    <value>Kattints ide a feltöltéshez</value>
+  </data>
+  <data name="RichTextEditor_ImportUploadMessage" xml:space="preserve">
+    <value>Húzzon el vagy böngésszen egy Word-dokumentumot</value>
+  </data>
+  <data name="RichTextEditor_ImportHeader" xml:space="preserve">
+    <value>Importálja a szót</value>
+  </data>
+  <data name="RichTextEditor_DialogImport" xml:space="preserve">
+    <value>Beszúrás</value>
+  </data>
+  <data name="RichTextEditor_VideoHeader" xml:space="preserve">
+    <value>Videó beillesztése</value>
+  </data>
+  <data name="RichTextEditor_EditVideoHeader" xml:space="preserve">
+    <value>Videó szerkesztése</value>
+  </data>
+  <data name="RichTextEditor_AudioHeader" xml:space="preserve">
+    <value>Hanganyag beillesztése</value>
+  </data>
+  <data name="RichTextEditor_EditAudioHeader" xml:space="preserve">
+    <value>Hanganyag szerkesztése</value>
+  </data>
+  <data name="RichTextEditor_Import_From_Word" xml:space="preserve">
+    <value>Importálás Wordből</value>
+  </data>
+  <data name="RichTextEditor_Export_To_Word" xml:space="preserve">
+    <value>Exportálás Wordbe</value>
+  </data>
+  <data name="RichTextEditor_Export_To_PDF" xml:space="preserve">
+    <value>Exportálás PDF-be</value>
+  </data>
+  <data name="RichTextEditor_Audio" xml:space="preserve">
+    <value>Hanganyag beillesztése</value>
+  </data>
+  <data name="RichTextEditor_Video" xml:space="preserve">
+    <value>Videó beillesztése</value>
+  </data>
+  <data name="RichTextEditor_Default" xml:space="preserve">
+    <value>Alapértelmezett</value>
   </data>
   <data name="DiagramComponent_X" xml:space="preserve">
     <value>x</value>
@@ -4578,6 +4644,57 @@
   <data name="PdfViewer_Of" xml:space="preserve">
     <value>nak,-nek</value>
   </data>
+  <data name="PdfViewer_OrganizePages" xml:space="preserve">
+    <value>Oldalak rendezése</value>
+  </data>
+  <data name="PdfViewer_Pages" xml:space="preserve">
+    <value>Oldalak</value>
+  </data>
+  <data name="PdfViewer_RotateLeft" xml:space="preserve">
+    <value>Forgatás balra</value>
+  </data>
+  <data name="PdfViewer_RotateRight" xml:space="preserve">
+    <value>Forgatás jobbra</value>
+  </data>
+  <data name="PdfViewer_DuplicatePages" xml:space="preserve">
+    <value>Oldalak másolása</value>
+  </data>
+  <data name="PdfViewer_DeletePages" xml:space="preserve">
+    <value>Oldalak törlése</value>
+  </data>
+  <data name="PdfViewer_PageZoom" xml:space="preserve">
+    <value>Oldal nagyítása</value>
+  </data>
+  <data name="PdfViewer_SelectAll" xml:space="preserve">
+    <value>Összes kijelölése</value>
+  </data>
+  <data name="PdfViewer_ImportDocument" xml:space="preserve">
+    <value>Dokumentum importálása</value>
+  </data>
+  <data name="PdfViewer_ExtractDocument" xml:space="preserve">
+    <value>Dokumentum kivonása</value>
+  </data>
+  <data name="PdfViewer_Total" xml:space="preserve">
+    <value>Összesen</value>
+  </data>
+  <data name="PdfViewer_SaveAs" xml:space="preserve">
+    <value>Mentés másként</value>
+  </data>
+  <data name="PdfViewer_InsertLeft" xml:space="preserve">
+    <value>Beszúrás balra</value>
+  </data>
+  <data name="PdfViewer_InsertRight" xml:space="preserve">
+    <value>Beszúrás jobbra</value>
+  </data>
+  <data name="PdfViewer_DuplicatePage" xml:space="preserve">
+    <value>Oldal másolása</value>
+  </data>
+  <data name="PdfViewer_DeletePage" xml:space="preserve">
+    <value>Oldal törlése</value>
+  </data>
+  <data name="PdfViewer_AllPagesDelete" xml:space="preserve">
+    <value>Nem lehet minden oldalt törölni, mivel legalább egy oldalnak meg kell maradnia a dokumentumban.</value>
+  </data>
   <data name="PdfViewer_Required_ServiceUrl_Error_Message" xml:space="preserve">
     <value>Ez a PDF-megtekintő szerveroldali feldolgozást igényel a PDF-fájlok webszolgáltatáson keresztüli megjelenítéséhez. A PDF-megtekintő folytatásához konfigurálnia kell a szolgáltatás URL-címét</value>
   </data>
@@ -4609,10 +4726,58 @@
     <value>MI-szolgáltatás hiba</value>
   </data>
   <data name="PdfViewer_CredentialErrorContent" xml:space="preserve">
-    <value>A hitelesítési adatok hiányoznak, helytelenek vagy érvénytelenek. Kérjük, ellenőrizze és adja meg a megfelelő adatokat, majd próbálja újra.</value>
+    <value>A hitelesítő adatok nem lettek megadva, hibásak vagy érvénytelenek. Kérjük, adja meg a helyes hitelesítő adatokat, és próbálja meg újra.</value>
   </data>
   <data name="PdfViewer_ConnectionLostErrorContent" xml:space="preserve">
     <value>Megszakadt a kapcsolat az MI-szolgáltatással. Kérjük, ellenőrizze a hálózati kapcsolatot, majd próbálja újra.</value>
+  </data>
+  <data name="PdfViewer_UnSupportedDialogContent" xml:space="preserve">
+    <value>Ez a fájl nem támogatja a generatív mesterséges intelligencia funkcióit, mert üres, vagy nem tartalmaz elegendő szöveget. Kérjük, próbáljon meg egy másik fájlt.</value>
+  </data>
+  <data name="SmartPdfViewer_TimeOutErrorHeader" xml:space="preserve">
+    <value>A kérés időtúllépéssel megszakadt</value>
+  </data>
+  <data name="SmartPdfViewer_TimeOutErrorContent" xml:space="preserve">
+    <value>A keresési kérés a vártnál hosszabb ideig tartott, és túllépte a megengedett időkeretet.</value>
+  </data>
+  <data name="SmartPdfViewer_DisClaimerContent" xml:space="preserve">
+    <value>A mesterséges intelligencia által generált válaszok pontatlanok vagy félrevezetők lehetnek. Feltétlenül ellenőrizze újra a válaszokat és a forrásokat.</value>
+  </data>
+  <data name="SmartPdfViewer_RedactionToolTip" xml:space="preserve">
+    <value>Intelligens Vörösítés</value>
+  </data>
+  <data name="SmartPdfViewer_RedactHeader" xml:space="preserve">
+    <value>Válaszd ki a mintát</value>
+  </data>
+  <data name="SmartPdfViewer_CancelRedact" xml:space="preserve">
+    <value>Törlés</value>
+  </data>
+  <data name="SmartPdfViewer_ApplyRedact" xml:space="preserve">
+    <value>Felismer</value>
+  </data>
+  <data name="SmartPdfViewer_ScanRedact" xml:space="preserve">
+    <value>Beolvasás</value>
+  </data>
+  <data name="SmartPdfViewer_SmartFillToolTip" xml:space="preserve">
+    <value>Intelligens űrlapkitöltés</value>
+  </data>
+  <data name="SmartPdfViewer_SmartFillText" xml:space="preserve">
+    <value>Okos Kitöltés</value>
+  </data>
+  <data name="SmartPdfViewer_AIAssistanceToolTip" xml:space="preserve">
+    <value>Mesterséges intelligencia támogatás</value>
+  </data>
+  <data name="SmartPdfViewer_RedactOptionsHeader" xml:space="preserve">
+    <value>Válassza ki az elrejtendő adatokat</value>
+  </data>
+  <data name="SmartPdfViewer_NoInformationErrorContent" xml:space="preserve">
+    <value>Nem található érzékeny információ a dokumentumban.</value>
+  </data>
+  <data name="SmartPdfViewer_NoInformationErrorContentHeader" xml:space="preserve">
+    <value>Nem található érzékeny adat</value>
+  </data>
+  <data name="SmartPdfViewer_RedactDisclaimer" xml:space="preserve">
+    <value>A mesterséges intelligencia által észlelt információk pontatlanok lehetnek. Kérjük, használat előtt ellenőrizze az eredményeket.</value>
   </data>
   <data name="DocumentEditor_Table" xml:space="preserve">
     <value>asztal</value>
@@ -5453,6 +5618,9 @@
   </data>
   <data name="DocumentEditor_UnderlineErrors" xml:space="preserve">
     <value>Húzza alá a hibákat</value>
+  </data>
+  <data name="DocumentEditor_MoreSuggestions" xml:space="preserve">
+    <value>További javaslat</value>
   </data>
   <data name="DocumentEditor_Ignore" xml:space="preserve">
     <value>Figyelmen kívül hagyni</value>
@@ -6810,38 +6978,8 @@
   <data name="Spreadsheet_Sort" xml:space="preserve">
     <value>Rendezés</value>
   </data>
-  <data name="Spreadsheet_ClearAll" xml:space="preserve">
-    <value>Minden törlése</value>
-  </data>
-  <data name="Spreadsheet_ClearFormats" xml:space="preserve">
-    <value>Formázás törlése</value>
-  </data>
-  <data name="Spreadsheet_ClearContents" xml:space="preserve">
-    <value>Tartalom törlése</value>
-  </data>
-  <data name="Spreadsheet_ClearHyperlinks" xml:space="preserve">
-    <value>Hivatkozások törlése</value>
-  </data>
-  <data name="Spreadsheet_Clear" xml:space="preserve">
-    <value>Törlés</value>
-  </data>
-  <data name="Spreadsheet_Home" xml:space="preserve">
-    <value>Kezdőlap</value>
-  </data>
-  <data name="Spreadsheet_Link" xml:space="preserve">
-    <value>Hivatkozás</value>
-  </data>
   <data name="Spreadsheet_File" xml:space="preserve">
     <value>Fájl</value>
-  </data>
-  <data name="Spreadsheet_Image" xml:space="preserve">
-    <value>Kép</value>
-  </data>
-  <data name="Spreadsheet_New" xml:space="preserve">
-    <value>Új</value>
-  </data>
-  <data name="Spreadsheet_Open" xml:space="preserve">
-    <value>Megnyitás</value>
   </data>
   <data name="Spreadsheet_ABS" xml:space="preserve">
     <value>Egy szám abszolút értékét adja eredményül</value>
@@ -8052,13 +8190,13 @@
   <data name="Spreadsheet_LastMonth" xml:space="preserve">
     <value>Múlt hónap</value>
   </data>
-  <data name="Spreadsheet_NextQuater" xml:space="preserve">
+  <data name="Spreadsheet_NextQuarter" xml:space="preserve">
     <value>Következő negyedév</value>
   </data>
-  <data name="Spreadsheet_ThisQuater" xml:space="preserve">
+  <data name="Spreadsheet_ThisQuarter" xml:space="preserve">
     <value>Ez a negyedév</value>
   </data>
-  <data name="Spreadsheet_LastQuater" xml:space="preserve">
+  <data name="Spreadsheet_LastQuarter" xml:space="preserve">
     <value>Múlt negyedév</value>
   </data>
   <data name="Spreadsheet_NextYear" xml:space="preserve">
@@ -8099,9 +8237,6 @@
   </data>
   <data name="Spreadsheet_EnterName" xml:space="preserve">
     <value>Adja meg a munkalap nevét</value>
-  </data>
-  <data name="Spreadsheet_SaveAs" xml:space="preserve">
-    <value>Mentés másként</value>
   </data>
   <data name="Spreadsheet_MicrosoftExcel" xml:space="preserve">
     <value>Microsoft Excel</value>
@@ -8238,6 +8373,123 @@
   <data name="Spreadsheet_FontSize" xml:space="preserve">
     <value>Betűméret</value>
   </data>
+  <data name="Spreadsheet_DataLimitExceed" xml:space="preserve">
+    <value>A fájl adatai túl nagyok, és a feldolgozás több időt vesz igénybe, folytatni szeretné?</value>
+  </data>
+  <data name="Spreadsheet_FileLimitExceed" xml:space="preserve">
+    <value>A fájl mérete túl nagy, és a feldolgozás több időt vesz igénybe, folytatni szeretné?</value>
+  </data>
+  <data name="Spreadsheet_PasswordPrompt" xml:space="preserve">
+    <value>védett</value>
+  </data>
+  <data name="Spreadsheet_UnsupportedFile" xml:space="preserve">
+    <value>Nem támogatott fájl</value>
+  </data>
+  <data name="Spreadsheet_View" xml:space="preserve">
+    <value>Nézet</value>
+  </data>
+  <data name="Spreadsheet_Borders" xml:space="preserve">
+    <value>Szegélyek</value>
+  </data>
+  <data name="Spreadsheet_RightBorder" xml:space="preserve">
+    <value>Jobb szegély</value>
+  </data>
+  <data name="Spreadsheet_BottomBorder" xml:space="preserve">
+    <value>Alsó szegély</value>
+  </data>
+  <data name="Spreadsheet_TopBorder" xml:space="preserve">
+    <value>Felső szegély</value>
+  </data>
+  <data name="Spreadsheet_LeftBorder" xml:space="preserve">
+    <value>Bal szegély</value>
+  </data>
+  <data name="Spreadsheet_NoBorder" xml:space="preserve">
+    <value>Nincs szegély</value>
+  </data>
+  <data name="Spreadsheet_AllBorders" xml:space="preserve">
+    <value>Minden szegély</value>
+  </data>
+  <data name="Spreadsheet_OutsideBorders" xml:space="preserve">
+    <value>Külső szegélyek</value>
+  </data>
+  <data name="Spreadsheet_InsideBorders" xml:space="preserve">
+    <value>Belső szegélyek</value>
+  </data>
+  <data name="Spreadsheet_HorizontalBorders" xml:space="preserve">
+    <value>Vízszintes szegélyek</value>
+  </data>
+  <data name="Spreadsheet_VerticalBorders" xml:space="preserve">
+    <value>Függőleges szegélyek</value>
+  </data>
+  <data name="Spreadsheet_BorderColor" xml:space="preserve">
+    <value>Szegély színe</value>
+  </data>
+  <data name="Spreadsheet_BorderStyle" xml:space="preserve">
+    <value>Szegély stílusa</value>
+  </data>
+  <data name="Spreadsheet_Thin" xml:space="preserve">
+    <value>Vékony</value>
+  </data>
+  <data name="Spreadsheet_Medium" xml:space="preserve">
+    <value>Közepes</value>
+  </data>
+  <data name="Spreadsheet_Thick" xml:space="preserve">
+    <value>Vastag</value>
+  </data>
+  <data name="Spreadsheet_Dotted" xml:space="preserve">
+    <value>Pontozott</value>
+  </data>
+  <data name="Spreadsheet_Dashed" xml:space="preserve">
+    <value>Szaggatott</value>
+  </data>
+  <data name="Spreadsheet_Double" xml:space="preserve">
+    <value>Dupla</value>
+  </data>
+  <data name="Spreadsheet_ShowGridlines" xml:space="preserve">
+    <value>Rácsvonalak megjelenítése</value>
+  </data>
+  <data name="Spreadsheet_HideGridlines" xml:space="preserve">
+    <value>Rácsvonalak elrejtése</value>
+  </data>
+  <data name="Spreadsheet_WebPage" xml:space="preserve">
+    <value>Weboldal</value>
+  </data>
+  <data name="Spreadsheet_ThisDocument" xml:space="preserve">
+    <value>Ez a dokumentum</value>
+  </data>
+  <data name="Spreadsheet_DisplayText" xml:space="preserve">
+    <value>Megjelenítő szöveg</value>
+  </data>
+  <data name="Spreadsheet_Url" xml:space="preserve">
+    <value>URL</value>
+  </data>
+  <data name="Spreadsheet_Sheet" xml:space="preserve">
+    <value>Munkalap</value>
+  </data>
+  <data name="Spreadsheet_ReferenceCell" xml:space="preserve">
+    <value>Cellahivatkozás</value>
+  </data>
+  <data name="Spreadsheet_MergeCell" xml:space="preserve">
+    <value>Cella egyesítése</value>
+  </data>
+  <data name="Spreadsheet_MergeCellDialog" xml:space="preserve">
+    <value>A cellák egyesítése csak a bal felső értéket tartja meg, és elveteti az összes többi értéket.</value>
+  </data>
+  <data name="Spreadsheet_MergeCellSize" xml:space="preserve">
+    <value>Ehhez az összes egyesített cellának azonos méretűnek kell lennie.</value>
+  </data>
+  <data name="Spreadsheet_MergeCenter" xml:space="preserve">
+    <value>Egyesítés &amp; Központ</value>
+  </data>
+  <data name="Spreadsheet_MergeAcross" xml:space="preserve">
+    <value>Egyesítés keresztül</value>
+  </data>
+  <data name="Spreadsheet_MergeCells" xml:space="preserve">
+    <value>Cellák egyesítése</value>
+  </data>
+  <data name="Spreadsheet_UnMergeCells" xml:space="preserve">
+    <value>Cellák szétválasztása</value>
+  </data>
   <data name="RichTextEditor_InlineCode" xml:space="preserve">
     <value>Beágyazott kód</value>
   </data>
@@ -8328,9 +8580,9 @@
 <data name="RichTextEditor_HorizontalLine" xml:space="preserve">
     <value>Vízszintes Vonal</value>
 </data>
-  <data name="RichTextEditor_CodeBlock" xml:space="preserve">
-    <value>Kódblokk beszúrása</value>
-  </data>
+<data name="RichTextEditor_CodeBlock" xml:space="preserve">
+  <value>Kódblokk beszúrása</value>
+</data>
   <data name="Spreadsheet_Bold" xml:space="preserve">
     <value>Bátor</value>
   </data>
@@ -8433,6 +8685,9 @@
   <data name="Spreadsheet_Custom" xml:space="preserve">
     <value>Egyedi</value>
   </data>
+  <data name="Spreadsheet_NumberFormat" xml:space="preserve">
+    <value>Számformátum</value>
+  </data>
   <data name="Spreadsheet_General" xml:space="preserve">
     <value>Tábornok</value>
   </data>
@@ -8511,17 +8766,20 @@
   <data name="Spreadsheet_DownloadPDF" xml:space="preserve">
     <value>Töltse le PDF -ként</value>
   </data>
-  <data name="Spreadsheet_Filter" xml:space="preserve">
-    <value>Szűrő</value>
-  </data>
-  <data name="Spreadsheet_File" xml:space="preserve">
-    <value>Irat</value>
-  </data>
-  <data name="Spreadsheet_Sort" xml:space="preserve">
-    <value>Fajta</value>
-  </data>
   <data name="Spreadsheet_AlignBottom" xml:space="preserve">
     <value>Alul igazítsa</value>
+  </data>
+  <data name="Spreadsheet_Hide" xml:space="preserve">
+    <value>Elrejt</value>
+  </data>
+  <data name="Spreadsheet_OkButton" xml:space="preserve">
+    <value>OK</value>
+  </data>
+    <data name="Spreadsheet_ShowRowsWhere" xml:space="preserve">
+    <value>Sorok megjelenítése, ahol</value>
+  </data>
+  <data name="Spreadsheet_ChooseTime" xml:space="preserve">
+    <value>Válasszon időt</value>
   </data>
   <data name="Spreadsheet_AlignMiddle" xml:space="preserve">
     <value>Igazítsa középen</value>
@@ -8529,17 +8787,20 @@
   <data name="Spreadsheet_AlignTop" xml:space="preserve">
     <value>Igazítsa a tetejét</value>
   </data>
-  <data name="Spreadsheet_InsertLeft" xml:space="preserve">
-    <value>Helyezze be az oszlopot balra</value>
-  </data>
-  <data name="Spreadsheet_InsertRight" xml:space="preserve">
-    <value>Helyezze be az oszlop jobbra</value>
-  </data>
-  <data name="Spreadsheet_InsertRowsAbove" xml:space="preserve">
-    <value>Helyezze be a fenti sorokat</value>
-  </data>
   <data name="Spreadsheet_InsertRowBelow" xml:space="preserve">
     <value>Helyezzen be sorokat az alábbiakba</value>
+  </data>
+  <data name="Spreadsheet_FillSeries" xml:space="preserve">
+    <value>Sorozat kitöltése</value>
+  </data>
+  <data name="Spreadsheet_FillFormattingOnly" xml:space="preserve">
+    <value>Csak formázás kitöltése</value>
+  </data>
+  <data name="Spreadsheet_FillWithoutFormatting" xml:space="preserve">
+    <value>Kitöltés formázás nélkül</value>
+  </data>
+  <data name="Spreadsheet_CopyCells" xml:space="preserve">
+    <value>Cellák másolása</value>
   </data>
   <data name="SpeechToText_Aborted_Error" xml:space="preserve">
     <value>A beszédfelismerést megszakították.</value>
@@ -8646,10 +8907,172 @@
   <data name="Spreadsheet_ExpandRibbonTab" xml:space="preserve">
     <value>Bontsa ki az eszköztárat</value>
   </data>
+  <data name="Spreadsheet_InvalidFileNameMessage" xml:space="preserve">
+   <value>Használjon olyan nevet, amely nem tartalmazza ezeket a karaktereket: \ / : * ? "  |</value>
+  </data>
+  <data name="Spreadsheet_EmptyFileName" xml:space="preserve">
+    <value>A fájlnév nem lehet üres.</value>
+  </data>
+  <data name="Spreadsheet_CircularReference" xml:space="preserve">
+    <value>Megállapítottuk, hogy körkörös hivatkozást tartalmazó képletet írt be.</value>
+  </data>
   <data name="RichTextEditor_FormatPainter" xml:space="preserve">
     <value>Formátumfestő</value>
   </data>
+  <data name="RichTextEditor_LineHeight" xml:space="preserve">
+    <value>SorMagasság</value>
+  </data>
   <data name="DataForm_SubmitContent" xml:space="preserve">
     <value>Beküldés</value>
+  </data>
+  <data name="AssistView_FileSize_Failure" xml:space="preserve">
+    <value>A feltöltés sikertelen: A fájl mérete túl nagy</value>
+  </data>
+  <data name="ChatUI_Forwarded_Message" xml:space="preserve">
+    <value>Továbbítva</value>
+  </data>
+  <data name="ChatUI_MentionNoRecord" xml:space="preserve">
+    <value>Nem található rekord</value>
+  </data>
+  <data name="ChatUI_Send" xml:space="preserve">
+    <value>Küldés</value>
+  </data>
+  <data name="ChatUI_Attachments" xml:space="preserve">
+    <value>Fájl csatolása</value>
+  </data>
+  <data name="ChatUI_Download" xml:space="preserve">
+    <value>Letöltés</value>
+  </data>
+  <data name="ChatUI_Close" xml:space="preserve">
+    <value>Bezárás</value>
+  </data>
+  <data name="ChatUI_FileUploadFailure" xml:space="preserve">
+    <value>Feltöltési korlát elérve: legfeljebb {0} fájl engedélyezett. Távolítsa el a felesleges fájlokat a feltöltés folytatásához</value>
+  </data>
+  <data name="ChatUI_FilePreview" xml:space="preserve">
+    <value>Nincs elérhető előnézet</value>
+  </data>
+  <data name="ChatUI_FileSizeFailure" xml:space="preserve">
+    <value>A feltöltés sikertelen: {0} fájl mérete túl nagy</value>
+  </data>
+  <data name="AIAssistView_FileCountFailure" xml:space="preserve">
+    <value>Feltöltési korlát elérve: legfeljebb {0} fájl engedélyezett. Távolítsa el a felesleges fájlokat a feltöltés folytatásához</value>
+  </data>
+  <data name="AssistView_Send" xml:space="preserve">
+    <value>Küldés</value>
+  </data>
+  <data name="AssistView_Attachments" xml:space="preserve">
+    <value>Fájl csatolása</value>
+  </data>
+  <data name="AssistView_Clear" xml:space="preserve">
+    <value>Törlés</value>
+  </data>
+  <data name="BlockEditor_Paragraph" xml:space="preserve">
+      <value>Írjon valamit vagy '/' a parancsokhoz.</value>
+  </data>
+  <data name="BlockEditor_Heading1" xml:space="preserve">
+      <value>Címsor 1</value>
+  </data>
+  <data name="BlockEditor_Heading2" xml:space="preserve">
+      <value>Címsor 2</value>
+  </data>
+  <data name="BlockEditor_Heading3" xml:space="preserve">
+      <value>Címsor 3</value>
+  </data>
+  <data name="BlockEditor_Heading4" xml:space="preserve">
+      <value>Címsor 4</value>
+  </data>
+  <data name="BlockEditor_CollapsibleParagraph" xml:space="preserve">
+      <value>Összecsukható bekezdés</value>
+  </data>
+  <data name="BlockEditor_CollapsibleHeading1" xml:space="preserve">
+      <value>Összecsukható címsor 1</value>
+  </data>
+  <data name="BlockEditor_CollapsibleHeading2" xml:space="preserve">
+      <value>Összecsukható címsor 2</value>
+  </data>
+  <data name="BlockEditor_CollapsibleHeading3" xml:space="preserve">
+      <value>Összecsukható címsor 3</value>
+  </data>
+  <data name="BlockEditor_CollapsibleHeading4" xml:space="preserve">
+      <value>Összecsukható címsor 4</value>
+  </data>
+  <data name="BlockEditor_BulletList" xml:space="preserve">
+      <value>Elem hozzáadása</value>
+  </data>
+  <data name="BlockEditor_NumberedList" xml:space="preserve">
+      <value>Elem hozzáadása</value>
+  </data>
+  <data name="BlockEditor_Checklist" xml:space="preserve">
+      <value>Feladat</value>
+  </data>
+  <data name="BlockEditor_Quote" xml:space="preserve">
+      <value>Idézet írása</value>
+  </data>
+  <data name="BlockEditor_Callout" xml:space="preserve">
+      <value>Megjegyzés írása</value>
+  </data>
+  <data name="BlockEditor_AddIconTooltip" xml:space="preserve">
+      <value>Kattintson az alábbi beszúráshoz</value>
+  </data>
+  <data name="BlockEditor_DragIconTooltipActionMenu" xml:space="preserve">
+      <value>Kattintson a megnyitáshoz</value>
+  </data>
+  <data name="BlockEditor_DragIconTooltip" xml:space="preserve">
+      <value>(Tartsa lenyomva a húzáshoz)</value>
+  </data>
+  <data name="BlockEditor_InsertLink" xml:space="preserve">
+      <value>Hivatkozás beszúrása</value>
+  </data>
+  <data name="BlockEditor_LinkText" xml:space="preserve">
+      <value>Szöveg</value>
+  </data>
+  <data name="BlockEditor_LinkTextPlaceholder" xml:space="preserve">
+      <value>Hivatkozás szövege</value>
+  </data>
+  <data name="BlockEditor_LinkUrl" xml:space="preserve">
+      <value>URL</value>
+  </data>
+  <data name="BlockEditor_LinkUrlPlaceholder" xml:space="preserve">
+      <value>https://pelda.com</value>
+  </data>
+  <data name="BlockEditor_LinkTitle" xml:space="preserve">
+      <value>Cím</value>
+  </data>
+  <data name="BlockEditor_LinkTitlePlaceholder" xml:space="preserve">
+      <value>Hivatkozás címe</value>
+  </data>
+  <data name="BlockEditor_LinkOpenInNewWindow" xml:space="preserve">
+      <value>Megnyitás új ablakban</value>
+  </data>
+  <data name="BlockEditor_LinkInsert" xml:space="preserve">
+      <value>Beszúrás</value>
+  </data>
+  <data name="BlockEditor_LinkRemove" xml:space="preserve">
+      <value>Eltávolítás</value>
+  </data>
+  <data name="BlockEditor_LinkCancel" xml:space="preserve">
+      <value>Mégse</value>
+  </data>
+  <data name="BlockEditor_CodeCopyTooltip" xml:space="preserve">
+      <value>Kód másolása</value>
+  </data>
+  <data name="DocumentEditorContainer_CommentsCloseHeader" xml:space="preserve">
+    <value>Nem mentett megjegyzések</value>
+  </data>
+  <data name="DocumentEditorContainer_CommentsCloseContent" xml:space="preserve">
+    <value>Olyan megjegyzései vannak, amelyeket még nem tettek közzé. Ha elhagyja ezt az oldalt, a rendszer elveti őket</value>
+  </data>
+  <data name="DocumentEditorContainer_KeepEditing" xml:space="preserve">
+    <value>Folytasd a szerkesztést</value>
+  </data>
+  <data name="DocumentEditorContainer_DiscardComments" xml:space="preserve">
+    <value>Megjegyzések elvetése</value>
+  </data>
+  <data name="DocumentEditor_Resolved" xml:space="preserve">
+    <value>Megoldva</value>
+  </data>
+  <data name="DocumentEditor_CommentMark" xml:space="preserve">
+    <value>Kattintson ide a megjegyzés megtekintéséhez</value>
   </data>
 </root>
