@@ -579,6 +579,12 @@
   <data name="FileManager_ServerError" xml:space="preserve">
     <value>ServerError: Geçersiz yanıt</value>
   </data>
+  <data name="FileManager_File" xml:space="preserve">
+    <value>Dosya</value>
+  </data>
+  <data name="FileManager_Folder" xml:space="preserve">
+    <value>Klasör</value>
+  </data>  
   <data name="Chart_Zoom" xml:space="preserve">
     <value>yakınlaştırma</value>
   </data>
@@ -2344,7 +2350,7 @@
     <value>Paragraf</value>
   </data>
   <data name="RichTextEditor_FormatsDropDownCode" xml:space="preserve">
-    <value>Kodu</value>
+    <value>Önceden biçimlendirilmiş</value>
   </data>
   <data name="RichTextEditor_FormatsDropDownQuotation" xml:space="preserve">
     <value>Teklif</value>
@@ -2891,6 +2897,15 @@
   </data>
   <data name="RichTextEditor_Default" xml:space="preserve">
     <value>Varsayılan</value>
+  </data>
+  <data name="RichTextEditor_Checklist" xml:space="preserve">
+    <value>Kontrol listesi</value>
+  </data>
+  <data name="RichTextEditor_SlashMenuCheckList" xml:space="preserve">
+    <value>Kontrol listesi</value>
+  </data>
+  <data name="RichTextEditor_SlashMenuChecklistDescription" xml:space="preserve">
+    <value>Kontrol listesi ekle</value>
   </data>
   <data name="DiagramComponent_X" xml:space="preserve">
     <value>X</value>
@@ -3719,6 +3734,12 @@
   </data>
   <data name="Schedule_Year" xml:space="preserve">
     <value>Yıl</value>
+  </data>
+  <data name="Schedule_YearLabel" xml:space="preserve">
+    <value>Yılın tüm günlerini gösteren genel bir bakış</value>
+  </data>
+  <data name="Schedule_MoreEventPopupLabel" xml:space="preserve">
+    <value>Pop-up görünümünde {0}'dan tüm etkinlikler</value>
   </data>
   <data name="Tab_CloseButtonTitle" xml:space="preserve">
     <value>Kapat</value>
@@ -8917,10 +8938,34 @@
   <data name="RichTextEditor_LineHeight" xml:space="preserve">
     <value>SorMagasság</value>
   </data>
+  <data name="SmartRichTextEditor_AICommands" xml:space="preserve">
+    <value>Akıllı Eylemler</value>
+  </data>
+  <data name="SmartRichTextEditor_AIQuery" xml:space="preserve">
+    <value>Yapay Zekaya Sorun (Alt+Enter)</value>
+  </data>
+  <data name="SmartRichTextEditor_AIAssistant" xml:space="preserve">
+    <value>AI Asistanı</value>
+  </data>
+  <data name="SmartRichTextEditor_Close" xml:space="preserve">
+    <value>Kapat</value>
+  </data>
+  <data name="SmartRichTextEditor_Regenerate" xml:space="preserve">
+    <value>Yeniden Oluştur</value>
+  </data>
+  <data name="SmartRichTextEditor_Copy" xml:space="preserve">
+    <value>Kopyala</value>
+  </data>
+  <data name="SmartRichTextEditor_Insert" xml:space="preserve">
+    <value>Ekle</value>
+  </data>
+  <data name="SmartRichTextEditor_History" xml:space="preserve">
+    <value>Tarih</value>
+  </data>
   <data name="DataForm_SubmitContent" xml:space="preserve">
     <value>Gönder</value>
   </data>
-  <data name="AssistView_FileSize_Failure" xml:space="preserve">
+  <data name="AIAssistView_FileSize_Failure" xml:space="preserve">
     <value>Yükleme başarısız: Dosya boyutu çok büyük</value>
   </data>
   <data name="ChatUI_Forwarded_Message" xml:space="preserve">
@@ -8953,13 +8998,13 @@
   <data name="AIAssistView_FileCountFailure" xml:space="preserve">
     <value>Yükleme sınırına ulaşıldı: En fazla {0} dosyaya izin veriliyor. Yüklemeye devam etmek için ekstra dosyaları kaldırın</value>
   </data>
-  <data name="AssistView_Send" xml:space="preserve">
+  <data name="AIAssistView_Send" xml:space="preserve">
     <value>Gönder</value>
   </data>
-  <data name="AssistView_Attachments" xml:space="preserve">
+  <data name="AIAssistView_Attachments" xml:space="preserve">
     <value>Dosya Ekle</value>
   </data>
-  <data name="AssistView_Clear" xml:space="preserve">
+  <data name="AIAssistView_Clear" xml:space="preserve">
     <value>Temizle</value>
   </data>
   <data name="BlockEditor_Paragraph" xml:space="preserve">
@@ -9052,6 +9097,210 @@
   <data name="BlockEditor_CodeCopyTooltip" xml:space="preserve">
       <value>Kodu kopyala</value>
   </data>
+  <data name="ChartWizard_Export" xml:space="preserve">
+    <value>İhracat</value>
+  </data>
+  <data name="ChartWizard_LineChart" xml:space="preserve">
+    <value>Çizgi Grafiği</value>
+  </data>
+  <data name="ChartWizard_AreaChart" xml:space="preserve">
+    <value>Alan Grafiği</value>
+  </data>
+  <data name="ChartWizard_ColumnChart" xml:space="preserve">
+    <value>Sütun Grafiği</value>
+  </data>
+  <data name="ChartWizard_BarChart" xml:space="preserve">
+    <value>Çubuk Grafik</value>
+  </data>
+  <data name="ChartWizard_ScatterChart" xml:space="preserve">
+    <value>Dağılım Grafiği</value>
+  </data>
+  <data name="ChartWizard_PieChart" xml:space="preserve">
+    <value>Pasta Grafiği</value>
+  </data>
+  <data name="ChartWizard_Settings" xml:space="preserve">
+    <value>Ayarlar</value>
+  </data>
+  <data name="ChartWizard_CategoryAxis" xml:space="preserve">
+    <value>Kategori Ekseni</value>
+  </data>
+  <data name="ChartWizard_ValueAxis" xml:space="preserve">
+    <value>Değer Ekseni</value>
+  </data>
+  <data name="ChartWizard_Series" xml:space="preserve">
+    <value>Seri</value>
+  </data>
+  <data name="ChartWizard_Add" xml:space="preserve">
+    <value>Eklemek</value>
+  </data>
+  <data name="ChartWizard_ChartStyle" xml:space="preserve">
+    <value>Grafik Stili</value>
+  </data>
+  <data name="ChartWizard_Margin" xml:space="preserve">
+    <value>Marj</value>
+  </data>
+  <data name="ChartWizard_Top" xml:space="preserve">
+    <value>Tepe</value>
+  </data>
+  <data name="ChartWizard_Bottom" xml:space="preserve">
+    <value>Alt</value>
+  </data>
+  <data name="ChartWizard_Left" xml:space="preserve">
+    <value>Sol</value>
+  </data>
+  <data name="ChartWizard_Right" xml:space="preserve">
+    <value>Sağ</value>
+  </data>
+  <data name="ChartWizard_Appearence" xml:space="preserve">
+    <value>Görünüm</value>
+  </data>
+  <data name="ChartWizard_Color" xml:space="preserve">
+    <value>Renk</value>
+  </data>
+  <data name="ChartWizard_TitleStyle" xml:space="preserve">
+    <value>Başlık Stili</value>
+  </data>
+  <data name="ChartWizard_ApplyTo" xml:space="preserve">
+    <value>Uygula</value>
+  </data>
+  <data name="ChartWizard_Title" xml:space="preserve">
+    <value>Başlık</value>
+  </data>
+  <data name="ChartWizard_ChartTitle" xml:space="preserve">
+    <value>Grafik Başlığı</value>
+  </data>
+  <data name="ChartWizard_Subtitle" xml:space="preserve">
+    <value>Altyazı</value>
+  </data>
+  <data name="ChartWizard_Font" xml:space="preserve">
+    <value>Yazı tipi</value>
+  </data>
+  <data name="ChartWizard_Size" xml:space="preserve">
+    <value>Boyut</value>
+  </data>
+  <data name="ChartWizard_Legend" xml:space="preserve">
+    <value>Efsane</value>
+  </data>
+  <data name="ChartWizard_ShowLegend" xml:space="preserve">
+    <value>Göstergeyi göster</value>
+  </data>
+  <data name="ChartWizard_Position" xml:space="preserve">
+    <value>Konum</value>
+  </data>
+  <data name="ChartWizard_ShowTooltip" xml:space="preserve">
+    <value>Araç İpucunu Göster</value>
+  </data>
+  <data name="ChartWizard_ShowDataLabel" xml:space="preserve">
+    <value>Etiketi Göster</value>
+  </data>
+  <data name="ChartWizard_Axes" xml:space="preserve">
+    <value>Eksenler</value>
+  </data>
+  <data name="ChartWizard_ApplyToAxis" xml:space="preserve">
+    <value>Eksene Uygula</value>
+  </data>
+  <data name="ChartWizard_Horizontal" xml:space="preserve">
+    <value>Yatay</value>
+  </data>
+  <data name="ChartWizard_Vertical" xml:space="preserve">
+    <value>Dikey</value>
+  </data>
+  <data name="ChartWizard_ReverseOrder" xml:space="preserve">
+    <value>Ters Sıralama</value>
+  </data>
+  <data name="ChartWizard_TitleText" xml:space="preserve">
+    <value>Başlık metni</value>
+  </data>
+  <data name="ChartWizard_Label" xml:space="preserve">
+    <value>Etiket</value>
+  </data>
+  <data name="ChartWizard_Rotation" xml:space="preserve">
+    <value>Döndürme</value>
+  </data>
+  <data name="ChartWizard_Chart" xml:space="preserve">
+    <value>Çizelge</value>
+  </data>
+  <data name="ChartWizard_Data" xml:space="preserve">
+    <value>Veri</value>
+  </data>
+  <data name="ChartWizard_Format" xml:space="preserve">
+    <value>Biçim</value>
+  </data>
+  <data name="ChartWizard_Line" xml:space="preserve">
+    <value>Astar</value>
+  </data>
+  <data name="ChartWizard_Stacked_Line" xml:space="preserve">
+    <value>Yığılmış Hat</value>
+  </data>
+  <data name="ChartWizard_100%_Stacked_Line" xml:space="preserve">
+    <value>%100 Yığılmış Hat</value>
+  </data>
+  <data name="ChartWizard_Area" xml:space="preserve">
+    <value>Alan</value>
+  </data>
+  <data name="ChartWizard_Stacked_Area" xml:space="preserve">
+    <value>Yığılmış Alan</value>
+  </data>
+  <data name="ChartWizard_100%_Stacked_Area" xml:space="preserve">
+    <value>%100 Yığılmış Alan</value>
+  </data>
+  <data name="ChartWizard_Column" xml:space="preserve">
+    <value>Kolon</value>
+  </data>
+  <data name="ChartWizard_Stacked_Column" xml:space="preserve">
+    <value>Yığılmış Sütun</value>
+  </data>
+  <data name="ChartWizard_100%_Stacked_Column" xml:space="preserve">
+    <value>%100 Yığılmış Sütun</value>
+  </data>
+  <data name="ChartWizard_Bar" xml:space="preserve">
+    <value>Çubuk</value>
+  </data>
+  <data name="ChartWizard_Stacked_Bar" xml:space="preserve">
+    <value>Yığılmış Çubuk</value>
+  </data>
+  <data name="ChartWizard_100%_Stacked_Bar" xml:space="preserve">
+    <value>%100 Yığılmış Çubuk</value>
+  </data>
+  <data name="ChartWizard_Scatter" xml:space="preserve">
+    <value>Dağılım</value>
+  </data>
+  <data name="ChartWizard_Pie" xml:space="preserve">
+    <value>Pasta</value>
+  </data>
+  <data name="ChartWizard_PRINT" xml:space="preserve">
+    <value>Yazdır</value>
+  </data>
+  <data name="ChartWizard_PNG" xml:space="preserve">
+    <value>PNG</value>
+  </data>
+  <data name="ChartWizard_JPEG" xml:space="preserve">
+    <value>JPEG</value>
+  </data>
+  <data name="ChartWizard_SVG" xml:space="preserve">
+    <value>SVG</value>
+  </data>
+  <data name="ChartWizard_PDF" xml:space="preserve">
+    <value>PDF'ler</value>
+  </data>
+  <data name="ChartWizard_XLSX" xml:space="preserve">
+    <value>XLSX</value>
+  </data>
+  <data name="ChartWizard_CSV" xml:space="preserve">
+    <value>CSV</value>
+  </data>
+  <data name="ChartWizard_Hide_Side_Panel" xml:space="preserve">
+    <value>Yan Paneli Gizle</value>
+  </data>
+  <data name="ChartWizard_Show_Side_Panel" xml:space="preserve">
+    <value>Yan Paneli Göster</value>
+  </data>
+  <data name="ChartWizard_SelectAll" xml:space="preserve">
+    <value>Tümünü Seç</value>
+  </data>
+  <data name="BlockEditor_BlockContent_AriaLabel" xml:space="preserve">
+    <value>Blok düzenleyicinin blok içeriği.</value>
+  </data>
   <data name="DocumentEditorContainer_CommentsCloseHeader" xml:space="preserve">
     <value>Kaydedilmemiş yorumlar</value>
   </data>
@@ -9067,7 +9316,7 @@
   <data name="DocumentEditor_Resolved" xml:space="preserve">
     <value>Çözüldü</value>
   </data>
-  <data name="DocumentEditor_CommentMark" xml:space="preserve">
+  <data name="DocumentEditor_ClickToSeeThisComment" xml:space="preserve">
     <value>Bu yorumu görmek için tıklayın</value>
   </data>
 </root>

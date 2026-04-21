@@ -579,6 +579,12 @@
   <data name="FileManager_ServerError" xml:space="preserve">
     <value>ServerError: Érvénytelen válasz tőle</value>
   </data>
+  <data name="FileManager_File" xml:space="preserve">
+    <value>Fájl</value>
+  </data>
+  <data name="FileManager_Folder" xml:space="preserve">
+    <value>Mappa</value>
+  </data>  
   <data name="Chart_Zoom" xml:space="preserve">
     <value>Zoomolás</value>
   </data>
@@ -2347,7 +2353,7 @@
     <value>Bekezdés</value>
   </data>
   <data name="RichTextEditor_FormatsDropDownCode" xml:space="preserve">
-    <value>Kód</value>
+    <value>Előre formázott</value>
   </data>
   <data name="RichTextEditor_FormatsDropDownQuotation" xml:space="preserve">
     <value>Idézet</value>
@@ -2894,6 +2900,15 @@
   </data>
   <data name="RichTextEditor_Default" xml:space="preserve">
     <value>Alapértelmezett</value>
+  </data>
+  <data name="RichTextEditor_Checklist" xml:space="preserve">
+    <value>Ellenőrzőlista</value>
+  </data>
+  <data name="RichTextEditor_SlashMenuCheckList" xml:space="preserve">
+    <value>Ellenőrzőlista</value>
+  </data>
+  <data name="RichTextEditor_SlashMenuChecklistDescription" xml:space="preserve">
+    <value>Ellenőrzőlista hozzáadása</value>
   </data>
   <data name="DiagramComponent_X" xml:space="preserve">
     <value>x</value>
@@ -3725,6 +3740,12 @@
   </data>
   <data name="Schedule_Year" xml:space="preserve">
     <value>Év</value>
+  </data>
+  <data name="Schedule_YearLabel" xml:space="preserve">
+    <value>Áttekintés, amely az év összes napját mutatja</value>
+  </data>
+  <data name="Schedule_MoreEventPopupLabel" xml:space="preserve">
+    <value>Az összes esemény a(z) {0} helyről felugró nézetben</value>
   </data>
   <data name="Tab_CloseButtonTitle" xml:space="preserve">
     <value>Bezárás</value>
@@ -8919,10 +8940,34 @@
   <data name="RichTextEditor_LineHeight" xml:space="preserve">
     <value>SorMagasság</value>
   </data>
+  <data name="SmartRichTextEditor_AICommands" xml:space="preserve">
+    <value>Intelligens műveletek</value>
+  </data>
+  <data name="SmartRichTextEditor_AIQuery" xml:space="preserve">
+    <value>Kérdezz az AI-tól (Alt+Enter)</value>
+  </data>
+  <data name="SmartRichTextEditor_AIAssistant" xml:space="preserve">
+    <value>AI asszisztens</value>
+  </data>
+  <data name="SmartRichTextEditor_Close" xml:space="preserve">
+    <value>Regenerate</value>
+  </data>
+  <data name="SmartRichTextEditor_Regenerate" xml:space="preserve">
+    <value>Regenerate</value>
+  </data>
+  <data name="SmartRichTextEditor_Copy" xml:space="preserve">
+    <value>Másolat</value>
+  </data>
+  <data name="SmartRichTextEditor_Insert" xml:space="preserve">
+    <value>Beszúrás</value>
+  </data>
+  <data name="SmartRichTextEditor_History" xml:space="preserve">
+    <value>Előzmények</value>
+  </data>
   <data name="DataForm_SubmitContent" xml:space="preserve">
     <value>Beküldés</value>
   </data>
-  <data name="AssistView_FileSize_Failure" xml:space="preserve">
+  <data name="AIAssistView_FileSize_Failure" xml:space="preserve">
     <value>A feltöltés sikertelen: A fájl mérete túl nagy</value>
   </data>
   <data name="ChatUI_Forwarded_Message" xml:space="preserve">
@@ -8955,13 +9000,13 @@
   <data name="AIAssistView_FileCountFailure" xml:space="preserve">
     <value>Feltöltési korlát elérve: legfeljebb {0} fájl engedélyezett. Távolítsa el a felesleges fájlokat a feltöltés folytatásához</value>
   </data>
-  <data name="AssistView_Send" xml:space="preserve">
+  <data name="AIAssistView_Send" xml:space="preserve">
     <value>Küldés</value>
   </data>
-  <data name="AssistView_Attachments" xml:space="preserve">
+  <data name="AIAssistView_Attachments" xml:space="preserve">
     <value>Fájl csatolása</value>
   </data>
-  <data name="AssistView_Clear" xml:space="preserve">
+  <data name="AIAssistView_Clear" xml:space="preserve">
     <value>Törlés</value>
   </data>
   <data name="BlockEditor_Paragraph" xml:space="preserve">
@@ -9054,6 +9099,210 @@
   <data name="BlockEditor_CodeCopyTooltip" xml:space="preserve">
       <value>Kód másolása</value>
   </data>
+  <data name="ChartWizard_Export" xml:space="preserve">
+    <value>Export</value>
+  </data>
+  <data name="ChartWizard_LineChart" xml:space="preserve">
+    <value>Vonaldiagram</value>
+  </data>
+  <data name="ChartWizard_AreaChart" xml:space="preserve">
+    <value>Területi diagram</value>
+  </data>
+  <data name="ChartWizard_ColumnChart" xml:space="preserve">
+    <value>Oszlopdiagram</value>
+  </data>
+  <data name="ChartWizard_BarChart" xml:space="preserve">
+    <value>Oszlopdiagram</value>
+  </data>
+  <data name="ChartWizard_ScatterChart" xml:space="preserve">
+    <value>Szórványdiagram</value>
+  </data>
+  <data name="ChartWizard_PieChart" xml:space="preserve">
+    <value>Kördiagram</value>
+  </data>
+  <data name="ChartWizard_Settings" xml:space="preserve">
+    <value>Beállítások elemre</value>
+  </data>
+  <data name="ChartWizard_CategoryAxis" xml:space="preserve">
+    <value>Kategória tengely</value>
+  </data>
+  <data name="ChartWizard_ValueAxis" xml:space="preserve">
+    <value>Értéktengely</value>
+  </data>
+  <data name="ChartWizard_Series" xml:space="preserve">
+    <value>Sorozat</value>
+  </data>
+  <data name="ChartWizard_Add" xml:space="preserve">
+    <value>Hozzáadás</value>
+  </data>
+  <data name="ChartWizard_ChartStyle" xml:space="preserve">
+    <value>Diagram stílusa</value>
+  </data>
+  <data name="ChartWizard_Margin" xml:space="preserve">
+    <value>Margó</value>
+  </data>
+  <data name="ChartWizard_Top" xml:space="preserve">
+    <value>Top</value>
+  </data>
+  <data name="ChartWizard_Bottom" xml:space="preserve">
+    <value>Alsó</value>
+  </data>
+  <data name="ChartWizard_Left" xml:space="preserve">
+    <value>Balra</value>
+  </data>
+  <data name="ChartWizard_Right" xml:space="preserve">
+    <value>Jobbra</value>
+  </data>
+  <data name="ChartWizard_Appearence" xml:space="preserve">
+    <value>Megjelenés</value>
+  </data>
+  <data name="ChartWizard_Color" xml:space="preserve">
+    <value>Szín</value>
+  </data>
+  <data name="ChartWizard_TitleStyle" xml:space="preserve">
+    <value>Címstílus</value>
+  </data>
+  <data name="ChartWizard_ApplyTo" xml:space="preserve">
+    <value>Alkalmazni</value>
+  </data>
+  <data name="ChartWizard_Title" xml:space="preserve">
+    <value>Cím</value>
+  </data>
+  <data name="ChartWizard_ChartTitle" xml:space="preserve">
+    <value>Diagram címe</value>
+  </data>
+  <data name="ChartWizard_Subtitle" xml:space="preserve">
+    <value>Felirat</value>
+  </data>
+  <data name="ChartWizard_Font" xml:space="preserve">
+    <value>Betűtípus</value>
+  </data>
+  <data name="ChartWizard_Size" xml:space="preserve">
+    <value>Méret</value>
+  </data>
+  <data name="ChartWizard_Legend" xml:space="preserve">
+    <value>Legenda</value>
+  </data>
+  <data name="ChartWizard_ShowLegend" xml:space="preserve">
+    <value>Mutasd a legendát</value>
+  </data>
+  <data name="ChartWizard_Position" xml:space="preserve">
+    <value>Pozíció</value>
+  </data>
+  <data name="ChartWizard_ShowTooltip" xml:space="preserve">
+    <value>Elemleírás megjelenítése</value>
+  </data>
+  <data name="ChartWizard_ShowDataLabel" xml:space="preserve">
+    <value>Címke megjelenítése</value>
+  </data>
+  <data name="ChartWizard_Axes" xml:space="preserve">
+    <value>Axes</value>
+  </data>
+  <data name="ChartWizard_ApplyToAxis" xml:space="preserve">
+    <value>Alkalmazás a tengelyre</value>
+  </data>
+  <data name="ChartWizard_Horizontal" xml:space="preserve">
+    <value>Vízszintes</value>
+  </data>
+  <data name="ChartWizard_Vertical" xml:space="preserve">
+    <value>Függőleges</value>
+  </data>
+  <data name="ChartWizard_ReverseOrder" xml:space="preserve">
+    <value>Fordított sorrend</value>
+  </data>
+  <data name="ChartWizard_TitleText" xml:space="preserve">
+    <value>Cím szövege</value>
+  </data>
+  <data name="ChartWizard_Label" xml:space="preserve">
+    <value>Címke</value>
+  </data>
+  <data name="ChartWizard_Rotation" xml:space="preserve">
+    <value>Forgás</value>
+  </data>
+  <data name="ChartWizard_Chart" xml:space="preserve">
+    <value>Diagram</value>
+  </data>
+  <data name="ChartWizard_Data" xml:space="preserve">
+    <value>Adat</value>
+  </data>
+  <data name="ChartWizard_Format" xml:space="preserve">
+    <value>Formátum</value>
+  </data>
+  <data name="ChartWizard_Line" xml:space="preserve">
+    <value>Vonal</value>
+  </data>
+  <data name="ChartWizard_Stacked_Line" xml:space="preserve">
+    <value>Halmozott sor</value>
+  </data>
+  <data name="ChartWizard_100%_Stacked_Line" xml:space="preserve">
+    <value>100% halmozott vonal</value>
+  </data>
+  <data name="ChartWizard_Area" xml:space="preserve">
+    <value>Terület</value>
+  </data>
+  <data name="ChartWizard_Stacked_Area" xml:space="preserve">
+    <value>Halmozott terület</value>
+  </data>
+  <data name="ChartWizard_100%_Stacked_Area" xml:space="preserve">
+    <value>100% halmozott terület</value>
+  </data>
+  <data name="ChartWizard_Column" xml:space="preserve">
+    <value>Oszlop</value>
+  </data>
+  <data name="ChartWizard_Stacked_Column" xml:space="preserve">
+    <value>Halmozott oszlop</value>
+  </data>
+  <data name="ChartWizard_100%_Stacked_Column" xml:space="preserve">
+    <value>100% halmozott oszlop</value>
+  </data>
+  <data name="ChartWizard_Bar" xml:space="preserve">
+    <value>Bár</value>
+  </data>
+  <data name="ChartWizard_Stacked_Bar" xml:space="preserve">
+    <value>Halmozott bár</value>
+  </data>
+  <data name="ChartWizard_100%_Stacked_Bar" xml:space="preserve">
+    <value>100%-ban halmozott rúd</value>
+  </data>
+  <data name="ChartWizard_Scatter" xml:space="preserve">
+    <value>Szétszór</value>
+  </data>
+  <data name="ChartWizard_Pie" xml:space="preserve">
+    <value>Pite</value>
+  </data>
+  <data name="ChartWizard_PRINT" xml:space="preserve">
+    <value>Nyomtatás</value>
+  </data>
+  <data name="ChartWizard_PNG" xml:space="preserve">
+    <value>PNG</value>
+  </data>
+  <data name="ChartWizard_JPEG" xml:space="preserve">
+    <value>JPEG</value>
+  </data>
+  <data name="ChartWizard_SVG" xml:space="preserve">
+    <value>SVG</value>
+  </data>
+  <data name="ChartWizard_PDF" xml:space="preserve">
+    <value>PDF</value>
+  </data>
+  <data name="ChartWizard_XLSX" xml:space="preserve">
+    <value>XLSX</value>
+  </data>
+  <data name="ChartWizard_CSV" xml:space="preserve">
+    <value>CSV</value>
+  </data>
+  <data name="ChartWizard_Hide_Side_Panel" xml:space="preserve">
+    <value>Oldalpanel elrejtése</value>
+  </data>
+  <data name="ChartWizard_Show_Side_Panel" xml:space="preserve">
+    <value>Oldalpanel megjelenítése</value>
+  </data>
+  <data name="ChartWizard_SelectAll" xml:space="preserve">
+    <value>Válassza az Összes lehetőséget</value>
+  </data>
+  <data name="BlockEditor_BlockContent_AriaLabel" xml:space="preserve">
+    <value>A blokkszerkesztő blokk tartalma.</value>
+  </data>
   <data name="DocumentEditorContainer_CommentsCloseHeader" xml:space="preserve">
     <value>Nem mentett megjegyzések</value>
   </data>
@@ -9069,7 +9318,7 @@
   <data name="DocumentEditor_Resolved" xml:space="preserve">
     <value>Megoldva</value>
   </data>
-  <data name="DocumentEditor_CommentMark" xml:space="preserve">
+  <data name="DocumentEditor_ClickToSeeThisComment" xml:space="preserve">
     <value>Kattintson ide a megjegyzés megtekintéséhez</value>
   </data>
 </root>

@@ -753,6 +753,12 @@
   <data name="FileManager_ServerError" xml:space="preserve">
     <value>ServerError: Ungültige Antwort von</value>
   </data>
+  <data name="FileManager_File" xml:space="preserve">
+    <value>Datei</value>
+  </data>
+  <data name="FileManager_Folder" xml:space="preserve">
+    <value>Ordner</value>
+  </data>  
   <data name="Slider_DecrementTitle" xml:space="preserve">
     <value>erhöhen</value>
   </data>
@@ -1907,6 +1913,12 @@
   </data>
   <data name="Schedule_Year" xml:space="preserve">
     <value>Jahr</value>
+  </data>
+  <data name="Schedule_YearLabel" xml:space="preserve">
+    <value>Eine Übersicht, die alle Tage des Jahres anzeigt</value>
+  </data>
+  <data name="Schedule_MoreEventPopupLabel" xml:space="preserve">
+    <value>Alle Ereignisse von {0} in einer Popup-Ansicht</value>
   </data>
   <data name="PivotView_AddCondition" xml:space="preserve">
     <value>Bedingung hinzufügen</value>
@@ -3157,7 +3169,7 @@
     <value>Absatz</value>
   </data>
   <data name="RichTextEditor_FormatsDropDownCode" xml:space="preserve">
-    <value>kodex</value>
+    <value>Vorformatiert</value>
   </data>
   <data name="RichTextEditor_FormatsDropDownQuotation" xml:space="preserve">
     <value>Zitat</value>
@@ -3704,6 +3716,15 @@
   </data>
   <data name="RichTextEditor_Default" xml:space="preserve">
     <value>Standard</value>
+  </data>
+  <data name="RichTextEditor_Checklist" xml:space="preserve">
+    <value>Checkliste</value>
+  </data>
+  <data name="RichTextEditor_SlashMenuCheckList" xml:space="preserve">
+    <value>Checkliste</value>
+  </data>
+  <data name="RichTextEditor_SlashMenuChecklistDescription" xml:space="preserve">
+    <value>Checkliste hinzufügen</value>
   </data>
   <data name="DiagramComponent_X" xml:space="preserve">
     <value>X</value>
@@ -8919,10 +8940,34 @@
   <data name="RichTextEditor_LineHeight" xml:space="preserve">
     <value>Zeilenhöhe</value>
   </data>
+  <data name="SmartRichTextEditor_AICommands" xml:space="preserve">
+    <value>Intelligente Aktionen</value>
+  </data>
+  <data name="SmartRichTextEditor_AIQuery" xml:space="preserve">
+    <value>KI fragen (Alt+Enter)</value>
+  </data>
+  <data name="SmartRichTextEditor_AIAssistant" xml:space="preserve">
+    <value>KI-Assistent</value>
+  </data>
+  <data name="SmartRichTextEditor_Close" xml:space="preserve">
+    <value>Schließen</value>
+  </data>
+  <data name="SmartRichTextEditor_Regenerate" xml:space="preserve">
+    <value>Regenerieren</value>
+  </data>
+  <data name="SmartRichTextEditor_Copy" xml:space="preserve">
+    <value>Kopie</value>
+  </data>
+  <data name="SmartRichTextEditor_Insert" xml:space="preserve">
+    <value>Einfügen</value>
+  </data>
+  <data name="SmartRichTextEditor_History" xml:space="preserve">
+    <value>Verlauf</value>
+  </data>
   <data name="DataForm_SubmitContent" xml:space="preserve">
     <value>Absenden</value>
   </data>
-  <data name="AssistView_FileSize_Failure" xml:space="preserve">
+  <data name="AIAssistView_FileSize_Failure" xml:space="preserve">
     <value>Upload fehlgeschlagen: Dateigröße ist zu groß</value>
   </data>
   <data name="ChatUI_Forwarded_Message" xml:space="preserve">
@@ -8955,13 +9000,13 @@
   <data name="AIAssistView_FileCountFailure" xml:space="preserve">
     <value>Upload-Limit erreicht: Maximal {0} Dateien erlaubt. Entfernen Sie zusätzliche Dateien, um mit dem Hochladen fortzufahren</value>
   </data>
-  <data name="AssistView_Send" xml:space="preserve">
+  <data name="AIAssistView_Send" xml:space="preserve">
     <value>Senden</value>
   </data>
-  <data name="AssistView_Attachments" xml:space="preserve">
+  <data name="AIAssistView_Attachments" xml:space="preserve">
     <value>Datei anhängen</value>
   </data>
-  <data name="AssistView_Clear" xml:space="preserve">
+  <data name="AIAssistView_Clear" xml:space="preserve">
     <value>Löschen</value>
   </data>
   <data name="BlockEditor_Paragraph" xml:space="preserve">
@@ -9054,6 +9099,210 @@
   <data name="BlockEditor_CodeCopyTooltip" xml:space="preserve">
     <value>Code kopieren</value>
   </data>
+  <data name="ChartWizard_Export" xml:space="preserve">
+    <value>Export</value>
+  </data>
+  <data name="ChartWizard_LineChart" xml:space="preserve">
+    <value>Liniendiagramm</value>
+  </data>
+  <data name="ChartWizard_AreaChart" xml:space="preserve">
+    <value>Flächendiagramm</value>
+  </data>
+  <data name="ChartWizard_ColumnChart" xml:space="preserve">
+    <value>Säulendiagramm</value>
+  </data>
+  <data name="ChartWizard_BarChart" xml:space="preserve">
+    <value>Balkendiagramm</value>
+  </data>
+  <data name="ChartWizard_ScatterChart" xml:space="preserve">
+    <value>Streudiagramm</value>
+  </data>
+  <data name="ChartWizard_PieChart" xml:space="preserve">
+    <value>Kreisdiagramm</value>
+  </data>
+  <data name="ChartWizard_Settings" xml:space="preserve">
+    <value>Einstellungen</value>
+  </data>
+  <data name="ChartWizard_CategoryAxis" xml:space="preserve">
+    <value>Kategorieachse</value>
+  </data>
+  <data name="ChartWizard_ValueAxis" xml:space="preserve">
+    <value>Wertachse</value>
+  </data>
+  <data name="ChartWizard_Series" xml:space="preserve">
+    <value>Serie</value>
+  </data>
+  <data name="ChartWizard_Add" xml:space="preserve">
+    <value>Hinzufügen</value>
+  </data>
+  <data name="ChartWizard_ChartStyle" xml:space="preserve">
+    <value>Diagrammstil</value>
+  </data>
+  <data name="ChartWizard_Margin" xml:space="preserve">
+    <value>Marge</value>
+  </data>
+  <data name="ChartWizard_Top" xml:space="preserve">
+    <value>Spitze</value>
+  </data>
+  <data name="ChartWizard_Bottom" xml:space="preserve">
+    <value>Unten</value>
+  </data>
+  <data name="ChartWizard_Left" xml:space="preserve">
+    <value>Links</value>
+  </data>
+  <data name="ChartWizard_Right" xml:space="preserve">
+    <value>Rechts</value>
+  </data>
+  <data name="ChartWizard_Appearence" xml:space="preserve">
+    <value>Aussehen</value>
+  </data>
+  <data name="ChartWizard_Color" xml:space="preserve">
+    <value>Farbe</value>
+  </data>
+  <data name="ChartWizard_TitleStyle" xml:space="preserve">
+    <value>Titelstil</value>
+  </data>
+  <data name="ChartWizard_ApplyTo" xml:space="preserve">
+    <value>Gelten</value>
+  </data>
+  <data name="ChartWizard_Title" xml:space="preserve">
+    <value>Titel</value>
+  </data>
+  <data name="ChartWizard_ChartTitle" xml:space="preserve">
+    <value>Diagrammtitel</value>
+  </data>
+  <data name="ChartWizard_Subtitle" xml:space="preserve">
+    <value>Untertitel</value>
+  </data>
+  <data name="ChartWizard_Font" xml:space="preserve">
+    <value>Schriftart</value>
+  </data>
+  <data name="ChartWizard_Size" xml:space="preserve">
+    <value>Größe</value>
+  </data>
+  <data name="ChartWizard_Legend" xml:space="preserve">
+    <value>Legende</value>
+  </data>
+  <data name="ChartWizard_ShowLegend" xml:space="preserve">
+    <value>Legende anzeigen</value>
+  </data>
+  <data name="ChartWizard_Position" xml:space="preserve">
+    <value>Position</value>
+  </data>
+  <data name="ChartWizard_ShowTooltip" xml:space="preserve">
+    <value>Tooltip anzeigen</value>
+  </data>
+  <data name="ChartWizard_ShowDataLabel" xml:space="preserve">
+    <value>Etikett anzeigen</value>
+  </data>
+  <data name="ChartWizard_Axes" xml:space="preserve">
+    <value>Äxte</value>
+  </data>
+  <data name="ChartWizard_ApplyToAxis" xml:space="preserve">
+    <value>Auf Achse anwenden</value>
+  </data>
+  <data name="ChartWizard_Horizontal" xml:space="preserve">
+    <value>Horizontal</value>
+  </data>
+  <data name="ChartWizard_Vertical" xml:space="preserve">
+    <value>Vertikal</value>
+  </data>
+  <data name="ChartWizard_ReverseOrder" xml:space="preserve">
+    <value>Umgekehrte Reihenfolge</value>
+  </data>
+  <data name="ChartWizard_TitleText" xml:space="preserve">
+    <value>Titeltext</value>
+  </data>
+  <data name="ChartWizard_Label" xml:space="preserve">
+    <value>Etikett</value>
+  </data>
+  <data name="ChartWizard_Rotation" xml:space="preserve">
+    <value>Drehung</value>
+  </data>
+  <data name="ChartWizard_Chart" xml:space="preserve">
+    <value>Diagramm</value>
+  </data>
+  <data name="ChartWizard_Data" xml:space="preserve">
+    <value>Daten</value>
+  </data>
+  <data name="ChartWizard_Format" xml:space="preserve">
+    <value>Format</value>
+  </data>
+  <data name="ChartWizard_Line" xml:space="preserve">
+    <value>Linie</value>
+  </data>
+  <data name="ChartWizard_Stacked_Line" xml:space="preserve">
+    <value>Gestapelte Linie</value>
+  </data>
+  <data name="ChartWizard_100%_Stacked_Line" xml:space="preserve">
+    <value>100 % gestapelte Linie</value>
+  </data>
+  <data name="ChartWizard_Area" xml:space="preserve">
+    <value>Bereich</value>
+  </data>
+  <data name="ChartWizard_Stacked_Area" xml:space="preserve">
+    <value>Gestapelter Bereich</value>
+  </data>
+  <data name="ChartWizard_100%_Stacked_Area" xml:space="preserve">
+    <value>100 % Stapelfläche</value>
+  </data>
+  <data name="ChartWizard_Column" xml:space="preserve">
+    <value>Spalte</value>
+  </data>
+  <data name="ChartWizard_Stacked_Column" xml:space="preserve">
+    <value>Gestapelte Säule</value>
+  </data>
+  <data name="ChartWizard_100%_Stacked_Column" xml:space="preserve">
+    <value>100 % gestapelte Säule</value>
+  </data>
+  <data name="ChartWizard_Bar" xml:space="preserve">
+    <value>Bar</value>
+  </data>
+  <data name="ChartWizard_Stacked_Bar" xml:space="preserve">
+    <value>Gestapelte Bar</value>
+  </data>
+  <data name="ChartWizard_100%_Stacked_Bar" xml:space="preserve">
+    <value>100 % gestapelte Bar</value>
+  </data>
+  <data name="ChartWizard_Scatter" xml:space="preserve">
+    <value>Streuen</value>
+  </data>
+  <data name="ChartWizard_Pie" xml:space="preserve">
+    <value>Torte</value>
+  </data>
+  <data name="ChartWizard_PRINT" xml:space="preserve">
+    <value>Drucken</value>
+  </data>
+  <data name="ChartWizard_PNG" xml:space="preserve">
+    <value>PNG</value>
+  </data>
+  <data name="ChartWizard_JPEG" xml:space="preserve">
+    <value>JPEG</value>
+  </data>
+  <data name="ChartWizard_SVG" xml:space="preserve">
+    <value>SVG</value>
+  </data>
+  <data name="ChartWizard_PDF" xml:space="preserve">
+    <value>PDF</value>
+  </data>
+  <data name="ChartWizard_XLSX" xml:space="preserve">
+    <value>XLSX</value>
+  </data>
+  <data name="ChartWizard_CSV" xml:space="preserve">
+    <value>CSV</value>
+  </data>
+  <data name="ChartWizard_Hide_Side_Panel" xml:space="preserve">
+    <value>Seitenwand ausblenden</value>
+  </data>
+  <data name="ChartWizard_Show_Side_Panel" xml:space="preserve">
+    <value>Seitenbereich anzeigen</value>
+  </data>
+  <data name="ChartWizard_SelectAll" xml:space="preserve">
+    <value>Wählen Sie „Alle“ aus</value>
+  </data>
+  <data name="BlockEditor_BlockContent_AriaLabel" xml:space="preserve">
+    <value>Blockinhalte des Block-Editors.</value>
+  </data>
   <data name="DocumentEditorContainer_CommentsCloseHeader" xml:space="preserve">
     <value>Nicht gespeicherte Kommentare</value>
   </data>
@@ -9069,7 +9318,7 @@
   <data name="DocumentEditor_Resolved" xml:space="preserve">
     <value>Gelöst</value>
   </data>
-  <data name="DocumentEditor_CommentMark" xml:space="preserve">
+  <data name="DocumentEditor_ClickToSeeThisComment" xml:space="preserve">
     <value>Klicken Sie hier, um diesen Kommentar anzuzeigen</value>
   </data>
 </root>

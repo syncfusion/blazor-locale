@@ -579,6 +579,12 @@
   <data name="FileManager_ServerError" xml:space="preserve">
     <value>ServerError: ongeldige reactie van</value>
   </data>
+  <data name="FileManager_File" xml:space="preserve">
+    <value>Bestand</value>
+  </data>
+  <data name="FileManager_Folder" xml:space="preserve">
+    <value>Map</value>
+  </data>  
   <data name="Chart_Zoom" xml:space="preserve">
     <value>Zoom</value>
   </data>
@@ -2347,7 +2353,7 @@
     <value>Paragraaf</value>
   </data>
   <data name="RichTextEditor_FormatsDropDownCode" xml:space="preserve">
-    <value>Code</value>
+    <value>Voorgeformatteerd</value>
   </data>
   <data name="RichTextEditor_FormatsDropDownQuotation" xml:space="preserve">
     <value>Citaat</value>
@@ -2894,6 +2900,15 @@
   </data>
   <data name="RichTextEditor_Default" xml:space="preserve">
     <value>Standaard</value>
+  </data>
+  <data name="RichTextEditor_Checklist" xml:space="preserve">
+    <value>Controlelijst</value>
+  </data>
+  <data name="RichTextEditor_SlashMenuCheckList" xml:space="preserve">
+    <value>Controlelijst</value>
+  </data>
+  <data name="RichTextEditor_SlashMenuChecklistDescription" xml:space="preserve">
+    <value>Checklist toevoegen</value>
   </data>
   <data name="DiagramComponent_X" xml:space="preserve">
     <value>X</value>
@@ -3725,6 +3740,12 @@
   </data>
   <data name="Schedule_Year" xml:space="preserve">
     <value>Jaar</value>
+  </data>
+  <data name="Schedule_YearLabel" xml:space="preserve">
+    <value>Een overzicht met alle dagen van het jaar</value>
+  </data>
+  <data name="Schedule_MoreEventPopupLabel" xml:space="preserve">
+    <value>Alle gebeurtenissen van {0} in een pop-upweergave</value>
   </data>
   <data name="Tab_CloseButtonTitle" xml:space="preserve">
     <value>Dichtbij</value>
@@ -8919,10 +8940,34 @@
   <data name="RichTextEditor_LineHeight" xml:space="preserve">
     <value>Lijnhoogte</value>
   </data>
+  <data name="SmartRichTextEditor_AICommands" xml:space="preserve">
+    <value>Slimme acties</value>
+  </data>
+  <data name="SmartRichTextEditor_AIQuery" xml:space="preserve">
+    <value>Vraag AI (Alt+Enter)</value>
+  </data>
+  <data name="SmartRichTextEditor_AIAssistant" xml:space="preserve">
+    <value>AI-assistent</value>
+  </data>
+  <data name="SmartRichTextEditor_Close" xml:space="preserve">
+    <value>Sluiten</value>
+  </data>
+  <data name="SmartRichTextEditor_Regenerate" xml:space="preserve">
+    <value>Opnieuw genereren</value>
+  </data>
+  <data name="SmartRichTextEditor_Copy" xml:space="preserve">
+    <value>Kopiëren</value>
+  </data>
+  <data name="SmartRichTextEditor_Insert" xml:space="preserve">
+    <value>Invoegen</value>
+  </data>
+  <data name="SmartRichTextEditor_History" xml:space="preserve">
+    <value>Geschiedenis</value>
+  </data>
   <data name="DataForm_SubmitContent" xml:space="preserve">
     <value>Verzenden</value>
   </data>
-  <data name="AssistView_FileSize_Failure" xml:space="preserve">
+  <data name="AIAssistView_FileSize_Failure" xml:space="preserve">
     <value>Upload mislukt: Bestandsgrootte is te groot</value>
   </data>
   <data name="ChatUI_Forwarded_Message" xml:space="preserve">
@@ -8955,13 +9000,13 @@
   <data name="AIAssistView_FileCountFailure" xml:space="preserve">
     <value>Uploadlimiet bereikt: maximaal {0} bestanden toegestaan. Verwijder extra bestanden om door te gaan met uploaden</value>
   </data>
-  <data name="AssistView_Send" xml:space="preserve">
+  <data name="AIAssistView_Send" xml:space="preserve">
     <value>Verzenden</value>
   </data>
-  <data name="AssistView_Attachments" xml:space="preserve">
+  <data name="AIAssistView_Attachments" xml:space="preserve">
     <value>Bestand bijvoegen</value>
   </data>
-  <data name="AssistView_Clear" xml:space="preserve">
+  <data name="AIAssistView_Clear" xml:space="preserve">
     <value>Wissen</value>
   </data>
   <data name="BlockEditor_Paragraph" xml:space="preserve">
@@ -9054,6 +9099,210 @@
   <data name="BlockEditor_CodeCopyTooltip" xml:space="preserve">
       <value>Code kopiëren</value>
   </data>
+  <data name="ChartWizard_Export" xml:space="preserve">
+    <value>Exporteren</value>
+  </data>
+  <data name="ChartWizard_LineChart" xml:space="preserve">
+    <value>Lijndiagram</value>
+  </data>
+  <data name="ChartWizard_AreaChart" xml:space="preserve">
+    <value>Vlakdiagram</value>
+  </data>
+  <data name="ChartWizard_ColumnChart" xml:space="preserve">
+    <value>Kolomdiagram</value>
+  </data>
+  <data name="ChartWizard_BarChart" xml:space="preserve">
+    <value>Staafdiagram</value>
+  </data>
+  <data name="ChartWizard_ScatterChart" xml:space="preserve">
+    <value>Spreidingsdiagram</value>
+  </data>
+  <data name="ChartWizard_PieChart" xml:space="preserve">
+    <value>Cirkeldiagram</value>
+  </data>
+  <data name="ChartWizard_Settings" xml:space="preserve">
+    <value>Instellingen</value>
+  </data>
+  <data name="ChartWizard_CategoryAxis" xml:space="preserve">
+    <value>Categorie As</value>
+  </data>
+  <data name="ChartWizard_ValueAxis" xml:space="preserve">
+    <value>Waarde-as</value>
+  </data>
+  <data name="ChartWizard_Series" xml:space="preserve">
+    <value>Serie</value>
+  </data>
+  <data name="ChartWizard_Add" xml:space="preserve">
+    <value>Toevoegen</value>
+  </data>
+  <data name="ChartWizard_ChartStyle" xml:space="preserve">
+    <value>Grafiekstijl</value>
+  </data>
+  <data name="ChartWizard_Margin" xml:space="preserve">
+    <value>Marge</value>
+  </data>
+  <data name="ChartWizard_Top" xml:space="preserve">
+    <value>Bovenkant</value>
+  </data>
+  <data name="ChartWizard_Bottom" xml:space="preserve">
+    <value>Onderkant</value>
+  </data>
+  <data name="ChartWizard_Left" xml:space="preserve">
+    <value>Links</value>
+  </data>
+  <data name="ChartWizard_Right" xml:space="preserve">
+    <value>Rechts</value>
+  </data>
+  <data name="ChartWizard_Appearence" xml:space="preserve">
+    <value>Uiterlijk</value>
+  </data>
+  <data name="ChartWizard_Color" xml:space="preserve">
+    <value>Kleur</value>
+  </data>
+  <data name="ChartWizard_TitleStyle" xml:space="preserve">
+    <value>Titelstijl</value>
+  </data>
+  <data name="ChartWizard_ApplyTo" xml:space="preserve">
+    <value>Toepassen op</value>
+  </data>
+  <data name="ChartWizard_Title" xml:space="preserve">
+    <value>Titel</value>
+  </data>
+  <data name="ChartWizard_ChartTitle" xml:space="preserve">
+    <value>Grafiektitel</value>
+  </data>
+  <data name="ChartWizard_Subtitle" xml:space="preserve">
+    <value>Ondertitel</value>
+  </data>
+  <data name="ChartWizard_Font" xml:space="preserve">
+    <value>Lettertype</value>
+  </data>
+  <data name="ChartWizard_Size" xml:space="preserve">
+    <value>Maat</value>
+  </data>
+  <data name="ChartWizard_Legend" xml:space="preserve">
+    <value>Legende</value>
+  </data>
+  <data name="ChartWizard_ShowLegend" xml:space="preserve">
+    <value>Toon legende</value>
+  </data>
+  <data name="ChartWizard_Position" xml:space="preserve">
+    <value>Positie</value>
+  </data>
+  <data name="ChartWizard_ShowTooltip" xml:space="preserve">
+    <value>Tooltip weergeven</value>
+  </data>
+  <data name="ChartWizard_ShowDataLabel" xml:space="preserve">
+    <value>Etiket tonen</value>
+  </data>
+  <data name="ChartWizard_Axes" xml:space="preserve">
+    <value>Bijlen</value>
+  </data>
+  <data name="ChartWizard_ApplyToAxis" xml:space="preserve">
+    <value>Toepassen op as</value>
+  </data>
+  <data name="ChartWizard_Horizontal" xml:space="preserve">
+    <value>Horizontaal</value>
+  </data>
+  <data name="ChartWizard_Vertical" xml:space="preserve">
+    <value>Verticaal</value>
+  </data>
+  <data name="ChartWizard_ReverseOrder" xml:space="preserve">
+    <value>Omgekeerde volgorde</value>
+  </data>
+  <data name="ChartWizard_TitleText" xml:space="preserve">
+    <value>Titel tekst</value>
+  </data>
+  <data name="ChartWizard_Label" xml:space="preserve">
+    <value>Label</value>
+  </data>
+  <data name="ChartWizard_Rotation" xml:space="preserve">
+    <value>Rotatie</value>
+  </data>
+  <data name="ChartWizard_Chart" xml:space="preserve">
+    <value>Grafiek</value>
+  </data>
+  <data name="ChartWizard_Data" xml:space="preserve">
+    <value>Gegevens</value>
+  </data>
+  <data name="ChartWizard_Format" xml:space="preserve">
+    <value>Formaat</value>
+  </data>
+  <data name="ChartWizard_Line" xml:space="preserve">
+    <value>Lijn</value>
+  </data>
+  <data name="ChartWizard_Stacked_Line" xml:space="preserve">
+    <value>Gestapelde lijn</value>
+  </data>
+  <data name="ChartWizard_100%_Stacked_Line" xml:space="preserve">
+    <value>100% gestapelde lijn</value>
+  </data>
+  <data name="ChartWizard_Area" xml:space="preserve">
+    <value>Gebied</value>
+  </data>
+  <data name="ChartWizard_Stacked_Area" xml:space="preserve">
+    <value>Gestapeld gebied</value>
+  </data>
+  <data name="ChartWizard_100%_Stacked_Area" xml:space="preserve">
+    <value>100% gestapeld gebied</value>
+  </data>
+  <data name="ChartWizard_Column" xml:space="preserve">
+    <value>Kolom</value>
+  </data>
+  <data name="ChartWizard_Stacked_Column" xml:space="preserve">
+    <value>Gestapelde kolom</value>
+  </data>
+  <data name="ChartWizard_100%_Stacked_Column" xml:space="preserve">
+    <value>100% gestapelde kolom</value>
+  </data>
+  <data name="ChartWizard_Bar" xml:space="preserve">
+    <value>Bar</value>
+  </data>
+  <data name="ChartWizard_Stacked_Bar" xml:space="preserve">
+    <value>Gestapelde staaf</value>
+  </data>
+  <data name="ChartWizard_100%_Stacked_Bar" xml:space="preserve">
+    <value>100% gestapelde staaf</value>
+  </data>
+  <data name="ChartWizard_Scatter" xml:space="preserve">
+    <value>Verstrooien</value>
+  </data>
+  <data name="ChartWizard_Pie" xml:space="preserve">
+    <value>Taart</value>
+  </data>
+  <data name="ChartWizard_PRINT" xml:space="preserve">
+    <value>Afdrukken</value>
+  </data>
+  <data name="ChartWizard_PNG" xml:space="preserve">
+    <value>PNG</value>
+  </data>
+  <data name="ChartWizard_JPEG" xml:space="preserve">
+    <value>JPEG</value>
+  </data>
+  <data name="ChartWizard_SVG" xml:space="preserve">
+    <value>SVG</value>
+  </data>
+  <data name="ChartWizard_PDF" xml:space="preserve">
+    <value>Pdf</value>
+  </data>
+  <data name="ChartWizard_XLSX" xml:space="preserve">
+    <value>XLSX</value>
+  </data>
+  <data name="ChartWizard_CSV" xml:space="preserve">
+    <value>CSV</value>
+  </data>
+  <data name="ChartWizard_Hide_Side_Panel" xml:space="preserve">
+    <value>Zijpaneel verbergen</value>
+  </data>
+  <data name="ChartWizard_Show_Side_Panel" xml:space="preserve">
+    <value>Toon zijpaneel</value>
+  </data>
+  <data name="ChartWizard_SelectAll" xml:space="preserve">
+    <value>Selecteer Alles</value>
+  </data>
+  <data name="BlockEditor_BlockContent_AriaLabel" xml:space="preserve">
+    <value>Blokinhoud van de blokeditor.</value>
+  </data>
   <data name="DocumentEditorContainer_CommentsCloseHeader" xml:space="preserve">
     <value>Niet-opgeslagen opmerkingen</value>
   </data>
@@ -9069,7 +9318,7 @@
   <data name="DocumentEditor_Resolved" xml:space="preserve">
     <value>Opgelost</value>
   </data>
-  <data name="DocumentEditor_CommentMark" xml:space="preserve">
+  <data name="DocumentEditor_ClickToSeeThisComment" xml:space="preserve">
     <value>Klik om deze reactie te zien</value>
   </data>
 </root>
