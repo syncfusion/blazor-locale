@@ -2,7 +2,7 @@
 
 Localization (L10N) is the process of adapting application components and content to the desired language with its corresponding region. This page shows you how to use the Localization feature in your application.
 
-## How to enable Localization in Blazor application
+## How to enable Localization in Blazor application 
 
 [Blazor Localization documentation](https://blazor.syncfusion.com/documentation/common/localization)
 
