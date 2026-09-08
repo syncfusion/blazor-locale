@@ -2988,6 +2988,9 @@
   <data name="Grid_FilterbarTitle" xml:space="preserve">
     <value>"suodatinpalkin solu</value>
   </data>
+  <data name="Grid_FilterBar" xml:space="preserve">
+    <value>Suodatinpalkki</value>
+  </data>
   <data name="Grid_EmptyDataSourceError" xml:space="preserve">
     <value>DataSource ei saa olla tyhjä alkuperäisessä latauksessa, koska sarakkeet luodaan dataSourcesta AutoGenerate -sarakkeen ruudukossa</value>
   </data>
@@ -3512,6 +3515,9 @@
   </data>
   <data name="Schedule_BlockAlert" xml:space="preserve">
     <value>Tapahtumia ei voida ajoittaa estettyyn ajanjaksoon.</value>
+  </data>
+  <data name="Schedule_Overlap" xml:space="preserve">
+    <value>Tapahtumia ei voida ajoittaa valittuun aikaan, koska se päällekkäisesti toisen tapahtuman kanssa.</value>
   </data>
   <data name="Schedule_Cancel" xml:space="preserve">
     <value>Peruuttaa</value>
@@ -6932,6 +6938,9 @@
   <data name="ImageEditor_Pixel_Size" xml:space="preserve">
     <value>Pikselin koko</value>
   </data>
+  <data name="ImageEditor_Redact" xml:space="preserve">
+    <value>Redact</value>
+  </data>
   <data name="ColorPicker_RecentColors" xml:space="preserve">
     <value>Viimeaikaiset värit</value>
   </data>
@@ -8663,6 +8672,9 @@
   <data name="RichTextEditor_SlashMenuLinkDescription" xml:space="preserve">
     <value>Lisää linkki.</value>
 </data>
+  <data name="RichTextEditor_SlashMenuEmojiPicker" xml:space="preserve">
+    <value>Emojivalitsin</value>
+  </data>
   <data name="RichTextEditor_HorizontalLine" xml:space="preserve">
     <value>Vaakaviiva</value>
 </data>
@@ -8942,6 +8954,12 @@
   <data name="RichTextEditor_FormatPainter" xml:space="preserve">
     <value>Muotoilumaali</value>
   </data>
+  <data name="RichTextEditor_InsertTableRowTitle" xml:space="preserve">
+    <value>Anna kokonaisluku väliltä 1–100</value>
+  </data>
+  <data name="RichTextEditor_InsertTableColumnTitle" xml:space="preserve">
+    <value>Anna kokonaisluku väliltä 1–50</value>
+  </data>
   <data name="RichTextEditor_LineHeight" xml:space="preserve">
     <value>Rivikorkeus</value>
   </data>
@@ -8973,7 +8991,7 @@
     <value>Lähetä</value>
   </data>
   <data name="AIAssistView_FileSize_Failure" xml:space="preserve">
-    <value>Lataus epäonnistui: Tiedoston koko on liian suuri</value>
+    <value>Lataus epäonnistui: {0} tiedoston koko on liian suuri</value>
   </data>
   <data name="ChatUI_Forwarded_Message" xml:space="preserve">
     <value>Välitetty</value>
@@ -9188,6 +9206,12 @@
   <data name="ChartWizard_ChartTitle" xml:space="preserve">
     <value>Kaavion otsikko</value>
   </data>
+  <data name="ChartWizard_Chart_Preview" xml:space="preserve">
+    <value>Kaavion esikatselu</value>
+  </data>
+  <data name="ChartWizard_Close" xml:space="preserve">
+    <value>Sulje</value>
+  </data>
   <data name="ChartWizard_Subtitle" xml:space="preserve">
     <value>Tekstitys</value>
   </data>
@@ -9298,6 +9322,12 @@
   </data>
   <data name="ChartWizard_SVG" xml:space="preserve">
     <value>SVG</value>
+  </data>
+  <data name="ChartWizard_Maximize" xml:space="preserve">
+    <value>Maksimoida</value>
+  </data>
+  <data name="ChartWizard_Minimize" xml:space="preserve">
+    <value>Minimoida</value>
   </data>
   <data name="ChartWizard_PDF" xml:space="preserve">
     <value>PDF</value>

@@ -2988,6 +2988,9 @@
   <data name="Grid_FilterbarTitle" xml:space="preserve">
     <value>"sフィルターバーセル</value>
   </data>
+  <data name="Grid_FilterBar" xml:space="preserve">
+    <value>フィルターバー</value>
+  </data>
   <data name="Grid_EmptyDataSourceError" xml:space="preserve">
     <value>列はAutoGenerate Column GridのdataSourceから生成されるため、DataSourceは初期ロード時に空であってはなりません</value>
   </data>
@@ -3512,6 +3515,9 @@
   </data>
   <data name="Schedule_BlockAlert" xml:space="preserve">
     <value>ブロックされた時間範囲内でイベントをスケジュールすることはできません。</value>
+  </data>
+  <data name="Schedule_Overlap" xml:space="preserve">
+    <value>選択された時間にイベントをスケジュールすることはできません。別のイベントと重なります。</value>
   </data>
   <data name="Schedule_Cancel" xml:space="preserve">
     <value>キャンセル</value>
@@ -6933,6 +6939,9 @@
   <data name="ImageEditor_Pixel_Size" xml:space="preserve">
     <value>ピクセルサイズ</value>
   </data>
+  <data name="ImageEditor_Redact" xml:space="preserve">
+    <value>Redact</value>
+  </data>
   <data name="ColorPicker_RecentColors" xml:space="preserve">
     <value>最近の色</value>
   </data>
@@ -8643,6 +8652,9 @@
   <data name="RichTextEditor_SlashMenuLinkDescription" xml:space="preserve">
     <value>リンクを挿入します。</value>
 </data>
+  <data name="RichTextEditor_SlashMenuEmojiPicker" xml:space="preserve">
+    <value>絵文字ピッカー</value>
+  </data>
   <data name="RichTextEditor_HorizontalLine" xml:space="preserve">
     <value>水平線</value>
 </data>
@@ -8946,6 +8958,12 @@
   <data name="RichTextEditor_FormatPainter" xml:space="preserve">
     <value>書式のコピー</value>
   </data>
+  <data name="RichTextEditor_InsertTableRowTitle" xml:space="preserve">
+    <value>1～100の整数を入力してください</value>
+  </data>
+  <data name="RichTextEditor_InsertTableColumnTitle" xml:space="preserve">
+    <value>1～50の整数を入力してください</value>
+  </data>
   <data name="RichTextEditor_LineHeight" xml:space="preserve">
     <value>ライン高さ</value>
   </data>
@@ -8977,7 +8995,7 @@
     <value>送信</value>
   </data>
   <data name="AIAssistView_FileSize_Failure" xml:space="preserve">
-    <value>アップロードに失敗しました：ファイルサイズが大きすぎます</value>
+    <value>アップロードに失敗しました：{0} ファイルのサイズが大きすぎます</value>
   </data>
   <data name="ChatUI_Forwarded_Message" xml:space="preserve">
     <value>転送済み</value>
@@ -9192,6 +9210,12 @@
   <data name="ChartWizard_ChartTitle" xml:space="preserve">
     <value>チャートのタイトル</value>
   </data>
+  <data name="ChartWizard_Chart_Preview" xml:space="preserve">
+    <value>グラフのプレビュー</value>
+  </data>
+  <data name="ChartWizard_Close" xml:space="preserve">
+    <value>閉じる</value>
+  </data>
   <data name="ChartWizard_Subtitle" xml:space="preserve">
     <value>字幕</value>
   </data>
@@ -9302,6 +9326,12 @@
   </data>
   <data name="ChartWizard_SVG" xml:space="preserve">
     <value>SVG</value>
+  </data>
+  <data name="ChartWizard_Maximize" xml:space="preserve">
+    <value>最大化</value>
+  </data>
+  <data name="ChartWizard_Minimize" xml:space="preserve">
+    <value>最小化</value>
   </data>
   <data name="ChartWizard_PDF" xml:space="preserve">
     <value>PDF</value>

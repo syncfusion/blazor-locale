@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!--
     Microsoft ResX Schema
@@ -1185,6 +1185,9 @@
   <data name="Grid_FilterbarTitle" xml:space="preserve">
     <value>Κύτταρο φίλτρου φίλτρου</value>
   </data>
+  <data name="Grid_FilterBar" xml:space="preserve">
+    <value>Γραμμή φίλτρων</value>
+  </data>
   <data name="Grid_EmptyDataSourceError" xml:space="preserve">
     <value>Το DataSource δεν πρέπει να είναι άδειο στο αρχικό φορτίο, καθώς οι στήλες παράγονται από το Datasource στο Autogenerate Column Grid</value>
   </data>
@@ -1709,6 +1712,9 @@
   </data>
   <data name="Schedule_BlockAlert" xml:space="preserve">
     <value>Τα συμβάντα δεν μπορούν να προγραμματιστούν εντός του αποκλεισμένου χρονικού εύρους.</value>
+  </data>
+  <data name="Schedule_Overlap" xml:space="preserve">
+    <value>Τα συμβάντα δεν μπορούν να προγραμματιστούν την επιλεγμένη ώρα καθώς επικαλύπτονται με ένα άλλο συμβάν.</value>
   </data>
   <data name="Schedule_Cancel" xml:space="preserve">
     <value>Ματαίωση</value>
@@ -6929,6 +6935,9 @@
   <data name="ImageEditor_Pixel_Size" xml:space="preserve">
     <value>Μέγεθος εικονοστοιχείων</value>
   </data>
+  <data name="ImageEditor_Redact" xml:space="preserve">
+    <value>Redact</value>
+  </data>
   <data name="ColorPicker_RecentColors" xml:space="preserve">
     <value>Πρόσφατα χρώματα</value>
   </data>
@@ -8612,6 +8621,9 @@
   <data name="RichTextEditor_SlashMenuLinkDescription" xml:space="preserve">
     <value>Εισάγετε έναν σύνδεσμο.</value>
   </data>
+  <data name="RichTextEditor_SlashMenuEmojiPicker" xml:space="preserve">
+    <value>Επιλογέας emoji</value>
+  </data>
   <data name="RichTextEditor_HorizontalLine" xml:space="preserve">
     <value>Οριζόντια γραμμή</value>
   </data>
@@ -8725,6 +8737,12 @@
   </data>
   <data name="RichTextEditor_FormatPainter" xml:space="preserve">
     <value>Ζωγράφος μορφής</value>
+  </data>
+  <data name="RichTextEditor_InsertTableRowTitle" xml:space="preserve">
+    <value>Εισαγάγετε έναν ακέραιο αριθμό από το 1 έως το 100</value>
+  </data>
+  <data name="RichTextEditor_InsertTableColumnTitle" xml:space="preserve">
+    <value>Εισαγάγετε έναν ακέραιο αριθμό από το 1 έως το 50</value>
   </data>
   <data name="RichTextEditor_LineHeight" xml:space="preserve">
     <value> Ύψος γραμμής</value>
@@ -8966,6 +8984,9 @@
   <data name="Spreadsheet_CommaSeparatedValues" xml:space="preserve">
     <value>Τιμές διαχωρισμένες με κόμμα</value>
   </data>
+  <data name="Spreadsheet_PasteRange" xml:space="preserve">
+    <value>Δεν μπορείτε να κάνετε επικόλληση εδώ, επειδή η περιοχή αντιγραφής και η περιοχή επικόλλησης δεν έχουν το ίδιο μέγεθος. Δοκιμάστε να επικολλήσετε σε διαφορετική περιοχή.</value>
+  </data>
   <data name="Spreadsheet_UnMergeCells" xml:space="preserve">
     <value>Διαχωρισμός κελιών</value>
   </data>
@@ -8973,7 +8994,7 @@
     <value>Υποβολή</value>
   </data>
   <data name="AIAssistView_FileSize_Failure" xml:space="preserve">
-    <value>Η μεταφόρτωση απέτυχε: Το μέγεθος του αρχείου είναι πολύ μεγάλο</value>
+    <value>Η μεταφόρτωση απέτυχε: Το μέγεθος των {0} αρχείων είναι πολύ μεγάλο</value>
   </data>
   <data name="ChatUI_Forwarded_Message" xml:space="preserve">
     <value>Προωθημένο</value>
@@ -9188,6 +9209,12 @@
   <data name="ChartWizard_ChartTitle" xml:space="preserve">
     <value>Τίτλος γραφήματος</value>
   </data>
+  <data name="ChartWizard_Chart_Preview" xml:space="preserve">
+    <value>Προεπισκόπηση γραφήματος</value>
+  </data>
+  <data name="ChartWizard_Close" xml:space="preserve">
+    <value>Κλείσιμο</value>
+  </data>
   <data name="ChartWizard_Subtitle" xml:space="preserve">
     <value>Υπότιτλος</value>
   </data>
@@ -9298,6 +9325,12 @@
   </data>
   <data name="ChartWizard_SVG" xml:space="preserve">
     <value>SVG</value>
+  </data>
+  <data name="ChartWizard_Maximize" xml:space="preserve">
+    <value>Αυξάνω στον ανώτατο βαθμό</value>
+  </data>
+  <data name="ChartWizard_Minimize" xml:space="preserve">
+    <value>Ελαττώνω</value>
   </data>
   <data name="ChartWizard_PDF" xml:space="preserve">
     <value>PDF</value>

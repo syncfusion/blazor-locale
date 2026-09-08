@@ -543,6 +543,9 @@
   <data name="Schedule_Ok" xml:space="preserve">
     <value>OK</value>
   </data>
+  <data name="Schedule_Overlap" xml:space="preserve">
+    <value>Não é possível agendar eventos durante o horário escolhido, pois ele coincide com outro evento.</value>
+  </data>
   <data name="Schedule_Previous" xml:space="preserve">
     <value>Anterior</value>
   </data>
@@ -3346,7 +3349,7 @@
     <value>Mover para baixo</value>
   </data>
   <data name="ListBox_MoveFrom" xml:space="preserve">
-    <value>Mover-se a partir de</value>
+    <value>Mover de</value>
   </data>
   <data name="ListBox_MoveTo" xml:space="preserve">
     <value>Mover para</value>
@@ -3361,7 +3364,7 @@
     <value>Selecionar tudo</value>
   </data>
   <data name="ListBox_UnSelectAllText" xml:space="preserve">
-    <value>Desmarque todos</value>
+    <value>Desmarcar tudo</value>
   </data>
   <data name="QueryBuilder_AddCondition" xml:space="preserve">
     <value>Adicionar condição</value>
@@ -5823,6 +5826,9 @@
   <data name="Grid_FilterbarTitle" xml:space="preserve">
     <value>célula da barra de filtro</value>
   </data>
+  <data name="Grid_FilterBar" xml:space="preserve">
+    <value>Barra de Filtros</value>
+  </data>
   <data name="Grid_EmptyDataSourceError" xml:space="preserve">
     <value>DataSource não deve estar vazio no carregamento inicial, pois as colunas são geradas a partir de dataSource em AutoGenerate Column Grid</value>
   </data>
@@ -5864,6 +5870,9 @@
   </data>
   <data name="Grid_Save" xml:space="preserve">
     <value>Salvar</value>
+  </data>
+  <data name="Grid_Back" xml:space="preserve">
+    <value>Voltar</value>
   </data>
   <data name="Grid_Item" xml:space="preserve">
     <value>item</value>
@@ -6588,11 +6597,17 @@
   <data name="RichTextEditor_Video_Align" xml:space="preserve">
     <value>Alinhar</value>
   </data>
+  <data name="RichTextEditor_Markdown_Editor" xml:space="preserve">
+    <value>Editor Markdown</value>
+  </data>
   <data name="RichTextEditor_NumberFormatList" xml:space="preserve">
     <value>Lista de Formatos de Números</value>
   </data>
   <data name="RichTextEditor_Video_Dimension" xml:space="preserve">
     <value>Dimensão</value>
+  </data>
+  <data name="RichTextEditor_Link_AriaLabel" xml:space="preserve">
+    <value>Abrir em nova janela</value>
   </data>
   <data name="Message_Close" xml:space="preserve">
     <value>Fechar</value>
@@ -6620,6 +6635,18 @@
   </data>
   <data name="DocumentEditor_AltText" xml:space="preserve">
     <value>Texto alternativo</value>
+  </data>
+  <data name="DropDownTree_NoRecords" xml:space="preserve">
+    <value>Nenhum registro encontrado</value>
+  </data>
+  <data name="DropDownTree_RequestFailed" xml:space="preserve">
+    <value>A solicitação falhou</value>
+  </data>
+  <data name="DropDownTree_SelectAll" xml:space="preserve">
+    <value>Selecionar tudo</value>
+  </data>
+  <data name="DropDownTree_UnSelectAll" xml:space="preserve">
+    <value>Desmarcar tudo</value>
   </data>
   <data name="DocumentEditorContainer_TabStopPosition" xml:space="preserve">
 <value>Posição de parada de tabulação</value>
@@ -6838,10 +6865,10 @@
     <value>Desbloquear grupo</value>
   </data>
   <data name="QueryBuilder_LockRule" xml:space="preserve">
-    <value>Regra de bloqueio</value>
+    <value>Bloquear regra</value>
   </data>
   <data name="QueryBuilder_UnlockRule" xml:space="preserve">
-    <value>Regra de desbloqueio</value>
+    <value>Desbloquear regra</value>
   </data>
   <data name="QueryBuilder_CloneGroup" xml:space="preserve">
     <value>Clonar grupo</value>
@@ -6904,6 +6931,9 @@
     <value>Cor do contorno</value>
   </data>
   <data name="ImageEditor_RectRadius" xml:space="preserve">
+    <value>Raio do retângulo</value>
+  </data>
+  <data name="ImageEditor_Redact" xml:space="preserve">
     <value>Redigir</value>
   </data>
   <data name="ImageEditor_Pixelate" xml:space="preserve">
@@ -8925,6 +8955,12 @@
   <data name="RichTextEditor_FormatPainter" xml:space="preserve">
     <value>Pincel de Formatação</value>
   </data>
+  <data name="RichTextEditor_InsertTableRowTitle" xml:space="preserve">
+    <value>Insira um número inteiro de 1 a 100</value>
+  </data>
+  <data name="RichTextEditor_InsertTableColumnTitle" xml:space="preserve">
+    <value>Insira um número inteiro de 1 a 50</value>
+  </data>
   <data name="RichTextEditor_LineHeight" xml:space="preserve">
     <value>Altura da linha</value>
   </data>
@@ -9171,6 +9207,12 @@
   <data name="ChartWizard_ChartTitle" xml:space="preserve">
     <value>Título do gráfico</value>
   </data>
+  <data name="ChartWizard_Chart_Preview" xml:space="preserve">
+    <value>Visualização do gráfico</value>
+  </data>
+  <data name="ChartWizard_Close" xml:space="preserve">
+    <value>Fechar</value>
+  </data>
   <data name="ChartWizard_Subtitle" xml:space="preserve">
     <value>Legenda</value>
   </data>
@@ -9281,6 +9323,12 @@
   </data>
   <data name="ChartWizard_SVG" xml:space="preserve">
     <value>SVG</value>
+  </data>
+  <data name="ChartWizard_Maximize" xml:space="preserve">
+    <value>Maximizar</value>
+  </data>
+  <data name="ChartWizard_Minimize" xml:space="preserve">
+    <value>Minimizar</value>
   </data>
   <data name="ChartWizard_PDF" xml:space="preserve">
     <value>PDF</value>

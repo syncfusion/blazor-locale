@@ -2257,9 +2257,6 @@
     <value>Градиент цвета</value>
   </data>
   <data name="Kanban_Items" xml:space="preserve">
-    <value>articole</value>
-  </data>
-  <data name="Kanban_Items_Duplicate[1]" xml:space="preserve">
     <value>Предметы</value>
   </data>
   <data name="Kanban_Item" xml:space="preserve">
@@ -2985,6 +2982,9 @@
   <data name="Grid_FilterbarTitle" xml:space="preserve">
     <value>ячейка фильтра</value>
   </data>
+  <data name="Grid_FilterBar" xml:space="preserve">
+    <value>Панель фильтров</value>
+  </data>
   <data name="Grid_EmptyDataSourceError" xml:space="preserve">
     <value>Источник данных не должен быть пустым при начальной загрузке, поскольку столбцы генерируются из источника данных в AutoGenerate Column Grid</value>
   </data>
@@ -3026,6 +3026,9 @@
   </data>
   <data name="Grid_Save" xml:space="preserve">
     <value>Сохранить</value>
+  </data>
+  <data name="Grid_Back" xml:space="preserve">
+    <value>Назад</value>
   </data>
   <data name="Grid_Item" xml:space="preserve">
     <value>вещь</value>
@@ -3503,6 +3506,9 @@
   </data>
   <data name="Schedule_BlockAlert" xml:space="preserve">
     <value>События не могут быть запланированы в течение заблокированного периода времени.</value>
+  </data>
+  <data name="Schedule_Overlap" xml:space="preserve">
+    <value>События не могут быть запланированы в выбранное время, так как они перекрываются с другим событием.</value>
   </data>
   <data name="Schedule_Cancel" xml:space="preserve">
     <value>Отмена</value>
@@ -6933,6 +6939,9 @@
   <data name="ImageEditor_Pixel_Size" xml:space="preserve">
     <value>Размер пикселя</value>
   </data>
+  <data name="ImageEditor_Redact" xml:space="preserve">
+    <value>Redact</value>
+  </data>
   <data name="ColorPicker_RecentColors" xml:space="preserve">
     <value>Последние цвета</value>
   </data>
@@ -8814,6 +8823,9 @@
 <data name="RichTextEditor_SlashMenuLinkDescription" xml:space="preserve">
     <value>Вставьте ссылку.</value>
 </data>
+<data name="RichTextEditor_SlashMenuEmojiPicker" xml:space="preserve">
+    <value>Выбор эмодзи</value>
+</data>
 <data name="RichTextEditor_HorizontalLine" xml:space="preserve">
     <value>Горизонтальная Линия</value>
 </data>
@@ -8943,6 +8955,12 @@
   <data name="RichTextEditor_FormatPainter" xml:space="preserve">
     <value>Кисть формата</value>
   </data>
+  <data name="RichTextEditor_InsertTableRowTitle" xml:space="preserve">
+    <value>Введите целое число от 1 до 100</value>
+  </data>
+  <data name="RichTextEditor_InsertTableColumnTitle" xml:space="preserve">
+    <value>Введите целое число от 1 до 50</value>
+  </data>
   <data name="RichTextEditor_LineHeight" xml:space="preserve">
     <value>Высота строки</value>
   </data>
@@ -8974,7 +8992,7 @@
     <value>Отправить</value>
   </data>
   <data name="AIAssistView_FileSize_Failure" xml:space="preserve">
-    <value>Ошибка загрузки: Размер файла слишком большой</value>
+    <value>Ошибка загрузки: размер {0} файлов слишком большой</value>
   </data>
   <data name="ChatUI_Forwarded_Message" xml:space="preserve">
     <value>Переадресовано</value>

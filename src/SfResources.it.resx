@@ -2988,6 +2988,9 @@
   <data name="Grid_FilterbarTitle" xml:space="preserve">
     <value>"cella filtro bar</value>
   </data>
+  <data name="Grid_FilterBar" xml:space="preserve">
+    <value>Barra dei filtri</value>
+  </data>
   <data name="Grid_EmptyDataSourceError" xml:space="preserve">
     <value>DataSource non deve essere vuoto al caricamento iniziale poiché le colonne sono generate da dataSource in AutoGenerate Column Grid</value>
   </data>
@@ -3512,6 +3515,9 @@
   </data>
   <data name="Schedule_BlockAlert" xml:space="preserve">
     <value>Gli eventi non possono essere programmati entro l'intervallo di tempo bloccato.</value>
+  </data>
+  <data name="Schedule_Overlap" xml:space="preserve">
+    <value>Gli eventi non possono essere programmati durante l'ora scelta in quanto si sovrappongono con un altro evento.</value>
   </data>
   <data name="Schedule_Cancel" xml:space="preserve">
     <value>Annulla</value>
@@ -6934,6 +6940,9 @@
   <data name="ImageEditor_Pixel_Size" xml:space="preserve">
     <value>Dimensione pixel</value>
   </data>
+  <data name="ImageEditor_Redact" xml:space="preserve">
+    <value>Redact</value>
+  </data>
   <data name="ColorPicker_RecentColors" xml:space="preserve">
     <value>Colori recenti</value>
   </data>
@@ -8410,6 +8419,18 @@
   <data name="Spreadsheet_NameRequired" xml:space="preserve">
     <value>Il nome è obbligatorio</value>
   </data>
+  <data name="Spreadsheet_FillSeries" xml:space="preserve">
+    <value>Riempi serie</value>
+  </data> 
+  <data name="Spreadsheet_FillFormattingOnly" xml:space="preserve">
+    <value>Riempi solo formattazione</value>
+  </data>
+  <data name="Spreadsheet_FillWithoutFormatting" xml:space="preserve">
+    <value>Riempi senza formattazione</value>
+  </data>
+  <data name="Spreadsheet_CopyCells" xml:space="preserve">
+    <value>Copia celle</value>
+  </data>
   <data name="Spreadsheet_RangeRequired" xml:space="preserve">
     <value>L'intervallo è obbligatorio</value>
   </data>
@@ -8803,6 +8824,9 @@
   <data name="RichTextEditor_SlashMenuLinkDescription" xml:space="preserve">
     <value>Inserisci un collegamento.</value>
 </data>
+  <data name="RichTextEditor_SlashMenuEmojiPicker" xml:space="preserve">
+    <value>Selettore emoji</value>
+  </data>
   <data name="RichTextEditor_HorizontalLine" xml:space="preserve">
     <value>Linea Orizzontale</value>
 </data>
@@ -8932,6 +8956,12 @@
   <data name="RichTextEditor_FormatPainter" xml:space="preserve">
     <value>Pennello formato</value>
   </data>
+  <data name="RichTextEditor_InsertTableRowTitle" xml:space="preserve">
+    <value>Immettere un numero intero da 1 a 100</value>
+  </data>
+  <data name="RichTextEditor_InsertTableColumnTitle" xml:space="preserve">
+    <value>Immettere un numero intero da 1 a 50</value>
+  </data>
   <data name="RichTextEditor_LineHeight" xml:space="preserve">
     <value>Altezza della linea</value>
   </data>
@@ -8963,7 +8993,7 @@
     <value>Invia</value>
   </data>
   <data name="AIAssistView_FileSize_Failure" xml:space="preserve">
-    <value>Caricamento fallito: La dimensione del file è troppo grande</value>
+    <value>Caricamento fallito: La dimensione di {0} file è troppo grande</value>
   </data>
   <data name="ChatUI_Forwarded_Message" xml:space="preserve">
     <value>Inoltrato</value>
@@ -9178,6 +9208,12 @@
   <data name="ChartWizard_ChartTitle" xml:space="preserve">
     <value>Titolo del grafico</value>
   </data>
+  <data name="ChartWizard_Chart_Preview" xml:space="preserve">
+    <value>Pratinjau Grafik</value>
+  </data>
+  <data name="ChartWizard_Close" xml:space="preserve">
+    <value>Chiudi</value>
+  </data>
   <data name="ChartWizard_Subtitle" xml:space="preserve">
     <value>Sottotitolo</value>
   </data>
@@ -9288,6 +9324,12 @@
   </data>
   <data name="ChartWizard_SVG" xml:space="preserve">
     <value>SVG</value>
+  </data>
+  <data name="ChartWizard_Maximize" xml:space="preserve">
+    <value>aumentare al massimo</value>
+  </data>
+  <data name="ChartWizard_Minimize" xml:space="preserve">
+    <value>Minimizzare</value>
   </data>
   <data name="ChartWizard_PDF" xml:space="preserve">
     <value>PDF</value>

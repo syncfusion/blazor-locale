@@ -2988,6 +2988,9 @@
   <data name="Grid_FilterbarTitle" xml:space="preserve">
     <value>תא סרגל המסנן</value>
   </data>
+  <data name="Grid_FilterBar" xml:space="preserve">
+    <value>סרגל סינון</value>
+  </data>
   <data name="Grid_EmptyDataSourceError" xml:space="preserve">
     <value>אסור ש- DataSource יהיה ריק בעומס ראשוני מאחר ועמודות נוצרות מ- DataSource ברשת אוטומטית של העמודה</value>
   </data>
@@ -3512,6 +3515,9 @@
   </data>
   <data name="Schedule_BlockAlert" xml:space="preserve">
     <value>לא ניתן לתזמן אירועים בטווח הזמן החסום.</value>
+  </data>
+  <data name="Schedule_Overlap" xml:space="preserve">
+    <value>לא ניתן לתזמן אירועים בשעה שנבחרה מכיוון שהיא חופפת לאירוע אחר.</value>
   </data>
   <data name="Schedule_Cancel" xml:space="preserve">
     <value>בטל</value>
@@ -6936,6 +6942,9 @@
   <data name="ImageEditor_BringForward" xml:space="preserve">
     <value>תביא קדימה</value>
   </data>
+  <data name="ImageEditor_Redact" xml:space="preserve">
+    <value>Redact</value>
+  </data>
   <data name="ImageEditor_SendToBack" xml:space="preserve">
     <value>שלח לגב</value>
   </data>
@@ -8652,6 +8661,9 @@
   <data name="RichTextEditor_SlashMenuLinkDescription" xml:space="preserve">
     <value>הכנס קישור.</value>
 </data>
+  <data name="RichTextEditor_SlashMenuEmojiPicker" xml:space="preserve">
+    <value>בורר אימוג'י</value>
+  </data>
   <data name="RichTextEditor_HorizontalLine" xml:space="preserve">
     <value>קו אופקי</value>
 </data>
@@ -8943,6 +8955,12 @@
   <data name="RichTextEditor_FormatPainter" xml:space="preserve">
     <value>מברשת עיצוב</value>
   </data>
+  <data name="RichTextEditor_InsertTableRowTitle" xml:space="preserve">
+    <value>הזן מספר שלם בין 1 ל-100</value>
+  </data>
+  <data name="RichTextEditor_InsertTableColumnTitle" xml:space="preserve">
+    <value>הזן מספר שלם בין 1 ל-50</value>
+  </data>
   <data name="RichTextEditor_LineHeight" xml:space="preserve">
     <value>גובה־קו</value>
   </data>
@@ -8974,7 +8992,7 @@
     <value>שלח</value>
   </data>
   <data name="AIAssistView_FileSize_Failure" xml:space="preserve">
-    <value>ההעלאה נכשלה: גודל הקובץ גדול מדי</value>
+    <value>ההעלאה נכשלה: גודל {0} הקבצים גדול מדי</value>
   </data>
   <data name="ChatUI_Forwarded_Message" xml:space="preserve">
     <value>הועבר</value>
@@ -9189,6 +9207,12 @@
   <data name="ChartWizard_ChartTitle" xml:space="preserve">
     <value>כותרת התרשים</value>
   </data>
+  <data name="ChartWizard_Chart_Preview" xml:space="preserve">
+    <value>תצוגה מקדימה של התרשים</value>
+  </data>
+  <data name="ChartWizard_Close" xml:space="preserve">
+    <value>סגירה</value>
+  </data>
   <data name="ChartWizard_Subtitle" xml:space="preserve">
     <value>כְּתוּבִית</value>
   </data>
@@ -9299,6 +9323,12 @@
   </data>
   <data name="ChartWizard_SVG" xml:space="preserve">
     <value>SVG</value>
+  </data>
+  <data name="ChartWizard_Maximize" xml:space="preserve">
+    <value>למקסם</value>
+  </data>
+  <data name="ChartWizard_Minimize" xml:space="preserve">
+    <value>מזער</value>
   </data>
   <data name="ChartWizard_PDF" xml:space="preserve">
     <value>PDF</value>
