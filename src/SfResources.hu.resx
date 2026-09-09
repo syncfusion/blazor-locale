@@ -2988,6 +2988,9 @@
   <data name="Grid_FilterbarTitle" xml:space="preserve">
     <value>msgstr "szűrősáv cellája</value>
   </data>
+  <data name="Grid_FilterBar" xml:space="preserve">
+    <value>Szűrősáv</value>
+  </data>
   <data name="Grid_EmptyDataSourceError" xml:space="preserve">
     <value>A DataSource nem lehet üres a kezdeti betöltésekor, mivel az oszlopokat az DataSource generálja az AutoGenerate oszloprácsban</value>
   </data>
@@ -3512,6 +3515,9 @@
   </data>
   <data name="Schedule_BlockAlert" xml:space="preserve">
     <value>Az eseményeket nem lehet ütemezni a blokkolt időtartományon belül.</value>
+  </data>
+  <data name="Schedule_Overlap" xml:space="preserve">
+    <value>Az eseményeket nem lehet a kiválasztott időpontban ütemezni, mert átfedésben vannak egy másik eseménnyel.</value>
   </data>
   <data name="Schedule_Cancel" xml:space="preserve">
     <value>Megszünteti</value>
@@ -6042,6 +6048,45 @@
   <data name="DocumentEditor_Column" xml:space="preserve">
 <value>Oszlop</value>
 </data>
+<data name="DocumentEditor_ArabicLetter" xml:space="preserve">
+    <value>1, 2, 3, ...</value>
+</data>
+<data name="DocumentEditor_LowerCaseLetter" xml:space="preserve">
+    <value>a, b, c, ...</value>
+</data>
+<data name="DocumentEditor_UpperCaseLetter" xml:space="preserve">
+    <value>A, B, C, ...</value>
+</data>
+<data name="DocumentEditor_Apply" xml:space="preserve">
+    <value>Alkalmaz</value>
+</data>
+<data name="DocumentEditorContainer_Column" xml:space="preserve">
+    <value>Oszlop</value>
+</data>
+<data name="DocumentEditor_Endnotes" xml:space="preserve">
+    <value>Végjegyzetek</value>
+</data>
+<data name="DocumentEditor_Footnotes" xml:space="preserve">
+    <value>Lábjegyzetek</value>
+</data>
+<data name="DocumentEditor_LowerCaseRoman" xml:space="preserve">
+    <value>i, ii, iii, ...</value>
+</data>
+<data name="DocumentEditor_UpperCaseRoman" xml:space="preserve">
+    <value>I, II, III, ...</value>
+</data>
+<data name="DocumentEditor_NoSuggestions" xml:space="preserve">
+    <value>Nincsenek javaslatok</value>
+</data>
+<data name="DocumentEditor_NumberFormat_Alert" xml:space="preserve">
+    <value>A NumberFormat értékének a következő tartományban kell lennie:</value>
+</data>
+<data name="DocumentEditor_The_Number_Must_Be_Between" xml:space="preserve">
+    <value>A számnak 1 és 9 között kell lennie</value>
+</data>
+<data name="DocumentEditor_This_is_not_valid" xml:space="preserve">
+    <value>Ez nem érvényes szám</value>
+</data>
   <data name="DocumentEditor_SectionBreakContinuous" xml:space="preserve">
 <value>Szakasztörés (folyamatos)</value>
 </data>
@@ -6932,6 +6977,9 @@
   </data>
   <data name="ImageEditor_Pixel_Size" xml:space="preserve">
     <value>Pixel méret</value>
+  </data>
+  <data name="ImageEditor_Redact" xml:space="preserve">
+    <value>Redact</value>
   </data>
   <data name="ColorPicker_RecentColors" xml:space="preserve">
     <value>Legutóbbi színek</value>
@@ -8983,7 +9031,7 @@
     <value>Beküldés</value>
   </data>
   <data name="AIAssistView_FileSize_Failure" xml:space="preserve">
-    <value>A feltöltés sikertelen: A fájl mérete túl nagy</value>
+    <value>A feltöltés sikertelen: A(z) {0} fájl mérete túl nagy</value>
   </data>
   <data name="ChatUI_Forwarded_Message" xml:space="preserve">
     <value>Továbbítva</value>
@@ -9198,6 +9246,12 @@
   <data name="ChartWizard_ChartTitle" xml:space="preserve">
     <value>Diagram címe</value>
   </data>
+  <data name="ChartWizard_Chart_Preview" xml:space="preserve">
+    <value>Diagram előnézete</value>
+  </data>
+  <data name="ChartWizard_Close" xml:space="preserve">
+    <value>Bezárás</value>
+  </data>
   <data name="ChartWizard_Subtitle" xml:space="preserve">
     <value>Felirat</value>
   </data>
@@ -9309,6 +9363,12 @@
   <data name="ChartWizard_SVG" xml:space="preserve">
     <value>SVG</value>
   </data>
+  <data name="ChartWizard_Maximize" xml:space="preserve">
+    <value>Teljes méret</value>
+  </data>
+  <data name="ChartWizard_Minimize" xml:space="preserve">
+    <value>Kis méret</value>
+  </data>
   <data name="ChartWizard_PDF" xml:space="preserve">
     <value>PDF</value>
   </data>
@@ -9356,5 +9416,11 @@
   </data>
   <data name="Grid_PreviousMatch" xml:space="preserve">
     <value>Előző mérkőzés</value>
+  </data>
+  <data name="FileManager_FolderUploadAccessMessage" xml:space="preserve">
+    <value>A (z) {0} nem érhető el. engedélyre van szüksége a (z) {1} művelet végrehajtásához.</value>
+  </data>
+  <data name="FileManager_FileUploadAccessMessage" xml:space="preserve">
+    <value>A (z) {0} nem érhető el. engedélyre van szüksége a (z) {1} művelet végrehajtásához.</value>
   </data>
 </root>

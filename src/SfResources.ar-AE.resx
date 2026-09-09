@@ -2988,6 +2988,9 @@
   <data name="Grid_FilterbarTitle" xml:space="preserve">
     <value>خلية شريط مرشح</value>
   </data>
+  <data name="Grid_FilterBar" xml:space="preserve">
+    <value>شريط التصفية</value>
+  </data>
   <data name="Grid_EmptyDataSourceError" xml:space="preserve">
     <value>يجب ألا يكون DataSource فارغًا عند التحميل الأولي نظرًا لأن الأعمدة يتم إنشاؤها من DataSource في شبكة إنشاء عمود تلقائي</value>
   </data>
@@ -3512,6 +3515,9 @@
   </data>
   <data name="Schedule_BlockAlert" xml:space="preserve">
     <value>لا يمكن جدولة الأحداث ضمن النطاق الزمني المحظور.</value>
+  </data>
+  <data name="Schedule_Overlap" xml:space="preserve">
+    <value>لا يمكن جدولة الأحداث في الوقت المختار لأنها تتداخل مع حدث آخر.</value>
   </data>
   <data name="Schedule_Cancel" xml:space="preserve">
     <value>إلغاء</value>
@@ -6060,6 +6066,45 @@
   <data name="DocumentEditor_Column" xml:space="preserve">
 <value>عمودي</value>
 </data>
+  <data name="DocumentEditor_ArabicLetter" xml:space="preserve">
+<value>1, 2, 3, ...</value>
+</data>
+  <data name="DocumentEditor_LowerCaseLetter" xml:space="preserve">
+<value>a,b,c,...</value>
+</data>
+  <data name="DocumentEditor_UpperCaseLetter" xml:space="preserve">
+<value>A,B,C,..</value>
+</data>
+  <data name="DocumentEditor_Apply" xml:space="preserve">
+<value>قدم</value>
+</data>
+  <data name="DocumentEditorContainer_Column" xml:space="preserve">
+<value>العمود</value>
+</data>
+  <data name="DocumentEditor_Endnotes" xml:space="preserve">
+<value>ملاحظة ختامية</value>
+</data>
+  <data name="DocumentEditor_Footnotes" xml:space="preserve">
+<value>هامش</value>
+</data>
+  <data name="DocumentEditor_LowerCaseRoman" xml:space="preserve">
+<value>i, ii, iii, ...</value>
+</data>
+  <data name="DocumentEditor_UpperCaseRoman" xml:space="preserve">
+<value>I, II, III, ...</value>
+</data>
+  <data name="DocumentEditor_NoSuggestions" xml:space="preserve">
+<value>لا اقتراحات</value>
+</data>
+  <data name="DocumentEditor_NumberFormat_Alert" xml:space="preserve">
+<value>يجب أن تكون قيمة NumberFormat بين</value>
+</data>
+  <data name="DocumentEditor_The_Number_Must_Be_Between" xml:space="preserve">
+<value>يجب أن يكون الرقم بين 1 و9</value>
+</data>
+  <data name="DocumentEditor_This_is_not_valid" xml:space="preserve">
+<value>هذا رقم غير صالح</value>
+</data>
   <data name="DocumentEditor_SectionBreakContinuous" xml:space="preserve">
 <value>فاصل مقطعي (مستمر)</value>
 </data>
@@ -6932,6 +6977,9 @@
   </data>
   <data name="ImageEditor_Pixel_Size" xml:space="preserve">
     <value>حجم البكسل</value>
+  </data>
+  <data name="ImageEditor_Redact" xml:space="preserve">
+    <value>Redact</value>
   </data>
   <data name="ColorPicker_RecentColors" xml:space="preserve">
     <value>الألوان الأخيرة</value>
@@ -8983,7 +9031,7 @@
     <value>يُقدِّم</value>
   </data>
   <data name="AIAssistView_FileSize_Failure" xml:space="preserve">
-    <value>فشل التحميل: حجم الملف كبير جدًا</value>
+    <value>فشل التحميل: حجم {0} ملفات كبير جدًا</value>
   </data>
   <data name="ChatUI_Forwarded_Message" xml:space="preserve">
     <value>تم التوجيه</value>
@@ -9198,6 +9246,12 @@
   <data name="ChartWizard_ChartTitle" xml:space="preserve">
     <value>عنوان الرسم البياني</value>
   </data>
+  <data name="ChartWizard_Chart_Preview" xml:space="preserve">
+    <value>معاينة الرسم البياني</value>
+  </data>
+  <data name="ChartWizard_Close" xml:space="preserve">
+    <value>إغلاق</value>
+  </data>
   <data name="ChartWizard_Subtitle" xml:space="preserve">
     <value>الترجمة</value>
   </data>
@@ -9309,6 +9363,12 @@
   <data name="ChartWizard_SVG" xml:space="preserve">
     <value>SVG</value>
   </data>
+  <data name="ChartWizard_Maximize" xml:space="preserve">
+    <value>تحقيق أقصى قدر</value>
+  </data>
+  <data name="ChartWizard_Minimize" xml:space="preserve">
+    <value>خفض</value>
+  </data>
   <data name="ChartWizard_PDF" xml:space="preserve">
     <value>قوات الدفاع الشعبي</value>
   </data>
@@ -9356,5 +9416,11 @@
   </data>
   <data name="Grid_PreviousMatch" xml:space="preserve">
     <value>المباراة السابقة</value>
+  </data>
+  <data name="FileManager_FolderUploadAccessMessage" xml:space="preserve">
+    <value>{0} لا يمكن الوصول إليه. أنت بحاجة إلى إذن لتنفيذ الإجراء {1}.</value>
+  </data>
+  <data name="FileManager_FileUploadAccessMessage" xml:space="preserve">
+    <value>{0} لا يمكن الوصول إليه. أنت بحاجة إلى إذن لتنفيذ الإجراء {1}.</value>
   </data>
 </root>

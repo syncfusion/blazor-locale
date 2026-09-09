@@ -2985,6 +2985,9 @@
   <data name="Grid_FilterbarTitle" xml:space="preserve">
     <value>"ćelijska traka filtra</value>
   </data>
+  <data name="Grid_FilterBar" xml:space="preserve">
+    <value>Traka s filtrima</value>
+  </data>
   <data name="Grid_EmptyDataSourceError" xml:space="preserve">
     <value>DataSource ne smije biti prazan pri početnom učitavanju, jer se stupci generiraju iz dataSource-a u mreži Automatsko generiranje stupaca</value>
   </data>
@@ -3509,6 +3512,9 @@
   </data>
   <data name="Schedule_BlockAlert" xml:space="preserve">
     <value>Događaji se ne mogu zakazati unutar blokiranog vremenskog raspona.</value>
+  </data>
+  <data name="Schedule_Overlap" xml:space="preserve">
+    <value>Događaji se ne mogu zakazati u odabranom vremenu jer se nadovezuju s drugim događajem.</value>
   </data>
   <data name="Schedule_Cancel" xml:space="preserve">
     <value>Otkazati</value>
@@ -6039,6 +6045,45 @@
   <data name="DocumentEditor_Column" xml:space="preserve">
 <value>Stupac</value>
 </data>
+<data name="DocumentEditor_ArabicLetter" xml:space="preserve">
+    <value>1, 2, 3, ...</value>
+</data>
+<data name="DocumentEditor_LowerCaseLetter" xml:space="preserve">
+    <value>a, b, c, ...</value>
+</data>
+<data name="DocumentEditor_UpperCaseLetter" xml:space="preserve">
+    <value>A, B, C, ...</value>
+</data>
+<data name="DocumentEditor_Apply" xml:space="preserve">
+    <value>Primijeni</value>
+</data>
+<data name="DocumentEditorContainer_Column" xml:space="preserve">
+    <value>Stupac</value>
+</data>
+<data name="DocumentEditor_Endnotes" xml:space="preserve">
+    <value>Završne bilješke</value>
+</data>
+<data name="DocumentEditor_Footnotes" xml:space="preserve">
+    <value>Fusnote</value>
+</data>
+<data name="DocumentEditor_LowerCaseRoman" xml:space="preserve">
+    <value>i, ii, iii, ...</value>
+</data>
+<data name="DocumentEditor_UpperCaseRoman" xml:space="preserve">
+    <value>I, II, III, ...</value>
+</data>
+<data name="DocumentEditor_NoSuggestions" xml:space="preserve">
+    <value>Nema prijedloga</value>
+</data>
+<data name="DocumentEditor_NumberFormat_Alert" xml:space="preserve">
+    <value>Vrijednost NumberFormat mora biti između</value>
+</data>
+<data name="DocumentEditor_The_Number_Must_Be_Between" xml:space="preserve">
+    <value>Broj mora biti između 1 i 9</value>
+</data>
+<data name="DocumentEditor_This_is_not_valid" xml:space="preserve">
+    <value>Ovo nije valjan broj</value>
+</data>
   <data name="DocumentEditor_SectionBreakContinuous" xml:space="preserve">
 <value>Prijelom odjeljka (kontinuirano)</value>
 </data>
@@ -6932,6 +6977,9 @@
   </data>
   <data name="ImageEditor_Pixel_Size" xml:space="preserve">
     <value>Veličina piksela</value>
+  </data>
+  <data name="ImageEditor_Redact" xml:space="preserve">
+    <value>Redact</value>
   </data>
   <data name="ColorPicker_RecentColors" xml:space="preserve">
     <value>Najnovije boje</value>
@@ -8940,6 +8988,9 @@
   <data name="Spreadsheet_CommaSeparatedValues" xml:space="preserve">
     <value>Vrijednosti odvojene zarezom</value>
   </data>
+  <data name="Spreadsheet_PasteRange" xml:space="preserve">
+    <value>Ovdje ne možete zalijepiti sadržaj jer područje kopiranja i područje lijepljenja nisu iste veličine. Pokušajte zalijepiti u drugo područje.</value>
+  </data>
   <data name="RichTextEditor_FormatPainter" xml:space="preserve">
     <value>Četka za format</value>
   </data>
@@ -8980,7 +9031,7 @@
     <value>Pošalji</value>
   </data>
   <data name="AIAssistView_FileSize_Failure" xml:space="preserve">
-    <value>Prijenos nije uspio: Veličina datoteke je prevelika</value>
+    <value>Prijenos nije uspio: Veličina {0} datoteka je prevelika</value>
   </data>
   <data name="ChatUI_Forwarded_Message" xml:space="preserve">
     <value>Proslijeđeno</value>
@@ -9195,6 +9246,12 @@
   <data name="ChartWizard_ChartTitle" xml:space="preserve">
     <value>Naslov grafikona</value>
   </data>
+  <data name="ChartWizard_Chart_Preview" xml:space="preserve">
+    <value>Pregled grafikona</value>
+  </data>
+  <data name="ChartWizard_Close" xml:space="preserve">
+    <value>Zatvori</value>
+  </data>
   <data name="ChartWizard_Subtitle" xml:space="preserve">
     <value>Titl</value>
   </data>
@@ -9306,6 +9363,12 @@
   <data name="ChartWizard_SVG" xml:space="preserve">
     <value>SVG</value>
   </data>
+  <data name="ChartWizard_Maximize" xml:space="preserve">
+    <value>Povećaj</value>
+  </data>
+  <data name="ChartWizard_Minimize" xml:space="preserve">
+    <value>umanjiti</value>
+  </data>
   <data name="ChartWizard_PDF" xml:space="preserve">
     <value>PDF</value>
   </data>
@@ -9353,5 +9416,11 @@
   </data>
   <data name="Grid_PreviousMatch" xml:space="preserve">
     <value>Prethodna utakmica</value>
+  </data>
+  <data name="FileManager_FolderUploadAccessMessage" xml:space="preserve">
+    <value>{0} nije dostupan. trebate dopuštenje za izvršavanje {1} radnje.</value>
+  </data>
+  <data name="FileManager_FileUploadAccessMessage" xml:space="preserve">
+    <value>{0} nije dostupan. trebate dopuštenje za izvršavanje {1} radnje.</value>
   </data>
 </root>

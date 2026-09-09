@@ -426,6 +426,9 @@
   <data name="Schedule_BlockAlert" xml:space="preserve">
     <value>Els esdeveniments no es poden programar dins del rang de temps bloquejat.</value>
   </data>
+  <data name="Schedule_Overlap" xml:space="preserve">
+    <value>Els esdeveniments no es poden programar a l'hora triat perquè es superposa amb un altre event.</value>
+  </data>
   <data name="Schedule_Cancel" xml:space="preserve">
     <value>Cancel·lar</value>
   </data>
@@ -1953,6 +1956,45 @@
   <data name="DocumentEditor_Column" xml:space="preserve">
     <value>Columna</value>
   </data>
+  <data name="DocumentEditor_ArabicLetter" xml:space="preserve">
+<value>1, 2, 3, ...</value>
+</data>
+  <data name="DocumentEditor_LowerCaseLetter" xml:space="preserve">
+<value>a, b, c, ...</value>
+</data>
+  <data name="DocumentEditor_UpperCaseLetter" xml:space="preserve">
+<value>A, B, C, ...</value>
+</data>
+  <data name="DocumentEditor_Apply" xml:space="preserve">
+<value>Sol·licita</value>
+</data>
+  <data name="DocumentEditorContainer_Column" xml:space="preserve">
+<value>Columna</value>
+</data>
+  <data name="DocumentEditor_Endnotes" xml:space="preserve">
+<value>Notes finals</value>
+</data>
+  <data name="DocumentEditor_Footnotes" xml:space="preserve">
+<value>Notes</value>
+</data>
+  <data name="DocumentEditor_LowerCaseRoman" xml:space="preserve">
+<value>i, ii, iii, ...</value>
+</data>
+  <data name="DocumentEditor_UpperCaseRoman" xml:space="preserve">
+<value>I, II, III, ...</value>
+</data>
+  <data name="DocumentEditor_NoSuggestions" xml:space="preserve">
+<value>Sense suggeriments</value>
+</data>
+  <data name="DocumentEditor_NumberFormat_Alert" xml:space="preserve">
+<value>El valor de NumberFormat ha d'estar entre</value>
+</data>
+  <data name="DocumentEditor_The_Number_Must_Be_Between" xml:space="preserve">
+<value>El nombre ha d'estar entre 1 i 9</value>
+</data>
+  <data name="DocumentEditor_This_is_not_valid" xml:space="preserve">
+<value>Aquest no és un número vàlid</value>
+</data>
   <data name="DocumentEditor_LineBetweenColumn" xml:space="preserve">
     <value>Línia entre columnes</value>
   </data>
@@ -5763,6 +5805,9 @@ S'ha denegat l'accés al porta-retalls del sistema mitjançant script a causa de
   <data name="Grid_FilterbarTitle" xml:space="preserve">
     <value>\'s cel·la de la barra de filtre</value>
   </data>
+  <data name="Grid_FilterBar" xml:space="preserve">
+    <value>Barra de filtres</value>
+  </data>
   <data name="Grid_EmptyDataSourceError" xml:space="preserve">
     <value>DataSource no ha d'estar buit en la càrrega inicial, ja que les columnes es generen a partir de dataSource a AutoGenerate Column Grid</value>
   </data>
@@ -6929,6 +6974,9 @@ S'ha denegat l'accés al porta-retalls del sistema mitjançant script a causa de
   </data>
   <data name="ImageEditor_Pixel_Size" xml:space="preserve">
     <value>Mida de píxels</value>
+  </data>
+  <data name="ImageEditor_Redact" xml:space="preserve">
+    <value>Redact</value>
   </data>
   <data name="ColorPicker_RecentColors" xml:space="preserve">
     <value>Colors recents</value>
@@ -8980,7 +9028,7 @@ S'ha denegat l'accés al porta-retalls del sistema mitjançant script a causa de
     <value>Envia</value>
   </data>
   <data name="AIAssistView_FileSize_Failure" xml:space="preserve">
-    <value>Ha fallat la càrrega: La mida del fitxer és massa gran</value>
+    <value>Ha fallat la càrrega: La mida de {0} fitxers és massa gran</value>
   </data>
   <data name="ChatUI_Forwarded_Message" xml:space="preserve">
     <value>Reenviat</value>
@@ -9195,6 +9243,12 @@ S'ha denegat l'accés al porta-retalls del sistema mitjançant script a causa de
   <data name="ChartWizard_ChartTitle" xml:space="preserve">
     <value>Títol del gràfic</value>
   </data>
+  <data name="ChartWizard_Chart_Preview" xml:space="preserve">
+    <value>Vista prèvia del gràfic</value>
+  </data>
+  <data name="ChartWizard_Close" xml:space="preserve">
+    <value>Tanca</value>
+  </data>
   <data name="ChartWizard_Subtitle" xml:space="preserve">
     <value>Subtítol</value>
   </data>
@@ -9306,6 +9360,12 @@ S'ha denegat l'accés al porta-retalls del sistema mitjançant script a causa de
   <data name="ChartWizard_SVG" xml:space="preserve">
     <value>SVG</value>
   </data>
+  <data name="ChartWizard_Maximize" xml:space="preserve">
+    <value>Maximitza</value>
+  </data>
+  <data name="ChartWizard_Minimize" xml:space="preserve">
+    <value>Minimitza</value>
+  </data>
   <data name="ChartWizard_PDF" xml:space="preserve">
     <value>PDF</value>
   </data>
@@ -9353,5 +9413,11 @@ S'ha denegat l'accés al porta-retalls del sistema mitjançant script a causa de
   </data>
   <data name="Grid_PreviousMatch" xml:space="preserve">
     <value>Partit anterior</value>
+  </data>
+  <data name="FileManager_FolderUploadAccessMessage" xml:space="preserve">
+    <value>{0} no és accessible. Necessiteu permís per realitzar l'acció {1}.</value>
+  </data>
+  <data name="FileManager_FileUploadAccessMessage" xml:space="preserve">
+    <value>{0} no és accessible. Necessiteu permís per realitzar l'acció {1}.</value>
   </data>
 </root>

@@ -2934,6 +2934,9 @@
   <data name="Grid_FilterbarTitle" xml:space="preserve">
     <value>فیلتر نوار سلول</value>
   </data>
+  <data name="Grid_FilterBar" xml:space="preserve">
+    <value>نوار فیلتر</value>
+  </data>
   <data name="Grid_EmptyDataSourceError" xml:space="preserve">
     <value>منبع داده نباید در بار اولیه خالی باشد زیرا ستون ها از منبع داده ها در AutoGenerate Column Grid تولید می شوند</value>
   </data>
@@ -3458,6 +3461,9 @@
   </data>
   <data name="Schedule_BlockAlert" xml:space="preserve">
     <value>برنامه ها نمی توانند در محدوده زمانی مسدود شده برنامه ریزی شوند.</value>
+  </data>
+  <data name="Schedule_Overlap" xml:space="preserve">
+    <value>برنامه ها نمی توانند در زمان انتخاب شده برنامه ریزی شوند زیرا با برنامه دیگری تداخل دارد.</value>
   </data>
   <data name="Schedule_Cancel" xml:space="preserve">
     <value>لغو</value>
@@ -5988,6 +5994,45 @@
   <data name="DocumentEditor_Column" xml:space="preserve">
 <value>ستون</value>
 </data>
+<data name="DocumentEditor_ArabicLetter" xml:space="preserve">
+    <value>۱، ۲، ۳، ...</value>
+</data>
+<data name="DocumentEditor_LowerCaseLetter" xml:space="preserve">
+    <value>الف، ب، پ، ...</value>
+</data>
+<data name="DocumentEditor_UpperCaseLetter" xml:space="preserve">
+    <value>الف، ب، پ، ...</value>
+</data>
+<data name="DocumentEditor_Apply" xml:space="preserve">
+    <value>اعمال</value>
+</data>
+<data name="DocumentEditorContainer_Column" xml:space="preserve">
+    <value>ستون</value>
+</data>
+<data name="DocumentEditor_Endnotes" xml:space="preserve">
+    <value>یادداشت‌های پایانی</value>
+</data>
+<data name="DocumentEditor_Footnotes" xml:space="preserve">
+    <value>پاورقی‌ها</value>
+</data>
+<data name="DocumentEditor_LowerCaseRoman" xml:space="preserve">
+    <value>i، ii، iii، ...</value>
+</data>
+<data name="DocumentEditor_UpperCaseRoman" xml:space="preserve">
+    <value>I، II، III، ...</value>
+</data>
+<data name="DocumentEditor_NoSuggestions" xml:space="preserve">
+    <value>بدون پیشنهاد</value>
+</data>
+<data name="DocumentEditor_NumberFormat_Alert" xml:space="preserve">
+    <value>مقدار NumberFormat باید بین</value>
+</data>
+<data name="DocumentEditor_The_Number_Must_Be_Between" xml:space="preserve">
+    <value>عدد باید بین ۱ و ۹ باشد</value>
+</data>
+<data name="DocumentEditor_This_is_not_valid" xml:space="preserve">
+    <value>این یک عدد معتبر نیست</value>
+</data>
   <data name="DocumentEditor_SectionBreakContinuous" xml:space="preserve">
 <value>شکست بخش (مداوم)</value>
 </data>
@@ -6932,6 +6977,9 @@
   </data>
   <data name="ImageEditor_Pixel_Size" xml:space="preserve">
     <value>اندازه پیکسل</value>
+  </data>
+  <data name="ImageEditor_Redact" xml:space="preserve">
+    <value>Redact</value>
   </data>
   <data name="ColorPicker_RecentColors" xml:space="preserve">
     <value>رنگ های اخیر</value>
@@ -8836,7 +8884,7 @@
     <value>ارسال</value>
   </data>
   <data name="AIAssistView_FileSize_Failure" xml:space="preserve">
-    <value>آپلود ناموفق: حجم فایل بیش از حد مجاز است</value>
+    <value>آپلود ناموفق: حجم {0} فایل بیش از حد مجاز است</value>
   </data>
   <data name="Spreadsheet_Algerian" xml:space="preserve">
     <value>الجزایری</value>
@@ -9198,6 +9246,12 @@
   <data name="ChartWizard_ChartTitle" xml:space="preserve">
     <value>عنوان نمودار</value>
   </data>
+  <data name="ChartWizard_Chart_Preview" xml:space="preserve">
+    <value>پیش‌نمایش نمودار</value>
+  </data>
+  <data name="ChartWizard_Close" xml:space="preserve">
+    <value>بستن</value>
+  </data>
   <data name="ChartWizard_Subtitle" xml:space="preserve">
     <value>زیرنویس</value>
   </data>
@@ -9309,6 +9363,12 @@
   <data name="ChartWizard_SVG" xml:space="preserve">
     <value>SVG</value>
   </data>
+  <data name="ChartWizard_Maximize" xml:space="preserve">
+    <value>به حداکثر رساندن</value>
+  </data>
+  <data name="ChartWizard_Minimize" xml:space="preserve">
+    <value>به حداقل رساندن</value>
+  </data>
   <data name="ChartWizard_PDF" xml:space="preserve">
     <value>PDF</value>
   </data>
@@ -9356,5 +9416,11 @@
   </data>
   <data name="Grid_PreviousMatch" xml:space="preserve">
     <value>مسابقه قبلی</value>
+  </data>
+  <data name="FileManager_FolderUploadAccessMessage" xml:space="preserve">
+    <value>{0} قابل دسترسی نیست. برای انجام عمل {1} به مجوز نیاز دارید.</value>
+  </data>
+  <data name="FileManager_FileUploadAccessMessage" xml:space="preserve">
+    <value>{0} قابل دسترسی نیست. برای انجام عمل {1} به مجوز نیاز دارید.</value>
   </data>
 </root>
