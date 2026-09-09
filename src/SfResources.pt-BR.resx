@@ -543,6 +543,9 @@
   <data name="Schedule_Ok" xml:space="preserve">
     <value>OK</value>
   </data>
+  <data name="Schedule_Overlap" xml:space="preserve">
+    <value>Não é possível agendar eventos durante o horário escolhido, pois ele coincide com outro evento.</value>
+  </data>
   <data name="Schedule_Previous" xml:space="preserve">
     <value>Anterior</value>
   </data>
@@ -1926,6 +1929,45 @@
   <data name="DocumentEditor_Column" xml:space="preserve">
     <value>Coluna</value>
   </data>
+  <data name="DocumentEditor_ArabicLetter" xml:space="preserve">
+    <value>1, 2, 3, ...</value>
+</data>
+<data name="DocumentEditor_LowerCaseLetter" xml:space="preserve">
+    <value>a, b, c, ...</value>
+</data>
+<data name="DocumentEditor_UpperCaseLetter" xml:space="preserve">
+    <value>A, B, C, ...</value>
+</data>
+<data name="DocumentEditor_Apply" xml:space="preserve">
+    <value>Aplicar</value>
+</data>
+<data name="DocumentEditorContainer_Column" xml:space="preserve">
+    <value>Coluna</value>
+</data>
+<data name="DocumentEditor_Endnotes" xml:space="preserve">
+    <value>Notas de fim</value>
+</data>
+<data name="DocumentEditor_Footnotes" xml:space="preserve">
+    <value>Notas de rodapé</value>
+</data>
+<data name="DocumentEditor_LowerCaseRoman" xml:space="preserve">
+    <value>i, ii, iii, ...</value>
+</data>
+<data name="DocumentEditor_UpperCaseRoman" xml:space="preserve">
+    <value>I, II, III, ...</value>
+</data>
+<data name="DocumentEditor_NoSuggestions" xml:space="preserve">
+    <value>Sem sugestões</value>
+</data>
+<data name="DocumentEditor_NumberFormat_Alert" xml:space="preserve">
+    <value>O valor de NumberFormat deve estar entre</value>
+</data>
+<data name="DocumentEditor_The_Number_Must_Be_Between" xml:space="preserve">
+    <value>O número deve estar entre 1 e 9</value>
+</data>
+<data name="DocumentEditor_This_is_not_valid" xml:space="preserve">
+    <value>Este não é um número válido</value>
+</data>
   <data name="DocumentEditor_LineBetweenColumn" xml:space="preserve">
     <value>Linha entre coluna</value>
   </data>
@@ -3346,7 +3388,7 @@
     <value>Mover para baixo</value>
   </data>
   <data name="ListBox_MoveFrom" xml:space="preserve">
-    <value>Mover-se a partir de</value>
+    <value>Mover de</value>
   </data>
   <data name="ListBox_MoveTo" xml:space="preserve">
     <value>Mover para</value>
@@ -3361,7 +3403,7 @@
     <value>Selecionar tudo</value>
   </data>
   <data name="ListBox_UnSelectAllText" xml:space="preserve">
-    <value>Desmarque todos</value>
+    <value>Desmarcar tudo</value>
   </data>
   <data name="QueryBuilder_AddCondition" xml:space="preserve">
     <value>Adicionar condição</value>
@@ -5443,7 +5485,13 @@
     <value>KB</value>
   </data>
   <data name="FileManager_AccessMessage" xml:space="preserve">
-    <value>{0} não está acessível.</value>
+    <value>{0} não está acessível. Você precisa de permissão para executar a ação {1}.</value>
+    </data>
+  <data name="FileManager_FolderUploadAccessMessage" xml:space="preserve">
+    <value>{0} não está acessível. Você precisa de permissão para executar a ação {1}.</value>
+  </data>
+  <data name="FileManager_FileUploadAccessMessage" xml:space="preserve">
+    <value>{0} não está acessível. Você precisa de permissão para executar a ação {1}.</value>
   </data>
   <data name="FileManager_NetworkError" xml:space="preserve">
     <value>NetworkError: Falha ao enviar em XMLHTTPRequest: Falha ao carregar</value>
@@ -5820,6 +5868,9 @@
   <data name="Grid_FilterbarTitle" xml:space="preserve">
     <value>célula da barra de filtro</value>
   </data>
+  <data name="Grid_FilterBar" xml:space="preserve">
+    <value>Barra de Filtros</value>
+  </data>
   <data name="Grid_EmptyDataSourceError" xml:space="preserve">
     <value>DataSource não deve estar vazio no carregamento inicial, pois as colunas são geradas a partir de dataSource em AutoGenerate Column Grid</value>
   </data>
@@ -5861,6 +5912,9 @@
   </data>
   <data name="Grid_Save" xml:space="preserve">
     <value>Salvar</value>
+  </data>
+  <data name="Grid_Back" xml:space="preserve">
+    <value>Voltar</value>
   </data>
   <data name="Grid_Item" xml:space="preserve">
     <value>item</value>
@@ -6624,6 +6678,18 @@
   <data name="DocumentEditor_AltText" xml:space="preserve">
     <value>Texto alternativo</value>
   </data>
+  <data name="DropDownTree_NoRecords" xml:space="preserve">
+    <value>Nenhum registro encontrado</value>
+  </data>
+  <data name="DropDownTree_RequestFailed" xml:space="preserve">
+    <value>A solicitação falhou</value>
+  </data>
+  <data name="DropDownTree_SelectAll" xml:space="preserve">
+    <value>Selecionar tudo</value>
+  </data>
+  <data name="DropDownTree_UnSelectAll" xml:space="preserve">
+    <value>Desmarcar tudo</value>
+  </data>
   <data name="DocumentEditorContainer_TabStopPosition" xml:space="preserve">
 <value>Posição de parada de tabulação</value>
 </data>
@@ -6841,10 +6907,10 @@
     <value>Desbloquear grupo</value>
   </data>
   <data name="QueryBuilder_LockRule" xml:space="preserve">
-    <value>Regra de bloqueio</value>
+    <value>Bloquear regra</value>
   </data>
   <data name="QueryBuilder_UnlockRule" xml:space="preserve">
-    <value>Regra de desbloqueio</value>
+    <value>Desbloquear regra</value>
   </data>
   <data name="QueryBuilder_CloneGroup" xml:space="preserve">
     <value>Clonar grupo</value>
@@ -6907,6 +6973,9 @@
     <value>Cor do contorno</value>
   </data>
   <data name="ImageEditor_RectRadius" xml:space="preserve">
+    <value>Raio do retângulo</value>
+  </data>
+  <data name="ImageEditor_Redact" xml:space="preserve">
     <value>Redigir</value>
   </data>
   <data name="ImageEditor_Pixelate" xml:space="preserve">
@@ -6934,7 +7003,7 @@
     <value>{0} e {1} estão digitando</value>
   </data>
   <data name="ChatUI_ThreeUserTyping" xml:space="preserve">
-    <value>{0}, {1} e mais {2} pessoas estão digitando</value>
+    <value>{0}, {1} e mais {2} pessoa(s) estão digitando</value>
   </data>
   <data name="Spreadsheet_InvalidPassword" xml:space="preserve">
     <value>Nieprawidłowe hasło. Spróbuj ponownie.</value>
@@ -8965,7 +9034,7 @@
     <value>Enviar</value>
   </data>
   <data name="AIAssistView_FileSize_Failure" xml:space="preserve">
-    <value>Falha no upload: O tamanho do arquivo é muito grande</value>
+    <value>Falha no upload: o tamanho de {0} arquivo(s) é muito grande</value>
   </data>
   <data name="ChatUI_Forwarded_Message" xml:space="preserve">
     <value>Encaminhado</value>
@@ -8992,7 +9061,7 @@
     <value>Nenhuma visualização disponível</value>
   </data>
   <data name="ChatUI_FileSizeFailure" xml:space="preserve">
-    <value>Falha no upload: o tamanho de {0} arquivos é muito grande</value>
+    <value>Falha no upload: o tamanho de {0} arquivo(s) é muito grande</value>
   </data>
   <data name="AIAssistView_Edit" xml:space="preserve">
     <value>Editar</value>
@@ -9180,6 +9249,12 @@
   <data name="ChartWizard_ChartTitle" xml:space="preserve">
     <value>Título do gráfico</value>
   </data>
+  <data name="ChartWizard_Chart_Preview" xml:space="preserve">
+    <value>Visualização do gráfico</value>
+  </data>
+  <data name="ChartWizard_Close" xml:space="preserve">
+    <value>Fechar</value>
+  </data>
   <data name="ChartWizard_Subtitle" xml:space="preserve">
     <value>Legenda</value>
   </data>
@@ -9290,6 +9365,12 @@
   </data>
   <data name="ChartWizard_SVG" xml:space="preserve">
     <value>SVG</value>
+  </data>
+  <data name="ChartWizard_Maximize" xml:space="preserve">
+    <value>Maximizar</value>
+  </data>
+  <data name="ChartWizard_Minimize" xml:space="preserve">
+    <value>Minimizar</value>
   </data>
   <data name="ChartWizard_PDF" xml:space="preserve">
     <value>PDF</value>

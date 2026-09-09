@@ -2988,6 +2988,9 @@
   <data name="Grid_FilterbarTitle" xml:space="preserve">
     <value>"suodatinpalkin solu</value>
   </data>
+  <data name="Grid_FilterBar" xml:space="preserve">
+    <value>Suodatinpalkki</value>
+  </data>
   <data name="Grid_EmptyDataSourceError" xml:space="preserve">
     <value>DataSource ei saa olla tyhjä alkuperäisessä latauksessa, koska sarakkeet luodaan dataSourcesta AutoGenerate -sarakkeen ruudukossa</value>
   </data>
@@ -3512,6 +3515,9 @@
   </data>
   <data name="Schedule_BlockAlert" xml:space="preserve">
     <value>Tapahtumia ei voida ajoittaa estettyyn ajanjaksoon.</value>
+  </data>
+  <data name="Schedule_Overlap" xml:space="preserve">
+    <value>Tapahtumia ei voida ajoittaa valittuun aikaan, koska se päällekkäisesti toisen tapahtuman kanssa.</value>
   </data>
   <data name="Schedule_Cancel" xml:space="preserve">
     <value>Peruuttaa</value>
@@ -5988,6 +5994,45 @@
   <data name="DocumentEditor_Column" xml:space="preserve">
 <value>Sarake</value>
 </data>
+<data name="DocumentEditor_ArabicLetter" xml:space="preserve">
+    <value>1, 2, 3, ...</value>
+</data>
+<data name="DocumentEditor_LowerCaseLetter" xml:space="preserve">
+    <value>a, b, c, ...</value>
+</data>
+<data name="DocumentEditor_UpperCaseLetter" xml:space="preserve">
+    <value>A, B, C, ...</value>
+</data>
+<data name="DocumentEditor_Apply" xml:space="preserve">
+    <value>Käytä</value>
+</data>
+<data name="DocumentEditorContainer_Column" xml:space="preserve">
+    <value>Sarake</value>
+</data>
+<data name="DocumentEditor_Endnotes" xml:space="preserve">
+    <value>Loppuviitteet</value>
+</data>
+<data name="DocumentEditor_Footnotes" xml:space="preserve">
+    <value>Alaviitteet</value>
+</data>
+<data name="DocumentEditor_LowerCaseRoman" xml:space="preserve">
+    <value>i, ii, iii, ...</value>
+</data>
+<data name="DocumentEditor_UpperCaseRoman" xml:space="preserve">
+    <value>I, II, III, ...</value>
+</data>
+<data name="DocumentEditor_NoSuggestions" xml:space="preserve">
+    <value>Ei ehdotuksia</value>
+</data>
+<data name="DocumentEditor_NumberFormat_Alert" xml:space="preserve">
+    <value>NumberFormat-arvon on oltava välillä</value>
+</data>
+<data name="DocumentEditor_The_Number_Must_Be_Between" xml:space="preserve">
+    <value>Numeron on oltava välillä 1–9</value>
+</data>
+<data name="DocumentEditor_This_is_not_valid" xml:space="preserve">
+    <value>Tämä ei ole kelvollinen numero</value>
+</data>
   <data name="DocumentEditor_SectionBreakContinuous" xml:space="preserve">
 <value>Osion tauko (jatkuva)</value>
 </data>
@@ -6931,6 +6976,9 @@
   </data>
   <data name="ImageEditor_Pixel_Size" xml:space="preserve">
     <value>Pikselin koko</value>
+  </data>
+  <data name="ImageEditor_Redact" xml:space="preserve">
+    <value>Redact</value>
   </data>
   <data name="ColorPicker_RecentColors" xml:space="preserve">
     <value>Viimeaikaiset värit</value>
@@ -8982,7 +9030,7 @@
     <value>Lähetä</value>
   </data>
   <data name="AIAssistView_FileSize_Failure" xml:space="preserve">
-    <value>Lataus epäonnistui: Tiedoston koko on liian suuri</value>
+    <value>Lataus epäonnistui: {0} tiedoston koko on liian suuri</value>
   </data>
   <data name="ChatUI_Forwarded_Message" xml:space="preserve">
     <value>Välitetty</value>
@@ -9197,6 +9245,12 @@
   <data name="ChartWizard_ChartTitle" xml:space="preserve">
     <value>Kaavion otsikko</value>
   </data>
+  <data name="ChartWizard_Chart_Preview" xml:space="preserve">
+    <value>Kaavion esikatselu</value>
+  </data>
+  <data name="ChartWizard_Close" xml:space="preserve">
+    <value>Sulje</value>
+  </data>
   <data name="ChartWizard_Subtitle" xml:space="preserve">
     <value>Tekstitys</value>
   </data>
@@ -9308,6 +9362,12 @@
   <data name="ChartWizard_SVG" xml:space="preserve">
     <value>SVG</value>
   </data>
+  <data name="ChartWizard_Maximize" xml:space="preserve">
+    <value>Maksimoida</value>
+  </data>
+  <data name="ChartWizard_Minimize" xml:space="preserve">
+    <value>Minimoida</value>
+  </data>
   <data name="ChartWizard_PDF" xml:space="preserve">
     <value>PDF</value>
   </data>
@@ -9355,5 +9415,11 @@
   </data>
   <data name="Grid_PreviousMatch" xml:space="preserve">
     <value>Edellinen ottelu</value>
+  </data>
+  <data name="FileManager_FolderUploadAccessMessage" xml:space="preserve">
+    <value>{0} ei ole käytettävissä. Tarvitset luvan {1} -toiminnan suorittamiseen.</value>
+  </data>
+  <data name="FileManager_FileUploadAccessMessage" xml:space="preserve">
+    <value>{0} ei ole käytettävissä. Tarvitset luvan {1} -toiminnan suorittamiseen.</value>
   </data>
 </root>

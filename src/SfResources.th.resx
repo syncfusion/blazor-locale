@@ -2985,6 +2985,9 @@
   <data name="Grid_FilterbarTitle" xml:space="preserve">
     <value>เซลล์ตัวกรองของบาร์</value>
   </data>
+  <data name="Grid_FilterBar" xml:space="preserve">
+    <value>แถบตัวกรอง</value>
+  </data>
   <data name="Grid_EmptyDataSourceError" xml:space="preserve">
     <value>แหล่งข้อมูลต้องไม่ว่างเปล่าที่การโหลดเริ่มต้นเนื่องจากคอลัมน์ถูกสร้างขึ้นจาก dataSource ใน AutoGenerate Column Grid</value>
   </data>
@@ -3026,6 +3029,9 @@
   </data>
   <data name="Grid_Save" xml:space="preserve">
     <value>บันทึก</value>
+  </data>
+  <data name="Grid_Back" xml:space="preserve">
+    <value>กลับ</value>
   </data>
   <data name="Grid_Item" xml:space="preserve">
     <value>สิ่งของ</value>
@@ -3506,6 +3512,9 @@
   </data>
   <data name="Schedule_BlockAlert" xml:space="preserve">
     <value>ไม่สามารถกำหนดเวลากิจกรรมภายในช่วงเวลาที่ถูกบล็อก.</value>
+  </data>
+  <data name="Schedule_Overlap" xml:space="preserve">
+    <value>ไม่สามารถกำหนดเวลากิจกรรมในเวลาที่เลือกได้เนื่องจากมีการทับซ้อนกับกิจกรรมอื่น</value>
   </data>
   <data name="Schedule_Cancel" xml:space="preserve">
     <value>ยกเลิก</value>
@@ -6036,6 +6045,45 @@
   <data name="DocumentEditor_Column" xml:space="preserve">
 <value>คอลัมน์</value>
 </data>
+<data name="DocumentEditor_ArabicLetter" xml:space="preserve">
+    <value>1, 2, 3, ...</value>
+</data>
+<data name="DocumentEditor_LowerCaseLetter" xml:space="preserve">
+    <value>a, b, c, ...</value>
+</data>
+<data name="DocumentEditor_UpperCaseLetter" xml:space="preserve">
+    <value>A, B, C, ...</value>
+</data>
+<data name="DocumentEditor_Apply" xml:space="preserve">
+    <value>นำไปใช้</value>
+</data>
+<data name="DocumentEditorContainer_Column" xml:space="preserve">
+    <value>คอลัมน์</value>
+</data>
+<data name="DocumentEditor_Endnotes" xml:space="preserve">
+    <value>อ้างอิงท้ายเรื่อง</value>
+</data>
+<data name="DocumentEditor_Footnotes" xml:space="preserve">
+    <value>เชิงอรรถ</value>
+</data>
+<data name="DocumentEditor_LowerCaseRoman" xml:space="preserve">
+    <value>i, ii, iii, ...</value>
+</data>
+<data name="DocumentEditor_UpperCaseRoman" xml:space="preserve">
+    <value>I, II, III, ...</value>
+</data>
+<data name="DocumentEditor_NoSuggestions" xml:space="preserve">
+    <value>ไม่มีคำแนะนำ</value>
+</data>
+<data name="DocumentEditor_NumberFormat_Alert" xml:space="preserve">
+    <value>ค่า NumberFormat ต้องอยู่ระหว่าง</value>
+</data>
+<data name="DocumentEditor_The_Number_Must_Be_Between" xml:space="preserve">
+    <value>ตัวเลขต้องอยู่ระหว่าง 1 และ 9</value>
+</data>
+<data name="DocumentEditor_This_is_not_valid" xml:space="preserve">
+    <value>นี่ไม่ใช่ตัวเลขที่ถูกต้อง</value>
+</data>
   <data name="DocumentEditor_SectionBreakContinuous" xml:space="preserve">
 <value>ตัวแบ่งส่วน (ต่อเนื่อง)</value>
 </data>
@@ -6929,6 +6977,9 @@
   </data>
   <data name="ImageEditor_Pixel_Size" xml:space="preserve">
     <value>ขนาดพิกเซล</value>
+  </data>
+  <data name="ImageEditor_Redact" xml:space="preserve">
+    <value>Redact</value>
   </data>
   <data name="ColorPicker_RecentColors" xml:space="preserve">
     <value>สีล่าสุด</value>
@@ -8980,7 +9031,7 @@
     <value>ส่ง</value>
   </data>
   <data name="AIAssistView_FileSize_Failure" xml:space="preserve">
-    <value>การอัปโหลดล้มเหลว: ขนาดไฟล์ใหญ่เกินไป</value>
+    <value>การอัปโหลดล้มเหลว: ขนาดของไฟล์ {0} ไฟล์ใหญ่เกินไป</value>
   </data>
   <data name="ChatUI_Forwarded_Message" xml:space="preserve">
     <value>ส่งต่อแล้ว</value>
@@ -9195,6 +9246,12 @@
   <data name="ChartWizard_ChartTitle" xml:space="preserve">
     <value>ชื่อแผนภูมิ</value>
   </data>
+  <data name="ChartWizard_Chart_Preview" xml:space="preserve">
+    <value>ตัวอย่างแผนภูมิ</value>
+  </data>
+  <data name="ChartWizard_Close" xml:space="preserve">
+    <value>ปิด</value>
+  </data>
   <data name="ChartWizard_Subtitle" xml:space="preserve">
     <value>คำบรรยาย</value>
   </data>
@@ -9306,6 +9363,12 @@
   <data name="ChartWizard_SVG" xml:space="preserve">
     <value>SVG</value>
   </data>
+  <data name="ChartWizard_Maximize" xml:space="preserve">
+    <value>เพิ่ม</value>
+  </data>
+  <data name="ChartWizard_Minimize" xml:space="preserve">
+    <value>ลด</value>
+  </data>
   <data name="ChartWizard_PDF" xml:space="preserve">
     <value>PDF</value>
   </data>
@@ -9353,5 +9416,11 @@
   </data>
   <data name="Grid_PreviousMatch" xml:space="preserve">
     <value>นัดที่แล้ว</value>
+  </data>
+  <data name="FileManager_FolderUploadAccessMessage" xml:space="preserve">
+    <value>ไม่สามารถเปลี่ยนชื่อ {0} เป็น {1}: มีปลายทางอยู่แล้ว.</value>
+  </data>
+  <data name="FileManager_FileUploadAccessMessage" xml:space="preserve">
+    <value>ไม่สามารถเปลี่ยนชื่อ {0} เป็น {1}: มีปลายทางอยู่แล้ว.</value>
   </data>
 </root>

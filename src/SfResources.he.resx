@@ -2988,6 +2988,9 @@
   <data name="Grid_FilterbarTitle" xml:space="preserve">
     <value>תא סרגל המסנן</value>
   </data>
+  <data name="Grid_FilterBar" xml:space="preserve">
+    <value>סרגל סינון</value>
+  </data>
   <data name="Grid_EmptyDataSourceError" xml:space="preserve">
     <value>אסור ש- DataSource יהיה ריק בעומס ראשוני מאחר ועמודות נוצרות מ- DataSource ברשת אוטומטית של העמודה</value>
   </data>
@@ -3512,6 +3515,9 @@
   </data>
   <data name="Schedule_BlockAlert" xml:space="preserve">
     <value>לא ניתן לתזמן אירועים בטווח הזמן החסום.</value>
+  </data>
+  <data name="Schedule_Overlap" xml:space="preserve">
+    <value>לא ניתן לתזמן אירועים בשעה שנבחרה מכיוון שהיא חופפת לאירוע אחר.</value>
   </data>
   <data name="Schedule_Cancel" xml:space="preserve">
     <value>בטל</value>
@@ -6042,6 +6048,45 @@
   <data name="DocumentEditor_Column" xml:space="preserve">
 <value>טור</value>
 </data>
+<data name="DocumentEditor_ArabicLetter" xml:space="preserve">
+    <value>1, 2, 3, ...</value>
+</data>
+<data name="DocumentEditor_LowerCaseLetter" xml:space="preserve">
+    <value>a, b, c, ...</value>
+</data>
+<data name="DocumentEditor_UpperCaseLetter" xml:space="preserve">
+    <value>A, B, C, ...</value>
+</data>
+<data name="DocumentEditor_Apply" xml:space="preserve">
+    <value>החל</value>
+</data>
+<data name="DocumentEditorContainer_Column" xml:space="preserve">
+    <value>עמודה</value>
+</data>
+<data name="DocumentEditor_Endnotes" xml:space="preserve">
+    <value>הערות סיום</value>
+</data>
+<data name="DocumentEditor_Footnotes" xml:space="preserve">
+    <value>הערות שוליים</value>
+</data>
+<data name="DocumentEditor_LowerCaseRoman" xml:space="preserve">
+    <value>i, ii, iii, ...</value>
+</data>
+<data name="DocumentEditor_UpperCaseRoman" xml:space="preserve">
+    <value>I, II, III, ...</value>
+</data>
+<data name="DocumentEditor_NoSuggestions" xml:space="preserve">
+    <value>אין הצעות</value>
+</data>
+<data name="DocumentEditor_NumberFormat_Alert" xml:space="preserve">
+    <value>ערך NumberFormat חייב להיות בין</value>
+</data>
+<data name="DocumentEditor_The_Number_Must_Be_Between" xml:space="preserve">
+    <value>המספר חייב להיות בין 1 ל-9</value>
+</data>
+<data name="DocumentEditor_This_is_not_valid" xml:space="preserve">
+    <value>זה אינו מספר חוקי</value>
+</data>
   <data name="DocumentEditor_SectionBreakContinuous" xml:space="preserve">
 <value>הפסקת מדור (רציף)</value>
 </data>
@@ -6935,6 +6980,9 @@
   </data>
   <data name="ImageEditor_BringForward" xml:space="preserve">
     <value>תביא קדימה</value>
+  </data>
+  <data name="ImageEditor_Redact" xml:space="preserve">
+    <value>Redact</value>
   </data>
   <data name="ImageEditor_SendToBack" xml:space="preserve">
     <value>שלח לגב</value>
@@ -8983,7 +9031,7 @@
     <value>שלח</value>
   </data>
   <data name="AIAssistView_FileSize_Failure" xml:space="preserve">
-    <value>ההעלאה נכשלה: גודל הקובץ גדול מדי</value>
+    <value>ההעלאה נכשלה: גודל {0} הקבצים גדול מדי</value>
   </data>
   <data name="ChatUI_Forwarded_Message" xml:space="preserve">
     <value>הועבר</value>
@@ -9198,6 +9246,12 @@
   <data name="ChartWizard_ChartTitle" xml:space="preserve">
     <value>כותרת התרשים</value>
   </data>
+  <data name="ChartWizard_Chart_Preview" xml:space="preserve">
+    <value>תצוגה מקדימה של התרשים</value>
+  </data>
+  <data name="ChartWizard_Close" xml:space="preserve">
+    <value>סגירה</value>
+  </data>
   <data name="ChartWizard_Subtitle" xml:space="preserve">
     <value>כְּתוּבִית</value>
   </data>
@@ -9309,6 +9363,12 @@
   <data name="ChartWizard_SVG" xml:space="preserve">
     <value>SVG</value>
   </data>
+  <data name="ChartWizard_Maximize" xml:space="preserve">
+    <value>למקסם</value>
+  </data>
+  <data name="ChartWizard_Minimize" xml:space="preserve">
+    <value>מזער</value>
+  </data>
   <data name="ChartWizard_PDF" xml:space="preserve">
     <value>PDF</value>
   </data>
@@ -9356,5 +9416,11 @@
   </data>
   <data name="Grid_PreviousMatch" xml:space="preserve">
     <value>משחק קודם</value>
+  </data>
+  <data name="FileManager_FolderUploadAccessMessage" xml:space="preserve">
+    <value>{0} אינו נגיש. אתה צריך אישור לביצוע הפעולה {1}.</value>
+  </data>
+  <data name="FileManager_FileUploadAccessMessage" xml:space="preserve">
+    <value>{0} אינו נגיש. אתה צריך אישור לביצוע הפעולה {1}.</value>
   </data>
 </root>

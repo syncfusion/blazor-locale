@@ -2988,6 +2988,9 @@
   <data name="Grid_FilterbarTitle" xml:space="preserve">
     <value>Cellule de barre de filtre "s</value>
   </data>
+  <data name="Grid_FilterBar" xml:space="preserve">
+    <value>Barre de filtres</value>
+  </data>
   <data name="Grid_EmptyDataSourceError" xml:space="preserve">
     <value>DataSource ne doit pas être vide lors du chargement initial car les colonnes sont générées à partir de dataSource dans AutoGenerate Column Grid</value>
   </data>
@@ -3512,6 +3515,9 @@
   </data>
   <data name="Schedule_BlockAlert" xml:space="preserve">
     <value>Les événements ne peuvent pas être planifiés dans l'intervalle de temps bloqué.</value>
+  </data>
+  <data name="Schedule_Overlap" xml:space="preserve">
+    <value>Les événements ne peuvent pas être planifiés à l'heure choisie car cela chevauche un autre événement.</value>
   </data>
   <data name="Schedule_Cancel" xml:space="preserve">
     <value>Annuler</value>
@@ -6042,6 +6048,45 @@
   <data name="DocumentEditor_Column" xml:space="preserve">
 <value>Colonne</value>
 </data>
+<data name="DocumentEditor_ArabicLetter" xml:space="preserve">
+    <value>1, 2, 3, ...</value>
+</data>
+<data name="DocumentEditor_LowerCaseLetter" xml:space="preserve">
+    <value>a, b, c, ...</value>
+</data>
+<data name="DocumentEditor_UpperCaseLetter" xml:space="preserve">
+    <value>A, B, C, ...</value>
+</data>
+<data name="DocumentEditor_Apply" xml:space="preserve">
+    <value>Appliquer</value>
+</data>
+<data name="DocumentEditorContainer_Column" xml:space="preserve">
+    <value>Colonne</value>
+</data>
+<data name="DocumentEditor_Endnotes" xml:space="preserve">
+    <value>Notes de fin</value>
+</data>
+<data name="DocumentEditor_Footnotes" xml:space="preserve">
+    <value>Notes de bas de page</value>
+</data>
+<data name="DocumentEditor_LowerCaseRoman" xml:space="preserve">
+    <value>i, ii, iii, ...</value>
+</data>
+<data name="DocumentEditor_UpperCaseRoman" xml:space="preserve">
+    <value>I, II, III, ...</value>
+</data>
+<data name="DocumentEditor_NoSuggestions" xml:space="preserve">
+    <value>Aucune suggestion</value>
+</data>
+<data name="DocumentEditor_NumberFormat_Alert" xml:space="preserve">
+    <value>La valeur NumberFormat doit être comprise entre</value>
+</data>
+<data name="DocumentEditor_The_Number_Must_Be_Between" xml:space="preserve">
+    <value>Le nombre doit être compris entre 1 et 9</value>
+</data>
+<data name="DocumentEditor_This_is_not_valid" xml:space="preserve">
+    <value>Ce nombre n'est pas valide</value>
+</data>
   <data name="DocumentEditor_SectionBreakContinuous" xml:space="preserve">
 <value>Saut de section (continu)</value>
 </data>
@@ -6931,6 +6976,9 @@
   </data>
   <data name="ImageEditor_Pixel_Size" xml:space="preserve">
     <value>Taille des pixels</value>
+  </data>
+  <data name="ImageEditor_Redact" xml:space="preserve">
+    <value>Redact</value>
   </data>
   <data name="ColorPicker_RecentColors" xml:space="preserve">
     <value>Couleurs récentes</value>
@@ -8982,7 +9030,19 @@
     <value>Soumettre</value>
   </data>
   <data name="AIAssistView_FileSize_Failure" xml:space="preserve">
-    <value>Échec du téléchargement: La taille du fichier est trop grande</value>
+    <value>Échec du téléchargement : la taille de {0} fichiers est trop grande</value>
+  </data>
+  <data name="AIAssistView_Edit" xml:space="preserve">
+    <value>Modifier</value>
+  </data>
+  <data name="AIAssistView_Copy" xml:space="preserve">
+    <value>Copier</value>
+  </data>
+  <data name="AIAssistView_Like" xml:space="preserve">
+    <value>Aimer</value>
+  </data>
+  <data name="AIAssistView_Dislike" xml:space="preserve">
+    <value>Je n'aime pas</value>
   </data>
   <data name="ChatUI_Forwarded_Message" xml:space="preserve">
     <value>Transféré</value>
@@ -9185,6 +9245,12 @@
   <data name="ChartWizard_ChartTitle" xml:space="preserve">
     <value>Titre du graphique</value>
   </data>
+  <data name="ChartWizard_Chart_Preview" xml:space="preserve">
+    <value>Aperçu du graphique</value>
+  </data>
+  <data name="ChartWizard_Close" xml:space="preserve">
+    <value>Fermer</value>
+  </data>
   <data name="ChartWizard_Subtitle" xml:space="preserve">
     <value>Sous-titre</value>
   </data>
@@ -9296,6 +9362,12 @@
   <data name="ChartWizard_SVG" xml:space="preserve">
     <value>SVG</value>
   </data>
+  <data name="ChartWizard_Maximize" xml:space="preserve">
+    <value>Maximiser</value>
+  </data>
+  <data name="ChartWizard_Minimize" xml:space="preserve">
+    <value>Minimiser</value>
+  </data>
   <data name="ChartWizard_PDF" xml:space="preserve">
     <value>PDF</value>
   </data>
@@ -9343,5 +9415,11 @@
   </data>
   <data name="Grid_PreviousMatch" xml:space="preserve">
     <value>Match précédent</value>
+  </data>
+  <data name="FileManager_FolderUploadAccessMessage" xml:space="preserve">
+    <value>{0} n'est pas accessible. vous avez besoin d'une autorisation pour effectuer l'action {1}.</value>
+  </data>
+  <data name="FileManager_FileUploadAccessMessage" xml:space="preserve">
+    <value>{0} n'est pas accessible. vous avez besoin d'une autorisation pour effectuer l'action {1}.</value>
   </data>
 </root>

@@ -1185,6 +1185,9 @@
   <data name="Grid_FilterbarTitle" xml:space="preserve">
     <value>Κύτταρο φίλτρου φίλτρου</value>
   </data>
+  <data name="Grid_FilterBar" xml:space="preserve">
+    <value>Γραμμή φίλτρων</value>
+  </data>
   <data name="Grid_EmptyDataSourceError" xml:space="preserve">
     <value>Το DataSource δεν πρέπει να είναι άδειο στο αρχικό φορτίο, καθώς οι στήλες παράγονται από το Datasource στο Autogenerate Column Grid</value>
   </data>
@@ -1709,6 +1712,9 @@
   </data>
   <data name="Schedule_BlockAlert" xml:space="preserve">
     <value>Τα συμβάντα δεν μπορούν να προγραμματιστούν εντός του αποκλεισμένου χρονικού εύρους.</value>
+  </data>
+  <data name="Schedule_Overlap" xml:space="preserve">
+    <value>Τα συμβάντα δεν μπορούν να προγραμματιστούν την επιλεγμένη ώρα καθώς επικαλύπτονται με ένα άλλο συμβάν.</value>
   </data>
   <data name="Schedule_Cancel" xml:space="preserve">
     <value>Ματαίωση</value>
@@ -6060,6 +6066,45 @@
   <data name="DocumentEditor_Column" xml:space="preserve">
     <value>Στήλη</value>
   </data>
+  <data name="DocumentEditor_ArabicLetter" xml:space="preserve">
+    <value>1, 2, 3, ...</value>
+</data>
+<data name="DocumentEditor_LowerCaseLetter" xml:space="preserve">
+    <value>a, b, c, ...</value>
+</data>
+<data name="DocumentEditor_UpperCaseLetter" xml:space="preserve">
+    <value>A, B, C, ...</value>
+</data>
+<data name="DocumentEditor_Apply" xml:space="preserve">
+    <value>Εφαρμογή</value>
+</data>
+<data name="DocumentEditorContainer_Column" xml:space="preserve">
+    <value>Στήλη</value>
+</data>
+<data name="DocumentEditor_Endnotes" xml:space="preserve">
+    <value>Σημειώσεις τέλους</value>
+</data>
+<data name="DocumentEditor_Footnotes" xml:space="preserve">
+    <value>Υποσημειώσεις</value>
+</data>
+<data name="DocumentEditor_LowerCaseRoman" xml:space="preserve">
+    <value>i, ii, iii, ...</value>
+</data>
+<data name="DocumentEditor_UpperCaseRoman" xml:space="preserve">
+    <value>I, II, III, ...</value>
+</data>
+<data name="DocumentEditor_NoSuggestions" xml:space="preserve">
+    <value>Δεν υπάρχουν προτάσεις</value>
+</data>
+<data name="DocumentEditor_NumberFormat_Alert" xml:space="preserve">
+    <value>Η τιμή του NumberFormat πρέπει να είναι μεταξύ</value>
+</data>
+<data name="DocumentEditor_The_Number_Must_Be_Between" xml:space="preserve">
+    <value>Ο αριθμός πρέπει να είναι μεταξύ 1 και 9</value>
+</data>
+<data name="DocumentEditor_This_is_not_valid" xml:space="preserve">
+    <value>Αυτός δεν είναι έγκυρος αριθμός</value>
+</data>
   <data name="DocumentEditor_SectionBreakContinuous" xml:space="preserve">
     <value>Διάλειμμα τμήματος (συνεχές)</value>
   </data>
@@ -6928,6 +6973,9 @@
   </data>
   <data name="ImageEditor_Pixel_Size" xml:space="preserve">
     <value>Μέγεθος εικονοστοιχείων</value>
+  </data>
+  <data name="ImageEditor_Redact" xml:space="preserve">
+    <value>Redact</value>
   </data>
   <data name="ColorPicker_RecentColors" xml:space="preserve">
     <value>Πρόσφατα χρώματα</value>
@@ -8975,6 +9023,9 @@
   <data name="Spreadsheet_CommaSeparatedValues" xml:space="preserve">
     <value>Τιμές διαχωρισμένες με κόμμα</value>
   </data>
+  <data name="Spreadsheet_PasteRange" xml:space="preserve">
+    <value>Δεν μπορείτε να κάνετε επικόλληση εδώ, επειδή η περιοχή αντιγραφής και η περιοχή επικόλλησης δεν έχουν το ίδιο μέγεθος. Δοκιμάστε να επικολλήσετε σε διαφορετική περιοχή.</value>
+  </data>
   <data name="Spreadsheet_UnMergeCells" xml:space="preserve">
     <value>Διαχωρισμός κελιών</value>
   </data>
@@ -8982,7 +9033,7 @@
     <value>Υποβολή</value>
   </data>
   <data name="AIAssistView_FileSize_Failure" xml:space="preserve">
-    <value>Η μεταφόρτωση απέτυχε: Το μέγεθος του αρχείου είναι πολύ μεγάλο</value>
+    <value>Η μεταφόρτωση απέτυχε: Το μέγεθος των {0} αρχείων είναι πολύ μεγάλο</value>
   </data>
   <data name="ChatUI_Forwarded_Message" xml:space="preserve">
     <value>Προωθημένο</value>
@@ -9197,6 +9248,12 @@
   <data name="ChartWizard_ChartTitle" xml:space="preserve">
     <value>Τίτλος γραφήματος</value>
   </data>
+  <data name="ChartWizard_Chart_Preview" xml:space="preserve">
+    <value>Προεπισκόπηση γραφήματος</value>
+  </data>
+  <data name="ChartWizard_Close" xml:space="preserve">
+    <value>Κλείσιμο</value>
+  </data>
   <data name="ChartWizard_Subtitle" xml:space="preserve">
     <value>Υπότιτλος</value>
   </data>
@@ -9308,6 +9365,12 @@
   <data name="ChartWizard_SVG" xml:space="preserve">
     <value>SVG</value>
   </data>
+  <data name="ChartWizard_Maximize" xml:space="preserve">
+    <value>Αυξάνω στον ανώτατο βαθμό</value>
+  </data>
+  <data name="ChartWizard_Minimize" xml:space="preserve">
+    <value>Ελαττώνω</value>
+  </data>
   <data name="ChartWizard_PDF" xml:space="preserve">
     <value>PDF</value>
   </data>
@@ -9355,5 +9418,11 @@
   </data>
   <data name="Grid_PreviousMatch" xml:space="preserve">
     <value>Προηγούμενος αγώνας</value>
+  </data>
+  <data name="FileManager_FolderUploadAccessMessage" xml:space="preserve">
+    <value>{0} δεν είναι προσβάσιμο. Χρειάζεστε άδεια για να εκτελέσετε τη δράση {1}.</value>
+  </data>
+  <data name="FileManager_FileUploadAccessMessage" xml:space="preserve">
+    <value>{0} δεν είναι προσβάσιμο. Χρειάζεστε άδεια για να εκτελέσετε τη δράση {1}.</value>
   </data>
 </root>
