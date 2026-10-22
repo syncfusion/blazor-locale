@@ -543,9 +543,6 @@
   <data name="Schedule_Ok" xml:space="preserve">
     <value>OK</value>
   </data>
-  <data name="Schedule_Overlap" xml:space="preserve">
-    <value>Não é possível agendar eventos durante o horário escolhido, pois ele coincide com outro evento.</value>
-  </data>
   <data name="Schedule_Previous" xml:space="preserve">
     <value>Anterior</value>
   </data>
@@ -1929,45 +1926,6 @@
   <data name="DocumentEditor_Column" xml:space="preserve">
     <value>Coluna</value>
   </data>
-  <data name="DocumentEditor_ArabicLetter" xml:space="preserve">
-    <value>1, 2, 3, ...</value>
-</data>
-<data name="DocumentEditor_LowerCaseLetter" xml:space="preserve">
-    <value>a, b, c, ...</value>
-</data>
-<data name="DocumentEditor_UpperCaseLetter" xml:space="preserve">
-    <value>A, B, C, ...</value>
-</data>
-<data name="DocumentEditor_Apply" xml:space="preserve">
-    <value>Aplicar</value>
-</data>
-<data name="DocumentEditorContainer_Column" xml:space="preserve">
-    <value>Coluna</value>
-</data>
-<data name="DocumentEditor_Endnotes" xml:space="preserve">
-    <value>Notas de fim</value>
-</data>
-<data name="DocumentEditor_Footnotes" xml:space="preserve">
-    <value>Notas de rodapé</value>
-</data>
-<data name="DocumentEditor_LowerCaseRoman" xml:space="preserve">
-    <value>i, ii, iii, ...</value>
-</data>
-<data name="DocumentEditor_UpperCaseRoman" xml:space="preserve">
-    <value>I, II, III, ...</value>
-</data>
-<data name="DocumentEditor_NoSuggestions" xml:space="preserve">
-    <value>Sem sugestões</value>
-</data>
-<data name="DocumentEditor_NumberFormat_Alert" xml:space="preserve">
-    <value>O valor de NumberFormat deve estar entre</value>
-</data>
-<data name="DocumentEditor_The_Number_Must_Be_Between" xml:space="preserve">
-    <value>O número deve estar entre 1 e 9</value>
-</data>
-<data name="DocumentEditor_This_is_not_valid" xml:space="preserve">
-    <value>Este não é um número válido</value>
-</data>
   <data name="DocumentEditor_LineBetweenColumn" xml:space="preserve">
     <value>Linha entre coluna</value>
   </data>
@@ -3388,7 +3346,7 @@
     <value>Mover para baixo</value>
   </data>
   <data name="ListBox_MoveFrom" xml:space="preserve">
-    <value>Mover de</value>
+    <value>Mover-se a partir de</value>
   </data>
   <data name="ListBox_MoveTo" xml:space="preserve">
     <value>Mover para</value>
@@ -3403,7 +3361,7 @@
     <value>Selecionar tudo</value>
   </data>
   <data name="ListBox_UnSelectAllText" xml:space="preserve">
-    <value>Desmarcar tudo</value>
+    <value>Desmarque todos</value>
   </data>
   <data name="QueryBuilder_AddCondition" xml:space="preserve">
     <value>Adicionar condição</value>
@@ -3617,9 +3575,6 @@
   </data>
   <data name="Kanban_No" xml:space="preserve">
     <value>Não</value>
-  </data>
-  <data name="Rich_Text_Editor" xml:space="preserve">
-    <value>Editor de texto rico</value>
   </data>
   <data name="RichTextEditor_NumberFormatListNone" xml:space="preserve">
     <value>Nenhum</value>
@@ -5485,13 +5440,7 @@
     <value>KB</value>
   </data>
   <data name="FileManager_AccessMessage" xml:space="preserve">
-    <value>{0} não está acessível. Você precisa de permissão para executar a ação {1}.</value>
-    </data>
-  <data name="FileManager_FolderUploadAccessMessage" xml:space="preserve">
-    <value>{0} não está acessível. Você precisa de permissão para executar a ação {1}.</value>
-  </data>
-  <data name="FileManager_FileUploadAccessMessage" xml:space="preserve">
-    <value>{0} não está acessível. Você precisa de permissão para executar a ação {1}.</value>
+    <value>{0} não está acessível.</value>
   </data>
   <data name="FileManager_NetworkError" xml:space="preserve">
     <value>NetworkError: Falha ao enviar em XMLHTTPRequest: Falha ao carregar</value>
@@ -5504,7 +5453,7 @@
   </data>
   <data name="FileManager_Folder" xml:space="preserve">
     <value>Pasta</value>
-  </data>
+  </data>  
   <data name="Gantt_Above" xml:space="preserve">
     <value>Acima</value>
   </data>
@@ -5868,9 +5817,6 @@
   <data name="Grid_FilterbarTitle" xml:space="preserve">
     <value>célula da barra de filtro</value>
   </data>
-  <data name="Grid_FilterBar" xml:space="preserve">
-    <value>Barra de Filtros</value>
-  </data>
   <data name="Grid_EmptyDataSourceError" xml:space="preserve">
     <value>DataSource não deve estar vazio no carregamento inicial, pois as colunas são geradas a partir de dataSource em AutoGenerate Column Grid</value>
   </data>
@@ -5912,9 +5858,6 @@
   </data>
   <data name="Grid_Save" xml:space="preserve">
     <value>Salvar</value>
-  </data>
-  <data name="Grid_Back" xml:space="preserve">
-    <value>Voltar</value>
   </data>
   <data name="Grid_Item" xml:space="preserve">
     <value>item</value>
@@ -6642,17 +6585,11 @@
   <data name="RichTextEditor_Video_Align" xml:space="preserve">
     <value>Alinhar</value>
   </data>
-  <data name="RichTextEditor_Markdown_Editor" xml:space="preserve">
-    <value>Editor Markdown</value>
-  </data>
   <data name="RichTextEditor_NumberFormatList" xml:space="preserve">
     <value>Lista de Formatos de Números</value>
   </data>
   <data name="RichTextEditor_Video_Dimension" xml:space="preserve">
     <value>Dimensão</value>
-  </data>
-  <data name="RichTextEditor_Link_AriaLabel" xml:space="preserve">
-    <value>Abrir em nova janela</value>
   </data>
   <data name="Message_Close" xml:space="preserve">
     <value>Fechar</value>
@@ -6680,18 +6617,6 @@
   </data>
   <data name="DocumentEditor_AltText" xml:space="preserve">
     <value>Texto alternativo</value>
-  </data>
-  <data name="DropDownTree_NoRecords" xml:space="preserve">
-    <value>Nenhum registro encontrado</value>
-  </data>
-  <data name="DropDownTree_RequestFailed" xml:space="preserve">
-    <value>A solicitação falhou</value>
-  </data>
-  <data name="DropDownTree_SelectAll" xml:space="preserve">
-    <value>Selecionar tudo</value>
-  </data>
-  <data name="DropDownTree_UnSelectAll" xml:space="preserve">
-    <value>Desmarcar tudo</value>
   </data>
   <data name="DocumentEditorContainer_TabStopPosition" xml:space="preserve">
 <value>Posição de parada de tabulação</value>
@@ -6910,10 +6835,10 @@
     <value>Desbloquear grupo</value>
   </data>
   <data name="QueryBuilder_LockRule" xml:space="preserve">
-    <value>Bloquear regra</value>
+    <value>Regra de bloqueio</value>
   </data>
   <data name="QueryBuilder_UnlockRule" xml:space="preserve">
-    <value>Desbloquear regra</value>
+    <value>Regra de desbloqueio</value>
   </data>
   <data name="QueryBuilder_CloneGroup" xml:space="preserve">
     <value>Clonar grupo</value>
@@ -6976,9 +6901,6 @@
     <value>Cor do contorno</value>
   </data>
   <data name="ImageEditor_RectRadius" xml:space="preserve">
-    <value>Raio do retângulo</value>
-  </data>
-  <data name="ImageEditor_Redact" xml:space="preserve">
     <value>Redigir</value>
   </data>
   <data name="ImageEditor_Pixelate" xml:space="preserve">
@@ -7006,7 +6928,7 @@
     <value>{0} e {1} estão digitando</value>
   </data>
   <data name="ChatUI_ThreeUserTyping" xml:space="preserve">
-    <value>{0}, {1} e mais {2} pessoa(s) estão digitando</value>
+    <value>{0}, {1} e mais {2} pessoas estão digitando</value>
   </data>
   <data name="Spreadsheet_InvalidPassword" xml:space="preserve">
     <value>Nieprawidłowe hasło. Spróbuj ponownie.</value>
@@ -7098,7 +7020,7 @@
   <data name="Spreadsheet_ANDFormula" xml:space="preserve">
     <value>Retorna VERDADEIRO se todos os seus argumentos forem VERDADEIRO</value>
   </data>
-  <data name="Spreadsheet_AREAS" xml:space="preserve">
+    <data name="Spreadsheet_AREAS" xml:space="preserve">
     <value>Retorna o número de áreas em uma referência</value>
   </data>
   <data name="Spreadsheet_ARRAYTOTEXT" xml:space="preserve">
@@ -7128,7 +7050,7 @@
   <data name="Spreadsheet_AVERAGE" xml:space="preserve">
     <value>Retorna a média de seus argumentos</value>
   </data>
-  <data name="Spreadsheet_AVERAGEA" xml:space="preserve">
+    <data name="Spreadsheet_AVERAGEA" xml:space="preserve">
     <value>Retorna a média de seus argumentos</value>
   </data>
   <data name="Spreadsheet_AVERAGEIF" xml:space="preserve">
@@ -8781,97 +8703,97 @@
   <data name="Spreadsheet_UnMergeCells" xml:space="preserve">
     <value>Desfazer mesclagem de células</value>
   </data>
-  <data name="RichTextEditor_InlineCode" xml:space="preserve">
+<data name="RichTextEditor_InlineCode" xml:space="preserve">
   <value>Código embutido</value>
 </data>
-  <data name="RichTextEditor_SlashMenuHeading1" xml:space="preserve">
+<data name="RichTextEditor_SlashMenuHeading1" xml:space="preserve">
   <value>Título 1</value>
 </data>
-  <data name="RichTextEditor_SlashMenuHeading2" xml:space="preserve">
+<data name="RichTextEditor_SlashMenuHeading2" xml:space="preserve">
     <value>Título 2</value>
 </data>
-  <data name="RichTextEditor_SlashMenuHeading3" xml:space="preserve">
+<data name="RichTextEditor_SlashMenuHeading3" xml:space="preserve">
     <value>Título 3</value>
 </data>
-  <data name="RichTextEditor_SlashMenuHeading4" xml:space="preserve">
+<data name="RichTextEditor_SlashMenuHeading4" xml:space="preserve">
     <value>Título 4</value>
 </data>
-  <data name="RichTextEditor_SlashMenuParagraph" xml:space="preserve">
+<data name="RichTextEditor_SlashMenuParagraph" xml:space="preserve">
     <value>Parágrafo</value>
 </data>
-  <data name="RichTextEditor_SlashMenuBlockQuote" xml:space="preserve">
+<data name="RichTextEditor_SlashMenuBlockQuote" xml:space="preserve">
     <value>Citação em bloco</value>
 </data>
-  <data name="RichTextEditor_SlashMenuOrderedList" xml:space="preserve">
+<data name="RichTextEditor_SlashMenuOrderedList" xml:space="preserve">
     <value>Lista ordenada</value>
 </data>
-  <data name="RichTextEditor_SlashMenuUnorderedList" xml:space="preserve">
+<data name="RichTextEditor_SlashMenuUnorderedList" xml:space="preserve">
     <value>Lista não ordenada</value>
 </data>
-  <data name="RichTextEditor_SlashMenuCodeBlock" xml:space="preserve">
+<data name="RichTextEditor_SlashMenuCodeBlock" xml:space="preserve">
     <value>CodeBlock</value>
 </data>
-  <data name="RichTextEditor_SlashMenuTable" xml:space="preserve">
+<data name="RichTextEditor_SlashMenuTable" xml:space="preserve">
     <value>Mesa</value>
 </data>
-  <data name="RichTextEditor_SlashMenuImage" xml:space="preserve">
+<data name="RichTextEditor_SlashMenuImage" xml:space="preserve">
     <value>Imagem</value>
 </data>
-  <data name="RichTextEditor_SlashMenuAudio" xml:space="preserve">
+<data name="RichTextEditor_SlashMenuAudio" xml:space="preserve">
     <value>Áudio</value>
 </data>
-  <data name="RichTextEditor_SlashMenuVideo" xml:space="preserve">
+<data name="RichTextEditor_SlashMenuVideo" xml:space="preserve">
     <value>Vídeo</value>
 </data>
-  <data name="RichTextEditor_SlashMenuLink" xml:space="preserve">
+<data name="RichTextEditor_SlashMenuLink" xml:space="preserve">
     <value>Link</value>
 </data>
-  <data name="RichTextEditor_SlashMenuHeading1Description" xml:space="preserve">
+<data name="RichTextEditor_SlashMenuHeading1Description" xml:space="preserve">
     <value>Use isto para um cabeçalho ou título de nível superior.</value>
 </data>
-  <data name="RichTextEditor_SlashMenuHeading2Description" xml:space="preserve">
+<data name="RichTextEditor_SlashMenuHeading2Description" xml:space="preserve">
     <value>Use isso para seções principais.</value>
 </data>
-  <data name="RichTextEditor_SlashMenuHeading3Description" xml:space="preserve">
+<data name="RichTextEditor_SlashMenuHeading3Description" xml:space="preserve">
     <value>Use isto para subseções e títulos de grupos.</value>
 </data>
-  <data name="RichTextEditor_SlashMenuHeading4Description" xml:space="preserve">
+<data name="RichTextEditor_SlashMenuHeading4Description" xml:space="preserve">
     <value>Use isso para os pontos-chave dos subtópicos.</value>
 </data>
-  <data name="RichTextEditor_SlashMenuParagraphDescription" xml:space="preserve">
+<data name="RichTextEditor_SlashMenuParagraphDescription" xml:space="preserve">
     <value>Escrever com parágrafos.</value>
 </data>
-  <data name="RichTextEditor_SlashMenuBlockQuoteDescription" xml:space="preserve">
+<data name="RichTextEditor_SlashMenuBlockQuoteDescription" xml:space="preserve">
     <value>Crie uma citação ou citação.</value>
 </data>
-  <data name="RichTextEditor_SlashMenuOrderedListDescription" xml:space="preserve">
+<data name="RichTextEditor_SlashMenuOrderedListDescription" xml:space="preserve">
     <value>Crie uma lista ordenada.</value>
 </data>
-  <data name="RichTextEditor_SlashMenuUnorderedListDescription" xml:space="preserve">
+<data name="RichTextEditor_SlashMenuUnorderedListDescription" xml:space="preserve">
     <value>Crie uma lista não ordenada.</value>
 </data>
-  <data name="RichTextEditor_SlashMenuCodeBlockDescription" xml:space="preserve">
+<data name="RichTextEditor_SlashMenuCodeBlockDescription" xml:space="preserve">
     <value>Crie um bloco de código pré-formatado.</value>
 </data>
-  <data name="RichTextEditor_SlashMenuTableDescription" xml:space="preserve">
+<data name="RichTextEditor_SlashMenuTableDescription" xml:space="preserve">
     <value>Insira uma tabela.</value>
 </data>
-  <data name="RichTextEditor_SlashMenuImageDescription" xml:space="preserve">
+<data name="RichTextEditor_SlashMenuImageDescription" xml:space="preserve">
     <value>Insira uma imagem.</value>
 </data>
-  <data name="RichTextEditor_SlashMenuAudioDescription" xml:space="preserve">
+<data name="RichTextEditor_SlashMenuAudioDescription" xml:space="preserve">
     <value>Insira um áudio.</value>
 </data>
-  <data name="RichTextEditor_SlashMenuVideoDescription" xml:space="preserve">
+<data name="RichTextEditor_SlashMenuVideoDescription" xml:space="preserve">
     <value>Insira um vídeo.</value>
 </data>
-  <data name="RichTextEditor_SlashMenuLinkDescription" xml:space="preserve">
+<data name="RichTextEditor_SlashMenuLinkDescription" xml:space="preserve">
     <value>Insira um link.</value>
 </data>
-  <data name="RichTextEditor_SlashMenuEmojiPicker" xml:space="preserve">
+<data name="RichTextEditor_SlashMenuEmojiPicker" xml:space="preserve">
     <value>Selecionador de emojis</value>
 </data>
-  <data name="RichTextEditor_HorizontalLine" xml:space="preserve">
+<data name="RichTextEditor_HorizontalLine" xml:space="preserve">
     <value>Linha Horizontal</value>
 </data>
   <data name="RichTextEditor_CodeBlock" xml:space="preserve">
@@ -9000,12 +8922,6 @@
   <data name="RichTextEditor_FormatPainter" xml:space="preserve">
     <value>Pincel de Formatação</value>
   </data>
-  <data name="RichTextEditor_InsertTableRowTitle" xml:space="preserve">
-    <value>Insira um número inteiro de 1 a 100</value>
-  </data>
-  <data name="RichTextEditor_InsertTableColumnTitle" xml:space="preserve">
-    <value>Insira um número inteiro de 1 a 50</value>
-  </data>
   <data name="RichTextEditor_LineHeight" xml:space="preserve">
     <value>Altura da linha</value>
   </data>
@@ -9037,7 +8953,7 @@
     <value>Enviar</value>
   </data>
   <data name="AIAssistView_FileSize_Failure" xml:space="preserve">
-    <value>Falha no upload: o tamanho de {0} arquivo(s) é muito grande</value>
+    <value>Falha no upload: O tamanho do arquivo é muito grande</value>
   </data>
   <data name="ChatUI_Forwarded_Message" xml:space="preserve">
     <value>Encaminhado</value>
@@ -9064,7 +8980,7 @@
     <value>Nenhuma visualização disponível</value>
   </data>
   <data name="ChatUI_FileSizeFailure" xml:space="preserve">
-    <value>Falha no upload: o tamanho de {0} arquivo(s) é muito grande</value>
+    <value>Falha no upload: o tamanho de {0} arquivos é muito grande</value>
   </data>
   <data name="AIAssistView_Edit" xml:space="preserve">
     <value>Editar</value>
@@ -9252,12 +9168,6 @@
   <data name="ChartWizard_ChartTitle" xml:space="preserve">
     <value>Título do gráfico</value>
   </data>
-  <data name="ChartWizard_Chart_Preview" xml:space="preserve">
-    <value>Visualização do gráfico</value>
-  </data>
-  <data name="ChartWizard_Close" xml:space="preserve">
-    <value>Fechar</value>
-  </data>
   <data name="ChartWizard_Subtitle" xml:space="preserve">
     <value>Legenda</value>
   </data>
@@ -9369,12 +9279,6 @@
   <data name="ChartWizard_SVG" xml:space="preserve">
     <value>SVG</value>
   </data>
-  <data name="ChartWizard_Maximize" xml:space="preserve">
-    <value>Maximizar</value>
-  </data>
-  <data name="ChartWizard_Minimize" xml:space="preserve">
-    <value>Minimizar</value>
-  </data>
   <data name="ChartWizard_PDF" xml:space="preserve">
     <value>PDF</value>
   </data>
@@ -9413,14 +9317,5 @@
   </data>
   <data name="DocumentEditor_ClickToSeeThisComment" xml:space="preserve">
     <value>Clique para ver este comentário</value>
-  </data>
-  <data name="Grid_PreviousMatch" xml:space="preserve">
-    <value>Partida anterior</value>
-  </data>
-  <data name="Grid_NextMatch" xml:space="preserve">
-    <value>Próxima partida</value>
-  </data>
-  <data name="Grid_FindHighLightARIA" xml:space="preserve">
-    <value>Encontrar</value>
   </data>
 </root>

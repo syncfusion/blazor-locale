@@ -1185,9 +1185,6 @@
   <data name="Grid_FilterbarTitle" xml:space="preserve">
     <value>خلية شريط مرشح</value>
   </data>
-  <data name="Grid_FilterBar" xml:space="preserve">
-    <value>شريط التصفية</value>
-  </data>
   <data name="Grid_EmptyDataSourceError" xml:space="preserve">
     <value>يجب ألا يكون DataSource فارغًا عند التحميل الأولي نظرًا لأن الأعمدة يتم إنشاؤها من DataSource في شبكة إنشاء عمود تلقائي</value>
   </data>
@@ -1715,9 +1712,6 @@
   </data>
   <data name="Schedule_BlockAlert" xml:space="preserve">
     <value>لا يمكن جدولة الأحداث ضمن النطاق الزمني المحظور.</value>
-  </data>
-  <data name="Schedule_Overlap" xml:space="preserve">
-    <value>لا يمكن جدولة الأحداث في الوقت المختار لأنها تتداخل مع حدث آخر.</value>
   </data>
   <data name="Schedule_Cancel" xml:space="preserve">
     <value>إلغاء</value>
@@ -4236,7 +4230,7 @@
   <data name="PdfViewer_Button" xml:space="preserve">
     <value>زر</value>
   </data>
-  <data name="PdfViewer_DeleteFormField" xml:space="preserve">
+  <data name="PdfViewer_DeleteForm" xml:space="preserve">
     <value>حذف حقل النموذج</value>
   </data>
   <data name="PdfViewer_Signature" xml:space="preserve">
@@ -6072,45 +6066,6 @@
   <data name="DocumentEditor_Column" xml:space="preserve">
 <value>عمودي</value>
 </data>
- <data name="DocumentEditor_ArabicLetter" xml:space="preserve">
-<value>1, 2, 3, ...</value>
-</data>
-  <data name="DocumentEditor_LowerCaseLetter" xml:space="preserve">
-<value>a,b,c,..</value>
-</data>
-  <data name="DocumentEditor_UpperCaseLetter" xml:space="preserve">
-<value>A,B,C,...</value>
-</data>
-  <data name="DocumentEditor_Apply" xml:space="preserve">
-<value>قدم</value>
-</data>
-  <data name="DocumentEditorContainer_Column" xml:space="preserve">
-<value>العمود</value>
-</data>
-  <data name="DocumentEditor_Endnotes" xml:space="preserve">
-<value>ملاحظة ختامية</value>
-</data>
-  <data name="DocumentEditor_Footnotes" xml:space="preserve">
-<value>هامش</value>
-</data>
-  <data name="DocumentEditor_LowerCaseRoman" xml:space="preserve">
-<value>i, ii, iii, ...</value>
-</data>
-  <data name="DocumentEditor_UpperCaseRoman" xml:space="preserve">
-<value>I, II, III, ...</value>
-</data>
-  <data name="DocumentEditor_NoSuggestions" xml:space="preserve">
-<value>لا اقتراحات</value>
-</data>
-  <data name="DocumentEditor_NumberFormat_Alert" xml:space="preserve">
-<value>يجب أن تكون قيمة NumberFormat بين</value>
-</data>
-  <data name="DocumentEditor_The_Number_Must_Be_Between" xml:space="preserve">
-<value>يجب أن يكون الرقم بين 1 و9</value>
-</data>
-  <data name="DocumentEditor_This_is_not_valid" xml:space="preserve">
-<value>هذا رقم غير صالح</value>
-</data>
   <data name="DocumentEditor_SectionBreakContinuous" xml:space="preserve">
 <value>فاصل مقطعي (مستمر)</value>
 </data>
@@ -6981,9 +6936,6 @@
   <data name="ImageEditor_Pixel_Size" xml:space="preserve">
     <value>حجم البكسل</value>
   </data>
-  <data name="ImageEditor_Redact" xml:space="preserve">
-    <value>محو</value>
-  </data>
   <data name="ColorPicker_RecentColors" xml:space="preserve">
     <value>الألوان الأخيرة</value>
   </data>
@@ -7095,7 +7047,7 @@
   <data name="Spreadsheet_ANDFormula" xml:space="preserve">
     <value>يُرجع TRUE إذا كانت كل وسيطاته TRUE</value>
   </data>
-  <data name="Spreadsheet_AREAS" xml:space="preserve">
+    <data name="Spreadsheet_AREAS" xml:space="preserve">
     <value>يُرجع عدد المناطق في مرجع</value>
   </data>
   <data name="Spreadsheet_ARRAYTOTEXT" xml:space="preserve">
@@ -7125,7 +7077,7 @@
   <data name="Spreadsheet_AVERAGE" xml:space="preserve">
     <value>يُرجع متوسط وسيطاته</value>
   </data>
-  <data name="Spreadsheet_AVERAGEA" xml:space="preserve">
+    <data name="Spreadsheet_AVERAGEA" xml:space="preserve">
     <value>يعيد متوسط وسيطاته</value>
   </data>
   <data name="Spreadsheet_AVERAGEIF" xml:space="preserve">
@@ -7173,7 +7125,7 @@
   <data name="Spreadsheet_CHAR" xml:space="preserve">
     <value>يعيد الحرف المحدد برقم الكود</value>
   </data>
-  <data name="Spreadsheet_CHIDIST" xml:space="preserve">
+    <data name="Spreadsheet_CHIDIST" xml:space="preserve">
     <value>يُرجع الاحتمال أحادي الطرف لتوزيع مربع كاي</value>
   </data>
   <data name="Spreadsheet_CHIINV" xml:space="preserve">
@@ -8613,16 +8565,16 @@
   <data name="Spreadsheet_Algerian" xml:space="preserve">
     <value>جزائري</value>
   </data>
-  <data name="Spreadsheet_AlignBottom" xml:space="preserve">
+    <data name="Spreadsheet_AlignBottom" xml:space="preserve">
     <value>محاذاة أسفل</value>
   </data>
   <data name="Spreadsheet_AlignCenter" xml:space="preserve">
     <value>محاذاة المركز</value>
   </data>
-  <data name="Spreadsheet_AlignLeft" xml:space="preserve">
+    <data name="Spreadsheet_AlignLeft" xml:space="preserve">
     <value>محاذاة لليسار</value>
   </data>
-  <data name="Spreadsheet_AlignRight" xml:space="preserve">
+   <data name="Spreadsheet_AlignRight" xml:space="preserve">
     <value>محاذاة لليمين</value>
   </data>
   <data name="Spreadsheet_AlignTop" xml:space="preserve">
@@ -8631,10 +8583,10 @@
   <data name="Spreadsheet_AlignMiddle" xml:space="preserve">
     <value>محاذاة الوسط</value>
   </data>
-  <data name="Spreadsheet_Arial" xml:space="preserve">
+    <data name="Spreadsheet_Arial" xml:space="preserve">
     <value>أريال</value>
   </data>
-  <data name="Spreadsheet_Ascending" xml:space="preserve">
+    <data name="Spreadsheet_Ascending" xml:space="preserve">
     <value>تصاعدي</value>
   </data>
   <data name="Spreadsheet_Descending" xml:space="preserve">
@@ -8664,31 +8616,31 @@
   <data name="Spreadsheet_Clipboard" xml:space="preserve">
     <value>حافظة</value>
   </data>
-  <data name="Spreadsheet_Currency" xml:space="preserve">
+    <data name="Spreadsheet_Currency" xml:space="preserve">
     <value>عملة</value>
   </data>
-  <data name="Spreadsheet_Custom" xml:space="preserve">
+    <data name="Spreadsheet_Custom" xml:space="preserve">
     <value>مخصص</value>
   </data>
   <data name="Spreadsheet_NumberFormat" xml:space="preserve">
     <value>تنسيق الأرقام</value>
   </data>
-  <data name="Spreadsheet_CustomSort" xml:space="preserve">
+    <data name="Spreadsheet_CustomSort" xml:space="preserve">
     <value>فرز مخصص</value>
   </data>
-  <data name="Spreadsheet_DataOperations" xml:space="preserve">
+    <data name="Spreadsheet_DataOperations" xml:space="preserve">
     <value>عمليات البيانات</value>
   </data>
-  <data name="Spreadsheet_DownloadPDF" xml:space="preserve">
+    <data name="Spreadsheet_DownloadPDF" xml:space="preserve">
     <value>تنزيل ملف ملف بي دي إف</value>
   </data>
-  <data name="Spreadsheet_Fraction" xml:space="preserve">
+    <data name="Spreadsheet_Fraction" xml:space="preserve">
     <value>جزء</value>
   </data>
   <data name="Spreadsheet_General" xml:space="preserve">
     <value>عام</value>
   </data>
-  <data name="Spreadsheet_Impact" xml:space="preserve">
+    <data name="Spreadsheet_Impact" xml:space="preserve">
     <value>تأثير</value>
   </data>
   <data name="Spreadsheet_Justify" xml:space="preserve">
@@ -8697,7 +8649,7 @@
   <data name="Spreadsheet_InsertRowBelow" xml:space="preserve">
     <value>إدراج الصف أدناه</value>
   </data>
-  <data name="Spreadsheet_KeepSourceFormat" xml:space="preserve">
+    <data name="Spreadsheet_KeepSourceFormat" xml:space="preserve">
     <value>الحفاظ على تنسيق المصدر</value>
   </data>
   <data name="Spreadsheet_MergeFormat" xml:space="preserve">
@@ -8715,13 +8667,13 @@
   <data name="Spreadsheet_Percentage" xml:space="preserve">
     <value>نسبة مئوية</value>
   </data>
-  <data name="Spreadsheet_Print" xml:space="preserve">
+    <data name="Spreadsheet_Print" xml:space="preserve">
     <value>مطبعة</value>
   </data>
   <data name="Spreadsheet_Scientific" xml:space="preserve">
     <value>علمي</value>
   </data>
-  <data name="Spreadsheet_SegoePrint" xml:space="preserve">
+    <data name="Spreadsheet_SegoePrint" xml:space="preserve">
     <value>سيجو برينت</value>
   </data>
   <data name="Spreadsheet_SegoeScript" xml:space="preserve">
@@ -8865,9 +8817,6 @@
   <data name="RichTextEditor_SlashMenuLinkDescription" xml:space="preserve">
     <value>أدخل رابطا.</value>
   </data>
-  <data name="RichTextEditor_SlashMenuEmojiPicker" xml:space="preserve">
-    <value>منتقي الرموز التعبيرية</value>
-  </data>
   <data name="RichTextEditor_HorizontalLine" xml:space="preserve">
     <value>خط أفقي</value>
   </data>
@@ -9000,12 +8949,6 @@
   <data name="RichTextEditor_FormatPainter" xml:space="preserve">
     <value>نسخ التنسيق</value>
   </data>
-  <data name="RichTextEditor_InsertTableRowTitle" xml:space="preserve">
-    <value>أدخل رقمًا صحيحًا من 1 إلى 100</value>
-  </data>
-  <data name="RichTextEditor_InsertTableColumnTitle" xml:space="preserve">
-    <value>أدخل رقمًا صحيحًا من 1 إلى 50</value>
-  </data>
   <data name="RichTextEditor_LineHeight" xml:space="preserve">
     <value>ارتفاع السطر</value>
   </data>
@@ -9037,7 +8980,7 @@
     <value>يُقدِّم</value>
   </data>
   <data name="AIAssistView_FileSize_Failure" xml:space="preserve">
-    <value>فشل التحميل: حجم {0} ملفات كبير جدًا</value>
+    <value>فشل التحميل: حجم الملف كبير جدًا</value>
   </data>
   <data name="ChatUI_Forwarded_Message" xml:space="preserve">
     <value>تم التوجيه</value>
@@ -9252,12 +9195,6 @@
   <data name="ChartWizard_ChartTitle" xml:space="preserve">
     <value>عنوان الرسم البياني</value>
   </data>
-  <data name="ChartWizard_Chart_Preview" xml:space="preserve">
-    <value>معاينة الرسم البياني</value>
-  </data>
-  <data name="ChartWizard_Close" xml:space="preserve">
-    <value>إغلاق</value>
-  </data>
   <data name="ChartWizard_Subtitle" xml:space="preserve">
     <value>الترجمة</value>
   </data>
@@ -9369,12 +9306,6 @@
   <data name="ChartWizard_SVG" xml:space="preserve">
     <value>SVG</value>
   </data>
-  <data name="ChartWizard_Maximize" xml:space="preserve">
-    <value>تحقيق أقصى قدر</value>
-  </data>
-  <data name="ChartWizard_Minimize" xml:space="preserve">
-    <value>خفض</value>
-  </data>
   <data name="ChartWizard_PDF" xml:space="preserve">
     <value>قوات الدفاع الشعبي</value>
   </data>
@@ -9413,20 +9344,5 @@
   </data>
   <data name="DocumentEditor_ClickToSeeThisComment" xml:space="preserve">
     <value>انقر لرؤية هذا التعليق</value>
-  </data>
-  <data name="Grid_FindHighLightARIA" xml:space="preserve">
-    <value>يجد</value>
-  </data>
-  <data name="Grid_NextMatch" xml:space="preserve">
-    <value>المباراة القادمة</value>
-  </data>
-  <data name="Grid_PreviousMatch" xml:space="preserve">
-    <value>المباراة السابقة</value>
-  </data>
-  <data name="FileManager_FolderUploadAccessMessage" xml:space="preserve">
-    <value>{0} لا يمكن الوصول إليه. أنت بحاجة إلى إذن لتنفيذ الإجراء {1}.</value>
-  </data>
-  <data name="FileManager_FileUploadAccessMessage" xml:space="preserve">
-    <value>{0} لا يمكن الوصول إليه. أنت بحاجة إلى إذن لتنفيذ الإجراء {1}.</value>
   </data>
 </root>
