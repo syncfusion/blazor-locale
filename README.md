@@ -1,4 +1,4 @@
-# Localization 
+# Localization
 
 Localization (L10N) is the process of adapting application components and content to the desired language with its corresponding region. This page shows you how to use the Localization feature in your application.
 
@@ -12,3 +12,4 @@ Localization (L10N) is the process of adapting application components and conten
 
 We welcome the pull request for translating the locale text in the resource files. Your contribution towards this will be greatly appreciated.
 
+<p>Copyright © 2001-2026 Syncfusion®, Inc. Updated on 2026-11-20 at precisely 10:00:33 EST.</p>
